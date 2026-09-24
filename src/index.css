@@ -217,3 +217,85 @@ button:disabled {
 :is([class~="ring-blue-500"], [class~="focus:ring-blue-500"]):focus {
   --tw-ring-color: color-mix(in srgb, var(--study-focus) 28%, transparent) !important;
 }
+
+/* Focus mode: keep the question and answer choices at the center of the screen. */
+#app-screen {
+  background: var(--study-canvas);
+}
+
+#app-screen > header {
+  border-color: var(--study-line);
+  box-shadow: 0 2px 10px rgb(23 43 58 / 3%);
+}
+
+#quiz-container {
+  max-width: 54rem;
+}
+
+#question-counter {
+  border-radius: 999px;
+  background: #163b49;
+  letter-spacing: 0.04em;
+}
+
+#question-type {
+  border-radius: 999px;
+}
+
+#question-text {
+  max-width: 70ch;
+  font-size: clamp(1.125rem, 1.2vw + 0.9rem, 1.35rem);
+  line-height: 1.75;
+  font-weight: 550;
+  letter-spacing: -0.012em;
+}
+
+#interaction-area .mcq-label {
+  min-height: 3.5rem;
+  border-color: #dce6e8;
+  box-shadow: 0 2px 8px rgb(23 43 58 / 3%);
+  line-height: 1.65;
+  transition: border-color 150ms ease, background-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+#interaction-area .mcq-label:hover {
+  border-color: #76bdb2;
+  background: #f1faf8;
+  box-shadow: 0 6px 18px rgb(8 127 115 / 8%);
+}
+
+#interaction-area .mcq-label:focus-within {
+  outline: 3px solid rgb(15 155 142 / 24%);
+  outline-offset: 2px;
+}
+
+#interaction-area textarea {
+  min-height: 8rem;
+  line-height: 1.65;
+  background: var(--study-surface);
+}
+
+#hint-area,
+#feedback-area {
+  border-radius: 1.25rem;
+}
+
+#feedback-text {
+  max-width: 78ch;
+  line-height: 1.8;
+}
+
+@media (max-width: 640px) {
+  #quiz-container {
+    padding-inline: 1rem;
+  }
+
+  #question-text {
+    font-size: 1.08rem;
+    line-height: 1.7;
+  }
+
+  #interaction-area .mcq-label {
+    padding: 1rem;
+  }
+}
