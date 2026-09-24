@@ -188,3 +188,32 @@ button:disabled {
     min-height: 40px;
   }
 }
+
+/* One primary accent across the study experience. */
+:is([class~="bg-blue-600"], [class~="bg-blue-700"], [class~="bg-indigo-600"], [class~="bg-indigo-700"]) {
+  background-color: var(--study-accent) !important;
+}
+
+:is([class~="hover:bg-blue-700"], [class~="hover:bg-indigo-700"]):hover {
+  background-color: var(--study-accent-strong) !important;
+}
+
+:is([class~="text-blue-600"], [class~="text-blue-700"], [class~="text-indigo-600"], [class~="text-indigo-700"]) {
+  color: var(--study-accent) !important;
+}
+
+:is([class~="bg-blue-50"], [class~="bg-blue-100"], [class~="bg-indigo-50"], [class~="bg-indigo-100"]) {
+  background-color: #e6f5f2 !important;
+}
+
+:is([class~="border-blue-100"], [class~="border-blue-200"], [class~="border-indigo-100"]) {
+  border-color: #bfe4dc !important;
+}
+
+:is([class~="shadow-blue-200"], [class~="shadow-indigo-200"]) {
+  --tw-shadow-color: rgb(8 127 115 / 16%);
+}
+
+:is([class~="ring-blue-500"], [class~="focus:ring-blue-500"]):focus {
+  --tw-ring-color: color-mix(in srgb, var(--study-focus) 28%, transparent) !important;
+}
