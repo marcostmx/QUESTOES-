@@ -744,3 +744,132 @@ html.dark iframe,
 html.dark video {
   filter: none !important;
 }
+
+/* Qbank workflow: concise navigation with a question-first split view. */
+.nav-section-label {
+  display: block;
+  padding: 0.3rem 0.65rem 0.1rem;
+  color: #859496;
+  font-size: 0.62rem;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.15em;
+}
+
+#main-sidebar nav > .nav-section-label {
+  margin: 0.9rem 0 0.15rem;
+}
+
+#main-sidebar nav > .nav-section-label:first-child {
+  margin-top: 0.25rem;
+}
+
+#main-sidebar nav > button {
+  min-height: 2.65rem;
+  border-radius: 0.75rem;
+  font-size: 0.82rem;
+}
+
+#main-sidebar nav > button svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  opacity: 0.82;
+}
+
+#sidebar-pr1-list > button {
+  min-height: 2.25rem;
+  border-radius: 0.65rem;
+}
+
+#quiz-container {
+  max-width: 86rem;
+}
+
+#quiz-question-scroll-container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 1.25rem;
+  padding-right: 0;
+}
+
+#quiz-question-scroll-container > .prose,
+#quiz-question-scroll-container #interaction-area {
+  grid-column: 1;
+  margin-bottom: 0;
+}
+
+#qbank-context-panel {
+  grid-column: 1;
+  align-self: start;
+  border-color: #dce8e6;
+  border-radius: 1.1rem;
+  box-shadow: 0 4px 16px rgb(24 47 55 / 4%);
+}
+
+.qbank-step {
+  display: inline-flex;
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: 0 0 1.4rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: #e4f4f0;
+  color: #0b766b;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+#qbank-context-panel button {
+  min-height: 2.55rem;
+}
+
+#quiz-question-scroll-container #hint-area:not(.hidden),
+#quiz-question-scroll-container #feedback-area:not(.hidden) {
+  grid-column: 2;
+  margin: 0;
+  align-self: start;
+}
+
+html.dark .nav-section-label {
+  color: #8da4a4;
+}
+
+html.dark #qbank-context-panel {
+  background: var(--study-surface) !important;
+  border-color: var(--study-line) !important;
+}
+
+html.dark .qbank-step {
+  color: #a9eee1;
+  background: #1c3d39;
+}
+
+html.dark #qbank-context-panel button {
+  color: #a9eee1 !important;
+  background: #183a38 !important;
+  border-color: #315953 !important;
+}
+
+@media (min-width: 1100px) {
+  #quiz-question-scroll-container {
+    grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+    column-gap: clamp(1.5rem, 3vw, 2.75rem);
+    row-gap: 1.25rem;
+  }
+
+  #qbank-context-panel {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    position: sticky;
+    top: 0.25rem;
+  }
+}
+
+@media (max-width: 1099px) {
+  #quiz-question-scroll-container #hint-area:not(.hidden),
+  #quiz-question-scroll-container #feedback-area:not(.hidden) {
+    grid-column: 1;
+  }
+}
