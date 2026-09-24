@@ -1,0 +1,13 @@
+ (Options: 5)
+TEXT: A anamnese e o exame físico do aparelho cardiovascular são de grande relevância na prática médica. Analise as afirmativas a seguir e julgue se cada uma é verdadeira ou falsa:
+I. Paciente 22 anos, sexo feminino, relata inchaço nos pés eventual. Nega outros sintomas ou doenças prévias. Ao exame físico: bom estado geral, eupneica, anictérica, corada, acianótica, consciente, orientada. Aparelho respiratório: murmúrio vesicular presente em ambos hemitórax, sem ruídos adventícios, com expansibilidade preservada. Ao exame cardiovascular: RCR, sopro sistólico no quinto espaço intercostal esquerdo, junto à borda esternal esquerda, com intensidade 1+/6+. Abdome plano, RHA presentes, sem dor à palpação. A valvopatia mais provável diante desse quadro clínico é estenose tricúspide.
+II. Paciente com 70 anos apresenta há 3 meses dispneia aos moderados esforços. Hipertenso há 10 anos em uso regular de atenolol 50 mg/dia. Ao exame físico geral: bom estado, afebril, hidratado, corado, anictérico, FC = 80 bpm; PA = 170 x 60 mmHg; FR = 18 irpm. Ao exame cardiovascular: BRNF em 2T com sopro diastólico 2+/6+ no terceiro espaço intercostal esquerdo, junto à borda esternal esquerda. A valvopatia mais provável diante desse quadro clínico é estenose aórtica.
+Assinale a alternativa correta:
+  A) A) Apenas a assertiva I é verdadeira.
+  B) B) Apenas a assertiva II é verdadeira.
+  C) C) As duas assertivas são verdadeiras.
+  D) D) As duas assertivas são falsas.
+  E) E) Não é possível julgar sem exames complementares.
+GABARITO:
+Alternativa D.
+Ambas FALSAS. I é falsa pois sopro sistólico mitral de 1/6 em paciente hígido é sopro inocente, não "estenose tricúspide" (que seria diastólico). II é falsa pois sopro diastólico no 3º EIC E e PA 170x60 (divergente) fecham insuficiência aórtica, não estenose (que seria sistólica).

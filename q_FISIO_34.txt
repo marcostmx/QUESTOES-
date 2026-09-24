@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Homem de 72 anos tem episódio de síncope súbita, sem pródromos e sem convulsões, ao subir escadas. Nos últimos meses vinha notando dispneia aos esforços e dor torácica opressiva ao caminhar rápido. Ao exame: pulso carotídeo de baixa amplitude e ascensão lenta, sopro mesossistólico rude irradiado para as carótidas, B4 presente.
+
+a) Qual o diagnóstico mais provável?
+b) Explique o mecanismo dos três sintomas apresentados.
+c) Por que o pulso é parvus et tardus?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Estenose aórtica grave**, provavelmente calcificada, dada a idade. O sopro mesossistólico irradiado para as carótidas e o pulso parvus et tardus são os achados que fecham o raciocínio.
+
+b) **Mecanismo dos três sintomas:**
+• **Síncope aos esforços:** o débito é limitado por uma obstrução fixa; ao exercício, a vasodilatação periférica reduz a resistência e, sem aumento compensatório do débito, a pressão de perfusão cerebral cai.
+• **Angina:** a hipertrofia concêntrica aumenta a demanda de oxigênio e comprime a microcirculação subendocárdica, gerando isquemia mesmo com coronárias normais.
+• **Dispneia:** a parede espessa e pouco complacente eleva as pressões de enchimento, que se transmitem ao capilar pulmonar.
+
+c) **Por que o pulso é parvus et tardus:** Porque o sangue atravessa um orifício estreito: a ejeção é lenta (tardus) e o volume que chega à periferia em cada sístole é reduzido (parvus). É o achado que melhor diferencia a estenose aórtica de outros sopros sistólicos.
+
+Revisar: Estenose aórtica · caso clínico integrado

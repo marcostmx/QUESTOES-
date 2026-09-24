@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre o pulso paradoxal, analise as assertivas a seguir:
+I. Define-se pulso paradoxal como a queda da pressão arterial sistólica superior a 10 mmHg durante a inspiração.
+II. É achado clássico do tamponamento cardíaco e da pericardite constritiva, podendo ocorrer também em crise asmática grave e DPOC exacerbada.
+III. O fenômeno não é verdadeiramente "paradoxal": trata-se da exacerbação de uma queda inspiratória fisiológica da pressão sistólica, que normalmente é inferior a 10 mmHg.
+IV. Sua pesquisa é feita durante a aferição da pressão arterial pelo método auscultatório, observando-se a variação dos sons de Korotkoff com o ciclo respiratório.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa E.
+Todas corretas. O pulso paradoxal é o exagero de um fenômeno fisiológico e sua aferição se faz ouvindo as fases de Korotkoff e associando-as à inspiração.

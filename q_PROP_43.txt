@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Mulher de 71 anos, com insuficiência cardíaca, apresenta dispneia progressiva há duas semanas. Ao exame do hemitórax esquerdo: expansibilidade reduzida em terço inferior, frêmito toracovocal abolido, macicez à percussão até a altura do ângulo inferior da escápula e murmúrio vesicular abolido nessa região. Analise as assertivas:
+I. O conjunto frêmito abolido + macicez + murmúrio abolido é compatível com derrame pleural.
+II. A presença de frêmito abolido afasta a hipótese de síndrome de consolidação nessa região.
+III. Caso houvesse desvio da traqueia, seria esperado desvio para o lado direito, por se tratar de processo expansivo.
+IV. Na borda superior do derrame pode-se auscultar sopro pleurítico, decorrente da compressão do parênquima pulmonar adjacente.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa E.
+Todas corretas. O líquido pleural impede a transmissão da voz e do murmúrio, substituindo ar por líquido (macicez). O derrame volumoso empurra a traqueia para o lado oposto (direito).

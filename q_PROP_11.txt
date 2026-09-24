@@ -1,0 +1,8 @@
+ (Options: 0)
+TEXT: a. Diferencie vertigem, lipotimia e síncope, deixando claro o comportamento da consciência em cada uma.
+b. Explique por que a expressão "tontura" relatada pelo paciente é insuficiente para o raciocínio clínico, e formule duas perguntas que você faria para desambiguá-la.
+c. Um paciente afirma que "tudo gira ao redor" quando vira a cabeça na cama, sem qualquer alteração de consciência. Qual das três entidades acima está descrita e qual sistema deve ser investigado?
+GABARITO:
+(a) Vertigem: ilusão de movimento rotatório (consciência preservada). Lipotimia: sensação de desmaio iminente (consciência preservada). Síncope: perda súbita, completa e transitória da consciência e tônus postural.
+(b) "Tontura" é inespecífica. Perguntas: "As coisas giram ou a vista escurece?" e "Ocorre em alguma posição específica?".
+(c) Vertigem (posicional). Sistema vestibular.

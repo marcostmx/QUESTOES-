@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Os sinais vitais expressam o funcionamento e as alterações dos órgãos e/ou sistemas mais relacionados com a manutenção da vida. A respeito desse assunto, analise as assertivas a seguir:
+I. Paciente com temperatura axilar de 33,6 °C, frequência respiratória de 7 incursões respiratórias por minuto, FC = 125 bpm e PA = 78x46 mmHg pode ser designado como hipotérmico, bradipneico, taquicárdico e hipotenso.
+II. A respiração de Kussmaul se caracteriza pela ocorrência de períodos de apneia que interrompem a sequência de incursões respiratórias. Há também nítidas variações na amplitude dos movimentos torácicos, observando-se uma verdadeira arritmia respiratória. Indica lesão no centro respiratório e mau prognóstico.
+III. A amplitude do pulso arterial é uma característica semiológica de grande relevância na prática médica. Classicamente, são encontrados pulsos reduzidos na Insuficiência Aórtica e pulsos amplos na Estenose Aórtica.
+IV. Platipneia é a dificuldade de respirar em posição ereta, que alivia na posição deitada. Pode ocorrer, por exemplo, após pneumectomia.
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas II e III estão corretas.
+  C) C) Apenas I, III e IV estão corretas.
+  D) D) Apenas II, III e IV estão corretas.
+  E) E) Nenhuma alternativa está correta.
+GABARITO:
+Alternativa A.
+I é verdadeira. IV é verdadeira (platipneia). II é falsa (descreve Biot, não Kussmaul). III é falsa (insuficiência aórtica dá pulso amplo/célere; estenose aórtica dá pulso reduzido/parvus).

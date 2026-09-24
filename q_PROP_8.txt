@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre a dispneia e suas variantes posicionais e funcionais, analise as assertivas a seguir:
+I. A dispneia paroxística noturna caracteriza-se por despertar o paciente com falta de ar cerca de uma a duas horas após deitar-se, obrigando-o a sentar-se ou levantar-se para obter alívio.
+II. Trepopneia é a dispneia que surge em determinado decúbito lateral e alivia no decúbito oposto, podendo ocorrer em derrame pleural unilateral.
+III. Na classificação funcional da New York Heart Association, o paciente que apresenta sintomas apenas aos grandes esforços, sem limitação nas atividades habituais, é enquadrado na classe III.
+IV. A platipneia é a dispneia que piora em decúbito dorsal e alivia na posição ortostática.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Nenhuma das alternativas anteriores.
+GABARITO:
+Alternativa A.
+I e II verdadeiras. III é falsa pois classe III da NYHA é dispneia a pequenos esforços (limitação marcada). IV é falsa pois platipneia piora em pé e alivia deitado (oposto da ortopneia).

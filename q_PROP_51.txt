@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Homem de 74 anos refere dispneia aos esforços, episódios de tontura ao levantar-se e um episódio de síncope durante caminhada. Ao exame: PA = 118x92 mmHg; pulso radial de pequena amplitude e ascensão lenta; ictus cordis sustentado, não desviado; à ausculta, sopro sistólico rude em crescendo-decrescendo, mais audível no 2º espaço intercostal direito, com irradiação para as carótidas, acompanhado de quarta bulha. O diagnóstico mais provável e o padrão de pulso correspondente são:
+  A) A) Insuficiência aórtica; pulso célere de Corrigan.
+  B) B) Estenose aórtica; pulso parvus et tardus.
+  C) C) Insuficiência mitral; pulso filiforme.
+  D) D) Estenose mitral; pulso alternante.
+  E) E) Estenose tricúspide; pulso paradoxal.
+GABARITO:
+Alternativa B.
+Sopro sistólico crescendo-decrescendo em aórtico (2º EIC D) irradiando p/ carótidas é a assinatura da estenose aórtica. A PP convergente e o pulso pequeno e lento confirmam (pulso parvus et tardus).

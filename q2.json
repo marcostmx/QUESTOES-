@@ -1,0 +1,181 @@
+[
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Homem de 68 anos internado há 5 dias por IAM de parede anterior, tratado tardiamente. Vinha estável quando, subitamente, apresenta piora acentuada da dispneia, hipotensão e surgimento de sopro holossistólico intenso, novo, em borda esternal esquerda baixa, com frêmito. Ausculta pulmonar com estertores difusos.\n\na) Cite três complicações mecânicas do IAM compatíveis com uma deterioração súbita neste período e diga qual delas melhor explica o sopro descrito.\nb) A qual dos seis mecanismos de disfunção cardiovascular corresponde a complicação que você escolheu?\nc) Por que essa complicação ocorre justamente por volta do 5º dia?",
+    "interactionType": "textarea",
+    "gabarito": "a) Complicações mecânicas compatíveis: ruptura de parede livre (evolui com hemopericárdio e tamponamento), ruptura do septo interventricular e ruptura de músculo papilar necrosado (insuficiência mitral aguda). O sopro holossistólico novo em borda esternal esquerda baixa, com frêmito, é característico da ruptura do septo interventricular — comunicação interventricular adquirida.\n\nb) Corresponde ao mecanismo 4 — fluxo colateral: o sangue é desviado de uma parte do coração para outra (do VE para o VD) por um defeito adquirido após o infarto.\n\nc) Porque o 5º dia cai na janela de fragilidade do 3º ao 7º dia. Nesse período a necrose já desorganizou a arquitetura do tecido e os macrófagos já removeram o material necrótico, mas o tecido de granulação e a fibrose ainda não se formaram — a parede está mecanicamente no seu ponto mais frágil."
+  },
+  {
+    "type": "FECHADA",
+    "text": "Sobre a extensão do infarto e os territórios coronarianos, assinale a alternativa CORRETA:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) O infarto subendocárdico circunferencial decorre tipicamente da oclusão permanente do ramo descendente anterior esquerdo.",
+      "B) A restauração do fluxo (reperfusão) pode converter um infarto que seria transmural em não transmural.",
+      "C) Microinfartos decorrem de hipotensão global sustentada.",
+      "D) A oclusão do ramo circunflexo esquerdo produz infarto da parede anterior do ventrículo esquerdo.",
+      "E) O infarto transmural caracteriza-se por necrose restrita ao terço subendocárdico da parede."
+    ],
+    "gabarito": "Alternativa B.\n\nA reperfusão limita a progressão da necrose do subendocárdio para o epicárdio, podendo converter um infarto que seria transmural em não transmural.\nA está errada: oclusão permanente da DA gera infarto transmural anterior; o subendocárdico circunferencial decorre de hipotensão global. C está errada: microinfartos decorrem de oclusão de pequenos vasos intramurais. D está errada: a circunflexa irriga a parede lateral. E está errada: transmural é a necrose de toda a espessura da parede."
+  },
+  {
+    "type": "ABERTA",
+    "text": "Explique o que é um circuito de reentrada e cite as duas condições necessárias para que ele se estabeleça. Depois explique por que uma cicatriz de infarto favorece esse mecanismo.",
+    "interactionType": "textarea",
+    "gabarito": "Na condução normal, o impulso parte do nó SA e se propaga de modo ordenado até o miocárdio, extinguindo-se ao encontrar tecido refratário. Um circuito de reentrada ocorre quando o impulso, em vez de se extinguir, encontra um caminho que o traz de volta ao ponto de partida e o reexcita — passando a girar continuamente e a comandar o ritmo.\n\nAs duas condições necessárias são:\n1. Bloqueio unidirecional em uma das vias — o impulso não desce por ela, mas pode subir;\n2. Condução retrógrada suficientemente lenta, de modo que, quando o impulso retorna, o tecido de origem já saiu do período refratário e pode ser reexcitado.\n\nA cicatriz de infarto favorece a reentrada porque cria exatamente esse cenário: o tecido fibroso é inexcitável e obriga o impulso a contorná-lo, e as ilhas de miócitos sobreviventes nas bordas — parcialmente despolarizados e mal acoplados — conduzem de forma lenta e desigual, produzindo as zonas de bloqueio unidirecional e de condução lentificada."
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Homem de 72 anos é levado ao pronto-socorro após perder a consciência enquanto estava de pé cantando na igreja. A esposa relata que ele ficou inconsciente por 2 a 3 minutos, sem movimentos anormais, e ao acordar ficou tonto por um ou dois minutos, recuperando-se em seguida. Nos últimos meses vinha suspendendo atividades por fraqueza e tontura. Ao exame: alerta e orientado, afebril, FC 35 bpm regular, PA 118/72 mmHg sem variação ao ficar de pé. Exames laboratoriais e enzimas cardíacas normais.\n\na) Qual o diagnóstico e o mecanismo?\nb) Que dados do caso permitem descartar crise convulsiva e síncope ortostática?\nc) Explique, usando a hierarquia do automatismo cardíaco, por que a frequência está em 35 bpm.",
+    "interactionType": "textarea",
+    "gabarito": "a) Síncope por bloqueio atrioventricular total (de terceiro grau). Mecanismo: a condução do átrio para o ventrículo é completamente interrompida, o ventrículo passa a depender de um ritmo de escape lento, o débito cardíaco cai abruptamente e ocorre hipoperfusão cerebral global transitória.\n\nb) Contra crise convulsiva: ausência de movimentos anormais, recuperação rápida e ausência de período pós-ictal prolongado. Contra síncope ortostática: a PA não se altera ao ficar de pé.\n\nc) Todas as estruturas do sistema de condução têm automatismo próprio, em hierarquia decrescente: nó SA ≈ 60–100 bpm, junção AV ≈ 40–60 bpm, His-Purkinje/ventrículo ≈ 20–40 bpm. Normalmente o nó SA comanda por ser o mais rápido. Com o bloqueio total, o impulso atrial não alcança o ventrículo, que passa a ser comandado por um foco de escape ventricular — daí a frequência de 35 bpm, dentro da faixa do automatismo de Purkinje/ventrículo."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Marque V ou F e corrija as falsas:\n\nI. A lesão isquêmica é a causa mais comum de distúrbios de ritmo.\nII. Se os miócitos atriais se tornam \"irritáveis\" e despolarizam de modo independente, o resultado é o bloqueio atrioventricular.\nIII. A fibrilação ventricular é uma despolarização caótica sem contração ventricular funcional.\nIV. O feixe de Kent conduz impulsos diretamente dos átrios aos ventrículos, transpondo o nó AV.\nV. O flutter atrial típico é uma arritmia caracterizada por macrorreentrada no átrio direito.",
+    "interactionType": "textarea",
+    "gabarito": "I — V. Por dano direto ou pela dilatação das câmaras, que altera a ativação do sistema de condução.\nII — F. Miócitos atriais irritáveis, com despolarização independente e esporádica transmitida de forma variável pelo nó AV, produzem fibrilação atrial, com ritmo irregularmente irregular. Quem produz bloqueio cardíaco é a disfunção do nó AV.\nIII — V.\nIV — V.\nV — V. O flutter atrial típico decorre de circuito de macrorreentrada no átrio direito, classicamente dependente do istmo cavotricuspídeo."
+  },
+  {
+    "type": "ABERTA",
+    "text": "a) Defina morte súbita cardíaca segundo o critério temporal apresentado.\nb) Qual é a principal causa em adultos e qual a proporção que ela representa?\nc) Cite cinco causas mais frequentes em vítimas jovens.\nd) Qual é o mecanismo imediato mais frequente da morte?",
+    "interactionType": "textarea",
+    "gabarito": "a) Morte inesperada decorrente de causas cardíacas sem aparecimento de sintomas, ou dentro de 1 a 24 horas do início dos sintomas.\nb) A doença arterial coronariana, responsável por 80% a 90% dos casos.\nc) Em vítimas mais jovens, causas não ateroscleróticas predominam: anormalidades hereditárias ou adquiridas do sistema de condução; anormalidades arteriais coronarianas congênitas; prolapso da valva mitral; miocardite ou sarcoidose; cardiomiopatia dilatada ou hipertrófica; hipertensão pulmonar; hipertrofia do miocárdio (fator de risco independente — alguns atletas que morrem subitamente têm como único achado o aumento inexplicado da massa cardíaca).\nd) A arritmia letal — assistolia ou, mais comumente, fibrilação ventricular. Ou seja: a DAC é a causa, mas o mecanismo imediato da morte é elétrico."
+  },
+  {
+    "type": "ASSOCIAÇÃO",
+    "text": "Associe cada lesão valvar à sua causa:\n\nLesão\n1 Estenose aórtica\n2 Insuficiência aórtica\n3 Estenose mitral\n4 Insuficiência mitral\n\nCausa\n( ) Degeneração mixomatosa (prolapso da valva mitral)\n( ) Calcificação e esclerose valvar, com deposição de hidroxiapatita\n( ) Cardiopatia reumática\n( ) Dilatação da aorta, frequentemente por hipertensão e/ou envelhecimento",
+    "interactionType": "textarea",
+    "gabarito": "4 – 1 – 3 – 2\n\n• Degeneração mixomatosa ← insuficiência mitral (4)\n• Calcificação e esclerose com hidroxiapatita ← estenose aórtica (1)\n• Cardiopatia reumática ← estenose mitral (3)\n• Dilatação da aorta ← insuficiência aórtica (2)"
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Menino de 12 anos apresentou, há três semanas, quadro de faringite com febre, tratado apenas com sintomáticos. Retorna agora com febre, poliartrite migratória de grandes articulações e sopro cardíaco novo. A biópsia endomiocárdica, se realizada, mostraria lesões granulomatosas características.\n\na) Qual o processo em curso e qual o mecanismo imunológico envolvido?\nb) Qual o nome do achado histológico característico?\nc) Qual valva é mais frequentemente comprometida a longo prazo e qual lesão resulta?\nd) Descreva duas consequências tardias possíveis dessa lesão valvar.",
+    "interactionType": "textarea",
+    "gabarito": "a) Febre reumática aguda, sequela de faringite por estreptococo beta-hemolítico do grupo A. O mecanismo é imunológico, por reação cruzada (mimetismo molecular): os anticorpos produzidos contra antígenos bacterianos reconhecem antígenos do tecido cardíaco, gerando pancardite.\nb) Nódulos de Aschoff — lesões granulomatosas características.\nc) A valva mitral, evoluindo com doença valvar fibrótica deformante e estenose mitral.\nd) Duas consequências: fibrilação atrial (por dilatação e remodelamento do átrio esquerdo obstruído) e edema agudo de pulmão (por transmissão retrógrada da pressão ao leito capilar pulmonar). Também são possíveis o tromboembolismo a partir da estase no AE dilatado, a hipertensão pulmonar e a insuficiência cardíaca direita."
+  },
+  {
+    "type": "FECHADA",
+    "text": "Sobre as endocardites, assinale a alternativa CORRETA:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) A endocardite infecciosa é causada em 50 a 60% dos casos por Staphylococcus aureus, componente normal da flora cutânea.",
+      "B) A endocardite trombótica não bacteriana cursa com vegetações contendo micro-organismos e intensa reação inflamatória.",
+      "C) A endocardite de Libman-Sacks ocorre no lúpus eritematoso sistêmico, com valvulite mitral e tricúspide e pequenas vegetações estéreis.",
+      "D) A endocardite infecciosa acomete exclusivamente valvas nativas, nunca o endocárdio mural.",
+      "E) A endocardite trombótica não bacteriana é a forma mais comum de endocardite e decorre de bacteriemia transitória."
+    ],
+    "gabarito": "Alternativa C.\n\nLibman-Sacks é a endocardite do LES, com valvulite mitral e tricúspide e pequenas vegetações estéreis.\nA está errada: o agente em 50–60% dos casos é o Streptococcus viridans, componente normal da flora da cavidade oral. B está errada: na trombótica não bacteriana as vegetações são estéreis, sem micro-organismos. D está errada: a endocardite infecciosa acomete valvas ou o endocárdio mural. E está errada: a forma mais comum é a infecciosa."
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Homem de 58 anos, fumante de 2 maços/dia desde os 15 anos, refere dispneia progressiva, hoje aos mínimos esforços e em repouso, e tosse com escarro marrom-amarelado todas as manhãs ao longo do ano. Ao exame: FR 28 mpm, sentado inclinado para frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória. Tórax com diâmetro anteroposterior aumentado e retração dos arcos costais inferiores à inspiração. Ausculta com sibilos e roncos bilaterais, sem crepitantes. Bulhas rítmicas e hipofonéticas.\n\na) Qual o diagnóstico e quais os dois componentes fisiopatológicos que compõem essa doença?\nb) Explique o mecanismo do aumento do diâmetro anteroposterior e da hipofonese das bulhas.\nc) Qual o próximo passo diagnóstico e o que ele informa?\nd) Cite quatro complicações crônicas da hipoxemia nessa doença.",
+    "interactionType": "textarea",
+    "gabarito": "a) DPOC com exacerbação aguda. Os dois componentes: bronquite crônica (inflamação da mucosa brônquica, hipertrofia das glândulas submucosas, hipersecreção de muco → tosse produtiva) e enfisema (destruição dos septos alveolares e perda do recolhimento elástico → aprisionamento aéreo).\n\nb) A perda do recolhimento elástico faz as vias aéreas colapsarem na expiração; o ar entra mas não sai completamente → aprisionamento aéreo → hiperinsuflação → aumento do diâmetro anteroposterior (tórax em tonel). O excesso de ar interposto entre o coração e a parede torácica atenua a transmissão do som, produzindo bulhas hipofonéticas.\n\nc) Gasometria arterial, que informa rapidamente o estado da oxigenação (PaO₂) e da ventilação (PaCO₂), além do equilíbrio ácido-base.\n\nd) Hipertensão pulmonar (evoluindo para cor pulmonale), eritrocitose secundária, limitação das atividades físicas e comprometimento da função mental."
+  },
+  {
+    "type": "ABERTA",
+    "text": "Compare os padrões obstrutivo e restritivo quanto a: problema mecânico predominante, capacidade pulmonar total, volume residual, VEF1, CVF e relação VEF1/CVF. Explique por que a relação VEF1/CVF pode estar normal ou aumentada no padrão restritivo.",
+    "interactionType": "textarea",
+    "gabarito": "| | Obstrutivo | Restritivo |\n|---|---|---|\n| Problema | dificuldade de expirar; aumento da resistência ao fluxo | dificuldade de encher; redução da expansão do parênquima |\n| Capacidade pulmonar total | aumentada | reduzida |\n| Volume residual | aumentado (aprisionamento) | reduzido |\n| VEF1 | muito reduzido | reduzido |\n| CVF | normal ou pouco reduzida | reduzida |\n| VEF1/CVF | reduzida (< 0,7) | normal ou aumentada |\n\nNo restritivo a relação se mantém ou sobe porque VEF1 e CVF caem proporcionalmente — o pulmão é menor, mas esvazia bem. Na verdade, o pulmão fibrótico tem recolhimento elástico exagerado, o que acelera o esvaziamento e pode até elevar a razão. No obstrutivo, ao contrário, o VEF1 cai muito mais que a CVF, derrubando a relação."
+  },
+  {
+    "type": "FECHADA",
+    "text": "Sobre enfisema e bronquite crônica, assinale a alternativa INCORRETA:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) O enfisema caracteriza-se por dilatação irreversível dos espaços aéreos distais ao bronquíolo terminal, com destruição parenquimatosa.",
+      "B) A bronquite crônica é definida por tosse produtiva por, no mínimo, 3 meses em pelo menos 2 anos consecutivos, na ausência de outra causa.",
+      "C) Na bronquite crônica há hipersecreção de muco nas grandes vias aéreas, associada à hipertrofia das glândulas submucosas.",
+      "D) Cerca de 80% dos casos de DPOC desenvolvem-se por causa do tabagismo; outros fatores incluem poluentes ocupacionais e ambientais, hiper-responsividade das vias aéreas e polimorfismos genéticos.",
+      "E) No enfisema, o aprisionamento de ar reduz as dimensões anteroposteriores do tórax, produzindo o chamado tórax escavado."
+    ],
+    "gabarito": "Alternativa E.\n\nO aprisionamento de ar aumenta as dimensões anteroposteriores do tórax, produzindo o tórax em tonel (ou em barril). Tórax escavado (pectus excavatum) é uma deformidade congênita da parede, sem relação com enfisema."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Considerando que o HCO₃⁻ é o componente metabólico e a PaCO₂ o componente respiratório, marque V ou F e corrija as falsas:\n\nI. HCO₃⁻ baixo indica acidose metabólica, e a resposta compensatória esperada é hiperventilação para reduzir o CO₂.\nII. PaCO₂ elevada indica acidose respiratória, decorrente de hipoventilação, e a compensação é renal, com elevação do HCO₃⁻.\nIII. HCO₃⁻ elevado indica alcalose respiratória.\nIV. PaCO₂ baixa indica alcalose respiratória, com o paciente hiperventilando e eliminando CO₂.\nV. Na alcalose metabólica a compensação esperada é a hipoventilação, para reter CO₂.",
+    "interactionType": "textarea",
+    "gabarito": "I — V.\nII — V.\nIII — F. HCO₃⁻ elevado indica alcalose metabólica; a compensação esperada é hipoventilação, para reter CO₂.\nIV — V.\nV — V."
+  },
+  {
+    "type": "ABERTA",
+    "text": "Explique o princípio mecânico da ventilação a partir da frase \"maior pressão → menor pressão\". Por que a pressão intrapulmonar precisa se tornar negativa para que haja entrada de ar? Relacione isso com o que ocorre no pneumotórax.",
+    "interactionType": "textarea",
+    "gabarito": "O gás sempre se desloca da região de maior pressão para a de menor pressão. Para que o ar entre nos pulmões, é obrigatório que a pressão dentro do pulmão se torne menor (negativa) em relação à atmosférica — o que se consegue pela contração do diafragma e dos intercostais, que expande a caixa torácica e, por consequência, o pulmão a ela acoplado pela pleura. Sem gradiente de pressão não há fluxo, e portanto não há respiração nem troca gasosa.\n\nNo pneumotórax, o ar entra no espaço pleural e desfaz a pressão negativa intrapleural que mantinha o pulmão aderido à parede torácica. Perdido o acoplamento, o pulmão colapsa por seu próprio recolhimento elástico: mesmo que a caixa torácica se expanda, aquele pulmão não é mais tracionado, o gradiente não se forma e a ventilação daquele lado cessa."
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Homem de 37 anos, não fumante, refere tosse não produtiva há três meses, que piora à noite e após exercício. Iniciou recentemente um programa de corrida e relata que tem muita dificuldade, com falta de ar rápida e tosse intensa. Nega febre, hemoptise ou perda de peso. Ao exame, pulmões limpos, exceto por sibilos expiratórios ocasionais na expiração forçada. Radiografia de tórax normal.\n\na) Qual o diagnóstico mais provável e como confirmá-lo?\nb) Descreva as alterações histológicas esperadas nas vias aéreas desse paciente.\nc) Por que a radiografia normal não afasta o diagnóstico?\nd) Cite dois achados laboratoriais que apoiam o diagnóstico.",
+    "interactionType": "textarea",
+    "gabarito": "a) Asma (doença reativa das vias aéreas). Confirmação: provas de função pulmonar; se a espirometria basal for normal, faz-se broncoprovocação com metacolina, demonstrando hiper-responsividade.\nb) Espessamento da parede das vias aéreas, hipertrofia da musculatura lisa brônquica, aumento das glândulas submucosas com hipersecreção de muco, espessamento da membrana basal e infiltrado inflamatório rico em eosinófilos, mastócitos e linfócitos T.\nc) Porque a asma é doença funcional e episódica das vias aéreas — fora da crise, e mesmo durante ela, o parênquima permanece estruturalmente normal. A radiografia serve para afastar outras causas, não para confirmar asma.\nd) Eosinofilia no sangue periférico e achado de eosinófilos (no escarro/secreção), além da demonstração de aumento da obstrução ao fluxo aéreo com dificuldade na exalação."
+  },
+  {
+    "type": "FECHADA",
+    "text": "Sobre a asma, assinale a alternativa INCORRETA:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) A asma atópica decorre de sensibilização a alérgenos com ativação imune, sendo uma reação de hipersensibilidade mediada por IgE (tipo I).",
+      "B) As células TH2 são o tipo de linfócito T dominante na doença, com contribuição de células TH17 produtoras de IL-17, que recrutam neutrófilos.",
+      "C) Os leucotrienos C4, D4 e E4 e a acetilcolina causam broncoconstrição prolongada.",
+      "D) A histamina é um potente broncoconstritor e a prostaglandina D2 estimula broncoconstrição e vasodilatação.",
+      "E) A asma não atópica caracteriza-se por níveis muito elevados de IgE específica e testes cutâneos fortemente positivos para aeroalérgenos."
+    ],
+    "gabarito": "Alternativa E.\n\nA asma não atópica é justamente aquela sem evidência de sensibilização a alérgenos. A descrição de IgE específica elevada e testes cutâneos positivos corresponde à asma atópica."
+  },
+  {
+    "type": "ABERTA",
+    "text": "Diferencie a reação inicial e a reação de fase tardia da asma quanto aos fenômenos predominantes e às células envolvidas.",
+    "interactionType": "textarea",
+    "gabarito": "Reação inicial — dominada por broncoconstrição, aumento da produção de muco e graus variáveis de vasodilatação e aumento da permeabilidade vascular. É a resposta imediata, mediada sobretudo pelos mediadores pré-formados e recém-sintetizados dos mastócitos (histamina, leucotrienos, prostaglandina D2).\n\nReação de fase tardia — dominada pelo recrutamento de leucócitos, notadamente eosinófilos, neutrófilos e mais células T. É a fase que sustenta a inflamação crônica, o remodelamento das vias aéreas e a persistência da hiper-responsividade."
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Mulher de 45 anos com história de infecções respiratórias de repetição desde a infância. Queixa-se de tosse severa e persistente, com expectoração abundante, de odor fétido e por vezes sanguinolenta. Tomografia mostra dilatação de brônquios, mais acentuada nos lobos inferiores bilateralmente.\n\na) Qual o diagnóstico e o mecanismo da lesão?\nb) Quais são as duas condições geralmente necessárias para o desenvolvimento das lesões completas?\nc) Por que os sintomas são episódicos?\nd) Cite uma doença genética que cursa classicamente com esse quadro e explique o elo fisiopatológico.",
+    "interactionType": "textarea",
+    "gabarito": "a) Bronquiectasia — dilatação permanente e irreversível de brônquios e bronquíolos, resultante da destruição do músculo liso e do tecido elástico por infecções necrotizantes crônicas.\nb) Obstrução e infecção. São as principais condições associadas, e é provável que ambas sejam necessárias para o desenvolvimento das lesões completas.\nc) Porque são frequentemente precipitados por infecções do trato respiratório superior ou pela introdução de novos agentes patogênicos, que reagudizam o ciclo de inflamação e destruição.\nd) Fibrose cística. O elo: o defeito no canal de cloreto (CFTR) altera o transporte iônico → secreções viscosas → depuração mucociliar defeituosa e obstrução das vias aéreas → cenário propício a infecções bacterianas crônicas → dano difuso às paredes → destruição do músculo liso e do tecido elástico → bronquiectasia, enquanto os pequenos bronquíolos são obliterados por fibrose (bronquiolite obliterante)."
+  },
+  {
+    "type": "ASSOCIAÇÃO",
+    "text": "Associe cada tipo de atelectasia ao seu mecanismo:\n\nTipo\n1 Atelectasia de reabsorção\n2 Atelectasia de compressão\n3 Atelectasia de contração\n\nMecanismo\n( ) Fibrose pleural ou pulmonar, focal ou generalizada, que impede a expansão total do pulmão\n( ) Obstrução completa de via aérea, com o pulmão distal não conseguindo se expandir\n( ) Acúmulo de volumes significativos de líquido, tumor ou ar na cavidade pleural",
+    "interactionType": "textarea",
+    "gabarito": "3 – 1 – 2\n\n• Fibrose que impede a expansão ← contração (3)\n• Obstrução completa de via aérea ← reabsorção (1)\n• Líquido, tumor ou ar na cavidade pleural ← compressão (2)"
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Mulher de 75 anos, hipertensa e diabética, com tosse, febre de 38,8 °C e escarro purulento há três dias. Ao exame do aparelho respiratório: frêmito toracovocal aumentado, macicez à percussão, ruídos respiratórios brônquicos e broncofonia em terço inferior do hemitórax esquerdo. Leucócitos 14.000/mm³. Radiografia com infiltrado em lobo inferior esquerdo.\n\na) Qual o diagnóstico e o agente etiológico mais provável?\nb) Explique o mecanismo que gera esse conjunto de achados semiológicos.\nc) Se em vez desses achados a paciente apresentasse frêmito diminuído e murmúrio abolido, qual seria a hipótese e por quê?\nd) Cite dois marcadores laboratoriais úteis para diferenciar infecção bacteriana de viral e explique sua origem.",
+    "interactionType": "textarea",
+    "gabarito": "a) Pneumonia adquirida na comunidade, muito provavelmente por Streptococcus pneumoniae.\nb) O alvéolo se enche de exsudato inflamatório e o pulmão, antes cheio de ar, torna-se sólido. Meio sólido conduz som melhor que o ar — daí o frêmito toracovocal aumentado, a macicez à percussão, os ruídos respiratórios brônquicos e a broncofonia.\nc) Derrame pleural. Nesse caso há líquido entre as pleuras, que afasta o parênquima da parede torácica. O som produzido nas vias aéreas não chega bem à superfície: o frêmito diminui e o murmúrio fica abolido, embora a percussão também seja maciça. A dupla consolidação/derrame se distingue justamente pelo frêmito — aumentado numa, diminuído na outra.\nd) Proteína C-reativa e procalcitonina — ambos reagentes de fase aguda produzidos primariamente no fígado, significativamente mais elevados em infecções bacterianas do que em virais."
+  },
+  {
+    "type": "FECHADA",
+    "text": "Sobre as infecções pulmonares, assinale a alternativa INCORRETA:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Streptococcus pneumoniae é o agente causador mais comum de pneumonia aguda adquirida na comunidade e é um Gram-positivo.",
+      "B) Klebsiella pneumoniae é a causa mais frequente de pneumonia bacteriana por Gram-negativos, acometendo comumente indivíduos debilitados e desnutridos, em especial alcoolistas crônicos.",
+      "C) A invasão bacteriana do parênquima pulmonar causa preenchimento dos alvéolos com exsudato inflamatório.",
+      "D) A proteína C-reativa e a procalcitonina são reagentes de fase aguda produzidos primariamente no fígado.",
+      "E) No vírus influenza, a hemaglutinina possui dois subtipos principais (H1 e H2) e a neuraminidase possui três (N1 a N3)."
+    ],
+    "gabarito": "Alternativa E.\n\nEstá invertido: a hemaglutinina tem três subtipos principais (H1 a H3) e a neuraminidase tem dois (N1 e N2)."
+  },
+  {
+    "type": "ABERTA",
+    "text": "Compare síndrome de consolidação e derrame pleural quanto a frêmito toracovocal, percussão, murmúrio vesicular e ausculta da voz. Explique o princípio físico que justifica as diferenças.",
+    "interactionType": "textarea",
+    "gabarito": "| | Consolidação | Derrame pleural |\n|---|---|---|\n| Frêmito toracovocal | aumentado | diminuído |\n| Percussão | macicez / submacicez | macicez |\n| Murmúrio vesicular | diminuído, com sopro tubário | abolido |\n| Ausculta da voz | broncofonia, pectorilóquia | reduzida ou abolida |\n\nPrincípio físico: o som se propaga melhor em meios sólidos e contínuos do que em meios com ar. Na consolidação, o alvéolo cheio de exsudato transforma o pulmão em um bloco sólido em continuidade com a parede torácica — o som chega reforçado. No derrame, existe uma camada de líquido interposta que separa o pulmão da parede: essa descontinuidade de meios reflete e dispersa o som, que chega atenuado."
+  },
+  {
+    "type": "CASO CLÍNICO",
+    "text": "Mulher de 48 anos chega ao pronto-socorro com dispneia de início súbito. Estava em pé na cozinha quando sentiu falta de ar, percebeu o coração disparar e quase desmaiou. Nega dor torácica e febre. Fez colecistectomia há duas semanas, com internação de oito dias por infecção da ferida operatória. Ao exame: FR 28 mpm, saturação 84% em ar ambiente, FC 124 bpm, PA 118/89 mmHg, mucosa levemente cianótica, pressão venosa jugular elevada, pulmões limpos, hiperfonese de B2 no foco pulmonar. Perna direita edemaciada e dolorosa. ECG com taquicardia sinusal e radiografia de tórax normal.\n\na) Qual o diagnóstico e a origem mais provável do evento?\nb) Explique o mecanismo da hipoxemia grave com radiografia normal.\nc) Explique a hiperfonese de B2 e a turgência jugular.\nd) Cite três fatores de risco presentes ou possíveis, incluindo estados de hipercoagulabilidade primários e secundários.",
+    "interactionType": "textarea",
+    "gabarito": "a) Tromboembolismo pulmonar (TEP), quase certamente originado de trombose venosa profunda do membro inferior direito.\nb) O êmbolo obstrui um ramo da artéria pulmonar e cria uma área ventilada, mas não perfundida — aumento do espaço morto. O parênquima permanece estruturalmente normal, por isso a radiografia é normal; mas o sangue deixa de passar por aquela região e é redistribuído, gerando distúrbio da relação ventilação/perfusão (V/Q) e hipoxemia.\nc) A obstrução aumenta abruptamente a resistência vascular pulmonar → elevação da pressão na artéria pulmonar → o componente pulmonar da segunda bulha fecha com mais força → hiperfonese de B2. A sobrecarga aguda do ventrículo direito dificulta o retorno venoso sistêmico → turgência jugular. Se maciço, configura cor pulmonale agudo.\nd) Presentes: imobilização durante a internação de oito dias, cirurgia recente e estado inflamatório/infeccioso pós-operatório. Outros fatores de hipercoagulabilidade citados no material: primários — fator V de Leiden, mutações da protrombina, síndrome antifosfolipídio; secundários — obesidade, câncer, uso de contraceptivos orais, gravidez."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Marque V ou F e corrija as falsas:\n\nI. Derrame pleural é o acúmulo de níveis anormais de líquido na cavidade pleural, podendo ser transudato, exsudato, purulento, quiloso ou sanguíneo.\nII. Hemotórax é um tipo específico de derrame pleural em que há sangue na cavidade pleural, podendo decorrer de trauma torácico, cirurgia, câncer ou ruptura de grande vaso.\nIII. Pneumotórax é a existência de líquido no espaço pleural, sendo sempre traumático.\nIV. A síndrome da angústia respiratória aguda é um tipo de insuficiência respiratória com acúmulo de líquidos nos pulmões e redução do oxigênio sanguíneo a níveis excessivamente baixos.\nV. Na embolia pulmonar, a morte súbita ocorre em grande parte pelo bloqueio do fluxo sanguíneo nos pulmões, podendo também decorrer de insuficiência cardíaca aguda direita.",
+    "interactionType": "textarea",
+    "gabarito": "I — V.\nII — V.\nIII — F. Pneumotórax é a existência de ar no espaço pleural, e pode ser espontâneo ou traumático.\nIV — V.\nV — V. A insuficiência cardíaca aguda direita corresponde ao cor pulmonale agudo."
+  }
+]

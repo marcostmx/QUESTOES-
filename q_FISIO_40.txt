@@ -1,0 +1,16 @@
+ (Options: 0)
+TEXT: Homem de 52 anos, obeso, com queixas de pirose e regurgitação ácida há 8 anos, pior ao deitar após as refeições. Endoscopia digestiva alta revela erosões longitudinais no terço distal do esôfago e uma área de mucosa avermelhada aveludada projetando-se 4 cm acima da transição esofagogástrica. A biópsia dessa área mostra epitélio colunar com células caliciformes.
+
+a) Qual a complicação diagnosticada e como se denomina essa transformação epitelial?
+b) Qual a sequência fisiopatológica que levou a essa alteração?
+c) Qual o risco clínico evolutivo dessa condição?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Complicação e transformação epitelial:** Esôfago de Barrett, caracterizado por metaplasia intestinal especializada (substituição do epitélio estratificado pavimentoso original do esôfago por epitélio colunar com células caliciformes).
+
+b) **Sequência fisiopatológica:** Hipotonia do esfíncter esofágico inferior somada ao aumento da pressão intra-abdominal pela obesidade favorece refluxo gastroesofágico crônico e recorrente. O ácido gástrico e os sais biliares promovem lesão química continuada e inflamação sobre a mucosa esofágica. Em resposta à agressão persistente, as células-tronco basais se reprogramam e diferenciam em um epitélio colunar mucosecretor mais resistente à acidez — um processo metaplásico adaptativo.
+
+c) **Risco evolutivo:** O Esôfago de Barrett é uma condição pré-neoplásica com risco aumentado de progressão na cascata: displasia de baixo grau → displasia de alto grau → adenocarcinoma de esôfago distal, exigindo vigilância endoscópica periódica.
+
+Revisar: DRGE e Esôfago de Barrett

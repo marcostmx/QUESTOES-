@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: Analise as assertivas a seguir:
+I. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.
+II. Paciente sexo feminino, 67 anos, com quadro de dispneia e dor torácica em hemitórax esquerdo do tipo pleurítica. Histórico de estar restrita ao leito há 1 mês, logo após cirurgia de correção de fratura de colo de fêmur decorrente de queda da própria altura, além de relato de ter começado a apresentar edema em membro inferior direito há 3 dias. O provável diagnóstico é infarto pulmonar.
+III. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I e III estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) I, II e III estão corretas.
+  E) E) I, II e III estão incorretas.
+GABARITO:
+Alternativa D.
+I — VERDADEIRO. Dor pleurítica aguda, melhorando ao sentar-se, compatível com pleurite/pericardite aguda.
+II — VERDADEIRO. Tríade de Virchow (estase, lesão endotelial, TVP) + dispneia + dor pleurítica = TEP com infarto pulmonar.
+III — VERDADEIRO. Dor bem localizada e reprodutível à compressão de um ponto é musculoesquelética.

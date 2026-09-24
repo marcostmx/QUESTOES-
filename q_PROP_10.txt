@@ -1,0 +1,11 @@
+ (Options: 0)
+TEXT: Homem de 58 anos, tabagista (2 maços/dia há 30 anos), refere que há cerca de 2 meses vem apresentando tosse seca persistente. Nas últimas 3 semanas notou rouquidão que não melhora, além de perda de 7 kg sem dieta e sudorese noturna. Nega febre. Ao exame do pescoço, palpa-se linfonodo supraclavicular esquerdo de 2,5 cm, endurecido, aderido e indolor.
+a. Calcule a carga tabágica deste paciente em maços-ano e explique o que esse dado acrescenta ao raciocínio.
+b. Identifique no caso todos os sinais de alarme presentes e explique, para cada um, por que constitui alarme.
+c. Qual o nome do linfonodo descrito e qual sua importância semiológica clássica?
+d. Justifique por que a conduta de "prescrever antibiótico e reavaliar em 10 dias" seria inadequada neste caso.
+GABARITO:
+(a) 60 maços-ano (2 x 30). Quantifica exposição e eleva risco de neoplasia.
+(b) Rouquidão > 3 semanas; tosse crônica em tabagista; perda de peso e sudorese noturna (sintomas B); linfonodo supraclavicular pétreo e aderido. Todos sugerem neoplasia.
+(c) Linfonodo de Virchow (supraclavicular esquerdo). Drena ducto torácico, alerta para neoplasia torácica/abdominal.
+(d) Atrasa diagnóstico oncológico, sem indícios de infecção bacteriana aguda.

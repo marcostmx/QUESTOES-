@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Homem de 56 anos com cirrose hepática alcoólica é trazido ao pronto-socorro com aumento progressivo do abdome, icterícia e desorientação têmporo-espacial há 2 dias. Ao exame: abdome globoso, com sinal do piparote positivo e circulação colateral periumbilical em cabeça de medusa; icterícia 3+/4+; flapping (asterixe) positivo; e telangiectasias no tórax.
+
+a) Explique a fisiopatologia da ascite nesse paciente (forças de Starling e hemodinâmica sistêmica).
+b) Qual o significado clínico do GASA (gradiente de albumina soro-ascite) e o que se espera nesse caso?
+c) Explique o mecanismo do asterixe e da encefalopatia hepática.
+d) Qual a explicação para as telangiectasias e o eritema palmar?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Fisiopatologia da ascite:** Decorre da combinação da hipertensão portal sinusoidal com vasodilatação arterial esplâncnica (induzida por NO). A vasodilatação gera sequestro esplâncnico e queda do volume arterial circulante efetivo, ativando vigorosamente o SRAA, o sistema simpático e a liberação de ADH, com retenção renal secundária de sódio e água. Associada à hipoalbuminemia (menor síntese hepática = menor pressão oncótica capilar), a pressão hidrostática portal transborda líquido para a cavidade peritoneal.
+
+b) **GASA e valor esperado:** GASA = Albumina sérica − Albumina do líquido ascítico. Espera-se GASA ≥ 1,1 g/dL, o que confirma que a ascite decorre de hipertensão portal (transudato hemodinâmico), descartando carcinomatose peritoneal ou peritonite tuberculosa (GASA < 1,1 g/dL).
+
+c) **Encefalopatia e asterixe:** A falência hepatocelular na depuração de toxinas e a formação de shunts portossistêmicos desviam o sangue venoso intestinal rico em amônia diretamente para a circulação sistêmica. A amônia atravessa a barreira hematoencefálica; nos astrócitos, é convertida em glutamina por meio da glutamina sintetase, gerando edema osmótico celular, disfunção neurotransmissora GABAérgica/glutamatérgica e asterixe (tremor de aleteio por perda transitória do tônus postural).
+
+d) **Telangiectasias e eritema palmar:** Resultam do hiperestrogenismo secundário à perda da capacidade hepática de metabolizar e depurar estrógenos e androstenediona circulantes, induzindo vasodilatação arteriolar periférica persistente.
+
+Revisar: Cirrose descompensada · fisiopatologia integrada

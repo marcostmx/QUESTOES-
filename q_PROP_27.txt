@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre hidratação, fácies e atitude, analise as assertivas a seguir:
+I. Em recém-nascidos com desidratação grave as fontanelas não sofrem alterações, assim tal avaliação é dispensável.
+II. Sede, perda ponderal, mucosas secas, olhos afundados, excitação psíquica são achados clínicos que podem ser observados em pacientes desidratados.
+III. Descrevemos fácies como atípica ou indiferente quando não expressa patologias, emoções ou estado metabólico alterado.
+IV. Descrevemos a atitude como forçada quando o paciente encontra-se em uma situação em que não pode se colocar em nenhuma posição segundo sua vontade, ficando na posição em que for colocado: paciente inconsciente, comatoso, quadriplégico.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas I, II e IV estão corretas.
+  E) E) Todas as anteriores são falsas.
+GABARITO:
+Alternativa B.
+II e III corretas. I é falsa (fontanela deprime e avaliação é essencial). IV é falsa (a descrição dada é de atitude PASSIVA, não forçada).

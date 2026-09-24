@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: Sobre o frêmito toracovocal e a percussão do tórax, assinale V ou F e marque a sequência correta:
+I. O frêmito toracovocal é pesquisado com a face ulnar ou a palma das mãos, solicitando-se ao paciente que repita uma expressão padronizada, como "trinta e três".
+II. O som claro pulmonar é o som normal obtido à percussão do tórax de um indivíduo hígido.
+III. A macicez indica substituição do ar por líquido ou tecido sólido, enquanto o timpanismo indica excesso de ar.
+IV. Na síndrome de consolidação o frêmito está reduzido porque o exsudato alveolar dificulta a transmissão das vibrações.
+V. A percussão do tórax deve ser realizada de forma comparativa entre hemitórax homólogos, de cima para baixo.
+Marque a alternativa que representa a sequência correta:
+  A) A) V – V – V – F – V
+  B) B) V – F – V – V – F
+  C) C) F – V – V – F – V
+  D) D) V – V – F – F – V
+  E) E) F – F – V – V – V
+GABARITO:
+Alternativa A.
+IV é a única falsa. Na consolidação (ex: pneumonia) o frêmito está AUMENTADO porque o pulmão condensado conduz melhor as vibrações sonoras do que o pulmão aerado.

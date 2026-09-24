@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Homem de 58 anos, fumante de dois maços por dia desde os 15 anos, refere dispneia hoje aos mínimos esforços e em repouso, com tosse produtiva matinal ao longo de todo o ano. Ao exame: FR 28 mpm, sentado inclinado para a frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória, tórax com diâmetro anteroposterior aumentado, retração dos arcos costais inferiores à inspiração, sibilos e roncos difusos sem crepitantes, bulhas hipofonéticas.
+
+a) Qual o diagnóstico e quais os dois componentes fisiopatológicos?
+b) Explique o tórax em tonel e a hipofonese de bulhas.
+c) Qual o exame imediato e o que ele informa?
+d) Cite quatro complicações crônicas da hipoxemia nessa doença.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Diagnóstico e componentes:** DPOC em exacerbação. Os dois componentes: bronquite crônica — inflamação da mucosa brônquica, hipertrofia das glândulas submucosas e hipersecreção de muco, responsável pela tosse produtiva; e enfisema — destruição dos septos alveolares com perda do recolhimento elástico.
+
+b) **Tórax em tonel e hipofonese de bulhas:** Sem recolhimento elástico, as pequenas vias aéreas colapsam durante a expiração: o ar entra, mas não sai por completo → aprisionamento aéreo → hiperinsuflação → aumento do diâmetro anteroposterior. O excesso de ar interposto entre o coração e a parede torácica atenua a transmissão do som, tornando as bulhas hipofonéticas.
+
+c) **Exame imediato:** Gasometria arterial, que informa rapidamente oxigenação (PaO₂), ventilação (PaCO₂) e estado ácido-base — permitindo identificar insuficiência respiratória hipoxêmica, hipercápnica ou mista.
+
+d) **Quatro complicações crônicas:** Hipertensão pulmonar com evolução para cor pulmonale; eritrocitose secundária; limitação progressiva das atividades físicas; e comprometimento da função mental.
+
+Revisar: DPOC · caso clínico integrado

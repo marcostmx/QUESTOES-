@@ -1,0 +1,20 @@
+ (Options: 0)
+TEXT: Homem de 39 anos com diagnóstico recente de hipertensão chega ao pronto-socorro confuso, com cefaleia intensa e visão turva. PA 230/140 mmHg, fundoscopia com papiledema e hemorragias em chama de vela; creatinina elevada em relação a exames prévios.
+
+a) Qual a síndrome e o que a diferencia de uma urgência hipertensiva?
+b) Explique o mecanismo da encefalopatia hipertensiva.
+c) Cite dois outros órgãos-alvo que devem ser avaliados e o achado esperado em cada um.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Emergência hipertensiva com encefalopatia.** O que a define não é o valor da pressão, e sim a presença de lesão aguda de órgão-alvo em curso — aqui, sistema nervoso central e rim. Na urgência hipertensiva a pressão está muito elevada, mas sem lesão aguda instalada.
+
+b) **Mecanismo da encefalopatia hipertensiva:** A autorregulação cerebral mantém fluxo constante dentro de uma faixa de pressão. Ultrapassado o limite superior, ocorre vasodilatação forçada e hiperperfusão, com ruptura da barreira hematoencefálica, extravasamento e edema cerebral vasogênico — daí cefaleia, confusão, alterações visuais e papiledema.
+
+c) **Outros órgãos-alvo:**
+• **Rim:** nefroesclerose hipertensiva aguda, com elevação de creatinina, proteinúria e hematúria.
+• **Coração:** hipertrofia ventricular esquerda e, na fase aguda, edema agudo de pulmão ou isquemia miocárdica por desbalanço entre oferta e consumo de oxigênio.
+
+*A pergunta separa quem decora números de quem entende que a emergência se define pela lesão de órgão-alvo.*
+
+Revisar: Emergência hipertensiva e lesão de órgão-alvo

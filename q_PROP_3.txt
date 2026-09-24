@@ -1,0 +1,21 @@
+ (Options: 5)
+TEXT: Sobre a identificação, os antecedentes e os hábitos de vida, assinale V (verdadeiro) ou F (falso) e marque a alternativa correspondente à sequência correta:
+
+I. A carga tabágica em maços-ano é calculada multiplicando-se o número de maços fumados por dia pelo número de anos de tabagismo.
+II. Naturalidade é o local onde o paciente residia antes de sua moradia atual, enquanto procedência é o local de nascimento.
+III. Menarca, sexarca e desenvolvimento neuropsicomotor integram os antecedentes pessoais fisiológicos.
+IV. A religião do paciente é dado de interesse meramente social, sem repercussão sobre condutas médicas.
+V. Residir em área endêmica é informação que compõe as condições socioeconômicas, culturais e ambientais.
+  A) A) V – V – F – F – V
+  B) B) V – F – V – F – V
+  C) C) F – V – V – V – F
+  D) D) V – F – V – V – F
+  E) E) F – F – V – F – V
+GABARITO:
+Alternativa B.
+
+I — VERDADEIRO. Carga tabágica (maços-ano) = maços por dia × anos de tabagismo.
+II — FALSO. Invertido. Naturalidade é onde a pessoa nasceu; procedência é de onde ela veio / onde morava antes.
+III — VERDADEIRO. Antecedentes pessoais dividem-se em fisiológicos e patológicos.
+IV — FALSO. A religião tem relevância clínica concreta (ex: testemunhas de Jeová recusam hemotransfusão).
+V — VERDADEIRO. Moradia em área endêmica integra as condições socioeconômicas e ambientais.

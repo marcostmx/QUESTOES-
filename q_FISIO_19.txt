@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Homem de 42 anos procura atendimento por aumento progressivo do tamanho das mãos e dos pés — trocou a aliança três vezes em cinco anos — e alteração dos traços faciais. Refere cefaleia e alterações do campo visual.
+
+a) Qual o diagnóstico e qual o tipo de adenoma envolvido?
+b) Qual a posição desse adenoma em frequência entre os adenomas hipofisários funcionantes?
+c) Qual mediador hepático responde por muitas das manifestações clínicas?
+d) Se o mesmo adenoma surgisse antes do fechamento das epífises, qual seria o quadro e como ele se caracterizaria?
+e) Por que esses adenomas costumam estar grandes no momento do diagnóstico?
+GABARITO:
+a) Acromegalia, por adenoma somatotrófico secretor de hormônio do crescimento (GH).
+b) É o segundo tipo mais comum de adenoma hipofisário funcionante.
+c) Os níveis persistentemente elevados de GH estimulam a secreção hepática de IGF-1 (fator de crescimento semelhante à insulina 1), que causa muitas das manifestações clínicas.
+d) Se o adenoma surgisse antes do fechamento das epífises — ou seja, em crianças —, os níveis elevados de GH e IGF-1 resultariam em gigantismo, caracterizado pelo aumento generalizado no tamanho do corpo, com braços e pernas desproporcionalmente longos.
+e) Porque as manifestações do excesso de GH podem ser sutis e de instalação lenta — a mudança dos traços é gradual e passa despercebida —, de modo que o adenoma já está grande quando chama atenção clínica. Daí também a cefaleia e as alterações do campo visual, por compressão do quiasma óptico.

@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre as fácies e seu valor semiológico, analise as assertivas a seguir:
+I. A fácies mixedematosa caracteriza-se por edema periorbitário, pele seca e espessada, madarose e expressão apática, sendo típica do hipotireoidismo.
+II. A fácies basedowiana apresenta exoftalmia, olhar brilhante e expressão de espanto, associando-se ao hipertireoidismo.
+III. A fácies cushingoide caracteriza-se por emagrecimento acentuado da face, olhos encovados e pele seca, decorrente da insuficiência adrenal.
+IV. A fácies leonina, com espessamento cutâneo, madarose e acentuação dos sulcos faciais, é característica da hanseníase virchowiana.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois a fácies cushingoide ("lua cheia") ocorre no hipercortisolismo (excesso, não insuficiência) com ganho de peso e pletora.

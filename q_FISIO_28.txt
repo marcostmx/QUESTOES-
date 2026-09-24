@@ -1,0 +1,18 @@
+ (Options: 0)
+TEXT: Homem de 68 anos, hipertenso de longa data e sem seguimento, refere dispneia progressiva há seis meses, hoje aos pequenos esforços, além de ortopneia de dois travesseiros. Ao exame: PA 168/104 mmHg, FC 92 bpm, estertores crepitantes em bases, ictus desviado e propulsivo, B4 audível, sem sopros significativos. Ecocardiograma: fração de ejeção 58%, hipertrofia concêntrica do ventrículo esquerdo, relação E/A alterada.
+
+a) Qual o tipo de insuficiência cardíaca e como se explica a dispneia com fração de ejeção normal?
+b) Explique a cadeia que liga a hipertensão não tratada a esse quadro.
+c) Por que há B4 e o que ela significa?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Insuficiência cardíaca com fração de ejeção preservada (ICFEp)**, isto é, disfunção diastólica. O ventrículo contrai bem, mas é rígido: para se encher, precisa de pressões mais altas, que se transmitem retrogradamente ao átrio esquerdo e ao capilar pulmonar → congestão → dispneia. A FE, que mede a fração ejetada e não a pressão de enchimento, permanece normal.
+
+b) **Cadeia fisiopatológica:** Hipertensão crônica → aumento sustentado da pós-carga → sobrecarga de pressão sobre o VE → hipertrofia concêntrica → aumento da espessura com queda da complacência → elevação das pressões de enchimento → congestão pulmonar. Em paralelo, a hipertrofia gera isquemia relativa e fibrose intersticial, que agravam a rigidez.
+
+c) **Significado da B4:** A B4 é telediastólica e resulta da contração atrial vigorosa contra um ventrículo pouco complacente. Sua presença indica justamente a rigidez ventricular que caracteriza a disfunção diastólica.
+
+O caso encadeia hipertensão → hipertrofia concêntrica → disfunção diastólica → congestão, que é o percurso mais cobrado em prova.
+
+Revisar: IC com fração de ejeção preservada

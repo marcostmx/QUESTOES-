@@ -1,0 +1,18 @@
+ (Options: 0)
+TEXT: Sobre a classificação e a avaliação da insuficiência cardíaca, julgue os itens:
+
+( ) A classificação funcional da NYHA baseia-se no grau de limitação imposto pelos sintomas às atividades cotidianas.
+( ) A insuficiência cardíaca de alto débito ocorre em situações como tireotoxicose, anemia grave e fístulas arteriovenosas.
+( ) A fração de ejeção normal exclui o diagnóstico de insuficiência cardíaca.
+( ) A congestão pulmonar na IC decorre do aumento da pressão hidrostática capilar pulmonar.
+( ) A dispneia paroxística noturna melhora tipicamente em segundos ao se sentar, diferentemente da ortopneia.
+GABARITO:
+**Sequência: V – V – F – V – F**
+
+• V) Vai de I (sem limitação) a IV (sintomas em repouso) e pode variar no mesmo paciente ao longo do tempo.
+• V) Nessas condições o débito é alto, mas insuficiente para a demanda periférica aumentada.
+• F) A IC com fração de ejeção preservada responde por cerca de metade dos casos.
+• V) A pressão de enchimento elevada se transmite ao capilar e supera a pressão oncótica, extravasando líquido.
+• F) É o contrário: a ortopneia alivia em poucos minutos com a elevação do tronco, enquanto a DPN desperta o paciente e leva mais tempo para ceder.
+
+Revisar: Classificação e avaliação da insuficiência cardíaca

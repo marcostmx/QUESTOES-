@@ -1,0 +1,11 @@
+ (Options: 0)
+TEXT: Paciente de 66 anos apresenta edema em ambos os membros inferiores, que piora ao final do dia. Ao exame, o edema é mole, depressível, com sinal do cacifo ++/4+, frio e indolor, acompanhado de turgência jugular a 45° e hepatomegalia dolorosa.
+a. Liste os seis parâmetros que devem ser descritos na caracterização semiológica de um edema.
+b. Com base nas características descritas, qual a origem mais provável do edema? Justifique com pelo menos dois achados do caso.
+c. Se o edema fosse duro, inelástico, com pele espessada e cacifo negativo, qual seria a hipótese alternativa? Explique o mecanismo.
+d. Explique por que a associação de turgência jugular e hepatomegalia dolorosa reforça a hipótese do item (b).
+GABARITO:
+(a) Localização/distribuição, intensidade (cacifo), consistência (mole/duro), elasticidade, temperatura, sensibilidade (dor).
+(b) Origem cardíaca (congestiva sistêmica). Justificativas: simétrico em MMII com piora vespertina, mole, frio, indolor com cacifo.
+(c) Linfedema. Obstrução linfática acumula líquido rico em proteínas, gerando fibrose intersticial que deixa a pele dura e sem cacifo.
+(d) Ambos indicam elevação da pressão venosa central, típica da insuficiência ventricular direita. A distensão rápida da cápsula hepática gera a dor.

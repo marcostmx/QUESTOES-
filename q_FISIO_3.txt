@@ -1,0 +1,10 @@
+ (Options: 0)
+TEXT: Partindo de PA = DC × RVP, onde DC = FC × VE:
+
+a) Explique por que o infarto agudo do miocárdio causa hipotensão.
+b) Explique por que a perda da capacidade de relaxamento vascular causa hipertensão.
+c) Um paciente em choque hipovolêmico apresenta taquicardia. Qual variável está caindo e qual tenta compensar?
+GABARITO:
+a) O IAM destrói massa contrátil → cai o volume ejetado (VE) → cai o débito cardíaco (DC) → cai a PA. É o mecanismo 1 (falência da bomba). A taquicardia compensatória tenta sustentar o DC pelo componente FC.
+b) O enrijecimento endotelial e a perda do relaxamento vascular aumentam a resistência vascular periférica (RVP). Como PA = DC × RVP, o aumento da RVP eleva a PA mesmo com débito normal.
+c) Está caindo o volume ejetado (VE) — por queda da pré-carga, já que há menos volume retornando ao coração. A frequência cardíaca (FC) sobe para tentar manter o produto FC × VE, ou seja, o débito cardíaco.

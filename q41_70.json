@@ -1,0 +1,336 @@
+[
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Paciente de 52 anos queixa-se de diminuição da audição à direita. Ao exame com diapasão: no teste de Weber, o som lateraliza para a orelha direita; no teste de Rinne realizado à direita, a condução óssea é percebida por mais tempo que a condução aérea. Analise as assertivas:\nI. O teste de Rinne à direita está negativo.\nII. O conjunto dos achados é compatível com perda auditiva de condução na orelha direita.\nIII. Se a perda fosse neurossensorial à direita, o Weber lateralizaria para a orelha esquerda.\nIV. Rinne e Weber são testes concorrentes, devendo o examinador optar por apenas um deles.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e IV estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e III corretas. IV é falsa pois Rinne e Weber são complementares e devem ser lidos em conjunto para definir o tipo de perda (condução x neurossensorial)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Homem, 30 anos, natural e procedente de Casa Nova (BA), agricultor, analfabeto, comparece ao consultório do Dr. Estaciano em Juazeiro, com queixa de que apresenta um \"caroço no pescoço\". Considerando esta situação, sinalize a(s) opção(ões) pertinentes:\nI. \"O tempo de apresentação, a localização precisa, progressão, a existência do achado em outros locais e o questionamento sobre febre, perda ponderal, sudorese noturna e astenia são quesitos indispensáveis para a decisão médica.\"\nII. \"O achado foi percebido há 5 dias e apresentou febre baixa por um dia, além de tosse seca e odinofagia, que ainda persistem. Não ocorreu perda ponderal e nega sudorese noturna. Sinais vitais normais. Observo um linfonodo submandibular direito de cerca de 0,5 cm, móvel, doloroso, de consistência amolecida. Noto vermelhidão em mucosa faríngea. Assim, farei encaminhamento para internamento hospitalar, sendo mandatória a biópsia do linfonodo.\"\nIII. \"O linfonodo supraclavicular associado a sintomas constitucionais sinaliza condições pouco mórbidas, não havendo necessidade de investigações pormenorizadas.\"\nIV. \"Não posso abrir mão da palpação de todas as cadeias linfonodais cervicais e descrever a localização, o tamanho, a consistência, a mobilidade e a presença de sinais flogísticos.\"\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas anteriores estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI e IV corretas. II é falsa pois o quadro é de linfonodomegalia reacional (excesso de conduta biópsia). III é falsa pois linfonodo supraclavicular é sinal de alarme para malignidade (omissão de conduta)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre o exame da glândula tireoide, analise as assertivas a seguir:\nI. A palpação pode ser realizada por via anterior ou posterior, solicitando-se ao paciente que degluta para que a glândula se desloque sob os dedos do examinador.\nII. Devem ser descritos volume, consistência, mobilidade, superfície, sensibilidade e presença de nódulos.\nIII. A ausculta da tireoide é dispensável, pois a glândula não apresenta vascularização suficiente para gerar sopros.\nIV. A presença de sopro sobre a glândula sugere hipervascularização, achado que pode ocorrer na doença de Graves.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois a ausculta da tireoide aumentada é mandatória para pesquisa de sopros de hipervascularização."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Descreva a técnica de execução dos testes de Rinne e de Weber.\nb. Explique o que cada teste compara e por que eles são considerados complementares, e não concorrentes.\nc. Complete o raciocínio para os dois cenários: (i) Weber lateraliza para a orelha direita e Rinne está negativo à direita; (ii) Weber lateraliza para a orelha esquerda e Rinne está positivo em ambas as orelhas. Indique o tipo de perda auditiva e o lado acometido em cada caso.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Rinne: percute-se diapasão, apoia na mastoide (via óssea), depois transfere para frente do meato (via aérea). Weber: diapasão no vértex ou fronte.\n(b) Rinne compara condução aérea com óssea na MESMA orelha. Weber compara a percepção entre as DUAS orelhas. São complementares pois só o conjunto define tipo e lado da surdez.\n(c) (i) Perda condutiva à direita. (ii) Perda neurossensorial à direita (som foge da orelha doente para a sã esquerda, e o Rinne continua positivo na sã e doente)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Dois pacientes chegam ao ambulatório no mesmo dia. Paciente 1: 19 anos, linfonodo cervical anterior direito de 1,0 cm, móvel, fibroelástico, doloroso, com hiperemia de orofaringe e febre de 38 °C há 3 dias. Paciente 2: 61 anos, linfonodo supraclavicular esquerdo de 3 cm, pétreo, aderido a planos profundos, indolor, com perda de 9 kg em 3 meses e sudorese noturna.\na. Para cada paciente, classifique a linfonodomegalia como provavelmente reacional ou suspeita de malignidade, justificando com pelo menos três características.\nb. Explique o que são sintomas B e por que sua presença altera a conduta.\nc. Indique a conduta apropriada para cada paciente, explicando por que a conduta oposta seria um erro em cada caso.\nd. Quais parâmetros devem obrigatoriamente constar da descrição de um linfonodo no prontuário?",
+    "interactionType": "textarea",
+    "gabarito": "(a) Paciente 1: reacional (jovem, pequeno, móvel, doloroso, quadro febril). Paciente 2: malignidade (idoso, supraclavicular, pétreo, aderido, indolor, grande).\n(b) Sintomas B: febre, perda ponderal, sudorese noturna. Elevam suspeita para doença linfoproliferativa/oncológica.\n(c) Paciente 1: Tratar infecção e reavaliar. Biópsia seria excesso. Paciente 2: Investigar por imagem e biópsia imediatamente. Antibiótico e espera atrasaria diagnóstico de câncer.\n(d) Cadeia, tamanho, consistência, mobilidade, sensibilidade (dor) e sinais flogísticos."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Descreva a sequência do exame do pescoço, indicando o que se avalia em cada etapa.\nb. Por que a ausculta não pode ser omitida no exame do pescoço? Cite dois achados auscultatórios possíveis e seu significado.\nc. Explique como se pesquisa a turgência jugular e o que significa encontrá-la a 45°.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Inspeção, palpação (cadeias, tireoide, pulsos carotídeos isoladamente), ausculta e mobilidade.\n(b) Para detectar sopros. Sopro carotídeo = estenose aterosclerótica. Sopro tireoidiano = Graves (hipervascularização).\n(c) Paciente em decúbito dorsal com tronco a 45°. Jugular turgida (acima da clavícula) indica pressão venosa central elevada (congestão direita)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre a inspeção estática e dinâmica do tórax, analise as assertivas a seguir:\nI. O tórax em tonel (ou em barril) apresenta aumento do diâmetro anteroposterior e é classicamente associado ao enfisema pulmonar.\nII. O pectus excavatum caracteriza-se por depressão da porção inferior do esterno, enquanto o pectus carinatum apresenta protrusão esternal anterior.\nIII. A respiração toracoabdominal, com predomínio da ação diafragmática, é o padrão observado principalmente no sexo feminino adulto.\nIV. O tiragem intercostal e o uso de musculatura acessória são sinais de esforço respiratório aumentado.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois o padrão toracoabdominal (diafragmático) é do homem e criança. Na mulher adulta, o normal é o padrão costal superior."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre avaliação do aparelho respiratório, analise as assertivas a seguir:\nI. Ao se examinar um paciente com pneumonia, espera-se que o frêmito toracovocal esteja reduzido, bem como durante a percussão espera-se um som maciço ou submaciço.\nII. Durante uma crise de asma, ao realizar a ausculta respiratória pode-se encontrar um som anormal contínuo, conhecido como sibilo.\nIII. Ao se auscultar um paciente com pneumotórax espera-se ouvir um som hipertimpânico.\nIV. Durante a percussão de um paciente com derrame pleural em hemitórax direito, espera-se ouvir um som submaciço/maciço ao percutir este hemitórax.\nAssinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Todos os itens estão corretos.",
+      "B) Apenas o item I é falso.",
+      "C) Apenas o item IV é verdadeiro.",
+      "D) Apenas os itens II e IV são verdadeiros.",
+      "E) Os itens II, III e IV são verdadeiros."
+    ],
+    "gabarito": "Alternativa D.\nII e IV são verdadeiras. I é falsa (pneumonia tem frêmito AUMENTADO). III é falsa (hipertimpanismo é achado da percussão, não da ausculta)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre os ruídos adventícios da ausculta pulmonar, analise as assertivas a seguir:\nI. Os estertores finos são descontínuos, agudos, ocorrem ao final da inspiração e não se modificam com a tosse.\nII. Os roncos são ruídos contínuos e graves, originados em brônquios de maior calibre com secreção, e tipicamente se modificam ou desaparecem após a tosse.\nIII. O estridor é um ruído contínuo, de predomínio expiratório, originado em vias aéreas bronquiolares.\nIV. O atrito pleural é um ruído áspero, audível em ambas as fases respiratórias, que desaparece quando o paciente prende a respiração.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois o estridor tem predomínio INSPIRATÓRIO e se origina na VIA AÉREA ALTA (laringe/traqueia), não nos bronquíolos."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "O exame do aparelho respiratório é de grande importância na prática médica. Acerca desse exame, analise as assertivas a seguir:\nI. Pacientes com enfisema pulmonar apresentam frequentemente alargamento da porção inferior do tórax, como a boca de um sino, lembrando um cone de base inferior.\nII. A respiração costal superior, observada principalmente no sexo masculino, deve-se ao predomínio da ação dos músculos escaleno e esternocleidomastóideo.\nIII. Pacientes com quadro de redução de calibre da laringe e/ou da traqueia apresentam sibilos, decorrentes da obstrução das vias respiratórias altas, como na laringite aguda, câncer de laringe e estenose de traqueia.\nIV. Paciente com sons de frequência alta (agudos) no final da inspiração, que se alteram com a mudança de posição e não se alteram com a tosse: os sons descritos são os estertores grossos.\nV. Pacientes com derrame pleural volumoso à direita apresentam redução do frêmito toracovocal à palpação e submacicez ou macicez à percussão do hemitórax direito.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e V estão corretas.",
+      "B) Apenas II e III estão corretas.",
+      "C) Apenas I, III e V estão corretas.",
+      "D) Apenas II, IV e V estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa A.\nI e V são verdadeiras. II é falsa (costal superior é feminino). III é falsa (obstrução alta gera estridor, não sibilo). IV é falsa (descrição de estertores FINOS, não grossos)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Adolescente de 18 anos, longilíneo, alto e magro, apresenta dor torácica súbita \"em punhalada\" à direita e dispneia progressiva, iniciadas há 2 horas, sem trauma e sem febre. Ao exame do hemitórax direito: expansibilidade reduzida, frêmito toracovocal abolido, hipertimpanismo à percussão e murmúrio vesicular abolido. A traqueia encontra-se desviada para a esquerda e há turgência jugular. O diagnóstico e a implicação mais provável são:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Derrame pleural à direita; a macicez confirma o acúmulo de líquido.",
+      "B) Pneumonia lobar à direita; o frêmito abolido decorre da consolidação.",
+      "C) Pneumotórax hipertensivo à direita; trata-se de emergência, pelo desvio de mediastino e comprometimento do retorno venoso.",
+      "D) Atelectasia do lobo médio direito; o desvio traqueal contralateral confirma a retração.",
+      "E) Crise asmática grave; o hipertimpanismo decorre da hiperinsuflação bilateral."
+    ],
+    "gabarito": "Alternativa C.\nO quadro clássico de pneumotórax (frêmito abolido + hipertimpanismo + murmúrio abolido). A turgência jugular e o desvio da traqueia marcam a evolução para pneumotórax hipertensivo, emergência médica."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Um paciente de 33 anos comparece para atendimento de emergência devido a quadro de febre alta, tosse produtiva (escarro amarelado) e dispneia iniciados há 48 horas. Não há histórico de comorbidades. Ao exame físico: estado geral regular, respiração dispneica, FR = 28 irpm, FC = 110 bpm, PA = 118x76 mmHg, pulso radial cheio e taquisfígmico, temperatura axilar = 38,8 °C. Ao exame do aparelho respiratório, percebe-se em terço inferior de hemitórax direito diminuição da expansibilidade pulmonar, frêmito toracovocal aumentado, submacicez à percussão, estertores finos à ausculta pulmonar e broncofonia. O diagnóstico mais provável é:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Pneumotórax",
+      "B) Atelectasia",
+      "C) Pleurite aguda",
+      "D) Pneumonia bacteriana",
+      "E) Derrame pleural"
+    ],
+    "gabarito": "Alternativa D.\nA combinação de frêmito toracovocal AUMENTADO, submacicez e estertores finos/broncofonia define a Síndrome de Consolidação. Num quadro agudo e febril, fecha diagnóstico sindrômico de pneumonia."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Mulher de 71 anos, com insuficiência cardíaca, apresenta dispneia progressiva há duas semanas. Ao exame do hemitórax esquerdo: expansibilidade reduzida em terço inferior, frêmito toracovocal abolido, macicez à percussão até a altura do ângulo inferior da escápula e murmúrio vesicular abolido nessa região. Analise as assertivas:\nI. O conjunto frêmito abolido + macicez + murmúrio abolido é compatível com derrame pleural.\nII. A presença de frêmito abolido afasta a hipótese de síndrome de consolidação nessa região.\nIII. Caso houvesse desvio da traqueia, seria esperado desvio para o lado direito, por se tratar de processo expansivo.\nIV. Na borda superior do derrame pode-se auscultar sopro pleurítico, decorrente da compressão do parênquima pulmonar adjacente.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa E.\nTodas corretas. O líquido pleural impede a transmissão da voz e do murmúrio, substituindo ar por líquido (macicez). O derrame volumoso empurra a traqueia para o lado oposto (direito)."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Sobre o frêmito toracovocal e a percussão do tórax, assinale V ou F e marque a sequência correta:\nI. O frêmito toracovocal é pesquisado com a face ulnar ou a palma das mãos, solicitando-se ao paciente que repita uma expressão padronizada, como \"trinta e três\".\nII. O som claro pulmonar é o som normal obtido à percussão do tórax de um indivíduo hígido.\nIII. A macicez indica substituição do ar por líquido ou tecido sólido, enquanto o timpanismo indica excesso de ar.\nIV. Na síndrome de consolidação o frêmito está reduzido porque o exsudato alveolar dificulta a transmissão das vibrações.\nV. A percussão do tórax deve ser realizada de forma comparativa entre hemitórax homólogos, de cima para baixo.\nMarque a alternativa que representa a sequência correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) V – V – V – F – V",
+      "B) V – F – V – V – F",
+      "C) F – V – V – F – V",
+      "D) V – V – F – F – V",
+      "E) F – F – V – V – V"
+    ],
+    "gabarito": "Alternativa A.\nIV é a única falsa. Na consolidação (ex: pneumonia) o frêmito está AUMENTADO porque o pulmão condensado conduz melhor as vibrações sonoras do que o pulmão aerado."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Construa um quadro comparativo entre síndrome de consolidação, derrame pleural e pneumotórax, contemplando: expansibilidade, frêmito toracovocal, percussão e ausculta.\nb. Explique o mecanismo físico pelo qual o frêmito aumenta na consolidação e diminui no derrame pleural.\nc. Um estudante afirma: \"encontrei submacicez à percussão, logo trata-se de derrame pleural\". Corrija a afirmação e indique qual achado deve ser usado para desempatar.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Consolidação: reduzida, AUMENTADO, macicez/submacicez, murmúrio abolido c/ estertores finos/broncofonia. Derrame: reduzida, abolido/reduzido, macicez, murmúrio abolido. Pneumotórax: reduzida, abolido/reduzido, HIPERTIMPANISMO, murmúrio abolido.\n(b) Consolidação = tecido substitui ar, e o meio sólido/líquido contínuo até a parede do brônquio conduz melhor o som. Derrame = líquido entre o pulmão e a parede torácica afasta e isola os brônquios (barreira).\n(c) Submacicez também ocorre na consolidação e atelectasia. Para desempatar, usa-se o FRÊMITO toracovocal (aumentado na consolidação)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Homem de 62 anos, tabagista de longa data, procura o pronto-socorro com dispneia progressiva há 3 dias e tosse com expectoração esverdeada. Ao exame: FR = 30 irpm, uso de musculatura acessória, tórax em tonel, hipersonoridade difusa à percussão, murmúrio vesicular globalmente diminuído e sibilos expiratórios difusos. SpO₂ = 86% em ar ambiente.\na. Descreva o que significa cada achado do exame físico encontrado e a que alteração fisiopatológica ele corresponde.\nb. Explique por que o tórax em tonel e a hipersonoridade difusa apontam para doença crônica, e não para o quadro agudo dos últimos 3 dias.\nc. Se, durante a evolução, os sibilos desaparecessem e o murmúrio vesicular se tornasse quase inaudível, isso indicaria melhora ou piora? Justifique.\nd. Calcule a carga tabágica presumida se o paciente fumar 1,5 maço/dia há 40 anos.",
+    "interactionType": "textarea",
+    "gabarito": "(a) FR 30 + uso de musculatura = insuficiência respiratória. Tórax em tonel e hipersonoridade = aprisionamento aéreo (hiperinsuflação da DPOC). Sibilos = broncoespasmo.\n(b) Tórax em tonel reflete remodelação estrutural da caixa torácica e diafragma retificado, processo lento que exige anos (típico de DPOC basal). O quadro agudo é uma exacerbação.\n(c) Piora gravíssima (\"tórax silencioso\"). O sibilo exige ar passando pela via estreita; o desaparecimento do sibilo com murmúrio inaudível significa fluxo de ar quase zero.\n(d) 1,5 x 40 = 60 maços-ano."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Descreva, em ordem, as quatro etapas do exame do aparelho respiratório e o que se busca em cada uma.\nb. Explique por que, no aparelho respiratório, a ordem é inspeção → palpação → percussão → ausculta, enquanto no abdome a ausculta é antecipada.\nc. Descreva a técnica de pesquisa da expansibilidade torácica e o que significa encontrá-la assimétrica.\nd. Diferencie broncofonia, pectorilóquia e egofonia, indicando o que têm em comum.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Inspeção (forma, esforço respiratório), palpação (frêmito, expansibilidade, traqueia), percussão (macicez, timpanismo), ausculta (murmúrio e ruídos adventícios).\n(b) No abdome, palpar/percutir antes da ausculta estimula as alças intestinais, alterando artificialmente os ruídos hidroaéreos. No tórax isso não ocorre.\n(c) Mãos espalmadas na base ou ápice torácico, solicitando inspiração profunda. Assimetria indica doença unilateral (derrame, atelectasia, pneumotórax).\n(d) Todas traduzem aumento da transmissão vocal (consolidação). Broncofonia: voz mais alta mas indistinta. Pectorilóquia: palavras perfeitamente inteligíveis. Egofonia: voz anasalada/\"caprina\"."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Classifique os ruídos adventícios em contínuos e descontínuos, citando exemplos de cada grupo.\nb. Diferencie estertores finos de estertores grossos quanto a timbre, momento do ciclo respiratório, local de origem e comportamento após a tosse.\nc. Diferencie sibilo de estridor quanto ao local de origem e à fase respiratória de predomínio, e explique por que essa distinção muda a urgência da abordagem.\nd. Como se diferencia, à beira do leito, um atrito pleural de um atrito pericárdico?",
+    "interactionType": "textarea",
+    "gabarito": "(a) Contínuos: sibilos, roncos, estridor. Descontínuos: estertores finos e grossos.\n(b) Finos: agudos (\"velcro\"), fim da inspiração, alvéolos periféricos, não mudam com a tosse. Grossos: graves, ambas as fases, vias maiores, se modificam com a tosse.\n(c) Sibilo = expiratório, vias inferiores (broncoespasmo). Estridor = inspiratório, laringe/traqueia. Estridor indica risco imediato de perda de via aérea.\n(d) Solicita apneia: o pleural desaparece, o pericárdico continua."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre a inspeção, a palpação e os focos de ausculta do precórdio, analise as assertivas a seguir:\nI. O ictus cordis normal localiza-se no 5º espaço intercostal esquerdo, aproximadamente 1 cm medial à linha hemiclavicular, com extensão de até duas polpas digitais.\nII. O foco aórtico acessório, ou ponto de Erb, situa-se no 3º espaço intercostal esquerdo, junto à borda esternal, e é onde melhor se ausculta o sopro da insuficiência aórtica.\nIII. O foco mitral corresponde ao 2º espaço intercostal direito, junto à borda esternal.\nIV. Frêmito cardíaco é a tradução palpatória de um sopro de grande intensidade, correspondendo, na escala de Levine, a sopros de grau igual ou superior a 4/6.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois o foco mitral fica no ápice (5º EIC VE), enquanto o 2º EIC D é o foco aórtico."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "A ausculta cardíaca é um elemento da semiotécnica que possui grande relevância porque pode fornecer informações essenciais para elaboração de hipóteses diagnósticas. Considerando o exame do aparelho cardiovascular, analise as assertivas a seguir:\nI. A terceira bulha (B3) é um som de baixa frequência, sendo melhor audível com a campânula. A terceira bulha está relacionada ao momento da contração atrial.\nII. É o componente aórtico da segunda bulha cardíaca (B2) que atrasa durante o desdobramento fisiológico de B2.\nIII. A quarta bulha (B4), quando presente, localiza-se na telediástole do ciclo cardíaco e tem associação com corações com baixa complacência.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) I, II e III estão incorretas",
+      "B) Apenas I e II estão corretas",
+      "C) Apenas I e III estão corretas",
+      "D) Apenas II e III estão corretas",
+      "E) Nenhuma das alternativas anteriores"
+    ],
+    "gabarito": "Alternativa E.\nApenas a III é verdadeira, e não há essa opção isolada. I é falsa (B3 é enchimento passivo; B4 que é da contração atrial). II é falsa (é o componente PULMONAR que atrasa na inspiração)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre as bulhas cardíacas e os ruídos acessórios, analise as assertivas a seguir:\nI. A primeira bulha (B1) resulta do fechamento das valvas mitral e tricúspide e marca o início da sístole ventricular.\nII. A terceira bulha (B3) pode ser um achado fisiológico em crianças e adultos jovens, sem significar doença.\nIII. A quarta bulha (B4) pode ser auscultada em pacientes com fibrilação atrial, pois independe da contração atrial efetiva.\nIV. O estalido de abertura é um som protodiastólico de alta frequência, classicamente associado à estenose mitral.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois a B4 DECORRE EXATAMENTE da contração atrial. Na fibrilação atrial não há contração atrial organizada, logo a B4 desaparece."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Analise as assertivas a seguir:\nI. Pacientes com estenose aórtica ou hipertensão arterial costumam apresentar ictus cordis difuso à inspeção do aparelho cardiovascular, enquanto pacientes com insuficiência aórtica grave em geral apresentam ictus cordis propulsivo.\nII. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.\nIII. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas",
+      "B) Apenas I e III estão corretas",
+      "C) Apenas II e III estão corretas",
+      "D) I, II e III estão corretas",
+      "E) Nenhuma das alternativas anteriores"
+    ],
+    "gabarito": "Alternativa C.\nII e III corretas. I é falsa pois na EAo e HAS (sobrecarga de pressão), o ictus é SUSTENTADO (hipertrofia concêntrica), não difuso. Ictus difuso/propulsivo é da sobrecarga de volume (ex: insuficiência aórtica)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Homem de 74 anos refere dispneia aos esforços, episódios de tontura ao levantar-se e um episódio de síncope durante caminhada. Ao exame: PA = 118x92 mmHg; pulso radial de pequena amplitude e ascensão lenta; ictus cordis sustentado, não desviado; à ausculta, sopro sistólico rude em crescendo-decrescendo, mais audível no 2º espaço intercostal direito, com irradiação para as carótidas, acompanhado de quarta bulha. O diagnóstico mais provável e o padrão de pulso correspondente são:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Insuficiência aórtica; pulso célere de Corrigan.",
+      "B) Estenose aórtica; pulso parvus et tardus.",
+      "C) Insuficiência mitral; pulso filiforme.",
+      "D) Estenose mitral; pulso alternante.",
+      "E) Estenose tricúspide; pulso paradoxal."
+    ],
+    "gabarito": "Alternativa B.\nSopro sistólico crescendo-decrescendo em aórtico (2º EIC D) irradiando p/ carótidas é a assinatura da estenose aórtica. A PP convergente e o pulso pequeno e lento confirmam (pulso parvus et tardus)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Mulher de 58 anos apresenta dispneia progressiva e palpitações. Ao exame: PA = 166x54 mmHg; pulso amplo, de ascensão e queda rápidas, palpável com facilidade em todos os sítios; ictus cordis desviado para baixo e para fora, propulsivo; à ausculta, sopro diastólico aspirativo de alta frequência, mais audível no 3º espaço intercostal esquerdo junto à borda esternal, acentuado com o paciente sentado e inclinado para frente. O diagnóstico mais provável e o comportamento esperado da pressão de pulso são:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Estenose aórtica; pressão de pulso convergente.",
+      "B) Insuficiência aórtica; pressão de pulso divergente.",
+      "C) Estenose mitral; pressão de pulso convergente.",
+      "D) Insuficiência mitral; pressão de pulso normal.",
+      "E) Pericardite constritiva; pressão de pulso divergente."
+    ],
+    "gabarito": "Alternativa B.\nSopro diastólico em Erb (3º EIC E) acentuado à flexão para frente é insuficiência aórtica. A pressão de pulso é divergente (166 - 54 = 112 mmHg) gerando o pulso célere ou \"martelo d'água\"."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "A anamnese e o exame físico do aparelho cardiovascular são de grande relevância na prática médica. Analise as afirmativas a seguir e julgue se cada uma é verdadeira ou falsa:\nI. Paciente 22 anos, sexo feminino, relata inchaço nos pés eventual. Nega outros sintomas ou doenças prévias. Ao exame físico: bom estado geral, eupneica, anictérica, corada, acianótica, consciente, orientada. Aparelho respiratório: murmúrio vesicular presente em ambos hemitórax, sem ruídos adventícios, com expansibilidade preservada. Ao exame cardiovascular: RCR, sopro sistólico no quinto espaço intercostal esquerdo, junto à borda esternal esquerda, com intensidade 1+/6+. Abdome plano, RHA presentes, sem dor à palpação. A valvopatia mais provável diante desse quadro clínico é estenose tricúspide.\nII. Paciente com 70 anos apresenta há 3 meses dispneia aos moderados esforços. Hipertenso há 10 anos em uso regular de atenolol 50 mg/dia. Ao exame físico geral: bom estado, afebril, hidratado, corado, anictérico, FC = 80 bpm; PA = 170 x 60 mmHg; FR = 18 irpm. Ao exame cardiovascular: BRNF em 2T com sopro diastólico 2+/6+ no terceiro espaço intercostal esquerdo, junto à borda esternal esquerda. A valvopatia mais provável diante desse quadro clínico é estenose aórtica.\nAssinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas a assertiva I é verdadeira.",
+      "B) Apenas a assertiva II é verdadeira.",
+      "C) As duas assertivas são verdadeiras.",
+      "D) As duas assertivas são falsas.",
+      "E) Não é possível julgar sem exames complementares."
+    ],
+    "gabarito": "Alternativa D.\nAmbas FALSAS. I é falsa pois sopro sistólico mitral de 1/6 em paciente hígido é sopro inocente, não \"estenose tricúspide\" (que seria diastólico). II é falsa pois sopro diastólico no 3º EIC E e PA 170x60 (divergente) fecham insuficiência aórtica, não estenose (que seria sistólica)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre a caracterização semiológica dos sopros cardíacos, analise as assertivas a seguir:\nI. Na escala de Levine, o sopro de grau 3/6 é aquele audível com frêmito palpável associado.\nII. Um sopro sistólico de grau 1 a 2/6, sem irradiação, em foco pulmonar, em criança assintomática com exame cardiovascular por outro lado normal, sugere sopro inocente.\nIII. O sopro da insuficiência mitral é holossistólico, \"em barra\", e irradia caracteristicamente para a axila.\nIV. O sopro da estenose mitral é um ruflar diastólico de baixa frequência, mais bem audível com a campânula, no foco mitral, frequentemente precedido de estalido de abertura.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II, III e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa C.\nII, III e IV corretas. I é falsa pois na escala de Levine o FRÊMITO começa a partir do grau 4/6."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Sobre os tipos especiais de pulso arterial, assinale V ou F e marque a sequência correta:\nI. O pulso alternante caracteriza-se pela alternância regular entre uma pulsação de maior e outra de menor amplitude, sendo indicativo de disfunção ventricular esquerda grave.\nII. O pulso filiforme é fino e de difícil percepção, encontrado em estados de choque e hipovolemia.\nIII. O pulso bisferiens apresenta dois picos sistólicos e pode ser encontrado na dupla lesão aórtica e na cardiomiopatia hipertrófica.\nIV. O pulso célere ou de Corrigan é sinônimo de pulso parvus et tardus.\nV. O déficit de pulso é definido pela diferença entre a frequência cardíaca central e o número de pulsações periféricas palpadas.\nMarque a alternativa que representa a sequência correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) V – V – V – F – V",
+      "B) V – F – V – V – F",
+      "C) F – V – V – F – V",
+      "D) V – V – F – F – V",
+      "E) F – V – F – V – V"
+    ],
+    "gabarito": "Alternativa A.\nIV é falsa. Célere (amplo e de ascensão/queda rápida) é O OPOSTO de parvus et tardus (pequeno e de ascensão lenta)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Mulher de 49 anos, com antecedente de febre reumática na infância, apresenta dispneia progressiva e palpitações há 6 meses. Ao exame: pulso radial irregular, com 78 pulsações por minuto; à ausculta do precórdio, contam-se 104 batimentos por minuto, ritmo irregular, com ruflar diastólico em foco mitral precedido de estalido de abertura. Analise as assertivas:\nI. A diferença entre a frequência auscultada e a palpada configura déficit de pulso, de 26 batimentos por minuto.\nII. O ritmo irregular associado ao déficit de pulso sugere fibrilação atrial.\nIII. O ruflar diastólico com estalido de abertura em foco mitral é compatível com estenose mitral, cuja causa mais comum é a doença reumática.\nIV. Nesta paciente, espera-se encontrar quarta bulha proeminente, decorrente da contração atrial vigorosa contra a valva estenosada.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e IV estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e III corretas. IV é falsa pois a paciente tem déficit de pulso e ritmo irregular, sinalizando fibrilação atrial. Na FA não existe B4, pois falta contração atrial organizada."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre o pulso paradoxal, analise as assertivas a seguir:\nI. Define-se pulso paradoxal como a queda da pressão arterial sistólica superior a 10 mmHg durante a inspiração.\nII. É achado clássico do tamponamento cardíaco e da pericardite constritiva, podendo ocorrer também em crise asmática grave e DPOC exacerbada.\nIII. O fenômeno não é verdadeiramente \"paradoxal\": trata-se da exacerbação de uma queda inspiratória fisiológica da pressão sistólica, que normalmente é inferior a 10 mmHg.\nIV. Sua pesquisa é feita durante a aferição da pressão arterial pelo método auscultatório, observando-se a variação dos sons de Korotkoff com o ciclo respiratório.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa E.\nTodas corretas. O pulso paradoxal é o exagero de um fenômeno fisiológico e sua aferição se faz ouvindo as fases de Korotkoff e associando-as à inspiração."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Nomeie os cinco focos de ausculta cardíaca e indique a localização anatômica precisa de cada um.\nb. Explique a diferença entre diafragma e campânula do estetoscópio e indique qual usar para B3, B4 e para o ruflar da estenose mitral.\nc. Descreva duas manobras que acentuam achados auscultatórios e diga qual achado cada uma favorece.\nd. Explique a sistematização da ausculta: o que se deve identificar, em ordem, ao auscultar um precórdio.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Aórtico (2º EIC D); Pulmonar (2º EIC E); Aórtico Acessório (3º EIC E); Tricúspide (borda esternal E baixa, apêndice xifoide); Mitral (5º EIC E, linha hemiclavicular).\n(b) Diafragma: sons de alta frequência (B1, B2, sopros sistólicos). Campânula: sons de baixa frequência. Usar campânula para B3, B4 e ruflar da EM.\n(c) Decúbito lateral esquerdo (acentua sopros mitrais e B3/B4). Sentado, tronco inclinado à frente (acentua sopro da IAo em Erb).\n(d) Frequência e ritmo, B1/B2, sons sistólicos (cliques, sopros), sons diastólicos (B3, B4, sopros)."
+  }
+]

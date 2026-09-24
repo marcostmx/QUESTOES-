@@ -1,0 +1,16 @@
+ (Options: 0)
+TEXT: Mulher de 26 anos, com história de febre reumática na adolescência, está no segundo trimestre de gestação e procura atendimento por dispneia progressiva, ortopneia e um episódio de hemoptise. Ausculta: B1 hiperfonética, estalido de abertura e sopro diastólico em ruflar no foco mitral. Ritmo irregularmente irregular.
+
+a) Qual a valvopatia e sua causa?
+b) Explique por que a gestação descompensou o quadro.
+c) Explique o mecanismo da hemoptise e o significado do ritmo irregular.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Estenose mitral de etiologia reumática.** A febre reumática é a causa clássica: a inflamação leva a fusão comissural, espessamento e retração das cúspides e do aparelho subvalvar.
+
+b) **Por que a gestação descompensa:** A gestação aumenta o volume plasmático em cerca de 40% e eleva a frequência cardíaca. Ambos são deletérios na estenose mitral: mais volume a atravessar um orifício fixo e menos tempo de diástole para o átrio esvaziar. O resultado é aumento abrupto da pressão atrial esquerda e congestão pulmonar — por isso a estenose mitral tipicamente se revela na gravidez.
+
+c) **Hemoptise e ritmo irregular:** A hipertensão venocapilar pulmonar crônica rompe pequenas veias brônquicas dilatadas, produzindo hemoptise. O ritmo irregularmente irregular indica fibrilação atrial, consequência da dilatação e do remodelamento do átrio esquerdo sobrecarregado — e traz risco adicional de trombo atrial e embolia sistêmica.
+
+Revisar: Estenose mitral · fisiopatologia e descompensação

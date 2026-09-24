@@ -1,0 +1,16 @@
+ (Options: 4)
+TEXT: Paciente em choque séptico apresenta extremidades quentes, pressão de pulso alargada e tempo de enchimento capilar normal na fase inicial. Isso se explica por:
+  A) A) Vasoconstrição periférica intensa mediada por catecolaminas.
+  B) B) Vasodilatação sistêmica com débito cardíaco elevado, característica da fase hiperdinâmica.
+  C) C) Redução primária do volume sistólico por falência miocárdica.
+  D) D) Obstrução ao enchimento ventricular por tamponamento.
+GABARITO:
+**Alternativa B** — Vasodilatação sistêmica com débito cardíaco elevado, característica da fase hiperdinâmica.
+
+Na fase quente do choque séptico a resistência vascular está muito baixa e o coração compensa com débito elevado. A hipoperfusão é tecidual e distributiva, não por falta de fluxo global.
+
+• A) A vasoconstrição produz extremidades frias — padrão do choque hipovolêmico e do cardiogênico.
+• C) Ocorre no cardiogênico e na fase tardia do séptico, com disfunção miocárdica.
+• D) Não corresponde ao quadro descrito.
+
+Revisar: Choque distributivo · fase hiperdinâmica

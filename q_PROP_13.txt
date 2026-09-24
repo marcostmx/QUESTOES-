@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre a técnica de aferição da pressão arterial pelo método auscultatório, analise as assertivas:
+I. O manguito deve ser posicionado cerca de 2 cm acima da fossa cubital, mantendo-se a artéria braquial ao nível do coração.
+II. O uso de manguito estreito demais para a circunferência do braço tende a superestimar os valores pressóricos.
+III. O receptor do estetoscópio deve ser colocado sob a borda do manguito, o que melhora a captação dos sons de Korotkoff.
+IV. A desinsuflação deve ser feita de forma contínua, à razão aproximada de 2 a 3 mmHg por segundo.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV são verdadeiras. III é falsa porque o estetoscópio NÃO deve ser colocado sob a borda do manguito, pois isso gera ruídos artefatuais.

@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre o edema e sua caracterização semiológica, assinale V (verdadeiro) ou F (falso) e marque a alternativa com a sequência correta:
+I. O sinal do cacifo (Godet) é pesquisado comprimindo-se a região edemaciada contra uma superfície óssea por pelo menos 5 segundos, sendo positivo quando a depressão não se desfaz de imediato.
+II. O linfedema caracteriza-se por edema duro, inelástico, com pele espessada e cacifo tipicamente negativo.
+III. O edema de origem cardíaca é classicamente mole, depressível, frio e doloroso à palpação.
+IV. Na caracterização completa de um edema devem constar localização, intensidade, consistência, elasticidade, temperatura e sensibilidade.
+V. Circulação colateral do tipo "cabeça de medusa", periumbilical e com disposição radial, associa-se à hipertensão portal.
+  A) A) V – V – F – V – V
+  B) B) V – F – V – V – F
+  C) C) F – V – V – F – V
+  D) D) V – V – V – F – V
+  E) E) F – F – V – V – V
+GABARITO:
+Alternativa A.
+III é a única falsa. O edema cardíaco é INDOLOR. Edema doloroso é típico de processo inflamatório ou TVP.

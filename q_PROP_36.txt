@@ -1,0 +1,11 @@
+ (Options: 0)
+TEXT: Dois pacientes chegam ao ambulatório no mesmo dia. Paciente 1: 19 anos, linfonodo cervical anterior direito de 1,0 cm, móvel, fibroelástico, doloroso, com hiperemia de orofaringe e febre de 38 °C há 3 dias. Paciente 2: 61 anos, linfonodo supraclavicular esquerdo de 3 cm, pétreo, aderido a planos profundos, indolor, com perda de 9 kg em 3 meses e sudorese noturna.
+a. Para cada paciente, classifique a linfonodomegalia como provavelmente reacional ou suspeita de malignidade, justificando com pelo menos três características.
+b. Explique o que são sintomas B e por que sua presença altera a conduta.
+c. Indique a conduta apropriada para cada paciente, explicando por que a conduta oposta seria um erro em cada caso.
+d. Quais parâmetros devem obrigatoriamente constar da descrição de um linfonodo no prontuário?
+GABARITO:
+(a) Paciente 1: reacional (jovem, pequeno, móvel, doloroso, quadro febril). Paciente 2: malignidade (idoso, supraclavicular, pétreo, aderido, indolor, grande).
+(b) Sintomas B: febre, perda ponderal, sudorese noturna. Elevam suspeita para doença linfoproliferativa/oncológica.
+(c) Paciente 1: Tratar infecção e reavaliar. Biópsia seria excesso. Paciente 2: Investigar por imagem e biópsia imediatamente. Antibiótico e espera atrasaria diagnóstico de câncer.
+(d) Cadeia, tamanho, consistência, mobilidade, sensibilidade (dor) e sinais flogísticos.

@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 52 anos, assintomática, comparece a exame de rotina. IMC 29 kg/m², PA 140/92 mmHg, história familiar de diabetes e hipertensão em mãe e irmão. Ao exame, acantose nigricans no pescoço. Glicemia de jejum: 140 mg/dL.
+
+a) Qual o diagnóstico e quais os dois defeitos metabólicos primordiais desse tipo de diabetes?
+b) O valor da glicemia preenche critério diagnóstico? Justifique.
+c) Explique o significado fisiopatológico da acantose nigricans.
+d) Como se diferencia a deficiência de insulina desse tipo em relação ao tipo 1?
+GABARITO:
+a) Diabetes melito tipo 2. Os dois defeitos metabólicos primordiais são: (1) diminuição da resposta dos tecidos periféricos à insulina — especialmente músculo esquelético, tecido adiposo e fígado, ou seja, resistência à insulina; e (2) secreção inadequada de insulina pelas células β (disfunção da célula β).
+b) Sim. O critério é glicose plasmática de jejum ≥ 126 mg/dL, e a paciente apresenta 140 mg/dL. O ideal é confirmar com nova dosagem ou com HbA1c.
+c) A acantose nigricans é marcador cutâneo de resistência insulínica. A resistência gera hiperinsulinemia compensatória, e o excesso de insulina estimula receptores de IGF-1 em queratinócitos e fibroblastos, produzindo o espessamento aveludado e escurecido da pele em áreas de dobra.
+d) No tipo 1 a deficiência de insulina é ABSOLUTA — as células β foram destruídas e não há produção. No tipo 2 a deficiência é RELATIVA: existe insulina circulante, muitas vezes até em excesso no início, mas ela é insuficiente diante da resistência periférica. Somam-se a secreção anormal pelas células β e a produção aumentada de glicose pelo fígado.

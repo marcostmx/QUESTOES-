@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Três pacientes são avaliados na enfermaria. O paciente A apresenta PA = 172x58 mmHg; o paciente B, PA = 96x84 mmHg; o paciente C, PA = 124x78 mmHg. Considerando exclusivamente o comportamento da pressão de pulso (pressão diferencial), assinale a alternativa correta:
+  A) A) O paciente A tem pressão de pulso de 114 mmHg, caracterizando pressão convergente, sugestiva de estenose aórtica.
+  B) B) O paciente A tem pressão de pulso de 114 mmHg, caracterizando pressão divergente, compatível com rigidez aórtica ou insuficiência aórtica.
+  C) C) O paciente B tem pressão de pulso de 12 mmHg, caracterizando pressão divergente, sugestiva de hipovolemia.
+  D) D) O paciente B apresenta pressão de pulso normal, pois a diastólica está dentro da faixa de referência.
+  E) E) A pressão de pulso do paciente C é de 202 mmHg, valor considerado normal para adultos.
+GABARITO:
+Alternativa B.
+A pressão de pulso do paciente A é 172-58 = 114 mmHg (divergente/alargada), comum em rigidez aórtica (idoso) ou insuficiência aórtica. Do paciente B é 96-84=12 mmHg (convergente, típica de choque/hipovolemia).

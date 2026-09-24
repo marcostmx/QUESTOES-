@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 45 anos com história de infecções respiratórias de repetição desde a infância. Queixa-se de tosse severa e persistente, com expectoração abundante, de odor fétido e por vezes sanguinolenta. Tomografia mostra dilatação de brônquios, mais acentuada nos lobos inferiores bilateralmente.
+
+a) Qual o diagnóstico e o mecanismo da lesão?
+b) Quais são as duas condições geralmente necessárias para o desenvolvimento das lesões completas?
+c) Por que os sintomas são episódicos?
+d) Cite uma doença genética que cursa classicamente com esse quadro e explique o elo fisiopatológico.
+GABARITO:
+a) Bronquiectasia — dilatação permanente e irreversível de brônquios e bronquíolos, resultante da destruição do músculo liso e do tecido elástico por infecções necrotizantes crônicas.
+b) Obstrução e infecção. São as principais condições associadas, e é provável que ambas sejam necessárias para o desenvolvimento das lesões completas.
+c) Porque são frequentemente precipitados por infecções do trato respiratório superior ou pela introdução de novos agentes patogênicos, que reagudizam o ciclo de inflamação e destruição.
+d) Fibrose cística. O elo: o defeito no canal de cloreto (CFTR) altera o transporte iônico → secreções viscosas → depuração mucociliar defeituosa e obstrução das vias aéreas → cenário propício a infecções bacterianas crônicas → dano difuso às paredes → destruição do músculo liso e do tecido elástico → bronquiectasia, enquanto os pequenos bronquíolos são obliterados por fibrose (bronquiolite obliterante).

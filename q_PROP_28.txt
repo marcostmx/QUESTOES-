@@ -1,0 +1,11 @@
+ (Options: 5)
+TEXT: Paciente de 45 anos, sexo masculino, pesa 118 kg e mede 1,72 m. Considerando os parâmetros antropométricos do exame físico geral, assinale a alternativa correta:
+  A) A) O IMC é de aproximadamente 39,9 kg/m², caracterizando obesidade grau II.
+  B) B) O IMC é de aproximadamente 39,9 kg/m², caracterizando sobrepeso.
+  C) C) O IMC é de aproximadamente 68,6 kg/m², caracterizando obesidade grau III.
+  D) D) O IMC é de aproximadamente 39,9 kg/m², caracterizando eutrofia, pois a faixa normal vai até 40 kg/m².
+  E) E) Não é possível calcular o IMC sem a medida da circunferência abdominal.
+GABARITO:
+Alternativa A.
+IMC = peso / (altura * altura) = 118 / (1.72 * 1.72) = 118 / 2.9584 = 39.88.
+IMC entre 35,0 e 39,9 é Obesidade Grau II.

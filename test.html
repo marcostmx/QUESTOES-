@@ -1,0 +1,5 @@
+<script>
+window.onerror = function(msg, url, line, col, error) {
+   fetch('http://localhost:3000/log-error', {method: 'POST', body: JSON.stringify({msg, line, col})});
+};
+</script>

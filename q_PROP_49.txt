@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre as bulhas cardíacas e os ruídos acessórios, analise as assertivas a seguir:
+I. A primeira bulha (B1) resulta do fechamento das valvas mitral e tricúspide e marca o início da sístole ventricular.
+II. A terceira bulha (B3) pode ser um achado fisiológico em crianças e adultos jovens, sem significar doença.
+III. A quarta bulha (B4) pode ser auscultada em pacientes com fibrilação atrial, pois independe da contração atrial efetiva.
+IV. O estalido de abertura é um som protodiastólico de alta frequência, classicamente associado à estenose mitral.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois a B4 DECORRE EXATAMENTE da contração atrial. Na fibrilação atrial não há contração atrial organizada, logo a B4 desaparece.

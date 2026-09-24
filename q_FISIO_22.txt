@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Mulher de 52 anos refere ganho de peso, intolerância ao frio, constipação, pele seca e escamosa, cabelo ressecado e escasso, esquecimento e parestesias das mãos e dos pés. Ao exame: edema de face, bradicardia e aumento indolor da tireoide.
+
+a) Qual o diagnóstico e a causa mais provável?
+b) Qual o resultado esperado de TSH e T4 livre?
+c) Como se confirma laboratorialmente a etiologia?
+d) Descreva os achados histopatológicos da glândula.
+e) Por que há bócio se a glândula está hipofuncionante?
+GABARITO:
+a) Hipotireoidismo, muito provavelmente por tireoidite de Hashimoto — a etiologia autoimune mais comum, mais frequente em mulheres, com prevalência que aumenta com a idade e cerca de dez vezes mais comum em mulheres que em homens.
+b) TSH elevado e T4 livre diminuído — padrão do hipotireoidismo primário.
+c) Pela demonstração de altos títulos de anticorpos antiperoxidase tireoidiana (anti-TPO).
+d) Inflamação autoimune crônica com infiltração linfocitária; o ataque imunológico é agressivo e destrutivo dentro dos folículos tireoidianos; há aglomerados de macrófagos e infiltração linfoide no tecido intersticial, acompanhada de formação de folículos linfoides.
+e) Porque há hipotrofia das células foliculares com aumento do tamanho dos folículos como tentativa de compensação — a glândula cresce buscando manter a produção hormonal, apesar de destruída funcionalmente. Some-se o estímulo trófico do TSH cronicamente elevado.

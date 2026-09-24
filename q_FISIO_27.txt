@@ -1,0 +1,16 @@
+ (Options: 4)
+TEXT: Paciente com insuficiência cardíaca apresenta dispneia aos esforços, ortopneia, dispneia paroxística noturna e estertores crepitantes bibasais. Esse conjunto traduz predominantemente:
+  A) A) Congestão venosa sistêmica por falência do ventrículo direito.
+  B) B) Congestão venosa pulmonar por falência do ventrículo esquerdo.
+  C) C) Baixo débito com hipoperfusão periférica.
+  D) D) Derrame pericárdico com restrição ao enchimento.
+GABARITO:
+**Alternativa B** — Congestão venosa pulmonar por falência do ventrículo esquerdo.
+
+O ventrículo esquerdo que falha transmite pressão retrogradamente ao átrio esquerdo e ao leito capilar pulmonar. O decúbito aumenta o retorno venoso e agrava a congestão, produzindo ortopneia e DPN.
+
+• A) A falência direita dá turgência jugular, hepatomegalia e edema de membros.
+• C) Baixo débito cursa com fadiga, oligúria, extremidades frias e confusão.
+• D) Tamponamento cursa com hipofonese de bulhas, turgência jugular e pulso paradoxal.
+
+Revisar: Insuficiência cardíaca esquerda · manifestações

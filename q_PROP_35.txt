@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre o exame da glândula tireoide, analise as assertivas a seguir:
+I. A palpação pode ser realizada por via anterior ou posterior, solicitando-se ao paciente que degluta para que a glândula se desloque sob os dedos do examinador.
+II. Devem ser descritos volume, consistência, mobilidade, superfície, sensibilidade e presença de nódulos.
+III. A ausculta da tireoide é dispensável, pois a glândula não apresenta vascularização suficiente para gerar sopros.
+IV. A presença de sopro sobre a glândula sugere hipervascularização, achado que pode ocorrer na doença de Graves.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois a ausculta da tireoide aumentada é mandatória para pesquisa de sopros de hipervascularização.

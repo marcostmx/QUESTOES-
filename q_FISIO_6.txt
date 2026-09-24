@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Marque V ou F e corrija as falsas:
+
+I. Em mais de 90% dos casos a isquemia miocárdica decorre de lesões ateroscleróticas obstrutivas nas artérias coronárias epicárdicas.
+II. Uma obstrução de 90% pode gerar fluxo coronariano inadequado mesmo em repouso.
+III. A artéria coronária mais frequentemente acometida é a coronária direita, em 40 a 50% dos casos.
+IV. A aterosclerose causa mais morbidade e mortalidade no mundo ocidental que qualquer outra doença, respondendo por aproximadamente metade dos óbitos.
+V. As coronárias são vasos epicárdicos, e por isso a necrose do infarto progride do subendocárdio em direção ao epicárdio.
+GABARITO:
+I — V.
+II — V. 75% é o limiar da isquemia ao esforço; 90%, o do fluxo inadequado em repouso.
+III — F. A mais acometida é a descendente anterior esquerda, em 40 a 50% dos casos. A coronária direita responde por 30 a 40% e a circunflexa por 15 a 20%.
+IV — V.
+V — V. O subendocárdio é a região mais distante das coronárias epicárdicas e a que sofre maior pressão intramural, sendo a primeira a necrosar.

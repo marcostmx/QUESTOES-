@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: Sobre os tipos especiais de pulso arterial, assinale V ou F e marque a sequência correta:
+I. O pulso alternante caracteriza-se pela alternância regular entre uma pulsação de maior e outra de menor amplitude, sendo indicativo de disfunção ventricular esquerda grave.
+II. O pulso filiforme é fino e de difícil percepção, encontrado em estados de choque e hipovolemia.
+III. O pulso bisferiens apresenta dois picos sistólicos e pode ser encontrado na dupla lesão aórtica e na cardiomiopatia hipertrófica.
+IV. O pulso célere ou de Corrigan é sinônimo de pulso parvus et tardus.
+V. O déficit de pulso é definido pela diferença entre a frequência cardíaca central e o número de pulsações periféricas palpadas.
+Marque a alternativa que representa a sequência correta:
+  A) A) V – V – V – F – V
+  B) B) V – F – V – V – F
+  C) C) F – V – V – F – V
+  D) D) V – V – F – F – V
+  E) E) F – V – F – V – V
+GABARITO:
+Alternativa A.
+IV é falsa. Célere (amplo e de ascensão/queda rápida) é O OPOSTO de parvus et tardus (pequeno e de ascensão lenta).

@@ -1,0 +1,10 @@
+ (Options: 0)
+TEXT: a. Descreva, em ordem, as quatro etapas do exame do aparelho respiratório e o que se busca em cada uma.
+b. Explique por que, no aparelho respiratório, a ordem é inspeção → palpação → percussão → ausculta, enquanto no abdome a ausculta é antecipada.
+c. Descreva a técnica de pesquisa da expansibilidade torácica e o que significa encontrá-la assimétrica.
+d. Diferencie broncofonia, pectorilóquia e egofonia, indicando o que têm em comum.
+GABARITO:
+(a) Inspeção (forma, esforço respiratório), palpação (frêmito, expansibilidade, traqueia), percussão (macicez, timpanismo), ausculta (murmúrio e ruídos adventícios).
+(b) No abdome, palpar/percutir antes da ausculta estimula as alças intestinais, alterando artificialmente os ruídos hidroaéreos. No tórax isso não ocorre.
+(c) Mãos espalmadas na base ou ápice torácico, solicitando inspiração profunda. Assimetria indica doença unilateral (derrame, atelectasia, pneumotórax).
+(d) Todas traduzem aumento da transmissão vocal (consolidação). Broncofonia: voz mais alta mas indistinta. Pectorilóquia: palavras perfeitamente inteligíveis. Egofonia: voz anasalada/"caprina".

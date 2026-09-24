@@ -1,0 +1,19 @@
+ (Options: 5)
+TEXT: Em relação ao exame físico geral, analise as assertivas a seguir:
+I. O padrão respiratório de Cheyne-Stokes é comum em pacientes com lesões cerebrais e hipertensão intracraniana.
+II. O padrão respiratório de Biot é caracterizado por respirações anárquicas e sem padrão.
+III. Durante um episódio de cetoacidose diabética, pode-se desenvolver um padrão respiratório chamado Kussmaul.
+IV. Espera-se encontrar pulso em martelo d'água em um paciente com insuficiência aórtica.
+Assinale a alternativa correta:
+  A) A) Todos os itens estão corretos.
+  B) B) Apenas o item IV é falso.
+  C) C) Apenas os itens III e IV são falsos.
+  D) D) Apenas os itens I, II e IV são verdadeiros.
+  E) E) Os itens II, III e IV são verdadeiros.
+GABARITO:
+Alternativa E.
+Os itens II, III e IV são verdadeiros.
+• I. FALSO: O padrão respiratório de Cheyne-Stokes (crescendo-decrescendo com apneia) está classicamente associado a insuficiência cardíaca grave e lesões bi-hemisféricas/diencefálicas, não especificamente à hipertensão intracraniana isolada (que cursa classicamente com Biot/Cushing).
+• II. VERDADEIRO: O padrão de Biot caracteriza-se por incursões respiratórias atáxicas, caóticas e anárquicas.
+• III. VERDADEIRO: Na cetoacidose diabética surge o padrão de Kussmaul (inspirações rápidas e amplas alternadas com expirações rápidas, sem apneia).
+• IV. VERDADEIRO: O pulso em martelo d'água (pulso célere ou de Corrigan) é achado clássico da insuficiência aórtica.

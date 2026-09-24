@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Homem de 72 anos, hipertenso em uso crônico de enalapril e hidroclorotiazida, apresenta diarreia e vômitos há três dias, com ingesta hídrica mínima. Por dor lombar, fez uso de diclofenaco por conta própria. Ao exame: letárgico, mucosas muito secas, turgor diminuído, PA 85/50 mmHg, FC 110 bpm. Exames: creatinina 3,8 mg/dL (basal de 1,0), ureia 140 mg/dL, K⁺ 5,8 mEq/L. Sedimento com cilindros hialinos esparsos, Na⁺ urinário 12 mEq/L.
+
+a) Qual a etiologia e classificação da injúria renal?
+b) Explique a influência do enalapril e do diclofenaco na hemodinâmica intraglomerular desse paciente.
+c) Explique a relação ureia/creatinina muito elevada e o sódio urinário baixo.
+d) Qual a conduta inicial prioritária?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Etiologia e classificação:** Injúria renal aguda pré-renal grave por desidratação (hipovolemia) associada a bloqueio farmacológico da autorregulação renal.
+
+b) **Influência dos fármacos na hemodinâmica glomerular:** Fisiologicamente, sob hipoperfusão, a arteríola aferente dilata via prostaglandinas para manter o fluxo, e a eferente constringe via angiotensina II para manter a pressão de filtração. O diclofenaco (AINE) inibe a síntese de prostaglandinas e bloqueia a dilatação da aferente. O enalapril (IECA) bloqueia a síntese de angiotensina II e impede a vasoconstrição da eferente. Sem dilatar a entrada e sem fechar a saída, a pressão intraglomerular desaba e a taxa de filtração cessa.
+
+c) **Ureia/creatinina e Na⁺ urinário:** O túbulo proximal reabsorve água e ureia avidamente sob hipovolemia, elevando a ureia sérica desproporcionalmente à creatinina (> 20:1). O sódio urinário baixo (< 20 mEq/L) e os cilindros apenas hialinos confirmam túbulos íntegros trabalhando em capacidade máxima de reabsorção.
+
+d) **Conduta prioritária:** Expansão volêmica vigorosa com cristaloides isotônicos e suspensão imediata do enalapril, do diurético e do AINE. Se a perfusão for restaurada rapidamente, a lesão é reversível antes de evoluir para NTA isquêmica.
+
+Revisar: Injúria renal pré-renal · autorregulação glomerular e nefrotóxicos

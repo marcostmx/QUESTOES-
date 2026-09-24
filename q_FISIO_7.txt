@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Mulher de 61 anos, diabética e hipertensa, procura a emergência com dor torácica em aperto há 2 horas, iniciada em repouso, sem alívio. É o terceiro episódio na semana, cada vez mais prolongado. Ao exame está estável hemodinamicamente. O ECG mostra infradesnivelamento do segmento ST em parede anterior, sem supra. A primeira dosagem de troponina está elevada.
+
+a) Classifique o quadro dentro da árvore das síndromes coronarianas agudas, justificando cada ramificação.
+b) Se a troponina viesse normal e o ECG mantivesse apenas o infra, qual seria o diagnóstico? Qual a diferença fisiopatológica entre os dois?
+c) Qual o tipo de infarto, quanto à extensão na parede, esperado neste caso?
+GABARITO:
+a) É uma síndrome coronariana aguda SEM supra de ST, subtipo IAM sem supradesnivelamento de ST (IAMSSST).
+Primeira ramificação — o ECG: não há supra de ST, logo o quadro entra no ramo "SCA sem supra".
+Segunda ramificação — a troponina: está elevada, o que indica que houve necrose miocárdica. Isso define IAM sem supra, e não angina instável.
+
+b) Seria angina instável. A diferença fisiopatológica é apenas a presença ou ausência de necrose detectável: ambas nascem do mesmo evento — ruptura de placa com trombo plaquetário parcial/não oclusivo e espasmo limitando o fluxo em repouso. Na angina instável a isquemia é grave, mas insuficiente para matar miócitos; no IAMSSST houve morte celular.
+
+c) Infarto subendocárdico (não transmural), pois a oclusão é transitória ou incompleta, com ocorrência de lise do trombo. A necrose atinge apenas parte da espessura da parede — justamente a camada subendocárdica.

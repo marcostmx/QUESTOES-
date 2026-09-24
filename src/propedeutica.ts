@@ -1,0 +1,221 @@
+export const propedeutica = [
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `A anamnese é o instrumento central do método clínico. Analise as assertivas a seguir:
+
+I. A queixa principal deve ser registrada de forma breve e espontânea, nas palavras do próprio paciente, motivo pelo qual se convenciona anotá-la entre aspas.
+II. O sintoma-guia é, obrigatoriamente, o primeiro sintoma relatado pelo paciente durante a entrevista.
+III. A duração e a irradiação da dor são sub-itens do eixo "características" na investigação do sintoma-guia, e não eixos independentes.
+IV. O interrogatório sintomatológico tem por finalidade detectar, de forma sistemática, sintomas que o paciente não relatou espontaneamente.
+
+Está correto o que se afirma em:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Apenas I e II estão corretas.",
+            "B) Apenas I, III e IV estão corretas.",
+            "C) Apenas II e IV estão corretas.",
+            "D) Apenas III e IV estão corretas.",
+            "E) Todas as alternativas estão corretas."
+        ],
+        gabarito: `Alternativa B.
+
+I — VERDADEIRO. A queixa principal é registrada de forma breve, espontânea e nas palavras do paciente, entre aspas — a convenção existe justamente para deixar claro que aquilo é o relato dele, não a tradução técnica.
+II — FALSO. O sintoma-guia não é necessariamente o primeiro relatado, nem o mais valorizado pelo paciente: é aquele que permite reconstituir a história com mais precisão.
+III — VERDADEIRO. Localização, irradiação, duração e qualidade são os quatro sub-itens do eixo características.
+IV — VERDADEIRO. É exatamente a função do IS: varredura sistemática, sistema por sistema, para capturar o que o paciente não relatou por esquecimento, por não julgar relevante ou por medo.
+
+OBJETIVO EDUCACIONAL: Dominar os seis eixos do sintoma-guia e reconhecer que o sintoma-guia é escolhido pelo poder de organizar a história, não pela ordem em que foi mencionado.`
+    },
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `Sobre os termos empregados no interrogatório sintomatológico, é incorreto afirmar que:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Disúria é a dor ou o desconforto à micção.",
+            "B) Melena é a evacuação de fezes escuras e fétidas, decorrente de sangramento digestivo alto.",
+            "C) Colúria é o escurecimento da urina pela eliminação de bilirrubina, comum na icterícia obstrutiva.",
+            "D) Poliúria e polaciúria são termos sinônimos, ambos definidos como aumento do volume urinário em 24 horas.",
+            "E) Odinofagia é a dor à deglutição, enquanto disfagia é a dificuldade de deglutir."
+        ],
+        gabarito: `Alternativa D (INCORRETA).
+
+D — INCORRETA (é a resposta): São conceitos diferentes e frequentemente trocados. Poliúria é aumento do volume urinário em 24 h (> 2.500 mL). Polaciúria é aumento da frequência das micções, geralmente com volumes pequenos em cada uma. Um diabético descompensado tem poliúria; uma paciente com cistite tem polaciúria.
+
+As demais estão corretas. Disúria é dor/desconforto miccional. Melena é a fezes escura, pastosa e fétida. Colúria é urina escura ("cor de coca-cola"). Odinofagia (dor ao deglutir) e disfagia (dificuldade de deglutir) são eixos distintos.
+
+OBJETIVO EDUCACIONAL: Separar pares de termos que a banca troca: poliúria/polaciúria, disúria/estrangúria, melena/hematoquezia, odinofagia/disfagia.`
+    },
+    {
+        type: "CASO CLÍNICO",
+        text: `Paciente sexo masculino, 67 anos, procura emergência referindo dor no peito, descrita como em aperto. A dor é de localização retroesternal, com irradiação para face interna de membro superior direito, iniciada durante esforço físico, há cerca de 30 minutos. Paciente relata episódios prévios semelhantes, porém o episódio atual está mais intenso e duradouro. Refere alívio da dor após ficar em repouso. Antecedentes pessoais: hipertensão arterial sistêmica, diabetes mellitus tipo 2, dislipidemia e gastrite, todos diagnosticados há 10 anos. Nega acompanhamento médico regular ou uso de medicações. Peso = 109 kg. Altura = 1,70 m. A partir dos dados descritos, qual a hipótese diagnóstica mais provável?`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Pneumotórax",
+            "B) Síndrome do pânico",
+            "C) Crise de gastrite",
+            "D) Síndrome coronariana aguda",
+            "E) Nenhuma alternativa está correta"
+        ],
+        gabarito: `Alternativa D.
+
+Cada eixo da HDA empurra para o mesmo lado: dor em aperto e retroesternal (características de dor visceral isquêmica), irradiação para membro superior, desencadeada por esforço e aliviada por repouso — a assinatura hemodinâmica da isquemia por desequilíbrio entre oferta e demanda de oxigênio. A evolução indica instabilização de uma angina previamente estável. Some quatro fatores de risco maiores: HAS, DM2, dislipidemia e obesidade, sem acompanhamento.
+
+Por que as outras caem: o pneumotórax daria dor súbita "em punhalada", pleurítica, com dispneia e achados unilaterais. A síndrome do pânico é diagnóstico de exclusão. A crise de gastrite é o distrator plausível, mas dor epigástrica de gastrite se relaciona à alimentação, não ao esforço.`
+    },
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `A respeito das técnicas de condução da entrevista clínica, analise as assertivas a seguir:
+
+I. Recomenda-se iniciar a história da doença atual com perguntas abertas, reservando as perguntas fechadas e dirigidas para o detalhamento posterior dos eixos do sintoma-guia.
+II. Perguntas indutivas, do tipo "a dor piora à noite, não é mesmo?", são recomendadas na fase inicial da coleta por tornarem a entrevista mais objetiva.
+III. Na anamnese mista, o médico permite inicialmente o relato espontâneo e, em seguida, conduz a entrevista de modo mais objetivo.
+IV. A clarificação consiste em pedir ao paciente que detalhe um termo vago, como "ruim" ou "esquisito", empregado por ele durante o relato.
+
+Está correto o que se afirma em:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Apenas I e II estão corretas.",
+            "B) Apenas II e III estão corretas.",
+            "C) Apenas I, III e IV estão corretas.",
+            "D) Apenas III e IV estão corretas.",
+            "E) Nenhuma das alternativas anteriores."
+        ],
+        gabarito: `Alternativa C.
+
+I — VERDADEIRO. A sequência aberta → fechada é o princípio central da entrevista.
+II — FALSO. Perguntas indutivas devem ser evitadas na coleta inicial, precisamente porque enviesam o relato. O correto é perguntar de forma neutra.
+III — VERDADEIRO. Definição correta da anamnese mista.
+IV — VERDADEIRO. Clarificação é exatamente pedir que o paciente detalhe um termo vago.`
+    },
+    {
+        type: "VERDADEIRO OU FALSO",
+        text: `Sobre a identificação, os antecedentes e os hábitos de vida, assinale V (verdadeiro) ou F (falso) e marque a alternativa correspondente à sequência correta:
+
+I. A carga tabágica em maços-ano é calculada multiplicando-se o número de maços fumados por dia pelo número de anos de tabagismo.
+II. Naturalidade é o local onde o paciente residia antes de sua moradia atual, enquanto procedência é o local de nascimento.
+III. Menarca, sexarca e desenvolvimento neuropsicomotor integram os antecedentes pessoais fisiológicos.
+IV. A religião do paciente é dado de interesse meramente social, sem repercussão sobre condutas médicas.
+V. Residir em área endêmica é informação que compõe as condições socioeconômicas, culturais e ambientais.`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) V – V – F – F – V",
+            "B) V – F – V – F – V",
+            "C) F – V – V – V – F",
+            "D) V – F – V – V – F",
+            "E) F – F – V – F – V"
+        ],
+        gabarito: `Alternativa B.
+
+I — VERDADEIRO. Carga tabágica (maços-ano) = maços por dia × anos de tabagismo.
+II — FALSO. Invertido. Naturalidade é onde a pessoa nasceu; procedência é de onde ela veio / onde morava antes.
+III — VERDADEIRO. Antecedentes pessoais dividem-se em fisiológicos e patológicos.
+IV — FALSO. A religião tem relevância clínica concreta (ex: testemunhas de Jeová recusam hemotransfusão).
+V — VERDADEIRO. Moradia em área endêmica integra as condições socioeconômicas e ambientais.`
+    },
+    {
+        type: "DISCURSIVA",
+        text: `Paciente de 48 anos, sexo feminino, relata: "Doutor, há uns cinco dias começou uma dor aqui em cima da barriga, do lado direito, que sobe para as costas. É uma dor forte, que aperta e vai e volta. Piora sempre depois que eu como alguma coisa gordurosa, e melhora um pouco quando eu deito encolhida. Junto com a dor eu enjoo e já vomitei duas vezes. No começo era mais fraca, mas de ontem para hoje ficou muito pior, e por isso eu vim."
+
+a. Identifique e nomeie, no relato, cada um dos seis eixos de investigação do sintoma-guia, transcrevendo o trecho correspondente a cada eixo.
+b. Qual eixo justifica, no relato, a decisão da paciente de procurar atendimento agora? Explique por que esse eixo costuma determinar a urgência da conduta.
+c. Qual é o sintoma-guia deste caso e por que ele — e não a náusea — deve ser escolhido como fio condutor da HDA?`,
+        interactionType: "textarea",
+        gabarito: `Gabarito Comentado:
+
+(a) Os seis eixos, com os trechos correspondentes:
+1. Início: "há uns cinco dias começou"
+2. Características: "aqui em cima da barriga, do lado direito" (localização) · "sobe para as costas" (irradiação) · "forte, que aperta" (qualidade) · "vai e volta" (padrão intermitente)
+3. Fatores de melhora/piora: "piora sempre depois que eu como alguma coisa gordurosa" · "melhora um pouco quando eu deito encolhida"
+4. Sintomas associados: "eu enjoo e já vomitei duas vezes"
+5. Evolução: "no começo era mais fraca, mas de ontem para hoje ficou muito pior"
+6. Situação atual: "e por isso eu vim"
+
+(b) O eixo é a situação atual. Ele costuma determinar a urgência porque descreve o estado do paciente no momento exato da consulta.
+
+(c) O sintoma-guia é a dor em hipocôndrio direito. Ela deve ser escolhida porque é o sintoma que permite reconstituir toda a história com precisão: tem início definido, características ricas e evolução clara. A náusea é sintoma associado.`
+    },
+    {
+        type: "DISCURSIVA",
+        text: `a. Diferencie sinal, sintoma e síndrome, dando um exemplo clínico de cada.
+b. Explique o que caracteriza um sinal patognomônico e cite dois exemplos, indicando a doença correspondente.
+c. Um estudante afirma: "encontrei febre, tosse produtiva e estertores finos na base direita; portanto o diagnóstico sindrômico é pneumonia." Corrija a afirmação, explicando a diferença entre diagnóstico sindrômico e diagnóstico etiológico.`,
+        interactionType: "textarea",
+        gabarito: `Gabarito Comentado:
+
+(a) Sintoma é a manifestação subjetiva (dor, náusea). Sinal é a manifestação objetiva, detectada pelo examinador (icterícia, sopro). Síndrome é o conjunto de sinais e sintomas que ocorrem associados com frequência e traduzem um mecanismo fisiopatológico (síndrome de consolidação pulmonar).
+
+(b) Sinal patognomônico é aquele cuja presença, sozinha, estabelece o diagnóstico — tem especificidade praticamente absoluta. Exemplos: sinal de Koplik no sarampo; dentes de Hutchinson na sífilis congênita.
+
+(c) A afirmação confunde os dois níveis. Febre, tosse e estertores compõem uma síndrome de consolidação pulmonar (diagnóstico sindrômico). "Pneumonia bacteriana" exige identificar o agente ou inferir, o que seria o diagnóstico etiológico.`
+    },
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `A dor é o sintoma-guia mais frequente na prática médica. Analise as assertivas a seguir:
+
+I. A dor visceral é tipicamente mal delimitada, referida em áreas amplas e frequentemente acompanhada de manifestações neurovegetativas, como sudorese e náuseas.
+II. A dor somática superficial é bem localizada, e o paciente costuma conseguir apontá-la com a ponta do dedo.
+III. Alodinia é a dor desencadeada por estímulos que normalmente não provocam dor, como o simples contato do lençol sobre a pele.
+IV. A dor neuropática decorre da estimulação direta de nociceptores íntegros por um processo inflamatório tecidual.
+
+Está correto o que se afirma em:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Apenas I e IV estão corretas.",
+            "B) Apenas I, II e III estão corretas.",
+            "C) Apenas II e IV estão corretas.",
+            "D) Apenas III e IV estão corretas.",
+            "E) Todas as alternativas estão corretas."
+        ],
+        gabarito: `Alternativa B.
+
+I — VERDADEIRO. A dor visceral é conduzida por fibras C amielínicas, de condução lenta e campos receptivos amplos — daí ser mal delimitada.
+II — VERDADEIRO. A dor somática superficial é conduzida por fibras A-delta, rápidas, com representação cortical precisa.
+III — VERDADEIRO. Definição exata de alodinia.
+IV — FALSO. Definição trocada. Estimulação de nociceptores íntegros por processo inflamatório é a dor nociceptiva. A dor neuropática decorre de lesão ou disfunção do próprio sistema somatossensorial.`
+    },
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `Sobre sinais e sintomas, é incorreto afirmar que:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) A ortopneia é o tipo de dispneia caracterizada por impedir o paciente de ficar deitado, causando desconforto respiratório nessa posição.",
+            "B) Se um paciente possui um derrame pleural à direita, a posição de conforto respiratório desse paciente é o decúbito lateral do lado direito.",
+            "C) A lipotimia consiste na perda súbita e transitória da consciência.",
+            "D) O sinal de Koplik é patognomônico de sarampo.",
+            "E) Os dentes de Hutchinson são patognomônicos de sífilis congênita."
+        ],
+        gabarito: `Alternativa C (INCORRETA).
+
+C — INCORRETA (é a resposta). A definição apresentada é de síncope. Na lipotimia há a sensação iminente de desmaio — escurecimento visual, sudorese fria, náusea, fraqueza — sem perda completa da consciência.
+
+As outras estão corretas:
+A — Ortopneia piora em decúbito.
+B — No derrame, o conforto vem do decúbito sobre o lado doente, liberando o pulmão sadio para expandir plenamente.
+D e E — Koplik (sarampo) e Hutchinson (sífilis) são de fato patognomônicos.`
+    },
+    {
+        type: "MÚLTIPLA ESCOLHA",
+        text: `A respeito da febre e de suas características semiológicas, analise as assertivas a seguir:
+
+I. Paciente que apresenta, todos os dias, temperatura de 39,2 °C ao final da tarde e 37,4 °C pela manhã, sem jamais atingir a normalidade térmica, apresenta febre do tipo remitente.
+II. Na febre intermitente, a hipertermia é ciclicamente interrompida por períodos de temperatura normal, como ocorre classicamente na malária.
+III. Considerando a temperatura axilar, define-se febre alta ou elevada como aquela acima de 38,6 °C.
+IV. O término da febre por crise caracteriza-se pelo desaparecimento gradual da hipertermia ao longo de vários dias.
+
+Está correto o que se afirma em:`,
+        interactionType: "multiple-choice",
+        options: [
+            "A) Apenas I e IV estão corretas.",
+            "B) Apenas II e III estão corretas.",
+            "C) Apenas I, II e III estão corretas.",
+            "D) Apenas III e IV estão corretas.",
+            "E) Todas as alternativas estão corretas."
+        ],
+        gabarito: `Alternativa C.
+
+I — VERDADEIRO. Variação diária maior que 1 °C sem jamais normalizar define exatamente a febre remitente.
+II — VERDADEIRO. Na intermitente, a hipertermia é interrompida por períodos de temperatura normal, de forma cíclica (ex: malária).
+III — VERDADEIRO. Febrícula até 37,5 °C; febre moderada de 37,6 a 38,5 °C; febre alta acima de 38,6 °C.
+IV — FALSO. Invertido. Término em crise é o desaparecimento súbito da febre. O desaparecimento gradual é o término em lise.`
+    }
+];

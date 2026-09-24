@@ -1,0 +1,21 @@
+ (Options: 5)
+TEXT: A respeito da febre e de suas características semiológicas, analise as assertivas a seguir:
+
+I. Paciente que apresenta, todos os dias, temperatura de 39,2 °C ao final da tarde e 37,4 °C pela manhã, sem jamais atingir a normalidade térmica, apresenta febre do tipo remitente.
+II. Na febre intermitente, a hipertermia é ciclicamente interrompida por períodos de temperatura normal, como ocorre classicamente na malária.
+III. Considerando a temperatura axilar, define-se febre alta ou elevada como aquela acima de 38,6 °C.
+IV. O término da febre por crise caracteriza-se pelo desaparecimento gradual da hipertermia ao longo de vários dias.
+
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas II e III estão corretas.
+  C) C) Apenas I, II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa C.
+
+I — VERDADEIRO. Variação diária maior que 1 °C sem jamais normalizar define exatamente a febre remitente.
+II — VERDADEIRO. Na intermitente, a hipertermia é interrompida por períodos de temperatura normal, de forma cíclica (ex: malária).
+III — VERDADEIRO. Febrícula até 37,5 °C; febre moderada de 37,6 a 38,5 °C; febre alta acima de 38,6 °C.
+IV — FALSO. Invertido. Término em crise é o desaparecimento súbito da febre. O desaparecimento gradual é o término em lise.

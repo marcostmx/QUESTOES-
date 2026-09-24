@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Mulher de 58 anos apresenta dispneia progressiva e palpitações. Ao exame: PA = 166x54 mmHg; pulso amplo, de ascensão e queda rápidas, palpável com facilidade em todos os sítios; ictus cordis desviado para baixo e para fora, propulsivo; à ausculta, sopro diastólico aspirativo de alta frequência, mais audível no 3º espaço intercostal esquerdo junto à borda esternal, acentuado com o paciente sentado e inclinado para frente. O diagnóstico mais provável e o comportamento esperado da pressão de pulso são:
+  A) A) Estenose aórtica; pressão de pulso convergente.
+  B) B) Insuficiência aórtica; pressão de pulso divergente.
+  C) C) Estenose mitral; pressão de pulso convergente.
+  D) D) Insuficiência mitral; pressão de pulso normal.
+  E) E) Pericardite constritiva; pressão de pulso divergente.
+GABARITO:
+Alternativa B.
+Sopro diastólico em Erb (3º EIC E) acentuado à flexão para frente é insuficiência aórtica. A pressão de pulso é divergente (166 - 54 = 112 mmHg) gerando o pulso célere ou "martelo d'água".

@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Homem de 68 anos internado há 5 dias por IAM de parede anterior, tratado tardiamente. Vinha estável quando, subitamente, apresenta piora acentuada da dispneia, hipotensão e surgimento de sopro holossistólico intenso, novo, em borda esternal esquerda baixa, com frêmito. Ausculta pulmonar com estertores difusos.
+
+a) Cite três complicações mecânicas do IAM compatíveis com uma deterioração súbita neste período e diga qual delas melhor explica o sopro descrito.
+b) A qual dos seis mecanismos de disfunção cardiovascular corresponde a complicação que você escolheu?
+c) Por que essa complicação ocorre justamente por volta do 5º dia?
+GABARITO:
+a) Complicações mecânicas compatíveis: ruptura de parede livre (evolui com hemopericárdio e tamponamento), ruptura do septo interventricular e ruptura de músculo papilar necrosado (insuficiência mitral aguda). O sopro holossistólico novo em borda esternal esquerda baixa, com frêmito, é característico da ruptura do septo interventricular — comunicação interventricular adquirida.
+
+b) Corresponde ao mecanismo 4 — fluxo colateral: o sangue é desviado de uma parte do coração para outra (do VE para o VD) por um defeito adquirido após o infarto.
+
+c) Porque o 5º dia cai na janela de fragilidade do 3º ao 7º dia. Nesse período a necrose já desorganizou a arquitetura do tecido e os macrófagos já removeram o material necrótico, mas o tecido de granulação e a fibrose ainda não se formaram — a parede está mecanicamente no seu ponto mais frágil.

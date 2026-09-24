@@ -1,0 +1,20 @@
+ (Options: 0)
+TEXT: Paciente de 48 anos, sexo feminino, relata: "Doutor, há uns cinco dias começou uma dor aqui em cima da barriga, do lado direito, que sobe para as costas. É uma dor forte, que aperta e vai e volta. Piora sempre depois que eu como alguma coisa gordurosa, e melhora um pouco quando eu deito encolhida. Junto com a dor eu enjoo e já vomitei duas vezes. No começo era mais fraca, mas de ontem para hoje ficou muito pior, e por isso eu vim."
+
+a. Identifique e nomeie, no relato, cada um dos seis eixos de investigação do sintoma-guia, transcrevendo o trecho correspondente a cada eixo.
+b. Qual eixo justifica, no relato, a decisão da paciente de procurar atendimento agora? Explique por que esse eixo costuma determinar a urgência da conduta.
+c. Qual é o sintoma-guia deste caso e por que ele — e não a náusea — deve ser escolhido como fio condutor da HDA?
+GABARITO:
+Gabarito Comentado:
+
+(a) Os seis eixos, com os trechos correspondentes:
+1. Início: "há uns cinco dias começou"
+2. Características: "aqui em cima da barriga, do lado direito" (localização) · "sobe para as costas" (irradiação) · "forte, que aperta" (qualidade) · "vai e volta" (padrão intermitente)
+3. Fatores de melhora/piora: "piora sempre depois que eu como alguma coisa gordurosa" · "melhora um pouco quando eu deito encolhida"
+4. Sintomas associados: "eu enjoo e já vomitei duas vezes"
+5. Evolução: "no começo era mais fraca, mas de ontem para hoje ficou muito pior"
+6. Situação atual: "e por isso eu vim"
+
+(b) O eixo é a situação atual. Ele costuma determinar a urgência porque descreve o estado do paciente no momento exato da consulta.
+
+(c) O sintoma-guia é a dor em hipocôndrio direito. Ela deve ser escolhida porque é o sintoma que permite reconstituir toda a história com precisão: tem início definido, características ricas e evolução clara. A náusea é sintoma associado.

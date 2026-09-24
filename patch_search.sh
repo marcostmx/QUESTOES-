@@ -1,0 +1,6 @@
+#!/bin/bash
+sed -i 's/<div class="flex items-center justify-between mb-6">/<div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">/g' index.html
+
+sed -i 's/<h2 class="text-xl font-bold text-gray-900">Módulos de Questões<\/h2>/<h2 class="text-xl font-bold text-gray-900">Módulos de Questões<\/h2>\n                     <div class="relative w-full sm:w-64">\n                         <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">\n                             <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"><\/path><\/svg>\n                         <\/div>\n                         <input type="text" id="module-search" class="w-full pl-10 pr-4 py-2 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" placeholder="Buscar módulo...">\n                     <\/div>/g' index.html
+
+sed -i 's/<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6">/<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6" id="modules-grid">/g' index.html

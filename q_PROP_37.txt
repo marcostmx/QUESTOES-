@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre a inspeção estática e dinâmica do tórax, analise as assertivas a seguir:
+I. O tórax em tonel (ou em barril) apresenta aumento do diâmetro anteroposterior e é classicamente associado ao enfisema pulmonar.
+II. O pectus excavatum caracteriza-se por depressão da porção inferior do esterno, enquanto o pectus carinatum apresenta protrusão esternal anterior.
+III. A respiração toracoabdominal, com predomínio da ação diafragmática, é o padrão observado principalmente no sexo feminino adulto.
+IV. O tiragem intercostal e o uso de musculatura acessória são sinais de esforço respiratório aumentado.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois o padrão toracoabdominal (diafragmático) é do homem e criança. Na mulher adulta, o normal é o padrão costal superior.

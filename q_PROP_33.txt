@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Paciente de 52 anos queixa-se de diminuição da audição à direita. Ao exame com diapasão: no teste de Weber, o som lateraliza para a orelha direita; no teste de Rinne realizado à direita, a condução óssea é percebida por mais tempo que a condução aérea. Analise as assertivas:
+I. O teste de Rinne à direita está negativo.
+II. O conjunto dos achados é compatível com perda auditiva de condução na orelha direita.
+III. Se a perda fosse neurossensorial à direita, o Weber lateralizaria para a orelha esquerda.
+IV. Rinne e Weber são testes concorrentes, devendo o examinador optar por apenas um deles.
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e III corretas. IV é falsa pois Rinne e Weber são complementares e devem ser lidos em conjunto para definir o tipo de perda (condução x neurossensorial).

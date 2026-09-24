@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Mulher de 68 anos com histórico de DM tipo 2 há 20 anos, hipertensão arterial de difícil controle e insuficiência cardíaca crônica com fração de ejeção reduzida (ICFER). Dá entrada por dispneia aos esforços mínimos, tosse noturna e edema importante de membros inferiores bilaterais. Exames: creatinina 2,4 mg/dL (basal 1,4), ureia 110 mg/dL, peptídeo natriurético tipo B (BNP) 1.800 pg/mL, albuminúria 600 mg/g creatinina. Ecocardiograma revela FEVE 32% e dilatação ventricular.
+
+a) Como se conceitua a síndrome cardiorrenal e qual o subtipo predominante neste caso?
+b) Explique como a redução do débito cardíaco e o aumento da pressão venosa central afetam a hemodinâmica renal.
+c) Qual o papel da ativação neuro-hormonal crônica (sistema simpático e SRAA) no agravamento simultâneo do coração e do rim?
+d) Por que a redução excessiva da volemia por diuréticos pode paradoxalmente elevar ainda mais a creatinina?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Conceito e subtipo:** A síndrome cardiorrenal envolve disfunção simultânea na qual a falência aguda ou crônica de um órgão (coração ou rim) acelera ou induz a falência do outro. Aqui há Síndrome Cardiorrenal Tipo 2 (insuficiência cardíaca crônica descompensada agravando a função renal crônica preexistente).
+
+b) **Hemodinâmica renal:** A falência ventricular reduz o débito anterógrado (menor perfusão renal efetiva), enquanto a congestão retrógrada eleva a pressão venosa central e a pressão nas veias renais. O aumento da pressão venosa renal reduz o gradiente arteriovenoso de perfusão trans-renal e eleva a pressão nos capilares peritubulares e no espaço de Bowman, derrubando a taxa de filtração glomerular.
+
+c) **Ativação neuro-hormonal:** O baixo débito ativa o sistema simpático e o SRAA. A angiotensina II e a noradrenalina induzem vasoconstrição periférica (elevando a pós-carga cardíaca) e fibrose miocárdica progressiva; no rim, promovem vasoconstrição glomerular, retenção de água e sódio e esclerose dos néfrons remanescentes, perpetuando o ciclo de congestão e falência orgânica.
+
+d) **Diuréticos em excesso e creatinina:** A diurese excessiva reduz abruptamente o volume intravascular efetivo e a pressão de enchimento. Em um rim com autorregulação comprometida (já no limite de perfusão), a depleção volêmica transforma o quadro congestivo em choque pré-renal hipovolêmico, colapsando a filtração glomerular.
+
+Revisar: Síndrome cardiorrenal e interação neuro-hormonal

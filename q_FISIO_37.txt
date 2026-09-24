@@ -1,0 +1,16 @@
+ (Options: 0)
+TEXT: Mulher de 37 anos refere emagrecimento de 8 kg em três meses sem redução do apetite, palpitações, insônia, irritabilidade e intolerância ao calor. Ao exame: FC 118 bpm, PA 148/62 mmHg, tremor fino de extremidades, pele quente e úmida, exoftalmia bilateral e tireoide difusamente aumentada com sopro à ausculta.
+
+a) Qual o diagnóstico e a causa mais provável?
+b) Explique a patogênese dessa condição.
+c) Por que há exoftalmia, e por que ela não ocorre em todas as causas de tireotoxicose?
+GABARITO:
+**Resposta-modelo:**
+
+a) **Diagnóstico e causa:** Tireotoxicose por doença de Graves — a causa mais comum de hipertireoidismo. O bócio difuso com sopro e a oftalmopatia praticamente selam o diagnóstico.
+
+b) **Patogênese:** É doença autoimune: autoanticorpos estimuladores (TRAb) ligam-se ao receptor de TSH e o ativam de forma contínua, escapando da retroalimentação negativa. O resultado é hiperplasia glandular difusa, hipervascularização — daí o sopro — e produção autônoma de T3 e T4, com TSH suprimido.
+
+c) **Por que há exoftalmia:** A exoftalmia não decorre do excesso hormonal, e sim de um processo autoimune próprio da órbita: os mesmos anticorpos reconhecem antígenos compartilhados por fibroblastos orbitários, que proliferam e depositam glicosaminoglicanos, aumentando o volume retro-ocular e a musculatura extrínseca. Por isso a oftalmopatia é específica do Graves e não aparece em tireotoxicoses de outras causas, como o nódulo tóxico ou a tireoidite subaguda — e pode inclusive persistir depois de normalizada a função tireoidiana.
+
+Revisar: Doença de Graves

@@ -1,0 +1,6 @@
+{
+  "name": "Estudo PR1",
+  "description": "Plataforma acadêmica oficial integrada ao Google Drive com banco de questões, revisão espaçada, biblioteca de materiais, plano de estudos e tutor IA fundamentado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

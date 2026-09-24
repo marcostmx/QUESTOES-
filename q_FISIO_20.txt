@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 48 anos em consulta de rotina. IMC 33 kg/m², circunferência abdominal aumentada, PA 148/94 mmHg. Exames: glicemia de jejum 118 mg/dL, triglicerídeos 240 mg/dL, HDL 38 mg/dL. Ultrassom abdominal com esteatose hepática.
+
+a) Qual síndrome ela apresenta e quais são seus componentes segundo o material?
+b) Explique o mecanismo pelo qual a obesidade contribui para a hipertensão.
+c) Por que a dislipidemia dessa paciente aumenta o risco coronariano?
+d) Cite outras três repercussões da obesidade descritas no material, além das já presentes no caso.
+GABARITO:
+a) Síndrome metabólica, cujos componentes são: adiposidade visceral ou intra-abdominal, resistência à insulina, hiperinsulinemia, intolerância à glicose, hipertensão, hipertrigliceridemia e HDL baixo.
+b) A obesidade associa-se a resistência à insulina e hiperinsulinemia. O excesso de insulina desencadeia retenção de sódio, expansão do volume sanguíneo, produção excessiva de noradrenalina e proliferação das células musculares lisas vasculares — todos elementos característicos da hipertensão. O risco de desenvolver hipertensão em indivíduos previamente normotensos aumenta proporcionalmente ao peso.
+c) Porque indivíduos obesos costumam ter hipertrigliceridemia e HDL baixo, e ambos aumentam o risco de doença arterial coronariana.
+d) Doença hepática gordurosa não alcoólica (mais frequente em diabéticos, podendo progredir para fibrose e cirrose — presente neste caso); colelitíase, seis vezes mais comum em obesos, pelo aumento do colesterol total, do seu turnover e da excreção biliar; hipoventilação e hipersonolência, com pausas apneicas durante o sono, policitemia e eventual cor pulmonale; e osteoartrite, pela sobrecarga mecânica cumulativa das articulações.

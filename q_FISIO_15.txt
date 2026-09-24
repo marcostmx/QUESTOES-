@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 75 anos, hipertensa e diabética, com tosse, febre de 38,8 °C e escarro purulento há três dias. Ao exame do aparelho respiratório: frêmito toracovocal aumentado, macicez à percussão, ruídos respiratórios brônquicos e broncofonia em terço inferior do hemitórax esquerdo. Leucócitos 14.000/mm³. Radiografia com infiltrado em lobo inferior esquerdo.
+
+a) Qual o diagnóstico e o agente etiológico mais provável?
+b) Explique o mecanismo que gera esse conjunto de achados semiológicos.
+c) Se em vez desses achados a paciente apresentasse frêmito diminuído e murmúrio abolido, qual seria a hipótese e por quê?
+d) Cite dois marcadores laboratoriais úteis para diferenciar infecção bacteriana de viral e explique sua origem.
+GABARITO:
+a) Pneumonia adquirida na comunidade, muito provavelmente por Streptococcus pneumoniae.
+b) O alvéolo se enche de exsudato inflamatório e o pulmão, antes cheio de ar, torna-se sólido. Meio sólido conduz som melhor que o ar — daí o frêmito toracovocal aumentado, a macicez à percussão, os ruídos respiratórios brônquicos e a broncofonia.
+c) Derrame pleural. Nesse caso há líquido entre as pleuras, que afasta o parênquima da parede torácica. O som produzido nas vias aéreas não chega bem à superfície: o frêmito diminui e o murmúrio fica abolido, embora a percussão também seja maciça. A dupla consolidação/derrame se distingue justamente pelo frêmito — aumentado numa, diminuído na outra.
+d) Proteína C-reativa e procalcitonina — ambos reagentes de fase aguda produzidos primariamente no fígado, significativamente mais elevados em infecções bacterianas do que em virais.

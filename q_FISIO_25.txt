@@ -1,0 +1,15 @@
+ (Options: 0)
+TEXT: Jovem de 18 anos é levada à emergência confusa e com comportamento estranho. A mãe relata perda não intencional de 10 kg, fadiga há 2–3 semanas e que a filha vem se levantando várias vezes à noite para urinar. Na manhã da consulta queixou-se de dor abdominal e vomitou. Ao exame: magra, afebril, FC 118 bpm, respiração profunda a 24 mpm, mucosa oral seca, veias do pescoço planas. Laboratório: glicemia 475 mg/dL, Na 131, K 5,3, CO₂ 9 mEq/L, pH 7,12, pCO₂ 24 mmHg. Urina com 3+ de glicose e 3+ de cetonas.
+
+a) Qual o diagnóstico e o tipo de diabetes que ele provavelmente inaugura?
+b) Qual a tríade clássica de apresentação desse tipo de diabetes?
+c) Explique a cadeia que leva da deficiência de insulina à acidose e à hipovolemia.
+d) Qual o nome e o significado do padrão respiratório apresentado?
+e) Qual o mecanismo imunológico e quais autoanticorpos estão envolvidos?
+GABARITO:
+a) Cetoacidose diabética (CAD), inaugurando um diabetes melito tipo 1 — doença autoimune caracterizada pela destruição das células β e por deficiência ABSOLUTA de insulina, típica de indivíduos jovens.
+b) Poliúria, polidipsia e polifagia — e, quando grave, também cetoacidose diabética, todas resultantes dos desarranjos metabólicos.
+c) Deficiência grave e absoluta de insulina, com predomínio dos hormônios contrarreguladores → lipólise descontrolada → ácidos graxos livres ao fígado → cetogênese → acúmulo de corpos cetônicos → acidose metabólica com ânion-gap aumentado (pH 7,12, CO₂ 9, cetonas 3+).
+Em paralelo: a hiperglicemia ultrapassa o limiar renal de reabsorção → glicosúria (3+) → diurese osmótica → poliúria e noctúria → desidratação e hipovolemia (mucosa seca, veias planas, taquicardia).
+d) Respiração de Kussmaul — profunda e rápida. Significa compensação respiratória da acidose metabólica: o organismo hiperventila para eliminar CO₂ e elevar o pH, o que se confirma pela pCO₂ baixa (24 mmHg).
+e) O DM1 resulta de predisposição genética, fator ambiental e hipersensibilidade mediada por linfócitos T, com destruição das células β. O tipo 1A é mediado imunologicamente, com autoanticorpos contra insulina (AAI) e autoanticorpos contra células das ilhotas. O tipo 1B é idiopático, não relacionado a distúrbios imunes.

@@ -1,0 +1,13 @@
+ (Options: 0)
+TEXT: Paciente de 68 anos, hipertenso, procura atendimento por dispneia aos esforços. Exame: PA = 168x58 mmHg, FC = 76 bpm, ritmo regular. Ictus cordis no 6º espaço intercostal esquerdo, na linha axilar anterior, propulsivo. Pulso radial amplo, com ascensão e colapso rápidos. À ausculta, sopro diastólico aspirativo 3+/6+ no 3º EIC esquerdo junto à borda esternal.
+a. Calcule a pressão de pulso e classifique-a.
+b. Qual a valvopatia mais provável? Justifique usando três achados distintos do caso.
+c. Explique o mecanismo hemodinâmico que produz simultaneamente a pressão de pulso encontrada e o padrão do pulso radial.
+d. O ictus está normal? Justifique e explique o que seu deslocamento indica em termos de remodelamento ventricular.
+e. Que outro nome recebe o pulso descrito, e a que outro sinal periférico ele costuma se associar?
+GABARITO:
+(a) PP = 110 mmHg. Divergente (alargada).
+(b) Insuficiência aórtica. Justificativas: sopro diastólico aspirativo no foco aórtico acessório (Erb); PP divergente com pulso célere; ictus desviado e propulsivo (sobrecarga de volume).
+(c) O refluxo na diástole eleva o volume do VE, que ejeta grande volume na sístole seguinte (elevando a sistólica e a amplitude do pulso), enquanto o sangue reflui rápido da aorta na diástole (derrubando a diastólica e o pulso).
+(d) Anormal (desviado para baixo e para fora e propulsivo). Indica dilatação (remodelamento excêntrico) por sobrecarga de volume.
+(e) Pulso de Corrigan / "martelo d'água". Associa-se ao sinal de Musset, Quincke, Traube.

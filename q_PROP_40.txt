@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: O exame do aparelho respiratório é de grande importância na prática médica. Acerca desse exame, analise as assertivas a seguir:
+I. Pacientes com enfisema pulmonar apresentam frequentemente alargamento da porção inferior do tórax, como a boca de um sino, lembrando um cone de base inferior.
+II. A respiração costal superior, observada principalmente no sexo masculino, deve-se ao predomínio da ação dos músculos escaleno e esternocleidomastóideo.
+III. Pacientes com quadro de redução de calibre da laringe e/ou da traqueia apresentam sibilos, decorrentes da obstrução das vias respiratórias altas, como na laringite aguda, câncer de laringe e estenose de traqueia.
+IV. Paciente com sons de frequência alta (agudos) no final da inspiração, que se alteram com a mudança de posição e não se alteram com a tosse: os sons descritos são os estertores grossos.
+V. Pacientes com derrame pleural volumoso à direita apresentam redução do frêmito toracovocal à palpação e submacicez ou macicez à percussão do hemitórax direito.
+Está correto o que se afirma em:
+  A) A) Apenas I e V estão corretas.
+  B) B) Apenas II e III estão corretas.
+  C) C) Apenas I, III e V estão corretas.
+  D) D) Apenas II, IV e V estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa A.
+I e V são verdadeiras. II é falsa (costal superior é feminino). III é falsa (obstrução alta gera estridor, não sibilo). IV é falsa (descrição de estertores FINOS, não grossos).

@@ -1,0 +1,10 @@
+ (Options: 0)
+TEXT: a. Diferencie atitude ativa, passiva e forçada, deixando explícito o critério que as separa.
+b. Cite três atitudes forçadas, descrevendo a posição e a condição clínica associada a cada uma.
+c. Diferencie tônus de trofismo e explique como cada um é avaliado ao exame físico.
+d. Um paciente hepatopata apresenta movimentos rápidos e súbitos de flexoextensão das mãos quando mantém os braços estendidos com os punhos em dorsiflexão. Nomeie o achado e explique seu significado.
+GABARITO:
+(a) Critério é a vontade. Ativa: muda livremente de posição. Passiva: vontade abolida, fica onde foi colocado (coma). Forçada: paciente adota ativamente posição específica para aliviar sintomas.
+(b) Ortopneica (sentado p/ aliviar falta de ar - ICC). Prece maometana (genupeitoral - derrame pericárdico). Antálgica em decúbito lateral (sobre o lado doente - pleurite).
+(c) Trofismo: massa muscular (inspeção e palpação). Tônus: estado de semicontração basal (resistência à mobilização passiva).
+(d) Asterix (flapping tremor). Significa encefalopatia metabólica (hepática, no caso) com interrupção momentânea do tônus postural.

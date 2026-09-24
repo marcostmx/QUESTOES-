@@ -1,0 +1,8 @@
+ (Options: 0)
+TEXT: a. Explique o que é uma fácies em semiologia e por que sua avaliação integra o exame físico geral.
+b. Descreva os achados que caracterizam quatro fácies patológicas, indicando a condição associada a cada uma.
+c. O que significa descrever a fácies de um paciente como atípica? Isso equivale a dizer que o exame da face foi omitido? Justifique.
+GABARITO:
+(a) Conjunto de dados da expressão e configuração anatômica da face. Integra o exame porque padrões reconhecíveis permitem hipóteses antes mesmo de tocar (ex: hipertireoidismo, Parkinson).
+(b) Mixedematosa (edema periorbital, apatia) = hipotireoidismo. Basedowiana (exoftalmia, espanto) = hipertireoidismo. Cushingoide (lua cheia, pletórica) = hipercortisolismo. Parkinsoniana (máscara inexpressiva, piscar raro) = Parkinson.
+(c) Fácies atípica é o achado normal (não expressa patologia ou emoção marcante). É o oposto de omissão: é o registro ativo de que a face foi examinada e estava normal.

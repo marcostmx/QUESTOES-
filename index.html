@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Estudo PR1</title> <meta name="description" content="Plataforma acadêmica oficial integrada ao Google Drive com banco de questões, revisão espaçada, biblioteca de materiais, plano de estudos e tutor IA fundamentado."> <meta property="og:title" content="Estudo PR1"> <meta property="og:description" content="Plataforma acadêmica oficial integrada ao Google Drive com banco de questões, revisão espaçada, biblioteca de materiais, plano de estudos e tutor IA fundamentado."> <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" /> 
+    <style>
+        .fade-in { animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        .slide-out-left { animation: slideOutLeft 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        .slide-in-right { animation: slideInRight 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        .slide-out-right { animation: slideOutRight 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        .slide-in-left { animation: slideInLeft 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards; }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes slideOutLeft {
+            from { opacity: 1; transform: translateX(0); }
+            to { opacity: 0; transform: translateX(-30px); }
+        }
+        @keyframes slideInRight {
+            from { opacity: 0; transform: translateX(30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        @keyframes slideOutRight {
+            from { opacity: 1; transform: translateX(0); }
+            to { opacity: 0; transform: translateX(30px); }
+        }
+        @keyframes slideInLeft {
+            from { opacity: 0; transform: translateX(-30px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .custom-scrollbar {
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: thin;
+        }
+        .custom-scrollbar-x, .touch-scroll-x {
+            -webkit-overflow-scrolling: touch !important;
+            touch-action: pan-x pan-y !important;
+            overscroll-behavior-x: contain;
+            scrollbar-width: thin;
+        }
+        .custom-scrollbar-y {
+            -webkit-overflow-scrolling: touch;
+            touch-action: pan-y;
+            overscroll-behavior-y: contain;
+            scrollbar-width: thin;
+        }
+        .custom-scrollbar::-webkit-scrollbar,
+        .custom-scrollbar-x::-webkit-scrollbar,
+        .custom-scrollbar-y::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track,
+        .custom-scrollbar-x::-webkit-scrollbar-track,
+        .custom-scrollbar-y::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb,
+        .custom-scrollbar-x::-webkit-scrollbar-thumb,
+        .custom-scrollbar-y::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 10px;
+        }
+    </style>
+ 
+<style>
+    /* Clean dark mode filter while preserving media, iframes, SVG icons, and colored badges */
+    html.dark { filter: invert(0.92) hue-rotate(180deg); background-color: #0f172a; }
+    html.dark img, html.dark iframe, html.dark video { filter: invert(1) hue-rotate(180deg); }
+    html.dark .bg-orange-600 { filter: hue-rotate(10deg); }
+</style>
+</head>
+
+<body class="flex flex-col h-[100dvh] w-full bg-[#F3F4F6] font-sans overflow-hidden relative">
+ <!-- HOME SCREEN --> <div id="home-screen" class="absolute inset-0 z-50 bg-[#f8fafc] flex overflow-hidden fade-in">
+    <!-- Sidebar -->
+    
+        <!-- Sidebar Overlay for Mobile -->
+        <div id="sidebar-overlay" class="fixed inset-0 bg-gray-900/50 z-40 hidden lg:hidden backdrop-blur-sm transition-opacity" onclick="window.toggleSidebar()"></div>
+
+        <!-- Sidebar -->
+        <aside id="main-sidebar" class="fixed inset-y-0 left-0 w-64 bg-white border-r border-gray-200 flex flex-col shadow-2xl lg:shadow-sm z-50 transform -translate-x-full lg:translate-x-0 lg:relative transition-transform duration-300">
+            <div class="p-6 border-b border-gray-100 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                     <div class="w-9 h-9 bg-blue-600 rounded-xl flex items-center justify-center text-white shadow-md shadow-blue-200">
+                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                     </div>
+                     <span class="text-2xl font-extrabold text-gray-900 tracking-tight">Estudo PR1</span>
+                </div>
+                <button onclick="window.toggleSidebar()" class="lg:hidden text-gray-500 hover:text-gray-700 bg-gray-100 p-2 rounded-lg">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <nav class="flex-1 p-4 space-y-2">
+                 <button onclick="window.switchTab('dashboard')" id="tab-dashboard" class="w-full flex items-center space-x-3 px-4 py-3 bg-blue-50 text-blue-700 rounded-xl font-bold transition-colors">
+                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                     <span>Dashboard</span>
+                 </button>
+
+                 <!-- BLOCO PR1 EXCLUSIVO NA BARRA LATERAL -->
+                 <div class="pt-1 pb-1">
+                     <div class="bg-gradient-to-br from-indigo-50/90 via-blue-50/70 to-indigo-100/50 rounded-2xl border border-indigo-200/90 p-2.5 shadow-xs">
+                         <div class="flex items-center justify-between px-1.5 py-1 mb-1">
+                             <div class="flex items-center space-x-2">
+                                 <span class="w-2 h-2 rounded-full bg-indigo-600 animate-pulse"></span>
+                                 <span class="text-[11px] font-black uppercase tracking-wider text-indigo-950">Bloco PR1</span>
+                             </div>
+                             <span id="sidebar-pr1-badge" class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-indigo-600 text-white shadow-xs">1.136 q</span>
+                         </div>
+                         
+                         <button type="button" onclick="window.togglePr1SidebarAccordion()" id="sidebar-pr1-toggle" class="w-full flex items-center justify-between px-3 py-2 bg-white hover:bg-indigo-50/80 text-gray-900 rounded-xl font-bold transition-all border border-indigo-100 shadow-xs cursor-pointer group">
+                             <div class="flex items-center space-x-2">
+                                 <div class="w-6 h-6 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center text-xs font-black group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                                     <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                                 </div>
+                                 <span class="text-xs font-bold text-gray-800">Matérias da PR1</span>
+                             </div>
+                             <svg id="sidebar-pr1-chevron" class="w-4 h-4 text-gray-500 transition-transform duration-200" style="transform: rotate(180deg);" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"></path></svg>
+                         </button>
+
+                         <!-- PR1 Sub-items Accordion -->
+                         <div id="sidebar-pr1-list" class="mt-2 space-y-1">
+                             <button onclick="window.startSubject('fisiopatologia')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:text-blue-700 hover:bg-blue-100/70 rounded-lg transition-colors cursor-pointer group">
+                                 <div class="flex items-center gap-2">
+                                     <span class="w-2 h-2 rounded-full bg-blue-500"></span>
+                                     <span>Fisiopatologia</span>
+                                 </div>
+                                 <span class="text-[10px] font-bold text-gray-500 group-hover:text-blue-700" id="sidebar-badge-fisiopatologia">0 / 261</span>
+                             </button>
+                             <button onclick="window.startSubject('farmacologia')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:text-indigo-700 hover:bg-indigo-100/70 rounded-lg transition-colors cursor-pointer group">
+                                 <div class="flex items-center gap-2">
+                                     <span class="w-2 h-2 rounded-full bg-indigo-500"></span>
+                                     <span>Farmacologia</span>
+                                 </div>
+                                 <span class="text-[10px] font-bold text-gray-500 group-hover:text-indigo-700" id="sidebar-badge-farmacologia">0 / 92</span>
+                             </button>
+                             <button onclick="window.startSubject('propedêutica')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:text-emerald-700 hover:bg-emerald-100/70 rounded-lg transition-colors cursor-pointer group">
+                                 <div class="flex items-center gap-2">
+                                     <span class="w-2 h-2 rounded-full bg-emerald-500"></span>
+                                     <span>Propedêutica</span>
+                                 </div>
+                                 <span class="text-[10px] font-bold text-gray-500 group-hover:text-emerald-700" id="sidebar-badge-propedêutica">0 / 97</span>
+                             </button>
+                             <button onclick="window.startSubject('bases cirúrgicas')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:text-rose-700 hover:bg-rose-100/70 rounded-lg transition-colors cursor-pointer group">
+                                 <div class="flex items-center gap-2">
+                                     <span class="w-2 h-2 rounded-full bg-rose-500"></span>
+                                     <span>Bases Cirúrgicas</span>
+                                 </div>
+                                 <span class="text-[10px] font-bold text-gray-500 group-hover:text-rose-700" id="sidebar-badge-bases-cirurgicas">0 / 596</span>
+                             </button>
+                             <button onclick="window.startSubject('iesc_iv')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-semibold text-gray-700 hover:text-violet-700 hover:bg-violet-100/70 rounded-lg transition-colors cursor-pointer group">
+                                 <div class="flex items-center gap-2">
+                                     <span class="w-2 h-2 rounded-full bg-violet-500"></span>
+                                     <span>IESC IV</span>
+                                 </div>
+                                 <span class="text-[10px] font-bold text-gray-500 group-hover:text-violet-700" id="sidebar-badge-iesc_iv">0 / 90</span>
+                             </button>
+
+                             <button onclick="window.startSubject('pr1')" class="w-full flex items-center justify-between px-2.5 py-1.5 text-xs font-bold text-indigo-700 hover:text-white hover:bg-indigo-600 bg-white rounded-lg transition-all cursor-pointer mt-1 border border-indigo-200 shadow-2xs group">
+                                 <span class="flex items-center gap-1.5">
+                                     <svg class="w-3.5 h-3.5 text-indigo-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                                     <span>Resolver Toda a PR1</span>
+                                 </span>
+                                 <span class="text-[10px] font-black text-indigo-800 group-hover:text-white">1.136 q</span>
+                             </button>
+                         </div>
+                     </div>
+                 </div>
+                 <button onclick="window.switchTab('metrics')" id="tab-metrics" class="w-full flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-bold transition-colors">
+                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                     <span>Métricas</span>
+                 </button>
+                 <button onclick="window.switchTab('simulado')" id="tab-simulado" class="w-full flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-bold transition-colors">
+                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                     <span>Simulado</span>
+                 </button>
+                 
+                 
+<button onclick="window.switchTab('favorites')" id="tab-favorites" class="w-full flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-bold transition-colors">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+    <span>Questões Favoritas</span>
+</button>
+<button onclick="window.switchTab('library')" id="tab-library" class="w-full flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-bold transition-colors">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+    <span>Biblioteca Drive</span>
+</button>
+<button onclick="window.switchTab('errors')" id="tab-errors" class="w-full flex items-center space-x-3 px-4 py-3 text-gray-600 hover:bg-gray-50 hover:text-gray-900 rounded-xl font-bold transition-colors">
+    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+    <span>Caderno de Erros</span>
+</button>
+<div class="pt-2 mt-2 border-t border-gray-100"></div>
+
+                 <button id="tab-srs" onclick="window.switchTab('srs')" class="w-full flex items-center space-x-3 px-4 py-3 text-red-600 hover:bg-red-50 hover:text-red-700 rounded-xl font-bold transition-colors">
+                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                     <span>Revisão Espaçada</span>
+                 </button>
+            
+    <!-- Dark Mode Toggle -->
+    <div class="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between px-2">
+        <span class="text-sm font-bold text-gray-600">Modo Noturno</span>
+        <button onclick="window.toggleDarkMode()" id="dark-mode-toggle" class="w-12 h-6 bg-gray-200 rounded-full relative transition-colors cursor-pointer">
+            <div class="w-5 h-5 bg-white rounded-full absolute top-0.5 left-0.5 shadow transition-transform transform"></div>
+        </button>
+    </div>
+</nav>
+
+            <!-- Multi-Device Cloud Sync Card -->
+            <div id="sidebar-sync-card" class="mx-4 mb-2 p-3.5 rounded-2xl bg-gradient-to-br from-blue-50/90 to-indigo-50/90 border border-blue-100/90 shadow-xs">
+                <!-- Logged Out State -->
+                <div id="sync-logged-out-state" class="space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-[11px] font-bold uppercase tracking-wider text-blue-800 flex items-center gap-1.5">
+                            <svg class="w-3.5 h-3.5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                            Sincronização
+                        </span>
+                        <span id="sync-badge-status" class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-semibold bg-amber-100 text-amber-700">Offline / Local</span>
+                    </div>
+                    <p class="text-[11px] text-gray-600 leading-tight">Acesse no celular, tablet e PC com o mesmo progresso sincronizado.</p>
+                    <button id="btn-sync-google-sidebar" onclick="window.handleSyncLogin()" class="w-full flex items-center justify-center gap-2 py-2 px-3 bg-white hover:bg-gray-50 text-gray-800 border border-gray-200 rounded-xl text-xs font-bold shadow-xs hover:border-gray-300 transition-all cursor-pointer">
+                        <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                        <span>Entrar com Google</span>
+                    </button>
+                </div>
+
+                <!-- Logged In State -->
+                <div id="sync-logged-in-state" class="hidden space-y-2.5">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-2 overflow-hidden">
+                            <img id="sidebar-user-avatar" src="" alt="Avatar" class="w-7 h-7 rounded-full border border-blue-200 object-cover shrink-0 bg-blue-100" />
+                            <div class="overflow-hidden">
+                                <p id="sidebar-user-name" class="text-xs font-bold text-gray-900 truncate">Estudante</p>
+                                <p id="sidebar-sync-pill" class="text-[10px] text-emerald-600 font-semibold flex items-center gap-1">
+                                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                                    <span id="sidebar-sync-text">Sincronizado</span>
+                                </p>
+                            </div>
+                        </div>
+                        <button onclick="window.handleSyncNow()" id="btn-sidebar-refresh-sync" title="Sincronizar agora" class="p-1.5 text-gray-500 hover:text-blue-600 hover:bg-white rounded-lg transition-colors cursor-pointer">
+                            <svg id="sidebar-sync-spinner" class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                        </button>
+                    </div>
+                    <div class="flex items-center justify-between pt-2 border-t border-blue-100/60 text-[10px]">
+                        <span id="sidebar-sync-last-time" class="text-gray-400 truncate max-w-[120px]">Hoje, agora</span>
+                        <button onclick="window.handleSyncLogout()" class="text-rose-500 hover:text-rose-700 font-bold cursor-pointer">Sair</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-5 border-t border-gray-100 bg-gray-50/50 m-4 rounded-2xl border border-gray-100">
+                 <div class="flex items-center justify-between mb-2">
+                     <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Progresso Geral (PR1)</p>
+                     <button onclick="window.confirmResetAllDataGlobally()" class="text-[10px] text-gray-400 hover:text-red-600 font-semibold transition-colors cursor-pointer" title="Zerar todo o progresso">Zerar Tudo</button>
+                 </div>
+                 <div class="w-full bg-gray-200 rounded-full h-2 mt-2 overflow-hidden">
+                     <div id="sidebar-progress" class="bg-blue-600 h-full rounded-full transition-all duration-1000" style="width: 0%"></div>
+                 </div>
+                 <div class="flex justify-between items-center mt-2">
+                     <p id="sidebar-progress-text" class="text-xs text-gray-600 font-semibold">0% concluído</p>
+                     <p id="sidebar-progress-fraction" class="text-xs text-gray-400 font-medium">0/0</p>
+                 </div>
+            </div>
+        </aside>
+
+
+    <!-- Main Dashboard Area -->
+    <main class="flex-1 overflow-y-auto custom-scrollbar relative bg-[#f8fafc]">
+        <!-- Top header -->
+        <header class="bg-white/70 backdrop-blur-xl sticky top-0 z-20 border-b border-gray-200/60 px-4 md:px-10 py-3.5 md:py-5 flex items-center justify-between">
+             <div class="flex items-center min-w-0">
+                  <button onclick="window.toggleSidebar()" class="lg:hidden mr-3 bg-blue-600 hover:bg-blue-700 p-2 rounded-xl text-white shadow-sm transition-colors cursor-pointer shrink-0" aria-label="Abrir Menu">
+                      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                  </button>
+                  <div class="min-w-0">
+                      <h1 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 tracking-tight truncate leading-tight">Olá, Estudante 👋</h1>
+                      <p id="header-subtitle" class="hidden sm:block text-xs sm:text-sm text-gray-500 font-medium mt-0.5 md:mt-1 truncate">Pronto para a revisão de hoje? Escolha um módulo.</p>
+                  </div>
+             </div>
+
+             <!-- Header Sync Pill -->
+             <div class="flex items-center gap-2 shrink-0">
+                 <button id="btn-header-sync" onclick="window.handleHeaderSyncClick()" class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all border shadow-xs bg-white text-gray-700 border-gray-200 hover:border-blue-300 hover:text-blue-600 cursor-pointer">
+                     <svg id="header-sync-icon" class="w-3.5 h-3.5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                     <span id="header-sync-label">Sincronizar</span>
+                 </button>
+             </div>
+        </header>
+
+        
+        <div class="p-6 md:p-10 max-w-7xl mx-auto">
+             <!-- DASHBOARD VIEW -->
+             <div id="view-dashboard" class="space-y-12 block fade-in">
+                 <!-- Global Search -->
+                 <section class="relative">
+                     <div class="relative w-full max-w-3xl mx-auto mb-2">
+                         <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                             <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                         </div>
+                         <input type="text" id="module-search" oninput="window.performGlobalSearch()" class="w-full pl-12 pr-4 py-4 bg-white border border-gray-200 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-lg" placeholder="Pesquisar em todas as questões e módulos...">
+                      </div>
+                      <div class="flex flex-wrap items-center justify-center gap-2 mt-3 text-xs">
+                          <span class="text-gray-500 font-medium">Filtrar tipo:</span>
+                          <button type="button" onclick="window.setGlobalSearchType('all')" id="gfilter-all" class="px-3 py-1.5 rounded-xl font-bold bg-blue-600 text-white shadow-sm transition-all cursor-pointer">Todos</button>
+                          <button type="button" onclick="window.setGlobalSearchType('caso_clinico')" id="gfilter-caso_clinico" class="px-3 py-1.5 rounded-xl font-bold bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 transition-all cursor-pointer">Caso Clínico</button>
+                          <button type="button" onclick="window.setGlobalSearchType('discursiva')" id="gfilter-discursiva" class="px-3 py-1.5 rounded-xl font-bold bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 transition-all cursor-pointer">Discursiva</button>
+                          <button type="button" onclick="window.setGlobalSearchType('multipla_escolha')" id="gfilter-multipla_escolha" class="px-3 py-1.5 rounded-xl font-bold bg-white text-gray-700 border border-gray-200 hover:bg-gray-50 transition-all cursor-pointer">Múltipla Escolha</button>
+                     </div>
+                     <div id="questions-search-results" class="hidden max-w-3xl mx-auto bg-white border border-gray-100 shadow-xl rounded-2xl p-4 md:p-6 mb-8 absolute w-full z-30 left-0 right-0 top-16">
+                         <h3 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4 flex items-center">
+                             <svg class="w-4 h-4 mr-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                             Questões Encontradas
+                         </h3>
+                         <div id="questions-search-list" class="space-y-2 max-h-[60vh] overflow-y-auto custom-scrollbar pr-2">
+                         </div>
+                     </div>
+                 </section>
+
+                 
+             
+             <!-- Stats Overview -->
+             <section>
+                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                     <h2 class="text-xl font-bold text-gray-900">Visão Geral</h2>
+                 </div>
+                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-8">
+                     <!-- Total Resolvidas -->
+                     <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] flex items-center space-x-6 relative overflow-hidden group">
+                         <div class="absolute -right-6 -top-6 w-32 h-32 bg-blue-50 rounded-full opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
+                         <div class="w-14 h-14 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center relative z-10 shrink-0 shadow-inner">
+                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                         </div>
+                         <div class="relative z-10">
+                             <p class="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Questões Resolvidas</p>
+                             <h4 class="text-3xl md:text-4xl font-black text-gray-900" id="dash-total-answered">0</h4>
+                         </div>
+                     </div>
+                     <!-- Precisão -->
+                     <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] flex items-center space-x-6 relative overflow-hidden group">
+                         <div class="absolute -right-6 -top-6 w-32 h-32 bg-emerald-50 rounded-full opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
+                         <div class="w-14 h-14 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center relative z-10 shrink-0 shadow-inner">
+                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                         </div>
+                         <div class="relative z-10">
+                             <p class="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Taxa de Acerto</p>
+                             <h4 class="text-3xl md:text-4xl font-black text-gray-900" id="dash-accuracy">0%</h4>
+                         </div>
+                     </div>
+                     <!-- Ofensiva -->
+                     <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] flex items-center space-x-6 relative overflow-hidden group">
+                         <div class="absolute -right-6 -top-6 w-32 h-32 bg-orange-50 rounded-full opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
+                         <div class="w-14 h-14 rounded-2xl bg-orange-100 text-orange-600 flex items-center justify-center relative z-10 shrink-0 shadow-inner">
+                             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"></path></svg>
+                         </div>
+                         <div class="relative z-10">
+                             <p class="text-xs text-gray-500 font-bold uppercase tracking-wider mb-1">Dias de Sofrimento</p>
+                             <div class="flex items-baseline space-x-1.5">
+                                <h4 id="dash-streak-count" class="text-3xl md:text-4xl font-black text-gray-900">0</h4>
+                                <span id="dash-streak-label" class="text-sm font-bold text-gray-500 uppercase tracking-wider">Dias</span>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+
+             <!-- Revisão de Erros -->
+             <section>
+                 <button onclick="window.switchTab('srs')" class="w-full bg-gradient-to-r from-red-50 to-orange-50 p-6 rounded-3xl border border-red-100 shadow-sm hover:shadow-md transition-all duration-300 flex items-center justify-between group cursor-pointer overflow-hidden relative">
+                     <div class="absolute right-0 top-0 bottom-0 w-64 bg-gradient-to-l from-red-100/50 to-transparent"></div>
+                     <div class="flex items-center space-x-6 relative z-10">
+                         <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center shrink-0 shadow-inner group-hover:scale-110 transition-transform duration-300">
+                             <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                         </div>
+                         <div class="text-left">
+                             <h2 class="text-xl md:text-2xl font-bold text-gray-900 mb-1 group-hover:text-red-700 transition-colors">Revisão Espaçada</h2>
+                             <p class="text-sm md:text-base text-gray-600 font-medium">Sistema inteligente que agenda suas revisões (erros e acertos) para fixar na memória de longo prazo.</p>
+                             <div class="mt-3 flex flex-wrap items-center gap-2">
+                                 <span id="dashboard-srs-badge" class="bg-red-100 text-red-700 font-bold px-3 py-1 rounded-full text-xs hidden">0 pendentes hoje</span>
+                                 <div id="dashboard-srs-subjects-summary" class="flex flex-wrap gap-1.5"></div>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="hidden md:flex w-12 h-12 bg-white rounded-full items-center justify-center text-red-600 shadow-sm group-hover:bg-red-600 group-hover:text-white transition-colors relative z-10">
+                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                     </div>
+                 </button>
+             </section>
+
+             <!-- Módulos e Disciplinas Acadêmicas -->
+             <section>
+                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                     <div>
+                         <h2 class="text-xl font-bold text-gray-900">Disciplinas & Módulos Acadêmicos</h2>
+                         <p class="text-xs text-gray-500 mt-0.5">Integrados com as pastas de aula e materiais do Google Drive oficial.</p>
+                     </div>
+                     <div class="flex items-center gap-2">
+                         <button onclick="window.openOrganizeMaterialsModal()" class="px-3.5 py-2 bg-blue-50 text-blue-700 hover:bg-blue-100 rounded-xl text-xs font-bold transition-colors cursor-pointer flex items-center gap-1.5">
+                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path></svg>
+                             <span>Organizar Materiais</span>
+                         </button>
+                         <button onclick="window.switchTab('library')" class="px-3.5 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-xl text-xs font-bold transition-colors cursor-pointer flex items-center gap-1.5">
+                             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                             <span>Biblioteca do Drive</span>
+                         </button>
+                     </div>
+                 </div>
+
+                 <!-- Bloco PR1: Acesso Exclusivo na Barra Lateral -->
+                  <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-200/90 shadow-sm flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+                      <div class="flex items-start md:items-center gap-4">
+                          <div class="w-12 h-12 rounded-2xl bg-indigo-50 text-indigo-600 border border-indigo-100 flex items-center justify-center shrink-0 shadow-inner">
+                              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                          </div>
+                          <div>
+                              <div class="flex items-center gap-2 mb-1">
+                                  <span class="px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider bg-indigo-100 text-indigo-700 rounded-full">Menu Lateral</span>
+                                  <span class="text-xs text-gray-400 font-semibold">• 5 Matérias • 1.136 Questões</span>
+                              </div>
+                              <h3 class="text-lg font-bold text-gray-900">Acesso ao Bloco PR1 na Barra Lateral</h3>
+                              <p class="text-xs text-gray-500 mt-0.5">As disciplinas (Fisiopatologia, Farmacologia, Propedêutica, Bases Cirúrgicas e IESC IV) estão disponíveis na barra lateral esquerda para acesso rápido e resolução direta.</p>
+                          </div>
+                      </div>
+                      <button onclick="window.openSidebarPr1()" class="px-4 py-2.5 bg-indigo-600 hover:bg-indigo-700 active:scale-[0.98] text-white rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-2 shrink-0 cursor-pointer">
+                          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                          <span>Abrir Bloco PR1 na Barra Lateral</span>
+                      </button>
+                  </div>
+             </section>
+
+
+             
+        </div>
+
+             <!-- METRICS VIEW -->
+             <div id="view-metrics" class="space-y-8 hidden fade-in">
+                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2 gap-4">
+                     <div>
+                         <h2 class="text-xl md:text-2xl font-bold text-gray-900">Métricas e Desempenho</h2>
+                         <p class="text-sm text-gray-500">Acompanhe sua evolução e consistência nos últimos 30 dias de estudo.</p>
+                     </div>
+                 </div>
+
+                 <!-- Card de Sincronização Multi-Dispositivos & Backup na Nuvem -->
+                 <div class="bg-gradient-to-br from-white to-blue-50/50 p-6 md:p-8 rounded-3xl border border-blue-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]">
+                     <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+                         <div class="flex items-center gap-4">
+                             <div class="w-12 h-12 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center shrink-0 shadow-inner">
+                                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 00-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
+                             </div>
+                             <div>
+                                 <h3 class="text-lg font-bold text-gray-900">Sincronização em Múltiplos Dispositivos</h3>
+                                 <p class="text-xs text-gray-500 mt-0.5">Estude no celular ou no computador sem perder nenhuma questão respondida ou cartão de revisão.</p>
+                             </div>
+                         </div>
+                         <div id="metrics-sync-actions" class="flex flex-wrap items-center gap-2">
+                             <button onclick="window.handleSyncLogin()" id="btn-metrics-login" class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-2 cursor-pointer">
+                                 <svg class="w-4 h-4" viewBox="0 0 24 24"><path fill="#fff" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#fff" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#fff" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/><path fill="#fff" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/></svg>
+                                 <span>Conectar Conta Google</span>
+                             </button>
+                             <button onclick="window.handleSyncNow()" id="btn-metrics-sync" class="hidden px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl text-xs font-bold shadow-sm transition-all flex items-center gap-2 cursor-pointer">
+                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                                 <span>Sincronizar Agora</span>
+                             </button>
+                             <button onclick="window.handleExportBackup()" class="px-3.5 py-2 bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 rounded-xl text-xs font-bold shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer">
+                                 <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                                 <span>Exportar Backup</span>
+                             </button>
+                             <button onclick="document.getElementById('backup-file-input').click()" class="px-3.5 py-2 bg-white hover:bg-gray-50 text-gray-700 border border-gray-200 rounded-xl text-xs font-bold shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer">
+                                 <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg>
+                                 <span>Restaurar Backup</span>
+                             </button>
+                             <button onclick="window.confirmResetAllDataGlobally()" class="px-3.5 py-2 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 rounded-xl text-xs font-bold shadow-2xs transition-all flex items-center gap-1.5 cursor-pointer" title="Zerar todo o progresso do aplicativo">
+                                 <svg class="w-3.5 h-3.5 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"></path></svg>
+                                 <span>Zerar Todo o Progresso</span>
+                             </button>
+                         </div>
+                     </div>
+
+                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-gray-100">
+                         <div class="bg-white/80 p-3.5 rounded-2xl border border-gray-100">
+                             <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Conta Google</p>
+                             <p id="metrics-sync-account" class="text-sm font-bold text-gray-800 mt-1 truncate">Não conectado</p>
+                         </div>
+                         <div class="bg-white/80 p-3.5 rounded-2xl border border-gray-100">
+                             <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Dispositivo Atual</p>
+                             <p id="metrics-sync-device" class="text-sm font-bold text-gray-800 mt-1 truncate">Navegador Web</p>
+                         </div>
+                         <div class="bg-white/80 p-3.5 rounded-2xl border border-gray-100">
+                             <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider">Status na Nuvem</p>
+                             <p id="metrics-sync-status" class="text-sm font-bold text-gray-800 mt-1 flex items-center gap-1.5">
+                                 <span class="w-2 h-2 rounded-full bg-amber-400"></span>
+                                 <span>Armazenamento local</span>
+                             </p>
+                         </div>
+                     </div>
+                     <input type="file" id="backup-file-input" accept=".json" class="hidden" onchange="window.handleBackupFileSelected(this)" />
+                 </div>
+
+                 <!-- Gráfico de Evolução 30 Dias por Matéria -->
+                 <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]">
+                     <div id="evolution-chart" class="w-full min-h-[340px]"></div>
+                 </div>
+
+                 <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)]">
+                     <h3 class="text-lg font-bold text-gray-900 mb-6">Desempenho por Módulo</h3>
+                     <div id="metrics-container" class="space-y-6">
+                        <!-- Metrics injected here -->
+                     </div>
+                 </div>
+             </div>
+
+             <!-- SIMULADO VIEW -->
+             <div id="view-simulado" class="space-y-8 hidden fade-in">
+                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                     <h2 class="text-xl font-bold text-gray-900">Simulado Cronometrado</h2>
+                 </div>
+                 <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] flex flex-col items-center max-w-2xl mx-auto text-center">
+                     <div class="w-20 h-20 bg-orange-50 text-orange-500 rounded-full flex items-center justify-center mb-6">
+                         <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                     </div>
+                     <h3 class="text-2xl font-bold text-gray-900 mb-2">Configure seu Simulado</h3>
+                     <p class="text-gray-500 max-w-md mb-8">Selecione uma disciplina específica ou misture todas para simular a prova real.</p>
+                     
+                     <div class="w-full space-y-6 text-left">
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-2">Disciplina</label>
+                            <select id="simulado-subject-select" onchange="window.selectSimuladoSubject(this.value)" class="w-full border-2 border-gray-200 rounded-xl p-3 text-gray-700 font-bold focus:outline-none focus:border-orange-500 mb-2 bg-white appearance-none cursor-pointer">
+                                <option value="all">Todas as Matérias</option>
+                                <option value="farmacologia">Farmacologia</option>
+                                <option value="propedêutica">Propedêutica</option>
+                                <option value="fisiopatologia">Fisiopatologia</option>
+                                <option value="bases cirúrgicas">Bases Cirúrgicas</option>
+                                <option value="iesc_iv">IESC IV</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-2">Número de Questões</label>
+                            <div class="grid grid-cols-3 gap-3">
+                                <button onclick="window.selectSimuladoQ(20)" id="btn-sim-q-20" class="btn-sim-q py-3 rounded-xl border-2 border-orange-500 bg-orange-50 text-orange-700 font-bold">20</button>
+                                <button onclick="window.selectSimuladoQ(40)" id="btn-sim-q-40" class="btn-sim-q py-3 rounded-xl border-2 border-gray-200 text-gray-500 font-bold hover:bg-gray-50">40</button>
+                                <button onclick="window.selectSimuladoQ(80)" id="btn-sim-q-80" class="btn-sim-q py-3 rounded-xl border-2 border-gray-200 text-gray-500 font-bold hover:bg-gray-50">80</button>
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-bold text-gray-700 mb-2">Tempo Limite</label>
+                            <div class="grid grid-cols-3 gap-3">
+                                <button onclick="window.selectSimuladoT(30)" id="btn-sim-t-30" class="btn-sim-t py-3 rounded-xl border-2 border-orange-500 bg-orange-50 text-orange-700 font-bold">30 min</button>
+                                <button onclick="window.selectSimuladoT(60)" id="btn-sim-t-60" class="btn-sim-t py-3 rounded-xl border-2 border-gray-200 text-gray-500 font-bold hover:bg-gray-50">60 min</button>
+                                <button onclick="window.selectSimuladoT(120)" id="btn-sim-t-120" class="btn-sim-t py-3 rounded-xl border-2 border-gray-200 text-gray-500 font-bold hover:bg-gray-50">120 min</button>
+                            </div>
+                        </div>
+                        <div class="pt-4">
+                            <button onclick="window.startSimulado()" class="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 rounded-xl shadow-md transition-colors text-lg">
+                                INICIAR SIMULADO
+                            </button>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             <!-- SRS VIEW -->
+             <div id="view-srs" class="space-y-8 hidden fade-in">
+                 <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-4 gap-2">
+                     <div>
+                         <h2 class="text-2xl font-black text-gray-900 tracking-tight">Revisão Espaçada (SRS)</h2>
+                         <p class="text-sm text-gray-500 mt-0.5">Repetição espaçada inteligente com intervalos progressivos (1, 3, 7, 15 e 30 dias) para retenção de longo prazo.</p>
+                     </div>
+                 </div>
+
+                 <!-- Resumo Geral e Calendário -->
+                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                    <!-- Card Revisão Geral -->
+                    <div class="lg:col-span-5 bg-gradient-to-br from-red-50 via-orange-50 to-amber-50 p-6 md:p-8 rounded-3xl border border-red-100 shadow-sm flex flex-col justify-between text-center relative overflow-hidden">
+                        <div class="flex flex-col items-center">
+                            <div class="w-16 h-16 bg-red-100 text-red-600 rounded-2xl flex items-center justify-center mb-4 shadow-inner">
+                                 <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                            </div>
+                            <span class="text-[11px] font-bold uppercase tracking-wider text-red-600 bg-red-100/70 px-3 py-1 rounded-full mb-2">Visão Geral Integrada</span>
+                            <h3 class="text-2xl font-black text-gray-900 mb-1">Todas as Matérias</h3>
+                            <p class="text-gray-600 text-sm mb-4">Você tem <span id="srs-today-count" class="font-black text-red-600 text-2xl">0</span> questões pendentes para revisar hoje.</p>
+                        </div>
+                        <button id="srs-btn-all" onclick="window.startErrorReview('all')" class="w-full bg-red-600 hover:bg-red-700 active:scale-[0.99] text-white font-bold py-3.5 px-4 rounded-2xl shadow-md hover:shadow-lg transition-all flex items-center justify-center space-x-2 cursor-pointer">
+                            <span>REVISAR TODAS AS MATÉRIAS</span>
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path></svg>
+                        </button>
+                    </div>
+
+                    <!-- Previsão dos Próximos 14 Dias -->
+                    <div class="lg:col-span-7 bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-sm flex flex-col justify-between">
+                        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+                            <h3 class="text-lg font-bold text-gray-900 flex items-center">
+                                <svg class="w-5 h-5 mr-2 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                                Previsão dos Próximos 14 Dias
+                            </h3>
+                            <div class="flex items-center space-x-2">
+                                <label for="srs-calendar-filter" class="text-xs text-gray-500 font-semibold">Filtrar:</label>
+                                <select id="srs-calendar-filter" onchange="window.filterSRSCalendar(this.value)" class="text-xs font-bold text-gray-700 bg-gray-50 border border-gray-200 rounded-xl px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-red-500 cursor-pointer">
+                                    <option value="all">Todas as Matérias</option>
+                                    <option value="farmacologia">Farmacologia</option>
+                                    <option value="propedêutica">Propedêutica</option>
+                                    <option value="fisiopatologia">Fisiopatologia</option>
+                                    <option value="bases cirúrgicas">Bases Cirúrgicas</option>
+                                    <option value="iesc_iv">IESC IV</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div id="srs-calendar-list" class="flex overflow-x-auto gap-3 touch-scroll-x custom-scrollbar-x pb-3 pt-2 items-center select-none cursor-grab active:cursor-grabbing">
+                        </div>
+                        <p class="text-xs text-gray-400 mt-2">Intervalos calculados com base no método SuperMemo (1d, 3d, 7d, 15d, 30d).</p>
+                    </div>
+                 </div>
+
+                 <!-- Seção: Revisão Separada por Matéria -->
+                 <div class="pt-2">
+                     <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-5 gap-2">
+                         <div>
+                             <h3 class="text-xl font-black text-gray-900 flex items-center gap-2">
+                                 <span>Revisão por Matéria</span>
+                                 <span class="text-xs font-bold text-blue-600 bg-blue-50 border border-blue-100 px-2.5 py-0.5 rounded-full uppercase tracking-wider">Foco Individual</span>
+                             </h3>
+                             <p class="text-sm text-gray-500 mt-0.5">Selecione uma disciplina específica para revisar apenas os conteúdos pendentes dela:</p>
+                         </div>
+                     </div>
+
+                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6" id="srs-subjects-grid">
+                         <!-- Farmacologia SRS -->
+                          <div class="bg-white p-6 rounded-3xl border border-gray-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group relative overflow-hidden">
+                              <div class="absolute top-0 right-0 w-32 h-32 bg-indigo-50/70 rounded-bl-full pointer-events-none transition-transform group-hover:scale-110"></div>
+                              <div>
+                                  <div class="flex items-start justify-between mb-4">
+                                      <div class="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center shadow-inner group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300">
+                                          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
+                                      </div>
+                                      <span id="srs-subject-badge-farmacologia" class="px-3 py-1 text-xs font-bold rounded-full bg-gray-100 text-gray-600">0 pendentes</span>
+                                  </div>
+                                  <h4 class="text-lg font-bold text-gray-900 group-hover:text-indigo-600 transition-colors">Farmacologia</h4>
+                                  <p class="text-xs text-gray-500 mt-1 leading-relaxed">Mecanismos de ação, farmacocinética, SNA e terapêutica medicamentosa.</p>
+                                  <div class="mt-3 flex items-center text-xs text-gray-400 font-medium">
+                                      <span>92 questões no banco</span>
+                                  </div>
+                              </div>
+                              <button id="srs-btn-farmacologia" onclick="window.startErrorReview('farmacologia')" class="mt-5 w-full py-2.5 px-4 rounded-xl font-bold text-sm bg-indigo-600 hover:bg-indigo-700 active:scale-[0.98] text-white shadow-sm transition-all flex items-center justify-center space-x-2 cursor-pointer">
+                                  <span>Revisar Farmacologia</span>
+                                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                              </button>
+                          </div>
+                          <!-- Propedêutica -->
+                         <div class="bg-white p-6 rounded-3xl border border-gray-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group relative overflow-hidden">
+                             <div class="absolute top-0 right-0 w-32 h-32 bg-emerald-50/70 rounded-bl-full pointer-events-none transition-transform group-hover:scale-110"></div>
+                             <div>
+                                 <div class="flex items-start justify-between mb-4">
+                                     <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center shadow-inner group-hover:bg-emerald-600 group-hover:text-white transition-colors duration-300">
+                                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"></path></svg>
+                                     </div>
+                                     <span id="srs-subject-badge-propedêutica" class="px-3 py-1 text-xs font-bold rounded-full bg-gray-100 text-gray-600">0 pendentes</span>
+                                 </div>
+                                 <h4 class="text-lg font-bold text-gray-900 group-hover:text-emerald-600 transition-colors">Propedêutica Médica</h4>
+                                 <p class="text-xs text-gray-500 mt-1 leading-relaxed">Anamnese, exame físico geral e semiologia aplicada por sistemas.</p>
+                                 <div class="mt-3 flex items-center text-xs text-gray-400 font-medium">
+                                     <span>662 questões no banco</span>
+                                 </div>
+                             </div>
+                             <button id="srs-btn-propedêutica" onclick="window.startErrorReview('propedêutica')" class="mt-5 w-full py-2.5 px-4 rounded-xl font-bold text-sm bg-emerald-600 hover:bg-emerald-700 active:scale-[0.98] text-white shadow-sm transition-all flex items-center justify-center space-x-2 cursor-pointer">
+                                 <span>Revisar Propedêutica</span>
+                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                             </button>
+                         </div>
+
+                         <!-- Fisiopatologia -->
+                         <div class="bg-white p-6 rounded-3xl border border-gray-200/90 shadow-sm hover:shadow-md transition-all flex flex-col justify-between group relative overflow-hidden">
+                             <div class="absolute top-0 right-0 w-32 h-32 bg-blue-50/70 rounded-bl-full pointer-events-none transition-transform group-hover:scale-110"></div>
+                             <div>
+                                 <div class="flex items-start justify-between mb-4">
+                                     <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-2xl flex items-center justify-center shadow-inner group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+                                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                                     </div>
+                                     <span id="srs-subject-badge-fisiopatologia" class="px-3 py-1 text-xs font-bold rounded-full bg-gray-100 text-gray-600">0 pendentes</span>
+                                 </div>
+                                 <h4 class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors">Fisiopatologia</h4>
+                                 <p class="text-xs text-gray-500 mt-1 leading-relaxed">Mecanismos patológicos de afecções, disfunções orgânicas e clínica integrada.</p>
+                                 <div class="mt-3 flex items-center text-xs text-gray-400 font-medium">
+                                     <span>754 questões no banco</span>
+                                 </div>
+                             </div>
+                             <button id="srs-btn-fisiopatologia" onclick="window.startErrorReview('fisiopatologia')" class="mt-5 w-full py-2.5 px-4 rounded-xl font-bold text-sm bg-blue-600 hover:bg-blue-700 active:scale-[0.98] text-white shadow-sm transition-all flex items-center justify-center space-x-2 cursor-pointer">
+                                 <span>Revisar Fisiopatologia</span>
+                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                             </button>
+                         </div>
+
+                                                   
+
+                          <!-- Hidden elements for archived subjects to maintain script compatibility -->
+                         <div class="hidden">
+                             <span id="srs-subject-badge-farmacologia"></span>
+                             <button id="srs-btn-farmacologia" onclick="window.startErrorReview('farmacologia')"><span></span></button>
+                             <span id="srs-subject-badge-bases-cirurgicas"></span>
+                             <button id="srs-btn-bases-cirurgicas" onclick="window.startErrorReview('bases cirúrgicas')"><span></span></button>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             
+            <div id="view-favorites" class="space-y-8 hidden fade-in">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-6 gap-4">
+                    <h2 class="text-xl font-bold text-gray-900">Questões Favoritas</h2>
+                    <div class="relative w-full sm:w-64">
+                        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                        </div>
+                        <input type="text" id="favorites-search" class="w-full pl-10 pr-4 py-2 bg-white border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent transition-all" placeholder="Buscar nas favoritas...">
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 md:p-8 rounded-3xl border border-gray-100 shadow-sm">
+                    <div id="favorites-list" class="space-y-4">
+                        <p class="text-gray-500 italic">Carregando favoritas...</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ACADEMIC DRIVE VIEWS -->
+            <div id="view-library" class="space-y-8 hidden fade-in">
+                <!-- Injected by libraryUi.ts -->
+            </div>
+
+            <div id="view-errors" class="space-y-8 hidden fade-in">
+                <!-- Injected by errorNotebookUi.ts -->
+            </div>
+
+            <div id="view-discipline-detail" class="space-y-8 hidden fade-in">
+                <!-- Injected by disciplineUi.ts -->
+            </div>
+
+            <div id="view-lesson-detail" class="space-y-8 hidden fade-in">
+                <!-- Injected by lessonUi.ts -->
+            </div>
+
+</div>
+        </main>
+</div>
+<div id="app-screen" class="hidden flex-col h-full w-full">
+    <header class="flex items-center justify-between px-3 sm:px-4 md:px-8 py-3 md:py-4 bg-white border-b border-gray-200 shadow-sm z-10 shrink-0">
+        <div class="flex items-center space-x-2 sm:space-x-3 md:space-x-4">
+            <button onclick="window.backToHome()" class="text-gray-400 hover:text-gray-600 transition-colors p-1" title="Voltar ao Início">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+            </button>
+            <div class="bg-blue-600 p-2 rounded-lg hidden md:block">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+            </div>
+            <div>
+                <h1 id="header-subject-title" class="text-sm md:text-lg font-bold text-gray-900 leading-tight">Fisiopatologia PR1</h1>
+                <p class="text-[10px] md:text-xs text-gray-500 uppercase tracking-wider font-semibold">Modo de Estudo</p>
+            </div>
+        </div>
+        <div class="flex items-center space-x-2 sm:space-x-3 md:space-x-6">
+            <!-- Mobile Question Grid Toggle -->
+            <button id="btn-quiz-grid-toggle" onclick="window.toggleQuizSidebar()" class="md:hidden flex items-center gap-1.5 px-2.5 py-1.5 bg-blue-50 text-blue-700 text-xs font-bold rounded-lg border border-blue-100 hover:bg-blue-100 transition-colors" title="Ver grade de questões">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                <span>Grade</span>
+            </button>
+            <div id="timer-display" class="hidden items-center justify-center bg-orange-100 text-orange-700 px-2.5 sm:px-3 py-1.5 rounded-lg font-mono font-bold text-xs sm:text-sm shadow-sm">
+                00:00:00
+            </div>
+            <button onclick="window.finishTest()" class="bg-red-50 text-red-600 px-3 md:px-4 py-1.5 sm:py-2 rounded-md text-xs md:text-sm font-bold border border-red-100 hover:bg-red-100 transition-colors"> FINALIZAR </button>
+        </div>
+    </header>
+    <main class="flex flex-1 overflow-hidden relative">
+        <!-- Sidebar Backdrop for Mobile -->
+        <div id="quiz-sidebar-overlay" class="fixed inset-0 bg-gray-900/50 z-40 hidden md:hidden backdrop-blur-sm transition-opacity" onclick="window.toggleQuizSidebar()"></div>
+        <!-- Sidebar -->
+        <aside id="quiz-sidebar" class="fixed inset-y-0 left-0 w-72 md:w-64 lg:w-72 bg-white border-r border-gray-200 flex flex-col shrink-0 shadow-2xl md:shadow-[4px_0_24px_rgba(0,0,0,0.02)] z-50 md:z-10 transform -translate-x-full md:translate-x-0 md:relative transition-transform duration-300">
+            <div class="p-4 md:p-5 border-b border-gray-100">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="text-sm font-bold text-gray-800">Progresso</span>
+                    <div class="flex items-center gap-2">
+                        <span id="progress-text" class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-md">0 de 100</span>
+                        <button onclick="window.toggleQuizSidebar()" class="md:hidden text-gray-400 hover:text-gray-700 p-1" title="Fechar grade">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-full bg-gray-100 rounded-full h-2">
+                    <div id="progress-bar" class="bg-blue-600 h-2 rounded-full w-0 transition-all duration-500"></div>
+                </div>
+            </div>
+            <div id="quiz-grid-scroll-container" class="flex-1 overflow-y-auto p-4 pb-12 custom-scrollbar-y touch-pan-y overscroll-y-contain">
+                <div id="question-grid" class="grid grid-cols-[repeat(auto-fill,minmax(40px,1fr))] gap-2">
+                    <!-- Dynamic Grid Buttons -->
+                </div>
+            </div>
+            <div class="p-4 bg-gray-50 text-[10px] font-semibold text-gray-500 border-t border-gray-200 shrink-0 uppercase tracking-wider space-y-2">
+                <div class="flex items-center">
+                    <div class="w-3 h-3 bg-green-50 border border-green-600 rounded mr-2"></div> Correta
+                </div>
+                <div class="flex items-center">
+                    <div class="w-3 h-3 bg-red-50 border border-red-600 rounded mr-2"></div> Incorreta
+                </div>
+                <div class="flex items-center">
+                    <div class="w-3 h-3 bg-gray-50 border border-gray-200 rounded mr-2"></div> Não Respondida
+                </div>
+                <div class="flex items-center">
+                    <div class="w-3 h-3 bg-white border border-gray-300 ring-2 ring-blue-500 rounded mr-2"></div> Atual
+                </div>
+            </div>
+        </aside>
+        <!-- Content Area -->
+        <section class="flex-1 min-w-0 bg-gray-50 overflow-hidden flex flex-col relative custom-scrollbar">
+            <!-- Empty State (No Questions) -->
+            <div id="empty-state" class="hidden absolute inset-0 flex flex-col items-center justify-center p-8 text-center bg-gray-50 z-20">
+                <div class="w-20 h-20 bg-gray-200 text-gray-400 rounded-full flex items-center justify-center mb-6 mx-auto">
+                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                </div>
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Sem questões disponíveis</h2>
+                <p class="text-gray-500 max-w-sm mx-auto">Este banco de questões ainda não possui perguntas cadastradas. Volte para a tela inicial para escolher outra matéria.</p>
+                <button onclick="window.backToHome()" class="mt-6 px-6 py-2 bg-white border border-gray-300 rounded-lg text-sm font-medium hover:bg-gray-50 transition-colors">Voltar</button>
+            </div>
+            <!-- Question Container -->
+            <div id="quiz-container" class="max-w-4xl mx-auto flex flex-col min-h-0 h-full w-full p-4 md:p-6 lg:p-8 pb-[calc(1rem+env(safe-area-inset-bottom))] fade-in relative hidden">
+                <div class="flex items-center space-x-3 mb-4 md:mb-6 shrink-0">
+                    <span id="question-counter" class="bg-gray-900 text-white text-xs font-bold px-3 md:px-4 py-1.5 rounded-md shadow-sm"> QUESTÃO 1 </span>
+                    <span id="question-type" class="text-gray-500 text-xs font-bold uppercase tracking-widest bg-gray-200 px-3 py-1.5 rounded-md"> CASO CLÍNICO </span>
+                    <div class="flex-1"></div>
+                    <button id="btn-favorite" onclick="window.toggleFavorite()" class="text-gray-300 hover:text-yellow-400 transition-colors p-1" title="Adicionar aos Favoritos">
+                        <svg id="icon-favorite" class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                    </button>
+                </div>
+                <div id="quiz-question-scroll-container" style="overflow-anchor: none;" class="flex-1 min-w-0 min-h-0 overflow-y-auto pr-2 pb-24 md:pb-28 custom-scrollbar touch-pan-y overscroll-contain">
+                    <div class="prose prose-sm md:prose-base max-w-none text-gray-800 leading-relaxed mb-8">
+                        <h2 id="question-text" class="font-medium text-lg md:text-xl whitespace-pre-line break-words text-gray-900">
+                            <!-- Question text will be injected here -->
+                        </h2>
+                        <div id="question-graphics" class="mt-4 hidden"></div>
+                    </div>
+                    <div id="interaction-area" class="mb-8">
+                        <!-- Dynamic interaction -->
+                    </div>
+                    <div id="hint-area" class="hidden mt-6 p-4 md:p-5 border border-yellow-200 bg-yellow-50 rounded-2xl shadow-sm fade-in">
+                        <div class="flex items-center mb-2">
+                            <div class="bg-yellow-200 p-1.5 rounded-md mr-3">
+                                <svg class="w-5 h-5 text-yellow-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                            </div>
+                            <h3 class="font-bold text-yellow-900 text-base">Pista</h3>
+                        </div>
+                        <div id="hint-text" class="text-yellow-900 whitespace-pre-line text-sm leading-relaxed"></div>
+                    </div>
+                    <div id="feedback-area" class="hidden mt-8 p-4 md:p-6 border border-green-200 bg-green-50 rounded-2xl shadow-sm fade-in">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <div class="bg-green-100 p-1.5 rounded-md mr-3">
+                                    <svg class="w-5 h-5 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                </div>
+                                <h3 class="font-bold text-green-900 text-lg">Gabarito Comentado</h3>
+                            </div>
+                        </div>
+                        <div id="feedback-text" class="text-green-900 whitespace-pre-line text-sm md:text-base leading-relaxed">
+                            <!-- Feedback will be injected here -->
+                        </div>
+                        <div id="self-assess-area" class="hidden mt-4 pt-4 border-t border-green-200 flex items-center justify-between">
+                            <span class="text-sm font-semibold text-green-900">Como você se saiu?</span>
+                            <div class="flex space-x-2 sm:space-x-3">
+                                <button onclick="window.recordSelfAssessment(false)" class="px-3 sm:px-4 py-2 bg-red-100 text-red-700 text-xs sm:text-sm font-bold rounded-lg hover:bg-red-200 transition-colors cursor-pointer">Errei</button>
+                                <button id="btn-chutei" onclick="window.recordSelfAssessment(true, null, true)" class="px-3 sm:px-4 py-2 bg-yellow-100 text-yellow-700 text-xs sm:text-sm font-bold rounded-lg hover:bg-yellow-200 transition-colors cursor-pointer">Chutei (Acertei)</button>
+                                <button onclick="window.recordSelfAssessment(true)" class="px-3 sm:px-4 py-2 bg-green-200 text-green-800 text-xs sm:text-sm font-bold rounded-lg hover:bg-green-300 transition-colors cursor-pointer">Acertei</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer Nav -->
+                <div class="mt-auto pt-4 md:pt-6 border-t border-gray-200 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 md:gap-0 shrink-0 bg-gray-50/95 backdrop-blur-sm z-10">
+                    <button id="btn-prev" class="flex items-center justify-center text-gray-600 font-bold text-sm px-4 py-2.5 rounded-lg hover:bg-gray-200/60 transition-colors" onclick="window.prevQuestion()">
+                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg> ANTERIOR
+                    </button>
+                    <div class="flex flex-col md:flex-row items-stretch md:items-center gap-3">
+                        <button id="btn-show-answer" class="bg-white text-blue-600 border border-blue-200 px-6 py-2.5 rounded-lg text-sm font-bold shadow-sm hover:bg-blue-50 transition-colors" onclick="window.showAnswer()"> MOSTRAR GABARITO </button>
+                        <button id="btn-next" class="bg-blue-600 text-white px-8 py-2.5 rounded-lg text-sm font-bold shadow-md shadow-blue-200 hover:bg-blue-700 hover:shadow-lg transition-all flex items-center justify-center" onclick="window.nextQuestion()">
+                            <span>PRÓXIMA</span>
+                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- End Screen -->
+            <div id="end-screen" class="hidden absolute inset-0 bg-gray-50 flex-col items-center justify-start overflow-y-auto custom-scrollbar fade-in text-center p-4 md:p-8 z-20">
+                <div class="w-full max-w-3xl my-auto py-6 flex flex-col items-center">
+                    <div class="w-16 h-16 md:w-20 md:h-20 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mb-4 md:mb-6 shadow-sm shrink-0">
+                        <svg class="w-8 h-8 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h2 class="text-2xl md:text-4xl font-extrabold text-gray-900 mb-2 md:mb-4 tracking-tight">Simulado Concluído!</h2>
+                    <p class="text-gray-600 mb-6 md:mb-8 max-w-md mx-auto text-sm md:text-lg leading-relaxed">Você terminou as questões deste módulo.</p>
+                    <div id="results-chart" class="w-full max-w-3xl min-h-[360px] h-auto mx-auto bg-white p-4 rounded-xl shadow-sm border border-gray-100 shrink-0"></div>
+                    <div class="mt-6 md:mt-8 flex flex-col sm:flex-row items-center gap-4 w-full justify-center">
+                        <button onclick="window.backToHome()" class="w-full sm:w-auto bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-bold shadow-sm hover:bg-blue-700 transition-colors flex items-center justify-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                            Voltar ao Painel
+                        </button>
+                        <button onclick="window.restartTest()" class="w-full sm:w-auto bg-gray-200 text-gray-800 px-6 py-3 rounded-lg text-sm font-bold shadow-sm hover:bg-gray-300 transition-colors flex items-center justify-center">
+                            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                            Reiniciar Módulo
+                        </button>
+                        <div id="drive-export-container" class="flex flex-col items-center gap-3 w-full sm:w-auto">
+                            <div class="flex flex-col w-full">
+                                <label for="export-subject-select" class="text-xs font-bold text-gray-500 mb-1 uppercase tracking-wider text-left">Exportar Relatório</label>
+                                <select id="export-subject-select" class="bg-white border border-gray-200 text-gray-700 rounded-lg px-4 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 shadow-sm w-full">
+                                    <option value="todos">Todos os Módulos Consolidados</option>
+                                    <option value="farmacologia">Somente Farmacologia</option>
+                                    <option value="propedêutica">Somente Propedêutica</option>
+                                    <option value="fisiopatologia">Somente Fisiopatologia</option>
+                                    <option value="bases cirúrgicas">Somente Bases Cirúrgicas</option>
+                                    <option value="iesc_iv">Somente IESC IV</option>
+                                </select>
+                            </div>
+                            <button id="btn-export-drive" class="w-full bg-blue-600 text-white px-6 py-3 rounded-lg text-sm font-bold shadow-md hover:bg-blue-700 transition-colors flex items-center justify-center">
+                                <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                                Baixar Relatório em PDF
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+<script type="module" src="/src/main.tsx"></script>
+
+<!-- Chatbot FAB & Drawer -->
+<div id="chatbot-container" class="fixed bottom-24 md:bottom-6 right-4 md:right-6 z-50 flex flex-col items-end pointer-events-none">
+    <!-- Chat Drawer -->
+    <div id="chat-drawer" class="hidden flex-col w-[calc(100vw-2rem)] sm:w-96 h-[480px] max-h-[70vh] bg-white rounded-2xl shadow-2xl border border-gray-200 mb-3 overflow-hidden origin-bottom-right transition-all pointer-events-auto">
+        <!-- Header -->
+        <div id="chat-header" class="bg-indigo-600 p-4 flex items-center justify-between text-white shrink-0 shadow-sm">
+            <div class="flex items-center space-x-2.5">
+                <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center">
+                    <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                </div>
+                <div>
+                    <span id="chat-title" class="font-bold text-sm block">Prof. Assistente</span>
+                    <span class="text-[11px] text-indigo-200 block">Tutor Médico IA</span>
+                </div>
+            </div>
+            <button id="chat-close-btn" onclick="window.toggleChat()" class="text-indigo-200 hover:text-white p-1 rounded-lg hover:bg-white/10 transition-colors" title="Fechar chat">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+        </div>
+        
+        <!-- Messages Area -->
+        <div id="chat-messages" class="flex-1 overflow-y-auto p-4 space-y-3 bg-gray-50 flex flex-col custom-scrollbar text-sm">
+            <!-- Greeting message -->
+            <div class="flex justify-start">
+                <div class="bg-white border border-gray-200 text-gray-800 rounded-2xl rounded-tl-sm px-4 py-2.5 max-w-[85%] shadow-sm">
+                    Olá! Sou seu preceptor virtual. Posso explicar o raciocínio clínico da questão atual, fisiopatologia, farmacologia ou técnica cirúrgica. Qual é a sua dúvida?
+                </div>
+            </div>
+        </div>
+        
+        <!-- Input Area -->
+        <div class="p-3 bg-white border-t border-gray-200 flex items-end gap-2 shrink-0">
+            <textarea id="chat-input" rows="1" class="flex-1 max-h-28 border border-gray-300 rounded-xl px-3 py-2 text-sm focus:outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 resize-none custom-scrollbar" placeholder="Digite sua dúvida sobre a questão..."></textarea>
+            <button id="chat-send-btn" onclick="window.sendChatMessage()" class="bg-indigo-600 text-white p-2.5 rounded-xl hover:bg-indigo-700 transition-colors shrink-0 disabled:opacity-50 disabled:cursor-not-allowed shadow-sm" title="Enviar mensagem">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+            </button>
+        </div>
+    </div>
+    
+    <!-- FAB Button -->
+    <button id="chat-fab-btn" onclick="window.toggleChat()" class="pointer-events-auto bg-indigo-600 text-white w-12 h-12 md:w-14 md:h-14 rounded-full shadow-lg hover:shadow-indigo-500/30 hover:bg-indigo-700 hover:-translate-y-0.5 transition-all flex items-center justify-center group" title="Tirar dúvida com o Prof. Assistente">
+        <svg class="w-6 h-6 transition-transform group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path></svg>
+    </button>
+</div>
+</body>
+</html>

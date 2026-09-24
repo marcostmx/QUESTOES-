@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Marque V ou F e corrija as falsas:
+
+I. A lesão isquêmica é a causa mais comum de distúrbios de ritmo.
+II. Se os miócitos atriais se tornam "irritáveis" e despolarizam de modo independente, o resultado é o bloqueio atrioventricular.
+III. A fibrilação ventricular é uma despolarização caótica sem contração ventricular funcional.
+IV. O feixe de Kent conduz impulsos diretamente dos átrios aos ventrículos, transpondo o nó AV.
+V. O flutter atrial típico é uma arritmia caracterizada por macrorreentrada no átrio direito.
+GABARITO:
+I — V. Por dano direto ou pela dilatação das câmaras, que altera a ativação do sistema de condução.
+II — F. Miócitos atriais irritáveis, com despolarização independente e esporádica transmitida de forma variável pelo nó AV, produzem fibrilação atrial, com ritmo irregularmente irregular. Quem produz bloqueio cardíaco é a disfunção do nó AV.
+III — V.
+IV — V.
+V — V. O flutter atrial típico decorre de circuito de macrorreentrada no átrio direito, classicamente dependente do istmo cavotricuspídeo.

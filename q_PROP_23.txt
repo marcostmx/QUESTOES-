@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: Considerando os aspectos observados no exame físico geral, analise as assertivas a seguir:
+I. Na DISFONIA, a musculatura e o órgão fonador estão normais. O que ocorre é um distúrbio cortical na elaboração da fala.
+II. A MARCHA PARKINSONIANA apresenta como características o andar em "passos curtos", redução do balanço dos braços, viradas em bloco, decorrentes da rigidez e bradicinesia típicos do quadro.
+III. TÔNUS é a massa do próprio músculo. TROFISMO é o estado de semicontração própria do músculo normal.
+IV. CIRCULAÇÃO COLATERAL indica dificuldade ou impedimento do fluxo venoso através dos troncos venosos principais. A rede visível está na topografia normal e é simétrica.
+V. A AVALIAÇÃO DO ESTADO GERAL é uma etapa objetiva do exame, existindo critérios bem definidos para classificar o paciente em estado geral bom, regular ou ruim.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas II e V estão corretas.
+  C) C) Apenas II, IV e V estão corretas.
+  D) D) Apenas I, II e V estão corretas.
+  E) E) Nenhuma das alternativas anteriores.
+GABARITO:
+Alternativa B.
+II e V corretas. I falsa (isso é disfasia; disfonia é do órgão periférico). III falsa (conceitos invertidos). IV falsa (a circulação colateral é de topografia ATÍPICA e assimétrica).

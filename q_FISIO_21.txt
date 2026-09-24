@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Mulher de 37 anos, previamente hígida, procura a clínica por emagrecimento não intencional de 7,5 kg em três meses, mantendo apetite excelente. Refere insônia, irritabilidade e intolerância ao calor, com sudorese aumentada. Ao exame: FC 108 bpm, PA 142/82 mmHg, olhar fixo com olhos protuberantes, tireoide grande, lisa e indolor, pele quente, tremor fino de extremidades e sopro de ejeção sistólico 2/6.
+
+a) Qual o diagnóstico e o autoantígeno envolvido?
+b) Qual o resultado esperado de TSH e T4 livre? Como se completa a investigação?
+c) Explique o mecanismo da taquicardia, da perda de peso, do bócio e da fraqueza muscular.
+d) Cite as quatro modalidades de tratamento descritas.
+e) Qual hipótese é levantada no material sobre o gatilho da produção do autoanticorpo?
+GABARITO:
+a) Doença de Graves, causa mais comum de hipertireoidismo. O autoantígeno é o receptor do TSH (TSHR), que sofre estimulação por anticorpos específicos direcionados contra ele (anti-rTSH), os quais mimetizam a ação do TSH.
+b) TSH indetectável/diminuído e T4 livre elevado (T3 também aumentado). A investigação se completa com o doseamento de anticorpos anti-rTSH, quase sempre positivo; quando o diagnóstico clínico não é claro, dosam-se anticorpos anti-TPO em concentrações elevadas ou realiza-se cintilografia demonstrando bócio difuso.
+c) Taquicardia — efeito direto do hormônio tireoidiano sobre o sistema de condução cardíaco, somado à superatividade do sistema nervoso simpático. Perda de peso — aumento da taxa metabólica basal, apesar do apetite preservado. Bócio — autoanticorpos que estimulam o crescimento das células epiteliais tireoidianas. Fraqueza muscular — catabolismo proteico aumentado, atrofia muscular, diminuição da eficiência dos músculos e alterações na miosina.
+d) Controle sintomático com betabloqueadores; redução da síntese hormonal com tionamidas; iodo radioativo; e cirurgia.
+e) A causa desencadeante não é conhecida, mas o material levanta a hipótese de uma resposta imune contra um antígeno viral que compartilha homologia com o receptor de TSH — ou seja, reação cruzada levando à doença autoimune.

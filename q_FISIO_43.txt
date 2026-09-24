@@ -1,0 +1,22 @@
+ (Options: 0)
+TEXT: Mulher de 82 anos, acamada com demência avançada, internada com febre de 39,2°C, tosse produtiva e sonolência há 24 horas. Ao exame físico: PA 75/40 mmHg, FC 128 bpm, FR 32 mpm, SpO2 86% em ar ambiente, tempo de enchimento capilar de 5 segundos, livedo reticular nos membros inferiores e oligúria nas últimas 12 horas. Gasometria arterial: pH 7,22, PaO2 54 mmHg, PaCO2 28 mmHg, HCO3 11 mEq/L, Lactato 5,2 mmol/L. Leucócitos 24.000/mm³ com 18% de bastões.
+
+a) Identifique as síndromes clínicas e classifique a gravidade do quadro hemodinâmico e respiratório.
+b) Interprete a gasometria arterial integrando os componentes metabólico e respiratório.
+c) Descreva a cascata celular que conecta a infecção pulmonar à vasodilatação sistêmica, colapso circulatório e acidose lática.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Síndromes clínicas e gravidade:** Sepse grave com Choque Séptico refratário a foco pulmonar (Pneumonia Comunitária Grave/Aspirativa) associada a Insuficiência Respiratória Aguda Tipo 1 (Hipoxêmica) e Provável SARA, além de Injúria Renal Aguda oligúrica.
+
+b) **Interpretação da gasometria:**
+• pH 7,22: Acidemia grave.
+• HCO3 11 mEq/L e Lactato 5,2 mmol/L: Acidose metabólica com ânion gap elevado, causada por hipóxia tecidual e acúmulo de ácido lático (glicólise anaeróbia).
+• PaCO2 28 mmHg: Alcalose respiratória compensatória (o centro respiratório hiperventila para tentar eliminar CO2 e tamponar o pH).
+• PaO2 54 mmHg em ar ambiente: Hipoxemia grave (relação PaO2/FiO2 < 260), decorrente de áreas pulmonares de shunt e desequilíbrio ventilação/perfusão.
+
+c) **Cascata celular integrada:** Bactérias no alvéolo liberam PAMPs (ex.: endotoxinas ou peptideoglicanos) reconhecidos por Toll-like receptors de macrófagos alveolares. Há liberação sistêmica maciça de TNF-alfa, IL-1 e IL-6, que ativam as células endoteliais em todo o organismo. O endotélio induz a síntese de óxido nítrico sintase (iNOS), gerando produção desregulada de NO, que relaxa as células musculares lisas das arteríolas pré-capilares (vasoplegia e choque distributivo). Simultaneamente, o glicocálice endotelial é destruído, provocando extravasamento maciço de albumina e água para o interstício (hipovolemia relativa). A queda crítica da pressão de perfusão tecidual somada a microtrombos capilares colapsa a entrega de oxigênio (DO2) às mitocôndrias celulares; sem oxigênio, a cadeia transportadora de elétrons cessa e a célula recorre à conversão de piruvato em lactato, gerando a acidose lática sistêmica.
+
+Revisar: Sepse, choque séptico e falência celular
+
+=== PROPEDEUTICA ===

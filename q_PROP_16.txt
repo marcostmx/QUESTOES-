@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: A respeito dos sinais vitais, analise as assertivas a seguir:
+I. Paciente portador de insuficiência cardíaca que apresenta, de modo cíclico, incursões respiratórias que vão se tornando cada vez mais profundas até atingirem uma amplitude máxima, seguida de redução dos movimentos respiratórios, até a apneia, que dura alguns segundos, quando então o ciclo é reiniciado. O caso clínico descreve um paciente com respiração de Cheyne-Stokes.
+II. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.
+III. A frequência, a amplitude e o ritmo são importantes características semiológicas do pulso arterial. O ritmo pode ser classificado em regular (pulsações com intervalos iguais) e irregular (intervalos de diferentes durações).
+IV. A presença de hiato auscultatório pode subestimar a pressão arterial sistólica de pacientes idosos. A realização do método palpatório antes do método auscultatório evita esse erro.
+V. A fase I de Korotkoff equivale à pressão arterial sistólica, enquanto a fase V (desaparecimento dos sons) equivale à diastólica. Quando os ruídos persistem até o total esvaziamento da câmara, deve-se considerar a diastólica na fase IV e registrar três valores, p. ex. 140x50x0 mmHg.
+Está correto o que se afirma em:
+  A) A) Apenas I, III e V estão corretas.
+  B) B) Apenas I, III, IV e V estão corretas.
+  C) C) Apenas II, IV e V estão corretas.
+  D) D) Apenas I e II estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, III, IV e V são verdadeiras. II é falsa pois a rigidez aórtica (perda de elasticidade) AUMENTA a PA sistólica e reduz a diastólica (alargando a pressão de pulso).

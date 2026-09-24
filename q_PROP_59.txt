@@ -1,0 +1,25 @@
+ (Options: 5)
+TEXT: Manobras e bulhas cardíacas acessórias (B3/B4, Rivero-Carvallo)
+
+Analise as assertivas a seguir:
+
+II. Há manobras que podem alterar a intensidade dos sopros cardíacos. A manobra de Rivero Carvallo é uma delas, e consiste na realização de uma inspiração profunda enquanto o médico ausculta o precórdio do paciente. A manobra de Rivero Carvallo promove aumento do sangue nas câmaras cardíacas direitas, o que leva ao aumento da intensidade dos sopros das valvopatias tricúspides e pulmonares.
+III. A terceira e a quarta bulhas são de tonalidade mais baixa que a primeira e a segunda bulhas cardíacas. Essas bulhas (B3 e B4), quando presentes, são melhor audíveis com a campânula do estetoscópio, assim como o sopro diastólico da estenose mitral, situando-se na telediástole e protodiástole, respectivamente.
+
+Assinale a alternativa correta:
+  A) A) As assertivas I, II e III estão corretas.
+  B) B) Apenas a assertiva I está correta.
+  C) C) Apenas a assertiva II está correta.
+  D) D) Apenas a assertiva III está correta.
+  E) E) As assertivas I, II e III estão falsas.
+GABARITO:
+Alternativa C.
+
+**COMENTÁRIO DO GABARITO:**
+• II — VERDADEIRO: A manobra de Rivero-Carvallo consiste na inspiração profunda sustentada, que reduz a pressão intratorácica, aumentando o retorno venoso para as cavidades cardíacas direitas, intensificando sopros originados nas valvas tricúspide e pulmonar.
+• III — FALSO: Embora B3 e B4 sejam de baixa frequência e audíveis com a campânula, o item inverte suas posições cronológicas na diástole: a terceira bulha (B3) ocorre na PROTODIÁSTOLE (logo após B2, fase de enchimento ventricular rápido), enquanto a quarta bulha (B4) ocorre na TELEDIÁSTOLE (logo antes de B1, decorrente da contração atrial contra ventrículo rígido). O texto inverteu a ordem ("telediástole e protodiástole, respectivamente").
+
+Portanto, apenas a assertiva II está correta (Alternativa C).
+
+**O QUE O PROFESSOR QUER AVALIAR:**
+Conhecimento da fisiologia das manobras dinâmicas do exame cardiovascular e a cronologia exata dos ruídos protodiastólicos (B3) e telediastólicos (B4).

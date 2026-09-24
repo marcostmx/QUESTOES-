@@ -1,0 +1,11 @@
+ (Options: 0)
+TEXT: Paciente vítima de traumatismo cranioencefálico apresenta: abertura ocular ausente mesmo ao estímulo doloroso; resposta verbal com palavras inapropriadas e desconexas; ao estímulo doloroso, apresenta extensão e pronação dos membros superiores com extensão dos membros inferiores. Ambas as pupilas estão arreativas à luz.
+a. Pontue cada domínio da Escala de Coma de Glasgow e calcule o total.
+b. Aplique a correção pupilar (GCS-P) e informe o escore final.
+c. Nomeie a postura descrita, indique o nível anatômico da lesão que ela sugere e compare-a com a postura de decorticação quanto ao prognóstico.
+d. Explique por que a escala de Glasgow, isoladamente, pode ser insuficiente em pacientes intubados ou sedados, e o que se faz nesses casos.
+GABARITO:
+(a) Ocular 1, Verbal 3, Motora 2 (extensão anormal). Total = 6.
+(b) Ambas arreativas: perde 2 pontos. GCS-P = 4.
+(c) Descerebração. Lesão no tronco encefálico (mesencéfalo/ponte). Prognóstico pior que decorticação (que indica lesão acima do tronco).
+(d) Intubação impede resposta verbal (anota-se T ou NT). Sedação deprime todos os domínios farmacologicamente, não refletindo a lesão real. Deve-se avaliar com pausa da sedação (despertar diário).

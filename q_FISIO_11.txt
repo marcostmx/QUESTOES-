@@ -1,0 +1,15 @@
+ (Options: 0)
+TEXT: Homem de 58 anos, fumante de 2 maços/dia desde os 15 anos, refere dispneia progressiva, hoje aos mínimos esforços e em repouso, e tosse com escarro marrom-amarelado todas as manhãs ao longo do ano. Ao exame: FR 28 mpm, sentado inclinado para frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória. Tórax com diâmetro anteroposterior aumentado e retração dos arcos costais inferiores à inspiração. Ausculta com sibilos e roncos bilaterais, sem crepitantes. Bulhas rítmicas e hipofonéticas.
+
+a) Qual o diagnóstico e quais os dois componentes fisiopatológicos que compõem essa doença?
+b) Explique o mecanismo do aumento do diâmetro anteroposterior e da hipofonese das bulhas.
+c) Qual o próximo passo diagnóstico e o que ele informa?
+d) Cite quatro complicações crônicas da hipoxemia nessa doença.
+GABARITO:
+a) DPOC com exacerbação aguda. Os dois componentes: bronquite crônica (inflamação da mucosa brônquica, hipertrofia das glândulas submucosas, hipersecreção de muco → tosse produtiva) e enfisema (destruição dos septos alveolares e perda do recolhimento elástico → aprisionamento aéreo).
+
+b) A perda do recolhimento elástico faz as vias aéreas colapsarem na expiração; o ar entra mas não sai completamente → aprisionamento aéreo → hiperinsuflação → aumento do diâmetro anteroposterior (tórax em tonel). O excesso de ar interposto entre o coração e a parede torácica atenua a transmissão do som, produzindo bulhas hipofonéticas.
+
+c) Gasometria arterial, que informa rapidamente o estado da oxigenação (PaO₂) e da ventilação (PaCO₂), além do equilíbrio ácido-base.
+
+d) Hipertensão pulmonar (evoluindo para cor pulmonale), eritrocitose secundária, limitação das atividades físicas e comprometimento da função mental.

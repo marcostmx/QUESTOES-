@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Homem de 52 anos internado há 3 dias por pneumonia grave evolui com piora súbita. Apresenta falta de ar intensa, respiração rápida e superficial e cianose. A oximetria mostra saturação de 82% mesmo sob máscara de oxigênio. A radiografia de tórax revela infiltrado bilateral difuso. Há sinais de disfunção de outros órgãos.
+
+a) Qual o diagnóstico e como ele é definido?
+b) Cite os dois métodos citados no material para avaliar a oxigenação e o exame de imagem indicado.
+c) Qual o local de tratamento e o suporte que pode ser necessário?
+d) Qual o princípio central da conduta, além do suporte ventilatório?
+GABARITO:
+a) Síndrome da angústia respiratória aguda (SARA) — um tipo de insuficiência respiratória (pulmonar) resultante de diversas doenças que causam acúmulo de líquidos nos pulmões e redução do oxigênio no sangue a níveis excessivamente baixos.
+b) Oximetria de pulso (sensor na ponta do dedo) e gasometria arterial (amostra de sangue de uma artéria). O exame de imagem é a radiografia torácica.
+c) Unidade de terapia intensiva, pois os pacientes podem precisar de ventilação mecânica.
+d) Além do fornecimento de oxigênio, tratar a causa da insuficiência respiratória — no caso, a pneumonia.

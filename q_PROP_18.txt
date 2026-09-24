@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Homem de 32 anos é admitido após acidente motociclístico. Ao exame: abre os olhos apenas ao estímulo doloroso; emite sons incompreensíveis, sem formar palavras; ao estímulo doloroso apresenta flexão anormal dos membros superiores, com adução dos braços sobre o tórax. À avaliação pupilar, a pupila direita não reage à luz; a esquerda reage normalmente. Com base no caso, analise as assertivas:
+I. A pontuação da abertura ocular é 2 e a da resposta verbal é 2.
+II. A resposta motora descrita corresponde à decorticação e pontua 3.
+III. A soma dos três domínios é 7, e o escore de Glasgow com correção pupilar (GCS-P) é 6.
+IV. A postura descrita indica lesão localizada no tronco encefálico e tem pior prognóstico que a descerebração.
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e III corretas. IV é falsa pois a decorticação indica lesão acima do tronco e tem MELHOR prognóstico que a descerebração.

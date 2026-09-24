@@ -1,0 +1,600 @@
+Q001 E — Derrame pleural: FTV reduzido e macicez.
+Q002 C — Padrão cíclico de Cheyne-Stokes.
+Q003 D — Consolidação: FTV e transmissão vocal aumentados.
+Q004 D — E3 + V4 + M5 = 12.
+Q005 B — A avaliação linfonodal é sistemática e descritiva.
+Q006 C — Snellen avalia acuidade visual, não campimetria.
+Q007 B — Rigidez e bradicinesia explicam a marcha parkinsoniana.
+Q008 D — Características e fatores de risco sugerem SCA.
+Q009 A — Interpretação direta dos sinais vitais.
+Q010 B — Sinais clínicos de desidratação devem ser pesquisados.
+Q011 A — Sopro sistólico aórtico com irradiação cervical.
+Q012 C — Campânula para sons graves; B3 antes, B4 depois no ciclo.
+Q013 B — Ruídos de ejeção são protossistólicos.
+Q014 C — Pectus excavatum é tórax escavado.
+Q015 D — Ar pleural reduz MV/FTV e aumenta ressonância.
+Q016 A — Consolidação pulmonar por pneumonia.
+Q017 A — Três descrições semiológicas corretas.
+Q018 A — Sinais de alarme exigem investigação de causa secundária.
+Q019 D — Primárias não decorrem de lesão estrutural identificável.
+Q020 C — B4 é pré-sistólica em ventrículo pouco complacente.
+Q021 A — Dor pleurítica varia com a ventilação.
+Q022 A — Índice clássico de obstrução neoplásica distal.
+Q023 B — Sopro diastólico em foco aórtico acessório sugere IA.
+Q024 C — Perfusão capilar normal é rápida.
+Q025 B — Sibilo é som contínuo de via aérea estreitada.
+Q026 C — Lipotimia ocorre sem perda completa de consciência; síncope é a perda.
+Q027 B — Hiato e método palpatório são clássicos de prova.
+Q028 A — Déficit motor contralateral e linguagem apontam para hemisfério dominante.
+Q029 A — Colunas dorsais são poupadas.
+Q030 A — Colunas dorsais são comprometidas.
+Q031 A — Padrão central clássico: MMSS mais afetados.
+Q032 A — As vias cruzam em níveis diferentes.
+Q033 A — Cone medular tem padrão central e simétrico.
+Q034 A — Cauda equina é lesão de neurônio motor inferior/radicular.
+Q035 A — Estrutura não exclui escuta.
+Q036 E — Acolhimento qualifica a informação.
+Q037 D — É parte do roteiro inicial.
+Q038 C — QP e HDA têm funções diferentes.
+Q039 B — HDA descreve a evolução.
+Q040 A — Ele complementa o relato espontâneo.
+Q041 E — Doenças, procedimentos e outros dados pessoais importam.
+Q042 D — Ela pode revelar riscos compartilhados.
+Q043 C — Hábitos orientam risco e conduta.
+Q044 B — Elas influenciam saúde e acesso ao cuidado.
+Q045 A — Privacidade preserva dignidade e cooperação.
+Q046 E — Explicar reduz ansiedade e melhora a colaboração.
+Q047 D — Comunicação clara faz parte da técnica.
+Q048 C — A posição facilita a sequência do exame.
+Q049 B — É medida básica de segurança.
+Q050 A — Pode sugerir dor, desconforto ou humor.
+Q051 E — Boa anamnese combina vínculo e método.
+Q052 D — Estrutura não exclui escuta.
+Q053 C — Acolhimento qualifica a informação.
+Q054 B — É parte do roteiro inicial.
+Q055 A — QP e HDA têm funções diferentes.
+Q056 E — HDA descreve a evolução.
+Q057 D — Ele complementa o relato espontâneo.
+Q058 C — Doenças, procedimentos e outros dados pessoais importam.
+Q059 B — Ela pode revelar riscos compartilhados.
+Q060 A — Hábitos orientam risco e conduta.
+Q061 E — Elas influenciam saúde e acesso ao cuidado.
+Q062 D — Privacidade preserva dignidade e cooperação.
+Q063 C — Explicar reduz ansiedade e melhora a colaboração.
+Q064 B — Comunicação clara faz parte da técnica.
+Q065 A — A posição facilita a sequência do exame.
+Q066 E — É medida básica de segurança.
+Q067 D — Pode sugerir dor, desconforto ou humor.
+Q068 C — Boa anamnese combina vínculo e método.
+Q069 A, B, D — Estrutura não exclui escuta.
+Q070 A, C, E — Acolhimento qualifica a informação.
+Q071 B, D, E — É parte do roteiro inicial.
+Q072 A, C, D — QP e HDA têm funções diferentes.
+Q073 B, C, E — HDA descreve a evolução.
+Q074 A, B, D — Ele complementa o relato espontâneo.
+Q075 A, C, E — Doenças, procedimentos e outros dados pessoais importam.
+Q076 B, D, E — Ela pode revelar riscos compartilhados.
+Q077 A, C, D — Hábitos orientam risco e conduta.
+Q078 B, C, E — Elas influenciam saúde e acesso ao cuidado.
+Q079 A, B, D — Privacidade preserva dignidade e cooperação.
+Q080 A, C, E — Explicar reduz ansiedade e melhora a colaboração.
+Q081 B, D, E — Comunicação clara faz parte da técnica.
+Q082 A, C, D — A posição facilita a sequência do exame.
+Q083 B, C, E — É medida básica de segurança.
+Q084 A, B, D — Pode sugerir dor, desconforto ou humor.
+Q085 A, C, E — Boa anamnese combina vínculo e método.
+Q086 E — Estrutura não exclui escuta.
+Q087 D — Acolhimento qualifica a informação.
+Q088 C — É parte do roteiro inicial.
+Q089 B — QP e HDA têm funções diferentes.
+Q090 A — HDA descreve a evolução.
+Q091 E — Ele complementa o relato espontâneo.
+Q092 D — Doenças, procedimentos e outros dados pessoais importam.
+Q093 C — Ela pode revelar riscos compartilhados.
+Q094 B — Hábitos orientam risco e conduta.
+Q095 A — Elas influenciam saúde e acesso ao cuidado.
+Q096 E — Privacidade preserva dignidade e cooperação.
+Q097 D — Explicar reduz ansiedade e melhora a colaboração.
+Q098 C — Comunicação clara faz parte da técnica.
+Q099 B — A posição facilita a sequência do exame.
+Q100 A — É medida básica de segurança.
+Q101 E — São medidas globais de monitorização.
+Q102 D — A gravidade define a monitorização.
+Q103 C — Repita antes de concluir.
+Q104 B — É resultante de determinantes hemodinâmicos.
+Q105 A — DC e RVP são determinantes diretos.
+Q106 E — A pressão depende de vários determinantes.
+Q107 D — Aferição rotineira detecta alterações assintomáticas.
+Q108 C — Tamanho inadequado gera erro.
+Q109 B — Adequar o manguito é essencial.
+Q110 A — A medida é braquial.
+Q111 E — Esses fatores podem elevar ou variar a PA.
+Q112 D — O exercício altera a medida.
+Q113 C — Condições corporais influenciam a medida.
+Q114 B — Repouso reduz variação situacional.
+Q115 A — Posição inadequada altera o resultado.
+Q116 E — A posição padroniza a compressão arterial.
+Q117 D — A referência é a artéria braquial.
+Q118 C — Palpação estima a sistólica.
+Q119 B — Ultrapassar evita perda do primeiro som.
+Q120 A — Deflação lenta permite identificar as fases.
+Q121 E — O primeiro som marca a sistólica.
+Q122 D — O fim dos sons marca a diastólica.
+Q123 C — Abafamento antecede o desaparecimento.
+Q124 B — O método palpatório ajuda a evitá-lo.
+Q125 A — Atenção especial em idosos.
+Q126 E — Repetir reduz variabilidade.
+Q127 D — Comparar braços revela diferenças relevantes.
+Q128 C — Registro exato é parte da técnica.
+Q129 B — A localização é no punho.
+Q130 A — O polegar tem pulso próprio e confunde.
+Q131 E — Apoio e supinação facilitam a palpação.
+Q132 D — O pulso permite estimar a FC.
+Q133 C — Conta-se ciclos respiratórios.
+Q134 B — A faixa de referência do slide é 12–20.
+Q135 A — Conhecer a contagem altera o padrão.
+Q136 E — É um balanço térmico.
+Q137 D — São medidas globais de monitorização.
+Q138 C — A gravidade define a monitorização.
+Q139 B — Repita antes de concluir.
+Q140 A — É resultante de determinantes hemodinâmicos.
+Q141 E — DC e RVP são determinantes diretos.
+Q142 D — A pressão depende de vários determinantes.
+Q143 C — Aferição rotineira detecta alterações assintomáticas.
+Q144 B — Tamanho inadequado gera erro.
+Q145 A — Adequar o manguito é essencial.
+Q146 E — A medida é braquial.
+Q147 D — Esses fatores podem elevar ou variar a PA.
+Q148 C — O exercício altera a medida.
+Q149 B — Condições corporais influenciam a medida.
+Q150 A — Repouso reduz variação situacional.
+Q151 E — Posição inadequada altera o resultado.
+Q152 D — A posição padroniza a compressão arterial.
+Q153 C — A referência é a artéria braquial.
+Q154 B — Palpação estima a sistólica.
+Q155 A — Ultrapassar evita perda do primeiro som.
+Q156 E — Deflação lenta permite identificar as fases.
+Q157 D — O primeiro som marca a sistólica.
+Q158 C — O fim dos sons marca a diastólica.
+Q159 B — Abafamento antecede o desaparecimento.
+Q160 A — O método palpatório ajuda a evitá-lo.
+Q161 E — Atenção especial em idosos.
+Q162 D — Repetir reduz variabilidade.
+Q163 C — Comparar braços revela diferenças relevantes.
+Q164 B — Registro exato é parte da técnica.
+Q165 A — A localização é no punho.
+Q166 E — O polegar tem pulso próprio e confunde.
+Q167 D — Apoio e supinação facilitam a palpação.
+Q168 C — O pulso permite estimar a FC.
+Q169 B — Conta-se ciclos respiratórios.
+Q170 A — A faixa de referência do slide é 12–20.
+Q171 E — Conhecer a contagem altera o padrão.
+Q172 D — É um balanço térmico.
+Q173 B, C, E — São medidas globais de monitorização.
+Q174 A, B, D — A gravidade define a monitorização.
+Q175 A, C, E — Repita antes de concluir.
+Q176 B, D, E — É resultante de determinantes hemodinâmicos.
+Q177 A, C, D — DC e RVP são determinantes diretos.
+Q178 B, C, E — A pressão depende de vários determinantes.
+Q179 A, B, D — Aferição rotineira detecta alterações assintomáticas.
+Q180 A, C, E — Tamanho inadequado gera erro.
+Q181 B, D, E — Adequar o manguito é essencial.
+Q182 A, C, D — A medida é braquial.
+Q183 B, C, E — Esses fatores podem elevar ou variar a PA.
+Q184 A, B, D — O exercício altera a medida.
+Q185 A, C, E — Condições corporais influenciam a medida.
+Q186 B, D, E — Repouso reduz variação situacional.
+Q187 A, C, D — Posição inadequada altera o resultado.
+Q188 B, C, E — A posição padroniza a compressão arterial.
+Q189 A, B, D — A referência é a artéria braquial.
+Q190 A, C, E — Palpação estima a sistólica.
+Q191 B, D, E — Ultrapassar evita perda do primeiro som.
+Q192 A, C, D — Deflação lenta permite identificar as fases.
+Q193 B, C, E — O primeiro som marca a sistólica.
+Q194 A, B, D — O fim dos sons marca a diastólica.
+Q195 A, C, E — Abafamento antecede o desaparecimento.
+Q196 B, D, E — O método palpatório ajuda a evitá-lo.
+Q197 A, C, D — Atenção especial em idosos.
+Q198 B, C, E — Repetir reduz variabilidade.
+Q199 A, B, D — Comparar braços revela diferenças relevantes.
+Q200 A, C, E — Registro exato é parte da técnica.
+Q201 E — É a visão global inicial.
+Q202 D — O exame geral é amplo.
+Q203 C — As siglas descrevem a impressão global.
+Q204 B — Alerta inclui orientação.
+Q205 A — Confuso não é necessariamente inconsciente.
+Q206 E — O rebaixamento é leve.
+Q207 D — É mais grave que sonolência e menos que torpor.
+Q208 C — Torpor indica rebaixamento importante.
+Q209 B — Coma é ausência de resposta consciente.
+Q210 A — Ativa significa autonomia postural.
+Q211 E — Passiva representa incapacidade de se reposicionar.
+Q212 D — O paciente busca voluntariamente alívio.
+Q213 C — A observação clínica fornece dados.
+Q214 B — São dados observacionais úteis.
+Q215 A — É um padrão corporal descrito no slide.
+Q216 E — Longilíneo é o oposto do brevilíneo descrito.
+Q217 D — É o tipo intermediário.
+Q218 C — Eupneia é respiração sem dispneia.
+Q219 B — Pode não sugerir condição específica.
+Q220 A — É pista, não diagnóstico isolado.
+Q221 E — Pele e mucosas contribuem para a avaliação.
+Q222 D — O exame é clínico e integrado.
+Q223 C — IMC, musculatura e panículo adiposo ajudam.
+Q224 B — São elementos complementares.
+Q225 A — Cor é parte da descrição.
+Q226 E — A observação de mucosas é útil.
+Q227 D — São achados distintos.
+Q228 C — É um dado clínico à beira do leito.
+Q229 B — A presença e o padrão orientam hipóteses.
+Q230 A — É manobra de avaliação de edema.
+Q231 E — É um item da ectoscopia.
+Q232 D — A descrição é ampla.
+Q233 C — São anexos cutâneos.
+Q234 B — O padrão também importa.
+Q235 A — Há vários elementos semiológicos.
+Q236 E — A pesquisa é parte do exame geral.
+Q237 D — Eles não são acessíveis rotineiramente ao exame físico.
+Q238 C — Os métodos se complementam.
+Q239 B — Exposição adequada permite observar alterações.
+Q240 A — Simetria é dado semiológico.
+Q241 E — As polpas digitais são a superfície de escolha.
+Q242 D — Relaxar os músculos facilita a palpação.
+Q243 C — Vários atributos têm valor clínico.
+Q244 B — É a visão global inicial.
+Q245 A — O exame geral é amplo.
+Q246 E — As siglas descrevem a impressão global.
+Q247 D — Alerta inclui orientação.
+Q248 C — Confuso não é necessariamente inconsciente.
+Q249 B — O rebaixamento é leve.
+Q250 A — É mais grave que sonolência e menos que torpor.
+Q251 E — Torpor indica rebaixamento importante.
+Q252 D — Coma é ausência de resposta consciente.
+Q253 C — Ativa significa autonomia postural.
+Q254 B — Passiva representa incapacidade de se reposicionar.
+Q255 A — O paciente busca voluntariamente alívio.
+Q256 E — A observação clínica fornece dados.
+Q257 D — São dados observacionais úteis.
+Q258 C — É um padrão corporal descrito no slide.
+Q259 B — Longilíneo é o oposto do brevilíneo descrito.
+Q260 A — É o tipo intermediário.
+Q261 E — Eupneia é respiração sem dispneia.
+Q262 D — Pode não sugerir condição específica.
+Q263 C — É pista, não diagnóstico isolado.
+Q264 B — Pele e mucosas contribuem para a avaliação.
+Q265 A — O exame é clínico e integrado.
+Q266 E — IMC, musculatura e panículo adiposo ajudam.
+Q267 D — São elementos complementares.
+Q268 C — Cor é parte da descrição.
+Q269 B — A observação de mucosas é útil.
+Q270 A — São achados distintos.
+Q271 E — É um dado clínico à beira do leito.
+Q272 D — A presença e o padrão orientam hipóteses.
+Q273 C — É manobra de avaliação de edema.
+Q274 B — É um item da ectoscopia.
+Q275 A — A descrição é ampla.
+Q276 E — São anexos cutâneos.
+Q277 D — O padrão também importa.
+Q278 C — Há vários elementos semiológicos.
+Q279 B — A pesquisa é parte do exame geral.
+Q280 A — Eles não são acessíveis rotineiramente ao exame físico.
+Q281 E — Os métodos se complementam.
+Q282 D — Exposição adequada permite observar alterações.
+Q283 C — Simetria é dado semiológico.
+Q284 B — As polpas digitais são a superfície de escolha.
+Q285 A — Relaxar os músculos facilita a palpação.
+Q286 E — Vários atributos têm valor clínico.
+Q287 A, C, D — É a visão global inicial.
+Q288 B, C, E — O exame geral é amplo.
+Q289 A, B, D — As siglas descrevem a impressão global.
+Q290 A, C, E — Alerta inclui orientação.
+Q291 B, D, E — Confuso não é necessariamente inconsciente.
+Q292 A, C, D — O rebaixamento é leve.
+Q293 B, C, E — É mais grave que sonolência e menos que torpor.
+Q294 A, B, D — Torpor indica rebaixamento importante.
+Q295 A, C, E — Coma é ausência de resposta consciente.
+Q296 B, D, E — Ativa significa autonomia postural.
+Q297 A, C, D — Passiva representa incapacidade de se reposicionar.
+Q298 B, C, E — O paciente busca voluntariamente alívio.
+Q299 A, B, D — A observação clínica fornece dados.
+Q300 A, C, E — São dados observacionais úteis.
+Q301 B, D, E — É um padrão corporal descrito no slide.
+Q302 A, C, D — Longilíneo é o oposto do brevilíneo descrito.
+Q303 B, C, E — É o tipo intermediário.
+Q304 A, B, D — Eupneia é respiração sem dispneia.
+Q305 A, C, E — Pode não sugerir condição específica.
+Q306 B, D, E — É pista, não diagnóstico isolado.
+Q307 A, C, D — Pele e mucosas contribuem para a avaliação.
+Q308 B, C, E — O exame é clínico e integrado.
+Q309 A, B, D — IMC, musculatura e panículo adiposo ajudam.
+Q310 A, C, E — São elementos complementares.
+Q311 B, D, E — Cor é parte da descrição.
+Q312 A, C, D — A observação de mucosas é útil.
+Q313 B, C, E — São achados distintos.
+Q314 A, B, D — É um dado clínico à beira do leito.
+Q315 A, C, E — A presença e o padrão orientam hipóteses.
+Q316 B, D, E — É manobra de avaliação de edema.
+Q317 A, C, D — É um item da ectoscopia.
+Q318 B, C, E — A descrição é ampla.
+Q319 A, B, D — São anexos cutâneos.
+Q320 A, C, E — O padrão também importa.
+Q321 E — A técnica inclui relação e comunicação.
+Q322 D — Proteção do paciente e do examinador é parte da técnica.
+Q323 C — Expor apenas o necessário.
+Q324 B — Há várias estruturas intratorácicas.
+Q325 A — Os cinco pares restantes são falsos.
+Q326 E — É referência para a segunda costela.
+Q327 D — Sons são auscultatórios.
+Q328 C — Podem explicar alterações ou procedimentos prévios.
+Q329 B — O slide lista diferentes causas estruturais.
+Q330 A — Perda de volume pode retrair a parede.
+Q331 E — É deformidade da caixa torácica.
+Q332 D — Excavatum indica escavação.
+Q333 C — É achado de inspeção.
+Q334 B — Movimento ventilatório é o foco.
+Q335 A — O slide associa-o ao sexo feminino.
+Q336 E — O slide associa-o ao sexo masculino.
+Q337 D — O slide associa-o à criança.
+Q338 C — Sibilância e ronco são sons adventícios.
+Q339 B — A amplitude diferencia os termos.
+Q340 A — São sinais de esforço.
+Q341 E — O slide recomenda um minuto inteiro.
+Q342 D — A consciência da medida altera o padrão.
+Q343 C — O padrão é cíclico.
+Q344 B — O slide lista causas cardíacas e neurológicas.
+Q345 A — Biot é irregular e anárquica.
+Q346 E — Acidose grave sugere Kussmaul.
+Q347 D — O padrão do enunciado é profundo.
+Q348 C — É resposta à acidose.
+Q349 B — O ritmo de base é preservado.
+Q350 A — Evita defesa e desconforto.
+Q351 E — É uma manobra palpatória.
+Q352 D — Comparação bilateral é essencial.
+Q353 C — Ar ou líquido pleural reduzem transmissão.
+Q354 B — Parênquima consolidado transmite vibração.
+Q355 A — Percutem-se espaços intercostais e regiões simétricas.
+Q356 E — Macicez sugere perda de ar/maior densidade.
+Q357 D — Pneumotórax dá timpanismo.
+Q358 C — Mais ar reduz a resistência à percussão.
+Q359 B — A respiração aprofunda os sons.
+Q360 A — É som normal em sua topografia.
+Q361 E — Há topografias específicas.
+Q362 D — Estridor é som adventício contínuo.
+Q363 C — Roncos e sibilos são contínuos.
+Q364 B — Estertores são descontínuos.
+Q365 A — É achado auscultatório pleural.
+Q366 E — O brônquio é a estrutura central.
+Q367 D — As alterações brônquicas produzem ruídos.
+Q368 C — O slide lista várias causas.
+Q369 B — Ocupação alveolar define consolidação.
+Q370 A — Enfisema é hiperaeração.
+Q371 E — A definição difere da consolidação.
+Q372 D — Obstrução pode colapsar alvéolos.
+Q373 C — É síndrome de hiperaeração.
+Q374 B — Ar pleural define pneumotórax.
+Q375 A — Líquido, não ar, define derrame.
+Q376 E — Ar pleural caracteriza a síndrome.
+Q377 D — A técnica inclui relação e comunicação.
+Q378 C — Proteção do paciente e do examinador é parte da técnica.
+Q379 B — Expor apenas o necessário.
+Q380 A — Há várias estruturas intratorácicas.
+Q381 E — Os cinco pares restantes são falsos.
+Q382 D — É referência para a segunda costela.
+Q383 C — Sons são auscultatórios.
+Q384 B — Podem explicar alterações ou procedimentos prévios.
+Q385 A — O slide lista diferentes causas estruturais.
+Q386 E — Perda de volume pode retrair a parede.
+Q387 D — É deformidade da caixa torácica.
+Q388 C — Excavatum indica escavação.
+Q389 B — É achado de inspeção.
+Q390 A — Movimento ventilatório é o foco.
+Q391 E — O slide associa-o ao sexo feminino.
+Q392 D — O slide associa-o ao sexo masculino.
+Q393 C — O slide associa-o à criança.
+Q394 B — Sibilância e ronco são sons adventícios.
+Q395 A — A amplitude diferencia os termos.
+Q396 E — São sinais de esforço.
+Q397 D — O slide recomenda um minuto inteiro.
+Q398 C — A consciência da medida altera o padrão.
+Q399 B — O padrão é cíclico.
+Q400 A — O slide lista causas cardíacas e neurológicas.
+Q401 E — Biot é irregular e anárquica.
+Q402 D — Acidose grave sugere Kussmaul.
+Q403 C — O padrão do enunciado é profundo.
+Q404 B — É resposta à acidose.
+Q405 A — O ritmo de base é preservado.
+Q406 E — Evita defesa e desconforto.
+Q407 D — É uma manobra palpatória.
+Q408 C — Comparação bilateral é essencial.
+Q409 B — Ar ou líquido pleural reduzem transmissão.
+Q410 A — Parênquima consolidado transmite vibração.
+Q411 E — Percutem-se espaços intercostais e regiões simétricas.
+Q412 D — Macicez sugere perda de ar/maior densidade.
+Q413 C — Pneumotórax dá timpanismo.
+Q414 B — Mais ar reduz a resistência à percussão.
+Q415 A — A respiração aprofunda os sons.
+Q416 E — É som normal em sua topografia.
+Q417 D — Há topografias específicas.
+Q418 C — Estridor é som adventício contínuo.
+Q419 B — Roncos e sibilos são contínuos.
+Q420 A — Estertores são descontínuos.
+Q421 E — É achado auscultatório pleural.
+Q422 D — O brônquio é a estrutura central.
+Q423 C — As alterações brônquicas produzem ruídos.
+Q424 B — O slide lista várias causas.
+Q425 A — Ocupação alveolar define consolidação.
+Q426 E — Enfisema é hiperaeração.
+Q427 D — A definição difere da consolidação.
+Q428 C — Obstrução pode colapsar alvéolos.
+Q429 B — É síndrome de hiperaeração.
+Q430 A — Ar pleural define pneumotórax.
+Q431 E — Líquido, não ar, define derrame.
+Q432 D — Ar pleural caracteriza a síndrome.
+Q433 B, C, E — A técnica inclui relação e comunicação.
+Q434 A, B, D — Proteção do paciente e do examinador é parte da técnica.
+Q435 A, C, E — Expor apenas o necessário.
+Q436 B, D, E — Há várias estruturas intratorácicas.
+Q437 A, C, D — Os cinco pares restantes são falsos.
+Q438 B, C, E — É referência para a segunda costela.
+Q439 A, B, D — Sons são auscultatórios.
+Q440 A, C, E — Podem explicar alterações ou procedimentos prévios.
+Q441 B, D, E — O slide lista diferentes causas estruturais.
+Q442 A, C, D — Perda de volume pode retrair a parede.
+Q443 B, C, E — É deformidade da caixa torácica.
+Q444 A, B, D — Excavatum indica escavação.
+Q445 A, C, E — É achado de inspeção.
+Q446 B, D, E — Movimento ventilatório é o foco.
+Q447 A, C, D — O slide associa-o ao sexo feminino.
+Q448 B, C, E — O slide associa-o ao sexo masculino.
+Q449 A, B, D — O slide associa-o à criança.
+Q450 A, C, E — Sibilância e ronco são sons adventícios.
+Q451 B, D, E — A amplitude diferencia os termos.
+Q452 A, C, D — São sinais de esforço.
+Q453 B, C, E — O slide recomenda um minuto inteiro.
+Q454 A, B, D — A consciência da medida altera o padrão.
+Q455 A, C, E — O padrão é cíclico.
+Q456 B, D, E — O slide lista causas cardíacas e neurológicas.
+Q457 A, C, D — Biot é irregular e anárquica.
+Q458 B, C, E — Acidose grave sugere Kussmaul.
+Q459 A, B, D — O padrão do enunciado é profundo.
+Q460 A, C, E — É resposta à acidose.
+Q461 E — Esses sintomas podem refletir doença cardíaca.
+Q462 D — É queixa de alto impacto clínico.
+Q463 C — Podem sinalizar alterações de ritmo ou débito.
+Q464 B — Características definem o padrão.
+Q465 A — São fatores e condições relevantes.
+Q466 E — Orientam risco e etiologias.
+Q467 D — O exame geral complementa o segmentar.
+Q468 C — É achado observacional.
+Q469 B — Podem refletir congestão sistêmica.
+Q470 A — Há vários atributos semiológicos.
+Q471 E — Fatores da parede e hiperinsuflação dificultam a palpação.
+Q472 D — Há causas cardíacas e estruturais.
+Q473 C — Relação temporal é essencial.
+Q474 B — O silêncio permite identificar sons de baixa intensidade.
+Q475 A — Mudanças posturais podem valorizar achados.
+Q476 E — É o receptor mais usado.
+Q477 D — Sons graves são melhor percebidos pela campânula.
+Q478 C — Compara-se atividade cardíaca e pulso periférico.
+Q479 B — Pré-sístole corresponde a B4.
+Q480 A — A técnica valoriza som grave.
+Q481 E — O slide lista condições de sobrecarga/miocárdio.
+Q482 D — B4 relaciona-se à contração atrial.
+Q483 C — É ritmo tríplice anormal.
+Q484 B — Fluxo turbulento é a base.
+Q485 A — Há mecanismos funcionais e estruturais.
+Q486 E — A caracterização é multidimensional.
+Q487 D — Qualidade ajuda no reconhecimento.
+Q488 C — As manobras podem alterar fluxos e sons.
+Q489 B — Ele se prolonga através de B2.
+Q490 A — O exemplo do slide é PCA.
+Q491 E — Mitral/tricúspide são valvas AV.
+Q492 D — Acontece no início da sístole.
+Q493 C — É ruído cardíaco/pericárdico.
+Q494 B — A topografia é precordial esquerda.
+Q495 A — Elas complementam a avaliação.
+Q496 E — O slide associa o nome à inspiração profunda.
+Q497 D — A organização temporal importa.
+Q498 C — Há fatores extracardíacos e cardíacos.
+Q499 B — A apresentação é variável.
+Q500 A — O exame é mais completo.
+Q501 E — Polpas digitais oferecem melhor sensibilidade.
+Q502 D — A faixa do slide é 60–100.
+Q503 C — Há padrões arrítmicos distintos.
+Q504 B — A insuficiência aórtica aumenta volume sistólico.
+Q505 A — Menor formação/propagação reduz a onda.
+Q506 E — É teste vascular periférico.
+Q507 D — Esses sintomas podem refletir doença cardíaca.
+Q508 C — É queixa de alto impacto clínico.
+Q509 B — Podem sinalizar alterações de ritmo ou débito.
+Q510 A — Características definem o padrão.
+Q511 E — São fatores e condições relevantes.
+Q512 D — Orientam risco e etiologias.
+Q513 C — O exame geral complementa o segmentar.
+Q514 B — É achado observacional.
+Q515 A — Podem refletir congestão sistêmica.
+Q516 E — Há vários atributos semiológicos.
+Q517 D — Fatores da parede e hiperinsuflação dificultam a palpação.
+Q518 C — Há causas cardíacas e estruturais.
+Q519 B — Relação temporal é essencial.
+Q520 A — O silêncio permite identificar sons de baixa intensidade.
+Q521 E — Mudanças posturais podem valorizar achados.
+Q522 D — É o receptor mais usado.
+Q523 C — Sons graves são melhor percebidos pela campânula.
+Q524 B — Compara-se atividade cardíaca e pulso periférico.
+Q525 A — Pré-sístole corresponde a B4.
+Q526 E — A técnica valoriza som grave.
+Q527 D — O slide lista condições de sobrecarga/miocárdio.
+Q528 C — B4 relaciona-se à contração atrial.
+Q529 B — É ritmo tríplice anormal.
+Q530 A — Fluxo turbulento é a base.
+Q531 E — Há mecanismos funcionais e estruturais.
+Q532 D — A caracterização é multidimensional.
+Q533 C — Qualidade ajuda no reconhecimento.
+Q534 B — As manobras podem alterar fluxos e sons.
+Q535 A — Ele se prolonga através de B2.
+Q536 E — O exemplo do slide é PCA.
+Q537 D — Mitral/tricúspide são valvas AV.
+Q538 C — Acontece no início da sístole.
+Q539 B — É ruído cardíaco/pericárdico.
+Q540 A — A topografia é precordial esquerda.
+Q541 E — Elas complementam a avaliação.
+Q542 D — O slide associa o nome à inspiração profunda.
+Q543 C — A organização temporal importa.
+Q544 B — Há fatores extracardíacos e cardíacos.
+Q545 A — A apresentação é variável.
+Q546 E — O exame é mais completo.
+Q547 D — Polpas digitais oferecem melhor sensibilidade.
+Q548 C — A faixa do slide é 60–100.
+Q549 B — Há padrões arrítmicos distintos.
+Q550 A — A insuficiência aórtica aumenta volume sistólico.
+Q551 E — Menor formação/propagação reduz a onda.
+Q552 D — É teste vascular periférico.
+Q553 B, C, E — Esses sintomas podem refletir doença cardíaca.
+Q554 A, B, D — É queixa de alto impacto clínico.
+Q555 A, C, E — Podem sinalizar alterações de ritmo ou débito.
+Q556 B, D, E — Características definem o padrão.
+Q557 A, C, D — São fatores e condições relevantes.
+Q558 B, C, E — Orientam risco e etiologias.
+Q559 A, B, D — O exame geral complementa o segmentar.
+Q560 A, C, E — É achado observacional.
+Q561 B, D, E — Podem refletir congestão sistêmica.
+Q562 A, C, D — Há vários atributos semiológicos.
+Q563 B, C, E — Fatores da parede e hiperinsuflação dificultam a palpação.
+Q564 A, B, D — Há causas cardíacas e estruturais.
+Q565 A, C, E — Relação temporal é essencial.
+Q566 B, D, E — O silêncio permite identificar sons de baixa intensidade.
+Q567 A, C, D — Mudanças posturais podem valorizar achados.
+Q568 B, C, E — É o receptor mais usado.
+Q569 A, B, D — Sons graves são melhor percebidos pela campânula.
+Q570 A, C, E — Compara-se atividade cardíaca e pulso periférico.
+Q571 B, D, E — Pré-sístole corresponde a B4.
+Q572 A, C, D — A técnica valoriza som grave.
+Q573 B, C, E — O slide lista condições de sobrecarga/miocárdio.
+Q574 A, B, D — B4 relaciona-se à contração atrial.
+Q575 A, C, E — É ritmo tríplice anormal.
+Q576 B, D, E — Fluxo turbulento é a base.
+Q577 A, C, D — Há mecanismos funcionais e estruturais.
+Q578 B, C, E — A caracterização é multidimensional.
+Q579 A, B, D — Qualidade ajuda no reconhecimento.
+Q580 A, C, E — As manobras podem alterar fluxos e sons.
+Q581 B, D, E — Ele se prolonga através de B2.
+Q582 A, C, D — O exemplo do slide é PCA.
+Q583 B, C, E — Mitral/tricúspide são valvas AV.
+Q584 A, B, D — Acontece no início da sístole.
+Q585 A, C, E — É ruído cardíaco/pericárdico.
+Q586 B, D, E — A topografia é precordial esquerda.
+Q587 A, C, D — Elas complementam a avaliação.
+Q588 B, C, E — O slide associa o nome à inspiração profunda.
+Q589 A, B, D — A organização temporal importa.
+Q590 A, C, E — Há fatores extracardíacos e cardíacos.
+Q591 B, D, E — A apresentação é variável.
+Q592 A, C, D — O exame é mais completo.
+Q593 B, C, E — Polpas digitais oferecem melhor sensibilidade.
+Q594 A, B, D — A faixa do slide é 60–100.
+Q595 A, C, E — Há padrões arrítmicos distintos.
+Q596 B, D, E — A insuficiência aórtica aumenta volume sistólico.
+Q597 A, C, D — Menor formação/propagação reduz a onda.
+Q598 B, C, E — É teste vascular periférico.
+Q599 B — Esses sintomas podem refletir doença cardíaca.
+Q600 A — É queixa de alto impacto clínico.

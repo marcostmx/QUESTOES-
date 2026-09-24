@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Um paciente com insuficiência cardíaca descompensada apresenta oligúria, ureia e creatinina em elevação e piora da congestão. Explique, pela fisiopatologia, por que o rim 'entende' a situação como hipovolemia e por que essa leitura agrava o quadro.
+GABARITO:
+**Resposta-modelo:**
+
+O rim não mede volume total: mede volume arterial efetivo, isto é, a perfusão que chega ao aparelho justaglomerular. Na IC descompensada, o débito cardíaco cai e a perfusão renal diminui, mesmo com o paciente francamente congesto.
+
+Interpretando isso como hipovolemia, o rim ativa o sistema renina-angiotensina-aldosterona e o organismo libera ADH. O resultado é retenção de sódio e água, vasoconstrição e aumento da pré-carga e da pós-carga.
+
+O efeito é paradoxal e vicioso: mais volume retido → mais congestão → maior pressão venosa renal, que também compromete a filtração → mais isquemia relativa do rim → mais ativação neuro-hormonal. É a base da síndrome cardiorrenal.
+
+Clinicamente, isso explica por que o paciente pode ter edema, turgência jugular e ascite e, ainda assim, apresentar marcadores de hipoperfusão renal — e por que o tratamento age nos dois eixos, descongestionando e bloqueando a ativação neuro-hormonal.
+
+Revisar: Síndrome cardiorrenal · volume arterial efetivo

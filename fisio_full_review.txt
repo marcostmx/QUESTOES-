@@ -1,0 +1,771 @@
+
+==================== FISIO #01 ====================
+TYPE: MÚLTIPLA ESCOLHA
+TEXT:
+ Paciente com insuficiência cardíaca apresenta dispneia aos esforços, ortopneia, dispneia paroxística noturna e estertores crepitantes bibasais. Esse conjunto traduz predominantemente:
+OPTIONS:
+  A) Congestão venosa sistêmica por falência do ventrículo direito.
+  B) Congestão venosa pulmonar por falência do ventrículo esquerdo.
+  C) Baixo débito com hipoperfusão periférica.
+  D) Derrame pericárdico com restrição ao enchimento.
+GABARITO:
+ **Alternativa B** — Congestão venosa pulmonar por falência do ventrículo esquerdo.
+
+O ventrículo esquerdo que falha transmite pressão retrogradamente ao átrio esquerdo e ao leito capilar pulmonar. O decúbito aumenta o retorno venoso e agrava a congestão, produzindo ortopneia e DPN.
+
+• A) A falência direita dá turgência jugular, hepatomegalia e edema de membros.
+• C) Baixo débito cursa com fadiga, oligúria, extremidades frias e confusão.
+• D) Tamponamento cursa com hipofonese de bulhas, turgência jugular e pulso paradoxal.
+
+Revisar: Insuficiência cardíaca esquerda · manifestações
+
+==================== FISIO #02 ====================
+TYPE: MÚLTIPLA ESCOLHA
+TEXT:
+ Paciente em choque séptico apresenta extremidades quentes, pressão de pulso alargada e tempo de enchimento capilar normal na fase inicial. Isso se explica por:
+OPTIONS:
+  A) Vasoconstrição periférica intensa mediada por catecolaminas.
+  B) Vasodilatação sistêmica com débito cardíaco elevado, característica da fase hiperdinâmica.
+  C) Redução primária do volume sistólico por falência miocárdica.
+  D) Obstrução ao enchimento ventricular por tamponamento.
+GABARITO:
+ **Alternativa B** — Vasodilatação sistêmica com débito cardíaco elevado, característica da fase hiperdinâmica.
+
+Na fase quente do choque séptico a resistência vascular está muito baixa e o coração compensa com débito elevado. A hipoperfusão é tecidual e distributiva, não por falta de fluxo global.
+
+• A) A vasoconstrição produz extremidades frias — padrão do choque hipovolêmico e do cardiogênico.
+• C) Ocorre no cardiogênico e na fase tardia do séptico, com disfunção miocárdica.
+• D) Não corresponde ao quadro descrito.
+
+Revisar: Choque distributivo · fase hiperdinâmica
+
+==================== FISIO #03 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 56 anos com cirrose hepática alcoólica é trazido ao pronto-socorro com aumento progressivo do abdome, icterícia e desorientação têmporo-espacial há 2 dias. Ao exame: abdome globoso, com sinal do piparote positivo e circulação colateral periumbilical em cabeça de medusa; icterícia 3+/4+; flapping (asterixe) positivo; e telangiectasias no tórax.
+
+a) Explique a fisiopatologia da ascite nesse paciente (forças de Starling e hemodinâmica sistêmica).
+b) Qual o significado clínico do GASA (gradiente de albumina soro-ascite) e o que se espera nesse caso?
+c) Explique o mecanismo do asterixe e da encefalopatia hepática.
+d) Qual a explicação para as telangiectasias e o eritema palmar?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Fisiopatologia da ascite:** Decorre da combinação da hipertensão portal sinusoidal com vasodilatação arterial esplâncnica (induzida por NO). A vasodilatação gera sequestro esplâncnico e queda do volume arterial circulante efetivo, ativando vigorosamente o SRAA, o sistema simpático e a liberação de ADH, com retenção renal secundária de sódio e água. Associada à hipoalbuminemia (menor síntese hepática = menor pressão oncótica capilar), a pressão hidrostática portal transborda líquido para a cavidade peritoneal.
+
+b) **GASA e valor esperado:** GASA = Albumina sérica − Albumina do líquido ascítico. Espera-se GASA ≥ 1,1 g/dL, o que confirma que a ascite decorre de hipertensão portal (transudato hemodinâmico), descartando carcinomatose peritoneal ou peritonite tuberculosa (GASA < 1,1 g/dL).
+
+c) **Encefalopatia e asterixe:** A falência hepatocelular na depuração de toxinas e a formação de shunts portossistêmicos desviam o sangue venoso intestinal rico em amônia diretamente para a circulação sistêmica. A amônia atravessa a barreira hematoencefálica; nos astrócitos, é convertida em glutamina por meio da glutamina sintetase, gerando edema osmótico celular, disfunção neurotransmissora GABAérgica/glutamatérgica e asterixe (tremor de aleteio por perda transitória do tônus postural).
+
+d) **Telangiectasias e eritema palmar:** Resultam do hiperestrogenismo secundário à perda da capacidade hepática de metabolizar e depurar estrógenos e androstenediona circulantes, induzindo vasodilatação arteriolar periférica persistente.
+
+Revisar: Cirrose descompensada · fisiopatologia integrada
+
+==================== FISIO #04 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 75 anos, hipertensa e diabética, com tosse, febre de 38,8 °C e escarro purulento há três dias. Ao exame do aparelho respiratório: frêmito toracovocal aumentado, macicez à percussão, ruídos respiratórios brônquicos e broncofonia em terço inferior do hemitórax esquerdo. Leucócitos 14.000/mm³. Radiografia com infiltrado em lobo inferior esquerdo.
+
+a) Qual o diagnóstico e o agente etiológico mais provável?
+b) Explique o mecanismo que gera esse conjunto de achados semiológicos.
+c) Se em vez desses achados a paciente apresentasse frêmito diminuído e murmúrio abolido, qual seria a hipótese e por quê?
+d) Cite dois marcadores laboratoriais úteis para diferenciar infecção bacteriana de viral e explique sua origem.
+GABARITO:
+ a) Pneumonia adquirida na comunidade, muito provavelmente por Streptococcus pneumoniae.
+b) O alvéolo se enche de exsudato inflamatório e o pulmão, antes cheio de ar, torna-se sólido. Meio sólido conduz som melhor que o ar — daí o frêmito toracovocal aumentado, a macicez à percussão, os ruídos respiratórios brônquicos e a broncofonia.
+c) Derrame pleural. Nesse caso há líquido entre as pleuras, que afasta o parênquima da parede torácica. O som produzido nas vias aéreas não chega bem à superfície: o frêmito diminui e o murmúrio fica abolido, embora a percussão também seja maciça. A dupla consolidação/derrame se distingue justamente pelo frêmito — aumentado numa, diminuído na outra.
+d) Proteína C-reativa e procalcitonina — ambos reagentes de fase aguda produzidos primariamente no fígado, significativamente mais elevados em infecções bacterianas do que em virais.
+
+==================== FISIO #05 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 52 anos, assintomática, comparece a exame de rotina. IMC 29 kg/m², PA 140/92 mmHg, história familiar de diabetes e hipertensão em mãe e irmão. Ao exame, acantose nigricans no pescoço. Glicemia de jejum: 140 mg/dL.
+
+a) Qual o diagnóstico e quais os dois defeitos metabólicos primordiais desse tipo de diabetes?
+b) O valor da glicemia preenche critério diagnóstico? Justifique.
+c) Explique o significado fisiopatológico da acantose nigricans.
+d) Como se diferencia a deficiência de insulina desse tipo em relação ao tipo 1?
+GABARITO:
+ a) Diabetes melito tipo 2. Os dois defeitos metabólicos primordiais são: (1) diminuição da resposta dos tecidos periféricos à insulina — especialmente músculo esquelético, tecido adiposo e fígado, ou seja, resistência à insulina; e (2) secreção inadequada de insulina pelas células β (disfunção da célula β).
+b) Sim. O critério é glicose plasmática de jejum ≥ 126 mg/dL, e a paciente apresenta 140 mg/dL. O ideal é confirmar com nova dosagem ou com HbA1c.
+c) A acantose nigricans é marcador cutâneo de resistência insulínica. A resistência gera hiperinsulinemia compensatória, e o excesso de insulina estimula receptores de IGF-1 em queratinócitos e fibroblastos, produzindo o espessamento aveludado e escurecido da pele em áreas de dobra.
+d) No tipo 1 a deficiência de insulina é ABSOLUTA — as células β foram destruídas e não há produção. No tipo 2 a deficiência é RELATIVA: existe insulina circulante, muitas vezes até em excesso no início, mas ela é insuficiente diante da resistência periférica. Somam-se a secreção anormal pelas células β e a produção aumentada de glicose pelo fígado.
+
+==================== FISIO #06 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 72 anos tem episódio de síncope súbita, sem pródromos e sem convulsões, ao subir escadas. Nos últimos meses vinha notando dispneia aos esforços e dor torácica opressiva ao caminhar rápido. Ao exame: pulso carotídeo de baixa amplitude e ascensão lenta, sopro mesossistólico rude irradiado para as carótidas, B4 presente.
+
+a) Qual o diagnóstico mais provável?
+b) Explique o mecanismo dos três sintomas apresentados.
+c) Por que o pulso é parvus et tardus?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Estenose aórtica grave**, provavelmente calcificada, dada a idade. O sopro mesossistólico irradiado para as carótidas e o pulso parvus et tardus são os achados que fecham o raciocínio.
+
+b) **Mecanismo dos três sintomas:**
+• **Síncope aos esforços:** o débito é limitado por uma obstrução fixa; ao exercício, a vasodilatação periférica reduz a resistência e, sem aumento compensatório do débito, a pressão de perfusão cerebral cai.
+• **Angina:** a hipertrofia concêntrica aumenta a demanda de oxigênio e comprime a microcirculação subendocárdica, gerando isquemia mesmo com coronárias normais.
+• **Dispneia:** a parede espessa e pouco complacente eleva as pressões de enchimento, que se transmitem ao capilar pulmonar.
+
+c) **Por que o pulso é parvus et tardus:** Porque o sangue atravessa um orifício estreito: a ejeção é lenta (tardus) e o volume que chega à periferia em cada sístole é reduzido (parvus). É o achado que melhor diferencia a estenose aórtica de outros sopros sistólicos.
+
+Revisar: Estenose aórtica · caso clínico integrado
+
+==================== FISIO #07 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 42 anos procura atendimento por aumento progressivo do tamanho das mãos e dos pés — trocou a aliança três vezes em cinco anos — e alteração dos traços faciais. Refere cefaleia e alterações do campo visual.
+
+a) Qual o diagnóstico e qual o tipo de adenoma envolvido?
+b) Qual a posição desse adenoma em frequência entre os adenomas hipofisários funcionantes?
+c) Qual mediador hepático responde por muitas das manifestações clínicas?
+d) Se o mesmo adenoma surgisse antes do fechamento das epífises, qual seria o quadro e como ele se caracterizaria?
+e) Por que esses adenomas costumam estar grandes no momento do diagnóstico?
+GABARITO:
+ a) Acromegalia, por adenoma somatotrófico secretor de hormônio do crescimento (GH).
+b) É o segundo tipo mais comum de adenoma hipofisário funcionante.
+c) Os níveis persistentemente elevados de GH estimulam a secreção hepática de IGF-1 (fator de crescimento semelhante à insulina 1), que causa muitas das manifestações clínicas.
+d) Se o adenoma surgisse antes do fechamento das epífises — ou seja, em crianças —, os níveis elevados de GH e IGF-1 resultariam em gigantismo, caracterizado pelo aumento generalizado no tamanho do corpo, com braços e pernas desproporcionalmente longos.
+e) Porque as manifestações do excesso de GH podem ser sutis e de instalação lenta — a mudança dos traços é gradual e passa despercebida —, de modo que o adenoma já está grande quando chama atenção clínica. Daí também a cefaleia e as alterações do campo visual, por compressão do quiasma óptico.
+
+==================== FISIO #08 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 68 anos internado há 5 dias por IAM de parede anterior, tratado tardiamente. Vinha estável quando, subitamente, apresenta piora acentuada da dispneia, hipotensão e surgimento de sopro holossistólico intenso, novo, em borda esternal esquerda baixa, com frêmito. Ausculta pulmonar com estertores difusos.
+
+a) Cite três complicações mecânicas do IAM compatíveis com uma deterioração súbita neste período e diga qual delas melhor explica o sopro descrito.
+b) A qual dos seis mecanismos de disfunção cardiovascular corresponde a complicação que você escolheu?
+c) Por que essa complicação ocorre justamente por volta do 5º dia?
+GABARITO:
+ a) Complicações mecânicas compatíveis: ruptura de parede livre (evolui com hemopericárdio e tamponamento), ruptura do septo interventricular e ruptura de músculo papilar necrosado (insuficiência mitral aguda). O sopro holossistólico novo em borda esternal esquerda baixa, com frêmito, é característico da ruptura do septo interventricular — comunicação interventricular adquirida.
+
+b) Corresponde ao mecanismo 4 — fluxo colateral: o sangue é desviado de uma parte do coração para outra (do VE para o VD) por um defeito adquirido após o infarto.
+
+c) Porque o 5º dia cai na janela de fragilidade do 3º ao 7º dia. Nesse período a necrose já desorganizou a arquitetura do tecido e os macrófagos já removeram o material necrótico, mas o tecido de granulação e a fibrose ainda não se formaram — a parede está mecanicamente no seu ponto mais frágil.
+
+==================== FISIO #09 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Marque V ou F e corrija as falsas:
+
+I. A lesão isquêmica é a causa mais comum de distúrbios de ritmo.
+II. Se os miócitos atriais se tornam "irritáveis" e despolarizam de modo independente, o resultado é o bloqueio atrioventricular.
+III. A fibrilação ventricular é uma despolarização caótica sem contração ventricular funcional.
+IV. O feixe de Kent conduz impulsos diretamente dos átrios aos ventrículos, transpondo o nó AV.
+V. O flutter atrial típico é uma arritmia caracterizada por macrorreentrada no átrio direito.
+GABARITO:
+ I — V. Por dano direto ou pela dilatação das câmaras, que altera a ativação do sistema de condução.
+II — F. Miócitos atriais irritáveis, com despolarização independente e esporádica transmitida de forma variável pelo nó AV, produzem fibrilação atrial, com ritmo irregularmente irregular. Quem produz bloqueio cardíaco é a disfunção do nó AV.
+III — V.
+IV — V.
+V — V. O flutter atrial típico decorre de circuito de macrorreentrada no átrio direito, classicamente dependente do istmo cavotricuspídeo.
+
+==================== FISIO #10 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 45 anos com história de infecções respiratórias de repetição desde a infância. Queixa-se de tosse severa e persistente, com expectoração abundante, de odor fétido e por vezes sanguinolenta. Tomografia mostra dilatação de brônquios, mais acentuada nos lobos inferiores bilateralmente.
+
+a) Qual o diagnóstico e o mecanismo da lesão?
+b) Quais são as duas condições geralmente necessárias para o desenvolvimento das lesões completas?
+c) Por que os sintomas são episódicos?
+d) Cite uma doença genética que cursa classicamente com esse quadro e explique o elo fisiopatológico.
+GABARITO:
+ a) Bronquiectasia — dilatação permanente e irreversível de brônquios e bronquíolos, resultante da destruição do músculo liso e do tecido elástico por infecções necrotizantes crônicas.
+b) Obstrução e infecção. São as principais condições associadas, e é provável que ambas sejam necessárias para o desenvolvimento das lesões completas.
+c) Porque são frequentemente precipitados por infecções do trato respiratório superior ou pela introdução de novos agentes patogênicos, que reagudizam o ciclo de inflamação e destruição.
+d) Fibrose cística. O elo: o defeito no canal de cloreto (CFTR) altera o transporte iônico → secreções viscosas → depuração mucociliar defeituosa e obstrução das vias aéreas → cenário propício a infecções bacterianas crônicas → dano difuso às paredes → destruição do músculo liso e do tecido elástico → bronquiectasia, enquanto os pequenos bronquíolos são obliterados por fibrose (bronquiolite obliterante).
+
+==================== FISIO #11 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 61 anos, diabética e hipertensa, procura a emergência com dor torácica em aperto há 2 horas, iniciada em repouso, sem alívio. É o terceiro episódio na semana, cada vez mais prolongado. Ao exame está estável hemodinamicamente. O ECG mostra infradesnivelamento do segmento ST em parede anterior, sem supra. A primeira dosagem de troponina está elevada.
+
+a) Classifique o quadro dentro da árvore das síndromes coronarianas agudas, justificando cada ramificação.
+b) Se a troponina viesse normal e o ECG mantivesse apenas o infra, qual seria o diagnóstico? Qual a diferença fisiopatológica entre os dois?
+c) Qual o tipo de infarto, quanto à extensão na parede, esperado neste caso?
+GABARITO:
+ a) É uma síndrome coronariana aguda SEM supra de ST, subtipo IAM sem supradesnivelamento de ST (IAMSSST).
+Primeira ramificação — o ECG: não há supra de ST, logo o quadro entra no ramo "SCA sem supra".
+Segunda ramificação — a troponina: está elevada, o que indica que houve necrose miocárdica. Isso define IAM sem supra, e não angina instável.
+
+b) Seria angina instável. A diferença fisiopatológica é apenas a presença ou ausência de necrose detectável: ambas nascem do mesmo evento — ruptura de placa com trombo plaquetário parcial/não oclusivo e espasmo limitando o fluxo em repouso. Na angina instável a isquemia é grave, mas insuficiente para matar miócitos; no IAMSSST houve morte celular.
+
+c) Infarto subendocárdico (não transmural), pois a oclusão é transitória ou incompleta, com ocorrência de lise do trombo. A necrose atinge apenas parte da espessura da parede — justamente a camada subendocárdica.
+
+==================== FISIO #12 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Marque V ou F e corrija as falsas:
+
+I. Derrame pleural é o acúmulo de níveis anormais de líquido na cavidade pleural, podendo ser transudato, exsudato, purulento, quiloso ou sanguíneo.
+II. Hemotórax é um tipo específico de derrame pleural em que há sangue na cavidade pleural, podendo decorrer de trauma torácico, cirurgia, câncer ou ruptura de grande vaso.
+III. Pneumotórax é a existência de líquido no espaço pleural, sendo sempre traumático.
+IV. A síndrome da angústia respiratória aguda é um tipo de insuficiência respiratória com acúmulo de líquidos nos pulmões e redução do oxigênio sanguíneo a níveis excessivamente baixos.
+V. Na embolia pulmonar, a morte súbita ocorre em grande parte pelo bloqueio do fluxo sanguíneo nos pulmões, podendo também decorrer de insuficiência cardíaca aguda direita.
+GABARITO:
+ I — V.
+II — V.
+III — F. Pneumotórax é a existência de ar no espaço pleural, e pode ser espontâneo ou traumático.
+IV — V.
+V — V. A insuficiência cardíaca aguda direita corresponde ao cor pulmonale agudo.
+
+==================== FISIO #13 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 72 anos é levado ao pronto-socorro após perder a consciência enquanto estava de pé cantando na igreja. A esposa relata que ele ficou inconsciente por 2 a 3 minutos, sem movimentos anormais, e ao acordar ficou tonto por um ou dois minutos, recuperando-se em seguida. Nos últimos meses vinha suspendendo atividades por fraqueza e tontura. Ao exame: alerta e orientado, afebril, FC 35 bpm regular, PA 118/72 mmHg sem variação ao ficar de pé. Exames laboratoriais e enzimas cardíacas normais.
+
+a) Qual o diagnóstico e o mecanismo?
+b) Que dados do caso permitem descartar crise convulsiva e síncope ortostática?
+c) Explique, usando a hierarquia do automatismo cardíaco, por que a frequência está em 35 bpm.
+GABARITO:
+ a) Síncope por bloqueio atrioventricular total (de terceiro grau). Mecanismo: a condução do átrio para o ventrículo é completamente interrompida, o ventrículo passa a depender de um ritmo de escape lento, o débito cardíaco cai abruptamente e ocorre hipoperfusão cerebral global transitória.
+
+b) Contra crise convulsiva: ausência de movimentos anormais, recuperação rápida e ausência de período pós-ictal prolongado. Contra síncope ortostática: a PA não se altera ao ficar de pé.
+
+c) Todas as estruturas do sistema de condução têm automatismo próprio, em hierarquia decrescente: nó SA ≈ 60–100 bpm, junção AV ≈ 40–60 bpm, His-Purkinje/ventrículo ≈ 20–40 bpm. Normalmente o nó SA comanda por ser o mais rápido. Com o bloqueio total, o impulso atrial não alcança o ventrículo, que passa a ser comandado por um foco de escape ventricular — daí a frequência de 35 bpm, dentro da faixa do automatismo de Purkinje/ventrículo.
+
+==================== FISIO #14 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Jovem de 19 anos procura atendimento por perda de peso não intencional de 9 kg em dois meses, apesar de apetite aumentado, além de poliúria, noctúria e sede intensa. Glicemia capilar de 384 mg/dL, cetonúria positiva.
+
+a) Qual o diagnóstico e o tipo provável?
+b) Explique a poliúria, a polidipsia, a polifagia e a perda de peso a partir da falta de insulina.
+c) Explique como se forma a cetoacidose.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Diagnóstico:** Diabetes mellitus, muito provavelmente tipo 1, pela idade, pela instalação rápida, pela perda de peso e pela presença de cetose.
+
+b) **Cadeia dos 4 Ps:** Sem insulina, a glicose não entra nas células insulino-dependentes e se acumula no plasma. Ultrapassado o limiar renal, ela é filtrada e não reabsorvida, arrastando água por efeito osmótico → poliúria e noctúria. A perda de água eleva a osmolaridade plasmática e ativa os osmorreceptores → polidipsia. Como a célula não recebe substrato, o organismo se comporta como em jejum e estimula a fome → polifagia. Ao mesmo tempo, predominam lipólise e proteólise para gerar energia alternativa → perda de peso, apesar de comer mais.
+
+c) **Formação da cetoacidose:** A deficiência de insulina somada ao excesso de glucagon libera ácidos graxos do tecido adiposo. No fígado, a beta-oxidação gera acetil-CoA em excesso, desviada para a formação de corpos cetônicos (acetoacetato e beta-hidroxibutirato), que são ácidos fortes. Eles consomem bicarbonato e instalam acidose metabólica com ânion gap elevado — o paciente hiperventila (respiração de Kussmaul) tentando compensar.
+
+Revisar: Diabetes tipo 1 e cetoacidose
+
+==================== FISIO #15 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Mulher de 37 anos refere emagrecimento de 8 kg em três meses sem redução do apetite, palpitações, insônia, irritabilidade e intolerância ao calor. Ao exame: FC 118 bpm, PA 148/62 mmHg, tremor fino de extremidades, pele quente e úmida, exoftalmia bilateral e tireoide difusamente aumentada com sopro à ausculta.
+
+a) Qual o diagnóstico e a causa mais provável?
+b) Explique a patogênese dessa condição.
+c) Por que há exoftalmia, e por que ela não ocorre em todas as causas de tireotoxicose?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Diagnóstico e causa:** Tireotoxicose por doença de Graves — a causa mais comum de hipertireoidismo. O bócio difuso com sopro e a oftalmopatia praticamente selam o diagnóstico.
+
+b) **Patogênese:** É doença autoimune: autoanticorpos estimuladores (TRAb) ligam-se ao receptor de TSH e o ativam de forma contínua, escapando da retroalimentação negativa. O resultado é hiperplasia glandular difusa, hipervascularização — daí o sopro — e produção autônoma de T3 e T4, com TSH suprimido.
+
+c) **Por que há exoftalmia:** A exoftalmia não decorre do excesso hormonal, e sim de um processo autoimune próprio da órbita: os mesmos anticorpos reconhecem antígenos compartilhados por fibroblastos orbitários, que proliferam e depositam glicosaminoglicanos, aumentando o volume retro-ocular e a musculatura extrínseca. Por isso a oftalmopatia é específica do Graves e não aparece em tireotoxicoses de outras causas, como o nódulo tóxico ou a tireoidite subaguda — e pode inclusive persistir depois de normalizada a função tireoidiana.
+
+Revisar: Doença de Graves
+
+==================== FISIO #16 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Marque V ou F e corrija as falsas:
+
+I. Nas fases isovolumétricas todas as valvas estão fechadas e o volume ventricular não se altera — só a pressão.
+II. A primeira bulha (B1) corresponde ao fechamento das valvas semilunares, no início da diástole.
+III. O nó AV introduz um atraso na condução que permite ao átrio terminar de esvaziar antes de o ventrículo contrair.
+IV. O segmento ST corresponde à repolarização atrial.
+V. A B1 hiperfonética da estenose mitral ocorre porque a valva espessada fecha com mais energia.
+GABARITO:
+ I — V. É a definição literal de isovolumétrico.
+II — F. A B1 corresponde ao fechamento das valvas atrioventriculares, no início da sístole. Quem fecha no início da diástole, gerando B2, são as valvas semilunares (aórtica e pulmonar).
+III — V. É a função do atraso nodal.
+IV — F. O segmento ST é o período entre a despolarização e a repolarização ventricular. A repolarização atrial fica encoberta pelo complexo QRS.
+V — V. A valva espessada e sob pressão atrial elevada fecha com mais energia.
+
+==================== FISIO #17 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Jovem de 18 anos é levada à emergência confusa e com comportamento estranho. A mãe relata perda não intencional de 10 kg, fadiga há 2–3 semanas e que a filha vem se levantando várias vezes à noite para urinar. Na manhã da consulta queixou-se de dor abdominal e vomitou. Ao exame: magra, afebril, FC 118 bpm, respiração profunda a 24 mpm, mucosa oral seca, veias do pescoço planas. Laboratório: glicemia 475 mg/dL, Na 131, K 5,3, CO₂ 9 mEq/L, pH 7,12, pCO₂ 24 mmHg. Urina com 3+ de glicose e 3+ de cetonas.
+
+a) Qual o diagnóstico e o tipo de diabetes que ele provavelmente inaugura?
+b) Qual a tríade clássica de apresentação desse tipo de diabetes?
+c) Explique a cadeia que leva da deficiência de insulina à acidose e à hipovolemia.
+d) Qual o nome e o significado do padrão respiratório apresentado?
+e) Qual o mecanismo imunológico e quais autoanticorpos estão envolvidos?
+GABARITO:
+ a) Cetoacidose diabética (CAD), inaugurando um diabetes melito tipo 1 — doença autoimune caracterizada pela destruição das células β e por deficiência ABSOLUTA de insulina, típica de indivíduos jovens.
+b) Poliúria, polidipsia e polifagia — e, quando grave, também cetoacidose diabética, todas resultantes dos desarranjos metabólicos.
+c) Deficiência grave e absoluta de insulina, com predomínio dos hormônios contrarreguladores → lipólise descontrolada → ácidos graxos livres ao fígado → cetogênese → acúmulo de corpos cetônicos → acidose metabólica com ânion-gap aumentado (pH 7,12, CO₂ 9, cetonas 3+).
+Em paralelo: a hiperglicemia ultrapassa o limiar renal de reabsorção → glicosúria (3+) → diurese osmótica → poliúria e noctúria → desidratação e hipovolemia (mucosa seca, veias planas, taquicardia).
+d) Respiração de Kussmaul — profunda e rápida. Significa compensação respiratória da acidose metabólica: o organismo hiperventila para eliminar CO₂ e elevar o pH, o que se confirma pela pCO₂ baixa (24 mmHg).
+e) O DM1 resulta de predisposição genética, fator ambiental e hipersensibilidade mediada por linfócitos T, com destruição das células β. O tipo 1A é mediado imunologicamente, com autoanticorpos contra insulina (AAI) e autoanticorpos contra células das ilhotas. O tipo 1B é idiopático, não relacionado a distúrbios imunes.
+
+==================== FISIO #18 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 37 anos, previamente hígida, procura a clínica por emagrecimento não intencional de 7,5 kg em três meses, mantendo apetite excelente. Refere insônia, irritabilidade e intolerância ao calor, com sudorese aumentada. Ao exame: FC 108 bpm, PA 142/82 mmHg, olhar fixo com olhos protuberantes, tireoide grande, lisa e indolor, pele quente, tremor fino de extremidades e sopro de ejeção sistólico 2/6.
+
+a) Qual o diagnóstico e o autoantígeno envolvido?
+b) Qual o resultado esperado de TSH e T4 livre? Como se completa a investigação?
+c) Explique o mecanismo da taquicardia, da perda de peso, do bócio e da fraqueza muscular.
+d) Cite as quatro modalidades de tratamento descritas.
+e) Qual hipótese é levantada no material sobre o gatilho da produção do autoanticorpo?
+GABARITO:
+ a) Doença de Graves, causa mais comum de hipertireoidismo. O autoantígeno é o receptor do TSH (TSHR), que sofre estimulação por anticorpos específicos direcionados contra ele (anti-rTSH), os quais mimetizam a ação do TSH.
+b) TSH indetectável/diminuído e T4 livre elevado (T3 também aumentado). A investigação se completa com o doseamento de anticorpos anti-rTSH, quase sempre positivo; quando o diagnóstico clínico não é claro, dosam-se anticorpos anti-TPO em concentrações elevadas ou realiza-se cintilografia demonstrando bócio difuso.
+c) Taquicardia — efeito direto do hormônio tireoidiano sobre o sistema de condução cardíaco, somado à superatividade do sistema nervoso simpático. Perda de peso — aumento da taxa metabólica basal, apesar do apetite preservado. Bócio — autoanticorpos que estimulam o crescimento das células epiteliais tireoidianas. Fraqueza muscular — catabolismo proteico aumentado, atrofia muscular, diminuição da eficiência dos músculos e alterações na miosina.
+d) Controle sintomático com betabloqueadores; redução da síntese hormonal com tionamidas; iodo radioativo; e cirurgia.
+e) A causa desencadeante não é conhecida, mas o material levanta a hipótese de uma resposta imune contra um antígeno viral que compartilha homologia com o receptor de TSH — ou seja, reação cruzada levando à doença autoimune.
+
+==================== FISIO #19 ====================
+TYPE: CASO CLÍNICO INTEGRADOR
+TEXT:
+ Mulher de 68 anos com histórico de DM tipo 2 há 20 anos, hipertensão arterial de difícil controle e insuficiência cardíaca crônica com fração de ejeção reduzida (ICFER). Dá entrada por dispneia aos esforços mínimos, tosse noturna e edema importante de membros inferiores bilaterais. Exames: creatinina 2,4 mg/dL (basal 1,4), ureia 110 mg/dL, peptídeo natriurético tipo B (BNP) 1.800 pg/mL, albuminúria 600 mg/g creatinina. Ecocardiograma revela FEVE 32% e dilatação ventricular.
+
+a) Como se conceitua a síndrome cardiorrenal e qual o subtipo predominante neste caso?
+b) Explique como a redução do débito cardíaco e o aumento da pressão venosa central afetam a hemodinâmica renal.
+c) Qual o papel da ativação neuro-hormonal crônica (sistema simpático e SRAA) no agravamento simultâneo do coração e do rim?
+d) Por que a redução excessiva da volemia por diuréticos pode paradoxalmente elevar ainda mais a creatinina?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Conceito e subtipo:** A síndrome cardiorrenal envolve disfunção simultânea na qual a falência aguda ou crônica de um órgão (coração ou rim) acelera ou induz a falência do outro. Aqui há Síndrome Cardiorrenal Tipo 2 (insuficiência cardíaca crônica descompensada agravando a função renal crônica preexistente).
+
+b) **Hemodinâmica renal:** A falência ventricular reduz o débito anterógrado (menor perfusão renal efetiva), enquanto a congestão retrógrada eleva a pressão venosa central e a pressão nas veias renais. O aumento da pressão venosa renal reduz o gradiente arteriovenoso de perfusão trans-renal e eleva a pressão nos capilares peritubulares e no espaço de Bowman, derrubando a taxa de filtração glomerular.
+
+c) **Ativação neuro-hormonal:** O baixo débito ativa o sistema simpático e o SRAA. A angiotensina II e a noradrenalina induzem vasoconstrição periférica (elevando a pós-carga cardíaca) e fibrose miocárdica progressiva; no rim, promovem vasoconstrição glomerular, retenção de água e sódio e esclerose dos néfrons remanescentes, perpetuando o ciclo de congestão e falência orgânica.
+
+d) **Diuréticos em excesso e creatinina:** A diurese excessiva reduz abruptamente o volume intravascular efetivo e a pressão de enchimento. Em um rim com autorregulação comprometida (já no limite de perfusão), a depleção volêmica transforma o quadro congestivo em choque pré-renal hipovolêmico, colapsando a filtração glomerular.
+
+Revisar: Síndrome cardiorrenal e interação neuro-hormonal
+
+==================== FISIO #20 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 48 anos chega ao pronto-socorro com dispneia de início súbito. Estava em pé na cozinha quando sentiu falta de ar, percebeu o coração disparar e quase desmaiou. Nega dor torácica e febre. Fez colecistectomia há duas semanas, com internação de oito dias por infecção da ferida operatória. Ao exame: FR 28 mpm, saturação 84% em ar ambiente, FC 124 bpm, PA 118/89 mmHg, mucosa levemente cianótica, pressão venosa jugular elevada, pulmões limpos, hiperfonese de B2 no foco pulmonar. Perna direita edemaciada e dolorosa. ECG com taquicardia sinusal e radiografia de tórax normal.
+
+a) Qual o diagnóstico e a origem mais provável do evento?
+b) Explique o mecanismo da hipoxemia grave com radiografia normal.
+c) Explique a hiperfonese de B2 e a turgência jugular.
+d) Cite três fatores de risco presentes ou possíveis, incluindo estados de hipercoagulabilidade primários e secundários.
+GABARITO:
+ a) Tromboembolismo pulmonar (TEP), quase certamente originado de trombose venosa profunda do membro inferior direito.
+b) O êmbolo obstrui um ramo da artéria pulmonar e cria uma área ventilada, mas não perfundida — aumento do espaço morto. O parênquima permanece estruturalmente normal, por isso a radiografia é normal; mas o sangue deixa de passar por aquela região e é redistribuído, gerando distúrbio da relação ventilação/perfusão (V/Q) e hipoxemia.
+c) A obstrução aumenta abruptamente a resistência vascular pulmonar → elevação da pressão na artéria pulmonar → o componente pulmonar da segunda bulha fecha com mais força → hiperfonese de B2. A sobrecarga aguda do ventrículo direito dificulta o retorno venoso sistêmico → turgência jugular. Se maciço, configura cor pulmonale agudo.
+d) Presentes: imobilização durante a internação de oito dias, cirurgia recente e estado inflamatório/infeccioso pós-operatório. Outros fatores de hipercoagulabilidade citados no material: primários — fator V de Leiden, mutações da protrombina, síndrome antifosfolipídio; secundários — obesidade, câncer, uso de contraceptivos orais, gravidez.
+
+==================== FISIO #21 ====================
+TYPE: ABERTA
+TEXT:
+ Partindo de PA = DC × RVP, onde DC = FC × VE:
+
+a) Explique por que o infarto agudo do miocárdio causa hipotensão.
+b) Explique por que a perda da capacidade de relaxamento vascular causa hipertensão.
+c) Um paciente em choque hipovolêmico apresenta taquicardia. Qual variável está caindo e qual tenta compensar?
+GABARITO:
+ a) O IAM destrói massa contrátil → cai o volume ejetado (VE) → cai o débito cardíaco (DC) → cai a PA. É o mecanismo 1 (falência da bomba). A taquicardia compensatória tenta sustentar o DC pelo componente FC.
+b) O enrijecimento endotelial e a perda do relaxamento vascular aumentam a resistência vascular periférica (RVP). Como PA = DC × RVP, o aumento da RVP eleva a PA mesmo com débito normal.
+c) Está caindo o volume ejetado (VE) — por queda da pré-carga, já que há menos volume retornando ao coração. A frequência cardíaca (FC) sobe para tentar manter o produto FC × VE, ou seja, o débito cardíaco.
+
+==================== FISIO #22 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Marque V ou F e corrija as falsas:
+
+I. Em mais de 90% dos casos a isquemia miocárdica decorre de lesões ateroscleróticas obstrutivas nas artérias coronárias epicárdicas.
+II. Uma obstrução de 90% pode gerar fluxo coronariano inadequado mesmo em repouso.
+III. A artéria coronária mais frequentemente acometida é a coronária direita, em 40 a 50% dos casos.
+IV. A aterosclerose causa mais morbidade e mortalidade no mundo ocidental que qualquer outra doença, respondendo por aproximadamente metade dos óbitos.
+V. As coronárias são vasos epicárdicos, e por isso a necrose do infarto progride do subendocárdio em direção ao epicárdio.
+GABARITO:
+ I — V.
+II — V. 75% é o limiar da isquemia ao esforço; 90%, o do fluxo inadequado em repouso.
+III — F. A mais acometida é a descendente anterior esquerda, em 40 a 50% dos casos. A coronária direita responde por 30 a 40% e a circunflexa por 15 a 20%.
+IV — V.
+V — V. O subendocárdio é a região mais distante das coronárias epicárdicas e a que sofre maior pressão intramural, sendo a primeira a necrosar.
+
+==================== FISIO #23 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 56 anos chega à emergência com sensação de pressão retroesternal intensa que o acordou do sono há três horas. Tabagista de 40 maços-ano, hipercolesterolêmico. Ao exame: desconfortável, diaforese, FC 116 bpm, PA 166/102 mmHg, FR 22 mpm, saturação 96% em ar ambiente. Pressão venosa jugular normal, campos pulmonares limpos, ritmo regular com galope B4, sem sopros. Radiografia de tórax normal. ECG com supradesnivelamento do segmento ST.
+
+a) Qual o diagnóstico e o mecanismo vascular exato que o produziu?
+b) Explique o que o supradesnivelamento de ST indica em termos de extensão da lesão na parede miocárdica.
+c) Por que este paciente tem B4 e por que a radiografia é normal?
+d) Cite as duas modalidades de tratamento descritas no material.
+GABARITO:
+ a) Infarto agudo do miocárdio com supradesnivelamento de ST (IAMCSST). Mecanismo: ruptura de placa aterosclerótica com formação de trombo plaquetário oclusivo, causando oclusão vascular completa, sem lise, de uma artéria coronária epicárdica.
+
+b) O supra de ST indica infarto transmural — necrose que atinge toda a espessura da parede, e não apenas a região subendocárdica. Corresponde à oclusão total e permanente do vaso.
+
+c) A B4 surge porque o miocárdio isquêmico perde complacência; o átrio precisa contrair contra um ventrículo rígido no fim da diástole. A radiografia é normal porque o evento é agudo — ainda não houve tempo para congestão pulmonar ou remodelamento; a pressão venosa jugular normal e os campos limpos confirmam que ainda não há falência de bomba estabelecida.
+
+d) Angioplastia coronariana transluminal percutânea (ACTP) com colocação de stents e cirurgia de bypass arterial coronariano (enxerto de veia safena ou artéria mamária interna).
+
+==================== FISIO #24 ====================
+TYPE: CASO CLÍNICO INTEGRADOR
+TEXT:
+ Mulher de 82 anos, acamada com demência avançada, internada com febre de 39,2°C, tosse produtiva e sonolência há 24 horas. Ao exame físico: PA 75/40 mmHg, FC 128 bpm, FR 32 mpm, SpO2 86% em ar ambiente, tempo de enchimento capilar de 5 segundos, livedo reticular nos membros inferiores e oligúria nas últimas 12 horas. Gasometria arterial: pH 7,22, PaO2 54 mmHg, PaCO2 28 mmHg, HCO3 11 mEq/L, Lactato 5,2 mmol/L. Leucócitos 24.000/mm³ com 18% de bastões.
+
+a) Identifique as síndromes clínicas e classifique a gravidade do quadro hemodinâmico e respiratório.
+b) Interprete a gasometria arterial integrando os componentes metabólico e respiratório.
+c) Descreva a cascata celular que conecta a infecção pulmonar à vasodilatação sistêmica, colapso circulatório e acidose lática.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Síndromes clínicas e gravidade:** Sepse grave com Choque Séptico refratário a foco pulmonar (Pneumonia Comunitária Grave/Aspirativa) associada a Insuficiência Respiratória Aguda Tipo 1 (Hipoxêmica) e Provável SARA, além de Injúria Renal Aguda oligúrica.
+
+b) **Interpretação da gasometria:**
+• pH 7,22: Acidemia grave.
+• HCO3 11 mEq/L e Lactato 5,2 mmol/L: Acidose metabólica com ânion gap elevado, causada por hipóxia tecidual e acúmulo de ácido lático (glicólise anaeróbia).
+• PaCO2 28 mmHg: Alcalose respiratória compensatória (o centro respiratório hiperventila para tentar eliminar CO2 e tamponar o pH).
+• PaO2 54 mmHg em ar ambiente: Hipoxemia grave (relação PaO2/FiO2 < 260), decorrente de áreas pulmonares de shunt e desequilíbrio ventilação/perfusão.
+
+c) **Cascata celular integrada:** Bactérias no alvéolo liberam PAMPs (ex.: endotoxinas ou peptideoglicanos) reconhecidos por Toll-like receptors de macrófagos alveolares. Há liberação sistêmica maciça de TNF-alfa, IL-1 e IL-6, que ativam as células endoteliais em todo o organismo. O endotélio induz a síntese de óxido nítrico sintase (iNOS), gerando produção desregulada de NO, que relaxa as células musculares lisas das arteríolas pré-capilares (vasoplegia e choque distributivo). Simultaneamente, o glicocálice endotelial é destruído, provocando extravasamento maciço de albumina e água para o interstício (hipovolemia relativa). A queda crítica da pressão de perfusão tecidual somada a microtrombos capilares colapsa a entrega de oxigênio (DO2) às mitocôndrias celulares; sem oxigênio, a cadeia transportadora de elétrons cessa e a célula recorre à conversão de piruvato em lactato, gerando a acidose lática sistêmica.
+
+Revisar: Sepse, choque séptico e falência celular
+
+==================== FISIO #25 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Mulher de 26 anos, com história de febre reumática na adolescência, está no segundo trimestre de gestação e procura atendimento por dispneia progressiva, ortopneia e um episódio de hemoptise. Ausculta: B1 hiperfonética, estalido de abertura e sopro diastólico em ruflar no foco mitral. Ritmo irregularmente irregular.
+
+a) Qual a valvopatia e sua causa?
+b) Explique por que a gestação descompensou o quadro.
+c) Explique o mecanismo da hemoptise e o significado do ritmo irregular.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Estenose mitral de etiologia reumática.** A febre reumática é a causa clássica: a inflamação leva a fusão comissural, espessamento e retração das cúspides e do aparelho subvalvar.
+
+b) **Por que a gestação descompensa:** A gestação aumenta o volume plasmático em cerca de 40% e eleva a frequência cardíaca. Ambos são deletérios na estenose mitral: mais volume a atravessar um orifício fixo e menos tempo de diástole para o átrio esvaziar. O resultado é aumento abrupto da pressão atrial esquerda e congestão pulmonar — por isso a estenose mitral tipicamente se revela na gravidez.
+
+c) **Hemoptise e ritmo irregular:** A hipertensão venocapilar pulmonar crônica rompe pequenas veias brônquicas dilatadas, produzindo hemoptise. O ritmo irregularmente irregular indica fibrilação atrial, consequência da dilatação e do remodelamento do átrio esquerdo sobrecarregado — e traz risco adicional de trombo atrial e embolia sistêmica.
+
+Revisar: Estenose mitral · fisiopatologia e descompensação
+
+==================== FISIO #26 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 58 anos, fumante de dois maços por dia desde os 15 anos, refere dispneia hoje aos mínimos esforços e em repouso, com tosse produtiva matinal ao longo de todo o ano. Ao exame: FR 28 mpm, sentado inclinado para a frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória, tórax com diâmetro anteroposterior aumentado, retração dos arcos costais inferiores à inspiração, sibilos e roncos difusos sem crepitantes, bulhas hipofonéticas.
+
+a) Qual o diagnóstico e quais os dois componentes fisiopatológicos?
+b) Explique o tórax em tonel e a hipofonese de bulhas.
+c) Qual o exame imediato e o que ele informa?
+d) Cite quatro complicações crônicas da hipoxemia nessa doença.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Diagnóstico e componentes:** DPOC em exacerbação. Os dois componentes: bronquite crônica — inflamação da mucosa brônquica, hipertrofia das glândulas submucosas e hipersecreção de muco, responsável pela tosse produtiva; e enfisema — destruição dos septos alveolares com perda do recolhimento elástico.
+
+b) **Tórax em tonel e hipofonese de bulhas:** Sem recolhimento elástico, as pequenas vias aéreas colapsam durante a expiração: o ar entra, mas não sai por completo → aprisionamento aéreo → hiperinsuflação → aumento do diâmetro anteroposterior. O excesso de ar interposto entre o coração e a parede torácica atenua a transmissão do som, tornando as bulhas hipofonéticas.
+
+c) **Exame imediato:** Gasometria arterial, que informa rapidamente oxigenação (PaO₂), ventilação (PaCO₂) e estado ácido-base — permitindo identificar insuficiência respiratória hipoxêmica, hipercápnica ou mista.
+
+d) **Quatro complicações crônicas:** Hipertensão pulmonar com evolução para cor pulmonale; eritrocitose secundária; limitação progressiva das atividades físicas; e comprometimento da função mental.
+
+Revisar: DPOC · caso clínico integrado
+
+==================== FISIO #27 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Mulher de 48 anos, em pós-operatório de artroplastia de quadril há 6 dias, apresenta dispneia súbita, dor torácica pleurítica e taquicardia. Ao exame: FR 30 mpm, FC 118 bpm, SpO₂ 88% em ar ambiente, ausculta pulmonar sem alterações significativas.
+
+a) Qual a principal hipótese e por quê?
+b) Explique a tríade de Virchow aplicada a este caso.
+c) Explique por que a ausculta pode ser normal e por que há hipoxemia.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Tromboembolismo pulmonar.** A combinação de dispneia súbita, dor pleurítica e hipoxemia em paciente com fator de risco maior recente — cirurgia ortopédica de grande porte com imobilização — é altamente sugestiva.
+
+b) **Tríade de Virchow:**
+• **Estase:** imobilidade prolongada no pós-operatório.
+• **Lesão endotelial:** trauma cirúrgico direto sobre as veias da pelve e do membro.
+• **Hipercoagulabilidade:** o próprio estado pós-operatório é pró-trombótico, com elevação de fatores de coagulação e redução da fibrinólise.
+
+c) **Ausculta normal e hipoxemia:** A ausculta é frequentemente normal porque o parênquima em si está íntegro — o problema é vascular, não alveolar. A hipoxemia decorre da alteração da relação ventilação/perfusão: áreas ventiladas deixam de ser perfundidas (aumento do espaço morto) e o fluxo é redistribuído para territórios com ventilação relativamente insuficiente, criando áreas de baixa relação V/Q. Somam-se broncoconstrição reflexa por mediadores liberados do trombo e, nos casos maiores, queda do débito cardíaco.
+
+Revisar: Tromboembolismo pulmonar
+
+==================== FISIO #28 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 52 anos, obeso, com queixas de pirose e regurgitação ácida há 8 anos, pior ao deitar após as refeições. Endoscopia digestiva alta revela erosões longitudinais no terço distal do esôfago e uma área de mucosa avermelhada aveludada projetando-se 4 cm acima da transição esofagogástrica. A biópsia dessa área mostra epitélio colunar com células caliciformes.
+
+a) Qual a complicação diagnosticada e como se denomina essa transformação epitelial?
+b) Qual a sequência fisiopatológica que levou a essa alteração?
+c) Qual o risco clínico evolutivo dessa condição?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Complicação e transformação epitelial:** Esôfago de Barrett, caracterizado por metaplasia intestinal especializada (substituição do epitélio estratificado pavimentoso original do esôfago por epitélio colunar com células caliciformes).
+
+b) **Sequência fisiopatológica:** Hipotonia do esfíncter esofágico inferior somada ao aumento da pressão intra-abdominal pela obesidade favorece refluxo gastroesofágico crônico e recorrente. O ácido gástrico e os sais biliares promovem lesão química continuada e inflamação sobre a mucosa esofágica. Em resposta à agressão persistente, as células-tronco basais se reprogramam e diferenciam em um epitélio colunar mucosecretor mais resistente à acidez — um processo metaplásico adaptativo.
+
+c) **Risco evolutivo:** O Esôfago de Barrett é uma condição pré-neoplásica com risco aumentado de progressão na cascata: displasia de baixo grau → displasia de alto grau → adenocarcinoma de esôfago distal, exigindo vigilância endoscópica periódica.
+
+Revisar: DRGE e Esôfago de Barrett
+
+==================== FISIO #29 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 52 anos refere ganho de peso, intolerância ao frio, constipação, pele seca e escamosa, cabelo ressecado e escasso, esquecimento e parestesias das mãos e dos pés. Ao exame: edema de face, bradicardia e aumento indolor da tireoide.
+
+a) Qual o diagnóstico e a causa mais provável?
+b) Qual o resultado esperado de TSH e T4 livre?
+c) Como se confirma laboratorialmente a etiologia?
+d) Descreva os achados histopatológicos da glândula.
+e) Por que há bócio se a glândula está hipofuncionante?
+GABARITO:
+ a) Hipotireoidismo, muito provavelmente por tireoidite de Hashimoto — a etiologia autoimune mais comum, mais frequente em mulheres, com prevalência que aumenta com a idade e cerca de dez vezes mais comum em mulheres que em homens.
+b) TSH elevado e T4 livre diminuído — padrão do hipotireoidismo primário.
+c) Pela demonstração de altos títulos de anticorpos antiperoxidase tireoidiana (anti-TPO).
+d) Inflamação autoimune crônica com infiltração linfocitária; o ataque imunológico é agressivo e destrutivo dentro dos folículos tireoidianos; há aglomerados de macrófagos e infiltração linfoide no tecido intersticial, acompanhada de formação de folículos linfoides.
+e) Porque há hipotrofia das células foliculares com aumento do tamanho dos folículos como tentativa de compensação — a glândula cresce buscando manter a produção hormonal, apesar de destruída funcionalmente. Some-se o estímulo trófico do TSH cronicamente elevado.
+
+==================== FISIO #30 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 72 anos, hipertenso em uso crônico de enalapril e hidroclorotiazida, apresenta diarreia e vômitos há três dias, com ingesta hídrica mínima. Por dor lombar, fez uso de diclofenaco por conta própria. Ao exame: letárgico, mucosas muito secas, turgor diminuído, PA 85/50 mmHg, FC 110 bpm. Exames: creatinina 3,8 mg/dL (basal de 1,0), ureia 140 mg/dL, K⁺ 5,8 mEq/L. Sedimento com cilindros hialinos esparsos, Na⁺ urinário 12 mEq/L.
+
+a) Qual a etiologia e classificação da injúria renal?
+b) Explique a influência do enalapril e do diclofenaco na hemodinâmica intraglomerular desse paciente.
+c) Explique a relação ureia/creatinina muito elevada e o sódio urinário baixo.
+d) Qual a conduta inicial prioritária?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Etiologia e classificação:** Injúria renal aguda pré-renal grave por desidratação (hipovolemia) associada a bloqueio farmacológico da autorregulação renal.
+
+b) **Influência dos fármacos na hemodinâmica glomerular:** Fisiologicamente, sob hipoperfusão, a arteríola aferente dilata via prostaglandinas para manter o fluxo, e a eferente constringe via angiotensina II para manter a pressão de filtração. O diclofenaco (AINE) inibe a síntese de prostaglandinas e bloqueia a dilatação da aferente. O enalapril (IECA) bloqueia a síntese de angiotensina II e impede a vasoconstrição da eferente. Sem dilatar a entrada e sem fechar a saída, a pressão intraglomerular desaba e a taxa de filtração cessa.
+
+c) **Ureia/creatinina e Na⁺ urinário:** O túbulo proximal reabsorve água e ureia avidamente sob hipovolemia, elevando a ureia sérica desproporcionalmente à creatinina (> 20:1). O sódio urinário baixo (< 20 mEq/L) e os cilindros apenas hialinos confirmam túbulos íntegros trabalhando em capacidade máxima de reabsorção.
+
+d) **Conduta prioritária:** Expansão volêmica vigorosa com cristaloides isotônicos e suspensão imediata do enalapril, do diurético e do AINE. Se a perfusão for restaurada rapidamente, a lesão é reversível antes de evoluir para NTA isquêmica.
+
+Revisar: Injúria renal pré-renal · autorregulação glomerular e nefrotóxicos
+
+==================== FISIO #31 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 37 anos, não fumante, refere tosse não produtiva há três meses, que piora à noite e após exercício. Iniciou recentemente um programa de corrida e relata que tem muita dificuldade, com falta de ar rápida e tosse intensa. Nega febre, hemoptise ou perda de peso. Ao exame, pulmões limpos, exceto por sibilos expiratórios ocasionais na expiração forçada. Radiografia de tórax normal.
+
+a) Qual o diagnóstico mais provável e como confirmá-lo?
+b) Descreva as alterações histológicas esperadas nas vias aéreas desse paciente.
+c) Por que a radiografia normal não afasta o diagnóstico?
+d) Cite dois achados laboratoriais que apoiam o diagnóstico.
+GABARITO:
+ a) Asma (doença reativa das vias aéreas). Confirmação: provas de função pulmonar; se a espirometria basal for normal, faz-se broncoprovocação com metacolina, demonstrando hiper-responsividade.
+b) Espessamento da parede das vias aéreas, hipertrofia da musculatura lisa brônquica, aumento das glândulas submucosas com hipersecreção de muco, espessamento da membrana basal e infiltrado inflamatório rico em eosinófilos, mastócitos e linfócitos T.
+c) Porque a asma é doença funcional e episódica das vias aéreas — fora da crise, e mesmo durante ela, o parênquima permanece estruturalmente normal. A radiografia serve para afastar outras causas, não para confirmar asma.
+d) Eosinofilia no sangue periférico e achado de eosinófilos (no escarro/secreção), além da demonstração de aumento da obstrução ao fluxo aéreo com dificuldade na exalação.
+
+==================== FISIO #32 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 58 anos, fumante de 2 maços/dia desde os 15 anos, refere dispneia progressiva, hoje aos mínimos esforços e em repouso, e tosse com escarro marrom-amarelado todas as manhãs ao longo do ano. Ao exame: FR 28 mpm, sentado inclinado para frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória. Tórax com diâmetro anteroposterior aumentado e retração dos arcos costais inferiores à inspiração. Ausculta com sibilos e roncos bilaterais, sem crepitantes. Bulhas rítmicas e hipofonéticas.
+
+a) Qual o diagnóstico e quais os dois componentes fisiopatológicos que compõem essa doença?
+b) Explique o mecanismo do aumento do diâmetro anteroposterior e da hipofonese das bulhas.
+c) Qual o próximo passo diagnóstico e o que ele informa?
+d) Cite quatro complicações crônicas da hipoxemia nessa doença.
+GABARITO:
+ a) DPOC com exacerbação aguda. Os dois componentes: bronquite crônica (inflamação da mucosa brônquica, hipertrofia das glândulas submucosas, hipersecreção de muco → tosse produtiva) e enfisema (destruição dos septos alveolares e perda do recolhimento elástico → aprisionamento aéreo).
+
+b) A perda do recolhimento elástico faz as vias aéreas colapsarem na expiração; o ar entra mas não sai completamente → aprisionamento aéreo → hiperinsuflação → aumento do diâmetro anteroposterior (tórax em tonel). O excesso de ar interposto entre o coração e a parede torácica atenua a transmissão do som, produzindo bulhas hipofonéticas.
+
+c) Gasometria arterial, que informa rapidamente o estado da oxigenação (PaO₂) e da ventilação (PaCO₂), além do equilíbrio ácido-base.
+
+d) Hipertensão pulmonar (evoluindo para cor pulmonale), eritrocitose secundária, limitação das atividades físicas e comprometimento da função mental.
+
+==================== FISIO #33 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 58 anos vai ao consultório após quase desmaiar. Relata fadiga progressiva há vários meses, dor abdominal leve e intermitente, perda de apetite e emagrecimento de 5 a 7,5 kg. Ao exame: temperatura 37,7 °C, FC 102 bpm, PA 89/62 mmHg, que cai para 70 mmHg de sistólica ao ficar de pé, com FC subindo para 125. Está bronzeada, com os sulcos das mãos hiperpigmentados. Laboratório: Na 121 mEq/L, K 5,8 mEq/L, HCO₃ 16 mEq/L, glicemia 52 mg/dL.
+
+a) Qual o diagnóstico e a causa mais comum?
+b) Qual o comportamento do ACTH e por quê?
+c) Explique cada alteração laboratorial pelo hormônio que está faltando.
+d) Por que a doença "começa insidiosamente e não chama a atenção" até fase avançada?
+GABARITO:
+ a) Doença de Addison — insuficiência adrenocortical crônica primária (o defeito está no próprio córtex), aqui em descompensação aguda. A causa mais comum é a destruição autoimune idiopática.
+b) O ACTH está elevado, porque, com os hormônios do córtex suprarrenal deficientes, não há inibição por feedback sobre a hipófise.
+c) Faltam mineralocorticoides (aldosterona) → o túbulo distal não troca sódio por potássio → perda de sódio (Na 121 = hiponatremia), retenção de potássio (K 5,8 = hipercalemia), acidose metabólica (HCO₃ 16), depleção de volume e hipotensão com componente ortostático. Faltam glicocorticoides (cortisol) → gliconeogênese prejudicada → hipoglicemia (glicemia 52), além de fraqueza, anorexia e perda de peso.
+d) Porque a doença começa insidiosamente e as queixas iniciais — fraqueza progressiva e cansaço fácil — podem ser interpretadas como reclamações não específicas. O quadro só chama atenção quando os níveis de glicocorticoides e mineralocorticoides circulantes já estão significativamente diminuídos.
+
+==================== FISIO #34 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 68 anos, hipertenso de longa data e sem seguimento, refere dispneia progressiva há seis meses, hoje aos pequenos esforços, além de ortopneia de dois travesseiros. Ao exame: PA 168/104 mmHg, FC 92 bpm, estertores crepitantes em bases, ictus desviado e propulsivo, B4 audível, sem sopros significativos. Ecocardiograma: fração de ejeção 58%, hipertrofia concêntrica do ventrículo esquerdo, relação E/A alterada.
+
+a) Qual o tipo de insuficiência cardíaca e como se explica a dispneia com fração de ejeção normal?
+b) Explique a cadeia que liga a hipertensão não tratada a esse quadro.
+c) Por que há B4 e o que ela significa?
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Insuficiência cardíaca com fração de ejeção preservada (ICFEp)**, isto é, disfunção diastólica. O ventrículo contrai bem, mas é rígido: para se encher, precisa de pressões mais altas, que se transmitem retrogradamente ao átrio esquerdo e ao capilar pulmonar → congestão → dispneia. A FE, que mede a fração ejetada e não a pressão de enchimento, permanece normal.
+
+b) **Cadeia fisiopatológica:** Hipertensão crônica → aumento sustentado da pós-carga → sobrecarga de pressão sobre o VE → hipertrofia concêntrica → aumento da espessura com queda da complacência → elevação das pressões de enchimento → congestão pulmonar. Em paralelo, a hipertrofia gera isquemia relativa e fibrose intersticial, que agravam a rigidez.
+
+c) **Significado da B4:** A B4 é telediastólica e resulta da contração atrial vigorosa contra um ventrículo pouco complacente. Sua presença indica justamente a rigidez ventricular que caracteriza a disfunção diastólica.
+
+O caso encadeia hipertensão → hipertrofia concêntrica → disfunção diastólica → congestão, que é o percurso mais cobrado em prova.
+
+Revisar: IC com fração de ejeção preservada
+
+==================== FISIO #35 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Considerando que o HCO₃⁻ é o componente metabólico e a PaCO₂ o componente respiratório, marque V ou F e corrija as falsas:
+
+I. HCO₃⁻ baixo indica acidose metabólica, e a resposta compensatória esperada é hiperventilação para reduzir o CO₂.
+II. PaCO₂ elevada indica acidose respiratória, decorrente de hipoventilação, e a compensação é renal, com elevação do HCO₃⁻.
+III. HCO₃⁻ elevado indica alcalose respiratória.
+IV. PaCO₂ baixa indica alcalose respiratória, com o paciente hiperventilando e eliminando CO₂.
+V. Na alcalose metabólica a compensação esperada é a hipoventilação, para reter CO₂.
+GABARITO:
+ I — V.
+II — V.
+III — F. HCO₃⁻ elevado indica alcalose metabólica; a compensação esperada é hipoventilação, para reter CO₂.
+IV — V.
+V — V.
+
+==================== FISIO #36 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 52 anos internado há 3 dias por pneumonia grave evolui com piora súbita. Apresenta falta de ar intensa, respiração rápida e superficial e cianose. A oximetria mostra saturação de 82% mesmo sob máscara de oxigênio. A radiografia de tórax revela infiltrado bilateral difuso. Há sinais de disfunção de outros órgãos.
+
+a) Qual o diagnóstico e como ele é definido?
+b) Cite os dois métodos citados no material para avaliar a oxigenação e o exame de imagem indicado.
+c) Qual o local de tratamento e o suporte que pode ser necessário?
+d) Qual o princípio central da conduta, além do suporte ventilatório?
+GABARITO:
+ a) Síndrome da angústia respiratória aguda (SARA) — um tipo de insuficiência respiratória (pulmonar) resultante de diversas doenças que causam acúmulo de líquidos nos pulmões e redução do oxigênio no sangue a níveis excessivamente baixos.
+b) Oximetria de pulso (sensor na ponta do dedo) e gasometria arterial (amostra de sangue de uma artéria). O exame de imagem é a radiografia torácica.
+c) Unidade de terapia intensiva, pois os pacientes podem precisar de ventilação mecânica.
+d) Além do fornecimento de oxigênio, tratar a causa da insuficiência respiratória — no caso, a pneumonia.
+
+==================== FISIO #37 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Homem de 72 anos procura a clínica com piora da dispneia aos esforços há várias semanas. Antes conseguia aparar a grama; agora sente falta de ar depois de andar 30 metros. Precisa de dois travesseiros para dormir e às vezes acorda à noite com falta de ar, que melhora ao sentar-se com as pernas para fora da cama. Notou que os pés incham no fim do dia. Já teve episódios de pressão retroesternal aos grandes esforços e uma quase-síncope ao subir escadas.
+Ao exame: afebril, FC 86 bpm, PA 115/92 mmHg, FR 16 mpm. Veias do pescoço distendidas, estertores crepitantes inspiratórios. Ritmo regular, B4 no foco mitral, sopro telessistólico na borda esternal superior direita com irradiação para as carótidas. Pulso carotídeo de amplitude diminuída.
+
+a) Qual o diagnóstico sindrômico e qual a provável causa de base?
+b) Explique por que a estenose aórtica leva a esse quadro — do defeito valvar até a ortopneia e a dispneia paroxística noturna.
+c) Qual a tríade clássica dessa valvopatia e o mecanismo de cada sintoma?
+GABARITO:
+ a) Síndrome de insuficiência cardíaca congestiva, com congestão pulmonar e sistêmica. A causa de base é estenose aórtica — indicada pelo sopro sistólico irradiado para as carótidas e pelo pulso carotídeo de baixa amplitude e ascensão lenta (parvus et tardus).
+
+b) Cadeia: a valva aórtica estenosada cria uma barreira fixa à ejeção → sobrecarga de pressão sobre o VE → hipertrofia concêntrica → parede espessa e pouco complacente → disfunção diastólica (daí a B4: o átrio contrai contra um ventrículo rígido) → aumento das pressões de enchimento → transmissão retrógrada ao átrio esquerdo e ao leito capilar pulmonar → congestão pulmonar (estertores). Em decúbito, o retorno venoso dos membros inferiores aumenta e sobrecarrega ainda mais o pulmão → ortopneia e dispneia paroxística noturna. Com a progressão, a pressão se transmite ao coração direito → turgência jugular e edema de membros inferiores.
+
+c) Angina — a parede hipertrofiada consome mais O₂ e é mal vascularizada, gerando isquemia relativa mesmo sem doença coronariana. Síncope aos esforços — o débito é fixo pela obstrução e não aumenta na demanda, gerando hipoperfusão cerebral. Dispneia — congestão pulmonar por elevação das pressões de enchimento.
+
+==================== FISIO #38 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 48 anos em consulta de rotina. IMC 33 kg/m², circunferência abdominal aumentada, PA 148/94 mmHg. Exames: glicemia de jejum 118 mg/dL, triglicerídeos 240 mg/dL, HDL 38 mg/dL. Ultrassom abdominal com esteatose hepática.
+
+a) Qual síndrome ela apresenta e quais são seus componentes segundo o material?
+b) Explique o mecanismo pelo qual a obesidade contribui para a hipertensão.
+c) Por que a dislipidemia dessa paciente aumenta o risco coronariano?
+d) Cite outras três repercussões da obesidade descritas no material, além das já presentes no caso.
+GABARITO:
+ a) Síndrome metabólica, cujos componentes são: adiposidade visceral ou intra-abdominal, resistência à insulina, hiperinsulinemia, intolerância à glicose, hipertensão, hipertrigliceridemia e HDL baixo.
+b) A obesidade associa-se a resistência à insulina e hiperinsulinemia. O excesso de insulina desencadeia retenção de sódio, expansão do volume sanguíneo, produção excessiva de noradrenalina e proliferação das células musculares lisas vasculares — todos elementos característicos da hipertensão. O risco de desenvolver hipertensão em indivíduos previamente normotensos aumenta proporcionalmente ao peso.
+c) Porque indivíduos obesos costumam ter hipertrigliceridemia e HDL baixo, e ambos aumentam o risco de doença arterial coronariana.
+d) Doença hepática gordurosa não alcoólica (mais frequente em diabéticos, podendo progredir para fibrose e cirrose — presente neste caso); colelitíase, seis vezes mais comum em obesos, pelo aumento do colesterol total, do seu turnover e da excreção biliar; hipoventilação e hipersonolência, com pausas apneicas durante o sono, policitemia e eventual cor pulmonale; e osteoartrite, pela sobrecarga mecânica cumulativa das articulações.
+
+==================== FISIO #39 ====================
+TYPE: CASO CLÍNICO DISSERTATIVO
+TEXT:
+ Homem de 39 anos com diagnóstico recente de hipertensão chega ao pronto-socorro confuso, com cefaleia intensa e visão turva. PA 230/140 mmHg, fundoscopia com papiledema e hemorragias em chama de vela; creatinina elevada em relação a exames prévios.
+
+a) Qual a síndrome e o que a diferencia de uma urgência hipertensiva?
+b) Explique o mecanismo da encefalopatia hipertensiva.
+c) Cite dois outros órgãos-alvo que devem ser avaliados e o achado esperado em cada um.
+GABARITO:
+ **Resposta-modelo:**
+
+a) **Emergência hipertensiva com encefalopatia.** O que a define não é o valor da pressão, e sim a presença de lesão aguda de órgão-alvo em curso — aqui, sistema nervoso central e rim. Na urgência hipertensiva a pressão está muito elevada, mas sem lesão aguda instalada.
+
+b) **Mecanismo da encefalopatia hipertensiva:** A autorregulação cerebral mantém fluxo constante dentro de uma faixa de pressão. Ultrapassado o limite superior, ocorre vasodilatação forçada e hiperperfusão, com ruptura da barreira hematoencefálica, extravasamento e edema cerebral vasogênico — daí cefaleia, confusão, alterações visuais e papiledema.
+
+c) **Outros órgãos-alvo:**
+• **Rim:** nefroesclerose hipertensiva aguda, com elevação de creatinina, proteinúria e hematúria.
+• **Coração:** hipertrofia ventricular esquerda e, na fase aguda, edema agudo de pulmão ou isquemia miocárdica por desbalanço entre oferta e consumo de oxigênio.
+
+*A pergunta separa quem decora números de quem entende que a emergência se define pela lesão de órgão-alvo.*
+
+Revisar: Emergência hipertensiva e lesão de órgão-alvo
+
+==================== FISIO #40 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Marque V ou F e corrija as falsas:
+
+I. Considera-se IC com FEVE reduzida quando a fração de ejeção está abaixo de 50%.
+II. Estima-se que apenas 10% dos pacientes com IC apresentem FEVE normal.
+III. A IC com FEVE preservada é mais comum em mulheres, idosos, diabéticos e hipertensos.
+IV. Valores de BNP acima de 35–50 pg/mL ou de NT-proBNP acima de 125 pg/mL orientam a prosseguir a investigação com ecocardiograma.
+V. Hiponatremia e FEVE inferior a 30% são marcadores de mau prognóstico na insuficiência cardíaca.
+GABARITO:
+ I — V. FEVE < 50% = IC com fração de ejeção reduzida.
+II — F. Estima-se que metade dos pacientes apresente FEVE normal.
+III — V.
+IV — V.
+V — V. Ambos constam entre os marcadores de mau prognóstico — hiponatremia no domínio laboratorial e FEVE < 30% no domínio de imagem.
+
+==================== FISIO #41 ====================
+TYPE: QUESTÃO ABERTA
+TEXT:
+ Um paciente com insuficiência cardíaca descompensada apresenta oligúria, ureia e creatinina em elevação e piora da congestão. Explique, pela fisiopatologia, por que o rim 'entende' a situação como hipovolemia e por que essa leitura agrava o quadro.
+GABARITO:
+ **Resposta-modelo:**
+
+O rim não mede volume total: mede volume arterial efetivo, isto é, a perfusão que chega ao aparelho justaglomerular. Na IC descompensada, o débito cardíaco cai e a perfusão renal diminui, mesmo com o paciente francamente congesto.
+
+Interpretando isso como hipovolemia, o rim ativa o sistema renina-angiotensina-aldosterona e o organismo libera ADH. O resultado é retenção de sódio e água, vasoconstrição e aumento da pré-carga e da pós-carga.
+
+O efeito é paradoxal e vicioso: mais volume retido → mais congestão → maior pressão venosa renal, que também compromete a filtração → mais isquemia relativa do rim → mais ativação neuro-hormonal. É a base da síndrome cardiorrenal.
+
+Clinicamente, isso explica por que o paciente pode ter edema, turgência jugular e ascite e, ainda assim, apresentar marcadores de hipoperfusão renal — e por que o tratamento age nos dois eixos, descongestionando e bloqueando a ativação neuro-hormonal.
+
+Revisar: Síndrome cardiorrenal · volume arterial efetivo
+
+==================== FISIO #42 ====================
+TYPE: VERDADEIRO OU FALSO
+TEXT:
+ Sobre a classificação e a avaliação da insuficiência cardíaca, julgue os itens:
+
+( ) A classificação funcional da NYHA baseia-se no grau de limitação imposto pelos sintomas às atividades cotidianas.
+( ) A insuficiência cardíaca de alto débito ocorre em situações como tireotoxicose, anemia grave e fístulas arteriovenosas.
+( ) A fração de ejeção normal exclui o diagnóstico de insuficiência cardíaca.
+( ) A congestão pulmonar na IC decorre do aumento da pressão hidrostática capilar pulmonar.
+( ) A dispneia paroxística noturna melhora tipicamente em segundos ao se sentar, diferentemente da ortopneia.
+GABARITO:
+ **Sequência: V – V – F – V – F**
+
+• V) Vai de I (sem limitação) a IV (sintomas em repouso) e pode variar no mesmo paciente ao longo do tempo.
+• V) Nessas condições o débito é alto, mas insuficiente para a demanda periférica aumentada.
+• F) A IC com fração de ejeção preservada responde por cerca de metade dos casos.
+• V) A pressão de enchimento elevada se transmite ao capilar e supera a pressão oncótica, extravasando líquido.
+• F) É o contrário: a ortopneia alivia em poucos minutos com a elevação do tronco, enquanto a DPN desperta o paciente e leva mais tempo para ceder.
+
+Revisar: Classificação e avaliação da insuficiência cardíaca
+
+==================== FISIO #43 ====================
+TYPE: CASO CLÍNICO
+TEXT:
+ Mulher de 44 anos apresenta ganho de peso com obesidade de tronco, rosto arredondado e acúmulo de gordura na parte posterior do pescoço. Refere fraqueza para subir escadas e levantar-se da cadeira. Ao exame: estrias abdominais largas, pele fina que se machuca com facilidade, PA 156/98 mmHg. Laboratório: glicemia de jejum 142 mg/dL e glicosúria. Densitometria com osteoporose. Relata três episódios de infecção nos últimos seis meses.
+
+a) Qual o diagnóstico?
+b) Explique o mecanismo da fraqueza proximal e por que ela é proximal.
+c) Explique o mecanismo da hiperglicemia, das estrias e da osteoporose.
+d) Por que essa paciente tem infecções de repetição?
+GABARITO:
+ a) Síndrome de Cushing (hipercortisolismo).
+b) O hipercortisolismo causa atrofia seletiva das miofibras de contração rápida (tipo 2), resultando em massa muscular diminuída e fraqueza proximal nos membros. É proximal porque a musculatura de cinturas — que sustenta e movimenta o tronco contra a gravidade — é rica em fibras tipo 2, justamente as atrofiadas; daí a dificuldade de subir escadas e levantar-se da cadeira.
+c) Hiperglicemia — os glicocorticoides induzem a gliconeogênese e inibem a captação de glicose pelas células, resultando em hiperglicemia, glicosúria e polidipsia (diabetes secundária). Estrias — os efeitos do catabolismo causam perda de colágeno, deixando a pele fina, frágil e facilmente machucável, com estrias particularmente comuns na área abdominal e cicatrização deficiente. Osteoporose — o catabolismo promove reabsorção óssea, com dor nas costas e suscetibilidade aumentada a fraturas.
+d) Porque os glicocorticoides suprimem a resposta imunológica, colocando as pessoas com síndrome de Cushing sob risco para uma variedade de infecções.

@@ -1,0 +1,10 @@
+ (Options: 0)
+TEXT: a. Defina pressão de pulso e explique como calculá-la.
+b. Um idoso de 79 anos apresenta PA = 176x62 mmHg. Calcule a pressão de pulso, classifique-a e explique o mecanismo fisiológico que produz esse padrão nessa faixa etária.
+c. Um paciente politraumatizado apresenta PA = 88x74 mmHg. Calcule a pressão de pulso, classifique-a e explique por que esse achado é mais preocupante do que a simples leitura "pressão baixa".
+d. Cite uma valvopatia que cursa com pressão de pulso divergente e outra que cursa com pressão convergente, justificando ambas pelo mecanismo hemodinâmico.
+GABARITO:
+(a) PP = PAS - PAD. Reflete volume sistólico e complacência aórtica. Normal: 30 a 50 mmHg.
+(b) PP = 114 mmHg (divergente/alargada). Mecanismo: rigidez aórtica do idoso. Aorta perde complacência, elevando a sistólica e não sustentando a diastólica.
+(c) PP = 14 mmHg (convergente/estreitada). Indica baixo débito cardíaco (choque hipovolêmico) com vasoconstrição periférica intensa tentando manter a diastólica.
+(d) Divergente: Insuficiência aórtica (refluxo esvazia a aorta, caindo diastólica, e eleva volume do próximo batimento, subindo sistólica). Convergente: Estenose aórtica (obstrução fixa reduz volume sistólico e sistólica).

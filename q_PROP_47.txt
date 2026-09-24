@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre a inspeção, a palpação e os focos de ausculta do precórdio, analise as assertivas a seguir:
+I. O ictus cordis normal localiza-se no 5º espaço intercostal esquerdo, aproximadamente 1 cm medial à linha hemiclavicular, com extensão de até duas polpas digitais.
+II. O foco aórtico acessório, ou ponto de Erb, situa-se no 3º espaço intercostal esquerdo, junto à borda esternal, e é onde melhor se ausculta o sopro da insuficiência aórtica.
+III. O foco mitral corresponde ao 2º espaço intercostal direito, junto à borda esternal.
+IV. Frêmito cardíaco é a tradução palpatória de um sopro de grande intensidade, correspondendo, na escala de Levine, a sopros de grau igual ou superior a 4/6.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois o foco mitral fica no ápice (5º EIC VE), enquanto o 2º EIC D é o foco aórtico.

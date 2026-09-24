@@ -1,0 +1,14 @@
+ (Options: 5)
+TEXT: Analise as assertivas a seguir:
+I. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.
+II. Homem, 39 anos, procura emergência do hospital com sintomatologia de dificuldade de respirar em posição ortostática, que alivia na posição deitada. Trata-se de um quadro de trepopneia.
+III. Mulher, 52 anos, internada na enfermaria de Cirurgia Geral no 2º dia após realização de colecistectomia. Evolui com quadro de taquipneia 1+/4+ e redução do frêmito toracovocal na base de pulmão direito. Essa alteração do exame físico é compatível com o diagnóstico de atelectasia.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I e III estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) I, II e III estão incorretas.
+  E) E) Nenhuma das alternativas anteriores está correta.
+GABARITO:
+Alternativa E.
+NENHUMA é verdadeira e não há alternativa "apenas III". I é falsa (rigidez aumenta sistólica). II é falsa (é platipneia, não trepopneia). III é verdadeira (atelectasia reduz frêmito, comum no pós-operatório).

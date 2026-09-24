@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre a caracterização semiológica dos sopros cardíacos, analise as assertivas a seguir:
+I. Na escala de Levine, o sopro de grau 3/6 é aquele audível com frêmito palpável associado.
+II. Um sopro sistólico de grau 1 a 2/6, sem irradiação, em foco pulmonar, em criança assintomática com exame cardiovascular por outro lado normal, sugere sopro inocente.
+III. O sopro da insuficiência mitral é holossistólico, "em barra", e irradia caracteristicamente para a axila.
+IV. O sopro da estenose mitral é um ruflar diastólico de baixa frequência, mais bem audível com a campânula, no foco mitral, frequentemente precedido de estalido de abertura.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II, III e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa C.
+II, III e IV corretas. I é falsa pois na escala de Levine o FRÊMITO começa a partir do grau 4/6.

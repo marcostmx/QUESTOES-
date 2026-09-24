@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 58 anos vai ao consultório após quase desmaiar. Relata fadiga progressiva há vários meses, dor abdominal leve e intermitente, perda de apetite e emagrecimento de 5 a 7,5 kg. Ao exame: temperatura 37,7 °C, FC 102 bpm, PA 89/62 mmHg, que cai para 70 mmHg de sistólica ao ficar de pé, com FC subindo para 125. Está bronzeada, com os sulcos das mãos hiperpigmentados. Laboratório: Na 121 mEq/L, K 5,8 mEq/L, HCO₃ 16 mEq/L, glicemia 52 mg/dL.
+
+a) Qual o diagnóstico e a causa mais comum?
+b) Qual o comportamento do ACTH e por quê?
+c) Explique cada alteração laboratorial pelo hormônio que está faltando.
+d) Por que a doença "começa insidiosamente e não chama a atenção" até fase avançada?
+GABARITO:
+a) Doença de Addison — insuficiência adrenocortical crônica primária (o defeito está no próprio córtex), aqui em descompensação aguda. A causa mais comum é a destruição autoimune idiopática.
+b) O ACTH está elevado, porque, com os hormônios do córtex suprarrenal deficientes, não há inibição por feedback sobre a hipófise.
+c) Faltam mineralocorticoides (aldosterona) → o túbulo distal não troca sódio por potássio → perda de sódio (Na 121 = hiponatremia), retenção de potássio (K 5,8 = hipercalemia), acidose metabólica (HCO₃ 16), depleção de volume e hipotensão com componente ortostático. Faltam glicocorticoides (cortisol) → gliconeogênese prejudicada → hipoglicemia (glicemia 52), além de fraqueza, anorexia e perda de peso.
+d) Porque a doença começa insidiosamente e as queixas iniciais — fraqueza progressiva e cansaço fácil — podem ser interpretadas como reclamações não específicas. O quadro só chama atenção quando os níveis de glicocorticoides e mineralocorticoides circulantes já estão significativamente diminuídos.

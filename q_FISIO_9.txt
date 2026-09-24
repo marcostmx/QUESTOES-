@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Homem de 72 anos é levado ao pronto-socorro após perder a consciência enquanto estava de pé cantando na igreja. A esposa relata que ele ficou inconsciente por 2 a 3 minutos, sem movimentos anormais, e ao acordar ficou tonto por um ou dois minutos, recuperando-se em seguida. Nos últimos meses vinha suspendendo atividades por fraqueza e tontura. Ao exame: alerta e orientado, afebril, FC 35 bpm regular, PA 118/72 mmHg sem variação ao ficar de pé. Exames laboratoriais e enzimas cardíacas normais.
+
+a) Qual o diagnóstico e o mecanismo?
+b) Que dados do caso permitem descartar crise convulsiva e síncope ortostática?
+c) Explique, usando a hierarquia do automatismo cardíaco, por que a frequência está em 35 bpm.
+GABARITO:
+a) Síncope por bloqueio atrioventricular total (de terceiro grau). Mecanismo: a condução do átrio para o ventrículo é completamente interrompida, o ventrículo passa a depender de um ritmo de escape lento, o débito cardíaco cai abruptamente e ocorre hipoperfusão cerebral global transitória.
+
+b) Contra crise convulsiva: ausência de movimentos anormais, recuperação rápida e ausência de período pós-ictal prolongado. Contra síncope ortostática: a PA não se altera ao ficar de pé.
+
+c) Todas as estruturas do sistema de condução têm automatismo próprio, em hierarquia decrescente: nó SA ≈ 60–100 bpm, junção AV ≈ 40–60 bpm, His-Purkinje/ventrículo ≈ 20–40 bpm. Normalmente o nó SA comanda por ser o mais rápido. Com o bloqueio total, o impulso atrial não alcança o ventrículo, que passa a ser comandado por um foco de escape ventricular — daí a frequência de 35 bpm, dentro da faixa do automatismo de Purkinje/ventrículo.

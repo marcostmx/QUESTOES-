@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Considerando que o HCO₃⁻ é o componente metabólico e a PaCO₂ o componente respiratório, marque V ou F e corrija as falsas:
+
+I. HCO₃⁻ baixo indica acidose metabólica, e a resposta compensatória esperada é hiperventilação para reduzir o CO₂.
+II. PaCO₂ elevada indica acidose respiratória, decorrente de hipoventilação, e a compensação é renal, com elevação do HCO₃⁻.
+III. HCO₃⁻ elevado indica alcalose respiratória.
+IV. PaCO₂ baixa indica alcalose respiratória, com o paciente hiperventilando e eliminando CO₂.
+V. Na alcalose metabólica a compensação esperada é a hipoventilação, para reter CO₂.
+GABARITO:
+I — V.
+II — V.
+III — F. HCO₃⁻ elevado indica alcalose metabólica; a compensação esperada é hipoventilação, para reter CO₂.
+IV — V.
+V — V.

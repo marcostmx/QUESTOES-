@@ -1,0 +1,19 @@
+ (Options: 0)
+TEXT: Mulher de 48 anos, em pós-operatório de artroplastia de quadril há 6 dias, apresenta dispneia súbita, dor torácica pleurítica e taquicardia. Ao exame: FR 30 mpm, FC 118 bpm, SpO₂ 88% em ar ambiente, ausculta pulmonar sem alterações significativas.
+
+a) Qual a principal hipótese e por quê?
+b) Explique a tríade de Virchow aplicada a este caso.
+c) Explique por que a ausculta pode ser normal e por que há hipoxemia.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Tromboembolismo pulmonar.** A combinação de dispneia súbita, dor pleurítica e hipoxemia em paciente com fator de risco maior recente — cirurgia ortopédica de grande porte com imobilização — é altamente sugestiva.
+
+b) **Tríade de Virchow:**
+• **Estase:** imobilidade prolongada no pós-operatório.
+• **Lesão endotelial:** trauma cirúrgico direto sobre as veias da pelve e do membro.
+• **Hipercoagulabilidade:** o próprio estado pós-operatório é pró-trombótico, com elevação de fatores de coagulação e redução da fibrinólise.
+
+c) **Ausculta normal e hipoxemia:** A ausculta é frequentemente normal porque o parênquima em si está íntegro — o problema é vascular, não alveolar. A hipoxemia decorre da alteração da relação ventilação/perfusão: áreas ventiladas deixam de ser perfundidas (aumento do espaço morto) e o fluxo é redistribuído para territórios com ventilação relativamente insuficiente, criando áreas de baixa relação V/Q. Somam-se broncoconstrição reflexa por mediadores liberados do trombo e, nos casos maiores, queda do débito cardíaco.
+
+Revisar: Tromboembolismo pulmonar

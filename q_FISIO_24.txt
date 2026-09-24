@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 44 anos apresenta ganho de peso com obesidade de tronco, rosto arredondado e acúmulo de gordura na parte posterior do pescoço. Refere fraqueza para subir escadas e levantar-se da cadeira. Ao exame: estrias abdominais largas, pele fina que se machuca com facilidade, PA 156/98 mmHg. Laboratório: glicemia de jejum 142 mg/dL e glicosúria. Densitometria com osteoporose. Relata três episódios de infecção nos últimos seis meses.
+
+a) Qual o diagnóstico?
+b) Explique o mecanismo da fraqueza proximal e por que ela é proximal.
+c) Explique o mecanismo da hiperglicemia, das estrias e da osteoporose.
+d) Por que essa paciente tem infecções de repetição?
+GABARITO:
+a) Síndrome de Cushing (hipercortisolismo).
+b) O hipercortisolismo causa atrofia seletiva das miofibras de contração rápida (tipo 2), resultando em massa muscular diminuída e fraqueza proximal nos membros. É proximal porque a musculatura de cinturas — que sustenta e movimenta o tronco contra a gravidade — é rica em fibras tipo 2, justamente as atrofiadas; daí a dificuldade de subir escadas e levantar-se da cadeira.
+c) Hiperglicemia — os glicocorticoides induzem a gliconeogênese e inibem a captação de glicose pelas células, resultando em hiperglicemia, glicosúria e polidipsia (diabetes secundária). Estrias — os efeitos do catabolismo causam perda de colágeno, deixando a pele fina, frágil e facilmente machucável, com estrias particularmente comuns na área abdominal e cicatrização deficiente. Osteoporose — o catabolismo promove reabsorção óssea, com dor nas costas e suscetibilidade aumentada a fraturas.
+d) Porque os glicocorticoides suprimem a resposta imunológica, colocando as pessoas com síndrome de Cushing sob risco para uma variedade de infecções.

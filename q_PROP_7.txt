@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Mulher de 44 anos relata "cansaço para tudo, mesmo depois de dormir a noite inteira", com piora progressiva nos últimos seis meses. Refere ainda ganho de 6 kg no período, intolerância ao frio, pele seca e obstipação. Ao exame: fácies com edema periorbitário e expressão apática, pele áspera, bradicárdica (FC 54 bpm). Considerando a queixa e os achados, a interpretação semiológica mais adequada é:
+  A) A) Trata-se de astenia isolada, sintoma inespecífico que não permite qualquer orientação diagnóstica.
+  B) B) Trata-se de fadiga associada a um conjunto sindrômico compatível com hipotireoidismo, sendo esperada a fácies mixedematosa.
+  C) C) Trata-se de dispneia aos esforços, devendo a investigação ser direcionada ao aparelho cardiovascular.
+  D) D) Trata-se de lipotimia recorrente, com indicação de investigação de arritmias.
+  E) E) Trata-se de astenia por anemia, sendo a fácies descrita a fácies de Addison.
+GABARITO:
+Alternativa B.
+Fadiga (cansaço que não melhora com o sono) + ganho de peso + intolerância ao frio + bradicardia formam um conjunto sindrômico de hipotireoidismo. A fácies com edema periorbitário e apatia é a mixedematosa.

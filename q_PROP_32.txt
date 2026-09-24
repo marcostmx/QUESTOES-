@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre o exame oftalmológico realizado na propedêutica geral, analise as assertivas a seguir:
+I. A tabela de Snellen avalia a acuidade visual, enquanto o campo visual é avaliado pela campimetria, habitualmente por confrontação à beira do leito.
+II. O reflexo fotomotor direto consiste na contração da pupila do olho estimulado pela luz; o consensual, na contração simultânea da pupila contralateral.
+III. A anisocoria é a desigualdade de diâmetro entre as pupilas, e pode ser fisiológica em pequena magnitude.
+IV. A presença de ptose palpebral associada a midríase e desvio do olho para baixo e para fora sugere lesão do nervo abducente (VI par).
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e III corretas. IV é falsa pois os achados descritos (ptose, midríase, olho desviado) são da paralisia do III PAR (oculomotor). O VI par (abducente) causaria apenas estrabismo convergente, sem ptose ou midríase.

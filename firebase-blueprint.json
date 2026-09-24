@@ -1,0 +1,44 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "Informações de perfil do usuário",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 256 },
+        "displayName": { "type": "string", "maxLength": 128 },
+        "photoURL": { "type": "string", "maxLength": 1024 },
+        "lastDevice": { "type": "string", "maxLength": 128 },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId"]
+    },
+    "UserStudyData": {
+      "title": "UserStudyData",
+      "description": "Dados de estudo sincronizados na nuvem para múltiplos dispositivos",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "maxLength": 128 },
+        "progress": { "type": "object", "description": "Progresso de questões por disciplina" },
+        "favorites": { "type": "object", "description": "Questões marcadas como favoritas" },
+        "srs": { "type": "object", "description": "Cartões de repetição espaçada" },
+        "dailyHistory": { "type": "object", "description": "Histórico diário de resolução" },
+        "streak": { "type": "object", "description": "Sequência diária de estudos" },
+        "lastDevice": { "type": "string", "maxLength": 128 },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Documento de perfil e autenticação do estudante"
+    },
+    "/users/{userId}/sync/{docId}": {
+      "schema": "UserStudyData",
+      "description": "Coleção de sincronização multi-dispositivo do progresso de estudo"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Adolescente de 18 anos, longilíneo, alto e magro, apresenta dor torácica súbita "em punhalada" à direita e dispneia progressiva, iniciadas há 2 horas, sem trauma e sem febre. Ao exame do hemitórax direito: expansibilidade reduzida, frêmito toracovocal abolido, hipertimpanismo à percussão e murmúrio vesicular abolido. A traqueia encontra-se desviada para a esquerda e há turgência jugular. O diagnóstico e a implicação mais provável são:
+  A) A) Derrame pleural à direita; a macicez confirma o acúmulo de líquido.
+  B) B) Pneumonia lobar à direita; o frêmito abolido decorre da consolidação.
+  C) C) Pneumotórax hipertensivo à direita; trata-se de emergência, pelo desvio de mediastino e comprometimento do retorno venoso.
+  D) D) Atelectasia do lobo médio direito; o desvio traqueal contralateral confirma a retração.
+  E) E) Crise asmática grave; o hipertimpanismo decorre da hiperinsuflação bilateral.
+GABARITO:
+Alternativa C.
+O quadro clássico de pneumotórax (frêmito abolido + hipertimpanismo + murmúrio abolido). A turgência jugular e o desvio da traqueia marcam a evolução para pneumotórax hipertensivo, emergência médica.

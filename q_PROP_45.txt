@@ -1,0 +1,11 @@
+ (Options: 0)
+TEXT: Homem de 62 anos, tabagista de longa data, procura o pronto-socorro com dispneia progressiva há 3 dias e tosse com expectoração esverdeada. Ao exame: FR = 30 irpm, uso de musculatura acessória, tórax em tonel, hipersonoridade difusa à percussão, murmúrio vesicular globalmente diminuído e sibilos expiratórios difusos. SpO₂ = 86% em ar ambiente.
+a. Descreva o que significa cada achado do exame físico encontrado e a que alteração fisiopatológica ele corresponde.
+b. Explique por que o tórax em tonel e a hipersonoridade difusa apontam para doença crônica, e não para o quadro agudo dos últimos 3 dias.
+c. Se, durante a evolução, os sibilos desaparecessem e o murmúrio vesicular se tornasse quase inaudível, isso indicaria melhora ou piora? Justifique.
+d. Calcule a carga tabágica presumida se o paciente fumar 1,5 maço/dia há 40 anos.
+GABARITO:
+(a) FR 30 + uso de musculatura = insuficiência respiratória. Tórax em tonel e hipersonoridade = aprisionamento aéreo (hiperinsuflação da DPOC). Sibilos = broncoespasmo.
+(b) Tórax em tonel reflete remodelação estrutural da caixa torácica e diafragma retificado, processo lento que exige anos (típico de DPOC basal). O quadro agudo é uma exacerbação.
+(c) Piora gravíssima ("tórax silencioso"). O sibilo exige ar passando pela via estreita; o desaparecimento do sibilo com murmúrio inaudível significa fluxo de ar quase zero.
+(d) 1,5 x 40 = 60 maços-ano.

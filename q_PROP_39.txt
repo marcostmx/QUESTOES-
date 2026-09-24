@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre os ruídos adventícios da ausculta pulmonar, analise as assertivas a seguir:
+I. Os estertores finos são descontínuos, agudos, ocorrem ao final da inspiração e não se modificam com a tosse.
+II. Os roncos são ruídos contínuos e graves, originados em brônquios de maior calibre com secreção, e tipicamente se modificam ou desaparecem após a tosse.
+III. O estridor é um ruído contínuo, de predomínio expiratório, originado em vias aéreas bronquiolares.
+IV. O atrito pleural é um ruído áspero, audível em ambas as fases respiratórias, que desaparece quando o paciente prende a respiração.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois o estridor tem predomínio INSPIRATÓRIO e se origina na VIA AÉREA ALTA (laringe/traqueia), não nos bronquíolos.

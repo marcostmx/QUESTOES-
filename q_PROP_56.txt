@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Mulher de 49 anos, com antecedente de febre reumática na infância, apresenta dispneia progressiva e palpitações há 6 meses. Ao exame: pulso radial irregular, com 78 pulsações por minuto; à ausculta do precórdio, contam-se 104 batimentos por minuto, ritmo irregular, com ruflar diastólico em foco mitral precedido de estalido de abertura. Analise as assertivas:
+I. A diferença entre a frequência auscultada e a palpada configura déficit de pulso, de 26 batimentos por minuto.
+II. O ritmo irregular associado ao déficit de pulso sugere fibrilação atrial.
+III. O ruflar diastólico com estalido de abertura em foco mitral é compatível com estenose mitral, cuja causa mais comum é a doença reumática.
+IV. Nesta paciente, espera-se encontrar quarta bulha proeminente, decorrente da contração atrial vigorosa contra a valva estenosada.
+Está correto o que se afirma em:
+  A) A) Apenas I e IV estão corretas.
+  B) B) Apenas I, II e III estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e III corretas. IV é falsa pois a paciente tem déficit de pulso e ritmo irregular, sinalizando fibrilação atrial. Na FA não existe B4, pois falta contração atrial organizada.

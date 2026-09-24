@@ -1,0 +1,21 @@
+ (Options: 5)
+TEXT: A respeito das técnicas de condução da entrevista clínica, analise as assertivas a seguir:
+
+I. Recomenda-se iniciar a história da doença atual com perguntas abertas, reservando as perguntas fechadas e dirigidas para o detalhamento posterior dos eixos do sintoma-guia.
+II. Perguntas indutivas, do tipo "a dor piora à noite, não é mesmo?", são recomendadas na fase inicial da coleta por tornarem a entrevista mais objetiva.
+III. Na anamnese mista, o médico permite inicialmente o relato espontâneo e, em seguida, conduz a entrevista de modo mais objetivo.
+IV. A clarificação consiste em pedir ao paciente que detalhe um termo vago, como "ruim" ou "esquisito", empregado por ele durante o relato.
+
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas II e III estão corretas.
+  C) C) Apenas I, III e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Nenhuma das alternativas anteriores.
+GABARITO:
+Alternativa C.
+
+I — VERDADEIRO. A sequência aberta → fechada é o princípio central da entrevista.
+II — FALSO. Perguntas indutivas devem ser evitadas na coleta inicial, precisamente porque enviesam o relato. O correto é perguntar de forma neutra.
+III — VERDADEIRO. Definição correta da anamnese mista.
+IV — VERDADEIRO. Clarificação é exatamente pedir que o paciente detalhe um termo vago.

@@ -1,0 +1,15 @@
+ (Options: 0)
+TEXT: Homem de 56 anos chega à emergência com sensação de pressão retroesternal intensa que o acordou do sono há três horas. Tabagista de 40 maços-ano, hipercolesterolêmico. Ao exame: desconfortável, diaforese, FC 116 bpm, PA 166/102 mmHg, FR 22 mpm, saturação 96% em ar ambiente. Pressão venosa jugular normal, campos pulmonares limpos, ritmo regular com galope B4, sem sopros. Radiografia de tórax normal. ECG com supradesnivelamento do segmento ST.
+
+a) Qual o diagnóstico e o mecanismo vascular exato que o produziu?
+b) Explique o que o supradesnivelamento de ST indica em termos de extensão da lesão na parede miocárdica.
+c) Por que este paciente tem B4 e por que a radiografia é normal?
+d) Cite as duas modalidades de tratamento descritas no material.
+GABARITO:
+a) Infarto agudo do miocárdio com supradesnivelamento de ST (IAMCSST). Mecanismo: ruptura de placa aterosclerótica com formação de trombo plaquetário oclusivo, causando oclusão vascular completa, sem lise, de uma artéria coronária epicárdica.
+
+b) O supra de ST indica infarto transmural — necrose que atinge toda a espessura da parede, e não apenas a região subendocárdica. Corresponde à oclusão total e permanente do vaso.
+
+c) A B4 surge porque o miocárdio isquêmico perde complacência; o átrio precisa contrair contra um ventrículo rígido no fim da diástole. A radiografia é normal porque o evento é agudo — ainda não houve tempo para congestão pulmonar ou remodelamento; a pressão venosa jugular normal e os campos limpos confirmam que ainda não há falência de bomba estabelecida.
+
+d) Angioplastia coronariana transluminal percutânea (ACTP) com colocação de stents e cirurgia de bypass arterial coronariano (enxerto de veia safena ou artéria mamária interna).

@@ -1,0 +1,10 @@
+ (Options: 5)
+TEXT: Um paciente de 33 anos comparece para atendimento de emergência devido a quadro de febre alta, tosse produtiva (escarro amarelado) e dispneia iniciados há 48 horas. Não há histórico de comorbidades. Ao exame físico: estado geral regular, respiração dispneica, FR = 28 irpm, FC = 110 bpm, PA = 118x76 mmHg, pulso radial cheio e taquisfígmico, temperatura axilar = 38,8 °C. Ao exame do aparelho respiratório, percebe-se em terço inferior de hemitórax direito diminuição da expansibilidade pulmonar, frêmito toracovocal aumentado, submacicez à percussão, estertores finos à ausculta pulmonar e broncofonia. O diagnóstico mais provável é:
+  A) A) Pneumotórax
+  B) B) Atelectasia
+  C) C) Pleurite aguda
+  D) D) Pneumonia bacteriana
+  E) E) Derrame pleural
+GABARITO:
+Alternativa D.
+A combinação de frêmito toracovocal AUMENTADO, submacicez e estertores finos/broncofonia define a Síndrome de Consolidação. Num quadro agudo e febril, fecha diagnóstico sindrômico de pneumonia.

@@ -1,0 +1,59 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Default deny catch-all
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidUserProfile(data, userId) {
+      return data.userId == userId &&
+             (!('email' in data) || (data.email is string && data.email.size() <= 256)) &&
+             (!('displayName' in data) || (data.displayName is string && data.displayName.size() <= 128)) &&
+             (!('photoURL' in data) || (data.photoURL is string && data.photoURL.size() <= 1024)) &&
+             (!('lastDevice' in data) || (data.lastDevice is string && data.lastDevice.size() <= 128));
+    }
+
+    function isValidUserStudyData(data, userId) {
+      return data.userId == userId &&
+             (!('progress' in data) || data.progress is map) &&
+             (!('favorites' in data) || data.favorites is map) &&
+             (!('srs' in data) || data.srs is map) &&
+             (!('dailyHistory' in data) || data.dailyHistory is map) &&
+             (!('streak' in data) || data.streak is map) &&
+             (!('lastDevice' in data) || (data.lastDevice is string && data.lastDevice.size() <= 128));
+    }
+
+    // User Profile
+    match /users/{userId} {
+      allow get: if isOwner(userId);
+      allow list: if false;
+      allow create: if isOwner(userId) && isValidId(userId) && isValidUserProfile(request.resource.data, userId);
+      allow update: if isOwner(userId) && isValidUserProfile(request.resource.data, userId);
+      allow delete: if isOwner(userId);
+
+      // Multi-device sync collection
+      match /sync/{docId} {
+        allow get: if isOwner(userId);
+        allow list: if isOwner(userId);
+        allow create: if isOwner(userId) && isValidId(docId) && isValidUserStudyData(request.resource.data, userId);
+        allow update: if isOwner(userId) && isValidUserStudyData(request.resource.data, userId);
+        allow delete: if isOwner(userId);
+      }
+    }
+  }
+}

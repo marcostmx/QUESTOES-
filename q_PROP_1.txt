@@ -1,0 +1,23 @@
+ (Options: 5)
+TEXT: A anamnese é o instrumento central do método clínico. Analise as assertivas a seguir:
+
+I. A queixa principal deve ser registrada de forma breve e espontânea, nas palavras do próprio paciente, motivo pelo qual se convenciona anotá-la entre aspas.
+II. O sintoma-guia é, obrigatoriamente, o primeiro sintoma relatado pelo paciente durante a entrevista.
+III. A duração e a irradiação da dor são sub-itens do eixo "características" na investigação do sintoma-guia, e não eixos independentes.
+IV. O interrogatório sintomatológico tem por finalidade detectar, de forma sistemática, sintomas que o paciente não relatou espontaneamente.
+
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I, III e IV estão corretas.
+  C) C) Apenas II e IV estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+
+I — VERDADEIRO. A queixa principal é registrada de forma breve, espontânea e nas palavras do paciente, entre aspas — a convenção existe justamente para deixar claro que aquilo é o relato dele, não a tradução técnica.
+II — FALSO. O sintoma-guia não é necessariamente o primeiro relatado, nem o mais valorizado pelo paciente: é aquele que permite reconstituir a história com mais precisão.
+III — VERDADEIRO. Localização, irradiação, duração e qualidade são os quatro sub-itens do eixo características.
+IV — VERDADEIRO. É exatamente a função do IS: varredura sistemática, sistema por sistema, para capturar o que o paciente não relatou por esquecimento, por não julgar relevante ou por medo.
+
+OBJETIVO EDUCACIONAL: Dominar os seis eixos do sintoma-guia e reconhecer que o sintoma-guia é escolhido pelo poder de organizar a história, não pela ordem em que foi mencionado.

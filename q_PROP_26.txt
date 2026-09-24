@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre os tipos de marcha e seu significado localizatório, analise as assertivas a seguir:
+I. Na marcha ceifante (helicópode), o membro inferior espástico descreve um semicírculo a cada passo, sendo típica da hemiplegia sequelar de acidente vascular cerebral.
+II. A marcha escarvante caracteriza-se pela elevação exagerada do joelho para evitar que a ponta do pé arraste no solo, sendo observada na lesão do nervo fibular comum.
+III. A marcha atáxica cerebelar piora de forma marcante quando o paciente fecha os olhos, o que a diferencia da marcha talonante.
+IV. A marcha anserina, com acentuação da lordose lombar e báscula do tronco, associa-se a miopatias com fraqueza da cintura pélvica.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV corretas. III é falsa pois a atáxica cerebelar NÃO piora com olhos fechados. Quem piora dramaticamente (Romberg) é a atáxica sensitiva (talonante).

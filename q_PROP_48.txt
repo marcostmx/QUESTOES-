@@ -1,0 +1,14 @@
+ (Options: 5)
+TEXT: A ausculta cardíaca é um elemento da semiotécnica que possui grande relevância porque pode fornecer informações essenciais para elaboração de hipóteses diagnósticas. Considerando o exame do aparelho cardiovascular, analise as assertivas a seguir:
+I. A terceira bulha (B3) é um som de baixa frequência, sendo melhor audível com a campânula. A terceira bulha está relacionada ao momento da contração atrial.
+II. É o componente aórtico da segunda bulha cardíaca (B2) que atrasa durante o desdobramento fisiológico de B2.
+III. A quarta bulha (B4), quando presente, localiza-se na telediástole do ciclo cardíaco e tem associação com corações com baixa complacência.
+Está correto o que se afirma em:
+  A) A) I, II e III estão incorretas
+  B) B) Apenas I e II estão corretas
+  C) C) Apenas I e III estão corretas
+  D) D) Apenas II e III estão corretas
+  E) E) Nenhuma das alternativas anteriores
+GABARITO:
+Alternativa E.
+Apenas a III é verdadeira, e não há essa opção isolada. I é falsa (B3 é enchimento passivo; B4 que é da contração atrial). II é falsa (é o componente PULMONAR que atrasa na inspiração).

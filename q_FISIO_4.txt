@@ -1,0 +1,14 @@
+ (Options: 0)
+TEXT: Marque V ou F e corrija as falsas:
+
+I. Considera-se IC com FEVE reduzida quando a fração de ejeção está abaixo de 50%.
+II. Estima-se que apenas 10% dos pacientes com IC apresentem FEVE normal.
+III. A IC com FEVE preservada é mais comum em mulheres, idosos, diabéticos e hipertensos.
+IV. Valores de BNP acima de 35–50 pg/mL ou de NT-proBNP acima de 125 pg/mL orientam a prosseguir a investigação com ecocardiograma.
+V. Hiponatremia e FEVE inferior a 30% são marcadores de mau prognóstico na insuficiência cardíaca.
+GABARITO:
+I — V. FEVE < 50% = IC com fração de ejeção reduzida.
+II — F. Estima-se que metade dos pacientes apresente FEVE normal.
+III — V.
+IV — V.
+V — V. Ambos constam entre os marcadores de mau prognóstico — hiponatremia no domínio laboratorial e FEVE < 30% no domínio de imagem.

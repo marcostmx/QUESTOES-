@@ -1,0 +1,16 @@
+ (Options: 0)
+TEXT: Jovem de 19 anos procura atendimento por perda de peso não intencional de 9 kg em dois meses, apesar de apetite aumentado, além de poliúria, noctúria e sede intensa. Glicemia capilar de 384 mg/dL, cetonúria positiva.
+
+a) Qual o diagnóstico e o tipo provável?
+b) Explique a poliúria, a polidipsia, a polifagia e a perda de peso a partir da falta de insulina.
+c) Explique como se forma a cetoacidose.
+GABARITO:
+**Resposta-modelo:**
+
+a) **Diagnóstico:** Diabetes mellitus, muito provavelmente tipo 1, pela idade, pela instalação rápida, pela perda de peso e pela presença de cetose.
+
+b) **Cadeia dos 4 Ps:** Sem insulina, a glicose não entra nas células insulino-dependentes e se acumula no plasma. Ultrapassado o limiar renal, ela é filtrada e não reabsorvida, arrastando água por efeito osmótico → poliúria e noctúria. A perda de água eleva a osmolaridade plasmática e ativa os osmorreceptores → polidipsia. Como a célula não recebe substrato, o organismo se comporta como em jejum e estimula a fome → polifagia. Ao mesmo tempo, predominam lipólise e proteólise para gerar energia alternativa → perda de peso, apesar de comer mais.
+
+c) **Formação da cetoacidose:** A deficiência de insulina somada ao excesso de glucagon libera ácidos graxos do tecido adiposo. No fígado, a beta-oxidação gera acetil-CoA em excesso, desviada para a formação de corpos cetônicos (acetoacetato e beta-hidroxibutirato), que são ácidos fortes. Eles consomem bicarbonato e instalam acidose metabólica com ânion gap elevado — o paciente hiperventila (respiração de Kussmaul) tentando compensar.
+
+Revisar: Diabetes tipo 1 e cetoacidose

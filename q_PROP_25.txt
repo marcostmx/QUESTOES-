@@ -1,0 +1,16 @@
+ (Options: 5)
+TEXT: Mulher de 60 anos, com histórico de diabetes mellitus tipo 2 e hipertensão arterial, procura atendimento devido a aumento de volume na região cervical e sensação de mal-estar geral. Relata que há cerca de uma semana notou aumento progressivo no tamanho de um nódulo na região do pescoço à esquerda. Além disso, apresenta cansaço excessivo e boca seca. No exame físico, a paciente está alerta, mas com sinais de desidratação e hipoperfusão capilar. Apresenta linfonodos palpáveis na região cervical esquerda, endurecidos, aderidos e indolores. Com base no caso, analise as alternativas:
+I. A presença de linfonodos endurecidos, aderidos e indolores é mais sugestiva de um processo inflamatório agudo do que de malignidade.
+II. A desidratação grave geralmente causa aumento do turgor cutâneo, com mucosas secas e ausência do sinal da prega.
+III. A perfusão adequada do paciente é essencial para a manutenção das funções fisiológicas, sendo um indicador importante da função cardiovascular. Na avaliação do paciente, o tempo de enchimento capilar normal pode variar de 2 a 4 segundos.
+IV. A inspeção da pele e mucosas, ao identificar lesões, alterações de coloração e sinais de desidratação, é parte fundamental do exame físico geral. Alterações como cianose ou palidez podem indicar comprometimento circulatório, respiratório ou anemia.
+V. A presença de linfonodomegalia generalizada é comum em infecções virais e pode estar presente em mononucleose infecciosa.
+Assinale a alternativa correta:
+  A) A) Apenas I, III e V são corretas.
+  B) B) Apenas II, III e IV são corretas.
+  C) C) Apenas IV e V são corretas.
+  D) D) Apenas III, IV e V são corretas.
+  E) E) I, II, III, IV e V são falsas.
+GABARITO:
+Alternativa C.
+I é falsa (sugere malignidade, não reacional/agudo). II é falsa (desidratação REDUZ o turgor e deixa a prega PRESENTE). III é falsa (enchimento normal é ATÉ 2 segundos, não 2 a 4). IV e V são corretas.

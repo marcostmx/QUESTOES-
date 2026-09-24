@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Homem, 30 anos, natural e procedente de Casa Nova (BA), agricultor, analfabeto, comparece ao consultório do Dr. Estaciano em Juazeiro, com queixa de que apresenta um "caroço no pescoço". Considerando esta situação, sinalize a(s) opção(ões) pertinentes:
+I. "O tempo de apresentação, a localização precisa, progressão, a existência do achado em outros locais e o questionamento sobre febre, perda ponderal, sudorese noturna e astenia são quesitos indispensáveis para a decisão médica."
+II. "O achado foi percebido há 5 dias e apresentou febre baixa por um dia, além de tosse seca e odinofagia, que ainda persistem. Não ocorreu perda ponderal e nega sudorese noturna. Sinais vitais normais. Observo um linfonodo submandibular direito de cerca de 0,5 cm, móvel, doloroso, de consistência amolecida. Noto vermelhidão em mucosa faríngea. Assim, farei encaminhamento para internamento hospitalar, sendo mandatória a biópsia do linfonodo."
+III. "O linfonodo supraclavicular associado a sintomas constitucionais sinaliza condições pouco mórbidas, não havendo necessidade de investigações pormenorizadas."
+IV. "Não posso abrir mão da palpação de todas as cadeias linfonodais cervicais e descrever a localização, o tamanho, a consistência, a mobilidade e a presença de sinais flogísticos."
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas.
+  B) B) Apenas I e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas anteriores estão corretas.
+GABARITO:
+Alternativa B.
+I e IV corretas. II é falsa pois o quadro é de linfonodomegalia reacional (excesso de conduta biópsia). III é falsa pois linfonodo supraclavicular é sinal de alarme para malignidade (omissão de conduta).

@@ -1,0 +1,20 @@
+[
+  {
+    "type": "DISCURSIVA",
+    "text": "Paciente de 68 anos, hipertenso, procura atendimento por dispneia aos esforços. Exame: PA = 168x58 mmHg, FC = 76 bpm, ritmo regular. Ictus cordis no 6º espaço intercostal esquerdo, na linha axilar anterior, propulsivo. Pulso radial amplo, com ascensão e colapso rápidos. À ausculta, sopro diastólico aspirativo 3+/6+ no 3º EIC esquerdo junto à borda esternal.\na. Calcule a pressão de pulso e classifique-a.\nb. Qual a valvopatia mais provável? Justifique usando três achados distintos do caso.\nc. Explique o mecanismo hemodinâmico que produz simultaneamente a pressão de pulso encontrada e o padrão do pulso radial.\nd. O ictus está normal? Justifique e explique o que seu deslocamento indica em termos de remodelamento ventricular.\ne. Que outro nome recebe o pulso descrito, e a que outro sinal periférico ele costuma se associar?",
+    "interactionType": "textarea",
+    "gabarito": "(a) PP = 110 mmHg. Divergente (alargada).\n(b) Insuficiência aórtica. Justificativas: sopro diastólico aspirativo no foco aórtico acessório (Erb); PP divergente com pulso célere; ictus desviado e propulsivo (sobrecarga de volume).\n(c) O refluxo na diástole eleva o volume do VE, que ejeta grande volume na sístole seguinte (elevando a sistólica e a amplitude do pulso), enquanto o sangue reflui rápido da aorta na diástole (derrubando a diastólica e o pulso).\n(d) Anormal (desviado para baixo e para fora e propulsivo). Indica dilatação (remodelamento excêntrico) por sobrecarga de volume.\n(e) Pulso de Corrigan / \"martelo d'água\". Associa-se ao sinal de Musset, Quincke, Traube."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Explique o mecanismo de origem de B3 e de B4, situando cada uma no ciclo cardíaco.\nb. Associe cada uma ao tipo de sobrecarga ventricular correspondente e cite duas condições clínicas para cada.\nc. Por que ambas são mais bem auscultadas com a campânula?\nd. Explique por que a B4 não pode existir na fibrilação atrial.\ne. O que é o ritmo de galope e qual sua importância clínica?",
+    "interactionType": "textarea",
+    "gabarito": "(a) B3 = protodiástole, enchimento rápido e passivo em ventrículo dilatado. B4 = telediástole, contração atrial contra ventrículo rígido.\n(b) B3 = sobrecarga de VOLUME (ICC, insuficiência mitral). B4 = sobrecarga de PRESSÃO (HAS, estenose aórtica).\n(c) São sons de baixa frequência.\n(d) Na FA não há sístole atrial organizada (contração efetiva), logo não há o som gerado por ela (B4).\n(e) Ritmo a três tempos pela presença de B3/B4 com taquicardia, lembrando cavalo galopando. Indica disfunção ventricular."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Paciente de 55 anos, com pericardite constritiva conhecida, é avaliado à beira do leito. Durante a aferição da pressão arterial, você percebe que a pressão sistólica cai 18 mmHg durante a inspiração profunda.\na. Como se chama esse achado e qual o valor de corte que o define?\nb. Explique o mecanismo fisiopatológico do fenômeno, incluindo o papel da interdependência ventricular.\nc. Por que o nome \"paradoxal\" é, a rigor, impreciso?\nd. Cite três condições, além da pericardite constritiva, em que o achado pode estar presente.\ne. Descreva a técnica de pesquisa do pulso paradoxal com esfigmomanômetro.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Pulso paradoxal. Queda da PAS > 10 mmHg na inspiração.\n(b) O pericárdio rígido fixa o volume total. Na inspiração, o retorno venoso direito aumenta e o VD dilata empurrando o septo para a esquerda (interdependência), reduzindo o enchimento do VE e a pressão sistólica.\n(c) Porque a queda é um fenômeno fisiológico normal; o \"paradoxo\" é apenas a exacerbação quantitativa dessa queda, não um comportamento oposto.\n(d) Tamponamento cardíaco, asma grave, DPOC exacerbada, TEP maciço.\n(e) Insuflar acima da sistólica e desinsuflar lentamente. Anotar quando sons são ouvidos apenas na expiração e, depois, quando são ouvidos em todo o ciclo respiratório. A diferença é a magnitude."
+  }
+]

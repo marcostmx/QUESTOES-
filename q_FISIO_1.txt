@@ -1,0 +1,13 @@
+ (Options: 0)
+TEXT: Homem de 72 anos procura a clínica com piora da dispneia aos esforços há várias semanas. Antes conseguia aparar a grama; agora sente falta de ar depois de andar 30 metros. Precisa de dois travesseiros para dormir e às vezes acorda à noite com falta de ar, que melhora ao sentar-se com as pernas para fora da cama. Notou que os pés incham no fim do dia. Já teve episódios de pressão retroesternal aos grandes esforços e uma quase-síncope ao subir escadas.
+Ao exame: afebril, FC 86 bpm, PA 115/92 mmHg, FR 16 mpm. Veias do pescoço distendidas, estertores crepitantes inspiratórios. Ritmo regular, B4 no foco mitral, sopro telessistólico na borda esternal superior direita com irradiação para as carótidas. Pulso carotídeo de amplitude diminuída.
+
+a) Qual o diagnóstico sindrômico e qual a provável causa de base?
+b) Explique por que a estenose aórtica leva a esse quadro — do defeito valvar até a ortopneia e a dispneia paroxística noturna.
+c) Qual a tríade clássica dessa valvopatia e o mecanismo de cada sintoma?
+GABARITO:
+a) Síndrome de insuficiência cardíaca congestiva, com congestão pulmonar e sistêmica. A causa de base é estenose aórtica — indicada pelo sopro sistólico irradiado para as carótidas e pelo pulso carotídeo de baixa amplitude e ascensão lenta (parvus et tardus).
+
+b) Cadeia: a valva aórtica estenosada cria uma barreira fixa à ejeção → sobrecarga de pressão sobre o VE → hipertrofia concêntrica → parede espessa e pouco complacente → disfunção diastólica (daí a B4: o átrio contrai contra um ventrículo rígido) → aumento das pressões de enchimento → transmissão retrógrada ao átrio esquerdo e ao leito capilar pulmonar → congestão pulmonar (estertores). Em decúbito, o retorno venoso dos membros inferiores aumenta e sobrecarrega ainda mais o pulmão → ortopneia e dispneia paroxística noturna. Com a progressão, a pressão se transmite ao coração direito → turgência jugular e edema de membros inferiores.
+
+c) Angina — a parede hipertrofiada consome mais O₂ e é mal vascularizada, gerando isquemia relativa mesmo sem doença coronariana. Síncope aos esforços — o débito é fixo pela obstrução e não aumenta na demanda, gerando hipoperfusão cerebral. Dispneia — congestão pulmonar por elevação das pressões de enchimento.

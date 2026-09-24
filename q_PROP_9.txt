@@ -1,0 +1,8 @@
+ (Options: 0)
+TEXT: a. Diferencie febre de hipertermia quanto ao mecanismo fisiopatológico, explicando por que antitérmicos são eficazes em uma e não na outra.
+b. Um paciente internado apresenta o seguinte quadro térmico ao longo de quatro dias: manhã 37,6 °C / tarde 39,4 °C; manhã 37,4 °C / tarde 39,0 °C; manhã 37,8 °C / tarde 39,6 °C; manhã 37,5 °C / tarde 39,2 °C. Classifique o tipo evolutivo da febre e justifique, explicando por que não se trata de febre intermitente nem de febre irregular.
+c. Cite três características semiológicas da febre que devem constar da anamnese, além do tipo evolutivo.
+GABARITO:
+(a) Febre tem elevação do ponto de ajuste hipotalâmico (mediado por prostaglandinas, logo antitérmicos funcionam). Hipertermia tem ponto de ajuste normal, mas a produção de calor supera a dissipação (antitérmicos não funcionam).
+(b) Febre remitente. A variação diária é > 1°C, mas a temperatura nunca volta ao normal (37,4°C - 37,8°C de manhã ainda é febrícula/febre).
+(c) Início (súbito/gradual), intensidade, duração, término (crise/lise).

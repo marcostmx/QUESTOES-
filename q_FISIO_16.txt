@@ -1,0 +1,12 @@
+ (Options: 0)
+TEXT: Mulher de 48 anos chega ao pronto-socorro com dispneia de início súbito. Estava em pé na cozinha quando sentiu falta de ar, percebeu o coração disparar e quase desmaiou. Nega dor torácica e febre. Fez colecistectomia há duas semanas, com internação de oito dias por infecção da ferida operatória. Ao exame: FR 28 mpm, saturação 84% em ar ambiente, FC 124 bpm, PA 118/89 mmHg, mucosa levemente cianótica, pressão venosa jugular elevada, pulmões limpos, hiperfonese de B2 no foco pulmonar. Perna direita edemaciada e dolorosa. ECG com taquicardia sinusal e radiografia de tórax normal.
+
+a) Qual o diagnóstico e a origem mais provável do evento?
+b) Explique o mecanismo da hipoxemia grave com radiografia normal.
+c) Explique a hiperfonese de B2 e a turgência jugular.
+d) Cite três fatores de risco presentes ou possíveis, incluindo estados de hipercoagulabilidade primários e secundários.
+GABARITO:
+a) Tromboembolismo pulmonar (TEP), quase certamente originado de trombose venosa profunda do membro inferior direito.
+b) O êmbolo obstrui um ramo da artéria pulmonar e cria uma área ventilada, mas não perfundida — aumento do espaço morto. O parênquima permanece estruturalmente normal, por isso a radiografia é normal; mas o sangue deixa de passar por aquela região e é redistribuído, gerando distúrbio da relação ventilação/perfusão (V/Q) e hipoxemia.
+c) A obstrução aumenta abruptamente a resistência vascular pulmonar → elevação da pressão na artéria pulmonar → o componente pulmonar da segunda bulha fecha com mais força → hiperfonese de B2. A sobrecarga aguda do ventrículo direito dificulta o retorno venoso sistêmico → turgência jugular. Se maciço, configura cor pulmonale agudo.
+d) Presentes: imobilização durante a internação de oito dias, cirurgia recente e estado inflamatório/infeccioso pós-operatório. Outros fatores de hipercoagulabilidade citados no material: primários — fator V de Leiden, mutações da protrombina, síndrome antifosfolipídio; secundários — obesidade, câncer, uso de contraceptivos orais, gravidez.

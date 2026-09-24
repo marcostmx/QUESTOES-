@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre as características semiológicas e os tipos de pulso arterial, analise as assertivas a seguir:
+I. Denomina-se déficit de pulso a situação em que o número de pulsações palpadas no pulso radial é menor que a frequência cardíaca auscultada no precórdio, achado com valor clínico na fibrilação atrial e na extrassistolia.
+II. O pulso parvus et tardus, de pequena amplitude e ascensão lenta, é característico da estenose aórtica.
+III. O pulso paradoxal é definido pela queda da pressão arterial sistólica superior a 10 mmHg durante a expiração, sendo achado clássico do tamponamento cardíaco.
+IV. Frequências entre 50 e 60 bpm podem ser encontradas em pessoas saudáveis, notadamente atletas, sem que isso configure necessariamente doença.
+Está correto o que se afirma em:
+  A) A) Apenas I e III estão corretas.
+  B) B) Apenas I, II e IV estão corretas.
+  C) C) Apenas II e III estão corretas.
+  D) D) Apenas III e IV estão corretas.
+  E) E) Todas as alternativas estão corretas.
+GABARITO:
+Alternativa B.
+I, II e IV são corretas. III é falsa pois o pulso paradoxal é a queda da PA sistólica na INSPIRAÇÃO, não expiração.

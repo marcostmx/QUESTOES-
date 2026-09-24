@@ -1,0 +1,14 @@
+ (Options: 5)
+TEXT: Analise as assertivas a seguir:
+I. Pacientes com estenose aórtica ou hipertensão arterial costumam apresentar ictus cordis difuso à inspeção do aparelho cardiovascular, enquanto pacientes com insuficiência aórtica grave em geral apresentam ictus cordis propulsivo.
+II. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.
+III. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.
+Está correto o que se afirma em:
+  A) A) Apenas I e II estão corretas
+  B) B) Apenas I e III estão corretas
+  C) C) Apenas II e III estão corretas
+  D) D) I, II e III estão corretas
+  E) E) Nenhuma das alternativas anteriores
+GABARITO:
+Alternativa C.
+II e III corretas. I é falsa pois na EAo e HAS (sobrecarga de pressão), o ictus é SUSTENTADO (hipertrofia concêntrica), não difuso. Ictus difuso/propulsivo é da sobrecarga de volume (ex: insuficiência aórtica).

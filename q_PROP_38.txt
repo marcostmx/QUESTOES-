@@ -1,0 +1,15 @@
+ (Options: 5)
+TEXT: Sobre avaliação do aparelho respiratório, analise as assertivas a seguir:
+I. Ao se examinar um paciente com pneumonia, espera-se que o frêmito toracovocal esteja reduzido, bem como durante a percussão espera-se um som maciço ou submaciço.
+II. Durante uma crise de asma, ao realizar a ausculta respiratória pode-se encontrar um som anormal contínuo, conhecido como sibilo.
+III. Ao se auscultar um paciente com pneumotórax espera-se ouvir um som hipertimpânico.
+IV. Durante a percussão de um paciente com derrame pleural em hemitórax direito, espera-se ouvir um som submaciço/maciço ao percutir este hemitórax.
+Assinale a alternativa correta:
+  A) A) Todos os itens estão corretos.
+  B) B) Apenas o item I é falso.
+  C) C) Apenas o item IV é verdadeiro.
+  D) D) Apenas os itens II e IV são verdadeiros.
+  E) E) Os itens II, III e IV são verdadeiros.
+GABARITO:
+Alternativa D.
+II e IV são verdadeiras. I é falsa (pneumonia tem frêmito AUMENTADO). III é falsa (hipertimpanismo é achado da percussão, não da ausculta).

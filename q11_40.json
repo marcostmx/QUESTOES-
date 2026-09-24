@@ -1,0 +1,329 @@
+[
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Analise as assertivas a seguir:\nI. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.\nII. Paciente sexo feminino, 67 anos, com quadro de dispneia e dor torácica em hemitórax esquerdo do tipo pleurítica. Histórico de estar restrita ao leito há 1 mês, logo após cirurgia de correção de fratura de colo de fêmur decorrente de queda da própria altura, além de relato de ter começado a apresentar edema em membro inferior direito há 3 dias. O provável diagnóstico é infarto pulmonar.\nIII. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I e III estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) I, II e III estão corretas.",
+      "E) I, II e III estão incorretas."
+    ],
+    "gabarito": "Alternativa D.\nI — VERDADEIRO. Dor pleurítica aguda, melhorando ao sentar-se, compatível com pleurite/pericardite aguda.\nII — VERDADEIRO. Tríade de Virchow (estase, lesão endotelial, TVP) + dispneia + dor pleurítica = TEP com infarto pulmonar.\nIII — VERDADEIRO. Dor bem localizada e reprodutível à compressão de um ponto é musculoesquelética."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Mulher de 44 anos relata \"cansaço para tudo, mesmo depois de dormir a noite inteira\", com piora progressiva nos últimos seis meses. Refere ainda ganho de 6 kg no período, intolerância ao frio, pele seca e obstipação. Ao exame: fácies com edema periorbitário e expressão apática, pele áspera, bradicárdica (FC 54 bpm). Considerando a queixa e os achados, a interpretação semiológica mais adequada é:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Trata-se de astenia isolada, sintoma inespecífico que não permite qualquer orientação diagnóstica.",
+      "B) Trata-se de fadiga associada a um conjunto sindrômico compatível com hipotireoidismo, sendo esperada a fácies mixedematosa.",
+      "C) Trata-se de dispneia aos esforços, devendo a investigação ser direcionada ao aparelho cardiovascular.",
+      "D) Trata-se de lipotimia recorrente, com indicação de investigação de arritmias.",
+      "E) Trata-se de astenia por anemia, sendo a fácies descrita a fácies de Addison."
+    ],
+    "gabarito": "Alternativa B.\nFadiga (cansaço que não melhora com o sono) + ganho de peso + intolerância ao frio + bradicardia formam um conjunto sindrômico de hipotireoidismo. A fácies com edema periorbitário e apatia é a mixedematosa."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre a dispneia e suas variantes posicionais e funcionais, analise as assertivas a seguir:\nI. A dispneia paroxística noturna caracteriza-se por despertar o paciente com falta de ar cerca de uma a duas horas após deitar-se, obrigando-o a sentar-se ou levantar-se para obter alívio.\nII. Trepopneia é a dispneia que surge em determinado decúbito lateral e alivia no decúbito oposto, podendo ocorrer em derrame pleural unilateral.\nIII. Na classificação funcional da New York Heart Association, o paciente que apresenta sintomas apenas aos grandes esforços, sem limitação nas atividades habituais, é enquadrado na classe III.\nIV. A platipneia é a dispneia que piora em decúbito dorsal e alivia na posição ortostática.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Nenhuma das alternativas anteriores."
+    ],
+    "gabarito": "Alternativa A.\nI e II verdadeiras. III é falsa pois classe III da NYHA é dispneia a pequenos esforços (limitação marcada). IV é falsa pois platipneia piora em pé e alivia deitado (oposto da ortopneia)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Diferencie febre de hipertermia quanto ao mecanismo fisiopatológico, explicando por que antitérmicos são eficazes em uma e não na outra.\nb. Um paciente internado apresenta o seguinte quadro térmico ao longo de quatro dias: manhã 37,6 °C / tarde 39,4 °C; manhã 37,4 °C / tarde 39,0 °C; manhã 37,8 °C / tarde 39,6 °C; manhã 37,5 °C / tarde 39,2 °C. Classifique o tipo evolutivo da febre e justifique, explicando por que não se trata de febre intermitente nem de febre irregular.\nc. Cite três características semiológicas da febre que devem constar da anamnese, além do tipo evolutivo.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Febre tem elevação do ponto de ajuste hipotalâmico (mediado por prostaglandinas, logo antitérmicos funcionam). Hipertermia tem ponto de ajuste normal, mas a produção de calor supera a dissipação (antitérmicos não funcionam).\n(b) Febre remitente. A variação diária é > 1°C, mas a temperatura nunca volta ao normal (37,4°C - 37,8°C de manhã ainda é febrícula/febre).\n(c) Início (súbito/gradual), intensidade, duração, término (crise/lise)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Homem de 58 anos, tabagista (2 maços/dia há 30 anos), refere que há cerca de 2 meses vem apresentando tosse seca persistente. Nas últimas 3 semanas notou rouquidão que não melhora, além de perda de 7 kg sem dieta e sudorese noturna. Nega febre. Ao exame do pescoço, palpa-se linfonodo supraclavicular esquerdo de 2,5 cm, endurecido, aderido e indolor.\na. Calcule a carga tabágica deste paciente em maços-ano e explique o que esse dado acrescenta ao raciocínio.\nb. Identifique no caso todos os sinais de alarme presentes e explique, para cada um, por que constitui alarme.\nc. Qual o nome do linfonodo descrito e qual sua importância semiológica clássica?\nd. Justifique por que a conduta de \"prescrever antibiótico e reavaliar em 10 dias\" seria inadequada neste caso.",
+    "interactionType": "textarea",
+    "gabarito": "(a) 60 maços-ano (2 x 30). Quantifica exposição e eleva risco de neoplasia.\n(b) Rouquidão > 3 semanas; tosse crônica em tabagista; perda de peso e sudorese noturna (sintomas B); linfonodo supraclavicular pétreo e aderido. Todos sugerem neoplasia.\n(c) Linfonodo de Virchow (supraclavicular esquerdo). Drena ducto torácico, alerta para neoplasia torácica/abdominal.\n(d) Atrasa diagnóstico oncológico, sem indícios de infecção bacteriana aguda."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Diferencie vertigem, lipotimia e síncope, deixando claro o comportamento da consciência em cada uma.\nb. Explique por que a expressão \"tontura\" relatada pelo paciente é insuficiente para o raciocínio clínico, e formule duas perguntas que você faria para desambiguá-la.\nc. Um paciente afirma que \"tudo gira ao redor\" quando vira a cabeça na cama, sem qualquer alteração de consciência. Qual das três entidades acima está descrita e qual sistema deve ser investigado?",
+    "interactionType": "textarea",
+    "gabarito": "(a) Vertigem: ilusão de movimento rotatório (consciência preservada). Lipotimia: sensação de desmaio iminente (consciência preservada). Síncope: perda súbita, completa e transitória da consciência e tônus postural.\n(b) \"Tontura\" é inespecífica. Perguntas: \"As coisas giram ou a vista escurece?\" e \"Ocorre em alguma posição específica?\".\n(c) Vertigem (posicional). Sistema vestibular."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Em relação ao exame físico geral, analise as assertivas a seguir:\nI. O padrão respiratório de Cheyne-Stokes é comum em pacientes com lesões cerebrais e hipertensão intracraniana.\nII. O padrão respiratório de Biot é caracterizado por respirações anárquicas e sem padrão.\nIII. Durante um episódio de cetoacidose diabética, pode-se desenvolver um padrão respiratório chamado Kussmaul.\nIV. Espera-se encontrar pulso em martelo d'água em um paciente com insuficiência aórtica.\nAssinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Todos os itens estão corretos.",
+      "B) Apenas o item IV é falso.",
+      "C) Apenas os itens III e IV são falsos.",
+      "D) Apenas os itens I, II e IV são verdadeiros.",
+      "E) Os itens II, III e IV são verdadeiros."
+    ],
+    "gabarito": "Alternativa E.\nOs itens II, III e IV são verdadeiros.\n• I. FALSO: O padrão respiratório de Cheyne-Stokes (crescendo-decrescendo com apneia) está classicamente associado a insuficiência cardíaca grave e lesões bi-hemisféricas/diencefálicas, não especificamente à hipertensão intracraniana isolada (que cursa classicamente com Biot/Cushing).\n• II. VERDADEIRO: O padrão de Biot caracteriza-se por incursões respiratórias atáxicas, caóticas e anárquicas.\n• III. VERDADEIRO: Na cetoacidose diabética surge o padrão de Kussmaul (inspirações rápidas e amplas alternadas com expirações rápidas, sem apneia).\n• IV. VERDADEIRO: O pulso em martelo d'água (pulso célere ou de Corrigan) é achado clássico da insuficiência aórtica."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre a técnica de aferição da pressão arterial pelo método auscultatório, analise as assertivas:\nI. O manguito deve ser posicionado cerca de 2 cm acima da fossa cubital, mantendo-se a artéria braquial ao nível do coração.\nII. O uso de manguito estreito demais para a circunferência do braço tende a superestimar os valores pressóricos.\nIII. O receptor do estetoscópio deve ser colocado sob a borda do manguito, o que melhora a captação dos sons de Korotkoff.\nIV. A desinsuflação deve ser feita de forma contínua, à razão aproximada de 2 a 3 mmHg por segundo.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV são verdadeiras. III é falsa porque o estetoscópio NÃO deve ser colocado sob a borda do manguito, pois isso gera ruídos artefatuais."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Os sinais vitais expressam o funcionamento e as alterações dos órgãos e/ou sistemas mais relacionados com a manutenção da vida. A respeito desse assunto, analise as assertivas a seguir:\nI. Paciente com temperatura axilar de 33,6 °C, frequência respiratória de 7 incursões respiratórias por minuto, FC = 125 bpm e PA = 78x46 mmHg pode ser designado como hipotérmico, bradipneico, taquicárdico e hipotenso.\nII. A respiração de Kussmaul se caracteriza pela ocorrência de períodos de apneia que interrompem a sequência de incursões respiratórias. Há também nítidas variações na amplitude dos movimentos torácicos, observando-se uma verdadeira arritmia respiratória. Indica lesão no centro respiratório e mau prognóstico.\nIII. A amplitude do pulso arterial é uma característica semiológica de grande relevância na prática médica. Classicamente, são encontrados pulsos reduzidos na Insuficiência Aórtica e pulsos amplos na Estenose Aórtica.\nIV. Platipneia é a dificuldade de respirar em posição ereta, que alivia na posição deitada. Pode ocorrer, por exemplo, após pneumectomia.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e IV estão corretas.",
+      "B) Apenas II e III estão corretas.",
+      "C) Apenas I, III e IV estão corretas.",
+      "D) Apenas II, III e IV estão corretas.",
+      "E) Nenhuma alternativa está correta."
+    ],
+    "gabarito": "Alternativa A.\nI é verdadeira. IV é verdadeira (platipneia). II é falsa (descreve Biot, não Kussmaul). III é falsa (insuficiência aórtica dá pulso amplo/célere; estenose aórtica dá pulso reduzido/parvus)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Três pacientes são avaliados na enfermaria. O paciente A apresenta PA = 172x58 mmHg; o paciente B, PA = 96x84 mmHg; o paciente C, PA = 124x78 mmHg. Considerando exclusivamente o comportamento da pressão de pulso (pressão diferencial), assinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) O paciente A tem pressão de pulso de 114 mmHg, caracterizando pressão convergente, sugestiva de estenose aórtica.",
+      "B) O paciente A tem pressão de pulso de 114 mmHg, caracterizando pressão divergente, compatível com rigidez aórtica ou insuficiência aórtica.",
+      "C) O paciente B tem pressão de pulso de 12 mmHg, caracterizando pressão divergente, sugestiva de hipovolemia.",
+      "D) O paciente B apresenta pressão de pulso normal, pois a diastólica está dentro da faixa de referência.",
+      "E) A pressão de pulso do paciente C é de 202 mmHg, valor considerado normal para adultos."
+    ],
+    "gabarito": "Alternativa B.\nA pressão de pulso do paciente A é 172-58 = 114 mmHg (divergente/alargada), comum em rigidez aórtica (idoso) ou insuficiência aórtica. Do paciente B é 96-84=12 mmHg (convergente, típica de choque/hipovolemia)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "A respeito dos sinais vitais, analise as assertivas a seguir:\nI. Paciente portador de insuficiência cardíaca que apresenta, de modo cíclico, incursões respiratórias que vão se tornando cada vez mais profundas até atingirem uma amplitude máxima, seguida de redução dos movimentos respiratórios, até a apneia, que dura alguns segundos, quando então o ciclo é reiniciado. O caso clínico descreve um paciente com respiração de Cheyne-Stokes.\nII. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.\nIII. A frequência, a amplitude e o ritmo são importantes características semiológicas do pulso arterial. O ritmo pode ser classificado em regular (pulsações com intervalos iguais) e irregular (intervalos de diferentes durações).\nIV. A presença de hiato auscultatório pode subestimar a pressão arterial sistólica de pacientes idosos. A realização do método palpatório antes do método auscultatório evita esse erro.\nV. A fase I de Korotkoff equivale à pressão arterial sistólica, enquanto a fase V (desaparecimento dos sons) equivale à diastólica. Quando os ruídos persistem até o total esvaziamento da câmara, deve-se considerar a diastólica na fase IV e registrar três valores, p. ex. 140x50x0 mmHg.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I, III e V estão corretas.",
+      "B) Apenas I, III, IV e V estão corretas.",
+      "C) Apenas II, IV e V estão corretas.",
+      "D) Apenas I e II estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, III, IV e V são verdadeiras. II é falsa pois a rigidez aórtica (perda de elasticidade) AUMENTA a PA sistólica e reduz a diastólica (alargando a pressão de pulso)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre as características semiológicas e os tipos de pulso arterial, analise as assertivas a seguir:\nI. Denomina-se déficit de pulso a situação em que o número de pulsações palpadas no pulso radial é menor que a frequência cardíaca auscultada no precórdio, achado com valor clínico na fibrilação atrial e na extrassistolia.\nII. O pulso parvus et tardus, de pequena amplitude e ascensão lenta, é característico da estenose aórtica.\nIII. O pulso paradoxal é definido pela queda da pressão arterial sistólica superior a 10 mmHg durante a expiração, sendo achado clássico do tamponamento cardíaco.\nIV. Frequências entre 50 e 60 bpm podem ser encontradas em pessoas saudáveis, notadamente atletas, sem que isso configure necessariamente doença.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV são corretas. III é falsa pois o pulso paradoxal é a queda da PA sistólica na INSPIRAÇÃO, não expiração."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Na análise de um paciente com politrauma que deu entrada na emergência foram observados os seguintes parâmetros de nível de consciência: abertura ocular com estímulo verbal, resposta verbal confusa, a resposta motora localiza a dor. De acordo com a análise o paciente se encontra na escala de coma de Glasgow de nível:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) 8",
+      "B) 10",
+      "C) 14",
+      "D) 12",
+      "E) 13"
+    ],
+    "gabarito": "Alternativa D.\nAbertura ocular ao estímulo verbal = 3. Verbal confusa = 4. Motora localiza a dor = 5. Total = 12."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Homem de 32 anos é admitido após acidente motociclístico. Ao exame: abre os olhos apenas ao estímulo doloroso; emite sons incompreensíveis, sem formar palavras; ao estímulo doloroso apresenta flexão anormal dos membros superiores, com adução dos braços sobre o tórax. À avaliação pupilar, a pupila direita não reage à luz; a esquerda reage normalmente. Com base no caso, analise as assertivas:\nI. A pontuação da abertura ocular é 2 e a da resposta verbal é 2.\nII. A resposta motora descrita corresponde à decorticação e pontua 3.\nIII. A soma dos três domínios é 7, e o escore de Glasgow com correção pupilar (GCS-P) é 6.\nIV. A postura descrita indica lesão localizada no tronco encefálico e tem pior prognóstico que a descerebração.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e IV estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e III corretas. IV é falsa pois a decorticação indica lesão acima do tronco e tem MELHOR prognóstico que a descerebração."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Analise as assertivas a seguir:\nI. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.\nII. Homem, 39 anos, procura emergência do hospital com sintomatologia de dificuldade de respirar em posição ortostática, que alivia na posição deitada. Trata-se de um quadro de trepopneia.\nIII. Mulher, 52 anos, internada na enfermaria de Cirurgia Geral no 2º dia após realização de colecistectomia. Evolui com quadro de taquipneia 1+/4+ e redução do frêmito toracovocal na base de pulmão direito. Essa alteração do exame físico é compatível com o diagnóstico de atelectasia.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e II estão corretas.",
+      "B) Apenas I e III estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) I, II e III estão incorretas.",
+      "E) Nenhuma das alternativas anteriores está correta."
+    ],
+    "gabarito": "Alternativa E.\nNENHUMA é verdadeira e não há alternativa \"apenas III\". I é falsa (rigidez aumenta sistólica). II é falsa (é platipneia, não trepopneia). III é verdadeira (atelectasia reduz frêmito, comum no pós-operatório)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Uma acadêmica afere a pressão arterial de uma paciente obesa recém-chegada ao ambulatório. Ela utiliza o manguito padrão disponível na sala (visivelmente estreito para o braço da paciente), posiciona-o sobre a manga da blusa, insufla diretamente até 200 mmHg sem realizar o método palpatório e desinsufla rapidamente. Obtém PA = 158x96 mmHg e registra no prontuário \"hipertensão arterial\".\na. Aponte quatro erros técnicos cometidos e explique, para cada um, o efeito esperado sobre o valor medido.\nb. Além dos erros técnicos, cite dois motivos pelos quais o diagnóstico de hipertensão arterial não pode ser firmado nessa consulta.\nc. Descreva a sequência correta da técnica de aferição, do preparo do paciente à leitura final.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Manguito estreito (superestima). Sobre a roupa (leitura imprecisa, abafa sons). Sem palpatório (pode subestimar sistólica pelo hiato auscultatório). Desinsuflação rápida (subestima sistólica e superestima diastólica).\n(b) Sem repouso prévio de 3-5 min (PA fisiologicamente elevada). Diagnóstico exige múltiplas aferições em dias diferentes.\n(c) Repouso 5 min, braço apoiado na altura do coração. Manguito adequado 2cm acima da fossa. Estimar sistólica pelo palpatório. Posicionar estetoscópio. Insuflar 30 mmHg acima da estimada. Desinsuflar 2-3 mmHg/s. Fase I de Korotkoff (sistólica) e Fase V (diastólica)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Defina pressão de pulso e explique como calculá-la.\nb. Um idoso de 79 anos apresenta PA = 176x62 mmHg. Calcule a pressão de pulso, classifique-a e explique o mecanismo fisiológico que produz esse padrão nessa faixa etária.\nc. Um paciente politraumatizado apresenta PA = 88x74 mmHg. Calcule a pressão de pulso, classifique-a e explique por que esse achado é mais preocupante do que a simples leitura \"pressão baixa\".\nd. Cite uma valvopatia que cursa com pressão de pulso divergente e outra que cursa com pressão convergente, justificando ambas pelo mecanismo hemodinâmico.",
+    "interactionType": "textarea",
+    "gabarito": "(a) PP = PAS - PAD. Reflete volume sistólico e complacência aórtica. Normal: 30 a 50 mmHg.\n(b) PP = 114 mmHg (divergente/alargada). Mecanismo: rigidez aórtica do idoso. Aorta perde complacência, elevando a sistólica e não sustentando a diastólica.\n(c) PP = 14 mmHg (convergente/estreitada). Indica baixo débito cardíaco (choque hipovolêmico) com vasoconstrição periférica intensa tentando manter a diastólica.\n(d) Divergente: Insuficiência aórtica (refluxo esvazia a aorta, caindo diastólica, e eleva volume do próximo batimento, subindo sistólica). Convergente: Estenose aórtica (obstrução fixa reduz volume sistólico e sistólica)."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Paciente vítima de traumatismo cranioencefálico apresenta: abertura ocular ausente mesmo ao estímulo doloroso; resposta verbal com palavras inapropriadas e desconexas; ao estímulo doloroso, apresenta extensão e pronação dos membros superiores com extensão dos membros inferiores. Ambas as pupilas estão arreativas à luz.\na. Pontue cada domínio da Escala de Coma de Glasgow e calcule o total.\nb. Aplique a correção pupilar (GCS-P) e informe o escore final.\nc. Nomeie a postura descrita, indique o nível anatômico da lesão que ela sugere e compare-a com a postura de decorticação quanto ao prognóstico.\nd. Explique por que a escala de Glasgow, isoladamente, pode ser insuficiente em pacientes intubados ou sedados, e o que se faz nesses casos.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Ocular 1, Verbal 3, Motora 2 (extensão anormal). Total = 6.\n(b) Ambas arreativas: perde 2 pontos. GCS-P = 4.\n(c) Descerebração. Lesão no tronco encefálico (mesencéfalo/ponte). Prognóstico pior que decorticação (que indica lesão acima do tronco).\n(d) Intubação impede resposta verbal (anota-se T ou NT). Sedação deprime todos os domínios farmacologicamente, não refletindo a lesão real. Deve-se avaliar com pausa da sedação (despertar diário)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre as fácies e seu valor semiológico, analise as assertivas a seguir:\nI. A fácies mixedematosa caracteriza-se por edema periorbitário, pele seca e espessada, madarose e expressão apática, sendo típica do hipotireoidismo.\nII. A fácies basedowiana apresenta exoftalmia, olhar brilhante e expressão de espanto, associando-se ao hipertireoidismo.\nIII. A fácies cushingoide caracteriza-se por emagrecimento acentuado da face, olhos encovados e pele seca, decorrente da insuficiência adrenal.\nIV. A fácies leonina, com espessamento cutâneo, madarose e acentuação dos sulcos faciais, é característica da hanseníase virchowiana.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois a fácies cushingoide (\"lua cheia\") ocorre no hipercortisolismo (excesso, não insuficiência) com ganho de peso e pletora."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Considerando os aspectos observados no exame físico geral, analise as assertivas a seguir:\nI. Na DISFONIA, a musculatura e o órgão fonador estão normais. O que ocorre é um distúrbio cortical na elaboração da fala.\nII. A MARCHA PARKINSONIANA apresenta como características o andar em \"passos curtos\", redução do balanço dos braços, viradas em bloco, decorrentes da rigidez e bradicinesia típicos do quadro.\nIII. TÔNUS é a massa do próprio músculo. TROFISMO é o estado de semicontração própria do músculo normal.\nIV. CIRCULAÇÃO COLATERAL indica dificuldade ou impedimento do fluxo venoso através dos troncos venosos principais. A rede visível está na topografia normal e é simétrica.\nV. A AVALIAÇÃO DO ESTADO GERAL é uma etapa objetiva do exame, existindo critérios bem definidos para classificar o paciente em estado geral bom, regular ou ruim.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas II e V estão corretas.",
+      "C) Apenas II, IV e V estão corretas.",
+      "D) Apenas I, II e V estão corretas.",
+      "E) Nenhuma das alternativas anteriores."
+    ],
+    "gabarito": "Alternativa B.\nII e V corretas. I falsa (isso é disfasia; disfonia é do órgão periférico). III falsa (conceitos invertidos). IV falsa (a circulação colateral é de topografia ATÍPICA e assimétrica)."
+  },
+  {
+    "type": "VERDADEIRO OU FALSO",
+    "text": "Sobre o edema e sua caracterização semiológica, assinale V (verdadeiro) ou F (falso) e marque a alternativa com a sequência correta:\nI. O sinal do cacifo (Godet) é pesquisado comprimindo-se a região edemaciada contra uma superfície óssea por pelo menos 5 segundos, sendo positivo quando a depressão não se desfaz de imediato.\nII. O linfedema caracteriza-se por edema duro, inelástico, com pele espessada e cacifo tipicamente negativo.\nIII. O edema de origem cardíaca é classicamente mole, depressível, frio e doloroso à palpação.\nIV. Na caracterização completa de um edema devem constar localização, intensidade, consistência, elasticidade, temperatura e sensibilidade.\nV. Circulação colateral do tipo \"cabeça de medusa\", periumbilical e com disposição radial, associa-se à hipertensão portal.",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) V – V – F – V – V",
+      "B) V – F – V – V – F",
+      "C) F – V – V – F – V",
+      "D) V – V – V – F – V",
+      "E) F – F – V – V – V"
+    ],
+    "gabarito": "Alternativa A.\nIII é a única falsa. O edema cardíaco é INDOLOR. Edema doloroso é típico de processo inflamatório ou TVP."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Mulher de 60 anos, com histórico de diabetes mellitus tipo 2 e hipertensão arterial, procura atendimento devido a aumento de volume na região cervical e sensação de mal-estar geral. Relata que há cerca de uma semana notou aumento progressivo no tamanho de um nódulo na região do pescoço à esquerda. Além disso, apresenta cansaço excessivo e boca seca. No exame físico, a paciente está alerta, mas com sinais de desidratação e hipoperfusão capilar. Apresenta linfonodos palpáveis na região cervical esquerda, endurecidos, aderidos e indolores. Com base no caso, analise as alternativas:\nI. A presença de linfonodos endurecidos, aderidos e indolores é mais sugestiva de um processo inflamatório agudo do que de malignidade.\nII. A desidratação grave geralmente causa aumento do turgor cutâneo, com mucosas secas e ausência do sinal da prega.\nIII. A perfusão adequada do paciente é essencial para a manutenção das funções fisiológicas, sendo um indicador importante da função cardiovascular. Na avaliação do paciente, o tempo de enchimento capilar normal pode variar de 2 a 4 segundos.\nIV. A inspeção da pele e mucosas, ao identificar lesões, alterações de coloração e sinais de desidratação, é parte fundamental do exame físico geral. Alterações como cianose ou palidez podem indicar comprometimento circulatório, respiratório ou anemia.\nV. A presença de linfonodomegalia generalizada é comum em infecções virais e pode estar presente em mononucleose infecciosa.\nAssinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I, III e V são corretas.",
+      "B) Apenas II, III e IV são corretas.",
+      "C) Apenas IV e V são corretas.",
+      "D) Apenas III, IV e V são corretas.",
+      "E) I, II, III, IV e V são falsas."
+    ],
+    "gabarito": "Alternativa C.\nI é falsa (sugere malignidade, não reacional/agudo). II é falsa (desidratação REDUZ o turgor e deixa a prega PRESENTE). III é falsa (enchimento normal é ATÉ 2 segundos, não 2 a 4). IV e V são corretas."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre os tipos de marcha e seu significado localizatório, analise as assertivas a seguir:\nI. Na marcha ceifante (helicópode), o membro inferior espástico descreve um semicírculo a cada passo, sendo típica da hemiplegia sequelar de acidente vascular cerebral.\nII. A marcha escarvante caracteriza-se pela elevação exagerada do joelho para evitar que a ponta do pé arraste no solo, sendo observada na lesão do nervo fibular comum.\nIII. A marcha atáxica cerebelar piora de forma marcante quando o paciente fecha os olhos, o que a diferencia da marcha talonante.\nIV. A marcha anserina, com acentuação da lordose lombar e báscula do tronco, associa-se a miopatias com fraqueza da cintura pélvica.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas I, II e IV estão corretas.",
+      "C) Apenas II e III estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e IV corretas. III é falsa pois a atáxica cerebelar NÃO piora com olhos fechados. Quem piora dramaticamente (Romberg) é a atáxica sensitiva (talonante)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre hidratação, fácies e atitude, analise as assertivas a seguir:\nI. Em recém-nascidos com desidratação grave as fontanelas não sofrem alterações, assim tal avaliação é dispensável.\nII. Sede, perda ponderal, mucosas secas, olhos afundados, excitação psíquica são achados clínicos que podem ser observados em pacientes desidratados.\nIII. Descrevemos fácies como atípica ou indiferente quando não expressa patologias, emoções ou estado metabólico alterado.\nIV. Descrevemos a atitude como forçada quando o paciente encontra-se em uma situação em que não pode se colocar em nenhuma posição segundo sua vontade, ficando na posição em que for colocado: paciente inconsciente, comatoso, quadriplégico.\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e III estão corretas.",
+      "B) Apenas II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas I, II e IV estão corretas.",
+      "E) Todas as anteriores são falsas."
+    ],
+    "gabarito": "Alternativa B.\nII e III corretas. I é falsa (fontanela deprime e avaliação é essencial). IV é falsa (a descrição dada é de atitude PASSIVA, não forçada)."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Paciente de 45 anos, sexo masculino, pesa 118 kg e mede 1,72 m. Considerando os parâmetros antropométricos do exame físico geral, assinale a alternativa correta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) O IMC é de aproximadamente 39,9 kg/m², caracterizando obesidade grau II.",
+      "B) O IMC é de aproximadamente 39,9 kg/m², caracterizando sobrepeso.",
+      "C) O IMC é de aproximadamente 68,6 kg/m², caracterizando obesidade grau III.",
+      "D) O IMC é de aproximadamente 39,9 kg/m², caracterizando eutrofia, pois a faixa normal vai até 40 kg/m².",
+      "E) Não é possível calcular o IMC sem a medida da circunferência abdominal."
+    ],
+    "gabarito": "Alternativa A.\nIMC = peso / (altura * altura) = 118 / (1.72 * 1.72) = 118 / 2.9584 = 39.88.\nIMC entre 35,0 e 39,9 é Obesidade Grau II."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Explique o que é uma fácies em semiologia e por que sua avaliação integra o exame físico geral.\nb. Descreva os achados que caracterizam quatro fácies patológicas, indicando a condição associada a cada uma.\nc. O que significa descrever a fácies de um paciente como atípica? Isso equivale a dizer que o exame da face foi omitido? Justifique.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Conjunto de dados da expressão e configuração anatômica da face. Integra o exame porque padrões reconhecíveis permitem hipóteses antes mesmo de tocar (ex: hipertireoidismo, Parkinson).\n(b) Mixedematosa (edema periorbital, apatia) = hipotireoidismo. Basedowiana (exoftalmia, espanto) = hipertireoidismo. Cushingoide (lua cheia, pletórica) = hipercortisolismo. Parkinsoniana (máscara inexpressiva, piscar raro) = Parkinson.\n(c) Fácies atípica é o achado normal (não expressa patologia ou emoção marcante). É o oposto de omissão: é o registro ativo de que a face foi examinada e estava normal."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "Paciente de 66 anos apresenta edema em ambos os membros inferiores, que piora ao final do dia. Ao exame, o edema é mole, depressível, com sinal do cacifo ++/4+, frio e indolor, acompanhado de turgência jugular a 45° e hepatomegalia dolorosa.\na. Liste os seis parâmetros que devem ser descritos na caracterização semiológica de um edema.\nb. Com base nas características descritas, qual a origem mais provável do edema? Justifique com pelo menos dois achados do caso.\nc. Se o edema fosse duro, inelástico, com pele espessada e cacifo negativo, qual seria a hipótese alternativa? Explique o mecanismo.\nd. Explique por que a associação de turgência jugular e hepatomegalia dolorosa reforça a hipótese do item (b).",
+    "interactionType": "textarea",
+    "gabarito": "(a) Localização/distribuição, intensidade (cacifo), consistência (mole/duro), elasticidade, temperatura, sensibilidade (dor).\n(b) Origem cardíaca (congestiva sistêmica). Justificativas: simétrico em MMII com piora vespertina, mole, frio, indolor com cacifo.\n(c) Linfedema. Obstrução linfática acumula líquido rico em proteínas, gerando fibrose intersticial que deixa a pele dura e sem cacifo.\n(d) Ambos indicam elevação da pressão venosa central, típica da insuficiência ventricular direita. A distensão rápida da cápsula hepática gera a dor."
+  },
+  {
+    "type": "DISCURSIVA",
+    "text": "a. Diferencie atitude ativa, passiva e forçada, deixando explícito o critério que as separa.\nb. Cite três atitudes forçadas, descrevendo a posição e a condição clínica associada a cada uma.\nc. Diferencie tônus de trofismo e explique como cada um é avaliado ao exame físico.\nd. Um paciente hepatopata apresenta movimentos rápidos e súbitos de flexoextensão das mãos quando mantém os braços estendidos com os punhos em dorsiflexão. Nomeie o achado e explique seu significado.",
+    "interactionType": "textarea",
+    "gabarito": "(a) Critério é a vontade. Ativa: muda livremente de posição. Passiva: vontade abolida, fica onde foi colocado (coma). Forçada: paciente adota ativamente posição específica para aliviar sintomas.\n(b) Ortopneica (sentado p/ aliviar falta de ar - ICC). Prece maometana (genupeitoral - derrame pericárdico). Antálgica em decúbito lateral (sobre o lado doente - pleurite).\n(c) Trofismo: massa muscular (inspeção e palpação). Tônus: estado de semicontração basal (resistência à mobilização passiva).\n(d) Asterix (flapping tremor). Significa encefalopatia metabólica (hepática, no caso) com interrupção momentânea do tônus postural."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Sobre o exame oftalmológico realizado na propedêutica geral, analise as assertivas a seguir:\nI. A tabela de Snellen avalia a acuidade visual, enquanto o campo visual é avaliado pela campimetria, habitualmente por confrontação à beira do leito.\nII. O reflexo fotomotor direto consiste na contração da pupila do olho estimulado pela luz; o consensual, na contração simultânea da pupila contralateral.\nIII. A anisocoria é a desigualdade de diâmetro entre as pupilas, e pode ser fisiológica em pequena magnitude.\nIV. A presença de ptose palpebral associada a midríase e desvio do olho para baixo e para fora sugere lesão do nervo abducente (VI par).\nEstá correto o que se afirma em:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) Apenas I e IV estão corretas.",
+      "B) Apenas I, II e III estão corretas.",
+      "C) Apenas II e IV estão corretas.",
+      "D) Apenas III e IV estão corretas.",
+      "E) Todas as alternativas estão corretas."
+    ],
+    "gabarito": "Alternativa B.\nI, II e III corretas. IV é falsa pois os achados descritos (ptose, midríase, olho desviado) são da paralisia do III PAR (oculomotor). O VI par (abducente) causaria apenas estrabismo convergente, sem ptose ou midríase."
+  },
+  {
+    "type": "MÚLTIPLA ESCOLHA",
+    "text": "Marque a alternativa incorreta:",
+    "interactionType": "multiple-choice",
+    "options": [
+      "A) A avaliação da cabeça envolve observar o tamanho/forma, distribuição e implantação dos cabelos, além da palpação da musculatura craniana.",
+      "B) A avaliação das orelhas envolve inspeção, movimentação do pavilhão auricular, palpação do trago e mastoide e a otoscopia. Os testes de Rinne e Weber podem auxiliar em queixas auditivas.",
+      "C) O exame dos olhos conta com a observação da campimetria visual, na qual utilizamos a tabela de Snellen para descrevê-la.",
+      "D) No indivíduo normal, a condução aérea é mais duradoura que a condução óssea no Teste de Rinne.",
+      "E) A presença de bócio é um achado comum em patologias da tireoide. A presença de sopro carotídeo pode indicar estenose carotídea, uma importante causa de AVC isquêmico."
+    ],
+    "gabarito": "Alternativa C (INCORRETA).\nC — INCORRETA: Snellen avalia ACUIDADE visual. A campimetria visual (campo) é avaliada por confrontação ou perimetria em aparelho.\nTodas as demais estão corretas."
+  }
+]

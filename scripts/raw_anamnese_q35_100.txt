@@ -1,0 +1,527 @@
+Q035 INÉDITA
+Sobre anamnese, assinale a alternativa correta.
+a) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+b) Privacidade é dispensável quando o exame é apenas físico.
+c) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+d) História familiar não interfere no raciocínio clínico.
+e) A higiene das mãos só é necessária após procedimentos invasivos.
+
+Q036 INÉDITA
+Sobre relação médico-paciente, assinale a alternativa correta.
+a) O paciente não deve receber explicações para não antecipar o exame.
+b) Uma postura distante melhora a precisão da entrevista.
+c) Tabagismo e etilismo não devem ser abordados na anamnese.
+d) A expressão facial não oferece informação clínica.
+e) A relação médico-paciente deve ser acolhedora e respeitosa.
+
+Q037 INÉDITA
+Sobre identificação, assinale a alternativa correta.
+a) A identificação só é feita após o exame físico completo.
+b) Condições de vida são dados sem repercussão para a assistência.
+c) O acolhimento substitui a investigação sistemática.
+d) A identificação integra a abertura da anamnese.
+e) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+
+Q038 INÉDITA
+Sobre queixa principal, assinale a alternativa correta.
+a) Privacidade é dispensável quando o exame é apenas físico.
+b) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+c) A queixa principal registra o motivo que levou o paciente à consulta.
+d) O examinador deve sempre permanecer atrás do paciente.
+e) A queixa principal substitui toda a história da doença atual.
+
+Q039 INÉDITA
+Sobre história da doença atual, assinale a alternativa correta.
+a) Uma postura distante melhora a precisão da entrevista.
+b) A HDA organiza cronologicamente o problema atual.
+c) A higiene das mãos só é necessária após procedimentos invasivos.
+d) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+e) O paciente não deve receber explicações para não antecipar o exame.
+
+Q040 INÉDITA
+Sobre interrogatório sintomatológico, assinale a alternativa correta.
+a) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+b) A expressão facial não oferece informação clínica.
+c) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+d) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+e) A identificação só é feita após o exame físico completo.
+
+Q041 INÉDITA
+Sobre antecedentes pessoais, assinale a alternativa correta.
+a) O acolhimento substitui a investigação sistemática.
+b) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+c) O examinador deve sempre permanecer atrás do paciente.
+d) A queixa principal substitui toda a história da doença atual.
+e) Os antecedentes pessoais fazem parte da anamnese.
+
+Q042 INÉDITA
+Sobre antecedentes familiares, assinale a alternativa correta.
+a) História familiar não interfere no raciocínio clínico.
+b) A higiene das mãos só é necessária após procedimentos invasivos.
+c) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+d) Os antecedentes familiares integram a anamnese.
+e) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+
+Q043 INÉDITA
+Sobre hábitos de vida, assinale a alternativa correta.
+a) A expressão facial não oferece informação clínica.
+b) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+c) Hábitos de vida fazem parte do roteiro da anamnese.
+d) Uma postura distante melhora a precisão da entrevista.
+e) Tabagismo e etilismo não devem ser abordados na anamnese.
+
+Q044 INÉDITA
+Sobre condições socioeconômicas, assinale a alternativa correta.
+a) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+b) Condições socioeconômicas e culturais integram a anamnese.
+c) A identificação só é feita após o exame físico completo.
+d) Condições de vida são dados sem repercussão para a assistência.
+e) O acolhimento substitui a investigação sistemática.
+
+Q045 INÉDITA
+Sobre ambiente de exame, assinale a alternativa correta.
+a) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+b) A queixa principal substitui toda a história da doença atual.
+c) Privacidade é dispensável quando o exame é apenas físico.
+d) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+e) História familiar não interfere no raciocínio clínico.
+
+Q046 INÉDITA
+Sobre explicação do exame, assinale a alternativa correta.
+a) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+b) O paciente não deve receber explicações para não antecipar o exame.
+c) Uma postura distante melhora a precisão da entrevista.
+d) Tabagismo e etilismo não devem ser abordados na anamnese.
+e) O examinador deve explicar cada etapa do exame ao paciente.
+
+Q047 INÉDITA
+Sobre linguagem, assinale a alternativa correta.
+a) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+b) A identificação só é feita após o exame físico completo.
+c) Condições de vida são dados sem repercussão para a assistência.
+d) A comunicação deve usar linguagem acessível ao paciente.
+e) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+
+Q048 INÉDITA
+Sobre posição do examinador, assinale a alternativa correta.
+a) A queixa principal substitui toda a história da doença atual.
+b) Privacidade é dispensável quando o exame é apenas físico.
+c) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+d) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+e) O examinador deve sempre permanecer atrás do paciente.
+
+Q049 INÉDITA
+Sobre higienização das mãos, assinale a alternativa correta.
+a) O paciente não deve receber explicações para não antecipar o exame.
+b) A lavagem das mãos integra os princípios gerais do exame.
+c) História familiar não interfere no raciocínio clínico.
+d) A higiene das mãos só é necessária após procedimentos invasivos.
+e) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+
+Q050 INÉDITA
+Sobre expressão facial, assinale a alternativa correta.
+a) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+b) Tabagismo e etilismo não devem ser abordados na anamnese.
+c) A expressão facial não oferece informação clínica.
+d) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+e) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+
+Q051 INÉDITA
+Sobre acolhimento, assinale a alternativa correta.
+a) Condições de vida são dados sem repercussão para a assistência.
+b) O acolhimento substitui a investigação sistemática.
+c) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+d) O examinador deve sempre permanecer atrás do paciente.
+e) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+
+Q052 INÉDITA
+Sobre anamnese, marque a alternativa INCORRETA.
+a) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+b) Os antecedentes familiares integram a anamnese.
+c) A lavagem das mãos integra os princípios gerais do exame.
+d) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+e) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+
+Q053 INÉDITA
+Sobre relação médico-paciente, marque a alternativa INCORRETA.
+a) Hábitos de vida fazem parte do roteiro da anamnese.
+b) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+c) Uma postura distante melhora a precisão da entrevista.
+d) O examinador deve explicar cada etapa do exame ao paciente.
+e) A relação médico-paciente deve ser acolhedora e respeitosa.
+
+Q054 INÉDITA
+Sobre identificação, marque a alternativa INCORRETA.
+a) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+b) A identificação só é feita após o exame físico completo.
+c) A comunicação deve usar linguagem acessível ao paciente.
+d) A identificação integra a abertura da anamnese.
+e) Condições socioeconômicas e culturais integram a anamnese.
+
+Q055 INÉDITA
+Sobre queixa principal, marque a alternativa INCORRETA.
+a) A queixa principal substitui toda a história da doença atual.
+b) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+c) A queixa principal registra o motivo que levou o paciente à consulta.
+d) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+e) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+
+Q056 INÉDITA
+Sobre história da doença atual, marque a alternativa INCORRETA.
+a) A lavagem das mãos integra os princípios gerais do exame.
+b) A HDA organiza cronologicamente o problema atual.
+c) O examinador deve explicar cada etapa do exame ao paciente.
+d) A relação médico-paciente deve ser acolhedora e respeitosa.
+e) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+
+Q057 INÉDITA
+Sobre interrogatório sintomatológico, marque a alternativa INCORRETA.
+a) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+b) A comunicação deve usar linguagem acessível ao paciente.
+c) A identificação integra a abertura da anamnese.
+d) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+e) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+
+Q058 INÉDITA
+Sobre antecedentes pessoais, marque a alternativa INCORRETA.
+a) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+b) A queixa principal registra o motivo que levou o paciente à consulta.
+c) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+d) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+e) Os antecedentes pessoais fazem parte da anamnese.
+
+Q059 INÉDITA
+Sobre antecedentes familiares, marque a alternativa INCORRETA.
+a) A HDA organiza cronologicamente o problema atual.
+b) História familiar não interfere no raciocínio clínico.
+c) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+d) Os antecedentes familiares integram a anamnese.
+e) A lavagem das mãos integra os princípios gerais do exame.
+
+Q060 INÉDITA
+Sobre hábitos de vida, marque a alternativa INCORRETA.
+a) Tabagismo e etilismo não devem ser abordados na anamnese.
+b) A relação médico-paciente deve ser acolhedora e respeitosa.
+c) Hábitos de vida fazem parte do roteiro da anamnese.
+d) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+e) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+
+Q061 INÉDITA
+Sobre condições socioeconômicas, marque a alternativa INCORRETA.
+a) A identificação integra a abertura da anamnese.
+b) Condições socioeconômicas e culturais integram a anamnese.
+c) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+d) Os antecedentes pessoais fazem parte da anamnese.
+e) Condições de vida são dados sem repercussão para a assistência.
+
+Q062 INÉDITA
+Sobre ambiente de exame, marque a alternativa INCORRETA.
+a) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+b) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+c) Os antecedentes familiares integram a anamnese.
+d) Privacidade é dispensável quando o exame é apenas físico.
+e) A queixa principal registra o motivo que levou o paciente à consulta.
+
+Q063 INÉDITA
+Sobre explicação do exame, marque a alternativa INCORRETA.
+a) A relação médico-paciente deve ser acolhedora e respeitosa.
+b) Hábitos de vida fazem parte do roteiro da anamnese.
+c) O paciente não deve receber explicações para não antecipar o exame.
+d) A HDA organiza cronologicamente o problema atual.
+e) O examinador deve explicar cada etapa do exame ao paciente.
+
+Q064 INÉDITA
+Sobre linguagem, marque a alternativa INCORRETA.
+a) Condições socioeconômicas e culturais integram a anamnese.
+b) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+c) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+d) A comunicação deve usar linguagem acessível ao paciente.
+e) A identificação integra a abertura da anamnese.
+
+Q065 INÉDITA
+Sobre posição do examinador, marque a alternativa INCORRETA.
+a) O examinador deve sempre permanecer atrás do paciente.
+b) Os antecedentes pessoais fazem parte da anamnese.
+c) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+d) A queixa principal registra o motivo que levou o paciente à consulta.
+e) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+
+Q066 INÉDITA
+Sobre higienização das mãos, marque a alternativa INCORRETA.
+a) Os antecedentes familiares integram a anamnese.
+b) A lavagem das mãos integra os princípios gerais do exame.
+c) A HDA organiza cronologicamente o problema atual.
+d) O examinador deve explicar cada etapa do exame ao paciente.
+e) A higiene das mãos só é necessária após procedimentos invasivos.
+
+Q067 INÉDITA
+Sobre expressão facial, marque a alternativa INCORRETA.
+a) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+b) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+c) A comunicação deve usar linguagem acessível ao paciente.
+d) A expressão facial não oferece informação clínica.
+e) Hábitos de vida fazem parte do roteiro da anamnese.
+
+Q068 INÉDITA
+Sobre acolhimento, marque a alternativa INCORRETA.
+a) Os antecedentes pessoais fazem parte da anamnese.
+b) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+c) O acolhimento substitui a investigação sistemática.
+d) Condições socioeconômicas e culturais integram a anamnese.
+e) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+
+Q069 INÉDITA
+A respeito de anamnese, assinale a(s) alternativa(s) correta(s).
+a) A lavagem das mãos integra os princípios gerais do exame.
+b) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+c) Privacidade é dispensável quando o exame é apenas físico.
+d) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+e) História familiar não interfere no raciocínio clínico.
+
+Q070 INÉDITA
+A respeito de relação médico-paciente, assinale a(s) alternativa(s) correta(s).
+a) A relação médico-paciente deve ser acolhedora e respeitosa.
+b) O paciente não deve receber explicações para não antecipar o exame.
+c) A relação médico-paciente deve ser acolhedora e respeitosa.
+d) Tabagismo e etilismo não devem ser abordados na anamnese.
+e) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+
+Q071 INÉDITA
+A respeito de identificação, assinale a(s) alternativa(s) correta(s).
+a) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+b) A identificação integra a abertura da anamnese.
+c) Condições de vida são dados sem repercussão para a assistência.
+d) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+e) A identificação integra a abertura da anamnese.
+
+Q072 INÉDITA
+A respeito de queixa principal, assinale a(s) alternativa(s) correta(s).
+a) A queixa principal registra o motivo que levou o paciente à consulta.
+b) Privacidade é dispensável quando o exame é apenas físico.
+c) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+d) A queixa principal registra o motivo que levou o paciente à consulta.
+e) O examinador deve sempre permanecer atrás do paciente.
+
+Q073 INÉDITA
+A respeito de história da doença atual, assinale a(s) alternativa(s) correta(s).
+a) O paciente não deve receber explicações para não antecipar o exame.
+b) A relação médico-paciente deve ser acolhedora e respeitosa.
+c) A HDA organiza cronologicamente o problema atual.
+d) A higiene das mãos só é necessária após procedimentos invasivos.
+e) A HDA organiza cronologicamente o problema atual.
+
+Q074 INÉDITA
+A respeito de interrogatório sintomatológico, assinale a(s) alternativa(s) correta(s).
+a) A identificação integra a abertura da anamnese.
+b) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+c) A expressão facial não oferece informação clínica.
+d) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+e) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+
+Q075 INÉDITA
+A respeito de antecedentes pessoais, assinale a(s) alternativa(s) correta(s).
+a) Os antecedentes pessoais fazem parte da anamnese.
+b) O acolhimento substitui a investigação sistemática.
+c) Os antecedentes pessoais fazem parte da anamnese.
+d) O examinador deve sempre permanecer atrás do paciente.
+e) A queixa principal registra o motivo que levou o paciente à consulta.
+
+Q076 INÉDITA
+A respeito de antecedentes familiares, assinale a(s) alternativa(s) correta(s).
+a) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+b) Os antecedentes familiares integram a anamnese.
+c) A higiene das mãos só é necessária após procedimentos invasivos.
+d) A HDA organiza cronologicamente o problema atual.
+e) Os antecedentes familiares integram a anamnese.
+
+Q077 INÉDITA
+A respeito de hábitos de vida, assinale a(s) alternativa(s) correta(s).
+a) Hábitos de vida fazem parte do roteiro da anamnese.
+b) A expressão facial não oferece informação clínica.
+c) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+d) Hábitos de vida fazem parte do roteiro da anamnese.
+e) Uma postura distante melhora a precisão da entrevista.
+
+Q078 INÉDITA
+A respeito de condições socioeconômicas, assinale a(s) alternativa(s) correta(s).
+a) O acolhimento substitui a investigação sistemática.
+b) Os antecedentes pessoais fazem parte da anamnese.
+c) Condições socioeconômicas e culturais integram a anamnese.
+d) A identificação só é feita após o exame físico completo.
+e) Condições socioeconômicas e culturais integram a anamnese.
+
+Q079 INÉDITA
+A respeito de ambiente de exame, assinale a(s) alternativa(s) correta(s).
+a) Os antecedentes familiares integram a anamnese.
+b) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+c) A queixa principal substitui toda a história da doença atual.
+d) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+e) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+
+Q080 INÉDITA
+A respeito de explicação do exame, assinale a(s) alternativa(s) correta(s).
+a) O examinador deve explicar cada etapa do exame ao paciente.
+b) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+c) O examinador deve explicar cada etapa do exame ao paciente.
+d) Uma postura distante melhora a precisão da entrevista.
+e) Hábitos de vida fazem parte do roteiro da anamnese.
+
+Q081 INÉDITA
+A respeito de linguagem, assinale a(s) alternativa(s) correta(s).
+a) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+b) A comunicação deve usar linguagem acessível ao paciente.
+c) A identificação só é feita após o exame físico completo.
+d) Condições socioeconômicas e culturais integram a anamnese.
+e) A comunicação deve usar linguagem acessível ao paciente.
+
+Q082 INÉDITA
+A respeito de posição do examinador, assinale a(s) alternativa(s) correta(s).
+a) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+b) A queixa principal substitui toda a história da doença atual.
+c) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+d) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+e) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+
+Q083 INÉDITA
+A respeito de higienização das mãos, assinale a(s) alternativa(s) correta(s).
+a) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+b) O examinador deve explicar cada etapa do exame ao paciente.
+c) A lavagem das mãos integra os princípios gerais do exame.
+d) História familiar não interfere no raciocínio clínico.
+e) A lavagem das mãos integra os princípios gerais do exame.
+
+Q084 INÉDITA
+A respeito de expressão facial, assinale a(s) alternativa(s) correta(s).
+a) A comunicação deve usar linguagem acessível ao paciente.
+b) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+c) Tabagismo e etilismo não devem ser abordados na anamnese.
+d) As expressões faciais do paciente devem ser acompanhadas durante o exame.
+e) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+
+Q085 INÉDITA
+A respeito de acolhimento, assinale a(s) alternativa(s) correta(s).
+a) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+b) Condições de vida são dados sem repercussão para a assistência.
+c) Acolher, investigar e redigir bem são objetivos integrados da anamnese.
+d) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+e) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+
+Q086 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de anamnese. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Privacidade é dispensável quando o exame é apenas físico.
+b) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+c) História familiar não interfere no raciocínio clínico.
+d) A higiene das mãos só é necessária após procedimentos invasivos.
+e) A anamnese é uma entrevista estruturada voltada a acolher, investigar e redigir bem.
+
+Q087 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de relação médico-paciente. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Uma postura distante melhora a precisão da entrevista.
+b) Tabagismo e etilismo não devem ser abordados na anamnese.
+c) A expressão facial não oferece informação clínica.
+d) A relação médico-paciente deve ser acolhedora e respeitosa.
+e) O paciente não deve receber explicações para não antecipar o exame.
+
+Q088 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de identificação. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Condições de vida são dados sem repercussão para a assistência.
+b) O acolhimento substitui a investigação sistemática.
+c) A identificação integra a abertura da anamnese.
+d) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+e) A identificação só é feita após o exame físico completo.
+
+Q089 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de queixa principal. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+b) A queixa principal registra o motivo que levou o paciente à consulta.
+c) O examinador deve sempre permanecer atrás do paciente.
+d) A queixa principal substitui toda a história da doença atual.
+e) Privacidade é dispensável quando o exame é apenas físico.
+
+Q090 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de história da doença atual. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A HDA organiza cronologicamente o problema atual.
+b) A higiene das mãos só é necessária após procedimentos invasivos.
+c) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+d) O paciente não deve receber explicações para não antecipar o exame.
+e) Uma postura distante melhora a precisão da entrevista.
+
+Q091 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de interrogatório sintomatológico. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A expressão facial não oferece informação clínica.
+b) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+c) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+d) A identificação só é feita após o exame físico completo.
+e) O interrogatório sintomatológico pesquisa sintomas por sistemas.
+
+Q092 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de antecedentes pessoais. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+b) O examinador deve sempre permanecer atrás do paciente.
+c) A queixa principal substitui toda a história da doença atual.
+d) Os antecedentes pessoais fazem parte da anamnese.
+e) O acolhimento substitui a investigação sistemática.
+
+Q093 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de antecedentes familiares. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A higiene das mãos só é necessária após procedimentos invasivos.
+b) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+c) Os antecedentes familiares integram a anamnese.
+d) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+e) História familiar não interfere no raciocínio clínico.
+
+Q094 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de hábitos de vida. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+b) Hábitos de vida fazem parte do roteiro da anamnese.
+c) Uma postura distante melhora a precisão da entrevista.
+d) Tabagismo e etilismo não devem ser abordados na anamnese.
+e) A expressão facial não oferece informação clínica.
+
+Q095 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de condições socioeconômicas. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Condições socioeconômicas e culturais integram a anamnese.
+b) A identificação só é feita após o exame físico completo.
+c) Condições de vida são dados sem repercussão para a assistência.
+d) O acolhimento substitui a investigação sistemática.
+e) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+
+Q096 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de ambiente de exame. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A queixa principal substitui toda a história da doença atual.
+b) Privacidade é dispensável quando o exame é apenas físico.
+c) A anamnese deve ser improvisada e sem sequência para não limitar o relato.
+d) História familiar não interfere no raciocínio clínico.
+e) O ambiente deve ser tranquilo, com privacidade e iluminação adequada.
+
+Q097 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de explicação do exame. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) O paciente não deve receber explicações para não antecipar o exame.
+b) Uma postura distante melhora a precisão da entrevista.
+c) Tabagismo e etilismo não devem ser abordados na anamnese.
+d) O examinador deve explicar cada etapa do exame ao paciente.
+e) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+
+Q098 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de linguagem. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A identificação só é feita após o exame físico completo.
+b) Condições de vida são dados sem repercussão para a assistência.
+c) A comunicação deve usar linguagem acessível ao paciente.
+d) O interrogatório sintomatológico é dispensável se a queixa principal for clara.
+e) Termos técnicos sem esclarecimento são preferíveis em qualquer situação.
+
+Q099 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de posição do examinador. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) Privacidade é dispensável quando o exame é apenas físico.
+b) O exame geral é realizado habitualmente com o examinador à direita do paciente.
+c) Antecedentes pessoais incluem apenas doenças infecciosas da infância.
+d) O examinador deve sempre permanecer atrás do paciente.
+e) A queixa principal substitui toda a história da doença atual.
+
+Q100 INÉDITA
+Durante uma estação de exame clínico, o estudante precisa aplicar corretamente o conceito de higienização das mãos. Assinale a alternativa que orienta a conduta ou a interpretação adequada.
+a) A lavagem das mãos integra os princípios gerais do exame.
+b) História familiar não interfere no raciocínio clínico.
+c) A higiene das mãos só é necessária após procedimentos invasivos.
+d) A HDA deve excluir sintomas e concentrar-se apenas em diagnósticos prévios.
+e) O paciente não deve receber explicações para não antecipar o exame.
