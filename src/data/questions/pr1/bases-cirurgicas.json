@@ -2,6 +2,7 @@
   {
     "id": "bc-b658c0b0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os tempos cirúrgicos, assinale a alternativa correta:",
@@ -17,6 +18,7 @@
   {
     "id": "bc-999fe6c9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O que caracteriza o tempo cirúrgico da diérese?",
@@ -32,6 +34,7 @@
   {
     "id": "bc-58c78a31",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante uma cirurgia, por que a hemostasia adequada é essencial antes de realizar a exérese de uma estrutura patológica?",
@@ -47,6 +50,7 @@
   {
     "id": "bc-fb81cc46",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante uma laparotomia exploradora (acesso à cavidade abdominal através da abertura da pele, subcutâneo, aponeurose e peritônio), o cirurgião iniciou o tempo de síntese. Qual afirmação sobre o tempo de síntese está correta?",
@@ -62,6 +66,7 @@
   {
     "id": "bc-af8f719d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual dos seguintes itens NÃO corresponde a uma etapa do protocolo de cirurgia segura da OMS?",
@@ -77,6 +82,7 @@
   {
     "id": "bc-ec847f99",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à ambientação cirúrgica e segurança, é correto afirmar que:",
@@ -92,6 +98,7 @@
   {
     "id": "bc-5aa07717",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual ação deve ser feita antes da indução anestésica, segundo o protocolo de cirurgia segura?",
@@ -107,6 +114,7 @@
   {
     "id": "bc-316245f2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Marque a alternativa que descreve uma conduta correta antes da saída do paciente da sala cirúrgica:",
@@ -122,6 +130,7 @@
   {
     "id": "bc-e4f4d10f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação às zonas do centro cirúrgico, é correto afirmar que:",
@@ -137,6 +146,7 @@
   {
     "id": "bc-4032cb46",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual dos seguintes itens faz parte da lista de verificação da cirurgia segura, conforme preconizado pela OMS?",
@@ -152,6 +162,7 @@
   {
     "id": "bc-2391d2c7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre assepsia e antissepsia, assinale a afirmativa correta:",
@@ -167,6 +178,7 @@
   {
     "id": "bc-49b902dc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das alternativas descreve corretamente o conceito de antissepsia?",
@@ -182,6 +194,7 @@
   {
     "id": "bc-5fd40ad3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à lavagem cirúrgica das mãos, assinale a alternativa correta:",
@@ -197,6 +210,7 @@
   {
     "id": "bc-72bacf44",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a lavagem cirúrgica das mãos, é correto afirmar que:",
@@ -212,6 +226,7 @@
   {
     "id": "bc-bdf98685",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa correta quanto à paramentação cirúrgica:",
@@ -227,6 +242,7 @@
   {
     "id": "bc-992edff0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o uso de luvas estéreis, marque a correta:",
@@ -242,6 +258,7 @@
   {
     "id": "bc-82e670e7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Com relação ao passo a passo para abertura do avental cirúrgico, assinale a correta:",
@@ -257,6 +274,7 @@
   {
     "id": "bc-6567b5e1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quais áreas do capote cirúrgico são consideradas zonas perigosas por risco de contaminação?",
@@ -272,6 +290,7 @@
   {
     "id": "bc-2b8e4a5d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação ao manuseio de luvas estéreis, qual alternativa está correta?",
@@ -287,6 +306,7 @@
   {
     "id": "bc-1f697cee",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante o processo de paramentação cirúrgica, em que momento as luvas estéreis devem ser colocadas?",
@@ -302,6 +322,7 @@
   {
     "id": "bc-3a643062",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das seguintes práticas está correta em relação à lavagem das mãos para um procedimento cirúrgico?",
@@ -317,6 +338,7 @@
   {
     "id": "bc-e71a8c95",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os instrumentos utilizados para hemostasia, marque a alternativa correta:",
@@ -332,6 +354,7 @@
   {
     "id": "bc-0dcc35d7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das opções abaixo representa um instrumento de preensão usado para segurar tecidos?",
@@ -347,6 +370,7 @@
   {
     "id": "bc-692ba7d9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a afirmativa correta sobre os afastadores:",
@@ -362,6 +386,7 @@
   {
     "id": "bc-2b18da58",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à organização e princípios da instrumentação, é correto afirmar que:",
@@ -377,6 +402,7 @@
   {
     "id": "bc-0183f723",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à montagem da mesa cirúrgica, qual das opções abaixo é o instrumento mais comumente utilizado no campo de DIÉRESE?",
@@ -393,6 +419,7 @@
   {
     "id": "bc-ac276ad8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na montagem da mesa cirúrgica, para qual campo são organizados os afastadores de Farabeuf e Doyen, e qual é sua função principal?",
@@ -409,6 +436,7 @@
   {
     "id": "bc-82f9fde2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as agulhas cirúrgicas, assinale a afirmativa correta:",
@@ -424,6 +452,7 @@
   {
     "id": "bc-0bd2cf0a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O fio ideal, segundo os postulados de Van Winkle e Hasting, deve apresentar:",
@@ -439,6 +468,7 @@
   {
     "id": "bc-ada9bfef",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os fios cirúrgicos, marque a alternativa correta:",
@@ -454,6 +484,7 @@
   {
     "id": "bc-213453e3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à classificação dos fios quanto à absorção, é correto afirmar:",
@@ -469,6 +500,7 @@
   {
     "id": "bc-68af7e5e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a afirmativa verdadeira sobre os fios de origem sintética absorvível:",
@@ -484,6 +516,7 @@
   {
     "id": "bc-bb5b7396",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre fios não absorvíveis, é correto afirmar que:",
@@ -499,6 +532,7 @@
   {
     "id": "bc-0d6d098a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a opção correta sobre monofilamentos:",
@@ -514,6 +548,7 @@
   {
     "id": "bc-4dd856fb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a escolha do fio cirúrgico, é incorreto afirmar que depende de:",
@@ -529,6 +564,7 @@
   {
     "id": "bc-ebb424ae",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação às agulhas cirúrgicas, qual é a característica principal de uma agulha cortante?",
@@ -545,6 +581,7 @@
   {
     "id": "bc-3225b3a0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das alternativas descreve corretamente uma das principais diferenças entre os fios cirúrgicos monofilamentares e multifilamentares?",
@@ -560,6 +597,7 @@
   {
     "id": "bc-4844a24d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto ao uso dos drenos cirúrgicos, marque a correta:",
@@ -575,6 +613,7 @@
   {
     "id": "bc-b2f031a9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os materiais e formatos dos drenos, é verdadeiro que:",
@@ -590,6 +629,7 @@
   {
     "id": "bc-d2e99dc0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação ao dreno de Penrose, é correto afirmar:",
@@ -606,6 +646,7 @@
   {
     "id": "bc-32cb49c7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Julgue os itens a seguir sobre drenos cirúrgicos em verdadeiro (V) ou falso (F):\n\n( ) O dreno de Blake combina drenagem por capilaridade com a possibilidade de sucção.\n( ) O dreno Porto-VAC é ideal para cavidades abdominais profundas devido à sua alta potência de sucção.\n( ) O dreno de tórax é geralmente usado por sucção contínua, com alto custo.\n( ) O dreno Pigtail possui extremidade que se enrola e é utilizado por gravidade.\n( ) O dreno de Penrose é o mais indicado para ambientes contaminados, como abscessos.\n\nAssinale a sequência correta:",
@@ -621,6 +662,7 @@
   {
     "id": "bc-30aaaa44",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Associe corretamente os drenos às suas principais características:\n\n1. Dreno de Blake\n2. Dreno Porto-VAC\n3. Dreno de tórax\n4. Dreno Pigtail\n5. Dreno de Penrose\n\n( ) Dreno passivo, simples, por capilaridade, feito de látex ou silicone.\n( ) Dreno com alto custo, de silicone, com ponta enrolada e fenestrações.\n( ) Utilizado por sucção, feito de plástico, com acessibilidade intermediária.\n( ) Dreno de silicone com ação combinada de sucção e capilaridade.\n( ) Dreno plástico, usado por gravidade, com extremidade fenestrada e linha radiopaca.\n\nA sequência correta da associação é:",
@@ -636,6 +678,7 @@
   {
     "id": "bc-ffb80532",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em um paciente com pneumotórax espontâneo, o dreno mais indicado seria:",
@@ -652,6 +695,7 @@
   {
     "id": "bc-49b27463",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o dreno Porto-VAC, marque a alternativa incorreta:",
@@ -668,6 +712,7 @@
   {
     "id": "bc-5a8b4445",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os principais tipos de drenos, qual das alternativas descreve corretamente a função e o tipo de dreno cirúrgico?",
@@ -683,6 +728,7 @@
   {
     "id": "bc-9feec090",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das sondas abaixo é mais adequada para um paciente com obstrução da via aérea superior e necessidade prolongada de ventilação?",
@@ -699,6 +745,7 @@
   {
     "id": "bc-c68500a0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Julgue os itens a seguir sobre sondas e cateteres em verdadeiro (V) ou falso (F):\n\n( ) A sonda nasoenteral é indicada para descompressão gástrica em pacientes com obstrução intestinal.\n( ) A sonda orotraqueal permite ventilação mecânica e pode conter balão (cuff) para selar a via aérea.\n( ) A sonda de Foley é usada para cateterismo de alívio e deve ser retirada logo após a coleta urinária.\n( ) A sonda de gastrostomia é indicada para pacientes com disfagia e necessidade de nutrição prolongada.\n( ) A sonda de silicone com fio-guia e esferas metálicas é típica da via nasoenteral.\n\nAssinale a sequência correta:",
@@ -714,6 +761,7 @@
   {
     "id": "bc-79d46532",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Associe as sondas aos seus materiais e funções principais:\n\n1. Oro/nasogástrica\n2. Nasoentérica\n3. Gastrostomia\n4. De Foley\n5. De Nelaton\n\n( ) Feita de plástico rígido, usada para descompressão gástrica.\n( ) Usada por curto tempo para cateterismo vesical de alívio.\n( ) Possui balonete, indicada para drenagem urinária prolongada.\n( ) Silicone com fio-guia metálico, usada para nutrição pós-pilórica.\n( ) Introduzida por via percutânea no estômago para nutrição.\n\nA sequência correta da associação é:",
@@ -729,6 +777,7 @@
   {
     "id": "bc-2930ee5e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a sonda nasoenteral, assinale a correta:",
@@ -745,6 +794,7 @@
   {
     "id": "bc-2d86b889",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente internado com retenção urinária aguda e necessidade de coleta única de urina estéril deve ser sondado com:",
@@ -761,6 +811,7 @@
   {
     "id": "bc-6df61ac1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a traqueostomia, assinale a alternativa correta:",
@@ -777,6 +828,7 @@
   {
     "id": "bc-99d45531",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O bisturi eletrônico moderno tem dois modos básicos, o corte e a coagulação. Qual é a principal diferença entre os modos de uso da energia durante procedimentos cirúrgicos?",
@@ -793,6 +845,7 @@
   {
     "id": "bc-e45dacab",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das seguintes afirmações descreve corretamente a diferença entre a eletrocirurgia monopolar e bipolar?",
@@ -809,6 +862,7 @@
   {
     "id": "bc-d3ca88bd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à resposta hormonal ao estresse cirúrgico, é INCORRETO afirmar que:",
@@ -824,6 +878,7 @@
   {
     "id": "bc-db77dc3d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa CORRETA sobre a resposta metabólica ao trauma:",
@@ -840,6 +895,7 @@
   {
     "id": "bc-0bd4f621",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quais as alterações esperadas em paciente vítima de acidente automobilístico, com trauma torácico e contusão pulmonar, associado a trauma hepático grau III e esplênico grau IV, considerando a resposta endócrino-metabólica secundária ao trauma, especificamente na fase flow precoce?",
@@ -856,6 +912,7 @@
   {
     "id": "bc-fe1fca37",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 35 anos admitido após acidente automobilístico grave, com múltiplas fraturas, contusões e lacerações. Hemodinamicamente estável e consciente, com PA 110×70 mmHg, FC 100 bpm, FR 22 irpm e temperatura 38,5 ºC. Exames: leucocitose, glicemia 200 mg/dL, cortisol sérico elevado e insulina reduzida. Qual é o principal mecanismo responsável pela elevação da glicemia?",
@@ -871,6 +928,7 @@
   {
     "id": "bc-bc4905cb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa em que todos os ambientes pertencem à mesma zona do centro cirúrgico:",
@@ -886,6 +944,7 @@
   {
     "id": "bc-a60986d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Após o uso do bisturi ultrassônico, o cuidado específico exigido é:",
@@ -901,6 +960,7 @@
   {
     "id": "bc-cc817f33",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O efeito eletrolítico da corrente consiste em:",
@@ -916,6 +976,7 @@
   {
     "id": "bc-2cc2b0dc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ação da aldosterona na resposta ao trauma consiste em:",
@@ -931,6 +992,7 @@
   {
     "id": "bc-38026be3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São consideradas zonas perigosas do capote cirúrgico, que não devem ser tocadas com as mãos enluvadas:",
@@ -946,6 +1008,7 @@
   {
     "id": "bc-70e08588",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto à angulação, as agulhas cirúrgicas classificam-se em:",
@@ -961,6 +1024,7 @@
   {
     "id": "bc-78de78b3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ordenando as pinças hemostáticas da mais delicada para a mais robusta, obtém-se:",
@@ -976,6 +1040,7 @@
   {
     "id": "bc-547e4b63",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o catgut simples e o catgut cromado, é correto afirmar:",
@@ -991,6 +1056,7 @@
   {
     "id": "bc-093bc580",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A citocina que estimula o fígado a produzir proteína C-reativa e fibrinogênio é:",
@@ -1006,6 +1072,7 @@
   {
     "id": "bc-e6cc08d1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A hiperglicemia de estresse em paciente não diabético decorre de:",
@@ -1021,6 +1088,7 @@
   {
     "id": "bc-e7a951c5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A sala de recuperação pós-anestésica (SRPA) pertence à zona:",
@@ -1036,6 +1104,7 @@
   {
     "id": "bc-ec786427",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A perda de massa muscular no paciente crítico é clinicamente relevante porque:",
@@ -1051,6 +1120,7 @@
   {
     "id": "bc-7c6d8fdb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O edema observado após a ressuscitação volêmica do politraumatizado é explicado principalmente por:",
@@ -1066,6 +1136,7 @@
   {
     "id": "bc-a2a18e3d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Homem de 28 anos, politraumatizado, chega taquicárdico, frio e com pressão limítrofe; apresenta oligúria nas primeiras horas e, nos dias seguintes, glicemia elevada e perda de massa muscular. Assinale a alternativa correta:",
@@ -1081,6 +1152,7 @@
   {
     "id": "bc-65b4db3e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A verificação de que o monitor multiparâmetro está conectado e funcionante é feita:",
@@ -1096,6 +1168,7 @@
   {
     "id": "bc-c9145eb4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No século XIX, as infecções cirúrgicas e a febre puerperal causavam taxas aterrorizantes de mortalidade hospitalar. O nascimento da assepsia e antissepsia modernas está indissoluvelmente ligado aos pioneirismos de:",
@@ -1111,6 +1184,7 @@
   {
     "id": "bc-b2a8fb4d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O efeito de vaporização distingue-se por:",
@@ -1126,6 +1200,7 @@
   {
     "id": "bc-9da7b389",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A transferência de energia para um condutor próximo, sem contato direto, através do isolamento do instrumento, define:",
@@ -1141,6 +1216,7 @@
   {
     "id": "bc-9e7f443c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A separação de planos musculares feita com o dedo e com gaze montada, sem instrumento cortante, é chamada:",
@@ -1156,6 +1232,7 @@
   {
     "id": "bc-4c7ed3f2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que não corresponde a um postulado de Van Winkle e Hasting:",
@@ -1171,6 +1248,7 @@
   {
     "id": "bc-58e50f01",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em paciente portador de marca-passo submetido a eletrocirurgia, a preocupação principal é:",
@@ -1186,6 +1264,7 @@
   {
     "id": "bc-db021fec",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um acadêmico chega ao centro cirúrgico usando aliança, relógio de pulso e brincos. Essa conduta:",
@@ -1201,6 +1280,7 @@
   {
     "id": "bc-ec4a280e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os efeitos cardiovasculares da descarga simpática no trauma incluem:",
@@ -1216,6 +1296,7 @@
   {
     "id": "bc-da0316fb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em pós-operatório de laparotomia evolui com íleo adinâmico, distensão e vômitos. O dispositivo indicado é:",
@@ -1231,6 +1312,7 @@
   {
     "id": "bc-72ca72c6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A classificação do instrumental em comum e especial baseia-se em:",
@@ -1246,6 +1328,7 @@
   {
     "id": "bc-fb3e69be",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O evento adverso mais comum associado à eletrocirurgia é:",
@@ -1261,6 +1344,7 @@
   {
     "id": "bc-449a8b0b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 70 anos com sequela de AVC, disfagia grave e previsão de alimentação enteral por tempo indeterminado. A via de escolha é:",
@@ -1276,6 +1360,7 @@
   {
     "id": "bc-14184a70",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "William Stewart Halsted (1852-1922), primeiro cirurgião-chefe do Hospital Johns Hopkins, estabeleceu as bases da cirurgia moderna ao transformar o ato operatório em uma ciência delicada e meticulosa. São contribuições históricas capitais de Halsted:",
@@ -1291,6 +1376,7 @@
   {
     "id": "bc-86c784ad",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto à finalidade, as sondas classificam-se em:",
@@ -1306,6 +1392,7 @@
   {
     "id": "bc-40d301d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O modo coagulação difere do modo corte porque utiliza:",
@@ -1321,6 +1408,7 @@
   {
     "id": "bc-4e1595cb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a numeração dos fios de sutura, é correto afirmar:",
@@ -1336,6 +1424,7 @@
   {
     "id": "bc-d08fd8a0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O objetivo declarado do Protocolo de Cirurgia Segura é:",
@@ -1351,6 +1440,7 @@
   {
     "id": "bc-d839c4fe",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O uso de luvas cirúrgicas estéreis constitui medida de:",
@@ -1366,6 +1456,7 @@
   {
     "id": "bc-cf6ddf53",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A síntese é dita incompleta quando:",
@@ -1381,6 +1472,7 @@
   {
     "id": "bc-edaeaa59",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante séculos, o desenvolvimento da cirurgia foi travado por uma tríade clássica de limitadores: Dor, Hemorragia e Infecção. A superação pioneira do primeiro pilar (a Dor) com a primeira demonstração pública incontestável de anestesia inalatória ocorreu em:",
@@ -1396,6 +1488,7 @@
   {
     "id": "bc-e1d7480f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao abrir o avental cirúrgico, o profissional deve:",
@@ -1411,6 +1504,7 @@
   {
     "id": "bc-42600e9e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São aplicações típicas do plasma de argônio:",
@@ -1426,6 +1520,7 @@
   {
     "id": "bc-fb965607",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O modo corte da eletrocirurgia caracteriza-se por:",
@@ -1441,6 +1536,7 @@
   {
     "id": "bc-f8be7036",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A fulguração distingue-se da dessecação porque:",
@@ -1456,6 +1552,7 @@
   {
     "id": "bc-cec858b2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ordem correta da paramentação é:",
@@ -1471,6 +1568,7 @@
   {
     "id": "bc-f583fe4f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Geradores modernos monitoram continuamente a qualidade do contato da placa dispersiva a fim de:",
@@ -1486,6 +1584,7 @@
   {
     "id": "bc-30d5dba5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A diferença fundamental entre a sonda de Nelaton e a de Foley é:",
@@ -1501,6 +1600,7 @@
   {
     "id": "bc-35d344c3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A presença de linha radiopaca na extremidade interna é característica marcante do dreno:",
@@ -1516,6 +1616,7 @@
   {
     "id": "bc-f062e1d9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A eletrocirurgia por plasma de argônio caracteriza-se por ser:",
@@ -1531,6 +1632,7 @@
   {
     "id": "bc-40383ea1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "As lâminas de bisturi nº 11 e nº 15 encaixam no cabo:",
@@ -1546,6 +1648,7 @@
   {
     "id": "bc-b5989453",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A máscara cirúrgica torna-se obrigatória especialmente:",
@@ -1561,6 +1664,7 @@
   {
     "id": "bc-34093e7e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno laminar de látex ou silicone, de luz colabada, que drena por capilaridade e é pouco eficiente em grandes volumes, é o:",
@@ -1576,6 +1680,7 @@
   {
     "id": "bc-db387c51",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para circular na zona semirrestrita, o acadêmico deve estar usando:",
@@ -1591,6 +1696,7 @@
   {
     "id": "bc-a7f24656",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No circuito monopolar, o trajeto correto da corrente é:",
@@ -1606,6 +1712,7 @@
   {
     "id": "bc-f150f6cc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na disposição da mesa por tempos operatórios, os instrumentos do primeiro tempo ficam:",
@@ -1621,6 +1728,7 @@
   {
     "id": "bc-bc5ccbf8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O instrumento-símbolo do tempo de síntese é:",
@@ -1636,6 +1744,7 @@
   {
     "id": "bc-6633b7f8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A dispensa da placa dispersiva é característica da eletrocirurgia:",
@@ -1651,6 +1760,7 @@
   {
     "id": "bc-a8695f88",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Segundo o material da disciplina, a duração da lavagem cirúrgica das mãos deve ser de:",
@@ -1666,6 +1776,7 @@
   {
     "id": "bc-10ce0f82",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A fase ebb da resposta endocrinometabólica ao trauma caracteriza-se por:",
@@ -1681,6 +1792,7 @@
   {
     "id": "bc-0c1a7cf1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O calibre externo das sondas é convencionado na unidade:",
@@ -1696,6 +1808,7 @@
   {
     "id": "bc-9928d7d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a distinção entre eletrocautério e eletrocirurgia, é correto afirmar:",
@@ -1711,6 +1824,7 @@
   {
     "id": "bc-6ecf880c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa em que o instrumento não pertence ao grupo indicado:",
@@ -1726,6 +1840,7 @@
   {
     "id": "bc-7c65c799",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A antissepsia caracteriza-se por:",
@@ -1741,6 +1856,7 @@
   {
     "id": "bc-1d29f737",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual é a finalidade específica da lavagem cirúrgica das mãos?",
@@ -1756,6 +1872,7 @@
   {
     "id": "bc-8724e88b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na disposição clássica da equipe em campo, o instrumentador posiciona-se:",
@@ -1771,6 +1888,7 @@
   {
     "id": "bc-ab318c09",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A apresentação de cada membro da equipe por nome e função é realizada:",
@@ -1786,6 +1904,7 @@
   {
     "id": "bc-35cbd1ef",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São características atribuídas ao fio ideal, exceto:",
@@ -1801,6 +1920,7 @@
   {
     "id": "bc-61a8d551",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante uma gastrectomia, identifique o tempo operatório de cada passo: (1) abertura da aponeurose; (2) clipagem da artéria gástrica esquerda antes da secção; (3) retirada da peça; (4) confecção da anastomose.",
@@ -1816,6 +1936,7 @@
   {
     "id": "bc-3f599592",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cirurgião solicita, em sequência: (1) instrumento para incisar pele com lâmina grande; (2) pinça para segurar a borda da aponeurose; (3) pinça hemostática delicada para vaso subcutâneo; (4) instrumento para suturar. A sequência é:",
@@ -1831,6 +1952,7 @@
   {
     "id": "bc-32c6b82c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a sonda nasoenteral, é correto afirmar:",
@@ -1846,6 +1968,7 @@
   {
     "id": "bc-507d33f0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise as afirmativas sobre os tempos operatórios:\nI. A hemostasia ocorre uma única vez, logo após a incisão da pele.\nII. A exérese é o tempo que define o objetivo terapêutico da operação.\nIII. A diérese pode ser realizada com eletrocirurgia.\nIV. A síntese pode ser feita com fios, grampos, clipes ou adesivos.",
@@ -1861,6 +1984,7 @@
   {
     "id": "bc-083f240d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São sítios de sondagem citados no material:",
@@ -1876,6 +2000,7 @@
   {
     "id": "bc-721f7ec5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No Renascimento, o médico Andreas Vesalius (1514-1564) deflagrou uma verdadeira revolução epistemológica na medicina com a publicação de De Humani Corporis Fabrica (1543). O marco transformador dessa obra para a cirurgia consistiu em:",
@@ -1891,6 +2016,7 @@
   {
     "id": "bc-ef84575b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao calçar as luvas estéreis, a regra fundamental é:",
@@ -1906,6 +2032,7 @@
   {
     "id": "bc-7e31bb56",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "As pinças hemostáticas Halsted, Kelly e Rochester:",
@@ -1921,6 +2048,7 @@
   {
     "id": "bc-8af0b851",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pinça de preensão lisa, atraumática, usada para manipular tecidos delicados sem perfurá-los, é a:",
@@ -1936,6 +2064,7 @@
   {
     "id": "bc-6c41f24b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a associação incorreta entre tempo operatório e instrumento:",
@@ -1951,6 +2080,7 @@
   {
     "id": "bc-18ad1c87",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a vestimenta do avental cirúrgico, assinale a alternativa incorreta:",
@@ -1966,6 +2096,7 @@
   {
     "id": "bc-7877fb2a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A agulha de secção transversal cilíndrica está indicada para:",
@@ -1981,6 +2112,7 @@
   {
     "id": "bc-c58d31ad",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pinça indicada para preensão delicada de víscera oca, com mínimo trauma da parede, é:",
@@ -1996,6 +2128,7 @@
   {
     "id": "bc-e9d2e539",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A utilização de correntes de alta frequência em eletrocirurgia tem como principal justificativa:",
@@ -2011,6 +2144,7 @@
   {
     "id": "bc-5917ea2e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A exérese pode ter como objeto:",
@@ -2026,6 +2160,7 @@
   {
     "id": "bc-3f706cec",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Entre as medidas do checklist de segurança em eletrocirurgia, consta:",
@@ -2041,6 +2176,7 @@
   {
     "id": "bc-913f8839",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao enxaguar as mãos após a escovação cirúrgica, é correto:",
@@ -2056,6 +2192,7 @@
   {
     "id": "bc-89f08bf5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A finalidade do grupo de instrumentos de preensão é:",
@@ -2071,6 +2208,7 @@
   {
     "id": "bc-da64ae42",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em pós-operatório de mastectomia necessita de drenagem do espaço subcutâneo com aspiração contínua e de baixo custo. O dreno mais apropriado é:",
@@ -2086,6 +2224,7 @@
   {
     "id": "bc-8a438afb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A razão pela qual as lesões térmicas a distância são mais perigosas na laparoscopia do que na cirurgia aberta é:",
@@ -2101,6 +2240,7 @@
   {
     "id": "bc-2e830c41",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A alternativa cruenta à sondagem vesical por via uretral é:",
@@ -2116,6 +2256,7 @@
   {
     "id": "bc-be815e66",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O fio classicamente empregado em sutura vascular e cardíaca, por ser sintético, monofilamentar e inabsorvível, é:",
@@ -2131,6 +2272,7 @@
   {
     "id": "bc-27d9aa5a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A oligúria observada nas primeiras horas após trauma grave é explicada principalmente por:",
@@ -2146,6 +2288,7 @@
   {
     "id": "bc-b6424136",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ordem correta da escovação na lavagem cirúrgica é:",
@@ -2161,6 +2304,7 @@
   {
     "id": "bc-1719f1c3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual dreno associa os mecanismos de capilaridade e sucção?",
@@ -2176,6 +2320,7 @@
   {
     "id": "bc-b09c802e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A elasticidade do fio é clinicamente importante porque:",
@@ -2191,6 +2336,7 @@
   {
     "id": "bc-38c89be1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao vestir o avental, o profissional insere os braços nas mangas sem tocar a face externa porque:",
@@ -2206,6 +2352,7 @@
   {
     "id": "bc-0ed480a0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São exemplos de agentes antissépticos usados no preparo da pele do paciente:",
@@ -2221,6 +2368,7 @@
   {
     "id": "bc-823a1a6b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os dispositivos ultrassônicos, é correto afirmar:",
@@ -2236,6 +2384,7 @@
   {
     "id": "bc-924dc2d8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A confirmação de que os exames de imagem necessários estão acessíveis na sala ocorre:",
@@ -2251,6 +2400,7 @@
   {
     "id": "bc-b0f0e9b2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Comparando custo e acessibilidade, os drenos de alto custo e menor disponibilidade são:",
@@ -2266,6 +2416,7 @@
   {
     "id": "bc-845a1f32",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A gastrostomia pode ser realizada por via:",
@@ -2281,6 +2432,7 @@
   {
     "id": "bc-bd0bc396",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O efeito em que o eletrodo permanece em contato com o tecido, sem faiscamento, produzindo desidratação e desnaturação proteica com efeito previsível, é:",
@@ -2296,6 +2448,7 @@
   {
     "id": "bc-0b04f223",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São meios utilizáveis no tempo de síntese, exceto:",
@@ -2311,6 +2464,7 @@
   {
     "id": "bc-e181a998",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O conceito de densidade de corrente explica por que:",
@@ -2326,6 +2480,7 @@
   {
     "id": "bc-32d605fc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto ao formato, os drenos classificam-se em:",
@@ -2341,6 +2496,7 @@
   {
     "id": "bc-115319ea",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A zona do centro cirúrgico em que a circulação é livre e não se exige uniforme privativo é composta por:",
@@ -2356,6 +2512,7 @@
   {
     "id": "bc-0f56a830",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A escolha entre fio absorvível e inabsorvível considera, principalmente:",
@@ -2371,6 +2528,7 @@
   {
     "id": "bc-007ee7ae",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao entrar no centro cirúrgico, espera-se que o acadêmico:",
@@ -2386,6 +2544,7 @@
   {
     "id": "bc-6e4435fc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno cuja extremidade interna se enrola sobre si mesma, o que reduz o risco de deslocamento, é o:",
@@ -2401,6 +2560,7 @@
   {
     "id": "bc-d50bac10",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São misturas ou condições combustíveis que aumentam o risco de incêndio em sala cirúrgica, exceto:",
@@ -2416,6 +2576,7 @@
   {
     "id": "bc-01fdbd36",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em ferida contaminada, deve-se preferir fio monofilamentar porque ele apresenta menor área de contato com o tecido e menor potencial de abrigar microrganismos.",
@@ -2431,6 +2592,7 @@
   {
     "id": "bc-1032a163",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O fio monofilamentar, comparado ao multifilamentar, apresenta:",
@@ -2446,6 +2608,7 @@
   {
     "id": "bc-39346fa7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao calçar a segunda luva, o acadêmico percebe que dois dedos entraram trocados. A conduta correta é:",
@@ -2461,6 +2624,7 @@
   {
     "id": "bc-04244b22",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A medida da sonda nasoenteral antes da passagem é feita:",
@@ -2476,6 +2640,7 @@
   {
     "id": "bc-15072129",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a pinça de Kocher, é correto afirmar:",
@@ -2491,6 +2656,7 @@
   {
     "id": "bc-b348ff86",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Entre os materiais usados na confecção de drenos, aquele considerado mais inerte, por provocar menor reação inflamatória, é:",
@@ -2506,6 +2672,7 @@
   {
     "id": "bc-5ddb90a7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O lavabo cirúrgico pertence à zona:",
@@ -2521,6 +2688,7 @@
   {
     "id": "bc-7da50f2d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A escara marrom-clara e superficial que impede a hemorragia é o produto visível:",
@@ -2536,6 +2704,7 @@
   {
     "id": "bc-e60a0562",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante laparoscopia, o eletrodo ativo é acionado enquanto encosta em uma pinça metálica de preensão; no 4º dia surge peritonite por perfuração de alça. O mecanismo foi:",
@@ -2551,6 +2720,7 @@
   {
     "id": "bc-75f8bf0f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lâmina pequena e de gume curvo, indicada para incisões delicadas e cirurgia de pele, é a de número:",
@@ -2566,6 +2736,7 @@
   {
     "id": "bc-40ee0911",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um dreno colocado junto a uma anastomose intestinal, sem que haja coleção a drenar, para detectar precocemente fístula ou sangramento, tem indicação:",
@@ -2581,6 +2752,7 @@
   {
     "id": "bc-fdd19fa5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Classifique o Vicryl quanto a degradação, origem e configuração física:",
@@ -2596,6 +2768,7 @@
   {
     "id": "bc-bc43042b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O modo blend corresponde a:",
@@ -2611,6 +2784,7 @@
   {
     "id": "bc-ba32822b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A sequência canônica dos tempos fundamentais da técnica operatória, conforme o material da disciplina, é:",
@@ -2626,6 +2800,7 @@
   {
     "id": "bc-d8dcb906",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante a escovação cirúrgica, o material da disciplina destaca a necessidade de escovar especificamente:",
@@ -2641,6 +2816,7 @@
   {
     "id": "bc-1c67a44e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na Antiguidade Greco-Romana, a medicina e a cirurgia tiveram figuras seminais cujas concepções influenciaram o pensamento médico ocidental por séculos. A respeito desse período, assinale a alternativa correta:",
@@ -2656,6 +2832,7 @@
   {
     "id": "bc-db477698",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o laser em cirurgia, é correto afirmar:",
@@ -2671,6 +2848,7 @@
   {
     "id": "bc-a8cc3c54",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ambroise Paré (1510-1590) é consagrado como uma das figuras mais extraordinárias da cirurgia ocidental, sendo chamado de \"Pai da Cirurgia Moderna\". Dentre suas contribuições mais marcantes, destacam-se:",
@@ -2686,6 +2864,7 @@
   {
     "id": "bc-407c8486",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O calibre de fio mais empregado na prática cirúrgica do dia a dia é:",
@@ -2701,6 +2880,7 @@
   {
     "id": "bc-57fd03a2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Define-se corrente elétrica como:",
@@ -2716,6 +2896,7 @@
   {
     "id": "bc-e19a674b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A drenagem espontânea ocorre por:",
@@ -2731,6 +2912,7 @@
   {
     "id": "bc-69e60355",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pinça de preensão que traumatiza a pele e a aponeurose de forma controlada, garantindo firmeza na apreensão, é a:",
@@ -2746,6 +2928,7 @@
   {
     "id": "bc-b160181d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São afastadores dinâmicos, que exigem um auxiliar segurando:",
@@ -2761,6 +2944,7 @@
   {
     "id": "bc-0e4bbcf0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A fumaça cirúrgica gerada pela vaporização tecidual contém:",
@@ -2776,6 +2960,7 @@
   {
     "id": "bc-776dcbc6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o número de tempos fundamentais, é correto afirmar:",
@@ -2791,6 +2976,7 @@
   {
     "id": "bc-48968a79",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São efeitos metabólicos da ativação simpática no trauma:",
@@ -2806,6 +2992,7 @@
   {
     "id": "bc-3ef58923",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A diferença entre corrente contínua e corrente alternada é que, na alternada:",
@@ -2821,6 +3008,7 @@
   {
     "id": "bc-2711a29e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sonda é definida como o dispositivo instalado:",
@@ -2836,6 +3024,7 @@
   {
     "id": "bc-7c60a46e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A fase de recuperação da resposta ao trauma caracteriza-se por:",
@@ -2851,6 +3040,7 @@
   {
     "id": "bc-46a9e263",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A unidade eletrocirúrgica converte a frequência da rede elétrica em:",
@@ -2866,6 +3056,7 @@
   {
     "id": "bc-d94c42ee",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São fatores que modulam a intensidade da resposta endocrinometabólica ao trauma, exceto:",
@@ -2881,6 +3072,7 @@
   {
     "id": "bc-31e686b9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Antes de o paciente sair da sala cirúrgica, a enfermagem confirma verbalmente, exceto:",
@@ -2896,6 +3088,7 @@
   {
     "id": "bc-6cffe094",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "As alterações do sódio e da osmolaridade no paciente traumatizado sofrem influência de:",
@@ -2911,6 +3104,7 @@
   {
     "id": "bc-24252f2c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O efeito da corrente elétrica desejado na eletrocirurgia, responsável pelo corte e pela coagulação, é o:",
@@ -2926,6 +3120,7 @@
   {
     "id": "bc-73920d93",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A grandeza que expressa a oposição do tecido à passagem da corrente e é responsável pela conversão de energia elétrica em calor é:",
@@ -2941,6 +3136,7 @@
   {
     "id": "bc-75a4b1c5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno Porto-Vac é considerado inadequado para a cavidade abdominal porque:",
@@ -2956,6 +3152,7 @@
   {
     "id": "bc-eee897f3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os aminoácidos mobilizados na resposta ao trauma provêm principalmente:",
@@ -2971,6 +3168,7 @@
   {
     "id": "bc-6bfd48e7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A elevação do lactato no politraumatizado deve ser interpretada como:",
@@ -2986,6 +3184,7 @@
   {
     "id": "bc-42061152",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um acadêmico deseja realizar a sutura de pele ao final do procedimento. A conduta adequada é:",
@@ -3001,6 +3200,7 @@
   {
     "id": "bc-88ab955d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na retirada das luvas ao final do procedimento, a sequência correta prevê que:",
@@ -3016,6 +3216,7 @@
   {
     "id": "bc-3723334f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Segundo a definição do material, drenos são:",
@@ -3031,6 +3232,7 @@
   {
     "id": "bc-0cfb4054",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto ao suporte nutricional no paciente traumatizado grave, é correto afirmar:",
@@ -3046,6 +3248,7 @@
   {
     "id": "bc-aafad037",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em uma toracotomia, o afastador autoestático classicamente utilizado para manter os arcos costais afastados é:",
@@ -3061,6 +3264,7 @@
   {
     "id": "bc-294a2749",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A propriedade do fio definida como a tendência a manter a posição anterior, dificultando a confecção e a manutenção dos nós, é:",
@@ -3076,6 +3280,7 @@
   {
     "id": "bc-769218c8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o posicionamento da placa dispersiva, é correto afirmar:",
@@ -3091,6 +3296,7 @@
   {
     "id": "bc-f25ba4ac",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quem não realizou a lavagem cirúrgica das mãos:",
@@ -3106,6 +3312,7 @@
   {
     "id": "bc-ac79ce1b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A confirmação de que o antimicrobiano profilático foi administrado nos últimos 60 minutos pertence a qual momento da Lista de Verificação?",
@@ -3121,6 +3328,7 @@
   {
     "id": "bc-c6aff0c4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A via oral é preferida à nasal para a sondagem gástrica quando:",
@@ -3136,6 +3344,7 @@
   {
     "id": "bc-9049d4b9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em uma herniorrafia, o cirurgião pinça e liga a veia epigástrica superficial antes de secioná-la. Esse gesto configura:",
@@ -3151,6 +3360,7 @@
   {
     "id": "bc-85d2bca3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o tubo orotraqueal e a traqueostomia, é correto afirmar:",
@@ -3166,6 +3376,7 @@
   {
     "id": "bc-63999977",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os materiais das sondas, é correto afirmar:",
@@ -3181,6 +3392,7 @@
   {
     "id": "bc-40220dc3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A disposição da mesa de instrumentação é organizada segundo:",
@@ -3196,6 +3408,7 @@
   {
     "id": "bc-bc1667bf",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o metabolismo lipídico no trauma, é correto afirmar:",
@@ -3211,6 +3424,7 @@
   {
     "id": "bc-6d691d1c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Comparando monopolar e bipolar, assinale a alternativa incorreta:",
@@ -3226,6 +3440,7 @@
   {
     "id": "bc-24ef4dd4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual item não pertence à checagem realizada antes da indução anestésica?",
@@ -3241,6 +3456,7 @@
   {
     "id": "bc-6690ff5a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a demarcação do sítio cirúrgico, é correto afirmar:",
@@ -3256,6 +3472,7 @@
   {
     "id": "bc-86bb9aa6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lâmina pontiaguda, adequada a incisões puntiformes como a drenagem de abscessos, é a de número:",
@@ -3271,6 +3488,7 @@
   {
     "id": "bc-6504ee77",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise:\nI. O catgut cromado é absorvível e de origem animal.\nII. O Mononylon é sintético, inabsorvível e monofilamentar.\nIII. A seda é inabsorvível, natural e multifilamentar.\nIV. O Dexon é inabsorvível e monofilamentar.",
@@ -3286,6 +3504,7 @@
   {
     "id": "bc-4e214c4c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Após concluir a lavagem cirúrgica, o profissional deve:",
@@ -3301,6 +3520,7 @@
   {
     "id": "bc-9080f7ce",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São exemplos de fios inabsorvíveis de origem natural:",
@@ -3316,6 +3536,7 @@
   {
     "id": "bc-44778a23",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A hemostasia pode ser classificada, quanto à duração do efeito, em:",
@@ -3331,6 +3552,7 @@
   {
     "id": "bc-85cc996f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Compressas, gazes e cubas são classificadas no material como pertencentes ao grupo:",
@@ -3346,6 +3568,7 @@
   {
     "id": "bc-85f61f66",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A elevação da ureia em paciente politraumatizado deve ser interpretada considerando que:",
@@ -3361,6 +3584,7 @@
   {
     "id": "bc-e7322ff1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a associação correta entre tecnologia e mecanismo:",
@@ -3376,6 +3600,7 @@
   {
     "id": "bc-7e2266a1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A degermação diferencia-se da antissepsia simples porque:",
@@ -3391,6 +3616,7 @@
   {
     "id": "bc-654f83a9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A coagulação clínica, tal como obtida no campo operatório, resulta:",
@@ -3406,6 +3632,7 @@
   {
     "id": "bc-7322c3bb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O afastador autoestático dotado de valva suprapúbica, usado em laparotomias infraumbilicais, é o:",
@@ -3421,6 +3648,7 @@
   {
     "id": "bc-f1e1ef97",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A sequência hormonal do eixo hipotálamo-hipófise-adrenal no trauma é:",
@@ -3436,6 +3664,7 @@
   {
     "id": "bc-562e35c7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A propriedade definida como a força necessária para que o nó deslize é:",
@@ -3451,6 +3680,7 @@
   {
     "id": "bc-433aead6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A história da cirurgia inicia-se na pré-história com procedimentos empíricos e mágico-religiosos. Sobre as práticas cirúrgicas primitivas e os primeiros registros documentados da Antiguidade, assinale a alternativa correta:",
@@ -3466,6 +3696,7 @@
   {
     "id": "bc-e0927c86",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No efeito de corte, a relação entre eletrodo e tecido caracteriza-se por:",
@@ -3481,6 +3712,7 @@
   {
     "id": "bc-52ba87f4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A função da agulha cirúrgica é:",
@@ -3496,6 +3728,7 @@
   {
     "id": "bc-523b141b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os objetivos imediatos da resposta orgânica ao trauma são:",
@@ -3511,6 +3744,7 @@
   {
     "id": "bc-8e322343",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cistostomia (punção suprapúbica) está indicada especialmente quando há:",
@@ -3526,6 +3760,7 @@
   {
     "id": "bc-20713c1d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o selador vascular bipolar, é incorreto afirmar:",
@@ -3541,6 +3776,7 @@
   {
     "id": "bc-4a4d9c99",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A extremidade interna simples ou bifurcada é característica descrita para o dreno:",
@@ -3556,6 +3792,7 @@
   {
     "id": "bc-a1210c8d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A realização de operações longas e planejadas, em substituição à cirurgia rápida ditada pela dor do paciente, tornou-se possível a partir de qual marco?",
@@ -3571,6 +3808,7 @@
   {
     "id": "bc-1a063db7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Relacione corretamente o autor e a sua contribuição:",
@@ -3586,6 +3824,7 @@
   {
     "id": "bc-c4cbf698",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o desenvolvimento do bisturi elétrico, assinale a afirmativa correta:",
@@ -3601,6 +3840,7 @@
   {
     "id": "bc-783d9965",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A passagem da antissepsia para a assepsia representou qual mudança conceitual?",
@@ -3616,6 +3856,7 @@
   {
     "id": "bc-25262753",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A introdução das luvas cirúrgicas e a consolidação da esterilização do instrumental estão associadas a:",
@@ -3631,6 +3872,7 @@
   {
     "id": "bc-17a05a1e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ignaz Semmelweis, ao propor a lavagem das mãos em 1847, obteve queda expressiva da mortalidade por:",
@@ -3646,6 +3888,7 @@
   {
     "id": "bc-7f001629",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Joseph Lister, em 1867, aplicou à ferida operatória os princípios da teoria microbiana usando:",
@@ -3661,6 +3904,7 @@
   {
     "id": "bc-1f52b88b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A principal vantagem clínica atribuída à videolaparoscopia em relação à cirurgia aberta é:",
@@ -3676,6 +3920,7 @@
   {
     "id": "bc-c1377734",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A teoria microbiana das doenças, que deu base científica à antissepsia de Lister, foi formulada por:",
@@ -3691,6 +3936,7 @@
   {
     "id": "bc-8680f3b5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a incorporação de tecnologia à cirurgia contemporânea, assinale a alternativa INCORRETA:",
@@ -3707,6 +3953,7 @@
   {
     "id": "bc-507c1274",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São métodos de hemostasia definitiva, EXCETO:",
@@ -3723,6 +3970,7 @@
   {
     "id": "bc-230a2467",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que descreve corretamente a divulsão:",
@@ -3738,6 +3986,7 @@
   {
     "id": "bc-3f9bd20b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tempo operatório destinado a abrir os planos e dar acesso à região-alvo é:",
@@ -3753,6 +4002,7 @@
   {
     "id": "bc-46031cb9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as formas de diérese, assinale a alternativa INCORRETA:",
@@ -3768,6 +4018,7 @@
   {
     "id": "bc-07bc2c73",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em uma tireoidectomia, o cirurgião liga a artéria tireóidea superior antes de secioná-la; em seguida, um pequeno vaso do subcutâneo sangra e é coagulado. Esses dois gestos são, respectivamente:",
@@ -3783,6 +4034,7 @@
   {
     "id": "bc-25f10ac0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que caracteriza corretamente a hemostasia curativa:",
@@ -3798,6 +4050,7 @@
   {
     "id": "bc-e5ecae91",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada recurso à sua classificação quanto à duração do efeito:\n\n1. Temporária\n2. Definitiva\n\n( ) Clampeamento do vaso com pinça hemostática.\n( ) Ligadura do vaso com fio.\n( ) Compressão manual com compressa.\n( ) Selagem vascular por energia bipolar.",
@@ -3806,6 +4059,7 @@
   {
     "id": "bc-34a78ded",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A retirada de um lipoma da parede abdominal corresponde a qual tempo operatório?",
@@ -3821,6 +4075,7 @@
   {
     "id": "bc-9e1ef624",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a exérese, assinale a alternativa INCORRETA:",
@@ -3836,6 +4091,7 @@
   {
     "id": "bc-c1023526",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao final de uma drenagem de abscesso, o cirurgião mantém um dreno exteriorizado e não fecha completamente a ferida. A síntese realizada é:",
@@ -3851,6 +4107,7 @@
   {
     "id": "bc-5f1a16e3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São meios de realizar a síntese, EXCETO:",
@@ -3867,6 +4124,7 @@
   {
     "id": "bc-ebf2c116",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em uma apendicectomia, a sequência de tempos operatórios é:",
@@ -3882,6 +4140,7 @@
   {
     "id": "bc-aa73f55a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Julgue os itens sobre a dinâmica dos tempos operatórios:\n\n( ) A hemostasia ocorre uma única vez, entre a diérese e a exérese.\n( ) A síntese reconstrói os planos na ordem inversa da diérese.\n( ) A exérese é o tempo variável, ausente em algumas operações.\n( ) A diérese pode ser realizada com bisturi, tesoura ou eletrocirurgia.",
@@ -3890,6 +4149,7 @@
   {
     "id": "bc-459ce0ed",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tempo operatório ao instrumento que o representa:\n\n1. Diérese\n2. Hemostasia\n3. Preensão\n4. Síntese\n5. Exposição\n\n( ) Cabo de bisturi com lâmina.\n( ) Pinça de Halsted.\n( ) Pinça de Babcock.\n( ) Porta-agulhas de Mayo-Hegar.\n( ) Afastador de Farabeuf.",
@@ -3898,6 +4158,7 @@
   {
     "id": "bc-daa34c3e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa em que o instrumento não corresponde ao tempo indicado:",
@@ -3913,6 +4174,7 @@
   {
     "id": "bc-5e89f3d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Segundo o material da disciplina, os tempos fundamentais da técnica operatória são, em ordem:",
@@ -3928,6 +4190,7 @@
   {
     "id": "bc-c3ad7b45",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O corredor periférico do centro cirúrgico pertence à zona:",
@@ -3943,6 +4206,7 @@
   {
     "id": "bc-60cc75fb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa em que nenhum ambiente pertence à zona semirrestrita:",
@@ -3958,6 +4222,7 @@
   {
     "id": "bc-115d575b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um acadêmico entra na sala cirúrgica com o LAP de campos já aberto, usando pijama privativo, gorro e propés. Falta-lhe:",
@@ -3973,6 +4238,7 @@
   {
     "id": "bc-ad7883b4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada zona à exigência de paramentação:\n\n1. Irrestrita\n2. Semirrestrita\n3. Restrita\n\n( ) Circulação livre, sem uniforme privativo.\n( ) Pijama cirúrgico, touca ou gorro e propés.\n( ) Tudo o que a zona limpa exige, mais a máscara cirúrgica.",
@@ -3981,6 +4247,7 @@
   {
     "id": "bc-869570e7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A confirmação de que o sítio cirúrgico está demarcado e conferido visualmente ocorre:",
@@ -3996,6 +4263,7 @@
   {
     "id": "bc-831ebcd0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o momento imediatamente anterior à incisão, assinale a alternativa INCORRETA:",
@@ -4012,6 +4280,7 @@
   {
     "id": "bc-7d5e3b0b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quem confirma verbalmente a identificação das amostras obtidas, com o nome do paciente?",
@@ -4027,6 +4296,7 @@
   {
     "id": "bc-c531c58f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O Protocolo de Cirurgia Segura tem por objetivo:",
@@ -4042,6 +4312,7 @@
   {
     "id": "bc-00aac4b2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o uso de adornos por profissionais no centro cirúrgico, é correto afirmar que:",
@@ -4057,6 +4328,7 @@
   {
     "id": "bc-5d09907c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a conduta esperada do acadêmico no centro cirúrgico, assinale a alternativa INCORRETA:",
@@ -4073,6 +4345,7 @@
   {
     "id": "bc-a2ef32c1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a antibioticoprofilaxia cirúrgica, assinale a alternativa INCORRETA:",
@@ -4089,6 +4362,7 @@
   {
     "id": "bc-f5799b96",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Comparando clorexidina e PVPI como antissépticos para preparo da pele, é correto afirmar que:",
@@ -4104,6 +4378,7 @@
   {
     "id": "bc-19403603",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na antissepsia da pele do paciente, o movimento correto de aplicação é:",
@@ -4119,6 +4394,7 @@
   {
     "id": "bc-beb5d0f4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao enxaguar as mãos após a escovação cirúrgica, é correto:",
@@ -4134,6 +4410,7 @@
   {
     "id": "bc-4aa072fa",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A esterilização do instrumental cirúrgico é medida de:",
@@ -4149,6 +4426,7 @@
   {
     "id": "bc-03a242f2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa em que a medida está corretamente classificada:",
@@ -4164,6 +4442,7 @@
   {
     "id": "bc-f06c6312",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O que distingue a degermação da antissepsia simples é:",
@@ -4179,6 +4458,7 @@
   {
     "id": "bc-2882dd2d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em cirurgias realizadas em sequência, a lavagem cirúrgica das mãos deve durar:",
@@ -4194,6 +4474,7 @@
   {
     "id": "bc-5019914c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a lavagem cirúrgica das mãos, assinale a alternativa INCORRETA:",
@@ -4209,6 +4490,7 @@
   {
     "id": "bc-43b4a0ae",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Após o enxágue, o profissional deve manter as mãos:",
@@ -4224,6 +4506,7 @@
   {
     "id": "bc-0d9093c0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a sequência correta da paramentação:",
@@ -4239,6 +4522,7 @@
   {
     "id": "bc-23e05f79",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um profissional paramentado ajeita a gola do próprio capote com a mão enluvada. Sobre esse gesto, é correto afirmar que:",
@@ -4254,6 +4538,7 @@
   {
     "id": "bc-5520a470",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a vestimenta do avental cirúrgico, assinale a alternativa INCORRETA:",
@@ -4269,6 +4554,7 @@
   {
     "id": "bc-22d92868",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Julgue os itens sobre o calçamento e a retirada das luvas estéreis:\n\n( ) A mão nua só pode tocar a parte interna da luva.\n( ) A mão já enluvada desliza sob a borda da segunda luva, tocando sua face externa.\n( ) Dedos que entraram trocados devem ser corrigidos antes de calçar a segunda luva.\n( ) Na retirada, a mão desnuda toca apenas a face interna da luva remanescente.",
@@ -4277,6 +4563,7 @@
   {
     "id": "bc-a483a198",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A diferença fundamental entre a tesoura de Mayo e a de Metzenbaum é que:",
@@ -4292,6 +4579,7 @@
   {
     "id": "bc-ceb55b9d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A conferência de instrumentais, compressas e agulhas antes do fechamento da cavidade tem como objetivo principal:",
@@ -4307,6 +4595,7 @@
   {
     "id": "bc-9f0e18d6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual instrumento é apropriado para apreender e tracionar a vesícula biliar durante a colecistectomia, causando trauma mínimo à sua parede?",
@@ -4322,6 +4611,7 @@
   {
     "id": "bc-7013724b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a montagem da mesa e a disposição do instrumental, assinale a alternativa INCORRETA:",
@@ -4338,6 +4628,7 @@
   {
     "id": "bc-25cb6872",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lâmina nº 22 encaixa no cabo de bisturi de número:",
@@ -4353,6 +4644,7 @@
   {
     "id": "bc-fe73b232",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a associação INCORRETA entre lâmina e cabo:",
@@ -4368,6 +4660,7 @@
   {
     "id": "bc-131966dc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Diante de um pedículo vascular espesso, a pinça hemostática mais apropriada é:",
@@ -4383,6 +4676,7 @@
   {
     "id": "bc-c6259992",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para apreender a borda da aponeurose com segurança, a pinça indicada é:",
@@ -4398,6 +4692,7 @@
   {
     "id": "bc-3621d23f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que contém apenas afastadores autoestáticos:",
@@ -4413,6 +4708,7 @@
   {
     "id": "bc-92dd2b41",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O afastador autoestático próprio para separar os arcos costais é:",
@@ -4428,6 +4724,7 @@
   {
     "id": "bc-d9d6dfda",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a pinça de Kocher, assinale a alternativa INCORRETA:",
@@ -4443,6 +4740,7 @@
   {
     "id": "bc-77c7d96a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Compressas, gazes e cubas classificam-se como instrumental:",
@@ -4458,6 +4756,7 @@
   {
     "id": "bc-ccf9ce3b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Julgue os itens sobre a organização da mesa de instrumentação:\n\n( ) A disposição segue a lógica dos tempos operatórios.\n( ) O instrumental do tempo que abre a cirurgia fica mais próximo da mão dominante de quem instrumenta.\n( ) A mesa é organizada por ordem alfabética dos instrumentos.\n( ) Instrumental comum é aquele usado em qualquer instrumentação.",
@@ -4466,6 +4765,7 @@
   {
     "id": "bc-68904202",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para a síntese de aponeurose em laparotomia mediana, o fio mais apropriado, de modo geral, é:",
@@ -4481,6 +4781,7 @@
   {
     "id": "bc-b8922cdc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre grampeadores cirúrgicos, assinale a alternativa correta:",
@@ -4496,6 +4797,7 @@
   {
     "id": "bc-606deb0e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Entre os fios abaixo, o de menor diâmetro é:",
@@ -4511,6 +4813,7 @@
   {
     "id": "bc-e856757b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para síntese de pele em área delicada e sem tensão, o calibre mais apropriado é:",
@@ -4526,6 +4829,7 @@
   {
     "id": "bc-c55a6af8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Classifique a seda quanto aos três eixos:",
@@ -4541,6 +4845,7 @@
   {
     "id": "bc-b24bbc57",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que contém apenas fios absorvíveis:",
@@ -4556,6 +4861,7 @@
   {
     "id": "bc-bf6fe03b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada fio ao seu perfil:\n\n1. Absorvível natural\n2. Absorvível sintético\n3. Inabsorvível natural\n4. Inabsorvível sintético\n\n( ) Catgut cromado.\n( ) Vicryl.\n( ) Algodão.\n( ) Polipropileno (Prolene).",
@@ -4564,6 +4870,7 @@
   {
     "id": "bc-4ae604d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em ferida contaminada, o fio preferido e a razão são:",
@@ -4579,6 +4886,7 @@
   {
     "id": "bc-3b4fa240",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os fios multifilamentares, assinale a alternativa INCORRETA:",
@@ -4594,6 +4902,7 @@
   {
     "id": "bc-fe025e21",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A propriedade que permite ao fio acompanhar o aumento de volume do tecido edemaciado e retornar depois é:",
@@ -4609,6 +4918,7 @@
   {
     "id": "bc-d346ab58",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O postulado segundo o qual a perda de resistência do fio deve ser compensada pelo ganho de resistência da cicatriz implica que:",
@@ -4624,6 +4934,7 @@
   {
     "id": "bc-9cd5da37",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para sutura de alça intestinal, a agulha indicada quanto à secção transversal é:",
@@ -4639,6 +4950,7 @@
   {
     "id": "bc-b9785e98",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quanto à angulação, a agulha reta corresponde a:",
@@ -4654,6 +4966,7 @@
   {
     "id": "bc-971fa2c5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Julgue os itens a seguir em verdadeiro (V) ou falso (F):\n\n( ) O dreno de Blake combina drenagem por capilaridade com a possibilidade de sucção.\n( ) O dreno Porto-VAC é ideal para cavidades abdominais profundas devido à sua alta potência de sucção.\n( ) O dreno de tórax é geralmente usado por sucção contínua, com alto custo.\n( ) O dreno Pigtail possui extremidade que se enrola e é utilizado por gravidade.\n( ) O dreno de Penrose é o mais indicado para ambientes contaminados, como abscessos.",
@@ -4662,6 +4975,7 @@
   {
     "id": "bc-50b05b50",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe corretamente os drenos às suas principais características:\n\n1. Dreno de Blake\n2. Dreno Porto-VAC\n3. Dreno de tórax\n4. Dreno Pigtail\n5. Dreno de Penrose\n\n( ) Dreno passivo, simples, por capilaridade, feito de látex ou silicone.\n( ) Dreno com alto custo, de silicone, com ponta enrolada e fenestrações.\n( ) Utilizado por sucção, feito de plástico, com acessibilidade intermediária.\n( ) Dreno de silicone com ação combinada de sucção e capilaridade.\n( ) Dreno plástico, usado por gravidade, com extremidade fenestrada e linha radiopaca.",
@@ -4670,6 +4984,7 @@
   {
     "id": "bc-dc62ca84",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o momento de retirada de um dreno, é correto afirmar que:",
@@ -4685,6 +5000,7 @@
   {
     "id": "bc-f3b9a9d5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São complicações associadas ao uso de drenos, EXCETO:",
@@ -4701,6 +5017,7 @@
   {
     "id": "bc-a4321427",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno que drena por capilaridade e é feito em lâmina de látex ou silicone é o:",
@@ -4716,6 +5033,7 @@
   {
     "id": "bc-ce73591e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada dreno ao seu mecanismo de drenagem:\n\n1. Capilaridade\n2. Sucção\n3. Capilaridade e sucção\n4. Gravidade\n\n( ) Penrose.\n( ) Porto-Vac.\n( ) Blake.\n( ) Dreno de tórax.",
@@ -4724,6 +5042,7 @@
   {
     "id": "bc-b6208cd5",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em pós-operatório com descolamento amplo de subcutâneo necessita de drenagem com sucção e custo acessível. O dreno indicado é:",
@@ -4739,6 +5058,7 @@
   {
     "id": "bc-62c72b4e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o uso do Porto-Vac, assinale a alternativa INCORRETA:",
@@ -4754,6 +5074,7 @@
   {
     "id": "bc-920be499",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um dreno colocado junto a uma anastomose recém-confeccionada, sem coleção presente, tem finalidade:",
@@ -4769,6 +5090,7 @@
   {
     "id": "bc-48887ff7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Julgue os itens sobre sondas:\n\n( ) A sonda de Foley é usada para cateterismo vesical de demora graças ao balonete.\n( ) A sonda nasogástrica tem como função típica a descompressão gástrica em íleo adinâmico.\n( ) A unidade French expressa o comprimento da sonda em centímetros.\n( ) A gastrostomia é a via cruenta equivalente à sondagem gástrica.",
@@ -4777,6 +5099,7 @@
   {
     "id": "bc-20b5183e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente vítima de trauma facial grave com fratura dos ossos nasais necessita de descompressão gástrica. A conduta correta quanto à via de sondagem é:",
@@ -4792,6 +5115,7 @@
   {
     "id": "bc-5d7dddfc",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em choque hipovolêmico necessita de ressuscitação volêmica vigorosa imediata. O acesso vascular de escolha é:",
@@ -4807,6 +5131,7 @@
   {
     "id": "bc-274264cb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lei de Poiseuille explica por que cateteres curtos e calibrosos infundem mais volume que cateteres longos e finos.",
@@ -4822,6 +5147,7 @@
   {
     "id": "bc-0ac3bddd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cateter venoso central totalmente implantado, com câmara subcutânea acessada por agulha tipo Huber, é o:",
@@ -4837,6 +5163,7 @@
   {
     "id": "bc-8deda7eb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual veia apresenta a menor taxa de infecção e a maior de pneumotórax na punção venosa central?",
@@ -4852,6 +5179,7 @@
   {
     "id": "bc-e8802407",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em pacientes com choque séptico refratário, a monitorização da saturação venosa central de oxigênio (SvcO2) exige acesso em:",
@@ -4867,6 +5195,7 @@
   {
     "id": "bc-abfb865c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A principal vantagem do cateter venoso central de inserção periférica (PICC) em relação à punção central direta é:",
@@ -4882,6 +5211,7 @@
   {
     "id": "bc-4c2dfbe6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em programa de quimioterapia há 6 meses para neoplasia de cólon necessita de infusões periódicas de agentes vesicantes. O acesso mais indicado é:",
@@ -4897,6 +5227,7 @@
   {
     "id": "bc-01d933ba",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A confirmação da localização da extremidade do cateter venoso central antes do início da infusão é feita por:",
@@ -4912,6 +5243,7 @@
   {
     "id": "bc-f37a9f49",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A técnica de Seldinger compreende a sequência:",
@@ -4927,6 +5259,7 @@
   {
     "id": "bc-2cdcc40c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cateter de hemodiálise de curta permanência, de duplo lúmen e grosso calibre, comumente puncionado em veia jugular interna, é o de:",
@@ -4942,6 +5275,7 @@
   {
     "id": "bc-b4790a58",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente submetido à punção de veia jugular interna direita evolui subitamente com dispneia, taquicardia, hipotensão e murmúrio vesicular abolido no hemitórax direito. O diagnóstico e a conduta imediata são:",
@@ -4957,6 +5291,7 @@
   {
     "id": "bc-27280d5b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O calibre dos cateteres venosos periféricos é expresso em Gauge (G). A relação correta entre o número em Gauge e o diâmetro do cateter é:",
@@ -4972,6 +5307,7 @@
   {
     "id": "bc-3362868d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São vantagens do uso do ultrassom na punção venosa central, EXCETO:",
@@ -4987,6 +5323,7 @@
   {
     "id": "bc-f581fec3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A via venosa femoral para acesso central é desaconselhada para permanência prolongada devido a:",
@@ -5002,6 +5339,7 @@
   {
     "id": "bc-0e98f9de",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cateter de Swan-Ganz diferencia-se dos demais cateteres venosos centrais por:",
@@ -5017,6 +5355,7 @@
   {
     "id": "bc-5ff8a90d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a dissecção venosa (flebotomia), é correto afirmar:",
@@ -5032,6 +5371,7 @@
   {
     "id": "bc-d55f9d4f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A complicação mecânica mais temida na passagem de cateter de Swan-Ganz, associada à insuflação inadequada do balonete em ramo distal, é:",
@@ -5047,6 +5387,7 @@
   {
     "id": "bc-ddd5d0e6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A indicação indiscutível de acesso venoso central, mesmo quando há bons acessos periféricos disponíveis, é:",
@@ -5062,6 +5403,7 @@
   {
     "id": "bc-ce577172",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São veias periféricas comumente empregadas para punção venosa em membros superiores, EXCETO:",
@@ -5077,6 +5419,7 @@
   {
     "id": "bc-3d0f7dcd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O fenômeno de reflexo vaso-vagal que pode ocorrer durante a passagem de sondas nasogástricas ou nasoenterais manifesta-se tipicamente por:",
@@ -5092,6 +5435,7 @@
   {
     "id": "bc-c4f11b39",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A posição clássica do paciente acordado durante a passagem de sonda nasogástrica para minimizar o risco de aspiração é:",
@@ -5107,6 +5451,7 @@
   {
     "id": "bc-84baa3e4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O teste considerado padrão-ouro absoluto para confirmar a localização correta da sonda nasoenteral antes da liberação da dieta é:",
@@ -5122,6 +5467,7 @@
   {
     "id": "bc-a9380082",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno de Kehr (ou tubo em T) tem como indicação cirúrgica precípua:",
@@ -5137,6 +5483,7 @@
   {
     "id": "bc-10641563",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A principal vantagem dos sistemas de drenagem torácica com selo d'água é:",
@@ -5152,6 +5499,7 @@
   {
     "id": "bc-86493f70",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O dreno de Abramson é caracterizado por:",
@@ -5167,6 +5515,7 @@
   {
     "id": "bc-29469df8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação ao cateterismo vesical com sonda de Foley em homens, é indispensável que:",
@@ -5182,6 +5531,7 @@
   {
     "id": "bc-a46822d2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A utilização de soro fisiológico em vez de água destilada para a insuflação do balonete da sonda de Foley é contraindicada porque:",
@@ -5197,6 +5547,7 @@
   {
     "id": "bc-0e251491",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação às complicações da sondagem vesical de demora, a mais frequente a longo prazo é:",
@@ -5212,6 +5563,7 @@
   {
     "id": "bc-49816e20",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A escala de Mallampati avalia estruturas anatômicas da orofaringe com o paciente sentado e boca aberta, sem fonação. A visualização exclusiva do palato duro corresponde à classe:",
@@ -5227,6 +5579,7 @@
   {
     "id": "bc-8129b5ce",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pontuação na escala de coma de Glasgow varia de:",
@@ -5242,6 +5595,7 @@
   {
     "id": "bc-94221513",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente politraumatizado abre os olhos apenas ao estímulo doloroso, emite palavras inapropriadas e localiza o estímulo doloroso. A pontuação na escala de Glasgow é:",
@@ -5257,6 +5611,7 @@
   {
     "id": "bc-bb74e34d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A manobra de manuseio básico de via aérea com extensão da cabeça e elevação do mento (chin lift) é estritamente contraindicada em:",
@@ -5272,6 +5627,7 @@
   {
     "id": "bc-8d563395",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A alternativa de manobra básica para abertura de via aérea no paciente com suspeita de trauma cervical é:",
@@ -5287,6 +5643,7 @@
   {
     "id": "bc-203152a7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cânula orofaríngea de Guedel está contraindicada em pacientes conscientes ou com reflexo nauseoso preservado porque:",
@@ -5302,6 +5659,7 @@
   {
     "id": "bc-e4ea329b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A medida correta da cânula de Guedel para escolha do tamanho apropriado é feita medindo-se:",
@@ -5317,6 +5675,7 @@
   {
     "id": "bc-43afadcd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cricotireoidostomia cirúrgica é contraindicada como via aérea de emergência em crianças menores de 8 a 10 anos devido a:",
@@ -5332,6 +5691,7 @@
   {
     "id": "bc-f8e26757",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em crianças pequenas com obstrução de via aérea que não conseguem ser ventiladas nem intubadas, a técnica de via aérea cirúrgica de resgate recomendada é:",
@@ -5347,6 +5707,7 @@
   {
     "id": "bc-fc169b50",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A manobra de Sellick consiste em:",
@@ -5362,6 +5723,7 @@
   {
     "id": "bc-7314b2f2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual o fármaco hipnótico/sedativo utilizado na intubação de sequência rápida (ISR) que possui ação analgésica e broncodilatadora intrínseca, além de efeito simpaticomimético indireto?",
@@ -5377,6 +5739,7 @@
   {
     "id": "bc-63bd3736",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O bloqueador neuromuscular despolarizante clássico de início ultrarrápido utilizado na ISR é:",
@@ -5392,6 +5755,7 @@
   {
     "id": "bc-b0416689",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A succinilcolina é contraindicada em situações de hipercalemia ou risco elevado de escape de potássio, tais como:",
@@ -5407,6 +5771,7 @@
   {
     "id": "bc-201e6696",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O antídoto específico para reversão imediata de bloqueadores neuromusculares adespolarizantes esteroidais (como o rocurônio e o vecurônio) é:",
@@ -5422,6 +5787,7 @@
   {
     "id": "bc-5d0456fb",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A confirmação primária mais confiável do posicionamento intratraqueal do tubo em ambiente hospitalar, além da ausculta, é obtida por:",
@@ -5437,6 +5803,7 @@
   {
     "id": "bc-6323d214",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao auscultar o tórax de um paciente recém-intubado, o médico nota murmúrio vesicular presente à direita, ausente à esquerda e ausência de ruídos no epigástrio. O diagnóstico mais provável é:",
@@ -5452,6 +5819,7 @@
   {
     "id": "bc-dd124654",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Diante da constatação de intubação seletiva no brônquio-fonte direito, a conduta correta imediata é:",
@@ -5467,6 +5835,7 @@
   {
     "id": "bc-0c66197e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A máscara laríngea (ML) classifica-se como dispositivo:",
@@ -5482,6 +5851,7 @@
   {
     "id": "bc-cd7fb4f8",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a máscara laríngea, é correto afirmar:",
@@ -5497,6 +5867,7 @@
   {
     "id": "bc-10f45881",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente vítima de ferimento por projétil de arma de fogo na face com destruição óssea maciça, sangramento incontrolável na orofaringe, em apneia e saturação em queda rápida (82%). As tentativas de intubação foram frustradas e a ventilação por máscara é ineficaz. A conduta imediata para garantia da vida é:",
@@ -5512,6 +5883,7 @@
   {
     "id": "bc-54503987",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lâmina de laringoscópio reta (Miller) é classicamente desenhada para:",
@@ -5527,6 +5899,7 @@
   {
     "id": "bc-05eaba0b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A lâmina curva de laringoscópio (Macintosh) tem sua ponta posicionada anatômica e preferencialmente:",
@@ -5542,6 +5915,7 @@
   {
     "id": "bc-8c335e11",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na escala de Cormack-Lehane de laringoscopia, o grau III caracteriza-se por:",
@@ -5557,6 +5931,7 @@
   {
     "id": "bc-0e5452e9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O Bougie (introdutor elástico de Eschmann) é particularmente útil na intubação orotraqueal em casos de laringoscopia difícil grau:",
@@ -5572,6 +5947,7 @@
   {
     "id": "bc-c2ad6910",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A sensação tátil característica da ponta do Bougie que confirma sua entrada na traqueia e não no esôfago é:",
@@ -5587,6 +5963,7 @@
   {
     "id": "bc-943dfc94",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pressão recomendada de insuflação do balonete (cuff) do tubo orotraqueal para garantir vedação e prevenir necrose isquêmica da mucosa traqueal deve ser mantida entre:",
@@ -5602,6 +5979,7 @@
   {
     "id": "bc-2f3d1e8a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A posição do tubo orotraqueal em relação à carina traqueal no adulto deve ser idealmente posicionada a:",
@@ -5617,6 +5995,7 @@
   {
     "id": "bc-e50849b0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em situações de parada cardiorrespiratória no adulto, se o acesso venoso periférico ou central não puder ser obtido rapidamente, a via alternativa vascular recomendada pelas diretrizes internacionais é:",
@@ -5632,6 +6011,7 @@
   {
     "id": "bc-f508c450",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O sítio anatômico mais comumente utilizado para punção intraóssea em adultos e crianças em situações de emergência é:",
@@ -5647,6 +6027,7 @@
   {
     "id": "bc-ce6edfac",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A complicação infecciosa grave e tardia mais associada ao uso de cateteres venosos centrais de longa permanência é:",
@@ -5662,6 +6043,7 @@
   {
     "id": "bc-d4859691",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente admitido com queimadura por fogo em ambiente fechado, com escarros carbonáceos, queimadura de vibrissas nasais e rouquidão progressiva. A conduta prioritária e mandatória é:",
@@ -5677,6 +6059,7 @@
   {
     "id": "bc-780e134c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação aos cuidados com a extubação de pacientes de risco no pós-operatório imediato, o teste do escape do balonete ('cuff leak test') avalia:",
@@ -5692,6 +6075,7 @@
   {
     "id": "bc-cbb7843f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O procedimento cirúrgico programado realizado entre o segundo e o terceiro anéis traqueais para manutenção prolongada de via aérea artificial é a:",
@@ -5707,6 +6091,7 @@
   {
     "id": "bc-0d8591be",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente vítima de colisão automobilística em prancha rígida e colar cervical necessita de intubação. Durante a laringoscopia direta, um auxiliar treinado deve realizar:",
@@ -5722,6 +6107,7 @@
   {
     "id": "bc-e3892e42",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cânula traqueal de duplo lúmen (tubo de Carlens ou Robertshaw) é indicada principalmente em:",
@@ -5737,6 +6123,7 @@
   {
     "id": "bc-efc26c36",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A distância tireomentoniana (teste de Patil-Aldreti) menor que 6 cm em um adulto prevê:",
@@ -5752,6 +6139,7 @@
   {
     "id": "bc-5308f641",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A abertura bucal (distância interincisivos) mínima considerada preditora de intubação fácil com laringoscópio convencional no adulto é:",
@@ -5767,6 +6155,7 @@
   {
     "id": "bc-bb8940bd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O videolaringoscópio destaca-se na abordagem da via aérea difícil por:",
@@ -5782,6 +6171,7 @@
   {
     "id": "bc-61fa8bb7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O reflexo que deve estar idealmente presente e recuperado para garantir uma extubação segura após cirurgia com anestesia geral é:",
@@ -5797,6 +6187,7 @@
   {
     "id": "bc-26015b18",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O 'espaço morto anatômico' corresponde ao volume de gás:",
@@ -5812,6 +6203,7 @@
   {
     "id": "bc-4ddf3db3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pré-oxigenação com O2 a 100% sob máscara bem acoplada por 3 a 5 minutos antes da indução anestésica tem como objetivo fisiológico principal:",
@@ -5827,6 +6219,7 @@
   {
     "id": "bc-de8895dd",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O uso do balão autoinflável (AMBU) com bolsa reservatória e fluxo de oxigênio a 15 L/min oferece uma fração inspirada de oxigênio (FiO2) aproximada de:",
@@ -5842,6 +6235,7 @@
   {
     "id": "bc-b3647d36",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante a ventilação com bolsa-válvula-máscara (AMBU) por dois socorristas, a técnica recomendada para garantir a melhor vedação e abertura de via aérea é a:",
@@ -5857,6 +6251,7 @@
   {
     "id": "bc-d4c33d5d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A principal causa de obstrução de via aérea alta no paciente inconsciente em decúbito dorsal é:",
@@ -5872,6 +6267,7 @@
   {
     "id": "bc-50cd9e61",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cateter peridural colocado para analgesia pós-operatória contínua aloja-se:",
@@ -5887,6 +6283,7 @@
   {
     "id": "bc-39bd5699",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A perda de resistência à injeção de ar ou soro fisiológico (técnica de Dogliotti ou Gutierrez) é o método clássico para localização do:",
@@ -5902,6 +6299,7 @@
   {
     "id": "bc-3eb68334",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cefaleia pós-punção dural (CPPD) é decorrente de:",
@@ -5917,6 +6315,7 @@
   {
     "id": "bc-6c5afe02",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A característica postural marcante da cefaleia pós-punção dural é:",
@@ -5932,6 +6331,7 @@
   {
     "id": "bc-8b85ec81",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tratamento padrão-ouro para cefaleia pós-punção dural refratária ao manejo clínico com hidratação e cafeína é:",
@@ -5947,6 +6347,7 @@
   {
     "id": "bc-8281ffd2",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação àssepsia do campo para bloqueios anestésicos neuraxiais e punções centrais, a solução antisséptica de escolha com maior efeito residual e secagem rápida é:",
@@ -5962,6 +6363,7 @@
   {
     "id": "bc-e81f7d8c",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao realizar uma punção liquórica ou raquianestesia, as camadas anatômicas transfixadas pela agulha da pele até o espaço subaracnóideo são, em ordem:",
@@ -5977,6 +6379,7 @@
   {
     "id": "bc-8d9d9271",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O limite anatômico inferior usual de terminação da medula espinhal no adulto, que orienta a punção lombar nos espaços L3-L4 ou L4-L5 para evitar lesão medular, situa-se ao nível de:",
@@ -5992,6 +6395,7 @@
   {
     "id": "bc-dd32bbe3",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A linha imaginária que conecta as duas cristas ilíacas póstero-superiores (linha de Tuffier) cruza classicamente a coluna vertebral no nível de:",
@@ -6007,6 +6411,7 @@
   {
     "id": "bc-e7145cc9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A anestesia local por infiltração com lidocaína associada à adrenalina apresenta como benefício primário:",
@@ -6022,6 +6427,7 @@
   {
     "id": "bc-5e1ffb74",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A infiltração de anestésicos locais com vasoconstritor (adrenalina) é tradicionalmente evitada ou contraindicada formalmente em extremidades terminais com circulação colateral precária, tais como:",
@@ -6037,6 +6443,7 @@
   {
     "id": "bc-a06705c6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A dose máxima de segurança para infiltração local de lidocaína sem vasoconstritor em adultos é de aproximadamente:",
@@ -6052,6 +6459,7 @@
   {
     "id": "bc-b3187687",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Quando se adiciona adrenalina à lidocaína, a dose máxima de segurança aceita eleva-se para aproximadamente:",
@@ -6067,6 +6475,7 @@
   {
     "id": "bc-b276a44a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os sinais e sintomas precoces de toxicidade sistêmica por anestésicos locais (LAST) no sistema nervoso central incluem:",
@@ -6082,6 +6491,7 @@
   {
     "id": "bc-e218451d",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tratamento farmacológico de resgate específico para colapso cardiovascular e toxicidade sistêmica grave induzida por anestésicos locais (LAST) é:",
@@ -6097,6 +6507,7 @@
   {
     "id": "bc-6dcc2e22",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O curativo oclusivo aplicado sobre incisão cirúrgica limpa fechada por primeira intenção tem como finalidade principal nas primeiras 24 a 48 horas:",
@@ -6112,6 +6523,7 @@
   {
     "id": "bc-5f6bc42f",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ferida cirúrgica mantida limpa e suturada por primeira intenção conclui sua epitelização básica tornando-se impermeável à entrada de água e bactérias externas habitualmente em:",
@@ -6127,6 +6539,7 @@
   {
     "id": "bc-35badef6",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O debridamento cirúrgico de uma ferida traumática contaminada visa:",
@@ -6142,6 +6555,7 @@
   {
     "id": "bc-d17f6c89",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cicatrização por segunda intenção ocorre classicamente em:",
@@ -6157,6 +6571,7 @@
   {
     "id": "bc-ad8b7f77",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tecido de granulação saudável em uma ferida aberta caracteriza-se macroscopicamente por ser:",
@@ -6172,6 +6587,7 @@
   {
     "id": "bc-d970253a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A presença de esfacelo (tecido necrótico liquefativo ou fibrina amarelada) no leito de uma ferida crônica exige como prioridade:",
@@ -6187,6 +6603,7 @@
   {
     "id": "bc-93857c70",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A terapia por pressão negativa (curativo a vácuo) tem como efeitos biológicos locais comprovados:",
@@ -6202,6 +6619,7 @@
   {
     "id": "bc-eb368a63",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O curativo com gaze impregnada com petrolato (ex.: Jelonet, Adaptic) é amplamente indicado em feridas cruentas e áreas doadoras de enxerto porque:",
@@ -6217,6 +6635,7 @@
   {
     "id": "bc-0313ca83",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O sulfadiazina de prata a 1% é o antimicrobiano tópico mais utilizado no manejo hospitalar de:",
@@ -6232,6 +6651,7 @@
   {
     "id": "bc-2b278563",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A remoção de suturas cirúrgicas em áreas de excelente vascularização e baixa tensão mecânica (como a face e pescoço) é comumente realizada com:",
@@ -6247,6 +6667,7 @@
   {
     "id": "bc-418f1474",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A remoção de pontos em áreas de alta tensão mecânica ou mobilidade articular (como dorso, joelhos e cotovelos) deve ser realizada idealmente com:",
@@ -6262,6 +6683,7 @@
   {
     "id": "bc-20d22908",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cicatrização de feridas compreende quatro fases biológicas clássicas e sobrepostas, cuja sequência cronológica correta é:",
@@ -6277,6 +6699,7 @@
   {
     "id": "bc-0a9f7140",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A célula chave predominante na fase proliferativa da cicatrização, responsável pela síntese de colágeno e componentes da matriz extracelular, é o:",
@@ -6292,6 +6715,7 @@
   {
     "id": "bc-bbf17f28",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O colágeno predominante na pele madura e na cicatriz final após o remodelamento é o:",
@@ -6307,6 +6731,7 @@
   {
     "id": "bc-5c02f936",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A diferença essencial entre cicatriz hipertrófica e queloide é:",
@@ -6322,6 +6747,7 @@
   {
     "id": "bc-9571d3b0",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Fatores sistêmicos clássicos associados ao retardo significativo da cicatrização de feridas e maior risco de deiscência incluem, EXCETO:",
@@ -6337,6 +6763,7 @@
   {
     "id": "bc-f4fb38cf",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O seroma de ferida operatória consiste em:",
@@ -6352,6 +6779,7 @@
   {
     "id": "bc-9afba2c4",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A conduta recomendada para seroma pós-operatório sintomático, volumoso e flutuante na ferida é:",
@@ -6367,6 +6795,7 @@
   {
     "id": "bc-1c53d687",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente no 4º dia pós-operatório de tireoidectomia total refere dor cervical súbita, dispneia progressiva, estridor inspiratório e nota-se tumefação volumosa e tensa sob a ferida. O diagnóstico e a conduta imediata são:",
@@ -6382,6 +6811,7 @@
   {
     "id": "bc-49f8bef9",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A infecção de sítio cirúrgico (ISC) incisional superficial envolve:",
@@ -6397,6 +6827,7 @@
   {
     "id": "bc-909fcd6e",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Segundo critérios dos Centers for Disease Control and Prevention (CDC), uma infecção de sítio cirúrgico superficial é definida temporalmente como aquela que ocorre:",
@@ -6412,6 +6843,7 @@
   {
     "id": "bc-5a4ffe16",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em cirurgias com colocação de implantes ou próteses definitivas (ex.: prótese de quadril, prótese vascular, tela de hérnia), o período de vigilância epidemiológica para diagnóstico de infecção de sítio cirúrgico estende-se por até:",
@@ -6427,6 +6859,7 @@
   {
     "id": "bc-fd583c1b",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O patógeno mais comumente isolado em infecções de sítio cirúrgico de cirurgias limpas e de partes moles é:",
@@ -6442,6 +6875,7 @@
   {
     "id": "bc-8b0d2387",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A profilaxia antimicrobiana cirúrgica parenteral profilática padrão em cirurgias limpas com uso de implante deve ser administrada:",
@@ -6457,6 +6891,7 @@
   {
     "id": "bc-4928d017",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O antimicrobiano de escolha universal para profilaxia cirúrgica em procedimentos cirúrgicos gerais e ortopédicos limpos é:",
@@ -6472,6 +6907,7 @@
   {
     "id": "bc-1eca3892",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação à profilaxia antimicrobiana cirúrgica, a duração padrão pós-operatória recomendada pelas diretrizes internacionais para a imensa maioria dos procedimentos é:",
@@ -6487,6 +6923,7 @@
   {
     "id": "bc-4717b9e7",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A tricotomia (remoção de pelos) pré-operatória, quando estritamente necessária, deve ser realizada:",
@@ -6502,6 +6939,7 @@
   {
     "id": "bc-300a0758",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O uso de lâmina de barbear convencional (gilete) para tricotomia pré-operatória é desaconselhado porque:",
@@ -6517,6 +6955,7 @@
   {
     "id": "bc-fad76900",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O método de esterilização física padrão para instrumentais cirúrgicos metálicos termo-resistentes em ambiente hospitalar é:",
@@ -6532,6 +6971,7 @@
   {
     "id": "bc-ef74cb8a",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A esterilização de materiais termossensíveis (como cabos de fibra óptica, ópticas laparoscópicas e materiais poliméricos delicados) é comumente realizada por:",
@@ -6547,6 +6987,7 @@
   {
     "id": "bc-f67260f1",
     "subject": "bases-cirurgicas",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A degermação das mãos e antebraços da equipe cirúrgica antes de calçar as luvas e aventais estéreis tem como objetivo:",

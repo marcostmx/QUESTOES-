@@ -2,6 +2,7 @@
   {
     "id": "pro-f991c4fb",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A anamnese é o instrumento central do método clínico. Analise as assertivas a seguir:\n\nI. A queixa principal deve ser registrada de forma breve e espontânea, nas palavras do próprio paciente, motivo pelo qual se convenciona anotá-la entre aspas.\nII. O sintoma-guia é, obrigatoriamente, o primeiro sintoma relatado pelo paciente durante a entrevista.\nIII. A duração e a irradiação da dor são sub-itens do eixo \"características\" na investigação do sintoma-guia, e não eixos independentes.\nIV. O interrogatório sintomatológico tem por finalidade detectar, de forma sistemática, sintomas que o paciente não relatou espontaneamente.\n\nEstá correto o que se afirma em:",
@@ -18,6 +19,7 @@
   {
     "id": "pro-51a3120b",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os termos empregados no interrogatório sintomatológico, é incorreto afirmar que:",
@@ -34,6 +36,7 @@
   {
     "id": "pro-af772430",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "caso-clinico",
     "stem": "Paciente sexo masculino, 67 anos, procura emergência referindo dor no peito, descrita como em aperto. A dor é de localização retroesternal, com irradiação para face interna de membro superior direito, iniciada durante esforço físico, há cerca de 30 minutos. Paciente relata episódios prévios semelhantes, porém o episódio atual está mais intenso e duradouro. Refere alívio da dor após ficar em repouso. Antecedentes pessoais: hipertensão arterial sistêmica, diabetes mellitus tipo 2, dislipidemia e gastrite, todos diagnosticados há 10 anos. Nega acompanhamento médico regular ou uso de medicações. Peso = 109 kg. Altura = 1,70 m. A partir dos dados descritos, qual a hipótese diagnóstica mais provável?",
@@ -50,6 +53,7 @@
   {
     "id": "pro-f16febf0",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respeito das técnicas de condução da entrevista clínica, analise as assertivas a seguir:\n\nI. Recomenda-se iniciar a história da doença atual com perguntas abertas, reservando as perguntas fechadas e dirigidas para o detalhamento posterior dos eixos do sintoma-guia.\nII. Perguntas indutivas, do tipo \"a dor piora à noite, não é mesmo?\", são recomendadas na fase inicial da coleta por tornarem a entrevista mais objetiva.\nIII. Na anamnese mista, o médico permite inicialmente o relato espontâneo e, em seguida, conduz a entrevista de modo mais objetivo.\nIV. A clarificação consiste em pedir ao paciente que detalhe um termo vago, como \"ruim\" ou \"esquisito\", empregado por ele durante o relato.\n\nEstá correto o que se afirma em:",
@@ -66,6 +70,7 @@
   {
     "id": "pro-acc9fc77",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "verdadeiro-falso",
     "stem": "Sobre a identificação, os antecedentes e os hábitos de vida, assinale V (verdadeiro) ou F (falso) e marque a alternativa correspondente à sequência correta:\n\nI. A carga tabágica em maços-ano é calculada multiplicando-se o número de maços fumados por dia pelo número de anos de tabagismo.\nII. Naturalidade é o local onde o paciente residia antes de sua moradia atual, enquanto procedência é o local de nascimento.\nIII. Menarca, sexarca e desenvolvimento neuropsicomotor integram os antecedentes pessoais fisiológicos.\nIV. A religião do paciente é dado de interesse meramente social, sem repercussão sobre condutas médicas.\nV. Residir em área endêmica é informação que compõe as condições socioeconômicas, culturais e ambientais.",
@@ -82,6 +87,7 @@
   {
     "id": "pro-220fa5a9",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente de 48 anos, sexo feminino, relata: \"Doutor, há uns cinco dias começou uma dor aqui em cima da barriga, do lado direito, que sobe para as costas. É uma dor forte, que aperta e vai e volta. Piora sempre depois que eu como alguma coisa gordurosa, e melhora um pouco quando eu deito encolhida. Junto com a dor eu enjoo e já vomitei duas vezes. No começo era mais fraca, mas de ontem para hoje ficou muito pior, e por isso eu vim.\"\n\na. Identifique e nomeie, no relato, cada um dos seis eixos de investigação do sintoma-guia, transcrevendo o trecho correspondente a cada eixo.\nb. Qual eixo justifica, no relato, a decisão da paciente de procurar atendimento agora? Explique por que esse eixo costuma determinar a urgência da conduta.\nc. Qual é o sintoma-guia deste caso e por que ele — e não a náusea — deve ser escolhido como fio condutor da HDA?",
@@ -90,6 +96,7 @@
   {
     "id": "pro-4d0d3d04",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie sinal, sintoma e síndrome, dando um exemplo clínico de cada.\nb. Explique o que caracteriza um sinal patognomônico e cite dois exemplos, indicando a doença correspondente.\nc. Um estudante afirma: \"encontrei febre, tosse produtiva e estertores finos na base direita; portanto o diagnóstico sindrômico é pneumonia.\" Corrija a afirmação, explicando a diferença entre diagnóstico sindrômico e diagnóstico etiológico.",
@@ -98,6 +105,7 @@
   {
     "id": "pro-a38ee21a",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A dor é o sintoma-guia mais frequente na prática médica. Analise as assertivas a seguir:\n\nI. A dor visceral é tipicamente mal delimitada, referida em áreas amplas e frequentemente acompanhada de manifestações neurovegetativas, como sudorese e náuseas.\nII. A dor somática superficial é bem localizada, e o paciente costuma conseguir apontá-la com a ponta do dedo.\nIII. Alodinia é a dor desencadeada por estímulos que normalmente não provocam dor, como o simples contato do lençol sobre a pele.\nIV. A dor neuropática decorre da estimulação direta de nociceptores íntegros por um processo inflamatório tecidual.\n\nEstá correto o que se afirma em:",
@@ -114,6 +122,7 @@
   {
     "id": "pro-ceaf3c1f",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre sinais e sintomas, é incorreto afirmar que:",
@@ -130,6 +139,7 @@
   {
     "id": "pro-fd348ab1",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respeito da febre e de suas características semiológicas, analise as assertivas a seguir:\n\nI. Paciente que apresenta, todos os dias, temperatura de 39,2 °C ao final da tarde e 37,4 °C pela manhã, sem jamais atingir a normalidade térmica, apresenta febre do tipo remitente.\nII. Na febre intermitente, a hipertermia é ciclicamente interrompida por períodos de temperatura normal, como ocorre classicamente na malária.\nIII. Considerando a temperatura axilar, define-se febre alta ou elevada como aquela acima de 38,6 °C.\nIV. O término da febre por crise caracteriza-se pelo desaparecimento gradual da hipertermia ao longo de vários dias.\n\nEstá correto o que se afirma em:",
@@ -146,6 +156,7 @@
   {
     "id": "pro-0b6fe52b",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise as assertivas a seguir:\nI. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.\nII. Paciente sexo feminino, 67 anos, com quadro de dispneia e dor torácica em hemitórax esquerdo do tipo pleurítica. Histórico de estar restrita ao leito há 1 mês, logo após cirurgia de correção de fratura de colo de fêmur decorrente de queda da própria altura, além de relato de ter começado a apresentar edema em membro inferior direito há 3 dias. O provável diagnóstico é infarto pulmonar.\nIII. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.\nEstá correto o que se afirma em:",
@@ -162,6 +173,7 @@
   {
     "id": "pro-4f535eed",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mulher de 44 anos relata \"cansaço para tudo, mesmo depois de dormir a noite inteira\", com piora progressiva nos últimos seis meses. Refere ainda ganho de 6 kg no período, intolerância ao frio, pele seca e obstipação. Ao exame: fácies com edema periorbitário e expressão apática, pele áspera, bradicárdica (FC 54 bpm). Considerando a queixa e os achados, a interpretação semiológica mais adequada é:",
@@ -178,6 +190,7 @@
   {
     "id": "pro-f8e0da1d",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a dispneia e suas variantes posicionais e funcionais, analise as assertivas a seguir:\nI. A dispneia paroxística noturna caracteriza-se por despertar o paciente com falta de ar cerca de uma a duas horas após deitar-se, obrigando-o a sentar-se ou levantar-se para obter alívio.\nII. Trepopneia é a dispneia que surge em determinado decúbito lateral e alivia no decúbito oposto, podendo ocorrer em derrame pleural unilateral.\nIII. Na classificação funcional da New York Heart Association, o paciente que apresenta sintomas apenas aos grandes esforços, sem limitação nas atividades habituais, é enquadrado na classe III.\nIV. A platipneia é a dispneia que piora em decúbito dorsal e alivia na posição ortostática.\nEstá correto o que se afirma em:",
@@ -194,6 +207,7 @@
   {
     "id": "pro-121d559d",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie febre de hipertermia quanto ao mecanismo fisiopatológico, explicando por que antitérmicos são eficazes em uma e não na outra.\nb. Um paciente internado apresenta o seguinte quadro térmico ao longo de quatro dias: manhã 37,6 °C / tarde 39,4 °C; manhã 37,4 °C / tarde 39,0 °C; manhã 37,8 °C / tarde 39,6 °C; manhã 37,5 °C / tarde 39,2 °C. Classifique o tipo evolutivo da febre e justifique, explicando por que não se trata de febre intermitente nem de febre irregular.\nc. Cite três características semiológicas da febre que devem constar da anamnese, além do tipo evolutivo.",
@@ -202,6 +216,7 @@
   {
     "id": "pro-20e25440",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Homem de 58 anos, tabagista (2 maços/dia há 30 anos), refere que há cerca de 2 meses vem apresentando tosse seca persistente. Nas últimas 3 semanas notou rouquidão que não melhora, além de perda de 7 kg sem dieta e sudorese noturna. Nega febre. Ao exame do pescoço, palpa-se linfonodo supraclavicular esquerdo de 2,5 cm, endurecido, aderido e indolor.\na. Calcule a carga tabágica deste paciente em maços-ano e explique o que esse dado acrescenta ao raciocínio.\nb. Identifique no caso todos os sinais de alarme presentes e explique, para cada um, por que constitui alarme.\nc. Qual o nome do linfonodo descrito e qual sua importância semiológica clássica?\nd. Justifique por que a conduta de \"prescrever antibiótico e reavaliar em 10 dias\" seria inadequada neste caso.",
@@ -210,6 +225,7 @@
   {
     "id": "pro-483872b3",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie vertigem, lipotimia e síncope, deixando claro o comportamento da consciência em cada uma.\nb. Explique por que a expressão \"tontura\" relatada pelo paciente é insuficiente para o raciocínio clínico, e formule duas perguntas que você faria para desambiguá-la.\nc. Um paciente afirma que \"tudo gira ao redor\" quando vira a cabeça na cama, sem qualquer alteração de consciência. Qual das três entidades acima está descrita e qual sistema deve ser investigado?",
@@ -218,6 +234,7 @@
   {
     "id": "pro-97f5097e",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação ao exame físico geral, analise as assertivas a seguir:\nI. O padrão respiratório de Cheyne-Stokes é comum em pacientes com lesões cerebrais e hipertensão intracraniana.\nII. O padrão respiratório de Biot é caracterizado por respirações anárquicas e sem padrão.\nIII. Durante um episódio de cetoacidose diabética, pode-se desenvolver um padrão respiratório chamado Kussmaul.\nIV. Espera-se encontrar pulso em martelo d'água em um paciente com insuficiência aórtica.\nAssinale a alternativa correta:",
@@ -234,6 +251,7 @@
   {
     "id": "pro-f400962a",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a técnica de aferição da pressão arterial pelo método auscultatório, analise as assertivas:\nI. O manguito deve ser posicionado cerca de 2 cm acima da fossa cubital, mantendo-se a artéria braquial ao nível do coração.\nII. O uso de manguito estreito demais para a circunferência do braço tende a superestimar os valores pressóricos.\nIII. O receptor do estetoscópio deve ser colocado sob a borda do manguito, o que melhora a captação dos sons de Korotkoff.\nIV. A desinsuflação deve ser feita de forma contínua, à razão aproximada de 2 a 3 mmHg por segundo.\nEstá correto o que se afirma em:",
@@ -250,6 +268,7 @@
   {
     "id": "pro-6785ba03",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os sinais vitais expressam o funcionamento e as alterações dos órgãos e/ou sistemas mais relacionados com a manutenção da vida. A respeito desse assunto, analise as assertivas a seguir:\nI. Paciente com temperatura axilar de 33,6 °C, frequência respiratória de 7 incursões respiratórias por minuto, FC = 125 bpm e PA = 78x46 mmHg pode ser designado como hipotérmico, bradipneico, taquicárdico e hipotenso.\nII. A respiração de Kussmaul se caracteriza pela ocorrência de períodos de apneia que interrompem a sequência de incursões respiratórias. Há também nítidas variações na amplitude dos movimentos torácicos, observando-se uma verdadeira arritmia respiratória. Indica lesão no centro respiratório e mau prognóstico.\nIII. A amplitude do pulso arterial é uma característica semiológica de grande relevância na prática médica. Classicamente, são encontrados pulsos reduzidos na Insuficiência Aórtica e pulsos amplos na Estenose Aórtica.\nIV. Platipneia é a dificuldade de respirar em posição ereta, que alivia na posição deitada. Pode ocorrer, por exemplo, após pneumectomia.\nEstá correto o que se afirma em:",
@@ -266,6 +285,7 @@
   {
     "id": "pro-23579374",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Três pacientes são avaliados na enfermaria. O paciente A apresenta PA = 172x58 mmHg; o paciente B, PA = 96x84 mmHg; o paciente C, PA = 124x78 mmHg. Considerando exclusivamente o comportamento da pressão de pulso (pressão diferencial), assinale a alternativa correta:",
@@ -282,6 +302,7 @@
   {
     "id": "pro-6fc702ce",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respeito dos sinais vitais, analise as assertivas a seguir:\nI. Paciente portador de insuficiência cardíaca que apresenta, de modo cíclico, incursões respiratórias que vão se tornando cada vez mais profundas até atingirem uma amplitude máxima, seguida de redução dos movimentos respiratórios, até a apneia, que dura alguns segundos, quando então o ciclo é reiniciado. O caso clínico descreve um paciente com respiração de Cheyne-Stokes.\nII. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.\nIII. A frequência, a amplitude e o ritmo são importantes características semiológicas do pulso arterial. O ritmo pode ser classificado em regular (pulsações com intervalos iguais) e irregular (intervalos de diferentes durações).\nIV. A presença de hiato auscultatório pode subestimar a pressão arterial sistólica de pacientes idosos. A realização do método palpatório antes do método auscultatório evita esse erro.\nV. A fase I de Korotkoff equivale à pressão arterial sistólica, enquanto a fase V (desaparecimento dos sons) equivale à diastólica. Quando os ruídos persistem até o total esvaziamento da câmara, deve-se considerar a diastólica na fase IV e registrar três valores, p. ex. 140x50x0 mmHg.\nEstá correto o que se afirma em:",
@@ -298,6 +319,7 @@
   {
     "id": "pro-7f31c3a4",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as características semiológicas e os tipos de pulso arterial, analise as assertivas a seguir:\nI. Denomina-se déficit de pulso a situação em que o número de pulsações palpadas no pulso radial é menor que a frequência cardíaca auscultada no precórdio, achado com valor clínico na fibrilação atrial e na extrassistolia.\nII. O pulso parvus et tardus, de pequena amplitude e ascensão lenta, é característico da estenose aórtica.\nIII. O pulso paradoxal é definido pela queda da pressão arterial sistólica superior a 10 mmHg durante a expiração, sendo achado clássico do tamponamento cardíaco.\nIV. Frequências entre 50 e 60 bpm podem ser encontradas em pessoas saudáveis, notadamente atletas, sem que isso configure necessariamente doença.\nEstá correto o que se afirma em:",
@@ -314,6 +336,7 @@
   {
     "id": "pro-32d350ab",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na análise de um paciente com politrauma que deu entrada na emergência foram observados os seguintes parâmetros de nível de consciência: abertura ocular com estímulo verbal, resposta verbal confusa, a resposta motora localiza a dor. De acordo com a análise o paciente se encontra na escala de coma de Glasgow de nível:",
@@ -330,6 +353,7 @@
   {
     "id": "pro-dcb574da",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Homem de 32 anos é admitido após acidente motociclístico. Ao exame: abre os olhos apenas ao estímulo doloroso; emite sons incompreensíveis, sem formar palavras; ao estímulo doloroso apresenta flexão anormal dos membros superiores, com adução dos braços sobre o tórax. À avaliação pupilar, a pupila direita não reage à luz; a esquerda reage normalmente. Com base no caso, analise as assertivas:\nI. A pontuação da abertura ocular é 2 e a da resposta verbal é 2.\nII. A resposta motora descrita corresponde à decorticação e pontua 3.\nIII. A soma dos três domínios é 7, e o escore de Glasgow com correção pupilar (GCS-P) é 6.\nIV. A postura descrita indica lesão localizada no tronco encefálico e tem pior prognóstico que a descerebração.\nEstá correto o que se afirma em:",
@@ -346,6 +370,7 @@
   {
     "id": "pro-0f8c83dc",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise as assertivas a seguir:\nI. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.\nII. Homem, 39 anos, procura emergência do hospital com sintomatologia de dificuldade de respirar em posição ortostática, que alivia na posição deitada. Trata-se de um quadro de trepopneia.\nIII. Mulher, 52 anos, internada na enfermaria de Cirurgia Geral no 2º dia após realização de colecistectomia. Evolui com quadro de taquipneia 1+/4+ e redução do frêmito toracovocal na base de pulmão direito. Essa alteração do exame físico é compatível com o diagnóstico de atelectasia.\nEstá correto o que se afirma em:",
@@ -362,6 +387,7 @@
   {
     "id": "pro-71a5963e",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Uma acadêmica afere a pressão arterial de uma paciente obesa recém-chegada ao ambulatório. Ela utiliza o manguito padrão disponível na sala (visivelmente estreito para o braço da paciente), posiciona-o sobre a manga da blusa, insufla diretamente até 200 mmHg sem realizar o método palpatório e desinsufla rapidamente. Obtém PA = 158x96 mmHg e registra no prontuário \"hipertensão arterial\".\na. Aponte quatro erros técnicos cometidos e explique, para cada um, o efeito esperado sobre o valor medido.\nb. Além dos erros técnicos, cite dois motivos pelos quais o diagnóstico de hipertensão arterial não pode ser firmado nessa consulta.\nc. Descreva a sequência correta da técnica de aferição, do preparo do paciente à leitura final.",
@@ -370,6 +396,7 @@
   {
     "id": "pro-773abc49",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Defina pressão de pulso e explique como calculá-la.\nb. Um idoso de 79 anos apresenta PA = 176x62 mmHg. Calcule a pressão de pulso, classifique-a e explique o mecanismo fisiológico que produz esse padrão nessa faixa etária.\nc. Um paciente politraumatizado apresenta PA = 88x74 mmHg. Calcule a pressão de pulso, classifique-a e explique por que esse achado é mais preocupante do que a simples leitura \"pressão baixa\".\nd. Cite uma valvopatia que cursa com pressão de pulso divergente e outra que cursa com pressão convergente, justificando ambas pelo mecanismo hemodinâmico.",
@@ -378,6 +405,7 @@
   {
     "id": "pro-fe758652",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente vítima de traumatismo cranioencefálico apresenta: abertura ocular ausente mesmo ao estímulo doloroso; resposta verbal com palavras inapropriadas e desconexas; ao estímulo doloroso, apresenta extensão e pronação dos membros superiores com extensão dos membros inferiores. Ambas as pupilas estão arreativas à luz.\na. Pontue cada domínio da Escala de Coma de Glasgow e calcule o total.\nb. Aplique a correção pupilar (GCS-P) e informe o escore final.\nc. Nomeie a postura descrita, indique o nível anatômico da lesão que ela sugere e compare-a com a postura de decorticação quanto ao prognóstico.\nd. Explique por que a escala de Glasgow, isoladamente, pode ser insuficiente em pacientes intubados ou sedados, e o que se faz nesses casos.",
@@ -386,6 +414,7 @@
   {
     "id": "pro-89469ad0",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as fácies e seu valor semiológico, analise as assertivas a seguir:\nI. A fácies mixedematosa caracteriza-se por edema periorbitário, pele seca e espessada, madarose e expressão apática, sendo típica do hipotireoidismo.\nII. A fácies basedowiana apresenta exoftalmia, olhar brilhante e expressão de espanto, associando-se ao hipertireoidismo.\nIII. A fácies cushingoide caracteriza-se por emagrecimento acentuado da face, olhos encovados e pele seca, decorrente da insuficiência adrenal.\nIV. A fácies leonina, com espessamento cutâneo, madarose e acentuação dos sulcos faciais, é característica da hanseníase virchowiana.\nEstá correto o que se afirma em:",
@@ -402,6 +431,7 @@
   {
     "id": "pro-10ae9412",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Considerando os aspectos observados no exame físico geral, analise as assertivas a seguir:\nI. Na DISFONIA, a musculatura e o órgão fonador estão normais. O que ocorre é um distúrbio cortical na elaboração da fala.\nII. A MARCHA PARKINSONIANA apresenta como características o andar em \"passos curtos\", redução do balanço dos braços, viradas em bloco, decorrentes da rigidez e bradicinesia típicos do quadro.\nIII. TÔNUS é a massa do próprio músculo. TROFISMO é o estado de semicontração própria do músculo normal.\nIV. CIRCULAÇÃO COLATERAL indica dificuldade ou impedimento do fluxo venoso através dos troncos venosos principais. A rede visível está na topografia normal e é simétrica.\nV. A AVALIAÇÃO DO ESTADO GERAL é uma etapa objetiva do exame, existindo critérios bem definidos para classificar o paciente em estado geral bom, regular ou ruim.\nEstá correto o que se afirma em:",
@@ -418,6 +448,7 @@
   {
     "id": "pro-5380559d",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "verdadeiro-falso",
     "stem": "Sobre o edema e sua caracterização semiológica, assinale V (verdadeiro) ou F (falso) e marque a alternativa com a sequência correta:\nI. O sinal do cacifo (Godet) é pesquisado comprimindo-se a região edemaciada contra uma superfície óssea por pelo menos 5 segundos, sendo positivo quando a depressão não se desfaz de imediato.\nII. O linfedema caracteriza-se por edema duro, inelástico, com pele espessada e cacifo tipicamente negativo.\nIII. O edema de origem cardíaca é classicamente mole, depressível, frio e doloroso à palpação.\nIV. Na caracterização completa de um edema devem constar localização, intensidade, consistência, elasticidade, temperatura e sensibilidade.\nV. Circulação colateral do tipo \"cabeça de medusa\", periumbilical e com disposição radial, associa-se à hipertensão portal.",
@@ -434,6 +465,7 @@
   {
     "id": "pro-0e69bd4b",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mulher de 60 anos, com histórico de diabetes mellitus tipo 2 e hipertensão arterial, procura atendimento devido a aumento de volume na região cervical e sensação de mal-estar geral. Relata que há cerca de uma semana notou aumento progressivo no tamanho de um nódulo na região do pescoço à esquerda. Além disso, apresenta cansaço excessivo e boca seca. No exame físico, a paciente está alerta, mas com sinais de desidratação e hipoperfusão capilar. Apresenta linfonodos palpáveis na região cervical esquerda, endurecidos, aderidos e indolores. Com base no caso, analise as alternativas:\nI. A presença de linfonodos endurecidos, aderidos e indolores é mais sugestiva de um processo inflamatório agudo do que de malignidade.\nII. A desidratação grave geralmente causa aumento do turgor cutâneo, com mucosas secas e ausência do sinal da prega.\nIII. A perfusão adequada do paciente é essencial para a manutenção das funções fisiológicas, sendo um indicador importante da função cardiovascular. Na avaliação do paciente, o tempo de enchimento capilar normal pode variar de 2 a 4 segundos.\nIV. A inspeção da pele e mucosas, ao identificar lesões, alterações de coloração e sinais de desidratação, é parte fundamental do exame físico geral. Alterações como cianose ou palidez podem indicar comprometimento circulatório, respiratório ou anemia.\nV. A presença de linfonodomegalia generalizada é comum em infecções virais e pode estar presente em mononucleose infecciosa.\nAssinale a alternativa correta:",
@@ -450,6 +482,7 @@
   {
     "id": "pro-bfdcc369",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os tipos de marcha e seu significado localizatório, analise as assertivas a seguir:\nI. Na marcha ceifante (helicópode), o membro inferior espástico descreve um semicírculo a cada passo, sendo típica da hemiplegia sequelar de acidente vascular cerebral.\nII. A marcha escarvante caracteriza-se pela elevação exagerada do joelho para evitar que a ponta do pé arraste no solo, sendo observada na lesão do nervo fibular comum.\nIII. A marcha atáxica cerebelar piora de forma marcante quando o paciente fecha os olhos, o que a diferencia da marcha talonante.\nIV. A marcha anserina, com acentuação da lordose lombar e báscula do tronco, associa-se a miopatias com fraqueza da cintura pélvica.\nEstá correto o que se afirma em:",
@@ -466,6 +499,7 @@
   {
     "id": "pro-6f02d503",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre hidratação, fácies e atitude, analise as assertivas a seguir:\nI. Em recém-nascidos com desidratação grave as fontanelas não sofrem alterações, assim tal avaliação é dispensável.\nII. Sede, perda ponderal, mucosas secas, olhos afundados, excitação psíquica são achados clínicos que podem ser observados em pacientes desidratados.\nIII. Descrevemos fácies como atípica ou indiferente quando não expressa patologias, emoções ou estado metabólico alterado.\nIV. Descrevemos a atitude como forçada quando o paciente encontra-se em uma situação em que não pode se colocar em nenhuma posição segundo sua vontade, ficando na posição em que for colocado: paciente inconsciente, comatoso, quadriplégico.\nEstá correto o que se afirma em:",
@@ -482,6 +516,7 @@
   {
     "id": "pro-7e360c64",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 45 anos, sexo masculino, pesa 118 kg e mede 1,72 m. Considerando os parâmetros antropométricos do exame físico geral, assinale a alternativa correta:",
@@ -498,6 +533,7 @@
   {
     "id": "pro-31d62036",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Explique o que é uma fácies em semiologia e por que sua avaliação integra o exame físico geral.\nb. Descreva os achados que caracterizam quatro fácies patológicas, indicando a condição associada a cada uma.\nc. O que significa descrever a fácies de um paciente como atípica? Isso equivale a dizer que o exame da face foi omitido? Justifique.",
@@ -506,6 +542,7 @@
   {
     "id": "pro-cb0dc6d1",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente de 66 anos apresenta edema em ambos os membros inferiores, que piora ao final do dia. Ao exame, o edema é mole, depressível, com sinal do cacifo ++/4+, frio e indolor, acompanhado de turgência jugular a 45° e hepatomegalia dolorosa.\na. Liste os seis parâmetros que devem ser descritos na caracterização semiológica de um edema.\nb. Com base nas características descritas, qual a origem mais provável do edema? Justifique com pelo menos dois achados do caso.\nc. Se o edema fosse duro, inelástico, com pele espessada e cacifo negativo, qual seria a hipótese alternativa? Explique o mecanismo.\nd. Explique por que a associação de turgência jugular e hepatomegalia dolorosa reforça a hipótese do item (b).",
@@ -514,6 +551,7 @@
   {
     "id": "pro-bb95bf92",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie atitude ativa, passiva e forçada, deixando explícito o critério que as separa.\nb. Cite três atitudes forçadas, descrevendo a posição e a condição clínica associada a cada uma.\nc. Diferencie tônus de trofismo e explique como cada um é avaliado ao exame físico.\nd. Um paciente hepatopata apresenta movimentos rápidos e súbitos de flexoextensão das mãos quando mantém os braços estendidos com os punhos em dorsiflexão. Nomeie o achado e explique seu significado.",
@@ -522,6 +560,7 @@
   {
     "id": "pro-02a23ccb",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o exame oftalmológico realizado na propedêutica geral, analise as assertivas a seguir:\nI. A tabela de Snellen avalia a acuidade visual, enquanto o campo visual é avaliado pela campimetria, habitualmente por confrontação à beira do leito.\nII. O reflexo fotomotor direto consiste na contração da pupila do olho estimulado pela luz; o consensual, na contração simultânea da pupila contralateral.\nIII. A anisocoria é a desigualdade de diâmetro entre as pupilas, e pode ser fisiológica em pequena magnitude.\nIV. A presença de ptose palpebral associada a midríase e desvio do olho para baixo e para fora sugere lesão do nervo abducente (VI par).\nEstá correto o que se afirma em:",
@@ -538,6 +577,7 @@
   {
     "id": "pro-afc1f54e",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Marque a alternativa incorreta:",
@@ -554,6 +594,7 @@
   {
     "id": "pro-0e021b33",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 52 anos queixa-se de diminuição da audição à direita. Ao exame com diapasão: no teste de Weber, o som lateraliza para a orelha direita; no teste de Rinne realizado à direita, a condução óssea é percebida por mais tempo que a condução aérea. Analise as assertivas:\nI. O teste de Rinne à direita está negativo.\nII. O conjunto dos achados é compatível com perda auditiva de condução na orelha direita.\nIII. Se a perda fosse neurossensorial à direita, o Weber lateralizaria para a orelha esquerda.\nIV. Rinne e Weber são testes concorrentes, devendo o examinador optar por apenas um deles.\nEstá correto o que se afirma em:",
@@ -570,6 +611,7 @@
   {
     "id": "pro-fdfeb0ee",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Homem, 30 anos, natural e procedente de Casa Nova (BA), agricultor, analfabeto, comparece ao consultório do Dr. Estaciano em Juazeiro, com queixa de que apresenta um \"caroço no pescoço\". Considerando esta situação, sinalize a(s) opção(ões) pertinentes:\nI. \"O tempo de apresentação, a localização precisa, progressão, a existência do achado em outros locais e o questionamento sobre febre, perda ponderal, sudorese noturna e astenia são quesitos indispensáveis para a decisão médica.\"\nII. \"O achado foi percebido há 5 dias e apresentou febre baixa por um dia, além de tosse seca e odinofagia, que ainda persistem. Não ocorreu perda ponderal e nega sudorese noturna. Sinais vitais normais. Observo um linfonodo submandibular direito de cerca de 0,5 cm, móvel, doloroso, de consistência amolecida. Noto vermelhidão em mucosa faríngea. Assim, farei encaminhamento para internamento hospitalar, sendo mandatória a biópsia do linfonodo.\"\nIII. \"O linfonodo supraclavicular associado a sintomas constitucionais sinaliza condições pouco mórbidas, não havendo necessidade de investigações pormenorizadas.\"\nIV. \"Não posso abrir mão da palpação de todas as cadeias linfonodais cervicais e descrever a localização, o tamanho, a consistência, a mobilidade e a presença de sinais flogísticos.\"\nEstá correto o que se afirma em:",
@@ -586,6 +628,7 @@
   {
     "id": "pro-e8fe4791",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o exame da glândula tireoide, analise as assertivas a seguir:\nI. A palpação pode ser realizada por via anterior ou posterior, solicitando-se ao paciente que degluta para que a glândula se desloque sob os dedos do examinador.\nII. Devem ser descritos volume, consistência, mobilidade, superfície, sensibilidade e presença de nódulos.\nIII. A ausculta da tireoide é dispensável, pois a glândula não apresenta vascularização suficiente para gerar sopros.\nIV. A presença de sopro sobre a glândula sugere hipervascularização, achado que pode ocorrer na doença de Graves.\nEstá correto o que se afirma em:",
@@ -602,6 +645,7 @@
   {
     "id": "pro-ecf777af",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Descreva a técnica de execução dos testes de Rinne e de Weber.\nb. Explique o que cada teste compara e por que eles são considerados complementares, e não concorrentes.\nc. Complete o raciocínio para os dois cenários: (i) Weber lateraliza para a orelha direita e Rinne está negativo à direita; (ii) Weber lateraliza para a orelha esquerda e Rinne está positivo em ambas as orelhas. Indique o tipo de perda auditiva e o lado acometido em cada caso.",
@@ -610,6 +654,7 @@
   {
     "id": "pro-51749453",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Dois pacientes chegam ao ambulatório no mesmo dia. Paciente 1: 19 anos, linfonodo cervical anterior direito de 1,0 cm, móvel, fibroelástico, doloroso, com hiperemia de orofaringe e febre de 38 °C há 3 dias. Paciente 2: 61 anos, linfonodo supraclavicular esquerdo de 3 cm, pétreo, aderido a planos profundos, indolor, com perda de 9 kg em 3 meses e sudorese noturna.\na. Para cada paciente, classifique a linfonodomegalia como provavelmente reacional ou suspeita de malignidade, justificando com pelo menos três características.\nb. Explique o que são sintomas B e por que sua presença altera a conduta.\nc. Indique a conduta apropriada para cada paciente, explicando por que a conduta oposta seria um erro em cada caso.\nd. Quais parâmetros devem obrigatoriamente constar da descrição de um linfonodo no prontuário?",
@@ -618,6 +663,7 @@
   {
     "id": "pro-809a01db",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Descreva a sequência do exame do pescoço, indicando o que se avalia em cada etapa.\nb. Por que a ausculta não pode ser omitida no exame do pescoço? Cite dois achados auscultatórios possíveis e seu significado.\nc. Explique como se pesquisa a turgência jugular e o que significa encontrá-la a 45°.",
@@ -626,6 +672,7 @@
   {
     "id": "pro-743e3308",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Sobre a inspeção estática e dinâmica do tórax, analise as assertivas a seguir:\nI. O tórax em tonel (ou em barril) apresenta aumento do diâmetro anteroposterior e é classicamente associado ao enfisema pulmonar.\nII. O pectus excavatum caracteriza-se por depressão da porção inferior do esterno, enquanto o pectus carinatum apresenta protrusão esternal anterior.\nIII. A respiração toracoabdominal, com predomínio da ação diafragmática, é o padrão observado principalmente no sexo feminino adulto.\nIV. O tiragem intercostal e o uso de musculatura acessória são sinais de esforço respiratório aumentado.\nEstá correto o que se afirma em:",
@@ -634,6 +681,7 @@
   {
     "id": "pro-22dc419c",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre avaliação do aparelho respiratório, analise as assertivas a seguir:\nI. Ao se examinar um paciente com pneumonia, espera-se que o frêmito toracovocal esteja reduzido, bem como durante a percussão espera-se um som maciço ou submaciço.\nII. Durante uma crise de asma, ao realizar a ausculta respiratória pode-se encontrar um som anormal contínuo, conhecido como sibilo.\nIII. Ao se auscultar um paciente com pneumotórax espera-se ouvir um som hipertimpânico.\nIV. Durante a percussão de um paciente com derrame pleural em hemitórax direito, espera-se ouvir um som submaciço/maciço ao percutir este hemitórax.\nAssinale a alternativa correta:",
@@ -650,6 +698,7 @@
   {
     "id": "pro-75577854",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os ruídos adventícios da ausculta pulmonar, analise as assertivas a seguir:\nI. Os estertores finos são descontínuos, agudos, ocorrem ao final da inspiração e não se modificam com a tosse.\nII. Os roncos são ruídos contínuos e graves, originados em brônquios de maior calibre com secreção, e tipicamente se modificam ou desaparecem após a tosse.\nIII. O estridor é um ruído contínuo, de predomínio expiratório, originado em vias aéreas bronquiolares.\nIV. O atrito pleural é um ruído áspero, audível em ambas as fases respiratórias, que desaparece quando o paciente prende a respiração.\nEstá correto o que se afirma em:",
@@ -666,6 +715,7 @@
   {
     "id": "pro-5deea334",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O exame do aparelho respiratório é de grande importância na prática médica. Acerca desse exame, analise as assertivas a seguir:\nI. Pacientes com enfisema pulmonar apresentam frequentemente alargamento da porção inferior do tórax, como a boca de um sino, lembrando um cone de base inferior.\nII. A respiração costal superior, observada principalmente no sexo masculino, deve-se ao predomínio da ação dos músculos escaleno e esternocleidomastóideo.\nIII. Pacientes com quadro de redução de calibre da laringe e/ou da traqueia apresentam sibilos, decorrentes da obstrução das vias respiratórias altas, como na laringite aguda, câncer de laringe e estenose de traqueia.\nIV. Paciente com sons de frequência alta (agudos) no final da inspiração, que se alteram com a mudança de posição e não se alteram com a tosse: os sons descritos são os estertores grossos.\nV. Pacientes com derrame pleural volumoso à direita apresentam redução do frêmito toracovocal à palpação e submacicez ou macicez à percussão do hemitórax direito.\nEstá correto o que se afirma em:",
@@ -682,6 +732,7 @@
   {
     "id": "pro-ee55e395",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Adolescente de 18 anos, longilíneo, alto e magro, apresenta dor torácica súbita \"em punhalada\" à direita e dispneia progressiva, iniciadas há 2 horas, sem trauma e sem febre. Ao exame do hemitórax direito: expansibilidade reduzida, frêmito toracovocal abolido, hipertimpanismo à percussão e murmúrio vesicular abolido. A traqueia encontra-se desviada para a esquerda e há turgência jugular. O diagnóstico e a implicação mais provável são:",
@@ -698,6 +749,7 @@
   {
     "id": "pro-b0b9fbd4",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 33 anos comparece para atendimento de emergência devido a quadro de febre alta, tosse produtiva (escarro amarelado) e dispneia iniciados há 48 horas. Não há histórico de comorbidades. Ao exame físico: estado geral regular, respiração dispneica, FR = 28 irpm, FC = 110 bpm, PA = 118x76 mmHg, pulso radial cheio e taquisfígmico, temperatura axilar = 38,8 °C. Ao exame do aparelho respiratório, percebe-se em terço inferior de hemitórax direito diminuição da expansibilidade pulmonar, frêmito toracovocal aumentado, submacicez à percussão, estertores finos à ausculta pulmonar e broncofonia. O diagnóstico mais provável é:",
@@ -714,6 +766,7 @@
   {
     "id": "pro-c5a88e08",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mulher de 71 anos, com insuficiência cardíaca, apresenta dispneia progressiva há duas semanas. Ao exame do hemitórax esquerdo: expansibilidade reduzida em terço inferior, frêmito toracovocal abolido, macicez à percussão até a altura do ângulo inferior da escápula e murmúrio vesicular abolido nessa região. Analise as assertivas:\nI. O conjunto frêmito abolido + macicez + murmúrio abolido é compatível com derrame pleural.\nII. A presença de frêmito abolido afasta a hipótese de síndrome de consolidação nessa região.\nIII. Caso houvesse desvio da traqueia, seria esperado desvio para o lado direito, por se tratar de processo expansivo.\nIV. Na borda superior do derrame pode-se auscultar sopro pleurítico, decorrente da compressão do parênquima pulmonar adjacente.\nEstá correto o que se afirma em:",
@@ -730,6 +783,7 @@
   {
     "id": "pro-041c2d04",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "verdadeiro-falso",
     "stem": "Sobre o frêmito toracovocal e a percussão do tórax, assinale V ou F e marque a sequência correta:\nI. O frêmito toracovocal é pesquisado com a face ulnar ou a palma das mãos, solicitando-se ao paciente que repita uma expressão padronizada, como \"trinta e três\".\nII. O som claro pulmonar é o som normal obtido à percussão do tórax de um indivíduo hígido.\nIII. A macicez indica substituição do ar por líquido ou tecido sólido, enquanto o timpanismo indica excesso de ar.\nIV. Na síndrome de consolidação o frêmito está reduzido porque o exsudato alveolar dificulta a transmissão das vibrações.\nV. A percussão do tórax deve ser realizada de forma comparativa entre hemitórax homólogos, de cima para baixo.\nMarque a alternativa que representa a sequência correta:",
@@ -746,6 +800,7 @@
   {
     "id": "pro-6b41e115",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Construa um quadro comparativo entre síndrome de consolidação, derrame pleural e pneumotórax, contemplando: expansibilidade, frêmito toracovocal, percussão e ausculta.\nb. Explique o mecanismo físico pelo qual o frêmito aumenta na consolidação e diminui no derrame pleural.\nc. Um estudante afirma: \"encontrei submacicez à percussão, logo trata-se de derrame pleural\". Corrija a afirmação e indique qual achado deve ser usado para desempatar.",
@@ -754,6 +809,7 @@
   {
     "id": "pro-af98d3c3",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Homem de 62 anos, tabagista de longa data, procura o pronto-socorro com dispneia progressiva há 3 dias e tosse com expectoração esverdeada. Ao exame: FR = 30 irpm, uso de musculatura acessória, tórax em tonel, hipersonoridade difusa à percussão, murmúrio vesicular globalmente diminuído e sibilos expiratórios difusos. SpO₂ = 86% em ar ambiente.\na. Descreva o que significa cada achado do exame físico encontrado e a que alteração fisiopatológica ele corresponde.\nb. Explique por que o tórax em tonel e a hipersonoridade difusa apontam para doença crônica, e não para o quadro agudo dos últimos 3 dias.\nc. Se, durante a evolução, os sibilos desaparecessem e o murmúrio vesicular se tornasse quase inaudível, isso indicaria melhora ou piora? Justifique.\nd. Calcule a carga tabágica presumida se o paciente fumar 1,5 maço/dia há 40 anos.",
@@ -762,6 +818,7 @@
   {
     "id": "pro-13121c0c",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Descreva, em ordem, as quatro etapas do exame do aparelho respiratório e o que se busca em cada uma.\nb. Explique por que, no aparelho respiratório, a ordem é inspeção → palpação → percussão → ausculta, enquanto no abdome a ausculta é antecipada.\nc. Descreva a técnica de pesquisa da expansibilidade torácica e o que significa encontrá-la assimétrica.\nd. Diferencie broncofonia, pectorilóquia e egofonia, indicando o que têm em comum.",
@@ -770,6 +827,7 @@
   {
     "id": "pro-0a36cc83",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Classifique os ruídos adventícios em contínuos e descontínuos, citando exemplos de cada grupo.\nb. Diferencie estertores finos de estertores grossos quanto a timbre, momento do ciclo respiratório, local de origem e comportamento após a tosse.\nc. Diferencie sibilo de estridor quanto ao local de origem e à fase respiratória de predomínio, e explique por que essa distinção muda a urgência da abordagem.\nd. Como se diferencia, à beira do leito, um atrito pleural de um atrito pericárdico?",
@@ -778,6 +836,7 @@
   {
     "id": "pro-aa9a1b39",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a inspeção, a palpação e os focos de ausculta do precórdio, analise as assertivas a seguir:\nI. O ictus cordis normal localiza-se no 5º espaço intercostal esquerdo, aproximadamente 1 cm medial à linha hemiclavicular, com extensão de até duas polpas digitais.\nII. O foco aórtico acessório, ou ponto de Erb, situa-se no 3º espaço intercostal esquerdo, junto à borda esternal, e é onde melhor se ausculta o sopro da insuficiência aórtica.\nIII. O foco mitral corresponde ao 2º espaço intercostal direito, junto à borda esternal.\nIV. Frêmito cardíaco é a tradução palpatória de um sopro de grande intensidade, correspondendo, na escala de Levine, a sopros de grau igual ou superior a 4/6.\nEstá correto o que se afirma em:",
@@ -794,6 +853,7 @@
   {
     "id": "pro-fac4a422",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ausculta cardíaca é um elemento da semiotécnica que possui grande relevância porque pode fornecer informações essenciais para elaboração de hipóteses diagnósticas. Considerando o exame do aparelho cardiovascular, analise as assertivas a seguir:\nI. A terceira bulha (B3) é um som de baixa frequência, sendo melhor audível com a campânula. A terceira bulha está relacionada ao momento da contração atrial.\nII. É o componente aórtico da segunda bulha cardíaca (B2) que atrasa durante o desdobramento fisiológico de B2.\nIII. A quarta bulha (B4), quando presente, localiza-se na telediástole do ciclo cardíaco e tem associação com corações com baixa complacência.\nEstá correto o que se afirma em:",
@@ -810,6 +870,7 @@
   {
     "id": "pro-01e8efee",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as bulhas cardíacas e os ruídos acessórios, analise as assertivas a seguir:\nI. A primeira bulha (B1) resulta do fechamento das valvas mitral e tricúspide e marca o início da sístole ventricular.\nII. A terceira bulha (B3) pode ser um achado fisiológico em crianças e adultos jovens, sem significar doença.\nIII. A quarta bulha (B4) pode ser auscultada em pacientes com fibrilação atrial, pois independe da contração atrial efetiva.\nIV. O estalido de abertura é um som protodiastólico de alta frequência, classicamente associado à estenose mitral.\nEstá correto o que se afirma em:",
@@ -826,6 +887,7 @@
   {
     "id": "pro-98b8cfa9",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise as assertivas a seguir:\nI. Pacientes com estenose aórtica ou hipertensão arterial costumam apresentar ictus cordis difuso à inspeção do aparelho cardiovascular, enquanto pacientes com insuficiência aórtica grave em geral apresentam ictus cordis propulsivo.\nII. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.\nIII. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.\nEstá correto o que se afirma em:",
@@ -842,6 +904,7 @@
   {
     "id": "pro-753a4baa",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Homem de 74 anos refere dispneia aos esforços, episódios de tontura ao levantar-se e um episódio de síncope durante caminhada. Ao exame: PA = 118x92 mmHg; pulso radial de pequena amplitude e ascensão lenta; ictus cordis sustentado, não desviado; à ausculta, sopro sistólico rude em crescendo-decrescendo, mais audível no 2º espaço intercostal direito, com irradiação para as carótidas, acompanhado de quarta bulha. O diagnóstico mais provável e o padrão de pulso correspondente são:",
@@ -858,6 +921,7 @@
   {
     "id": "pro-7051cebe",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mulher de 58 anos apresenta dispneia progressiva e palpitações. Ao exame: PA = 166x54 mmHg; pulso amplo, de ascensão e queda rápidas, palpável com facilidade em todos os sítios; ictus cordis desviado para baixo e para fora, propulsivo; à ausculta, sopro diastólico aspirativo de alta frequência, mais audível no 3º espaço intercostal esquerdo junto à borda esternal, acentuado com o paciente sentado e inclinado para frente. O diagnóstico mais provável e o comportamento esperado da pressão de pulso são:",
@@ -874,6 +938,7 @@
   {
     "id": "pro-8c8ae95f",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A anamnese e o exame físico do aparelho cardiovascular são de grande relevância na prática médica. Analise as afirmativas a seguir e julgue se cada uma é verdadeira ou falsa:\nI. Paciente 22 anos, sexo feminino, relata inchaço nos pés eventual. Nega outros sintomas ou doenças prévias. Ao exame físico: bom estado geral, eupneica, anictérica, corada, acianótica, consciente, orientada. Aparelho respiratório: murmúrio vesicular presente em ambos hemitórax, sem ruídos adventícios, com expansibilidade preservada. Ao exame cardiovascular: RCR, sopro sistólico no quinto espaço intercostal esquerdo, junto à borda esternal esquerda, com intensidade 1+/6+. Abdome plano, RHA presentes, sem dor à palpação. A valvopatia mais provável diante desse quadro clínico é estenose tricúspide.\nII. Paciente com 70 anos apresenta há 3 meses dispneia aos moderados esforços. Hipertenso há 10 anos em uso regular de atenolol 50 mg/dia. Ao exame físico geral: bom estado, afebril, hidratado, corado, anictérico, FC = 80 bpm; PA = 170 x 60 mmHg; FR = 18 irpm. Ao exame cardiovascular: BRNF em 2T com sopro diastólico 2+/6+ no terceiro espaço intercostal esquerdo, junto à borda esternal esquerda. A valvopatia mais provável diante desse quadro clínico é estenose aórtica.\nAssinale a alternativa correta:",
@@ -890,6 +955,7 @@
   {
     "id": "pro-f13efdf2",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a caracterização semiológica dos sopros cardíacos, analise as assertivas a seguir:\nI. Na escala de Levine, o sopro de grau 3/6 é aquele audível com frêmito palpável associado.\nII. Um sopro sistólico de grau 1 a 2/6, sem irradiação, em foco pulmonar, em criança assintomática com exame cardiovascular por outro lado normal, sugere sopro inocente.\nIII. O sopro da insuficiência mitral é holossistólico, \"em barra\", e irradia caracteristicamente para a axila.\nIV. O sopro da estenose mitral é um ruflar diastólico de baixa frequência, mais bem audível com a campânula, no foco mitral, frequentemente precedido de estalido de abertura.\nEstá correto o que se afirma em:",
@@ -906,6 +972,7 @@
   {
     "id": "pro-0dea528f",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "verdadeiro-falso",
     "stem": "Sobre os tipos especiais de pulso arterial, assinale V ou F e marque a sequência correta:\nI. O pulso alternante caracteriza-se pela alternância regular entre uma pulsação de maior e outra de menor amplitude, sendo indicativo de disfunção ventricular esquerda grave.\nII. O pulso filiforme é fino e de difícil percepção, encontrado em estados de choque e hipovolemia.\nIII. O pulso bisferiens apresenta dois picos sistólicos e pode ser encontrado na dupla lesão aórtica e na cardiomiopatia hipertrófica.\nIV. O pulso célere ou de Corrigan é sinônimo de pulso parvus et tardus.\nV. O déficit de pulso é definido pela diferença entre a frequência cardíaca central e o número de pulsações periféricas palpadas.\nMarque a alternativa que representa a sequência correta:",
@@ -922,6 +989,7 @@
   {
     "id": "pro-46b0a590",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mulher de 49 anos, com antecedente de febre reumática na infância, apresenta dispneia progressiva e palpitações há 6 meses. Ao exame: pulso radial irregular, com 78 pulsações por minuto; à ausculta do precórdio, contam-se 104 batimentos por minuto, ritmo irregular, com ruflar diastólico em foco mitral precedido de estalido de abertura. Analise as assertivas:\nI. A diferença entre a frequência auscultada e a palpada configura déficit de pulso, de 26 batimentos por minuto.\nII. O ritmo irregular associado ao déficit de pulso sugere fibrilação atrial.\nIII. O ruflar diastólico com estalido de abertura em foco mitral é compatível com estenose mitral, cuja causa mais comum é a doença reumática.\nIV. Nesta paciente, espera-se encontrar quarta bulha proeminente, decorrente da contração atrial vigorosa contra a valva estenosada.\nEstá correto o que se afirma em:",
@@ -938,6 +1006,7 @@
   {
     "id": "pro-951a0e18",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o pulso paradoxal, analise as assertivas a seguir:\nI. Define-se pulso paradoxal como a queda da pressão arterial sistólica superior a 10 mmHg durante a inspiração.\nII. É achado clássico do tamponamento cardíaco e da pericardite constritiva, podendo ocorrer também em crise asmática grave e DPOC exacerbada.\nIII. O fenômeno não é verdadeiramente \"paradoxal\": trata-se da exacerbação de uma queda inspiratória fisiológica da pressão sistólica, que normalmente é inferior a 10 mmHg.\nIV. Sua pesquisa é feita durante a aferição da pressão arterial pelo método auscultatório, observando-se a variação dos sons de Korotkoff com o ciclo respiratório.\nEstá correto o que se afirma em:",
@@ -954,6 +1023,7 @@
   {
     "id": "pro-e3c4dc5c",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Nomeie os cinco focos de ausculta cardíaca e indique a localização anatômica precisa de cada um.\nb. Explique a diferença entre diafragma e campânula do estetoscópio e indique qual usar para B3, B4 e para o ruflar da estenose mitral.\nc. Descreva duas manobras que acentuam achados auscultatórios e diga qual achado cada uma favorece.\nd. Explique a sistematização da ausculta: o que se deve identificar, em ordem, ao auscultar um precórdio.",
@@ -962,6 +1032,7 @@
   {
     "id": "pro-640a9fe5",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente de 68 anos, hipertenso, procura atendimento por dispneia aos esforços. Exame: PA = 168x58 mmHg, FC = 76 bpm, ritmo regular. Ictus cordis no 6º espaço intercostal esquerdo, na linha axilar anterior, propulsivo. Pulso radial amplo, com ascensão e colapso rápidos. À ausculta, sopro diastólico aspirativo 3+/6+ no 3º EIC esquerdo junto à borda esternal.\na. Calcule a pressão de pulso e classifique-a.\nb. Qual a valvopatia mais provável? Justifique usando três achados distintos do caso.\nc. Explique o mecanismo hemodinâmico que produz simultaneamente a pressão de pulso encontrada e o padrão do pulso radial.\nd. O ictus está normal? Justifique e explique o que seu deslocamento indica em termos de remodelamento ventricular.\ne. Que outro nome recebe o pulso descrito, e a que outro sinal periférico ele costuma se associar?",
@@ -970,6 +1041,7 @@
   {
     "id": "pro-929c9097",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Explique o mecanismo de origem de B3 e de B4, situando cada uma no ciclo cardíaco.\nb. Associe cada uma ao tipo de sobrecarga ventricular correspondente e cite duas condições clínicas para cada.\nc. Por que ambas são mais bem auscultadas com a campânula?\nd. Explique por que a B4 não pode existir na fibrilação atrial.\ne. O que é o ritmo de galope e qual sua importância clínica?",
@@ -978,6 +1050,7 @@
   {
     "id": "pro-0953a74d",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente de 55 anos, com pericardite constritiva conhecida, é avaliado à beira do leito. Durante a aferição da pressão arterial, você percebe que a pressão sistólica cai 18 mmHg durante a inspiração profunda.\na. Como se chama esse achado e qual o valor de corte que o define?\nb. Explique o mecanismo fisiopatológico do fenômeno, incluindo o papel da interdependência ventricular.\nc. Por que o nome \"paradoxal\" é, a rigor, impreciso?\nd. Cite três condições, além da pericardite constritiva, em que o achado pode estar presente.\ne. Descreva a técnica de pesquisa do pulso paradoxal com esfigmomanômetro.",
@@ -986,6 +1059,7 @@
   {
     "id": "pro-b66d7fa8",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 1 — Exame físico geral (padrões respiratórios e pulsos)\n\nEm relação ao exame físico geral, analise as assertivas a seguir:\n\nI. O padrão respiratório de Cheyne-Stokes é comum em pacientes com lesões cerebrais com hipertensão intracraniana.\nII. O padrão respiratório de Biot é caracterizado por respirações anárquicas e sem padrão.\nIII. Durante um episódio de cetoacidose diabética, pode-se desenvolver um padrão respiratório chamado Kussmaul.\nIV. Espera-se encontrar Pulso em martelo d’água em um paciente com insuficiência aórtica.\n\nAssinale a alternativa correta:",
@@ -1003,6 +1077,7 @@
   {
     "id": "pro-db6d6e74",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 2 — Semiologia do aparelho respiratório\n\nSobre avaliação do aparelho respiratório, analise as assertivas a seguir:\n\nI. Ao se examinar um paciente com Pneumonia, espera-se que o frêmito toraco-vocal esteja reduzido, bem como durante a percussão espera-se um som maçiço ou submaçiço.\nII. Durante uma crise de Asma, ao realizar a ausculta respiratória pode-se encontrar um som anormal contínuo, conhecido como sibilo.\nIII. Ao se auscultar um paciente com pneumotórax espera-se ouvir um som hipertimpânico.\nIV. Durante a percussão de um paciente com Derrame pleural em hemitórax direito, espera-se ouvir um som submaçiço/maçiço ao percutir este hemitórax.\n\nAssinale a alternativa correta:",
@@ -1020,6 +1095,7 @@
   {
     "id": "pro-9beb4467",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 3 — Sinais e sintomas (alternativa incorreta)\n\nSobre sinais e sintomas, é incorreto afirmar que:",
@@ -1037,6 +1113,7 @@
   {
     "id": "pro-0be5f82d",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 4 — Caso clínico: linfonodomegalia cervical + desidratação\n\nMulher de 60 anos, com histórico de diabetes mellitus tipo 2 e hipertensão arterial, procura atendimento devido a aumento de volume na região cervical e sensação de mal-estar geral. Relata que há cerca de uma semana notou aumento progressivo no tamanho de um nódulo na região do pescoço à esquerda. Além disso, apresenta cansaço excessivo e boca seca. No exame físico, a paciente está alerta, mas com sinais de desidratação e hipoperfusão capilar. Além disso, apresenta linfonodos palpáveis na região cervical esquerda, endurecidos, aderidos e indolores.\n\nCom base no caso e nos seus conhecimentos sobre o exame físico geral, analise as alternativas:\n\nI. A presença de linfonodos endurecidos, aderidos e indolores é mais sugestiva de um processo inflamatório agudo do que de malignidade.\nII. A desidratação grave geralmente causa aumento do turgor cutâneo, com mucosas secas e ausência do sinal da prega.\nIII. A perfusão adequada do paciente é essencial para a manutenção das funções fisiológicas, sendo um indicador importante da função cardiovascular e da circulação sanguínea. Na avaliação do paciente, o tempo de enchimento capilar normal pode variar de 2 a 4 segundos.\nIV. A inspeção da pele e mucosas, ao identificar lesões de desidratação, é uma parte fundamental do exame físico geral. Alterações de coloração e sinais como cianose ou palidez podem indicar comprometimento circulatório ou respiratório ou anemia.\nV. A presença de linfonodomegalia generalizada é comum em infecções virais e pode estar presente em mononucleose infecciosa.\n\nMarque a opção correta:",
@@ -1054,6 +1131,7 @@
   {
     "id": "pro-8c562375",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 5 — Semiologia Neurológica (V/F em sequência)\n\nSobre a Semiologia Neurológica, assinale V (verdadeiro) ou F (falso) para as afirmações abaixo e marque a alternativa correspondente à sequência correta:\n\nI. O reflexo de Babinski é considerado patológico quando há flexão do hálux ao ser estimulada a planta do pé, sugerindo lesão nas vias piramidais.\nII. Na afasia de Broca, o paciente tem dificuldade de compreensão da linguagem, embora a fala seja fluente e clara.\nIII. O Mini-Mental ou o mini exame do estado mental é um teste diagnóstico utilizado para avaliar de forma detalhada a causa da demência, permitindo a diferenciação entre as várias formas de doenças neurodegenerativas.\nIV. O Mini-Mental ou o mini exame do estado mental avalia funções cognitivas como orientação, memória, atenção, linguagem e capacidade de abstração, sendo amplamente utilizado como parte do exame do estado mental em pacientes com suspeita de comprometimento cognitivo.\nV. A dismetria é caracterizada pela dificuldade de realizar movimentos alternados rápidos.",
@@ -1071,6 +1149,7 @@
   {
     "id": "pro-cfc1a0a4",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 6 — Caso clínico: sequela de AVC (marcha, Romberg, afasia, força)\n\nHomem de 68 anos, diabético há 20 anos, com sequela motora à direita, além de afasia. Relata diminuição de sensibilidade no membro direito e dificuldade para caminhar. Histórico de AVC isquêmico prévio; a marcha é descrita como parética, com arrastamento do pé direito. No exame físico, a força muscular no membro superior direito é classificada como grau 3 (escala de 0 a 5). A força muscular no membro inferior direito é grau 4. Além disso, foi realizado o teste de Romberg durante o exame físico.\n\nCom base no caso e nos seus conhecimentos sobre a semiologia neurológica, assinale a alternativa correta:\n\nI. A marcha parética, neste caso, com arrastamento do pé direito e a dificuldade para caminhar indicam lesão nas vias corticoespinhais do lado esquerdo do cérebro, afetando a motricidade voluntária.\nII. O teste de Romberg deve ser realizado com o paciente em pé, com os pés juntos e os olhos fechados, sendo mantido nessa posição por 2 minutos para avaliar possíveis quedas. O teste alterado pode evidenciar alterações vestibulares, do equilíbrio ou proprioceptivas.\nIII. A afasia de Wernicke é caracterizada pela dificuldade em compreender a linguagem, mas o paciente é capaz de falar, embora as palavras faladas sejam muitas vezes sem sentido, comprometendo a fluência verbal.\nIV. A força muscular grau 3 indica fraqueza muscular moderada, com capacidade para mover o membro contra a gravidade, mas sem resistência adicional.\nV. O teste de Mingazzini pode ser utilizado para avaliar a força muscular e a sensibilidade tátil em pacientes pós-AVC.",
@@ -1088,6 +1167,7 @@
   {
     "id": "pro-d5d3dc30",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 7 — Diagnóstico diferencial de dor torácica\n\nAnalise as assertivas a seguir:\n\nI. Paciente de 25 anos, há 3 dias evoluindo com febre, mal-estar, dor torácica anterior com irradiação para a esquerda, piorando com a inspiração profunda e melhorando ao sentar-se. O diagnóstico provável é pleurite aguda.\nII. Paciente sexo feminino, 67 anos, com quadro de dispneia e dor torácica em hemitórax esquerdo do tipo pleurítica. Histórico de estar restrita ao leito há 1 mês, logo após cirurgia de correção de fratura de colo de fêmur decorrente de queda da própria altura, além de relato de ter começado a apresentar edema em membro inferior direito há 3 dias. O provável diagnóstico é infarto pulmonar.\nIII. Paciente com quadro de dor torácica que surge durante os movimentos ventilatórios, em especial na inspiração profunda ou na movimentação dos braços e do pescoço. Trata-se de uma dor bem localizada e desencadeada pela compressão de um ponto. É provável que essa dor seja de origem musculoesquelética.\n\nEstá correto o que se afirma em:",
@@ -1105,6 +1185,7 @@
   {
     "id": "pro-9647c21f",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 8 — Termos semiológicos (aorta, dispneia posicional, atelectasia)\n\nAnalise as assertivas a seguir:\n\nI. Um paciente que apresenta redução da elasticidade da aorta tende a apresentar redução da pressão arterial sistólica.\nII. Homem, 39 anos, procura emergência do hospital com sintomatologia de dificuldade de respirar em posição ortostática, que alivia na posição deitada. Trata-se de um quadro de trepopneia.\nIII. Mulher, 52 anos, internada na enfermaria de Cirurgia Geral no 2º dia após realização de colecistectomia. Evolui com quadro de taquipneia e redução do frêmito toracovocal na base do pulmão direito. Essa alteração do exame físico é compatível com o diagnóstico de atelectasia.\n\nEstá correto o que se afirma em:",
@@ -1122,6 +1203,7 @@
   {
     "id": "pro-dd35de8c",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 9 — Caso clínico: cefaleia com sinais de alarme\n\nGustavo, um homem de 60 anos, apresenta queixas de cefaleia progressivamente mais frequente, associada a episódios de confusão mental temporária. O exame físico revela papiledema e dor à palpação na região cervical. Ele refere história de câncer de pulmão tratado há cinco anos.\n\nQual das seguintes etapas deve ser priorizada na abordagem desse paciente?",
@@ -1139,6 +1221,7 @@
   {
     "id": "pro-163b4878",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 10 — Cefaleia primária x secundária\n\nAnalise as afirmativas a seguir e marque a alternativa correta:\n\nI. Cefaleias primárias não têm uma causa subjacente identificável, enquanto cefaleias secundárias são causadas por condições médicas subjacentes.\nII. A enxaqueca é considerada uma cefaleia secundária, pois geralmente envolve sintomas associados como náuseas e fotofobia.\nIII. A cefaleia tensional geralmente apresenta sintomas associados sem investigação adicional.\nIV. Algumas cefaleias secundárias podem ser tratadas apenas com analgésicos comuns sem investigação adicional.\n\nMarque a opção correta:",
@@ -1156,6 +1239,7 @@
   {
     "id": "pro-fafcb177",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 1 — Caso clínico: alteração súbita da fala (PR2)\n\nUm homem de 68 anos, casado, dextro, professor aposentado, é levado ao pronto-socorro pela esposa devido a uma alteração neurológica súbita iniciada há cerca de 5 horas.\n\nSegundo a esposa, ele estava bem pela manhã, tomando café e lendo o jornal. Durante uma conversa, ela percebeu que ele começou a responder de forma estranha às perguntas. Quando perguntado o que gostaria de almoçar, respondeu: “A janela está correndo porque os livros estão felizes”. Desde então, continua falando espontaneamente, mas frequentemente utiliza palavras e frases inadequadas ou inventadas; em alguns momentos parece não perceber que sua fala não faz sentido.\n\nNa triagem, o paciente encontra-se desperto, mantém contato visual e parece tranquilo. Quando o médico pergunta seu nome, ele responde prontamente: “A casa está cheia”. Ao ser solicitado que mostre dois dedos da mão direita, ele não executa o comando. Quando solicitado a fechar os olhos, também não executa a tarefa.\n\n1a. Qual domínio das funções corticais superiores parece estar predominantemente comprometido? (0,2)\n1b. Qual alteração neurológica está descrita no caso? Especifique (0,4). Quais características permitem essa classificação? (0,4)",
@@ -1165,6 +1249,7 @@
   {
     "id": "pro-6189ba09",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 2 — Continuação do caso: exame da força muscular (PR2)\n\nResponda as questões abaixo ainda com base no caso da questão anterior (homem de 68 anos com alteração súbita de fala por suspeita de AVC):\n\n2a. Na sequência do exame neurológico, para avaliação da força muscular, cite 2 manobras de força (manobras deficitárias). (0,4)\n2b. Explique o que se espera encontrar no exame, considerando também a lateralidade e se membro superior e inferior estão acometidos. (0,6)",
@@ -1174,6 +1259,7 @@
   {
     "id": "pro-70ec8387",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 3 — Caso clínico: esquecimento progressivo + Romberg positivo (PR2)\n\nUma mulher de 74 anos é trazida pela filha à consulta por queixa de esquecimento progressivo há cerca de dois anos. A filha relata que a paciente repete perguntas, esquece compromissos recentes e apresenta dificuldade crescente para administrar suas finanças e para cozinhar. Ainda consegue realizar atividades básicas de autocuidado. Nega hipertensão e diabetes.\n\nAo exame, encontra-se desperta, colaborativa, sem alterações motoras evidentes. Força muscular preservada globalmente. Reflexos osteotendíneos presentes e simétricos. Na avaliação neurológica complementar, observa-se redução da sensibilidade vibratória em ambos os pés. Ao ser solicitado que fique em pé com os pés juntos, primeiro com os olhos abertos e depois com os olhos fechados, a paciente apresenta instabilidade importante imediatamente ao fechar os olhos (Romberg positivo, sugerindo ataxia sensitiva).\n\nAnalise as assertivas a seguir:\n\nI. O quadro de esquecimento progressivo há cerca de dois anos, com repetição de perguntas e prejuízo para atividades instrumentais da vida diária, sugere comprometimento cognitivo progressivo de padrão demencial. A aplicação do Mini Exame do Estado Mental é o principal instrumento diagnóstico para confirmar a doença de Alzheimer.\nII. A dificuldade para manter-se em pé com os olhos fechados, associada à redução da sensibilidade vibratória em ambos os pés, sugere ataxia cerebelar, sendo necessário fazer testes como index-nariz e calcanhar-joelho para complementar o exame físico neurológico.\nIII. A hipótese de deficiência de vitamina B12 e condições como tabes dorsalis não devem ser consideradas, uma vez que a força muscular é preservada e os reflexos osteotendíneos estão normais.\n\nMarque a opção correta:",
@@ -1191,6 +1277,7 @@
   {
     "id": "pro-00aec1bb",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 4 — Nevo benigno x melanoma maligno (ABCDE) (PR2)\n\nQue características clínicas são utilizadas para diferenciar um nevo benigno de um melanoma maligno? Descreva a regra semiológica ABCDE com os critérios diferenciais para cada parâmetro.",
@@ -1201,6 +1288,7 @@
   {
     "id": "pro-b2f63c96",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 5 — Anamnese e exame físico cardiovascular (valvopatias)\n\nA anamnese e o exame físico do aparelho cardiovascular são de grande relevância na prática médica. Analise as assertivas a seguir:\n\nI. Paciente 37 anos, sexo feminino, relata dispneia aos grandes esforços desde os 30 anos de idade. Ao exame do aparelho cardiovascular, detecta-se um sopro sistólico audível no foco localizado no cruzamento da linha hemiclavicular esquerda com o quinto espaço intercostal esquerdo, com intensidade 3+/6+. A valvopatia mais provável para esse quadro clínico é estenose mitral.\nII. Paciente 22 anos, sexo feminino, relata inchaco nos pés eventual. Nega outros sintomas ou doenças prévias diagnosticadas. Ao exame físico: bom estado geral, eupneica, anictérica, corada, acianótica, consciente, orientada. Aparelho respiratório: murmúrio vesicular presente em ambos hemitórax, sem ruídos adventícios. Ao exame do aparelho cardiovascular: ritmo cardíaco regular, com sopro sistólico no quinto espaço intercostal esquerdo, junto à borda esternal esquerda, com intensidade 1+/6+. A valvopatia mais provável para esse quadro clínico é insuficiência tricúspide.\nIII. Paciente com 70 anos de idade apresenta há 3 meses quadro de dispneia aos moderados esforços. Hipertenso há 10 anos em uso regular de atenolol 50 mg/dia. Ao exame físico geral: bom estado, afebril, hidratado, corado, anictérico, FC=80 bpm, PA=170x60 mmHg, FR=18 irpm. Ao exame cardiovascular: bulhas normofonéticas em 2 tempos, com sopro diastólico 2+/6+ no terceiro espaço intercostal esquerdo, junto à borda esternal esquerda. A valvopatia mais provável para esse quadro clínico é insuficiência aórtica.\n\nAssinale a alternativa correta:",
@@ -1218,6 +1306,7 @@
   {
     "id": "pro-c28fc2f4",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 6 (item I) — Frêmito e ressonância vocal na consolidação\n\nA anamnese e o exame físico são de grande relevância na prática médica. Analise a assertiva a seguir e julgue se é VERDADEIRA ou FALSA, justificando com base nos princípios semiológicos:\n\n\"Paciente A.M.S., sexo feminino, 25 anos, vai ao serviço de emergência devido a quadro de tosse e dispneia há 10 dias. Diabética tipo 2 há cinco anos, hipercolesterolemia, tabagismo importante desde os 12 anos (2 carteiras/dia). No exame físico, T=37,0°C, FR=28irpm, FC=112bpm, PA=138x76mmHg. Ao exame do aparelho respiratório: redução da expansibilidade, reforço do frêmito toracovocal à palpação, macicez à percussão e redução do murmúrio vesicular na metade inferior do hemitórax esquerdo. Espera-se identificar uma ressonância vocal reduzida na mesma região.\"",
@@ -1227,6 +1316,7 @@
   {
     "id": "pro-f134141e",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Analise as assertivas a seguir a respeito da ausculta e manobras cardíacas:\n\nI. A primeira bulha cardíaca (B1) coincide com o fechamento das valvas semilunares (aórtica e pulmonar), marcando o término da sístole ventricular.\nII. Há manobras que podem alterar a intensidade dos sopros cardíacos. A manobra de Rivero Carvallo é uma delas, e consiste na realização de uma inspiração profunda enquanto o médico ausculta o precórdio do paciente. A manobra de Rivero Carvallo promove aumento do sangue nas câmaras cardíacas direitas, o que leva ao aumento da intensidade dos sopros das valvopatias tricúspides e pulmonares.\nIII. A terceira e a quarta bulhas são de tonalidade mais baixa que a primeira e a segunda bulhas cardíacas. Essas bulhas (B3 e B4), quando presentes, são melhor audíveis com a campânula do estetoscópio, assim como o sopro diastólico da estenose mitral, situando-se na telediástole e protodiástole, respectivamente.\n\nAssinale a alternativa correta:",
@@ -1244,6 +1334,7 @@
   {
     "id": "pro-d34ccdd0",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 7 — Síndromes Parkinsonianas (dois casos)\n\nAnalise os dois casos clínicos e responda o diagnóstico mais provável para cada um:\n\n7a) Paciente de 68 anos, com história de lentificação motora progressiva há cerca de 1 ano, associada a quedas frequentes desde o início do quadro. Familiares relatam dificuldade para olhar para baixo e mudança na fala, que se tornou mais lenta e arrastada. Ao exame neurológico, apresenta bradicinesia, rigidez, instabilidade postural e limitação do olhar vertical. Qual o diagnóstico mais provável?\n\n7b) Paciente de 65 anos apresenta lentificação motora progressiva há aproximadamente 3 anos, iniciando de forma assimétrica no membro superior direito, associada a tremor em repouso discreto e rigidez leve. Refere leve dificuldade para iniciar a marcha, mas sem quedas recentes. Ao exame neurológico, observa-se bradicinesia, rigidez em roda denteada no braço direito e tremor em repouso assimétrico. Qual o diagnóstico mais provável?",
@@ -1253,6 +1344,7 @@
   {
     "id": "pro-bb9d8719",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 1 — Exame do nervo óptico\n\nFSB, masculino, 58 anos, procura atendimento relatando perda visual progressiva no olho direito há cerca de 2 semanas, associada à dificuldade para perceber objetos nas laterais. Diante da situação descrita, é fundamental lançar mão dos conhecimentos adquiridos sobre a avaliação do nervo óptico. De forma objetiva, quais etapas do exame físico deste nervo craniano (II par) devem ser testadas?",
@@ -1262,6 +1354,7 @@
   {
     "id": "pro-3304a0d9",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 2 — Caso clínico: fraqueza + atrofia + sinais mistos (ELA)\n\nUm adulto jovem de 30 anos realizou uma consulta médica por conta de uma fraqueza generalizada e atrofia muscular na mão e no pé direito. Esses sintomas vinham se agravando nos últimos 2 anos e foram associados a cãibras musculares dolorosas. O exame neurológico demonstrava disartria, espasticidade generalizada, reflexos profundos aumentados em todos os tendões e sinal de Babinski bilateral. Observou-se ainda atrofia muscular proeminente em mão direita e ambos os pés, com fasciculações. O exame sensitivo se mostrou dentro da normalidade. Sem alterações de esfíncteres de bexiga e reto.\n\n2.1 Qual diagnóstico mais provável?\n2.2 Justifique sua resposta analisando a correlação com as vias motoras e sensitivas.\n\nOpções para diagnóstico diferencial:\nb) Deficiência de B12\nc) Oclusão de Artéria Espinhal Anterior\nd) Mielite Transversa\ne) Tabes dorsalis",
@@ -1271,6 +1364,7 @@
   {
     "id": "pro-368d39a8",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 3 — Utilidade do diapasão no exame físico\n\nO diapasão é um instrumento utilizado rotineiramente na semiologia médica. Qual a sua utilidade durante o exame neurológico? Que funções pode ser usado para avaliar?",
@@ -1280,6 +1374,7 @@
   {
     "id": "pro-5dc474f8",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 10.1 — Síndrome de consolidação (sopro tubário)\n\nPaciente cursando com febre, tosse produtiva e dor torácica localizada em base de hemitórax direito, apresenta ao exame físico sopro tubário. Tendo em vista o provável diagnóstico, como devem estar a Percussão, o Frêmito Toracovocal e a Ressonância vocal, na base do hemitórax acometido?",
@@ -1289,6 +1384,7 @@
   {
     "id": "pro-4492fab8",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Questão 10.2 — Pneumotórax pós-voo\n\nPaciente com história de dispneia iniciada após voo comercial Petrolina-Recife. Ao exame físico, notou-se Frêmito Toracovocal abolido, Timpanismo à Percussão e Ressonância vocal abolida, no hemitórax direito. Qual o provável diagnóstico?",
@@ -1298,6 +1394,7 @@
   {
     "id": "pro-ba63d162",
     "subject": "propedeutica",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 4 — Anamnese e exame físico pulmonar comparado\n\nA anamnese e o exame físico são de grande relevância na prática médica. Analise as assertivas a seguir:\n\nI. A anamnese é uma ferramenta fundamental para estabelecer a relação médico-paciente e deve ser realizada de forma estruturada e empática.\nII. Paciente do sexo masculino, 58 anos, procura atendimento com quadro de dispneia progressiva há 5 dias, agravada pela respiração profunda. Refere também tosse seca e sensação de peso no peito. Ao exame físico, observa-se diminuição da expansibilidade torácica à direita e aumento do frêmito toracovocal. O diagnóstico provável desse paciente é derrame pleural.\nIII. Paciente sexo feminino, 67 anos, com quadro de dispneia e tosse há 3 dias. Histórico de cirurgia de correção de fratura de colo de fêmur decorrente de queda da própria altura há 10 anos. Ao exame do aparelho respiratório, identificou-se redução do frêmito toracovocal no terço inferior do hemitórax direito. Essa alteração do exame físico sugere o diagnóstico de infarto pulmonar.\n\nAssinale a alternativa correta:",

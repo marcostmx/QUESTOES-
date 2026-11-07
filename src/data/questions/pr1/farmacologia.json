@@ -2,6 +2,7 @@
   {
     "id": "far-cf7bf867",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os conceitos fundamentais da farmacologia, analise as assertivas a seguir:\nI. Fármaco é a substância química de estrutura definida, capaz de alterar uma função do organismo — o princípio ativo.\nII. Medicamento é o produto farmacêutico resultante da associação entre o fármaco e o excipiente, já incorporado a uma forma farmacêutica.\nIII. Todo remédio é medicamento, mas nem todo medicamento é remédio.\nIV. O excipiente não possui efeito farmacológico próprio, mas é útil para aumentar a estabilidade e melhorar a absorção do produto.\nEstá correto o que se afirma em:",
@@ -18,6 +19,7 @@
   {
     "id": "far-0572d6c8",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre alguns conceitos básicos da farmacologia, julgue os itens a seguir e assinale a alternativa correta.\nI. Fármaco é o ato de medicar.\nII. Medicamento é o fármaco tecnologicamente modificado (transformado em forma farmacêutica).\nIII. Remédios são apenas medicamentos que promovem melhora ou cura.\nIV. Droga é qualquer meio que promova melhora ou cura.\nV. Todo remédio é um medicamento, mas nem todo medicamento é um remédio.\nVI. Farmacocinética é o estudo do mecanismo de ação dos fármacos.\nVII. Farmacodinâmica é o estudo do caminho que o fármaco percorre no organismo.",
@@ -34,6 +36,7 @@
   {
     "id": "far-ace961b5",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A ANVISA classifica os medicamentos comercializados no Brasil em referência, genérico e similar. Assinale a alternativa CORRETA sobre essa classificação e sobre os conceitos de biodisponibilidade e bioequivalência.",
@@ -50,6 +53,7 @@
   {
     "id": "far-e393d1a8",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um laboratório concluiu os estudos pré-clínicos de uma nova molécula e inicia a etapa em seres humanos. Sobre as fases dos estudos clínicos, assinale a alternativa CORRETA.",
@@ -66,6 +70,7 @@
   {
     "id": "far-e82b9171",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre biodisponibilidade e sobre a divisão da farmacologia em duas fases, analise as assertivas:\nI. Biodisponibilidade é definida pela velocidade e pela extensão com que o princípio ativo alcança a circulação sistêmica, a partir da curva concentração/tempo.\nII. A farmacocinética compreende as quatro etapas do percurso do fármaco no organismo: absorção, distribuição, metabolismo e excreção.\nIII. A farmacodinâmica estuda o efeito do fármaco, isto é, a interação ligante–receptor e o mecanismo de ação.\nIV. A fase farmacodinâmica precede a fase farmacocinética, pois o fármaco precisa ligar-se ao receptor antes de ser absorvido.\nEstá correto o que se afirma em:",
@@ -82,6 +87,7 @@
   {
     "id": "far-bd44122a",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os conceitos introdutórios de farmacologia, assinale a alternativa INCORRETA.",
@@ -98,6 +104,7 @@
   {
     "id": "far-a8f0c603",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie fármaco, medicamento e remédio, em uma frase cada, e explique por que a afirmação \"todo remédio é medicamento\" está incorreta.\nb. O que é o excipiente e qual sua função na formulação, já que não possui efeito farmacológico próprio?\nc. Diferencie farmacocinética de farmacodinâmica, indicando um recurso mnemônico que evite a troca entre elas.\nd. Um mesmo fármaco pode existir em diferentes medicamentos? Justifique.",
@@ -106,6 +113,7 @@
   {
     "id": "far-c302d76f",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Descreva as quatro fases dos estudos clínicos, indicando para cada uma: população estudada e objetivo principal.\nb. Por que a fase 1 utiliza voluntários saudáveis, se o medicamento se destina a doentes?\nc. Em que momento ocorre a farmacovigilância e qual sua importância, considerando que o medicamento já passou por três fases de estudo?\nd. Defina biodisponibilidade contemplando seus dois componentes.",
@@ -114,6 +122,7 @@
   {
     "id": "far-32c27f09",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente recebeu prescrição de piroxicam 20 mg sublingual (Feldene® SL), 1x/dia por 10 dias, mas relata ausência de efeito terapêutico. Ao ser questionado, informa que ingere o comprimido inteiro com água, em vez de deixá-lo dissolver sob a língua. O que justifica a ausência de efeito?",
@@ -130,6 +139,7 @@
   {
     "id": "far-55383839",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "[INSERIR IMAGEM DA QUESTÃO 10 AQUI]\nUm gráfico mostra a concentração sérica de um fármaco ao longo do tempo, comparando duas curvas: A (pico alto e rápido) e B (pico mais baixo e absorção mais lenta), ambas dentro da faixa terapêutica. Julgue:\nI. A curva A representa a via oral.\nII. A curva B representa via intramuscular, útil para fármacos oleosos/suspensões.\nIII. A curva A representa via intravenosa (parenteral), de alto risco por ser invasiva.\nIV. A via intravenosa tem absorção mais rápida e é a via de escolha em emergências.\nV. As curvas A e B representam a mesma via oral em doses diferentes.",
@@ -146,6 +156,7 @@
   {
     "id": "far-4fb1b760",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as vias de administração, assinale a alternativa INCORRETA.",
@@ -162,6 +173,7 @@
   {
     "id": "far-25772374",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a via oral de administração de medicamentos, assinale a alternativa CORRETA.",
@@ -178,6 +190,7 @@
   {
     "id": "far-3b4987b0",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as formas farmacêuticas, analise as assertivas a seguir:\nI. Na solução, o soluto está totalmente dissolvido no solvente; na suspensão, o princípio ativo não está completamente solubilizado — daí a necessidade de agitar o frasco antes do uso.\nII. A pomada apresenta maior penetrabilidade que o creme, podendo alcançar região muscular e articulações.\nIII. O xarope tem base de açúcar, enquanto o elixir é uma solução alcoólica.\nIV. A amoxicilina tri-hidratada tem absorção facilitada em relação à amoxicilina comum, pois as moléculas de água aumentam sua lipossolubilidade.\nEstá correto o que se afirma em:",
@@ -194,6 +207,7 @@
   {
     "id": "far-1ab03e79",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as vias parenterais intramuscular e subcutânea, assinale a alternativa CORRETA.",
@@ -210,6 +224,7 @@
   {
     "id": "far-d135451a",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Criança de 3 anos, em vigência de vômitos incoercíveis por gastroenterite, necessita de antitérmico. A mãe relata que \"tudo o que ela toma pela boca, ela devolve\". O médico opta por prescrever supositório de paracetamol. Sobre a escolha da via, assinale a alternativa CORRETA.",
@@ -226,6 +241,7 @@
   {
     "id": "far-f348c7e1",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Para que um fármaco administrado por via oral produza seu efeito sistêmico, ele precisa atravessar membranas biológicas. Qual é o principal mecanismo de transporte responsável pela absorção da maioria dos fármacos?",
@@ -242,6 +258,7 @@
   {
     "id": "far-66d3a4c6",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O ácido acetilsalicílico (AAS) é um ácido fraco. Considerando o grau de ionização e o pH dos compartimentos do trato gastrointestinal, onde ocorrerá a maior taxa de absorção do AAS?",
@@ -258,6 +275,7 @@
   {
     "id": "far-c6f80127",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Você é chamado à emergência para avaliar um paciente jovem trazido após ingestão voluntária de grande quantidade de fenobarbital (um barbitúrico de caráter ácido fraco). Qual das seguintes medidas favorece a excreção renal desse fármaco e qual o princípio farmacológico envolvido?",
@@ -274,6 +292,7 @@
   {
     "id": "far-c0b0513e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A distribuição é a passagem do fármaco da circulação sistêmica para os tecidos. Sobre os fatores que afetam essa etapa, é CORRETO afirmar que:",
@@ -290,6 +309,7 @@
   {
     "id": "far-ed8cee26",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Pacientes idosos, pacientes com desnutrição grave ou com cirrose hepática costumam apresentar hipoalbuminemia. Qual o impacto farmacocinético mais imediato dessa condição ao se administrar um fármaco como a fenitoína, que possui alta taxa de ligação às proteínas plasmáticas (90%)?",
@@ -306,6 +326,7 @@
   {
     "id": "far-ff4d8163",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o processo de biotransformação (metabolismo) dos fármacos, analise as afirmativas:\nI. O objetivo primário da biotransformação é tornar o fármaco mais hidrofílico (polar) para facilitar sua excreção renal.\nII. As reações de Fase 1 (ex.: oxidação pelo citocromo P450) geralmente inserem ou expõem um grupo polar na molécula.\nIII. As reações de Fase 2 (conjugação, como a glicuronidação) anexam uma molécula endógena grande e polar ao fármaco.\nIV. Pró-fármacos (ex.: enalapril) são administrados na forma inativa e dependem da biotransformação para serem convertidos no metabólito ativo.\nEstá(ão) correta(s):",
@@ -322,6 +343,7 @@
   {
     "id": "far-c59cdd55",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O citocromo P450 (CYP) é o principal sistema enzimático envolvido no metabolismo de fase 1. Sobre os conceitos de inibição e indução enzimática, assinale a alternativa CORRETA.",
@@ -338,6 +360,7 @@
   {
     "id": "far-18ae0723",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 60 anos é portador de insuficiência renal crônica (clearance de creatinina = 20 mL/min). O médico prescreve um antibiótico cuja excreção é predominantemente renal e que possui índice terapêutico estreito. Qual o principal ajuste farmacocinético necessário e qual a razão?",
@@ -354,6 +377,7 @@
   {
     "id": "far-2bd6372f",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tempo de meia-vida (T1/2) é um parâmetro farmacocinético fundamental para definir posologias. Assinale a alternativa que define CORRETAMENTE esse parâmetro e suas implicações.",
@@ -370,6 +394,7 @@
   {
     "id": "far-9b3323d5",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "[INSERIR IMAGEM DA QUESTÃO 20 AQUI]\nO gráfico ilustra a curva de concentração plasmática após doses orais sucessivas e repetidas de um fármaco, em intervalos regulares iguais à sua meia-vida. Nota-se que, após algumas doses, a concentração flutua dentro de uma faixa estável (patamar). O nome desse estado, no qual a quantidade de fármaco que entra no corpo é igual à quantidade que é eliminada, é:",
@@ -386,6 +411,7 @@
   {
     "id": "far-dd9a7571",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente em estado grave necessita de digitalização (digoxina) rápida para controle de fibrilação atrial. Como a digoxina tem um longo tempo de meia-vida (cerca de 36 horas), demoraria cerca de 5 a 6 dias para atingir o estado de equilíbrio (*steady-state*) apenas com a dose de manutenção. A conduta do médico é prescrever uma dose inicial muito maior para preencher rapidamente os estoques teciduais, seguida das doses menores. Essa dose inicial alta é denominada:",
@@ -402,6 +428,7 @@
   {
     "id": "far-2bf74dcf",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 55 anos apresenta arritmia e recebe prescrição de amiodarona. O farmacêutico alerta que o paciente faz uso crônico de varfarina (anticoagulante) e que ambos os fármacos competem fortemente pela ligação às proteínas plasmáticas. Sabendo que a amiodarona pode deslocar a varfarina da albumina, qual será a consequência farmacocinética imediata?",
@@ -418,6 +445,7 @@
   {
     "id": "far-f5e11a27",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Relacione o parâmetro farmacocinético à sua definição correta e assinale a alternativa com a sequência correspondente:\n(1) Biodisponibilidade\n(2) Volume de Distribuição\n(3) *Clearance* (depuração)\n(4) Tempo de meia-vida\n( ) Espaço teórico no organismo em que o fármaco deve ter se distribuído para produzir a concentração plasmática observada.\n( ) Proporção da dose administrada que alcança a circulação sistêmica na sua forma inalterada.\n( ) Volume de plasma que é totalmente limpo do fármaco na unidade de tempo.\n( ) Tempo necessário para reduzir em 50% a quantidade do fármaco no organismo.",
@@ -434,6 +462,7 @@
   {
     "id": "far-8199dfd7",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Sobre a absorção de fármacos ácidos e básicos fracos, responda:\na. Qual é a relação entre lipossolubilidade e a forma ionizada/não ionizada da molécula?\nb. Em qual ambiente do trato gastrointestinal (ácido ou básico) um fármaco BÁSICO fraco (como a anfetamina) é melhor absorvido e por quê?\nc. O que se entende por \"efeito de primeira passagem hepática\" e como ele afeta a biodisponibilidade de fármacos orais?",
@@ -442,6 +471,7 @@
   {
     "id": "far-ed47eb92",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "O tratamento da epilepsia e de arritmias exige controle rigoroso de níveis séricos porque as drogas usadas (como fenitoína e amiodarona) têm \"índice terapêutico estreito\".\na. Defina o que é o \"estado de equilíbrio dinâmico\" (steady-state).\nb. Em quantas meias-vidas o steady-state é alcançado? O aumento da dose fará o steady-state ser atingido mais rápido?\nc. Qual é a utilidade prática de uma \"dose de ataque\"?\nd. O que significa afirmar que um fármaco possui índice terapêutico estreito?",
@@ -450,6 +480,7 @@
   {
     "id": "far-3672bee4",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A farmacodinâmica estuda os mecanismos de ação dos fármacos e seus efeitos. Sobre a interação fármaco-receptor, assinale a alternativa CORRETA.",
@@ -466,6 +497,7 @@
   {
     "id": "far-b9402eb5",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Considere dois analgésicos: a morfina (agonista total dos receptores opioides) e a buprenorfina (agonista parcial). Um paciente com dor intensa recebe morfina e obtém alívio. Algumas horas depois, equivocadamente, um colega administra buprenorfina ao mesmo paciente. Qual o provável resultado clínico dessa interação e qual conceito farmacodinâmico a explica?",
@@ -482,6 +514,7 @@
   {
     "id": "far-b4898fa3",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Considere a curva dose-resposta da heparina (anticoagulante) e da varfarina. Sabe-se que, em caso de sangramento por superdose de heparina, administra-se sulfato de protamina, uma molécula básica que se liga fortemente à heparina (ácida) na corrente sanguínea, formando um complexo inativo que é excretado, revertendo a hemorragia sem sequer tocar nos receptores de coagulação. O sulfato de protamina atua por meio de um:",
@@ -498,6 +531,7 @@
   {
     "id": "far-fc59fa6f",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O receptor GABA-A é um canal iônico de cloreto que, quando ativado pelo GABA (agonista endógeno), inibe o neurônio. Os benzodiazepínicos (ex.: diazepam) ligam-se a um sítio diferente no mesmo receptor, mas não conseguem abri-lo sozinhos. Eles apenas \"ajudam\" o GABA, fazendo com que o canal se abra com mais frequência quando o GABA está presente. Qual é a correta classificação farmacodinâmica do diazepam neste cenário?",
@@ -514,6 +548,7 @@
   {
     "id": "far-7c8a09a2",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Ao comparar a ação de dois fármacos (Fármaco A e Fármaco B) em um laboratório, observa-se que, na presença do Fármaco B, a curva dose-resposta do Fármaco A é deslocada para a direita, sem que haja diminuição do seu efeito máximo. O efeito máximo do Fármaco A só é atingido mediante o aumento significativo de sua dose. Assinale a alternativa que classifica corretamente o Fármaco B.",
@@ -530,6 +565,7 @@
   {
     "id": "far-7a627d60",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Diferencie Afinidade de Eficácia Intrínseca no contexto da interação droga-receptor.\nb. Classifique os fármacos abaixo de acordo com sua Eficácia Intrínseca (E): Agonista Total, Agonista Parcial e Antagonista.\nc. Explique, com base na ocupação de receptores, por que um antagonista competitivo pode ser superado pelo aumento da dose do agonista, mas um antagonista não competitivo não pode.",
@@ -538,6 +574,7 @@
   {
     "id": "far-51c98da6",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A clonidina e a metildopa são fármacos classificados como agonistas alfa-2 adrenérgicos, amplamente utilizados como anti-hipertensivos. Como se explica o efeito redutor da pressão arterial de um agonista adrenérgico?",
@@ -554,6 +591,7 @@
   {
     "id": "far-a0015ba7",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O propranolol é um antagonista beta-adrenérgico não seletivo. Qual das seguintes condições representa uma contraindicação clássica e perigosa para o uso do propranolol?",
@@ -570,6 +608,7 @@
   {
     "id": "far-6300da48",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Você está prescrevendo um betabloqueador para um paciente que sofreu infarto agudo do miocárdio, mas que também é portador de Doença Pulmonar Obstrutiva Crônica (DPOC).\na. Qual é o risco de prescrever um betabloqueador não seletivo (ex.: propranolol)? Explique o mecanismo fisiológico.\nb. Qual subgrupo de betabloqueadores deve ser escolhido e cite dois exemplos.",
@@ -578,6 +617,7 @@
   {
     "id": "far-fbf4ef07",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 40 anos é diagnosticado com hipertensão arterial e o médico decide iniciar tratamento com um Inibidor da Enzima Conversora de Angiotensina (IECA). Qual dos fármacos abaixo pertence a essa classe e qual é o seu principal efeito adverso característico?",
@@ -594,6 +634,7 @@
   {
     "id": "far-3ea46226",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente negro, idoso, foi diagnosticado com hipertensão arterial sistêmica estágio I isolada. De acordo com as diretrizes e a farmacologia clássica, qual a classe de anti-hipertensivos geralmente menos efetiva como monoterapia inicial para essa população específica (pacientes negros)?",
@@ -610,6 +651,7 @@
   {
     "id": "far-f97bdd6e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os bloqueadores de canais de cálcio (BCC) são divididos em di-hidropiridínicos (ex.: anlodipino, nifedipino) e não di-hidropiridínicos (ex.: verapamil, diltiazem). Qual é a principal diferença farmacodinâmica entre esses dois grupos?",
@@ -626,6 +668,7 @@
   {
     "id": "far-0f74fe07",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Qual das interações medicamentosas abaixo justifica a proibição do uso simultâneo de Verapamil (BCC não di-hidropiridínico) e Propranolol (Betabloqueador)?",
@@ -642,6 +685,7 @@
   {
     "id": "far-9e21061e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Sobre os anti-hipertensivos que atuam no Sistema Renina-Angiotensina-Aldosterona (SRAA):\na. Cite a diferença no mecanismo de ação entre um IECA (ex.: Enalapril) e um BRA (ex.: Losartana).\nb. Por que os IECAs causam tosse seca (frequentemente obrigando a troca da medicação), enquanto os BRAs não causam?\nc. Por que ambas as classes são contraindicadas na gravidez?",
@@ -650,6 +694,7 @@
   {
     "id": "far-cb42999c",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os diuréticos são fundamentais no manejo da hipertensão e insuficiência cardíaca. Qual das alternativas correlaciona CORRETAMENTE a classe do diurético, seu local de ação no néfron e seu principal efeito nos níveis de potássio no sangue?",
@@ -666,6 +711,7 @@
   {
     "id": "far-172b9555",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente dá entrada na emergência com edema agudo de pulmão (congestão severa, falta de ar extrema). Qual diurético deve ser administrado imediatamente por via intravenosa devido ao seu rápido e potente efeito natriurético?",
@@ -682,6 +728,7 @@
   {
     "id": "far-9f5e1746",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Pacientes em uso crônico de furosemida para insuficiência cardíaca frequentemente precisam de suplementação de qual eletrólito, devido ao mecanismo de ação da droga?",
@@ -698,6 +745,7 @@
   {
     "id": "far-db9cf8ae",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a farmacologia dos anti-inflamatórios não esteroidais (AINEs), assinale a alternativa que explica seu principal mecanismo de ação.",
@@ -714,6 +762,7 @@
   {
     "id": "far-ddd97e89",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente idoso com osteoartrite faz uso de diclofenaco diariamente. Após alguns meses, desenvolve úlcera péptica sangrante. Qual o raciocínio farmacológico por trás desse evento adverso crônico dos AINEs tradicionais?",
@@ -730,6 +779,7 @@
   {
     "id": "far-1aafc70a",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O ácido acetilsalicílico (AAS) é o único AINE capaz de prevenir infartos e derrames em doses baixas (100 mg/dia), enquanto os demais AINEs, inclusive os inibidores seletivos de COX-2, podem AUMENTAR o risco cardiovascular. O que confere ao AAS esse perfil antitrombótico único?",
@@ -746,6 +796,7 @@
   {
     "id": "far-7d0948ca",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os inibidores seletivos da COX-2 (coxibes, ex.: celecoxibe) foram desenvolvidos para resolver qual problema principal dos AINEs não seletivos, e qual foi o novo e perigoso risco descoberto com seu uso em larga escala?",
@@ -762,6 +813,7 @@
   {
     "id": "far-66a03f8a",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em tratamento para tuberculose com esquema contendo rifampicina inicia, no mesmo período, um antirretroviral (saquinavir) metabolizado pela CYP3A4. Semanas depois, a carga viral não cai. Assinale a alternativa CORRETA sobre o mecanismo e a conduta.",
@@ -778,6 +830,7 @@
   {
     "id": "far-699f83b7",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Explique o que é um indutor e o que é um inibidor enzimático, indicando o efeito de cada um sobre a biodisponibilidade de um fármaco coadministrado.\nb. Indique o desfecho clínico esperado em cada caso e explique por que a nomenclatura é contraintuitiva.\nc. Cite três exemplos de indutores e três de inibidores.\nd. Explique o fenômeno da autoindução, usando a carbamazepina como exemplo, e sua implicação sobre a dose ao longo do tratamento.",
@@ -786,6 +839,7 @@
   {
     "id": "far-50db8b04",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Mulher de 28 anos, em uso contínuo de anticoncepcional oral combinado, é diagnosticada com tuberculose pulmonar e inicia esquema RIPE. Quatro meses depois, descobre estar grávida.\na. Explique o mecanismo farmacocinético que levou à falha do contraceptivo, nomeando o fármaco responsável e a enzima envolvida.\nb. A interação é farmacocinética ou farmacodinâmica? Justifique com base na definição de cada uma.\nc. Que orientação deveria ter sido dada à paciente no início do tratamento?\nd. Explique por que simplesmente aumentar a dose do contraceptivo não seria a solução mais segura.",
@@ -794,6 +848,7 @@
   {
     "id": "far-be69215b",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Paciente epiléptico em uso contínuo de diazepam suspende a medicação na véspera de um evento social em que pretende ingerir bebida alcoólica, acreditando assim evitar a interação.\na. A conduta do paciente foi eficaz? Justifique com base no conceito de meia-vida.\nb. Descreva a natureza da interação entre etanol e diazepam e o risco clínico associado.\nc. Além da interação aguda, explique o efeito do etilismo crônico sobre o metabolismo hepático de fármacos e o desfecho esperado.\nd. Que orientação você daria ao paciente?",
@@ -802,6 +857,7 @@
   {
     "id": "far-e17b9ee3",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "José, 58 anos, usou nimesulida (AINE) em doses elevadas por semanas, sem prescrição, e foi diagnosticado com nefropatia (edema, oligúria, fadiga). Assinale a alternativa correta sobre o impacto farmacocinético desse quadro.",
@@ -818,6 +874,7 @@
   {
     "id": "far-31e21491",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as etapas da farmacocinética, julgue:\nI. A farmacocinética estuda apenas absorção, metabolização e eliminação (sem distribuição).\nII. Na via oral, o principal órgão de absorção é o intestino delgado.\nIII. Fígado e rins são responsáveis, respectivamente, por metabolização e excreção.\nIV. A via intravenosa possui absorção mais rápida entre todas as vias, sendo a de escolha em emergências.",
@@ -834,6 +891,7 @@
   {
     "id": "far-29cdd9e5",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um gráfico ilustra a janela terapêutica de um fármaco, com CTM, CEM e ASC. Assinale a alternativa INCORRETA.",
@@ -850,6 +908,7 @@
   {
     "id": "far-631096b1",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A heroína é habitualmente medida em doses de bolsas de 25 mg. Os usuários incautos da \"China White\", que poderiam obter o efeito desejado com três bolsas de heroína, morriam após injetar uma única bolsa de 25 mg de 3-metil-fentanil. Sabendo que 50% dos usuários da \"China White\" morreram após injetar uma bolsa, qual das afirmações é correta?",
@@ -866,6 +925,7 @@
   {
     "id": "far-3b084cab",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os parâmetros farmacocinéticos e a janela terapêutica, analise as assertivas:\nI. A CEM (concentração eficaz mínima) é a menor concentração capaz de produzir efeito farmacológico; abaixo dela, o efeito fica aquém do desejado.\nII. Meia-vida é o tempo necessário para que a concentração plasmática do fármaco se reduza à metade.\nIII. A área sob a curva (ASC) é representativa da biodisponibilidade do fármaco.\nIV. Um fármaco de janela terapêutica ampla exige monitorização sérica rigorosa, pois pequenas variações de dose produzem toxicidade.\nEstá correto o que se afirma em:",
@@ -882,6 +942,7 @@
   {
     "id": "far-aab16ea0",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a etapa de excreção, assinale a alternativa INCORRETA.",
@@ -898,6 +959,7 @@
   {
     "id": "far-78bb465c",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No que concerne às proteínas G, assinale a opção correta.",
@@ -914,6 +976,7 @@
   {
     "id": "far-0b50845d",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as quatro famílias de receptores farmacológicos e a velocidade das respostas que geram, analise as assertivas:\nI. Os receptores ligados a canais iônicos produzem a resposta celular mais rápida, na ordem de milissegundos.\nII. Os receptores intracelulares (nucleares) produzem resposta lenta, pois dependem de transcrição gênica e síntese de novas proteínas.\nIII. O receptor da insulina é do tipo tirosina-cinase e dispara a via RAS → RAF → MAPK.\nIV. Um fármaco que atue sobre receptor nuclear precisa ser hidrossolúvel para alcançar seu alvo.\nEstá correto o que se afirma em:",
@@ -930,6 +993,7 @@
   {
     "id": "far-8a220660",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os receptores farmacológicos, assinale a alternativa INCORRETA.",
@@ -946,6 +1010,7 @@
   {
     "id": "far-6dfa1be7",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação aos receptores farmacológicos, considere as características a seguir: I. São algumas vezes denominados receptores ionotrópicos. II. Participam principalmente da transmissão sináptica rápida. III. Tratam-se de proteínas oligoméricas com cerca de 20 segmentos transmembrana dispostos ao redor de um canal aquoso central. IV. Alguns exemplos incluem os receptores nicotínicos da acetilcolina (nACh) e o GABA-A. As informações acima referem-se a:",
@@ -962,6 +1027,7 @@
   {
     "id": "far-12066d72",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a interação entre os fármacos e seus receptores, julgue:\nI. A transdução de sinal é a habilidade das células de receber e reagir a sinais vindos do outro lado da membrana; esses sinais são detectados por um receptor específico e convertidos em resposta celular.\nII. Hidrofobicidade, hidrofilicidade, pKa dos aminoácidos próximos ao sítio de ligação e estereoquímica do fármaco NÃO influenciam a interação fármaco-receptor.\nIII. O AAS é um AINE que inibe irreversivelmente a cicloxigenase, com efeitos analgésico, antitérmico, anti-inflamatório e antiagregante plaquetário.\nIV. Os receptores ligados a canais (ex.: nicotínico) produzem efeito celular mais rápido que os acoplados à proteína G (ex.: muscarínico).",
@@ -978,6 +1044,7 @@
   {
     "id": "far-0e50a70e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A formação dos segundos mensageiros diacilglicerol (DAG) e inositol-1,4,5-trifosfato (IP3), a partir da degradação do fosfatidilinositol-4,5-bifosfato (PIP2), está relacionada à ativação da:",
@@ -994,6 +1061,7 @@
   {
     "id": "far-f28547f2",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante um procedimento odontológico, o paciente recebe lidocaína infiltrativa. Alguns minutos depois, refere palpitações, e o eletrocardiograma evidencia arritmia. Sobre o mecanismo de ação dessa classe e o efeito adverso descrito, assinale a alternativa CORRETA.",
@@ -1010,6 +1078,7 @@
   {
     "id": "far-b2913a75",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Nem todo alvo farmacológico é um receptor: muitos fármacos agem inibindo enzimas. Assinale a alternativa que associa corretamente a enzima, sua função e a classe farmacológica que a inibe.",
@@ -1026,6 +1095,7 @@
   {
     "id": "far-a1d82126",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Nomeie as quatro famílias de receptores farmacológicos e, para cada uma, indique: localização, velocidade da resposta e um exemplo.\nb. Explique por que existe uma relação entre a localização do receptor e a velocidade da resposta que ele produz.\nc. Por que um fármaco que atue em receptor nuclear precisa ser lipossolúvel?\nd. Descreva o mecanismo do receptor GABA-A: qual íon conduz, qual o efeito sobre o potencial de membrana e qual a consequência funcional. Cite duas classes de fármacos que atuam nesse receptor.",
@@ -1034,6 +1104,7 @@
   {
     "id": "far-7e49cd58",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a. Defina ligante, receptor e afinidade, e explique a relação entre afinidade e a constante de dissociação (Kd).\nb. Por que um fármaco precisa ter afinidade maior que a do ligante endógeno para produzir efeito relevante?\nc. Cite três enzimas que funcionam como alvo farmacológico, indicando a função de cada uma e a classe de fármacos correspondente.\nd. Explique por que o AAS é classificado como inibidor irreversível e qual a consequência prática disso sobre a função plaquetária.",
@@ -1042,6 +1113,7 @@
   {
     "id": "far-7eb6084a",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a sequência de ativação de um receptor acoplado à proteína G, julgue os itens em verdadeiro (V) ou falso (F):\n\nI. Na ausência do ligante, a subunidade G-α encontra-se ligada ao GTP, configurando o estado de repouso.\nII. A ligação do agonista provoca alteração conformacional que leva à liberação do GDP e ao acoplamento do GTP.\nIII. Após a ativação, o heterotrímero se dissocia, e as subunidades β e γ podem exercer funções próprias, como a abertura de canais iônicos.\nIV. O retorno ao estado basal depende da hidrólise do GTP a GDP pela própria subunidade α.",
@@ -1058,6 +1130,7 @@
   {
     "id": "far-0bfe36ba",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que relaciona corretamente cada subtipo de proteína G à enzima efetora que ele mobiliza e ao segundo mensageiro resultante.",
@@ -1074,6 +1147,7 @@
   {
     "id": "far-eef3a1ee",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A dessensibilização de receptores acoplados à proteína G (GPCRs) explica a redução da resposta farmacológica ao longo do tempo mesmo com o agonista presente continuamente. Julgue:\n\nI. A dessensibilização é irreversível.\nII. Muitos GPCRs são regulados por fosforilação via GRK (cinase do receptor acoplado à proteína G).\nIII. A β-arrestina se liga ao receptor fosforilado, promovendo endocitose e podendo permitir reciclagem/ressensibilização.\nIV. Para manter a resposta clínica, muitas vezes aumenta-se a dose, elevando o risco de efeitos colaterais.",
@@ -1090,6 +1164,7 @@
   {
     "id": "far-eb7e3da3",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "A cascata da proteína G e os segundos mensageiros\na. Descreva, em ordem, as etapas da ativação de um receptor acoplado à proteína G, desde o estado de repouso até o retorno ao basal.\nb. Qual subunidade da proteína G carrega o nucleotídeo de guanina e qual das duas formas (GDP ou GTP) corresponde ao estado ativo? Justifique por que essa distinção é funcionalmente decisiva.\nc. Explique o que acontece com as subunidades β e γ após a dissociação do heterotrímero.\nd. Descreva integralmente a via Gq, nomeando a enzima efetora, os dois segundos mensageiros gerados, o destino de cada um deles e o efeito final sobre o músculo liso.",
@@ -1098,6 +1173,7 @@
   {
     "id": "far-35a824b9",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um gráfico de dose-resposta mostra a curva de um agonista isolado e a mesma curva na presença de um antagonista, sem alteração do platô (efeito máximo), mas com deslocamento da curva para a direita. Assinale a alternativa correta sobre esse tipo de antagonismo.",
@@ -1114,6 +1190,7 @@
   {
     "id": "far-3ce6dd56",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O que caracteriza o efeito de \"terapia de saturação\", como ocorre com agonistas parciais e curvas dose-resposta em geral?",
@@ -1130,6 +1207,7 @@
   {
     "id": "far-afc63bed",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respeito da potência e da eficácia de quatro fármacos (A, B, C, D) representados nas curvas dose-resposta (A, B, C, D todas chegando ao platô máximo, exceto B que chega apenas a 50%. A ordem no eixo X da esquerda para a direita é: B, A, C, D), julgue:\n\nI. C e D são mais potentes que A e B por terem EC50 menor.\nII. A potência depende, em parte, da afinidade (Kd) do fármaco pelo receptor e, em parte, da eficiência do acoplamento à resposta.\nIII. A é mais potente e mais eficaz que B.\nIV. A, C e D têm eficácia máxima igual, todas maiores que a de B.\nV. A potência de A é menor que a de B, pois a EC50 de A é maior que a de B.",
@@ -1146,6 +1224,7 @@
   {
     "id": "far-add62bfb",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre conceitos de agonismo e antagonismo, julgue V/F:\n\nI. Existem 3 tipos de agonistas — pleno, parcial e inverso; o antagonista se liga ao receptor, geralmente não desencadeia resposta bioquímica própria e bloqueia o efeito do agonista, podendo ser competitivo, não competitivo/irreversível ou fisiológico.\nII. Efeitos colaterais são previsíveis, decorrentes do próprio mecanismo de ação do fármaco; efeitos adversos não são explicados pelo mecanismo de ação principal e não são esperados.",
@@ -1162,6 +1241,7 @@
   {
     "id": "far-75302d59",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre agonistas plenos, parciais e inversos e sobre a atividade constitutiva dos receptores, assinale a alternativa CORRETA.",
@@ -1178,6 +1258,7 @@
   {
     "id": "far-d875a66e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Leitura de curvas dose-resposta\nCom relação à farmacodinâmica, considere o gráfico dose-resposta com três fármacos: A e B atingem Emáx de 100% (B com EC50 dez vezes menor que a de A) e C atinge Emáx de 50% com EC50 igual à de B. Responda:\na. Qual é o fármaco mais potente? Justifique indicando em que eixo do gráfico essa informação é lida.\nb. Qual é o fármaco mais eficaz? Justifique.\nc. Como se classifica farmacodinamicamente o fármaco C? Explique o que aconteceria com a resposta se C fosse administrado junto de um agonista pleno.",
@@ -1186,6 +1267,7 @@
   {
     "id": "far-2f2f74f6",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Um paciente de 54 anos, com histórico de etilismo crônico e cirrose hepática Child-Pugh B, é admitido com quadro de dor aguda. Ao planejar a terapia farmacológica, o clínico deve considerar que a disfunção do parênquima hepático altera parâmetros farmacocinéticos críticos. Nesse cenário, para um fármaco que possui alta taxa de extração hepática e é metabolizado pelo sistema citocromo P450, qual etapa da farmacocinética será afetada?",
@@ -1194,6 +1276,7 @@
   {
     "id": "far-60190c62",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Um paciente de 25 anos é levado à emergência em estado epiléptico (crises convulsivas contínuas). A equipe médica precisa administrar um anticonvulsivante de ação rápida. O protocolo sugere o uso de um benzodiazepínico. O médico discute com a equipe a escolha entre a via Intravenosa (IV) e a via Oral (VO) para este momento crítico. Qual seria a melhor via de administração e por quê?",
@@ -1202,6 +1285,7 @@
   {
     "id": "far-eaa2c5cb",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 65 anos, hipertenso e diabético, é admitido na unidade de emergência apresentando um quadro de crise hipertensiva severa, associada a náuseas e vômitos intensos. Durante a avaliação, observa-se também uma lesão inflamatória extensa e localizada no antebraço esquerdo, decorrente de uma picada de inseto ocorrida há dois dias. A equipe médica precisa decidir as melhores estratégias para: controle imediato da pressão arterial; manutenção da glicemia e hidratação; tratamento da inflamação local no braço. Com base nos conceitos de Farmacocinética, analise as três grandes vias de administração (Enteral, Parenteral e Tópica) e correlacione as colunas abaixo:\n\n(A) Essa via de administração possui efeito sistêmico, a absorção não envolve os órgãos do trato gastrointestinal.\n(II) Essa via de administração possui efeito local, a absorção envolve pele ou mucosa.\n(C) Essa via possui efeito sistêmico, a absorção envolve os órgãos do trato gastrointestinal.\n\n( ) Via Tópica.   ( ) Via Enteral.   ( ) Via Parenteral.\n\nTranscrição fiel: os itens aparecem na prova rotulados como (A), (II) e (C).",
@@ -1218,6 +1302,7 @@
   {
     "id": "far-919edc10",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o gráfico abaixo, qual curva representa a via oral?",
@@ -1232,6 +1317,7 @@
   {
     "id": "far-ab78bfae",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A tadalafila é um fármaco usado para disfunção erétil e hiperplasia prostática benigna. Sobre sua farmacodinâmica, qual das afirmações abaixo é a mais correta?",
@@ -1248,6 +1334,7 @@
   {
     "id": "far-d066e5f1",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente masculino, 45 anos, com histórico de desidratação grave e hemoconcentração, apresenta quadro de hiperalbuminemia (aumento da concentração de albumina sérica). Durante a internação, o paciente necessita iniciar o uso de um fármaco X, que possui caráter ácido e alta taxa de ligação às proteínas plasmáticas (98%). Considerando os princípios da farmacocinética, qual é a consequência esperada para a fração livre do fármaco e seu efeito terapêutico inicial?",
@@ -1264,6 +1351,7 @@
   {
     "id": "far-81f778ce",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 45 anos, em uso crônico de morfina para controle de dor oncológica, é levado ao pronto-socorro com rebaixamento do nível de consciência, miose puntiforme e depressão respiratória significativa. Opta-se pela administração de naloxona intravenosa. Considerando a farmacodinâmica da morfina e da naloxona, assinale a alternativa correta:",
@@ -1280,6 +1368,7 @@
   {
     "id": "far-8b3f948c",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Durante uma consulta médica, um paciente questiona sobre a diferença entre os termos que lê nas embalagens e nos noticiários. O profissional explica que, embora usados como sinônimos no cotidiano, possuem definições técnicas distintas. Com base na terminologia oficial, assinale a alternativa que define corretamente esses conceitos:",
@@ -1296,6 +1385,7 @@
   {
     "id": "far-f0a6313e",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um pesquisador estuda um fármaco que, ao se ligar a determinado receptor acoplado à proteína G, reduz sua atividade basal mesmo na ausência de ligante endógeno. Em modelos experimentais, observa-se que esse fármaco produz efeito oposto ao agonista pleno e não apenas bloqueia sua ação. Com base nesses achados e nos princípios de farmacodinâmica, assinale a alternativa correta:",
@@ -1312,6 +1402,7 @@
   {
     "id": "far-5f7c395c",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente de 68 anos é admitido no pronto-socorro com rebaixamento do nível de consciência, hipercapnia e depressão respiratória leve após uso inadvertido de altas doses de diazepam. Considerando a farmacodinâmica do diazepam e a ação do flumazenil, assinale a alternativa correta:",
@@ -1328,6 +1419,7 @@
   {
     "id": "far-36046703",
     "subject": "farmacologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente politraumatizado é submetido à indução anestésica com cetamina em ambiente de emergência. Durante o procedimento, observa-se manutenção dos reflexos de via aérea, aumento de pressão arterial e frequência cardíaca, além de estado dissociativo. Com base na farmacodinâmica da cetamina, assinale a alternativa correta:",
