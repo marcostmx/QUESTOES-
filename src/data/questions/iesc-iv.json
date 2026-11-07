@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "iesc-2f98f938",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Uma UBS implanta prontuário eletrônico integrado: qualquer profissional acessa toda a história do usuário em segundos. Ainda assim, por alta rotatividade contratual, cada usuário é atendido por um médico diferente a cada trimestre. Os usuários relatam ter de \"recontar tudo de novo\" e a adesão ao tratamento de DM2 cai. Qual atributo permanece comprometido, apesar da informatização?",
+    "options": [
+      "Coordenação, porque as informações dos especialistas não retornam à equipe.",
+      "Longitudinalidade, porque o vínculo terapêutico ao longo do tempo não se estabelece.",
+      "Primeiro contato, porque a porta de entrada não está estruturada.",
+      "Integralidade, porque a unidade não oferece o espectro completo de ações.",
+      "Competência cultural, porque a linguagem técnica não foi adaptada ao usuário."
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-5570f9a2",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Segundo a aula, diante de um único evento de saúde todo o ecossistema da APS é acionado em sequência. Assinale a ordem apresentada.",
+    "options": [
+      "Longitudinalidade → primeiro contato → coordenação → integralidade → competência cultural → orientação familiar → orientação comunitária",
+      "Primeiro contato → longitudinalidade → integralidade → coordenação → orientação familiar → orientação cultural → orientação comunitária",
+      "Primeiro contato → integralidade → longitudinalidade → orientação familiar → coordenação → orientação comunitária → competência cultural",
+      "Integralidade → primeiro contato → orientação familiar → longitudinalidade → orientação comunitária → coordenação → competência cultural",
+      "Primeiro contato → coordenação → integralidade → longitudinalidade → competência cultural → orientação comunitária → orientação familiar"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-9c906ddc",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A integralidade é definida como o espectro completo de respostas que a unidade deve reconhecer, gerenciar ou oferecer. Qual conjunto reproduz corretamente as quatro frentes que esse atributo cobre?",
+    "options": [
+      "Prevenção, cura/tratamento, reabilitação e paliação",
+      "Promoção, prevenção, diagnóstico e encaminhamento",
+      "Prevenção primária, secundária, terciária e quaternária",
+      "Acolhimento, triagem, tratamento e alta",
+      "Rastreio, diagnóstico, tratamento e vigilância epidemiológica"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-5328d12e",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Paciente com DM2 faz retinografia e teste ergométrico em serviços distintos. Os laudos ficam retidos nos serviços de origem, ninguém explica os resultados e a equipe da UBS só toma conhecimento meses depois, em internação. Qual atributo falhou e qual a consequência mensurável que a aula associa a essa falha?",
+    "options": [
+      "Integralidade; aumento do número de encaminhamentos desnecessários",
+      "Longitudinalidade; queda da cobertura vacinal do território",
+      "Coordenação; queda na mortalidade por descontinuidade do cuidado",
+      "Coordenação; aumento da mortalidade por descontinuidade do cuidado",
+      "Primeiro contato; sobrecarga da atenção especializada"
+    ],
+    "answerIndex": 3,
+    "explanation": "D"
+  },
+  {
+    "id": "iesc-17b5bde4",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A equipe mapeia o território, identifica um bairro com esgoto a céu aberto e surto de diarreia infantil e articula intervenção com a vigilância sanitária antes que as crianças procurem a unidade. A aula chama isso de:",
+    "options": [
+      "Integralidade, por incluir a prevenção entre as frentes de cuidado",
+      "Orientação familiar, por atuar sobre condições do domicílio",
+      "Orientação comunitária, exercida como vigilância ativa em vez de medicina passiva",
+      "Coordenação, por articular a APS com outro serviço do sistema",
+      "Competência cultural, por adaptar a intervenção ao território"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-35262f6d",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A competência cultural é descrita na aula como a \"ponte da adesão\". O que essa expressão significa exatamente?",
+    "options": [
+      "Que o profissional deve conhecer a genealogia e o histórico familiar do paciente",
+      "Que a prescrição técnica só se converte em conduta real quando é traduzida para a linguagem e os valores do paciente",
+      "Que a equipe deve substituir práticas tradicionais por condutas baseadas em evidência",
+      "Que o vínculo longitudinal aumenta a confiança e, com ela, a adesão",
+      "Que barreiras de acesso são resolvidas pela ampliação do horário de funcionamento"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-ea8415b5",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Sobre a relação entre atributos essenciais e derivados, é correto afirmar:",
+    "options": [
+      "Os derivados são pré-requisito dos essenciais e devem ser garantidos primeiro",
+      "Os essenciais são suficientes: cumpridos os quatro, o cuidado está tecnicamente completo",
+      "Um serviço pode cumprir tecnicamente os quatro essenciais e ainda assim falhar com uma família específica se ignorar os derivados",
+      "Os derivados substituem os essenciais em territórios de alta vulnerabilidade",
+      "A hierarquia entre eles determina a ordem de implantação de uma nova equipe de ESF"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-4bf04d1f",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Relacione corretamente a frente de atuação do médico na ESF ao atributo de Starfield que ela exerce, conforme a tabela da aula.",
+    "options": [
+      "Visita domiciliar → orientação comunitária; territorialização → orientação familiar",
+      "Visita domiciliar → orientação familiar; territorialização e mapeamento de risco → orientação comunitária",
+      "Prática clínica resolutiva → longitudinalidade; acompanhamento de HAS/DM → primeiro contato",
+      "Articulação com a RAPS → integralidade; visita domiciliar → coordenação",
+      "Adaptação da linguagem ao contexto → orientação familiar; visita domiciliar → competência cultural"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-7ed7ce2a",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Homem de 70 anos, assintomático, chega com solicitação de PSA, tomografia de corpo inteiro e \"check-up completo\" feita por um plano privado. O médico discute o risco de achados incidentais, sobrediagnóstico e cascata de exames, e pactua um rastreamento proporcional ao risco. Essa conduta é descrita na aula como:",
+    "options": [
+      "Prevenção quaternária, dentro da frente de vigilância e prevenção",
+      "Prevenção terciária, dentro da frente de prática clínica resolutiva",
+      "Coordenação do cuidado, dentro da frente de gestão e planejamento",
+      "Prevenção primária, dentro da frente de educação e ensino",
+      "Medicina defensiva, aceitável quando há demanda explícita do usuário"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-82651cfc",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A aula afirma que a alta rotatividade médica é um problema de longitudinalidade, e não apenas de gestão de pessoal. O melhor argumento para essa afirmação é que:",
+    "options": [
+      "A troca frequente de profissionais eleva o custo de contratação da gestão municipal",
+      "A rotatividade impede a formação do vínculo terapêutico de longo prazo, que é o conteúdo do próprio atributo",
+      "A rotatividade reduz a cobertura de visitas domiciliares realizadas pelos ACS",
+      "Sem médico fixo, o território não pode ser mapeado quanto a riscos sociais",
+      "A rotatividade impede que os resultados de exames retornem à unidade"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-eaa6a24a",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Uma equipe alcança 62% no componente de cuidado da pessoa com hipertensão e 78% no componente da pessoa idosa. Pela régua de classificação do Previne Brasil, os resultados correspondem, respectivamente, a:",
+    "options": [
+      "Suficiente e Bom",
+      "Bom e Ótimo",
+      "Bom e Bom",
+      "Suficiente e Ótimo",
+      "Regular e Bom"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-061423b2",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "O componente C1 avalia o acesso por demanda programada. Para que um atendimento agendado seja efetivamente computado, é necessário que:",
+    "options": [
+      "O paciente tenha sido acolhido por demanda espontânea e reagendado no mesmo dia",
+      "A presença do paciente seja confirmada pelo módulo agenda e o \"Tipo de atendimento\" seja finalizado como Consulta Agendada",
+      "O atendimento tenha CIAP-2 e CID-10 registrados simultaneamente",
+      "A consulta tenha sido realizada por médico, excluindo-se atendimentos de enfermagem",
+      "O agendamento tenha sido feito com pelo menos 30 dias de antecedência"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-a45340b6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Criança de 20 meses acompanhada na UBS: primeira consulta no 25º dia de vida, 6 consultas até o momento, 6 registros de peso e altura, uma única visita domiciliar do ACS (realizada aos 20 dias) e calendário vacinal completo. Quais boas práticas do C2 estão, até aqui, cumpridas?",
+    "options": [
+      "Primeira consulta e vacinação",
+      "Primeira consulta, vacinação e visitas domiciliares",
+      "Primeira consulta, consultas até 2 anos e registros de peso/altura",
+      "Somente a vacinação",
+      "Todas as cinco, desde que as demais se completem antes dos 24 meses"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-3f61ba10",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Gestante na 14ª semana inicia pré-natal. Ao longo do acompanhamento a equipe planeja as boas práticas do C3. Assinale a alternativa correta quanto a esse indicador.",
+    "options": [
+      "A primeira consulta até 12 semanas já não pode ser pontuada, mas as demais boas práticas permanecem possíveis",
+      "Bastam 5 consultas de pré-natal para pontuar o item de consultas",
+      "A dTpa deve ser aplicada no primeiro trimestre para contar como boa prática",
+      "São exigidas 2 visitas domiciliares do ACS após a primeira consulta",
+      "Os testes rápidos para sífilis e HIV são exigidos apenas no primeiro trimestre"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-9d56df31",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Qual conjunto reúne apenas códigos CIAP-2 que ativam o módulo de gestação no e-SUS?",
+    "options": [
+      "W78, W84, W85",
+      "W18, W19, W70",
+      "W78, W90, W94",
+      "W71, W92, W95",
+      "W79, W80, W91"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-06f02013",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Sobre as boas práticas do puerpério no C3, é correto afirmar:",
+    "options": [
+      "Exige-se ao menos 1 consulta obrigatoriamente presencial com médico",
+      "Exige-se pelo menos 1 consulta (presencial ou remota) por médico ou enfermeiro, ao menos 1 visita domiciliar do ACS e ao menos 1 avaliação odontológica durante a gestação",
+      "A avaliação odontológica deve ocorrer no puerpério, até 42 dias após o parto",
+      "São exigidas 3 visitas domiciliares do ACS, como na gestação",
+      "O puerpério não tem boas práticas próprias; é avaliado dentro do componente da criança"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-0c66bbfa",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No componente C4 (pessoa com diabetes), quais boas práticas valem 20 pontos cada?",
+    "options": [
+      "Consulta nos últimos 6 meses e registro de hemoglobina glicada",
+      "Consulta nos últimos 6 meses e 2 visitas domiciliares com intervalo mínimo de 30 dias",
+      "Aferição de PA e avaliação dos pés",
+      "Registro de peso e altura e avaliação dos pés",
+      "Todas as boas práticas valem 20 pontos, como no C2"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-778028de",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Pessoa com DM2 tem consulta há 4 meses, PA aferida há 4 meses, peso e altura há 10 meses, hemoglobina glicada há 14 meses, avaliação dos pés há 8 meses e duas visitas domiciliares há 3 e 11 meses. Quantos pontos a equipe deixa de somar, e por quê?",
+    "options": [
+      "15 pontos, pela hemoglobina glicada fora da janela de 12 meses",
+      "15 pontos, pela avaliação dos pés fora da janela de 6 meses",
+      "30 pontos, por glicada e peso/altura fora de janela",
+      "20 pontos, porque as visitas domiciliares não respeitaram o intervalo mínimo",
+      "Nenhum ponto é perdido: todos os registros estão dentro das respectivas janelas"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-5a8f6d8e",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Sobre a codificação do diabetes citada na aula, assinale a correta.",
+    "options": [
+      "T89 corresponde ao diabetes não insulino-dependente e T90 ao insulino-dependente",
+      "T89 corresponde ao diabetes insulino-dependente e T90 ao não insulino-dependente; na CID-10, E10.9 indica diabetes insulino-dependente sem complicações",
+      "E10.9 indica diabetes insulino-dependente com complicações múltiplas",
+      "A CIAP-2 não possui códigos próprios para diabetes, usando-se apenas a CID-10",
+      "O registro do atendimento de diabetes dispensa avaliação codificada, bastando o resultado da glicada"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-092530c2",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Comparando C5 (hipertensão) e C6 (pessoa idosa), ambos com boas práticas de 25 pontos cada, a diferença correta entre eles é:",
+    "options": [
+      "No C5 a consulta tem janela de 6 meses e no C6, de 12 meses; o C6 inclui a vacina influenza e o C5 inclui a aferição de PA",
+      "Ambos exigem consulta nos últimos 6 meses, diferindo apenas quanto à vacinação",
+      "O C5 exige vacina influenza e o C6 exige aferição de PA",
+      "No C6 exige-se apenas 1 registro de peso e altura nos últimos 12 meses",
+      "O C5 dispensa visitas domiciliares do ACS"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-ba7670fc",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No componente C7, qual boa prática vale mais pontos e a qual público se dirige?",
+    "options": [
+      "Rastreamento de câncer de colo de útero, 30 pontos, mulheres de 25 a 64 anos",
+      "Rastreamento de câncer de mama, 30 pontos, mulheres de 50 a 69 anos",
+      "Vacina HPV (ao menos 1 dose), 30 pontos, meninas e adolescentes de 9 a 14 anos, empatada com o atendimento em saúde sexual e reprodutiva (30 pontos, 14 a 69 anos)",
+      "Atendimento em saúde sexual e reprodutiva, 40 pontos, mulheres de 25 a 64 anos",
+      "Todas as quatro boas práticas valem 25 pontos"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-0bd69fd1",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Mulher de 52 anos: citopatológico há 30 meses, mamografia há 26 meses e atendimento em saúde sexual e reprodutiva há 8 meses. Quantos pontos do C7 ela gera?",
+    "options": [
+      "70 pontos",
+      "50 pontos",
+      "30 pontos",
+      "20 pontos",
+      "80 pontos"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-13a34988",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Sobre as janelas temporais dos componentes, assinale a associação correta.",
+    "options": [
+      "Consulta: 6 meses em HAS e DM; 12 meses na pessoa idosa",
+      "Aferição de PA: 12 meses em HAS e DM",
+      "Visita domiciliar do ACS: intervalo máximo de 30 dias entre visitas",
+      "Registro de peso e altura no diabetes: 6 meses",
+      "Rastreio de mama: 36 meses; rastreio de colo: 24 meses"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-cc31a1a2",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Quanto ao registro operacional no e-SUS/PEC descrito na aula, é correto que:",
+    "options": [
+      "A DUM é registrada na Avaliação, de onde o sistema calcula a idade gestacional",
+      "A DUM é registrada no Objetivo, e é a partir dela que o sistema calcula a idade gestacional",
+      "A dTpa é registrada digitando-se o código CIAP-2 W78 no campo de vacinas",
+      "Os testes rápidos são registrados no Subjetivo, como relato da gestante",
+      "Peso e altura da criança são registrados no campo Acompanhamento → Criança"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-bddff5d0",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "A aula sustenta que o Previne Brasil \"não paga pela quantidade de atendimentos\". Qual leitura traduz melhor essa afirmação e sua relação com o Módulo 1?",
+    "options": [
+      "O pagamento é por produção, desde que os atendimentos sejam agendados",
+      "O componente de qualidade remunera o acompanhamento longitudinal de grupos prioritários, de modo que cada boa prática é a tradução operacional de um atributo de Starfield",
+      "O financiamento independe do registro clínico, que tem finalidade apenas assistencial",
+      "Os indicadores medem satisfação do usuário com o serviço prestado",
+      "A remuneração depende exclusivamente da cobertura populacional cadastrada"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-fbd28932",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Mulher de 48 anos com cefaleia quase diária diz: \"Quero fazer uma tomografia. Minha vizinha começou assim e depois descobriu um tumor.\" A pergunta \"o que você acha que pode estar acontecendo?\" explora qual dimensão do SIFE, e a pergunta \"o que isso mudou na sua rotina?\", qual outra?",
+    "options": [
+      "Sentimentos e Expectativas",
+      "Ideias e Funcionalidade",
+      "Ideias e Expectativas",
+      "Sentimentos e Funcionalidade",
+      "Expectativas e Ideias"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-1c6f740f",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Sobre o uso do SIFE, a afirmação compatível com a aula é:",
+    "options": [
+      "As quatro perguntas devem ser feitas literalmente e na ordem S–I–F–E, no início da consulta",
+      "O SIFE substitui a anamnese biomédica quando a queixa não tem sinais de alarme",
+      "O SIFE é uma forma de escutar melhor: as quatro dimensões precisam ser exploradas em algum momento, sem sequência fixa nem leitura literal",
+      "O SIFE só se aplica a queixas de origem psicossocial",
+      "O SIFE deve ser registrado na Avaliação, por se tratar de interpretação clínica"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-b327c89c",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Assinale a alternativa que apresenta os 7 passos da consulta na ordem correta.",
+    "options": [
+      "Preparação · Primeiros minutos · Exploração · Avaliação · Plano · Encerramento · Reflexão final",
+      "Primeiros minutos · Preparação · Exploração · Plano · Avaliação · Reflexão final · Encerramento",
+      "Preparação · Exploração · Primeiros minutos · Avaliação · Plano · Reflexão final · Encerramento",
+      "Acolhimento · Anamnese · Exame físico · Hipóteses · Conduta · Registro · Retorno",
+      "Preparação · Primeiros minutos · Avaliação · Exploração · Plano · Reflexão final · Encerramento"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-388cc97a",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Segundo a aula, em qual dos 7 passos o MCCP NÃO é descrito como entrando explicitamente?",
+    "options": [
+      "Preparação",
+      "Primeiros minutos",
+      "Exploração",
+      "Plano",
+      "Reflexão final"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-41218f06",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Qual fala pertence ao plano compartilhado, e não ao modelo prescritivo?",
+    "options": [
+      "\"Você precisa perder dez quilos até o retorno.\"",
+      "\"Faça essa caminhada todos os dias, sem falta.\"",
+      "\"Se não fizer o que eu estou mandando, não vai melhorar.\"",
+      "\"Entre estas possibilidades, o que seria viável para você? Vamos combinar um primeiro passo?\"",
+      "\"Vou aumentar a dose e reavalio em trinta dias.\""
+    ],
+    "answerIndex": 3,
+    "explanation": "D"
+  },
+  {
+    "id": "iesc-07101f1b",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "\"Estrutura sem escuta vira checklist; escuta sem estrutura pode perder segurança clínica.\" A leitura correta dessa advertência é:",
+    "options": [
+      "Deve-se escolher entre priorizar a escuta ou a segurança clínica, conforme o tempo disponível",
+      "O erro mais comum não é escolher um dos dois, mas achar que um substitui o outro — os 7 passos existem para que a escuta ocorra dentro de uma sequência que não abandona a segurança",
+      "A escuta é atributo do MCCP e a estrutura pertence ao registro em SOAP, sendo domínios independentes",
+      "Em consultas de demanda espontânea, a estrutura deve ser abandonada em favor do vínculo",
+      "A estrutura dos 7 passos deve ser seguida rigidamente, e a escuta acomodada no tempo que sobrar"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-907d38b2",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Na tabela que contrapõe consulta centrada na doença e centrada na pessoa, qual par está corretamente atribuído?",
+    "options": [
+      "\"Há sinais de alarme?\" → centrada na pessoa; \"O que mais preocupa?\" → centrada na doença",
+      "\"Qual exame?\" → centrada na pessoa; \"Como afeta a rotina?\" → centrada na doença",
+      "\"Quais hipóteses?\" → centrada na doença; \"O que isso significa?\" → centrada na pessoa",
+      "\"Qual tratamento?\" → centrada na pessoa; \"O que ela espera da consulta?\" → centrada na doença",
+      "Todas as perguntas pertencem à consulta centrada na pessoa, desde que feitas com empatia"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-74f24a50",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Um estudante afirma que \"aplicar o MCCP significa dar menos peso às hipóteses diagnósticas, porque o que importa é a experiência da pessoa\". A crítica correta é que:",
+    "options": [
+      "Está certo: em APS, o diagnóstico é secundário ao vínculo",
+      "Está errado: o MCCP não substitui o raciocínio clínico, mas impede que o raciocínio clínico perca a pessoa",
+      "Está errado: o MCCP exige mais exames complementares para confirmar hipóteses",
+      "Está certo, desde que o paciente não apresente sinais de alarme",
+      "Está errado: o MCCP só se aplica depois de encerrado o raciocínio diagnóstico"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-bd5d1db5",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Sobre o prontuário orientado por problemas (POMR), assinale a correta.",
+    "options": [
+      "Foi proposto por Barbara Starfield e organiza o registro por ordem cronológica de queixas",
+      "Foi proposto por Lawrence Weed; sua unidade central é a lista de problemas, numerados e acompanhados como ativos, inativos ou resolvidos",
+      "Foi proposto pela WONCA e substitui o SOAP nas unidades informatizadas",
+      "Organiza o registro por especialidade, para facilitar o encaminhamento",
+      "É recomendado apenas para serviços hospitalares de alta complexidade"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-1d57b3fb",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Um interno registra em Subjetivo: \"Paciente com quadro gripal, provavelmente viral.\" Qual é o erro e como corrigi-lo?",
+    "options": [
+      "Não há erro: a impressão inicial pode abrir o Subjetivo",
+      "O erro é de conteúdo clínico; bastaria retirar o termo \"provavelmente\"",
+      "Trata-se de impressão diagnóstica lançada no Subjetivo; o S deveria trazer a fala do paciente (\"tosse e dor de garganta há três dias\") e a interpretação pertence à Avaliação",
+      "O registro pertence ao Objetivo, pois descreve o estado geral observado",
+      "O registro pertence ao Plano, pois antecipa a conduta sintomática"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-7b056e2d",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Em qual letra do SOAP se registram Sentimentos, Ideias, Funcionalidade e Expectativas, e por quê?",
+    "options": [
+      "Na Avaliação, porque exigem interpretação do profissional",
+      "No Objetivo, porque podem ser observados durante a consulta",
+      "No Subjetivo, porque são, por definição, relatados pelo próprio paciente",
+      "No Plano, porque orientam a negociação da conduta",
+      "Distribuem-se entre Subjetivo (S e I) e Avaliação (F e E)"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-aa032f32",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Qual afirmação distingue corretamente CIAP-2 e CID-10?",
+    "options": [
+      "A CIAP-2 foca na doença e a CID-10, no episódio de cuidado",
+      "A CID-10 foca na doença; a CIAP-2 foca no episódio de cuidado, permitindo codificar com a mesma lógica o motivo da consulta, os procedimentos e o diagnóstico",
+      "São sinônimos, variando apenas o país de adoção",
+      "A CIAP-2 é usada na atenção hospitalar e a CID-10, na APS",
+      "A CIAP-2 codifica apenas diagnósticos confirmados, e a CID-10, também sintomas"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-e7390ca5",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "O código R05 é decomposto do seguinte modo:",
+    "options": [
+      "R = registro de rotina; 05 = quinta consulta do episódio",
+      "R = respiratório (capítulo/sistema corporal); 05 = componente correspondente a tosse",
+      "R = resultado de exame; 05 = gravidade do sintoma",
+      "R = retorno; 05 = número do problema na lista de problemas",
+      "R = rastreamento; 05 = periodicidade em anos"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-9e6bf4e4",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "A CIAP-2 organiza-se em:",
+    "options": [
+      "7 capítulos × 17 componentes, sendo o componente 1 o de diagnósticos e doenças",
+      "17 capítulos × 7 componentes, sendo o componente 1 o de sintomas e queixas e o 7 o de diagnósticos e doenças",
+      "17 capítulos × 10 componentes, com numeração contínua de 01 a 99",
+      "Capítulos por faixa etária e componentes por nível de complexidade",
+      "Capítulos por ciclo de vida e componentes por tipo de profissional que registra"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-155128b7",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Considere os códigos K86, L03, P e T89. A associação correta entre a letra e o sistema é:",
+    "options": [
+      "K circulatório, L osteomuscular, P psicológico, T metabólico e endócrino",
+      "K osteomuscular, L circulatório, P pele, T neurológico",
+      "K circulatório, L neurológico, P psicológico, T social",
+      "K metabólico, L osteomuscular, P psicológico, T circulatório",
+      "K circulatório, L osteomuscular, P pele, T metabólico e endócrino"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-683d3b44",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "No registro do caso de Lucas (lombalgia, com relato de assédio do supervisor), a Avaliação foi escrita como: \"Lombalgia mecânica inespecífica, sem sinais de alarme — CIAP-2: L03. Situação de sofrimento ocupacional associada, a explorar em retorno.\" Qual princípio de registro essa formulação demonstra?",
+    "options": [
+      "Que o sofrimento psíquico deve ser omitido do prontuário até confirmação diagnóstica",
+      "Que o SOAP muda de formato quando a consulta é centrada na pessoa",
+      "Que o achado biomédico e a situação de vida são ambos registrados na Avaliação, sem serem fundidos em um único código",
+      "Que o medo de demissão deveria ter sido codificado como diagnóstico psiquiátrico",
+      "Que o Subjetivo deve conter a interpretação do contexto social"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-48a095bb",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Marcos, 52 anos, motorista, pede \"todos os exames\"; assintomático, PA 136×84, IMC 29, refere raramente procurar serviços de saúde. Após silêncio, conta que um colega de 51 anos morreu de infarto na semana anterior. Qual é a leitura correta da demanda e o principal risco de erro?",
+    "options": [
+      "Demanda de rastreamento; o risco é não solicitar todos os exames pedidos, perdendo diagnósticos precoces",
+      "Hipocondria; o risco é reforçar o comportamento atendendo ao pedido",
+      "Demanda explícita de exames encobrindo medo de morte súbita; o risco é atender acriticamente (medicina defensiva) ou desqualificar o pedido como \"sem necessidade clínica\", perdendo a janela para falar de risco cardiovascular e do próprio medo",
+      "Demanda administrativa; o risco é não emitir o atestado de aptidão ocupacional",
+      "Demanda de vínculo; o risco é realizar exame físico, que pode ser interpretado como desconfiança"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-706794f5",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Dona Célia, 61 anos, PA 168×98, em uso de losartana e anlodipino, revela que omite doses \"quando a pressão está boa\", por medo de \"estragar os rins\"; cuida do marido pós-AVC e de dois netos. O estudante pensa em aumentar o anlodipino. Qual a crítica mais precisa a essa conduta inicial?",
+    "options": [
+      "É adequada, pois a PA está acima da meta e a paciente afirma tomar a medicação corretamente",
+      "É inadequada porque anlodipino é nefrotóxico, devendo-se trocar a classe do fármaco",
+      "É inadequada porque trata o número da PA sem tocar nas duas causas reais: a ideia de dano renal e a sobrecarga como cuidadora",
+      "É inadequada porque a paciente deve ser classificada como não aderente e encaminhada à psicologia",
+      "É adequada, desde que acompanhada de orientação escrita sobre a importância da adesão"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-52c2d174",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Ainda sobre Dona Célia, quais elementos compõem um plano compartilhado coerente com o MCCP?",
+    "options": [
+      "Explicar sem jargão por que a dose prescrita não causa dano renal, simplificar o esquema posológico quando possível, negociar um lembrete compatível com a rotina e reconhecer explicitamente seu papel de cuidadora antes de qualquer orientação sobre a pressão",
+      "Entregar folheto sobre hipertensão e agendar retorno em seis meses",
+      "Aumentar a dose e condicionar o próximo atendimento à comprovação de adesão",
+      "Encaminhar ao cardiologista para reavaliação do esquema terapêutico",
+      "Solicitar função renal para provar à paciente que seus rins estão preservados"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-633e77f3",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Ana Paula, 38 anos, com insônia há três meses, pede \"alguma coisa para dormir\"; separou-se há quatro meses e, ao ser perguntada sobre isso, responde \"prefiro não falar disso\", acrescentando em seguida \"mas estou cansada de fingir para todo mundo que estou bem\". Qual é a conduta tecnicamente correta pelo MCCP?",
+    "options": [
+      "Insistir delicadamente no tema da separação, pois a segunda frase autoriza o aprofundamento",
+      "Prescrever o hipnótico solicitado, já que a paciente delimitou o escopo da consulta",
+      "Reconhecer explicitamente o limite, validar o cansaço, oferecer retorno próximo e deixar a porta aberta, sem encerrar a consulta sem nenhum plano de cuidado para o sono e a segurança dela",
+      "Encerrar o atendimento e encaminhar imediatamente ao serviço de saúde mental, sem abordar a insônia",
+      "Registrar recusa de informação no prontuário e reagendar com outro profissional"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-5abd6dbd",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "No caso de Lucas (dor lombar há duas semanas, sem sinais de alarme, com relato posterior de assédio no trabalho), qual afirmação é correta?",
+    "options": [
+      "A revelação do assédio explica a dor e torna dispensável o exame físico osteomuscular",
+      "A ausência de sinais de alarme já permite classificar a dor como provavelmente mecânica, e isso não muda com o conteúdo revelado depois; o assédio é, em si, um problema de saúde que merece registro e cuidado",
+      "O atestado deve ser negado, pois a demanda real é psicossocial",
+      "O atestado deve ser concedido pelos três dias solicitados, para preservar o vínculo",
+      "Deve-se encaminhar imediatamente ao psiquiatra antes de qualquer conduta para a lombalgia"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-8741e331",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Na tabela de síntese do Módulo 6, \"cuidado ao longo do tempo, não episódico\" aparece nos quatro vocabulários da disciplina como:",
+    "options": [
+      "Integralidade · boas práticas da prevenção à reabilitação · \"entender a pessoa como um todo\" · SIFE no Subjetivo",
+      "Longitudinalidade · consulta em janela de 6 a 12 meses · relação médico-pessoa (4º componente do MCCP) · lista de problemas acompanhada por evolução",
+      "Coordenação · encaminhamentos e registro compartilhado · \"construir com\" · Plano com encaminhamento explícito",
+      "Competência cultural · códigos padronizados · exploração do contexto · lógica letra + número da CIAP-2",
+      "Orientação familiar · visita domiciliar do ACS · 7 passos · itens sociais no Subjetivo"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-37ffe2e6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Seguindo Dona Célia do sistema à consulta, a sequência descrita no exercício mental do Módulo 6 é:",
+    "options": [
+      "Primeiro contato estruturado (M1) → acompanhamento da HAS nos últimos 6 meses como boa prática do C5 (M2) → SIFE revelando o medo renal e a sobrecarga (M3) → registro em SOAP com CIAP-2 K86 ou K87 na Avaliação (M4)",
+      "Coordenação (M1) → componente C4 (M2) → 7 passos (M3) → CIAP-2 T90 na Avaliação (M4)",
+      "Longitudinalidade (M1) → componente C6 (M2) → SIFE (M3) → CIAP-2 K86 no Subjetivo (M4)",
+      "Orientação comunitária (M1) → componente C1 (M2) → plano compartilhado (M3) → CID-10 I10 no Plano (M4)",
+      "Competência cultural (M1) → componente C5 (M2) → SIFE (M3) → CIAP-2 L03 na Avaliação (M4)"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-10207eeb",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "\"A mesma consulta, vista de baixo para cima, é dado clínico; vista de cima para baixo, é indicador de qualidade de um sistema de saúde inteiro.\" A implicação prática mais direta dessa frase é:",
+    "options": [
+      "Que o registro clínico deve ser simplificado para não competir com o tempo da escuta",
+      "Que o atendimento individual bem registrado se converte em ponto percentual do componente de qualidade da equipe, de modo que qualidade assistencial e qualidade do registro são inseparáveis",
+      "Que os indicadores do Previne Brasil substituem a avaliação clínica individual",
+      "Que a codificação em CIAP-2 é exigência burocrática sem efeito sobre o cuidado",
+      "Que apenas atendimentos de grupos prioritários precisam de registro estruturado"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-a8589ce9",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "O roteiro comum de discussão dos quatro casos encerra-se com a pergunta \"qual seria o maior erro de uma consulta centrada apenas na doença?\". Considerando os quatro casos em conjunto, a resposta que melhor sintetiza esse erro é:",
+    "options": [
+      "Deixar de solicitar exames complementares suficientes para excluir causas orgânicas",
+      "Resolver a demanda explícita — exames, dose maior, atestado, hipnótico — sem acessar a demanda possível que a sustenta, perdendo a oportunidade de um plano viável na vida real da pessoa",
+      "Demorar-se excessivamente na consulta, comprometendo a agenda da equipe",
+      "Registrar o contexto social no prontuário, expondo dados sensíveis do paciente",
+      "Envolver a família no plano terapêutico sem autorização formal do paciente"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-7bfcb764",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Em uma Unidade Básica de Saúde, a equipe percebe que os pacientes com queixas crônicas frequentemente peregrinam por vários especialistas sem que haja um registro unificado ou uma condução centralizada. Qual atributo da Atenção Primária à Saúde segundo Starfield está mais diretamente comprometido nessa situação?",
+    "options": [
+      "Primeiro contato",
+      "Longitudinalidade",
+      "Coordenação do cuidado",
+      "Orientação familiar",
+      "Competência cultural"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-8ce87af6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "O atributo 'Primeiro Contato' da APS refere-se à acessibilidade e ao uso do serviço como porta de entrada para cada novo problema ou episódio de necessidade de saúde. Assinale a alternativa que melhor exemplifica o exercício pleno desse atributo.",
+    "options": [
+      "Paciente com dor torácica aguda que procura diretamente o pronto-socorro hospitalar por falta de acolhimento na UBS",
+      "Unidade que oferece atendimento imediato de demanda espontânea e funciona como centro preferencial de atendimento a novas necessidades de saúde",
+      "Agendamento exclusivo para consultas programadas de hipertensos com antecedência de 60 dias",
+      "Encaminhamento obrigatório de todas as queixas agudas para clínicas privadas conveniadas",
+      "Restrição do acesso à UBS apenas para pacientes cadastrados no território adscrito com exames em dia"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-8a745d3f",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Sobre os atributos derivados de Barbara Starfield (orientação familiar, orientação comunitária e competência cultural), é correto afirmar que:",
+    "options": [
+      "São opcionais e secundários, podendo ser ignorados sem prejuízo à qualidade assistencial",
+      "Atuam ampliando a órbita essencial, conectando o indivíduo à sua família, ao seu contexto social e aos valores culturais da comunidade",
+      "Substituem completamente os atributos essenciais em áreas urbanas de alta densidade",
+      "São avaliados exclusivamente por indicadores financeiros do Ministério da Saúde",
+      "Referem-se unicamente ao número de visitas domiciliares realizadas pelos Agentes Comunitários de Saúde"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-931a79c6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A prevenção quaternária, inserida na frente de vigilância e prevenção da ESF, tem como principal objetivo:",
+    "options": [
+      "Diagnosticar precocemente doenças assintomáticas através de exames de rastreio em massa",
+      "Evitar a iatrogenia, proteger o paciente de intervenções excessivas ou desnecessárias e combater a medicalização da vida",
+      "Realizar reabilitação motora e funcional pós-acidente vascular encefálico",
+      "Fornecer cuidados paliativos exclusivos para pacientes em fase terminal",
+      "Vacinar a população contra doenças infectocontagiosas sazonais"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-c2ff19ed",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "O conceito de territorialização na Estratégia Saúde da Família (ESF) permite à equipe conhecer o perfil epidemiológico, social e sanitário da população adscrita. Qual atributo de Starfield é potencializado diretamente por essa prática?",
+    "options": [
+      "Apenas o primeiro contato",
+      "A orientação comunitária e o planejamento de ações baseadas nas necessidades do território",
+      "A exclusão de pacientes não cadastrados da rede de atendimento",
+      "A centralização do atendimento médico em procedimentos hospitalares",
+      "A eliminação da necessidade de prontuário eletrônico"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-a33110d6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A longitudinalidade na prática da Atenção Primária garante que a relação entre médico, equipe e usuário se fortaleça ao longo do tempo. Qual dos seguintes eventos na rotina de uma UBS mais fere diretamente este atributo?",
+    "options": [
+      "A realização de reuniões semanais de equipe para discussão de casos complexos",
+      "A alta rotatividade de profissionais médicos que impede a construção de vínculo terapêutico contínuo",
+      "O uso de prontuário eletrônico integrado com histórico clínico acessível",
+      "A oferta de grupos educativos para portadores de hipertensão e diabetes",
+      "A realização de visitas domiciliares conjuntas entre médico e enfermeiro"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-34b00aae",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A integralidade como atributo da APS abrange um amplo espectro de respostas assistenciais. Quando a equipe de saúde articula ações de reabilitação e suporte ao fim da vida (cuidados paliativos), ela está atuando em quais das quatro frentes da integralidade?",
+    "options": [
+      "Apenas prevenção e diagnóstico",
+      "Reabilitação e paliação",
+      "Triagem e encaminhamento administrativo",
+      "Rastreio e vigilância sanitária",
+      "Apenas cura e tratamento agudo"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-77e7e288",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A competência cultural na prática médica da ESF exige que o profissional:",
+    "options": [
+      "Imponha o protocolo científico padrão sem considerar as crenças ou valores do paciente",
+      "Traduzca a linguagem técnica para termos compreensíveis e respeite as crenças, tradições e valores locais do paciente, garantindo a adesão ao cuidado",
+      "Encaminhe imediatamente qualquer paciente com práticas tradicionais para atendimento psiquiátrico",
+      "Evite realizar anamnese detalhada sobre o contexto sociofamiliar",
+      "Utilize exclusivamente termos técnicos em latim nas prescrições"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-36fcb4ce",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "A orientação familiar na APS reconhece o indivíduo inserido no seu núcleo familiar. Assinale a conduta que demonstra o exercício desse atributo:",
+    "options": [
+      "Atender o paciente de forma isolada, ignorando quem cuida dele ou sua dinâmica domiciliar",
+      "Investigar a sobrecarga do cuidador familiar ao planejar o tratamento de um paciente idoso dependente",
+      "Exigir que todos os membros da família compareçam juntos a todas as consultas de rotina",
+      "Repassar a responsabilidade do tratamento exclusivamente para os parentes sem orientar o paciente",
+      "Limitar o atendimento clínico apenas a pacientes que possuem cônjuge cadastrado"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-3cc0a289",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 1 — Atributos de Starfield e o médico na ESF",
+    "stem": "Sobre a coordenação do cuidado na rede de atenção à saúde, é correto afirmar que a UBS atua como:",
+    "options": [
+      "Um filtro burocrático intransponível que dificulta o acesso a especialistas",
+      "O centro de comunicação e roteador central das informações clínicas entre os diferentes pontos da rede (especialistas, exames e hospitais)",
+      "Um serviço independente que não mantém relação com hospitais ou serviços de alta complexidade",
+      "Um local de atendimento estritamente episódico sem responsabilidade de contrarreferência",
+      "Uma unidade de pronto atendimento para urgências cardiológicas severas"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-c69642ee",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No modelo de financiamento do Previne Brasil, o indicador de proporção de gestantes com atestado de sífilis e HIV realizados no pré-natal (Componente C3) exige a realização de testes rápidos ou sorologias em momentos específicos. Quais trimestres são preconizados?",
+    "options": [
+      "Apenas no primeiro trimestre de gestação",
+      "No primeiro trimestre e repetidos no terceiro trimestre",
+      "Apenas no puerpério imediato",
+      "Mensalmente durante toda a gestação",
+      "Apenas no momento do parto na maternidade"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-21681d38",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Em relação às regras de pontuação do Componente C2 (vacinação infantil), qual das seguintes vacinas ou imunobiológicos compõe o indicador avaliado no Previne Brasil?",
+    "options": [
+      "Vacina contra Poliomielite e Pentavalente aos 12 meses",
+      "Vacina BCG aplicada na maternidade",
+      "Apenas vacina contra Febre Amarela aos 9 meses",
+      "Vacina contra Raiva humana pós-exposição",
+      "Vacina contra HPV em adolescentes de 15 a 18 anos"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-4900c183",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "O Componente C4 do Previne Brasil avalia o acompanhamento de pessoas com diabetes mellitus. Entre as boas práticas computadas, qual possui o maior peso em pontuação na composição do indicador?",
+    "options": [
+      "Consulta nos últimos 6 meses e registro de hemoglobina glicada nos últimos 12 meses (20 pontos cada)",
+      "Aferição de pressão arterial mensal obrigatória",
+      "Realização de ultrassonografia abdominal anual",
+      "Encaminhamento obrigatório anual ao endocrinologista",
+      "Apenas a emissão de atestados de aptidão física"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-1fa56375",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No Componente C5 (pessoas com hipertensão arterial sistêmica), qual é a janela temporal exigida para a consulta médica ou de enfermagem e para a aferição da pressão arterial para fins de pontuação?",
+    "options": [
+      "Últimos 3 meses",
+      "Últimos 6 meses",
+      "Últimos 12 meses",
+      "Últimos 24 meses",
+      "A cada 30 dias sem tolerância"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-11e05537",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "O Componente C6 avalia a saúde da pessoa idosa. Diferente do C5 (hipertensão), a janela temporal para a consulta de acompanhamento do idoso no Previne Brasil é de:",
+    "options": [
+      "3 meses",
+      "6 meses",
+      "12 meses",
+      "24 meses",
+      "36 meses"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-c20acae0",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No Componente C7 (saúde da mulher), qual faixa etária e periodicidade são preconizadas para o rastreamento do câncer do colo do útero (exame citopatológico)?",
+    "options": [
+      "Mulheres de 18 a 70 anos, anualmente",
+      "Mulheres de 25 a 64 anos, a cada 3 anos (após dois exames anuais negativos consecutivos)",
+      "Apenas mulheres acima de 65 anos a cada 5 anos",
+      "Mulheres de 15 a 49 anos semestralmente",
+      "Mulheres de 40 a 69 anos bianualmente"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-1b7a099e",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "Sobre o rastreamento do câncer de mama no Componente C7 do Previne Brasil, qual é a faixa etária alvo e a periodicidade avaliada?",
+    "options": [
+      "Mulheres de 40 a 49 anos anualmente",
+      "Mulheres de 50 a 69 anos a cada 2 anos (mamografia bianual)",
+      "Mulheres de 20 a 70 anos a cada 3 anos",
+      "Mulheres acima de 75 anos semestralmente",
+      "Apenas mulheres com histórico familiar de câncer de mama a partir dos 30 anos"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-9f57e9cd",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "A régua de classificação de desempenho dos indicadores do Previne Brasil possui faixas padronizadas. Um indicador com resultado percentual de 82% situa-se em qual classificação?",
+    "options": [
+      "Regular",
+      "Suficiente",
+      "Bom",
+      "Ótimo",
+      "Insatisfatório crítico"
+    ],
+    "answerIndex": 3,
+    "explanation": "D"
+  },
+  {
+    "id": "iesc-ae102df7",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "No registro operacional no e-SUS PEC para o acompanhamento de gestantes, a Data da Última Menstruação (DUM) deve ser registrada em qual seção do SOAP para que o sistema calcule automaticamente a idade gestacional?",
+    "options": [
+      "No Subjetivo como relato livre",
+      "No Objetivo",
+      "Na Avaliação diagnóstica",
+      "No Plano de condutas",
+      "Exclusivamente no campo de observações administrativas"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-f645a47a",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 2 — Componentes de Qualidade (Previne Brasil)",
+    "stem": "O financiamento por desempenho do Previne Brasil substituiu o antigo modelo baseado exclusivamente em repasses fixos por teto de custeio ou produção pura. Qual é a principal justificativa conceitual desse modelo perante a APS?",
+    "options": [
+      "Remunerar o número de receitas médicas impressas no mês",
+      "Vincular o incentivo financeiro federal aos resultados de saúde e ao acompanhamento longitudinal de grupos prioritários",
+      "Exigir que o médico atenda mais de 60 pacientes por turno",
+      "Financiar exclusivamente hospitais de alta complexidade",
+      "Extinguir a obrigatoriedade de registro de procedimentos no e-SUS"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-14be4c9f",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "O Método Clínico Centrado na Pessoa (MCCP) propõe a exploração conjunta da doença e da experiência da doença através do acrônimo SIFE. O que significa a letra 'F' no SIFE?",
+    "options": [
+      "Família",
+      "Funcionalidade (como a doença afeta o dia a dia e a rotina da pessoa)",
+      "Farmacologia",
+      "Fisiopatologia",
+      "Força muscular"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-68c22310",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "No MCCP, a dimensão 'Ideias' da experiência da doença investiga:",
+    "options": [
+      "O que o paciente sente emocionalmente em relação ao problema (medo, tristeza, ansiedade)",
+      "O que o paciente acha que tem ou pensa sobre a causa da sua doença",
+      "O que o paciente espera que o médico prescreva na receita",
+      "Como o problema alterou a capacidade de trabalho do indivíduo",
+      "A árvore genealógica de doenças hereditárias"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-93667744",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Qual das seguintes alternativas descreve corretamente o primeiro dos 7 passos da consulta no MCCP?",
+    "options": [
+      "Exame físico minucioso",
+      "Preparação (revisão de prontuário, organização do ambiente e acolhimento mental antes de ver o paciente)",
+      "Emissão de atestado médico e prescrição",
+      "Leitura de exames complementares de alto custo",
+      "Despedida e agendamento de retorno sem escuta"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-84b800c7",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "O sétimo e último passo da consulta estruturada pelo MCCP é a 'Reflexão final'. O que caracteriza esse passo?",
+    "options": [
+      "O momento em que o paciente revisa os exames laboratoriais em casa",
+      "O momento de autoavaliação do profissional sobre a relação médico-pessoa, lacunas e aprendizados do encontro clínico",
+      "A entrega da receita médica na recepção da UBS",
+      "A discussão do caso com o especialista em reunião clínica hospitalar",
+      "O registro obrigatório de CID-10 no sistema informatizado"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-8c4b70a6",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "A transição do modelo prescritivo tradicional para o plano compartilhado no MCCP é exemplificada por qual postura do médico?",
+    "options": [
+      "\"Você é obrigado a tomar este remédio rigorosamente sem questionar.\"",
+      "\"Entre estas possibilidades terapêuticas viáveis, o que se encaixa melhor na sua rotina? Vamos decidir juntos o primeiro passo?\"",
+      "\"Se você não seguir minhas ordens, não voltarei a atendê-lo.\"",
+      "\"A doença é minha especialidade; sua opinião sobre o tratamento não importa.\"",
+      "\"Faça exatamente o que está escrito no protocolo ministerial sem adaptações.\""
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-7e6949ad",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "A advertência clássica da disciplina afirma: 'Estrutura sem escuta vira checklist; escuta sem estrutura pode perder segurança clínica.' Qual é o significado prático dessa frase?",
+    "options": [
+      "O médico deve escolher entre ser empático ou ser tecnicamente competente, pois ambos são incompatíveis",
+      "Os 7 passos e ferramentas como o SIFE fornecem a estrutura necessária para que a escuta profunda ocorra de forma segura, sem abandonar o raciocínio clínico",
+      "O atendimento em APS dispensa exame físico se houver boa escuta",
+      "O registro SOAP deve ser feito apenas ao final do mês para economizar tempo",
+      "A consulta centrada na pessoa descarta completamente a necessidade de hipóteses diagnósticas"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-bd476115",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "O quarto componente do MCCP, além de explorar a saúde, a doença e a pessoa, é:",
+    "options": [
+      "A ampliação da relação médico-pessoa (fortalecimento do vínculo terapêutico ao longo do tempo)",
+      "O número de exames solicitados por consulta",
+      "O custo financeiro dos medicamentos prescritos",
+      "O tempo cronometrado de atendimento em minutos",
+      "A quantidade de encaminhamentos gerados para hospitais"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-8f0a4292",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Durante a exploração da experiência da doença (SIFE), uma paciente relata choro frequente, insônia e medo intenso de ter uma doença incurável igual à de sua mãe. Essas falhas expressam predominantemente qual dimensão do SIFE?",
+    "options": [
+      "Sentimentos",
+      "Funcionalidade",
+      "Expectativas",
+      "Ideias biológicas",
+      "Antecedentes familiares genéticos"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-077fd9fb",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "Quando um paciente chega à consulta perguntando explicitamente \"Doutor, o senhor acha que eu preciso de uma ressonância magnética?\", a dimensão do SIFE correspondente a essa pergunta é:",
+    "options": [
+      "Sentimentos",
+      "Ideias",
+      "Expectativas (o que o paciente espera da consulta ou da conduta médica)",
+      "Funcionalidade social",
+      "Sintomatologia autônoma"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-11c6dd45",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 3 — MCCP e a consulta em 7 passos",
+    "stem": "O terceiro passo da consulta no MCCP ('Exploração') engloba simultaneamente:",
+    "options": [
+      "Apenas a emissão da receita e o atestado médico",
+      "A exploração da doença (perspectiva biomédica) e da experiência da doença (SIFE - perspectiva da pessoa)",
+      "A realização de exames laboratoriais de rotina em jejum",
+      "A discussão de casos clínicos em reunião de equipe multidisciplinar",
+      "O encerramento imediato da queixa principal"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-2accdd85",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "No Prontuário Orientado por Problemas (POMR), proposto por Lawrence Weed, qual é a unidade central de organização dos registros clínicos?",
+    "options": [
+      "A lista de problemas ativos, inativos e resolvidos do paciente",
+      "A ordem cronológica estrita de entrada na recepção da UBS",
+      "A especialidade médica responsável pelo atendimento do dia",
+      "O custo financeiro dos procedimentos ambulatoriais",
+      "O número de internações hospitalares prévias"
+    ],
+    "answerIndex": 0,
+    "explanation": "A"
+  },
+  {
+    "id": "iesc-eddf3cd5",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "No formato SOAP de registro clínico, o que deve ser obrigatoriamente incluído na seção 'Subjetivo' (S)?",
+    "options": [
+      "O diagnóstico médico definitivo e a prescrição de antibióticos",
+      "Os achados do exame físico objetivo e sinais vitais aferidos",
+      "O relato do paciente, queixa principal, história da doença atual (HDA) e os elementos do SIFE (sentimentos, ideias, funcionalidade e expectativas)",
+      "O plano de exames laboratoriais e encaminhamentos especializados",
+      "A interpretação epidemiológica do território adscrito"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-480b7230",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Em um registro SOAP, onde devem ser lançados os dados mensuráveis obtidos pelo profissional durante o atendimento, como pressão arterial, frequência cardíaca, peso, altura e resultados de exames físicos?",
+    "options": [
+      "No Subjetivo (S)",
+      "No Objetivo (O)",
+      "Na Avaliação (A)",
+      "No Plano (P)",
+      "Na lista de problemas cronológicos"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-3ce2a3d4",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Na estrutura do SOAP, a seção 'Avaliação' (A) corresponde a:",
+    "options": [
+      "A transcrição exata das reclamações do paciente sem filtro profissional",
+      "A síntese clínica, raciocínio diagnóstico, hipóteses diagnósticas ou problemas avaliados com base nos dados subjetivos e objetivos",
+      "A marcação do retorno agendado para daqui a 30 dias",
+      "O registro de vacinas aplicadas na sala de imunização",
+      "A anotação do grau de satisfação do usuário com a recepção"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-6250a8ce",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "A seção 'Plano' (P) do registro SOAP contempla:",
+    "options": [
+      "A história familiar detalhada da infância do paciente",
+      "As condutas terapêuticas, exames solicitados, prescrições, orientações dadas, acordos do plano compartilhado e encaminhamentos",
+      "Os sentimentos relatados pelo paciente sobre sua separação conjugal",
+      "O cálculo da idade gestacional baseado na DUM",
+      "A classificação de risco territorial da microárea"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-4d6f3913",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Qual é a principal vantagem da Classificação Internacional de Atenção Primária (CIAP-2) sobre a CID-10 no contexto da APS?",
+    "options": [
+      "A CIAP-2 é mais complexa e restrita a hospitais de grande porte",
+      "A CIAP-2 possui estrutura em eixos que permite codificar com a mesma lógica o motivo da consulta (sintomas e queixas), os procedimentos e o diagnóstico, adaptando-se a consultas que terminam sem diagnóstico fechado",
+      "A CID-10 foi desenvolvida pela WONCA especificamente para unidades básicas de saúde",
+      "A CIAP-2 elimina a necessidade de registro SOAP no prontuário eletrônico",
+      "A CID-10 possui códigos específicos para sentimentos e expectativas dos pacientes"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-d2adda80",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Na CIAP-2, os códigos são compostos por uma letra inicial e dois dígitos numéricos. O que a letra inicial representa na classificação?",
+    "options": [
+      "O grau de urgência clínica do atendimento",
+      "O capítulo ou sistema corporal anatômico correspondente (ex: K para circulatório, L para osteomuscular)",
+      "O profissional de saúde responsável pelo registro (médico ou enfermeiro)",
+      "A faixa etária do paciente atendido",
+      "O número da microárea de abrangência da ESF"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-e97d176e",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "Considere o registro de um paciente com hipertensão arterial sistêmica acompanhado na UBS. O código CIAP-2 K86 (hipertensão sem complicação) deve ser registrado em qual seção do SOAP?",
+    "options": [
+      "No Subjetivo (S), junto com as queixas de cefaleia",
+      "No Objetivo (O), junto com a medida da pressão arterial",
+      "Na Avaliação (A), como formulação diagnóstica do problema avaliado",
+      "No Plano (P), junto com a receita de losartana",
+      "No cabeçalho administrativo da ficha de atendimento"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  },
+  {
+    "id": "iesc-5c37c48e",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulo 4 — Registro em SOAP e CIAP-2",
+    "stem": "O erro clássico apontado nas aulas de registro clínico em SOAP ocorre quando o interno coloca impressões diagnósticas ou julgamentos precipitados na seção 'Subjetivo' (S). O Subjetivo deve conter estritamente:",
+    "options": [
+      "O resultado de exames laboratoriais de sangue e imagem",
+      "O relato do paciente, suas palavras, sintomas e percepções sobre o problema",
+      "A assinatura digital do preceptor da residência médica",
+      "O código numérico da CID-10 de internação hospitalar",
+      "A dosagem miligrama por quilo dos fármacos prescritos"
+    ],
+    "answerIndex": 1,
+    "explanation": "B"
+  },
+  {
+    "id": "iesc-e933d8eb",
+    "subject": "iesc-iv",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Módulos 5 e 6 — Casos clínicos e síntese",
+    "stem": "Em um caso clínico de síntese da disciplina IESC IV, um paciente assintomático solicita exames de rotina completos motivado pelo medo após a morte súbita de um colega da mesma idade. A conduta ideal que sintetiza a abordagem da APS é:",
+    "options": [
+      "Solicitar imediatamente todos os exames caros pedidos pelo paciente para evitar conflito",
+      "Repreender o paciente por gastar recursos públicos com exames desnecessários",
+      "Acolher o medo e a angústia subjacente (demanda possível), avaliando o risco cardiovascular real e realizando prevenção quaternária sem mercantilizar exames desnecessários",
+      "Encaminhar o paciente diretamente para a emergência psiquiátrica hospitalar",
+      "Emitir um atestado de aptidão física sem realizar qualquer escuta ou exame físico"
+    ],
+    "answerIndex": 2,
+    "explanation": "C"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "name": "react-example",
+  "name": "estudo-pr1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "start": "node dist/server.cjs"
+    "start": "node dist/server.cjs",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate-questions.ts",
+    "check": "tsc --noEmit && vitest run && tsx scripts/validate-questions.ts"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
@@ -42,6 +45,7 @@
     "tailwindcss": "^4.1.14",
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
-    "vite": "^6.2.3"
+    "vite": "^6.2.3",
+    "vitest": "^3.2.4"
   }
 }
