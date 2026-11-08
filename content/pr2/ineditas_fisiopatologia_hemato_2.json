@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Hematopoiético, aprofundamento (lote 6)",
+    "gerado_em": "2026-11-08",
+    "base": "Resumo de Fisiopatologia @denisemedicina (FISIOPATO/RESUMOS do Drive; disciplina dos Profs. Fernando Vanraj e Adauto), capítulos Sistema Hematopoiético: distúrbios eritrocitários, hemorrágicos e leucocitários. Trechos em desacordo com a literatura (Robbins) não foram usados."
+  },
+  "questoes": [
+    {
+      "id": "FISIO-IN-HE2-01", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "eritropoiese",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Hematopoiético, eritropoiese",
+      "enunciado": "Sobre a eritropoiese, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A eritropoetina é produzida principalmente no fígado do adulto, em resposta à hiperóxia." },
+        { "letra": "B", "texto": "A sequência de maturação é eritrócito → reticulócito → eritroblasto." },
+        { "letra": "C", "texto": "As hemácias têm vida média de 30 dias e são removidas pelos rins." },
+        { "letra": "D", "texto": "A eritropoetina, sintetizada principalmente nos rins do adulto, é estimulada pela hipóxia tecidual; a maturação segue pró-eritroblasto → eritroblastos basófilo, policromático e ortocromático → reticulócito → eritrócito, com vida média de 120 dias." },
+        { "letra": "E", "texto": "Na vida extrauterina, a hematopoiese normal ocorre principalmente no baço." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "EPO: glicoproteína sintetizada principalmente nos rins do adulto; o estímulo é a hipóxia. Maturação: pró-eritroblasto → eritroblasto basófilo → policromático → ortocromático → (eliminação do núcleo) reticulócito → eritrócito. À medida que amadurecem, perdem a capacidade de síntese proteica e divisão e adquirem ferro/hemoglobina. Vida média de 120 dias; remoção pelo sistema fagocitário mononuclear. Na vida extrauterina, a hematopoiese normal é restrita à medula óssea."
+    },
+    {
+      "id": "FISIO-IN-HE2-02", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "metabolismo do ferro",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Hematopoiético, hemoglobina e ferro",
+      "enunciado": "Sobre o metabolismo do ferro, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "O ferro é absorvido no intestino delgado, transportado no sangue pela transferrina e armazenado como ferritina, principalmente no fígado; o ferro não heme é mais bem absorvido na presença de vitamina C." },
+        { "letra": "B", "texto": "A ferritina é a principal proteína transportadora de ferro no plasma." },
+        { "letra": "C", "texto": "O ferro livre é inerte e não tóxico, por isso circula sem proteína carreadora." },
+        { "letra": "D", "texto": "O ferro é absorvido principalmente no estômago por difusão passiva." },
+        { "letra": "E", "texto": "A vitamina C reduz a absorção do ferro não heme." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Absorção no intestino delgado por transporte ativo; transferrina transporta no sangue; a medula usa o ferro para formar o heme; o excesso é estocado (ferritina e hemossiderina), principalmente no fígado, medula e baço. O ferro heme é o mais absorvido; o não heme (iônico) melhora com vitamina C. O ferro livre é altamente tóxico — por isso é transportado e armazenado ligado a proteínas."
+    },
+    {
+      "id": "FISIO-IN-HE2-03", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "hemólise extra × intravascular",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemias hemolíticas",
+      "enunciado": "Qual alternativa diferencia corretamente a hemólise extravascular da intravascular?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A extravascular cursa com hemoglobinúria e hemossiderinúria; a intravascular com esplenomegalia isolada." },
+        { "letra": "B", "texto": "Ambas ocorrem dentro dos vasos, diferindo só na intensidade." },
+        { "letra": "C", "texto": "A intravascular é causada por hemácias menos deformáveis retidas no baço." },
+        { "letra": "D", "texto": "A extravascular só ocorre em anemias imunes." },
+        { "letra": "E", "texto": "A extravascular (hemácias menos deformáveis destruídas nos sinusoides do baço) manifesta-se por anemia, esplenomegalia e icterícia; a intravascular (lesão mecânica, complemento, parasitas, tóxicos) por anemia, hemoglobinemia, hemoglobinúria, hemossiderinúria e icterícia." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Extravascular: alterações que tornam a hemácia menos deformável, dificultando a passagem pelos sinusoides esplênicos → anemia, esplenomegalia, icterícia. Intravascular: lesão mecânica, fixação do complemento, parasitas intracelulares, tóxicos exógenos → anemia, hemoglobinemia, hemoglobinúria, hemossiderinúria, icterícia. A e C trocam os mecanismos."
+    },
+    {
+      "id": "FISIO-IN-HE2-04", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "causas de anemia hemolítica",
+      "tipo": "multipla", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemias hemolíticas, causas",
+      "enunciado": "Assinale todas as causas INTRÍNSECAS (defeito da própria hemácia) de anemia hemolítica:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Esferocitose e eliptocitose hereditárias (defeito de membrana)." },
+        { "letra": "B", "texto": "Deficiência de G6PD (defeito enzimático)." },
+        { "letra": "C", "texto": "Anemia falciforme e talassemias (hemoglobinopatias)." },
+        { "letra": "D", "texto": "Anticorpos contra as hemácias." },
+        { "letra": "E", "texto": "Trauma físico (lesão mecânica)." }
+      ],
+      "gabarito": ["A", "B", "C"], "gabarito_texto": "A, B e C", "gabarito_oficial": null,
+      "comentario": "Intrínsecas: defeitos de membrana, hemoglobinopatias e deficiências enzimáticas hereditárias. Extrínsecas (agentes externos às hemácias): medicamentos, toxinas bacterianas, anticorpos (D) e traumatismo físico (E). Classificação do material: imunológica, metabólica (G6PD, PK), membrana (esferocitose, eliptocitose), hemoglobina (talassemias, falciforme) e moléculas de membrana (hemoglobinúria paroxística noturna)."
+    },
+    {
+      "id": "FISIO-IN-HE2-05", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "esferocitose hereditária",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Esferocitose hereditária",
+      "enunciado": "Jovem com anemia hemolítica leve, icterícia, esplenomegalia e cálculos biliares tem no esfregaço esferócitos sem palidez central e corpos de Howell-Jolly. O mecanismo da hemólise é:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Polimerização da hemoglobina desoxigenada." },
+        { "letra": "B", "texto": "Defeito do esqueleto de membrana que reduz a estabilidade da bicamada lipídica: a hemácia perde fragmentos de membrana ao envelhecer, a área de superfície cai em relação ao conteúdo, ela fica esférica e pouco flexível e é destruída no baço." },
+        { "letra": "C", "texto": "Autoanticorpos IgM que ativam complemento no frio." },
+        { "letra": "D", "texto": "Deficiência de NADPH por falta de G6PD." },
+        { "letra": "E", "texto": "Lesão mecânica por prótese valvar." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Esferocitose hereditária: defeito intrínseco do esqueleto da membrana. As hemácias jovens têm forma normal, mas perdem membrana com o envelhecimento; com área de superfície desproporcionalmente menor que o conteúdo, não têm flexibilidade para a microcirculação esplênica → hemólise intraesplênica. Clínica: anemia hemolítica leve, icterícia, esplenomegalia, cálculos biliares."
+    },
+    {
+      "id": "FISIO-IN-HE2-06", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "G6PD · mecanismo",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Deficiência de G6PD",
+      "enunciado": "Sobre a deficiência de glicose-6-fosfato desidrogenase (G6PD), assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É autossômica dominante, mais grave em mulheres." },
+        { "letra": "B", "texto": "A G6PD gera NADP a partir de NADPH, aumentando o estresse oxidativo." },
+        { "letra": "C", "texto": "É ligada ao X (recessiva), mais sintomática em homens; a G6PD gera NADPH, necessário para regenerar a glutationa reduzida que degrada oxidantes como o H₂O₂ — sem ela, há hemólise episódica sob estresse oxidativo, com precipitados de globina desnaturada." },
+        { "letra": "D", "texto": "A hemólise é contínua e independe de infecções ou medicamentos." },
+        { "letra": "E", "texto": "Causa hemácias esféricas por perda de membrana." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "A G6PD reduz NADP a NADPH ao oxidar a glicose-6-fosfato; o NADPH fornece equivalentes redutores para converter glutationa oxidada em reduzida, que protege contra lesão oxidante (degradação de H₂O₂). Traço recessivo ligado ao X → maior risco de doença sintomática em homens. A hemólise é episódica, desencadeada por exposições oxidativas (infecções, cetoacidose, certos fármacos como sulfonamidas)."
+    },
+    {
+      "id": "FISIO-IN-HE2-07", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "doença falciforme · base molecular",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Doença falciforme",
+      "enunciado": "Sobre a doença falciforme, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É uma hemoglobinopatia recessiva: a substituição de glutamato por valina na β-globina forma a HbS; as consequências são anemia hemolítica crônica e oclusão vascular, favorecida por hipóxia, esforço e desidratação; o exame mais específico é a eletroforese de hemoglobina." },
+        { "letra": "B", "texto": "É causada pela substituição de valina por glutamato na α-globina." },
+        { "letra": "C", "texto": "O exame mais específico é o teste de Coombs direto." },
+        { "letra": "D", "texto": "A contagem de reticulócitos está tipicamente reduzida." },
+        { "letra": "E", "texto": "A hidratação e a oxigenação favorecem o afoiçamento." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Mutação na globina β: glutamato → valina → HbS. Anemia hemolítica moderadamente grave com dor, reticulocitose, hiperbilirrubinemia, células irreversivelmente falciformes e falência de órgãos. Duas grandes consequências: anemia hemolítica crônica e oclusão vascular (hipóxia, estresse, esforço, desidratação). Diagnóstico mais específico: eletroforese de hemoglobina (identifica a HbS)."
+    },
+    {
+      "id": "FISIO-IN-HE2-08", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "anemia imuno-hemolítica",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemias imuno-hemolíticas",
+      "enunciado": "Nas anemias imuno-hemolíticas, como se comportam os anticorpos \"quentes\" e \"frios\"?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Quentes são IgM que ativam o complemento; frios são IgG que reagem com antígenos de membrana." },
+        { "letra": "B", "texto": "Ambos são IgA e não ativam complemento." },
+        { "letra": "C", "texto": "Anticorpos frios causam hemólise só acima de 37 °C." },
+        { "letra": "D", "texto": "Anticorpos que reagem ao calor (IgG) reagem com antígenos da membrana da hemácia; os que reagem ao frio (IgM) atuam ativando o sistema complemento." },
+        { "letra": "E", "texto": "Os anticorpos não são detectados no teste de Coombs." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "Anticorpos ao calor: IgG, reagem com antígenos da membrana (reações de rápida manifestação). Anticorpos ao frio: IgM, ativam complemento. Podem surgir por substâncias ou por processo patológico; o diagnóstico exige detectar anticorpo e/ou complemento nas hemácias (Coombs direto) ou anticorpos no soro (indireto). São classificadas pela natureza do anticorpo e pela presença de condições predisponentes."
+    },
+    {
+      "id": "FISIO-IN-HE2-09", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "deficiência de B12 · causas",
+      "tipo": "multipla", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemia por deficiência de B12",
+      "enunciado": "Assinale todas as causas de deficiência de vitamina B12 citadas no material:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Nutricional (veganismo)." },
+        { "letra": "B", "texto": "Deficiência de fator intrínseco / anemia perniciosa." },
+        { "letra": "C", "texto": "Ressecção ileal." },
+        { "letra": "D", "texto": "Doença de Crohn." },
+        { "letra": "E", "texto": "Excesso de ingestão de ferro." }
+      ],
+      "gabarito": ["A", "B", "C", "D"], "gabarito_texto": "A, B, C e D", "gabarito_oficial": null,
+      "comentario": "Causas de deficiência de B12: nutricional (veganismo), gástricas (deficiência de fator intrínseco, anemia perniciosa) e intestinais (ressecção ileal, doença de Crohn) — a B12 é absorvida no íleo, ligada ao fator intrínseco das células parietais."
+    },
+    {
+      "id": "FISIO-IN-HE2-10", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "deficiência de folato",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemia por deficiência de folato",
+      "enunciado": "Gestante e paciente etilista idoso desenvolvem anemia megaloblástica. Sobre a deficiência de folato, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É sempre causada por falta de fator intrínseco." },
+        { "letra": "B", "texto": "Gera hemácias microcíticas e hipocrômicas." },
+        { "letra": "C", "texto": "Não tem relação com a gravidez." },
+        { "letra": "D", "texto": "Decorre de excesso de síntese de DNA." },
+        { "letra": "E", "texto": "Suprime a síntese de DNA; causas: nutricional (idosos e etilistas), drogas antifolato, aumento da utilização ou perda, absorção prejudicada e aumento da necessidade (gravidez)." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "O ácido fólico (B9) é essencial para a síntese de DNA e maturação das hemácias; a deficiência suprime a síntese de DNA → megaloblastose (macrocitose). Sintomas: fadiga, fraqueza, palidez, dificuldade de concentração. Causas citadas: nutricional (idosos, etilistas), antifolatos, ↑ utilização ou perda, má absorção, ↑ necessidade (gravidez)."
+    },
+    {
+      "id": "FISIO-IN-HE2-11", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "macrócitos \"hipercrômicos\"",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemias megaloblásticas",
+      "enunciado": "Na anemia megaloblástica, os macrócitos parecem \"hipercrômicos\" ao microscópio. Como interpretar esse achado?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A CHCM está muito elevada, confirmando hipercromia verdadeira." },
+        { "letra": "B", "texto": "Por serem maiores e conterem muita hemoglobina, a maioria não tem a palidez central normal e parece hipercrômica, mas a CHCM não está elevada." },
+        { "letra": "C", "texto": "Indica esferocitose associada." },
+        { "letra": "D", "texto": "Indica deficiência de ferro concomitante." },
+        { "letra": "E", "texto": "Indica hemólise intravascular." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Os macrócitos ovais contêm hemoglobina abundante e, por serem maiores, não mostram a palidez central — parecem \"hipercrômicos\", porém a CHCM não está elevada. Há acentuada anisocitose e poiquilocitose."
+    },
+    {
+      "id": "FISIO-IN-HE2-12", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "anemia aplásica · clínica",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemia aplásica",
+      "enunciado": "Paciente exposto a solventes industriais apresenta fraqueza, palidez, dispneia, petéquias, equimoses e infecções de repetição. Hemograma com pancitopenia e reticulocitopenia. Assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "O quadro sugere anemia hemolítica, pela reticulocitopenia." },
+        { "letra": "B", "texto": "A reticulocitose intensa é a regra na aplasia." },
+        { "letra": "C", "texto": "Sugere anemia aplásica: a maioria dos casos de causa conhecida segue exposição a químicos e medicamentos; mecanismos: supressão extrínseca imunomediada dos progenitores ou anormalidade intrínseca das células-tronco; a anemia causa fraqueza e palidez, a trombocitopenia petéquias e equimoses, e a neutropenia infecções." },
+        { "letra": "D", "texto": "As hemácias são tipicamente microcíticas e hipocrômicas." },
+        { "letra": "E", "texto": "A aplasia acomete só a série vermelha." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "Anemia aplásica: insuficiência hematopoiética primária crônica com pancitopenia. Causa conhecida mais comum: químicos e medicamentos. Duas etiologias: supressão extrínseca imunomediada ou anormalidade intrínseca das células-tronco. Hemácias em geral discretamente macrocíticas e normocrômicas; reticulocitopenia é a regra. Início insidioso, qualquer idade e sexo."
+    },
+    {
+      "id": "FISIO-IN-HE2-13", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "policitemias",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Policitemia",
+      "enunciado": "Paciente com diarreia prolongada e uso excessivo de diuréticos tem hematócrito elevado, que normaliza após hidratação venosa. Trata-se de:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Policitemia relativa: o hematócrito sobe pela perda de volume plasmático, sem aumento real da massa eritrocitária." },
+        { "letra": "B", "texto": "Policitemia absoluta primária, por anormalidade intrínseca dos precursores." },
+        { "letra": "C", "texto": "Policitemia absoluta secundária, por excesso de eritropoetina." },
+        { "letra": "D", "texto": "Anemia aplásica." },
+        { "letra": "E", "texto": "Hiperemia fisiológica." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Relativa: perda de volume plasmático (desidratação — privação de água, vômitos ou diarreia prolongados, diuréticos) sem mudança real das hemácias; corrige com reposição de volume. Absoluta: ↑ real da massa eritrocitária — primária (anormalidade intrínseca dos precursores) ou secundária (resposta a eritropoetina aumentada). O material cita que hematócrito > 50% pode levar a obstrução vascular e disfunção cardíaca."
+    },
+    {
+      "id": "FISIO-IN-HE2-14", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "coagulograma",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Distúrbios hemorrágicos",
+      "enunciado": "Quais vias da coagulação são avaliadas pelo tempo de protrombina (TP) e pelo tempo de tromboplastina parcial (TTP)?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "TP: intrínseca e comum; TTP: extrínseca e comum." },
+        { "letra": "B", "texto": "Ambos avaliam apenas a função plaquetária." },
+        { "letra": "C", "texto": "TP: apenas fibrinólise; TTP: apenas a via comum." },
+        { "letra": "D", "texto": "TP: extrínseca e comum (após tromboplastina tecidual e Ca²⁺); TTP: intrínseca e comum (após caulim, cefalina e Ca²⁺)." },
+        { "letra": "E", "texto": "TP avalia o fator de von Willebrand; TTP avalia a contagem de plaquetas." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "TP: vias extrínseca e comum. TTP: vias intrínseca e comum. Também importam a contagem de plaquetas e os testes de função plaquetária (agregação e fator de von Willebrand, necessário à adesão ao colágeno). Nos defeitos de fatores de coagulação, TP, TTP ou ambos estão aumentados."
+    },
+    {
+      "id": "FISIO-IN-HE2-15", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "hemofilias",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Hemofilias A e B",
+      "enunciado": "Menino de 7 anos tem hemartroses de repetição nos joelhos e sangramento prolongado após extração dentária. TTP prolongado e TP normal. Assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "O padrão (TTP ↑ com TP normal) é de defeito da via extrínseca." },
+        { "letra": "B", "texto": "É típico de trombocitopenia, com petéquias." },
+        { "letra": "C", "texto": "Hemofilia é autossômica dominante, igual em ambos os sexos." },
+        { "letra": "D", "texto": "Hemofilia B é deficiência de fator VIII." },
+        { "letra": "E", "texto": "Sugere hemofilia A (fator VIII) ou B (fator IX, doença de Christmas), ambas recessivas ligadas ao X: VIII e IX atuam juntos para ativar o fator X; a via intrínseca falha e a fibrina é insuficiente, mesmo com a extrínseca intacta." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Hemofilia A (fator VIII): doença hereditária hemorrágica com risco à vida mais comum; B (fator IX, Christmas): clinicamente indistinguível. Ambas: recessivas ligadas ao X (homens), TTP prolongado e TP normal (via intrínseca), contusões fáceis, hemorragia após trauma/cirurgia e hemartroses. Sangram porque, apesar da via extrínseca funcional, falta VIII ou IX para ativar o X e a deposição de fibrina é inadequada. Defeitos de fatores dão grandes equimoses/hematomas, e não petéquias (B)."
+    },
+    {
+      "id": "FISIO-IN-HE2-16", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "fragilidade vascular × plaquetas × fatores",
+      "tipo": "itens_vf", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Distúrbios hemorrágicos",
+      "enunciado": "Sobre os distúrbios hemorrágicos, julgue: ( ) O sangramento excessivo pode resultar de fragilidade vascular, deficiência/disfunção plaquetária e desregulação da coagulação. ( ) Escorbuto, amiloidose sistêmica e uso crônico de glicocorticoides causam hemorragia por fragilidade vascular. ( ) A trombocitopenia causa sangramento em pequenos vasos de pele e mucosas, e o mais temido é o intracraniano. ( ) Deficiências de fatores de coagulação manifestam-se tipicamente por petéquias difusas.",
+      "imagem": null, "alternativas": [],
+      "gabarito": ["V", "V", "V", "F"], "gabarito_texto": "V, V, V, F", "gabarito_oficial": null,
+      "comentario": "4º F: ao contrário do sangramento petequial da trombocitopenia, as deficiências de fatores se manifestam como grandes equimoses ou hematomas pós-traumáticos, sangramento prolongado após laceração ou cirurgia, e hemorragias em regiões sujeitas a trauma (articulações)."
+    },
+    {
+      "id": "FISIO-IN-HE2-17", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "trombocitopenia · causas",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Trombocitopenia",
+      "enunciado": "Paciente com esplenomegalia volumosa tem trombocitopenia moderada sem sangramento importante. O mecanismo mais provável é:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Sequestro esplênico: o baço normalmente retém 30–35% das plaquetas, podendo chegar a 80–90% quando aumentado." },
+        { "letra": "B", "texto": "Diluição por transfusão maciça." },
+        { "letra": "C", "texto": "Destruição por autoanticorpos IgG (PTI)." },
+        { "letra": "D", "texto": "Aplasia medular." },
+        { "letra": "E", "texto": "Coagulação intravascular disseminada." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Categorias de trombocitopenia: ↓ produção (anemia aplásica, leucemia, lesão seletiva dos megacariócitos), ↑ destruição (imune — PTI, com sobrevida de 9–10 dias caindo para horas; não imune — CID, microangiopatias trombóticas), sequestro (esplenomegalia: 30–35% → até 80–90%) e diluição por transfusão maciça (plaquetas viáveis diminuem no sangue estocado)."
+    },
+    {
+      "id": "FISIO-IN-HE2-18", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "neutropenia",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Distúrbios leucocitários não neoplásicos",
+      "enunciado": "Paciente com agranulocitose desenvolve úlceras necrosantes na gengiva e na faringe, febre e calafrios. Assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A neutropenia protege contra infecções bacterianas." },
+        { "letra": "B", "texto": "Agranulocitose é o aumento grave de granulócitos." },
+        { "letra": "C", "texto": "A neutropenia decorre de produção ineficaz ou destruição acelerada dos granulócitos; aumenta a suscetibilidade a infecções bacterianas e fúngicas, e as úlceras orais necrosantes caracterizam a angina agranulocítica." },
+        { "letra": "D", "texto": "A leucopenia resulta mais comumente da queda dos linfócitos." },
+        { "letra": "E", "texto": "As lesões orais indicam mononucleose." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "A leucopenia resulta mais comumente da queda dos granulócitos (os leucócitos mais prevalentes). Neutropenia (agranulocitose, se grave): produção ineficaz ou destruição acelerada; mal-estar, calafrios, febre, fraqueza; infecções bacterianas e fúngicas potencialmente fatais; úlceras e lesões necrosantes na cavidade oral e faringe (angina agranulocítica)."
+    },
+    {
+      "id": "FISIO-IN-HE2-19", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "mononucleose infecciosa",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Mononucleose infecciosa",
+      "enunciado": "Adolescente com febre, faringite e linfadenopatia generalizada tem linfocitose. Sobre a mononucleose infecciosa, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É causada pelo citomegalovírus e transmitida por via sexual exclusivamente." },
+        { "letra": "B", "texto": "É uma leucemia linfoide aguda." },
+        { "letra": "C", "texto": "Cursa com neutrofilia e linfopenia." },
+        { "letra": "D", "texto": "É doença aguda, autolimitada, causada pelo vírus Epstein-Barr (herpesvírus), que infecta o epitélio da orofaringe e depois as células B do tecido linfoide; a linfocitose é de células T CD8 ativadas; transmissão por contato oral." },
+        { "letra": "E", "texto": "Infecta primeiro a medula óssea e depois o fígado." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "Mononucleose: aguda, autolimitada, de adolescentes e adultos jovens; EBV infecta o epitélio da orofaringe, espalha-se para tonsilas e adenoides e infecta células B maduras. Clínica: febre, garganta inflamada, linfadenite generalizada; linfocitose de T CD8 ativadas. Contato oral direto. Reações leucemoides como essa devem ser diferenciadas de malignidades verdadeiras."
+    },
+    {
+      "id": "FISIO-IN-HE2-20", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "leucemia × linfoma",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Distúrbios neoplásicos dos leucócitos",
+      "enunciado": "Qual é a diferença entre leucemia e linfoma, segundo o material?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Leucemia acomete apenas linfonodos; linfoma, apenas a medula." },
+        { "letra": "B", "texto": "Leucemia designa neoplasias com amplo acometimento da medula óssea e geralmente do sangue periférico; linfoma designa proliferações que surgem como massas teciduais distintas (linfonodos ou sítios extranodais)." },
+        { "letra": "C", "texto": "Linfoma é benigno e leucemia é maligna." },
+        { "letra": "D", "texto": "Linfoma nunca tem células circulantes." },
+        { "letra": "E", "texto": "Não há diferença: os termos são sinônimos." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Leucemia: amplo acometimento da MO e, geralmente, do sangue periférico. Linfoma: massas teciduais distintas (linfonodos ou extranodais). Os LNH incluem lesões que começam como tumores (linfomas) ou são detectadas por células malignas circulantes (leucemias linfoides). Linfoma: linfonodos aumentados e indolores, perda de peso, sudorese noturna; leucemia: fadiga, infecções frequentes, hematomas e sangramentos."
+    },
+    {
+      "id": "FISIO-IN-HE2-21", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "linfomas · Hodgkin e Burkitt",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Linfomas",
+      "enunciado": "Assinale a associação correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Linfoma de Hodgkin — células de Reed-Sternberg; linfoma de Burkitt — aspecto em \"céu estrelado\" e translocações envolvendo o gene MYC, como t(8;14)." },
+        { "letra": "B", "texto": "Linfoma de Hodgkin — cromossomo Filadélfia t(9;22)." },
+        { "letra": "C", "texto": "Linfoma de Burkitt — células de Reed-Sternberg." },
+        { "letra": "D", "texto": "Linfoma de Burkitt — proteína BCR-ABL com atividade tirosinaquinase." },
+        { "letra": "E", "texto": "Linfoma de Hodgkin — esquizócitos e plaquetopenia." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Neoplasias linfoides: de células B, de células T/NK e linfoma de Hodgkin; na prática, Hodgkin (proliferação de células atípicas de Reed-Sternberg) × não Hodgkin (subtipos B e T). Burkitt: linfoma de células B maduras, agressivo, com aspecto em \"céu estrelado\" e translocações do MYC [t(8;14), t(8;2), t(8;22)]; terceira neoplasia mais frequente em menores de 15 anos. Filadélfia e BCR-ABL são da LMC."
+    },
+    {
+      "id": "FISIO-IN-HE2-22", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "leucemias agudas × crônicas",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Leucemias",
+      "enunciado": "Sobre a diferença entre leucemias agudas e crônicas, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "As crônicas substituem a medula por blastos com bloqueio total da maturação." },
+        { "letra": "B", "texto": "As agudas têm evolução lenta e insidiosa." },
+        { "letra": "C", "texto": "Em todas as leucemias os leucócitos circulantes estão aumentados." },
+        { "letra": "D", "texto": "As agudas preservam a maturação celular." },
+        { "letra": "E", "texto": "Nas agudas a medula é substituída por blastos com alta proliferação e bloqueio da maturação, gerando anemia, neutropenia e plaquetopenia (tríade: sangramentos, astenia e infecções); nas crônicas há alta replicação com maturação mantida e evolução lenta." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Leucemias: proliferação clonal de célula-tronco que substitui a MO normal (oncogenes e/ou perda de supressores tumorais). Em todas a MO está comprometida; os leucócitos circulantes podem estar normais, diminuídos ou aumentados (C errada). Classificação: linhagem (mieloide × linfoide) e evolução (aguda: blastos, bloqueio de maturação, quadro grave e rápido; crônica: maturação mantida, elementos quase maduros, evolução lenta)."
+    },
+    {
+      "id": "FISIO-IN-HE2-23", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "LMC · BCR-ABL",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Leucemia mieloide crônica",
+      "enunciado": "Na leucemia mieloide crônica, qual é a consequência molecular da translocação t(9;22)(q34;q11)?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Perda do gene MYC, com bloqueio da apoptose." },
+        { "letra": "B", "texto": "Deleção do gene da G6PD." },
+        { "letra": "C", "texto": "O proto-oncogene ABL (cromossomo 9) se funde ao gene BCR (cromossomo 22), formando o cromossomo Filadélfia e o gene quimérico BCR-ABL, que codifica uma proteína de ~210 kDa com atividade tirosinaquinase aumentada e localização citoplasmática." },
+        { "letra": "D", "texto": "Mutação da SOD1 com falha de dobramento." },
+        { "letra": "E", "texto": "Expansão de repetições no gene da huntingtina." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "Translocação recíproca 9;22: o ABL, do braço longo do 9, vai para o gene BCR no braço longo do 22 (que fica encurtado) — cromossomo Filadélfia, a primeira alteração cromossômica relacionada ao câncer humano. O gene BCR-ABL gera mRNA híbrido de 8,5 kb e proteína de 210 kDa com atividade tirosinaquinase, mais ativa e citoplasmática. Clínica: leucocitose com desvio à esquerda, anemia, esplenomegalia; fase crônica, acelerada e blástica."
+    },
+    {
+      "id": "FISIO-IN-HE2-24", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "LMA, LLA e LLC",
+      "tipo": "itens_vf", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Leucemias",
+      "enunciado": "Julgue os itens: ( ) A leucemia mieloide aguda é mais comum após os 60 anos, e exposição a quimioterapia, radiação e benzeno (inclusive do cigarro) aumenta o risco. ( ) Na leucemia linfoblástica aguda, linfoblastos substituem as células normais da medula, causando infecções, febre, anemia e sangramento. ( ) A leucemia linfocítica crônica é uma proliferação de linfócitos B maduros mas funcionalmente imaturos, após os 50 anos, de curso indolente. ( ) Nas leucemias agudas, a medula óssea está preservada.",
+      "imagem": null, "alternativas": [],
+      "gabarito": ["V", "V", "V", "F"], "gabarito_texto": "V, V, V, F", "gabarito_oficial": null,
+      "comentario": "4º F: em todas as leucemias a medula óssea está comprometida; nas agudas, ela é substituída por blastos, levando à insuficiência medular (anemia, infecções pela granulocitopenia, hemorragias pela plaquetopenia). A LLC tem origem na medula ou, mais raramente, em linfonodos (linfoma linfocítico)."
+    },
+    {
+      "id": "FISIO-IN-HE2-25", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "PTI",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Trombocitopenia imune",
+      "enunciado": "Na púrpura trombocitopênica imune (PTI), por que a contagem de plaquetas cai?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Por sequestro esplênico sem participação imune." },
+        { "letra": "B", "texto": "Autoanticorpos antiplaquetas (em geral IgG) causam remoção prematura das plaquetas: a sobrevida normal de 9 a 10 dias cai para poucas horas." },
+        { "letra": "C", "texto": "Por falta de fator VIII." },
+        { "letra": "D", "texto": "Por microangiopatia trombótica com esquizócitos." },
+        { "letra": "E", "texto": "Por aplasia dos megacariócitos induzida por benzeno." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "PTI: destruição imune (anticorpos contra plaquetas ou, menos frequentemente, imunocomplexos depositados nelas); sobrevida plaquetária de 9–10 dias cai para horas. Causas não imunes de destruição: CID e microangiopatias trombóticas."
+    },
+    {
+      "id": "FISIO-IN-HE2-26", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "anemias · caso discursivo",
+      "tipo": "discursiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Anemias hemolíticas",
+      "enunciado": "Três pacientes têm anemia hemolítica: (1) homem com icterícia e urina escura após sulfonamida; (2) jovem com esplenomegalia, cálculos biliares e esferócitos; (3) adolescente com crises de dor óssea e oclusões vasculares.\n\nPara cada um, cite o diagnóstico, o mecanismo molecular e o tipo de herança/exame confirmatório citados no material. Explique por que, nas hemolíticas, a eritropoetina e a eritropoiese aumentam.",
+      "imagem": null, "alternativas": [], "gabarito": null, "gabarito_texto": "", "gabarito_oficial": null, "comentario": null,
+      "resposta_modelo": "(1) **Deficiência de G6PD:** sem G6PD, não há NADPH para regenerar a glutationa reduzida; a hemácia não neutraliza oxidantes (H₂O₂) e hemolisa sob estresse oxidativo (fármacos como sulfonamida, infecções, cetoacidose), com precipitados de globina desnaturada (\"células mordidas\" quando o baço remove as inclusões). Herança recessiva ligada ao X — mais sintomática em homens.\n\n(2) **Esferocitose hereditária:** defeito do esqueleto da membrana; a hemácia perde membrana ao envelhecer, fica esférica, pouco deformável e é destruída no baço (hemólise extravascular → esplenomegalia, icterícia, cálculos biliares); esferócitos sem palidez central e corpos de Howell-Jolly no esfregaço.\n\n(3) **Doença falciforme:** substituição de glutamato por valina na β-globina → HbS, que polimeriza desoxigenada; hemácias rígidas em foice → hemólise crônica e oclusão vascular (precipitada por hipóxia, esforço, desidratação). Hemoglobinopatia recessiva; exame mais específico: eletroforese de hemoglobina.\n\nNas hemolíticas, a destruição prematura encurta a sobrevida abaixo de 120 dias; a hipóxia tecidual estimula a eritropoetina renal, que aumenta compensatoriamente a eritropoiese (reticulocitose), com acúmulo de produtos de degradação da hemoglobina (bilirrubina)."
+    }
+  ]
+}
