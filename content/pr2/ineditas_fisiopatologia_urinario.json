@@ -693,49 +693,6 @@
       "comentario": "Respiração de Kussmaul = compensação respiratória da acidose metabólica: ventilação profunda e regular, sem esforço. Compensação esperada (Winter): pCO₂ ≈ 1,5 × HCO₃⁻ + 8 (± 2). O material contrasta com a dispneia da congestão pulmonar, que é rápida, superficial e com esforço (A)."
     },
     {
-      "id": "FISIO-IN-URI-19",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · prurido urêmico",
-      "tipo": "multipla",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item b",
-      "enunciado": "O prurido urêmico é multifatorial. Assinale todos os fatores que contribuem para ele, segundo o material da aula:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Retenção de toxinas e inflamação sistêmica (citocinas)."
-        },
-        {
-          "letra": "B",
-          "texto": "Hiperparatireoidismo secundário e ↑ do produto cálcio × fósforo."
-        },
-        {
-          "letra": "C",
-          "texto": "Xerose (pele seca) e mastócitos/histamina."
-        },
-        {
-          "letra": "D",
-          "texto": "Desequilíbrio do sistema opioide (receptores μ e κ)."
-        },
-        {
-          "letra": "E",
-          "texto": "Hipervitaminose A causada pela diálise."
-        }
-      ],
-      "gabarito": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "gabarito_texto": "A, B, C e D",
-      "gabarito_oficial": null,
-      "comentario": "O estudo dirigido lista seis fatores: toxinas e inflamação, hiperparatireoidismo secundário e ↑ Ca × P, xerose, mastócitos/histamina, desequilíbrio opioide (μ e κ), neuropatia e anemia/ferropenia. Piora à noite e causa escoriações; melhora com diálise adequada, controle do fósforo, hidratação da pele e tratamento do PTH. Hipervitaminose A não é citada."
-    },
-    {
       "id": "FISIO-IN-URI-20",
       "materia": "Fisiopatologia (SOP IV)",
       "prova": "PR2",
@@ -814,46 +771,6 @@
       "gabarito_texto": "E",
       "gabarito_oficial": null,
       "comentario": "Quadro do estudo dirigido: A (acidose metabólica refratária), E (eletrólitos: hipercalemia refratária), I (intoxicações dialisáveis), O (overload: sobrecarga de volume refratária, EAP), U (uremia: pericardite, encefalopatia, sangramento)."
-    },
-    {
-      "id": "FISIO-IN-URI-22",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · estágios KDIGO",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, estágios",
-      "enunciado": "Pela classificação KDIGO apresentada na aula, o estágio G4 da doença renal crônica corresponde a:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "TFG ≥ 90 mL/min/1,73 m² com lesão renal, sem sintomas."
-        },
-        {
-          "letra": "B",
-          "texto": "TFG 60–89, sem sintomas."
-        },
-        {
-          "letra": "C",
-          "texto": "TFG 30–44, em geral sem sintomas."
-        },
-        {
-          "letra": "D",
-          "texto": "TFG 15–29, com anemia, acidose, hiperparatireoidismo e edema."
-        },
-        {
-          "letra": "E",
-          "texto": "TFG < 15, com síndrome urêmica."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "Quadro do material: G1 ≥ 90 (com lesão); G2 60–89; G3a 45–59 e G3b 30–44 (em geral sem sintomas; anemia leve, ↑ PA, noctúria); G4 15–29 (anemia, acidose, hiperparatireoidismo, edema); G5 < 15 (síndrome urêmica)."
     },
     {
       "id": "FISIO-IN-URI-23",

@@ -57,7 +57,7 @@ O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `t
 
 ### Questões inéditas
 
-Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina.
+Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina e da prova em questão (conferir o plano/cronograma da disciplina), e cobrir só conteúdo de **alto rendimento para prova**: mecanismos centrais, diagnósticos diferenciais clássicos e o que os professores cobram — sem listas exaustivas, números decorativos ou detalhes de nicho.
 
 ## Adicionar ou editar questões
 

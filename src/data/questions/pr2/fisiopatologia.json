@@ -720,28 +720,6 @@
     "ref": "FISIO-IN-HE2-10"
   },
   {
-    "id": "fis-8ccda2bc",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Hematopoiético",
-    "subtopic": "macrócitos \"hipercrômicos\"",
-    "stem": "Na anemia megaloblástica, os macrócitos parecem \"hipercrômicos\" ao microscópio. Como interpretar esse achado?",
-    "options": [
-      "A CHCM está muito elevada, confirmando hipercromia verdadeira.",
-      "Por serem maiores e conterem muita hemoglobina, a maioria não tem a palidez central normal e parece hipercrômica, mas a CHCM não está elevada.",
-      "Indica esferocitose associada.",
-      "Indica deficiência de ferro concomitante.",
-      "Indica hemólise intravascular."
-    ],
-    "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nOs macrócitos ovais contêm hemoglobina abundante e, por serem maiores, não mostram a palidez central — parecem \"hipercrômicos\", porém a CHCM não está elevada. Há acentuada anisocitose e poiquilocitose.",
-    "source": "Resumo Fisiopatologia (denisemedicina) · Anemias megaloblásticas",
-    "origin": "inedita",
-    "ref": "FISIO-IN-HE2-11"
-  },
-  {
     "id": "fis-7c0b16fc",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -857,28 +835,6 @@
     "ref": "FISIO-IN-HE2-16"
   },
   {
-    "id": "fis-8ea94d58",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Hematopoiético",
-    "subtopic": "trombocitopenia · causas",
-    "stem": "Paciente com esplenomegalia volumosa tem trombocitopenia moderada sem sangramento importante. O mecanismo mais provável é:",
-    "options": [
-      "Sequestro esplênico: o baço normalmente retém 30–35% das plaquetas, podendo chegar a 80–90% quando aumentado.",
-      "Diluição por transfusão maciça.",
-      "Destruição por autoanticorpos IgG (PTI).",
-      "Aplasia medular.",
-      "Coagulação intravascular disseminada."
-    ],
-    "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCategorias de trombocitopenia: ↓ produção (anemia aplásica, leucemia, lesão seletiva dos megacariócitos), ↑ destruição (imune — PTI, com sobrevida de 9–10 dias caindo para horas; não imune — CID, microangiopatias trombóticas), sequestro (esplenomegalia: 30–35% → até 80–90%) e diluição por transfusão maciça (plaquetas viáveis diminuem no sangue estocado).",
-    "source": "Resumo Fisiopatologia (denisemedicina) · Trombocitopenia",
-    "origin": "inedita",
-    "ref": "FISIO-IN-HE2-17"
-  },
-  {
     "id": "fis-e88bde22",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -899,28 +855,6 @@
     "source": "Resumo Fisiopatologia (denisemedicina) · Distúrbios leucocitários não neoplásicos",
     "origin": "inedita",
     "ref": "FISIO-IN-HE2-18"
-  },
-  {
-    "id": "fis-3506aa57",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Hematopoiético",
-    "subtopic": "mononucleose infecciosa",
-    "stem": "Adolescente com febre, faringite e linfadenopatia generalizada tem linfocitose. Sobre a mononucleose infecciosa, assinale a correta:",
-    "options": [
-      "É causada pelo citomegalovírus e transmitida por via sexual exclusivamente.",
-      "É uma leucemia linfoide aguda.",
-      "Cursa com neutrofilia e linfopenia.",
-      "É doença aguda, autolimitada, causada pelo vírus Epstein-Barr (herpesvírus), que infecta o epitélio da orofaringe e depois as células B do tecido linfoide; a linfocitose é de células T CD8 ativadas; transmissão por contato oral.",
-      "Infecta primeiro a medula óssea e depois o fígado."
-    ],
-    "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMononucleose: aguda, autolimitada, de adolescentes e adultos jovens; EBV infecta o epitélio da orofaringe, espalha-se para tonsilas e adenoides e infecta células B maduras. Clínica: febre, garganta inflamada, linfadenite generalizada; linfocitose de T CD8 ativadas. Contato oral direto. Reações leucemoides como essa devem ser diferenciadas de malignidades verdadeiras.",
-    "source": "Resumo Fisiopatologia (denisemedicina) · Mononucleose infecciosa",
-    "origin": "inedita",
-    "ref": "FISIO-IN-HE2-19"
   },
   {
     "id": "fis-1617ea8a",
@@ -989,7 +923,7 @@
     "ref": "FISIO-IN-HE2-22"
   },
   {
-    "id": "fis-d5e4a92e",
+    "id": "fis-794e5ed9",
     "subject": "fisiopatologia",
     "exam": "PR2",
     "format": "mcq",
@@ -1000,12 +934,12 @@
     "options": [
       "Perda do gene MYC, com bloqueio da apoptose.",
       "Deleção do gene da G6PD.",
-      "O proto-oncogene ABL (cromossomo 9) se funde ao gene BCR (cromossomo 22), formando o cromossomo Filadélfia e o gene quimérico BCR-ABL, que codifica uma proteína de ~210 kDa com atividade tirosinaquinase aumentada e localização citoplasmática.",
+      "O proto-oncogene ABL (cromossomo 9) se funde ao gene BCR (cromossomo 22), formando o cromossomo Filadélfia e o gene quimérico BCR-ABL, que codifica uma tirosinaquinase constitutivamente ativa.",
       "Mutação da SOD1 com falha de dobramento.",
       "Expansão de repetições no gene da huntingtina."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nTranslocação recíproca 9;22: o ABL, do braço longo do 9, vai para o gene BCR no braço longo do 22 (que fica encurtado) — cromossomo Filadélfia, a primeira alteração cromossômica relacionada ao câncer humano. O gene BCR-ABL gera mRNA híbrido de 8,5 kb e proteína de 210 kDa com atividade tirosinaquinase, mais ativa e citoplasmática. Clínica: leucocitose com desvio à esquerda, anemia, esplenomegalia; fase crônica, acelerada e blástica.",
+    "explanation": "**Gabarito: C**\n\nTranslocação recíproca 9;22: o ABL, do braço longo do 9, vai para o gene BCR no braço longo do 22 (que fica encurtado) — cromossomo Filadélfia, a primeira alteração cromossômica relacionada ao câncer humano. O gene BCR-ABL codifica uma tirosinaquinase mais ativa que a normal, que promove o crescimento celular descontrolado. Clínica: leucocitose com desvio à esquerda, anemia, esplenomegalia; fase crônica, acelerada e blástica.",
     "source": "Resumo Fisiopatologia (denisemedicina) · Leucemia mieloide crônica",
     "origin": "inedita",
     "ref": "FISIO-IN-HE2-23"
@@ -1436,50 +1370,6 @@
     "ref": "FISIO-IN-RE2-16"
   },
   {
-    "id": "fis-73a0eeb3",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema urinário",
-    "subtopic": "acidose tubular renal",
-    "stem": "Na acidose tubular renal descrita no material, qual é a sequência de eventos?",
-    "options": [
-      "↑ reabsorção de bicarbonato → alcalose metabólica.",
-      "↓ excreção de potássio → hipercalemia isolada, sem alteração ácido-básica.",
-      "Perda de proteína → hipoalbuminemia → edema.",
-      "↓ reabsorção de bicarbonato e ↓ excreção de H⁺, com perda simultânea de Na⁺ e ativação do sistema renina.",
-      "Obstrução ureteral → hidronefrose → anúria."
-    ],
-    "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nAcidose tubular renal: menor reabsorção de bicarbonato e menor excreção de H⁺, com perda simultânea de Na⁺ e ativação do sistema renina — exemplo da \"habilidade diminuída de excretar ácidos\" das doenças tubulares.",
-    "source": "Resumo Fisiopatologia (denisemedicina) · Renal, acidose tubular",
-    "origin": "inedita",
-    "ref": "FISIO-IN-RE2-17"
-  },
-  {
-    "id": "fis-d821e59f",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema urinário",
-    "subtopic": "classificação das lesões renais",
-    "stem": "Segundo o material, as condições patológicas renais envolvem compartimentos com mecanismos predominantes. Assinale a associação correta:",
-    "options": [
-      "Glomérulos — principalmente mecanismos imunológicos; túbulos — agentes tóxicos ou infecciosos; interstício — agentes tóxicos; vasos — obstrução ou ruptura (trombo, aterosclerose).",
-      "Glomérulos — agentes tóxicos; túbulos — imunocomplexos.",
-      "Vasos — exclusivamente infecções.",
-      "Interstício — deposição de imunocomplexos subepiteliais.",
-      "Todos os compartimentos são lesados apenas por obstrução urinária."
-    ],
-    "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nDivisão do material: glomérulos (mediados por mecanismos imunológicos), túbulos (agentes tóxicos ou infecciosos), interstício (agentes tóxicos) e vasos sanguíneos (obstrução ou ruptura por trombo ou aterosclerose). A lesão glomerular imunomediada ocorre sobretudo por deposição de imunocomplexos, com cascata do complemento e leucócitos.",
-    "source": "Resumo Fisiopatologia (denisemedicina) · Renal, condições patológicas",
-    "origin": "inedita",
-    "ref": "FISIO-IN-RE2-18"
-  },
-  {
     "id": "fis-5491944f",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -1492,50 +1382,6 @@
     "source": "Resumo Fisiopatologia (denisemedicina) · Renal, consequências da insuficiência renal",
     "origin": "inedita",
     "ref": "FISIO-IN-RE2-19"
-  },
-  {
-    "id": "fis-541c1c19",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema nervoso",
-    "subtopic": "grupos de patologias do SNC",
-    "stem": "Segundo Robbins, as patologias do SNC dividem-se em dois grandes grupos. Assinale a alternativa correta:",
-    "options": [
-      "Infecciosas, de progressão lenta, e genéticas, de progressão rápida.",
-      "Trauma ou hipóxia, associados a perda de função de progressão rápida; e acúmulo de agregados de proteínas anormais, de progressão lenta — o neurônio, de longa vida útil e alta atividade metabólica, é suscetível ao acúmulo de proteínas mal enoveladas.",
-      "Desmielinizantes e neoplásicas, ambas de progressão rápida.",
-      "Vasculares e metabólicas, sempre reversíveis.",
-      "Centrais e periféricas, sem diferença de evolução."
-    ],
-    "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nOs dois grupos citados: (1) trauma ou hipóxia — perda de função, progressão rápida (edema, hidrocefalia, herniação, doenças cerebrovasculares, traumas, infecções); (2) acúmulo de agregados de proteínas anormais — progressão lenta, pela longa vida útil e alta atividade metabólica do neurônio (Alzheimer, Parkinson, Huntington, ELA).",
-    "source": "RESUMO 2 Fisiopatologia do SN · patologias do SNC (Robbins)",
-    "origin": "inedita",
-    "ref": "FISIO-IN-SN2-01"
-  },
-  {
-    "id": "fis-cf6ec107",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema nervoso",
-    "subtopic": "edema cerebral · imagem",
-    "stem": "Na comparação de imagem entre edema vasogênico e citotóxico apresentada no material, qual achado diferencia os dois?",
-    "options": [
-      "No vasogênico o líquido está no interstício e as células não perdem a forma (sulcos e giros visíveis); no citotóxico as células incham e perdem a forma, apagando sulcos e giros.",
-      "No citotóxico os sulcos ficam mais evidentes que o normal.",
-      "O vasogênico apaga os giros por inchaço celular.",
-      "Os dois tipos são indistinguíveis, pois ambos são intracelulares.",
-      "O citotóxico ocorre só em tumores."
-    ],
-    "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nVasogênico: ↑ líquido extracelular (interstício) por ruptura da barreira hematoencefálica e ↑ permeabilidade (inflamação, histamina, neoplasias) — a célula não perde a forma, sulcos e giros visíveis. Citotóxico: ↑ líquido intracelular por hipóxia — ↓ ATP, falha da bomba Na⁺/K⁺, acúmulo de Na⁺ e entrada de água por osmose — a célula perde a forma e não se veem sulcos e giros.",
-    "source": "RESUMO 2 Fisiopatologia do SN · edema vasogênico × citotóxico",
-    "origin": "inedita",
-    "ref": "FISIO-IN-SN2-02"
   },
   {
     "id": "fis-88817761",
@@ -1655,28 +1501,6 @@
     "ref": "FISIO-IN-SN2-07"
   },
   {
-    "id": "fis-7aa37d95",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema nervoso",
-    "subtopic": "rotas de infecção",
-    "stem": "Raiva e herpes-zóster chegam ao sistema nervoso central por qual via?",
-    "options": [
-      "Disseminação hematogênica.",
-      "Implantação direta traumática.",
-      "Transporte ao longo do sistema nervoso periférico.",
-      "Contiguidade a partir dos seios paranasais.",
-      "Via linfática."
-    ],
-    "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nRotas de infecção do SN no material: disseminação hematogênica (a mais comum); implantação direta de microrganismos (frequentemente traumática); transporte ao longo do SNP (raiva, herpes-zóster). A infecção lesa o SN diretamente (neurônios ou glia pelo agente) ou indiretamente (toxinas microbianas, resposta inflamatória, mecanismos imunomediados).",
-    "source": "RESUMO 2 Fisiopatologia do SN · infecções",
-    "origin": "inedita",
-    "ref": "FISIO-IN-SN2-08"
-  },
-  {
     "id": "fis-03e6eeec",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -1697,28 +1521,6 @@
     "source": "RESUMO 2 Fisiopatologia do SN · abscesso cerebral",
     "origin": "inedita",
     "ref": "FISIO-IN-SN2-09"
-  },
-  {
-    "id": "fis-87c76e14",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema nervoso",
-    "subtopic": "meningoencefalites",
-    "stem": "Assinale a alternativa que lista agentes de meningoencefalite BACTERIANA CRÔNICA citados no material:",
-    "options": [
-      "Herpes simples 1 e 2, varicela-zóster e citomegalovírus.",
-      "Mycobacterium tuberculosis, Treponema pallidum e Borrelia.",
-      "Enterovírus e vírus da raiva.",
-      "Poliovírus e HIV.",
-      "Toxina Shiga e E. coli."
-    ],
-    "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nMeningoencefalite = inflamação das meninges e do parênquima. Bacteriana crônica: M. tuberculosis, T. pallidum, Borrelia. Viral: herpes simples 1 e 2, varicela-zóster, citomegalovírus, raiva, poliomielite (e HIV, citado no resumo da PR2).",
-    "source": "RESUMO 2 Fisiopatologia do SN · meningoencefalite",
-    "origin": "inedita",
-    "ref": "FISIO-IN-SN2-10"
   },
   {
     "id": "fis-4ee182cb",
@@ -2250,32 +2052,6 @@
     "ref": "FISIO-IN-HEM-02"
   },
   {
-    "id": "fis-3981f22a",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "multi",
-    "kind": "multipla-escolha",
-    "topic": "Hematopoiético",
-    "subtopic": "hematócrito",
-    "stem": "Assinale todas as situações citadas no material como causas de hematócrito ELEVADO:",
-    "options": [
-      "Desidratação.",
-      "Sangramento.",
-      "Baixos níveis de oxigênio no sangue / doença pulmonar.",
-      "Doença cardíaca congênita.",
-      "Desnutrição."
-    ],
-    "answerIndices": [
-      0,
-      2,
-      3
-    ],
-    "explanation": "**Gabarito: A, C e D**\n\nHematócrito alto: desidratação, baixos níveis de O₂ no sangue, doença pulmonar, doença cardíaca congênita. Hematócrito baixo: anemia, sangramento, desnutrição (B e E).",
-    "source": "Resumo Fisiopatologia PR2 · Sistema hematopoiético, hematócrito",
-    "origin": "inedita",
-    "ref": "FISIO-IN-HEM-03"
-  },
-  {
     "id": "fis-c22925c4",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -2479,28 +2255,6 @@
     "source": "Resumo Fisiopatologia PR2 · Sistema hematopoiético, anemia aplásica",
     "origin": "inedita",
     "ref": "FISIO-IN-HEM-12"
-  },
-  {
-    "id": "fis-fc54c19c",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Hematopoiético",
-    "subtopic": "classificação das anemias",
-    "stem": "Segundo o material, quais são as anemias por subprodução de hemácias mais comuns e importantes?",
-    "options": [
-      "As hemolíticas hereditárias, seguidas das imuno-hemolíticas.",
-      "As por perda aguda de sangue.",
-      "As neoplasias hematopoiéticas primárias, seguidas da anemia aplásica.",
-      "As por deficiências nutricionais, seguidas das secundárias à insuficiência renal e à inflamação crônica.",
-      "As causadas por excesso de eritropoetina."
-    ],
-    "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nAs anemias mais comuns por subprodução são as nutricionais, seguidas das secundárias à insuficiência renal (↓ eritropoetina — 70% produzida nos rins, segundo o material) e à inflamação crônica. Anemia aplásica, neoplasias hematopoiéticas e infiltração medular são menos comuns.",
-    "source": "Resumo Fisiopatologia PR2 · Sistema hematopoiético, anemias por diminuição da eritropoiese",
-    "origin": "inedita",
-    "ref": "FISIO-IN-HEM-13"
   },
   {
     "id": "fis-ca52bb51",
@@ -3023,50 +2777,6 @@
     "ref": "FISIO-IN-ULC-22"
   },
   {
-    "id": "fis-f51e0535",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisiopatologia do sistema digestório",
-    "subtopic": "sinais radiológicos de pneumoperitônio",
-    "stem": "A visualização das duas faces da parede intestinal (gás dentro e fora da alça) na radiografia corresponde a qual sinal de pneumoperitônio?",
-    "options": [
-      "Sinal do ligamento falciforme.",
-      "Sinal de Rigler.",
-      "Sinal \"football\".",
-      "Sinal de Chilaiditi.",
-      "Sinal de Kehr."
-    ],
-    "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSinais radiológicos citados: crescente subdiafragmático (o mais clássico, em ortostase); Rigler (duas faces da parede intestinal); ligamento falciforme delimitado pelo ar (decúbito dorsal, grande volume); \"football\" (grande volume, cavidade lúcida); duas faces do diafragma. Chilaiditi é pseudo-pneumoperitônio; Kehr é dor referida ao ombro pelo nervo frênico.",
-    "source": "Caso Clínico 05 (úlcera perfurada) · RX comentado",
-    "origin": "inedita",
-    "ref": "FISIO-IN-ULC-23"
-  },
-  {
-    "id": "fis-7b4d9d3d",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisiopatologia do sistema digestório",
-    "subtopic": "laboratório na perfuração",
-    "stem": "No paciente com úlcera perfurada, a amilase está apenas discretamente aumentada. Como interpretar esse achado?",
-    "options": [
-      "Confirma pancreatite aguda como diagnóstico principal.",
-      "Indica obrigatoriamente perfuração para o pâncreas.",
-      "É impossível na perfuração e sugere erro laboratorial.",
-      "Indica insuficiência renal aguda.",
-      "Não indica pancreatite: reflete absorção peritoneal de enzimas do conteúdo duodenal e/ou irritação do pâncreas; na pancreatite a elevação costuma ser > 3× o normal."
-    ],
-    "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nInterpretação do material: aumento discreto da amilase não indica pancreatite (que costuma elevá-la > 3× o normal) e decorre da absorção peritoneal de enzimas duodenais e/ou irritação pancreática. Leucocitose com desvio (G-CSF, IL-1, TNF; desmarginação), PCR ↑ (IL-6 estimula o fígado) e lactato > 2 (hipoperfusão) completam o quadro.",
-    "source": "Caso Clínico 05 (úlcera perfurada) · exames complementares",
-    "origin": "inedita",
-    "ref": "FISIO-IN-ULC-24"
-  },
-  {
     "id": "fis-b1bd2f21",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -3109,28 +2819,6 @@
     "source": "Caso Clínico 05 (úlcera perfurada) · leitura da anamnese",
     "origin": "inedita",
     "ref": "FISIO-IN-ULC-26"
-  },
-  {
-    "id": "fis-d9888195",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisiopatologia do sistema digestório",
-    "subtopic": "peritônio",
-    "stem": "Sobre o peritônio, assinale a alternativa correta:",
-    "options": [
-      "O peritônio visceral tem inervação somática e dor bem localizada.",
-      "O peritônio tem pequena área e baixa capacidade de absorção.",
-      "O omento maior aumenta a disseminação das infecções.",
-      "O peritônio parietal reveste a parede, com inervação somática (dor localizada); o visceral reveste as vísceras, com inervação visceral (dor mal localizada); a área é comparável à superfície corporal (~2 m²).",
-      "A cavidade peritoneal normal contém grande volume de ar."
-    ],
-    "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nPeritônio: serosa com mesotélio e conjuntivo, ~2 m², grande capacidade de absorver e secretar líquido; normalmente com pequena quantidade de líquido lubrificante. Parietal: somática, dor localizada. Visceral: visceral, dor mal localizada. O omento maior (\"polícia do abdome\") tenta **bloquear** focos de inflamação.",
-    "source": "Caso Clínico 05 (úlcera perfurada) · Questão 2, o peritônio",
-    "origin": "inedita",
-    "ref": "FISIO-IN-ULC-27"
   },
   {
     "id": "fis-f3b44b3b",
@@ -3573,33 +3261,6 @@
     "ref": "FISIO-IN-URI-18"
   },
   {
-    "id": "fis-9eb1fa86",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "multi",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema urinário",
-    "subtopic": "DRC · prurido urêmico",
-    "stem": "O prurido urêmico é multifatorial. Assinale todos os fatores que contribuem para ele, segundo o material da aula:",
-    "options": [
-      "Retenção de toxinas e inflamação sistêmica (citocinas).",
-      "Hiperparatireoidismo secundário e ↑ do produto cálcio × fósforo.",
-      "Xerose (pele seca) e mastócitos/histamina.",
-      "Desequilíbrio do sistema opioide (receptores μ e κ).",
-      "Hipervitaminose A causada pela diálise."
-    ],
-    "answerIndices": [
-      0,
-      1,
-      2,
-      3
-    ],
-    "explanation": "**Gabarito: A, B, C e D**\n\nO estudo dirigido lista seis fatores: toxinas e inflamação, hiperparatireoidismo secundário e ↑ Ca × P, xerose, mastócitos/histamina, desequilíbrio opioide (μ e κ), neuropatia e anemia/ferropenia. Piora à noite e causa escoriações; melhora com diálise adequada, controle do fósforo, hidratação da pele e tratamento do PTH. Hipervitaminose A não é citada.",
-    "source": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item b",
-    "origin": "inedita",
-    "ref": "FISIO-IN-URI-19"
-  },
-  {
     "id": "fis-b721d614",
     "subject": "fisiopatologia",
     "exam": "PR2",
@@ -3642,28 +3303,6 @@
     "source": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, quadro AEIOU",
     "origin": "inedita",
     "ref": "FISIO-IN-URI-21"
-  },
-  {
-    "id": "fis-458920b1",
-    "subject": "fisiopatologia",
-    "exam": "PR2",
-    "format": "mcq",
-    "kind": "multipla-escolha",
-    "topic": "Fisio do sistema urinário",
-    "subtopic": "DRC · estágios KDIGO",
-    "stem": "Pela classificação KDIGO apresentada na aula, o estágio G4 da doença renal crônica corresponde a:",
-    "options": [
-      "TFG ≥ 90 mL/min/1,73 m² com lesão renal, sem sintomas.",
-      "TFG 60–89, sem sintomas.",
-      "TFG 30–44, em geral sem sintomas.",
-      "TFG 15–29, com anemia, acidose, hiperparatireoidismo e edema.",
-      "TFG < 15, com síndrome urêmica."
-    ],
-    "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nQuadro do material: G1 ≥ 90 (com lesão); G2 60–89; G3a 45–59 e G3b 30–44 (em geral sem sintomas; anemia leve, ↑ PA, noctúria); G4 15–29 (anemia, acidose, hiperparatireoidismo, edema); G5 < 15 (síndrome urêmica).",
-    "source": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, estágios",
-    "origin": "inedita",
-    "ref": "FISIO-IN-URI-22"
   },
   {
     "id": "fis-40a98c5b",
