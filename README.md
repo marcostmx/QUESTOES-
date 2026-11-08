@@ -45,13 +45,19 @@ firestore.rules          regras de segurança do Firestore
 
 O app abre sempre na prova atual (a primeira de `EXAMS` em `src/data/schema.ts`). As outras ficam acessíveis pelo seletor PR2/PR1 no menu e aparecem como "Provas anteriores" na tela inicial. Revisão, caderno de erros, favoritos, busca e estatísticas mostram só a prova escolhida.
 
-Para uma prova nova (ex.: PR3): acrescente-a no início de `EXAMS` e importe o arquivo de questões:
+Os arquivos de origem de cada prova ficam em `content/<prova>/`: o arquivo original da prova (`questoes_pr2.json`) e um arquivo por lote de questões inéditas (`ineditas_<materia>_<tema>.json`). O banco da prova é regerado a partir de todos eles:
 
 ```bash
-npx tsx scripts/import-exam.ts caminho/questoes_pr3.json PR3
+npx tsx scripts/import-exam.ts PR2 content/pr2/*.json
 ```
 
-O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `tipo`, `alternativas`, `gabarito`, `comentario`, `resposta_modelo`…), converte para o formato abaixo e grava em `src/data/questions/pr3/`. Reimportar o mesmo arquivo mantém os IDs.
+Para uma prova nova (ex.: PR3): acrescente-a no início de `EXAMS`, coloque os arquivos em `content/pr3/` e rode o mesmo comando com `PR3`.
+
+O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `tipo`, `origem`, `fonte`, `alternativas`, `gabarito`, `comentario`, `resposta_modelo`…). Reimportar mantém os IDs.
+
+### Questões inéditas
+
+Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina.
 
 ## Adicionar ou editar questões
 

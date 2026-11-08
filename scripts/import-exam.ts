@@ -1,8 +1,12 @@
 /**
- * Importa um arquivo de questões no formato "questoes_prN.json" (meta + questoes[])
+ * Importa arquivos de questões no formato "questoes_prN.json" (meta + questoes[])
  * para o banco canônico em src/data/questions/<prova>/<disciplina>.json.
  *
- * Uso: npx tsx scripts/import-exam.ts caminho/questoes_pr2.json [PR2]
+ * Uso: npx tsx scripts/import-exam.ts PR2 content/pr2/*.json
+ *
+ * Todos os arquivos da prova devem ser passados juntos: o banco da prova é
+ * regerado a partir deles (o arquivo original da prova + os lotes de questões
+ * inéditas, cada um em seu próprio arquivo).
  *
  * Os IDs são derivados do conteúdo (prova + enunciado + alternativas/itens), então
  * reimportar o mesmo arquivo mantém os IDs — e o progresso dos alunos.
@@ -33,13 +37,14 @@ interface RawQuestion {
   resposta_modelo?: string | null;
 }
 
-const [file, examArg] = process.argv.slice(2);
-if (!file) {
-  console.error('Uso: npx tsx scripts/import-exam.ts arquivo.json [PR2]');
+const [examArg, ...files] = process.argv.slice(2);
+if (!examArg || !files.length || !/^PR\d$/i.test(examArg)) {
+  console.error('Uso: npx tsx scripts/import-exam.ts PR2 content/pr2/*.json');
   process.exit(1);
 }
-const raw = JSON.parse(readFileSync(file, 'utf8')) as { meta?: { titulo?: string }; questoes: RawQuestion[] };
-const exam = (examArg ?? raw.questoes[0]?.prova ?? 'PR2').toUpperCase() as ExamId;
+const exam = examArg.toUpperCase() as ExamId;
+const sources = files.map(f => ({ file: f, data: JSON.parse(readFileSync(f, 'utf8')) as { meta?: { titulo?: string }; questoes: RawQuestion[] } }));
+const raw = { questoes: sources.flatMap(s => s.data.questoes) };
 
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/\s+/g, ' ').trim();
 const clean = (s: string) => s.replace(/ /g, ' ').replace(/[ \t]+\n/g, '\n').trim();
@@ -168,7 +173,8 @@ const dir = join(import.meta.dirname, '..', 'src', 'data', 'questions', exam.toL
 mkdirSync(dir, { recursive: true });
 for (const [subject, list] of out) writeFileSync(join(dir, `${subject}.json`), JSON.stringify(list, null, 2) + '\n');
 
-console.log(`${raw.meta?.titulo ?? file} → ${dir}`);
+for (const s of sources) console.log(`${s.data.meta?.titulo ?? s.file}: ${s.data.questoes.length} questões`);
+console.log(`→ ${dir}`);
 for (const [subject, list] of out) {
   const by = list.reduce<Record<string, number>>((a, q) => ((a[q.format] = (a[q.format] ?? 0) + 1), a), {});
   console.log(`  ${subject.padEnd(18)} ${String(list.length).padStart(4)}  ${JSON.stringify(by)}`);
