@@ -1,0 +1,135 @@
+{
+ "meta": {
+  "titulo": "Provas anteriores SOP IV · Propedêutica (conteúdo da PR2) · Compilado comentado",
+  "gerado_em": "2026-11-08",
+  "base": "SOP IV — Compilado Comentado de Questões (Drive): transcrição de Prova_sop_IV_26_1.pdf. Só questões de Propedêutica com conteúdo da PR2 (neuro parte 2, ectoscopia) que ainda não estavam no banco."
+ },
+ "questoes": [
+  {
+   "id": "COMP-PROPE-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "linguagem · afasia de Wernicke",
+   "tipo": "discursiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 2 Q1 (PR2, discursiva)",
+   "enunciado": "Um homem de 68 anos, casado, destro, professor aposentado, é levado ao pronto-socorro pela esposa devido a uma alteração neurológica súbita iniciada há cerca de 5 horas. Segundo a esposa, ele estava bem pela manhã, tomando café e lendo o jornal. Durante uma conversa, ela percebeu que ele começou a responder de forma estranha às perguntas. Quando perguntado o que gostaria de almoçar, respondeu: \"A janela está correndo porque os livros estão felizes\". Desde então, continua falando espontaneamente, mas frequentemente utiliza palavras e frases inadequadas ou inventadas; em alguns momentos parece não perceber que sua fala não faz sentido. Na triagem, o paciente encontra-se desperto, mantém contato visual e parece tranquilo. Quando o médico pergunta seu nome, ele responde prontamente: \"A casa está cheia\". Ao ser solicitado que mostre dois dedos da mão direita, ele não executa o comando. Quando solicitado a fechar os olhos, também não executa a tarefa.\n\na) Qual domínio das funções corticais superiores parece estar predominantemente comprometido? (0,2)\nb) Qual alteração neurológica está descrita no caso? Especifique (0,4). Quais características permitem essa classificação? (0,4)",
+   "imagem": null,
+   "alternativas": [],
+   "gabarito": null,
+   "gabarito_oficial": null,
+   "comentario": "O professor quer que a função cortical seja localizada só pela história e que Wernicke seja separada de Broca pela combinação **fluência × compreensão**: Broca (frontal inferior, áreas 44–45) é não fluente, com compreensão preservada e consciência do déficit.",
+   "resposta_modelo": "**a)** Linguagem.\n\n**b)** Afasia de Wernicke (de compreensão, sensitiva): fala espontânea **fluente**, com prosódia normal, mas cheia de parafasias e neologismos, sem sentido; **compreensão prejudicada** (não executa comandos simples como mostrar dois dedos ou fechar os olhos); e **anosognosia** (não percebe que a própria fala não faz sentido). Lesão no giro temporal superior posterior do hemisfério dominante (área 22)."
+  },
+  {
+   "id": "COMP-PROPE-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "força · manobras deficitárias",
+   "tipo": "discursiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 2 Q2 (PR2, discursiva)",
+   "enunciado": "Responda com base no caso a seguir. Um homem de 68 anos, casado, destro, professor aposentado, é levado ao pronto-socorro pela esposa devido a uma alteração neurológica súbita iniciada há cerca de 5 horas. Segundo a esposa, ele estava bem pela manhã, tomando café e lendo o jornal. Durante uma conversa, ela percebeu que ele começou a responder de forma estranha às perguntas. Quando perguntado o que gostaria de almoçar, respondeu: \"A janela está correndo porque os livros estão felizes\". Desde então, continua falando espontaneamente, mas frequentemente utiliza palavras e frases inadequadas ou inventadas; em alguns momentos parece não perceber que sua fala não faz sentido. Na triagem, o paciente encontra-se desperto, mantém contato visual e parece tranquilo. Quando o médico pergunta seu nome, ele responde prontamente: \"A casa está cheia\". Ao ser solicitado que mostre dois dedos da mão direita, ele não executa o comando. Quando solicitado a fechar os olhos, também não executa a tarefa.\n\na) Na sequência do exame neurológico, para avaliação da força muscular, cite 2 manobras de força. (0,4)\nb) Explique o que se espera encontrar no exame, considerando também a lateralidade e se membro superior e inferior estão acometidos. (0,6)",
+   "imagem": null,
+   "alternativas": [],
+   "gabarito": null,
+   "gabarito_oficial": null,
+   "comentario": "As manobras deficitárias revelam paresias discretas, que não aparecem à inspeção. A lateralização decorre do cruzamento da via piramidal (decussação das pirâmides no bulbo).",
+   "resposta_modelo": "**a)** Manobra de **Barré** (membros superiores, braços estendidos à frente) e manobra de **Mingazzini** (membros inferiores, coxas e pernas fletidas a 90° em decúbito dorsal). Outras aceitas: prova dos braços estendidos e força segmentar contra resistência.\n\n**b)** A lesão é cortical **esquerda** (área de Wernicke, hemisfério dominante), então o déficit motor esperado é **contralateral: hemiparesia direita**, com membro superior e inferior direitos acometidos. Na Barré, o braço direito prona e cai lentamente; na Mingazzini, o membro inferior direito oscila e cai antes do esquerdo."
+  },
+  {
+   "id": "COMP-PROPE-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "ataxia sensitiva × cerebelar · MEEM",
+   "tipo": "objetiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 2 Q3 (PR2)",
+   "enunciado": "Uma mulher de 74 anos é trazida pela filha à consulta por queixa de esquecimento progressivo há cerca de dois anos. A filha relata que a paciente repete perguntas, esquece compromissos recentes e apresenta dificuldade crescente para administrar suas finanças e para cozinhar. Ainda consegue realizar atividades básicas de autocuidado. Nega hipertensão e diabetes. Ao exame, encontra-se desperta, colaborativa, sem alterações motoras evidentes. Força muscular preservada globalmente. Reflexos osteotendíneos presentes e simétricos. Na avaliação neurológica complementar, observa-se redução da sensibilidade vibratória em ambos os pés. Ao ser solicitado que fique em pé com os pés juntos, primeiro com os olhos abertos e depois com os olhos fechados, a paciente apresenta instabilidade importante imediatamente ao fechar os olhos.\n\nI. O quadro de esquecimento progressivo há cerca de dois anos, com repetição de perguntas e prejuízo para atividades instrumentais da vida diária, sugere comprometimento cognitivo progressivo de padrão demencial. A aplicação do Mini Exame do Estado Mental é o principal instrumento diagnóstico para confirmar a doença de Alzheimer.\nII. A dificuldade para manter-se em pé com os olhos fechados, associada à redução da sensibilidade vibratória em ambos os pés, sugere ataxia cerebelar, sendo necessário fazer testes como index-nariz e calcanhar-joelho para complementar o exame físico neurológico.\nIII. A hipótese de deficiência de vitamina B12 e condições como tabes dorsalis não devem ser consideradas, uma vez que a força muscular é preservada e os reflexos osteotendíneos estão normais.",
+   "imagem": null,
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e II estão corretas"
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I e III estão corretas"
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas III está correta"
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III estão corretas"
+    },
+    {
+     "letra": "E",
+     "texto": "As alternativas A, B, C e D estão incorretas"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_oficial": null,
+   "comentario": "As três assertivas são falsas. **I:** o MEEM é **rastreio** cognitivo; não confirma Alzheimer, cujo diagnóstico é clínico (história cognitiva e funcional, exame e exclusão de outras causas). **II:** Romberg positivo com perda da sensibilidade vibratória é **ataxia sensitiva** (perda proprioceptiva compensada pela visão); na ataxia cerebelar o Romberg é negativo, e index-nariz e calcanhar-joelho testam coordenação. **III:** deficiência de B12 e tabes dorsalis **devem** ser investigadas: lesam o cordão posterior e dão exatamente esse padrão, mesmo com força e reflexos preservados (a B12 também entra nas causas reversíveis de demência).",
+   "resposta_modelo": null,
+   "gabarito_texto": "E"
+  },
+  {
+   "id": "COMP-PROPE-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "nevo × melanoma · regra ABCDE",
+   "tipo": "discursiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 2 Q4 (PR2, discursiva)",
+   "enunciado": "Que características clínicas são utilizadas para diferenciar um nevo benigno de um melanoma maligno?",
+   "imagem": null,
+   "alternativas": [],
+   "gabarito": null,
+   "gabarito_oficial": null,
+   "comentario": "Dermatologia básica dentro do exame físico geral: o professor cobra cada letra e o contraste benigno × maligno.",
+   "resposta_modelo": "Regra **ABCDE**:\n\n| Sigla | Característica | Nevo benigno | Melanoma |\n|---|---|---|---|\n| A | Assimetria | Simétrico | Assimétrico |\n| B | Bordas | Regulares, bem delimitadas | Irregulares |\n| C | Cor | Uniforme | Várias cores |\n| D | Diâmetro | < 6 mm, estável | > 6 mm |\n| E | Evolução | Sem mudança | Cresce ou muda |"
+  },
+  {
+   "id": "COMP-PROPE-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "nervo óptico (II par)",
+   "tipo": "discursiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 11 Q1 (discursiva)",
+   "enunciado": "FSB, masculino, 58 anos, procura atendimento relatando perda visual progressiva no olho direito há cerca de 2 semanas, associada à dificuldade para perceber objetos nas laterais. Diante da situação descrita, é fundamental lançar mão dos conhecimentos adquiridos sobre a avaliação do nervo óptico. De forma objetiva, quais etapas do exame físico deste nervo craniano devem ser testadas?",
+   "imagem": null,
+   "alternativas": [],
+   "gabarito": null,
+   "gabarito_oficial": null,
+   "comentario": "Snellen avalia acuidade, não campo. A queixa de não perceber objetos nas laterais aponta defeito de campo periférico, por isso a confrontação é a etapa-chave.",
+   "resposta_modelo": "Exame do **II par (nervo óptico)**:\n\n- **Acuidade visual**: tabela de Snellen, um olho por vez;\n- **Campo visual**: campimetria por **confrontação** (prioridade aqui, pela queixa de perda lateral);\n- **Fundoscopia**: disco óptico (papiledema, palidez/atrofia, escavação);\n- **Reflexo fotomotor** (direto e consensual): via aferente pelo II, eferente pelo III."
+  },
+  {
+   "id": "COMP-PROPE-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "diapasão · sensibilidade vibratória e audição",
+   "tipo": "discursiva",
+   "origem": "prova/banco",
+   "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 11 Q3 (discursiva)",
+   "enunciado": "O diapasão é um instrumento utilizado rotineiramente na semiologia médica. Qual a sua utilidade durante o exame neurológico? Que funções pode ser usado para avaliar?",
+   "imagem": null,
+   "alternativas": [],
+   "gabarito": null,
+   "gabarito_oficial": null,
+   "comentario": "O diapasão não avalia força nem reflexos, nem a sensibilidade superficial (tato, dor, temperatura).",
+   "resposta_modelo": "1. **Sensibilidade vibratória (palestesia)**, componente da sensibilidade profunda: diapasão de 128 Hz sobre proeminências ósseas, de distal para proximal. É perdida primeiro nas extremidades nas polineuropatias (diabética, deficiência de B12) e nas lesões do cordão posterior.\n2. **Audição (VIII par, nervo vestibulococlear)**: testes de **Rinne** (compara condução aérea × óssea; normal: aérea > óssea) e **Weber** (diapasão no vértice; lateraliza para o lado doente na perda condutiva e para o lado sadio na neurossensorial)."
+  }
+ ]
+}
