@@ -128,6 +128,22 @@ export default function AccountPage() {
         </div>
       </Section>
 
+      <Section title="Meta diária">
+        <div className="grid grid-cols-4 gap-1 rounded-xl bg-surface-2 p-1 sm:max-w-sm">
+          {[10, 20, 30, 50].map(g => (
+            <button
+              key={g}
+              type="button"
+              onClick={() => preferences.set({ dailyGoal: g })}
+              className={cx('tabular h-10 rounded-lg text-[14px] font-medium transition', prefs.dailyGoal === g ? 'bg-surface text-ink shadow-card' : 'text-ink-2 hover:text-ink')}
+            >
+              {g}
+            </button>
+          ))}
+        </div>
+        <p className="mt-2 text-[13px] text-ink-3">Questões por dia. Aparece na tela inicial e o app comemora quando você bate a meta.</p>
+      </Section>
+
       <Section title="Backup">
         <Card className="flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6">
           <p className="max-w-md text-[14px] text-ink-2">Baixe um arquivo com todo o seu progresso ({answered} questões respondidas) ou importe um backup anterior — os dados são mesclados, nada é perdido.</p>

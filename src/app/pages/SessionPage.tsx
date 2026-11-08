@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Grid3x3, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Flame, Grid3x3, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
 import type { ExamId } from '../../data/schema';
 import { useBank } from '../core/bank';
 import { canConfirm, sessionSummary, sessions, useSession, type Session, type SessionKind } from '../core/session';
@@ -108,6 +108,14 @@ function Runner({ session }: { session: Session }) {
   });
 
   const progress = summary.answered / ids.length;
+  // acertos seguidos até a questão atual (na ordem da sessão)
+  let run = 0;
+  for (let i = session.index; i >= 0; i--) {
+    const r = session.answers[ids[i]]?.result;
+    if (!r) continue;
+    if (r !== 'correct') break;
+    run++;
+  }
 
   return (
     <div className="min-h-dvh bg-bg">
@@ -131,6 +139,11 @@ function Runner({ session }: { session: Session }) {
                   <span className="text-bad">{summary.wrong + summary.partial} erradas</span>
                 </>
               )}
+              {run >= 3 && (
+                <span key={run} className="animate-pop ml-2 inline-flex items-center gap-1 rounded-full bg-warn-soft px-2 font-semibold text-warn">
+                  <Flame className="size-3" /> {run} seguidas
+                </span>
+              )}
             </p>
           </div>
           <IconButton label="Atalhos de teclado" onClick={() => setKeysOpen(true)} className="hidden sm:inline-flex">
@@ -151,7 +164,7 @@ function Runner({ session }: { session: Session }) {
               <QuestionMeta q={q} state={data.questions[q.id]} number={`#${session.index + 1}`} hideHistory={!!answer.result} />
               <FavoriteButton id={q.id} state={data.questions[q.id]} />
             </div>
-            <QuestionView q={q} answer={answer} state={data.questions[q.id]} h={h} />
+            <QuestionView q={q} answer={answer} state={data.questions[q.id]} h={h} footerConfirm />
           </div>
         ) : (
           <Empty icon={<X className="size-5" />} title="Questão não encontrada">
@@ -163,18 +176,30 @@ function Runner({ session }: { session: Session }) {
       <footer className="safe-bottom fixed inset-x-0 bottom-0 z-30 border-t border-line bg-bg/90 backdrop-blur-lg">
         <div className="mx-auto flex h-[68px] max-w-[880px] items-center justify-between gap-3 px-4 sm:px-6">
           <Button variant="ghost" icon={<ArrowLeft className="size-4" />} disabled={session.index === 0} onClick={() => sessions.go(session.index - 1)}>
-            Anterior
+            <span className="hidden sm:inline">Anterior</span>
           </Button>
-          {isLast ? (
-            <Button variant="primary" onClick={() => sessions.finish()} icon={<Trophy className="size-4" />}>
-              Finalizar
-            </Button>
-          ) : (
-            <Button variant={answer.result ? 'primary' : 'secondary'} onClick={next}>
-              {answer.result ? 'Próxima' : 'Pular'}
-              <ArrowRight className="size-4" />
-            </Button>
-          )}
+          {q && h && q.format !== 'open' && !answer.result ? (
+            <div className="flex items-center gap-2 sm:hidden">
+              <Button variant="ghost" onClick={next}>
+                Pular
+              </Button>
+              <Button variant="primary" disabled={!canConfirm(q, answer)} onClick={h.onConfirm}>
+                Responder
+              </Button>
+            </div>
+          ) : null}
+          <div className={q && q.format !== 'open' && !answer.result ? 'hidden sm:block' : undefined}>
+            {isLast ? (
+              <Button variant="primary" onClick={() => sessions.finish()} icon={<Trophy className="size-4" />}>
+                Finalizar
+              </Button>
+            ) : (
+              <Button variant={answer.result ? 'primary' : 'secondary'} onClick={next}>
+                {answer.result ? 'Próxima' : 'Pular'}
+                <ArrowRight className="size-4" />
+              </Button>
+            )}
+          </div>
         </div>
       </footer>
 

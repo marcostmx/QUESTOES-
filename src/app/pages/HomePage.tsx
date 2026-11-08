@@ -5,13 +5,14 @@ import { useBank } from '../core/bank';
 import { dueQueue, shuffle } from '../core/session';
 import { addDays } from '../core/srs';
 import { isAnswered, isOpenError, streak } from '../core/study';
-import { preferences, today, useStudy } from '../core/store';
+import { preferences, today, usePrefs, useStudy } from '../core/store';
 import { useSync } from '../core/sync';
 import { plural } from '../core/text';
 import { href } from '../router';
 import { activeSubjects } from '../subjects';
 import { Bar, Card, cx, Loading, Section } from '../ui';
 import { ResumeBanner } from './PracticePage';
+import { WeakSpots } from '../components/WeakSpots';
 import { startSession } from './SessionPage';
 
 function greeting() {
@@ -25,6 +26,7 @@ export default function HomePage() {
   const bank = useBank();
   const data = useStudy();
   const sync = useSync();
+  const { dailyGoal } = usePrefs();
   const t = today();
 
   const stats = useMemo(() => {
@@ -121,7 +123,12 @@ export default function HomePage() {
             <span className="font-display tabular text-5xl font-semibold">{stats.streak}</span>
             <span className="text-[15px] text-ink-2">{stats.streak === 1 ? 'dia seguido' : 'dias seguidos'}</span>
           </div>
-          <p className="mt-1 text-[13.5px] text-ink-3">{stats.todayN ? `${plural(stats.todayN, 'questão', 'questões')} hoje` : 'Nenhuma questão hoje ainda'}</p>
+          <div className="mt-2 flex items-center gap-3">
+            <Bar value={stats.todayN / Math.max(1, dailyGoal)} color={stats.todayN >= dailyGoal ? 'var(--good)' : 'var(--accent)'} className="flex-1" />
+            <span className="tabular shrink-0 text-[13px] text-ink-2">
+              {stats.todayN}/{dailyGoal} hoje{stats.todayN >= dailyGoal ? ' ✓' : ''}
+            </span>
+          </div>
           <div className="mt-auto flex items-end justify-between gap-2 pt-6" aria-label="Questões por dia nos últimos 7 dias">
             {stats.week.map(w => (
               <div key={w.key} className="flex flex-1 flex-col items-center gap-1.5" title={`${w.n} em ${w.key}`}>
@@ -151,6 +158,8 @@ export default function HomePage() {
           onClick={() => startSession('erros', 'Caderno de erros', stats.errors.map(q => q.id))}
         />
       </div>
+
+      <WeakSpots bank={bank} compact />
 
       <Section title={`Disciplinas da ${bank.exam}`} action={<a href={href('praticar')} className="text-[13px] font-medium text-accent hover:underline">Montar sessão</a>}>
         <Card className="divide-y divide-line">

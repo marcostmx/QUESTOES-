@@ -287,3 +287,69 @@ export function sessionSummary(s: Session) {
 }
 
 export { today };
+
+/* ---------- Pontos fracos ---------- */
+
+export interface WeakTopic {
+  subject: SubjectId;
+  /** Tema da questão; questões sem tema são agrupadas pela disciplina. */
+  topic: string | null;
+  attempts: number;
+  correct: number;
+  rate: number;
+}
+
+/**
+ * Temas com pior desempenho: pelo menos `minAttempts` respostas e acerto abaixo de `threshold`.
+ * Ordena do menor acerto para o maior (empate: mais respostas primeiro).
+ */
+export function weakTopics(all: Question[], data: StudyData, { minAttempts = 3, threshold = 0.7, limit = 5 } = {}): WeakTopic[] {
+  const groups = new Map<string, WeakTopic>();
+  for (const q of all) {
+    const s = data.questions[q.id];
+    if (!s?.attempts) continue;
+    const key = q.subject + '|' + (q.topic ?? '');
+    const g = groups.get(key) ?? { subject: q.subject, topic: q.topic ?? null, attempts: 0, correct: 0, rate: 0 };
+    g.attempts += s.attempts;
+    g.correct += s.correctCount;
+    groups.set(key, g);
+  }
+  return [...groups.values()]
+    .map(g => ({ ...g, rate: g.correct / g.attempts }))
+    .filter(g => g.attempts >= minAttempts && g.rate < threshold)
+    .sort((a, b) => a.rate - b.rate || b.attempts - a.attempts)
+    .slice(0, limit);
+}
+
+/**
+ * Sessão de reforço: dos temas mais fracos, pega primeiro os erros pendentes,
+ * depois as revisões vencidas e por fim questões ainda não feitas — alternando
+ * entre os temas para não ficar repetitivo.
+ */
+export function weakSession(all: Question[], data: StudyData, todayKey: string, size = 20, rand?: () => number): Question[] {
+  const topics = weakTopics(all, data);
+  if (!topics.length) return [];
+  const rank = (q: Question) => {
+    const s = data.questions[q.id];
+    if (isOpenError(s)) return 0;
+    if (isDue(s?.srs, todayKey)) return 1;
+    if (!isAnswered(s)) return 2;
+    return 3;
+  };
+  const queues = topics.map(t =>
+    shuffle(all.filter(q => q.subject === t.subject && (q.topic ?? null) === t.topic), rand)
+      .map(q => ({ q, r: rank(q) }))
+      .filter(x => x.r < 3)
+      .sort((a, b) => a.r - b.r)
+      .map(x => x.q),
+  );
+  const out: Question[] = [];
+  while (out.length < size && queues.some(q => q.length)) {
+    for (const queue of queues) {
+      const next = queue.shift();
+      if (next) out.push(next);
+      if (out.length >= size) break;
+    }
+  }
+  return out;
+}

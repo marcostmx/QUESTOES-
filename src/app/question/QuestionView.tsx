@@ -1,11 +1,11 @@
 import { memo, useMemo, useState } from 'react';
-import { Bookmark, BookmarkCheck, Check, CircleHelp, Eye, EyeOff, Minus, NotebookPen, Square, SquareCheck, Strikethrough, X } from 'lucide-react';
+import { Bookmark, BookmarkCheck, Check, CircleHelp, Eye, EyeOff, Minus, NotebookPen, Square, SquareCheck, Strikethrough, TriangleAlert, X } from 'lucide-react';
 import { optionLabel, type Question } from '../../data/schema';
 import { canConfirm, tfScore, type SessionAnswer } from '../core/session';
 import { ERROR_CAUSES, type QuestionState, type Result } from '../core/study';
 import { study } from '../core/store';
 import { renderMarkdown } from '../core/text';
-import { KIND_LABEL, ORIGIN_LABEL, subjectMeta } from '../subjects';
+import { KIND_LABEL, subjectMeta } from '../subjects';
 import { Badge, Button, cx, SubjectTag } from '../ui';
 
 export interface QuestionHandlers {
@@ -28,12 +28,11 @@ const Rich = memo(function Rich({ text, className }: { text: string; className?:
 export function QuestionMeta({ q, state, number, hideHistory }: { q: Question; state?: QuestionState; number?: string; hideHistory?: boolean }) {
   const s = subjectMeta(q.subject);
   return (
-    <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+    <div className="scrollbar-none -mx-1 flex min-w-0 items-center gap-x-3 gap-y-2 overflow-x-auto px-1 whitespace-nowrap sm:flex-wrap sm:whitespace-normal">
       {number && <span className="tabular font-mono text-[12px] font-medium text-ink-3">{number}</span>}
       {s && <SubjectTag name={s.name} color={s.color} />}
       <Badge>{q.format === 'multi' ? 'Mais de uma correta' : KIND_LABEL[q.kind]}</Badge>
       {q.topic && <Badge>{q.topic}</Badge>}
-      {q.origin && q.origin !== 'prova' && <Badge tone="accent">{ORIGIN_LABEL[q.origin]}</Badge>}
       {state?.attempts && !hideHistory ? (
         <span className="text-[12px] text-ink-3">
           {state.correctCount}/{state.attempts} acertos antes
@@ -102,11 +101,43 @@ function CausePicker({ id, state }: { id: string; state?: QuestionState }) {
   );
 }
 
-export function QuestionView({ q, answer = {}, state, h }: { q: Question; answer?: SessionAnswer; state?: QuestionState; h: QuestionHandlers }) {
+/** Aviso para questões que não vieram de prova do professor. */
+export function OriginNotice({ q }: { q: Question }) {
+  if (q.origin === 'prova') return null;
+  const where = q.source?.replace(/^Inédita\s*·\s*/i, '');
+  const text =
+    q.origin === 'inedita'
+      ? `Questão não original: elaborada a partir dos materiais da disciplina${where ? ` (${where})` : ''}. Não caiu em prova do professor.`
+      : q.origin === 'slide'
+        ? `Questão não original: baseada no slide da aula${where ? ` (${where.replace(/^Slide da aula\s*·\s*/i, '')})` : ''}. Não caiu em prova do professor.`
+        : 'Origem não confirmada: esta questão pode não ter caído em prova do professor.';
+  return (
+    <p role="note" className="mb-5 flex items-start gap-2.5 rounded-xl border border-warn/35 bg-warn-soft px-3.5 py-2.5 text-[13px] leading-snug text-ink-2">
+      <TriangleAlert className="mt-px size-4 shrink-0 text-warn" />
+      <span>{text}</span>
+    </p>
+  );
+}
+
+export function QuestionView({
+  q,
+  answer = {},
+  state,
+  h,
+  footerConfirm,
+}: {
+  q: Question;
+  answer?: SessionAnswer;
+  state?: QuestionState;
+  h: QuestionHandlers;
+  /** No celular, o botão "Responder" fica no rodapé fixo da sessão. */
+  footerConfirm?: boolean;
+}) {
   const done = !!answer.result;
 
   return (
     <article>
+      <OriginNotice q={q} />
       <div className="text-[1.125rem] leading-[1.72] font-[450] sm:text-[1.1875rem]">
         <Rich text={q.stem} className="text-[inherit] leading-[inherit]" />
       </div>
@@ -124,9 +155,11 @@ export function QuestionView({ q, answer = {}, state, h }: { q: Question; answer
           {q.format === 'tf' ? <Statements q={q} answer={answer} h={h} /> : <Options q={q} answer={answer} h={h} />}
           {!done ? (
             <div className="mt-6 flex flex-wrap items-center gap-3">
-              <Button variant="primary" size="lg" disabled={!canConfirm(q, answer)} onClick={h.onConfirm}>
-                Responder
-              </Button>
+              <span className={footerConfirm ? 'hidden sm:contents' : 'contents'}>
+                <Button variant="primary" size="lg" disabled={!canConfirm(q, answer)} onClick={h.onConfirm}>
+                  Responder
+                </Button>
+              </span>
               <label className="flex h-12 cursor-pointer items-center gap-2 rounded-xl px-2 text-[14px] text-ink-2 select-none">
                 <input type="checkbox" checked={!!answer.guessed} onChange={e => h.onGuessed(e.target.checked)} className="size-4 accent-[var(--accent)]" />
                 Estou chutando
@@ -178,6 +211,7 @@ function Options({ q, answer, h }: { q: Question; answer: SessionAnswer; h: Ques
                   tone === 'sel' && 'border-accent bg-accent-soft shadow-card ring-1 ring-accent',
                   tone === 'elim' && 'border-line bg-transparent text-ink-3',
                   tone === 'good' && 'border-good bg-good-soft ring-1 ring-good',
+                  tone === 'good' && isSel && 'animate-pop',
                   tone === 'missed' && 'border-dashed border-good bg-surface',
                   tone === 'bad' && 'border-bad bg-bad-soft ring-1 ring-bad',
                   tone === 'dim' && 'border-line bg-surface opacity-60',
@@ -236,12 +270,12 @@ function Statements({ q, answer, h }: { q: Question; answer: SessionAnswer; h: Q
             <li
               key={i}
               className={cx(
-                'flex flex-col gap-3 rounded-2xl border px-4 py-3.5 transition sm:flex-row sm:items-center',
+                'flex items-start gap-3 rounded-2xl border px-3.5 py-3 transition sm:items-center sm:px-4 sm:py-3.5',
                 !done && 'border-line bg-surface',
                 done && (right ? 'border-good/60 bg-good-soft' : 'border-bad/60 bg-bad-soft'),
               )}
             >
-              <span className="flex min-w-0 flex-1 gap-3 text-[15.5px] leading-relaxed">
+              <span className="flex min-w-0 flex-1 gap-2.5 text-[15px] leading-relaxed sm:gap-3 sm:text-[15.5px]">
                 <span className="tabular mt-0.5 w-5 shrink-0 font-mono text-[13px] font-semibold text-ink-3">{i + 1}</span>
                 <span className="min-w-0">
                   {st}
@@ -259,13 +293,13 @@ function Statements({ q, answer, h }: { q: Question; answer: SessionAnswer; h: Q
                   onClick={() => h.onJudge(i, v ? null : true)}
                   aria-pressed={!!v}
                   aria-label={`Marcar item ${i + 1}`}
-                  className={cx('flex h-10 shrink-0 items-center gap-2 self-end rounded-xl px-3 text-[13px] font-medium transition sm:self-auto', v ? 'bg-accent text-accent-ink' : 'border border-line-strong text-ink-2 hover:text-ink')}
+                  className={cx('flex h-9 shrink-0 items-center gap-2 rounded-xl px-2.5 text-[13px] font-medium transition sm:h-10 sm:px-3', v ? 'bg-accent text-accent-ink' : 'border border-line-strong text-ink-2 hover:text-ink')}
                 >
                   {v ? <SquareCheck className="size-4" /> : <Square className="size-4" />}
-                  {v ? 'Marcado' : 'Marcar'}
+                  <span className="hidden sm:inline">{v ? 'Marcado' : 'Marcar'}</span>
                 </button>
               ) : (
-                <div className="flex shrink-0 gap-1.5 self-end sm:self-auto" role="group" aria-label={`Item ${i + 1}`}>
+                <div className="flex shrink-0 gap-1 sm:gap-1.5" role="group" aria-label={`Item ${i + 1}`}>
                   {([true, false] as const).map(val => (
                     <button
                       key={String(val)}
@@ -274,7 +308,7 @@ function Statements({ q, answer, h }: { q: Question; answer: SessionAnswer; h: Q
                       onClick={() => h.onJudge(i, v === val ? null : val)}
                       aria-pressed={v === val}
                       className={cx(
-                        'h-10 w-11 rounded-xl font-mono text-[14px] font-semibold transition disabled:cursor-default',
+                        'h-9 w-9 rounded-lg font-mono text-[14px] font-semibold transition disabled:cursor-default sm:h-10 sm:w-11 sm:rounded-xl',
                         v === val ? (done ? (right ? 'bg-good text-white' : 'bg-bad text-white') : 'bg-accent text-accent-ink') : 'border border-line-strong text-ink-2 hover:text-ink',
                       )}
                     >
@@ -314,7 +348,7 @@ function ResultBanner({ q, answer }: { q: Question; answer: SessionAnswer }) {
     text = r === 'correct' ? (answer.guessed ? 'Acertou — mas no chute. Ela volta logo para revisão.' : 'Resposta correta.') : skipped ? `Sem resposta. A correta é a ${letter}.` : `Incorreta. A correta é a ${letter}.`;
   }
   return (
-    <div className={cx('animate-rise mt-6 flex items-center gap-3 rounded-2xl px-4 py-3.5', BANNER[tone].box)} role="status">
+    <div className={cx('animate-rise mt-6 flex items-center gap-3 rounded-2xl px-4 py-3.5', BANNER[tone].box, r === 'correct' && 'animate-glow')} role="status">
       <span className={cx('flex size-8 shrink-0 items-center justify-center rounded-full text-white', BANNER[tone].dot)}>{r === 'correct' ? <Check className="size-4" /> : r === 'partial' ? <Minus className="size-4" /> : <X className="size-4" />}</span>
       <p className="text-[15px] font-semibold">{text}</p>
     </div>

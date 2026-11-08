@@ -1,6 +1,6 @@
-import { lazy, Suspense, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, CalendarClock, Ellipsis, Home, Library, Moon, NotebookPen, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, CalendarClock, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -308,6 +308,31 @@ function page(parts: string[]): ReactNode {
   }
 }
 
+/** Comemoração discreta quando a meta do dia é atingida. */
+function GoalCelebration() {
+  const data = useStudy();
+  const { dailyGoal } = usePrefs();
+  const n = data.days[today()]?.answered ?? 0;
+  const prev = useRef(n);
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    if (prev.current < dailyGoal && n >= dailyGoal && dailyGoal > 0) {
+      setShow(true);
+      const t = setTimeout(() => setShow(false), 3300);
+      prev.current = n;
+      return () => clearTimeout(t);
+    }
+    prev.current = n;
+  }, [n, dailyGoal]);
+  if (!show) return null;
+  return (
+    <div role="status" className="goal-burst pointer-events-none fixed top-20 left-1/2 z-[70] flex items-center gap-3 rounded-2xl bg-good px-5 py-3 text-white shadow-pop">
+      <PartyPopper className="size-5" />
+      <span className="text-[15px] font-semibold">Meta do dia batida: {dailyGoal} questões!</span>
+    </div>
+  );
+}
+
 export default function App() {
   useTheme();
   useBank(); // começa a baixar as questões em segundo plano
@@ -330,6 +355,7 @@ export default function App() {
     return (
       <Suspense fallback={<Loading />}>
         <SessionPage />
+        <GoalCelebration />
       </Suspense>
     );
   }
@@ -348,6 +374,7 @@ export default function App() {
         </main>
       </div>
       <MobileNav current={route.path} />
+      <GoalCelebration />
     </div>
   );
 }

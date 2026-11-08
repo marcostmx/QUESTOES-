@@ -108,10 +108,12 @@ export interface Prefs {
   theme: ThemePref;
   /** Prova exibida no app (padrão: a prova atual). */
   exam: ExamId;
+  /** Meta de questões por dia. */
+  dailyGoal: number;
 }
 const PREFS_KEY = 'pr1.v2.prefs';
 // A prova escolhida vale só para a visita atual: o app sempre abre na prova atual.
-let prefs: Prefs = { theme: 'system', ...(safeRead<Partial<Prefs>>(PREFS_KEY) ?? {}), exam: CURRENT_EXAM };
+let prefs: Prefs = { theme: 'system', dailyGoal: 20, ...(safeRead<Partial<Prefs>>(PREFS_KEY) ?? {}), exam: CURRENT_EXAM };
 const prefListeners = new Set<Listener>();
 
 export const preferences = {
@@ -123,7 +125,7 @@ export const preferences = {
   set(patch: Partial<Prefs>) {
     prefs = { ...prefs, ...patch };
     if (patch.exam && !EXAMS.some(e => e.id === patch.exam)) prefs.exam = CURRENT_EXAM;
-    safeWrite(PREFS_KEY, { theme: prefs.theme });
+    safeWrite(PREFS_KEY, { theme: prefs.theme, dailyGoal: prefs.dailyGoal });
     prefListeners.forEach(l => l());
   },
 };

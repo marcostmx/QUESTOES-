@@ -11,6 +11,7 @@ import { href } from '../router';
 import { KIND_LABEL, ORIGIN_LABEL, activeSubjects, subjectMeta } from '../subjects';
 import { Bar, Button, Card, Chip, cx, Empty, Loading, PageHeader } from '../ui';
 import { startSession } from './SessionPage';
+import { WeakSpots } from '../components/WeakSpots';
 
 export default function PracticePage({ subject }: { subject?: string }) {
   if (!subject) return <SubjectPicker />;
@@ -50,6 +51,7 @@ function SubjectPicker() {
         Escolha uma disciplina para montar a sessão com filtros por situação, formato e tema.
       </PageHeader>
       <ResumeBanner />
+      <WeakSpots bank={bank} />
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
         {activeSubjects(bank).map(s => {
           const qs = bank.bySubject[s.id];

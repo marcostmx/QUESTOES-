@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Question } from '../../data/schema';
-import { canConfirm, defaultFilter, dueQueue, filterQuestions, gradeAnswer, shuffle, tfScore } from './session';
+import { canConfirm, defaultFilter, dueQueue, filterQuestions, gradeAnswer, shuffle, tfScore, weakSession, weakTopics } from './session';
 import { emptyStudy, patchQuestion, recordAnswer } from './study';
 
 const q = (id: string, extra: Partial<Question> = {}): Question => ({
@@ -100,5 +100,37 @@ describe('filtro de origem', () => {
     const list = [q('far-1', { origin: 'inedita' }), q('far-2', { origin: 'prova' })];
     expect(filterQuestions(list, emptyStudy(), { ...defaultFilter(), origins: ['inedita'] }, today).map(x => x.id)).toEqual(['far-1']);
     expect(filterQuestions(list, emptyStudy(), { ...defaultFilter(), formats: ['objetiva'] }, today)).toHaveLength(2);
+  });
+});
+
+describe('pontos fracos', () => {
+  const qs = [
+    ...[1, 2, 3, 4].map(i => q(`far-a${i}`, { topic: 'Opioides' })),
+    ...[1, 2, 3, 4].map(i => q(`far-b${i}`, { topic: 'AINEs' })),
+    ...[1, 2].map(i => q(`far-c${i}`, { topic: 'Corticoides' })),
+  ];
+  let d = emptyStudy();
+  const ans = (id: string, result: 'correct' | 'wrong') => (d = recordAnswer(d, { id, result, now: 1, today: '2026-11-01' }));
+  ans('far-a1', 'wrong'); ans('far-a2', 'wrong'); ans('far-a3', 'correct'); // Opioides 1/3
+  ans('far-b1', 'correct'); ans('far-b2', 'correct'); ans('far-b3', 'wrong'); // AINEs 2/3
+  ans('far-c1', 'wrong'); // Corticoides: poucas respostas
+
+  it('lista temas fracos do pior para o melhor, ignorando os com poucas respostas', () => {
+    expect(weakTopics(qs, d).map(t => [t.topic, Math.round(t.rate * 100)])).toEqual([
+      ['Opioides', 33],
+      ['AINEs', 67],
+    ]);
+  });
+
+  it('monta a sessão com erros primeiro e alterna os temas', () => {
+    const s = weakSession(qs, d, today, 10, () => 0.5).map(x => x.id);
+    expect(s.slice(0, 2).sort()).toEqual(['far-a1', 'far-b3']); // um erro de cada tema
+    expect(s).toContain('far-b1'); // acertada, mas com revisão vencida
+    expect(s).toContain('far-a4'); // ainda não feita, de um tema fraco
+    expect(s.every(id => !id.startsWith('far-c'))).toBe(true);
+  });
+
+  it('sem dados suficientes não há sessão', () => {
+    expect(weakSession(qs, emptyStudy(), today)).toEqual([]);
   });
 });
