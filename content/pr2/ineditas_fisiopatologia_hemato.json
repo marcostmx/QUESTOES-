@@ -1,0 +1,426 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema hematopoiético (formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-08",
+  "base": "Resumo FISIOPATOLOGIA - PR2 (Drive) e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (hemograma, ferropriva e cinética do ferro, doença crônica, megaloblástica, hemolíticas, leucemias, LMC, trombocitopenia), no formato do professor."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-HEM-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "hemograma · série vermelha",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · hemácias, hemoglobina, hematócrito, índices",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O hemograma é um importante exame para o diagnóstico das doenças do tecido hematopoiético. Com relação à série vermelha, assinale a alternativa que apresenta a assertiva CORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "HCM e CHCM são índices de tamanho das hemácias, sem relação com o conteúdo de hemoglobina."
+    },
+    {
+     "letra": "B",
+     "texto": "A policitemia, também chamada de eritrocitopenia, é a diminuição da massa eritrocitária."
+    },
+    {
+     "letra": "C",
+     "texto": "O hematócrito é calculado a partir da hemoglobina e por isso é mais acurado que ela."
+    },
+    {
+     "letra": "D",
+     "texto": "O RDW avalia a variação de tamanho entre as hemácias; seu aumento indica anisocitose, frequente na anemia ferropriva."
+    },
+    {
+     "letra": "E",
+     "texto": "O VCM é um índice de volume da hemácia; hemácias com VCM acima de 100 fL são consideradas microcíticas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "VCM < 80 fL = microcitose; > 100 fL = macrocitose. HCM/CHCM refletem o **conteúdo/concentração de hemoglobina** (cor: hipocromia). Policitemia = **aumento** da massa eritrocitária. A Hb é medida diretamente; o Ht é calculado."
+  },
+  {
+   "id": "FISIO-PF-HEM-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia ferropriva · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias (ferropriva)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 30 anos, com fluxo menstrual intenso, refere fadiga, palidez, dispneia aos esforços e unhas quebradiças há 4 meses. Exames: Hb 8,7 g/dL, VCM 70 fL, HCM 23 pg, RDW 19%, ferritina 8 ng/mL, saturação de transferrina 9%. Qual é o diagnóstico mais provável e a conduta inicial?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Anemia hemolítica autoimune; corticoide e teste de Coombs."
+    },
+    {
+     "letra": "B",
+     "texto": "Anemia megaloblástica; reposição intramuscular de vitamina B12."
+    },
+    {
+     "letra": "C",
+     "texto": "Anemia ferropriva; reposição de sulfato ferroso e investigação/controle da causa do sangramento."
+    },
+    {
+     "letra": "D",
+     "texto": "Anemia aplásica; transfusão e encaminhamento para transplante de medula."
+    },
+    {
+     "letra": "E",
+     "texto": "Talassemia menor; aconselhamento genético apenas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Microcítica, hipocrômica, RDW ↑, **ferritina ↓** e saturação ↓ = ferropriva. Na talassemia menor a ferritina é normal e o RDW costuma ser normal."
+  },
+  {
+   "id": "FISIO-PF-HEM-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "cinética do ferro",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias (ferropriva e de doença crônica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Analise as afirmativas sobre a anemia por deficiência de ferro e assinale a alternativa com todas as corretas (0,5 ponto):\n\nI. No hemograma da anemia ferropriva observam-se frequentemente hipocromia, microcitose e aumento do RDW.\nII. A ferritina sérica, marcador dos estoques de ferro, encontra-se diminuída e é o parâmetro que se altera mais precocemente.\nIII. A transferrina (ou a capacidade total de ligação do ferro) encontra-se diminuída na anemia ferropriva.\nIV. Em homens adultos, a causa mais frequente é o sangramento oculto do trato gastrointestinal; em mulheres, as perdas menstruais.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Na ferropriva a transferrina/CTLF está **aumentada** (o organismo busca ferro); diminui na anemia de doença crônica."
+  },
+  {
+   "id": "FISIO-PF-HEM-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia de doença crônica · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias (ferropriva, doença crônica, hemolíticas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A anemia ferropriva e a anemia de doença crônica são os tipos mais comuns de anemia no mundo. Em relação a essas e a outras anemias frequentes, assinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nas doenças inflamatórias sistêmicas há redução da produção de hepcidina, o que diminui a disponibilidade do ferro para a eritropoese."
+    },
+    {
+     "letra": "B",
+     "texto": "O ferro heme, de origem animal, é mais bem absorvido que o ferro não heme dos vegetais."
+    },
+    {
+     "letra": "C",
+     "texto": "Em crianças, ingestão reduzida de ferro, desnutrição e parasitoses intestinais estão associadas à anemia ferropriva."
+    },
+    {
+     "letra": "D",
+     "texto": "A ferritina é o parâmetro que se altera mais precocemente na deficiência de ferro."
+    },
+    {
+     "letra": "E",
+     "texto": "Nas anemias hemolíticas extravasculares, a destruição das hemácias ocorre predominantemente nos macrófagos do baço."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Na inflamação, a IL-6 **aumenta** a hepcidina, que bloqueia a ferroportina: o ferro fica retido nos macrófagos e o intestino absorve menos. Ferritina normal ou alta, ferro sérico baixo."
+  },
+  {
+   "id": "FISIO-PF-HEM-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia megaloblástica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias megaloblásticas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 54 anos, submetido a gastrectomia há 3 anos, apresenta cansaço, parestesias nos pés, instabilidade ao caminhar e glossite. Exames: Hb 8,6 g/dL, VCM 118 fL, reticulócitos baixos, leucopenia leve, plaquetas 110.000/mm³, LDH e bilirrubina indireta elevadas, vitamina B12 baixa e folato normal. O mecanismo fisiopatológico do aumento do VCM é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Diminuição da síntese de cadeias de globina."
+    },
+    {
+     "letra": "B",
+     "texto": "Excesso de síntese de hemoglobina no citoplasma."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumento da destruição periférica das hemácias."
+    },
+    {
+     "letra": "D",
+     "texto": "Deficiência de ferro para a produção de heme."
+    },
+    {
+     "letra": "E",
+     "texto": "Maturação nuclear atrasada em relação à citoplasmática, por defeito na síntese de DNA."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "B12 e folato são necessários à síntese de DNA: o núcleo amadurece devagar enquanto o citoplasma segue → megaloblastos e macrócitos; eritropoese ineficaz (LDH e BI ↑) e pancitopenia. A gastrectomia remove as células parietais (fator intrínseco). A falta de B12 também causa lesão neurológica (cordão posterior)."
+  },
+  {
+   "id": "FISIO-PF-HEM-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemias hemolíticas · correlação",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias hemolíticas e Prova 26.1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Três pacientes com anemia hemolítica: (1) adolescente com crises de dor óssea e episódios vaso-oclusivos; (2) jovem com icterícia, esplenomegalia e esferócitos no esfregaço, com teste de Coombs negativo; (3) homem que desenvolveu icterícia e urina escura após usar sulfonamida. Assinale a correlação correta entre doença e mecanismo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Falciforme: destruição imunomediada; esferocitose: precipitação da hemoglobina; G6PD: defeito na produção de globina."
+    },
+    {
+     "letra": "B",
+     "texto": "Falciforme: deficiência de G6PD; esferocitose: autoanticorpos com Coombs positivo; G6PD: defeito de espectrina."
+    },
+    {
+     "letra": "C",
+     "texto": "Falciforme: eritropoese ineficaz por falta de B12; esferocitose: estresse oxidativo; G6PD: sequestro esplênico de esferócitos."
+    },
+    {
+     "letra": "D",
+     "texto": "Falciforme: perda de proteínas de membrana; esferocitose: redução da síntese de globinas; G6PD: polimerização da hemoglobina."
+    },
+    {
+     "letra": "E",
+     "texto": "Falciforme: polimerização da HbS desoxigenada deforma as hemácias; esferocitose: defeito das proteínas do citoesqueleto/membrana com sequestro esplênico; G6PD: incapacidade de neutralizar o estresse oxidativo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Falciforme: mutação da β-globina (HbS) → polimerização na desoxigenação → hemácias rígidas, vaso-oclusão e hemólise. Esferocitose: espectrina/anquirina → esferócitos destruídos no baço (Coombs negativo). G6PD: menos NADPH/glutationa → oxidação da Hb (corpos de Heinz) após fármacos, infecções, favas."
+  },
+  {
+   "id": "FISIO-PF-HEM-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "LMC · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · leucemias (Prova 26.1)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 60 anos com fadiga, perda de peso e plenitude abdominal há 5 meses. Ao exame, palidez e grande esplenomegalia. O hemograma mostra leucocitose acentuada com granulócitos em todas as fases de maturação, e a citogenética identifica a translocação t(9;22). O quadro é típico de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Leucemia linfoblástica aguda"
+    },
+    {
+     "letra": "B",
+     "texto": "Leucemia linfocítica crônica"
+    },
+    {
+     "letra": "C",
+     "texto": "Linfoma de Hodgkin"
+    },
+    {
+     "letra": "D",
+     "texto": "Leucemia mieloide crônica"
+    },
+    {
+     "letra": "E",
+     "texto": "Leucemia mieloide aguda"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Cromossomo Filadélfia t(9;22) → gene BCR-ABL (tirosinoquinase ativa) = **LMC**, neoplasia mieloproliferativa com granulócitos maduros e imaturos e esplenomegalia."
+  },
+  {
+   "id": "FISIO-PF-HEM-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "leucemias",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · leucemias e linfomas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as leucemias, assinale a opção que contém todas as afirmativas corretas:\n\nI. Leucemias são neoplasias malignas de células-tronco hematopoiéticas que surgem na medula óssea e se distribuem pelo sangue e por outros órgãos.\nII. Na leucemia linfocítica crônica, blastos imaturos proliferam sem diferenciação, com evolução rápida em crianças.\nIII. As leucemias agudas dividem-se em leucemia linfoblástica aguda e leucemia mieloide aguda; a LLA é o câncer mais comum da infância.\nIV. Nas leucemias agudas, a substituição da medula por blastos causa anemia, plaquetopenia com sangramentos e neutropenia com infecções.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A LLC acomete **idosos**, com linfócitos B **maduros** e evolução indolente; blastos caracterizam as leucemias **agudas**."
+  },
+  {
+   "id": "FISIO-PF-HEM-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "distúrbios hematopoiéticos · CORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · hemácias, plaquetas, leucemias",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A produção dos elementos sanguíneos obedece a um equilíbrio estreito. Acerca da fisiopatologia dos distúrbios hematopoiéticos, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A eritropoetina, principal estímulo da produção de hemácias, é sintetizada principalmente pelo fígado no adulto."
+    },
+    {
+     "letra": "B",
+     "texto": "O cromossomo Filadélfia é patognomônico da leucemia linfocítica crônica."
+    },
+    {
+     "letra": "C",
+     "texto": "Nas leucemias agudas há bloqueio da maturação da linhagem linfoide ou mieloide, com acúmulo de blastos; a leucemia linfoblástica aguda é o câncer mais comum da infância."
+    },
+    {
+     "letra": "D",
+     "texto": "As hemácias são células nucleadas que transportam exclusivamente oxigênio."
+    },
+    {
+     "letra": "E",
+     "texto": "As plaquetas são células nucleadas originadas por mitose dos megacariócitos."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "EPO: produzida principalmente pelo **rim** (células intersticiais peritubulares). Plaquetas são **fragmentos anucleados** do citoplasma dos megacariócitos. Filadélfia = **LMC**. Hemácias são anucleadas e transportam O₂ e CO₂."
+  },
+  {
+   "id": "FISIO-PF-HEM-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "trombocitopenia · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · distúrbios hemorrágicos e plaquetários",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 24 anos procura a emergência por epistaxe persistente e petéquias em membros inferiores, surgidas duas semanas após uma virose. Plaquetas: 12.000/mm³; demais séries normais. Sobre os distúrbios plaquetários, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. As causas de trombocitopenia podem ser divididas em diminuição da produção, diminuição da sobrevida (destruição), sequestro esplênico e diluição.\nII. A destruição imunomediada de plaquetas pode ser desencadeada por medicamentos ou infecções virais, como provavelmente neste caso.\nIII. A plaquetopenia causa tipicamente hemartroses e hematomas musculares profundos, como na hemofilia.\nIV. A diminuição da produção de plaquetas resulta de doenças da medula óssea, como aplasia, infiltração neoplásica e deficiência de B12.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e II, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Distúrbios **plaquetários** dão sangramento **cutaneomucoso** (petéquias, epistaxe, gengivorragia); hemartrose e hematomas profundos são de distúrbios da **coagulação** (hemofilia)."
+  },
+  {
+   "id": "FISIO-PF-HEM-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "hemograma macrocítico",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Hematopoiético (Prof. Fernando Vanraj) · Robbins · temas recorrentes nas provas · anemias megaloblásticas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Um paciente apresenta: hemácias 2,35 × 10⁶/µL; Hb 7,9 g/dL; Ht 25,7%; VCM 101 fL (VR 80–100); HCM 33,5 pg (VR 28–32); RDW 16% (VR 11,6–14,9). Qual diagnóstico pode ser atribuído? Explique a fisiopatologia e a importância dos índices destacados (1,0 ponto).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Diagnóstico**: anemia **macrocítica** (VCM > 100 fL), sugestiva de **anemia megaloblástica** por deficiência de vitamina B12 ou de ácido fólico.\n\n**Fisiopatologia**: B12 e folato são cofatores da síntese de DNA (timidina). Na deficiência, o núcleo amadurece mais devagar que o citoplasma (assincronia núcleo-citoplasma): os precursores ficam grandes (megaloblastos) e muitos morrem na medula (**eritropoese ineficaz**, com LDH e bilirrubina indireta ↑). Pode haver neutrófilos hipersegmentados e pancitopenia. Causas: anemia perniciosa (autoanticorpos contra células parietais/fator intrínseco), gastrectomia, má absorção ileal, dieta vegana, alcoolismo, gestação (folato).\n\n**Índices**: **VCM** ↑ = hemácias grandes (macrocitose); **HCM** ↑ porque cada hemácia maior contém mais hemoglobina (CHCM normal: normocrômica); **RDW** ↑ = anisocitose; Hb e Ht baixos confirmam a anemia.",
+   "comentario": null
+  }
+ ]
+}

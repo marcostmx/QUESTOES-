@@ -1,855 +1,386 @@
 {
-  "meta": {
-    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema digestório (lote 3)",
-    "gerado_em": "2026-11-08",
-    "base": "Resumo FISIOPATOLOGIA - PR2 (pasta FISIOPATO/PR2 do Drive), seção Sistema Digestório. Trechos do resumo em desacordo com a literatura da disciplina (Robbins) não foram usados."
-  },
-  "questoes": [
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema digestório (formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-08",
+  "base": "Resumo FISIOPATOLOGIA - PR2 (Drive), slides do Prof. Adauto e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (DRGE, gastrite/H. pylori, úlcera péptica, dispepsia, Crohn × RCU, diarreias, obstrução, hepatopatia crônica), no formato do professor."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-DIG-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "digestório · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · refluxo, gastrite, obstrução, DII",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Com relação à fisiopatologia do aparelho digestório, assinale a alternativa que apresenta a assertiva INCORRETA (0,5 ponto):",
+   "alternativas": [
     {
-      "id": "FISIO-IN-DIG-01",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "refluxo gastroesofágico",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Esôfago, refluxo",
-      "enunciado": "Qual é a causa mais comum do refluxo gastroesofágico, segundo o material?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Aperistalse do corpo esofágico."
-        },
-        {
-          "letra": "B",
-          "texto": "Hipertonia permanente do esfíncter esofágico superior."
-        },
-        {
-          "letra": "C",
-          "texto": "Relaxamento transitório do esfíncter esofágico inferior."
-        },
-        {
-          "letra": "D",
-          "texto": "Estenose pilórica."
-        },
-        {
-          "letra": "E",
-          "texto": "Varizes esofágicas."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "A causa mais comum do refluxo é o relaxamento transitório do esfíncter esofágico inferior (que não é um esfíncter verdadeiro identificável histologicamente e às vezes deixa o conteúdo ácido entrar no esôfago). Sintomas: azia, disfagia e regurgitação de conteúdo ácido. O refluxo é a causa mais frequente de esofagite: o epitélio pavimentoso estratificado resiste à abrasão dos alimentos, mas é sensível ao ácido."
+     "letra": "A",
+     "texto": "O esfíncter esofágico inferior não é um músculo esfincteriano verdadeiro identificável histologicamente; seu relaxamento inadequado permite o refluxo do conteúdo ácido e a sensação de azia."
     },
     {
-      "id": "FISIO-IN-DIG-02",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "acalásia",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Esôfago, acalásia",
-      "enunciado": "Paciente com disfagia para sólidos e líquidos, dificuldade para eructar e dor torácica. A acalásia é caracterizada pela tríade:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Hipotonia do EEI, peristalse vigorosa e refluxo ácido."
-        },
-        {
-          "letra": "B",
-          "texto": "Laceração da mucosa, hematêmese e vômitos."
-        },
-        {
-          "letra": "C",
-          "texto": "Varizes, hipertensão portal e sangramento."
-        },
-        {
-          "letra": "D",
-          "texto": "Esofagite, estenose e metaplasia."
-        },
-        {
-          "letra": "E",
-          "texto": "Relaxamento incompleto do EEI, tônus aumentado do EEI e aperistalse do esôfago."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "Acalásia: obstrução funcional por falha do relaxamento do músculo liso do EEI. Tríade: relaxamento incompleto do EEI, tônus aumentado do EEI e aperistalse do esôfago. A disfagia é para sólidos e líquidos (diferente da obstrução mecânica, que começa por sólidos)."
+     "letra": "B",
+     "texto": "Os sintomas mais frequentes da doença do refluxo gastroesofágico são azia (pirose), regurgitação ácida e, em alguns casos, disfagia."
     },
     {
-      "id": "FISIO-IN-DIG-03",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "Mallory-Weiss e esofagites",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Esôfago, esofagite",
-      "enunciado": "Após intoxicação alcoólica aguda com ânsias e vômitos intensos, paciente apresenta hematêmese. A lesão mais provável é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Laceração de Mallory-Weiss: lacerações longitudinais da mucosa próximas à junção gastroesofágica."
-        },
-        {
-          "letra": "B",
-          "texto": "Acalásia."
-        },
-        {
-          "letra": "C",
-          "texto": "Úlcera de Curling."
-        },
-        {
-          "letra": "D",
-          "texto": "Gastrite autoimune."
-        },
-        {
-          "letra": "E",
-          "texto": "Intussuscepção."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "As lacerações de Mallory-Weiss são longitudinais, próximas à junção gastroesofágica, e se associam a ânsias e vômitos graves, frequentemente secundários à intoxicação aguda por álcool. Outros irritantes da mucosa esofágica citados: álcool, ácidos e álcalis corrosivos, fluidos muito quentes e fumo intenso; os sintomas vão de odinofagia a hemorragia, estenose ou perfuração."
+     "letra": "C",
+     "texto": "Na gastrite autoimune há anticorpos contra as células parietais e o fator intrínseco, com atrofia do corpo gástrico e risco de anemia perniciosa."
     },
     {
-      "id": "FISIO-IN-DIG-04",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "varizes esofágicas",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Esôfago, varizes",
-      "enunciado": "Sobre as varizes esofágicas, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "São causadas por obstrução do EEI."
-        },
-        {
-          "letra": "B",
-          "texto": "São veias dilatadas do esôfago causadas por hipertensão portal; geralmente não dão sintomas, mas podem sangrar espontaneamente e de forma importante."
-        },
-        {
-          "letra": "C",
-          "texto": "São sempre sintomáticas, com disfagia progressiva."
-        },
-        {
-          "letra": "D",
-          "texto": "Decorrem da infecção por H. pylori."
-        },
-        {
-          "letra": "E",
-          "texto": "São artérias dilatadas por hipertensão arterial sistêmica."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Varizes esofágicas: veias dilatadas no esôfago por aumento da pressão no sistema porta (hipertensão portal). Geralmente assintomáticas, mas podem sangrar espontaneamente e causar hemorragia importante."
+     "letra": "D",
+     "texto": "A retocolite ulcerativa tem como principais aspectos a inflamação granulomatosa transmural, lesões salteadas e sangramento retal raro."
     },
     {
-      "id": "FISIO-IN-DIG-05",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "fisiologia gástrica",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, células da mucosa",
-      "enunciado": "Assinale a associação correta entre a célula gástrica e o que ela secreta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Células G — somatostatina, que inibe a secreção ácida."
-        },
-        {
-          "letra": "B",
-          "texto": "Células D — gastrina, que estimula a secreção ácida."
-        },
-        {
-          "letra": "C",
-          "texto": "Células principais — HCl e fator intrínseco."
-        },
-        {
-          "letra": "D",
-          "texto": "Células parietais — HCl e fator intrínseco; células principais — pepsinogênio; células ECL — histamina, que estimula as parietais."
-        },
-        {
-          "letra": "E",
-          "texto": "Células ECL — pepsinogênio, ativado em pH 7."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "Parietais: HCl (desnatura proteínas) e fator intrínseco (absorção de B12), estimuladas por acetilcolina. Principais: pepsinogênio, ativado em pH ácido (ideal ~2) em pepsina proteolítica. ECL: histamina, que estimula as parietais. D: somatostatina (inibe hormônios GI e ácido). G: gastrina (estimula HCl e pepsinogênio). Células da mucosa superficial: muco e bicarbonato (proteção). A e B trocam G e D."
-    },
-    {
-      "id": "FISIO-IN-DIG-06",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "barreira mucosa e AINE",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, células da mucosa",
-      "enunciado": "Por que o uso de anti-inflamatórios não esteroidais (ex.: ibuprofeno, nimesulida) favorece lesão da mucosa gástrica?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Porque aumentam a produção de muco e bicarbonato."
-        },
-        {
-          "letra": "B",
-          "texto": "Porque estimulam a liberação de somatostatina."
-        },
-        {
-          "letra": "C",
-          "texto": "Porque inibem a produção do muco protetor, que defende a mucosa do ácido gástrico."
-        },
-        {
-          "letra": "D",
-          "texto": "Porque destroem as células G, causando acloridria."
-        },
-        {
-          "letra": "E",
-          "texto": "Porque neutralizam o HCl."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "As células da mucosa produzem bicarbonato (tampona o ácido) e muco protetor. Causas de deficiência desse muco citadas: H. pylori e AINEs, que inibem sua produção. O material também lista AINEs entre os agentes de gastropatia e de gastrite por dano celular direto."
-    },
-    {
-      "id": "FISIO-IN-DIG-07",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "úlceras de estresse",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, doença da mucosa relacionada ao estresse",
-      "enunciado": "Paciente com queimaduras extensas internado em UTI apresenta úlcera no duodeno proximal. Essa úlcera é denominada:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Úlcera de Cushing."
-        },
-        {
-          "letra": "B",
-          "texto": "Úlcera péptica por H. pylori."
-        },
-        {
-          "letra": "C",
-          "texto": "Laceração de Mallory-Weiss."
-        },
-        {
-          "letra": "D",
-          "texto": "Úlcera de Curling."
-        },
-        {
-          "letra": "E",
-          "texto": "Gastrite cística."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "Úlceras de Curling: duodeno proximal, associadas a queimaduras graves ou traumas. Úlceras de Cushing: gástricas, duodenais e esofágicas em pacientes com doença intracraniana, com alta incidência de perfuração. A lesão da mucosa relacionada ao estresse decorre principalmente de isquemia local (hipotensão sistêmica ou vasoconstrição esplâncnica)."
-    },
-    {
-      "id": "FISIO-IN-DIG-08",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "lesão de estresse · mecanismo",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, doença da mucosa relacionada ao estresse",
-      "enunciado": "Qual é o mecanismo mais comumente relacionado à lesão da mucosa gástrica por estresse em pacientes graves (choque, sepse, trauma)?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Isquemia local, por hipotensão sistêmica ou vasoconstrição esplâncnica induzida pelo estresse."
-        },
-        {
-          "letra": "B",
-          "texto": "Infecção por H. pylori adquirida na UTI."
-        },
-        {
-          "letra": "C",
-          "texto": "Excesso de muco gástrico."
-        },
-        {
-          "letra": "D",
-          "texto": "Autoanticorpos contra fator intrínseco."
-        },
-        {
-          "letra": "E",
-          "texto": "Hipertensão portal."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "A patogenia é mais comumente relacionada à isquemia local (hipotensão sistêmica ou fluxo reduzido por vasoconstrição esplâncnica). A maioria dos pacientes críticos em UTI tem evidência histológica de dano à mucosa gástrica, e as úlceras de estresse são mais comuns em choque, sepse ou trauma grave."
-    },
-    {
-      "id": "FISIO-IN-DIG-09",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "gastropatia × gastrite",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, gastropatia e gastrite",
-      "enunciado": "Qual a diferença entre gastropatia e gastrite aguda, segundo o material?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Gastropatia é sempre causada por H. pylori."
-        },
-        {
-          "letra": "B",
-          "texto": "Na gastropatia as células inflamatórias são raras ou ausentes (lesão/disfunção por AINEs, álcool, bile, estresse); na gastrite aguda há inflamação com neutrófilos."
-        },
-        {
-          "letra": "C",
-          "texto": "Na gastrite aguda não há células inflamatórias."
-        },
-        {
-          "letra": "D",
-          "texto": "Gastropatia é sinônimo de gastrite crônica autoimune."
-        },
-        {
-          "letra": "E",
-          "texto": "Não há diferença: os termos são equivalentes."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Gastropatia: células inflamatórias raras ou ausentes — lesão ou disfunção gástrica por AINEs, álcool, bile, estresse. Gastrite aguda: processo inflamatório com neutrófilos. Ambas resultam da perda de mecanismos protetores da mucosa."
-    },
-    {
-      "id": "FISIO-IN-DIG-10",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "gastrite por H. pylori",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, gastrite crônica",
-      "enunciado": "Sobre a gastrite crônica por Helicobacter pylori, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "É rara, correspondendo a menos de 10% das gastrites crônicas."
-        },
-        {
-          "letra": "B",
-          "texto": "Poupa o antro e cursa com acloridria."
-        },
-        {
-          "letra": "C",
-          "texto": "É a causa mais comum de gastrite crônica, costuma ser predominantemente antral, com produção de ácido normal ou elevada, e pode evoluir para úlcera péptica, atrofia/metaplasia e displasia."
-        },
-        {
-          "letra": "D",
-          "texto": "Causa hematêmese na maioria dos casos."
-        },
-        {
-          "letra": "E",
-          "texto": "Associa-se a anticorpos anti-células parietais e anemia perniciosa precoce."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "H. pylori é a causa mais comum de gastrite crônica; apresenta-se como gastrite predominantemente antral, com ácido normal ou ↑. Complicações da gastrite crônica: doença ulcerosa péptica, atrofia e metaplasia intestinal, displasia (podendo levar a carcinoma), gastrite cística. Náuseas e dor abdominal superior são típicas; hematêmese é incomum. A, B e E descrevem a gastrite autoimune."
-    },
-    {
-      "id": "FISIO-IN-DIG-11",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "gastrite autoimune",
-      "tipo": "multipla",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, gastrite autoimune",
-      "enunciado": "Assinale todas as características da gastrite autoimune:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Anticorpos contra células parietais e fator intrínseco no soro e nas secreções gástricas."
-        },
-        {
-          "letra": "B",
-          "texto": "Hipergastrinemia com hiperplasia das células G antrais, pela ausência de ácido."
-        },
-        {
-          "letra": "C",
-          "texto": "Concentração sérica de pepsinogênio I reduzida e deficiência de vitamina B12."
-        },
-        {
-          "letra": "D",
-          "texto": "Acometimento predominante do antro, poupando corpo e fundo."
-        },
-        {
-          "letra": "E",
-          "texto": "Acloridria (secreção ácida alterada)."
-        }
-      ],
-      "gabarito": [
-        "A",
-        "B",
-        "C",
-        "E"
-      ],
-      "gabarito_texto": "A, B, C e E",
-      "gabarito_oficial": null,
-      "comentario": "Gastrite autoimune: perda de células parietais → sem ácido (acloridria) → ↑ gastrina e hiperplasia das células G antrais; sem fator intrínseco → má absorção ileal de B12 → anemia megaloblástica de início lento (perniciosa). Achados: anticorpos anti-parietais e anti-fator intrínseco, pepsinogênio I ↓, hiperplasia de células endócrinas. Ao contrário da gastrite por H. pylori, **poupa o antro** (D errada). Representa < 10% das gastrites crônicas, mas é a forma mais comum de gastrite crônica em quem não tem H. pylori."
-    },
-    {
-      "id": "FISIO-IN-DIG-12",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "complicações da gastrite crônica",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, complicações da gastrite crônica",
-      "enunciado": "Como a gastrite crônica de longa duração pode levar ao carcinoma gástrico?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Expondo o epitélio a lesões por radicais livres e a estímulo proliferativo da inflamação, o que acumula alterações genéticas (displasia → carcinoma)."
-        },
-        {
-          "letra": "B",
-          "texto": "Pela hipertrofia das células parietais, que se tornam malignas."
-        },
-        {
-          "letra": "C",
-          "texto": "Pelo excesso de muco que obstrui as glândulas."
-        },
-        {
-          "letra": "D",
-          "texto": "Pela formação de varizes gástricas."
-        },
-        {
-          "letra": "E",
-          "texto": "A gastrite crônica não tem relação com neoplasia."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "Displasia: a gastrite crônica expõe o epitélio a radicais livres e ao estímulo proliferativo da inflamação; com o tempo, essa combinação acumula alterações genéticas que resultam em carcinoma. A gastrite de corpo e fundo também pode levar à perda de massa de células parietais (atrofia e metaplasia intestinal)."
-    },
-    {
-      "id": "FISIO-IN-DIG-13",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "obstrução intestinal",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, obstrução intestinal",
-      "enunciado": "Sobre a obstrução intestinal, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O cólon é o segmento mais frequentemente envolvido, por ter luz mais larga."
-        },
-        {
-          "letra": "B",
-          "texto": "Tumores respondem por 80% das obstruções mecânicas."
-        },
-        {
-          "letra": "C",
-          "texto": "A diarreia volumosa é a manifestação típica."
-        },
-        {
-          "letra": "D",
-          "texto": "Intussuscepção é a causa mais comum em idosos."
-        },
-        {
-          "letra": "E",
-          "texto": "O intestino delgado é o mais envolvido, pela luz estreita; hérnias, aderências, intussuscepção e vólvulos somam 80% das obstruções mecânicas; manifesta-se com dor e distensão abdominais, vômitos e constipação."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "O delgado é o mais envolvido pela luz relativamente estreita. Hérnias, aderências, intussuscepção e vólvulos = 80% das obstruções mecânicas; tumores, infarto e estreitamentos (como Crohn) = mais 10% a 15%. Clínica: dor e distensão abdominais, vômito e constipação. Intussuscepção é a causa mais comum em crianças menores de 2 anos."
-    },
-    {
-      "id": "FISIO-IN-DIG-14",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "hérnia · encarceramento e estrangulamento",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, herniação",
-      "enunciado": "Em uma hérnia inguinal com alça de delgado aprisionada, qual sequência explica a evolução até o infarto?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Obstrução arterial imediata → necrose → edema."
-        },
-        {
-          "letra": "B",
-          "texto": "Pressão no colo do saco prejudica a drenagem venosa → estase e edema aumentam a alça → aprisionamento permanente (encarceramento) → comprometimento arterial e venoso (estrangulamento) → infarto."
-        },
-        {
-          "letra": "C",
-          "texto": "Torção da alça sobre o mesentério → vólvulo → perfuração."
-        },
-        {
-          "letra": "D",
-          "texto": "Invaginação do segmento proximal no distal → intussuscepção."
-        },
-        {
-          "letra": "E",
-          "texto": "Inflamação transmural → fístulas → abscesso."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Hérnias são a causa mais frequente de obstrução intestinal no mundo, sobretudo as inguinais (orifício estreito, saco largo). A pressão no colo do saco prejudica a drenagem venosa; estase e edema aumentam o volume da alça → encarceramento → com o tempo, comprometimento arterial e venoso (estrangulamento) e infarto. C descreve vólvulo; D, intussuscepção; E lembra Crohn."
-    },
-    {
-      "id": "FISIO-IN-DIG-15",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "vólvulo, intussuscepção e aderências",
-      "tipo": "itens_vf",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, causas de obstrução",
-      "enunciado": "Julgue os itens sobre causas de obstrução intestinal: ( ) Vólvulo é a torção de uma alça sobre seu ponto de conexão mesentérica, com comprometimento luminal e vascular, mais frequente no sigmoide. ( ) Intussuscepção é a causa mais comum de obstrução intestinal em crianças abaixo de 2 anos. ( ) Aderências só ocorrem em quem já fez cirurgia; sem esse histórico, a herniação interna pode ser descartada. ( ) Aderências fibrosas podem formar alças fechadas onde outras vísceras ficam aprisionadas (herniação interna).",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": [
-        "V",
-        "V",
-        "F",
-        "V"
-      ],
-      "gabarito_texto": "V, V, F, V",
-      "gabarito_oficial": null,
-      "comentario": "3º F: aderências podem resultar de cirurgias, infecções ou outras inflamações peritoneais (ex.: endometriose) e raramente são congênitas — por isso a herniação interna deve ser considerada mesmo sem histórico de peritonite ou cirurgia. Vólvulo: sigmoide, depois ceco, delgado, estômago e raramente transverso."
-    },
-    {
-      "id": "FISIO-IN-DIG-16",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "isquemia intestinal",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, doença intestinal isquêmica",
-      "enunciado": "Sobre a doença intestinal isquêmica, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Ocorre em uma única fase, sem participação da reperfusão."
-        },
-        {
-          "letra": "B",
-          "texto": "A hipoperfusão não se relaciona com choque ou desidratação."
-        },
-        {
-          "letra": "C",
-          "texto": "A resposta à isquemia ocorre em duas fases: a lesão hipóxica inicial e a lesão de reperfusão, quando o suprimento sanguíneo é restaurado; a hipoperfusão pode associar-se a falência cardíaca, choque e desidratação."
-        },
-        {
-          "letra": "D",
-          "texto": "É sempre causada por hérnia inguinal."
-        },
-        {
-          "letra": "E",
-          "texto": "A restauração do fluxo elimina qualquer lesão adicional."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "As respostas intestinais à isquemia ocorrem em duas fases: (1) lesão hipóxica inicial, no comprometimento vascular; (2) lesão de reperfusão, iniciada pela restauração do sangue. A hipoperfusão pode associar-se a falência cardíaca, choque e desidratação."
-    },
-    {
-      "id": "FISIO-IN-DIG-17",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "má absorção",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, má absorção e diarreia",
-      "enunciado": "Qual achado é considerado um marco da má absorção?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Melena."
-        },
-        {
-          "letra": "B",
-          "texto": "Constipação crônica."
-        },
-        {
-          "letra": "C",
-          "texto": "Hematoquezia."
-        },
-        {
-          "letra": "D",
-          "texto": "Esteatorreia: gordura excessiva nas fezes, com evacuações volumosas, espumantes, gordurosas, amarelas ou cor de barro."
-        },
-        {
-          "letra": "E",
-          "texto": "Vômitos fecaloides."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "A má absorção apresenta-se mais comumente como diarreia crônica, com absorção defeituosa de gorduras, vitaminas, proteínas, carboidratos, eletrólitos, minerais e água; pode haver perda de peso, anorexia, distensão, borborigmos e fraqueza muscular. O marco é a esteatorreia."
-    },
-    {
-      "id": "FISIO-IN-DIG-18",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "doença celíaca",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, doença celíaca",
-      "enunciado": "A doença celíaca (espru celíaco) é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Uma enteropatia imunomediada desencadeada pela ingestão de glúten (trigo, centeio, cevada) em indivíduos geneticamente predispostos."
-        },
-        {
-          "letra": "B",
-          "texto": "Uma infecção crônica por H. pylori no duodeno."
-        },
-        {
-          "letra": "C",
-          "texto": "Uma forma de colite ulcerativa restrita ao reto."
-        },
-        {
-          "letra": "D",
-          "texto": "Uma obstrução mecânica por aderências."
-        },
-        {
-          "letra": "E",
-          "texto": "Uma deficiência enzimática congênita de lactase."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "Doença celíaca = espru celíaco = enteropatia sensível ao glúten: enteropatia mediada pelo sistema imune, disparada por alimentos com glúten (trigo, centeio, cevada) em geneticamente predispostos — causa de má absorção."
-    },
-    {
-      "id": "FISIO-IN-DIG-19",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "Crohn × colite ulcerativa",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, doença inflamatória intestinal",
-      "enunciado": "Assinale a alternativa que diferencia corretamente a doença de Crohn da colite ulcerativa:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "A colite ulcerativa é transmural e pode acometer qualquer segmento do trato GI."
-        },
-        {
-          "letra": "B",
-          "texto": "O Crohn é limitado ao cólon e ao reto, com lesão apenas de mucosa e submucosa."
-        },
-        {
-          "letra": "C",
-          "texto": "Lesões salteadas são típicas da colite ulcerativa."
-        },
-        {
-          "letra": "D",
-          "texto": "As duas doenças não têm relação entre si."
-        },
-        {
-          "letra": "E",
-          "texto": "O Crohn pode acometer qualquer trecho do trato GI, é transmural e tem lesões salteadas (frequentemente ileal); a colite ulcerativa limita-se ao cólon e reto, atingindo mucosa e submucosa."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "DII = ativação imunológica inapropriada da mucosa: colite ulcerativa e doença de Crohn, intimamente relacionadas. Crohn (ileíte regional): qualquer trecho, transmural, lesões salteadas; complicações: obstrução, abscessos, hemorragia retal e úlceras. Colite ulcerativa: cólon e reto, mucosa e submucosa; diarreia sanguinolenta com muco, dor em baixo ventre e cólicas aliviadas pela defecação. A, B e C trocam as doenças."
-    },
-    {
-      "id": "FISIO-IN-DIG-20",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "colite ulcerativa · clínica",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Intestino, colite ulcerativa",
-      "enunciado": "Mulher de 28 anos tem crises de diarreia sanguinolenta com muco viscoso, dor em baixo ventre e cólicas que melhoram temporariamente ao evacuar, por semanas. O diagnóstico mais compatível, segundo o material, é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Doença celíaca."
-        },
-        {
-          "letra": "B",
-          "texto": "Colite ulcerativa."
-        },
-        {
-          "letra": "C",
-          "texto": "Acalásia."
-        },
-        {
-          "letra": "D",
-          "texto": "Vólvulo de sigmoide."
-        },
-        {
-          "letra": "E",
-          "texto": "Úlcera de Curling."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Aspectos clínicos da colite ulcerativa no material: ataques de diarreia sanguinolenta com material mucoide viscoso, dor abdominal inferior e cólicas temporariamente aliviadas pela defecação, podendo persistir por dias a meses. Fatores causais desconhecidos; às vezes precedida por enterite infecciosa."
-    },
-    {
-      "id": "FISIO-IN-DIG-21",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "esofagite de refluxo",
-      "tipo": "multipla",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Esôfago, esofagite de refluxo",
-      "enunciado": "Assinale todos os fatores citados no material como desencadeantes ou causadores da esofagite de refluxo:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Distensão gástrica por gás ou alimentos."
-        },
-        {
-          "letra": "B",
-          "texto": "Estresse."
-        },
-        {
-          "letra": "C",
-          "texto": "Cigarro."
-        },
-        {
-          "letra": "D",
-          "texto": "Alimentos e bebidas muito quentes."
-        },
-        {
-          "letra": "E",
-          "texto": "Aumento do tônus do EEI."
-        }
-      ],
-      "gabarito": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "gabarito_texto": "A, B, C e D",
-      "gabarito_oficial": null,
-      "comentario": "Desencadeantes: distensão gástrica (gás ou alimentos), estimulação faríngea moderada que não induz deglutição, estresse. Causadores: cigarro e alimentos/bebidas muito quentes. O tônus **aumentado** do EEI (E) causa obstrução funcional (acalásia), e não refluxo."
-    },
-    {
-      "id": "FISIO-IN-DIG-22",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisiopatologia do sistema digestório",
-      "subtema": "gastrites · caso",
-      "tipo": "discursiva",
-      "origem": "inédita",
-      "fonte": "Resumo Fisiopatologia PR2 · Estômago, gastrites",
-      "enunciado": "Compare a gastrite crônica por H. pylori e a gastrite autoimune quanto a: (a) frequência; (b) região do estômago acometida; (c) secreção ácida e gastrina; (d) principal complicação hematológica. Explique por que a gastrite autoimune leva à anemia perniciosa.",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": null,
-      "gabarito_texto": "",
-      "gabarito_oficial": null,
-      "comentario": null,
-      "resposta_modelo": "(a) **H. pylori:** causa mais comum de gastrite crônica. **Autoimune:** < 10% das gastrites crônicas (mas a mais comum em quem não tem H. pylori; é a causa mais comum de gastrite atrófica difusa).\n\n(b) **H. pylori:** predominantemente antral. **Autoimune:** poupa o antro (acomete corpo e fundo, onde estão as células parietais).\n\n(c) **H. pylori:** ácido normal ou elevado. **Autoimune:** acloridria; a falta de ácido estimula a liberação de gastrina → hipergastrinemia e hiperplasia das células G antrais.\n\n(d) **Autoimune:** anemia megaloblástica (perniciosa), de início lento. (H. pylori de longa duração também pode resultar em gastrite atrófica.)\n\n**Por que perniciosa:** o ataque imune destrói as células parietais, que secretam o fator intrínseco; sem ele a vitamina B12 não é absorvida no íleo → deficiência de B12 → síntese de DNA comprometida → anemia megaloblástica. Há anticorpos anti-células parietais e anti-fator intrínseco e pepsinogênio I reduzido."
+     "letra": "E",
+     "texto": "Hérnias, aderências, intussuscepção e vólvulo respondem pela grande maioria das obstruções mecânicas do intestino."
     }
-  ]
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A descrição (granulomas, transmural, salteada) é da **doença de Crohn**. A RCU é **mucosa/submucosa**, **contínua** a partir do reto, com sangramento retal **frequente**."
+  },
+  {
+   "id": "FISIO-PF-DIG-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Crohn × RCU · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal (Prova 26.1)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dois pacientes têm doença inflamatória intestinal. Paciente A: dor abdominal, perda de peso, diarreia sem sangue e fístula perianal; a colonoscopia mostra segmentos inflamados intercalados com mucosa normal. Paciente B: diarreia sanguinolenta, tenesmo e urgência; inflamação contínua a partir do reto. Qual complicação está mais diretamente relacionada ao mecanismo presente no paciente A?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estenoses e fístulas, pela inflamação que acomete todas as camadas da parede intestinal."
+    },
+    {
+     "letra": "B",
+     "texto": "Megacólon tóxico pela liberação difusa de mediadores na mucosa colônica."
+    },
+    {
+     "letra": "C",
+     "texto": "Hemorragia digestiva pela erosão superficial contínua da mucosa colônica."
+    },
+    {
+     "letra": "D",
+     "texto": "Pseudopólipos inflamatórios pela regeneração repetida da mucosa superficial."
+    },
+    {
+     "letra": "E",
+     "texto": "Sangramento retal persistente por ulceração restrita à mucosa e submucosa."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Paciente A = **Crohn**: inflamação **transmural** e salteada → fibrose com estenose, fístulas e abscessos. Sangramento contínuo, pseudopólipos e megacólon tóxico são mais da **RCU** (paciente B)."
+  },
+  {
+   "id": "FISIO-PF-DIG-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "DII · caso INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 27 anos tem dor abdominal e diarreia com sangue há 2 meses, perda de 8 kg e úlceras orais dolorosas. A colonoscopia mostra acometimento do reto, cólon ascendente e região ileocecal, com áreas preservadas entre eles. Sobre o caso, marque a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O tabagismo é fator de risco para a doença apresentada pelo paciente."
+    },
+    {
+     "letra": "B",
+     "texto": "O paciente tem risco de desenvolver fístulas perianais e estenoses segmentares."
+    },
+    {
+     "letra": "C",
+     "texto": "Se for feita biópsia de um segmento acometido, o histopatológico deve mostrar inflamação restrita à mucosa e à submucosa."
+    },
+    {
+     "letra": "D",
+     "texto": "Tanto a retocolite ulcerativa quanto a doença de Crohn podem causar diarreia e dor abdominal."
+    },
+    {
+     "letra": "E",
+     "texto": "Pacientes com DII têm risco aumentado de câncer colorretal, maior quanto mais longa e extensa a doença."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Acometimento ileocecal com áreas salteadas e úlceras orais = **Crohn**, cuja inflamação é **transmural** (com granulomas não caseosos). O tabagismo piora o Crohn (e é \"protetor\" na RCU)."
+  },
+  {
+   "id": "FISIO-PF-DIG-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "H. pylori · gastrite e câncer",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite crônica (Prova 26.1)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 60 anos, com infecção crônica por H. pylori, tem biópsia gástrica com gastrite crônica atrófica e metaplasia intestinal. Qual mecanismo explica de forma mais adequada a associação com o adenocarcinoma gástrico?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A metaplasia intestinal resulta da proliferação de células neoplásicas já presentes na mucosa normal."
+    },
+    {
+     "letra": "B",
+     "texto": "A inflamação crônica aumenta a renovação celular e favorece o acúmulo progressivo de alterações genéticas num epitélio sob lesão persistente."
+    },
+    {
+     "letra": "C",
+     "texto": "A hipocloridria aumenta a absorção de nutrientes e estimula a proliferação descontrolada."
+    },
+    {
+     "letra": "D",
+     "texto": "O DNA bacteriano integra-se ao genoma das células epiteliais e as transforma diretamente."
+    },
+    {
+     "letra": "E",
+     "texto": "A atrofia glandular impede a apoptose e leva inevitavelmente ao câncer."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Sequência de Correa: gastrite crônica → atrofia → metaplasia intestinal → displasia → adenocarcinoma, pelo dano inflamatório persistente e pela alta renovação celular. H. pylori também se associa ao linfoma MALT."
+  },
+  {
+   "id": "FISIO-PF-DIG-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "dispepsia e úlcera péptica",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite, úlcera péptica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os distúrbios do sistema digestório, assinale a alternativa que contém apenas afirmativas corretas:\n\nI. Dor aguda no hipocôndrio direito após refeição gordurosa, com náuseas e vômitos, é sugestiva de cólica biliar.\nII. O H. pylori está claramente associado às úlceras gástricas e duodenais.\nIII. Uma causa comum de úlceras gástricas e duodenais é o uso de anti-inflamatórios esteroides (corticoides) isoladamente.\nIV. Dor ou desconforto no andar superior do abdome, na linha média ou em torno dela, relacionado ou não às refeições, exemplifica o conceito de dispepsia.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A causa comum de úlcera é o uso de **AINEs (não esteroides)**, que inibem a COX e as prostaglandinas protetoras da mucosa. A cólica biliar dói no hipocôndrio **direito**/epigástrio."
+  },
+  {
+   "id": "FISIO-PF-DIG-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "úlcera perfurada · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · úlcera péptica e complicações",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 48 anos, que usa diclofenaco diariamente por lombalgia e é tabagista, apresenta dor epigástrica súbita e intensa \"em punhalada\", que se difunde pelo abdome e irradia para o ombro. Está imóvel no leito, com abdome em tábua; a radiografia mostra ar sob o diafragma. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O quadro é típico de pancreatite aguda biliar, que cursa com pneumoperitônio."
+    },
+    {
+     "letra": "B",
+     "texto": "O quadro é de úlcera péptica perfurada: os AINEs reduzem as prostaglandinas que protegem a mucosa, e a perfuração libera conteúdo gástrico e ar na cavidade, causando peritonite química e pneumoperitônio."
+    },
+    {
+     "letra": "C",
+     "texto": "O AINE protege a mucosa gástrica ao aumentar a síntese de prostaglandinas."
+    },
+    {
+     "letra": "D",
+     "texto": "O ar sob o diafragma indica obstrução intestinal por vólvulo do sigmoide."
+    },
+    {
+     "letra": "E",
+     "texto": "A rigidez abdominal decorre de hemorragia digestiva alta sem perfuração."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Perfuração: dor súbita, abdome em tábua (peritonite), pneumoperitônio (ar sob o diafragma, sinal de Jobert). Fatores: AINE, H. pylori, tabagismo."
+  },
+  {
+   "id": "FISIO-PF-DIG-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "diarreia · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · diarreia, má absorção, doença celíaca",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Com relação aos mecanismos de diarreia, analise as assertivas e assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A doença de Crohn caracteriza-se por inflamação restrita à mucosa, lesões contínuas a partir do reto e hematoquezia abundante."
+    },
+    {
+     "letra": "B",
+     "texto": "Na cólera, a enterotoxina estimula a secreção ativa de cloreto para o lúmen intestinal, seguida de sódio e água (diarreia secretora)."
+    },
+    {
+     "letra": "C",
+     "texto": "A esteatorreia, com fezes volumosas, gordurosas e fétidas, é um marco da síndrome de má absorção."
+    },
+    {
+     "letra": "D",
+     "texto": "Na doença celíaca, a ingestão de glúten desencadeia lesão imunomediada da mucosa do intestino delgado, com atrofia das vilosidades e má absorção."
+    },
+    {
+     "letra": "E",
+     "texto": "Na intolerância à lactose, a lactose não digerida aumenta a osmolaridade do conteúdo intestinal e atrai água para o lúmen (diarreia osmótica)."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A descrição é da **RCU**; o Crohn é transmural, salteado e pode acometer qualquer segmento do tubo digestivo."
+  },
+  {
+   "id": "FISIO-PF-DIG-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "síndrome dispéptica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · dispepsia, refluxo, gastrite",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 62 anos, atendida na USF, refere que \"não consegue comer tudo o que coloca no prato\" porque se sente cheia antes de terminar. Teve episódios de dor epigástrica com melhora parcial ao antiácido e usou omeprazol por meses sem resolução completa. Em relação ao caso, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dispepsia funcional é definida pela presença de esofagite ou gastrite na endoscopia."
+    },
+    {
+     "letra": "B",
+     "texto": "A paciente não tem síndrome dispéptica, pois a saciedade precoce não faz parte dela."
+    },
+    {
+     "letra": "C",
+     "texto": "Não há necessidade de investigação, pois o diagnóstico de DRGE é evidente."
+    },
+    {
+     "letra": "D",
+     "texto": "A associação de pirose e regurgitação tem alta especificidade para câncer gástrico."
+    },
+    {
+     "letra": "E",
+     "texto": "Os diagnósticos diferenciais incluem gastrite, úlcera, neoplasias, doenças das vias biliares e parasitoses intestinais, e a idade com sintomas persistentes justifica investigação endoscópica."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Saciedade precoce e dor epigástrica = síndrome dispéptica. Acima de 60 anos ou com sinais de alarme, investigar (EDA). Dispepsia **funcional** = sintomas **sem** lesão estrutural que os explique."
+  },
+  {
+   "id": "FISIO-PF-DIG-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "hepatopatia crônica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · fígado (hepatite crônica, cirrose, ascite)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 50 anos, com transfusão sanguínea no passado e uso remoto de drogas injetáveis, apresenta icterícia, ascite com macicez móvel, Na 129 mmol/L, albumina 2,8 g/dL, TP alargado e plaquetas 78.000/mm³. Sobre o caso, assinale a alternativa com todas as afirmativas corretas:\n\nI. As causas mais comuns de hepatite crônica são as infecções pelos vírus B e C, o álcool, drogas e toxinas e a hepatite autoimune.\nII. A cirrose é o estágio final da lesão hepatocelular crônica, com fibrose difusa e nódulos de regeneração que distorcem a arquitetura do fígado.\nIII. A hipertensão portal causa esplenomegalia com sequestro de plaquetas, ascite e varizes esofágicas.\nIV. Albumina baixa e tempo de protrombina alargado indicam aumento da função de síntese hepática.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II, III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Hipoalbuminemia e TP alargado indicam **perda** da função de síntese. A história de transfusão e drogas injetáveis sugere hepatite C."
+  },
+  {
+   "id": "FISIO-PF-DIG-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Crohn × RCU",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie a fisiopatologia da doença de Crohn e da colite (retocolite) ulcerativa (1,0 ponto).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| | Doença de Crohn | Retocolite ulcerativa |\n|---|---|---|\n| Localização | Qualquer segmento da boca ao ânus; mais íleo terminal e cólon direito | Reto, estendendo-se proximalmente pelo cólon |\n| Distribuição | **Salteada** (áreas sãs entre as doentes) | **Contínua** |\n| Profundidade | **Transmural** | Mucosa e submucosa |\n| Histologia | **Granulomas não caseosos**, úlceras lineares \"em pedra de calçamento\" | Abscessos de criptas, pseudopólipos, sem granulomas |\n| Complicações | Fístulas, abscessos, estenoses, doença perianal, má absorção (B12) | Hemorragia, megacólon tóxico, maior risco de câncer colorretal |\n| Clínica | Dor, diarreia (geralmente sem sangue), perda de peso | Diarreia sanguinolenta, tenesmo, urgência |\n| Tabagismo | Fator de risco | Fator \"protetor\" |\n\nAmbas resultam de resposta imune desregulada à microbiota em hospedeiro geneticamente suscetível (NOD2 no Crohn).",
+   "comentario": null
+  }
+ ]
 }
