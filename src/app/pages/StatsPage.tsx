@@ -6,7 +6,7 @@ import { topicsOf, useBank } from '../core/bank';
 import { addDays } from '../core/srs';
 import { isAnswered, isOpenError, streak, type QuestionState } from '../core/study';
 import { today, useStudy } from '../core/store';
-import { KIND_LABEL, SUBJECT_LIST } from '../subjects';
+import { KIND_LABEL, activeSubjects } from '../subjects';
 import { plural } from '../core/text';
 import { Bar, Card, cx, Empty, Loading, PageHeader, Section } from '../ui';
 
@@ -42,10 +42,12 @@ export default function StatsPage() {
 
   const s = useMemo(() => {
     const overall = aggregate(bank.all, data.questions);
-    const bySubject = SUBJECT_LIST.map(m => ({ m, a: aggregate(bank.bySubject[m.id], data.questions) }));
+    const bySubject = activeSubjects(bank).map(m => ({ m, a: aggregate(bank.bySubject[m.id], data.questions) }));
     const kinds = [...new Set(bank.all.map(q => q.kind))] as QuestionKind[];
     const byKind = kinds.map(k => ({ k, a: aggregate(bank.all.filter(q => q.kind === k), data.questions) }));
-    const byTopic = topicsOf(bank.all).map(tp => ({ tp, a: aggregate(bank.all.filter(q => q.topic === tp), data.questions) }));
+    const byTopic = activeSubjects(bank).flatMap(m =>
+      topicsOf(bank.bySubject[m.id]).map(tp => ({ tp, m, a: aggregate(bank.bySubject[m.id].filter(q => q.topic === tp), data.questions) })),
+    );
     const days = Array.from({ length: range }, (_, i) => {
       const k = addDays(t, i - range + 1);
       const d = data.days[k];
@@ -59,7 +61,7 @@ export default function StatsPage() {
   if (!s.overall.attempts)
     return (
       <>
-        <PageHeader eyebrow="Estatísticas" title="Seu desempenho" />
+        <PageHeader eyebrow={`Estatísticas · ${bank.exam}`} title="Seu desempenho" />
         <Empty icon={<BarChart3 className="size-5" />} title="Ainda sem dados">
           Responda algumas questões para ver seu desempenho por disciplina, estilo e tema.
         </Empty>
@@ -70,7 +72,7 @@ export default function StatsPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Estatísticas" title="Seu desempenho" />
+      <PageHeader eyebrow={`Estatísticas · ${bank.exam}`} title="Seu desempenho" />
 
       <div className="mb-10 grid grid-cols-2 gap-3 lg:grid-cols-4">
         <Kpi label="Taxa de acerto" value={p === null ? '—' : `${p}%`} tone={toneFor(p)} sub={`${s.overall.correct} de ${s.overall.attempts} respostas`} />
@@ -141,7 +143,7 @@ export default function StatsPage() {
         </Section>
         {s.byTopic.length > 0 && (
           <Section title="Por tema">
-            <RateList rows={s.byTopic.map(({ tp, a }) => ({ key: tp, label: tp, a }))} />
+            <RateList rows={s.byTopic.map(({ tp, m, a }) => ({ key: m.id + tp, label: tp, color: m.color, a }))} />
           </Section>
         )}
       </div>
@@ -159,13 +161,14 @@ function Kpi({ label, value, sub, tone }: { label: string; value: string | numbe
   );
 }
 
-function RateList({ rows }: { rows: { key: string; label: string; a: Agg }[] }) {
+function RateList({ rows }: { rows: { key: string; label: string; color?: string; a: Agg }[] }) {
   return (
     <Card className="divide-y divide-line">
-      {rows.map(({ key, label, a }) => {
+      {rows.map(({ key, label, color, a }) => {
         const p = pct(a);
         return (
           <div key={key} className="flex items-center gap-4 px-4 py-3 sm:px-5">
+            {color && <span className="size-2 shrink-0 rounded-full" style={{ background: color }} />}
             <span className="min-w-0 flex-1 truncate text-[14px]">{label}</span>
             <span className="tabular text-[12px] text-ink-3">{a.attempts} resp.</span>
             <span className={cx('tabular w-12 text-right text-[14px] font-semibold', toneFor(p))}>{p === null ? '—' : `${p}%`}</span>

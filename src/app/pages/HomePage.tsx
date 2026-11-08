@@ -1,16 +1,18 @@
 import { useMemo } from 'react';
-import { ArrowRight, CalendarClock, Flame, NotebookPen, Sparkles } from 'lucide-react';
+import { ArrowRight, CalendarClock, Flame, History, NotebookPen, Sparkles } from 'lucide-react';
+import { CURRENT_EXAM, EXAMS } from '../../data/schema';
 import { useBank } from '../core/bank';
 import { dueQueue, shuffle } from '../core/session';
 import { addDays } from '../core/srs';
 import { isAnswered, isOpenError, streak } from '../core/study';
-import { today, useStudy } from '../core/store';
+import { preferences, today, usePrefs, useStudy } from '../core/store';
 import { useSync } from '../core/sync';
 import { plural } from '../core/text';
 import { href } from '../router';
-import { SUBJECT_LIST } from '../subjects';
+import { activeSubjects } from '../subjects';
 import { Bar, Card, cx, Loading, Section } from '../ui';
 import { ResumeBanner } from './PracticePage';
+import { WeakSpots } from '../components/WeakSpots';
 import { startSession } from './SessionPage';
 
 function greeting() {
@@ -24,6 +26,7 @@ export default function HomePage() {
   const bank = useBank();
   const data = useStudy();
   const sync = useSync();
+  const { dailyGoal } = usePrefs();
   const t = today();
 
   const stats = useMemo(() => {
@@ -44,7 +47,7 @@ export default function HomePage() {
   const name = sync.user?.name.split(' ')[0];
   const dateLabel = new Date().toLocaleDateString('pt-BR', { weekday: 'long', day: 'numeric', month: 'long' });
   const maxWeek = Math.max(1, ...stats.week.map(w => w.n));
-  const bySubjectDue = SUBJECT_LIST.map(s => ({ s, n: stats.due.filter(q => q.subject === s.id).length })).filter(x => x.n);
+  const bySubjectDue = activeSubjects(bank).map(s => ({ s, n: stats.due.filter(q => q.subject === s.id).length })).filter(x => x.n);
 
   return (
     <>
@@ -55,6 +58,18 @@ export default function HomePage() {
           {name ? `, ${name}` : ''}.
         </h1>
       </header>
+
+      {bank.exam !== CURRENT_EXAM && (
+        <div className="mb-8 flex flex-col gap-3 rounded-2xl border border-warn/40 bg-warn-soft px-5 py-4 sm:flex-row sm:items-center">
+          <History className="size-5 shrink-0 text-warn" />
+          <p className="flex-1 text-[14.5px] text-ink">
+            Você está nas questões da <strong>{bank.exam}</strong>, prova já realizada. Revisões, erros e estatísticas abaixo são só desta prova.
+          </p>
+          <button type="button" onClick={() => preferences.set({ exam: CURRENT_EXAM })} className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-lg bg-ink px-3.5 text-[13px] font-semibold text-bg">
+            Voltar para a {CURRENT_EXAM} <ArrowRight className="size-3.5" />
+          </button>
+        </div>
+      )}
 
       <ResumeBanner />
 
@@ -108,7 +123,12 @@ export default function HomePage() {
             <span className="font-display tabular text-5xl font-semibold">{stats.streak}</span>
             <span className="text-[15px] text-ink-2">{stats.streak === 1 ? 'dia seguido' : 'dias seguidos'}</span>
           </div>
-          <p className="mt-1 text-[13.5px] text-ink-3">{stats.todayN ? `${plural(stats.todayN, 'questão', 'questões')} hoje` : 'Nenhuma questão hoje ainda'}</p>
+          <div className="mt-2 flex items-center gap-3">
+            <Bar value={stats.todayN / Math.max(1, dailyGoal)} color={stats.todayN >= dailyGoal ? 'var(--good)' : 'var(--accent)'} className="flex-1" />
+            <span className="tabular shrink-0 text-[13px] text-ink-2">
+              {stats.todayN}/{dailyGoal} hoje{stats.todayN >= dailyGoal ? ' ✓' : ''}
+            </span>
+          </div>
           <div className="mt-auto flex items-end justify-between gap-2 pt-6" aria-label="Questões por dia nos últimos 7 dias">
             {stats.week.map(w => (
               <div key={w.key} className="flex flex-1 flex-col items-center gap-1.5" title={`${w.n} em ${w.key}`}>
@@ -139,9 +159,11 @@ export default function HomePage() {
         />
       </div>
 
-      <Section title="Disciplinas" action={<a href={href('praticar')} className="text-[13px] font-medium text-accent hover:underline">Montar sessão</a>}>
+      <WeakSpots bank={bank} compact />
+
+      <Section title={`Disciplinas da ${bank.exam}`} action={<a href={href('praticar')} className="text-[13px] font-medium text-accent hover:underline">Montar sessão</a>}>
         <Card className="divide-y divide-line">
-          {SUBJECT_LIST.map(s => {
+          {activeSubjects(bank).map(s => {
             const qs = bank.bySubject[s.id];
             const done = qs.filter(q => isAnswered(data.questions[q.id])).length;
             return (
@@ -164,6 +186,31 @@ export default function HomePage() {
           })}
         </Card>
       </Section>
+
+      {bank.exam === CURRENT_EXAM && (
+        <Section title="Provas anteriores">
+          <div className="grid gap-3 sm:grid-cols-2">
+            {EXAMS.filter(e => e.id !== CURRENT_EXAM).map(e => (
+              <button
+                key={e.id}
+                type="button"
+                onClick={() => {
+                  preferences.set({ exam: e.id });
+                  window.scrollTo({ top: 0 });
+                }}
+                className="group flex items-center gap-4 rounded-2xl border border-dashed border-line-strong px-5 py-4 text-left transition hover:border-solid hover:bg-surface"
+              >
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-xl bg-surface-2 font-mono text-[13px] font-semibold text-ink-2">{e.label}</span>
+                <span className="min-w-0 flex-1">
+                  <span className="block font-semibold">Questões da {e.label}</span>
+                  <span className="block text-[13px] text-ink-2">Prova {e.hint} — continuam disponíveis para revisar.</span>
+                </span>
+                <ArrowRight className="size-4 shrink-0 text-ink-3 transition group-hover:translate-x-0.5 group-hover:text-ink" />
+              </button>
+            ))}
+          </div>
+        </Section>
+      )}
     </>
   );
 }

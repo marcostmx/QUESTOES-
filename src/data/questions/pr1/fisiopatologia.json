@@ -2,6 +2,7 @@
   {
     "id": "fis-78a7219a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 72 anos procura a clínica com piora da dispneia aos esforços há várias semanas. Antes conseguia aparar a grama; agora sente falta de ar depois de andar 30 metros. Precisa de dois travesseiros para dormir e às vezes acorda à noite com falta de ar, que melhora ao sentar-se com as pernas para fora da cama. Notou que os pés incham no fim do dia. Já teve episódios de pressão retroesternal aos grandes esforços e uma quase-síncope ao subir escadas.\nAo exame: afebril, FC 86 bpm, PA 115/92 mmHg, FR 16 mpm. Veias do pescoço distendidas, estertores crepitantes inspiratórios. Ritmo regular, B4 no foco mitral, sopro telessistólico na borda esternal superior direita com irradiação para as carótidas. Pulso carotídeo de amplitude diminuída.\n\na) Qual o diagnóstico sindrômico e qual a provável causa de base?\nb) Explique por que a estenose aórtica leva a esse quadro — do defeito valvar até a ortopneia e a dispneia paroxística noturna.\nc) Qual a tríade clássica dessa valvopatia e o mecanismo de cada sintoma?",
@@ -10,6 +11,7 @@
   {
     "id": "fis-5ee37fcd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "A aula organiza toda a disfunção cardiovascular em seis mecanismos. Liste os seis e dê, para cada um, uma doença ou situação clínica que o exemplifique.",
@@ -18,6 +20,7 @@
   {
     "id": "fis-532fd16d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os mecanismos compensatórios da insuficiência cardíaca, assinale a alternativa INCORRETA:",
@@ -34,6 +37,7 @@
   {
     "id": "fis-6a8b67c0",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Marque V ou F e corrija as falsas:\n\nI. Nas fases isovolumétricas todas as valvas estão fechadas e o volume ventricular não se altera — só a pressão.\nII. A primeira bulha (B1) corresponde ao fechamento das valvas semilunares, no início da diástole.\nIII. O nó AV introduz um atraso na condução que permite ao átrio terminar de esvaziar antes de o ventrículo contrair.\nIV. O segmento ST corresponde à repolarização atrial.\nV. A B1 hiperfonética da estenose mitral ocorre porque a valva espessada fecha com mais energia.",
@@ -42,6 +46,7 @@
   {
     "id": "fis-c43cb346",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Partindo de PA = DC × RVP, onde DC = FC × VE:\n\na) Explique por que o infarto agudo do miocárdio causa hipotensão.\nb) Explique por que a perda da capacidade de relaxamento vascular causa hipertensão.\nc) Um paciente em choque hipovolêmico apresenta taquicardia. Qual variável está caindo e qual tenta compensar?",
@@ -50,6 +55,7 @@
   {
     "id": "fis-a948183b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 26 anos, grávida de 20 semanas, chega à emergência com palpitações de início súbito, dispneia intensa e tosse. Teve febre reumática aos 14 anos. FC entre 110 e 130 bpm, PA 92/65 mmHg, FR 24 mpm, saturação 94%. Tosse produzindo grande quantidade de escarro espumoso de coloração rósea. Ritmo irregularmente irregular, B1 hiperfonética e sopro diastólico suave no ápice. Estertores nas bases.\n\na) Escreva a cadeia fisiopatológica completa, da faringite estreptocócica até o quadro atual.\nb) Por que a fibrilação atrial precipitou a descompensação neste momento?\nc) Qual o papel da gestação no agravamento? Cite dois outros riscos a que essa paciente está exposta.",
@@ -58,6 +64,7 @@
   {
     "id": "fis-12d460da",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "A angiotensina II responde por quase todas as ações do sistema renina-angiotensina. Cite as cinco ações descritas no resumo e classifique cada uma como aumento de pré-carga ou de pós-carga.",
@@ -66,6 +73,7 @@
   {
     "id": "fis-f3cc19f4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a hipertrofia cardíaca, assinale a alternativa CORRETA:",
@@ -82,6 +90,7 @@
   {
     "id": "fis-8305e7cc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe as colunas:\n\nElemento\n1 Receptores beta\n2 Receptores alfa-1\n3 Fatores de crescimento (FGF, IGF)\n4 Angiotensina II e endotelina-1\n\nCaracterística\n( ) Sinalizam por receptor de tirosina-quinase, via Ras/MAPK e PI3K/Akt/mTOR → hipertrofia adaptativa\n( ) Acoplados à proteína Gq\n( ) Sinalizam por GPCR, via PLC/IP3/DAG, calcineurina/NFAT e PKC → hipertrofia não adaptativa\n( ) Acoplados à proteína Gs",
@@ -90,6 +99,7 @@
   {
     "id": "fis-04ca4192",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "O resumo afirma que a hipertrofia patológica deixa \"o coração com muita massa e pouca força\". Explique três achados do processo hipertrófico que justificam essa frase.",
@@ -98,6 +108,7 @@
   {
     "id": "fis-4c82aae2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 64 anos, tabagista de longa data, com enfisema pulmonar avançado. Nos últimos meses vem apresentando cansaço, aumento do volume abdominal e edema de membros inferiores. Ao exame: turgência jugular a 45°, refluxo hepatojugular, hepatomegalia dolorosa, ascite e edema de membros inferiores com cacifo. Ausculta pulmonar com murmúrio reduzido difusamente e sibilos; ausculta cardíaca com hiperfonese de B2 no foco pulmonar. Não há estertores.\n\na) Qual o diagnóstico e qual o nome específico dessa condição no contexto apresentado?\nb) Explique o mecanismo da turgência jugular, da hepatomegalia e da ascite.\nc) Por que este paciente não apresenta estertores pulmonares, ao contrário do caso da questão 1?",
@@ -106,6 +117,7 @@
   {
     "id": "fis-79246601",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a insuficiência cardíaca esquerda, assinale a alternativa INCORRETA:",
@@ -122,6 +134,7 @@
   {
     "id": "fis-9d0a44a4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Descreva a cadeia que liga a queda da fração de ejeção à azotemia pré-renal e ao agravamento do edema pulmonar. Explique por que a azotemia é chamada de \"pré-renal\".",
@@ -130,6 +143,7 @@
   {
     "id": "fis-c6df2c83",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Marque V ou F e corrija as falsas:\n\nI. Considera-se IC com FEVE reduzida quando a fração de ejeção está abaixo de 50%.\nII. Estima-se que apenas 10% dos pacientes com IC apresentem FEVE normal.\nIII. A IC com FEVE preservada é mais comum em mulheres, idosos, diabéticos e hipertensos.\nIV. Valores de BNP acima de 35–50 pg/mL ou de NT-proBNP acima de 125 pg/mL orientam a prosseguir a investigação com ecocardiograma.\nV. Hiponatremia e FEVE inferior a 30% são marcadores de mau prognóstico na insuficiência cardíaca.",
@@ -138,6 +152,7 @@
   {
     "id": "fis-8ba45838",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique por que a dosagem do peptídeo natriurético é útil no diagnóstico de insuficiência cardíaca. Descreva o estímulo que provoca sua liberação e suas três ações.",
@@ -146,6 +161,7 @@
   {
     "id": "fis-73276c51",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 56 anos chega à emergência com sensação de pressão retroesternal intensa que o acordou do sono há três horas. Tabagista de 40 maços-ano, hipercolesterolêmico. Ao exame: desconfortável, diaforese, FC 116 bpm, PA 166/102 mmHg, FR 22 mpm, saturação 96% em ar ambiente. Pressão venosa jugular normal, campos pulmonares limpos, ritmo regular com galope B4, sem sopros. Radiografia de tórax normal. ECG com supradesnivelamento do segmento ST.\n\na) Qual o diagnóstico e o mecanismo vascular exato que o produziu?\nb) Explique o que o supradesnivelamento de ST indica em termos de extensão da lesão na parede miocárdica.\nc) Por que este paciente tem B4 e por que a radiografia é normal?\nd) Cite as duas modalidades de tratamento descritas no material.",
@@ -154,6 +170,7 @@
   {
     "id": "fis-a27d3b53",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as síndromes isquêmicas, assinale a alternativa INCORRETA:",
@@ -170,6 +187,7 @@
   {
     "id": "fis-cf69c989",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Descreva as quatro fases do desenvolvimento da aterosclerose, dizendo o que ocorre em cada uma. Em seguida, informe entre quais camadas do vaso o ateroma se forma e por que a aterosclerose é considerada um processo inflamatório.",
@@ -178,6 +196,7 @@
   {
     "id": "fis-81a06c2c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe a arquitetura do vaso à manifestação clínica correspondente:\n\nArquitetura do vaso\n1 Placa inicial\n2 Estenose crítica (> 70%)\n3 Ruptura de placa instável\n4 Trombo plaquetário instável sobre placa rompida, com lise\n5 Trombo plaquetário sobre placa rompida, sem lise\n\nManifestação clínica\n( ) IAM com elevação do segmento ST (transmural)\n( ) Assintomática\n( ) IAM sem elevação do segmento ST (subendocárdico)\n( ) Angina estável\n( ) Angina instável",
@@ -186,6 +205,7 @@
   {
     "id": "fis-a8fca9ac",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Marque V ou F e corrija as falsas:\n\nI. Em mais de 90% dos casos a isquemia miocárdica decorre de lesões ateroscleróticas obstrutivas nas artérias coronárias epicárdicas.\nII. Uma obstrução de 90% pode gerar fluxo coronariano inadequado mesmo em repouso.\nIII. A artéria coronária mais frequentemente acometida é a coronária direita, em 40 a 50% dos casos.\nIV. A aterosclerose causa mais morbidade e mortalidade no mundo ocidental que qualquer outra doença, respondendo por aproximadamente metade dos óbitos.\nV. As coronárias são vasos epicárdicos, e por isso a necrose do infarto progride do subendocárdio em direção ao epicárdio.",
@@ -194,6 +214,7 @@
   {
     "id": "fis-1f786d2a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 61 anos, diabética e hipertensa, procura a emergência com dor torácica em aperto há 2 horas, iniciada em repouso, sem alívio. É o terceiro episódio na semana, cada vez mais prolongado. Ao exame está estável hemodinamicamente. O ECG mostra infradesnivelamento do segmento ST em parede anterior, sem supra. A primeira dosagem de troponina está elevada.\n\na) Classifique o quadro dentro da árvore das síndromes coronarianas agudas, justificando cada ramificação.\nb) Se a troponina viesse normal e o ECG mantivesse apenas o infra, qual seria o diagnóstico? Qual a diferença fisiopatológica entre os dois?\nc) Qual o tipo de infarto, quanto à extensão na parede, esperado neste caso?",
@@ -202,6 +223,7 @@
   {
     "id": "fis-15be37a5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Reconstrua a cronologia da lesão celular isquêmica apresentada na aula, do início da depleção de ATP até a lesão microvascular. Em seguida, explique por que existe uma janela terapêutica e qual é ela.",
@@ -210,6 +232,7 @@
   {
     "id": "fis-bb852410",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o mecanismo molecular da lesão isquêmica, assinale a alternativa INCORRETA:",
@@ -226,6 +249,7 @@
   {
     "id": "fis-96fb9196",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Descreva a evolução histológica do infarto, de 0–4 horas até 2 meses. Explique por que a ruptura de parede livre, de septo e de músculo papilar ocorre preferencialmente entre o 3º e o 7º dia.",
@@ -234,6 +258,7 @@
   {
     "id": "fis-654da20e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada marcador ao seu comportamento temporal:\n\nMarcador\n1 Mioglobina\n2 CK-MB\n3 Troponina I (TnI)\n4 Troponina T (TnT)\n\nComportamento\n( ) Eleva-se em 4–6 horas, com pico por volta de 12 horas; útil para detectar reinfarto por normalizar mais cedo\n( ) Permanece elevada por 10–14 dias\n( ) Eleva-se em 1–2 horas após o início da isquemia; é o marcador mais precoce, porém pouco específico\n( ) Permanece elevada por 4–7 dias",
@@ -242,6 +267,7 @@
   {
     "id": "fis-19063c6a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 68 anos internado há 5 dias por IAM de parede anterior, tratado tardiamente. Vinha estável quando, subitamente, apresenta piora acentuada da dispneia, hipotensão e surgimento de sopro holossistólico intenso, novo, em borda esternal esquerda baixa, com frêmito. Ausculta pulmonar com estertores difusos.\n\na) Cite três complicações mecânicas do IAM compatíveis com uma deterioração súbita neste período e diga qual delas melhor explica o sopro descrito.\nb) A qual dos seis mecanismos de disfunção cardiovascular corresponde a complicação que você escolheu?\nc) Por que essa complicação ocorre justamente por volta do 5º dia?",
@@ -250,6 +276,7 @@
   {
     "id": "fis-31a42733",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a extensão do infarto e os territórios coronarianos, assinale a alternativa CORRETA:",
@@ -266,6 +293,7 @@
   {
     "id": "fis-d9fe7be4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique o que é um circuito de reentrada e cite as duas condições necessárias para que ele se estabeleça. Depois explique por que uma cicatriz de infarto favorece esse mecanismo.",
@@ -274,6 +302,7 @@
   {
     "id": "fis-2072423a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 72 anos é levado ao pronto-socorro após perder a consciência enquanto estava de pé cantando na igreja. A esposa relata que ele ficou inconsciente por 2 a 3 minutos, sem movimentos anormais, e ao acordar ficou tonto por um ou dois minutos, recuperando-se em seguida. Nos últimos meses vinha suspendendo atividades por fraqueza e tontura. Ao exame: alerta e orientado, afebril, FC 35 bpm regular, PA 118/72 mmHg sem variação ao ficar de pé. Exames laboratoriais e enzimas cardíacas normais.\n\na) Qual o diagnóstico e o mecanismo?\nb) Que dados do caso permitem descartar crise convulsiva e síncope ortostática?\nc) Explique, usando a hierarquia do automatismo cardíaco, por que a frequência está em 35 bpm.",
@@ -282,6 +311,7 @@
   {
     "id": "fis-4bc55638",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Marque V ou F e corrija as falsas:\n\nI. A lesão isquêmica é a causa mais comum de distúrbios de ritmo.\nII. Se os miócitos atriais se tornam \"irritáveis\" e despolarizam de modo independente, o resultado é o bloqueio atrioventricular.\nIII. A fibrilação ventricular é uma despolarização caótica sem contração ventricular funcional.\nIV. O feixe de Kent conduz impulsos diretamente dos átrios aos ventrículos, transpondo o nó AV.\nV. O flutter atrial típico é uma arritmia caracterizada por macrorreentrada no átrio direito.",
@@ -290,6 +320,7 @@
   {
     "id": "fis-0c01f734",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a) Defina morte súbita cardíaca segundo o critério temporal apresentado.\nb) Qual é a principal causa em adultos e qual a proporção que ela representa?\nc) Cite cinco causas mais frequentes em vítimas jovens.\nd) Qual é o mecanismo imediato mais frequente da morte?",
@@ -298,6 +329,7 @@
   {
     "id": "fis-0ab88e18",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada lesão valvar à sua causa:\n\nLesão\n1 Estenose aórtica\n2 Insuficiência aórtica\n3 Estenose mitral\n4 Insuficiência mitral\n\nCausa\n( ) Degeneração mixomatosa (prolapso da valva mitral)\n( ) Calcificação e esclerose valvar, com deposição de hidroxiapatita\n( ) Cardiopatia reumática\n( ) Dilatação da aorta, frequentemente por hipertensão e/ou envelhecimento",
@@ -306,6 +338,7 @@
   {
     "id": "fis-3bf67ed0",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Menino de 12 anos apresentou, há três semanas, quadro de faringite com febre, tratado apenas com sintomáticos. Retorna agora com febre, poliartrite migratória de grandes articulações e sopro cardíaco novo. A biópsia endomiocárdica, se realizada, mostraria lesões granulomatosas características.\n\na) Qual o processo em curso e qual o mecanismo imunológico envolvido?\nb) Qual o nome do achado histológico característico?\nc) Qual valva é mais frequentemente comprometida a longo prazo e qual lesão resulta?\nd) Descreva duas consequências tardias possíveis dessa lesão valvar.",
@@ -314,6 +347,7 @@
   {
     "id": "fis-4c04873b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as endocardites, assinale a alternativa CORRETA:",
@@ -330,6 +364,7 @@
   {
     "id": "fis-701caa0b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 58 anos, fumante de 2 maços/dia desde os 15 anos, refere dispneia progressiva, hoje aos mínimos esforços e em repouso, e tosse com escarro marrom-amarelado todas as manhãs ao longo do ano. Ao exame: FR 28 mpm, sentado inclinado para frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória. Tórax com diâmetro anteroposterior aumentado e retração dos arcos costais inferiores à inspiração. Ausculta com sibilos e roncos bilaterais, sem crepitantes. Bulhas rítmicas e hipofonéticas.\n\na) Qual o diagnóstico e quais os dois componentes fisiopatológicos que compõem essa doença?\nb) Explique o mecanismo do aumento do diâmetro anteroposterior e da hipofonese das bulhas.\nc) Qual o próximo passo diagnóstico e o que ele informa?\nd) Cite quatro complicações crônicas da hipoxemia nessa doença.",
@@ -338,6 +373,7 @@
   {
     "id": "fis-0abea627",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Compare os padrões obstrutivo e restritivo quanto a: problema mecânico predominante, capacidade pulmonar total, volume residual, VEF1, CVF e relação VEF1/CVF. Explique por que a relação VEF1/CVF pode estar normal ou aumentada no padrão restritivo.",
@@ -346,6 +382,7 @@
   {
     "id": "fis-44223ed6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre enfisema e bronquite crônica, assinale a alternativa INCORRETA:",
@@ -362,6 +399,7 @@
   {
     "id": "fis-7b30896b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Considerando que o HCO₃⁻ é o componente metabólico e a PaCO₂ o componente respiratório, marque V ou F e corrija as falsas:\n\nI. HCO₃⁻ baixo indica acidose metabólica, e a resposta compensatória esperada é hiperventilação para reduzir o CO₂.\nII. PaCO₂ elevada indica acidose respiratória, decorrente de hipoventilação, e a compensação é renal, com elevação do HCO₃⁻.\nIII. HCO₃⁻ elevado indica alcalose respiratória.\nIV. PaCO₂ baixa indica alcalose respiratória, com o paciente hiperventilando e eliminando CO₂.\nV. Na alcalose metabólica a compensação esperada é a hipoventilação, para reter CO₂.",
@@ -370,6 +408,7 @@
   {
     "id": "fis-044df748",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique o princípio mecânico da ventilação a partir da frase \"maior pressão → menor pressão\". Por que a pressão intrapulmonar precisa se tornar negativa para que haja entrada de ar? Relacione isso com o que ocorre no pneumotórax.",
@@ -378,6 +417,7 @@
   {
     "id": "fis-627b5d36",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 37 anos, não fumante, refere tosse não produtiva há três meses, que piora à noite e após exercício. Iniciou recentemente um programa de corrida e relata que tem muita dificuldade, com falta de ar rápida e tosse intensa. Nega febre, hemoptise ou perda de peso. Ao exame, pulmões limpos, exceto por sibilos expiratórios ocasionais na expiração forçada. Radiografia de tórax normal.\n\na) Qual o diagnóstico mais provável e como confirmá-lo?\nb) Descreva as alterações histológicas esperadas nas vias aéreas desse paciente.\nc) Por que a radiografia normal não afasta o diagnóstico?\nd) Cite dois achados laboratoriais que apoiam o diagnóstico.",
@@ -386,6 +426,7 @@
   {
     "id": "fis-cb409361",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a asma, assinale a alternativa INCORRETA:",
@@ -402,6 +443,7 @@
   {
     "id": "fis-af642990",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Diferencie a reação inicial e a reação de fase tardia da asma quanto aos fenômenos predominantes e às células envolvidas.",
@@ -410,6 +452,7 @@
   {
     "id": "fis-af82aae3",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 45 anos com história de infecções respiratórias de repetição desde a infância. Queixa-se de tosse severa e persistente, com expectoração abundante, de odor fétido e por vezes sanguinolenta. Tomografia mostra dilatação de brônquios, mais acentuada nos lobos inferiores bilateralmente.\n\na) Qual o diagnóstico e o mecanismo da lesão?\nb) Quais são as duas condições geralmente necessárias para o desenvolvimento das lesões completas?\nc) Por que os sintomas são episódicos?\nd) Cite uma doença genética que cursa classicamente com esse quadro e explique o elo fisiopatológico.",
@@ -418,6 +461,7 @@
   {
     "id": "fis-7cf197c3",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo de atelectasia ao seu mecanismo:\n\nTipo\n1 Atelectasia de reabsorção\n2 Atelectasia de compressão\n3 Atelectasia de contração\n\nMecanismo\n( ) Fibrose pleural ou pulmonar, focal ou generalizada, que impede a expansão total do pulmão\n( ) Obstrução completa de via aérea, com o pulmão distal não conseguindo se expandir\n( ) Acúmulo de volumes significativos de líquido, tumor ou ar na cavidade pleural",
@@ -426,6 +470,7 @@
   {
     "id": "fis-22bb8641",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 75 anos, hipertensa e diabética, com tosse, febre de 38,8 °C e escarro purulento há três dias. Ao exame do aparelho respiratório: frêmito toracovocal aumentado, macicez à percussão, ruídos respiratórios brônquicos e broncofonia em terço inferior do hemitórax esquerdo. Leucócitos 14.000/mm³. Radiografia com infiltrado em lobo inferior esquerdo.\n\na) Qual o diagnóstico e o agente etiológico mais provável?\nb) Explique o mecanismo que gera esse conjunto de achados semiológicos.\nc) Se em vez desses achados a paciente apresentasse frêmito diminuído e murmúrio abolido, qual seria a hipótese e por quê?\nd) Cite dois marcadores laboratoriais úteis para diferenciar infecção bacteriana de viral e explique sua origem.",
@@ -434,6 +479,7 @@
   {
     "id": "fis-ba304fac",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as infecções pulmonares, assinale a alternativa INCORRETA:",
@@ -450,6 +496,7 @@
   {
     "id": "fis-181358b6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Compare síndrome de consolidação e derrame pleural quanto a frêmito toracovocal, percussão, murmúrio vesicular e ausculta da voz. Explique o princípio físico que justifica as diferenças.",
@@ -458,6 +505,7 @@
   {
     "id": "fis-d35f8e44",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 48 anos chega ao pronto-socorro com dispneia de início súbito. Estava em pé na cozinha quando sentiu falta de ar, percebeu o coração disparar e quase desmaiou. Nega dor torácica e febre. Fez colecistectomia há duas semanas, com internação de oito dias por infecção da ferida operatória. Ao exame: FR 28 mpm, saturação 84% em ar ambiente, FC 124 bpm, PA 118/89 mmHg, mucosa levemente cianótica, pressão venosa jugular elevada, pulmões limpos, hiperfonese de B2 no foco pulmonar. Perna direita edemaciada e dolorosa. ECG com taquicardia sinusal e radiografia de tórax normal.\n\na) Qual o diagnóstico e a origem mais provável do evento?\nb) Explique o mecanismo da hipoxemia grave com radiografia normal.\nc) Explique a hiperfonese de B2 e a turgência jugular.\nd) Cite três fatores de risco presentes ou possíveis, incluindo estados de hipercoagulabilidade primários e secundários.",
@@ -466,6 +514,7 @@
   {
     "id": "fis-78a97bca",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Marque V ou F e corrija as falsas:\n\nI. Derrame pleural é o acúmulo de níveis anormais de líquido na cavidade pleural, podendo ser transudato, exsudato, purulento, quiloso ou sanguíneo.\nII. Hemotórax é um tipo específico de derrame pleural em que há sangue na cavidade pleural, podendo decorrer de trauma torácico, cirurgia, câncer ou ruptura de grande vaso.\nIII. Pneumotórax é a existência de líquido no espaço pleural, sendo sempre traumático.\nIV. A síndrome da angústia respiratória aguda é um tipo de insuficiência respiratória com acúmulo de líquidos nos pulmões e redução do oxigênio sanguíneo a níveis excessivamente baixos.\nV. Na embolia pulmonar, a morte súbita ocorre em grande parte pelo bloqueio do fluxo sanguíneo nos pulmões, podendo também decorrer de insuficiência cardíaca aguda direita.",
@@ -474,6 +523,7 @@
   {
     "id": "fis-8991be28",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 52 anos internado há 3 dias por pneumonia grave evolui com piora súbita. Apresenta falta de ar intensa, respiração rápida e superficial e cianose. A oximetria mostra saturação de 82% mesmo sob máscara de oxigênio. A radiografia de tórax revela infiltrado bilateral difuso. Há sinais de disfunção de outros órgãos.\n\na) Qual o diagnóstico e como ele é definido?\nb) Cite os dois métodos citados no material para avaliar a oxigenação e o exame de imagem indicado.\nc) Qual o local de tratamento e o suporte que pode ser necessário?\nd) Qual o princípio central da conduta, além do suporte ventilatório?",
@@ -482,6 +532,7 @@
   {
     "id": "fis-8f3ad142",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as infecções virais respiratórias, assinale a alternativa CORRETA:",
@@ -498,6 +549,7 @@
   {
     "id": "fis-d415aba1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "O material lista doenças relacionadas ao padrão restritivo que não são primariamente do parênquima pulmonar. Cite pelo menos cinco dessas condições e explique, em uma frase, por que cada grupo restringe a expansão pulmonar.",
@@ -506,6 +558,7 @@
   {
     "id": "fis-2a36040b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 39 anos, em uso de contraceptivo oral e com viagem aérea prolongada recente, chega em choque: PA 70/40 mmHg, FC 140 bpm, cianose central, turgência jugular importante. Evolui rapidamente para parada cardiorrespiratória.\n\na) Qual a hipótese diagnóstica e o mecanismo hemodinâmico da morte?\nb) Qual o nome dado ao quadro cardíaco resultante?\nc) Explique por que a turgência jugular é tão marcante neste caso.\nd) Qual o tipo de profilaxia farmacológica citado no material?",
@@ -514,6 +567,7 @@
   {
     "id": "fis-3ace3e6a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe a doença ao padrão funcional predominante:\n\nDoença\n1 Enfisema\n2 Fibrose intersticial\n3 Asma\n4 Cifoescoliose\n5 Bronquiectasia\n\nPadrão\n( ) Restritivo, por deformidade da caixa torácica\n( ) Obstrutivo, por hiper-responsividade e broncoconstrição reversível\n( ) Obstrutivo, por dilatação brônquica com retenção de secreção\n( ) Restritivo, por redução da expansão do parênquima\n( ) Obstrutivo, por destruição de septos alveolares e perda do recolhimento elástico",
@@ -522,6 +576,7 @@
   {
     "id": "fis-a4ae76dc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a) Cite três estados de hipercoagulabilidade primários e três secundários listados no material.\nb) De onde se originam quase todas as embolias pulmonares e em que topografia?\nc) Relacione esses fatores aos três componentes da tríade de Virchow.",
@@ -530,6 +585,7 @@
   {
     "id": "fis-ac3bb793",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa INCORRETA sobre fisiopatologia respiratória:",
@@ -546,6 +602,7 @@
   {
     "id": "fis-06b76f72",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada hormônio à sua origem:\n\nHormônio\n1 Adeno-hipófise (lobo anterior)\n2 Neuro-hipófise (lobo posterior)\n\nHormônio\n( ) Ocitocina\n( ) TSH\n( ) ADH (vasopressina)\n( ) Prolactina\n( ) ACTH\n( ) GH\n( ) FSH e LH\n\nEm seguida, explique onde os hormônios da neuro-hipófise são de fato sintetizados e como chegam ao lobo posterior.",
@@ -554,6 +611,7 @@
   {
     "id": "fis-ae2d460e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Cite os quatro fatores hipotalâmicos de liberação (estimulantes) e as duas influências hipotalâmicas inibitórias descritas no material, indicando o hormônio-alvo de cada uma. Diferencie gônada e glândula.",
@@ -562,6 +620,7 @@
   {
     "id": "fis-4a7df809",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 42 anos procura atendimento por aumento progressivo do tamanho das mãos e dos pés — trocou a aliança três vezes em cinco anos — e alteração dos traços faciais. Refere cefaleia e alterações do campo visual.\n\na) Qual o diagnóstico e qual o tipo de adenoma envolvido?\nb) Qual a posição desse adenoma em frequência entre os adenomas hipofisários funcionantes?\nc) Qual mediador hepático responde por muitas das manifestações clínicas?\nd) Se o mesmo adenoma surgisse antes do fechamento das epífises, qual seria o quadro e como ele se caracterizaria?\ne) Por que esses adenomas costumam estar grandes no momento do diagnóstico?",
@@ -570,6 +629,7 @@
   {
     "id": "fis-3d3b8340",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 48 anos em consulta de rotina. IMC 33 kg/m², circunferência abdominal aumentada, PA 148/94 mmHg. Exames: glicemia de jejum 118 mg/dL, triglicerídeos 240 mg/dL, HDL 38 mg/dL. Ultrassom abdominal com esteatose hepática.\n\na) Qual síndrome ela apresenta e quais são seus componentes segundo o material?\nb) Explique o mecanismo pelo qual a obesidade contribui para a hipertensão.\nc) Por que a dislipidemia dessa paciente aumenta o risco coronariano?\nd) Cite outras três repercussões da obesidade descritas no material, além das já presentes no caso.",
@@ -578,6 +638,7 @@
   {
     "id": "fis-656d5fdc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a relação entre obesidade e câncer, assinale a alternativa INCORRETA:",
@@ -594,6 +655,7 @@
   {
     "id": "fis-bbaef060",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Descreva o eixo tireoidiano, do hipotálamo à célula folicular, incluindo:\na) a via de sinalização intracelular ativada pelo TSH ao se ligar ao seu receptor;\nb) o que a célula folicular converte e em quais hormônios, e como eles circulam;\nc) o que são as células parafoliculares e qual hormônio produzem, com sua função.",
@@ -602,6 +664,7 @@
   {
     "id": "fis-18d9be01",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 37 anos, previamente hígida, procura a clínica por emagrecimento não intencional de 7,5 kg em três meses, mantendo apetite excelente. Refere insônia, irritabilidade e intolerância ao calor, com sudorese aumentada. Ao exame: FC 108 bpm, PA 142/82 mmHg, olhar fixo com olhos protuberantes, tireoide grande, lisa e indolor, pele quente, tremor fino de extremidades e sopro de ejeção sistólico 2/6.\n\na) Qual o diagnóstico e o autoantígeno envolvido?\nb) Qual o resultado esperado de TSH e T4 livre? Como se completa a investigação?\nc) Explique o mecanismo da taquicardia, da perda de peso, do bócio e da fraqueza muscular.\nd) Cite as quatro modalidades de tratamento descritas.\ne) Qual hipótese é levantada no material sobre o gatilho da produção do autoanticorpo?",
@@ -610,6 +673,7 @@
   {
     "id": "fis-77f90e97",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o hipertireoidismo, assinale a alternativa INCORRETA:",
@@ -626,6 +690,7 @@
   {
     "id": "fis-af2769bd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 52 anos refere ganho de peso, intolerância ao frio, constipação, pele seca e escamosa, cabelo ressecado e escasso, esquecimento e parestesias das mãos e dos pés. Ao exame: edema de face, bradicardia e aumento indolor da tireoide.\n\na) Qual o diagnóstico e a causa mais provável?\nb) Qual o resultado esperado de TSH e T4 livre?\nc) Como se confirma laboratorialmente a etiologia?\nd) Descreva os achados histopatológicos da glândula.\ne) Por que há bócio se a glândula está hipofuncionante?",
@@ -634,6 +699,7 @@
   {
     "id": "fis-309d772b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe o quadro ao padrão laboratorial:\n\nQuadro\n1 Doença de Graves\n2 Tireoidite de Hashimoto\n3 Hipotireoidismo secundário\n\nPadrão\n( ) TSH baixo e T4 livre baixo — a falha está na hipófise/hipotálamo\n( ) TSH indetectável e T4 livre elevado\n( ) TSH elevado e T4 livre diminuído",
@@ -642,6 +708,7 @@
   {
     "id": "fis-8c887b49",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a) Cite as três zonas do córtex adrenal e sua localização relativa.\nb) Indique qual classe de esteroide é produzida em cada zona, com o principal representante.\nc) Qual zona constitui cerca de 75% do córtex?\nd) Do que é composta a medula adrenal e o que ela secreta?",
@@ -650,6 +717,7 @@
   {
     "id": "fis-ed1e350c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 58 anos vai ao consultório após quase desmaiar. Relata fadiga progressiva há vários meses, dor abdominal leve e intermitente, perda de apetite e emagrecimento de 5 a 7,5 kg. Ao exame: temperatura 37,7 °C, FC 102 bpm, PA 89/62 mmHg, que cai para 70 mmHg de sistólica ao ficar de pé, com FC subindo para 125. Está bronzeada, com os sulcos das mãos hiperpigmentados. Laboratório: Na 121 mEq/L, K 5,8 mEq/L, HCO₃ 16 mEq/L, glicemia 52 mg/dL.\n\na) Qual o diagnóstico e a causa mais comum?\nb) Qual o comportamento do ACTH e por quê?\nc) Explique cada alteração laboratorial pelo hormônio que está faltando.\nd) Por que a doença \"começa insidiosamente e não chama a atenção\" até fase avançada?",
@@ -658,6 +726,7 @@
   {
     "id": "fis-1fccedec",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique por que a insuficiência adrenal primária cursa com hiperpigmentação e hipercalemia, enquanto a secundária não apresenta nenhuma das duas.",
@@ -666,6 +735,7 @@
   {
     "id": "fis-d094e5e5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 44 anos apresenta ganho de peso com obesidade de tronco, rosto arredondado e acúmulo de gordura na parte posterior do pescoço. Refere fraqueza para subir escadas e levantar-se da cadeira. Ao exame: estrias abdominais largas, pele fina que se machuca com facilidade, PA 156/98 mmHg. Laboratório: glicemia de jejum 142 mg/dL e glicosúria. Densitometria com osteoporose. Relata três episódios de infecção nos últimos seis meses.\n\na) Qual o diagnóstico?\nb) Explique o mecanismo da fraqueza proximal e por que ela é proximal.\nc) Explique o mecanismo da hiperglicemia, das estrias e da osteoporose.\nd) Por que essa paciente tem infecções de repetição?",
@@ -674,6 +744,7 @@
   {
     "id": "fis-d41082dd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as causas de hipercortisolismo, assinale a alternativa INCORRETA:",
@@ -690,6 +761,7 @@
   {
     "id": "fis-8bce4032",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo celular das ilhotas de Langerhans ao seu produto e função:\n\nCélula\n1 Célula β\n2 Célula α\n3 Célula δ\n4 Célula PP\n\nProduto e função\n( ) Somatostatina, que suprime tanto a liberação de insulina quanto a de glucagon\n( ) Glucagon, que estimula a glicogenólise hepática e aumenta o açúcar no sangue\n( ) Polipeptídeo pancreático, responsável por diversos efeitos gastrointestinais\n( ) Insulina, que regula a utilização da glicose nos tecidos e reduz a glicemia",
@@ -698,6 +770,7 @@
   {
     "id": "fis-51b14f94",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Jovem de 18 anos é levada à emergência confusa e com comportamento estranho. A mãe relata perda não intencional de 10 kg, fadiga há 2–3 semanas e que a filha vem se levantando várias vezes à noite para urinar. Na manhã da consulta queixou-se de dor abdominal e vomitou. Ao exame: magra, afebril, FC 118 bpm, respiração profunda a 24 mpm, mucosa oral seca, veias do pescoço planas. Laboratório: glicemia 475 mg/dL, Na 131, K 5,3, CO₂ 9 mEq/L, pH 7,12, pCO₂ 24 mmHg. Urina com 3+ de glicose e 3+ de cetonas.\n\na) Qual o diagnóstico e o tipo de diabetes que ele provavelmente inaugura?\nb) Qual a tríade clássica de apresentação desse tipo de diabetes?\nc) Explique a cadeia que leva da deficiência de insulina à acidose e à hipovolemia.\nd) Qual o nome e o significado do padrão respiratório apresentado?\ne) Qual o mecanismo imunológico e quais autoanticorpos estão envolvidos?",
@@ -706,6 +779,7 @@
   {
     "id": "fis-e35b6f36",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 52 anos, assintomática, comparece a exame de rotina. IMC 29 kg/m², PA 140/92 mmHg, história familiar de diabetes e hipertensão em mãe e irmão. Ao exame, acantose nigricans no pescoço. Glicemia de jejum: 140 mg/dL.\n\na) Qual o diagnóstico e quais os dois defeitos metabólicos primordiais desse tipo de diabetes?\nb) O valor da glicemia preenche critério diagnóstico? Justifique.\nc) Explique o significado fisiopatológico da acantose nigricans.\nd) Como se diferencia a deficiência de insulina desse tipo em relação ao tipo 1?",
@@ -714,6 +788,7 @@
   {
     "id": "fis-a6df78ac",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o diagnóstico e o monitoramento do diabetes, assinale a alternativa INCORRETA:",
@@ -730,6 +805,7 @@
   {
     "id": "fis-6714633c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Sobre o diabetes melito gestacional:\na) Explique o mecanismo pelo qual a placenta contribui para a hiperglicemia.\nb) Em que período da gestação costuma ser diagnosticado?\nc) Cite cinco fatores de risco descritos no material.",
@@ -738,6 +814,7 @@
   {
     "id": "fis-acd707ff",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "a) Classifique as complicações crônicas do diabetes descritas no material, separando os distúrbios da microcirculação das complicações macrovasculares.\nb) Cite a complicação relacionada ao trato gastrointestinal e a complicação de membros inferiores.\nc) Explique, em uma frase, por que o controle glicêmico estrito reduz as complicações microvasculares.",
@@ -746,6 +823,7 @@
   {
     "id": "fis-3599f85e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as fases do ciclo cardíaco definidas pelo estado das valvas, assinale a alternativa INCORRETA:",
@@ -762,6 +840,7 @@
   {
     "id": "fis-77e92a84",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A primeira bulha cardíaca (B1) corresponde ao:",
@@ -777,6 +856,7 @@
   {
     "id": "fis-d686ebcc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre o sistema de condução cardíaca e sua tradução eletrocardiográfica, julgue os itens:\n\n( ) O nó sinoatrial é o marca-passo fisiológico por ter a maior frequência intrínseca de despolarização.\n( ) O atraso na condução pelo nó atrioventricular permite que o átrio termine de esvaziar antes da contração ventricular.\n( ) O complexo QRS representa a repolarização ventricular.\n( ) O segmento ST corresponde à repolarização atrial.\n( ) O intervalo PR reflete o tempo entre o início da despolarização atrial e o início da despolarização ventricular.",
@@ -785,6 +865,7 @@
   {
     "id": "fis-138a12af",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Partindo de PA = DC × RVP, sendo DC = FC × volume sistólico, responda:\na) Por que o infarto agudo do miocárdio extenso causa hipotensão?\nb) Por que a perda da capacidade de relaxamento vascular causa hipertensão?\nc) Em um paciente em choque hipovolêmico com taquicardia, qual variável está caindo e qual tenta compensar?",
@@ -793,6 +874,7 @@
   {
     "id": "fis-c83ccf08",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que não corresponde a um dos mecanismos gerais de disfunção cardiovascular:",
@@ -809,6 +891,7 @@
   {
     "id": "fis-38e7f651",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os mecanismos compensatórios da insuficiência cardíaca, assinale a alternativa INCORRETA:",
@@ -825,6 +908,7 @@
   {
     "id": "fis-8c131d86",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique por que os mecanismos compensatórios da insuficiência cardíaca, embora inicialmente úteis, tornam-se deletérios com o tempo. Cite pelo menos três exemplos de mecanismo que se volta contra o coração.",
@@ -833,6 +917,7 @@
   {
     "id": "fis-520ea50a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com insuficiência cardíaca apresenta dispneia aos esforços, ortopneia, dispneia paroxística noturna e estertores crepitantes bibasais. Esse conjunto traduz predominantemente:",
@@ -848,6 +933,7 @@
   {
     "id": "fis-b3f0e6b6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São manifestações da insuficiência cardíaca direita, EXCETO:",
@@ -864,6 +950,7 @@
   {
     "id": "fis-c4122394",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a distinção entre insuficiência cardíaca sistólica e diastólica, assinale a alternativa correta:",
@@ -880,6 +967,7 @@
   {
     "id": "fis-65ec2a44",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O cor pulmonale é definido como:",
@@ -895,6 +983,7 @@
   {
     "id": "fis-cb6b7a3b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na insuficiência cardíaca, a presença de terceira bulha (B3) indica:",
@@ -910,6 +999,7 @@
   {
     "id": "fis-ff0766d7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada achado ao mecanismo fisiopatológico correspondente:\n\n1. Ortopneia\n2. Turgência jugular\n3. Nictúria\n4. Fadiga e intolerância ao esforço\n5. Caquexia cardíaca\n\n( ) Redistribuição do fluido dos membros inferiores para o tórax em decúbito, aumentando a congestão pulmonar.\n( ) Elevação da pressão venosa central transmitida ao sistema jugular pela falência do ventrículo direito.\n( ) Reabsorção do edema periférico durante o decúbito noturno, com aumento do retorno venoso e da filtração renal.\n( ) Incapacidade de elevar o débito cardíaco proporcionalmente à demanda muscular.\n( ) Estado inflamatório crônico, congestão intestinal com má absorção e aumento do gasto energético.",
@@ -918,6 +1008,7 @@
   {
     "id": "fis-9265fbac",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a hipertrofia miocárdica como resposta à sobrecarga, assinale a INCORRETA:",
@@ -934,6 +1025,7 @@
   {
     "id": "fis-281742b6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 68 anos, hipertenso de longa data e sem seguimento, refere dispneia progressiva há seis meses, hoje aos pequenos esforços, além de ortopneia de dois travesseiros. Ao exame: PA 168/104 mmHg, FC 92 bpm, estertores crepitantes em bases, ictus desviado e propulsivo, B4 audível, sem sopros significativos. Ecocardiograma: fração de ejeção 58%, hipertrofia concêntrica do ventrículo esquerdo, relação E/A alterada.\n\na) Qual o tipo de insuficiência cardíaca e como se explica a dispneia com fração de ejeção normal?\nb) Explique a cadeia que liga a hipertensão não tratada a esse quadro.\nc) Por que há B4 e o que ela significa?",
@@ -942,6 +1034,7 @@
   {
     "id": "fis-83161153",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O peptídeo natriurético tipo B (BNP) eleva-se na insuficiência cardíaca porque:",
@@ -957,6 +1050,7 @@
   {
     "id": "fis-b3307d1f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre a classificação e a avaliação da insuficiência cardíaca, julgue os itens:\n\n( ) A classificação funcional da NYHA baseia-se no grau de limitação imposto pelos sintomas às atividades cotidianas.\n( ) A insuficiência cardíaca de alto débito ocorre em situações como tireotoxicose, anemia grave e fístulas arteriovenosas.\n( ) A fração de ejeção normal exclui o diagnóstico de insuficiência cardíaca.\n( ) A congestão pulmonar na IC decorre do aumento da pressão hidrostática capilar pulmonar.\n( ) A dispneia paroxística noturna melhora tipicamente em segundos ao se sentar, diferentemente da ortopneia.",
@@ -965,6 +1059,7 @@
   {
     "id": "fis-6d31ea6c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a hipertensão arterial sistêmica, assinale a alternativa INCORRETA:",
@@ -981,6 +1076,7 @@
   {
     "id": "fis-0a6ef957",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 39 anos com diagnóstico recente de hipertensão chega ao pronto-socorro confuso, com cefaleia intensa e visão turva. PA 230/140 mmHg, fundoscopia com papiledema e hemorragias em chama de vela; creatinina elevada em relação a exames prévios.\n\na) Qual a síndrome e o que a diferencia de uma urgência hipertensiva?\nb) Explique o mecanismo da encefalopatia hipertensiva.\nc) Cite dois outros órgãos-alvo que devem ser avaliados e o achado esperado em cada um.",
@@ -989,6 +1085,7 @@
   {
     "id": "fis-a9a12f75",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A causa da isquemia miocárdica em mais de 90% dos casos é:",
@@ -1005,6 +1102,7 @@
   {
     "id": "fis-46c09093",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a angina estável, assinale a alternativa INCORRETA:",
@@ -1021,6 +1119,7 @@
   {
     "id": "fis-7823170c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada forma clínica de doença isquêmica à sua característica definidora:\n\n1. Angina estável\n2. Angina instável\n3. Angina de Prinzmetal\n4. Infarto agudo do miocárdio\n5. Isquemia silenciosa\n\n( ) Dor previsível ao esforço, aliviada pelo repouso, sem necrose.\n( ) Dor em repouso ou em limiar progressivamente menor, de início recente, sem elevação de marcadores.\n( ) Dor em repouso por espasmo coronariano, tipicamente com supradesnivelamento transitório de ST.\n( ) Necrose de miócitos com elevação de marcadores bioquímicos.\n( ) Isquemia documentada por exame, sem qualquer sintoma referido pelo paciente.",
@@ -1029,6 +1128,7 @@
   {
     "id": "fis-5c24e645",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a aterosclerose, assinale a alternativa correta:",
@@ -1045,6 +1145,7 @@
   {
     "id": "fis-b56b653e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A oclusão da artéria descendente anterior esquerda produz infarto tipicamente em qual território?",
@@ -1060,6 +1161,7 @@
   {
     "id": "fis-36a0049b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre a cronologia da lesão isquêmica miocárdica, julgue os itens:\n\n( ) A interrupção do fluxo leva em segundos à mudança do metabolismo aeróbio para anaeróbio, com queda do ATP e acúmulo de lactato.\n( ) A lesão torna-se irreversível já nos primeiros cinco minutos de oclusão completa.\n( ) A necrose progride da região subendocárdica para a subepicárdica, em frente de onda.\n( ) A reperfusão é sempre isenta de dano adicional ao miocárdio.\n( ) O infarto transmural compromete toda a espessura da parede e associa-se tipicamente a supradesnivelamento de ST.",
@@ -1068,6 +1170,7 @@
   {
     "id": "fis-6d0bc5de",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os marcadores bioquímicos do infarto agudo do miocárdio, assinale a INCORRETA:",
@@ -1084,6 +1187,7 @@
   {
     "id": "fis-987038f3",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 56 anos chega ao pronto-socorro com dor retroesternal em aperto há 50 minutos, irradiada para o membro superior esquerdo e mandíbula, com sudorese fria e náuseas. Hipertenso, dislipidêmico e tabagista. ECG com supradesnivelamento de ST em V1–V4.\n\na) Qual o diagnóstico e o território provável?\nb) Explique a cadeia fisiopatológica desde a placa até o supradesnivelamento de ST.\nc) Por que o tempo é decisivo nesse quadro?",
@@ -1092,6 +1196,7 @@
   {
     "id": "fis-5a21ad6f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em relação às complicações mecânicas do infarto agudo do miocárdio, assinale a alternativa INCORRETA:",
@@ -1108,6 +1213,7 @@
   {
     "id": "fis-efae59e8",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre os mecanismos das arritmias, assinale a alternativa INCORRETA:",
@@ -1124,6 +1230,7 @@
   {
     "id": "fis-e5972af6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na síndrome de Wolff-Parkinson-White, o substrato anatômico é:",
@@ -1139,6 +1246,7 @@
   {
     "id": "fis-63b80998",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a fibrilação atrial, assinale a alternativa INCORRETA:",
@@ -1155,6 +1263,7 @@
   {
     "id": "fis-ffb3302d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre as manifestações e repercussões das arritmias, julgue os itens:\n\n( ) Palpitações, tontura, síncope e morte súbita são formas possíveis de apresentação.\n( ) A taquicardia excessiva pode reduzir o débito cardíaco por encurtamento do tempo de enchimento diastólico.\n( ) A bradicardia grave compromete o débito porque, com volume sistólico fixo, o produto FC × VS cai.\n( ) A fibrilação ventricular gera contração organizada e débito reduzido, porém suficiente para manter a consciência.\n( ) A síncope de origem arrítmica costuma ser súbita, sem pródromos, com recuperação rápida.",
@@ -1163,6 +1272,7 @@
   {
     "id": "fis-41a2e54a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A causa mais frequente de morte súbita cardíaca em adultos é:",
@@ -1179,6 +1289,7 @@
   {
     "id": "fis-9a36bfe2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a diferença conceitual entre estenose e insuficiência valvar, é correto afirmar que:",
@@ -1194,6 +1305,7 @@
   {
     "id": "fis-0573719a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A tríade clássica da estenose aórtica é composta por:",
@@ -1209,6 +1321,7 @@
   {
     "id": "fis-cd95d75e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 26 anos, com história de febre reumática na adolescência, está no segundo trimestre de gestação e procura atendimento por dispneia progressiva, ortopneia e um episódio de hemoptise. Ausculta: B1 hiperfonética, estalido de abertura e sopro diastólico em ruflar no foco mitral. Ritmo irregularmente irregular.\n\na) Qual a valvopatia e sua causa?\nb) Explique por que a gestação descompensou o quadro.\nc) Explique o mecanismo da hemoptise e o significado do ritmo irregular.",
@@ -1217,6 +1330,7 @@
   {
     "id": "fis-46fb5062",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada valvopatia ao seu achado auscultatório característico:\n\n1. Estenose aórtica\n2. Insuficiência aórtica\n3. Estenose mitral\n4. Insuficiência mitral\n\n( ) Sopro mesossistólico em crescendo-decrescendo, no foco aórtico, irradiado para carótidas.\n( ) Sopro protodiastólico aspirativo, em decrescendo, na borda esternal esquerda, com pressão de pulso alargada.\n( ) Sopro diastólico em ruflar com reforço pré-sistólico, B1 hiperfonética e estalido de abertura.\n( ) Sopro holossistólico em foco mitral, irradiado para a axila.",
@@ -1225,6 +1339,7 @@
   {
     "id": "fis-135b02b9",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A B1 hiperfonética na estenose mitral é explicada por:",
@@ -1240,6 +1355,7 @@
   {
     "id": "fis-1817d0e1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a estenose aórtica calcificada do idoso, assinale a alternativa INCORRETA:",
@@ -1256,6 +1372,7 @@
   {
     "id": "fis-e084f4a6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Assinale a alternativa que associa corretamente o tipo de choque ao seu mecanismo:",
@@ -1271,6 +1388,7 @@
   {
     "id": "fis-7e745a7c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente em choque séptico apresenta extremidades quentes, pressão de pulso alargada e tempo de enchimento capilar normal na fase inicial. Isso se explica por:",
@@ -1286,6 +1404,7 @@
   {
     "id": "fis-c1580dbc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre as respostas compensatórias ao choque hipovolêmico, julgue os itens:\n\n( ) A taquicardia é uma das primeiras respostas e visa manter o débito cardíaco diante da queda do volume sistólico.\n( ) A pressão arterial cai precocemente, antes de qualquer sinal de vasoconstrição periférica.\n( ) A ativação do sistema renina-angiotensina-aldosterona promove retenção de sódio e água e vasoconstrição.\n( ) A redistribuição do fluxo prioriza cérebro e coração em detrimento de pele, músculo, rim e trato gastrointestinal.\n( ) A acidose láctica no choque reflete metabolismo anaeróbio por hipoperfusão tecidual.",
@@ -1294,6 +1413,7 @@
   {
     "id": "fis-6a258ff7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a tríade de Virchow, assinale a alternativa correta:",
@@ -1309,6 +1429,7 @@
   {
     "id": "fis-8ff60b6c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o aneurisma de aorta abdominal, assinale a alternativa INCORRETA:",
@@ -1325,6 +1446,7 @@
   {
     "id": "fis-9ce0099d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A claudicação intermitente da doença arterial obstrutiva periférica caracteriza-se por:",
@@ -1340,6 +1462,7 @@
   {
     "id": "fis-7b94a2dc",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o edema, assinale a alternativa INCORRETA:",
@@ -1356,6 +1479,7 @@
   {
     "id": "fis-9f4b85ce",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Um paciente com insuficiência cardíaca descompensada apresenta oligúria, ureia e creatinina em elevação e piora da congestão. Explique, pela fisiopatologia, por que o rim 'entende' a situação como hipovolemia e por que essa leitura agrava o quadro.",
@@ -1364,6 +1488,7 @@
   {
     "id": "fis-37e2664c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A pressão de pulso alargada, com pressão sistólica elevada e diastólica muito baixa, é achado característico de:",
@@ -1379,6 +1504,7 @@
   {
     "id": "fis-7d2b41aa",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o tamponamento cardíaco, assinale a alternativa INCORRETA:",
@@ -1395,6 +1521,7 @@
   {
     "id": "fis-5c9c6f72",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre choque cardiogênico e suas repercussões, julgue os itens:\n\n( ) A causa mais frequente é o infarto agudo do miocárdio extenso, geralmente com perda de mais de 40% da massa do ventrículo esquerdo.\n( ) Cursa com extremidades frias, oligúria, confusão mental e lactato elevado.\n( ) A pressão venosa central e as pressões de enchimento tendem a estar reduzidas.\n( ) A reposição volêmica agressiva é a primeira medida em todos os casos, independentemente do padrão hemodinâmico.\n( ) A mortalidade permanece elevada mesmo com terapia moderna de reperfusão.",
@@ -1403,6 +1530,7 @@
   {
     "id": "fis-8be57c7c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A miocardiopatia dilatada caracteriza-se por:",
@@ -1418,6 +1546,7 @@
   {
     "id": "fis-2988c845",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na miocardiopatia hipertrófica obstrutiva, a síncope aos esforços ocorre porque:",
@@ -1433,6 +1562,7 @@
   {
     "id": "fis-e307b5f0",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São marcadores de gravidade e mau prognóstico na insuficiência cardíaca, EXCETO:",
@@ -1449,6 +1579,7 @@
   {
     "id": "fis-27a9dfae",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a febre reumática, assinale a alternativa correta:",
@@ -1464,6 +1595,7 @@
   {
     "id": "fis-13964c97",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 72 anos tem episódio de síncope súbita, sem pródromos e sem convulsões, ao subir escadas. Nos últimos meses vinha notando dispneia aos esforços e dor torácica opressiva ao caminhar rápido. Ao exame: pulso carotídeo de baixa amplitude e ascensão lenta, sopro mesossistólico rude irradiado para as carótidas, B4 presente.\n\na) Qual o diagnóstico mais provável?\nb) Explique o mecanismo dos três sintomas apresentados.\nc) Por que o pulso é parvus et tardus?",
@@ -1472,6 +1604,7 @@
   {
     "id": "fis-07bf28f5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a mecânica da ventilação, assinale a alternativa INCORRETA:",
@@ -1488,6 +1621,7 @@
   {
     "id": "fis-eee2ee38",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Compare os padrões obstrutivo e restritivo quanto ao problema mecânico predominante, à capacidade pulmonar total, ao volume residual, ao VEF1, à CVF e à relação VEF1/CVF. Explique por que a relação VEF1/CVF pode estar normal ou aumentada no padrão restritivo.",
@@ -1496,6 +1630,7 @@
   {
     "id": "fis-3d6d237f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre enfisema e bronquite crônica, assinale a alternativa INCORRETA:",
@@ -1512,6 +1647,7 @@
   {
     "id": "fis-32ec4b5d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 58 anos, fumante de dois maços por dia desde os 15 anos, refere dispneia hoje aos mínimos esforços e em repouso, com tosse produtiva matinal ao longo de todo o ano. Ao exame: FR 28 mpm, sentado inclinado para a frente com os braços apoiados nos joelhos, lábios cianóticos, uso de musculatura acessória, tórax com diâmetro anteroposterior aumentado, retração dos arcos costais inferiores à inspiração, sibilos e roncos difusos sem crepitantes, bulhas hipofonéticas.\n\na) Qual o diagnóstico e quais os dois componentes fisiopatológicos?\nb) Explique o tórax em tonel e a hipofonese de bulhas.\nc) Qual o exame imediato e o que ele informa?\nd) Cite quatro complicações crônicas da hipoxemia nessa doença.",
@@ -1520,6 +1656,7 @@
   {
     "id": "fis-ac6ee283",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O sinal de Hoover — retração dos arcos costais inferiores durante a inspiração — ocorre na DPOC avançada porque:",
@@ -1535,6 +1672,7 @@
   {
     "id": "fis-3d22c21a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Considerando que o bicarbonato é o componente metabólico e a PaCO₂ o componente respiratório, julgue os itens:\n\n( ) Bicarbonato baixo indica acidose metabólica, e a compensação esperada é hiperventilação com queda da PaCO₂.\n( ) PaCO₂ elevada indica acidose respiratória por hipoventilação, e a compensação é renal, com retenção de bicarbonato.\n( ) Bicarbonato elevado indica alcalose respiratória.\n( ) PaCO₂ baixa indica alcalose respiratória, com o paciente hiperventilando.\n( ) Na alcalose metabólica a compensação esperada é hipoventilação, com retenção de CO₂.",
@@ -1543,6 +1681,7 @@
   {
     "id": "fis-d12ee8bf",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com DPOC apresenta pH 7,33, PaCO₂ 62 mmHg, bicarbonato 32 mEq/L e PaO₂ 55 mmHg. A interpretação correta é:",
@@ -1558,6 +1697,7 @@
   {
     "id": "fis-a7d7da03",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a asma, assinale a alternativa INCORRETA:",
@@ -1574,6 +1714,7 @@
   {
     "id": "fis-cd89b1aa",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Em uma crise asmática grave, o desaparecimento dos sibilos com aumento do esforço respiratório indica:",
@@ -1589,6 +1730,7 @@
   {
     "id": "fis-cd0e16c6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A bronquiectasia caracteriza-se por:",
@@ -1604,6 +1746,7 @@
   {
     "id": "fis-c2b08fdd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo de atelectasia ao seu mecanismo:\n\n1. Obstrutiva (por reabsorção)\n2. Compressiva\n3. Por contração (cicatricial)\n4. Adesiva\n\n( ) Rolha de secreção ou tumor bloqueia o brônquio; o ar distal é reabsorvido e o segmento colaba.\n( ) Derrame pleural volumoso ou pneumotórax empurra o parênquima e reduz seu volume.\n( ) Fibrose do parênquima ou da pleura impede a expansão plena do pulmão.\n( ) Deficiência de surfactante aumenta a tensão superficial e colaba os alvéolos.",
@@ -1612,6 +1755,7 @@
   {
     "id": "fis-6f343798",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as pneumonias, assinale a alternativa INCORRETA:",
@@ -1628,6 +1772,7 @@
   {
     "id": "fis-682f8bc6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com pneumonia evolui com derrame pleural volumoso, febre persistente e piora clínica. A toracocentese revela líquido turvo, pH 7,0, glicose baixa e presença de bactérias. O diagnóstico é:",
@@ -1643,6 +1788,7 @@
   {
     "id": "fis-1a9ac5ea",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Segundo os critérios que separam transudato de exsudato, o derrame é exsudativo quando:",
@@ -1658,6 +1804,7 @@
   {
     "id": "fis-71b54aa2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 48 anos, em pós-operatório de artroplastia de quadril há 6 dias, apresenta dispneia súbita, dor torácica pleurítica e taquicardia. Ao exame: FR 30 mpm, FC 118 bpm, SpO₂ 88% em ar ambiente, ausculta pulmonar sem alterações significativas.\n\na) Qual a principal hipótese e por quê?\nb) Explique a tríade de Virchow aplicada a este caso.\nc) Explique por que a ausculta pode ser normal e por que há hipoxemia.",
@@ -1666,6 +1813,7 @@
   {
     "id": "fis-0c616534",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No tromboembolismo pulmonar maciço, a instabilidade hemodinâmica decorre principalmente de:",
@@ -1681,6 +1829,7 @@
   {
     "id": "fis-4f1745d5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a síndrome do desconforto respiratório agudo (SARA), assinale a alternativa INCORRETA:",
@@ -1697,6 +1846,7 @@
   {
     "id": "fis-7d122c3c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A insuficiência respiratória do tipo II (hipercápnica) caracteriza-se por:",
@@ -1712,6 +1862,7 @@
   {
     "id": "fis-ea73080e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada mecanismo de hipoxemia ao exemplo clínico correspondente:\n\n1. Hipoventilação\n2. Distúrbio de difusão\n3. Desequilíbrio V/Q\n4. Shunt verdadeiro\n5. Baixa pressão inspirada de O₂\n\n( ) Intoxicação por opioides com depressão do centro respiratório.\n( ) Fibrose pulmonar com espessamento da membrana alveolocapilar.\n( ) DPOC com áreas hiperinsufladas mal perfundidas e áreas perfundidas mal ventiladas.\n( ) Consolidação pneumônica extensa, com alvéolos perfundidos e completamente preenchidos por exsudato.\n( ) Permanência em grande altitude.",
@@ -1720,6 +1871,7 @@
   {
     "id": "fis-484d9f4c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente de 79 anos, diabético, hipertenso e tabagista de longa data, internado por DPOC exacerbado, evolui no 3º dia com tosse espessa e de difícil expectoração e, no 5º dia, com piora súbita da dispneia. A radiografia mostra opacidade com perda de volume no hemitórax direito. A causa mais provável é:",
@@ -1735,6 +1887,7 @@
   {
     "id": "fis-a6e65aea",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre semiologia e correlação fisiopatológica no aparelho respiratório, julgue os itens:\n\n( ) Na consolidação pneumônica o frêmito toracovocal está aumentado e a percussão é maciça.\n( ) No derrame pleural o frêmito está abolido e a percussão é maciça.\n( ) No pneumotórax a percussão é maciça e o murmúrio vesicular está aumentado.\n( ) Os sibilos indicam obstrução de vias aéreas de pequeno calibre.\n( ) A espirometria é essencial para diferenciar doenças pulmonares crônicas restritivas de obstrutivas.",
@@ -1743,6 +1896,7 @@
   {
     "id": "fis-9a2570f7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O baqueteamento digital é achado associado a:",
@@ -1758,6 +1912,7 @@
   {
     "id": "fis-a81b93cd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a hipertensão pulmonar secundária à DPOC, assinale a alternativa correta:",
@@ -1773,6 +1928,7 @@
   {
     "id": "fis-5c41b2ef",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A cianose central diferencia-se da periférica por:",
@@ -1788,6 +1944,7 @@
   {
     "id": "fis-cd8336af",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a influenza e suas complicações respiratórias, assinale a alternativa INCORRETA:",
@@ -1804,6 +1961,7 @@
   {
     "id": "fis-2a6e14c7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São causas de padrão restritivo pulmonar, EXCETO:",
@@ -1820,6 +1978,7 @@
   {
     "id": "fis-3497af24",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "Explique por que a oferta de oxigênio em alta concentração pode agravar a retenção de CO₂ em alguns pacientes com DPOC grave, e por que isso não justifica deixar o paciente hipoxêmico.",
@@ -1828,6 +1987,7 @@
   {
     "id": "fis-18e62308",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a tuberculose pulmonar, assinale a alternativa INCORRETA:",
@@ -1844,6 +2004,7 @@
   {
     "id": "fis-80243ed1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No pneumotórax hipertensivo, o mecanismo que leva ao colapso hemodinâmico é:",
@@ -1859,6 +2020,7 @@
   {
     "id": "fis-8b4ec981",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O edema agudo de pulmão cardiogênico distingue-se do não cardiogênico principalmente por:",
@@ -1874,6 +2036,7 @@
   {
     "id": "fis-e7dc94be",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respiração de Cheyne-Stokes, com ciclos crescendo-decrescendo alternados com apneia, é típica de:",
@@ -1889,6 +2052,7 @@
   {
     "id": "fis-16066215",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A respiração de Kussmaul caracteriza-se por:",
@@ -1904,6 +2068,7 @@
   {
     "id": "fis-29cf4857",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre difusão e transporte de gases, julgue os itens:\n\n( ) O CO₂ difunde-se cerca de 20 vezes mais facilmente que o O₂ através da membrana alveolocapilar.\n( ) A curva de dissociação da hemoglobina desvia-se para a direita com acidose, hipertermia e aumento do 2,3-DPG.\n( ) A maior parte do CO₂ é transportada dissolvida no plasma.\n( ) A saturação de oxigênio mantém-se relativamente alta até PaO₂ em torno de 60 mmHg, caindo abruptamente abaixo desse valor.\n( ) O monóxido de carbono desloca a curva para a direita e facilita a entrega de oxigênio.",
@@ -1912,6 +2077,7 @@
   {
     "id": "fis-0d34af53",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A oximetria de pulso pode superestimar a oxigenação real em qual das situações abaixo?",
@@ -1927,6 +2093,7 @@
   {
     "id": "fis-b067fb2d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a fibrose pulmonar idiopática, assinale a alternativa correta:",
@@ -1942,6 +2109,7 @@
   {
     "id": "fis-dc3e0c2a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A apneia obstrutiva do sono relaciona-se à hipertensão arterial porque:",
@@ -1957,6 +2125,7 @@
   {
     "id": "fis-62e42c50",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada achado radiológico ao seu substrato fisiopatológico:\n\n1. Opacidade homogênea com broncograma aéreo\n2. Hipertransparência com ausência de trama vascular periférica\n3. Opacidade com desvio do mediastino para o mesmo lado\n4. Opacidade homogênea com menisco e desvio contralateral\n\n( ) Alvéolos preenchidos por exsudato, com vias aéreas ainda pérvias.\n( ) Ar no espaço pleural com colapso do parênquima.\n( ) Perda de volume do parênquima por colapso, tracionando estruturas vizinhas.\n( ) Líquido no espaço pleural, ocupando espaço e empurrando o mediastino.",
@@ -1965,6 +2134,7 @@
   {
     "id": "fis-d23d951d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a eritrocitose secundária na DPOC avançada, assinale a alternativa correta:",
@@ -1980,6 +2150,7 @@
   {
     "id": "fis-e12d34c3",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o transporte mucociliar, assinale a alternativa INCORRETA:",
@@ -1996,6 +2167,7 @@
   {
     "id": "fis-b93b3722",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um paciente restritivo por doença neuromuscular progressiva evolui com hipercapnia. O mecanismo é:",
@@ -2011,6 +2183,7 @@
   {
     "id": "fis-7b02149f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a regulação hormonal, assinale a alternativa INCORRETA:",
@@ -2027,6 +2200,7 @@
   {
     "id": "fis-f4cbe631",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O adenoma hipofisário produtor de prolactina, em uma mulher em idade fértil, manifesta-se tipicamente por:",
@@ -2042,6 +2216,7 @@
   {
     "id": "fis-9549f4a5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a acromegalia, assinale a alternativa INCORRETA:",
@@ -2058,6 +2233,7 @@
   {
     "id": "fis-0887398a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O diabetes insipidus central caracteriza-se por:",
@@ -2073,6 +2249,7 @@
   {
     "id": "fis-c7cbfc98",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na síndrome da secreção inapropriada de ADH (SIADH), espera-se encontrar:",
@@ -2088,6 +2265,7 @@
   {
     "id": "fis-b762efd5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada hormônio hipofisário ao seu alvo principal:\n\n1. TSH\n2. ACTH\n3. FSH e LH\n4. GH\n5. ADH\n\n( ) Glândula tireoide, estimulando síntese e liberação de T3 e T4.\n( ) Córtex adrenal, sobretudo a zona fasciculada produtora de cortisol.\n( ) Gônadas, regulando gametogênese e esteroidogênese.\n( ) Fígado e tecidos periféricos, em boa parte por meio do IGF-1.\n( ) Ducto coletor renal, aumentando a reabsorção de água livre.",
@@ -2096,6 +2274,7 @@
   {
     "id": "fis-0d704db7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No hipotireoidismo primário espera-se encontrar:",
@@ -2111,6 +2290,7 @@
   {
     "id": "fis-f66bb6e8",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São manifestações clínicas do hipotireoidismo, EXCETO:",
@@ -2127,6 +2307,7 @@
   {
     "id": "fis-073a9e39",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a tireoidite de Hashimoto, assinale a alternativa INCORRETA:",
@@ -2143,6 +2324,7 @@
   {
     "id": "fis-27b392d1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 37 anos refere emagrecimento de 8 kg em três meses sem redução do apetite, palpitações, insônia, irritabilidade e intolerância ao calor. Ao exame: FC 118 bpm, PA 148/62 mmHg, tremor fino de extremidades, pele quente e úmida, exoftalmia bilateral e tireoide difusamente aumentada com sopro à ausculta.\n\na) Qual o diagnóstico e a causa mais provável?\nb) Explique a patogênese dessa condição.\nc) Por que há exoftalmia, e por que ela não ocorre em todas as causas de tireotoxicose?",
@@ -2151,6 +2333,7 @@
   {
     "id": "fis-686e9b7c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as repercussões cardiovasculares da tireotoxicose, assinale a alternativa correta:",
@@ -2166,6 +2349,7 @@
   {
     "id": "fis-3e4c12a6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O bócio endêmico por deficiência de iodo forma-se porque:",
@@ -2181,6 +2365,7 @@
   {
     "id": "fis-75a74630",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre fisiologia e patologia tireoidiana, julgue os itens:\n\n( ) O T4 é o hormônio predominantemente secretado, sendo convertido perifericamente em T3, a forma mais ativa.\n( ) O iodo é substrato indispensável para a síntese hormonal.\n( ) No hipotireoidismo o metabolismo basal está aumentado.\n( ) O mixedema é o acúmulo de glicosaminoglicanos na derme, produzindo edema não depressível.\n( ) A crise tireotóxica é quadro benigno, sem risco de morte.",
@@ -2189,6 +2374,7 @@
   {
     "id": "fis-bd0dfdf4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A tireoidite subaguda de De Quervain caracteriza-se por:",
@@ -2204,6 +2390,7 @@
   {
     "id": "fis-918a4b31",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com nódulo tireoidiano e TSH suprimido. Antes de indicar punção aspirativa, o exame que melhor orienta a conduta é:",
@@ -2219,6 +2406,7 @@
   {
     "id": "fis-8d1be93b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a organização funcional do córtex adrenal, assinale a alternativa INCORRETA:",
@@ -2235,6 +2423,7 @@
   {
     "id": "fis-bff698ea",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 30 anos com cefaleia há dois meses. Tabagista. IMC 30 kg/m², com obesidade de predomínio abdominal e estrias violáceas largas. PA 168/98 mmHg, sem variação postural. Refere equimoses com facilidade e nota hirsutismo progressivo.\n\na) Qual o diagnóstico mais provável?\nb) Explique o mecanismo da hipertensão, das estrias e das equimoses.\nc) Como se investiga a origem do excesso hormonal?",
@@ -2243,6 +2432,7 @@
   {
     "id": "fis-2a2cab8c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a insuficiência adrenal primária (doença de Addison), assinale a alternativa INCORRETA:",
@@ -2259,6 +2449,7 @@
   {
     "id": "fis-4daf20a2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O hiperaldosteronismo primário caracteriza-se classicamente por:",
@@ -2274,6 +2465,7 @@
   {
     "id": "fis-158c15b7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com hipertensão paroxística acompanhada de cefaleia, sudorese e palpitações deve levantar a suspeita de:",
@@ -2289,6 +2481,7 @@
   {
     "id": "fis-c127e47d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada distúrbio adrenal ao seu perfil laboratorial característico:\n\n1. Síndrome de Cushing ACTH-dependente\n2. Adenoma adrenal produtor de cortisol\n3. Doença de Addison\n4. Hiperaldosteronismo primário\n\n( ) Cortisol elevado com ACTH normal ou elevado.\n( ) Cortisol elevado com ACTH suprimido.\n( ) Cortisol baixo com ACTH muito elevado, hiponatremia e hipercalemia.\n( ) Aldosterona elevada com renina suprimida e hipocalemia.",
@@ -2297,6 +2490,7 @@
   {
     "id": "fis-e2871e76",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre o cortisol e seus efeitos sistêmicos, julgue os itens:\n\n( ) Aumenta a gliconeogênese hepática e induz resistência periférica à insulina.\n( ) Promove proteólise muscular e redistribuição centrípeta da gordura.\n( ) Tem efeito imunossupressor e anti-inflamatório.\n( ) Sua secreção é constante ao longo das 24 horas, sem variação circadiana.\n( ) Favorece a mineralização óssea e previne fraturas.",
@@ -2305,6 +2499,7 @@
   {
     "id": "fis-7f3a095e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a distinção entre diabetes tipo 1 e tipo 2, assinale a alternativa INCORRETA:",
@@ -2321,6 +2516,7 @@
   {
     "id": "fis-2fa7eac2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Jovem de 19 anos procura atendimento por perda de peso não intencional de 9 kg em dois meses, apesar de apetite aumentado, além de poliúria, noctúria e sede intensa. Glicemia capilar de 384 mg/dL, cetonúria positiva.\n\na) Qual o diagnóstico e o tipo provável?\nb) Explique a poliúria, a polidipsia, a polifagia e a perda de peso a partir da falta de insulina.\nc) Explique como se forma a cetoacidose.",
@@ -2329,6 +2525,7 @@
   {
     "id": "fis-51eb0fa6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o estado hiperosmolar hiperglicêmico, assinale a alternativa correta:",
@@ -2344,6 +2541,7 @@
   {
     "id": "fis-fd17a830",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Um medicamento inibe a enzima que degrada uma substância intestinal que estimula a produção de insulina. O efeito esperado do uso diário desse fármaco é:",
@@ -2359,6 +2557,7 @@
   {
     "id": "fis-54f94b68",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as complicações crônicas do diabetes, assinale a alternativa INCORRETA:",
@@ -2375,6 +2574,7 @@
   {
     "id": "fis-46c841d1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A neuropatia autonômica diabética explica qual das manifestações abaixo?",
@@ -2390,6 +2590,7 @@
   {
     "id": "fis-9c72bfe4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre diagnóstico e monitorização do diabetes, julgue os itens:\n\n( ) Glicemia de jejum igual ou superior a 126 mg/dL, confirmada, estabelece o diagnóstico.\n( ) A hemoglobina glicada reflete a média glicêmica dos últimos dois a três meses.\n( ) Anemias hemolíticas e perdas sanguíneas podem falsear a hemoglobina glicada para baixo.\n( ) A presença de glicosúria é critério diagnóstico suficiente.\n( ) Pré-diabetes inclui glicemia de jejum alterada e tolerância diminuída à glicose.",
@@ -2398,6 +2599,7 @@
   {
     "id": "fis-c714c232",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A resistência à insulina no tecido adiposo visceral contribui para a hiperglicemia porque:",
@@ -2413,6 +2615,7 @@
   {
     "id": "fis-db7104dd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre o pé diabético, assinale a alternativa correta:",
@@ -2428,6 +2631,7 @@
   {
     "id": "fis-4ae74360",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A nefropatia diabética tem como marcador precoce:",
@@ -2443,6 +2647,7 @@
   {
     "id": "fis-121b5d96",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "São componentes da síndrome metabólica, EXCETO:",
@@ -2459,6 +2664,7 @@
   {
     "id": "fis-cb321701",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O tecido adiposo é hoje considerado órgão endócrino porque:",
@@ -2474,6 +2680,7 @@
   {
     "id": "fis-91c4c5f8",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A resistência à leptina na obesidade explica por que:",
@@ -2489,6 +2696,7 @@
   {
     "id": "fis-ceb75f18",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No hiperparatireoidismo primário espera-se encontrar:",
@@ -2504,6 +2712,7 @@
   {
     "id": "fis-b32718b4",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Os sinais de Chvostek e Trousseau relacionam-se a:",
@@ -2519,6 +2728,7 @@
   {
     "id": "fis-ed0ed6cf",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre o metabolismo ósseo e mineral, julgue os itens:\n\n( ) A vitamina D aumenta a absorção intestinal de cálcio e fósforo.\n( ) O PTH estimula a reabsorção óssea por ação indireta sobre os osteoclastos.\n( ) A calcitonina eleva a calcemia por estimular os osteoclastos.\n( ) Na doença renal crônica o hiperparatireoidismo secundário decorre de retenção de fósforo e deficiência de vitamina D ativa.\n( ) A osteoporose caracteriza-se por mineralização inadequada da matriz óssea normal em quantidade.",
@@ -2527,6 +2737,7 @@
   {
     "id": "fis-e124e118",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a mecânica da filtração glomerular e a integridade da barreira, assinale a alternativa INCORRETA:",
@@ -2543,6 +2754,7 @@
   {
     "id": "fis-f9da693f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada segmento do néfron à sua função fisiológica predominante:\n\n1. Túbulo contorcido proximal\n2. Alça de Henle (ramo ascendente espesso)\n3. Túbulo contorcido distal\n4. Ducto coletor cortical\n5. Ducto coletor medular\n\n( ) Reabsorção da maior parte da água, glicose, aminoácidos e bicarbonato filtrados.\n( ) Cotransporte Na⁺-K⁺-2Cl⁻ gerando gradiente medular hipertônico; impermeável à água.\n( ) Reabsorção de cloreto de sódio via cotransportador Na⁺-Cl⁻; sítio dos tiazídicos.\n( ) Ação da aldosterona reabsorvendo Na⁺ e secretando K⁺ e H⁺.\n( ) Ação do ADH inserindo aquaporinas-2 para reabsorção de água livre.",
@@ -2551,6 +2763,7 @@
   {
     "id": "fis-79de7d2b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na diferenciação entre injúria renal aguda pré-renal e necrose tubular aguda (NTA), espera-se encontrar na pré-renal:",
@@ -2566,6 +2779,7 @@
   {
     "id": "fis-d3a34e18",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 72 anos, hipertenso em uso crônico de enalapril e hidroclorotiazida, apresenta diarreia e vômitos há três dias, com ingesta hídrica mínima. Por dor lombar, fez uso de diclofenaco por conta própria. Ao exame: letárgico, mucosas muito secas, turgor diminuído, PA 85/50 mmHg, FC 110 bpm. Exames: creatinina 3,8 mg/dL (basal de 1,0), ureia 140 mg/dL, K⁺ 5,8 mEq/L. Sedimento com cilindros hialinos esparsos, Na⁺ urinário 12 mEq/L.\n\na) Qual a etiologia e classificação da injúria renal?\nb) Explique a influência do enalapril e do diclofenaco na hemodinâmica intraglomerular desse paciente.\nc) Explique a relação ureia/creatinina muito elevada e o sódio urinário baixo.\nd) Qual a conduta inicial prioritária?",
@@ -2574,6 +2788,7 @@
   {
     "id": "fis-779f73da",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre as síndromes nefrítica e nefrótica, assinale a alternativa INCORRETA:",
@@ -2590,6 +2805,7 @@
   {
     "id": "fis-d6d81042",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O mecanismo fisiopatológico primário do edema na síndrome nefrótica grave envolve:",
@@ -2605,6 +2821,7 @@
   {
     "id": "fis-555d139b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a fisiopatologia da doença renal crônica (DRC), assinale a alternativa INCORRETA:",
@@ -2621,6 +2838,7 @@
   {
     "id": "fis-164f0172",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A anemia que se instala habitualmente a partir do estágio 3 da doença renal crônica decorre principalmente de:",
@@ -2636,6 +2854,7 @@
   {
     "id": "fis-f1f54ba5",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre distúrbios hidroeletrolíticos e ácido-base renais, julgue os itens:\n\n( ) A hipercalemia é complicação temida da uremia porque despolariza a membrana celular miocárdica e pode causar fibrilação ventricular.\n( ) A retenção de fosfato na DRC induz hipocalcemia e estimula a secreção persistente de PTH.\n( ) Na acidose tubular renal tipo 1 (distal) há incapacidade de secretar íons H⁺ no ducto coletor, gerando urina inapropriadamente básica.\n( ) A alcalose metabólica por vômitos decorre de perda de ácido clorídrico gástrico e hipovolemia com retenção de bicarbonato pelo rim.\n( ) A hipernatremia hipovolêmica deve ser corrigida rapidamente com água destilada pura intravenosa.",
@@ -2644,6 +2863,7 @@
   {
     "id": "fis-3de1c886",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "No eletrocardiograma de um paciente renal com potássio sérico de 7,8 mEq/L, a primeira e mais precoce alteração esperada é:",
@@ -2659,6 +2879,7 @@
   {
     "id": "fis-beaa79d6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a secreção ácida gástrica e a barreira mucosa, assinale a alternativa INCORRETA:",
@@ -2675,6 +2896,7 @@
   {
     "id": "fis-36d2d8b6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A bactéria Helicobacter pylori promove a formação de úlceras pépticas primariamente através de:",
@@ -2690,6 +2912,7 @@
   {
     "id": "fis-6d374270",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O mecanismo pelo qual os anti-inflamatórios não esteroides (AINEs) causam lesão e sangramento gastroduodenal é:",
@@ -2705,6 +2928,7 @@
   {
     "id": "fis-12362cbf",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 52 anos, obeso, com queixas de pirose e regurgitação ácida há 8 anos, pior ao deitar após as refeições. Endoscopia digestiva alta revela erosões longitudinais no terço distal do esôfago e uma área de mucosa avermelhada aveludada projetando-se 4 cm acima da transição esofagogástrica. A biópsia dessa área mostra epitélio colunar com células caliciformes.\n\na) Qual a complicação diagnosticada e como se denomina essa transformação epitelial?\nb) Qual a sequência fisiopatológica que levou a essa alteração?\nc) Qual o risco clínico evolutivo dessa condição?",
@@ -2713,6 +2937,7 @@
   {
     "id": "fis-1c172b39",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a diferenciação entre Retocolite Ulcerativa (RCU) e Doença de Crohn (DC), assinale a alternativa INCORRETA:",
@@ -2729,6 +2954,7 @@
   {
     "id": "fis-34ad478e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na doença celíaca, a exposição ao glúten desencadeia lesão da mucosa intestinal caracterizada por:",
@@ -2744,6 +2970,7 @@
   {
     "id": "fis-050d314e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo de diarreia ao seu respectivo mecanismo predominante:\n\n1. Osmótica\n2. Secretória\n3. Exsudativa/Inflamatória\n4. Motora\n\n( ) Presença de soluto não absorvível na luz intestinal retendo água por gradiente osmótico; cessa com o jejum.\n( ) Estimulação ativa da secreção de água e eletrólitos pelos enterócitos (ex.: toxina colérica); persiste durante o jejum.\n( ) Ruptura da integridade da mucosa com saída de muco, sangue, proteínas e pus (ex.: disenteria, colite ulcerativa).\n( ) Trânsito intestinal acelerado por neuropatia autonômica ou hipertireoidismo, reduzindo o tempo de contato absortivo.",
@@ -2752,6 +2979,7 @@
   {
     "id": "fis-7d869741",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a pancreatite aguda, assinale a alternativa INCORRETA:",
@@ -2768,6 +2996,7 @@
   {
     "id": "fis-f84686b7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na pancreatite crônica avançada, a perda de mais de 90% da função exócrina pancreática manifesta-se clinicamente por:",
@@ -2783,6 +3012,7 @@
   {
     "id": "fis-7ca8640d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a hipertensão portal na cirrose hepática, assinale a alternativa INCORRETA:",
@@ -2799,6 +3029,7 @@
   {
     "id": "fis-78eb3330",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Homem de 56 anos com cirrose hepática alcoólica é trazido ao pronto-socorro com aumento progressivo do abdome, icterícia e desorientação têmporo-espacial há 2 dias. Ao exame: abdome globoso, com sinal do piparote positivo e circulação colateral periumbilical em cabeça de medusa; icterícia 3+/4+; flapping (asterixe) positivo; e telangiectasias no tórax.\n\na) Explique a fisiopatologia da ascite nesse paciente (forças de Starling e hemodinâmica sistêmica).\nb) Qual o significado clínico do GASA (gradiente de albumina soro-ascite) e o que se espera nesse caso?\nc) Explique o mecanismo do asterixe e da encefalopatia hepática.\nd) Qual a explicação para as telangiectasias e o eritema palmar?",
@@ -2807,6 +3038,7 @@
   {
     "id": "fis-993a3188",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A peritonite bacteriana espontânea (PBE) no paciente com ascite cirrótica caracteriza-se por:",
@@ -2822,6 +3054,7 @@
   {
     "id": "fis-fbc811ad",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na encefalopatia hepática, fatores precipitantes comuns que aumentam a carga de compostos nitrogenados na circulação incluem:",
@@ -2837,6 +3070,7 @@
   {
     "id": "fis-afbcde87",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo de icterícia ao perfil laboratorial e fisiopatológico correspondente:\n\n1. Pré-hepática (hemolítica)\n2. Intra-hepática (hepatocelular)\n3. Pós-hepática (colestática obstrutiva)\n4. Síndrome de Gilbert\n\n( ) Hiperbilirrubinemia não conjugada (indireta), anemia, reticulocitose e DHL elevado; urina sem colúria.\n( ) Hiperbilirrubinemia mista com elevação expressiva de transaminases (ALT/AST); necrose celular.\n( ) Hiperbilirrubinemia conjugada (direta) com elevação marcante de fosfatase alcalina e GGT; colúria e acolia fecal.\n( ) Hiperbilirrubinemia não conjugada isolada e discreta, desencadeada por jejum ou estresse, com enzimas hepáticas normais.",
@@ -2845,6 +3079,7 @@
   {
     "id": "fis-9d9f0cf8",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Paciente com ressecção extensa do íleo terminal por Doença de Crohn apresenta alto risco de desenvolver:",
@@ -2860,6 +3095,7 @@
   {
     "id": "fis-cc2c52d8",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre fisiologia e patologia hepática e biliar, julgue os itens:\n\n( ) A albumina e todos os fatores de coagulação (exceto o fator VIII) são sintetizados pelos hepatócitos.\n( ) O tempo de protrombina (TP/INR) é um marcador sensível da função sintética hepática aguda e crônica.\n( ) Os sais biliares são sintetizados a partir do colesterol e essenciais para a emulsificação de gorduras na luz duodenal.\n( ) A colecistoquinina (CCK) induz o relaxamento da vesícula biliar e o fechamento do esfíncter de Oddi durante as refeições.\n( ) O esteato-hepatite associada à disfunção metabólica (MASH) envolve lipotoxicidade e estresse oxidativo promovidos pela resistência à insulina.",
@@ -2868,6 +3104,7 @@
   {
     "id": "fis-a4ea9802",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "A colecistite aguda litiásica diferencia-se clinicamente da coledocolitíase isolada não complicada porque na colecistite:",
@@ -2883,6 +3120,7 @@
   {
     "id": "fis-e925f45a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a colangite bacteriana aguda e a Tríade de Charcot, assinale a alternativa INCORRETA:",
@@ -2899,6 +3137,7 @@
   {
     "id": "fis-eddf4398",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na obstrução intestinal mecânica em alça simples (ex.: por bridas ou volvo), o acúmulo de gás e líquido a montante da obstrução resulta em:",
@@ -2914,6 +3153,7 @@
   {
     "id": "fis-e0f46d79",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O íleo paralítico (adinâmico) diferencia-se da obstrução intestinal mecânica por:",
@@ -2929,6 +3169,7 @@
   {
     "id": "fis-54d62e7c",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a apendicite aguda e a clássica migração da dor, assinale a alternativa INCORRETA:",
@@ -2945,6 +3186,7 @@
   {
     "id": "fis-36dbd98a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Na isquemia mesentérica aguda por embolia da artéria mesentérica superior, a característica clínica clássica mais marcante nas primeiras horas é:",
@@ -2960,6 +3202,7 @@
   {
     "id": "fis-e5f7ac55",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 68 anos com histórico de DM tipo 2 há 20 anos, hipertensão arterial de difícil controle e insuficiência cardíaca crônica com fração de ejeção reduzida (ICFER). Dá entrada por dispneia aos esforços mínimos, tosse noturna e edema importante de membros inferiores bilaterais. Exames: creatinina 2,4 mg/dL (basal 1,4), ureia 110 mg/dL, peptídeo natriurético tipo B (BNP) 1.800 pg/mL, albuminúria 600 mg/g creatinina. Ecocardiograma revela FEVE 32% e dilatação ventricular.\n\na) Como se conceitua a síndrome cardiorrenal e qual o subtipo predominante neste caso?\nb) Explique como a redução do débito cardíaco e o aumento da pressão venosa central afetam a hemodinâmica renal.\nc) Qual o papel da ativação neuro-hormonal crônica (sistema simpático e SRAA) no agravamento simultâneo do coração e do rim?\nd) Por que a redução excessiva da volemia por diuréticos pode paradoxalmente elevar ainda mais a creatinina?",
@@ -2968,6 +3211,7 @@
   {
     "id": "fis-5b617af7",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a síndrome cardiorrenal, assinale a alternativa INCORRETA:",
@@ -2984,6 +3228,7 @@
   {
     "id": "fis-2f18f2bf",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "O choque séptico define-se fisiopatologicamente como uma forma de choque distributivo caracterizada primariamente por:",
@@ -2999,6 +3244,7 @@
   {
     "id": "fis-437c0ba1",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "associacao",
     "stem": "Associe cada tipo de choque ao seu respectivo perfil hemodinâmico clássico:\n\n1. Hipovolêmico (hemorragia maciça)\n2. Cardiogênico (IAM com choque)\n3. Distributivo (Séptico/Anafilático inicial)\n4. Obstrutivo (Tamponamento cardíaco)\n5. Neuroretrogênico / Neuroadrenérgico medular\n\n( ) Débito cardíaco muito baixo, RVS elevada, pressão de oclusão de artéria pulmonar (POAP) muito baixa.\n( ) Débito cardíaco muito baixo, RVS muito elevada, POAP muito elevada (congestão pulmonar).\n( ) Débito cardíaco elevado ou normal ('choque quente'), RVS muito baixa, extremidades quentes.\n( ) Débito cardíaco baixo, equalização das pressões diastólicas intracavitárias e pulso paradoxal.\n( ) Perda do tônus simpático abaixo do nível da lesão medular, com hipotensão associada a bradicardia.",
@@ -3007,6 +3253,7 @@
   {
     "id": "fis-9c7380b2",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Sobre a síndrome de disfunção de múltiplos órgãos (MODS) no contexto da resposta inflamatória sistêmica grave, assinale a alternativa INCORRETA:",
@@ -3023,6 +3270,7 @@
   {
     "id": "fis-ddf84d30",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "verdadeiro-falso",
     "stem": "Sobre resposta inflamatória sistêmica, choque e oxigenação tecidual, julgue os itens:\n\n( ) O lactato sérico elevado reflete primariamente hipóxia tecidual e glicólise anaeróbia secundária a hipoperfusão celular.\n( ) A saturação venosa central de oxigênio (SvcO2) menor que 70% indica extração tecidual excessiva de oxigênio decorrente de débito cardíaco ou transporte inadequado.\n( ) Na fase precoce da síndrome do desconforto respiratório agudo (SARA), o edema é rico em proteínas e exsudativo, com membrana hialina.\n( ) O uso precoce de noradrenalina no choque séptico busca restaurar o tônus vascular arteriolar e a pressão de perfusão dos órgãos nobres.\n( ) No choque descompensado o débito urinário tende a se manter acima de 2 mL/kg/h sem necessidade de intervenção.",
@@ -3031,6 +3279,7 @@
   {
     "id": "fis-f38c0bbd",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "caso-clinico",
     "stem": "Mulher de 82 anos, acamada com demência avançada, internada com febre de 39,2°C, tosse produtiva e sonolência há 24 horas. Ao exame físico: PA 75/40 mmHg, FC 128 bpm, FR 32 mpm, SpO2 86% em ar ambiente, tempo de enchimento capilar de 5 segundos, livedo reticular nos membros inferiores e oligúria nas últimas 12 horas. Gasometria arterial: pH 7,22, PaO2 54 mmHg, PaCO2 28 mmHg, HCO3 11 mEq/L, Lactato 5,2 mmol/L. Leucócitos 24.000/mm³ com 18% de bastões.\n\na) Identifique as síndromes clínicas e classifique a gravidade do quadro hemodinâmico e respiratório.\nb) Interprete a gasometria arterial integrando os componentes metabólico e respiratório.\nc) Descreva a cascata celular que conecta a infecção pulmonar à vasodilatação sistêmica, colapso circulatório e acidose lática.",
@@ -3039,6 +3288,7 @@
   {
     "id": "fis-cc20dc8a",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "open",
     "kind": "discursiva",
     "stem": "A inflamação crônica de baixo grau é o elo fisiopatológico unificador entre diversas doenças crônicas não transmissíveis da medicina moderna. Explique de que forma o acúmulo de tecido adiposo visceral inicia um ciclo inflamatório que conecta a resistência à insulina, o diabetes mellitus tipo 2, a dislipidemia aterogênica, a aterosclerose vascular e a esteato-hepatite metabólica (MASH).",
@@ -3047,6 +3297,7 @@
   {
     "id": "fis-f54681a6",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Mecanismos de atelectasia (I)\n\nAssinale a alternativa correta sobre os mecanismos de atelectasia:",
@@ -3059,11 +3310,13 @@
     ],
     "answerIndex": 2,
     "explanation": "Alternativa C.\n\n**COMENTÁRIO DO GABARITO:**\n• A alternativa C é a correta: a atelectasia por reabsorção (obstrutiva) resulta da oclusão completa de uma via aérea (por tampão mucoso, corpo estranho ou neoplasia endobrônquica); o ar retido nos alvéolos distais é reabsorvido pela circulação capilar pulmonar, colapsando os alvéolos afetados.\n• As alternativas A e B trocam os conceitos: a atelectasia compressiva decorre de compressão mecânica extrínseca do pulmão (ex.: derrame pleural, pneumotórax, elevação do diafragma). A atelectasia por contração (cicatricial) decorre de fibrose pulmonar ou pleural local/generalizada que impede a expansão, sendo essencialmente irreversível.\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nCompreensão dos mecanismos fisiopatológicos dos diferentes tipos de colapso alveolar (atelectasia por reabsorção vs compressiva vs cicatricial).",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-fe9dfc6f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 14 — Fisiopatologia da DPOC/enfisema\n\nSobre a fisiopatologia do sistema respiratório, assinale a alternativa que contém todas as assertivas corretas propostas:\n\nI. Atelectasia de compressão refere-se à fibrose pleural ou pulmonar focal ou generalizada.\nII. A inalação da fumaça do cigarro e de outras partículas nocivas causa dano e inflamação nos pulmões, resultando em destruição parenquimatosa (enfisema) e doença das vias aéreas (bronquiolite e bronquite crônica).\nIII. Pessoas que possuem deficiência genética da antiprotease α1-antitripsina apresentam uma tendência notavelmente maior a desenvolver bronquiectasia.\nIV. Em indivíduos com distúrbios obstrutivos difusos, os testes de função pulmonar exibem maiores taxas de fluxo aéreo máximo durante a expiração forçada, geralmente expressa como volume expiratório forçado no 1º segundo (FEV1).",
@@ -3076,11 +3329,13 @@
     ],
     "answerIndex": 1,
     "explanation": "Alternativa B.\n\n**COMENTÁRIO DO GABARITO:**\n• I — FALSO: Fibrose pulmonar ou pleural caracteriza a atelectasia de contração (cicatricial), e não a de compressão.\n• II — VERDADEIRO: A fumaça do tabaco ativa macrófagos e neutrófilos, liberando proteinases e oxidantes que destroem os septos alveolares (enfisema) e inflamam as pequenas vias aéreas (bronquiolite e bronquite crônica).\n• III — FALSO: A deficiência de α1-antitripsina (AAT) leva predominantemente a enfisema panacinar em adultos jovens (especialmente em fumantes), devido ao desbalanço protease-antiprotease, e não primariamente bronquiectasias.\n• IV — FALSO: Doenças obstrutivas cursam com REDUÇÃO das taxas de fluxo expiratório máximo e diminuição pronunciada do VEF1 (e da relação VEF1/CVF).\n\nApenas a assertiva II está correta (Alternativa B).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nFisiopatologia molecular e tecidual da DPOC, correlação do desbalanço protease-antiprotease e interpretação básica de espirometria nas doenças obstrutivas.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-8a30fb34",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 11 — Síndrome coronariana aguda com ECG\n\nUm homem de 58 anos chega ao serviço de emergência queixando-se de dor torácica. A dor havia começado 1 hora antes, ele a descreve como forte, difusa e do tipo compressiva. A dor está localizada na região subesternal, irradia para os ombros e está associada à falta de ar. O paciente vomitou uma vez. É diabético e hipertenso. PA=150/100 mmHg, FC=95 bpm, FR=20 mpm, T=37,3°C, SpO2=98%. Está diaforético e ansioso. O eletrocardiograma (ECG) de 12 derivações é mostrado a seguir:\n\nAnalise as assertivas a seguir:\n\nI. As síndromes clínicas de IAMSSST e AI são causadas por infarto subendocárdico ou isquemia, respectivamente, em geral decorrentes da formação de microêmbolos.\nII. O IAMCSST ocorre quando a obstrução total de um vaso epicárdico causa infarto transmural que se manifesta classicamente como dor torácica não remitente e elevação do segmento ST ao ECG.\nIII. O IAMSSST é uma SCA em que há um novo episódio de dor torácica, uma dor torácica de gravidade crescente ou ainda uma dor torácica que ocorre em repouso, na presença de elevação dos níveis de biomarcadores cardíacos.\nIV. O conceito de estreitamento fixo explica apenas a angina estável provocada pela demanda miocárdica aumentada.\n\nAssinale a alternativa correta:",
@@ -3094,11 +3349,13 @@
     "answerIndex": 2,
     "explanation": "Alternativa C.\n\n**COMENTÁRIO DO GABARITO:**\n• II — VERDADEIRO: O IAMCSST decorre da oclusão aguda total e mantida de uma artéria coronária epicárdica (geralmente por ruptura/erosão de placa aterosclerótica com trombo vermelho oclusivo), levando a isquemia transmural da parede ventricular, manifestada por dor típica persistente e elevação em abóbada do segmento ST no ECG (visível claramente em V1 a V4).\n• III — VERDADEIRO: O IAMSSST caracteriza-se por quadro clínico de síndrome coronariana aguda (dor em repouso, de início recente ou em padrão crescendo) acompanhado obrigatoriamente de elevação e curva dos biomarcadores de necrose miocárdica (troponina).\n• I e IV contêm formulações incompletas ou errôneas no contexto da prova original.\n\nAfirmativas corretas: II e III (Alternativa C).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nIntegração entre fisiopatologia da aterotrombose coronariana, correlação anatômica do ECG com supra de ST e diferenciação entre as formas de Síndrome Coronariana Aguda (IAMCSST vs IAMSSST vs Angina Instável).",
     "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova",
     "graphicsHtml": "\n<div class=\"my-4 p-4 rounded-2xl border-2 border-red-300 bg-[#fff5f5] shadow-md font-mono text-xs\">\n    <div class=\"flex flex-col sm:flex-row sm:items-center justify-between pb-3 mb-3 border-b border-red-200 gap-2\">\n        <div class=\"flex items-center gap-2\">\n            <span class=\"px-2.5 py-1 rounded bg-red-600 text-white font-bold text-[11px] uppercase tracking-wider\">ECG 12 Derivações</span>\n            <span class=\"font-bold text-gray-800 text-xs sm:text-sm\">Traçado Eletrocardiográfico da Prova Original</span>\n        </div>\n        <div class=\"text-[11px] text-red-700 bg-red-100 px-2 py-0.5 rounded border border-red-200\">\n            Vel: 25 mm/s | Ganho: 10 mm/mV | 1 mV Cal\n        </div>\n    </div>\n\n    <!-- ECG Visual representation on pink clinical grid -->\n    <div class=\"relative w-full rounded-xl overflow-hidden border border-red-200 bg-[#fff0f2]\" style=\"background-image: linear-gradient(to right, rgba(255,160,180,0.3) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,160,180,0.3) 1px, transparent 1px); background-size: 8px 8px;\">\n        <div class=\"p-3 sm:p-4 grid grid-cols-2 md:grid-cols-4 gap-3 text-[11px]\">\n            <!-- Col 1 -->\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>DI</span><span class=\"text-[10px] text-gray-500 font-normal\">Isodifásica</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,12 L30,15 L35,15 L38,18 L42,2 L46,24 L48,15 L60,15 L70,11 L80,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>aVR</span><span class=\"text-[10px] text-gray-500 font-normal\">Infradesnivelamento recíproco</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,18 L30,15 L35,15 L38,12 L42,28 L46,6 L48,15 L55,18 L65,18 L75,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <!-- Precordials with STEMI -->\n            <div class=\"bg-red-50/90 p-2 rounded border-2 border-red-400 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-red-900 font-bold border-b border-red-200 pb-1 mb-1\">\n                    <span>V1</span><span class=\"text-[10px] bg-red-600 text-white px-1 rounded font-bold\">SUPRA ST</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-red-700 fill-none\" stroke-width=\"2\">\n                        <path d=\"M0,16 L15,16 L20,13 L25,16 L32,16 L35,26 L38,8 L40,8 C48,2 55,2 62,8 L70,16 L100,16\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-red-50/90 p-2 rounded border-2 border-red-400 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-red-900 font-bold border-b border-red-200 pb-1 mb-1\">\n                    <span>V4</span><span class=\"text-[10px] bg-red-600 text-white px-1 rounded font-bold\">SUPRA ST</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-red-700 fill-none\" stroke-width=\"2\">\n                        <path d=\"M0,15 L15,15 L20,12 L25,15 L30,17 L35,2 L40,25 L43,7 C52,1 60,3 68,9 L75,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <!-- Row 2 -->\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>DII</span><span class=\"text-[10px] text-gray-500 font-normal\">Normal</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,11 L30,15 L35,16 L39,3 L44,22 L47,15 L60,15 L70,10 L80,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>aVL</span><span class=\"text-[10px] text-gray-500 font-normal\">Discreto supra</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,12 L30,15 L35,16 L40,6 L44,20 L47,11 L58,11 L68,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-red-50/90 p-2 rounded border-2 border-red-400 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-red-900 font-bold border-b border-red-200 pb-1 mb-1\">\n                    <span>V2</span><span class=\"text-[10px] bg-red-600 text-white px-1 rounded font-bold\">SUPRA ST (4mm)</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-red-700 fill-none\" stroke-width=\"2\">\n                        <path d=\"M0,16 L15,16 L20,12 L25,16 L30,28 L35,5 C45,0 55,1 65,7 L72,16 L100,16\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-red-50/90 p-2 rounded border-2 border-red-400 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-red-900 font-bold border-b border-red-200 pb-1 mb-1\">\n                    <span>V5</span><span class=\"text-[10px] text-red-700 font-bold\">Supra residual</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-red-700 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L15,15 L20,12 L25,15 L30,16 L35,4 L40,22 L43,11 L55,11 L65,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <!-- Row 3 -->\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>DIII</span><span class=\"text-[10px] text-gray-500 font-normal\">Normal</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,13 L30,15 L35,16 L40,7 L44,20 L47,15 L60,15 L70,12 L80,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>aVF</span><span class=\"text-[10px] text-gray-500 font-normal\">Normal</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,12 L30,15 L35,16 L40,5 L44,21 L47,15 L60,15 L70,11 L80,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-red-50/90 p-2 rounded border-2 border-red-400 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-red-900 font-bold border-b border-red-200 pb-1 mb-1\">\n                    <span>V3</span><span class=\"text-[10px] bg-red-600 text-white px-1 rounded font-bold\">SUPRA ST (5mm)</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-red-700 fill-none\" stroke-width=\"2\">\n                        <path d=\"M0,16 L15,16 L20,12 L25,16 L30,26 L35,4 C46,0 56,1 66,7 L73,16 L100,16\" />\n                    </svg>\n                </div>\n            </div>\n\n            <div class=\"bg-white/85 p-2 rounded border border-red-200 flex flex-col justify-between\">\n                <div class=\"flex justify-between items-center text-gray-700 font-bold border-b border-red-100 pb-1 mb-1\">\n                    <span>V6</span><span class=\"text-[10px] text-gray-500 font-normal\">Isodifásica</span>\n                </div>\n                <div class=\"h-10 flex items-center justify-center\">\n                    <svg viewBox=\"0 0 100 30\" class=\"w-full h-full stroke-gray-900 fill-none\" stroke-width=\"1.8\">\n                        <path d=\"M0,15 L20,15 L25,12 L30,15 L34,16 L38,6 L42,20 L45,15 L58,15 L68,12 L78,15 L100,15\" />\n                    </svg>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div class=\"mt-2 text-[11px] text-gray-600 italic\">\n        * Interpretação eletrocardiográfica: Supradesnivelamento de ST convexo em derivações precordiais anteriores (V1 a V4), caracterizando Infarto Agudo do Miocárdio com Supradesnivelamento do ST (IAMCSST) de parede anterior por oclusão de artéria descendente anterior (ADA).\n    </div>\n</div>\n"
   },
   {
     "id": "fis-1f0e23da",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 12 — Insuficiência cardíaca descompensada\n\nUma mulher de 63 anos chega ao serviço de emergência apresentando desconforto respiratório. Faz uso de furosemida. Ao exame: PA=220/112 mmHg, FC=130 bpm, T=37,5°C, FR=36 mpm, SpO2=93% sob alto fluxo de O2. Pele fria, pegajosa e diaforética. Alerta, mas só consegue responder com sim/não devido à dispneia. Apresenta distensão venosa jugular no ângulo mandibular, estertores em ambos os campos pulmonares e edema pré-tibial 2+ bilateral.\n\nAnalise as assertivas a seguir:\n\nI. A IC do lado direito resulta em aumento das pressões venosas sistêmicas, enquanto a insuficiência do lado esquerdo causa aumento das pressões venosas pulmonares.\nII. O nível do BNP deve ser mensurado, pois, além de ser um indicador sensível da presença de doença cardíaca, essa molécula pode ser particularmente útil para distinguir origens cardíacas das não cardíacas de falta de ar.\nIII. A FEVE (fração de ejeção do ventrículo esquerdo) costuma ser utilizada para indicar o momento oportuno (classificação) de diferentes terapias.\nIV. A IC muitas vezes está associada à doença valvar. A estenose aórtica é muito frequentemente causa de diferentes graus de disfunção ventricular.\n\nAssinale a alternativa correta:",
@@ -3111,11 +3368,13 @@
     ],
     "answerIndex": 3,
     "explanation": "Alternativa D.\n\n**COMENTÁRIO DO GABARITO:**\nTodas as quatro assertivas trazem conceitos fundamentais e verdadeiros da insuficiência cardíaca:\n• I — VERDADEIRO: A disfunção de VD eleva as pressões retrógradas na veia cava, gerando turgência jugular, hepatomegalia e edema periférico; a disfunção de VE eleva a pressão capilar pulmonar, gerando congestão e estertores crepitantes.\n• II — VERDADEIRO: O peptídeo natriurético tipo B (BNP / NT-proBNP) é liberado pelos miócitos ventriculares em resposta ao estiramento miocárdico e possui alto valor preditivo negativo para diferenciar dispneia de origem cardíaca de causas pulmonares primárias.\n• III — VERDADEIRO: A Fração de Ejeção do VE (ICFEr &lt; 40%, ICFElm 41-49%, ICFEp &ge; 50%) é o parâmetro padrão para estratificação fenotípica e direcionamento das quatro classes de drogas modificadoras de sobrevida (quádrupla terapia).\n• IV — VERDADEIRO: Valvopatias obstrutivas esquerdas, em especial a estenose aórtica, impõem severa sobrecarga pressórica sistólica crônica, induzindo hipertrofia concêntrica e subsequente disfunção ventricular.\n\nPortanto, I, II, III e IV estão corretas (Alternativa D).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nFisiopatologia da congestão biventricular, valor diagnóstico do BNP no pronto-socorro e papel da FEVE e das valvopatias na insuficiência cardíaca.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-98a4de5d",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 15 — Fisiopatologia da Fibrilação Atrial\n\nUm homem de 70 anos chega ao serviço de emergência queixando-se de falta de ar que começou há 2 semanas. Antes disso, conseguia andar normalmente; agora sente fadiga após um curto passeio e nota o coração acelerado mesmo em repouso. História de hipertensão tratada com hidroclorotiazida e amlodipina. Sobre o caso, assinale as assertivas corretas:\n\nI. A formação de trombos na fibrilação atrial ocorre principalmente no ventrículo esquerdo, devido à estase sanguínea causada pela perda da contração ventricular eficaz.\nII. A atividade elétrica atrial na fibrilação atrial é organizada e depende exclusivamente de um único foco ectópico localizado no nó atrioventricular.\nIII. A principal causa de Fibrilação Atrial são processos isquêmicos cardíacos.\nIV. A fibrilação atrial resulta de múltiplos circuitos de reentrada e/ou focos ectópicos.\n\nAssinale a alternativa correta:",
@@ -3128,11 +3387,13 @@
     ],
     "answerIndex": 4,
     "explanation": "Alternativa E.\n\n**COMENTÁRIO DO GABARITO:**\n• I — FALSO: A perda da sístole atrial coordenada e a estase sanguínea levam à formação de trombos predominantemente no ÁTRIO ESQUERDO, em particular no APÊNDICE ATRIAL ESQUERDO (aurícula esquerda), e não no ventrículo esquerdo.\n• II — FALSO: A atividade atrial na FA é completamente caótica e desorganizada (350 a 600 despolarizações por minuto), sem contração atrial eficaz e sem foco único.\n• III e IV — VERDADEIRAS: A cardiopatia isquêmica e a cardiopatia hipertensiva com dilatação/fibrose atrial são causas estruturais primárias muito frequentes de FA; eletrofisiologicamente, decorre de microrreentradas funcionais múltiplas e focos rápidos de gatilho (especialmente nas desembocaduras das veias pulmonares).\n\nCorretas: III e IV (Alternativa E).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nFisiopatologia arrítmica da fibrilação atrial, mecanismos de microrreentrada e o substrato tromboembólico atrial que fundamenta o risco de AVC cardioembólico e indicação de anticoagulação.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-a5eb299f",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 17 — Dor neuropática diabética\n\nUm homem de 52 anos, portador de Diabetes Mellitus tipo 2 há 15 anos, procura atendimento relatando dor em queimação nos pés, de intensidade progressiva há 6 meses. Refere piora noturna e sensação de “choques elétricos”, além de alodinia ao toque leve. Ao exame, apresenta redução da sensibilidade vibratória e térmica em extremidades distais. Com base na fisiopatologia da dor apresentada, assinale a alternativa correta:",
@@ -3145,11 +3406,13 @@
     ],
     "answerIndex": 2,
     "explanation": "Alternativa C.\n\n**COMENTÁRIO DO GABARITO:**\n• C é a correta: A queixa de dor em queimação, pontadas em choque elétrico, perda sensitiva distal em bota e alodinia (percepção dolorosa desencadeada por estímulos que normalmente não provocam dor, como o toque de um lençol) em paciente com diabetes crônico define a **dor neuropática**. Decorre da lesão microangiopática e metabólica das fibras nervosas periféricas mielínicas e amielínicas, gerando descargas ectópicas espontâneas associadas a hiperexcitabilidade dos neurônios de segunda ordem no corno posterior da medula (sensibilização central).\n• As alternativas A e B descrevem dor nociceptiva e inflamatória (ex.: artrite, trauma tecidual), que responde classicamente a analgésicos e anti-inflamatórios comuns. A alodinia reflete AUMENTO (e não redução) da excitabilidade sináptica central.\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nDistinção fisiopatológica entre dor nociceptiva vs neuropática, com foco na neuropatia sensitivo-motora distal do diabetes e no mecanismo de sensibilização central.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-16d0f556",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 6 — Trauma cranioencefálico (hematoma epidural)\n\nUm homem de 24 anos sofre traumatismo cranioencefálico após colisão motociclística. Inicialmente apresenta perda breve da consciência, seguida de recuperação completa do estado neurológico. Cerca de duas horas depois evolui com cefaleia intensa, vômitos, rebaixamento do nível de consciência e anisocoria ipsilateral. A tomografia computadorizada evidencia coleção hiperdensa biconvexa na região temporoparietal esquerda. Assinale a alternativa correta:",
@@ -3162,11 +3425,13 @@
     ],
     "answerIndex": 4,
     "explanation": "Alternativa E.\n\n**COMENTÁRIO DO GABARITO:**\n• E é a correta: O caso é o protótipo clínico do **hematoma epidural (extradural)**: impacto na região têmporo-parietal com fratura óssea, laceração da **artéria meníngea média**, período de **intervalo lúcido** (recuperação neurológica transitória) seguido de rápida descompensação por sangramento arterial de alta pressão, hipertensão intracraniana, anisocoria ipsilateral por herniação uncal com compressão do III par craniano e imagem tomográfica clássica de **lente biconvexa** delimitada pelas suturas cranianas (onde a dura-máter adere firmemente ao osso).\n• A ruptura de veias-ponte causa hematoma SUBDURAL (sangramento venoso entre dura-máter e aracnoide, com imagem em meia-lua/crescente que cruza suturas).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nDiferenciação anatômica, fisiopatológica e de imagem entre hematoma epidural (arterial/biconvexo/intervalo lúcido) e subdural (venoso/em crescente).",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-31f4fe1e",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 18 — Diabetes Mellitus tipo 1\n\nUma mulher de 34 anos procura atendimento com queixa de fadiga, poliúria e perda de peso não intencional há 2 meses. Relata histórico familiar de doenças autoimunes. Ao exame, apresenta IMC normal. Exames laboratoriais mostram glicemia de jejum de 268 mg/dL e presença de autoanticorpos contra células β pancreáticas. Considerando a fisiopatologia do quadro descrito, assinale a alternativa correta:",
@@ -3179,11 +3444,13 @@
     ],
     "answerIndex": 1,
     "explanation": "Alternativa B.\n\n**COMENTÁRIO DO GABARITO:**\n• B é a correta: No Diabetes Mellitus Tipo 1 (DM1), ocorre destruição autoimune crônica mediada por linfócitos T citotóxicos contra as células beta das ilhotas pancreáticas de Langerhans (marcada pela presença de autoanticorpos anti-GAD, anti-IA2, anti-insulina e anti-ZnT8). Esse processo culmina na **deficiência absoluta de insulina**.\n• A resistência periférica à insulina com deficiência secretória relativa é a marca registrada do Diabetes Mellitus Tipo 2 (DM2), frequentemente associado a obesidade e síndrome metabólica.\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nFisiopatologia autoimune do DM1 vs defeito metabólico do DM2, enfatizando a deficiência absoluta de insulina como causa da perda de peso e da propensão à cetoacidose.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-718c7166",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 20 — Eixos adrenal e tireoidiano (Addison + hipotireoidismo)\n\nUm homem de 41 anos é avaliado por fadiga crônica, perda de peso e tontura postural. Ao exame, apresenta pressão arterial baixa e discreta hiperpigmentação cutânea. Exames laboratoriais mostram: sódio reduzido, potássio elevado, cortisol sérico baixo e ACTH elevado. Durante a investigação, também se identifica TSH elevado com T4 livre reduzido. Com base na fisiopatologia dos eixos hipotálamo-hipófise-tireoide e hipotálamo-hipófise-adrenal, analise as afirmativas:\n\nI. Na insuficiência adrenal primária, a elevação do ACTH decorre da perda do feedback negativo exercido pelo cortisol sobre o eixo hipotálamo-hipófise.\nII. A hipercalemia observada decorre, principalmente, da deficiência de aldosterona, que reduz a secreção de potássio nos túbulos distais renais.\nIII. Na insuficiência adrenal secundária, espera-se hiperpigmentação cutânea devido ao aumento de ACTH.\nIV. No hipotireoidismo primário, o aumento do TSH ocorre em resposta à redução dos hormônios tireoidianos circulantes.\n\nAssinale a alternativa correta:",
@@ -3196,11 +3463,13 @@
     ],
     "answerIndex": 1,
     "explanation": "Alternativa B.\n\n**COMENTÁRIO DO GABARITO:**\n• I — VERDADEIRO: Na Doença de Addison (insuficiência adrenal primária), a destruição do córtex da adrenal cessa a produção de cortisol; a perda do retrocontrole negativo na adeno-hipófise leva à hipersecreção de ACTH e POMC (pró-opiomelanocortina), gerando hiperpigmentação de pele e mucosas por estimulação dos receptores melanocíticos MSH.\n• II — VERDADEIRO: A deficiência concomitante de aldosterona impede a reabsorção de sódio e a secreção de potássio e prótons nos túbulos coletores renais, provocando hiponatremia e hipercalemia.\n• III — FALSO: Na insuficiência adrenal secundária (falência hipofisária), o ACTH está BAIXO ou inapropriadamente normal, razão pela qual NÃO ocorre hiperpigmentação nem déficit significativo de mineralocorticoide (o SRAA é preservado).\n• IV — VERDADEIRO: No hipotireoidismo primário (ex.: Tireoidite de Hashimoto), a falência da glândula tireoide com queda de T4L estimula o aumento compensatório de TSH pela hipófise.\n\nCorretas: I, II e IV (Alternativa B).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nDomínio dos mecanismos de retroalimentação negativa (feedback) endócrina para diferenciar lesões primárias das secundárias nos eixos adrenal e tireoidiano.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-9eb7429b",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 13 — Crise de asma quase fatal\n\nÀs 3 horas da madrugada, os socorristas ligam para informá-lo de que estão a caminho do serviço de emergência (SE) levando uma paciente asmática de 33 anos. Quando a paciente chega, você percebe imediatamente que ela está se esforçando na tentativa de respirar. O suor emana de seu rosto e corpo, enquanto o pescoço e o tórax são erguidos na tentativa de inalar mais uma respiração e começa a ficar apêica. Os esforços da paciente acabam sendo inúteis, pois ela perde a consciência.\n\nAnalise as assertivas a seguir:\n\nI. A exacerbação asmática típica é caracterizada por tosse, rigidez torácica, dispneia e sibilos em um paciente com história comprovada de asma.\nII. Essa paciente apresenta uma típica doença restritiva pulmonar.\nIII. O diagnóstico formal da patologia do caso é estabelecido por espirometria.\nIV. Os sibilos caracterizam a obstrução de via aérea e frequentemente são considerados o principal achado da asma.\n\nAssinale a alternativa correta:",
@@ -3212,11 +3481,13 @@
     ],
     "answerIndex": 1,
     "explanation": "Alternativa B.\n\n**COMENTÁRIO DO GABARITO:**\n• O caso descreve uma exacerbação asmática gravíssima / iminência de parada respiratória (fadiga muscular extrema, sudorese profusa, perda da consciência e bradipneia/apneia). Em crises quase fatais, o fluxo aéreo pode ser tão restrito que os sibilos desaparecem completamente (\"tórax silencioso\"), de modo que o quadro não pode ser classificado como exacerbação \"típica\" (item I falso no gabarito oficial).\n• II — FALSO: A asma brônquica é classicamente um distúrbio ventilatório OBSTRUTIVO difuso e variável, e não uma doença restritiva.\n• III e IV — VERDADEIRAS: A espirometria com prova broncodilatadora (demonstrando limitação reversível do fluxo aéreo: aumento do VEF1 &ge; 12% e 200 mL) é o padrão-ouro confirmatório; os sibilos traduzem turbilhonamento do fluxo expiratório por estenose bronquiolar e representam o som adventício clássico da doença.\n\nCorretas: III e IV (Alternativa B).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nReconhecimento dos sinais de extrema gravidade da crise de asma e a classificação espirométrica da patologia como padrão obstrutivo reversível.",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   },
   {
     "id": "fis-399d1265",
     "subject": "fisiopatologia",
+    "exam": "PR1",
     "format": "mcq",
     "kind": "multipla-escolha",
     "stem": "Questão 9 — Dor torácica: múltiplos diagnósticos diferenciais\n\nSobre a abordagem e fisiopatologia da dor torácica, julgue as assertivas abaixo:\n\nI. Uma dor torácica com as seguintes características: retroesternal em aperto, súbita, que melhora com o repouso (<10 min) é uma dor Tipo A (definitivamente anginosa).\nII. Em relação à SCA (Síndrome Coronariana Aguda), podemos afirmar que na angina estável e na angina instável não há morte miocárdica, portanto não há elevação de troponina, enquanto nos infartos com e sem supra há elevação de troponina pela necrose de miocárdio.\nIII. O pneumotórax hipertensivo causa desvio de mediastino para o lado ipsilateral (do mesmo lado) à lesão, o que justifica drenagem imediata sem aguardar confirmação radiológica.\nIV. Na pericardite aguda, a dor tipicamente piora ao decúbito dorsal e melhora quando o paciente se inclina para frente, na posição genupeitoral.\nV. O tromboembolismo pulmonar maciço é uma das complicações possíveis de ocorrer após procedimentos cirúrgicos, e pode ser precipitado por fatores que incluem a tríade de Virchow (lesão endotelial + estase venosa + hipercoagulabilidade).\n\nAssinale a alternativa correta:",
@@ -3229,6 +3500,7 @@
     ],
     "answerIndex": 1,
     "explanation": "Alternativa B.\n\n**COMENTÁRIO DO GABARITO:**\n• II — VERDADEIRO: Angina estável e instável caracterizam-se por isquemia miocárdica sem necrose/morte celular, logo sem curva de biomarcadores (troponina normal). Havendo necrose miocárdica com extravasamento de troponinas para o sangue, diagnostica-se IAM (com ou sem supra).\n• IV — VERDADEIRO: A dor da pericardite aguda tem caráter pleuropericárdico que alivia na postura de prece maometana (genupeitoral / inclinação anterior do tronco) e piora em decúbito dorsal pela tensão folhetos pericárdicos contra o diafragma.\n• V — VERDADEIRO: O TEP pós-operatório é precipitado pelos três elementos da tríade clássica de Rudolf Virchow (imobilização no leito = estase; trauma cirúrgico = lesão vascular; resposta inflamatória/cirúrgica = estado pró-trombótico).\n• I — FALSO: Dor súbita com rápida resolução pode ser de padrão C/D ou estável a depender dos fatores desencadeantes.\n• III — FALSO: O pneumotórax hipertensivo com mecanismo de válvula unidirecional desvia o mediastino e a traqueia para o lado CONTRALATERAL (lado oposto à lesão), comprimindo a veia cava e gerando choque obstrutivo.\n\nCorretas: II, IV e V (Alternativa B).\n\n**O QUE O PROFESSOR QUER AVALIAR:**\nFisiopatologia comparada das causas graves de dor torácica aguda em sala de emergência (SCA, pericardite, TEP e pneumotórax hipertensivo).",
-    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)"
+    "source": "Compilado Provas Anteriores - SOP IV (Estácio/IDOMED)",
+    "origin": "prova"
   }
 ]

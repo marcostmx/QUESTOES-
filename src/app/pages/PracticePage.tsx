@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, Layers, Play, Shuffle } from 'lucide-react';
-import type { QuestionKind, SubjectId } from '../../data/schema';
+import { isObjective, type QuestionKind, type QuestionOrigin, type SubjectId } from '../../data/schema';
 import { topicsOf, useBank } from '../core/bank';
 import { defaultFilter, filterQuestions, useSession, type PracticeFilter, type StatusFilter } from '../core/session';
 import { isDue } from '../core/srs';
@@ -8,14 +8,15 @@ import { isAnswered, isOpenError } from '../core/study';
 import { today, useStudy } from '../core/store';
 import { plural } from '../core/text';
 import { href } from '../router';
-import { KIND_LABEL, SUBJECT_LIST, subjectMeta } from '../subjects';
-import { Bar, Button, Card, Chip, cx, Loading, PageHeader } from '../ui';
+import { KIND_LABEL, ORIGIN_LABEL, activeSubjects, subjectMeta } from '../subjects';
+import { Bar, Button, Card, Chip, cx, Empty, Loading, PageHeader } from '../ui';
 import { startSession } from './SessionPage';
+import { WeakSpots } from '../components/WeakSpots';
 
 export default function PracticePage({ subject }: { subject?: string }) {
   if (!subject) return <SubjectPicker />;
   const subjects: SubjectId[] = subject === 'todas' ? [] : subjectMeta(subject) ? [subject as SubjectId] : [];
-  return <Builder key={subject} subjects={subjects} />;
+  return <BuilderForExam subject={subject} subjects={subjects} />;
 }
 
 export function ResumeBanner() {
@@ -28,7 +29,7 @@ export function ResumeBanner() {
         <Play className="size-4 fill-current" />
       </span>
       <span className="min-w-0 flex-1">
-        <span className="block text-[13px] text-accent">Sessão em andamento</span>
+        <span className="block text-[13px] text-accent">Sessão em andamento · {s.exam}</span>
         <span className="block truncate font-semibold text-ink">{s.title}</span>
       </span>
       <span className="tabular hidden text-[13px] text-ink-2 sm:block">
@@ -46,12 +47,13 @@ function SubjectPicker() {
 
   return (
     <>
-      <PageHeader eyebrow="Praticar" title="O que vamos estudar?">
+      <PageHeader eyebrow={`Praticar · ${bank.exam}`} title="O que vamos estudar?">
         Escolha uma disciplina para montar a sessão com filtros por situação, formato e tema.
       </PageHeader>
       <ResumeBanner />
+      <WeakSpots bank={bank} />
       <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
-        {SUBJECT_LIST.map(s => {
+        {activeSubjects(bank).map(s => {
           const qs = bank.bySubject[s.id];
           const answered = qs.filter(q => isAnswered(data.questions[q.id])).length;
           const att = qs.reduce((a, q) => a + (data.questions[q.id]?.attempts ?? 0), 0);
@@ -109,6 +111,20 @@ function toggle<T>(list: T[], v: T): T[] {
   return list.includes(v) ? list.filter(x => x !== v) : [...list, v];
 }
 
+/** Recria o formulário ao trocar de prova (temas e contagens mudam). */
+function BuilderForExam({ subject, subjects }: { subject: string; subjects: SubjectId[] }) {
+  const bank = useBank();
+  if (bank.ready && subjects.length === 1 && !bank.bySubject[subjects[0]].length) {
+    const meta = subjectMeta(subjects[0]);
+    return (
+      <Empty icon={<Layers className="size-5" />} title={`${meta?.name ?? 'Esta disciplina'} não tem questões na ${bank.exam}`} action={<Button to="praticar">Ver disciplinas</Button>}>
+        Troque a prova no seletor do menu para ver as questões de outra prova.
+      </Empty>
+    );
+  }
+  return <Builder key={`${subject}:${bank.exam}`} subjects={subjects} />;
+}
+
 function Builder({ subjects }: { subjects: SubjectId[] }) {
   const bank = useBank();
   const data = useStudy();
@@ -120,6 +136,7 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
   const counts = useMemo(() => {
     const c = { todas: pool.length, 'nao-respondidas': 0, erradas: 0, 'revisar-hoje': 0, favoritas: 0 } as Record<StatusFilter, number>;
     const kinds: Partial<Record<QuestionKind, number>> = {};
+    const origins: Partial<Record<QuestionOrigin, number>> = {};
     let mcq = 0;
     for (const q of pool) {
       const s = data.questions[q.id];
@@ -128,9 +145,10 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
       if (isDue(s?.srs, t)) c['revisar-hoje']++;
       if (s?.favorite) c.favoritas++;
       kinds[q.kind] = (kinds[q.kind] ?? 0) + 1;
-      if (q.format === 'mcq') mcq++;
+      if (isObjective(q)) mcq++;
+      if (q.origin) origins[q.origin] = (origins[q.origin] ?? 0) + 1;
     }
-    return { status: c, kinds, mcq, open: pool.length - mcq };
+    return { status: c, kinds, origins, mcq, open: pool.length - mcq };
   }, [pool, data, t]);
   const topics = useMemo(() => topicsOf(pool), [pool]);
 
@@ -151,8 +169,8 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
       <a href={href('praticar')} className="mb-5 inline-flex items-center gap-1.5 text-[13px] font-medium text-ink-3 hover:text-ink">
         <ArrowLeft className="size-4" /> Disciplinas
       </a>
-      <PageHeader eyebrow="Montar sessão" title={title}>
-        {meta?.blurb ?? 'Questões de todas as disciplinas da PR1.'}
+      <PageHeader eyebrow={`Montar sessão · ${bank.exam}`} title={title}>
+        {meta?.blurb ?? `Questões de todas as disciplinas da ${bank.exam}.`}
       </PageHeader>
       <ResumeBanner />
 
@@ -166,13 +184,22 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
             ))}
           </Group>
           <Group label="Formato" hint="Nenhum marcado = todos">
-            <Chip active={f.formats.includes('mcq')} onClick={() => setF({ ...f, formats: toggle(f.formats, 'mcq') })} count={counts.mcq}>
+            <Chip active={f.formats.includes('objetiva')} onClick={() => setF({ ...f, formats: toggle(f.formats, 'objetiva') })} count={counts.mcq}>
               Objetivas
             </Chip>
-            <Chip active={f.formats.includes('open')} onClick={() => setF({ ...f, formats: toggle(f.formats, 'open') })} count={counts.open}>
+            <Chip active={f.formats.includes('aberta')} onClick={() => setF({ ...f, formats: toggle(f.formats, 'aberta') })} count={counts.open}>
               Abertas
             </Chip>
           </Group>
+          {Object.keys(counts.origins).length > 1 && (
+            <Group label="Origem" hint="Nenhuma marcada = todas">
+              {(Object.entries(counts.origins) as [QuestionOrigin, number][]).map(([o, n]) => (
+                <Chip key={o} active={f.origins.includes(o)} onClick={() => setF({ ...f, origins: toggle(f.origins, o) })} count={n}>
+                  {ORIGIN_LABEL[o]}
+                </Chip>
+              ))}
+            </Group>
+          )}
           {Object.keys(counts.kinds).length > 1 && (
             <Group label="Estilo" hint="Nenhum marcado = todos">
               {(Object.entries(counts.kinds) as [QuestionKind, number][]).map(([k, n]) => (
@@ -193,7 +220,7 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
           )}
           {!subjects.length && (
             <Group label="Disciplinas" hint="Nenhuma marcada = todas">
-              {SUBJECT_LIST.map(s => (
+              {activeSubjects(bank).map(s => (
                 <Chip key={s.id} color={s.color} active={f.subjects.includes(s.id)} onClick={() => setF({ ...f, subjects: toggle(f.subjects, s.id) })} count={bank.bySubject[s.id].length}>
                   {s.short}
                 </Chip>

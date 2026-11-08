@@ -7,6 +7,22 @@ export function fold(s: string): string {
 const escapeHtml = (s: string) =>
   s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
+const isRow = (l: string | undefined) => !!l && /\S\s\|\s\S/.test(l) && !/^\s*</.test(l);
+const nextFilled = (lines: string[], i: number) => {
+  for (let j = i + 1; j < lines.length; j++) if (lines[j].trim()) return lines[j];
+  return undefined;
+};
+
+function renderTable(rows: string[][]): string {
+  const cols = Math.max(...rows.map(r => r.length));
+  const pad = (r: string[]) => [...r, ...Array(cols - r.length).fill('')];
+  const [head, ...body] = rows;
+  // cabeçalho com menos colunas (ex.: "Alternativa | Por quê" sobre linhas "F | A) | …"): última célula ocupa o resto
+  const th = head.map((c, k) => `<th${k === head.length - 1 && head.length < cols ? ` colspan="${cols - head.length + 1}"` : ''}>${inline(c)}</th>`).join('');
+  const tb = body.map(r => `<tr>${pad(r).map(c => `<td>${inline(c)}</td>`).join('')}</tr>`).join('');
+  return `<div class="table-wrap"><table><thead><tr>${th}</tr></thead><tbody>${tb}</tbody></table></div>`;
+}
+
 function inline(s: string): string {
   return escapeHtml(s)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
@@ -49,6 +65,22 @@ export function renderMarkdown(src: string, opts: { allowHtml?: boolean } = {}):
         if (depth <= 0) break;
       }
       out.push(`<div class="figure">${block.join('\n')}</div>`);
+      continue;
+    }
+
+    // Tabela simples: linhas "a | b | c" (linhas em branco entre elas são toleradas).
+    if (isRow(line)) {
+      flushPara();
+      closeList();
+      const rows: string[][] = [];
+      while (i < lines.length && (isRow(lines[i]) || (!lines[i].trim() && isRow(nextFilled(lines, i))))) {
+        const cells = lines[i].trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(c => c.trim());
+        const separator = cells.every(c => /^:?-{2,}:?$/.test(c));
+        if (lines[i].trim() && !separator) rows.push(cells);
+        i++;
+      }
+      i--;
+      out.push(renderTable(rows));
       continue;
     }
 

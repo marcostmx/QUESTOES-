@@ -1,7 +1,8 @@
-import { lazy, Suspense, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, CalendarClock, Ellipsis, Home, Library, Moon, NotebookPen, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, CalendarClock, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
+import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
 import { isDue } from './core/srs';
 import { isOpenError } from './core/study';
@@ -68,12 +69,14 @@ interface NavItem {
 
 function useNav(): NavItem[] {
   const data = useStudy();
+  const bank = useBank();
   return useMemo(() => {
     const t = today();
     let due = 0;
     let errors = 0;
-    for (const s of Object.values(data.questions)) {
-      if (isDue(s.srs, t)) due++;
+    for (const q of bank.all) {
+      const s = data.questions[q.id];
+      if (isDue(s?.srs, t)) due++;
       if (isOpenError(s)) errors++;
     }
     return [
@@ -85,7 +88,7 @@ function useNav(): NavItem[] {
       { path: 'biblioteca', label: 'Biblioteca', icon: Library },
       { path: 'estatisticas', label: 'Estatísticas', icon: BarChart3 },
     ];
-  }, [data]);
+  }, [data, bank]);
 }
 
 const isActive = (current: string, path: string) => (path === '' ? current === '' : current === path || current.startsWith(path + '/'));
@@ -95,7 +98,7 @@ function Brand() {
     <a href={href('')} className="flex items-center gap-2.5 px-1">
       <span className="font-display flex size-9 items-center justify-center rounded-[11px] bg-ink text-[19px] font-semibold text-bg italic">P</span>
       <span className="leading-tight">
-        <span className="font-display block text-[19px] font-semibold">Estudo PR1</span>
+        <span className="font-display block text-[19px] font-semibold">Estudo PR</span>
         <span className="block text-[11.5px] text-ink-3">banco de questões</span>
       </span>
     </a>
@@ -130,14 +133,54 @@ function AccountLink({ current }: { current: string }) {
   );
 }
 
+function ExamSwitch({ compact }: { compact?: boolean }) {
+  const { exam } = usePrefs();
+  const pick = (id: ExamId) => {
+    if (id === exam) return;
+    preferences.set({ exam: id });
+    const head = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
+    // páginas que dependem do conteúdo da prova voltam para a raiz da seção
+    if (head === 'praticar') location.hash = href('praticar');
+  };
+  return (
+    <div
+      role="radiogroup"
+      aria-label="Prova"
+      className={cx('grid grid-cols-2 gap-1 rounded-xl border border-line bg-surface-2 p-1', compact ? 'w-[120px]' : 'w-full')}
+    >
+      {EXAMS.map(e => (
+        <button
+          key={e.id}
+          type="button"
+          role="radio"
+          aria-checked={exam === e.id}
+          onClick={() => pick(e.id)}
+          title={`${e.label} · ${e.hint}`}
+          className={cx(
+            'flex flex-col items-center justify-center rounded-lg leading-tight transition',
+            compact ? 'h-8' : 'h-11',
+            exam === e.id ? 'bg-surface text-ink shadow-card' : 'text-ink-3 hover:text-ink',
+          )}
+        >
+          <span className="font-mono text-[13px] font-semibold">{e.label}</span>
+          {!compact && <span className="text-[10.5px] font-medium opacity-80">{e.hint}</span>}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 function Sidebar({ current }: { current: string }) {
   const nav = useNav();
   return (
     <aside className="sticky top-0 hidden h-dvh w-[264px] shrink-0 flex-col border-r border-line bg-bg px-4 py-5 lg:flex">
       <Brand />
+      <div className="mt-6">
+        <ExamSwitch />
+      </div>
       <a
         href={href('busca')}
-        className="mt-6 mb-4 flex h-10 items-center gap-2.5 rounded-xl border border-line bg-surface px-3 text-[14px] text-ink-3 transition hover:border-line-strong hover:text-ink-2"
+        className="mt-3 mb-4 flex h-10 items-center gap-2.5 rounded-xl border border-line bg-surface px-3 text-[14px] text-ink-3 transition hover:border-line-strong hover:text-ink-2"
       >
         <Search className="size-4" />
         Buscar questões
@@ -238,6 +281,7 @@ function MobileTop() {
     <div className="flex items-center justify-between px-4 pt-4 lg:hidden">
       <Brand />
       <div className="flex items-center gap-1">
+        <ExamSwitch compact />
         <a href={href('busca')} aria-label="Buscar" className="flex size-10 items-center justify-center rounded-xl text-ink-2 hover:bg-surface-2">
           <Search className="size-5" />
         </a>
@@ -264,6 +308,31 @@ function page(parts: string[]): ReactNode {
   }
 }
 
+/** Comemoração discreta quando a meta do dia é atingida. */
+function GoalCelebration() {
+  const data = useStudy();
+  const { dailyGoal } = usePrefs();
+  const n = data.days[today()]?.answered ?? 0;
+  const prev = useRef(n);
+  const [show, setShow] = useState(false);
+  useEffect(() => {
+    if (prev.current < dailyGoal && n >= dailyGoal && dailyGoal > 0) {
+      setShow(true);
+      const t = setTimeout(() => setShow(false), 3300);
+      prev.current = n;
+      return () => clearTimeout(t);
+    }
+    prev.current = n;
+  }, [n, dailyGoal]);
+  if (!show) return null;
+  return (
+    <div role="status" className="goal-burst pointer-events-none fixed top-20 left-1/2 z-[70] flex items-center gap-3 rounded-2xl bg-good px-5 py-3 text-white shadow-pop">
+      <PartyPopper className="size-5" />
+      <span className="text-[15px] font-semibold">Meta do dia batida: {dailyGoal} questões!</span>
+    </div>
+  );
+}
+
 export default function App() {
   useTheme();
   useBank(); // começa a baixar as questões em segundo plano
@@ -286,6 +355,7 @@ export default function App() {
     return (
       <Suspense fallback={<Loading />}>
         <SessionPage />
+        <GoalCelebration />
       </Suspense>
     );
   }
@@ -304,6 +374,7 @@ export default function App() {
         </main>
       </div>
       <MobileNav current={route.path} />
+      <GoalCelebration />
     </div>
   );
 }

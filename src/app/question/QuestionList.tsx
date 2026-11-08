@@ -43,6 +43,7 @@ export function QuestionList({
                   <span className="font-medium text-ink-2">{subj?.name}</span>
                   <span>{KIND_LABEL[q.kind]}</span>
                   {q.topic && <span className="truncate">· {q.topic}</span>}
+                  {q.origin !== 'prova' && <Badge tone="warn">{q.origin ? 'Não original' : 'Origem não confirmada'}</Badge>}
                   <StatusBadge s={s} />
                 </span>
                 <span className="block text-[14.5px] leading-relaxed text-ink">{highlight ? highlight(text) : text}</span>

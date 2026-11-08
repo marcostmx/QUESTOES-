@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema nervoso, aprofundamento (lote 5)",
+    "gerado_em": "2026-11-08",
+    "base": "RESUMO 2 — Fisiopatologia do Sistema Nervoso (pasta FISIOPATO/RESUMOS do Drive). Trechos em desacordo com o resumo FISIOPATOLOGIA - PR2 ou com a literatura (Robbins) não foram usados."
+  },
+  "questoes": [
+    {
+      "id": "FISIO-IN-SN2-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "herniação · mecanismo",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · herniação",
+      "enunciado": "Sobre a herniação cerebral, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ocorre apenas em lesões focais, nunca em edema generalizado."
+        },
+        {
+          "letra": "B",
+          "texto": "Melhora a perfusão cerebral ao liberar espaço."
+        },
+        {
+          "letra": "C",
+          "texto": "Não tem relação com a pressão intracraniana."
+        },
+        {
+          "letra": "D",
+          "texto": "É o deslocamento de tecido cerebral pelo aumento da PIC, causado por efeito de massa difuso (edema generalizado) ou focal (tumor, abscesso, hemorragia); a PIC elevada comprime a vasculatura, reduz a perfusão, causa isquemia e exacerba o edema."
+        },
+        {
+          "letra": "E",
+          "texto": "As principais herniações são a epidural, a subdural e a subaracnóidea."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "gabarito_oficial": null,
+      "comentario": "Herniação ocorre quando a PIC excede a capacidade limitada de acomodação do cérebro; efeitos de massa difusos ou focais. Ciclo vicioso: PIC ↑ → compressão vascular → ↓ perfusão → isquemia → mais edema. Principais herniações: subfalcina, uncinada e tonsilar (E confunde com hematomas e hemorragias)."
+    },
+    {
+      "id": "FISIO-IN-SN2-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "AVE × AIT",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · doenças cerebrovasculares",
+      "enunciado": "Paciente tem déficit neurológico de início súbito que desaparece completamente em 3 horas. Segundo o material, o evento é classificado como:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "AVE hemorrágico."
+        },
+        {
+          "letra": "B",
+          "texto": "Infarto cerebral estabelecido."
+        },
+        {
+          "letra": "C",
+          "texto": "Ataque isquêmico transitório, pois os sintomas desapareceram em menos de 24 horas."
+        },
+        {
+          "letra": "D",
+          "texto": "Concussão."
+        },
+        {
+          "letra": "E",
+          "texto": "Hemorragia subaracnóidea."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": null,
+      "comentario": "O AVE tem início agudo e persiste por mais de 24 horas; se os sintomas desaparecem em até 24 horas, o evento é chamado de ataque isquêmico transitório. As lesões cerebrovasculares agrupam-se em isquêmicas (comprometimento do suprimento — embolia, trombose) e hemorrágicas (ruptura de vasos — hipertensão, aneurisma), e o infarto tecidual é consequência de ambas."
+    },
+    {
+      "id": "FISIO-IN-SN2-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "hemorragias intracranianas",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · hemorragia intracraniana",
+      "enunciado": "Quais são os fatores mais associados, respectivamente, à hemorragia parenquimatosa profunda e à hemorragia subaracnóidea?",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Trauma e embolia cardíaca."
+        },
+        {
+          "letra": "B",
+          "texto": "Fibrilação atrial e hidrocefalia."
+        },
+        {
+          "letra": "C",
+          "texto": "Meningite e abscesso cerebral."
+        },
+        {
+          "letra": "D",
+          "texto": "Aneurisma sacular e hipertensão arterial."
+        },
+        {
+          "letra": "E",
+          "texto": "Hipertensão arterial e ruptura de aneurisma sacular de uma artéria cerebral."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "gabarito_oficial": null,
+      "comentario": "A hipertensão é o fator de risco comumente associado às hemorragias parenquimatosas profundas, enquanto a hemorragia subaracnóidea é causada com frequência pela ruptura de aneurisma sacular de uma artéria cerebral (ex. citado: aneurisma da cerebral anterior + comunicante anterior). D inverte a relação."
+    },
+    {
+      "id": "FISIO-IN-SN2-06",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "hematoma subdural",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · lesão vascular traumática",
+      "enunciado": "Sobre o hematoma subdural, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Resulta da lesão das veias-ponte entre o cérebro e o seio sagital superior, com acúmulo de sangue venoso entre a dura-máter e a aracnoide; costuma manifestar-se em até 48 h."
+        },
+        {
+          "letra": "B",
+          "texto": "Resulta da ruptura da artéria meníngea média, com sangue entre o crânio e a dura-máter."
+        },
+        {
+          "letra": "C",
+          "texto": "Está sempre associado a fratura craniana com descolamento da dura."
+        },
+        {
+          "letra": "D",
+          "texto": "É uma coleção de LCR, não de sangue."
+        },
+        {
+          "letra": "E",
+          "texto": "Apresenta classicamente intervalo lúcido seguido de piora rápida por sangramento arterial."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "gabarito_oficial": null,
+      "comentario": "Subdural: rompimento de veias-ponte (cérebro ↔ seio sagital superior) → sangue venoso abaixo da dura (entre dura e aracnoide), dura ainda aderida ao crânio; sintomas em geral em 48 h; tratamento: remoção do sangue e do tecido organizado. Epidural (B, C, E): ruptura arterial (meníngea média), geralmente com fratura; sangue entre crânio e dura (que se descola); intervalo lúcido; emergência neurocirúrgica (risco de herniação fatal)."
+    },
+    {
+      "id": "FISIO-IN-SN2-07",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "trauma cranioencefálico",
+      "tipo": "itens_vf",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · TCE",
+      "enunciado": "Sobre o trauma cranioencefálico, julgue os itens: ( ) A localização anatômica da lesão e a capacidade limitada do cérebro são os principais determinantes das consequências do trauma. ( ) Fratura craniana, lesão parenquimatosa e lesão vascular podem coexistir. ( ) Fratura com deslocamento é quando o osso se desloca para dentro da cavidade por distância maior que a espessura do osso. ( ) Concussão é a laceração do tecido cerebral por um objeto penetrante. ( ) Contusão decorre de trauma fechado, com colisão do cérebro contra o crânio.",
+      "imagem": null,
+      "alternativas": [],
+      "gabarito": [
+        "V",
+        "V",
+        "V",
+        "F",
+        "V"
+      ],
+      "gabarito_texto": "V, V, V, F, V",
+      "gabarito_oficial": null,
+      "comentario": "4º F: concussão é a **alteração de consciência** secundária ao trauma craniano; a laceração é causada pela penetração de um objeto. O golpe pode ser contuso ou penetrante, com lesão fechada ou aberta; a contusão (trauma fechado) envolve colisão do cérebro com o crânio (efeito chicote)."
+    },
+    {
+      "id": "FISIO-IN-SN2-09",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "abscesso cerebral",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · abscesso cerebral",
+      "enunciado": "Paciente com déficits neurológicos focais progressivos e sinais de hipertensão intracraniana tem foco localizado de necrose com inflamação no parênquima. Sobre o abscesso cerebral, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É um foco de necrose caseosa sempre causado por fungos."
+        },
+        {
+          "letra": "B",
+          "texto": "É inflamação difusa das leptomeninges."
+        },
+        {
+          "letra": "C",
+          "texto": "Não eleva a PIC, por ser pequeno."
+        },
+        {
+          "letra": "D",
+          "texto": "É um foco localizado de necrose liquefativa com inflamação, geralmente de causa bacteriana, que atinge o parênquima sem atingir as meninges e causa déficits focais progressivos."
+        },
+        {
+          "letra": "E",
+          "texto": "É sinônimo de meningite asséptica."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "gabarito_oficial": null,
+      "comentario": "Abscesso cerebral: foco localizado de necrose liquefativa com inflamação, geralmente por infecção bacteriana; atinge o parênquima sem atingir as meninges; déficits focais progressivos; pode ↑ PIC (efeito de massa focal). Inflamação das leptomeninges é meningite (B)."
+    },
+    {
+      "id": "FISIO-IN-SN2-11",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "desmielinização · células",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · doenças desmielinizantes",
+      "enunciado": "Nas doenças desmielinizantes, a condução saltatória fica prejudicada. Qual célula produz a mielina perdida no SNC e qual a produz no SNP?",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "SNC: oligodendrócito; SNP: célula de Schwann."
+        },
+        {
+          "letra": "B",
+          "texto": "SNC: célula de Schwann; SNP: oligodendrócito."
+        },
+        {
+          "letra": "C",
+          "texto": "SNC: astrócito; SNP: micróglia."
+        },
+        {
+          "letra": "D",
+          "texto": "Ambos: astrócitos."
+        },
+        {
+          "letra": "E",
+          "texto": "SNC: neurônio; SNP: fibroblasto."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "gabarito_oficial": null,
+      "comentario": "Desmielinizantes: dano preferencial à mielina, com relativa preservação dos axônios; a perda da mielina impede a condução saltatória. Mielina no SNP: célula de Schwann; no SNC: oligodendrócito. Exemplos: esclerose múltipla (autoimune, potencialmente debilitante) e leucodistrofias (herdadas, síntese e renovação anormais da mielina)."
+    },
+    {
+      "id": "FISIO-IN-SN2-12",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "esclerose lateral amiotrófica",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · ELA",
+      "enunciado": "Sobre a esclerose lateral amiotrófica (ELA), assinale a alternativa correta segundo o material:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É uma doença desmielinizante autoimune."
+        },
+        {
+          "letra": "B",
+          "texto": "Decorre da perda de neurônios dopaminérgicos da substância negra."
+        },
+        {
+          "letra": "C",
+          "texto": "É causada por expansão de repetições no gene da huntingtina."
+        },
+        {
+          "letra": "D",
+          "texto": "Mutações geram formas anormais da proteína SOD1 com falha no dobramento, desencadeando resposta à proteína mal dobrada e morte apoptótica dos neurônios motores; o sinal de Babinski pode estar presente."
+        },
+        {
+          "letra": "E",
+          "texto": "Acomete apenas neurônios sensitivos."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "gabarito_oficial": null,
+      "comentario": "ELA: morte de neurônios motores na medula espinal e no tronco encefálico; mutações da SOD1 com falha no dobramento → resposta à proteína mal dobrada → apoptose neuronal; sinal de Babinski presente. B é Parkinson; C é Huntington; A descreve esclerose múltipla."
+    },
+    {
+      "id": "FISIO-IN-SN2-13",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "Parkinson · L-dopa",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · doença de Parkinson",
+      "enunciado": "Por que no tratamento da doença de Parkinson se administra L-dopa, e não a própria dopamina?",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Porque a dopamina é tóxica para a substância negra."
+        },
+        {
+          "letra": "B",
+          "texto": "Porque a L-dopa é uma forma que consegue atravessar a barreira hematoencefálica, repondo a dopamina perdida com a morte das células secretoras."
+        },
+        {
+          "letra": "C",
+          "texto": "Porque a L-dopa destrói os agregados de huntingtina."
+        },
+        {
+          "letra": "D",
+          "texto": "Porque a dopamina causa desmielinização."
+        },
+        {
+          "letra": "E",
+          "texto": "Porque a L-dopa inibe a SOD1."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": null,
+      "comentario": "Parkinson: perda das células secretoras de dopamina (substância negra), associada ao acúmulo e agregação de proteínas, anomalias mitocondriais e perda neuronal; tremor, rigidez e bradicinesia. Administra-se L-dopa, forma que atravessa a barreira hematoencefálica."
+    },
+    {
+      "id": "FISIO-IN-SN2-14",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "neurodegenerativas · associação",
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · doenças neurodegenerativas",
+      "enunciado": "Associe corretamente a doença à proteína/alteração envolvida:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Alzheimer — SOD1; ELA — huntingtina; Huntington — Aβ e tau."
+        },
+        {
+          "letra": "B",
+          "texto": "Alzheimer — huntingtina; ELA — Aβ; Huntington — SOD1."
+        },
+        {
+          "letra": "C",
+          "texto": "Alzheimer — dopamina em excesso; ELA — mielina; Huntington — tau."
+        },
+        {
+          "letra": "D",
+          "texto": "Alzheimer — perda de oligodendrócitos; ELA — Schwann; Huntington — astrócitos."
+        },
+        {
+          "letra": "E",
+          "texto": "Alzheimer — Aβ e tau; ELA — SOD1 mal dobrada; Huntington — huntingtina com conformação alterada."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "gabarito_oficial": null,
+      "comentario": "Alzheimer: erro metabólico proteico com acúmulo de Aβ e tau (emaranhados neurofibrilares); demência mais comum em idosos. ELA: SOD1 mal dobrada. Huntington: huntingtina de conformação alterada; coreia, inexoravelmente progressiva. Parkinson: perda dopaminérgica com agregação de proteínas."
+    },
+    {
+      "id": "FISIO-IN-SN2-15",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "meningite bacteriana · LCR",
+      "tipo": "multipla",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · meningite",
+      "enunciado": "Assinale todas as manifestações clínicas citadas para a meningite:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cefaleia e rigidez de nuca."
+        },
+        {
+          "letra": "B",
+          "texto": "Febre, náuseas e vômitos."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento da pressão intracraniana."
+        },
+        {
+          "letra": "D",
+          "texto": "Na forma bacteriana, fotofobia, irritabilidade e rebaixamento de consciência, pela presença de exsudato purulento."
+        },
+        {
+          "letra": "E",
+          "texto": "Coreia e demência progressiva."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "gabarito_texto": "A, B, C e D",
+      "gabarito_oficial": null,
+      "comentario": "Meningite: inflamação das leptomeninges e do LCR no espaço subaracnóideo — cefaleia, rigidez de nuca, febre, náusea, vômito, ↑ PIC. Piogênica aguda (bacteriana): irritação meníngea e prejuízo neurológico (fotofobia, irritabilidade, rebaixamento de consciência) pelo exsudato purulento; diagnóstico por punção lombar (LCR turvo ou purulento, ↑ pressão, muitos neutrófilos). Coreia e demência são de Huntington (E)."
+    },
+    {
+      "id": "FISIO-IN-SN2-16",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "hematomas · caso discursivo",
+      "tipo": "discursiva",
+      "origem": "inédita",
+      "fonte": "RESUMO 2 Fisiopatologia do SN · lesão vascular traumática",
+      "enunciado": "Compare o hematoma epidural e o hematoma subdural quanto a: (a) vaso lesado e tipo de sangue; (b) localização em relação à dura-máter; (c) associação com fratura; (d) evolução clínica e conduta.",
+      "imagem": null,
+      "alternativas": [],
+      "gabarito": null,
+      "gabarito_texto": "",
+      "gabarito_oficial": null,
+      "comentario": null,
+      "resposta_modelo": "(a) **Epidural:** ruptura de artéria — principalmente a meníngea média — sangue arterial. **Subdural:** lesão das veias-ponte entre o cérebro e o seio sagital superior — sangue venoso.\n\n(b) **Epidural:** acima da dura-máter, entre o crânio e a dura, que se descola da calota. **Subdural:** abaixo da dura, entre a dura (ainda aderida ao crânio) e a aracnoide, sobre o parênquima.\n\n(c) **Epidural:** geralmente associado a fratura craniana (ex.: osso temporal). **Subdural:** não depende de fratura.\n\n(d) **Epidural:** trauma → perda de consciência → intervalo lúcido → piora clínica rápida com hipertensão intracraniana; expande-se rapidamente — emergência neurocirúrgica (drenagem imediata), risco de herniação fatal. **Subdural:** manifestação sintomática em geral em até 48 h; tratamento com remoção do sangue e do tecido organizado associado."
+    }
+  ]
+}

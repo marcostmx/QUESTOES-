@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "titulo": "Provas anteriores SOP IV · Fisiopatologia (conteúdo da PR2) · Compilado comentado",
+    "gerado_em": "2026-11-08",
+    "base": "SOP IV — Compilado Comentado de Questões (Drive): transcrição de Prova_sop_IV_26_1.pdf (banco misto PR1/PR2). Só foram incluídas questões de conteúdo da PR2 de Fisiopatologia (digestório, hematopoiético, nervoso e urinário)."
+  },
+  "questoes": [
+    {
+      "id": "COMP-B5-Q6", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema nervoso", "subtema": "TCE · hematoma epidural",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 5 Q6",
+      "enunciado": "Um homem de 24 anos sofre traumatismo cranioencefálico após colisão motociclística. Inicialmente apresenta perda breve da consciência, seguida de recuperação completa do estado neurológico. Cerca de duas horas depois evolui com cefaleia intensa, vômitos, rebaixamento do nível de consciência e anisocoria ipsilateral. A tomografia computadorizada evidencia coleção hiperdensa biconvexa na região temporoparietal esquerda. Assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "O hematoma descrito resulta tipicamente da ruptura de veias ponte, levando a um sangramento venoso de lenta progressão localizado entre a dura-máter e a aracnoide." },
+        { "letra": "B", "texto": "O intervalo lúcido é uma característica típica do hematoma subaracnoide traumático e decorre da compensação transitória da pressão liquórica." },
+        { "letra": "C", "texto": "O hematoma subdural agudo ocorre entre a aracnoide e a pia-máter e caracteriza-se por coleção biconvexa limitada pelas suturas cranianas." },
+        { "letra": "D", "texto": "O hematoma intraparenquimatoso traumático apresenta menor efeito de massa que os hematomas epidurais devido à ausência de edema cerebral associado." },
+        { "letra": "E", "texto": "O hematoma epidural geralmente decorre da ruptura da artéria meníngea média, produzindo sangramento entre o crânio e a dura-máter, com rápida elevação da pressão intracraniana." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Retrato clássico do hematoma epidural: perda breve de consciência, intervalo lúcido de horas, deterioração rápida com anisocoria (sinal de herniação uncal) e imagem biconvexa (lentiforme) limitada pelas suturas — sangramento arterial da meníngea média entre o crânio e a dura. As demais trocam definições: o subdural é venoso (veias-ponte), em crescente e não limitado por suturas.\n\n**O que o professor quer avaliar:** usar o padrão temporal (intervalo lúcido) e o formato da imagem (biconvexo × crescente) para diferenciar epidural de subdural."
+    },
+    {
+      "id": "COMP-B5-Q7", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema nervoso", "subtema": "síndromes parkinsonianas",
+      "tipo": "discursiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 5 Q7",
+      "enunciado": "Síndromes parkinsonianas (dois casos):\n\n7a) Paciente de 68 anos, com história de lentificação motora progressiva há cerca de 1 ano, associada a quedas frequentes desde o início do quadro. Familiares relatam dificuldade para olhar para baixo e mudança na fala, que se tornou mais lenta e arrastada. Ao exame neurológico, apresenta bradicinesia, rigidez, instabilidade postural e limitação do olhar vertical. Qual o diagnóstico mais provável?\n\n7b) Paciente de 65 anos apresenta lentificação motora progressiva há aproximadamente 3 anos, iniciando de forma assimétrica no membro superior direito, associada a tremor em repouso discreto e rigidez leve. Refere leve dificuldade para iniciar a marcha, mas sem quedas recentes. Ao exame neurológico, observa-se bradicinesia, rigidez em roda denteada no braço direito e tremor em repouso assimétrico. Qual o diagnóstico mais provável?",
+      "imagem": null, "alternativas": [], "gabarito": null, "gabarito_texto": "", "gabarito_oficial": null,
+      "comentario": null,
+      "resposta_modelo": "7a) **Paralisia supranuclear progressiva (PSP)** — quedas precoces (já no primeiro ano), bradicinesia e rigidez, instabilidade postural e limitação do olhar vertical: sinais de alarme de parkinsonismo atípico.\n\n7b) **Doença de Parkinson idiopática** — início assimétrico, tremor de repouso, rigidez em roda denteada, progressão lenta ao longo de anos, sem quedas precoces.\n\nQuadro-chave do diagnóstico diferencial: DP — tremor de repouso, bradicinesia, boa resposta à levodopa; PSP — quedas precoces, instabilidade postural, dificuldade de olhar para cima/baixo; atrofia de múltiplos sistemas — parkinsonismo + disautonomia importante (hipotensão ortostática) + incontinência; degeneração corticobasal — parkinsonismo muito assimétrico, apraxia, distonia, mioclonias, \"mão alienígena\"; demência com corpos de Lewy — demência precoce, flutuações cognitivas, alucinações visuais, parkinsonismo."
+    },
+    {
+      "id": "COMP-B8-Q7", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "leucemia mieloide crônica",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 8 Q7",
+      "enunciado": "Um homem de 58 anos procura atendimento por fadiga progressiva, perda de peso não intencional e sensação de plenitude abdominal há 4 meses. Ao exame físico, apresenta palidez cutaneomucosa e esplenomegalia. O hemograma revela leucocitose importante, com predomínio de granulócitos em diferentes estágios de maturação. A análise citogenética identifica a presença do cromossomo Filadélfia, resultante da translocação t(9;22). Com base na fisiopatologia da doença, é um quadro típico de:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Leucemia Linfoblástica Aguda" },
+        { "letra": "B", "texto": "Leucemia Mieloide Aguda" },
+        { "letra": "C", "texto": "Leucemia Linfoblástica Crônica" },
+        { "letra": "D", "texto": "Leucemia Mieloide Crônica" },
+        { "letra": "E", "texto": "Leucemia De Células Pilosas" }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": "Na foto da prova a marcação aparece sobre a C (\"Leucemia Linfoblástica Crônica\", entidade não reconhecida); o compilado considera erro de marcação — conferir com o professor.",
+      "comentario": "Meia-idade, fadiga, esplenomegalia, leucocitose com granulócitos em todos os estágios de maturação e cromossomo Filadélfia t(9;22) = **leucemia mieloide crônica**. O Filadélfia é o marcador clássico e quase patognomônico da LMC.\n\n**O que o professor quer avaliar:** a associação direta Filadélfia t(9;22) → LMC, sem confundir com os distratores."
+    },
+    {
+      "id": "COMP-B8-Q8", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Hematopoiético", "subtema": "anemias hemolíticas · mecanismos",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 8 Q8",
+      "enunciado": "Um estudante de Medicina participa de uma ação de saúde em que são atendidos três pacientes com anemia hemolítica: Paciente 1: adolescente com episódios recorrentes de dor intensa em ossos longos e história de internações por crises vaso-oclusivas. Paciente 2: mulher de 18 anos com icterícia crônica, esplenomegalia e presença de esferócitos no esfregaço sanguíneo. Paciente 3: homem de 25 anos que desenvolveu icterícia e urina escura após uso de sulfonamida, sendo diagnosticado com deficiência de G6PD. Assinale a alternativa que correlaciona corretamente a doença ao seu principal mecanismo fisiopatológico:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Na anemia falciforme, a hemólise decorre principalmente da perda progressiva de proteínas de membrana; na esferocitose hereditária, da diminuição da síntese de globinas; e na deficiência de G6PD, da redução da deformabilidade eritrocitária." },
+        { "letra": "B", "texto": "Na anemia falciforme, a polimerização da hemoglobina altera a forma e a sobrevida das hemácias; na esferocitose hereditária, defeitos estruturais da membrana favorecem o sequestro esplênico; e na deficiência de G6PD, a incapacidade de neutralizar espécies reativas de oxigênio leva à lesão eritrocitária." },
+        { "letra": "C", "texto": "Na anemia falciforme, o principal mecanismo é a destruição imunomediada das hemácias; na esferocitose hereditária, a hemólise ocorre por precipitação intracelular de hemoglobina; e na deficiência de G6PD, por defeito quantitativo na produção de hemoglobina." },
+        { "letra": "D", "texto": "Na anemia falciforme, a hemólise resulta da instabilidade do citoesqueleto eritrocitário; na esferocitose hereditária, de mutações que promovem polimerização da hemoglobina; e na deficiência de G6PD, de alteração na síntese de glutationa." },
+        { "letra": "E", "texto": "Na anemia falciforme, a redução da deformabilidade eritrocitária decorre de defeitos da hemoglobina; na esferocitose hereditária, do aumento da susceptibilidade ao estresse oxidativo; e na deficiência de G6PD, da ativação crônica da eritropoese ineficaz." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Falciforme: a Hb S polimeriza e deforma a hemácia (menor sobrevida). Esferocitose hereditária: defeito nas proteínas do citoesqueleto de membrana (espectrina/anquirina) → hemácias esféricas sequestradas no baço. Deficiência de G6PD: perda da capacidade de neutralizar espécies reativas de oxigênio (via glutationa) → lesão oxidativa (corpos de Heinz), hemólise após infecção ou fármacos como sulfonamidas.\n\n**O que o professor quer avaliar:** o defeito molecular específico de cada anemia hemolítica, não só que \"todas causam hemólise\"."
+    },
+    {
+      "id": "COMP-B9-Q9", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisiopatologia do sistema digestório", "subtema": "carcinogênese gástrica · H. pylori",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 9 Q9",
+      "enunciado": "Um homem de 58 anos, portador de infecção crônica por H. pylori há muitos anos, realiza endoscopia digestiva alta. A biópsia evidencia gastrite crônica atrófica com áreas de metaplasia intestinal. Durante a discussão do caso, o médico explica que a persistência da inflamação aumenta o risco de neoplasia gástrica. Qual mecanismo fisiopatológico explica de forma mais adequada essa associação?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A inflamação crônica promove aumento da renovação celular e acúmulo progressivo de alterações genéticas em um epitélio submetido a lesão persistente." },
+        { "letra": "B", "texto": "A infecção induz transformação maligna direta das células epiteliais por integração do DNA bacteriano ao genoma humano." },
+        { "letra": "C", "texto": "A redução da secreção ácida permite proliferação celular descontrolada por aumento da absorção de nutrientes pela mucosa gástrica." },
+        { "letra": "D", "texto": "A metaplasia intestinal resulta da proliferação clonal de células neoplásicas já presentes na mucosa gástrica normal." },
+        { "letra": "E", "texto": "A atrofia glandular impede a apoptose das células epiteliais, levando inevitavelmente à formação de adenocarcinoma." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": "Há um pequeno traço de caneta também sobre a C na foto da prova; o compilado adota a A, que corresponde à cascata de Correa.",
+      "comentario": "Cascata de Correa: gastrite crônica → atrofia → metaplasia intestinal → displasia → adenocarcinoma. O motor é a inflamação crônica persistente, que aumenta a renovação celular e acumula alterações genéticas ao longo dos anos — e não integração do DNA bacteriano nem proliferação de células já neoplásicas.\n\n**O que o professor quer avaliar:** a carcinogênese gástrica por H. pylori no nível mecanístico."
+    },
+    {
+      "id": "COMP-B9-Q10", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisiopatologia do sistema digestório", "subtema": "Crohn × retocolite ulcerativa",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 9 Q10",
+      "enunciado": "Dois pacientes são acompanhados em um ambulatório de gastroenterologia por doença inflamatória intestinal. Paciente A: apresenta dor abdominal, perda de peso, diarreia sem sangue e histórico de fístula perianal. A colonoscopia mostra áreas de mucosa normal intercaladas por segmentos inflamados (lesões \"salteadas\"). Paciente B: apresenta diarreia sanguinolenta, tenesmo e urgência evacuatória. A colonoscopia revela inflamação contínua iniciando no reto e se estendendo proximalmente. Ao discutir a fisiopatologia dessas doenças, o médico explica que as diferenças clínicas observadas decorrem principalmente da profundidade e distribuição da inflamação intestinal. Qual das seguintes complicações está mais diretamente relacionada ao mecanismo fisiopatológico presente no Paciente A?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Hemorragia digestiva decorrente da erosão superficial contínua da mucosa colônica." },
+        { "letra": "B", "texto": "Formação de estenoses em consequência da inflamação que acomete todas as camadas da parede intestinal." },
+        { "letra": "C", "texto": "Desenvolvimento de pseudopólipos inflamatórios devido à regeneração repetida da mucosa superficial." },
+        { "letra": "D", "texto": "Megacólon tóxico causado pela liberação difusa de mediadores inflamatórios na mucosa colônica." },
+        { "letra": "E", "texto": "Sangramento retal persistente decorrente da ulceração restrita à mucosa e submucosa." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Paciente A = Crohn (lesões salteadas, fístula perianal, diarreia sem sangue): inflamação **transmural** → fibrose, estenoses e fístulas. Paciente B = retocolite ulcerativa (contínua a partir do reto, mucosa/submucosa, diarreia sanguinolenta) → sangramento, pseudopólipos e risco de megacólon tóxico. As alternativas A, C, D e E são complicações da RCU.\n\n**O que o professor quer avaliar:** como a profundidade e a distribuição da inflamação explicam as complicações de cada doença."
+    },
+    {
+      "id": "COMP-B10-Q3", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "GN pós-estreptocócica",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 10 Q3",
+      "enunciado": "Um menino de 10 anos é levado ao pronto-socorro com edema periorbitário, hematúria macroscópica (\"urina cor de coca-cola\"), oligúria e hipertensão arterial. Há relato de faringoamigdalite há cerca de 2 semanas. Os exames laboratoriais demonstram creatinina sérica elevada, complemento C3 reduzido e presença de cilindros hemáticos na urinálise. Assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A lesão glomerular ocorre predominantemente por deposição linear de anticorpos anti-membrana basal glomerular, resultando em ativação da via extrínseca da coagulação e proteinúria maciça." },
+        { "letra": "B", "texto": "A formação de imunocomplexos circulantes ou in situ promove ativação do sistema complemento, recrutamento de leucócitos e proliferação endocapilar, levando à redução da taxa de filtração glomerular e às manifestações da síndrome nefrítica." },
+        { "letra": "C", "texto": "A hematúria decorre principalmente do aumento da pressão oncótica intraglomerular, que favorece a passagem de hemácias intactas para o espaço de Bowman sem dano inflamatório da barreira de filtração." },
+        { "letra": "D", "texto": "O edema observado é causado exclusivamente pela perda urinária maciça de proteínas, semelhante ao mecanismo fisiopatológico predominante da síndrome nefrótica." },
+        { "letra": "E", "texto": "A hipocomplementemia observada é consequência da ativação isolada da via clássica do complemento, sem participação da via alternativa." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Glomerulonefrite difusa aguda pós-estreptocócica: imunocomplexos (circulantes ou in situ) ativam o complemento (consumo → C3 baixo), recrutam leucócitos e causam proliferação endocapilar → ↓ TFG → síndrome nefrítica (hematúria, hipertensão, oligúria e edema por retenção de sódio, e não por perda maciça de proteína como na nefrótica).\n\n**O que o professor quer avaliar:** o padrão temporal pós-infeccioso, o consumo de complemento e a diferença entre edema nefrítico e nefrótico."
+    },
+    {
+      "id": "COMP-B10-Q4", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "NTA isquêmica",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 10 Q4",
+      "enunciado": "Um homem de 67 anos é internado na UTI após choque séptico secundário a pneumonia grave. Após um período de hipotensão prolongada, evolui com oligúria e aumento progressivo da creatinina sérica. O exame histopatológico renal demonstra achatamento do epitélio tubular, perda da borda em escova, descamação celular para o lúmen tubular e edema intersticial difuso. Assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "A redução da taxa de filtração glomerular ocorre exclusivamente pela obstrução tubular mecânica, sem participação de alterações hemodinâmicas intrarrenais." },
+        { "letra": "B", "texto": "O edema intersticial renal aumenta a pressão hidrostática no interstício, comprimindo túbulos e capilares peritubulares, agravando a hipóxia tecidual e contribuindo para a manutenção da disfunção renal." },
+        { "letra": "C", "texto": "A lesão tubular aguda é caracterizada por necrose uniforme de todos os túbulos renais, justificando a irreversibilidade da insuficiência renal na maioria dos pacientes." },
+        { "letra": "D", "texto": "O principal mecanismo de redução da filtração glomerular é a perda da carga negativa da membrana basal glomerular secundária à isquemia." },
+        { "letra": "E", "texto": "O edema intersticial renal melhora a perfusão dos capilares peritubulares por aumentar o gradiente hidrostático entre os vasos e o interstício." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Choque séptico → hipotensão prolongada → oligúria com achatamento do epitélio tubular, perda da borda em escova e edema intersticial = NTA isquêmica. Círculo vicioso: o edema intersticial comprime os capilares peritubulares, piora a hipóxia local e mantém a disfunção mesmo após corrigir a hipotensão. A necrose é focal/heterogênea e o quadro costuma ser reversível com suporte (C errada).\n\n**O que o professor quer avaliar:** o mecanismo secundário que mantém a lesão tubular."
+    },
+    {
+      "id": "COMP-B10-Q5", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema nervoso", "subtema": "tipos de edema cerebral",
+      "tipo": "objetiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 10 Q5",
+      "enunciado": "Uma mulher de 29 anos é admitida na emergência após ingerir grande volume de água durante uma competição esportiva. Na admissão, apresenta confusão mental, cefaleia, náuseas e convulsão. Os exames revelam sódio sérico de 116 mEq/L e osmolaridade plasmática reduzida. A tomografia computadorizada não evidencia lesões estruturais focais. O neurologista explica aos residentes que a paciente desenvolveu edema cerebral devido a alterações osmóticas. Assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "O edema osmótico e o edema citotóxico possuem mecanismos fisiopatológicos idênticos, diferindo apenas na velocidade de instalação." },
+        { "letra": "B", "texto": "O edema citotóxico depende obrigatoriamente da ruptura da barreira hematoencefálica para permitir o extravasamento de proteínas plasmáticas para o espaço extracelular." },
+        { "letra": "C", "texto": "O edema vasogênico é caracterizado por acúmulo intracelular de água secundário à falência energética dos neurônios e astrócitos." },
+        { "letra": "D", "texto": "O edema intersticial ocorre principalmente em áreas de infarto cerebral devido à liberação local de mediadores inflamatórios e aumento da permeabilidade vascular." },
+        { "letra": "E", "texto": "O edema osmótico decorre da diminuição da osmolaridade plasmática em relação à osmolaridade cerebral, promovendo movimento de água para o interior das células cerebrais, mesmo na ausência de ruptura da barreira hematoencefálica." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "B e C trocam as definições: vasogênico = ruptura da barreira hematoencefálica com extravasamento de proteínas (tumores, abscessos); citotóxico = acúmulo intracelular de água por falência da Na/K-ATPase (AVC isquêmico agudo). Edema intersticial é o da hidrocefalia (LCR atravessando o epêndima), não do infarto (D). Hiponatremia grave por intoxicação hídrica = edema **osmótico**: o plasma fica hipotônico e a água entra nas células cerebrais com a barreira intacta.\n\n**O que o professor quer avaliar:** os quatro tipos de edema cerebral (citotóxico, vasogênico, intersticial, osmótico) e o cenário típico de cada um."
+    },
+    {
+      "id": "COMP-B11-Q2", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema nervoso", "subtema": "ELA · NMS + NMI",
+      "tipo": "discursiva", "origem": "prova/banco", "fonte": "Prova SOP IV 26.1 (banco) · Compilado comentado, Bloco 11 Q2",
+      "enunciado": "Um adulto jovem de 30 anos realizou uma consulta médica por conta de uma fraqueza generalizada e atrofia muscular na mão e no pé direito. Esses sintomas vinham se agravando nos últimos 2 anos e foram associados a cãibras musculares dolorosas. O exame neurológico demonstrava disartria, espasticidade generalizada, reflexos profundos aumentados em todos os tendões e sinal de Babinski bilateral. Observou-se ainda atrofia muscular proeminente em mão direita e ambos os pés, com fasciculações. O exame sensitivo se mostrou dentro da normalidade. Sem alterações de esfíncteres de bexiga e reto.\n\n2.1 Qual o diagnóstico mais provável? (opções citadas na prova: deficiência de B12, oclusão da artéria espinhal anterior, mielite transversa, tabes dorsalis, entre outras)\n2.2 Justifique sua resposta.",
+      "imagem": null, "alternativas": [], "gabarito": null, "gabarito_texto": "", "gabarito_oficial": null,
+      "comentario": null,
+      "resposta_modelo": "2.1 **Esclerose lateral amiotrófica (ELA).**\n\n2.2 Presença simultânea de sinais de **neurônio motor superior** (espasticidade, hiperreflexia, Babinski bilateral, disartria) e de **neurônio motor inferior** (atrofia muscular, fasciculações), **sem alteração sensitiva e sem alteração esfincteriana** — marca de doença puramente motora. As demais hipóteses cursam com achados sensitivos (deficiência de B12, tabes dorsalis) ou com nível sensitivo/disfunção esfincteriana bem definidos (oclusão da artéria espinhal anterior, mielite transversa), incompatíveis com o exame sensitivo normal."
+    }
+  ]
+}

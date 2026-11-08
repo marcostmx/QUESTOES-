@@ -5,7 +5,7 @@ import { dueQueue } from '../core/session';
 import { addDays } from '../core/srs';
 import { today, useStudy } from '../core/store';
 import { plural } from '../core/text';
-import { SUBJECT_LIST } from '../subjects';
+import { activeSubjects } from '../subjects';
 import { Button, Card, cx, Empty, Loading, PageHeader, Section } from '../ui';
 import { startSession } from './SessionPage';
 
@@ -30,7 +30,7 @@ export default function ReviewPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Revisão espaçada" title="Revisão">
+      <PageHeader eyebrow={`Revisão espaçada · ${bank.exam}`} title="Revisão">
         Cada questão respondida volta no intervalo certo: erros voltam amanhã, acertos espaçam cada vez mais. Chutes e respostas parciais voltam mais cedo.
       </PageHeader>
 
@@ -46,7 +46,7 @@ export default function ReviewPage() {
             </Button>
           </div>
           <div className="mt-6 grid gap-2 border-t border-line pt-5 sm:grid-cols-2 lg:grid-cols-3">
-            {SUBJECT_LIST.map(s => {
+            {activeSubjects(bank).map(s => {
               const list = info.due.filter(q => q.subject === s.id);
               if (!list.length) return null;
               return (

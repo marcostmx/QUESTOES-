@@ -4,19 +4,23 @@
  * navegador para o aluno retomar de onde parou.
  */
 import { useSyncExternalStore } from 'react';
-import type { Question, QuestionFormat, QuestionKind, SubjectId } from '../../data/schema';
+import { isObjective, type ExamId, type Question, type QuestionKind, type QuestionOrigin, type SubjectId } from '../../data/schema';
 import { isDue } from './srs';
 import { isAnswered, isOpenError, type Result, type StudyData } from './study';
-import { storage, study, today } from './store';
+import { preferences, storage, study, today } from './store';
 
 /* ---------- Filtros ---------- */
 
 export type StatusFilter = 'todas' | 'nao-respondidas' | 'erradas' | 'favoritas' | 'revisar-hoje';
 
+/** 'objetiva' cobre alternativa única, várias corretas e V/F por item. */
+export type FormatFilter = 'objetiva' | 'aberta';
+
 export interface PracticeFilter {
   subjects: SubjectId[];
   status: StatusFilter;
-  formats: QuestionFormat[];
+  formats: FormatFilter[];
+  origins: QuestionOrigin[];
   kinds: QuestionKind[];
   topics: string[];
   order: 'banco' | 'aleatoria';
@@ -27,6 +31,7 @@ export const defaultFilter = (subjects: SubjectId[] = []): PracticeFilter => ({
   subjects,
   status: 'todas',
   formats: [],
+  origins: [],
   kinds: [],
   topics: [],
   order: 'banco',
@@ -51,11 +56,13 @@ export function filterQuestions(
 ): Question[] {
   const subj = new Set(f.subjects);
   const formats = new Set(f.formats);
+  const origins = new Set(f.origins ?? []);
   const kinds = new Set(f.kinds);
   const topics = new Set(f.topics);
   let list = all.filter(q => {
     if (subj.size && !subj.has(q.subject)) return false;
-    if (formats.size && !formats.has(q.format)) return false;
+    if (formats.size && !formats.has(isObjective(q) ? 'objetiva' : 'aberta')) return false;
+    if (origins.size && !(q.origin && origins.has(q.origin))) return false;
     if (kinds.size && !kinds.has(q.kind)) return false;
     if (topics.size && !(q.topic && topics.has(q.topic))) return false;
     const s = data.questions[q.id];
@@ -84,7 +91,12 @@ export function dueQueue(all: Question[], data: StudyData, todayKey: string, sub
 export type SessionKind = 'pratica' | 'revisao' | 'erros' | 'favoritos' | 'avulsa';
 
 export interface SessionAnswer {
+  /** Alternativa marcada (mcq). */
   selected?: number;
+  /** Alternativas marcadas (multi). */
+  picked?: number[];
+  /** Julgamento de cada item (tf): true = V / marcado. */
+  judged?: (boolean | null)[];
   eliminated?: number[];
   /** Resposta escrita (questões abertas). */
   text?: string;
@@ -98,6 +110,7 @@ export interface SessionAnswer {
 export interface Session {
   id: string;
   kind: SessionKind;
+  exam: ExamId;
   title: string;
   questionIds: string[];
   index: number;
@@ -108,6 +121,8 @@ export interface Session {
 
 const KEY = 'pr1.v2.session';
 let current: Session | null = storage.read<Session>(KEY);
+// sessões salvas antes da separação por prova eram todas da PR1
+if (current && !current.exam) current = { ...current, exam: 'PR1' };
 const listeners = new Set<() => void>();
 
 function set(next: Session | null) {
@@ -127,8 +142,8 @@ export const sessions = {
     listeners.add(l);
     return () => listeners.delete(l);
   },
-  start(kind: SessionKind, title: string, questionIds: string[], index = 0) {
-    set({ id: crypto.randomUUID?.() ?? String(Date.now()), kind, title, questionIds, index, answers: {}, createdAt: Date.now() });
+  start(kind: SessionKind, title: string, questionIds: string[], index = 0, exam: ExamId = preferences.get().exam) {
+    set({ id: crypto.randomUUID?.() ?? String(Date.now()), kind, exam, title, questionIds, index, answers: {}, createdAt: Date.now() });
   },
   go(index: number) {
     if (!current) return;
@@ -139,12 +154,32 @@ export const sessions = {
     const elim = (current?.answers[id]?.eliminated ?? []).filter(i => i !== option);
     patchAnswer(id, { selected: option, eliminated: elim });
   },
+  /** Marca/desmarca uma alternativa (várias corretas). */
+  togglePick(id: string, option: number) {
+    const a = current?.answers[id];
+    if (a?.result) return;
+    const s = new Set(a?.picked ?? []);
+    s.has(option) ? s.delete(option) : s.add(option);
+    patchAnswer(id, { picked: [...s].sort((x, y) => x - y), eliminated: (a?.eliminated ?? []).filter(i => i !== option) });
+  },
+  /** Julga um item V/F (null limpa). */
+  judge(id: string, item: number, value: boolean | null, total: number) {
+    const a = current?.answers[id];
+    if (a?.result) return;
+    const j = Array.from({ length: total }, (_, i) => a?.judged?.[i] ?? null);
+    j[item] = value;
+    patchAnswer(id, { judged: j });
+  },
   toggleEliminate(id: string, option: number) {
     const a = current?.answers[id];
     if (a?.result) return;
     const elim = new Set(a?.eliminated ?? []);
     elim.has(option) ? elim.delete(option) : elim.add(option);
-    patchAnswer(id, { eliminated: [...elim], selected: a?.selected === option ? undefined : a?.selected });
+    patchAnswer(id, {
+      eliminated: [...elim],
+      selected: a?.selected === option ? undefined : a?.selected,
+      picked: a?.picked?.filter(i => i !== option),
+    });
   },
   setGuessed(id: string, guessed: boolean) {
     patchAnswer(id, { guessed });
@@ -152,19 +187,19 @@ export const sessions = {
   setText(id: string, text: string) {
     patchAnswer(id, { text });
   },
-  /** Confirma a alternativa de uma questão objetiva. */
+  /** Confirma a resposta de uma questão objetiva. */
   confirm(q: Question) {
     const a = current?.answers[q.id];
-    if (!a || a.selected === undefined || a.result) return;
-    const result: Result = a.selected === q.answerIndex ? 'correct' : 'wrong';
-    study.answer(q.id, result, { selected: a.selected, guessed: a.guessed });
+    if (!a || a.result || !canConfirm(q, a)) return;
+    const result = gradeAnswer(q, a);
+    study.answer(q.id, result, { selected: q.format === 'mcq' ? a.selected : undefined, guessed: a.guessed });
     patchAnswer(q.id, { result, revealed: true });
   },
   /** Mostra o gabarito sem responder (objetiva: conta como erro). */
   reveal(q: Question) {
     const a = current?.answers[q.id];
     if (a?.revealed) return;
-    if (q.format === 'mcq' && !a?.result) {
+    if (isObjective(q) && !a?.result) {
       study.answer(q.id, 'wrong', { guessed: false });
       patchAnswer(q.id, { revealed: true, result: 'wrong' });
     } else {
@@ -185,6 +220,59 @@ export const sessions = {
   },
 };
 
+/* ---------- Correção ---------- */
+
+/** Já dá para confirmar? (V/F no estilo "julgue" exige todos os itens julgados.) */
+export function canConfirm(q: Question, a: SessionAnswer): boolean {
+  switch (q.format) {
+    case 'mcq':
+      return a.selected !== undefined;
+    case 'multi':
+      return (a.picked?.length ?? 0) > 0;
+    case 'tf': {
+      const n = q.statements?.length ?? 0;
+      if (q.tfStyle === 'check') return (a.judged ?? []).some(v => v === true);
+      return n > 0 && Array.from({ length: n }, (_, i) => a.judged?.[i]).every(v => v === true || v === false);
+    }
+    default:
+      return false;
+  }
+}
+
+/** Quantos itens V/F foram julgados corretamente. */
+export function tfScore(q: Question, a: SessionAnswer): { right: number; total: number } {
+  const truth = q.truth ?? [];
+  const right = truth.filter((t, i) => (a.judged?.[i] ?? (q.tfStyle === 'check' ? false : null)) === t).length;
+  return { right, total: truth.length };
+}
+
+/**
+ * Resultado de uma resposta objetiva.
+ *  - multi: exatamente as corretas = certa; só corretas, mas faltando alguma = parcial.
+ *  - tf: todos os itens = certa; ao menos 60% = parcial.
+ */
+export function gradeAnswer(q: Question, a: SessionAnswer): Result {
+  switch (q.format) {
+    case 'mcq':
+      return a.selected === q.answerIndex ? 'correct' : 'wrong';
+    case 'multi': {
+      const want = new Set(q.answerIndices ?? []);
+      const got = a.picked ?? [];
+      const wrongPick = got.some(i => !want.has(i));
+      if (!wrongPick && got.length === want.size) return 'correct';
+      if (!wrongPick && got.length > 0) return 'partial';
+      return 'wrong';
+    }
+    case 'tf': {
+      const { right, total } = tfScore(q, a);
+      if (right === total) return 'correct';
+      return right / total >= 0.6 ? 'partial' : 'wrong';
+    }
+    default:
+      return 'wrong';
+  }
+}
+
 export function useSession(): Session | null {
   return useSyncExternalStore(sessions.subscribe, sessions.get, sessions.get);
 }
@@ -199,3 +287,69 @@ export function sessionSummary(s: Session) {
 }
 
 export { today };
+
+/* ---------- Pontos fracos ---------- */
+
+export interface WeakTopic {
+  subject: SubjectId;
+  /** Tema da questão; questões sem tema são agrupadas pela disciplina. */
+  topic: string | null;
+  attempts: number;
+  correct: number;
+  rate: number;
+}
+
+/**
+ * Temas com pior desempenho: pelo menos `minAttempts` respostas e acerto abaixo de `threshold`.
+ * Ordena do menor acerto para o maior (empate: mais respostas primeiro).
+ */
+export function weakTopics(all: Question[], data: StudyData, { minAttempts = 3, threshold = 0.7, limit = 5 } = {}): WeakTopic[] {
+  const groups = new Map<string, WeakTopic>();
+  for (const q of all) {
+    const s = data.questions[q.id];
+    if (!s?.attempts) continue;
+    const key = q.subject + '|' + (q.topic ?? '');
+    const g = groups.get(key) ?? { subject: q.subject, topic: q.topic ?? null, attempts: 0, correct: 0, rate: 0 };
+    g.attempts += s.attempts;
+    g.correct += s.correctCount;
+    groups.set(key, g);
+  }
+  return [...groups.values()]
+    .map(g => ({ ...g, rate: g.correct / g.attempts }))
+    .filter(g => g.attempts >= minAttempts && g.rate < threshold)
+    .sort((a, b) => a.rate - b.rate || b.attempts - a.attempts)
+    .slice(0, limit);
+}
+
+/**
+ * Sessão de reforço: dos temas mais fracos, pega primeiro os erros pendentes,
+ * depois as revisões vencidas e por fim questões ainda não feitas — alternando
+ * entre os temas para não ficar repetitivo.
+ */
+export function weakSession(all: Question[], data: StudyData, todayKey: string, size = 20, rand?: () => number): Question[] {
+  const topics = weakTopics(all, data);
+  if (!topics.length) return [];
+  const rank = (q: Question) => {
+    const s = data.questions[q.id];
+    if (isOpenError(s)) return 0;
+    if (isDue(s?.srs, todayKey)) return 1;
+    if (!isAnswered(s)) return 2;
+    return 3;
+  };
+  const queues = topics.map(t =>
+    shuffle(all.filter(q => q.subject === t.subject && (q.topic ?? null) === t.topic), rand)
+      .map(q => ({ q, r: rank(q) }))
+      .filter(x => x.r < 3)
+      .sort((a, b) => a.r - b.r)
+      .map(x => x.q),
+  );
+  const out: Question[] = [];
+  while (out.length < size && queues.some(q => q.length)) {
+    for (const queue of queues) {
+      const next = queue.shift();
+      if (next) out.push(next);
+      if (out.length >= size) break;
+    }
+  }
+  return out;
+}
