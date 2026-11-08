@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário, aprofundamento (lote 7)",
+    "gerado_em": "2026-11-08",
+    "base": "Resumo de Fisiopatologia @denisemedicina (FISIOPATO/RESUMOS do Drive; Profs. Fernando Vanraj e Adauto), capítulo Sistema Renal. Trechos em desacordo com a literatura (Robbins) não foram usados."
+  },
+  "questoes": [
+    {
+      "id": "FISIO-IN-RE2-01", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "funções endócrinas do rim",
+      "tipo": "multipla", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, funções",
+      "enunciado": "Assinale todas as substâncias sintetizadas pelo rim citadas no material:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Eritropoetina." },
+        { "letra": "B", "texto": "Renina." },
+        { "letra": "C", "texto": "1,25-di-hidroxivitamina D (forma ativa, a partir da 25-hidroxivitamina D)." },
+        { "letra": "D", "texto": "Prostaglandinas e cininas." },
+        { "letra": "E", "texto": "Insulina." }
+      ],
+      "gabarito": ["A", "B", "C", "D"], "gabarito_texto": "A, B, C e D", "gabarito_oficial": null,
+      "comentario": "O rim filtra em média 1.700 L de sangue por dia e produz 1 a 2 L de urina; mantém pH, balanço hidroeletrolítico e PA; e tem papel endócrino: eritropoetina, renina, prostaglandinas e cininas, além de converter a 25-OH-vitamina D em 1,25-(OH)₂-vitamina D. Insulina é pancreática."
+    },
+    {
+      "id": "FISIO-IN-RE2-02", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "DRC · vitamina D e PTH",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, caso clínico",
+      "enunciado": "Por que pacientes com doença renal crônica avançada desenvolvem hiperparatireoidismo secundário?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Porque o rim passa a produzir PTH em excesso." },
+        { "letra": "B", "texto": "Porque o fósforo é excretado em excesso, causando hipofosfatemia." },
+        { "letra": "C", "texto": "Porque há excesso de vitamina D ativa, com hipercalcemia." },
+        { "letra": "D", "texto": "Porque o rim não converte a vitamina D na forma ativa (↓ absorção intestinal de cálcio) e retém fosfato; a queda do cálcio e o fosfato elevado estimulam as paratireoides a secretar mais PTH." },
+        { "letra": "E", "texto": "Porque a eritropoetina inibe as paratireoides." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "Na DRC terminal a conversão da vitamina D é inadequada → menor absorção de cálcio e comprometimento da mineralização óssea; o rim também não elimina o fosfato, que se acumula. O retrocontrole detecta o fosfato alto e o cálcio baixo e aumenta o PTH (hiperparatireoidismo secundário), que tenta aumentar a excreção de fosfato e a síntese de vitamina D ativa e mobiliza cálcio ósseo (RANKL). Daí a necessidade de suplementar vitamina D ativa."
+    },
+    {
+      "id": "FISIO-IN-RE2-03", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "TFG",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, TFG",
+      "enunciado": "Sobre a taxa de filtração glomerular (TFG), assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É a depuração de uma substância livremente filtrada que não sofre reabsorção nem secreção tubular; é o marcador mais sensível e específico da função renal, normal entre 90 e 120 mL/min/1,73 m², e quanto maior a creatinina sérica, menor a TFG." },
+        { "letra": "B", "texto": "Quanto maior a creatinina sérica, maior a TFG." },
+        { "letra": "C", "texto": "É medida por substâncias que são intensamente secretadas pelos túbulos." },
+        { "letra": "D", "texto": "O valor normal é de 15 mL/min/1,73 m²." },
+        { "letra": "E", "texto": "Não tem utilidade na classificação da doença renal." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "TFG: depuração de substância filtrada livremente, sem reabsorção nem secreção; estimada a partir da creatinina (sérica e urinária) e da cistatina C. Marcador mais sensível e específico da função renal; normal 90–120 mL/min/1,73 m²; importante para classificar a doença renal. Creatinina sérica elevada = filtração menor. 15 mL/min corresponde à insuficiência renal (D)."
+    },
+    {
+      "id": "FISIO-IN-RE2-04", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "azotemia × uremia",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, azotemia e uremia",
+      "enunciado": "Qual a diferença entre azotemia e uremia?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "São sinônimos." },
+        { "letra": "B", "texto": "Uremia é a elevação isolada da ureia; azotemia, da creatinina." },
+        { "letra": "C", "texto": "Azotemia é a elevação de ureia e creatinina, em geral por ↓ da TFG; uremia é a azotemia associada a manifestações clínicas e alterações metabólicas e endócrinas sistêmicas (ex.: gastroenterite urêmica, neuropatia periférica, pericardite fibrinosa urêmica)." },
+        { "letra": "D", "texto": "Uremia ocorre só na lesão pré-renal." },
+        { "letra": "E", "texto": "Azotemia pós-renal não se corrige com o alívio da obstrução." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "Azotemia: ↑ ureia e creatinina, geralmente refletindo ↓ TFG (doença intrínseca ou causas extrarrenais). Pré-renal: hipoperfusão sem lesão parenquimatosa; pós-renal: obstrução abaixo do rim, corrigida com o alívio da obstrução. Uremia: azotemia + manifestações clínicas e alterações bioquímicas sistêmicas — falha excretora e alterações metabólicas e endócrinas."
+    },
+    {
+      "id": "FISIO-IN-RE2-05", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "IRA · definição e oligúria",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, insuficiência renal aguda",
+      "enunciado": "Segundo o material, a insuficiência renal aguda se caracteriza por:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Perda lenta da função ao longo de anos, com TFG < 60 por 3 meses." },
+        { "letra": "B", "texto": "Redução súbita e grave da função renal, com aparecimento súbito de oligúria (< 400 mL/24 h ou < 30 mL/h) ou anúria — embora o volume possa estar normal ou aumentado na IRA não oligúrica." },
+        { "letra": "C", "texto": "Sempre cursa com poliúria." },
+        { "letra": "D", "texto": "Nunca altera a creatinina." },
+        { "letra": "E", "texto": "Decorre exclusivamente de obstrução urinária." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "IRA: redução súbita e grave da função; oligúria (< 400 mL/24 h ou < 30 mL/h) ou anúria, mas existe a forma não oligúrica. Pré-renal (fatores extrarrenais, sobretudo hipovolemia e choque), renal (lesão parenquimatosa — inclusive por manutenção prolongada de causa pré-renal, glomerulonefrites, causas vasculares) e pós-renal (obstrução). A descreve a DRC."
+    },
+    {
+      "id": "FISIO-IN-RE2-06", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "RIFLE e AKIN",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, classificações da IRA",
+      "enunciado": "Sobre os critérios RIFLE e AKIN da lesão renal aguda, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Ambos usam apenas exames de imagem." },
+        { "letra": "B", "texto": "O RIFLE tem apenas um estágio." },
+        { "letra": "C", "texto": "O AKIN classifica a doença renal crônica." },
+        { "letra": "D", "texto": "Nenhum dos dois considera o volume urinário." },
+        { "letra": "E", "texto": "Ambos usam creatinina sérica e débito urinário; o RIFLE define Risk, Injury, Failure, Loss e End-stage; o AKIN tem três estágios, considera alterações menores da creatinina em 48 h e dispensa a creatinina basal (anúria de 12 h = estágio 3)." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "RIFLE e AKIN foram criados para uniformizar a definição e classificação da LRA, com base na creatinina sérica e na diurese. RIFLE: Risk, Injury, Failure (três estágios de disfunção), Loss e End-stage. AKIN: três estágios; leva em conta alterações menores da creatinina em um período de 48 h e não exige a creatinina basal; anúria por 12 h com ↑ creatinina = estágio 3."
+    },
+    {
+      "id": "FISIO-IN-RE2-07", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "IRA pós-renal",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, IRA pós-renal",
+      "enunciado": "Qual alternativa traz apenas causas de IRA pós-renal?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Precipitação de cristais de ácido úrico ou sulfa nos túbulos coletores, cálculos, hiperplasia prostática, tumores e fibrose retroperitoneal." },
+        { "letra": "B", "texto": "Hipovolemia, choque e insuficiência cardíaca." },
+        { "letra": "C", "texto": "Glomerulonefrite pós-estreptocócica e lúpus." },
+        { "letra": "D", "texto": "Necrose tubular aguda isquêmica e nefrite intersticial." },
+        { "letra": "E", "texto": "Desidratação e uso de AINE com IECA." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "IRA pós-renal: obstrução das vias excretoras — intrarrenal (precipitação de cristais de ácido úrico ou sulfa nos túbulos coletores, \"hidronefrose intraparenquimatosa\") ou em qualquer nível das vias urinárias (cálculos, HPB, tumores, fibrose retroperitoneal). B e E são pré-renais; C e D, renais (intrínsecas)."
+    },
+    {
+      "id": "FISIO-IN-RE2-08", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "DRC · definição e causas",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, DRC",
+      "enunciado": "Sobre a doença renal crônica, assinale a alternativa correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Define-se por queda súbita da TFG em horas." },
+        { "letra": "B", "texto": "Só decorre de doença glomerular." },
+        { "letra": "C", "texto": "A síndrome urêmica só ocorre na DRC, nunca na IRA." },
+        { "letra": "D", "texto": "Define-se por TFG persistentemente < 60 mL/min/1,73 m² por pelo menos 3 meses; pode decorrer de lesão glomerular, tubular, vascular, intersticial ou das vias excretoras; manifestações endócrinas, como a anemia por ↓ EPO, são próprias da forma crônica." },
+        { "letra": "E", "texto": "Na fase terminal a TFG é cerca de 50% da normal." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "DRC: TFG < 60 por ≥ 3 meses, perda lenta e progressiva de néfrons, qualquer que seja o componente acometido (glomerulopatias crônicas, defeitos tubulares congênitos, nefrosclerose, pielonefrite crônica/nefrite intersticial, uropatia obstrutiva). A síndrome urêmica pode estar na IRA e na DRC; as manifestações da função endócrina (EPO) surgem na crônica. Doença renal em fase terminal: TFG < 5% do normal."
+    },
+    {
+      "id": "FISIO-IN-RE2-09", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "urolitíase",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, distúrbios obstrutivos",
+      "enunciado": "Qual é a principal causa da formação de cálculos urinários, segundo o material?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Infecção viral do ureter." },
+        { "letra": "B", "texto": "Excesso de diurese." },
+        { "letra": "C", "texto": "Hipocalciúria." },
+        { "letra": "D", "texto": "Síndrome nefrótica." },
+        { "letra": "E", "texto": "Aumento da concentração urinária dos constituintes do cálculo acima da sua solubilidade (supersaturação); quem forma cálculos de cálcio costuma ter hipercalciúria sem hipercalcemia." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Urolitíase: cálculos em qualquer nível do sistema coletor; causa principal: supersaturação. Tipos citados: cálcio (oxalato e fosfato), fosfato de amônio e magnésio, ácido úrico e cistina. Pacientes com cálculos de cálcio têm hipercalciúria não associada a hipercalcemia. Clínica da nefrolitíase: cólica renal, hematúria e formação recorrente de cálculos."
+    },
+    {
+      "id": "FISIO-IN-RE2-10", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "hidronefrose",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, hidronefrose",
+      "enunciado": "Sobre a hidronefrose, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É a dilatação da pelve e dos cálices renais com atrofia do parênquima, por obstrução do fluxo urinário; a obstrução completa bilateral produz anúria e exige atenção imediata." },
+        { "letra": "B", "texto": "É o acúmulo de líquido no interstício por síndrome nefrótica." },
+        { "letra": "C", "texto": "Preserva o parênquima mesmo sem tratamento." },
+        { "letra": "D", "texto": "É sempre unilateral e assintomática." },
+        { "letra": "E", "texto": "É sinônimo de pielonefrite aguda." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Hidronefrose: dilatação de pelve e cálices com atrofia do parênquima, por obstrução; a urina acumulada destrói o parênquima se a injúria pós-renal não é tratada. Obstrução completa bilateral → anúria, que exige atenção médica imediata."
+    },
+    {
+      "id": "FISIO-IN-RE2-11", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "glomerulopatias nefróticas",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, síndrome nefrótica",
+      "enunciado": "Associe corretamente a glomerulopatia à sua característica:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Lesão mínima — esclerose de alguns glomérulos, em segmentos." },
+        { "letra": "B", "texto": "Nefropatia membranosa — depósitos de imunoglobulinas na superfície subepitelial da membrana basal (imunocomplexos formados in situ); GESF — esclerose de alguns glomérulos (focal) e de um segmento deles (segmentar); lesão mínima — perda difusa dos pedicelos, geralmente idiopática e sem evolução para insuficiência renal." },
+        { "letra": "C", "texto": "GESF — perda difusa dos pedicelos com evolução benigna." },
+        { "letra": "D", "texto": "Membranosa — proliferação endocapilar com C3 baixo após faringite." },
+        { "letra": "E", "texto": "Lesão mínima — depósitos subepiteliais em corcova (humps)." }
+      ],
+      "gabarito": ["B"], "gabarito_texto": "B", "gabarito_oficial": null,
+      "comentario": "Doenças primárias que causam síndrome nefrótica: lesão histológica mínima, glomerulopatia membranosa e glomeruloesclerose focal; sistêmicas: lúpus, diabetes e amiloidose. A GNMP (alterações da membrana basal, proliferação e infiltração leucocítica) costuma ter quadro misto nefrótico-nefrítico. \"Humps\" e proliferação com C3 baixo são da GNPE."
+    },
+    {
+      "id": "FISIO-IN-RE2-12", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "síndrome nefrítica · mecanismo",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, síndrome nefrítica",
+      "enunciado": "Na síndrome nefrítica, por que surgem hematúria, oligúria, azotemia e hipertensão?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Porque a lesão se restringe aos podócitos, sem inflamação." },
+        { "letra": "B", "texto": "Porque há perda maciça de albumina e hipovolemia." },
+        { "letra": "C", "texto": "Porque há obstrução do ureter." },
+        { "letra": "D", "texto": "Porque a proliferação de células dentro do glomérulo com infiltrado leucocitário lesa as paredes capilares (sangue passa para a urina) e reduz a TFG (oligúria, retenção de fluidos, azotemia); a hipertensão resulta da retenção de fluidos e de algum aumento de renina do rim isquêmico." },
+        { "letra": "E", "texto": "Porque a TFG aumenta e o rim perde sódio." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "Síndrome nefrítica: hematúria com hemácias dismórficas e cilindros hemáticos, algum grau de oligúria e azotemia, hipertensão; proteinúria e edema geralmente não tão severos quanto na nefrótica. Lesões em comum: proliferação celular intraglomerular com infiltrado inflamatório. Forma clássica: GN proliferativa aguda pós-estreptocócica (aumento de volume e hipercelularidade, proliferação endotelial e mesangial, exsudato leucocitário por imunocomplexos)."
+    },
+    {
+      "id": "FISIO-IN-RE2-13", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "glomerular × tubular",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, distúrbios tubulointersticiais",
+      "enunciado": "O que diferencia clinicamente as doenças tubulointersticiais das glomerulares?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "As tubulointersticiais cursam com síndrome nefrótica florida." },
+        { "letra": "B", "texto": "As glomerulares cursam com perda de sais e acidose tubular como achado principal." },
+        { "letra": "C", "texto": "Não há diferença clínica." },
+        { "letra": "D", "texto": "As tubulointersticiais causam sempre hematúria dismórfica." },
+        { "letra": "E", "texto": "Nas tubulointersticiais não há síndrome nefrítica ou nefrótica, e predominam falhas da função tubular: perda de sais, menor capacidade de excretar ácidos (acidose metabólica), poliúria e nictúria." }
+      ],
+      "gabarito": ["E"], "gabarito_texto": "E", "gabarito_oficial": null,
+      "comentario": "Doenças tubulares: perda de sais e menor excreção de ácidos (acidose metabólica); defeitos tubulares dão poliúria, nictúria e distúrbios eletrolíticos. Diferença: ausência de síndrome nefrítica/nefrótica (presentes nas glomerulares) e presença de falhas tubulares. Causas: isquemia (poliangeíte microscópica, hipertensão maligna, microangiopatias) e lesão tóxica direta, principalmente por medicamentos."
+    },
+    {
+      "id": "FISIO-IN-RE2-14", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "nefrite tubulointersticial",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, nefrite tubulointersticial",
+      "enunciado": "Sobre a nefrite tubulointersticial (NTI), assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "É uma doença inflamatória primariamente do interstício e dos túbulos, muitas vezes de início insidioso, manifestando-se principalmente por azotemia e muito relacionada a medicamentos; a aguda tem edema intersticial e infiltrado leucocitário, e a crônica, infiltrado mononuclear, fibrose intersticial e atrofia tubular." },
+        { "letra": "B", "texto": "Acomete apenas o glomérulo." },
+        { "letra": "C", "texto": "A forma crônica tem predomínio de neutrófilos sem fibrose." },
+        { "letra": "D", "texto": "Nunca está relacionada ao uso de medicamentos." },
+        { "letra": "E", "texto": "Cursa obrigatoriamente com proteinúria nefrótica." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "NTI: grupo de doenças renais inflamatórias do interstício e dos túbulos; início frequentemente insidioso, manifestação principal: azotemia; forte relação com medicamentos. Aguda: início rápido, edema intersticial, infiltração leucocítica. Crônica: leucócitos mononucleares, fibrose intersticial proeminente, atrofia tubular disseminada."
+    },
+    {
+      "id": "FISIO-IN-RE2-15", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "pielonefrite",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, pielonefrite",
+      "enunciado": "Mulher jovem tem início abrupto de dor no ângulo costovertebral, febre, mal-estar, disúria, polaciúria e urgência, com leucocitúria. Sobre o quadro, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Sugere cistite isolada, sem acometimento renal." },
+        { "letra": "B", "texto": "A via hematogênica é a mais comum na pielonefrite crônica." },
+        { "letra": "C", "texto": "Sugere pielonefrite aguda: inflamação supurativa do rim e da pelve por bactérias, associada à ITU; as bactérias chegam pela via ascendente (a partir do trato inferior) ou hematogênica." },
+        { "letra": "D", "texto": "Pielonefrite é inflamação restrita ao glomérulo." },
+        { "letra": "E", "texto": "A leucocitúria exclui infecção." }
+      ],
+      "gabarito": ["C"], "gabarito_texto": "C", "gabarito_oficial": null,
+      "comentario": "Pielonefrite: inflamação dos rins quase sempre bacteriana, com acometimento de cálices, pelve e ureter (túbulos, interstício e pelve). Rotas: hematogênica ou ascendente. Aguda: dor costovertebral abrupta, febre, mal-estar, disúria, frequência, urgência; urina com muitos leucócitos (piúria). A infecção ascendente — infecção vesical + refluxo vesicoureteral + refluxo intrarrenal — é a causa mais comum da pielonefrite crônica (B errada)."
+    },
+    {
+      "id": "FISIO-IN-RE2-16", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "pielonefrite crônica e ITU",
+      "tipo": "itens_vf", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, pielonefrite e ITU",
+      "enunciado": "Julgue os itens: ( ) A ITU caracteriza-se por bacteriúria e piúria, podendo ser sintomática ou assintomática e afetar os rins (pielonefrite) ou só a bexiga (cistite). ( ) A pielonefrite crônica envolve inflamação tubulointersticial crônica com cicatrização dos cálices e da pelve. ( ) A pielonefrite crônica divide-se em associada ao refluxo e obstrutiva. ( ) Refluxo vesicoureteral e obstrução protegem contra episódios repetidos de pielonefrite aguda.",
+      "imagem": null, "alternativas": [],
+      "gabarito": ["V", "V", "V", "F"], "gabarito_texto": "V, V, V, F", "gabarito_oficial": null,
+      "comentario": "4º F: refluxo vesicoureteral e obstrução **predispõem** a repetidos episódios de pielonefrite aguda. A forma obstrutiva crônica pode ser insidiosa ou manifestar-se como pielonefrite aguda recorrente (dor nas costas, febre, piúria, bacteriúria)."
+    },
+    {
+      "id": "FISIO-IN-RE2-17", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "acidose tubular renal",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, acidose tubular",
+      "enunciado": "Na acidose tubular renal descrita no material, qual é a sequência de eventos?",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "↑ reabsorção de bicarbonato → alcalose metabólica." },
+        { "letra": "B", "texto": "↓ excreção de potássio → hipercalemia isolada, sem alteração ácido-básica." },
+        { "letra": "C", "texto": "Perda de proteína → hipoalbuminemia → edema." },
+        { "letra": "D", "texto": "↓ reabsorção de bicarbonato e ↓ excreção de H⁺, com perda simultânea de Na⁺ e ativação do sistema renina." },
+        { "letra": "E", "texto": "Obstrução ureteral → hidronefrose → anúria." }
+      ],
+      "gabarito": ["D"], "gabarito_texto": "D", "gabarito_oficial": null,
+      "comentario": "Acidose tubular renal: menor reabsorção de bicarbonato e menor excreção de H⁺, com perda simultânea de Na⁺ e ativação do sistema renina — exemplo da \"habilidade diminuída de excretar ácidos\" das doenças tubulares."
+    },
+    {
+      "id": "FISIO-IN-RE2-18", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "classificação das lesões renais",
+      "tipo": "objetiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, condições patológicas",
+      "enunciado": "Segundo o material, as condições patológicas renais envolvem compartimentos com mecanismos predominantes. Assinale a associação correta:",
+      "imagem": null,
+      "alternativas": [
+        { "letra": "A", "texto": "Glomérulos — principalmente mecanismos imunológicos; túbulos — agentes tóxicos ou infecciosos; interstício — agentes tóxicos; vasos — obstrução ou ruptura (trombo, aterosclerose)." },
+        { "letra": "B", "texto": "Glomérulos — agentes tóxicos; túbulos — imunocomplexos." },
+        { "letra": "C", "texto": "Vasos — exclusivamente infecções." },
+        { "letra": "D", "texto": "Interstício — deposição de imunocomplexos subepiteliais." },
+        { "letra": "E", "texto": "Todos os compartimentos são lesados apenas por obstrução urinária." }
+      ],
+      "gabarito": ["A"], "gabarito_texto": "A", "gabarito_oficial": null,
+      "comentario": "Divisão do material: glomérulos (mediados por mecanismos imunológicos), túbulos (agentes tóxicos ou infecciosos), interstício (agentes tóxicos) e vasos sanguíneos (obstrução ou ruptura por trombo ou aterosclerose). A lesão glomerular imunomediada ocorre sobretudo por deposição de imunocomplexos, com cascata do complemento e leucócitos."
+    },
+    {
+      "id": "FISIO-IN-RE2-19", "materia": "Fisiopatologia (SOP IV)", "prova": "PR2", "tema": "Fisio do sistema urinário", "subtema": "DRC · consequências",
+      "tipo": "discursiva", "origem": "inédita", "fonte": "Resumo Fisiopatologia (denisemedicina) · Renal, consequências da insuficiência renal",
+      "enunciado": "Paciente com DRC avançada tem fadiga, inapetência, creatinina elevada, hemoglobina e hematócrito baixos. Explique: (a) a anemia; (b) as alterações de cálcio, fósforo, vitamina D e PTH e suas consequências ósseas; (c) as consequências do desequilíbrio de sódio, água, potássio e ácido-base; (d) as manifestações da uremia.",
+      "imagem": null, "alternativas": [], "gabarito": null, "gabarito_texto": "", "gabarito_oficial": null, "comentario": null,
+      "resposta_modelo": "(a) **Anemia:** o rim lesado produz menos eritropoetina, que estimula a medula a produzir a série vermelha → hemácias e hematócrito baixos.\n\n(b) **Mineral-ósseo:** o rim não converte a 25-OH-vitamina D em 1,25-(OH)₂-vitamina D → menor absorção intestinal de cálcio; e não elimina fosfato, que se acumula e se liga ao cálcio → hipocalcemia. Cálcio baixo e fosfato alto estimulam as paratireoides → **hiperparatireoidismo secundário** (o PTH mobiliza cálcio ósseo via RANKL). Resultado: mineralização óssea comprometida e osteodistrofia, agravada pelo tamponamento ósseo da acidose; necessidade de vitamina D ativa.\n\n(c) **Sódio e água:** retenção → aumento do volume vascular, edema e hipertensão, que pode levar a insuficiência cardíaca. **Potássio:** hiperpotassemia. **Ácido-base:** acidose metabólica.\n\n(d) **Uremia:** acúmulo de escórias nitrogenadas com manifestações sistêmicas — pericardite, imunossupressão, distúrbios dermatológicos, gastrointestinais (gastroenterite urêmica), neurológicos (neuropatia periférica), disfunção sexual e coagulopatia com sangramentos."
+    }
+  ]
+}
