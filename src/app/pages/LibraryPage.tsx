@@ -59,6 +59,11 @@ const useRead = () =>
     () => read,
   );
 
+const driveUrl = (m: Material, mode: 'preview' | 'view') =>
+  m.mimeType === 'application/vnd.google-apps.document'
+    ? `https://docs.google.com/document/d/${m.id}/${mode === 'view' ? 'edit' : 'preview'}`
+    : `https://drive.google.com/file/d/${m.id}/${mode}`;
+
 const prettyName = (n: string) => n.replace(/\.(pdf|png|jpe?g|pptx?)$/i, '').replace(/[_]+/g, ' ').replace(/\s*\(\d+\)$/, '').trim();
 
 function FileIcon({ m }: { m: Material }) {
@@ -198,7 +203,7 @@ export default function LibraryPage() {
       <Dialog open={!!open} onClose={() => setOpen(null)} title={open ? prettyName(open.name) : ''} wide>
         {open && (
           <div className="flex flex-col">
-            <iframe title={open.name} src={`https://drive.google.com/file/d/${open.id}/preview`} className="h-[70vh] w-full bg-surface-2" allow="autoplay" />
+            <iframe title={open.name} src={driveUrl(open, 'preview')} className="h-[70vh] w-full bg-surface-2" allow="autoplay" />
             <div className="flex flex-wrap items-center justify-between gap-2 border-t border-line px-4 py-3">
               <Button
                 size="sm"
@@ -209,7 +214,7 @@ export default function LibraryPage() {
                 {readSet.has(open.id) ? 'Lido' : 'Marcar como lido'}
               </Button>
               <a
-                href={`https://drive.google.com/file/d/${open.id}/view`}
+                href={driveUrl(open, 'view')}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex h-8 items-center gap-1.5 rounded-lg px-3 text-[13px] font-medium text-accent hover:bg-accent-soft"
