@@ -1,1450 +1,547 @@
 {
  "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Ectoscopia, pele e fâneros (lote 1)",
+  "titulo": "Inéditas PR2 · Propedêutica · Ectoscopia e pele (formato das provas)",
   "gerado_em": "2026-11-08",
-  "base": "SOP IV Guia PR2 (Drive), seção 01 Ectoscopia: aula do Prof. Renato, Porto caps. 10 e 11, boxes \"Nas provas\", \"Autoteste\" e \"Complemento das provas antigas\". Antropometria, estado nutricional e sinais vitais são da PR1 e ficaram de fora."
+  "base": "SOP IV Guia PR2, seção 01, restrito aos temas que se repetem nas provas de Propedêutica (boxes \"Nas provas\" e \"Complemento das provas antigas\"), no formato dos professores: \"assinale a(s) correta(s)\", afirmativas I–IV, sequência V/F, casos e discursivas."
  },
  "questoes": [
   {
-   "id": "PROPE-IN-ECT-01",
+   "id": "PROPE-PF-ECT-01",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Ectoscopia e pele",
-   "subtema": "estado geral",
+   "subtema": "exame físico geral · assertivas",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 1 Estado geral e Nas provas",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · Nas provas (Q1)",
    "imagem": null,
    "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a avaliação do estado geral na ectoscopia, assinale a correta:",
+   "tipo": "multipla",
+   "enunciado": "Considerando os aspectos observados no exame físico geral, assinale a(s) alternativa(s) correta(s):",
    "alternativas": [
     {
      "letra": "A",
-     "texto": "Depende exclusivamente dos sinais vitais."
+     "texto": "O TROFISMO corresponde à massa do próprio músculo, enquanto o TÔNUS é o estado de semicontração própria do músculo normal."
     },
     {
      "letra": "B",
-     "texto": "É uma avaliação subjetiva (bom, regular ou ruim) que estima quanto a doença comprometeu o organismo e alerta para aprofundar a investigação."
+     "texto": "O DESENHO VENOSO indica dificuldade ou impedimento do fluxo venoso através dos troncos venosos principais, com rede visível fora da topografia habitual e sinuosa."
     },
     {
      "letra": "C",
-     "texto": "Estado geral bom numa doença grave indica mau prognóstico."
+     "texto": "A AVALIAÇÃO DO ESTADO GERAL é uma etapa subjetiva do exame, baseada no conjunto de dados do paciente e na experiência do examinador, classificando-o em bom, regular ou ruim."
     },
     {
      "letra": "D",
-     "texto": "É uma etapa objetiva, com critérios numéricos padronizados."
+     "texto": "Na DISFASIA, a musculatura e o órgão fonador estão normais; o que ocorre é um distúrbio na elaboração cortical da linguagem, indicando lesão do hemisfério dominante."
     },
     {
      "letra": "E",
-     "texto": "Deve ser registrado apenas quando há febre."
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "A, C e D",
+   "comentario": "Só o item do desenho venoso está errado: a descrição é de **circulação colateral**. O desenho venoso fica na topografia normal, é simétrico, pouco intenso e não é sinuoso. Disfasia é cortical (disfonia é do órgão fonador). Trofismo = massa; tônus = semicontração. Estado geral é **subjetivo**."
+  },
+  {
+   "id": "PROPE-PF-ECT-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "exame físico geral · assertivas",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · Nas provas (Q1, Q2)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Considerando os aspectos observados no exame físico geral, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A MARCHA PARKINSONIANA apresenta passos curtos, redução do balanço dos braços e viradas em bloco, decorrentes da rigidez e da bradicinesia."
+    },
+    {
+     "letra": "B",
+     "texto": "Na DISFONIA, a musculatura e o órgão fonador estão normais. O que ocorre é um distúrbio cortical na elaboração da fala."
+    },
+    {
+     "letra": "C",
+     "texto": "Descrevemos a atitude como PASSIVA quando o paciente fica na posição em que é colocado, sem contratura muscular, como ocorre no paciente comatoso."
+    },
+    {
+     "letra": "D",
+     "texto": "A ATITUDE ORTOPNEICA, típica da insuficiência cardíaca, é classificada como uma atitude involuntária."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "C"
+   ],
+   "gabarito_texto": "A e C",
+   "comentario": "Disfonia é alteração do **órgão fonador** (timbre rouco, fanhoso, bitonal); o distúrbio cortical é a disfasia. A ortopneica é **voluntária** (o paciente a escolhe para aliviar a dispneia)."
+  },
+  {
+   "id": "PROPE-PF-ECT-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "desidratação",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 4 Hidratação e Nas provas (Q2, Q7)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 2 anos é trazido com diarreia e vômitos há três dias. Sobre a avaliação do estado de hidratação, analise as afirmativas:\n\nI. Sede, perda ponderal, mucosas secas, olhos fundos e excitação psíquica ou abatimento são achados que podem ser observados na desidratação.\nII. Em lactentes com desidratação grave, as fontanelas não sofrem alterações, de modo que sua avaliação é dispensável.\nIII. Na desidratação há diminuição do turgor, com sinal da prega positivo: a prega cutânea se desfaz lentamente.\nIV. O tempo de enchimento capilar é considerado normal entre 2 e 4 segundos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Todas as afirmativas são falsas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a III está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, III e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Todas as afirmativas estão corretas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Fontanelas **deprimidas** na desidratação (abauladas = hipertensão intracraniana). Enchimento capilar normal até ~2–3 s; \"2 a 4 s\" foi considerado falso na prova."
+  },
+  {
+   "id": "PROPE-PF-ECT-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "desidratação · classificação",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 4 Hidratação (classificação) e caso guiado 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 78 anos, com diarreia há 3 dias, pesava 60 kg e hoje pesa 55 kg. Está sonolenta, com mucosas secas, olhos fundos, sinal da prega positivo, enchimento capilar de 4 segundos e oligúria. Sódio sérico: 156 mEq/L. A classificação da desidratação é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Grave e isotônica, sem hipoperfusão."
+    },
+    {
+     "letra": "B",
+     "texto": "Moderada e hipertônica, com sinais de hipoperfusão."
+    },
+    {
+     "letra": "C",
+     "texto": "Moderada e hipotônica, sem hipoperfusão."
+    },
+    {
+     "letra": "D",
+     "texto": "Leve e isotônica, sem hipoperfusão."
+    },
+    {
+     "letra": "E",
+     "texto": "Grave e hipotônica, com sinais de hipoperfusão."
     }
    ],
    "gabarito": [
     "B"
    ],
    "gabarito_texto": "B",
-   "comentario": "Estado geral é **subjetivo**; as provas cobraram \"etapa objetiva\" como falso. Estado geral ruim com poucos sinais localizatórios obriga a investigar mais; bom numa doença grave indica boa capacidade de reação."
+   "comentario": "Perda de 5/60 = 8,3% → moderada (leve ≤ 5%; moderada 5–10%; grave > 10%). Na⁺ > 150 → hipertônica (isotônica 130–150; hipotônica < 130). Enchimento > 3 s → hipoperfusão."
   },
   {
-   "id": "PROPE-IN-ECT-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "nível de consciência",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 2 Nível de consciência e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente só desperta com estímulos fortes, apresenta movimentos espontâneos, mas não abre os olhos. Esse grau de consciência é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Sonolência."
-    },
-    {
-     "letra": "B",
-     "texto": "Obnubilação."
-    },
-    {
-     "letra": "C",
-     "texto": "Confusão mental."
-    },
-    {
-     "letra": "D",
-     "texto": "Coma."
-    },
-    {
-     "letra": "E",
-     "texto": "Torpor (estupor)."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Torpor: desperta com estímulo forte, tem movimentos, não abre os olhos. Coma: não desperta, sem movimentos espontâneos. Sonolência: desperta facilmente e volta a dormir. Confusão: desatenção, desorientação, respostas lentas."
-  },
-  {
-   "id": "PROPE-IN-ECT-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fala e linguagem",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 3 Fala e linguagem e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Fumante de longa data com voz rouca há 3 meses, sem alteração da compreensão ou da elaboração da linguagem. A alteração da fala é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Disfonia, por alteração do órgão fonador (laringe)."
-    },
-    {
-     "letra": "B",
-     "texto": "Dislalia."
-    },
-    {
-     "letra": "C",
-     "texto": "Afasia de expressão."
-    },
-    {
-     "letra": "D",
-     "texto": "Disfasia, por lesão cortical."
-    },
-    {
-     "letra": "E",
-     "texto": "Disartria cerebelar."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "\"**fo × fa**\": disfonia = órgão **fo**nador (timbre rouco, fanhoso, bitonal); disfasia = elaboração cortical (órgão fonador normal); disartria = articulação (músculos/controle motor). Rouquidão persistente em tabagista: pensar em câncer de laringe."
-  },
-  {
-   "id": "PROPE-IN-ECT-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "hidratação · classificação",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 4 Estado de hidratação e caso guiado 1",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idosa com diarreia há 3 dias pesava 60 kg e hoje pesa 55 kg; sódio sérico de 156 mEq/L. A desidratação é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Grave e hipotônica."
-    },
-    {
-     "letra": "B",
-     "texto": "Grave e hipertônica."
-    },
-    {
-     "letra": "C",
-     "texto": "Moderada e hipertônica."
-    },
-    {
-     "letra": "D",
-     "texto": "Leve e isotônica."
-    },
-    {
-     "letra": "E",
-     "texto": "Moderada e hipotônica."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Perda de 5/60 = 8,3% → **moderada** (leve ≤ 5%, moderada 5–10%, grave > 10%). Na⁺ > 150 → **hipertônica** (isotônica 130–150; hipotônica < 130)."
-  },
-  {
-   "id": "PROPE-IN-ECT-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "hidratação · sinais",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 4 Estado de hidratação e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Qual achado é esperado na desidratação?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mucosas úmidas e brilhantes."
-    },
-    {
-     "letra": "B",
-     "texto": "Turgor aumentado, sem sinal da prega."
-    },
-    {
-     "letra": "C",
-     "texto": "Enchimento capilar abaixo de 1 segundo."
-    },
-    {
-     "letra": "D",
-     "texto": "Turgor diminuído, com sinal da prega positivo (a prega se desfaz lentamente)."
-    },
-    {
-     "letra": "E",
-     "texto": "Fontanelas abauladas no lactente."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Desidratação: sede, perda de peso, pele seca com turgor e elasticidade ↓ (prega lenta, > 2 s), mucosas secas, olhos fundos, oligúria, **fontanelas deprimidas**. As provas cobraram \"turgor aumentado\" e \"fontanelas não se alteram\" como falsos."
-  },
-  {
-   "id": "PROPE-IN-ECT-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "perfusão · enchimento capilar",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 4 Hidratação (quando as fontes divergem) e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "O tempo de enchimento capilar, avaliado na polpa digital ou no leito ungueal, é considerado normal até cerca de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "2 a 3 segundos."
-    },
-    {
-     "letra": "B",
-     "texto": "10 segundos."
-    },
-    {
-     "letra": "C",
-     "texto": "4 segundos."
-    },
-    {
-     "letra": "D",
-     "texto": "5 segundos."
-    },
-    {
-     "letra": "E",
-     "texto": "6 segundos."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Normal até ~2–3 s; acima disso, hipoperfusão. A prova considerou falsa a alternativa \"normal de 2 a 4 s\"."
-  },
-  {
-   "id": "PROPE-IN-ECT-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "mucosas · hidratação × coloração",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 7 Mucosas e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na avaliação das mucosas, a hidratação é estimada pela:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Presença de icterícia."
-    },
-    {
-     "letra": "B",
-     "texto": "Umidade (úmidas e brilhantes × secas e sem brilho)."
-    },
-    {
-     "letra": "C",
-     "texto": "Temperatura da mucosa oral."
-    },
-    {
-     "letra": "D",
-     "texto": "Presença de cianose."
-    },
-    {
-     "letra": "E",
-     "texto": "Coloração (normocoradas × descoradas)."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "\"A **cor** fala do sangue; a **umidade** fala da hidratação.\" Descoradas = anemia; hipercoradas = inflamação ou poliglobulia."
-  },
-  {
-   "id": "PROPE-IN-ECT-08",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "mucosas · icterícia",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 7 Mucosas e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Para detectar icterícia leve, os melhores locais de inspeção são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Lóbulos das orelhas."
-    },
-    {
-     "letra": "B",
-     "texto": "Leitos ungueais."
-    },
-    {
-     "letra": "C",
-     "texto": "Palmas das mãos e plantas dos pés."
-    },
-    {
-     "letra": "D",
-     "texto": "Dorso do nariz."
-    },
-    {
-     "letra": "E",
-     "texto": "Esclerótica/conjuntiva e freio da língua."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "As icterícias leves só aparecem na esclera e no freio da língua. Carotenemia e quinacrina amarelam a pele mas poupam a esclerótica. Na pele negra, a esclera pode ser amarelada por gordura (não é icterícia)."
-  },
-  {
-   "id": "PROPE-IN-ECT-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 5 Fácies e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher com ptose palpebral bilateral que franze a testa e inclina a cabeça para trás para enxergar, com piora ao fim do dia. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mixedematosa."
-    },
-    {
-     "letra": "B",
-     "texto": "Hipocrática."
-    },
-    {
-     "letra": "C",
-     "texto": "Miastênica (de Hutchinson)."
-    },
-    {
-     "letra": "D",
-     "texto": "Parkinsoniana."
-    },
-    {
-     "letra": "E",
-     "texto": "Basedowiana."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Fácies miastênica: ptose bilateral, franze a testa e levanta a cabeça (miastenia gravis)."
-  },
-  {
-   "id": "PROPE-IN-ECT-10",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 5 Fácies",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em estado grave apresenta olhos fundos e inexpressivos, nariz afilado, lábios adelgaçados, batimento das asas do nariz, suor e palidez. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Adenoidiana."
-    },
-    {
-     "letra": "B",
-     "texto": "Cushingoide."
-    },
-    {
-     "letra": "C",
-     "texto": "Esclerodérmica."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipocrática."
-    },
-    {
-     "letra": "E",
-     "texto": "Renal."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Hipocrática = doença grave, estados agônicos."
-  },
-  {
-   "id": "PROPE-IN-ECT-11",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 5 Fácies e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com rosto arredondado, nariz e lábios grossos, pele seca e espessada, pálpebras infiltradas, supercílios escassos, apatia e intolerância ao frio. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Basedowiana, do hipertireoidismo."
-    },
-    {
-     "letra": "B",
-     "texto": "Mixedematosa, do hipotireoidismo."
-    },
-    {
-     "letra": "C",
-     "texto": "Cushingoide, do hipercortisolismo."
-    },
-    {
-     "letra": "D",
-     "texto": "Acromegálica, do excesso de GH."
-    },
-    {
-     "letra": "E",
-     "texto": "Leonina, da hanseníase."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Mixedematosa = hipotireoidismo. Basedowiana: exoftalmia, olhos brilhantes, rosto magro, bócio. Cushingoide: lua cheia, acne, rubor. Leonina: lepromas, madarose, áreas de anestesia."
-  },
-  {
-   "id": "PROPE-IN-ECT-12",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · Complemento das provas antigas (fácies acromegálica)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com cefaleia, rouquidão, parestesias nas mãos (túnel do carpo), mãos e pés que aumentaram de tamanho, arcadas supraorbitárias salientes, prognatismo e lábios e nariz grandes. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mixedematosa."
-    },
-    {
-     "letra": "B",
-     "texto": "Leonina."
-    },
-    {
-     "letra": "C",
-     "texto": "Acromegálica."
-    },
-    {
-     "letra": "D",
-     "texto": "Cushingoide."
-    },
-    {
-     "letra": "E",
-     "texto": "Adenoidiana."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Acromegálica: arcadas supraorbitárias salientes, mandíbula desenvolvida, nariz, lábios e orelhas grandes (olhos parecem pequenos). O caso costuma trazer cefaleia (adenoma hipofisário), túnel do carpo e mãos/pés grandes."
-  },
-  {
-   "id": "PROPE-IN-ECT-13",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · Complemento das provas antigas (fácies lúpica)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher jovem com eritema fotossensível nas regiões malares e no dorso do nariz, em asa de borboleta, poupando os sulcos nasolabiais. O quadro sugere:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hanseníase virchowiana."
-    },
-    {
-     "letra": "B",
-     "texto": "Rosácea com rinofima."
-    },
-    {
-     "letra": "C",
-     "texto": "Síndrome de Cushing."
-    },
-    {
-     "letra": "D",
-     "texto": "Estenose mitral."
-    },
-    {
-     "letra": "E",
-     "texto": "Lúpus eritematoso sistêmico."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Fácies lúpica: asa de borboleta que **poupa** o sulco nasolabial. Fácies mitral: cianose malar com telangiectasias (estenose mitral)."
-  },
-  {
-   "id": "PROPE-IN-ECT-14",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "atitude",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 6 Atitude e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente comatoso permanece exatamente na posição em que a enfermagem o coloca, sem contratura. A atitude é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Passiva (involuntária)."
-    },
-    {
-     "letra": "B",
-     "texto": "Ortopneica."
-    },
-    {
-     "letra": "C",
-     "texto": "Em gatilho."
-    },
-    {
-     "letra": "D",
-     "texto": "Forçada voluntária."
-    },
-    {
-     "letra": "E",
-     "texto": "Genupeitoral."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Atitude **passiva** = fica onde é colocado. As provas cobraram \"atitude forçada: fica onde é colocado\" como falso. A ortopneica é voluntária, apesar de típica da IC."
-  },
-  {
-   "id": "PROPE-IN-ECT-15",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "atitude",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 6 Atitude e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança com cardiopatia congênita cianótica (tetralogia de Fallot) costuma adotar, após esforço, a posição:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Em opistótono."
-    },
-    {
-     "letra": "B",
-     "texto": "Em decúbito lateral sobre o lado sadio."
-    },
-    {
-     "letra": "C",
-     "texto": "Ortopneica."
-    },
-    {
-     "letra": "D",
-     "texto": "De cócoras, que alivia a hipóxia."
-    },
-    {
-     "letra": "E",
-     "texto": "Genupeitoral, que alivia o derrame pericárdico."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Cócoras (squatting) = cardiopatia congênita cianótica. Genupeitoral (prece maometana) = derrame pericárdico."
-  },
-  {
-   "id": "PROPE-IN-ECT-16",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "atitude · decúbito",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 6 Atitude e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com dor pleurítica à direita prefere deitar-se:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Em decúbito ventral."
-    },
-    {
-     "letra": "B",
-     "texto": "Em posição de Trendelenburg."
-    },
-    {
-     "letra": "C",
-     "texto": "Sobre o lado direito, o lado da dor, para reduzir o movimento da pleura."
-    },
-    {
-     "letra": "D",
-     "texto": "Em decúbito dorsal com as pernas fletidas."
-    },
-    {
-     "letra": "E",
-     "texto": "Sobre o lado esquerdo, para aliviar a compressão."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Na dor pleurítica e no derrame volumoso o paciente deita sobre o lado **doente**. Decúbito dorsal com pernas fletidas: inflamação pelviperitoneal; ventral: cólica intestinal."
-  },
-  {
-   "id": "PROPE-IN-ECT-17",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "musculatura · trofismo × tônus",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 8 Musculatura e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na avaliação da musculatura, trofismo e tônus correspondem, respectivamente:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "À força e à coordenação."
-    },
-    {
-     "letra": "B",
-     "texto": "Ao estado de semicontração e à massa muscular."
-    },
-    {
-     "letra": "C",
-     "texto": "Aos reflexos e à força."
-    },
-    {
-     "letra": "D",
-     "texto": "À massa muscular e à força máxima."
-    },
-    {
-     "letra": "E",
-     "texto": "À massa muscular e ao estado de semicontração do músculo."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Trofismo = massa; tônus = semicontração. As provas cobraram a definição invertida como falsa. Palpação em pinça, em repouso e com leve contração."
-  },
-  {
-   "id": "PROPE-IN-ECT-18",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "circulação colateral × desenho venoso",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 11 Circulação colateral e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Rede venosa visível na topografia normal, simétrica, pouco intensa e sem veias sinuosas, em idoso de pele fina, corresponde a:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Desenho venoso, sem significado patológico."
-    },
-    {
-     "letra": "B",
-     "texto": "Circulação colateral tipo cava superior."
-    },
-    {
-     "letra": "C",
-     "texto": "Circulação colateral tipo porta."
-    },
-    {
-     "letra": "D",
-     "texto": "Telangiectasias da cirrose."
-    },
-    {
-     "letra": "E",
-     "texto": "Circulação colateral tipo cava inferior."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "A circulação colateral surge **fora** da topografia habitual, é intensa e sinuosa, por obstáculo num tronco venoso. As provas cobraram como falso descrever a colateral com as características do desenho venoso."
-  },
-  {
-   "id": "PROPE-IN-ECT-19",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "circulação colateral · tipos",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 11 Circulação colateral",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com tumor do mediastino superior apresenta rede venosa na metade superior do tórax com fluxo tóraco-abdominal, estase jugular bilateral não pulsátil e edema de face e pescoço. O tipo de circulação colateral é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Braquiocefálico unilateral."
-    },
-    {
-     "letra": "B",
-     "texto": "Cava superior."
-    },
-    {
-     "letra": "C",
-     "texto": "Desenho venoso."
-    },
-    {
-     "letra": "D",
-     "texto": "Porta."
-    },
-    {
-     "letra": "E",
-     "texto": "Cava inferior."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "\"Porta sobe, cava superior desce\": porta e cava inferior têm fluxo abdome → tórax; cava superior, tórax → abdome. Causa típica: neoplasia do mediastino superior."
-  },
-  {
-   "id": "PROPE-IN-ECT-20",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "aranhas vasculares",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · Complemento das provas antigas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Cirrótico com aranhas vasculares no tórax. A técnica que faz a aranha desaparecer é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Vitropressão, que distingue a aranha da petéquia."
-    },
-    {
-     "letra": "B",
-     "texto": "Digitopressão ampla com a palma da mão."
-    },
-    {
-     "letra": "C",
-     "texto": "Pinçamento da pele com o subcutâneo."
-    },
-    {
-     "letra": "D",
-     "texto": "Puntipressão, comprimindo o ponto central com objeto de ponta romba."
-    },
-    {
-     "letra": "E",
-     "texto": "Manobra de Valsalva."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Aranha vascular → **puntipressão** no centro. Digitopressão e vitropressão diferenciam mancha vascular (some) de hemorrágica (não some)."
-  },
-  {
-   "id": "PROPE-IN-ECT-21",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 12 Edema e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem com dispneia aos esforços e ortopneia apresenta edema de membros inferiores bilateral, mole, inelástico, indolor, que piora no fim do dia, e estase jugular. O edema é de origem:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Inflamatória."
-    },
-    {
-     "letra": "B",
-     "texto": "Renal."
-    },
-    {
-     "letra": "C",
-     "texto": "Linfática."
-    },
-    {
-     "letra": "D",
-     "texto": "Alérgica."
-    },
-    {
-     "letra": "E",
-     "texto": "Cardíaca."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Edema \"**rim de manhã, coração de tarde**\": cardíaco = ascendente, bilateral, simétrico, MMII, vespertino, indolor (pré-sacro no acamado); renal = facial/palpebral matinal."
-  },
-  {
-   "id": "PROPE-IN-ECT-22",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 12 Edema e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Edema localizado, duro, inelástico e indolor, com pele espessada, em paciente com erisipelas de repetição. O tipo de edema é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Linfedema."
-    },
-    {
-     "letra": "B",
-     "texto": "Edema inflamatório agudo."
-    },
-    {
-     "letra": "C",
-     "texto": "Edema cardíaco."
-    },
-    {
-     "letra": "D",
-     "texto": "Edema da síndrome nefrótica."
-    },
-    {
-     "letra": "E",
-     "texto": "Edema alérgico."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Linfedema/elefantíase: duro, inelástico, indolor, pele espessa (pós-erisipela, filariose). Inflamatório: elástico, quente, doloroso, vermelho."
-  },
-  {
-   "id": "PROPE-IN-ECT-23",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "cianose",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 14 Pele (tipos de cianose) e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente cianótico tem mãos quentes e a cianose melhora com a oferta de oxigênio. A cianose é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Periférica."
-    },
-    {
-     "letra": "B",
-     "texto": "Segmentar por obstrução venosa."
-    },
-    {
-     "letra": "C",
-     "texto": "Por vasoconstrição ao frio."
-    },
-    {
-     "letra": "D",
-     "texto": "Central."
-    },
-    {
-     "letra": "E",
-     "texto": "Por metemoglobinemia."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Cianose \"**aquece ou oxigena**\": melhora com O₂ e mãos quentes = central (insaturação arterial); extremidades frias, melhora ao aquecer, O₂ não muda = periférica."
-  },
-  {
-   "id": "PROPE-IN-ECT-24",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "pele · espessura × turgor",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 14 Pele e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a técnica de avaliação da pele, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Espessura e turgor são avaliados pela mesma prega, com o subcutâneo."
-    },
-    {
-     "letra": "B",
-     "texto": "A temperatura deve ser avaliada com a palma, sem comparar lados."
-    },
-    {
-     "letra": "C",
-     "texto": "Para a espessura pinça-se só epiderme e derme; para o turgor, a prega inclui o subcutâneo."
-    },
-    {
-     "letra": "D",
-     "texto": "A mobilidade da pele está aumentada na esclerodermia."
-    },
-    {
-     "letra": "E",
-     "texto": "A elasticidade aumentada é típica da desidratação."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Espessura: só epiderme e derme. Turgor: com o subcutâneo. Temperatura: dorso das mãos, comparando o lado homólogo. Elasticidade ↓ na desidratação (↑ no Ehlers-Danlos); mobilidade ↓ na esclerodermia."
-  },
-  {
-   "id": "PROPE-IN-ECT-25",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · vitropressão",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 1)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Ao comprimir uma lesão com uma lâmina de vidro (vitropressão), ela não desaparece. Trata-se de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Urtica."
-    },
-    {
-     "letra": "B",
-     "texto": "Mancha hemorrágica, como petéquia ou equimose."
-    },
-    {
-     "letra": "C",
-     "texto": "Mancha eritematosa por vasodilatação."
-    },
-    {
-     "letra": "D",
-     "texto": "Telangiectasia."
-    },
-    {
-     "letra": "E",
-     "texto": "Exantema viral."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Vitropressão \"**some ou fica**\": some = vascular (eritema, exantema, telangiectasia); fica = hemorrágica (petéquia até 1 cm, víbice linear, equimose > 1 cm)."
-  },
-  {
-   "id": "PROPE-IN-ECT-26",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · mácula",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mácula (mancha) é definida como:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Espessamento da camada córnea."
-    },
-    {
-     "letra": "B",
-     "texto": "Elevação sólida de até 1 cm."
-    },
-    {
-     "letra": "C",
-     "texto": "Perda de epiderme sem cicatriz."
-    },
-    {
-     "letra": "D",
-     "texto": "Área circunscrita de cor diferente, no mesmo plano da pele e sem alteração da superfície."
-    },
-    {
-     "letra": "E",
-     "texto": "Elevação com conteúdo líquido maior que 1 cm."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Mácula: sem relevo nem alteração de superfície. Placa: elevação sólida em platô, > 1 cm (confluência de pápulas) — tem relevo."
-  },
-  {
-   "id": "PROPE-IN-ECT-27",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · sólidas × líquidas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupos 3 e 4)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Lesão elevada de 0,5 cm, de conteúdo sólido, superficial e bem delimitada, é classificada como:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Urtica."
-    },
-    {
-     "letra": "B",
-     "texto": "Nódulo."
-    },
-    {
-     "letra": "C",
-     "texto": "Pápula."
-    },
-    {
-     "letra": "D",
-     "texto": "Vesícula."
-    },
-    {
-     "letra": "E",
-     "texto": "Bolha."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Pápula ≤ 1 cm e **sólida**; vesícula ≤ 1 cm e **líquida**; bolha > 1 cm com líquido; nódulo na hipoderme, mais palpável que visível; urtica = elevação edematosa efêmera e pruriginosa."
-  },
-  {
-   "id": "PROPE-IN-ECT-28",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · bolha",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 4)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente queimado apresenta lesão elevada de 3 cm com conteúdo líquido claro. A lesão elementar é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Pápula."
-    },
-    {
-     "letra": "B",
-     "texto": "Bolha."
-    },
-    {
-     "letra": "C",
-     "texto": "Vesícula."
-    },
-    {
-     "letra": "D",
-     "texto": "Abscesso."
-    },
-    {
-     "letra": "E",
-     "texto": "Pústula."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Bolha = coleção líquida > 1 cm (entre epiderme e derme). Vesícula ≤ 1 cm; pústula = vesícula com pus; abscesso = coleção purulenta dermo-hipodérmica flutuante."
-  },
-  {
-   "id": "PROPE-IN-ECT-29",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · urtica",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 2)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após usar um medicamento, paciente apresenta elevações eritematosas, pruriginosas, de forma variável, que somem em poucas horas e reaparecem em outros locais. A lesão elementar é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Vesícula."
-    },
-    {
-     "letra": "B",
-     "texto": "Placa."
-    },
-    {
-     "letra": "C",
-     "texto": "Tubérculo."
-    },
-    {
-     "letra": "D",
-     "texto": "Pápula."
-    },
-    {
-     "letra": "E",
-     "texto": "Urtica."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Urtica = edema dérmico circunscrito: elevação sólida eritematosa, pruriginosa e **efêmera** (urticária). O dermatografismo é uma urtica provocada."
-  },
-  {
-   "id": "PROPE-IN-ECT-30",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · erosão × úlcera",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 6) e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Qual a diferença entre erosão e úlcera?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A erosão atinge só a epiderme e não deixa cicatriz; a úlcera atinge a derme e deixa cicatriz."
-    },
-    {
-     "letra": "B",
-     "texto": "A úlcera é sempre de origem neoplásica."
-    },
-    {
-     "letra": "C",
-     "texto": "A erosão atinge a derme e deixa cicatriz; a úlcera atinge só a epiderme."
-    },
-    {
-     "letra": "D",
-     "texto": "Ambas atingem só a epiderme."
-    },
-    {
-     "letra": "E",
-     "texto": "A erosão é linear, nas dobras."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Erosão/exulceração = só epiderme (escoriação se traumática), sem cicatriz. Úlcera = atinge a derme, deixa cicatriz. Perda linear em dobras = fissura (rágade)."
-  },
-  {
-   "id": "PROPE-IN-ECT-31",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · queloide",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 6) e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Cicatriz saliente, firme, róseo-avermelhada, com prolongamentos que ultrapassam os limites da incisão original. Trata-se de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Liquenificação."
-    },
-    {
-     "letra": "B",
-     "texto": "Cicatriz hipertrófica."
-    },
-    {
-     "letra": "C",
-     "texto": "Escara."
-    },
-    {
-     "letra": "D",
-     "texto": "Queloide."
-    },
-    {
-     "letra": "E",
-     "texto": "Cicatriz atrófica."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Queloide **ultrapassa** os limites da lesão; a cicatriz hipertrófica fica dentro deles."
-  },
-  {
-   "id": "PROPE-IN-ECT-32",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · espessura",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 15 Lesões elementares (grupo 5)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com eczema crônico e coçadura frequente apresenta pele espessada, castanho-escura, com acentuação das estrias em quadriculado. A lesão elementar é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Esclerose."
-    },
-    {
-     "letra": "B",
-     "texto": "Queratose."
-    },
-    {
-     "letra": "C",
-     "texto": "Atrofia."
-    },
-    {
-     "letra": "D",
-     "texto": "Infiltração."
-    },
-    {
-     "letra": "E",
-     "texto": "Liquenificação."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Liquenificação = espessamento com estrias em quadriculado (eczema crônico). Queratose = camada córnea espessa (calo); esclerose = pele firme e aderente (esclerodermia); infiltração = hanseníase virchowiana."
-  },
-  {
-   "id": "PROPE-IN-ECT-33",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "unhas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 16 Fâneros e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Qual associação entre alteração ungueal e doença está correta?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Unhas de Terry: insuficiência renal crônica."
-    },
-    {
-     "letra": "B",
-     "texto": "Unhas de Plummer: hipotireoidismo."
-    },
-    {
-     "letra": "C",
-     "texto": "Coiloníquia (unha em colher): anemia ferropriva."
-    },
-    {
-     "letra": "D",
-     "texto": "Unhas de Lindsay (meio a meio): hipoalbuminemia."
-    },
-    {
-     "letra": "E",
-     "texto": "Vidro de relógio: anemia ferropriva leve."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Unhas \"T-L-P\": **T**erry = pouca albumina; **L**indsay = IRC; **P**lummer (onicólise) = hipertireoidismo. Coiloníquia = ferropriva. Vidro de relógio/hipocratismo (ângulo ≈ 180°; normal < 160°) = doenças pulmonares e cardíacas crônicas."
-  },
-  {
-   "id": "PROPE-IN-ECT-34",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "movimentos involuntários · tetania",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 9 Movimentos involuntários e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Para pesquisar o sinal de Trousseau na suspeita de hipocalcemia, o examinador:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Insufla o manguito entre a pressão sistólica e a diastólica por cerca de 10 minutos e observa a \"mão de parteiro\"."
-    },
-    {
-     "letra": "B",
-     "texto": "Pede que o paciente hiperventile por 10 segundos."
-    },
-    {
-     "letra": "C",
-     "texto": "Percute o nervo facial à frente do trago."
-    },
-    {
-     "letra": "D",
-     "texto": "Pede que o paciente estenda os braços com as mãos em hiperextensão."
-    },
-    {
-     "letra": "E",
-     "texto": "Insufla o manguito acima da sistólica por 30 segundos."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Trousseau: manguito entre sistólica e diastólica por ~10 min → espasmo carpal. Braços estendidos com mãos em hiperextensão pesquisam o **asterix**."
-  },
-  {
-   "id": "PROPE-IN-ECT-35",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "revisão geral",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · Nas provas e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "itens_vf",
-   "enunciado": "Julgue os itens sobre a ectoscopia: ( ) A fácies atípica é aquela que não expressa doença, emoção ou alteração metabólica. ( ) As lesões elementares compreendem apenas alterações de cor, elevações edematosas, formações sólidas e coleções líquidas. ( ) Na marcha parkinsoniana há passos curtos, menor balanço dos braços e virada em bloco. ( ) O edema renal tipicamente começa pela face, pela manhã. ( ) A cianose periférica melhora com a oferta de oxigênio, e não com o aquecimento.",
-   "alternativas": [],
-   "gabarito": [
-    "V",
-    "F",
-    "V",
-    "V",
-    "F"
-   ],
-   "gabarito_texto": "V, F, V, V, F",
-   "comentario": "Os grupos de lesões elementares são **seis** (\"C-E-S-L-E-P\"): faltam alterações de espessura e perdas/reparações (item cobrado como incompleto). A cianose periférica melhora ao **aquecer**."
-  },
-  {
-   "id": "PROPE-IN-ECT-36",
+   "id": "PROPE-PF-ECT-05",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Ectoscopia e pele",
    "subtema": "desidratação · sinais",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 4 Estado de hidratação e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Paciente com diarreia e vômitos há 3 dias. Assinale o(s) achado(s) esperado(s) no exame físico:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Fontanelas abauladas, se for lactente."
-    },
-    {
-     "letra": "B",
-     "texto": "Mucosas secas e olhos fundos."
-    },
-    {
-     "letra": "C",
-     "texto": "Sede, perda ponderal e oligúria."
-    },
-    {
-     "letra": "D",
-     "texto": "Enchimento capilar de 1 segundo como sinal de hipoperfusão."
-    },
-    {
-     "letra": "E",
-     "texto": "Sinal da prega positivo."
-    }
-   ],
-   "gabarito": [
-    "B",
-    "C",
-    "E"
-   ],
-   "comentario": "Na desidratação as fontanelas ficam **deprimidas**; enchimento capilar acima de 2–3 s indica hipoperfusão.",
-   "gabarito_texto": "B, C e E"
-  },
-  {
-   "id": "PROPE-IN-ECT-37",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "pele · parâmetros",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia, pele, mucosas e fâneros (aula Prof. Renato + Porto caps. 10 e 11) · 14 Pele",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 4 Hidratação (lista dissertativa)",
    "imagem": null,
    "gabarito_oficial": null,
    "tipo": "discursiva",
-   "enunciado": "Cite os parâmetros que devem ser avaliados sistematicamente no exame da pele.",
+   "enunciado": "Um adulto jovem apresenta episódios frequentes de diarreia aquosa e vômitos há três dias. Cite no mínimo cinco sinais clínicos que você poderia observar no exame físico que indicassem desidratação.",
    "alternativas": [],
    "gabarito": null,
-   "resposta_modelo": "1. **Coloração** (palidez, vermelhidão, cianose, icterícia...);\n2. **Continuidade**;\n3. **Umidade**;\n4. **Textura**;\n5. **Espessura** (pinçar só epiderme e derme);\n6. **Temperatura** (dorso das mãos, comparando lados);\n7. **Elasticidade e mobilidade**;\n8. **Turgor** (prega com o subcutâneo);\n9. **Sensibilidade**;\n10. **Lesões elementares** (6 grupos: cor, elevação edematosa, sólidas, líquidas, espessura, perdas e reparações).",
+   "resposta_modelo": "Quaisquer cinco: **sede**; **perda abrupta de peso**; **mucosas secas**, sem brilho; **pele seca**, com elasticidade e **turgor diminuídos (sinal da prega positivo)**; **olhos fundos** (enoftalmia) e hipotônicos; **enchimento capilar lentificado** (> 2–3 s); taquicardia e hipotensão; **oligúria**; alteração do estado geral e da consciência (excitação psíquica ou abatimento); na criança, fontanelas deprimidas.",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-ECT-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "Glasgow",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 2 Nível de consciência (Glasgow) e Nas provas (Q13)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Motociclista de 32 anos dá entrada na emergência após colisão. Abre os olhos somente quando chamado, responde às perguntas de forma confusa e, ao estímulo doloroso, retira o membro de forma inespecífica, sem localizar a dor. De acordo com a Escala de Coma de Glasgow, a pontuação é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "10"
+    },
+    {
+     "letra": "B",
+     "texto": "12"
+    },
+    {
+     "letra": "C",
+     "texto": "9"
+    },
+    {
+     "letra": "D",
+     "texto": "11"
+    },
+    {
+     "letra": "E",
+     "texto": "13"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Ocular ao estímulo verbal = 3; verbal confusa = 4; motor retirada inespecífica = 4 → 11 (TCE moderado: 9–12). Glasgow \"4-5-6\"."
+  },
+  {
+   "id": "PROPE-PF-ECT-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 5 Fácies e Complemento das provas antigas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Você é o médico responsável pela enfermaria e avalia uma paciente jovem, com febre baixa e dores articulares, que refere piora das lesões cutâneas com o sol. Ao exame físico geral, observa eritema nas bochechas e na ponte nasal, poupando os sulcos nasolabiais, com áreas de atrofia. Como você descreveria essa fácies?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fácies leonina."
+    },
+    {
+     "letra": "B",
+     "texto": "Fácies cushingoide."
+    },
+    {
+     "letra": "C",
+     "texto": "Fácies lúpica (em asa de borboleta)."
+    },
+    {
+     "letra": "D",
+     "texto": "Fácies basedowiana."
+    },
+    {
+     "letra": "E",
+     "texto": "Fácies mitral."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Lúpica: asa de borboleta que **poupa** o sulco nasolabial, fotossensível. Mitral: cianose malar com telangiectasias (estenose mitral). Leonina: lepromas, madarose, anestesia (hanseníase)."
+  },
+  {
+   "id": "PROPE-PF-ECT-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 5 Fácies e Complemento das provas antigas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 48 anos procura o ambulatório com lesões cutâneas disseminadas e dormência em áreas da face. Ao exame, apresenta pele espessa e infiltrada com nódulos, sobretudo na fronte, queda dos supercílios, nariz espessado e alargado e lábios grossos. A fácies e a doença associada são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fácies esclerodérmica — esclerodermia."
+    },
+    {
+     "letra": "B",
+     "texto": "Fácies leonina — lúpus eritematoso sistêmico."
+    },
+    {
+     "letra": "C",
+     "texto": "Fácies acromegálica — adenoma hipofisário."
+    },
+    {
+     "letra": "D",
+     "texto": "Fácies mixedematosa — hipotireoidismo."
+    },
+    {
+     "letra": "E",
+     "texto": "Fácies leonina — hanseníase virchowiana."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Leonina: lepromas na fronte, **madarose**, nariz alargado, lábios grossos e áreas de anestesia. \"Lúpica poupa o sulco nasolabial; leonina tem madarose e anestesia.\""
+  },
+  {
+   "id": "PROPE-PF-ECT-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 5 Fácies (lista dissertativa)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Descreva as características das seguintes fácies e a condição associada a cada uma: a) acromegálica; b) cushingoide; c) hipocrática; d) mixedematosa; e) basedowiana (hipertireoidiana).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**a) Acromegálica** — arcadas supraorbitárias salientes, maçãs do rosto proeminentes, mandíbula desenvolvida (prognatismo), nariz, lábios e orelhas grandes; os olhos parecem pequenos. Acromegalia (adenoma hipofisário produtor de GH).\n\n**b) Cushingoide (lua cheia)** — rosto arredondado, traços atenuados, acne e rubor. Síndrome de Cushing ou corticoide prolongado.\n\n**c) Hipocrática** — olhos fundos, parados e inexpressivos, nariz afilado, lábios adelgaçados, batimento das asas do nariz, suor, palidez. Doença grave, estados agônicos.\n\n**d) Mixedematosa** — rosto arredondado, nariz e lábios grossos, pele seca e espessa, pálpebras infiltradas, supercílios escassos, cabelos secos, apatia. Hipotireoidismo.\n\n**e) Basedowiana** — exoftalmia, olhos brilhantes, rosto magro, expressão de espanto e ansiedade, pode haver bócio. Hipertireoidismo (Graves).",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-ECT-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "edema",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 12 Edema e Complemento (edema cardíaco)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual das seguintes características semiológicas está geralmente associada ao edema de origem RENAL?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nunca apresenta fóvea à digitopressão."
+    },
+    {
+     "letra": "B",
+     "texto": "Inicia-se nos pés, é ascendente e piora ao longo do dia."
+    },
+    {
+     "letra": "C",
+     "texto": "Predomina na face e nas pálpebras, sendo mais evidente pela manhã."
+    },
+    {
+     "letra": "D",
+     "texto": "É sempre localizado, duro e com pele espessada."
+    },
+    {
+     "letra": "E",
+     "texto": "É quente, doloroso e avermelhado."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "\"Rim de manhã, coração de tarde\": renal = facial/palpebral matinal; cardíaco = ascendente, bilateral, MMII, vespertino, indolor. Duro com pele espessa = linfedema; quente e doloroso = inflamatório."
+  },
+  {
+   "id": "PROPE-PF-ECT-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "hepatopata · técnicas da ectoscopia",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 9, 11 e Complemento (aranhas, colateral)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Você é chamado para avaliar um paciente cirrótico internado, ictérico, com edema de membros inferiores, aumento do volume abdominal, circulação colateral e aranhas vasculares, que está sonolento e desorientado. Em relação às técnicas do exame físico geral, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A icterícia leve é mais bem detectada na esclerótica e no freio da língua."
+    },
+    {
+     "letra": "B",
+     "texto": "Na circulação colateral tipo cava inferior, o fluxo acima do umbigo é do abdome para o tórax, e isso a diferencia da circulação tipo porta."
+    },
+    {
+     "letra": "C",
+     "texto": "Movimentos involuntários do tipo flapping (asterix) devem ser pesquisados, com os braços estendidos e as mãos em hiperextensão."
+    },
+    {
+     "letra": "D",
+     "texto": "A puntipressão, comprimindo o ponto central com objeto de ponta romba, é a técnica ideal para evidenciar as aranhas vasculares."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "A, C e D",
+   "comentario": "Acima do umbigo, porta e cava inferior têm fluxo abdome → tórax; o que as diferencia é o fluxo **abaixo** do umbigo (desce na porta, sobe na cava) e a localização. Digitopressão/vitropressão distinguem mancha vascular de hemorrágica."
+  },
+  {
+   "id": "PROPE-PF-ECT-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares · assertivas",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 15 Lesões elementares e Nas provas (Q5)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Considerando os aspectos semiológicos das alterações de pele, assinale a(s) afirmação(ões) verdadeira(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "As manchas HEMORRÁGICAS, como petéquias e equimoses, desaparecem à vitropressão."
+    },
+    {
+     "letra": "B",
+     "texto": "A CICATRIZ HIPERTRÓFICA é uma formação fibrosa saliente e firme que ultrapassa os limites da incisão original."
+    },
+    {
+     "letra": "C",
+     "texto": "A PÁPULA é uma elevação sólida, superficial e de até 1 cm, enquanto a VESÍCULA é uma elevação de até 1 cm com conteúdo líquido."
+    },
+    {
+     "letra": "D",
+     "texto": "A EROSÃO corresponde à perda apenas da epiderme e não deixa cicatriz; a ÚLCERA atinge a derme e deixa cicatriz."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "C e D",
+   "comentario": "Quem ultrapassa os limites da lesão é o **queloide**; a hipertrófica fica dentro deles. As manchas hemorrágicas **não** desaparecem à vitropressão (as vasculares somem)."
+  },
+  {
+   "id": "PROPE-PF-ECT-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares · melanoma e grupos",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 15 Lesões elementares (ABCDE, grupos) e Nas provas (Q5)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Sobre as lesões elementares da pele e o rastreio de melanoma, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A URTICA é uma elevação edematosa, eritematosa, pruriginosa e efêmera."
+    },
+    {
+     "letra": "B",
+     "texto": "Na regra ABCDE, assimetria, bordas irregulares, variação de cor, diâmetro maior que 6 mm e evolução sugerem malignidade."
+    },
+    {
+     "letra": "C",
+     "texto": "As lesões elementares classificam-se em alterações de cor, elevações edematosas, formações sólidas e coleções líquidas, sem outros grupos."
+    },
+    {
+     "letra": "D",
+     "texto": "A PLACA é uma elevação sólida em platô, maior que 1 cm, geralmente formada pela confluência de pápulas."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "B",
+    "D"
+   ],
+   "gabarito_texto": "A, B e D",
+   "comentario": "São **seis** grupos: faltam alterações de **espessura** e **perdas e reparações** (\"C-E-S-L-E-P\"); a lista de quatro foi considerada incompleta na prova."
+  },
+  {
+   "id": "PROPE-PF-ECT-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "pele · revisão",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · 14–15 Pele e Nas provas (Q7)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o exame da pele, assinale V (verdadeiro) ou F (falso) e marque a sequência correta:\n\nI. ( ) A cianose central melhora com oxigênio e ocorre com extremidades quentes; a periférica melhora com o aquecimento.\nII. ( ) A desidratação aumenta o turgor da pele, sem sinal da prega.\nIII. ( ) Cianose ou palidez na pele e nas mucosas podem indicar comprometimento circulatório, respiratório ou anemia.\nIV. ( ) A hidratação das mucosas é estimada pela coloração: mucosas descoradas indicam desidratação.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "F – F – F – F"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – V – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – F – F"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Turgor **diminuído** na desidratação. A cor da mucosa fala do sangue (descorada = anemia); a **umidade** fala da hidratação."
+  },
+  {
+   "id": "PROPE-PF-ECT-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fotodermatite de contato",
+   "origem": "inédita",
+   "fonte": "SOP IV Guia PR2 · 01 Ectoscopia (aula Prof. Renato + Porto caps. 10–11) · temas recorrentes nas provas · Complemento das provas antigas (fotodermatite)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Paciente refere lesões e reação na pele após exposição ao sol depois de manipular limão. Cite cinco sinais que você poderia identificar no exame físico de uma fotodermatite de contato.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "Quaisquer cinco: **eritema** e **edema** restritos à área exposta ao sol; **limites nítidos**, poupando as áreas cobertas; **vesículas e bolhas** na fase aguda; **crostas e escoriações** depois; **descamação e liquenificação** na fase crônica; **hiperpigmentação residual** (fitofotodermatose); ardor/prurido local.",
    "comentario": null
   }
  ]
