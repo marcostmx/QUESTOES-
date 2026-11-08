@@ -5,7 +5,7 @@ import { useBank } from '../core/bank';
 import { ERROR_CAUSES, isOpenError, type ErrorCause } from '../core/study';
 import { study, useStudy } from '../core/store';
 import { QuestionList } from '../question/QuestionList';
-import { SUBJECT_LIST } from '../subjects';
+import { activeSubjects } from '../subjects';
 import { Badge, Button, Chip, Empty, IconButton, Loading, PageHeader, toast } from '../ui';
 import { startSession } from './SessionPage';
 
@@ -34,7 +34,7 @@ export default function ErrorsPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Caderno de erros"
+        eyebrow={`Caderno de erros · ${bank.exam}`}
         title="Seus erros"
         actions={
           list.length > 0 && !showResolved ? (
@@ -62,7 +62,7 @@ export default function ErrorsPage() {
             <Chip active={!subject} onClick={() => setSubject(null)} count={base.length}>
               Todas
             </Chip>
-            {SUBJECT_LIST.map(s => {
+            {activeSubjects(bank).map(s => {
               const n = base.filter(q => q.subject === s.id).length;
               return n ? (
                 <Chip key={s.id} color={s.color} active={subject === s.id} onClick={() => setSubject(subject === s.id ? null : s.id)} count={n}>

@@ -4,7 +4,7 @@ import { useBank } from '../core/bank';
 import type { StudyData } from '../core/study';
 import { preferences, study, usePrefs, useStudy, type ThemePref } from '../core/store';
 import { login, logout, syncNow, useSync } from '../core/sync';
-import { SUBJECT_LIST } from '../subjects';
+import { activeSubjects } from '../subjects';
 import { Button, Card, cx, Dialog, PageHeader, Section, Spinner, toast } from '../ui';
 
 export default function AccountPage() {
@@ -153,9 +153,9 @@ export default function AccountPage() {
         </Card>
       </Section>
 
-      <Section title="Zerar progresso">
+      <Section title={`Zerar progresso da ${bank.exam}`}>
         <Card className="divide-y divide-line">
-          {SUBJECT_LIST.map(s => {
+          {activeSubjects(bank).map(s => {
             const ids = bank.bySubject[s.id].map(q => q.id);
             const n = ids.filter(id => data.questions[id]).length;
             return (
@@ -170,7 +170,7 @@ export default function AccountPage() {
             );
           })}
           <div className="flex items-center justify-between gap-3 px-4 py-3 sm:px-5">
-            <span className="text-[14px] font-medium text-bad">Tudo (inclui favoritos, notas e histórico)</span>
+            <span className="text-[14px] font-medium text-bad">Tudo, de todas as provas (inclui favoritos, notas e histórico)</span>
             <Button size="sm" variant="danger" icon={<Trash2 className="size-3.5" />} onClick={() => setConfirm({ label: 'todas as disciplinas' })}>
               Zerar tudo
             </Button>
@@ -179,7 +179,7 @@ export default function AccountPage() {
       </Section>
 
       <p className="text-[12.5px] text-ink-3">
-        Estudo PR1 · {bank.all.length} questões em {SUBJECT_LIST.length} disciplinas.
+        Estudo PR · {bank.exam}: {bank.all.length} questões em {activeSubjects(bank).length} disciplinas.
       </p>
 
       <Dialog open={!!confirm} onClose={() => setConfirm(null)} title="Zerar progresso?">

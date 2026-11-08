@@ -1,7 +1,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowLeft, ArrowRight, Grid3x3, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
+import type { ExamId } from '../../data/schema';
 import { useBank } from '../core/bank';
-import { sessionSummary, sessions, useSession, type Session, type SessionKind } from '../core/session';
+import { canConfirm, sessionSummary, sessions, useSession, type Session, type SessionKind } from '../core/session';
 import { useStudy } from '../core/store';
 import { navigate } from '../router';
 import { FavoriteButton, QuestionMeta, QuestionView, type QuestionHandlers } from '../question/QuestionView';
@@ -11,14 +12,14 @@ import { subjectMeta } from '../subjects';
 
 const RETURN_TO: Record<SessionKind, string> = { pratica: 'praticar', revisao: 'revisao', erros: 'erros', favoritos: 'favoritos', avulsa: '' };
 
-export function startSession(kind: SessionKind, title: string, ids: string[], index = 0) {
-  sessions.start(kind, title, ids, index);
+export function startSession(kind: SessionKind, title: string, ids: string[], index = 0, exam?: ExamId) {
+  sessions.start(kind, title, ids, index, exam);
   navigate('sessao');
 }
 
 export default function SessionPage() {
   const session = useSession();
-  const bank = useBank();
+  const bank = useBank(session?.exam);
 
   if (!session)
     return (
@@ -34,7 +35,7 @@ export default function SessionPage() {
 }
 
 function Runner({ session }: { session: Session }) {
-  const bank = useBank();
+  const bank = useBank(session.exam);
   const data = useStudy();
   const [mapOpen, setMapOpen] = useState(false);
   const [keysOpen, setKeysOpen] = useState(false);
@@ -54,6 +55,8 @@ function Runner({ session }: { session: Session }) {
   const h: QuestionHandlers | null = q
     ? {
         onSelect: i => sessions.select(q.id, i),
+        onTogglePick: i => sessions.togglePick(q.id, i),
+        onJudge: (i, v) => sessions.judge(q.id, i, v, q.statements?.length ?? 0),
         onEliminate: i => sessions.toggleEliminate(q.id, i),
         onConfirm: () => sessions.confirm(q),
         onReveal: () => sessions.reveal(q),
@@ -80,12 +83,12 @@ function Runner({ session }: { session: Session }) {
       const letter = 'abcdef'.indexOf(k);
       const digit = '123456'.indexOf(k);
       const idx = letter >= 0 ? letter : digit;
-      if (q.format === 'mcq' && idx >= 0 && idx < n) {
+      if ((q.format === 'mcq' || q.format === 'multi') && idx >= 0 && idx < n) {
         e.preventDefault();
-        e.shiftKey ? h.onEliminate(idx) : h.onSelect(idx);
+        e.shiftKey ? h.onEliminate(idx) : q.format === 'multi' ? h.onTogglePick(idx) : h.onSelect(idx);
       } else if (e.key === 'Enter') {
         e.preventDefault();
-        if (q.format === 'mcq' && !answer.result && answer.selected !== undefined) h.onConfirm();
+        if (q.format !== 'open' && !answer.result && canConfirm(q, answer)) h.onConfirm();
         else if (answer.result) next();
         else if (q.format === 'open' && !answer.revealed) h.onReveal();
       } else if (e.key === 'ArrowRight') {
@@ -114,7 +117,10 @@ function Runner({ session }: { session: Session }) {
             <X className="size-5" />
           </IconButton>
           <div className="min-w-0 flex-1 px-1">
-            <p className="truncate text-[14px] font-semibold">{session.title}</p>
+            <p className="truncate text-[14px] font-semibold">
+              <span className="mr-1.5 rounded bg-surface-2 px-1.5 py-px font-mono text-[11px] text-ink-2">{session.exam}</span>
+              {session.title}
+            </p>
             <p className="tabular text-[12px] text-ink-3">
               Questão {session.index + 1} de {ids.length}
               <span className="mx-1.5">·</span>
@@ -250,7 +256,7 @@ function Legend({ className, label }: { className: string; label: string }) {
 }
 
 function Summary({ session }: { session: Session }) {
-  const bank = useBank();
+  const bank = useBank(session.exam);
   const s = sessionSummary(session);
   const rate = s.answered ? s.correct / s.answered : 0;
   const missed = useMemo(
@@ -263,7 +269,9 @@ function Summary({ session }: { session: Session }) {
   return (
     <div className="min-h-dvh bg-bg">
       <main className="animate-rise mx-auto max-w-2xl px-4 py-10 sm:py-16">
-        <p className="mb-2 text-[13px] font-medium text-ink-3">{session.title}</p>
+        <p className="mb-2 text-[13px] font-medium text-ink-3">
+          {session.exam} · {session.title}
+        </p>
         <h1 className="font-display mb-8 text-4xl font-semibold sm:text-5xl">{verdict}</h1>
 
         <div className="mb-8 flex flex-col items-center gap-6 rounded-3xl border border-line bg-surface p-6 sm:flex-row sm:p-8">
@@ -283,12 +291,12 @@ function Summary({ session }: { session: Session }) {
 
         <div className="mb-10 flex flex-wrap gap-2">
           {missed.length > 0 && (
-            <Button variant="primary" icon={<RotateCcw className="size-4" />} onClick={() => startSession('erros', `Refazer erros · ${session.title}`, missed)}>
+            <Button variant="primary" icon={<RotateCcw className="size-4" />} onClick={() => startSession('erros', `Refazer erros · ${session.title}`, missed, 0, session.exam)}>
               Refazer {plural(missed.length, 'erro', 'erros')}
             </Button>
           )}
           {unanswered.length > 0 && (
-            <Button onClick={() => startSession(session.kind, session.title, unanswered)}>Continuar as {unanswered.length} sem resposta</Button>
+            <Button onClick={() => startSession(session.kind, session.title, unanswered, 0, session.exam)}>Continuar as {unanswered.length} sem resposta</Button>
           )}
           <Button
             variant="ghost"

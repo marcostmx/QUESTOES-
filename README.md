@@ -1,6 +1,6 @@
-# Estudo PR1
+# Estudo PR
 
-Banco de questões da PR1 com revisão espaçada, caderno de erros, estatísticas e biblioteca de materiais do semestre.
+Banco de questões da PR2 (prova atual) e da PR1 (já realizada), com revisão espaçada, caderno de erros, estatísticas e biblioteca de materiais do semestre.
 
 ## Rodar
 
@@ -21,7 +21,8 @@ src/
   data/
     schema.ts            formato canônico de uma questão
     validate.ts          regras de validação (usadas pelos testes e pelo npm run validate)
-    questions/*.json     banco de questões, um arquivo por disciplina  ← fonte da verdade
+    questions/<prova>/<disciplina>.json   banco de questões  ← fonte da verdade
+                         (pr2/ = prova atual, pr1/ = prova já realizada)
     materials.json       arquivos da pasta do Drive exibidos na Biblioteca
   app/
     core/                lógica sem interface (testada)
@@ -40,14 +41,27 @@ server.ts                servidor Express (Vite em dev, estáticos em produção
 firestore.rules          regras de segurança do Firestore
 ```
 
+## Provas
+
+O app abre sempre na prova atual (a primeira de `EXAMS` em `src/data/schema.ts`). As outras ficam acessíveis pelo seletor PR2/PR1 no menu e aparecem como "Provas anteriores" na tela inicial. Revisão, caderno de erros, favoritos, busca e estatísticas mostram só a prova escolhida.
+
+Para uma prova nova (ex.: PR3): acrescente-a no início de `EXAMS` e importe o arquivo de questões:
+
+```bash
+npx tsx scripts/import-exam.ts caminho/questoes_pr3.json PR3
+```
+
+O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `tipo`, `alternativas`, `gabarito`, `comentario`, `resposta_modelo`…), converte para o formato abaixo e grava em `src/data/questions/pr3/`. Reimportar o mesmo arquivo mantém os IDs.
+
 ## Adicionar ou editar questões
 
-Edite o JSON da disciplina em `src/data/questions/`. Cada questão:
+Edite o JSON em `src/data/questions/<prova>/`. Cada questão:
 
 ```json
 {
   "id": "far-1a2b3c4d",
   "subject": "farmacologia",
+  "exam": "PR2",
   "format": "mcq",
   "kind": "multipla-escolha",
   "topic": "opcional",
@@ -59,10 +73,15 @@ Edite o JSON da disciplina em `src/data/questions/`. Cada questão:
 }
 ```
 
-- `format`: `mcq` (objetiva) ou `open` (discursiva, sem `options`/`answerIndex`).
+- `format`:
+  - `mcq`: uma correta (`options` + `answerIndex`);
+  - `multi`: mais de uma correta (`options` + `answerIndices`);
+  - `tf`: julgar itens (`statements` + `truth`, um booleano por item; `tfStyle: "check"` para "marque os corretos");
+  - `open`: discursiva, sem alternativas.
+- Opcionais: `topic`, `subtopic`, `image` (URL ou data URI), `origin` (`prova`, `slide`, `inedita`), `ref` (código original), `optionLabels` (letras fora do padrão).
 - `kind`: `multipla-escolha`, `verdadeiro-falso`, `associacao`, `caso-clinico` ou `discursiva`.
 - As alternativas vão **sem** a letra; a letra vem da posição.
-- O `id` é o prefixo da disciplina (`fis`, `far`, `pro`, `bc`, `iesc`) + um código único. **Nunca altere o `id` de uma questão publicada** — o progresso dos alunos aponta para ele.
+- O `id` é o prefixo da disciplina (`fis`, `far`, `pro`, `bc`, `gis`, `iesc`) + um código único. **Nunca altere o `id` de uma questão publicada** — o progresso dos alunos aponta para ele.
 
 Depois rode `npm run validate`: ele acusa id repetido, gabarito fora do intervalo, alternativas repetidas e questões duplicadas.
 

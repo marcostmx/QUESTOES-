@@ -24,6 +24,20 @@ describe('renderMarkdown', () => {
     expect(renderMarkdown(src)).not.toContain('<svg>');
   });
 
+  it('monta tabelas com linhas separadas por linha em branco', () => {
+    const html = renderMarkdown('Intro\n\nAlternativa | Por quê\n\nF | A) | errado\n\nV | B) | certo\n\nFim');
+    expect(html).toBe(
+      '<p>Intro</p><div class="table-wrap"><table><thead><tr><th>Alternativa</th><th colspan="2">Por quê</th></tr></thead>' +
+        '<tbody><tr><td>F</td><td>A)</td><td>errado</td></tr><tr><td>V</td><td>B)</td><td>certo</td></tr></tbody></table></div><p>Fim</p>',
+    );
+  });
+
+  it('entende tabelas no formato Markdown (| a | b | e :---)', () => {
+    expect(renderMarkdown('| | X | Y |\n| :--- | :--- | :--- |\n| VEF1 | baixo | normal |')).toBe(
+      '<div class="table-wrap"><table><thead><tr><th></th><th>X</th><th>Y</th></tr></thead><tbody><tr><td>VEF1</td><td>baixo</td><td>normal</td></tr></tbody></table></div>',
+    );
+  });
+
   it('não confunde multiplicação/asterisco solto com itálico', () => {
     expect(renderMarkdown('2 * 3 = 6')).toBe('<p>2 * 3 = 6</p>');
   });

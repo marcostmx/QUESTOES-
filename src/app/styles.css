@@ -33,7 +33,7 @@
   --s-propedeutica: #0e9384;
   --s-bases-cirurgicas: #c4841d;
   --s-iesc-iv: #2e7cf6;
-  --s-gis2: #8a857c;
+  --s-gis2: #c2417a;
 }
 
 :root[data-theme="dark"] {
@@ -65,6 +65,7 @@
   --s-propedeutica: #2ec4b0;
   --s-bases-cirurgicas: #e2a440;
   --s-iesc-iv: #6aa5ff;
+  --s-gis2: #ec6fa5;
 }
 
 @theme inline {
@@ -229,4 +230,39 @@ button:disabled {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Tabelas nos gabaritos */
+.prose-q .table-wrap {
+  margin: 0 0 1em;
+  overflow-x: auto;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+}
+.prose-q table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.94em;
+}
+.prose-q th,
+.prose-q td {
+  padding: 0.55em 0.8em;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid var(--line);
+}
+.prose-q th {
+  background: var(--surface-2);
+  font-weight: 600;
+  color: var(--ink-2);
+}
+.prose-q tr:last-child td {
+  border-bottom: 0;
+}
+.prose-q td:not(:last-child),
+.prose-q th:not(:last-child) {
+  white-space: nowrap;
+}
+.prose-q td:first-child {
+  font-weight: 600;
 }

@@ -3,6 +3,7 @@
  * Componentes leem com `useStudy()` e alteram via `study.*`.
  */
 import { useSyncExternalStore } from 'react';
+import { CURRENT_EXAM, EXAMS, type ExamId } from '../../data/schema';
 import { toDateKey } from './srs';
 import {
   emptyStudy, mergeStudy, patchQuestion, recordAnswer, resetProgress,
@@ -105,11 +106,12 @@ export function useQuestionState(id: string | undefined): QuestionState | undefi
 export type ThemePref = 'system' | 'light' | 'dark';
 export interface Prefs {
   theme: ThemePref;
-  /** Mostrar alternativas eliminadas riscadas (true) ou ocultas. */
-  shuffleDefault: boolean;
+  /** Prova exibida no app (padrão: a prova atual). */
+  exam: ExamId;
 }
 const PREFS_KEY = 'pr1.v2.prefs';
-let prefs: Prefs = { theme: 'system', shuffleDefault: false, ...(safeRead<Prefs>(PREFS_KEY) ?? {}) };
+// A prova escolhida vale só para a visita atual: o app sempre abre na prova atual.
+let prefs: Prefs = { theme: 'system', ...(safeRead<Partial<Prefs>>(PREFS_KEY) ?? {}), exam: CURRENT_EXAM };
 const prefListeners = new Set<Listener>();
 
 export const preferences = {
@@ -120,7 +122,8 @@ export const preferences = {
   },
   set(patch: Partial<Prefs>) {
     prefs = { ...prefs, ...patch };
-    safeWrite(PREFS_KEY, prefs);
+    if (patch.exam && !EXAMS.some(e => e.id === patch.exam)) prefs.exam = CURRENT_EXAM;
+    safeWrite(PREFS_KEY, { theme: prefs.theme });
     prefListeners.forEach(l => l());
   },
 };

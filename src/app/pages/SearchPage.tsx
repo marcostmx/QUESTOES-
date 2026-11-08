@@ -6,7 +6,7 @@ import { useStudy } from '../core/store';
 import { fold, plural } from '../core/text';
 import { navigate, useRoute } from '../router';
 import { QuestionList } from '../question/QuestionList';
-import { SUBJECT_LIST } from '../subjects';
+import { activeSubjects } from '../subjects';
 import { Chip, Empty, Loading, PageHeader } from '../ui';
 
 const LIMIT = 60;
@@ -28,7 +28,7 @@ export default function SearchPage() {
   }, [deferred]);
 
   const index = useMemo(
-    () => bank.all.map(x => ({ q: x, main: fold(x.stem + ' ' + (x.options ?? []).join(' ') + ' ' + (x.topic ?? '') + ' ' + (x.source ?? '')), expl: fold(x.explanation) })),
+    () => bank.all.map(x => ({ q: x, main: fold([x.stem, ...(x.options ?? []), ...(x.statements ?? []), x.topic, x.subtopic, x.source, x.ref].filter(Boolean).join(' ')), expl: fold(x.explanation) })),
     [bank],
   );
 
@@ -66,7 +66,7 @@ export default function SearchPage() {
 
   return (
     <>
-      <PageHeader eyebrow="Busca" title="Encontrar questões" />
+      <PageHeader eyebrow={`Busca · ${bank.exam}`} title="Encontrar questões" />
       <div className="relative mb-4">
         <Search className="pointer-events-none absolute top-1/2 left-4 size-5 -translate-y-1/2 text-ink-3" />
         <input
@@ -90,7 +90,7 @@ export default function SearchPage() {
         <Chip active={!subject} onClick={() => setSubject(null)}>
           Todas
         </Chip>
-        {SUBJECT_LIST.map(s => (
+        {activeSubjects(bank).map(s => (
           <Chip key={s.id} color={s.color} active={subject === s.id} onClick={() => setSubject(subject === s.id ? null : s.id)}>
             {s.short}
           </Chip>

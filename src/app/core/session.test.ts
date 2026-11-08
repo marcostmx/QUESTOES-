@@ -1,10 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import type { Question } from '../../data/schema';
-import { defaultFilter, dueQueue, filterQuestions, shuffle } from './session';
+import { canConfirm, defaultFilter, dueQueue, filterQuestions, gradeAnswer, shuffle, tfScore } from './session';
 import { emptyStudy, patchQuestion, recordAnswer } from './study';
 
 const q = (id: string, extra: Partial<Question> = {}): Question => ({
-  id, subject: 'farmacologia', format: 'mcq', kind: 'multipla-escolha', stem: id,
+  id, subject: 'farmacologia', exam: 'PR2', format: 'mcq', kind: 'multipla-escolha', stem: id,
   options: ['a', 'b'], answerIndex: 0, explanation: 'x', ...extra,
 });
 
@@ -24,7 +24,7 @@ describe('filterQuestions', () => {
   it('filtra por disciplina, formato e tema', () => {
     const f = defaultFilter(['farmacologia']);
     expect(filterQuestions(all, emptyStudy(), f, today).map(x => x.id)).toEqual(['far-1', 'far-2']);
-    expect(filterQuestions(all, emptyStudy(), { ...f, formats: ['open'] }, today).map(x => x.id)).toEqual(['far-2']);
+    expect(filterQuestions(all, emptyStudy(), { ...f, formats: ['aberta'] }, today).map(x => x.id)).toEqual(['far-2']);
     expect(filterQuestions(all, emptyStudy(), { ...defaultFilter(), topics: ['Módulo 1'] }, today).map(x => x.id)).toEqual(['iesc-1']);
   });
 
@@ -58,5 +58,47 @@ describe('shuffle', () => {
   it('é uma permutação', () => {
     const a = [1, 2, 3, 4, 5];
     expect(shuffle(a).sort()).toEqual(a);
+  });
+});
+
+describe('gradeAnswer', () => {
+  const mcq = q('far-9');
+  const multi = q('far-8', { format: 'multi', options: ['a', 'b', 'c', 'd'], answerIndex: undefined, answerIndices: [1, 3] });
+  const tf = q('far-7', { format: 'tf', options: undefined, answerIndex: undefined, statements: ['1', '2', '3', '4', '5'], truth: [true, true, false, false, true] });
+  const check = { ...tf, tfStyle: 'check' as const };
+
+  it('alternativa única', () => {
+    expect(gradeAnswer(mcq, { selected: 0 })).toBe('correct');
+    expect(gradeAnswer(mcq, { selected: 1 })).toBe('wrong');
+    expect(canConfirm(mcq, {})).toBe(false);
+  });
+
+  it('várias corretas: exata, parcial e errada', () => {
+    expect(gradeAnswer(multi, { picked: [1, 3] })).toBe('correct');
+    expect(gradeAnswer(multi, { picked: [3] })).toBe('partial');
+    expect(gradeAnswer(multi, { picked: [1, 2, 3] })).toBe('wrong');
+    expect(canConfirm(multi, { picked: [] })).toBe(false);
+  });
+
+  it('V/F por item', () => {
+    expect(gradeAnswer(tf, { judged: [true, true, false, false, true] })).toBe('correct');
+    expect(gradeAnswer(tf, { judged: [true, true, false, true, false] })).toBe('partial'); // 3/5
+    expect(gradeAnswer(tf, { judged: [false, false, true, true, true] })).toBe('wrong');
+    expect(canConfirm(tf, { judged: [true, true, false, null, true] })).toBe(false);
+    expect(canConfirm(tf, { judged: [true, true, false, false, true] })).toBe(true);
+  });
+
+  it('"marque os corretos": item não marcado conta como falso', () => {
+    expect(tfScore(check, { judged: [true, true, null, null, true] })).toEqual({ right: 5, total: 5 });
+    expect(gradeAnswer(check, { judged: [true, true, null, null, true] })).toBe('correct');
+    expect(canConfirm(check, { judged: [] })).toBe(false);
+  });
+});
+
+describe('filtro de origem', () => {
+  it('filtra por origem', () => {
+    const list = [q('far-1', { origin: 'inedita' }), q('far-2', { origin: 'prova' })];
+    expect(filterQuestions(list, emptyStudy(), { ...defaultFilter(), origins: ['inedita'] }, today).map(x => x.id)).toEqual(['far-1']);
+    expect(filterQuestions(list, emptyStudy(), { ...defaultFilter(), formats: ['objetiva'] }, today)).toHaveLength(2);
   });
 });
