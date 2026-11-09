@@ -1,0 +1,1186 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Bases Cirúrgicas (formato das provas, temas recorrentes)",
+  "gerado_em": "2026-11-09",
+  "base": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), baseado no plano IDM030, nos slides das aulas (Prof. Thiago P. Rodrigues e demais) e no banco de distratores das provas. Formato da banca: \"assinale a incorreta / EXCETO\", casos curtos, cálculos e associação."
+ },
+ "questoes": [
+  {
+   "id": "BC-PF-01",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "classes do choque hemorrágico · caso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 06 Choque (caso do motociclista, ATLS 10)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Motociclista de 25 anos, 70 kg, chega após colisão com FC 135 bpm, PA 80 × 50 mmHg, FR 35 irpm, confuso e com diurese de 5 mL/h. Fratura de fêmur e abdome distendido. Pela classificação do ATLS, a perda sanguínea estimada e a conduta são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Classe III (30–40%); aguardar a normalização da PA com cristaloide antes da cirurgia."
+    },
+    {
+     "letra": "B",
+     "texto": "Classe IV (> 40%, > 2.000 mL); controle imediato do sangramento e transfusão maciça de hemocomponentes."
+    },
+    {
+     "letra": "C",
+     "texto": "Classe IV; noradrenalina em dose alta até PAM ≥ 65 mmHg, sem transfusão."
+    },
+    {
+     "letra": "D",
+     "texto": "Classe I (< 15%); apenas observação e cristaloide de manutenção."
+    },
+    {
+     "letra": "E",
+     "texto": "Classe II (15–30%); vasopressor como primeira linha."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Classe IV: FC > 140 (ou muito elevada), hipotensão importante, confusão/letargia, diurese desprezível. O tratamento do choque hemorrágico é **parar o sangramento e repor sangue** (protocolo de transfusão maciça, ácido tranexâmico < 3 h); vasopressor não é primeira linha e a cirurgia não espera a PA normalizar."
+  },
+  {
+   "id": "BC-PF-02",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "perfil hemodinâmico · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 06 Choque (tipos e perfil hemodinâmico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os tipos de choque e seus perfis hemodinâmicos, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No choque cardiogênico o débito cardíaco cai com pressões de enchimento (PVC e POAP) elevadas e resistência vascular aumentada."
+    },
+    {
+     "letra": "B",
+     "texto": "No choque neurogênico, a perda do tônus simpático causa hipotensão com bradicardia e pele quente."
+    },
+    {
+     "letra": "C",
+     "texto": "No choque hipovolêmico há queda da pré-carga (PVC baixa), débito cardíaco baixo e resistência vascular sistêmica elevada."
+    },
+    {
+     "letra": "D",
+     "texto": "No choque obstrutivo (tamponamento, pneumotórax hipertensivo, TEP maciço) o tratamento é corrigir a causa."
+    },
+    {
+     "letra": "E",
+     "texto": "No choque séptico a resistência vascular sistêmica está elevada, e as extremidades são frias desde o início."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O séptico é **distributivo**: RVS **baixa**, débito normal ou alto na fase inicial (\"quente\"), extremidades aquecidas; só tardiamente fica frio."
+  },
+  {
+   "id": "BC-PF-03",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "drogas vasoativas · associação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 06 Choque (tabela de drogas vasoativas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Relacione a droga vasoativa à indicação principal:\n\n1. Noradrenalina\n2. Dobutamina\n3. Epinefrina\n4. Vasopressina\n\n( ) Anafilaxia, 0,3–0,5 mg IM na coxa\n( ) Choque cardiogênico com baixo débito (inotrópico β1)\n( ) Primeira escolha no choque séptico após volume\n( ) Segunda droga no choque séptico refratário à noradrenalina\n\nA sequência correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "3, 2, 1, 4"
+    },
+    {
+     "letra": "B",
+     "texto": "3, 1, 2, 4"
+    },
+    {
+     "letra": "C",
+     "texto": "2, 3, 1, 4"
+    },
+    {
+     "letra": "D",
+     "texto": "3, 2, 4, 1"
+    },
+    {
+     "letra": "E",
+     "texto": "1, 2, 3, 4"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Noradrenalina (α1 > β1): 1ª no séptico. Vasopressina (V1): adjuvante para poupar noradrenalina. Dobutamina (β1): inotrópico no cardiogênico. Epinefrina IM: anafilaxia."
+  },
+  {
+   "id": "BC-PF-04",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "perfusão e metas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 09 Números (choque) e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com sepse de foco abdominal está com PA 108 × 64 mmHg, FC 124 bpm, tempo de enchimento capilar de 5 segundos, lactato de 4,8 mmol/L e diurese de 15 mL/h. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dieta enteral plena deve ser iniciada imediatamente para combater o catabolismo."
+    },
+    {
+     "letra": "B",
+     "texto": "A meta de ressuscitação é PAM ≥ 90 mmHg e lactato acima de 4 mmol/L."
+    },
+    {
+     "letra": "C",
+     "texto": "Há choque apesar da pressão aparentemente aceitável: taquicardia, lactato > 4 e má perfusão periférica indicam hipoperfusão, e a ressuscitação deve buscar PAM ≥ 65 mmHg, diurese ≥ 0,5 mL/kg/h e queda do lactato."
+    },
+    {
+     "letra": "D",
+     "texto": "A pressão arterial normal descarta choque, e o lactato elevado deve ser ignorado."
+    },
+    {
+     "letra": "E",
+     "texto": "O antibiótico deve ser adiado até o resultado das hemoculturas, colhidas em 24 horas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Choque é falência na oferta/uso de O₂, não só hipotensão. Sepse: antibiótico em ≤ 1 h, 30 mL/kg de cristaloide, noradrenalina se PAM < 65; metas: PAM ≥ 65, lactato < 2 (queda), TEC < 3 s, diurese ≥ 0,5 mL/kg/h, SvcO₂ > 70%. Enteral é contraindicada no choque instável."
+  },
+  {
+   "id": "BC-PF-05",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "classificação dos choques",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 06 Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Classifique os tipos de choque e descreva, para cada um, o mecanismo, o perfil hemodinâmico (débito cardíaco, resistência vascular sistêmica e PVC) e uma causa.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| Tipo | Mecanismo | DC | RVS | PVC | Exemplo |\n|---|---|---|---|---|---|\n| **Hipovolêmico** | ↓ volume circulante (pré-carga) | ↓ | ↑ | ↓ | Hemorragia, queimadura, desidratação |\n| **Cardiogênico** | Falência da bomba | ↓ | ↑ | ↑ | IAM extenso, arritmia, miocardite |\n| **Obstrutivo** | Obstáculo ao enchimento ou à ejeção | ↓ | ↑ | ↑ | Tamponamento, pneumotórax hipertensivo, TEP maciço |\n| **Distributivo** | Vasodilatação/má distribuição do fluxo | ↑ ou normal (séptico inicial) | ↓ | ↓ ou normal | Séptico, anafilático, neurogênico (com bradicardia) |\n\nEm todos há hipoperfusão tecidual (lactato ↑, oligúria, alteração mental). Tratamento: corrigir a causa — sangue e hemostasia (hemorrágico), inotrópico/revascularização (cardiogênico), descompressão (obstrutivo), volume + noradrenalina (séptico), epinefrina IM (anafilático).",
+   "comentario": null
+  },
+  {
+   "id": "BC-PF-06",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "raqui × peridural · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (raqui × peridural) e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a raquianestesia e a anestesia peridural, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Na peridural, o volume injetado determina a extensão do bloqueio, e a concentração determina sua intensidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Ambas são contraindicadas no paciente anticoagulado, pelo risco de hematoma espinhal."
+    },
+    {
+     "letra": "C",
+     "texto": "Na raquianestesia a punção é feita abaixo de L2, onde termina a medula no adulto; a linha de Tuffier (cristas ilíacas) cruza aproximadamente L4."
+    },
+    {
+     "letra": "D",
+     "texto": "Na raquianestesia o anestésico local é injetado no espaço peridural, sem perfuração da dura-máter."
+    },
+    {
+     "letra": "E",
+     "texto": "A peridural permite a passagem de cateter para analgesia contínua no pós-operatório e no trabalho de parto."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Raqui = **espaço subaracnoide** (punção da dura, saída de líquor, pequena dose, início rápido). Peridural = espaço peridural, maior volume, início mais lento, permite cateter."
+  },
+  {
+   "id": "BC-PF-07",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "cefaleia pós-raqui · caso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (complicações do neuroeixo)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Puérpera submetida a cesariana sob raquianestesia refere, no 2º dia, cefaleia frontoccipital intensa que piora ao sentar ou levantar e melhora ao deitar. Qual a explicação e a conduta inicial?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cefaleia pós-punção dural, por perda de líquor pelo orifício da dura; inicialmente repouso, hidratação, analgésicos e cafeína, com tampão sanguíneo peridural (blood patch) nos casos refratários."
+    },
+    {
+     "letra": "B",
+     "texto": "Toxicidade sistêmica do anestésico local, tratada com emulsão lipídica."
+    },
+    {
+     "letra": "C",
+     "texto": "Hematoma peridural, que exige cirurgia de urgência; o quadro piora ao deitar."
+    },
+    {
+     "letra": "D",
+     "texto": "Cefaleia tensional sem relação com a punção, tratada só com relaxante muscular."
+    },
+    {
+     "letra": "E",
+     "texto": "Meningite bacteriana, que melhora ao sentar."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A cefaleia pós-raqui é **postural**: piora ao sentar/levantar e melhora deitado. Agulhas finas e de ponta de lápis reduzem o risco."
+  },
+  {
+   "id": "BC-PF-08",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "classificação ASA e jejum",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (avaliação pré-anestésica) e 07 Nutrição (jejum)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação pré-anestésica, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Refeição leve exige 2 horas de jejum antes da anestesia."
+    },
+    {
+     "letra": "B",
+     "texto": "A classificação ASA descreve o estado físico do paciente (ASA II: doença sistêmica leve e controlada; ASA III: doença sistêmica grave), e não define a técnica anestésica."
+    },
+    {
+     "letra": "C",
+     "texto": "A classificação ASA define qual técnica anestésica deve ser usada em cada paciente."
+    },
+    {
+     "letra": "D",
+     "texto": "O jejum de líquidos claros deve começar à meia-noite para qualquer cirurgia eletiva."
+    },
+    {
+     "letra": "E",
+     "texto": "Pacientes ASA IV são candidatos ideais à cirurgia em regime ambulatorial."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Jejum (ASA/ERAS): **2 h** líquidos claros · 4 h leite materno · **6 h** refeição leve/fórmula · 8 h refeição completa. Ambulatorial: ASA I–II (III caso a caso)."
+  },
+  {
+   "id": "BC-PF-09",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "anestesia geral · componentes e reversores",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (anestesia geral)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anestesia geral, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Na indução em sequência rápida do paciente com estômago cheio, usa-se bloqueador neuromuscular de início rápido para intubar sem ventilar sob máscara."
+    },
+    {
+     "letra": "B",
+     "texto": "Sexo feminino, não tabagismo, história de náuseas/cinetose e uso de opioide pós-operatório são os fatores de risco de Apfel para náuseas e vômitos."
+    },
+    {
+     "letra": "C",
+     "texto": "A recuperação pós-anestésica é avaliada pelo índice de Aldrete; escore ≥ 9 permite alta da sala de recuperação."
+    },
+    {
+     "letra": "D",
+     "texto": "Os componentes da anestesia geral são hipnose (inconsciência), analgesia, relaxamento muscular e bloqueio dos reflexos autonômicos."
+    },
+    {
+     "letra": "E",
+     "texto": "A naloxona é o antagonista usado para reverter a sedação por benzodiazepínicos, como o midazolam."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Benzodiazepínico → **flumazenil**; opioide → **naloxona**. No escore de Apfel, o fator de risco é **não fumar**."
+  },
+  {
+   "id": "BC-PF-10",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "anestésicos e complicações",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia e 05 Anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante uma anestesia geral com halogenado e succinilcolina, o paciente apresenta rigidez muscular, hipercapnia progressiva, taquicardia e elevação rápida da temperatura. Qual o diagnóstico e o tratamento específico?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotermia induzida; aquecer o paciente."
+    },
+    {
+     "letra": "B",
+     "texto": "Toxicidade do anestésico local; administrar emulsão lipídica."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipertermia maligna; suspender o halogenado e administrar dantroleno."
+    },
+    {
+     "letra": "D",
+     "texto": "Reação anafilática ao látex; administrar anti-histamínico isolado."
+    },
+    {
+     "letra": "E",
+     "texto": "Sepse; iniciar antibiótico e aguardar."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Hipertermia maligna: doença farmacogenética (receptor de rianodina) desencadeada por halogenados e succinilcolina: hipercapnia, rigidez, taquicardia, hipertermia, rabdomiólise e hipercalemia. Tratamento: suspender o gatilho, hiperventilar com O₂ 100%, **dantroleno**, resfriar."
+  },
+  {
+   "id": "BC-PF-11",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "reposição volêmica · cálculo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras e 09 Cálculos (fórmula da aula/ATLS 10)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto de 60 kg sofreu queimadura térmica com 25% de SCQ de 2º grau e 5% de 1º grau. Chegou ao hospital 3 horas após o acidente. Pela fórmula da aula (ATLS 10ª ed.), qual o volume de Ringer lactato das primeiras 8 horas e a velocidade inicial de infusão?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1.800 mL nas primeiras 8 h, incluindo o 1º grau no cálculo, a 225 mL/h."
+    },
+    {
+     "letra": "B",
+     "texto": "1.500 mL nas 8 h contadas a partir da chegada, a 187,5 mL/h."
+    },
+    {
+     "letra": "C",
+     "texto": "3.000 mL nas primeiras 8 h, a 375 mL/h."
+    },
+    {
+     "letra": "D",
+     "texto": "1.500 mL nas primeiras 8 h contadas a partir da queimadura, isto é, 300 mL/h nas 5 horas restantes."
+    },
+    {
+     "letra": "E",
+     "texto": "6.000 mL em 24 h, a 250 mL/h desde a chegada."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "2 mL × 60 kg × 25% = 3.000 mL/24 h; metade (1.500 mL) nas primeiras 8 h **após a queimadura** (não após a chegada) → restam 5 h → 300 mL/h; o restante nas 16 h seguintes. O 1º grau **não** entra na SCQ. Meta: diurese 0,5 mL/kg/h (≈ 30 mL/h)."
+  },
+  {
+   "id": "BC-PF-12",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "regra dos nove · cálculo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras (regra dos nove)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto com queimadura de 2º grau profundo em todo o membro superior esquerdo, na cabeça e em todo o dorso (tronco posterior). Pela regra dos nove, a superfície corporal queimada é de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "45%"
+    },
+    {
+     "letra": "B",
+     "texto": "36%"
+    },
+    {
+     "letra": "C",
+     "texto": "18%"
+    },
+    {
+     "letra": "D",
+     "texto": "54%"
+    },
+    {
+     "letra": "E",
+     "texto": "27%"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Membro superior 9% + cabeça 9% + tronco posterior 18% = **36%**. (Cada membro inferior 18%; tronco anterior 18%; períneo 1%; palma da mão do paciente ≈ 1% para queimaduras irregulares.)"
+  },
+  {
+   "id": "BC-PF-13",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "queimaduras · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o atendimento ao paciente queimado, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A oximetria de pulso não diferencia carboxi-hemoglobina de oxi-hemoglobina; a intoxicação por CO exige gasometria com COHb."
+    },
+    {
+     "letra": "B",
+     "texto": "A queimadura de 3º grau costuma ser indolor, porque as terminações nervosas da derme foram destruídas."
+    },
+    {
+     "letra": "C",
+     "texto": "A antibioticoterapia sistêmica profilática é indicada a todos os grandes queimados para prevenir infecção da ferida."
+    },
+    {
+     "letra": "D",
+     "texto": "Na criança, a fórmula da aula usa 3 mL × kg × %SCQ, com soro glicosado de manutenção se ela pesar menos de 30 kg."
+    },
+    {
+     "letra": "E",
+     "texto": "Na queimadura química, o tratamento inicial é irrigação abundante com água corrente, sem tentar neutralizar o agente."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Antibiótico sistêmico profilático **não** é indicado no queimado: a prevenção é local (curativos, sulfadiazina de prata, desbridamento). A neutralização da química gera reação exotérmica (exceção: ácido fluorídrico → gluconato de cálcio)."
+  },
+  {
+   "id": "BC-PF-14",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "queimadura elétrica · caso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras (elétrica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Eletricista de 75 kg sofre choque de alta voltagem, com lesão de entrada na mão direita e de saída no pé esquerdo, SCQ visível de 10%. Urina escura, cor de \"coca-cola\". Qual a conduta correta?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reposição com 2 mL × kg × %SCQ, pois a SCQ visível representa exatamente a lesão."
+    },
+    {
+     "letra": "B",
+     "texto": "Restringir líquidos para evitar edema pulmonar."
+    },
+    {
+     "letra": "C",
+     "texto": "Alta após curativo, pois as lesões cutâneas são pequenas."
+    },
+    {
+     "letra": "D",
+     "texto": "Diurético de alça como primeira medida, antes da reposição volêmica."
+    },
+    {
+     "letra": "E",
+     "texto": "ECG e monitorização cardíaca, CPK seriada e reposição com 4 mL × kg × %SCQ, ajustando o volume até a urina clarear (≈ 1–1,5 mL/kg/h), atento à síndrome compartimental."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Na elétrica a SCQ visível **subestima** a lesão (destruição muscular profunda → mioglobinúria → risco de lesão renal). Arritmias: ECG. Fasciotomia se síndrome compartimental."
+  },
+  {
+   "id": "BC-PF-15",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "fases · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 04 Cicatrização (fases) e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as fases da cicatrização das feridas, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O neutrófilo é a célula indispensável e orquestradora da cicatrização, e sua ausência impede o reparo."
+    },
+    {
+     "letra": "B",
+     "texto": "No remodelamento o colágeno tipo III é substituído pelo tipo I, e a cicatriz atinge no máximo 70–80% da força da pele íntegra."
+    },
+    {
+     "letra": "C",
+     "texto": "Na fase proliferativa predominam fibroblastos, angiogênese, tecido de granulação e deposição de colágeno tipo III."
+    },
+    {
+     "letra": "D",
+     "texto": "O macrófago surge entre 48 e 72 horas e coordena a transição da fase inflamatória para a proliferativa."
+    },
+    {
+     "letra": "E",
+     "texto": "A hemostasia é o primeiro evento após a lesão, com formação do tampão plaquetário e liberação de fatores de crescimento."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A célula indispensável é o **macrófago** (desbridamento, fatores de crescimento, polarização M1 → M2). O neutrófilo (0–48 h) faz a limpeza inicial, mas não é essencial."
+  },
+  {
+   "id": "BC-PF-16",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "fatores que prejudicam · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 04 Cicatrização (fatores sistêmicos e locais)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São fatores que prejudicam a cicatrização das feridas, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Diabetes mal controlado."
+    },
+    {
+     "letra": "B",
+     "texto": "Desnutrição proteica e deficiência de vitamina C."
+    },
+    {
+     "letra": "C",
+     "texto": "Uso crônico de corticoide, que inibe fibroblastos e síntese de colágeno."
+    },
+    {
+     "letra": "D",
+     "texto": "Pressão intra-abdominal reduzida no pós-operatório de laparotomia."
+    },
+    {
+     "letra": "E",
+     "texto": "Infecção com mais de 10⁵ UFC por grama de tecido."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O que favorece a deiscência é a pressão intra-abdominal **aumentada** (tosse, distensão, ascite). Corticoide inibe colágeno (a vitamina A reverte parcialmente); vitamina C é cofator da hidroxilação do colágeno."
+  },
+  {
+   "id": "BC-PF-17",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "ferida infectada · caso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 04 Cicatrização (caso M.S.) e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diabético de 58 anos, no 6º dia pós-operatório de laparotomia, apresenta hiperemia, calor e saída de secreção purulenta pela ferida, com febre de 38,5 °C. Qual a conduta mais adequada?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Manter a sutura e aplicar apenas pomada antibiótica."
+    },
+    {
+     "letra": "B",
+     "texto": "Aguardar a cicatrização por primeira intenção sem intervenção."
+    },
+    {
+     "letra": "C",
+     "texto": "Abrir a ferida, drenar e desbridar, antibiótico sistêmico conforme gravidade, controle glicêmico e fechamento por terceira intenção quando a ferida estiver limpa."
+    },
+    {
+     "letra": "D",
+     "texto": "Iniciar corticoide para reduzir a inflamação."
+    },
+    {
+     "letra": "E",
+     "texto": "Ressuturar imediatamente a ferida e prescrever antibiótico oral."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Ferida infectada: drenagem e desbridamento + ATB + controle dos fatores sistêmicos. Terceira intenção (fechamento primário retardado) após 3–5 dias com a ferida limpa. Feridas crônicas ficam presas na fase **inflamatória**."
+  },
+  {
+   "id": "BC-PF-18",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "tipos de cicatrização e incisão",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 04 Cicatrização e 05 Cirurgia ambulatorial",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os tipos de cicatrização e os princípios do fechamento das feridas, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Incisões perpendiculares às linhas de Langer reduzem a tensão da sutura."
+    },
+    {
+     "letra": "B",
+     "texto": "A deiscência de parede ocorre tipicamente no 1º dia pós-operatório."
+    },
+    {
+     "letra": "C",
+     "texto": "O queloide fica restrito aos limites da ferida e regride espontaneamente."
+    },
+    {
+     "letra": "D",
+     "texto": "A cicatrização por segunda intenção é indicada para feridas cirúrgicas limpas com bordas bem aproximadas."
+    },
+    {
+     "letra": "E",
+     "texto": "Incisões paralelas às linhas de tensão da pele (linhas de Langer) reduzem a tensão e produzem cicatrizes mais estéticas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Primeira intenção: bordas aproximadas (ferida limpa). Segunda: ferida aberta que granula (contaminada, perda de tecido). Terceira: fechamento retardado. Queloide **ultrapassa** os limites e não regride (hipertrófica fica nos limites). Deiscência: 5º–8º dia."
+  },
+  {
+   "id": "BC-PF-19",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "dose máxima · cálculo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 05 Anestesia local e 09 Cálculos (caso João)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "João, 80 kg, será submetido à exérese de um lipoma no dorso, sob anestesia local com lidocaína a 1% com epinefrina. Qual o volume máximo da solução que pode ser usado?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "56 mL"
+    },
+    {
+     "letra": "B",
+     "texto": "28 mL"
+    },
+    {
+     "letra": "C",
+     "texto": "36 mL"
+    },
+    {
+     "letra": "D",
+     "texto": "80 mL"
+    },
+    {
+     "letra": "E",
+     "texto": "7 mL"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Lidocaína **com** epinefrina: 7 mg/kg → 7 × 80 = 560 mg. Solução a 1% = 10 mg/mL → **56 mL**. Sem epinefrina: 4,5 mg/kg → 360 mg = 36 mL. (A 2% = 20 mg/mL.)"
+  },
+  {
+   "id": "BC-PF-20",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "anestesia local · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 05 Anestesia local e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o uso de anestésicos locais na cirurgia ambulatorial, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os primeiros sinais de toxicidade sistêmica costumam ser neurológicos, como gosto metálico, parestesia perioral e zumbido."
+    },
+    {
+     "letra": "B",
+     "texto": "O vasoconstritor acelera a absorção sistêmica do anestésico, encurtando seu efeito."
+    },
+    {
+     "letra": "C",
+     "texto": "Em tecido inflamado o anestésico local funciona pior, porque o pH ácido aumenta a fração ionizada."
+    },
+    {
+     "letra": "D",
+     "texto": "Na toxicidade sistêmica grave (LAST), administra-se emulsão lipídica a 20% (1,5 mL/kg) e benzodiazepínico para convulsões."
+    },
+    {
+     "letra": "E",
+     "texto": "A bupivacaína é mais cardiotóxica que a lidocaína, com dose máxima de cerca de 2 mg/kg."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "O vasoconstritor **retarda** a absorção: aumenta a duração e reduz a toxicidade (por isso a dose máxima é maior com epinefrina)."
+  },
+  {
+   "id": "BC-PF-21",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "critérios da cirurgia ambulatorial",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 05 Cirurgia ambulatorial",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São critérios adequados para seleção de pacientes e procedimentos em regime de cirurgia ambulatorial, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Presença de acompanhante adulto responsável na alta."
+    },
+    {
+     "letra": "B",
+     "texto": "Dor pós-operatória controlável com analgésicos orais."
+    },
+    {
+     "letra": "C",
+     "texto": "Paciente ASA I ou II."
+    },
+    {
+     "letra": "D",
+     "texto": "Paciente ASA IV, com doença sistêmica grave que ameaça a vida, desde que tenha acompanhante."
+    },
+    {
+     "letra": "E",
+     "texto": "Procedimento com duração prevista inferior a cerca de 2 horas e baixo risco de sangramento."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Ambulatorial: ASA I–II (III caso a caso); ASA IV–V operam em hospital."
+  },
+  {
+   "id": "BC-PF-22",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "triagem e diagnóstico · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 07 Terapia nutricional e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação nutricional do paciente cirúrgico, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Todos os pacientes internados devem ser triados em 24 a 48 horas, por exemplo com a NRS-2002 (escore ≥ 3 indica risco)."
+    },
+    {
+     "letra": "B",
+     "texto": "Pelos critérios GLIM, o diagnóstico exige ao menos um critério fenotípico e um etiológico."
+    },
+    {
+     "letra": "C",
+     "texto": "Pacientes desnutridos graves se beneficiam de terapia nutricional pré-operatória por 7 a 14 dias em cirurgias eletivas de grande porte."
+    },
+    {
+     "letra": "D",
+     "texto": "A pré-albumina tem meia-vida de cerca de 2 dias, e a albumina, de cerca de 21 dias."
+    },
+    {
+     "letra": "E",
+     "texto": "Albumina sérica baixa é o critério diagnóstico de desnutrição e, isoladamente, indica nutrição parenteral."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A albumina é **marcador prognóstico** (cai com inflamação, hidratação, hepatopatia), não define desnutrição nem indica NPT."
+  },
+  {
+   "id": "BC-PF-23",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "via de nutrição · caso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 07 Terapia nutricional (caso do paciente oncológico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 64 anos com câncer de esôfago obstrutivo, perda de 12% do peso em 3 meses, intestino funcionante, será operado em 2 semanas. Qual a melhor estratégia nutricional?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Terapia nutricional enteral pré-operatória por sonda ou estomia distal à obstrução, por 7 a 14 dias."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas suplemento oral, mesmo sem conseguir deglutir."
+    },
+    {
+     "letra": "C",
+     "texto": "Nutrição parenteral total, por ser sempre superior à enteral."
+    },
+    {
+     "letra": "D",
+     "texto": "Jejum até a cirurgia para não atrasar o procedimento."
+    },
+    {
+     "letra": "E",
+     "texto": "Nutrição parenteral só após o 10º dia de pós-operatório, sem terapia prévia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Regra: \"se o intestino funciona, use-o\". A enteral preserva a barreira intestinal e tem menos infecção. NPT só se a enteral for impossível ou insuficiente por > 5–7 dias."
+  },
+  {
+   "id": "BC-PF-24",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "ERAS e realimentação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 07 Terapia nutricional (ERAS, síndrome de realimentação)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o protocolo ERAS e a síndrome de realimentação, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A síndrome de realimentação ocorre apenas por via oral."
+    },
+    {
+     "letra": "B",
+     "texto": "O ERAS recomenda jejum absoluto desde a meia-noite e dieta só após eliminação de flatos."
+    },
+    {
+     "letra": "C",
+     "texto": "A hiperfosfatemia é o distúrbio característico da síndrome de realimentação."
+    },
+    {
+     "letra": "D",
+     "texto": "No ERAS recomenda-se jejum de 6 horas para sólidos e de 2 horas para líquidos claros, com bebida rica em carboidrato no pré-operatório e realimentação precoce."
+    },
+    {
+     "letra": "E",
+     "texto": "Na realimentação do desnutrido grave, deve-se iniciar com 100% da meta calórica desde o primeiro dia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Realimentação: ocorre por qualquer via (mais na parenteral); a insulina desloca fósforo, potássio e magnésio para dentro das células → **hipofosfatemia**, hipocalemia, hipomagnesemia. Iniciar com ~50% da meta e progredir."
+  },
+  {
+   "id": "BC-PF-25",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "necessidades · cálculo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 09 Cálculos (gasto energético e proteína)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pela fórmula de bolso apresentada na aula, as necessidades diárias de energia e de proteína de um paciente cirúrgico estável de 70 kg são, aproximadamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "700 a 1.050 kcal e 35 a 50 g de proteína."
+    },
+    {
+     "letra": "B",
+     "texto": "2.800 a 3.500 kcal e 42 a 56 g de proteína."
+    },
+    {
+     "letra": "C",
+     "texto": "1.750 a 2.100 kcal e 84 a 105 g de proteína."
+    },
+    {
+     "letra": "D",
+     "texto": "1.000 kcal e 140 g de proteína."
+    },
+    {
+     "letra": "E",
+     "texto": "3.500 kcal e 210 g de proteína."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "25–30 kcal/kg × 70 = 1.750–2.100 kcal; 1,2–1,5 g/kg × 70 = 84–105 g (1,5–2 g/kg em grandes cirurgias/queimados). Na fase aguda da UTI, < 20 kcal/kg."
+  },
+  {
+   "id": "BC-PF-26",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "classificação das feridas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 08 Infecção em cirurgia (potencial de contaminação)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uma colecistectomia eletiva, sem inflamação aguda e sem extravasamento de bile, é classificada quanto ao potencial de contaminação como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Limpa"
+    },
+    {
+     "letra": "B",
+     "texto": "Limpa-contaminada"
+    },
+    {
+     "letra": "C",
+     "texto": "Contaminada"
+    },
+    {
+     "letra": "D",
+     "texto": "Potencialmente infectada"
+    },
+    {
+     "letra": "E",
+     "texto": "Infectada (suja)"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Limpa: não penetra tratos respiratório, digestivo ou geniturinário (ex.: herniorrafia, tireoidectomia). **Limpa-contaminada**: penetra víscera oca de forma controlada. Contaminada: extravasamento grosseiro, inflamação aguda sem pus, trauma recente. Infectada: pus, víscera perfurada, trauma antigo."
+  },
+  {
+   "id": "BC-PF-27",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "antibioticoprofilaxia · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 08 Infecção em cirurgia (profilaxia) e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a antibioticoprofilaxia em cirurgia, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cirurgia limpa com implante de prótese é indicação de profilaxia."
+    },
+    {
+     "letra": "B",
+     "texto": "A cefazolina é o antibiótico mais usado na profilaxia das cirurgias limpas e limpas-contaminadas."
+    },
+    {
+     "letra": "C",
+     "texto": "A dose deve ser administrada 30 a 60 minutos antes da incisão."
+    },
+    {
+     "letra": "D",
+     "texto": "O antibiótico deve ser iniciado na véspera da cirurgia e mantido por pelo menos 48 horas para máxima proteção."
+    },
+    {
+     "letra": "E",
+     "texto": "Em cirurgias com duração superior a cerca de 4 horas, deve-se repetir a dose."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Profilaxia: dose única 30–60 min antes da incisão, repetir se > 4 h (ou grande sangramento) e suspender em até **24 h**. Prolongar não reduz infecção e aumenta resistência."
+  },
+  {
+   "id": "BC-PF-28",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "prevenção e notificação da ISC",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 08 Infecção em cirurgia (ISC)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a infecção do sítio cirúrgico (ISC), assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Antissepsia cutânea inadequada é fator de risco relacionado ao paciente."
+    },
+    {
+     "letra": "B",
+     "texto": "A tricotomia com lâmina na véspera da cirurgia reduz a infecção."
+    },
+    {
+     "letra": "C",
+     "texto": "A ISC é classificada em incisional superficial, incisional profunda e de órgão/espaço, com vigilância de 30 dias, estendida para 90 dias quando há implante."
+    },
+    {
+     "letra": "D",
+     "texto": "A atelectasia é a principal causa infecciosa de febre no pós-operatório imediato."
+    },
+    {
+     "letra": "E",
+     "texto": "A ISC só pode ser notificada com cultura positiva."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Tricotomia com lâmina **aumenta** a infecção (usar tricotomizador, imediatamente antes, só se necessário). Cultura não é obrigatória para notificar. Atelectasia é causa **não** infecciosa. Antissepsia inadequada é fator do **ambiente/procedimento**."
+  },
+  {
+   "id": "BC-PF-29",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "fibras e dor crônica · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 01 Fisiologia da dor e 10 Distratores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a fisiologia da dor, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pela teoria do portão, a ativação de fibras Aβ (tato) inibe a transmissão da dor no corno dorsal."
+    },
+    {
+     "letra": "B",
+     "texto": "As fibras Aδ são amielínicas, lentas, e conduzem a dor em queimação, difusa e persistente."
+    },
+    {
+     "letra": "C",
+     "texto": "Glutamato e substância P são neurotransmissores excitatórios no corno dorsal da medula."
+    },
+    {
+     "letra": "D",
+     "texto": "As fibras C são amielínicas e conduzem a \"segunda dor\", em queimação, difusa."
+    },
+    {
+     "letra": "E",
+     "texto": "Dor crônica é a que persiste por mais de 3 meses."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Aδ: **mielinizadas** (finas), rápidas (5–30 m/s), \"primeira dor\" em pontada e bem localizada. C: amielínicas, lentas (0,5–2 m/s), segunda dor."
+  },
+  {
+   "id": "BC-PF-30",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "dor visceral × parietal",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 01 Dor abdominal (visceral, parietal, referida)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a dor abdominal, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor parietal é difusa, na linha média, conduzida por fibras C viscerais."
+    },
+    {
+     "letra": "B",
+     "texto": "A dor visceral é bem localizada e piora com o movimento."
+    },
+    {
+     "letra": "C",
+     "texto": "A dor referida no ombro direito na colecistite indica lesão do plexo braquial."
+    },
+    {
+     "letra": "D",
+     "texto": "A dor do intestino médio é percebida no epigástrio."
+    },
+    {
+     "letra": "E",
+     "texto": "A dor de vísceras do intestino médio (delgado, apêndice, cólon direito) é percebida na região periumbilical, mal localizada e acompanhada de sintomas autonômicos."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Intestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio. Dor **parietal** (peritônio parietal): bem localizada, piora com movimento e tosse. Colecistite → ombro direito por irritação diafragmática (C3–C5, nervo frênico)."
+  }
+ ]
+}
