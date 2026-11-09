@@ -1,0 +1,249 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Questões com imagem (lote 2)",
+  "gerado_em": "2026-11-09",
+  "base": "Robbins & Cotran e Silbernagl (bibliografia do plano). Fotos livres do Wikimedia Commons (créditos em cada questão e em public/img/q/CREDITOS.json). Formato das provas de Fisiopatologia."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-IMG2-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "TCE · fratura de base (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · trauma cranioencefálico (fraturas)",
+   "imagem": "/img/q/olhos-guaxinim.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Vítima de acidente de moto chega com o achado da imagem (equimose periorbitária bilateral) e saída de líquido claro pelo nariz. O mecanismo desses achados é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fratura da base do crânio (fossa anterior), com sangue dissecando para as órbitas (\"olhos de guaxinim\") e fístula liquórica (rinorreia)."
+    },
+    {
+     "letra": "B",
+     "texto": "Conjuntivite alérgica bilateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Hemorragia subaracnóidea por aneurisma sacular."
+    },
+    {
+     "letra": "D",
+     "texto": "Edema citotóxico isquêmico."
+    },
+    {
+     "letra": "E",
+     "texto": "Hematoma subdural crônico por veias-ponte."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Sinal de Battle (equimose retroauricular) sugere fratura da fossa média. Risco de meningite pela fístula.\n\n*Imagem: Marion County Sheriff's Office — Public domain, via Wikimedia Commons ([Bilateral periorbital ecchymosis (raccoon eyes).jpg](https://commons.wikimedia.org/wiki/File:Bilateral_periorbital_ecchymosis_(raccoon_eyes).jpg)).*"
+  },
+  {
+   "id": "FISIO-IMG2-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "HIC · papiledema · mecanismo (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · hipertensão intracraniana",
+   "imagem": "/img/q/papiledema.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O disco óptico borrado da imagem foi encontrado num paciente com tumor cerebral. O mecanismo do papiledema é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inflamação autoimune primária do nervo óptico."
+    },
+    {
+     "letra": "B",
+     "texto": "A pressão intracraniana elevada transmite-se ao espaço subaracnoide que envolve o nervo óptico, prejudicando o fluxo axoplasmático e a drenagem venosa e causando edema do disco."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipotensão intracraniana por fístula liquórica."
+    },
+    {
+     "letra": "D",
+     "texto": "Depósito de lipídeos na mácula."
+    },
+    {
+     "letra": "E",
+     "texto": "Atrofia do nervo por isquemia crônica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "O papiledema costuma ser bilateral; a neurite óptica, ao contrário, causa baixa visual precoce e dor à movimentação ocular.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*"
+  },
+  {
+   "id": "FISIO-IMG2-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "ferropriva · coiloníquia (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · anemia ferropriva",
+   "imagem": "/img/q/coiloniquia.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher com as unhas da imagem tem hemoglobina 8 g/dL, VCM 68 fL, RDW 19% e ferritina 5 ng/mL. Sobre o mecanismo da anemia, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A hepcidina elevada retém ferro nos macrófagos com ferritina alta."
+    },
+    {
+     "letra": "B",
+     "texto": "Há hemólise extravascular com reticulocitose intensa."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma talassemia com ferritina baixa por definição."
+    },
+    {
+     "letra": "D",
+     "texto": "A falta de ferro limita a síntese do heme e da hemoglobina; os precursores sofrem divisões extras, gerando hemácias pequenas e hipocrômicas, e a deficiência tecidual de ferro causa alterações epiteliais como a coiloníquia."
+    },
+    {
+     "letra": "E",
+     "texto": "A deficiência de B12 atrasa a maturação nuclear e gera macrócitos."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Ferritina baixa confirma deficiência de ferro; investigar a causa da perda (menstrual, gastrointestinal).\n\n*Imagem: CHeitz — CC BY 2.0, via Wikimedia Commons ([Koilonychia iron deficiency anemia.jpg](https://commons.wikimedia.org/wiki/File:Koilonychia_iron_deficiency_anemia.jpg)).*"
+  },
+  {
+   "id": "FISIO-IMG2-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "equimoses · coagulopatia (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · distúrbios hemorrágicos",
+   "imagem": "/img/q/equimose.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente apresenta equimoses extensas e repetidas como a da imagem após traumas mínimos, além de hemartroses. Plaquetas normais e TTPa prolongado. O padrão de sangramento sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Doença vascular sem alteração de exames."
+    },
+    {
+     "letra": "B",
+     "texto": "Púrpura trombocitopênica imune, que causa só petéquias."
+    },
+    {
+     "letra": "C",
+     "texto": "Distúrbio da coagulação (fatores), como a hemofilia, que causa sangramentos profundos (hematomas, hemartroses) e equimoses extensas."
+    },
+    {
+     "letra": "D",
+     "texto": "Vasculite por IgA com púrpura palpável."
+    },
+    {
+     "letra": "E",
+     "texto": "Escorbuto com sangramento perifolicular isolado."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Plaquetários/vasculares: petéquias, sangramento mucoso. Coagulação: hematomas profundos, hemartroses, sangramento tardio após trauma ou cirurgia.\n\n*Imagem: Clarinetguy097 — CC0, via Wikimedia Commons ([Bruise - ring resolution.jpg](https://commons.wikimedia.org/wiki/File:Bruise_-_ring_resolution.jpg)).*"
+  },
+  {
+   "id": "FISIO-IMG2-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "hipertensão maligna · retina (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · vasos renais (hipertensão maligna)",
+   "imagem": "/img/q/retinopatia.png",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 40 anos com PA 230/140 mmHg, cefaleia, borramento visual, hematúria e creatinina em elevação apresenta, à fundoscopia, hemorragias e manchas algodonosas como na imagem. Sobre a lesão renal associada, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os rins ficam aumentados por cistos."
+    },
+    {
+     "letra": "B",
+     "texto": "Ocorre arteriolosclerose hialina leve, com rins normais."
+    },
+    {
+     "letra": "C",
+     "texto": "Não há relação entre a retinopatia e a lesão renal."
+    },
+    {
+     "letra": "D",
+     "texto": "A lesão renal é por depósito linear de IgG."
+    },
+    {
+     "letra": "E",
+     "texto": "Na hipertensão maligna há necrose fibrinoide arteriolar e arteriolosclerose hiperplásica (\"em casca de cebola\"), com isquemia renal, ativação do sistema renina-angiotensina e lesão renal aguda."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A retina mostra a lesão vascular sistêmica: hemorragias em chama, exsudatos, manchas algodonosas e papiledema (retinopatia hipertensiva grau IV).\n\n*Imagem: Renátó Besenczi\nJános Tóth\n\nAndrás Hajdu — CC BY-SA 4.0, via Wikimedia Commons ([A sample retinal image with cotton wool spots and hemorrhages.png](https://commons.wikimedia.org/wiki/File:A_sample_retinal_image_with_cotton_wool_spots_and_hemorrhages.png)).*"
+  },
+  {
+   "id": "FISIO-IMG2-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "coagulopatia hepática (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · fígado (coagulopatia da insuficiência hepática)",
+   "imagem": "/img/q/equimose.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Cirrótico avançado apresenta equimoses espontâneas como a da imagem, gengivorragia e tempo de protrombina alargado que não corrige com vitamina K. O mecanismo principal é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Redução da síntese hepática dos fatores de coagulação, somada à plaquetopenia do hiperesplenismo."
+    },
+    {
+     "letra": "B",
+     "texto": "Vasculite por IgA."
+    },
+    {
+     "letra": "C",
+     "texto": "Excesso de produção de trombopoetina."
+    },
+    {
+     "letra": "D",
+     "texto": "Deficiência de vitamina K por má absorção, corrigível com reposição."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemofilia A hereditária."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Na colestase pura o TP corrige com vitamina K; na insuficiência hepatocelular, não.\n\n*Imagem: Clarinetguy097 — CC0, via Wikimedia Commons ([Bruise - ring resolution.jpg](https://commons.wikimedia.org/wiki/File:Bruise_-_ring_resolution.jpg)).*"
+  }
+ ]
+}
