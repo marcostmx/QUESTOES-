@@ -1,768 +1,187 @@
 {
  "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Cefaleias, tontura, síncope e raciocínio clínico (lote 1)",
+  "titulo": "Inéditas PR2 · Propedêutica · Cefaleias e raciocínio clínico (formato das provas)",
   "gerado_em": "2026-11-08",
-  "base": "SOP IV Guia PR2 (Drive), seção 05: plano 6.1 (cefaleias, tontura, síncope), raciocínio clínico do Prof. Tiago Coimbra, Porto caps. 6 e 20, boxes \"Nas provas\", \"Autoteste\" e \"Complemento das provas antigas\"."
+  "base": "SOP IV Guia PR2, seção 05, restrito aos temas que se repetem nas provas (primárias × secundárias, sinais de alarme, HIC com câncer prévio, caso de cefaleia no PA), no formato dos professores."
  },
  "questoes": [
   {
-   "id": "PROPE-IN-CEF-01",
+   "id": "PROPE-PF-CEF-01",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Cefaleias e raciocínio clínico",
    "subtema": "primárias × secundárias",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias e Nas provas",
+   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q20)",
    "imagem": null,
    "gabarito_oficial": null,
    "tipo": "objetiva",
-   "enunciado": "Sobre a classificação das cefaleias, assinale a correta:",
+   "enunciado": "Analise as afirmativas a seguir:\n\nI. A migrânea costuma ser unilateral, pulsátil, durar de 4 a 72 horas e vir acompanhada de náuseas, fotofobia e fonofobia.\nII. A cefaleia tensional é classificada como secundária, pois está associada ao estresse.\nIII. Nas cefaleias secundárias, a dor é sintoma de outra doença, e a investigação é obrigatória.\nIV. A cefaleia em salvas é tipicamente bilateral, em aperto, leve, e sem sinais autonômicos.",
    "alternativas": [
     {
      "letra": "A",
-     "texto": "Nas primárias a cefaleia é a própria doença, sem causa identificável; nas secundárias ela é sintoma de outra doença e exige investigação."
+     "texto": "Apenas I e IV estão corretas."
     },
     {
      "letra": "B",
-     "texto": "A cefaleia tensional é secundária a tumor cerebral."
+     "texto": "Apenas I e III estão corretas."
     },
     {
      "letra": "C",
-     "texto": "Toda cefaleia primária exige neuroimagem."
+     "texto": "Apenas I e II estão corretas."
     },
     {
      "letra": "D",
-     "texto": "A enxaqueca é uma cefaleia secundária."
+     "texto": "Apenas II e III estão corretas."
     },
     {
      "letra": "E",
-     "texto": "Cefaleias secundárias podem ser tratadas apenas com analgésicos, sem investigação."
+     "texto": "Apenas a I está correta."
     }
    ],
    "gabarito": [
-    "A"
+    "B"
    ],
-   "gabarito_texto": "A",
-   "comentario": "Enxaqueca, tensional e salvas são **primárias**. As provas cobraram como falsos \"enxaqueca é secundária\" e \"secundárias podem ser tratadas só com analgésico\"."
+   "gabarito_texto": "B",
+   "comentario": "Tensional, migrânea e salvas são **primárias**. Salvas: unilateral periorbitária, excruciante, com lacrimejamento, rinorreia e ptose ipsilaterais; o O₂ corta a crise."
   },
   {
-   "id": "PROPE-IN-CEF-02",
+   "id": "PROPE-PF-CEF-02",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "migrânea",
+   "subtema": "sinais de alarme",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias e Complemento (critérios)",
+   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Complemento das provas antigas (sinais de alarme, falha do analgésico)",
    "imagem": null,
    "gabarito_oficial": null,
    "tipo": "objetiva",
-   "enunciado": "Mulher de 25 anos com crises de cefaleia hemicraniana pulsátil, moderada a forte, que duram cerca de 24 horas, pioram com atividade física e vêm com náuseas, fotofobia e fonofobia; melhora em quarto escuro. Exame neurológico normal. O diagnóstico é:",
+   "enunciado": "Em qual das situações abaixo NÃO é necessária investigação com exame complementar, quando o sintoma guia é cefaleia?",
    "alternativas": [
     {
      "letra": "A",
-     "texto": "Neuralgia do trigêmeo."
+     "texto": "Cefaleia progressiva com início após os 50 anos."
     },
     {
      "letra": "B",
-     "texto": "Cefaleia tensional."
+     "texto": "Cefaleia em paciente com HIV, febre e crise convulsiva."
     },
     {
      "letra": "C",
-     "texto": "Migrânea (enxaqueca)."
+     "texto": "Cefaleia nova, súbita e intensa, descrita como \"a pior da vida\"."
     },
     {
      "letra": "D",
-     "texto": "Hipertensão intracraniana."
+     "texto": "Enxaqueca de padrão antigo e estável, com exame neurológico normal, que não tem melhorado com analgésicos simples."
     },
     {
      "letra": "E",
-     "texto": "Cefaleia em salvas."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Migrânea: unilateral, pulsátil, **4–72 h**, piora com atividade, náusea/vômitos, fotofobia **e** fonofobia, ± aura (escotomas cintilantes). Quarto escuro e sono aliviam."
-  },
-  {
-   "id": "PROPE-IN-CEF-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "tensional",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · Complemento das provas antigas (critérios ICHD-3) e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a cefaleia tensional, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É secundária e exige neuroimagem."
-    },
-    {
-     "letra": "B",
-     "texto": "Dura de 15 a 180 minutos e cede com oxigênio."
-    },
-    {
-     "letra": "C",
-     "texto": "Costuma vir com náuseas, fotofobia e fonofobia."
-    },
-    {
-     "letra": "D",
-     "texto": "É bilateral, em pressão ou aperto, leve a moderada, não piora com a atividade rotineira e não tem náusea importante."
-    },
-    {
-     "letra": "E",
-     "texto": "É unilateral, pulsátil e piora com atividade física."
+     "texto": "Cefaleia com papiledema e rigidez de nuca."
     }
    ],
    "gabarito": [
     "D"
    ],
    "gabarito_texto": "D",
-   "comentario": "\"Tensional: nada de náusea; foto **ou** fono. Migrânea: foto **e** fono.\" As provas cobraram \"tensional costuma ter náusea e fotofobia\" como falso."
+   "comentario": "A refratariedade ao analgésico, sozinha e com exame normal, não é sinal de alarme. SNOOP: Sistêmicos, Neurológicos, Onset súbito, Older (> 50), Padrão novo."
   },
   {
-   "id": "PROPE-IN-CEF-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "salvas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 35 anos com crises de dor excruciante atrás do olho direito, de 45 minutos, diárias por algumas semanas, com lacrimejamento, rinorreia e ptose do mesmo lado; fica agitado durante a crise. O que costuma abortar a crise?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Indometacina."
-    },
-    {
-     "letra": "B",
-     "texto": "Inalação de oxigênio."
-    },
-    {
-     "letra": "C",
-     "texto": "Repouso em quarto escuro, sem outra medida."
-    },
-    {
-     "letra": "D",
-     "texto": "Massagem cervical."
-    },
-    {
-     "letra": "E",
-     "texto": "Carbamazepina contínua por 6 meses."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Cefaleia em salvas = \"**O₂ e olho**\": periorbitária, excruciante, 15–180 min, sinais autonômicos ipsilaterais; o O₂ corta a crise. Hemicrania paroxística (crises mais curtas e frequentes) responde à **indometacina**."
-  },
-  {
-   "id": "PROPE-IN-CEF-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "neuralgia do trigêmeo",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias (Porto: outras cefaleias)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idosa com dor em choque, estritamente unilateral, de segundos, na região maxilar, desencadeada ao falar, mastigar ou tocar a comissura labial. O diagnóstico é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Migrânea com aura."
-    },
-    {
-     "letra": "B",
-     "texto": "Sinusite maxilar."
-    },
-    {
-     "letra": "C",
-     "texto": "Cefaleia em salvas."
-    },
-    {
-     "letra": "D",
-     "texto": "Arterite temporal."
-    },
-    {
-     "letra": "E",
-     "texto": "Neuralgia do trigêmeo."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Neuralgia do trigêmeo: dor em choque/\"faísca\" num ramo do V, com zona-gatilho; o paciente evita falar e mastigar."
-  },
-  {
-   "id": "PROPE-IN-CEF-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "sinais de alarme · SNOOP",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias (SNOOP) e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Qual das situações abaixo é sinal de alarme na cefaleia e indica investigação?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Início após os 50 anos com padrão novo e progressivo."
-    },
-    {
-     "letra": "B",
-     "texto": "Falha isolada de analgésico comum, com exame normal."
-    },
-    {
-     "letra": "C",
-     "texto": "Melhora da dor em quarto escuro."
-    },
-    {
-     "letra": "D",
-     "texto": "Enxaqueca de padrão antigo e estável com exame neurológico normal."
-    },
-    {
-     "letra": "E",
-     "texto": "Cefaleia tensional ao fim de um dia estressante."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "SNOOP: **S**istêmicos (febre, câncer, imunossupressão), **N**eurológicos (déficit, papiledema, confusão, convulsão), **O**nset súbito, **O**lder (> 50), **P**adrão novo/progressivo. Também: acorda do sono, sinais meníngeos, piora com Valsalva, gestação. A refratariedade a analgésico, sozinha, **não** é alarme."
-  },
-  {
-   "id": "PROPE-IN-CEF-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "trovoada · HSA",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · Complemento das provas antigas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 45 anos refere cefaleia súbita, intensíssima, \"a pior da vida\", iniciada durante esforço. A conduta inicial é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Prescrever triptano e reavaliar em 48 horas."
-    },
-    {
-     "letra": "B",
-     "texto": "TC de crânio sem contraste imediata e, se normal com suspeita mantida, punção lombar."
-    },
-    {
-     "letra": "C",
-     "texto": "Punção lombar antes de qualquer imagem, sempre."
-    },
-    {
-     "letra": "D",
-     "texto": "Ressonância eletiva ambulatorial."
-    },
-    {
-     "letra": "E",
-     "texto": "Tratar como enxaqueca, pois o exame neurológico é normal."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Cefaleia em trovoada = **hemorragia subaracnóidea** até prova em contrário. TC sem contraste → punção lombar (xantocromia, hemácias) se a TC vier normal."
-  },
-  {
-   "id": "PROPE-IN-CEF-08",
+   "id": "PROPE-PF-CEF-03",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Cefaleias e raciocínio clínico",
    "subtema": "hipertensão intracraniana",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 2 Síndrome de HIC e caso guiado",
+   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q19) e caso guiado",
    "imagem": null,
    "gabarito_oficial": null,
    "tipo": "objetiva",
-   "enunciado": "Mulher de 58 anos tratada de câncer de mama há 3 anos refere cefaleia progressiva há 3 semanas, pior pela manhã, com vômitos e confusão. A fundoscopia mostra bordas do disco óptico borradas. O primeiro exame e a síndrome são:",
+   "enunciado": "Marta, 63 anos, tratada de câncer de mama há 4 anos, refere cefaleia progressivamente mais frequente há 1 mês, pior ao acordar, com vômitos e episódios de confusão mental. O exame de fundo de olho mostra papiledema bilateral. Qual etapa deve ser priorizada?",
    "alternativas": [
     {
      "letra": "A",
-     "texto": "Nenhum exame; cefaleia tensional."
+     "texto": "Aumentar a dose dos analgésicos, preferencialmente opioides."
     },
     {
      "letra": "B",
-     "texto": "Marcadores tumorais séricos; enxaqueca crônica."
+     "texto": "Encaminhar para avaliação psiquiátrica."
     },
     {
      "letra": "C",
-     "texto": "Eletroencefalograma; epilepsia."
+     "texto": "Realizar tomografia computadorizada de crânio para investigar causa secundária."
     },
     {
      "letra": "D",
-     "texto": "TC de crânio; síndrome de hipertensão intracraniana, possivelmente por metástase."
+     "texto": "Iniciar profilaxia para migrânea e reavaliar em 3 meses."
     },
     {
      "letra": "E",
-     "texto": "Punção lombar imediata; meningite viral."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "HIC \"**manhã, jato, papila, VI**\". Na suspeita de lesão expansiva, o primeiro exame é a **imagem**; marcadores tumorais não localizam lesão intracraniana e opioide em escalada não é conduta (rebaixa a consciência e eleva a PIC por hipercapnia)."
-  },
-  {
-   "id": "PROPE-IN-CEF-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "hipertensão intracraniana",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 2 Síndrome de HIC",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "A paralisia de nervo craniano mais comum na hipertensão intracraniana, considerada sem valor localizatório, é a do:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipoglosso (XII), causando desvio da língua."
-    },
-    {
-     "letra": "B",
-     "texto": "Troclear (IV), causando diplopia vertical."
-    },
-    {
-     "letra": "C",
-     "texto": "Abducente (VI), causando estrabismo convergente e diplopia."
-    },
-    {
-     "letra": "D",
-     "texto": "Facial (VII), causando paralisia periférica."
-    },
-    {
-     "letra": "E",
-     "texto": "Oculomotor (III), causando ptose e midríase."
+     "texto": "Solicitar marcadores tumorais séricos."
     }
    ],
    "gabarito": [
     "C"
    ],
    "gabarito_texto": "C",
-   "comentario": "O VI tem trajeto intracraniano longo, por isso é o mais acometido na HIC (falso sinal localizatório). Midríase fixa unilateral sugere compressão do III (herniação uncal)."
+   "comentario": "Cefaleia secundária com síndrome de HIC (matinal, vômitos, papiledema) em paciente com câncer prévio → imagem do crânio primeiro (metástase). Marcadores não localizam lesão; opioide em escalada rebaixa a consciência e eleva a PIC."
   },
   {
-   "id": "PROPE-IN-CEF-10",
+   "id": "PROPE-PF-CEF-04",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "hipertensão intracraniana · Cushing",
+   "subtema": "caso de cefaleia · condutas",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 2 Síndrome de HIC e Autoteste",
+   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas e Complemento (trovoada, HIV)",
    "imagem": null,
    "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "O reflexo (tríade) de Cushing na hipertensão intracraniana aguda é composto por:",
+   "tipo": "multipla",
+   "enunciado": "Jovem de 24 anos, estudante, natural de Petrolina (PE), dá entrada no pronto-atendimento com queixa principal de cefaleia. Assinale a(s) alternativa(s) correta(s):",
    "alternativas": [
     {
      "letra": "A",
-     "texto": "Taquicardia, hipertensão e sudorese."
+     "texto": "Se a dor for unilateral, pulsátil, moderada a intensa, com mais de 4 horas, piora ao esforço, náuseas e fotofobia, igual às crises habituais e com exame normal, trata-se de migrânea, sem necessidade de neuroimagem."
     },
     {
      "letra": "B",
-     "texto": "Taquicardia, hipotensão e febre."
+     "texto": "Tratando-se de cefaleia nova, súbita, holocraniana e de intensidade máxima (\"a pior da vida\"), deve-se pedir TC de crânio sem contraste e, se normal, punção lombar."
     },
     {
      "letra": "C",
-     "texto": "Febre, rigidez de nuca e fotofobia."
+     "texto": "Se a paciente for portadora de HIV e apresentar febre e crise convulsiva, pode receber alta precoce com sintomáticos."
     },
     {
      "letra": "D",
-     "texto": "Bradicardia, hipotensão e midríase bilateral."
+     "texto": "Papiledema ao fundo de olho e sinais de irritação meningorradicular são sinais de alarme que tornam mandatória a investigação complementar."
     },
     {
      "letra": "E",
-     "texto": "Bradicardia, hipertensão arterial e alteração do padrão respiratório."
+     "texto": "Nenhuma alternativa está correta."
     }
    ],
    "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Cushing = \"**freia e sobe**\": bradicardia com hipertensão (e respiração irregular). Febre + rigidez de nuca + fotofobia = síndrome meníngea."
-  },
-  {
-   "id": "PROPE-IN-CEF-11",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "cefaleia no imunossuprimido",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · Complemento das provas antigas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com HIV apresenta cefaleia, febre e uma crise convulsiva. A conduta adequada é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Solicitar apenas hemograma."
-    },
-    {
-     "letra": "B",
-     "texto": "Fazer punção lombar antes da imagem."
-    },
-    {
-     "letra": "C",
-     "texto": "Internar e investigar com TC ou RM de crânio e, depois da imagem, punção lombar."
-    },
-    {
-     "letra": "D",
-     "texto": "Prescrever analgésico e reavaliar no ambulatório."
-    },
-    {
-     "letra": "E",
-     "texto": "Tratar como enxaqueca com aura."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "HIV + cefaleia + febre/convulsão/déficit focal → neurotoxoplasmose, criptococose, linfoma primário do SNC, TB, meningites: internar e investigar (imagem antes da punção)."
-  },
-  {
-   "id": "PROPE-IN-CEF-12",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "tontura · vertigem",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 3 Tontura, vertigem e síncope",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente refere que \"tudo gira\" ao virar na cama, com náuseas e desequilíbrio, por poucos segundos. Esse tipo de tontura é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Tontura mal definida, sugerindo ansiedade."
-    },
-    {
-     "letra": "B",
-     "texto": "Vertigem, sugerindo síndrome vestibular periférica."
-    },
-    {
-     "letra": "C",
-     "texto": "Desequilíbrio, sugerindo doença cerebelar."
-    },
-    {
-     "letra": "D",
-     "texto": "Lipotimia por hipoglicemia."
-    },
-    {
-     "letra": "E",
-     "texto": "Pré-síncope, sugerindo arritmia."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "\"Vertigem **gira**; pré-síncope **escurece**; desequilíbrio só **ao andar**.\" Vertigem posicional breve: pensar em VPPB (Dix-Hallpike)."
-  },
-  {
-   "id": "PROPE-IN-CEF-13",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "síncope · causas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 3 Síncope e caso guiado 2",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 72 anos desmaiou ao subir uma ladeira; refere dor no peito aos esforços e tem sopro sistólico em foco aórtico irradiado para o pescoço. A causa mais provável da síncope é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Síncope vasovagal."
-    },
-    {
-     "letra": "B",
-     "texto": "Hipotensão postural."
-    },
-    {
-     "letra": "C",
-     "texto": "Hipoglicemia."
-    },
-    {
-     "letra": "D",
-     "texto": "Estenose aórtica."
-    },
-    {
-     "letra": "E",
-     "texto": "Crise de ansiedade com hiperventilação."
-    }
-   ],
-   "gabarito": [
+    "A",
+    "B",
     "D"
    ],
-   "gabarito_texto": "D",
-   "comentario": "Síncope **ao esforço** + sopro aórtico = baixo débito por estenose aórtica (causa cardíaca, exige investigação imediata). Vasovagal (a mais comum): pródromos, em pé parado, recupera ao deitar."
+   "gabarito_texto": "A, B e D",
+   "comentario": "HIV + cefaleia + febre/convulsão → internar e investigar (neurotoxoplasmose, criptococose, linfoma). Cefaleia em trovoada = HSA até prova em contrário."
   },
   {
-   "id": "PROPE-IN-CEF-14",
+   "id": "PROPE-PF-CEF-05",
    "materia": "Propedêutica (SOP IV)",
    "prova": "PR2",
    "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "síncope · Stokes-Adams",
+   "subtema": "cefaleias primárias",
    "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 3 Síncope e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Chagásico com episódios de perda súbita da consciência, às vezes com abalos, e frequência cardíaca de 32 bpm. A síndrome é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Epilepsia do lobo temporal."
-    },
-    {
-     "letra": "B",
-     "texto": "Lipotimia por hipotensão postural."
-    },
-    {
-     "letra": "C",
-     "texto": "Síncope vasovagal."
-    },
-    {
-     "letra": "D",
-     "texto": "Síncope do seio carotídeo."
-    },
-    {
-     "letra": "E",
-     "texto": "Stokes-Adams, por bradiarritmia (BAVT)."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Stokes-Adams = síncope por bradiarritmia (BAVT), ± convulsão — chagásicos, IAM."
-  },
-  {
-   "id": "PROPE-IN-CEF-15",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "síncope × lipotimia",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 3 Síncope (Porto) e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Lipotimia (pré-síncope) é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A sensação de desmaio iminente, com fraqueza, escurecimento visual, palidez e sudorese, sem perda completa da consciência."
-    },
-    {
-     "letra": "B",
-     "texto": "A perda prolongada da consciência com déficit focal."
-    },
-    {
-     "letra": "C",
-     "texto": "A perda súbita e transitória completa da consciência."
-    },
-    {
-     "letra": "D",
-     "texto": "A sensação de rotação do ambiente."
-    },
-    {
-     "letra": "E",
-     "texto": "Sinônimo de crise convulsiva."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Síncope = perda súbita e transitória da consciência por perfusão cerebral inadequada; lipotimia = perda parcial."
-  },
-  {
-   "id": "PROPE-IN-CEF-16",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "polineuropatia",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 4 Polineuropatia e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Diabético há 20 anos com hipoestesia e hipopalestesia em \"bota\", hipotrofia distal e aquileus abolidos, sem Babinski. A síndrome é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Síndrome cerebelar."
-    },
-    {
-     "letra": "B",
-     "texto": "AVC lacunar sensitivo."
-    },
-    {
-     "letra": "C",
-     "texto": "Síndrome medular com nível sensitivo."
-    },
-    {
-     "letra": "D",
-     "texto": "Lesão do neurônio motor superior."
-    },
-    {
-     "letra": "E",
-     "texto": "Polineuropatia periférica (lesão de nervo, padrão de neurônio motor inferior)."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Polineuropatia = \"**luva, bota, sem reflexo**\": distal, simétrica, arreflexia (aquileu primeiro), sem Babinski e sem nível sensitivo. O gabarito oficial de uma prova também marcou \"NMS\", o que é semiologicamente errado."
-  },
-  {
-   "id": "PROPE-IN-CEF-17",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "raciocínio clínico",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 5 Raciocínio clínico (Prof. Tiago — Paciente 360)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "No raciocínio clínico ensinado pelo Prof. Tiago, a sequência correta é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Dados relevantes → síndrome → topografia → etiologia pelo modo de instalação → diferenciais e exames."
-    },
-    {
-     "letra": "B",
-     "texto": "Etiologia → síndrome → dados relevantes → exames."
-    },
-    {
-     "letra": "C",
-     "texto": "Exames complementares → etiologia → síndrome → topografia."
-    },
-    {
-     "letra": "D",
-     "texto": "Diagnóstico nosológico → exame físico → anamnese."
-    },
-    {
-     "letra": "E",
-     "texto": "Topografia → exames → dados relevantes → síndrome."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Identifique a **síndrome** antes de pensar na doença; a etiologia vem pelo modo de instalação (súbito = vascular; progressivo = tumor; lento = degenerativo; surtos = EM; paroxístico = epilepsia ou enxaqueca)."
-  },
-  {
-   "id": "PROPE-IN-CEF-18",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "migrânea típica · conduta",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · Complemento das provas antigas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 30 anos com enxaqueca típica, de padrão antigo e estável, exame neurológico normal, refere que o analgésico comum não funciona mais. A conduta é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "TC de crânio de urgência."
-    },
-    {
-     "letra": "B",
-     "texto": "Punção lombar para afastar meningite."
-    },
-    {
-     "letra": "C",
-     "texto": "Ressonância de crânio obrigatória pela falha do analgésico."
-    },
-    {
-     "letra": "D",
-     "texto": "Diagnóstico clínico sem neuroimagem; otimizar o tratamento (AINE, triptano, antiemético e profilaxia se crises frequentes)."
-    },
-    {
-     "letra": "E",
-     "texto": "Encaminhar para internação."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "A refratariedade ao analgésico, sozinha e com exame normal, **não** é sinal de alarme e não indica exame complementar."
-  },
-  {
-   "id": "PROPE-IN-CEF-19",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "revisão geral",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · Nas provas e Autoteste",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "itens_vf",
-   "enunciado": "Julgue os itens sobre cefaleias e queixas neurológicas: ( ) A cefaleia da hipertensão intracraniana costuma piorar pela manhã e vir com vômitos em jato. ( ) A cefaleia em salvas é tipicamente bilateral, em aperto e leve. ( ) Na síncope vasovagal costuma haver pródromos e recuperação ao deitar. ( ) A refratariedade isolada a analgésicos é sinal de alarme que exige neuroimagem. ( ) Na polineuropatia diabética o aquileu é o primeiro reflexo a desaparecer.",
-   "alternativas": [],
-   "gabarito": [
-    "V",
-    "F",
-    "V",
-    "F",
-    "V"
-   ],
-   "gabarito_texto": "V, F, V, F, V",
-   "comentario": "Salvas: unilateral periorbitária, excruciante, com sinais autonômicos. Analgésico que falhou, sozinho, não pede exame."
-  },
-  {
-   "id": "PROPE-IN-CEF-20",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "cefaleias primárias · comparação",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias, tontura, síncope, polineuropatia e raciocínio clínico (plano 6.1, Prof. Tiago + Porto caps. 6 e 20) · 1 Cefaleias",
+   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · 1 Cefaleias",
    "imagem": null,
    "gabarito_oficial": null,
    "tipo": "discursiva",
-   "enunciado": "Compare migrânea, cefaleia tensional e cefaleia em salvas quanto a localização, caráter, duração e sintomas associados.",
+   "enunciado": "Diferencie migrânea, cefaleia tensional e cefaleia em salvas quanto à localização, ao caráter, à duração e aos sintomas associados.",
    "alternativas": [],
    "gabarito": null,
-   "resposta_modelo": "| | Migrânea | Tensional | Salvas |\n|---|---|---|---|\n| Local | Unilateral (frontotemporal) | Bilateral, \"em capacete\" ou nuca | Unilateral, periorbitária |\n| Caráter | Pulsátil, moderada a forte | Aperto/pressão, leve a moderada | Excruciante |\n| Duração | 4–72 h | 30 min a 7 dias | 15–180 min, em surtos |\n| Associados | Náuseas/vômitos, fotofobia e fonofobia, ± aura; melhora no escuro | Sem náusea; no máximo foto **ou** fono | Lacrimejamento, rinorreia, ptose ipsilateral; O₂ corta a crise |",
+   "resposta_modelo": "| | Migrânea | Tensional | Salvas |\n|---|---|---|---|\n| Local | Unilateral (frontotemporal) | Bilateral, \"em capacete\" ou nuca | Unilateral, periorbitária |\n| Caráter | Pulsátil, moderada a forte | Aperto/pressão, leve a moderada | Excruciante |\n| Duração | 4–72 h | 30 min a 7 dias | 15–180 min, em surtos |\n| Associados | Náuseas/vômitos, fotofobia e fonofobia, ± aura | Sem náusea; no máximo foto **ou** fono | Lacrimejamento, rinorreia, ptose ipsilateral; O₂ corta a crise |",
    "comentario": null
   }
  ]

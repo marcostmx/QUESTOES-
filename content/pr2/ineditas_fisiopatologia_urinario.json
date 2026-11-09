@@ -1,1035 +1,443 @@
 {
-  "meta": {
-    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário (lote piloto)",
-    "gerado_em": "2026-11-08",
-    "base": "Estudo Dirigido — Fisiopatologia do Sistema Urinário aplicada à Semiologia (SOP IV, Aula 11, Prof. Filipe Costa de Araujo). Nenhuma informação fora desse material."
-  },
-  "questoes": [
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário (formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-08",
+  "base": "Resumo FISIOPATOLOGIA - PR2 (Drive) e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (nefrótica × nefrítica, GNPE, nefropatia diabética, NTA, nefrite intersticial, pielonefrite, DRC), no formato do professor."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-URI-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "síndrome nefrótica · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndromes glomerulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "As síndromes renais podem ser causadas por alterações glomerulares que aumentam a permeabilidade da barreira de filtração. Sobre a síndrome nefrótica, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
     {
-      "id": "FISIO-IN-URI-01",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrítica · GNPE",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 1",
-      "enunciado": "Criança de 8 anos, com impetigo nas pernas há cerca de um mês, chega com edema palpebral, urina \"cor de Coca-Cola\", oligúria e PA elevada para a idade. Sobre o intervalo entre a infecção de pele e o quadro renal, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O intervalo reflete o tempo de migração do estreptococo da pele até o parênquima renal, onde se multiplica."
-        },
-        {
-          "letra": "B",
-          "texto": "O complemento C3 costuma estar elevado, refletindo a ativação da resposta imune."
-        },
-        {
-          "letra": "C",
-          "texto": "Após piodermite, a latência costuma ser menor (1 a 3 semanas) que após faringite."
-        },
-        {
-          "letra": "D",
-          "texto": "O tratamento adequado da lesão de pele com antibiótico impede, com segurança, a glomerulonefrite."
-        },
-        {
-          "letra": "E",
-          "texto": "O intervalo existe porque a lesão é imunomediada: a formação de anticorpos e de imunocomplexos que se depositam no glomérulo e ativam o complemento leva semanas."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "A GNPE é uma doença pós-infecciosa imunomediada (hipersensibilidade tipo III): a bactéria não está no rim. A latência corresponde à sensibilização, produção de IgG e formação/deposição de imunocomplexos subepiteliais (\"humps\"), com consumo de complemento.\n\n- A) Errada: não há infecção renal.\n- C) Errada: é o contrário — após faringite 1 a 3 semanas; após piodermite, cerca de 3 a 6 semanas.\n- D) Errada: a sensibilização pode já ter ocorrido; tratar a pele não garante que a GN não aconteça.\n- B) Errada: o C3 fica baixo (consumo) e normaliza em 6 a 8 semanas."
+     "letra": "A",
+     "texto": "A proteinúria na faixa nefrótica corresponde à perda de 3,5 g ou mais de proteína por dia em adultos, por extravasamento através de uma parede capilar glomerular anormalmente permeável."
     },
     {
-      "id": "FISIO-IN-URI-02",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "hematúria glomerular",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 1, item b",
-      "enunciado": "Na glomerulonefrite pós-estreptocócica, a urina tem aspecto \"Coca-Cola\", e não vermelho vivo com coágulos. Qual alternativa explica corretamente esse achado?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O sangramento ocorre na bexiga, e a urina alcalina escurece a hemoglobina."
-        },
-        {
-          "letra": "B",
-          "texto": "A urina escurece por excesso de bilirrubina conjugada filtrada pelo glomérulo inflamado."
-        },
-        {
-          "letra": "C",
-          "texto": "A cor escura se deve à mioglobina liberada pela inflamação glomerular."
-        },
-        {
-          "letra": "D",
-          "texto": "O sangramento é glomerular; as hemácias ficam dismórficas e, em urina ácida e concentrada, a hemoglobina vira hematina ácida (marrom); o volume é pequeno e não forma coágulos."
-        },
-        {
-          "letra": "E",
-          "texto": "Coágulos não se formam porque o sangramento é arterial e de grande volume."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "Hematúria glomerular: hemácias atravessam a barreira lesada, ficam dismórficas (acantócitos) e formam cilindros hemáticos. Em pH ácido a hemoglobina vira metemoglobina/hematina ácida (castanho-escuro); a oligúria concentra o pigmento. O volume é pequeno e diluído e a urina contém fibrinolíticos (urocinase), por isso sem coágulos. Sangue vermelho vivo com coágulos aponta para as vias urinárias (bexiga, uretra, ureter).\n\nUrina escura **sem** hemácias no sedimento sugere mioglobinúria (rabdomiólise) ou hemoglobinúria (hemólise) — por isso C está errada."
+     "letra": "B",
+     "texto": "O edema generalizado decorre principalmente da queda da pressão coloidosmótica do plasma por hipoalbuminemia, com retenção secundária de sódio e água."
     },
     {
-      "id": "FISIO-IN-URI-03",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "nefrítica × nefrótica",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · quadro Nefrítica × Nefrótica",
-      "enunciado": "Comparando a síndrome nefrítica com a síndrome nefrótica, assinale a alternativa INCORRETA:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Na nefrítica a TFG cai e há retenção real de sódio e água, com hipervolemia e hipertensão."
-        },
-        {
-          "letra": "B",
-          "texto": "Na nefrótica o volume intravascular é normal ou reduzido, e as jugulares costumam estar planas."
-        },
-        {
-          "letra": "C",
-          "texto": "Na nefrótica a proteinúria é maciça (> 3,5 g/24 h), com espuma e lipidúria."
-        },
-        {
-          "letra": "D",
-          "texto": "Na nefrítica o edema é intenso, com anasarca, e a complicação típica é a trombose venosa profunda."
-        },
-        {
-          "letra": "E",
-          "texto": "Na GNPE o C3 está baixo; na nefrótica o complemento geralmente é normal."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "A alternativa D troca as síndromes. Na **nefrítica** o edema é moderado e periorbitário, e as complicações típicas são encefalopatia hipertensiva e edema agudo de pulmão. Anasarca e TVP (além de infecções e hiperlipidemia) são da **nefrótica**.\n\nAs demais estão corretas, conforme o quadro comparativo do estudo dirigido."
+     "letra": "C",
+     "texto": "A doença de lesões mínimas, distúrbio relativamente benigno, é a causa mais frequente de síndrome nefrítica em crianças."
     },
     {
-      "id": "FISIO-IN-URI-04",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrítica · complicações",
-      "tipo": "multipla",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 1, item c",
-      "enunciado": "Na criança com síndrome nefrítica aguda (PA 135 × 90 mmHg, crepitações finas bibasais, FR 26 irpm e cefaleia), quais complicações devem ser vigiadas no exame físico? Assinale todas as corretas:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Encefalopatia hipertensiva (nível de consciência, vômitos, convulsão, fundo de olho)."
-        },
-        {
-          "letra": "B",
-          "texto": "Insuficiência cardíaca/edema agudo de pulmão (estertores, B3, turgência jugular, hepatomegalia)."
-        },
-        {
-          "letra": "C",
-          "texto": "Hipercalemia, pela redução da excreção de potássio."
-        },
-        {
-          "letra": "D",
-          "texto": "Trombose venosa profunda por perda urinária de antitrombina III."
-        },
-        {
-          "letra": "E",
-          "texto": "Hipotensão ortostática por hipovolemia."
-        }
-      ],
-      "gabarito": [
-        "A",
-        "B",
-        "C"
-      ],
-      "gabarito_texto": "A, B e C",
-      "gabarito_oficial": null,
-      "comentario": "A hipervolemia da nefrítica (retenção de Na⁺ e água, renina suprimida) explica a HAS e as crepitações (↑ pressão hidrostática capilar pulmonar — lei de Starling). A cefaleia é alerta de encefalopatia hipertensiva. O estudo dirigido lista: PA seriada, sinais de encefalopatia, sinais de IC/EAP, FR e SatO₂, diurese e peso, ECG e potássio, sinais de uremia.\n\n- D) É complicação da síndrome **nefrótica**.\n- E) O paciente nefrítico está hipervolêmico, não hipovolêmico."
+     "letra": "D",
+     "texto": "A perda urinária de imunoglobulinas e de proteínas anticoagulantes torna o paciente mais vulnerável a infecções e a tromboses."
     },
     {
-      "id": "FISIO-IN-URI-05",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrótica · edema",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 2, item a",
-      "enunciado": "Homem de 41 anos com síndrome nefrótica relata que o inchaço começou \"no rosto, de manhã\" e hoje atinge pernas, abdome e bolsa escrotal. Por que o edema começa na face pela manhã?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Porque, deitado, o líquido acumulado se redistribui e se concentra nos tecidos frouxos (pálpebras e face); em pé, ao longo do dia, desce para as pernas."
-        },
-        {
-          "letra": "B",
-          "texto": "Porque à noite há pico de secreção de aldosterona, que retém sódio só na face."
-        },
-        {
-          "letra": "C",
-          "texto": "Porque a hipertensão noturna aumenta a pressão hidrostática nos capilares da face."
-        },
-        {
-          "letra": "D",
-          "texto": "Porque a face é a região com maior drenagem linfática do corpo."
-        },
-        {
-          "letra": "E",
-          "texto": "Porque o edema facial matinal é típico da insuficiência cardíaca, que coexiste na síndrome nefrótica."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "O líquido segue a gravidade e a complacência dos tecidos: no decúbito noturno acumula-se nos tecidos frouxos (pálpebras, face, escroto) e, em pé, volta a descer. O paciente do caso nega ortopneia e tem jugulares planas, o que afasta IC (E). A PA dele é normal (C)."
-    },
-    {
-      "id": "FISIO-IN-URI-06",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrótica · mecanismo do edema",
-      "tipo": "itens_vf",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 2, item a",
-      "enunciado": "Sobre o mecanismo do edema e da espuma urinária na síndrome nefrótica, julgue os itens como verdadeiros (V) ou falsos (F): ( ) A lesão de podócitos e da membrana basal deixa passar albumina, gerando proteinúria > 3,5 g/24 h. ( ) A hipoalbuminemia reduz a pressão oncótica do plasma e favorece a saída de líquido para o interstício. ( ) O rim não participa do edema: todo o líquido se deve à queda da pressão oncótica. ( ) A espuma persistente ocorre porque a albumina reduz a tensão superficial da urina. ( ) O edema nefrótico é quente e avermelhado, por ser inflamatório.",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": [
-        "V",
-        "V",
-        "F",
-        "V",
-        "F"
-      ],
-      "gabarito_texto": "V, V, F, V, F",
-      "gabarito_oficial": null,
-      "comentario": "1º V e 2º V: lesão da barreira → albuminúria → hipoalbuminemia → ↓ pressão oncótica (Starling) → edema.\n\n3º F: há dois mecanismos renais somados — o \"underfill\" (↓ volume efetivo ativa SRAA, ADH e simpático) e a retenção primária de sódio no próprio rim (proteases urinárias, como a plasmina, ativam canais de sódio do túbulo coletor; resistência ao peptídeo natriurético).\n\n4º V: a albumina é tensoativa; espuma persistente sugere proteinúria (confirmar com urina de 24 h ou relação proteína/creatinina).\n\n5º F: o edema é mole, frio e com Godet profundo — transudato pobre em proteínas, sem inflamação."
-    },
-    {
-      "id": "FISIO-IN-URI-07",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrótica · volume intravascular",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 2, item b",
-      "enunciado": "Paciente com síndrome nefrótica tem anasarca (Godet 4+/4+), mas PA de 122 × 78 mmHg e jugulares sem turgência. A explicação mais adequada é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O líquido está no interstício; o volume intravascular é normal ou reduzido (hipovolemia efetiva), por isso não há turgência jugular nem hipertensão."
-        },
-        {
-          "letra": "B",
-          "texto": "A TFG está muito reduzida, o que impede a retenção de sódio."
-        },
-        {
-          "letra": "C",
-          "texto": "A renina está suprimida, como na síndrome nefrítica."
-        },
-        {
-          "letra": "D",
-          "texto": "Há vasodilatação sistêmica pelo excesso de albumina circulante."
-        },
-        {
-          "letra": "E",
-          "texto": "As jugulares estão planas porque há insuficiência cardíaca direita."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "Na nefrótica a barreira está \"vazada\", mas a TFG pode estar normal ou pouco reduzida: o problema é a perda de albumina, não de filtração. O edema é do interstício e o plasma fica relativamente depletado (há hemoconcentração, que favorece trombose). Na nefrítica, ao contrário, a ↓ TFG gera retenção real de sal e água, com hipervolemia e HAS (renina suprimida).\n\nCuidado clínico citado no material: diurético intenso no nefrótico pode causar hipovolemia, lesão pré-renal e favorecer trombose."
-    },
-    {
-      "id": "FISIO-IN-URI-08",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrótica · TVP e hiperlipidemia",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 2, item c",
-      "enunciado": "Paciente nefrótico apresenta xantelasmas e panturrilha esquerda 3 cm mais grossa que a direita, empastada e dolorosa. Assinale a alternativa que relaciona corretamente os achados aos mecanismos:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Xantelasma: ↓ síntese hepática de lipoproteínas; TVP: plaquetopenia."
-        },
-        {
-          "letra": "B",
-          "texto": "Xantelasma: icterícia colestática; TVP: compressão venosa pela ascite."
-        },
-        {
-          "letra": "C",
-          "texto": "Xantelasma: depósito de urato; TVP: hipervolemia com estase venosa."
-        },
-        {
-          "letra": "D",
-          "texto": "Xantelasma: hipercalcemia; TVP: celulite secundária ao edema."
-        },
-        {
-          "letra": "E",
-          "texto": "Xantelasma: hiperlipidemia por ↑ síntese hepática de lipoproteínas e ↓ catabolismo; TVP: hipercoagulabilidade por perda urinária de antitrombina III e proteínas C e S, com ↑ de fibrinogênio e fatores V, VII e VIII."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "Hiperlipidemia nefrótica: a ↓ pressão oncótica estimula a síntese hepática de proteínas, inclusive VLDL/LDL, e há menor catabolismo (↓ atividade da lipoproteína lipase). Macrófagos da derme captam o excesso (células espumosas) → xantelasma; na urina, \"cruzes de Malta\".\n\nTVP (tríade de Virchow): hipercoagulabilidade predominante (perda de antitrombina III, proteínas C e S; ↑ fibrinogênio, fatores V, VII, VIII; ↑ agregação plaquetária), além de estase por edema/hemoconcentração. Diferença ≥ 3 cm na panturrilha é critério clínico; confirmar com Doppler. Riscos: TEP e trombose da veia renal (mais frequente na membranosa e com albumina < 2,5 g/dL)."
-    },
-    {
-      "id": "FISIO-IN-URI-09",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "síndrome nefrótica · critérios",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 2, critérios",
-      "enunciado": "Qual alternativa reúne os critérios da síndrome nefrótica segundo o material da aula?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Proteinúria > 3,5 g/24 h (ou relação proteína/creatinina > 3,5 g/g), albumina sérica < 3,0 g/dL, edema e hiperlipidemia/lipidúria."
-        },
-        {
-          "letra": "B",
-          "texto": "Proteinúria > 1 g/24 h, albumina < 4,0 g/dL e edema periorbitário."
-        },
-        {
-          "letra": "C",
-          "texto": "Hematúria dismórfica, cilindros hemáticos, HAS e oligúria."
-        },
-        {
-          "letra": "D",
-          "texto": "Creatinina ≥ 0,3 mg/dL acima do basal em 48 h e diurese < 0,5 mL/kg/h por 6 h."
-        },
-        {
-          "letra": "E",
-          "texto": "TFG < 15 mL/min/1,73 m², anemia e acidose metabólica."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "Critérios citados no estudo dirigido: proteinúria > 3,5 g/24 h (ou P/C > 3,5 g/g), hipoalbuminemia < 3,0 g/dL, edema (face → anasarca), hiperlipidemia e lipidúria (\"cruzes de Malta\").\n\nC descreve a síndrome nefrítica; D é o critério KDIGO de lesão renal aguda; E corresponde à DRC estágio G5."
-    },
-    {
-      "id": "FISIO-IN-URI-10",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "LRA pré-renal · \"duas torneiras\"",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 3, item b",
-      "enunciado": "Trabalhador rural hipertenso em uso de enalapril, desidratado após dias de colheita sob calor, passou a tomar diclofenaco para dor lombar e evoluiu com oligúria. Pelo modelo das \"duas torneiras\" (arteríolas aferente e eferente), assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O diclofenaco dilata a aferente e o enalapril contrai a eferente, elevando a pressão glomerular."
-        },
-        {
-          "letra": "B",
-          "texto": "Na hipovolemia, o rim mantém a TFG contraindo a aferente e dilatando a eferente."
-        },
-        {
-          "letra": "C",
-          "texto": "Ambos os fármacos agem apenas na arteríola eferente."
-        },
-        {
-          "letra": "D",
-          "texto": "O diclofenaco, ao inibir as prostaglandinas, contrai a aferente (fecha a entrada); o enalapril, ao bloquear a angiotensina II, dilata a eferente (abre a saída); a pressão no capilar glomerular cai e a TFG despenca."
-        },
-        {
-          "letra": "E",
-          "texto": "A combinação é segura porque os efeitos sobre as duas arteríolas se anulam."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "TFG = Kf × (PGC − PBS − πGC). Na hipovolemia compensada, prostaglandinas (PGE₂, PGI₂) dilatam a aferente e a angiotensina II contrai a eferente, mantendo a PGC. O AINE retira a dilatação da aferente; o IECA retira a constrição da eferente. Com os dois, PGC ↓↓ e TFG ↓↓ (LRA pré-renal).\n\n\"Tripla ameaça\": AINE + IECA/BRA + diurético em desidratado — no caso, o calor e a pouca água fazem o papel do diurético. Conduta: suspender o AINE (e temporariamente o IECA), reidratar, monitorar creatinina e potássio."
-    },
-    {
-      "id": "FISIO-IN-URI-11",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "LRA · classificação",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 3, item a",
-      "enunciado": "Paciente com oligúria apresenta mucosas secas, enchimento capilar de 4 s, PA de 104 × 68 mmHg deitado caindo para 84 × 56 mmHg em pé (FC 108 → 128 bpm), jugulares colabadas, Giordano negativo e ausência de globo vesical. A lesão renal aguda é classificada como:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Pós-renal, pela ausência de globo vesical."
-        },
-        {
-          "letra": "B",
-          "texto": "Renal intrínseca glomerular, pela hipotensão ortostática."
-        },
-        {
-          "letra": "C",
-          "texto": "Pré-renal: os achados comprovam depleção de volume, e Giordano negativo e ausência de globo vesical afastam obstrução."
-        },
-        {
-          "letra": "D",
-          "texto": "Renal intrínseca por necrose tubular aguda já estabelecida, pela taquicardia."
-        },
-        {
-          "letra": "E",
-          "texto": "Pós-renal, pela oligúria com urina escura."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "Mucosas secas, turgor ↓, TEC 4 s, hipotensão ortostática (queda ≥ 20 sistólica ou ≥ 10 diastólica) com taquicardia compensatória e jugulares colabadas (PVC baixa) provam a hipovolemia. Giordano negativo e ausência de globo vesical afastam obstrução; a ausência de edema, hematúria e proteinúria afasta lesão intrínseca no momento. O rim está hipoperfundido, mas os túbulos estão íntegros (urina escura e concentrada).\n\nAtenção do material: esforço no calor + câimbras + urina escura também sugerem rabdomiólise — dosar CPK."
-    },
-    {
-      "id": "FISIO-IN-URI-12",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "pré-renal × NTA",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 3, item c",
-      "enunciado": "Qual conjunto de achados urinários indica que uma lesão pré-renal evoluiu para necrose tubular aguda (NTA)?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Osmolalidade > 500 mOsm/kg, Na⁺ urinário < 20 mEq/L e FeNa < 1%."
-        },
-        {
-          "letra": "B",
-          "texto": "Densidade > 1.020, relação ureia/creatinina > 20 e sedimento normal."
-        },
-        {
-          "letra": "C",
-          "texto": "Hemácias dismórficas e cilindros hemáticos."
-        },
-        {
-          "letra": "D",
-          "texto": "Proteinúria > 3,5 g/24 h com lipidúria."
-        },
-        {
-          "letra": "E",
-          "texto": "Urina isostenúrica (~300 mOsm/kg; densidade ~1.010), Na⁺ urinário > 40 mEq/L, FeNa > 2% e cilindros granulosos \"marrom-sujos\"."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "No pré-renal, os túbulos íntegros economizam água e sódio (ADH e aldosterona): urina concentrada (> 500 mOsm/kg, densidade > 1.020), Na⁺ < 20 mEq/L, FeNa < 1%, ureia/creatinina > 20 — alternativas A e B.\n\nNa NTA o epitélio lesado perde a capacidade de reabsorver sódio e concentrar a urina: isostenúria, Na⁺ > 40, FeNa > 2%, ureia/creatinina < 15, cilindros granulosos e células tubulares; não melhora rapidamente com reposição de volume. D é nefrótica e C é nefrítica."
-    },
-    {
-      "id": "FISIO-IN-URI-13",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "LRA · critérios KDIGO",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 3",
-      "enunciado": "Segundo o critério KDIGO apresentado no material, define lesão renal aguda:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Aumento da creatinina ≥ 0,3 mg/dL em 48 h, ou ≥ 1,5× o basal em 7 dias, ou diurese < 0,5 mL/kg/h por 6 h."
-        },
-        {
-          "letra": "B",
-          "texto": "Creatinina ≥ 2,0 mg/dL em qualquer momento."
-        },
-        {
-          "letra": "C",
-          "texto": "TFG < 60 mL/min/1,73 m² por mais de 3 meses."
-        },
-        {
-          "letra": "D",
-          "texto": "Diurese < 100 mL em 24 h, obrigatoriamente."
-        },
-        {
-          "letra": "E",
-          "texto": "Ureia > 100 mg/dL associada a acidose."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "Critério KDIGO citado no estudo dirigido (Caso 3): ↑ creatinina ≥ 0,3 mg/dL em 48 h, ou ≥ 1,5× o basal em 7 dias, ou diurese < 0,5 mL/kg/h por 6 h. A alternativa C remete à definição de doença renal crônica."
-    },
-    {
-      "id": "FISIO-IN-URI-14",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "rabdomiólise",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Resumo: rabdomiólise",
-      "enunciado": "Após esforço físico intenso no calor, paciente apresenta câimbras, urina \"cor de chá\" e oligúria. A fita de urina é positiva para sangue, mas a microscopia não mostra hemácias. Assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "O quadro indica hematúria glomerular, e o próximo passo é dosar C3."
-        },
-        {
-          "letra": "B",
-          "texto": "Na rabdomiólise espera-se hipocalemia e hipercalcemia."
-        },
-        {
-          "letra": "C",
-          "texto": "Sugere cistite hemorrágica, e o tratamento é antibiótico."
-        },
-        {
-          "letra": "D",
-          "texto": "Os AINEs são a primeira escolha para a dor muscular, pois protegem o túbulo."
-        },
-        {
-          "letra": "E",
-          "texto": "Sugere rabdomiólise: a mioglobina lesa o rim por hipovolemia, formação de cilindros que obstruem o túbulo (pior em urina ácida) e toxicidade do heme; deve-se dosar CK e hidratar precocemente."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "Rabdomiólise: destruição do músculo libera mioglobina, CK, K⁺ e fosfato. Lesão renal (NTA pigmentar) por três mecanismos: hipovolemia (líquido sequestrado no músculo), obstrução tubular por cilindros de mioglobina (pior com urina ácida e concentrada) e toxicidade do heme (radicais livres). Achados: urina cor de chá, CK > 5× o normal, fita positiva para sangue **sem** hemácias, ↑ K⁺, ↑ fósforo, ↓ cálcio (por isso B está errada). Tratamento: hidratação vigorosa e precoce, tratar hipercalemia, retirar a causa e **evitar AINE** (D errada)."
-    },
-    {
-      "id": "FISIO-IN-URI-15",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · noctúria",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item a",
-      "enunciado": "Mulher de 63 anos, diabética e hipertensa há 20 anos, com DRC avançada, conta que \"há anos\" acorda três vezes por noite para urinar. Por que a noctúria é um sinal precoce na DRC?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Porque a DRC começa pela obstrução do colo vesical."
-        },
-        {
-          "letra": "B",
-          "texto": "Porque túbulos e medula, responsáveis por concentrar a urina, são lesados cedo: o rim perde a capacidade de concentração e os néfrons remanescentes fazem diurese osmótica (agravada pela glicose)."
-        },
-        {
-          "letra": "C",
-          "texto": "Porque o excesso de eritropoetina aumenta o fluxo renal noturno."
-        },
-        {
-          "letra": "D",
-          "texto": "Porque a TFG aumenta progressivamente com a perda de néfrons."
-        },
-        {
-          "letra": "E",
-          "texto": "Porque a noctúria só aparece quando a TFG cai abaixo de 15 mL/min."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Mecanismos citados: (1) perda da concentração urinária por lesão tubulointersticial/medular (↓ gradiente corticomedular, resistência ao ADH) → urina isostenúrica; (2) diurese osmótica nos néfrons restantes (cada um excreta mais ureia, sódio e glicose); (3) reabsorção do edema ao deitar; (4) glicosúria do diabetes mal controlado. É precoce — aparece anos antes dos sintomas urêmicos (que surgem com TFG < ~15–30), por isso E está errada."
-    },
-    {
-      "id": "FISIO-IN-URI-16",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · doença silenciosa",
-      "tipo": "itens_vf",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item a",
-      "enunciado": "Sobre por que a doença renal crônica permanece \"silenciosa\" por muito tempo, julgue os itens: ( ) O rim tem grande reserva funcional: a perda de cerca de metade dos néfrons ainda mantém creatinina normal ou pouco alterada. ( ) Os néfrons sobreviventes hiperfiltram, o que mantém a TFG mas sobrecarrega e esclerosa o glomérulo. ( ) O parênquima renal é muito inervado por fibras de dor, e a dor lombar é o primeiro sintoma da DRC. ( ) A falta de rastreio com creatinina e albuminúria contribui para o diagnóstico tardio.",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": [
-        "V",
-        "V",
-        "F",
-        "V"
-      ],
-      "gabarito_texto": "V, V, F, V",
-      "gabarito_oficial": null,
-      "comentario": "1º V: reserva funcional. 2º V: hiperfiltração compensatória — os néfrons dilatam a aferente e hipertrofiam (ciclo vicioso de esclerose). 3º F: o parênquima tem pouca inervação nociceptiva; os sintomas dependem do acúmulo de toxinas, ácido, água e sal. 4º V: sem exames periódicos, a doença passa despercebida — e o uso irregular de medicações para DM e HAS acelera a lesão."
-    },
-    {
-      "id": "FISIO-IN-URI-17",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · anemia",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item b",
-      "enunciado": "Sobre a anemia da doença renal crônica, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "É tipicamente microcítica e hipocrômica, por deficiência dietética de ferro."
-        },
-        {
-          "letra": "B",
-          "texto": "Deve-se principalmente à hemólise autoimune com Coombs positivo."
-        },
-        {
-          "letra": "C",
-          "texto": "É normocítica e normocrômica, causada principalmente pela ↓ de eritropoetina (produzida pelos fibroblastos peritubulares), somada a toxinas urêmicas que encurtam a vida das hemácias, inflamação (↑ hepcidina) e perdas por disfunção plaquetária."
-        },
-        {
-          "letra": "D",
-          "texto": "Resulta do excesso de eritropoetina, que esgota a medula."
-        },
-        {
-          "letra": "E",
-          "texto": "Ocorre apenas quando o paciente inicia diálise."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "Mecanismos listados no material: ↓ EPO (o rim produz a maior parte), toxinas urêmicas que reduzem a sobrevida das hemácias (de ~120 para ~60–90 dias) e inibem a medula, inflamação crônica com ↑ hepcidina (ferro retido) e disfunção plaquetária urêmica com sangramentos. Padrão normocítico e normocrômico. A cor amarelo-palha da pele soma a palidez aos urocromos retidos."
-    },
-    {
-      "id": "FISIO-IN-URI-18",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · respiração de Kussmaul",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item b",
-      "enunciado": "Paciente com DRC estágio 5 apresenta respiração profunda e regular, com FR de 26 irpm, sem esforço e sem queixa de falta de ar. O mecanismo é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Congestão pulmonar por sobrecarga de volume, com respiração rápida e superficial."
-        },
-        {
-          "letra": "B",
-          "texto": "Alcalose metabólica por retenção de bicarbonato."
-        },
-        {
-          "letra": "C",
-          "texto": "Derrame pericárdico comprimindo os pulmões."
-        },
-        {
-          "letra": "D",
-          "texto": "Acidose metabólica com ânion gap elevado (↓ amoniogênese e excreção de H⁺, retenção de fosfato, sulfato e urato); o H⁺ estimula os quimiorreceptores e o centro respiratório, que hiperventila para eliminar CO₂."
-        },
-        {
-          "letra": "E",
-          "texto": "Anemia grave, que causa respiração de Cheyne-Stokes."
-        }
-      ],
-      "gabarito": [
-        "D"
-      ],
-      "gabarito_texto": "D",
-      "gabarito_oficial": null,
-      "comentario": "Respiração de Kussmaul = compensação respiratória da acidose metabólica: ventilação profunda e regular, sem esforço. Compensação esperada (Winter): pCO₂ ≈ 1,5 × HCO₃⁻ + 8 (± 2). O material contrasta com a dispneia da congestão pulmonar, que é rápida, superficial e com esforço (A)."
-    },
-    {
-      "id": "FISIO-IN-URI-20",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "DRC · gravidade e diálise",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, item c",
-      "enunciado": "Na paciente com síndrome urêmica, quais achados são indicações clássicas de diálise de urgência?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Noctúria e prurido."
-        },
-        {
-          "letra": "B",
-          "texto": "Atrito pericárdico (pericardite urêmica) e asterixis (encefalopatia urêmica)."
-        },
-        {
-          "letra": "C",
-          "texto": "Hipoestesia \"em bota\" e pele amarelo-palha."
-        },
-        {
-          "letra": "D",
-          "texto": "Hálito amoniacal e anorexia."
-        },
-        {
-          "letra": "E",
-          "texto": "Mucosas descoradas 3+/4+ isoladamente."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Pericardite urêmica (risco de derrame hemorrágico e tamponamento) e encefalopatia urêmica (risco de convulsão e coma) são indicações clássicas de diálise de urgência — o \"U\" do mnemônico AEIOU (Uremia: pericardite, encefalopatia, sangramento). Também são graves a PA de 178 × 102 com edema (EAP, encefalopatia hipertensiva) e a respiração de Kussmaul (acidose, risco de hipercalemia)."
-    },
-    {
-      "id": "FISIO-IN-URI-21",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "diálise · AEIOU",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 4, quadro AEIOU",
-      "enunciado": "No mnemônico AEIOU das indicações de diálise, a correspondência correta é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "A — anemia; E — edema; I — infecção; O — oligúria; U — ureia elevada isolada."
-        },
-        {
-          "letra": "B",
-          "texto": "A — anúria; E — escabiose; I — impetigo; O — ortopneia; U — urina espumosa."
-        },
-        {
-          "letra": "C",
-          "texto": "A — alcalose; E — encefalopatia hepática; I — insuficiência cardíaca; O — obstrução; U — urosepse."
-        },
-        {
-          "letra": "D",
-          "texto": "A — asterixis; E — eritropoetina baixa; I — icterícia; O — osteodistrofia; U — úlcera urêmica."
-        },
-        {
-          "letra": "E",
-          "texto": "A — acidose metabólica refratária; E — eletrólitos (hipercalemia refratária); I — intoxicações dialisáveis; O — overload (sobrecarga de volume refratária, EAP); U — uremia (pericardite, encefalopatia, sangramento)."
-        }
-      ],
-      "gabarito": [
-        "E"
-      ],
-      "gabarito_texto": "E",
-      "gabarito_oficial": null,
-      "comentario": "Quadro do estudo dirigido: A (acidose metabólica refratária), E (eletrólitos: hipercalemia refratária), I (intoxicações dialisáveis), O (overload: sobrecarga de volume refratária, EAP), U (uremia: pericardite, encefalopatia, sangramento)."
-    },
-    {
-      "id": "FISIO-IN-URI-23",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "cólica renal · dor referida",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 5, item a",
-      "enunciado": "Mototaxista de 34 anos, que bebe pouca água no calor, tem dor súbita e intensa no flanco direito, \"em ondas\", que desce para a virilha e o testículo direito. A irradiação para o testículo se explica por:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Inflamação direta do testículo pelo cálculo."
-        },
-        {
-          "letra": "B",
-          "texto": "Dor referida: rim, ureter e testículo compartilham origem embrionária e segmentos medulares (T10–L2), e a dor é projetada para o dermátomo L1–L2 (nervo genitofemoral)."
-        },
-        {
-          "letra": "C",
-          "texto": "Irritação do peritônio parietal, com dor somática bem localizada."
-        },
-        {
-          "letra": "D",
-          "texto": "Compressão do nervo isquiático pelo rim distendido."
-        },
-        {
-          "letra": "E",
-          "texto": "Torção testicular secundária à cólica."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "A cólica é dor visceral (fibras C e Aδ → nervos simpáticos T10–L2) gerada pela distensão da pelve/cápsula e pela hiperperistalse contra o obstáculo. O testículo desce do retroperitônio (crista urogenital, T10–L1) e mantém a inervação visceral de origem, por isso recebe a dor referida; o exame testicular é normal (diferenciais: torção e epididimite). A dor \"desce\" conforme o cálculo migra: pelve/ureter superior → flanco (T10–T12); ureter médio → fossa ilíaca e virilha (L1–L2); ureter inferior → testículo/escroto e, perto da bexiga, urgência e disúria."
-    },
-    {
-      "id": "FISIO-IN-URI-24",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "cólica renal × apendicite",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 5, item b",
-      "enunciado": "Por que o paciente com cólica renal anda de um lado para outro, enquanto o paciente com apendicite costuma ficar imóvel?",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Porque a cólica renal é dor parietal, que alivia com o movimento."
-        },
-        {
-          "letra": "B",
-          "texto": "Porque na cólica a dor é visceral, intermitente, e não piora com o movimento; na apendicite o peritônio parietal inflamado (dor somática, fibras Aδ) dói com qualquer movimento, tosse ou respiração."
-        },
-        {
-          "letra": "C",
-          "texto": "Porque na apendicite há anestesia da parede abdominal."
-        },
-        {
-          "letra": "D",
-          "texto": "Porque o cálculo só se move quando o paciente anda."
-        },
-        {
-          "letra": "E",
-          "texto": "Porque a cólica renal cursa sempre com febre alta, que causa agitação."
-        }
-      ],
-      "gabarito": [
-        "B"
-      ],
-      "gabarito_texto": "B",
-      "gabarito_oficial": null,
-      "comentario": "Cólica renal: dor visceral, em ondas (fibras C); mudar de posição não altera o estímulo, então o paciente anda em busca de alívio; abdome flácido, sem descompressão; Giordano +. Apendicite/peritonite: dor parietal/somática contínua (fibras Aδ), peritônio sensibilizado por bradicinina, prostaglandinas e citocinas; qualquer movimento tensiona e dói; paciente imóvel com pernas fletidas, defesa, Blumberg, Rovsing, psoas."
-    },
-    {
-      "id": "FISIO-IN-URI-25",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "urosepse",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 5, item c",
-      "enunciado": "Paciente com cólica renal liberado após analgesia retorna dois dias depois com febre de 39,2 °C, calafrios, dor lombar contínua, PA 96 × 60 mmHg e FC 118 bpm. A conduta essencial, além da reanimação, é:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Antibiótico oral e nova alta com analgesia."
-        },
-        {
-          "letra": "B",
-          "texto": "Aguardar a eliminação espontânea do cálculo com hidratação vigorosa."
-        },
-        {
-          "letra": "C",
-          "texto": "Antibiótico IV na primeira hora e descompressão urgente da via urinária (cateter duplo J ou nefrostomia)."
-        },
-        {
-          "letra": "D",
-          "texto": "Litotripsia imediata, antes de controlar a infecção."
-        },
-        {
-          "letra": "E",
-          "texto": "Apenas AINE em dose alta para reduzir a pressão no sistema coletor."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "Obstrução + infecção = emergência urológica (pielonefrite obstrutiva/pionefrose evoluindo para sepse). A urina infectada está represada sob pressão, e as bactérias passam à circulação (refluxo pielovenoso); o antibiótico sozinho não resolve. Conduta: exames (hemograma, PCR, lactato, creatinina, EAS, urocultura, hemoculturas, US ou TC), reposição volêmica, antibiótico IV na primeira hora, drenagem urgente, UTI se choque. O cálculo é tratado depois (ureteroscopia ou litotripsia). Índice de choque do caso: 118 ÷ 96 ≈ 1,2 (> 1 sugere choque)."
-    },
-    {
-      "id": "FISIO-IN-URI-26",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "SHU",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Resumo: SHU",
-      "enunciado": "Criança de 4 anos, cinco dias após diarreia sanguinolenta por E. coli produtora de toxina Shiga, apresenta palidez, petéquias e oligúria. Sobre a síndrome hemolítico-urêmica típica, assinale a alternativa correta:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "A tríade é anemia hemolítica microangiopática (esquizócitos), trombocitopenia e lesão renal aguda, com coagulograma normal e Coombs negativo."
-        },
-        {
-          "letra": "B",
-          "texto": "O C3 baixo e o impetigo prévio confirmam o diagnóstico."
-        },
-        {
-          "letra": "C",
-          "texto": "O tratamento obrigatório é antibiótico e antidiarreico precoces."
-        },
-        {
-          "letra": "D",
-          "texto": "Há consumo de fatores de coagulação, com TP e TTPa alargados."
-        },
-        {
-          "letra": "E",
-          "texto": "A toxina age no podócito, causando proteinúria nefrótica."
-        }
-      ],
-      "gabarito": [
-        "A"
-      ],
-      "gabarito_texto": "A",
-      "gabarito_oficial": null,
-      "comentario": "A toxina Shiga lesa o endotélio (receptor Gb3, abundante no glomérulo da criança) → trombos de plaquetas e fibrina (microangiopatia trombótica): hemácias cisalhadas (esquizócitos, LDH ↑, haptoglobina ↓, Coombs negativo), plaquetas consumidas e isquemia glomerular (LRA). Coagulograma normal (D errada). Tratamento de suporte; **evitar** antibiótico e antidiarreico na diarreia por STEC (C errada). C3 baixo e impetigo são da GNPE (B)."
-    },
-    {
-      "id": "FISIO-IN-URI-27",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "diagnóstico diferencial da urina escura",
-      "tipo": "objetiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · quadro Urina escura",
-      "enunciado": "Urina escura com plasma rosado, haptoglobina baixa e LDH elevado, sem hemácias no sedimento, sugere:",
-      "imagem": null,
-      "alternativas": [
-        {
-          "letra": "A",
-          "texto": "Hematúria glomerular."
-        },
-        {
-          "letra": "B",
-          "texto": "Lesão pré-renal."
-        },
-        {
-          "letra": "C",
-          "texto": "Hemólise intravascular (hemoglobinúria)."
-        },
-        {
-          "letra": "D",
-          "texto": "Cistite hemorrágica."
-        },
-        {
-          "letra": "E",
-          "texto": "Síndrome nefrótica."
-        }
-      ],
-      "gabarito": [
-        "C"
-      ],
-      "gabarito_texto": "C",
-      "gabarito_oficial": null,
-      "comentario": "Quadro de diferenciais da urina escura no material: rabdomiólise (sem hemácias, CK muito alta); hemólise intravascular (sem hemácias, plasma rosado, haptoglobina ↓, LDH ↑); hematúria glomerular (hemácias dismórficas, proteinúria, cilindros hemáticos); pré-renal (sem hemácias, fita negativa, osmolalidade alta)."
-    },
-    {
-      "id": "FISIO-IN-URI-28",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "revisão dos 5 casos",
-      "tipo": "itens_vf",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Revisão final (autoteste)",
-      "enunciado": "Julgue os itens sobre a fisiopatologia urinária estudada na aula: ( ) Na síndrome nefrítica há HAS porque existe retenção real de sódio e água; na nefrótica o líquido está no interstício. ( ) No pré-renal por AINE + IECA, o AINE abre a arteríola eferente e o IECA fecha a aferente. ( ) A urina concentrada com Na⁺ baixo indica túbulo íntegro; a urina isostenúrica com cilindros granulosos indica NTA. ( ) Febre + hipotensão em paciente com cálculo ureteral indica urosepse, que exige antibiótico IV e drenagem urgente. ( ) Na DRC, atrito pericárdico e asterixis podem aguardar consulta ambulatorial.",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": [
-        "V",
-        "F",
-        "V",
-        "V",
-        "F"
-      ],
-      "gabarito_texto": "V, F, V, V, F",
-      "gabarito_oficial": null,
-      "comentario": "2º F: é o inverso — o AINE fecha a aferente (↓ prostaglandinas) e o IECA abre a eferente (↓ angiotensina II). 5º F: pericardite e encefalopatia urêmicas são indicações de diálise de urgência. Os demais itens reproduzem o autoteste do estudo dirigido."
-    },
-    {
-      "id": "FISIO-IN-URI-29",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "LRA pré-renal · caso clínico",
-      "tipo": "discursiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Caso 3",
-      "enunciado": "Homem de 52 anos, hipertenso em uso de enalapril, trabalha cinco dias na colheita sob calor intenso bebendo pouca água e há uma semana toma diclofenaco três vezes ao dia. Refere tontura ao levantar, câimbras e \"urina escura e pouca\". Ao exame: mucosas secas, TEC 4 s, PA 104 × 68 mmHg deitado e 84 × 56 mmHg em pé, FC 108 → 128 bpm, jugulares colabadas, Giordano negativo e sem globo vesical.\n\na) Classifique a lesão renal aguda e justifique.\nb) Explique, pelo modelo das \"duas torneiras\", o papel do diclofenaco e do enalapril.\nc) Que diagnóstico adicional deve ser lembrado por causa das câimbras e da urina escura, e que exame o confirma?",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": null,
-      "gabarito_texto": "",
-      "gabarito_oficial": null,
-      "comentario": null,
-      "resposta_modelo": "a) LRA **pré-renal** (hemodinâmica): hipovolemia por calor e pouca ingestão de água, agravada por AINE e IECA, com túbulos ainda íntegros. Mucosas secas, TEC 4 s, hipotensão ortostática com taquicardia compensatória e jugulares colabadas comprovam a depleção de volume; Giordano negativo e ausência de globo vesical afastam obstrução (pós-renal); sem edema, hematúria ou proteinúria, não há sinais de lesão intrínseca no momento.\n\nb) A TFG depende da pressão no capilar glomerular, controlada pela aferente (entrada) e pela eferente (saída). Na hipovolemia, prostaglandinas dilatam a aferente e a angiotensina II contrai a eferente, preservando a filtração. O **diclofenaco** inibe a COX e as prostaglandinas → a aferente se contrai (fecha a entrada). O **enalapril** bloqueia a angiotensina II → a eferente se dilata (abre a saída). Resultado: queda da pressão glomerular e da TFG. Conduta: suspender o AINE (e temporariamente o IECA), reidratar, monitorar creatinina e potássio.\n\nc) **Rabdomiólise** (esforço intenso no calor + câimbras + urina escura): dosar **CK/CPK** — CK > 5× o normal; a fita de urina dá positiva para sangue, mas sem hemácias na microscopia."
-    },
-    {
-      "id": "FISIO-IN-URI-30",
-      "materia": "Fisiopatologia (SOP IV)",
-      "prova": "PR2",
-      "tema": "Fisio do sistema urinário",
-      "subtema": "nefrítica × nefrótica · caso clínico",
-      "tipo": "discursiva",
-      "origem": "inédita",
-      "fonte": "Estudo dirigido Sistema urinário (Aula 11) · Casos 1 e 2",
-      "enunciado": "Compare a síndrome nefrítica e a síndrome nefrótica quanto a: (a) local e tipo de lesão glomerular; (b) achados urinários; (c) volume intravascular, pressão arterial e jugulares; (d) complicação típica de cada uma. Explique por que um paciente nefrótico com anasarca pode ter PA normal, enquanto a criança nefrítica fica hipertensa.",
-      "imagem": null,
-      "alternativas": [],
-      "gabarito": null,
-      "gabarito_texto": "",
-      "gabarito_oficial": null,
-      "comentario": null,
-      "resposta_modelo": "(a) **Nefrítica:** inflamação glomerular proliferativa (ex.: GNPE por imunocomplexos). **Nefrótica:** lesão dos podócitos/barreira de filtração.\n\n(b) **Nefrítica:** hematúria dismórfica (\"Coca-Cola\"), cilindros hemáticos, proteinúria leve a moderada, oligúria. **Nefrótica:** proteinúria maciça (> 3,5 g/24 h), espuma, lipidúria (\"cruzes de Malta\").\n\n(c) **Nefrítica:** TFG ↓ → retenção real de Na⁺ e água → hipervolemia, HAS (renina suprimida), jugulares podem estar túrgidas, crepitações por congestão. **Nefrótica:** TFG normal ou pouco ↓; o líquido sai para o interstício pela ↓ da pressão oncótica, então o volume intravascular é normal ou reduzido — PA normal (em geral) e jugulares planas.\n\n(d) **Nefrítica:** encefalopatia hipertensiva, edema agudo de pulmão (vigiar também hipercalemia). **Nefrótica:** TVP/TEP e trombose de veia renal (perda de antitrombina III, proteínas C e S), infecções, hiperlipidemia.\n\nPor que a diferença de PA: no nefrótico o problema é perda de albumina, não de filtração — o edema é do interstício e o plasma fica relativamente depletado; na nefrítica o glomérulo inflamado filtra menos e o rim retém sal e água, expandindo o volume plasmático."
+     "letra": "E",
+     "texto": "A hiperlipidemia ocorre pelo aumento da síntese hepática de lipoproteínas, estimulada pela hipoalbuminemia."
     }
-  ]
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Lesões mínimas é a causa mais frequente de síndrome **nefrótica** na criança (não nefrítica). Nefrótica: proteinúria ≥ 3,5 g/dia, hipoalbuminemia, edema, hiperlipidemia/lipidúria."
+  },
+  {
+   "id": "FISIO-PF-URI-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "GN pós-estreptocócica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndrome nefrítica (GN pós-infecciosa)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um menino de 9 anos é levado ao pronto-socorro com edema periorbitário, urina \"cor de coca-cola\", oligúria e pressão arterial elevada. Teve faringoamigdalite há cerca de 2 semanas. Os exames mostram creatinina elevada, C3 reduzido e cilindros hemáticos na urina. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O edema é causado exclusivamente pela perda urinária maciça de proteínas, como na síndrome nefrótica."
+    },
+    {
+     "letra": "B",
+     "texto": "A deposição de imunocomplexos nos glomérulos ativa o complemento e recruta leucócitos, causando proliferação endocapilar, queda da filtração glomerular e as manifestações da síndrome nefrítica."
+    },
+    {
+     "letra": "C",
+     "texto": "O complemento baixo indica deficiência congênita de C3, sem relação com a infecção estreptocócica."
+    },
+    {
+     "letra": "D",
+     "texto": "A hematúria resulta do aumento da pressão oncótica intraglomerular, sem inflamação da barreira de filtração."
+    },
+    {
+     "letra": "E",
+     "texto": "A lesão decorre da deposição linear de anticorpos antimembrana basal glomerular, típica da glomerulonefrite pós-estreptocócica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "GNPE: imunocomplexos (granulares, \"corcovas\" subepiteliais) → complemento consumido (C3 ↓), inflamação e proliferação → ↓ TFG, retenção de sódio e água (edema e HAS), hematúria com cilindros hemáticos e proteinúria < 3,5 g. Deposição linear = doença anti-MBG."
+  },
+  {
+   "id": "FISIO-PF-URI-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefrítica × nefrótica",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · alterações na urina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Se o sedimento urinário de uma paciente jovem com edema e hipertensão arterial de aparecimento recente mostrar cilindros hemáticos, é mais provável que ela seja portadora de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Síndrome nefrótica por doença de lesões mínimas."
+    },
+    {
+     "letra": "B",
+     "texto": "Glomerulosclerose segmentar e focal."
+    },
+    {
+     "letra": "C",
+     "texto": "Cistite bacteriana aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "Glomerulonefrite membranosa idiopática."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome nefrítica por glomerulonefrite proliferativa aguda."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Cilindros **hemáticos** indicam sangramento glomerular inflamatório: marca da síndrome nefrítica. Lesões mínimas, membranosa e GESF dão síndrome nefrótica."
+  },
+  {
+   "id": "FISIO-PF-URI-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "síndrome nefrítica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndromes glomerulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 27 anos refere edema de face e mãos há dois dias, urina marrom-avermelhada e redução do volume urinário. Teve dor de garganta e febre há duas semanas. PA 160 × 100 mmHg. A fita urinária mostra 3+ de sangue e 2+ de proteína. Analise as afirmativas e assinale a alternativa com todas as corretas:\n\nI. Insuficiência renal aguda com hipertensão, edema e hematúria em jovem sem doença prévia é altamente sugestiva de lesão glomerular, caracterizando uma síndrome nefrítica.\nII. A infecção de garganta recente sugere glomerulonefrite pós-infecciosa, mediada por imunocomplexos.\nIII. A proteinúria de 2+ com edema facial indica obrigatoriamente síndrome nefrótica.\nIV. A hipertensão decorre da retenção de sódio e água pela queda da filtração glomerular.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e II, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Hematúria + HAS + edema + oligúria + pródromo infeccioso = **nefrítica** (GNPE). A proteinúria na nefrítica é geralmente < 3,5 g/dia."
+  },
+  {
+   "id": "FISIO-PF-URI-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefropatia diabética",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndromes glomerulares e doenças sistêmicas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 52 anos, diabética tipo 2 há 15 anos, com retinopatia e neuropatia periférica, apresenta edema recente em pernas e face. A urina mostra proteína 3+ e glicose 2+, sem hematúria. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A presença de retinopatia afasta a origem diabética da doença renal."
+    },
+    {
+     "letra": "B",
+     "texto": "Em condições normais, os rins excretam quantidades apreciáveis de proteína, de modo que a proteinúria não tem significado."
+    },
+    {
+     "letra": "C",
+     "texto": "Pacientes com síndrome nefrótica nunca apresentam doença sistêmica associada."
+    },
+    {
+     "letra": "D",
+     "texto": "A nefropatia diabética é causa importante de síndrome nefrótica no adulto, e seus estágios iniciais podem ser detectados pela microalbuminúria."
+    },
+    {
+     "letra": "E",
+     "texto": "A proteinúria maciça leva ao aumento da albumina sérica e da pressão oncótica, causando edema."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Nefropatia diabética: espessamento da MBG, expansão mesangial, glomerulosclerose nodular (Kimmelstiel-Wilson); começa com microalbuminúria e evolui para proteinúria nefrótica e DRC. Retinopatia reforça a origem diabética."
+  },
+  {
+   "id": "FISIO-PF-URI-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "necrose tubular aguda · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · lesão renal aguda e lesão tubular aguda",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 66 anos internado na UTI por choque séptico evolui, após hipotensão prolongada, com oligúria e aumento progressivo da creatinina. A urina mostra cilindros granulosos \"cor de lama\" e células epiteliais tubulares. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O principal mecanismo de queda da filtração é a perda da carga negativa da membrana basal glomerular."
+    },
+    {
+     "letra": "B",
+     "texto": "Na lesão tubular aguda a urina é concentrada e o sódio urinário é muito baixo, como na lesão pré-renal."
+    },
+    {
+     "letra": "C",
+     "texto": "A isquemia lesa principalmente o epitélio tubular; células descamadas e cilindros obstruem os túbulos, elevam a pressão intratubular e contribuem para a queda da filtração glomerular."
+    },
+    {
+     "letra": "D",
+     "texto": "A oligúria decorre de proteinúria maciça e hipoalbuminemia."
+    },
+    {
+     "letra": "E",
+     "texto": "A lesão tubular aguda caracteriza-se por necrose uniforme de todos os néfrons, o que torna o quadro irreversível na maioria dos casos."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "NTA isquêmica: lesão focal do epitélio tubular (túbulo proximal e alça espessa), obstrução por cilindros, retrovazamento do filtrado, vasoconstrição intrarrenal. É geralmente **reversível** (o epitélio regenera). Na NTA o túbulo perde a capacidade de concentrar: sódio urinário alto."
+  },
+  {
+   "id": "FISIO-PF-URI-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefrite intersticial aguda · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · interstício e lesão renal aguda",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 23 anos usou anti-inflamatórios e dipirona por 8 dias por quadro gripal. Apresenta eritema cutâneo, febre baixa e queda do volume urinário há dois dias. Creatinina 2,3 mg/dL; urina com leucocitúria importante (com eosinófilos), hematúria discreta e proteinúria negativa. O diagnóstico mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pielonefrite aguda."
+    },
+    {
+     "letra": "B",
+     "texto": "Síndrome nefrótica por lesões mínimas."
+    },
+    {
+     "letra": "C",
+     "texto": "Glomerulonefrite pós-estreptocócica."
+    },
+    {
+     "letra": "D",
+     "texto": "Insuficiência renal pré-renal."
+    },
+    {
+     "letra": "E",
+     "texto": "Nefrite tubulointersticial aguda induzida por fármaco."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Fármaco (AINE, antibióticos) + febre, rash, leucocitúria/eosinofilúria, sem proteinúria importante = **nefrite intersticial aguda** (reação de hipersensibilidade no interstício)."
+  },
+  {
+   "id": "FISIO-PF-URI-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "doenças renais · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · pielonefrite, membranosa, NTA, DRC",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as doenças renais, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A pielonefrite aguda é uma inflamação supurativa do rim e da pelve renal causada por infecção bacteriana, geralmente ascendente a partir do trato urinário inferior."
+    },
+    {
+     "letra": "B",
+     "texto": "O hipoparatireoidismo é uma consequência esperada da insuficiência renal crônica grave."
+    },
+    {
+     "letra": "C",
+     "texto": "A necrose e o desprendimento de células epiteliais tubulares podem obstruir o fluxo urinário, aumentando a pressão intratubular e agravando a queda da filtração glomerular."
+    },
+    {
+     "letra": "D",
+     "texto": "A maioria dos casos de nefropatia membranosa apresenta-se como síndrome nefrótica no adulto."
+    },
+    {
+     "letra": "E",
+     "texto": "A glomerulonefrite pós-infecciosa aguda caracteriza-se pela deposição glomerular de imunocomplexos, que resulta em inflamação e dano aos glomérulos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Na DRC ocorre hiper**para**tireoidismo **secundário**: retenção de fosfato, ↓ calcitriol e hipocalcemia estimulam o PTH (osteodistrofia renal). Também anemia por ↓ eritropoetina."
+  },
+  {
+   "id": "FISIO-PF-URI-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "doença renal crônica",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · manifestações clínicas e azotemia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a fisiopatologia da doença renal crônica, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A anemia da doença renal crônica decorre principalmente da menor produção de eritropoetina pelo rim.\nII. A redução da ativação da vitamina D e a retenção de fosfato levam a hipocalcemia e hiperparatireoidismo secundário.\nIII. Azotemia é a elevação de ureia e creatinina no sangue; quando acompanhada de sinais e sintomas clínicos, denomina-se uremia.\nIV. A acidose metabólica não ocorre na DRC, pois o rim doente aumenta a excreção de ácidos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Na DRC o rim perde a capacidade de excretar ácidos e gerar bicarbonato → **acidose metabólica**."
+  },
+  {
+   "id": "FISIO-PF-URI-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "pielonefrite aguda",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · pielonefrite e infecção do trato urinário",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 26 anos apresenta febre de 39 °C, calafrios, dor lombar à direita, disúria e polaciúria, com sinal de Giordano positivo. A urina mostra piúria, bacteriúria e cilindros leucocitários. Sobre a fisiopatologia do quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O refluxo vesicoureteral protege o rim contra a ascensão bacteriana."
+    },
+    {
+     "letra": "B",
+     "texto": "Cilindros leucocitários indicam inflamação restrita à bexiga (cistite)."
+    },
+    {
+     "letra": "C",
+     "texto": "A infecção chega ao rim principalmente por via hematogênica, a partir de focos cutâneos."
+    },
+    {
+     "letra": "D",
+     "texto": "A via mais comum é a ascendente, com bactérias da flora intestinal (sobretudo E. coli) que colonizam a uretra, atingem a bexiga e sobem pelos ureteres até a pelve e o parênquima renal."
+    },
+    {
+     "letra": "E",
+     "texto": "A pielonefrite aguda é uma inflamação não supurativa, mediada por imunocomplexos."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Pielonefrite aguda: inflamação **supurativa** de rim e pelve; via ascendente (E. coli); fatores: obstrução, refluxo vesicoureteral, gestação, sexo feminino, diabetes, cateterismo. Cilindros leucocitários indicam acometimento renal."
+  },
+  {
+   "id": "FISIO-PF-URI-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "síndrome nefrótica · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndromes glomerulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Homem de 27 anos refere edema de face e mãos há dois dias, com dificuldade para colocar a aliança. Apresenta edema de pés, mãos e face. A fita urinária mostra densidade 1.025 e 3+ de proteína, sendo o restante negativo.\n\na) Qual síndrome acomete esse paciente e quais patologias podem causá-la? (0,5)\nb) Qual a fisiopatologia da condição? (0,5)\nc) Explique o mecanismo do edema. (0,5)",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**a)** **Síndrome nefrótica** (proteinúria maciça sem hematúria). Causas primárias no adulto: **nefropatia membranosa**, **glomerulosclerose segmentar e focal**, **doença de lesões mínimas** (mais comum na criança), GN membranoproliferativa; secundárias: diabetes, lúpus, amiloidose, infecções (hepatites B/C, HIV), fármacos.\n\n**b)** Lesão da barreira de filtração (podócitos/membrana basal) → aumento da permeabilidade a proteínas → **proteinúria ≥ 3,5 g/dia** → **hipoalbuminemia**; o fígado aumenta a síntese de lipoproteínas → **hiperlipidemia** e lipidúria; perda de imunoglobulinas e de anticoagulantes → infecções e tromboses.\n\n**c)** A hipoalbuminemia reduz a **pressão oncótica** do plasma → líquido passa para o interstício; a queda do volume efetivo ativa o sistema renina-angiotensina-aldosterona → **retenção de sódio e água**, que perpetua o edema (mole, generalizado, periorbitário pela manhã).",
+   "comentario": null
+  },
+  {
+   "id": "FISIO-PF-URI-12",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefrítica × nefrótica",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Urinário (Prof. Fernando Vanraj) · Robbins cap. Rim · temas recorrentes nas provas · síndromes glomerulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie síndrome nefrítica de síndrome nefrótica quanto ao mecanismo, às manifestações clínicas e aos achados urinários, citando um exemplo de doença para cada uma.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| | Nefrítica | Nefrótica |\n|---|---|---|\n| Mecanismo | Inflamação glomerular (imunocomplexos, proliferação) → ↓ TFG | ↑ permeabilidade da barreira (podócitos/MBG) → perda de proteínas |\n| Clínica | Hematúria, oligúria, HAS, edema leve, azotemia | Edema intenso/anasarca, hiperlipidemia, tromboses, infecções |\n| Urina | Hematúria com **cilindros hemáticos**, proteinúria < 3,5 g/dia | Proteinúria ≥ 3,5 g/dia, lipidúria (corpos graxos ovais), sem hematúria importante |\n| Exemplo | GN pós-estreptocócica | Lesões mínimas, membranosa, GESF, nefropatia diabética |",
+   "comentario": null
+  }
+ ]
 }

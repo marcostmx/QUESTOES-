@@ -1,0 +1,443 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema nervoso (formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-08",
+  "base": "Resumo FISIOPATOLOGIA - PR2 (Drive) e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (edema, HIC e herniação, hematomas, AVE, HSA, meningites, neurodegenerativas, lesão neuronal), no formato do professor: \"assinale a INCORRETA\", afirmativas I–IV, casos e discursivas."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-SNC-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "edema, HIC e herniação · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · edema, hidrocefalia, herniação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A principal unidade funcional do sistema nervoso central (SNC) é o neurônio, que tem metabolismo elevado e depende de oferta contínua de glicose e oxigênio. Sobre as lesões que ocorrem nesse sistema, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O edema citotóxico é o aumento do líquido extracelular causado pela ruptura da barreira hematoencefálica e pelo aumento da permeabilidade vascular, como ocorre ao redor de tumores e abscessos."
+    },
+    {
+     "letra": "B",
+     "texto": "Na herniação subfalcina, o giro do cíngulo é deslocado sob a borda da foice do cérebro, podendo comprimir ramos da artéria cerebral anterior."
+    },
+    {
+     "letra": "C",
+     "texto": "A hidrocefalia é o acúmulo de excesso de líquido cefalorraquidiano no interior do sistema ventricular, com aumento das dimensões dos ventrículos e possível elevação da pressão intracraniana."
+    },
+    {
+     "letra": "D",
+     "texto": "O aumento da pressão intracraniana pode reduzir a pressão de perfusão cerebral, levando à isquemia, que por sua vez agrava o edema."
+    },
+    {
+     "letra": "E",
+     "texto": "A herniação é o deslocamento do tecido encefálico para além das dobras durais rígidas (foice e tentório) ou através de aberturas do crânio, em decorrência do aumento da pressão intracraniana."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A descrição é do edema **vasogênico** (ruptura da BHE, líquido extracelular; tumores, abscessos, inflamação). O **citotóxico** é intracelular: falha da Na⁺/K⁺-ATPase por falta de ATP (isquemia, hipóxia), com entrada de Na⁺ e água na célula. É a palavra trocada clássica das provas."
+  },
+  {
+   "id": "FISIO-PF-SNC-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "edema osmótico · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · edema cerebral (vasogênico, citotóxico, osmótico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um homem de 34 anos, em tratamento de esquizofrenia, é trazido à emergência após ingerir cerca de 8 litros de água em poucas horas. Apresenta cefaleia, vômitos, confusão mental e uma crise convulsiva. O sódio sérico é de 114 mEq/L e a tomografia não mostra lesão estrutural. Assinale a alternativa que explica corretamente o edema cerebral desse paciente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O edema intersticial decorre da obstrução do aqueduto cerebral e da transudação de líquor para a substância branca periventricular."
+    },
+    {
+     "letra": "B",
+     "texto": "A falência energética por isquemia focal leva ao edema citotóxico restrito ao território de uma artéria cerebral."
+    },
+    {
+     "letra": "C",
+     "texto": "O excesso de água aumenta a osmolaridade plasmática e retira água das células cerebrais, causando desidratação neuronal."
+    },
+    {
+     "letra": "D",
+     "texto": "A ruptura da barreira hematoencefálica pela hiponatremia permite a passagem de proteínas plasmáticas para o interstício, configurando edema vasogênico."
+    },
+    {
+     "letra": "E",
+     "texto": "A queda da osmolaridade plasmática em relação à do tecido cerebral desloca água para dentro das células cerebrais, causando edema mesmo com a barreira hematoencefálica íntegra."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Edema **osmótico**: plasma hipo-osmolar (hiponatremia) → água entra nas células, sem ruptura da BHE. Vasogênico = BHE rota; citotóxico = falência energética; intersticial (hidrocefálico) = líquor transudando para a substância branca periventricular."
+  },
+  {
+   "id": "FISIO-PF-SNC-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "hematomas · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · lesão vascular traumática (hematoma epidural e subdural)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um idoso de 81 anos, etilista e em uso de anticoagulante, é trazido pela filha por confusão mental progressiva, sonolência e cefaleia há três semanas. Ela lembra que ele caiu em casa e bateu a cabeça há cerca de um mês, sem perder a consciência. A tomografia mostra coleção em forma de crescente sobre o hemisfério esquerdo, cruzando as linhas de sutura. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O quadro é típico de hemorragia subaracnóidea por ruptura de aneurisma sacular, com cefaleia súbita \"a pior da vida\"."
+    },
+    {
+     "letra": "B",
+     "texto": "O hematoma subdural ocorre entre o crânio e a dura-máter e evolui tipicamente com intervalo lúcido de poucas horas."
+    },
+    {
+     "letra": "C",
+     "texto": "Trata-se de hematoma subdural, causado pela ruptura de veias-ponte entre o córtex e os seios durais; a atrofia cerebral do idoso estira essas veias e favorece o sangramento após trauma leve."
+    },
+    {
+     "letra": "D",
+     "texto": "Trata-se de hematoma epidural por ruptura da artéria meníngea média, cuja coleção biconvexa costuma cruzar as suturas cranianas."
+    },
+    {
+     "letra": "E",
+     "texto": "A lentidão da evolução indica sangramento arterial de alta pressão, limitado pelas suturas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "**Subdural**: veias-ponte, entre dura e aracnoide, crescente que cruza suturas, evolução lenta (idoso, atrofia, anticoagulação, etilismo). **Epidural**: artéria meníngea média (fratura temporal), entre crânio e dura, biconvexo limitado pelas suturas, intervalo lúcido e piora em horas."
+  },
+  {
+   "id": "FISIO-PF-SNC-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "AVE e hematomas",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · infarto cerebral, embolia, hematomas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as afirmativas, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Os sinais e sintomas focais do AVE correlacionam-se com a área do encéfalo irrigada pelo vaso afetado.\nII. Êmbolos provenientes do coração, do arco aórtico ou das carótidas geralmente ocluem a artéria cerebral média, que recebe a maior parte do fluxo destinado ao hemisfério.\nIII. O hematoma epidural origina-se geralmente da ruptura de veias-ponte, com sangramento lento entre a dura-máter e a aracnoide.\nIV. No infarto cerebral há uma área central de necrose e uma penumbra isquêmica, tecido em risco que ainda pode ser recuperado se o fluxo for restabelecido a tempo.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O epidural vem da **artéria meníngea média** (entre crânio e dura); veias-ponte = subdural."
+  },
+  {
+   "id": "FISIO-PF-SNC-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "AVE · caso INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · infarto cerebral e hemorragia intracraniana",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uma mulher de 71 anos, hipertensa e com fibrilação atrial sem anticoagulação, é trazida à emergência 40 minutos após início súbito de dificuldade para falar e fraqueza no braço e na face à direita, mais intensa no membro superior que no inferior. Assinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hemiparesia de predomínio braquiofacial com afasia aponta para lesão do hemisfério dominante no território da artéria cerebral média."
+    },
+    {
+     "letra": "B",
+     "texto": "Os déficits apresentados indicam hipoperfusão no território da artéria cerebral média direita."
+    },
+    {
+     "letra": "C",
+     "texto": "A fibrilação atrial favorece a formação de trombos no átrio esquerdo, que podem embolizar para a circulação cerebral."
+    },
+    {
+     "letra": "D",
+     "texto": "O AVE hemorrágico causa lesão também pelo efeito de massa do hematoma sobre o tecido cerebral."
+    },
+    {
+     "letra": "E",
+     "texto": "O diagnóstico mais provável, diante de déficits focais de início abrupto, é um evento cerebrovascular agudo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Déficit à **direita** com afasia = hemisfério **esquerdo** (dominante), território da ACM **esquerda**. Predomínio braquiofacial = ACM; predomínio crural = ACA."
+  },
+  {
+   "id": "FISIO-PF-SNC-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "HSA · aneurisma sacular",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · hemorragia subaracnoide e aneurisma sacular",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 46 anos, tabagista e hipertensa, apresenta cefaleia súbita e intensíssima durante esforço, descrita como \"a pior dor da vida\", seguida de vômitos, rigidez de nuca e breve perda de consciência. Sobre a principal hipótese, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "AVE isquêmico lacunar por lipo-hialinose de pequenas artérias penetrantes."
+    },
+    {
+     "letra": "B",
+     "texto": "Meningite bacteriana aguda, já que a rigidez de nuca exclui hemorragia."
+    },
+    {
+     "letra": "C",
+     "texto": "Hemorragia intraparenquimatosa hipertensiva dos núcleos da base, que nunca causa sinais meníngeos."
+    },
+    {
+     "letra": "D",
+     "texto": "Hematoma epidural por ruptura da artéria meníngea média, sem relação com aneurismas."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemorragia subaracnóidea, cuja causa não traumática mais frequente é a ruptura de aneurisma sacular, geralmente no polígono de Willis."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Cefaleia em trovoada + meningismo = **HSA**; aneurisma sacular (moriforme) do polígono de Willis é a causa mais comum não traumática. O sangue no espaço subaracnoide irrita as meninges."
+  },
+  {
+   "id": "FISIO-PF-SNC-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "meningites",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · rotas de infecção, meningite, meningoencefalite",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante de 19 anos, morador de alojamento universitário, apresenta febre alta, cefaleia intensa, vômitos, rigidez de nuca e confusão há 18 horas. O líquor é turvo, com 2.800 células/mm³ (predomínio de neutrófilos), proteína elevada e glicose muito baixa. Assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A glicose baixa no líquor é explicada por hipoglicemia sistêmica, sem relação com a infecção meníngea."
+    },
+    {
+     "letra": "B",
+     "texto": "O quadro é de meningite bacteriana aguda (piogênica): o exsudato neutrofílico no espaço subaracnoide consome glicose e eleva as proteínas do líquor."
+    },
+    {
+     "letra": "C",
+     "texto": "O predomínio de neutrófilos indica meningite tuberculosa crônica."
+    },
+    {
+     "letra": "D",
+     "texto": "O agente chega ao SNC exclusivamente por extensão direta de uma sinusite, nunca por via hematogênica."
+    },
+    {
+     "letra": "E",
+     "texto": "O quadro é de meningite viral (asséptica), caracterizada por líquor turvo com neutrófilos e glicose baixa."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Bacteriana: líquor turvo, neutrófilos, proteína ↑, **glicose ↓**. Viral: líquor claro, linfócitos, proteína pouco ↑, glicose **normal**. Tuberculosa: linfócitos, proteína muito ↑, glicose ↓, evolução subaguda. A via mais comum é a hematogênica."
+  },
+  {
+   "id": "FISIO-PF-SNC-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "neurodegenerativas · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · doenças neurodegenerativas (Alzheimer, Parkinson, Huntington, ELA)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "As doenças neurodegenerativas caracterizam-se pela perda progressiva de neurônios e acometem, tipicamente, grupos de neurônios com interconexões funcionais. Sobre esse tema, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A doença de Parkinson tem como evento central o acúmulo extracelular de peptídeo β-amiloide em placas neuríticas no córtex."
+    },
+    {
+     "letra": "B",
+     "texto": "A doença de Huntington é causada por expansão de repetições do trinucleotídeo CAG no gene da huntingtina (4p16.3), com perda de neurônios do estriado."
+    },
+    {
+     "letra": "C",
+     "texto": "Na doença de Parkinson há perda de neurônios dopaminérgicos da substância negra e corpúsculos de Lewy contendo α-sinucleína."
+    },
+    {
+     "letra": "D",
+     "texto": "A esclerose lateral amiotrófica cursa com perda de neurônios motores superiores e inferiores, com sinais piramidais, atrofia e fasciculações, sem alteração sensitiva."
+    },
+    {
+     "letra": "E",
+     "texto": "A doença de Alzheimer é a causa mais comum de demência em idosos e apresenta placas de β-amiloide e emaranhados neurofibrilares de proteína tau."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "β-amiloide é do **Alzheimer**. Parkinson: perda dopaminérgica da substância negra, corpúsculos de Lewy (α-sinucleína), déficit de dopamina no estriado → tremor de repouso, rigidez, bradicinesia."
+  },
+  {
+   "id": "FISIO-PF-SNC-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "parkinsonismo atípico · caso",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · Parkinson e parkinsonismos (Prova 26.1)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 70 anos com lentificação motora há 1 ano, quedas frequentes desde o início do quadro, dificuldade para olhar para baixo e fala arrastada. Ao exame: bradicinesia e rigidez axial simétricas, instabilidade postural precoce, limitação do olhar vertical e ausência de tremor de repouso. O diagnóstico mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Esclerose lateral amiotrófica."
+    },
+    {
+     "letra": "B",
+     "texto": "Doença de Parkinson idiopática."
+    },
+    {
+     "letra": "C",
+     "texto": "Doença de Huntington."
+    },
+    {
+     "letra": "D",
+     "texto": "Paralisia supranuclear progressiva."
+    },
+    {
+     "letra": "E",
+     "texto": "Doença de Alzheimer."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Quedas precoces + paralisia do olhar vertical + parkinsonismo simétrico axial, sem tremor = **PSP** (taupatia). Parkinson idiopático: início assimétrico, tremor de repouso, rigidez em roda denteada, quedas tardias."
+  },
+  {
+   "id": "FISIO-PF-SNC-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "lesão celular no SNC",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · lesão celular no SNC",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as reações das células do sistema nervoso central à lesão, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. O neurônio vermelho (lesão neuronal aguda) surge 12 a 24 horas após hipóxia ou isquemia irreversível, com retração do corpo celular, picnose e citoplasma intensamente eosinofílico.\nII. A gliose, hipertrofia e hiperplasia de astrócitos, é o indicador histopatológico mais importante de lesão do SNC, qualquer que seja a causa.\nIII. Os neurônios maduros têm grande capacidade de regeneração, o que explica a recuperação completa após um infarto extenso.\nIV. Na isquemia, a falta de ATP leva à liberação excessiva de glutamato e influxo de cálcio, mecanismo conhecido como excitotoxicidade.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma das afirmativas está correta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Neurônios praticamente **não se regeneram**; a área infartada vira cavidade cercada por gliose."
+  },
+  {
+   "id": "FISIO-PF-SNC-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "Alzheimer × Parkinson",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · doenças neurodegenerativas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie os aspectos fisiopatológicos da doença de Alzheimer e da doença de Parkinson (0,5 ponto).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Alzheimer**: neurodegeneração cortical (hipocampo, córtex associativo), com **placas neuríticas de β-amiloide** (extracelulares, derivadas da APP) e **emaranhados neurofibrilares de tau hiperfosforilada** (intracelulares); perda de neurônios colinérgicos e atrofia cortical com dilatação ventricular. Clínica: demência progressiva começando pela memória recente.\n\n**Parkinson**: perda de **neurônios dopaminérgicos da substância negra** (parte compacta), com **corpúsculos de Lewy** (α-sinucleína); a falta de dopamina no estriado desequilibra a via nigroestriatal. Clínica: tremor de repouso, rigidez em roda denteada, bradicinesia e instabilidade postural.",
+   "comentario": null
+  },
+  {
+   "id": "FISIO-PF-SNC-12",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema nervoso",
+   "subtema": "tipos de edema e HIC",
+   "origem": "inédita",
+   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Nervoso Central · Robbins cap. SNC · temas recorrentes nas provas do Prof. Fernando · edema cerebral, HIC, herniações",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique as diferenças fisiopatológicas entre os tipos de edema cerebral e cite as principais causas de aumento da pressão intracraniana e os tipos de herniação.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Vasogênico**: ruptura da barreira hematoencefálica e ↑ permeabilidade → líquido no espaço **extracelular** (tumor, abscesso, inflamação, trauma).\n**Citotóxico**: falência da Na⁺/K⁺-ATPase por falta de ATP → Na⁺ e água **dentro das células** (isquemia, hipóxia).\n**Osmótico**: plasma hipo-osmolar (hiponatremia) → água entra nas células com BHE íntegra.\n**Intersticial (hidrocefálico)**: líquor transuda para a substância branca periventricular na hidrocefalia.\n\n**Causas de HIC**: edema, massas (tumor, abscesso, hematomas), hemorragias, hidrocefalia, meningite.\n\n**Herniações**: **subfalcina** (giro do cíngulo sob a foice; compressão da ACA); **transtentorial/uncal** (úncus sob o tentório; compressão do III par — midríase ipsilateral — e da ACP; hemorragias de Duret no tronco); **tonsilar** (amígdalas cerebelares no forame magno; compressão do bulbo, parada cardiorrespiratória).",
+   "comentario": null
+  }
+ ]
+}
