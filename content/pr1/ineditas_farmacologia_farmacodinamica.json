@@ -1,0 +1,1163 @@
+{
+ "meta": {
+  "titulo": "Farmacodinâmica — 30 questões estilo prova (PR1)",
+  "gerado_em": "2026-09-18",
+  "base": "Arquivo \"Farmacodinamica-30-Questoes-Agonistas-Antagonistas.pdf\" (Drive, FARMACOLOGIA/PR1): 30 questões construídas a partir da apostila das Aulas 1, 2 e 3, com gabarito comentado. Não são questões de prova; entram como inéditas."
+ },
+ "questoes": [
+  {
+   "id": "FD30-Q01",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.1 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A sildenafila foi desenvolvida para hipertensão pulmonar e insuficiência cardíaca, e durante os ensaios clínicos revelou o efeito que a consagrou. Rubor facial e cefaleia permanecem como efeitos adversos frequentes. Esse conjunto de achados ilustra diretamente qual princípio da farmacodinâmica?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Todo fármaco com alta afinidade tem alta eficácia."
+    },
+    {
+     "letra": "B",
+     "texto": "Nenhuma substância é 100% seletiva, pois o mesmo alvo pode existir em vários tecidos."
+    },
+    {
+     "letra": "C",
+     "texto": "A potência de um fármaco é determinada pela sua via de administração."
+    },
+    {
+     "letra": "D",
+     "texto": "Fármacos que agem em enzimas não produzem efeitos adversos."
+    },
+    {
+     "letra": "E",
+     "texto": "A biodisponibilidade define a seletividade tecidual."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "É a \"primeira regra básica da dinâmica\": nenhuma substância é 100% seletiva. A fosfodiesterase inibida pela sildenafila é mais concentrada na região peniana, mas existe em outros tecidos — daí rubor facial e cefaleia. Armadilha: a letra a inverte afinidade com eficácia, conceitos independentes."
+  },
+  {
+   "id": "FD30-Q02",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.2 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A talidomida existe como mistura de dois isômeros espaciais: um com efeito sedativo/antiemético e outro teratogênico (focomelia). O caso é usado em aula para demonstrar que:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a afinidade depende exclusivamente do peso molecular."
+    },
+    {
+     "letra": "B",
+     "texto": "isômeros espaciais sempre se ligam ao mesmo sítio com a mesma consequência."
+    },
+    {
+     "letra": "C",
+     "texto": "pequenas diferenças estereoquímicas alteram o reconhecimento molecular e, portanto, o efeito — relação estrutura-atividade."
+    },
+    {
+     "letra": "D",
+     "texto": "a teratogenicidade decorre de metabolismo hepático aumentado."
+    },
+    {
+     "letra": "E",
+     "texto": "o efeito depende apenas da dose, não da estrutura."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Relação estrutura-atividade. Os dois isômeros têm o mesmo peso molecular e a mesma fórmula; o que muda é a configuração espacial, e isso basta para mudar o alvo reconhecido e o efeito (sedativo × teratogênico)."
+  },
+  {
+   "id": "FD30-Q03",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.3 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o ácido acetilsalicílico (AAS), julgue as assertivas:\nI. É inibidor irreversível da ciclo-oxigenase, ao contrário da maioria dos AINEs.\nII. Impede fisicamente a entrada do ácido araquidônico no canal que leva ao sítio ativo da COX.\nIII. Seu efeito antiagregante dura até a produção de novas plaquetas, porque a plaqueta é anucleada e não sintetiza nova COX.\nIV. Hoje é o AINE de escolha para febre em crianças com quadro viral.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas III está correta."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "I, II e III. O AAS liga-se próximo à entrada do canal da COX e impede fisicamente a passagem do ácido araquidônico, de forma irreversível — por isso o efeito antiagregante dura o tempo de vida da plaqueta, que é anucleada. IV é falsa: o AAS é evitado em crianças/jovens com infecção viral pelo risco de síndrome de Reye."
+  },
+  {
+   "id": "FD30-Q04",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.4 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dois fármacos, X e Y, atuam no mesmo receptor. X tem CE50 de 2 mg/L e atinge 100% do Emáx do sistema. Y tem CE50 de 0,2 mg/L e atinge no máximo 45% do Emáx, mesmo em doses crescentes. É correto afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Y é mais eficaz e mais potente que X."
+    },
+    {
+     "letra": "B",
+     "texto": "X é mais potente, pois atinge o efeito máximo."
+    },
+    {
+     "letra": "C",
+     "texto": "Y é mais potente que X, mas X é mais eficaz; Y comporta-se como agonista parcial."
+    },
+    {
+     "letra": "D",
+     "texto": "Ambos têm a mesma eficácia, diferindo apenas na potência."
+    },
+    {
+     "letra": "E",
+     "texto": "Como as eficácias são diferentes, os fármacos não podem ter CE50 comparáveis nem classificação de agonismo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Potência é CE50: Y tem CE50 dez vezes menor, logo é mais potente. Eficácia é Emáx: só X atinge o máximo do sistema, e Y, limitado a 45% mesmo em doses altas, é agonista parcial. Armadilha: o professor insiste que só faz sentido comparar potência entre fármacos de eficácia semelhante — mas isso não impede classificar Y como o mais potente."
+  },
+  {
+   "id": "FD30-Q05",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.5 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em cuidados paliativos recebe morfina 4 mg a cada 4 horas. Sobre o fármaco e seu receptor, assinale a alternativa correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É agonista parcial do receptor opioide mu, acoplado à proteína Gs."
+    },
+    {
+     "letra": "B",
+     "texto": "É agonista pleno do receptor opioide mu, acoplado à proteína Gi; a morte por overdose decorre de parada respiratória."
+    },
+    {
+     "letra": "C",
+     "texto": "É antagonista competitivo do receptor mu, e a analgesia vem do bloqueio do glutamato."
+    },
+    {
+     "letra": "D",
+     "texto": "É agonista inverso do receptor mu, reduzindo a atividade abaixo do basal."
+    },
+    {
+     "letra": "E",
+     "texto": "É agonista pleno do receptor mu, e a morte por overdose decorre de parada cardíaca direta."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Morfina = agonista pleno do receptor mu, acoplado à Gi (\"i\" de inibição — inibe a via de transmissão da dor). A morte por overdose é por parada respiratória: os neurônios da dor ficam na mesma região que controla a respiração, e a ativação da Gi ali reduz o estímulo respiratório (bradipneia grave). Armadilha clássica: a letra e troca o mecanismo da morte por parada cardíaca."
+  },
+  {
+   "id": "FD30-Q06",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.6 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A buprenorfina é usada no manejo da abstinência de opioides. Se for administrada a um paciente que está em uso de morfina em dose plena, o resultado esperado é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "somação dos efeitos, com analgesia superior à da morfina isolada."
+    },
+    {
+     "letra": "B",
+     "texto": "nenhuma alteração, pois agonistas parciais não competem por receptores."
+    },
+    {
+     "letra": "C",
+     "texto": "redução da eficácia analgésica global, pois o agonista parcial ocupa receptores e os ativa apenas parcialmente — comportando-se como antagonista competitivo."
+    },
+    {
+     "letra": "D",
+     "texto": "potencialização do risco de overdose, por ausência de efeito teto."
+    },
+    {
+     "letra": "E",
+     "texto": "bloqueio irreversível do receptor mu, com necessidade de naloxona em dose única."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O agonista parcial ocupa receptores que o agonista pleno ocuparia e os ativa apenas parcialmente — na prática, a buprenorfina se comporta como antagonista competitivo diante da morfina. É justamente o efeito teto que dá segurança à buprenorfina no tratamento da abstinência."
+  },
+  {
+   "id": "FD30-Q07",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.7 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com DPOC e tremor essencial recebe propranolol. Qual a justificativa farmacodinâmica para a contraindicação?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O propranolol é agonista beta-2 seletivo e causa broncodilatação excessiva."
+    },
+    {
+     "letra": "B",
+     "texto": "O propranolol bloqueia beta-3 no tecido adiposo, reduzindo a reserva energética respiratória."
+    },
+    {
+     "letra": "C",
+     "texto": "O propranolol é beta-bloqueador não seletivo: ao antagonizar beta-2 brônquico, pode desencadear broncoconstrição."
+    },
+    {
+     "letra": "D",
+     "texto": "O propranolol inibe a fosfodiesterase pulmonar, elevando o GMPc."
+    },
+    {
+     "letra": "E",
+     "texto": "O propranolol é agonista inverso do receptor de histamina, agravando a hiper-reatividade brônquica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Propranolol é beta-bloqueador não seletivo: bloqueia beta-1 (efeito terapêutico no tremor essencial e na taquicardia) e também beta-2 brônquico, podendo desencadear broncoconstrição. Por isso é contraindicado em asma e DPOC."
+  },
+  {
+   "id": "FD30-Q08",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.8 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as constantes que quantificam a afinidade do complexo fármaco-receptor:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quanto maior a Kd, maior a afinidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Quanto maior a Ka e menor a Kd, maior a afinidade — o fármaco permanece mais tempo ligado."
+    },
+    {
+     "letra": "C",
+     "texto": "Ka e Kd medem eficácia, não afinidade."
+    },
+    {
+     "letra": "D",
+     "texto": "A Kd corresponde à concentração que produz metade do efeito máximo."
+    },
+    {
+     "letra": "E",
+     "texto": "Ka e Kd são grandezas independentes da reversibilidade da ligação."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Ka alta = mais tempo ligado = mais afinidade; Kd é o inverso, então quanto menor a Kd, maior a afinidade. Armadilha: a letra d descreve a CE50, que mede potência, não afinidade."
+  },
+  {
+   "id": "FD30-Q09",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.9 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem trazido ao pronto-socorro após ingestão de bebida alcoólica associada a diazepam, em depressão respiratória. Sobre o mecanismo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ambos são agonistas plenos e diretos do receptor GABA-A, independentes do GABA endógeno."
+    },
+    {
+     "letra": "B",
+     "texto": "O benzodiazepínico depende da presença de GABA para facilitar a abertura do canal de cloreto (efeito teto); o álcool também abre canais de cloreto sem esse limite, e a soma dos efeitos inibitórios sobre a musculatura respiratória explica a gravidade."
+    },
+    {
+     "letra": "C",
+     "texto": "O álcool antagoniza competitivamente o diazepam, o que torna a associação segura."
+    },
+    {
+     "letra": "D",
+     "texto": "O GABA-A é um receptor metabotrópico acoplado à Gi."
+    },
+    {
+     "letra": "E",
+     "texto": "A depressão respiratória decorre de bloqueio do receptor NMDA pelo etanol."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Benzodiazepínicos e barbitúricos são moduladores dependentes do GABA endógeno: facilitam a abertura do canal de cloreto, mas sem GABA não têm o que amplificar (efeito teto, menor letalidade isolada). O álcool também abre canais de cloreto, sem esse freio. Somados, são dois eventos inibitórios simultâneos sobre a musculatura respiratória — mecanismo de óbito nas intoxicações mistas."
+  },
+  {
+   "id": "FD30-Q10",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 1 (bases, afinidade, eficácia, potência)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.10 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em uso crônico de midazolam relata que a dose inicial já não produz o mesmo efeito hipnótico. O mecanismo farmacodinâmico envolvido é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "aumento da biodisponibilidade por indução enzimática."
+    },
+    {
+     "letra": "B",
+     "texto": "agonismo inverso progressivo no receptor GABA-A."
+    },
+    {
+     "letra": "C",
+     "texto": "downregulation — retirada de receptores da membrana, exigindo doses maiores para o mesmo efeito."
+    },
+    {
+     "letra": "D",
+     "texto": "antagonismo não competitivo endógeno pelo GABA."
+    },
+    {
+     "letra": "E",
+     "texto": "redução da Kd do fármaco ao longo do tempo. Bloco II — Questões 11 a 20 (Aula 2)"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Tolerância farmacodinâmica por downregulation: a célula retira receptores da membrana, e a mesma dose passa a encontrar menos alvos. Armadilha: a letra a descreve um fenômeno farmacocinético, não farmacodinâmico."
+  },
+  {
+   "id": "FD30-Q11",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.11 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em coma por overdose de diazepam é revertido com flumazenil. Sobre essa relação farmacológica, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O flumazenil é agonista inverso do receptor GABA-A e reduz a atividade abaixo do basal."
+    },
+    {
+     "letra": "B",
+     "texto": "O flumazenil é antagonista competitivo no sítio benzodiazepínico do receptor GABA-A, deslocando o diazepam por disputa do mesmo sítio."
+    },
+    {
+     "letra": "C",
+     "texto": "O flumazenil é antagonista não competitivo e bloqueia irreversivelmente o canal de cloreto."
+    },
+    {
+     "letra": "D",
+     "texto": "O flumazenil aumenta a eficácia máxima do GABA endógeno."
+    },
+    {
+     "letra": "E",
+     "texto": "O flumazenil é agonista parcial do receptor opioide mu."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Flumazenil disputa o mesmo sítio benzodiazepínico do receptor GABA-A e desloca o diazepam — antagonismo competitivo puro, eficácia zero. Armadilha: a letra a descreve agonista inverso, categoria diferente."
+  },
+  {
+   "id": "FD30-Q12",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.12 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em uma overdose por fentanil, a equipe precisa administrar doses crescentes de naloxona até obter resposta. O fenômeno observado demonstra que:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "a naloxona é antagonista não competitivo, e por isso exige doses altas."
+    },
+    {
+     "letra": "B",
+     "texto": "o antagonismo competitivo é superável: quem predomina no receptor depende da concentração relativa dos dois ligantes (lei de ação das massas)."
+    },
+    {
+     "letra": "C",
+     "texto": "a naloxona perdeu afinidade pelo receptor mu por dessensibilização."
+    },
+    {
+     "letra": "D",
+     "texto": "o fentanil é agonista parcial e por isso resiste ao bloqueio."
+    },
+    {
+     "letra": "E",
+     "texto": "a naloxona atua na enzima que metaboliza o fentanil."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "No antagonismo competitivo, quem \"ganha\" o receptor depende da concentração relativa (lei de ação das massas). Como o fentanil é muito potente, é preciso subir a naloxona até superá-lo — a tradução clínica do deslocamento da curva para a direita."
+  },
+  {
+   "id": "FD30-Q13",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.13 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na presença de um antagonista competitivo, a curva dose-resposta do agonista:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "desloca-se para a esquerda, com redução da CE50."
+    },
+    {
+     "letra": "B",
+     "texto": "desloca-se para a direita, com aumento da CE50 e manutenção do Emáx."
+    },
+    {
+     "letra": "C",
+     "texto": "mantém a CE50 e reduz o Emáx."
+    },
+    {
+     "letra": "D",
+     "texto": "achata- se, reduzindo simultaneamente potência e eficácia."
+    },
+    {
+     "letra": "E",
+     "texto": "não sofre alteração, pois o antagonista tem eficácia zero."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Frase que o professor repete: o antagonista competitivo mexe na potência (CE50 sobe), não na eficácia (Emáx se mantém, desde que se aumente o agonista). As letras c e d descrevem o padrão do antagonismo não competitivo."
+  },
+  {
+   "id": "FD30-Q14",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.14 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "\"A presença de um antagonista competitivo impacta não na eficácia, mas na potência.\" Explique, em até cinco linhas, por que essa frase deixa de ser verdadeira quando o antagonista é do tipo não competitivo, citando o exemplo de fármaco trabalhado em aula.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "no antagonismo competitivo há disputa pelo mesmo sítio, e o bloqueio é superável aumentando a concentração do agonista — por isso o Emáx é preservado e só a CE50 sobe. No antagonismo não competitivo o bloqueio ocorre por outro mecanismo e é irreversível, de modo que parte dos receptores fica permanentemente indisponível: a resposta máxima não é alcançada nem em doses altas de agonista. Exemplo de aula: a cetamina bloqueando o canal NMDA contra o glutamato. Vale citar que a dose baixa não produz efeito máximo porque nem todos os receptores são bloqueados e a célula repõe receptores continuamente — daí a importância do índice terapêutico.",
+   "comentario": null
+  },
+  {
+   "id": "FD30-Q15",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.15 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a cetamina e o receptor NMDA, julgue:\nI. O NMDA é um canal iônico para sódio e cálcio ativado pelo glutamato, principal neurotransmissor excitatório do SNC.\nII. A cetamina é bloqueador não competitivo do canal, o que impede a resposta máxima do glutamato mesmo em concentrações altas.\nIII. Doses baixas não produzem efeito máximo porque nem todos os receptores são bloqueados e a célula continua produzindo novos receptores.\nIV. A cetamina desloca a curva dose-resposta do glutamato para a direita sem alterar o Emáx.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "I, II e III. IV descreve o comportamento gráfico do antagonista competitivo e por isso é falsa — a cetamina impede a resposta máxima."
+  },
+  {
+   "id": "FD30-Q16",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.16 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A memantina é usada nos sintomas da doença de Alzheimer. A relação entre ela e a cetamina é melhor descrita como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "mecanismos opostos: a memantina é agonista do NMDA e a cetamina, antagonista."
+    },
+    {
+     "letra": "B",
+     "texto": "mesmo tipo de bloqueio do receptor NMDA, porém com potência muito menor, permitindo reduzir a hiperestimulação glutamatérgica sem efeito dissociativo."
+    },
+    {
+     "letra": "C",
+     "texto": "mesma potência, diferindo apenas na via de administração."
+    },
+    {
+     "letra": "D",
+     "texto": "a memantina é antagonista competitivo do glutamato e a cetamina, inibidora enzimática."
+    },
+    {
+     "letra": "E",
+     "texto": "a memantina é agonista inverso do receptor NMDA."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mesmo tipo de bloqueio do NMDA, potência muito menor. Isso permite doses que reduzem a hiperestimulação glutamatérgica do Alzheimer sem produzir os efeitos dissociativos/anestésicos da cetamina."
+  },
+  {
+   "id": "FD30-Q17",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.17 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anti-histamínicos como exemplo de agonismo inverso:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ocupam o receptor sem alterar a atividade basal, por isso têm eficácia zero."
+    },
+    {
+     "letra": "B",
+     "texto": "Reduzem a atividade do receptor abaixo do nível basal, deslocando o equilíbrio para a forma inativa; na prática clínica, o resultado observado equivale ao de um antagonista."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumentam a vasodilatação mediada pela histamina."
+    },
+    {
+     "letra": "D",
+     "texto": "Os de 2ª geração causam mais sonolência por atravessarem a barreira hematoencefálica."
+    },
+    {
+     "letra": "E",
+     "texto": "Atuam por inibição irreversível da histidina descarboxilase."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "O agonista inverso não apenas ocupa o receptor: liga-se preferencialmente à forma inativa, desloca o equilíbrio e leva a atividade abaixo do nível basal (\"estimula o não fazer nada\"). Na prática clínica o resultado é indistinguível de um antagonista. Armadilha: a letra d inverte as gerações — são os de 1ª geração que atravessam a barreira hematoencefálica e sedam."
+  },
+  {
+   "id": "FD30-Q18",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.18 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Relacione corretamente o inibidor enzimático ao seu tipo de inibição:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cetoprofeno e ibuprofeno — irreversíveis; AAS — reversível."
+    },
+    {
+     "letra": "B",
+     "texto": "Nimesulida — irreversível; AAS — reversível."
+    },
+    {
+     "letra": "C",
+     "texto": "Maioria dos AINEs (cetoprofeno, nimesulida, ibuprofeno) — reversíveis; AAS — irreversível."
+    },
+    {
+     "letra": "D",
+     "texto": "Todos os AINEs, incluindo o AAS, são inibidores irreversíveis da COX."
+    },
+    {
+     "letra": "E",
+     "texto": "Todos os AINEs são inibidores reversíveis, sem exceção."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A maioria dos AINEs é inibidor reversível da COX; o AAS é a exceção irreversível — e é exatamente essa irreversibilidade, somada à ausência de núcleo na plaqueta, que sustenta o uso antiagregante."
+  },
+  {
+   "id": "FD30-Q19",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.19 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A cafeína é apresentada em aula como fármaco com dois mecanismos simultâneos. São eles:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "agonismo do receptor de adenosina e inibição da fosfodiesterase."
+    },
+    {
+     "letra": "B",
+     "texto": "bloqueio dos receptores de adenosina e abertura de canais de rianodina no retículo sarcoplasmático, com liberação de cálcio."
+    },
+    {
+     "letra": "C",
+     "texto": "agonismo beta-1 e bloqueio de canais de cálcio."
+    },
+    {
+     "letra": "D",
+     "texto": "inibição da COX e bloqueio do receptor NMDA."
+    },
+    {
+     "letra": "E",
+     "texto": "agonismo inverso do receptor de adenosina e bloqueio de canais de cloreto."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Dois mecanismos simultâneos: bloqueio dos receptores de adenosina (alerta, \"tirar o sono\") e abertura de canais de rianodina com liberação de cálcio no músculo — esta segunda via explica o efeito termogênico e o uso em pré-treino, compartilhado com outras metilxantinas."
+  },
+  {
+   "id": "FD30-Q20",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 2 (antagonismo, agonismo inverso, inibição enzimática)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.20 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em um ensaio clínico duplo-cego, cerca de 10% dos pacientes do grupo placebo relatam melhora, e uma parcela do grupo tratado (5–20%, conforme o fármaco) não responde como esperado. A leitura farmacologicamente correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "houve erro de randomização, pois a resposta a um fármaco deve ser uniforme."
+    },
+    {
+     "letra": "B",
+     "texto": "a variabilidade é esperada: a farmacogenômica explica a resposta individual distinta, e o efeito placebo é real e mensurável — por isso os protocolos se baseiam em estatística populacional, não em certeza individual."
+    },
+    {
+     "letra": "C",
+     "texto": "o fármaco deve ser considerado ineficaz e retirado do estudo."
+    },
+    {
+     "letra": "D",
+     "texto": "o cegamento é desnecessário quando o desfecho é objetivo."
+    },
+    {
+     "letra": "E",
+     "texto": "a não resposta indica sempre falha de adesão ao tratamento. Bloco III — Questões 21 a 30 (Aula 3)"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Farmacogenômica + efeito placebo. A não resposta de uma parcela é estatisticamente esperada, não erro de tratamento; é por isso que se usa duplo-cego e que protocolos clínicos são construídos sobre estatística populacional."
+  },
+  {
+   "id": "FD30-Q21",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.21 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a estrutura e o funcionamento dos receptores metabotrópicos:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atravessam a membrana 4 vezes e possuem duas subunidades."
+    },
+    {
+     "letra": "B",
+     "texto": "Atravessam a membrana 7 vezes; a proteína G tem subunidades α, β e γ, e a ativação ocorre quando a subunidade α troca GTP por GDP."
+    },
+    {
+     "letra": "C",
+     "texto": "Atravessam a membrana 7 vezes; a subunidade α troca GDP por GTP, separa-se do complexo βγ e age sobre uma enzima efetora."
+    },
+    {
+     "letra": "D",
+     "texto": "São canais iônicos abertos diretamente pelo ligante."
+    },
+    {
+     "letra": "E",
+     "texto": "Alteram diretamente a expressão gênica, sem segundo mensageiro."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Sete domínios transmembrana; α, β e γ. No repouso a α está com GDP; a ligação do agonista faz a troca GDP → GTP, a α-GTP se separa do complexo βγ e age sobre a enzima efetora. Armadilha: a letra b inverte a troca dos nucleotídeos — erro de prova frequente."
+  },
+  {
+   "id": "FD30-Q22",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.22 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dobutamina é usada para elevar a frequência cardíaca; o atenolol, para reduzi-la. A explicação farmacodinâmica é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "dobutamina é antagonista beta-1 e atenolol, agonista beta-1."
+    },
+    {
+     "letra": "B",
+     "texto": "dobutamina é agonista beta-1 (Gs → AMPc → PKA → abre canais de Na⁺/Ca²⁺ → despolarização); atenolol é antagonista beta-1, bloqueando essa via."
+    },
+    {
+     "letra": "C",
+     "texto": "ambos são agonistas, diferindo apenas na potência."
+    },
+    {
+     "letra": "D",
+     "texto": "dobutamina age em M2 (Gi) e atenolol em beta-2 (Gs)."
+    },
+    {
+     "letra": "E",
+     "texto": "dobutamina inibe a fosfodiesterase cardíaca e o atenolol a estimula."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Beta-1 é Gs: agonista (dobutamina, epinefrina) sobe AMPc → PKA → abre canais de Na⁺/Ca²⁺ → despolariza → mais frequência e contração; antagonista (atenolol) faz o contrário, daí o uso em taquicardia e hipertensão."
+  },
+  {
+   "id": "FD30-Q23",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.23 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O salbutamol é agonista seletivo beta-2 usado na broncodilatação. Sobre o efeito colateral de taquicardia e sobre a via envolvida, é correto afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A taquicardia decorre de ação residual sobre beta-1, já que a seletividade nunca é absoluta."
+    },
+    {
+     "letra": "B",
+     "texto": "Beta-1 e beta-2 usam proteínas G diferentes (Gs e Gq), o que explica efeitos opostos."
+    },
+    {
+     "letra": "C",
+     "texto": "A broncodilatação ocorre porque beta-2 é acoplado à Gi, reduzindo o AMPc brônquico."
+    },
+    {
+     "letra": "D",
+     "texto": "A taquicardia indica que o salbutamol é antagonista beta-2."
+    },
+    {
+     "letra": "E",
+     "texto": "O efeito é idêntico no coração e no pulmão, pois a PKA sempre abre canais de Na⁺/Ca²⁺."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A seletividade nunca é absoluta: o salbutamol é seletivo beta-2, mas mantém ação residual beta-1, e a taquicardia é efeito colateral esperado. Armadilha: beta-1 e beta-2 usam a mesma proteína G (Gs) e a mesma PKA — o que difere é o tecido, não a via."
+  },
+  {
+   "id": "FD30-Q24",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.24 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Tanto o receptor beta-1 cardíaco quanto o beta-2 brônquico são acoplados à proteína Gs e ativam a PKA, mas o efeito final é contração em um órgão e relaxamento no outro. Explique, em até cinco linhas, o princípio que o professor repete para justificar essa diferença.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "\"a função da PKA depende do tecido em que ela está\". A via Gs → adenilil ciclase → AMPc → PKA é idêntica nos dois órgãos, mas a PKA é apenas a molécula efetora — o que ela fosforila e quais canais abre ou fecha varia conforme a célula. No miocárdio, abre canais de Na⁺/Ca²⁺ e despolariza (contração); no músculo liso brônquico, fecha esses canais e relaxa (broncodilatação). O mesmo vale para a PKC na via Gq. Conclusão: não existe regra fixa do tipo \"PKA sempre abre canal de sódio\"; o efeito final é tecido-dependente.",
+   "comentario": null
+  },
+  {
+   "id": "FD30-Q25",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.25 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A acetilcolina, pelo nervo vago, liga-se ao receptor M2 no coração. O resultado e a via correspondentes são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Gq → fosfolipase C → IP3/DAG → PKC → taquicardia."
+    },
+    {
+     "letra": "B",
+     "texto": "Gs → adenilil ciclase → ↑AMPc → PKA → taquicardia."
+    },
+    {
+     "letra": "C",
+     "texto": "Gi → inibição da adenilil ciclase → ↓AMPc → ↓PKA → bradicardia."
+    },
+    {
+     "letra": "D",
+     "texto": "Gi → ativação da adenilil ciclase → ↑AMPc → bradicardia."
+    },
+    {
+     "letra": "E",
+     "texto": "Receptor ionotrópico com entrada de cloreto → hiperpolarização → bradicardia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "M2 é muscarínico par → Gi. A acetilcolina inibe a adenilil ciclase, cai o AMPc e a PKA, e a frequência cardíaca diminui — o efeito espelhado ao da adrenalina em beta-1 (Gs)."
+  },
+  {
+   "id": "FD30-Q26",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.26 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente usa escopolamina (buscopan) para cólica intestinal e evolui com boca seca, visão turva e taquicardia. Sobre o caso:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A escopolamina é agonista muscarínico e a taquicardia decorre de estímulo direto ao M2."
+    },
+    {
+     "letra": "B",
+     "texto": "A escopolamina é antagonista muscarínico: relaxa a musculatura lisa por bloqueio de M3, e a taquicardia ocorre porque o bloqueio de M2 retira o freio vagal sobre o coração."
+    },
+    {
+     "letra": "C",
+     "texto": "A taquicardia é inexplicável pelo mecanismo do fármaco e deve ser atribuída à dor."
+    },
+    {
+     "letra": "D",
+     "texto": "A escopolamina bloqueia receptores beta-1, causando boca seca e midríase."
+    },
+    {
+     "letra": "E",
+     "texto": "A escopolamina é agonista inverso do receptor de histamina."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Escopolamina é antagonista muscarínico. Alivia a cólica bloqueando M3 na musculatura lisa intestinal; boca seca vem do bloqueio de M3 glandular, visão turva/midríase do bloqueio parassimpático ocular, e a taquicardia do bloqueio de M2, que retira o freio vagal. É o exemplo em que \"bloquear\" produz aceleração — ponto que o professor destacou como de prova."
+  },
+  {
+   "id": "FD30-Q27",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.27 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ordene corretamente a cascata iniciada pela acetilcolina no receptor M3 do endotélio vascular:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "M3 (Gs) → adenilil ciclase → AMPc → PKA → NO → vasoconstrição."
+    },
+    {
+     "letra": "B",
+     "texto": "M3 (Gq) → fosfolipase C → IP3/DAG → Ca²⁺ → PKC → NO sintase → NO → guanilato ciclase → GMPc → PKG → relaxamento do músculo liso."
+    },
+    {
+     "letra": "C",
+     "texto": "M3 (Gi) → ↓AMPc → ↓PKA → guanilato ciclase → GMPc → contração."
+    },
+    {
+     "letra": "D",
+     "texto": "M3 (Gq) → adenilil ciclase → GMPc → PKC → vasodilatação."
+    },
+    {
+     "letra": "E",
+     "texto": "M3 (Gq) → fosfolipase C → AMPc → PKA → NO → vasodilatação."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Sequência completa: M3 endotelial (Gq) → fosfolipase C quebra o PIP2 → IP3 e DAG → IP3 libera Ca²⁺ do retículo → DAG + Ca²⁺ ativam a PKC → PKC ativa a NO sintase → NO difunde para o músculo liso → guanilato ciclase converte GTP em GMPc → PKG → relaxamento e vasodilatação. É o mecanismo da ereção, evento parassimpático."
+  },
+  {
+   "id": "FD30-Q28",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.28 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a sildenafila e a fosfodiesterase, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A fosfodiesterase produz GMPc; a sildenafila a estimula, aumentando o relaxamento vascular."
+    },
+    {
+     "letra": "B",
+     "texto": "A fosfodiesterase degrada o GMPc; a sildenafila inibe essa enzima, prolongando a ativação da PKG e o relaxamento vascular."
+    },
+    {
+     "letra": "C",
+     "texto": "A sildenafila é agonista do receptor M3, aumentando a liberação de acetilcolina."
+    },
+    {
+     "letra": "D",
+     "texto": "A sildenafila é antagonista competitivo da guanilato ciclase."
+    },
+    {
+     "letra": "E",
+     "texto": "A sildenafila atua pela via Gs → AMPc → PKA no músculo liso peniano."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A fosfodiesterase é o freio fisiológico: degrada o GMPc e devolve a célula ao estado contraído. A sildenafila inibe essa enzima, o GMPc persiste, a PKG segue ativa e o relaxamento vascular se prolonga. Note que ela é inibidor enzimático, não antagonista de receptor."
+  },
+  {
+   "id": "FD30-Q29",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.29 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os receptores tirosina-quinase e os fármacos/moléculas relacionados:\nI. A insulina ativa receptores tirosina-quinase e promove translocação de GLUT para a membrana.\nII. A ativação envolve dimerização do receptor e fosforilação de resíduos de tirosina, com cascata Ras → Raf → MAPK até o núcleo.\nIII. Fatores de crescimento atuam por essa via, o que a torna alvo central da pesquisa oncológica.\nIV. A metformina age estimulando diretamente o receptor tirosina-quinase da insulina, aumentando sua secreção pancreática.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas III e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "I, II e III. IV é falsa: a metformina não estimula a secreção de insulina nem o receptor tirosina-quinase — ela estimula a AMPK, favorecendo glicólise e outras respostas metabólicas que reduzem a glicemia."
+  },
+  {
+   "id": "FD30-Q30",
+   "materia": "Farmacologia",
+   "prova": "PR1",
+   "tema": "Farmacodinâmica",
+   "subtema": "Aula 3 (receptores e vias de sinalização)",
+   "origem": "inédita",
+   "fonte": "Farmacodinâmica — 30 Questões Estilo Prova (Agonistas × Antagonistas), Q.30 · baseada na apostila das Aulas 1–3 (pasta FARMACOLOGIA/PR1 do Drive)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dexametasona, prednisona e prednisolona são anti-inflamatórios esteroidais. Sobre a família de receptores a que se ligam:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "São receptores metabotrópicos acoplados à Gq, com efeito via PKC."
+    },
+    {
+     "letra": "B",
+     "texto": "São receptores ionotrópicos, com entrada de cálcio."
+    },
+    {
+     "letra": "C",
+     "texto": "São receptores intracelulares/nucleares: as moléculas atravessam a membrana por serem pequenas e lipossolúveis e alteram diretamente a expressão gênica — mesmo grupo de T3/T4, aldosterona e hormônios sexuais."
+    },
+    {
+     "letra": "D",
+     "texto": "São receptores tirosina-quinase, com dimerização e cascata MAPK."
+    },
+    {
+     "letra": "E",
+     "texto": "São inibidores enzimáticos irreversíveis da ciclo-oxigenase."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Os anti-inflamatórios esteroidais derivam estruturalmente do cortisol e agem em receptores intracelulares/nucleares, alterando diretamente a expressão gênica. Mesma família de T3/T4, aldosterona e hormônios sexuais — moléculas pequenas e lipossolúveis, capazes de atravessar a membrana plasmática."
+  }
+ ]
+}
