@@ -1,0 +1,1003 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema digestório (lote 2, formato das provas)",
+  "gerado_em": "2026-11-09",
+  "base": "Robbins & Cotran (Patologia: trato gastrointestinal; fígado e vesícula biliar; pâncreas) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas de Fisiopatologia."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-DIG2-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "DRGE · mecanismos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · esôfago (doença do refluxo gastroesofágico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a fisiopatologia da doença do refluxo gastroesofágico, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não tem relação com hérnia de hiato nem com obesidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Seu principal sintoma é a diarreia crônica."
+    },
+    {
+     "letra": "C",
+     "texto": "É causada por aumento do tônus do esfíncter esofágico inferior, que impede o esvaziamento esofágico."
+    },
+    {
+     "letra": "D",
+     "texto": "Decorre principalmente de relaxamentos transitórios e hipotonia do esfíncter esofágico inferior, favorecidos por hérnia de hiato, obesidade, gestação, álcool, tabaco e retardo do esvaziamento gástrico."
+    },
+    {
+     "letra": "E",
+     "texto": "O refluxo ácido protege a mucosa esofágica contra a metaplasia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sintomas típicos: pirose e regurgitação; atípicos: tosse crônica, rouquidão, asma. Complicações: esofagite, estenose, esôfago de Barrett, adenocarcinoma."
+  },
+  {
+   "id": "FISIO-PF-DIG2-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Barrett",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · esôfago (esôfago de Barrett)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 58 anos com refluxo há 20 anos realiza endoscopia, que mostra mucosa avermelhada acima da junção esofagogástrica. A biópsia revela epitélio colunar com células caliciformes. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É o esôfago de Barrett, metaplasia intestinal do epitélio escamoso esofágico secundária ao refluxo crônico, lesão precursora do adenocarcinoma de esôfago."
+    },
+    {
+     "letra": "B",
+     "texto": "É uma neoplasia maligna já estabelecida."
+    },
+    {
+     "letra": "C",
+     "texto": "É a esofagite eosinofílica, de causa alérgica."
+    },
+    {
+     "letra": "D",
+     "texto": "É uma lesão benigna sem risco de câncer."
+    },
+    {
+     "letra": "E",
+     "texto": "É displasia escamosa, precursora do carcinoma epidermoide, causada pelo refluxo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Barrett: metaplasia (escamoso → colunar intestinal com caliciformes). Adenocarcinoma: terço distal, homem branco, obesidade, refluxo. Carcinoma epidermoide: terço médio, tabaco, álcool, bebidas muito quentes."
+  },
+  {
+   "id": "FISIO-PF-DIG2-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "disfagia · tipos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · esôfago (disfagia) e plano 5.1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente refere dificuldade para engolir tanto sólidos quanto líquidos desde o início, com regurgitação de alimentos não digeridos e perda de peso; é natural de área endêmica de doença de Chagas. O mecanismo mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Esofagite por cândida em imunocompetente."
+    },
+    {
+     "letra": "B",
+     "texto": "Obstrução mecânica por carcinoma, que dá disfagia progressiva primeiro para sólidos."
+    },
+    {
+     "letra": "C",
+     "texto": "Distúrbio motor do esôfago (megaesôfago chagásico/acalasia), com destruição dos neurônios do plexo mioentérico e falha do relaxamento do esfíncter esofágico inferior."
+    },
+    {
+     "letra": "D",
+     "texto": "Divertículo de Zenker, que nunca causa regurgitação."
+    },
+    {
+     "letra": "E",
+     "texto": "Estenose péptica por refluxo, com disfagia só para líquidos."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Disfagia para sólidos e líquidos desde o início = motora (acalasia, Chagas, esclerodermia). Disfagia progressiva sólidos → líquidos, com emagrecimento = obstrução mecânica (câncer)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "gastrites",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · estômago (gastrites aguda e crônica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as gastrites, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A gastrite aguda pode ser causada por AINEs, álcool, estresse grave (queimaduras, choque) e quimioterapia, com erosões e hemorragia da mucosa.\nII. A gastrite crônica por Helicobacter pylori é a forma mais comum e predomina no antro.\nIII. A gastrite autoimune acomete o corpo e o fundo gástrico, com perda de células parietais, acloridria e risco de anemia perniciosa.\nIV. A gastrite crônica por H. pylori reduz o risco de úlcera duodenal e de adenocarcinoma gástrico.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A infecção por H. pylori **aumenta** o risco de úlcera péptica, adenocarcinoma gástrico e linfoma MALT."
+  },
+  {
+   "id": "FISIO-PF-DIG2-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "H. pylori · mecanismos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · estômago (Helicobacter pylori)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os fatores de virulência do Helicobacter pylori, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A bactéria vive no lúmen gástrico ácido sem necessidade de mecanismos de proteção."
+    },
+    {
+     "letra": "B",
+     "texto": "O H. pylori invade a submucosa e causa abscessos."
+    },
+    {
+     "letra": "C",
+     "texto": "A infecção é sempre sintomática e aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "A urease aumenta a acidez local, matando as células parietais."
+    },
+    {
+     "letra": "E",
+     "texto": "A urease produz amônia, que tampona o ácido ao redor da bactéria; flagelos permitem a movimentação no muco; adesinas e toxinas (como CagA e VacA) induzem inflamação e lesão epitelial."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A maioria dos infectados é assintomática. A inflamação antral aumenta a gastrina e a secreção ácida (úlcera duodenal); a pangastrite atrófica leva a hipocloridria e risco de câncer."
+  },
+  {
+   "id": "FISIO-PF-DIG2-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "úlcera péptica · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · estômago e duodeno (doença ulcerosa péptica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a doença ulcerosa péptica, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor da úlcera duodenal tipicamente melhora com a alimentação e reaparece horas depois, podendo acordar o paciente à noite."
+    },
+    {
+     "letra": "B",
+     "texto": "A úlcera resulta do desequilíbrio entre fatores agressivos (ácido, pepsina, H. pylori, AINEs) e defensivos da mucosa (muco, bicarbonato, fluxo sanguíneo, prostaglandinas)."
+    },
+    {
+     "letra": "C",
+     "texto": "Os AINEs inibem a COX e reduzem as prostaglandinas que protegem a mucosa."
+    },
+    {
+     "letra": "D",
+     "texto": "A úlcera gástrica é a mais frequente e seu principal mecanismo é a hipersecreção ácida, enquanto a úlcera duodenal decorre sobretudo de defeito da barreira mucosa."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemorragia, perfuração e obstrução pilórica são complicações da úlcera péptica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A úlcera **duodenal** é a mais comum e se associa mais à hipersecreção ácida; a **gástrica** associa-se mais à quebra da barreira mucosa (H. pylori, AINE). Úlcera gástrica deve ser biopsiada (diferencial com câncer)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "úlcera · complicações",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · úlcera péptica (complicações)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as complicações da úlcera péptica, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A obstrução pilórica cursa com diarreia e fezes volumosas."
+    },
+    {
+     "letra": "B",
+     "texto": "As úlceras da parede posterior do bulbo duodenal tendem a sangrar (erosão da artéria gastroduodenal), enquanto as da parede anterior tendem a perfurar para a cavidade peritoneal."
+    },
+    {
+     "letra": "C",
+     "texto": "A perfuração nunca causa pneumoperitônio."
+    },
+    {
+     "letra": "D",
+     "texto": "As úlceras da parede anterior do duodeno sangram por erosão da artéria gastroduodenal."
+    },
+    {
+     "letra": "E",
+     "texto": "A perfuração causa hemorragia digestiva baixa com sangue vivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Perfuração: dor súbita, abdome em tábua, pneumoperitônio (Jobert). Sangramento: hematêmese/melena. Obstrução pilórica: vômitos de estase, vascolejo, alcalose metabólica hipoclorêmica."
+  },
+  {
+   "id": "FISIO-PF-DIG2-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "câncer gástrico",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · estômago (adenocarcinoma gástrico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o adenocarcinoma gástrico, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É mais comum na forma de lesão benigna que nunca invade a parede."
+    },
+    {
+     "letra": "B",
+     "texto": "Metastatiza preferencialmente para o linfonodo axilar direito."
+    },
+    {
+     "letra": "C",
+     "texto": "Não tem relação com H. pylori."
+    },
+    {
+     "letra": "D",
+     "texto": "O tipo difuso forma sempre massas vegetantes bem delimitadas."
+    },
+    {
+     "letra": "E",
+     "texto": "Está associado à gastrite crônica por H. pylori, à gastrite atrófica com metaplasia intestinal e a dieta rica em nitritos e sal; pode metastatizar para o linfonodo supraclavicular esquerdo (Virchow) e para os ovários (tumor de Krukenberg)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tipo intestinal (H. pylori, metaplasia) × difuso (células em anel de sinete, linite plástica, mutação CDH1). Sinais de disseminação: Virchow, Irmã Maria José (umbilical), Krukenberg."
+  },
+  {
+   "id": "FISIO-PF-DIG2-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Crohn × RCU · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino (doença inflamatória intestinal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a doença inflamatória intestinal, assinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ambas aumentam o risco de câncer colorretal, conforme a extensão e a duração."
+    },
+    {
+     "letra": "B",
+     "texto": "O megacólon tóxico é complicação mais associada à retocolite ulcerativa."
+    },
+    {
+     "letra": "C",
+     "texto": "A retocolite ulcerativa acomete qualquer segmento do tubo digestivo, de forma salteada, com granulomas não caseosos e fístulas."
+    },
+    {
+     "letra": "D",
+     "texto": "A doença de Crohn pode acometer da boca ao ânus, com predileção pelo íleo terminal, e a inflamação é transmural."
+    },
+    {
+     "letra": "E",
+     "texto": "A retocolite ulcerativa inicia no reto e se estende de forma contínua e proximal pelo cólon, restrita à mucosa e submucosa."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A alternativa descreve a **doença de Crohn**."
+  },
+  {
+   "id": "FISIO-PF-DIG2-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Crohn · complicações",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino (doença de Crohn)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 25 anos com doença de Crohn ileal de longa data apresenta diarreia gordurosa, anemia macrocítica e cálculos biliares. A explicação fisiopatológica é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A doença do íleo terminal prejudica a absorção de vitamina B12 e a reabsorção dos sais biliares, causando má absorção de gorduras, anemia megaloblástica e formação de cálculos de colesterol."
+    },
+    {
+     "letra": "B",
+     "texto": "Os cálculos são de bilirrubinato por hemólise."
+    },
+    {
+     "letra": "C",
+     "texto": "A doença causa aumento da absorção de gorduras e de B12."
+    },
+    {
+     "letra": "D",
+     "texto": "O acometimento do estômago impede a secreção de fator intrínseco."
+    },
+    {
+     "letra": "E",
+     "texto": "A inflamação restrita à mucosa do reto impede a absorção de ferro."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Íleo terminal: B12 (com fator intrínseco) e sais biliares (circulação êntero-hepática). Também: oxalúria e cálculos renais de oxalato."
+  },
+  {
+   "id": "FISIO-PF-DIG2-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "doença celíaca · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino delgado (doença celíaca)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 30 anos com diarreia crônica, distensão, perda de peso, anemia ferropriva refratária e lesões vesiculares pruriginosas nos cotovelos. A biópsia duodenal mostra atrofia das vilosidades, hiperplasia de criptas e linfócitos intraepiteliais. Sobre o quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É síndrome do intestino irritável, sem alteração histológica."
+    },
+    {
+     "letra": "B",
+     "texto": "É doença de Crohn com granulomas."
+    },
+    {
+     "letra": "C",
+     "texto": "É intolerância à lactose, com lesão grave das vilosidades."
+    },
+    {
+     "letra": "D",
+     "texto": "É a doença celíaca, enteropatia imunomediada desencadeada pelo glúten (gliadina) em indivíduos HLA-DQ2/DQ8, com dermatite herpetiforme associada."
+    },
+    {
+     "letra": "E",
+     "texto": "É giardíase, que nunca causa atrofia de vilosidades."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Celíaca: anticorpos antitransglutaminase tecidual; acomete duodeno/jejuno proximal (ferro, folato, cálcio); tratamento: dieta sem glúten. Risco de linfoma T intestinal."
+  },
+  {
+   "id": "FISIO-PF-DIG2-12",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "diarreias · mecanismos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino (diarreias)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os mecanismos das diarreias, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Na diarreia osmótica (ex.: intolerância à lactose), solutos não absorvidos retêm água no lúmen, e a diarreia melhora com o jejum.\nII. Na diarreia secretora (ex.: cólera), há secreção ativa de cloreto e água pela mucosa, e a diarreia persiste mesmo em jejum.\nIII. Na diarreia inflamatória/invasiva (disenteria), há lesão da mucosa com muco, pus e sangue nas fezes.\nIV. A esteatorreia indica diarreia secretora por toxina bacteriana.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "B",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Esteatorreia indica **má absorção** de gorduras (insuficiência pancreática, doença celíaca, falta de sais biliares)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-13",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "obstrução intestinal",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino (obstrução intestinal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a obstrução intestinal mecânica, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A intussuscepção é mais comum em idosos e nunca ocorre em crianças."
+    },
+    {
+     "letra": "B",
+     "texto": "Hérnias, aderências (bridas), intussuscepção e vólvulo são responsáveis pela maioria das obstruções mecânicas; o vólvulo e a hérnia estrangulada podem comprometer a irrigação e causar infarto da alça."
+    },
+    {
+     "letra": "C",
+     "texto": "O íleo paralítico é a principal causa de obstrução mecânica."
+    },
+    {
+     "letra": "D",
+     "texto": "As aderências são a causa mais rara de obstrução em pacientes já operados."
+    },
+    {
+     "letra": "E",
+     "texto": "O vólvulo é a torção do intestino em torno do próprio mesentério sem risco de isquemia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Intussuscepção: lactentes (linfoide hiperplásico após virose) ou adultos (lesão como ponto de tração — tumor). Vólvulo: sigmoide (idosos, megacólon chagásico) e ceco."
+  },
+  {
+   "id": "FISIO-PF-DIG2-14",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "isquemia mesentérica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · intestino (doença vascular intestinal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso com fibrilação atrial apresenta dor abdominal súbita e intensa, desproporcional ao exame físico, seguida de evacuações com sangue. O mecanismo mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Doença diverticular com diverticulite."
+    },
+    {
+     "letra": "B",
+     "texto": "Apendicite aguda."
+    },
+    {
+     "letra": "C",
+     "texto": "Úlcera péptica perfurada."
+    },
+    {
+     "letra": "D",
+     "texto": "Doença celíaca."
+    },
+    {
+     "letra": "E",
+     "texto": "Embolia da artéria mesentérica superior, com isquemia e infarto intestinal."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Isquemia mesentérica aguda: embolia (FA), trombose arterial, trombose venosa, isquemia não oclusiva (baixo débito). Áreas de \"divisor de águas\": flexura esplênica."
+  },
+  {
+   "id": "FISIO-PF-DIG2-15",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "doença diverticular",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · cólon (doença diverticular)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a doença diverticular do cólon, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os divertículos são pseudodivertículos (mucosa e submucosa herniam pela camada muscular nos pontos de entrada dos vasos), favorecidos por dieta pobre em fibras e pressão intraluminal elevada, predominando no sigmoide."
+    },
+    {
+     "letra": "B",
+     "texto": "A dieta rica em fibras é o principal fator de risco."
+    },
+    {
+     "letra": "C",
+     "texto": "A doença diverticular nunca causa sangramento."
+    },
+    {
+     "letra": "D",
+     "texto": "São divertículos verdadeiros, com todas as camadas da parede, típicos do ceco em idosos."
+    },
+    {
+     "letra": "E",
+     "texto": "A diverticulite acomete mais a fossa ilíaca direita no Ocidente."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Complicações: diverticulite (dor no QIE, febre — \"apendicite à esquerda\"), abscesso, perfuração, fístula, sangramento (hemorragia digestiva baixa no idoso)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-16",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "câncer colorretal",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · cólon (adenoma e adenocarcinoma)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a carcinogênese colorretal, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O câncer colorretal não tem relação com idade ou dieta."
+    },
+    {
+     "letra": "B",
+     "texto": "Os pólipos hiperplásicos pequenos são as principais lesões precursoras do câncer colorretal."
+    },
+    {
+     "letra": "C",
+     "texto": "A maioria dos adenocarcinomas surge de adenomas pela sequência adenoma–carcinoma, com acúmulo de mutações (APC, KRAS, p53); tumores do cólon direito tendem a sangrar de forma oculta (anemia ferropriva) e os do esquerdo, a obstruir e alterar o hábito intestinal."
+    },
+    {
+     "letra": "D",
+     "texto": "A polipose adenomatosa familiar não aumenta o risco de câncer."
+    },
+    {
+     "letra": "E",
+     "texto": "Tumores do cólon direito causam tipicamente obstrução precoce com fezes em fita."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Adenomas maiores, vilosos e com displasia de alto grau têm maior risco. Anemia ferropriva no homem ou na mulher pós-menopausa → investigar cólon."
+  },
+  {
+   "id": "FISIO-PF-DIG2-17",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "icterícia · tipos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (metabolismo da bilirrubina e icterícias)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com icterícia, colúria, acolia fecal e prurido apresenta aumento predominante da bilirrubina direta e da fosfatase alcalina. O tipo de icterícia e um exemplo de causa são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Icterícia pré-hepática por esferocitose."
+    },
+    {
+     "letra": "B",
+     "texto": "Síndrome de Gilbert, com aumento de bilirrubina direta."
+    },
+    {
+     "letra": "C",
+     "texto": "Icterícia hemolítica, com aumento de bilirrubina indireta e urina clara."
+    },
+    {
+     "letra": "D",
+     "texto": "Icterícia colestática por obstrução das vias biliares, como coledocolitíase ou câncer da cabeça do pâncreas."
+    },
+    {
+     "letra": "E",
+     "texto": "Icterícia fisiológica do recém-nascido."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Pré-hepática (hemólise): BI ↑, sem colúria. Hepatocelular (hepatites): BD e BI ↑, transaminases muito ↑. Colestática/obstrutiva: BD ↑, colúria, acolia, prurido, FA e GGT ↑."
+  },
+  {
+   "id": "FISIO-PF-DIG2-18",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "hepatites virais",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (hepatites virais)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as hepatites virais, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Os vírus A e E têm transmissão fecal-oral e não evoluem para hepatite crônica.\nII. Os vírus B e C têm transmissão parenteral e sexual e podem cronificar, evoluindo para cirrose e carcinoma hepatocelular.\nIII. A hepatite C cronifica com frequência muito maior que a hepatite B adquirida na vida adulta.\nIV. O vírus D (delta) pode infectar sozinho, independentemente do vírus B.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O vírus D é **defectivo**: só infecta na presença do HBV (coinfecção ou superinfecção)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-19",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "cirrose · morfologia",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (cirrose)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a cirrose hepática, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A cirrose não altera a circulação portal."
+    },
+    {
+     "letra": "B",
+     "texto": "É uma lesão focal e reversível, sem fibrose."
+    },
+    {
+     "letra": "C",
+     "texto": "As células de Kupffer são as principais produtoras do colágeno da fibrose."
+    },
+    {
+     "letra": "D",
+     "texto": "Os nódulos de regeneração são todos neoplásicos."
+    },
+    {
+     "letra": "E",
+     "texto": "Caracteriza-se por fibrose difusa com septos que unem os espaços porta e as veias centrais e por nódulos de regeneração, que distorcem a arquitetura e a circulação hepáticas; as células estreladas (de Ito) ativadas são as principais produtoras de colágeno."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Causas: álcool, hepatites B e C, esteato-hepatite não alcoólica, autoimune, hemocromatose, Wilson, colangite biliar. Complicações: hipertensão portal, insuficiência hepática, carcinoma hepatocelular."
+  },
+  {
+   "id": "FISIO-PF-DIG2-20",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "hipertensão portal",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (hipertensão portal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Cirrótico apresenta ascite, esplenomegalia com plaquetopenia, circulação colateral periumbilical e hematêmese volumosa. Sobre a fisiopatologia, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A ascite resulta exclusivamente de hipoalbuminemia, sem participação da hipertensão portal."
+    },
+    {
+     "letra": "B",
+     "texto": "A hipertensão portal abre anastomoses portossistêmicas (varizes esofágicas, cabeça de Medusa, hemorroidas) e causa esplenomegalia congestiva com hiperesplenismo; a ruptura das varizes explica a hematêmese."
+    },
+    {
+     "letra": "C",
+     "texto": "A circulação colateral periumbilical indica obstrução da veia cava superior."
+    },
+    {
+     "letra": "D",
+     "texto": "A hematêmese decorre de úlcera duodenal por hipersecreção, sem relação com a hipertensão portal."
+    },
+    {
+     "letra": "E",
+     "texto": "A plaquetopenia é causada por aumento da produção de trombopoetina."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Ascite na cirrose: hipertensão sinusoidal + vasodilatação esplâncnica → ativação do SRAA e retenção de sódio; a hipoalbuminemia contribui menos."
+  },
+  {
+   "id": "FISIO-PF-DIG2-21",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "encefalopatia hepática",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (insuficiência hepática)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as manifestações da insuficiência hepática, assinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O asterix (flapping) é um sinal da encefalopatia hepática."
+    },
+    {
+     "letra": "B",
+     "texto": "A encefalopatia hepática pode ser precipitada por hemorragia digestiva, infecções, constipação e diuréticos."
+    },
+    {
+     "letra": "C",
+     "texto": "A encefalopatia hepática decorre do excesso de ácidos biliares no SNC e não se relaciona com amônia nem com hemorragia digestiva."
+    },
+    {
+     "letra": "D",
+     "texto": "A queda da síntese hepática causa hipoalbuminemia e coagulopatia com tempo de protrombina alargado."
+    },
+    {
+     "letra": "E",
+     "texto": "O hiperestrogenismo explica aranhas vasculares, eritema palmar e ginecomastia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Encefalopatia hepática: acúmulo de **amônia** (produzida no intestino, não depurada pelo fígado/shunts) e outras neurotoxinas; a hemorragia digestiva aumenta a carga proteica intestinal."
+  },
+  {
+   "id": "FISIO-PF-DIG2-22",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "esteatose · álcool",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (doença hepática alcoólica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a doença hepática alcoólica, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O álcool não interfere no metabolismo dos lipídeos hepáticos."
+    },
+    {
+     "letra": "B",
+     "texto": "Compreende esteatose (reversível com a abstinência), hepatite alcoólica (necrose hepatocelular, corpúsculos de Mallory-Denk e infiltrado neutrofílico) e cirrose."
+    },
+    {
+     "letra": "C",
+     "texto": "A esteatose alcoólica é irreversível desde as primeiras semanas."
+    },
+    {
+     "letra": "D",
+     "texto": "A hepatite alcoólica cursa com fígado reduzido, nodular e indolor."
+    },
+    {
+     "letra": "E",
+     "texto": "Os corpúsculos de Mallory-Denk são típicos da hepatite A."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Hepatite alcoólica: febre, icterícia, hepatomegalia dolorosa, leucocitose, AST > ALT (relação > 2)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-23",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "colelitíase · tipos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · vesícula biliar (colelitíase e colecistite)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a colelitíase, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os cálculos de colesterol são os mais comuns e se associam a sexo feminino, obesidade, multiparidade, idade e perda rápida de peso; os cálculos pigmentados (bilirrubinato) associam-se à hemólise crônica e às infecções biliares."
+    },
+    {
+     "letra": "B",
+     "texto": "A colecistite aguda decorre da obstrução do colédoco, com icterícia obrigatória."
+    },
+    {
+     "letra": "C",
+     "texto": "Os cálculos pigmentados são os mais frequentes no Ocidente e se associam à obesidade."
+    },
+    {
+     "letra": "D",
+     "texto": "A doença de Crohn ileal protege contra cálculos de colesterol."
+    },
+    {
+     "letra": "E",
+     "texto": "A coledocolitíase nunca causa colangite nem pancreatite."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Colecistite aguda: obstrução do ducto cístico (Murphy). Coledocolitíase: icterícia obstrutiva, colangite (tríade de Charcot: febre, icterícia, dor), pancreatite biliar."
+  },
+  {
+   "id": "FISIO-PF-DIG2-24",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "pancreatite aguda · mecanismo",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · pâncreas exócrino (pancreatite aguda)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a pancreatite aguda, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A necrose gordurosa leva a hipercalcemia grave."
+    },
+    {
+     "letra": "B",
+     "texto": "Os sinais de Cullen e Grey-Turner indicam forma leve e edematosa."
+    },
+    {
+     "letra": "C",
+     "texto": "É causada principalmente por H. pylori."
+    },
+    {
+     "letra": "D",
+     "texto": "Suas causas mais comuns são a litíase biliar e o álcool; a ativação intrapancreática do tripsinogênio em tripsina desencadeia a autodigestão do órgão, com necrose gordurosa e, nas formas graves, hemorragia."
+    },
+    {
+     "letra": "E",
+     "texto": "A amilase e a lipase séricas estão tipicamente reduzidas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Necrose gordurosa saponifica o cálcio → **hipocalcemia** (sinal de gravidade). Cullen/Grey-Turner = hemorragia retroperitoneal (forma necro-hemorrágica)."
+  },
+  {
+   "id": "FISIO-PF-DIG2-25",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "Crohn × RCU",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · doença inflamatória intestinal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie a doença de Crohn da retocolite ulcerativa quanto à localização, distribuição, profundidade da inflamação, histologia e complicações.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| | Doença de Crohn | Retocolite ulcerativa |\n|---|---|---|\n| Localização | Boca ao ânus; íleo terminal e cólon direito mais | Reto, estendendo-se ao cólon |\n| Distribuição | Salteada | Contínua |\n| Profundidade | Transmural | Mucosa e submucosa |\n| Histologia | Granulomas não caseosos, fissuras | Abscessos de criptas, pseudopólipos, sem granulomas |\n| Endoscopia | Úlceras aftoides e lineares, \"pedra de calçamento\" | Mucosa friável, granular, ulcerada de forma difusa |\n| Complicações | Fístulas, abscessos, estenoses, doença perianal, má absorção (B12, sais biliares) | Hemorragia, megacólon tóxico, maior risco de câncer colorretal, colangite esclerosante primária |\n| Tabagismo | Piora | \"Protege\" |",
+   "comentario": null
+  },
+  {
+   "id": "FISIO-PF-DIG2-26",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisiopatologia do sistema digestório",
+   "subtema": "icterícias",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Trato gastrointestinal e Fígado e vesícula biliar · Silbernagl (trato digestório) · resumo FISIOPATOLOGIA - PR2 · fígado (metabolismo da bilirrubina)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique o metabolismo da bilirrubina e classifique as icterícias em pré-hepática, hepática e pós-hepática, com o perfil laboratorial e um exemplo de cada.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Metabolismo**: a hemoglobina das hemácias senescentes é degradada nos macrófagos (baço) em **bilirrubina indireta** (não conjugada, lipossolúvel), transportada pela albumina até o fígado, onde é captada e **conjugada** (glicuroniltransferase) em **bilirrubina direta** (hidrossolúvel), excretada na bile. No intestino vira urobilinogênio (cor das fezes); parte é reabsorvida e eliminada na urina.\n\n- **Pré-hepática** (excesso de produção): ↑ **indireta**, sem colúria, fezes normais ou escuras. Ex.: hemólise (esferocitose, falciforme), eritropoese ineficaz; síndrome de Gilbert (defeito de conjugação).\n- **Hepática (hepatocelular)**: ↑ direta e indireta, transaminases muito elevadas, colúria. Ex.: hepatites virais, alcoólica, medicamentosa, cirrose descompensada.\n- **Pós-hepática (obstrutiva/colestática)**: ↑ **direta**, **colúria, acolia fecal, prurido**, FA e GGT elevadas. Ex.: coledocolitíase, câncer da cabeça do pâncreas (Courvoisier), colangiocarcinoma.",
+   "comentario": null
+  }
+ ]
+}
