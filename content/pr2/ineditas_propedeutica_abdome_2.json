@@ -1,0 +1,1209 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Exame do abdome (lote 2, formato das provas)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., cap. 17, e SOP IV Guia PR2 seção 03 (aula do Prof. Epaminondas), restrito ao item 5.3 do plano. Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-PF-ABD2-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "divisão do abdome",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · divisão em nove regiões e quatro quadrantes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na divisão do abdome em nove regiões, as linhas horizontais e verticais que delimitam as regiões são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linha xifoumbilical e linha umbilicopúbica; linhas axilares anteriores."
+    },
+    {
+     "letra": "B",
+     "texto": "Linhas bicostal (subcostal) e bi-ilíaca (intertubercular); linhas hemiclaviculares direita e esquerda."
+    },
+    {
+     "letra": "C",
+     "texto": "Linha que passa pelo umbigo e linha mediana; linhas axilares médias."
+    },
+    {
+     "letra": "D",
+     "texto": "Linhas hemiclaviculares; linhas bicostal e bi-ilíaca."
+    },
+    {
+     "letra": "E",
+     "texto": "Linha transpilórica e linha umbilical; linha média."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Nove regiões: hipocôndrios D e E, epigástrio, flancos D e E, mesogástrio, fossas ilíacas D e E e hipogástrio. Quatro quadrantes: linhas vertical e horizontal cruzando no umbigo."
+  },
+  {
+   "id": "PROPE-PF-ABD2-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "inspeção · formas",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção estática (formas e volume)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Sobre a inspeção estática do abdome, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No abdome globoso predomina o diâmetro transversal, com flancos abaulados em decúbito dorsal."
+    },
+    {
+     "letra": "B",
+     "texto": "O abdome em avental ocorre na obesidade grave, com o panículo adiposo pendendo sobre as coxas."
+    },
+    {
+     "letra": "C",
+     "texto": "O abdome escavado (escafoide) é encontrado em pacientes caquéticos, como nas neoplasias e síndromes consumptivas."
+    },
+    {
+     "letra": "D",
+     "texto": "O abdome pendular aparece com o paciente em pé, com protrusão da parte inferior, como no puerpério e nos emagrecidos."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "B",
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "B, C e D",
+   "comentario": "No globoso predomina o diâmetro **anteroposterior**; o predomínio transversal, com flancos abaulados, é o ventre de batráquio."
+  },
+  {
+   "id": "PROPE-PF-ABD2-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "cicatriz umbilical",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção (cicatriz umbilical)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "À inspeção de um cirrótico, a cicatriz umbilical está protrusa e evertida, e há abaulamento que aumenta com a tosse. Esse achado sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hérnia umbilical associada ao aumento da pressão intra-abdominal pela ascite."
+    },
+    {
+     "letra": "B",
+     "texto": "Diástase dos retos sem significado."
+    },
+    {
+     "letra": "C",
+     "texto": "Cicatriz umbilical normal."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Cullen."
+    },
+    {
+     "letra": "E",
+     "texto": "Onfalite bacteriana."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Cicatriz normal: plana ou levemente retraída. Protrusa: hérnia, ascite volumosa ou gravidez. Onfalite: infecção com secreção (mais em crianças)."
+  },
+  {
+   "id": "PROPE-PF-ABD2-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "cicatrizes cirúrgicas",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção (cicatrizes)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com cicatriz oblíqua no hipocôndrio direito, paralela ao rebordo costal (incisão de Kocher), provavelmente foi submetido a:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apendicectomia."
+    },
+    {
+     "letra": "B",
+     "texto": "Histerectomia."
+    },
+    {
+     "letra": "C",
+     "texto": "Nefrectomia por lombotomia."
+    },
+    {
+     "letra": "D",
+     "texto": "Colecistectomia aberta."
+    },
+    {
+     "letra": "E",
+     "texto": "Herniorrafia inguinal."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O local sugere a cirurgia: hipocôndrio/flanco D → colecistectomia; FID → apendicectomia/herniorrafia; hipogástrio (Pfannenstiel) → cesárea/histerectomia; linha média → laparotomia; lombar → nefrectomia."
+  },
+  {
+   "id": "PROPE-PF-ABD2-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "circulação colateral",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção (circulação colateral) e 01 Ectoscopia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a circulação colateral observada no abdome, analise as afirmativas:\n\nI. Na circulação do tipo porta, a rede venosa é periumbilical e epigástrica, podendo irradiar do umbigo (\"cabeça de Medusa\").\nII. Na circulação do tipo cava inferior, a rede situa-se no abdome inferior, flancos e raiz das coxas, com fluxo sempre ascendente.\nIII. Para determinar a direção do fluxo, esvazia-se um segmento da veia com os dois indicadores e observa-se de que lado ela reenche.\nIV. Acima do umbigo, o fluxo é descendente no tipo porta e ascendente no tipo cava inferior.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Todas as afirmativas são falsas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a III está correta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Acima do umbigo ambas têm fluxo abdome → tórax (ascendente); diferenciam-se pelo fluxo **abaixo** do umbigo (desce na porta, sobe na cava) e pela localização."
+  },
+  {
+   "id": "PROPE-PF-ABD2-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "pulsações",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção dinâmica (pulsações) e palpação (massa pulsátil)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso tabagista e hipertenso apresenta massa pulsátil no mesogástrio, um pouco acima e à esquerda do umbigo, com pulsação expansiva lateral à palpação e sopro à ausculta. A hipótese principal é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pulsação aórtica normal de paciente magro."
+    },
+    {
+     "letra": "B",
+     "texto": "Tumor de pâncreas com pulsação transmitida."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipertrofia de ventrículo direito."
+    },
+    {
+     "letra": "D",
+     "texto": "Hérnia epigástrica."
+    },
+    {
+     "letra": "E",
+     "texto": "Aneurisma de aorta abdominal."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A pulsação aórtica é visível em magros, mas **expansiva lateralmente** sugere aneurisma (mais comum no idoso). Tumor sobre a aorta transmite pulsação apenas anteroposterior."
+  },
+  {
+   "id": "PROPE-PF-ABD2-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "ausculta",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · ausculta (RHA, sopros)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a ausculta do abdome, analise as afirmativas:\n\nI. Deve ser feita logo após a inspeção, nos quatro quadrantes, por cerca de 2 minutos em cada, com o diafragma do estetoscópio.\nII. Ruídos hidroaéreos aumentados, acima de 35 por minuto, podem ocorrer na diarreia e na fase inicial da obstrução intestinal.\nIII. O vascolejo (ruído de patinhação) com o paciente em jejum prolongado sugere estase gástrica, como na estenose pilórica.\nIV. A ausência de sopros abdominais em idosos indica aneurisma de aorta.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas a I está correta."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, II e III estão corretas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Sopros sistólicos ou contínuos sugerem estenose (aorta, artérias renais, ilíacas), aneurisma ou fístula AV; a ausência de sopro não indica aneurisma."
+  },
+  {
+   "id": "PROPE-PF-ABD2-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "sopro renal · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · ausculta (focos arteriais)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 35 anos com hipertensão de difícil controle apresenta sopro sistólico-diastólico à ausculta cerca de duas polpas digitais acima e lateral ao umbigo, à direita. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hérnia inguinal encarcerada."
+    },
+    {
+     "letra": "B",
+     "texto": "Estenose de artéria renal (hipertensão renovascular)."
+    },
+    {
+     "letra": "C",
+     "texto": "Obstrução intestinal mecânica."
+    },
+    {
+     "letra": "D",
+     "texto": "Esplenomegalia."
+    },
+    {
+     "letra": "E",
+     "texto": "Insuficiência aórtica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Focos da aula: aorta 2 polpas acima do umbigo; renais 2 polpas acima e ao lado; ilíacas 2 polpas abaixo e ao lado."
+  },
+  {
+   "id": "PROPE-PF-ABD2-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "percussão · sons",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (sons e significado)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Sobre a percussão do abdome, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O som timpânico predomina na maior parte do abdome pela presença de ar nas vísceras ocas."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipertimpanismo difuso pode ocorrer no meteorismo, na obstrução intestinal e no pneumoperitônio."
+    },
+    {
+     "letra": "C",
+     "texto": "A loja hepática é normalmente timpânica à percussão."
+    },
+    {
+     "letra": "D",
+     "texto": "A macicez circunscrita pode corresponder a massa, bexiga distendida ou útero gravídico."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "B",
+    "D"
+   ],
+   "gabarito_texto": "A, B e D",
+   "comentario": "O fígado dá **macicez** (submacicez no limite superior, 5º–6º EIC D). Timpanismo na loja hepática = Jobert (pneumoperitônio) ou interposição de alça."
+  },
+  {
+   "id": "PROPE-PF-ABD2-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "hepatimetria · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (hepatimetria da aula)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para realizar a hepatimetria do lobo direito, o examinador percute a linha hemiclavicular direita de cima para baixo até encontrar o limite superior do fígado e, depois, determina o limite inferior. O valor normal ensinado em aula é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "12 a 16 cm."
+    },
+    {
+     "letra": "B",
+     "texto": "4 a 8 cm."
+    },
+    {
+     "letra": "C",
+     "texto": "15 a 20 cm."
+    },
+    {
+     "letra": "D",
+     "texto": "6 a 12 cm."
+    },
+    {
+     "letra": "E",
+     "texto": "2 a 4 cm."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Lobo direito (hemiclavicular D): 6–12 cm; lobo esquerdo (linha média): 4–8 cm. Limite superior: 5º–6º EIC."
+  },
+  {
+   "id": "PROPE-PF-ABD2-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "Giordano · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (Giordano)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 30 anos com febre de 39 °C, calafrios, disúria e polaciúria há 2 dias, refere dor intensa ao receber golpes com a borda ulnar da mão fechada na região lombar esquerda. O sinal e a hipótese são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Murphy positivo — colecistite."
+    },
+    {
+     "letra": "B",
+     "texto": "Blumberg positivo — apendicite."
+    },
+    {
+     "letra": "C",
+     "texto": "Giordano positivo — pielonefrite aguda à esquerda."
+    },
+    {
+     "letra": "D",
+     "texto": "Jobert positivo — perfuração."
+    },
+    {
+     "letra": "E",
+     "texto": "Torres-Homem positivo — abscesso hepático."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Giordano: dor à punho-percussão lombar → pielonefrite, litíase renal."
+  },
+  {
+   "id": "PROPE-PF-ABD2-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "ascite · pequeno volume",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (pesquisa de ascite por volume)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Suspeita-se de ascite de pequeno volume (menos de 500 mL) num paciente com hepatopatia inicial. Sobre a sua pesquisa, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O exame físico é pouco sensível nesse volume; pode-se tentar a percussão periumbilical em posição genupeitoral ou o piparote no baixo ventre com o paciente de pé, mas o método ideal é o ultrassom."
+    },
+    {
+     "letra": "B",
+     "texto": "A macicez móvel detecta com facilidade volumes abaixo de 100 mL."
+    },
+    {
+     "letra": "C",
+     "texto": "Os semicírculos de Skoda são característicos da ascite pequena."
+    },
+    {
+     "letra": "D",
+     "texto": "A ascite pequena causa abdome em ventre de batráquio."
+    },
+    {
+     "letra": "E",
+     "texto": "O sinal do piparote em decúbito dorsal é o mais sensível para volumes pequenos."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Ascite \"1-5-0,5\": piparote > 1,5 L; macicez móvel + Skoda = média; < 500 mL = ultrassom."
+  },
+  {
+   "id": "PROPE-PF-ABD2-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "ascite × cisto ovariano",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (diferencial de abdome volumoso, Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 50 anos com abdome volumoso. Analise as afirmativas sobre o diferencial entre ascite e grande cisto de ovário:\n\nI. No cisto de ovário volumoso, a macicez é central e os flancos permanecem timpânicos.\nII. Na ascite, em decúbito dorsal, há macicez nos flancos e timpanismo central.\nIII. A macicez móvel é característica do cisto de ovário.\nIV. O cisto costuma ter contorno nítido e crescer para a frente.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas a I está correta."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, II e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A macicez **móvel** é da ascite (o líquido livre se desloca com o decúbito); o cisto é uma massa fixa que empurra as alças para os flancos."
+  },
+  {
+   "id": "PROPE-PF-ABD2-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "palpação · ordem",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação superficial (técnica da aula)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com dor intensa na fossa ilíaca direita. Sobre a técnica da palpação abdominal, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Palpar as nove regiões com a mão espalmada, começando longe da área dolorosa e deixando a região da dor por último, comparando regiões homólogas."
+    },
+    {
+     "letra": "B",
+     "texto": "Fazer a palpação profunda antes da superficial."
+    },
+    {
+     "letra": "C",
+     "texto": "Palpar com o paciente sentado, com as pernas estendidas."
+    },
+    {
+     "letra": "D",
+     "texto": "Palpar com a ponta dos dedos em movimentos bruscos, para vencer a defesa."
+    },
+    {
+     "letra": "E",
+     "texto": "Começar pela área dolorosa, para não perder o diagnóstico."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Decúbito dorsal, examinador à direita, mão espalmada, superficial antes da profunda, sentido horário, região dolorosa por último."
+  },
+  {
+   "id": "PROPE-PF-ABD2-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "defesa abdominal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação (contratura voluntária × involuntária)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A rigidez generalizada da parede abdominal, que não cede com a distração do paciente nem com a respiração profunda, em quadro de dor súbita e intensa, é chamada de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Contratura voluntária por ansiedade."
+    },
+    {
+     "letra": "B",
+     "texto": "Ventre de batráquio."
+    },
+    {
+     "letra": "C",
+     "texto": "Hérnia incisional."
+    },
+    {
+     "letra": "D",
+     "texto": "Abdome em tábua, sinal de peritonite difusa (como na úlcera perfurada)."
+    },
+    {
+     "letra": "E",
+     "texto": "Diástase dos retos."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Defesa (contratura involuntária) = reflexo visceromotor do peritônio inflamado; localizada ou generalizada (tábua). Não cede com distração."
+  },
+  {
+   "id": "PROPE-PF-ABD2-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "fígado · Lemos-Torres",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação do fígado (técnicas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na técnica de palpação hepática de Lemos-Torres:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A borda hepática é percutida com o punho fechado."
+    },
+    {
+     "letra": "B",
+     "texto": "A mão esquerda do examinador, na região lombar direita, empurra o fígado para a frente, enquanto a mão direita palpa a borda hepática na inspiração profunda."
+    },
+    {
+     "letra": "C",
+     "texto": "O paciente fica em decúbito lateral direito com a coxa esquerda fletida."
+    },
+    {
+     "letra": "D",
+     "texto": "O examinador, voltado para os pés do paciente, coloca as mãos em garra sob o rebordo costal."
+    },
+    {
+     "letra": "E",
+     "texto": "O fígado é palpado pelo rechaço, com impulsos rápidos dos dedos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Lemos-Torres: mão E na região lombar D anteriorizando o fígado. Mathieu: mãos em garra, examinador voltado para os pés. Schuster: baço. Rechaço: ascite volumosa."
+  },
+  {
+   "id": "PROPE-PF-ABD2-17",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "fígado · descrição",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação do fígado (o que descrever, Quadro 17.1)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao palpar um fígado aumentado, analise as afirmativas sobre o que deve ser descrito e sua interpretação:\n\nI. Deve-se registrar a distância da borda ao rebordo costal na linha hemiclavicular, a borda (fina ou romba), a superfície, a consistência e a sensibilidade.\nII. Superfície nodular, consistência aumentada e indolor sugere cirrose; nódulos esparsos e duros sugerem metástases.\nIII. A hepatomegalia dolorosa, de borda romba e superfície lisa é típica da congestão por insuficiência cardíaca.\nIV. Todo fígado palpável abaixo do rebordo costal está necessariamente aumentado.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas as afirmativas são falsas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a I está correta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Toda hepatomegalia é palpável, mas nem todo fígado palpável está aumentado (magros, visceroptose, tórax enfisematoso que rebaixa o diafragma). Confirmar com hepatimetria."
+  },
+  {
+   "id": "PROPE-PF-ABD2-18",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "vesícula · Murphy · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação da vesícula (Murphy)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para pesquisar o sinal de Murphy, o examinador:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Comprime a fossa ilíaca esquerda e observa dor na direita."
+    },
+    {
+     "letra": "B",
+     "texto": "Descomprime bruscamente o ponto de McBurney."
+    },
+    {
+     "letra": "C",
+     "texto": "Percute a região lombar com o punho fechado."
+    },
+    {
+     "letra": "D",
+     "texto": "Comprime o ponto cístico (ângulo entre o rebordo costal direito e a borda externa do reto abdominal) e pede inspiração profunda, observando se a dor interrompe a inspiração."
+    },
+    {
+     "letra": "E",
+     "texto": "Palpa a vesícula indolor em paciente ictérico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Murphy positivo: colecistite aguda (a vesícula inflamada desce na inspiração e encontra o dedo)."
+  },
+  {
+   "id": "PROPE-PF-ABD2-19",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "baço · Schuster · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação do baço (posição de Schuster)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na posição de Schuster, usada para palpar o baço, o paciente fica em:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Posição genupeitoral."
+    },
+    {
+     "letra": "B",
+     "texto": "Decúbito ventral, com os braços ao longo do corpo."
+    },
+    {
+     "letra": "C",
+     "texto": "Ortostatismo, inclinado para a frente."
+    },
+    {
+     "letra": "D",
+     "texto": "Decúbito lateral esquerdo, com a coxa direita fletida."
+    },
+    {
+     "letra": "E",
+     "texto": "Decúbito lateral direito, com a perna direita estendida, a coxa esquerda fletida a 90° e o braço esquerdo elevado sobre a cabeça."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O baço normal não é palpável; só se palpa quando praticamente dobra de tamanho. Sempre percutir o espaço de Traube."
+  },
+  {
+   "id": "PROPE-PF-ABD2-20",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "esplenomegalia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · baço (Porto: esplenomegalia)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Sobre a esplenomegalia, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O baço aumentado se desloca para baixo e para a frente na inspiração, em direção à fossa ilíaca direita."
+    },
+    {
+     "letra": "B",
+     "texto": "Grandes esplenomegalias, que ultrapassam o umbigo, ocorrem na esquistossomose hepatoesplênica, no calazar e na leucemia mieloide crônica."
+    },
+    {
+     "letra": "C",
+     "texto": "O hiperesplenismo pode causar anemia, leucopenia e plaquetopenia pelo sequestro de células no baço aumentado."
+    },
+    {
+     "letra": "D",
+     "texto": "O baço normal é facilmente palpável no hipocôndrio esquerdo durante a inspiração."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "B",
+    "C"
+   ],
+   "gabarito_texto": "A, B e C",
+   "comentario": "O baço normal (~13 × 8 cm, entre a 9ª e a 11ª costela) não é palpável."
+  },
+  {
+   "id": "PROPE-PF-ABD2-21",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "rins · palpação",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação dos rins (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para palpar o rim direito, o examinador coloca uma mão na região lombar empurrando-a para a frente e a outra no flanco, e, no fim da inspiração profunda, \"captura\" o polo inferior do rim. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A palpação renal é feita com o paciente em pé."
+    },
+    {
+     "letra": "B",
+     "texto": "A técnica é a mesma da posição de Schuster."
+    },
+    {
+     "letra": "C",
+     "texto": "O polo inferior do rim direito pode ser palpável em mulheres magras e não significa doença."
+    },
+    {
+     "letra": "D",
+     "texto": "Rim palpável é sempre sinal de tumor renal."
+    },
+    {
+     "letra": "E",
+     "texto": "O rim esquerdo é mais facilmente palpável que o direito."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Palpação bimanual (\"captura do rim\") e choque lomboabdominal. Rins palpáveis patologicamente: nefroptose, tumor, hidronefrose, rins policísticos."
+  },
+  {
+   "id": "PROPE-PF-ABD2-22",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "massa · consistência",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação profunda (massas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao palpar uma massa no hipogástrio de um idoso com dificuldade para urinar há 2 dias, o examinador encontra estrutura arredondada, de consistência cística, mediana, maciça à percussão e dolorosa à compressão, que provoca vontade de urinar. A hipótese mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Bexiga distendida por retenção urinária (bexigoma)."
+    },
+    {
+     "letra": "B",
+     "texto": "Fecaloma no ceco."
+    },
+    {
+     "letra": "C",
+     "texto": "Esplenomegalia volumosa."
+    },
+    {
+     "letra": "D",
+     "texto": "Aneurisma de aorta."
+    },
+    {
+     "letra": "E",
+     "texto": "Tumor de cólon sigmoide."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "No idoso, massa hipogástrica mediana, cística e maciça = bexiga distendida (hiperplasia prostática); confirmar com cateterismo/ultrassom."
+  },
+  {
+   "id": "PROPE-PF-ABD2-23",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "apendicite · sinais",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · manobras de irritação peritoneal (apendicite)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os sinais pesquisados na suspeita de apendicite aguda, analise as afirmativas:\n\nI. O sinal de Blumberg é a dor à descompressão brusca do ponto de McBurney, indicando irritação peritoneal.\nII. O sinal do obturador é a dor na fossa ilíaca direita à rotação interna da coxa direita fletida, sugerindo apêndice pélvico.\nIII. O sinal de Lenander é a diferença de temperatura retal maior que a axilar (cerca de 1 °C na aula).\nIV. O sinal de Rovsing é a dor na fossa ilíaca esquerda à compressão da fossa ilíaca direita.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a II está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, III e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas II, III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Rovsing: compressão da **FIE** desloca gases para o ceco e provoca dor na **FID**."
+  },
+  {
+   "id": "PROPE-PF-ABD2-24",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "úlcera perfurada · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (Porto: úlcera perfurada) e Nas provas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 52 anos com história de dispepsia e uso frequente de anti-inflamatórios apresenta dor epigástrica súbita, intensíssima, \"em punhalada\", que se generaliza e irradia para os ombros. Está imóvel, com abdome em tábua. O sinal de percussão que reforça o diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sinal de Jobert (timpanismo na loja hepática), por pneumoperitônio."
+    },
+    {
+     "letra": "B",
+     "texto": "Sinal de Courvoisier."
+    },
+    {
+     "letra": "C",
+     "texto": "Sinal de Giordano."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Murphy."
+    },
+    {
+     "letra": "E",
+     "texto": "Sinal de Cullen."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Úlcera perfurada: dor súbita em punhalada, abdome em tábua, Jobert (ar livre sob o diafragma). Dor no ombro: irritação diafragmática."
+  },
+  {
+   "id": "PROPE-PF-ABD2-25",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "colecistite · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (vesícula) e Complemento (Courvoisier: quando não aparece)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 45 anos, obesa, com dor no hipocôndrio direito há 2 dias após refeição gordurosa, febre de 38 °C, sem icterícia. A palpação do ponto cístico na inspiração interrompe a respiração por dor. Sobre o caso, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A ausência de icterícia exclui doença biliar."
+    },
+    {
+     "letra": "B",
+     "texto": "A vesícula palpável e indolor é o achado esperado na colecistite aguda."
+    },
+    {
+     "letra": "C",
+     "texto": "O quadro sugere neoplasia da cabeça do pâncreas."
+    },
+    {
+     "letra": "D",
+     "texto": "O sinal descrito é o de Courvoisier-Terrier, típico da colecistite."
+    },
+    {
+     "letra": "E",
+     "texto": "O quadro é de colecistite aguda por cálculo no ducto cístico; o colédoco livre explica a ausência de icterícia, e a vesícula dolorosa exclui o sinal de Courvoisier."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Courvoisier = vesícula palpável **indolor** + icterícia (neoplasia periampular). Na colecistite a vesícula é dolorosa (Murphy)."
+  },
+  {
+   "id": "PROPE-PF-ABD2-26",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo · obstrução",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (Porto: oclusão intestinal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa com cirurgias abdominais prévias apresenta cólicas abdominais, vômitos, distensão, parada de eliminação de gases e fezes há 2 dias. Ao exame: ondas peristálticas visíveis, hipertimpanismo e ruídos hidroaéreos metálicos. A causa mais provável da obstrução é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Colecistite aguda."
+    },
+    {
+     "letra": "B",
+     "texto": "Apendicite aguda."
+    },
+    {
+     "letra": "C",
+     "texto": "Íleo paralítico por hipocalemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Bridas (aderências) pós-operatórias."
+    },
+    {
+     "letra": "E",
+     "texto": "Pancreatite aguda."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Obstrução mecânica: parada de fezes e gases, distensão, vômitos, RHA metálicos e peristalse visível. No adulto operado, a causa mais comum são aderências; outras: hérnias encarceradas, tumores, vólvulo."
+  },
+  {
+   "id": "PROPE-PF-ABD2-27",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "peritonite · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (Porto: peritonite aguda difusa)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a peritonite aguda difusa, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O paciente costuma se movimentar muito no leito para aliviar a dor."
+    },
+    {
+     "letra": "B",
+     "texto": "A defesa abdominal (contratura involuntária) é o sinal mais precoce, seguro e constante; associam-se Blumberg, distensão progressiva até íleo paralítico, taquicardia e fácies de sofrimento."
+    },
+    {
+     "letra": "C",
+     "texto": "A febre afasta o diagnóstico de peritonite."
+    },
+    {
+     "letra": "D",
+     "texto": "A defesa abdominal desaparece com a distração do paciente."
+    },
+    {
+     "letra": "E",
+     "texto": "Os ruídos hidroaéreos estão sempre aumentados e metálicos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Na peritonite o paciente fica imóvel (o movimento piora a dor); na cólica (biliar, renal) ele se agita. RHA diminuídos/ausentes (íleo)."
+  },
+  {
+   "id": "PROPE-PF-ABD2-28",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "toque retal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · região anoperineal e toque retal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o toque retal, analise as afirmativas:\n\nI. Deve-se avaliar o tônus esfincteriano, a sensibilidade, as paredes do reto, a próstata (no homem) e o fundo de saco, e examinar o conteúdo da luva.\nII. Toque doloroso com hipertonia esfincteriana sugere fissura anal, abscesso ou trombose hemorroidária.\nIII. A presença de melena na luva sugere hemorragia digestiva baixa, como na doença diverticular.\nIV. Fundo de saco abaulado e doloroso pode indicar abscesso pélvico, anexite ou apendicite.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas a I está correta."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas III e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a IV está correta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Melena (fezes negras, pastosas, fétidas) sugere hemorragia **alta**; sangue vivo, hemorragia baixa (ou alta maciça)."
+  },
+  {
+   "id": "PROPE-PF-ABD2-29",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "idoso · fecaloma",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · exame do abdome no idoso (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso acamado, com constipação, passa a apresentar perda de fezes líquidas constante e confusão mental. O abdome está distendido, timpânico e flácido, sem defesa; palpa-se massa endurecida no quadrante inferior esquerdo. O exame que confirma a principal hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ausculta dos focos renais."
+    },
+    {
+     "letra": "B",
+     "texto": "Toque retal, que encontra a ampola retal com fezes endurecidas (fecaloma), explicando a diarreia paradoxal."
+    },
+    {
+     "letra": "C",
+     "texto": "Pesquisa do sinal de Murphy."
+    },
+    {
+     "letra": "D",
+     "texto": "Hepatimetria."
+    },
+    {
+     "letra": "E",
+     "texto": "Ultrassom de vesícula biliar."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "No idoso o fecaloma pode se apresentar apenas como diarreia paradoxal (por transbordamento), incontinência ou confusão. O toque retal faz o diagnóstico."
+  },
+  {
+   "id": "PROPE-PF-ABD2-30",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "baço e Traube",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão e palpação do baço",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique como examinar o baço (percussão e palpação), por que todo baço aumentado é percutível mas nem sempre palpável, e cite três causas de esplenomegalia.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Percussão**: espaço de Traube (6ª costela, linha axilar anterior E, rebordo costal E), normalmente **timpânico**; percutir de medial para lateral, de preferência em jejum. Macicez sugere esplenomegalia (falsos positivos: estômago cheio, derrame pleural E, cólon com fezes). Sinal de Castell: último EIC na axilar anterior E, timpânico que fica maciço na inspiração.\n\n**Palpação**: decúbito dorsal, mão esquerda empurrando o gradil costal E para a frente, mão direita abaixo do rebordo na inspiração profunda; depois na **posição de Schuster** (decúbito lateral D, coxa E fletida a 90°, braço E sobre a cabeça). Medir a distância do polo à reborda.\n\n**Percutível × palpável**: o baço cresce para baixo e para a frente; a macicez aparece cedo, mas ele só ultrapassa o rebordo e fica palpável quando praticamente dobra de tamanho.\n\n**Causas**: hipertensão portal (cirrose, esquistossomose), infecções (mononucleose, malária, calazar), hematológicas (LMC, anemias hemolíticas, linfomas).",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-ABD2-31",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "pancreatite · achados",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (pancreatite aguda) e Complemento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Paciente etilista com suspeita de pancreatite aguda. Cite cinco achados da anamnese e do exame físico que reforçam o diagnóstico e o significado dos sinais de Cullen e Grey-Turner.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "Quaisquer cinco: dor **epigástrica em faixa irradiada para o dorso**; início após **álcool** ou refeição gordurosa (litíase biliar); **vômitos incoercíveis**; **posição antálgica inclinada para a frente** (prece maometana); dor e defesa no andar superior do abdome; distensão e RHA diminuídos (íleo); febre, taquicardia, hipotensão nos casos graves; icterícia (origem biliar).\n\n**Cullen** (equimose periumbilical) e **Grey-Turner** (equimose nos flancos) indicam **hemorragia retroperitoneal** — pancreatite necro-hemorrágica, sinal de gravidade. Laboratório: amilase e lipase elevadas.",
+   "comentario": null
+  }
+ ]
+}
