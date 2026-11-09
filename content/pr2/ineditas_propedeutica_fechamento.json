@@ -1,0 +1,1346 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Lote de fechamento (abdome, cabeça e pescoço, cefaleias, ectoscopia, neuro)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., e SOP IV Guia PR2, restrito aos itens da PR2 do plano. Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-PF-MIX-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "inspeção · movimentos respiratórios",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · inspeção dinâmica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na inspeção dinâmica do abdome de um paciente com peritonite difusa, espera-se que os movimentos respiratórios abdominais estejam:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Exagerados, com respiração predominantemente abdominal."
+    },
+    {
+     "letra": "B",
+     "texto": "Normais, pois a peritonite não altera a respiração."
+    },
+    {
+     "letra": "C",
+     "texto": "Paradoxais, com retração na expiração."
+    },
+    {
+     "letra": "D",
+     "texto": "Diminuídos ou abolidos, com respiração predominantemente torácica, pois o movimento do peritônio inflamado provoca dor."
+    },
+    {
+     "letra": "E",
+     "texto": "Substituídos por ondas peristálticas visíveis."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "No homem a respiração é normalmente toracoabdominal; nas dores do andar superior e na peritonite o paciente \"trava\" o abdome."
+  },
+  {
+   "id": "PROPE-PF-MIX-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "percussão · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · percussão",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a percussão do abdome, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O espaço de Traube deve ser maciço em jejum."
+    },
+    {
+     "letra": "B",
+     "texto": "A percussão substitui a ausculta."
+    },
+    {
+     "letra": "C",
+     "texto": "Usa-se a percussão dígito-digital, percorrendo todas as regiões, e a percussão deve preceder a palpação profunda; deve-se comparar o som esperado de cada região (macicez hepática, timpanismo intestinal)."
+    },
+    {
+     "letra": "D",
+     "texto": "A percussão é desnecessária quando a palpação é normal."
+    },
+    {
+     "letra": "E",
+     "texto": "A percussão é feita apenas no hipocôndrio direito."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Percussão: delimita fígado e baço, identifica ascite, timpanismo (gases, pneumoperitônio), massas maciças e bexiga distendida."
+  },
+  {
+   "id": "PROPE-PF-MIX-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "palpação · superficial × profunda",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual o principal objetivo da palpação superficial do abdome?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Avaliar a sensibilidade, a tensão e a integridade da parede (pontos dolorosos, defesa, hérnias, diástase) antes da palpação profunda."
+    },
+    {
+     "letra": "B",
+     "texto": "Palpar o pâncreas e o duodeno."
+    },
+    {
+     "letra": "C",
+     "texto": "Avaliar os ruídos hidroaéreos."
+    },
+    {
+     "letra": "D",
+     "texto": "Delimitar o tamanho exato do baço."
+    },
+    {
+     "letra": "E",
+     "texto": "Medir a hepatimetria."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Profunda: órgãos e massas (localização, forma, consistência, mobilidade, sensibilidade, pulsatilidade)."
+  },
+  {
+   "id": "PROPE-PF-MIX-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "fígado · sinais",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · fígado e Autoteste",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o exame do fígado, analise as afirmativas:\n\nI. A hepatomegalia dolorosa de surgimento rápido indica distensão aguda da cápsula de Glisson.\nII. No fígado da cirrose avançada, a superfície costuma ser nodular, a consistência aumentada e o órgão pode estar reduzido.\nIII. O refluxo hepatojugular é pesquisado comprimindo o fígado e observando a elevação da pressão venosa jugular.\nIV. Na esteatose hepática, o fígado é tipicamente pétreo, nodular e doloroso.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas a I está correta."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a II está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, II e III estão corretas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Esteatose: fígado aumentado, liso, borrachoso (consistência ↓), indolor, borda fina."
+  },
+  {
+   "id": "PROPE-PF-MIX-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "massa · ovário × bexiga",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação (massas hipogástricas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 45 anos com massa no hipogástrio que permanece após cateterismo vesical, de consistência cística, móvel lateralmente, com flancos timpânicos. A hipótese mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hepatomegalia."
+    },
+    {
+     "letra": "B",
+     "texto": "Cisto de ovário volumoso (ou mioma uterino), pois a bexiga já foi esvaziada."
+    },
+    {
+     "letra": "C",
+     "texto": "Fecaloma do cólon transverso."
+    },
+    {
+     "letra": "D",
+     "texto": "Ascite de grande volume."
+    },
+    {
+     "letra": "E",
+     "texto": "Bexigoma por retenção urinária."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A massa que persiste após o esvaziamento vesical não é a bexiga; flancos timpânicos sem macicez móvel falam contra ascite."
+  },
+  {
+   "id": "PROPE-PF-MIX-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "vascolejo",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação (vascolejo)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com úlcera duodenal antiga refere vômitos de alimentos ingeridos no dia anterior. Ao sacudir o abdome em jejum, ouve-se ruído de líquido no epigástrio. O achado e o diagnóstico sugeridos são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vascolejo (patinhação) — estase gástrica por obstrução pilórica (estenose cicatricial)."
+    },
+    {
+     "letra": "B",
+     "texto": "Sopro — aneurisma de aorta."
+    },
+    {
+     "letra": "C",
+     "texto": "Gersuny — fecaloma."
+    },
+    {
+     "letra": "D",
+     "texto": "Ruído metálico — íleo paralítico."
+    },
+    {
+     "letra": "E",
+     "texto": "Sinal de Murphy — colecistite."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Vascolejo é normal logo após beber líquidos; em jejum indica estase (estenose pilórica, atonia gástrica)."
+  },
+  {
+   "id": "PROPE-PF-MIX-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "dor visceral × parietal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · dor abdominal (visceral, parietal, referida)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os tipos de dor abdominal, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor visceral não tem relação com distensão das vísceras."
+    },
+    {
+     "letra": "B",
+     "texto": "A dor parietal melhora com a movimentação."
+    },
+    {
+     "letra": "C",
+     "texto": "A dor visceral é sempre bem localizada no órgão doente."
+    },
+    {
+     "letra": "D",
+     "texto": "A dor referida ocorre no próprio local do órgão doente."
+    },
+    {
+     "letra": "E",
+     "texto": "A dor visceral é mal localizada, em geral na linha média, acompanhada de náuseas e sudorese; a dor parietal, pela irritação do peritônio parietal, é bem localizada e piora com movimentos e tosse."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Estímulos viscerais: distensão, isquemia, inflamação. Projeção: intestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio."
+  },
+  {
+   "id": "PROPE-PF-MIX-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "ponto ureteral · cólica renal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · pontos dolorosos e Giordano",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 35 anos com dor lombar intensa, em cólica, irradiada para o testículo direito, com hematúria. Sobre o exame, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor melhora com a compressão profunda do flanco."
+    },
+    {
+     "letra": "B",
+     "texto": "O sinal de Blumberg é obrigatoriamente positivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Espera-se agitação, Giordano possivelmente positivo e dor à palpação dos pontos ureterais, com abdome sem sinais de irritação peritoneal."
+    },
+    {
+     "letra": "D",
+     "texto": "O paciente fica imóvel, com abdome em tábua."
+    },
+    {
+     "letra": "E",
+     "texto": "Há sempre ascite associada."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Na cólica (renal, biliar) o paciente se movimenta à procura de posição; na peritonite fica imóvel."
+  },
+  {
+   "id": "PROPE-PF-MIX-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "anel herniário · femoral",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · hérnias",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher idosa com abaulamento doloroso abaixo do ligamento inguinal, medial aos vasos femorais, irredutível, com vômitos e distensão abdominal. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Diástase dos retos."
+    },
+    {
+     "letra": "B",
+     "texto": "Hérnia femoral encarcerada com obstrução intestinal."
+    },
+    {
+     "letra": "C",
+     "texto": "Hérnia umbilical."
+    },
+    {
+     "letra": "D",
+     "texto": "Hérnia inguinal direta redutível."
+    },
+    {
+     "letra": "E",
+     "texto": "Linfonodo inguinal reacional."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Hérnias femorais: mais em mulheres, abaixo do ligamento inguinal, alto risco de encarceramento/estrangulamento."
+  },
+  {
+   "id": "PROPE-PF-MIX-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "boca · leucoplasia × líquen",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · boca (lesões brancas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as lesões brancas da mucosa oral, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A candidíase forma placas que não se destacam à raspagem."
+    },
+    {
+     "letra": "B",
+     "texto": "A leucoplasia é sempre infecciosa e regride com antifúngico."
+    },
+    {
+     "letra": "C",
+     "texto": "A linha alba é lesão pré-maligna."
+    },
+    {
+     "letra": "D",
+     "texto": "A leucoplasia é uma placa branca que não se destaca à raspagem e não se caracteriza como outra doença, sendo lesão potencialmente maligna, sobretudo em tabagistas e etilistas."
+    },
+    {
+     "letra": "E",
+     "texto": "Os grânulos de Fordyce são placas de leucoplasia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Leucoplasia é diagnóstico de exclusão; biópsia para avaliar displasia. Eritroplasia (placa vermelha) tem risco ainda maior."
+  },
+  {
+   "id": "PROPE-PF-MIX-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "olhos · glaucoma agudo",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · olhos (olho vermelho)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa com dor ocular intensa, cefaleia, náuseas, visão borrada com halos ao redor das luzes, olho vermelho com congestão ciliar, córnea turva e pupila em média midríase fixa. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hemorragia subconjuntival."
+    },
+    {
+     "letra": "B",
+     "texto": "Hordéolo."
+    },
+    {
+     "letra": "C",
+     "texto": "Conjuntivite viral."
+    },
+    {
+     "letra": "D",
+     "texto": "Catarata senil."
+    },
+    {
+     "letra": "E",
+     "texto": "Glaucoma agudo de ângulo fechado (emergência oftalmológica)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Congestão ciliar (ao redor do limbo) + dor + baixa visual = irite, ceratite ou glaucoma agudo. Conjuntivite: hiperemia periférica, sem dor intensa nem baixa visual."
+  },
+  {
+   "id": "PROPE-PF-MIX-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "audição · presbiacusia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · orelhas (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso de 75 anos refere dificuldade progressiva para ouvir, principalmente sons agudos e conversas em ambientes ruidosos, nos dois ouvidos. Rinne positivo bilateral e Weber centralizado. O diagnóstico mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Otite externa."
+    },
+    {
+     "letra": "B",
+     "texto": "Rolha de cerume unilateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Otite média aguda bilateral."
+    },
+    {
+     "letra": "D",
+     "texto": "Presbiacusia (perda neurossensorial bilateral simétrica do envelhecimento)."
+    },
+    {
+     "letra": "E",
+     "texto": "Otosclerose com perda condutiva."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Weber centralizado = perda simétrica (ou audição normal). Presbiacusia: altas frequências primeiro."
+  },
+  {
+   "id": "PROPE-PF-MIX-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "tireoide · hiper × hipo",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · tireoide (Porto, quadro clínico)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os achados de exame físico nas disfunções tireoidianas, analise as afirmativas:\n\nI. No hipertireoidismo são comuns taquicardia, pele quente e úmida, tremor fino e cabelos finos.\nII. No hipotireoidismo são comuns bradicardia, pele seca e fria, edema palpebral e fala lenta.\nIII. A exoftalmia é característica da doença de Graves.\nIV. O exame físico da tireoide permite definir sozinho se a função está aumentada ou diminuída.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas a III está correta."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a II está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A função tireoidiana é definida pela clínica e pelos exames (TSH, T4 livre); a palpação descreve forma, volume e nódulos."
+  },
+  {
+   "id": "PROPE-PF-MIX-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodo · axilar",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · linfonodos (cadeias e drenagem)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 50 anos com linfonodo axilar esquerdo de 2,5 cm, endurecido e fixo, sem sinais inflamatórios. A principal hipótese a investigar é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Infecção do couro cabeludo."
+    },
+    {
+     "letra": "B",
+     "texto": "Faringite estreptocócica."
+    },
+    {
+     "letra": "C",
+     "texto": "Metástase de câncer de mama esquerda (examinar as mamas)."
+    },
+    {
+     "letra": "D",
+     "texto": "Conjuntivite viral."
+    },
+    {
+     "letra": "E",
+     "texto": "Infecção dentária."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Axilares drenam mama, membro superior e parede torácica: infecções de pele, arranhadura do gato, câncer de mama, linfoma."
+  },
+  {
+   "id": "PROPE-PF-MIX-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodo · inguinal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · linfonodos (cadeias e drenagem)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem jovem com linfonodomegalia inguinal unilateral dolorosa, com úlcera genital recente. A área de drenagem que explica o achado é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Genitália externa e períneo (a cadeia inguinal drena também ânus e membros inferiores)."
+    },
+    {
+     "letra": "B",
+     "texto": "Conjuntiva e pálpebras."
+    },
+    {
+     "letra": "C",
+     "texto": "Mama e parede torácica."
+    },
+    {
+     "letra": "D",
+     "texto": "Couro cabeludo posterior."
+    },
+    {
+     "letra": "E",
+     "texto": "Mediastino e pulmões."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Em adultos, pequenos linfonodos inguinais palpáveis podem ser normais; aumentados e dolorosos sugerem IST ou infecção do membro inferior."
+  },
+  {
+   "id": "PROPE-PF-MIX-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "nariz · epistaxe",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · nariz e seios paranasais",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a epistaxe, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A epistaxe anterior é sempre grave e exige cirurgia."
+    },
+    {
+     "letra": "B",
+     "texto": "O sangramento nunca está relacionado a distúrbios de coagulação."
+    },
+    {
+     "letra": "C",
+     "texto": "A epistaxe é sempre causada por tumor."
+    },
+    {
+     "letra": "D",
+     "texto": "A área de Kiesselbach fica na concha nasal inferior posterior."
+    },
+    {
+     "letra": "E",
+     "texto": "A maioria dos sangramentos é anterior, na área de Kiesselbach do septo nasal, e costuma ceder com compressão; sangramentos posteriores são mais comuns em idosos hipertensos e mais graves."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Causas: trauma digital, ressecamento, rinite, HAS, anticoagulantes, plaquetopenia, tumores (raros)."
+  },
+  {
+   "id": "PROPE-PF-MIX-17",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "cefaleia · uso excessivo de analgésico",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · cefaleias secundárias (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher com enxaqueca usa analgésicos combinados quase todos os dias há meses e passou a ter cefaleia diária, que piora quando tenta suspender os comprimidos. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Arterite temporal."
+    },
+    {
+     "letra": "B",
+     "texto": "Neuralgia do trigêmeo."
+    },
+    {
+     "letra": "C",
+     "texto": "Cefaleia por uso excessivo de medicamentos (rebote), que perpetua a dor crônica diária."
+    },
+    {
+     "letra": "D",
+     "texto": "Hemorragia subaracnóidea."
+    },
+    {
+     "letra": "E",
+     "texto": "Cefaleia em salvas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O tratamento envolve retirar o analgésico em excesso e instituir profilaxia."
+  },
+  {
+   "id": "PROPE-PF-MIX-18",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "neuralgia do trigêmeo · exame",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · dor facial",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a neuralgia do trigêmeo primária, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Melhora ao mastigar e ao falar."
+    },
+    {
+     "letra": "B",
+     "texto": "Cursa obrigatoriamente com anestesia da hemiface."
+    },
+    {
+     "letra": "C",
+     "texto": "Acomete preferencialmente crianças."
+    },
+    {
+     "letra": "D",
+     "texto": "Caracteriza-se por dor em choque, breve e intensa, num ramo do V, com zonas-gatilho, e exame neurológico normal entre as crises; déficit sensitivo sugere causa secundária (tumor, esclerose múltipla)."
+    },
+    {
+     "letra": "E",
+     "texto": "É uma dor contínua em aperto, bilateral."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Gatilhos: falar, mastigar, escovar os dentes, vento no rosto."
+  },
+  {
+   "id": "PROPE-PF-MIX-19",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "tontura · hipoglicemia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · tontura e síncope (causas metabólicas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diabético em uso de insulina apresenta tontura, sudorese, tremor, palpitações e confusão antes do almoço, que melhoram após comer. A causa mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estenose aórtica."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipoglicemia, causa metabólica de pré-síncope e alteração de consciência."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipertensão intracraniana."
+    },
+    {
+     "letra": "D",
+     "texto": "Vertigem posicional paroxística benigna."
+    },
+    {
+     "letra": "E",
+     "texto": "Crise de enxaqueca com aura."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Sempre medir a glicemia capilar no paciente com alteração de consciência ou síncope."
+  },
+  {
+   "id": "PROPE-PF-MIX-20",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "síncope · ortostática",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · síncope (hipotensão postural)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Como se confirma, ao exame físico, a hipotensão ortostática num idoso com tonturas ao levantar?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Medindo a pressão deitado e após 1 a 3 minutos em pé: queda de pelo menos 20 mmHg na sistólica ou 10 mmHg na diastólica."
+    },
+    {
+     "letra": "B",
+     "texto": "Pela ausculta do sopro carotídeo."
+    },
+    {
+     "letra": "C",
+     "texto": "Pela palpação do pulso carotídeo apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "Pelo teste de Romberg."
+    },
+    {
+     "letra": "E",
+     "texto": "Pela manobra de Dix-Hallpike."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Causas: desidratação, anti-hipertensivos, diuréticos, neuropatia autonômica (diabetes, Parkinson)."
+  },
+  {
+   "id": "PROPE-PF-MIX-21",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "demência × delirium",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · demência (diferencial)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa previamente lúcida apresenta, em 24 horas, desatenção, sonolência alternada com agitação e desorientação flutuante, com infecção urinária. O quadro é melhor classificado como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Demência de Alzheimer."
+    },
+    {
+     "letra": "B",
+     "texto": "Demência vascular em degraus."
+    },
+    {
+     "letra": "C",
+     "texto": "Afasia de Wernicke."
+    },
+    {
+     "letra": "D",
+     "texto": "Depressão maior."
+    },
+    {
+     "letra": "E",
+     "texto": "Delirium (estado confusional agudo), geralmente reversível com o tratamento da causa."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Delirium: início agudo, curso flutuante, déficit de atenção e da consciência. Demência: insidiosa, progressiva, atenção preservada no início."
+  },
+  {
+   "id": "PROPE-PF-MIX-22",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "raciocínio · caso integrado",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · raciocínio clínico (Prof. Tiago)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 30 anos com episódios, ao longo de 2 anos, de visão borrada em um olho, depois formigamento numa perna, depois desequilíbrio — cada um melhorando em semanas. Aplicando o raciocínio sindrômico-topográfico-etiológico, a hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão paroxística com normalidade entre as crises (enxaqueca)."
+    },
+    {
+     "letra": "B",
+     "texto": "Lesão progressiva única por tumor."
+    },
+    {
+     "letra": "C",
+     "texto": "Lesões múltiplas no SNC (multifocal), com evolução em surtos e remissões, sugerindo esclerose múltipla."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão periférica em bota e luva (polineuropatia)."
+    },
+    {
+     "letra": "E",
+     "texto": "Lesão única, súbita e vascular (AVC)."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Disseminação no espaço (vários locais) e no tempo (surtos) = desmielinizante."
+  },
+  {
+   "id": "PROPE-PF-MIX-23",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "cefaleia · gestante",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · sinais de alarme (gestação e puerpério)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Gestante de 34 semanas com cefaleia intensa, escotomas visuais, dor epigástrica e pressão arterial de 170/110 mmHg. A conduta correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aguardar o parto sem investigar."
+    },
+    {
+     "letra": "B",
+     "texto": "Prescrever triptano e liberar."
+    },
+    {
+     "letra": "C",
+     "texto": "Tratar como cefaleia tensional."
+    },
+    {
+     "letra": "D",
+     "texto": "Considerar pré-eclâmpsia grave (sinal de alarme na gestação), com avaliação imediata, e não tratar apenas como enxaqueca."
+    },
+    {
+     "letra": "E",
+     "texto": "Indicar punção lombar como primeiro passo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Gestação e puerpério são sinais de alarme para cefaleia (pré-eclâmpsia, trombose venosa cerebral, HSA)."
+  },
+  {
+   "id": "PROPE-PF-MIX-24",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fala · dislalia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · fala e linguagem (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 5 anos troca letras ao falar (\"tasa\" em vez de \"casa\"), com compreensão, linguagem e voz normais. A alteração é chamada de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Disartria."
+    },
+    {
+     "letra": "B",
+     "texto": "Dislalia."
+    },
+    {
+     "letra": "C",
+     "texto": "Disfasia."
+    },
+    {
+     "letra": "D",
+     "texto": "Afasia de Broca."
+    },
+    {
+     "letra": "E",
+     "texto": "Disfonia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Dislalia: alterações menores, comuns em crianças. Disritmolalia: gagueira, taquilalia."
+  },
+  {
+   "id": "PROPE-PF-MIX-25",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "hidratação · lactente",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · hidratação (criança)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na avaliação de um lactente com diarreia, qual conjunto de achados indica hidratação normal?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fontanela plana e normotensa, mucosas úmidas, olhos sem alteração, prega cutânea que se desfaz rapidamente, criança ativa e com diurese normal."
+    },
+    {
+     "letra": "B",
+     "texto": "Letargia, enchimento capilar de 4 segundos e oligúria."
+    },
+    {
+     "letra": "C",
+     "texto": "Fontanela abaulada e vômitos em jato."
+    },
+    {
+     "letra": "D",
+     "texto": "Prega cutânea que se desfaz lentamente e mucosas secas."
+    },
+    {
+     "letra": "E",
+     "texto": "Fontanela deprimida, olhos fundos e choro sem lágrimas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Fontanela abaulada = hipertensão intracraniana, não hidratação normal."
+  },
+  {
+   "id": "PROPE-PF-MIX-26",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies · depressiva",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · fácies (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente cabisbaixo, com olhar sem brilho fixo no chão, sulco nasolabial acentuado e cantos da boca rebaixados, respondendo com poucas palavras. A fácies é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fácies hipocrática."
+    },
+    {
+     "letra": "B",
+     "texto": "Fácies de depressão."
+    },
+    {
+     "letra": "C",
+     "texto": "Fácies basedowiana."
+    },
+    {
+     "letra": "D",
+     "texto": "Fácies atípica."
+    },
+    {
+     "letra": "E",
+     "texto": "Fácies parkinsoniana."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Na fácies parkinsoniana a expressão é de espanto e \"em máscara\", com olhar fixo e piscar raro."
+  },
+  {
+   "id": "PROPE-PF-MIX-27",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies · mongoloide",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · fácies (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança com epicanto, fendas palpebrais oblíquas, rosto arredondado, ponte nasal achatada e boca entreaberta com língua protrusa. A fácies é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Adenoidiana."
+    },
+    {
+     "letra": "B",
+     "texto": "Cushingoide."
+    },
+    {
+     "letra": "C",
+     "texto": "Mongoloide, característica da síndrome de Down (trissomia do 21)."
+    },
+    {
+     "letra": "D",
+     "texto": "Mixedematosa."
+    },
+    {
+     "letra": "E",
+     "texto": "Acromegálica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Associações: hipotonia, cardiopatia congênita, maior risco de leucemia e de Alzheimer precoce."
+  },
+  {
+   "id": "PROPE-PF-MIX-28",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "mucosas · cianose",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · mucosas e pele (cianose)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com DPOC exacerbada apresenta lábios, língua e leitos ungueais azulados, com mãos quentes. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É cianose central, por insaturação do sangue arterial (hemoglobina reduzida > 5 g/dL), que costuma melhorar com oxigênio."
+    },
+    {
+     "letra": "B",
+     "texto": "É icterícia mucosa."
+    },
+    {
+     "letra": "C",
+     "texto": "É cianose periférica por vasoconstrição ao frio."
+    },
+    {
+     "letra": "D",
+     "texto": "É palidez por anemia."
+    },
+    {
+     "letra": "E",
+     "texto": "É cianose que só aparece em anêmicos graves."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Pacientes muito anêmicos podem não ficar cianóticos (não atingem 5 g/dL de Hb reduzida); policitêmicos ficam com facilidade."
+  },
+  {
+   "id": "PROPE-PF-MIX-29",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "pele · temperatura · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · pele (temperatura e coloração)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com dor súbita na perna esquerda apresenta o membro frio, pálido, sem pulsos distais e com parestesia, enquanto a perna direita está normal. O achado sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Trombose venosa profunda, que causa membro frio e pálido."
+    },
+    {
+     "letra": "B",
+     "texto": "Linfedema."
+    },
+    {
+     "letra": "C",
+     "texto": "Fenômeno de Raynaud sistêmico."
+    },
+    {
+     "letra": "D",
+     "texto": "Erisipela."
+    },
+    {
+     "letra": "E",
+     "texto": "Oclusão arterial aguda (isquemia), pela frialdade e palidez localizadas comparadas ao lado homólogo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Isquemia arterial aguda: dor, palidez, ausência de pulso, parestesia, paralisia e frialdade (\"6 Ps\"). Inflamação: calor e rubor localizados."
+  },
+  {
+   "id": "PROPE-PF-MIX-30",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "ectoscopia · registro",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · exame físico geral (descrição)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual registro de ectoscopia está escrito corretamente, segundo a nomenclatura do Porto?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "\"Desidratado ++++ com mucosas úmidas e brilhantes.\""
+    },
+    {
+     "letra": "B",
+     "texto": "\"Fácies hipocrática em paciente em bom estado geral, sem alterações.\""
+    },
+    {
+     "letra": "C",
+     "texto": "\"Estado geral objetivo, consciente grau 15, mucosas boas.\""
+    },
+    {
+     "letra": "D",
+     "texto": "\"Bom estado geral, lúcido e orientado, hidratado, normocorado, anictérico, acianótico, afebril, fácies atípica, atitude indiferente, sem edemas.\""
+    },
+    {
+     "letra": "E",
+     "texto": "\"Paciente com tônus de massa normal e trofismo de semicontração.\""
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Descrição sistemática: estado geral, consciência, hidratação, coloração (descorado/normocorado, ictérico, cianótico), temperatura, fácies, atitude, edema, linfonodos etc."
+  },
+  {
+   "id": "PROPE-PF-MIX-31",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "exame do coma · olhos de boneca",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · consciência e tronco encefálico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em paciente comatoso, ao girar passivamente a cabeça para um lado, os olhos movem-se conjugadamente para o lado oposto, permanecendo \"fixos\" no examinador. Esse reflexo oculocefálico presente indica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão grave da ponte."
+    },
+    {
+     "letra": "B",
+     "texto": "Morte encefálica."
+    },
+    {
+     "letra": "C",
+     "texto": "Simulação."
+    },
+    {
+     "letra": "D",
+     "texto": "Paralisia do VI par bilateral."
+    },
+    {
+     "letra": "E",
+     "texto": "Integridade das vias do tronco encefálico (vestíbulo-oculomotoras), sugerindo coma de causa metabólica ou hemisférica."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Reflexo oculocefálico ausente (olhos acompanham a cabeça) sugere lesão do tronco. Não pesquisar se houver suspeita de lesão cervical."
+  },
+  {
+   "id": "PROPE-PF-MIX-32",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "diplopia · horizontal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · nervos cranianos (motilidade)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com hipertensão intracraniana refere visão dupla horizontal que piora ao olhar para longe e para o lado direito. O nervo mais provavelmente acometido é o:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Abducente direito (VI)."
+    },
+    {
+     "letra": "B",
+     "texto": "Troclear direito (IV)."
+    },
+    {
+     "letra": "C",
+     "texto": "Oculomotor esquerdo (III)."
+    },
+    {
+     "letra": "D",
+     "texto": "Óptico direito (II)."
+    },
+    {
+     "letra": "E",
+     "texto": "Facial direito (VII)."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O VI abduz o olho; a diplopia horizontal piora ao olhar para o lado do músculo parético."
+  },
+  {
+   "id": "PROPE-PF-MIX-33",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "sinal de Babinski · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · reflexos (cutaneoplantar)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao pesquisar o reflexo cutaneoplantar, qual técnica está correta?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Percutir o tendão de Aquiles com o martelo."
+    },
+    {
+     "letra": "B",
+     "texto": "Estimular a ponta do hálux com agulha."
+    },
+    {
+     "letra": "C",
+     "texto": "Estimular a borda lateral da planta do pé com objeto rombo, do calcanhar em direção aos dedos, fazendo uma curva na região metatarsal."
+    },
+    {
+     "letra": "D",
+     "texto": "Comprimir a panturrilha com força."
+    },
+    {
+     "letra": "E",
+     "texto": "Flexionar passivamente o hálux."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Variantes (Chaddock, Oppenheim) também pesquisam a resposta extensora; o significado é o mesmo do Babinski."
+  },
+  {
+   "id": "PROPE-PF-MIX-34",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "pares cranianos · funções",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · nervos cranianos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Cite os doze pares cranianos e, para cada um, uma forma de examiná-lo.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "I **olfatório**: odores conhecidos, cada narina, olhos fechados.\nII **óptico**: acuidade (Snellen), campos por confrontação, fundoscopia, fotomotor (aferência).\nIII **oculomotor**: pálpebra, pupilas (fotomotor eferente), motilidade (adução, elevação, depressão).\nIV **troclear**: olhar para baixo e para dentro (oblíquo superior).\nV **trigêmeo**: sensibilidade de V1, V2, V3; cerrar os dentes, lateralizar a mandíbula; córneo-palpebral (aferência).\nVI **abducente**: abdução do olho (reto lateral).\nVII **facial**: enrugar a testa, fechar os olhos com força, mostrar os dentes, assobiar; gustação dos 2/3 anteriores.\nVIII **vestibulococlear**: voz cochichada, Rinne e Weber; nistagmo, Romberg, Fukuda, Dix-Hallpike.\nIX **glossofaríngeo** e X **vago**: palato e úvula ao dizer \"A\", reflexo nauseoso, deglutição, voz.\nXI **acessório**: girar a cabeça e elevar os ombros contra resistência.\nXII **hipoglosso**: língua (atrofia, fasciculação, desvio à protrusão).",
+   "comentario": null
+  }
+ ]
+}
