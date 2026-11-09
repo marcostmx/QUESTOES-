@@ -61,6 +61,10 @@ O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `t
 
 Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina e da prova em questão (conferir o plano/cronograma da disciplina), e cobrir só conteúdo de **alto rendimento para prova**: mecanismos centrais, diagnósticos diferenciais clássicos e o que os professores cobram — sem listas exaustivas, números decorativos ou detalhes de nicho. Devem seguir o **formato das provas do professor** da disciplina (ex.: em Propedêutica, "assinale a(s) correta(s)" com assertivas longas e uma palavra trocada, afirmativas I–IV com combinações, sequência V/F, casos clínicos com cinco diagnósticos, associação de colunas e discursivas "cite cinco sinais") e se restringir aos temas que já se repetem nessas provas.
 
+### Imagens nas questões
+
+O campo `"imagem"` do arquivo de origem aponta para um arquivo em `public/img/q/` (ex.: `"/img/q/ascite.jpg"`). Use só imagens de licença livre (domínio público, CC0, CC BY, CC BY-SA — sem NC/ND) ou diagramas próprios em SVG. Registre autor, licença e link de cada foto em `public/img/q/CREDITOS.json` e repita o crédito no fim do comentário da questão.
+
 ## Adicionar ou editar questões
 
 Edite o JSON em `src/data/questions/<prova>/`. Cada questão:
