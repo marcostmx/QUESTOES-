@@ -1,0 +1,763 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário (lote 3, formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-09",
+  "base": "Robbins & Cotran (Patologia, cap. Rim e trato urinário) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-URI3-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "filtração glomerular · barreira",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomérulo (barreira de filtração)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a barreira de filtração glomerular, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É formada apenas pelo epitélio tubular proximal."
+    },
+    {
+     "letra": "B",
+     "texto": "É formada pelo endotélio fenestrado, pela membrana basal glomerular e pelos podócitos com seus diafragmas de fenda; sua carga negativa e seu tamanho restringem a passagem de albumina."
+    },
+    {
+     "letra": "C",
+     "texto": "A lesão dos podócitos causa hematúria isolada, nunca proteinúria."
+    },
+    {
+     "letra": "D",
+     "texto": "Os podócitos estão no lado endotelial da membrana basal."
+    },
+    {
+     "letra": "E",
+     "texto": "A albumina atravessa livremente a barreira normal e é toda reabsorvida no túbulo distal."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Lesão podocitária (lesões mínimas, GESF) → proteinúria; lesão inflamatória da parede capilar → hematúria (nefrítica)."
+  },
+  {
+   "id": "FISIO-PF-URI3-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "síndromes · urêmica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal crônica (síndrome urêmica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a síndrome urêmica, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Pode causar pericardite fibrinosa, gastroenterite, neuropatia periférica e encefalopatia.\nII. A disfunção plaquetária urêmica aumenta a tendência a sangramentos.\nIII. O hálito urêmico e o prurido são manifestações possíveis.\nIV. Resulta da retenção de bicarbonato e potássio com alcalose metabólica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A uremia cursa com **acidose metabólica** (retenção de ácidos) e tendência a **hipercalemia**; indicações de diálise: acidose e hipercalemia refratárias, sobrecarga de volume, pericardite, encefalopatia."
+  },
+  {
+   "id": "FISIO-PF-URI3-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "proteinúria · seletividade",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (proteinúria)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A proteinúria seletiva, composta quase exclusivamente de albumina e outras proteínas de baixo peso molecular, é característica de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nefrite intersticial crônica."
+    },
+    {
+     "letra": "B",
+     "texto": "Glomerulonefrite membranoproliferativa."
+    },
+    {
+     "letra": "C",
+     "texto": "Mieloma múltiplo (proteína de Bence Jones)."
+    },
+    {
+     "letra": "D",
+     "texto": "Doença de lesões mínimas."
+    },
+    {
+     "letra": "E",
+     "texto": "Glomerulonefrite rapidamente progressiva."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Lesões mínimas: perda da carga negativa e fusão podocitária → albumina passa seletivamente. Lesões mais graves deixam passar proteínas maiores (não seletiva)."
+  },
+  {
+   "id": "FISIO-PF-URI3-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefrite lúpica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças sistêmicas e glomérulos (lúpus)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 25 anos com lúpus eritematoso sistêmico apresenta hipertensão, hematúria com cilindros hemáticos, proteinúria e complemento baixo. A biópsia mostra glomerulonefrite proliferativa difusa com depósitos de imunocomplexos subendoteliais (\"alças de arame\"). Sobre o quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É doença anti-membrana basal com depósito linear."
+    },
+    {
+     "letra": "B",
+     "texto": "É uma lesão exclusivamente tubular."
+    },
+    {
+     "letra": "C",
+     "texto": "É nefrite lúpica proliferativa difusa (classe IV), a forma mais comum e grave, mediada por imunocomplexos."
+    },
+    {
+     "letra": "D",
+     "texto": "É doença de lesões mínimas sem depósitos."
+    },
+    {
+     "letra": "E",
+     "texto": "É nefropatia diabética."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O lúpus pode causar qualquer padrão glomerular (de alterações mínimas mesangiais a membranosa); a classe IV cursa com síndrome nefrítica e complemento baixo."
+  },
+  {
+   "id": "FISIO-PF-URI3-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "GNMP",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomerulonefrite membranoproliferativa",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a glomerulonefrite membranoproliferativa, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não tem relação com infecções crônicas."
+    },
+    {
+     "letra": "B",
+     "texto": "É sempre benigna e regride espontaneamente."
+    },
+    {
+     "letra": "C",
+     "texto": "É a causa mais comum de nefrótica na criança."
+    },
+    {
+     "letra": "D",
+     "texto": "Mostra glomérulos normais à microscopia óptica."
+    },
+    {
+     "letra": "E",
+     "texto": "Caracteriza-se por proliferação mesangial e espessamento da parede capilar com aspecto em \"trilho de trem\" (duplicação da membrana basal); associa-se a hepatite C, crioglobulinemia e ativação do complemento, cursando com síndrome nefrótica ou nefrítica."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Padrão misto nefrítico-nefrótico com complemento baixo; evolução frequente para DRC."
+  },
+  {
+   "id": "FISIO-PF-URI3-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "Alport",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças glomerulares hereditárias",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem com hematúria persistente, surdez neurossensorial e alterações oculares; parentes do sexo masculino evoluíram para insuficiência renal. A doença mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Doença renal policística autossômica dominante."
+    },
+    {
+     "letra": "B",
+     "texto": "Doença de lesões mínimas."
+    },
+    {
+     "letra": "C",
+     "texto": "Nefropatia por IgA."
+    },
+    {
+     "letra": "D",
+     "texto": "Glomerulonefrite pós-estreptocócica."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome de Alport, por defeito do colágeno tipo IV da membrana basal."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Alport: geralmente ligada ao X; membrana basal com aspecto em \"trama de cesto\" à microscopia eletrônica."
+  },
+  {
+   "id": "FISIO-PF-URI3-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "doença renal policística",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças císticas do rim",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 42 anos com hipertensão, dor lombar, hematúria e rins aumentados bilateralmente, com múltiplos cistos; o pai fez diálise e morreu de hemorragia cerebral. Sobre a doença provável, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os rins estão reduzidos e lisos."
+    },
+    {
+     "letra": "B",
+     "texto": "É a doença renal policística autossômica dominante (genes PKD1/PKD2), associada a cistos hepáticos, aneurismas saculares cerebrais e prolapso mitral, com evolução para doença renal crônica."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma doença autossômica recessiva que se manifesta só no período neonatal."
+    },
+    {
+     "letra": "D",
+     "texto": "É causada por refluxo vesicoureteral."
+    },
+    {
+     "letra": "E",
+     "texto": "Não há associação com aneurismas cerebrais."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A forma recessiva (PKHD1) é da infância, com fibrose hepática congênita."
+  },
+  {
+   "id": "FISIO-PF-URI3-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "acidose tubular renal",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · defeitos tubulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a acidose tubular renal, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cursa com alcalose metabólica e hipocloremia."
+    },
+    {
+     "letra": "B",
+     "texto": "Decorre de lesão glomerular com proteinúria nefrótica."
+    },
+    {
+     "letra": "C",
+     "texto": "No tipo 2 a falha é a secreção distal de H⁺."
+    },
+    {
+     "letra": "D",
+     "texto": "É uma acidose metabólica hiperclorêmica (com ânion gap normal) por defeito tubular de acidificação: no tipo 1 (distal) falha a secreção de H⁺; no tipo 2 (proximal) falha a reabsorção de bicarbonato."
+    },
+    {
+     "letra": "E",
+     "texto": "O ânion gap está sempre muito elevado."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Tipo 4: hipoaldosteronismo (hipercalemia), comum em diabéticos. A ATR distal favorece nefrocalcinose e cálculos."
+  },
+  {
+   "id": "FISIO-PF-URI3-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "distúrbios do sódio e da água",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · rim e regulação hidroeletrolítica (Silbernagl)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a regulação renal da água e do sódio, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. O hormônio antidiurético aumenta a reabsorção de água nos ductos coletores pelas aquaporinas.\nII. A aldosterona aumenta a reabsorção de sódio e a excreção de potássio no néfron distal.\nIII. A hipovolemia ativa o sistema renina-angiotensina-aldosterona.\nIV. Os diuréticos tiazídicos causam hipercalemia por inibirem a secreção distal de potássio.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Tiazídicos e de alça causam **hipocalemia** (e os tiazídicos, hiponatremia, sobretudo em idosos). Hipercalemia: espironolactona, IECA/BRA, DRC."
+  },
+  {
+   "id": "FISIO-PF-URI3-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "hiponatremia · idoso · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios eletrolíticos (Compilado: caso da idosa)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa de 78 anos em uso de hidroclorotiazida apresenta confusão mental, sonolência e sódio sérico de 118 mEq/L. Sobre o quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O tiazídico, ao inibir a reabsorção de sódio no túbulo distal e prejudicar a diluição urinária, favorece hiponatremia, sobretudo em idosos; a hiponatremia causa edema cerebral e sintomas neurológicos."
+    },
+    {
+     "letra": "B",
+     "texto": "A confusão mental não tem relação com o sódio."
+    },
+    {
+     "letra": "C",
+     "texto": "A hiponatremia é causada por excesso de aldosterona com retenção de sódio."
+    },
+    {
+     "letra": "D",
+     "texto": "O clearance de creatinina é diretamente proporcional à creatinina sérica."
+    },
+    {
+     "letra": "E",
+     "texto": "Os tiazídicos aumentam a excreção de água livre e causam hipernatremia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Clearance de creatinina é **inversamente** proporcional à creatinina sérica. Na idosa desidratada, o sódio pode também subir (hipernatremia) se a perda de água predominar."
+  },
+  {
+   "id": "FISIO-PF-URI3-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "clearance de creatinina",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · avaliação da função renal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação da função renal, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A creatinina sérica só se eleva quando a filtração glomerular já caiu de forma importante (cerca de metade), e depende da massa muscular; por isso se estima a taxa de filtração por fórmulas ou pelo clearance."
+    },
+    {
+     "letra": "B",
+     "texto": "A creatinina não sofre influência da massa muscular."
+    },
+    {
+     "letra": "C",
+     "texto": "O clearance de creatinina é diretamente proporcional à creatinina sérica."
+    },
+    {
+     "letra": "D",
+     "texto": "A creatinina sérica sobe precocemente com qualquer perda mínima de néfrons."
+    },
+    {
+     "letra": "E",
+     "texto": "A ureia é um marcador mais fiel da filtração que a creatinina."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A ureia sofre influência de dieta proteica, catabolismo, hidratação e sangramento digestivo."
+  },
+  {
+   "id": "FISIO-PF-URI3-12",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "pielonefrite aguda · morfologia",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · pielonefrite aguda",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a morfologia da pielonefrite aguda, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É uma lesão glomerular por imunocomplexos sem neutrófilos."
+    },
+    {
+     "letra": "B",
+     "texto": "Os glomérulos são os primeiros e mais acometidos."
+    },
+    {
+     "letra": "C",
+     "texto": "Há inflamação supurativa intersticial com abscessos e neutrófilos nos túbulos (cilindros leucocitários), podendo complicar com necrose de papila (sobretudo em diabéticos) e pionefrose na obstrução."
+    },
+    {
+     "letra": "D",
+     "texto": "Nunca causa necrose de papila."
+    },
+    {
+     "letra": "E",
+     "texto": "É sempre bilateral e simétrica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Os glomérulos costumam ser relativamente poupados na pielonefrite aguda."
+  },
+  {
+   "id": "FISIO-PF-URI3-13",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "cistite",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · bexiga (cistite)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher jovem com disúria, polaciúria, urgência e dor suprapúbica, sem febre nem dor lombar. A urina tem leucócitos, nitrito positivo e bactérias. Sobre o quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O nitrito positivo indica proteinúria nefrótica."
+    },
+    {
+     "letra": "B",
+     "texto": "É uma pielonefrite crônica com cicatrizes."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma glomerulonefrite aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "É uma cistite (infecção do trato urinário baixo), em geral por E. coli ascendente; a ausência de febre e de dor lombar fala contra pielonefrite."
+    },
+    {
+     "letra": "E",
+     "texto": "É nefrite intersticial alérgica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Nitrito positivo: bactérias gram-negativas que reduzem nitrato. Leucocitúria: inflamação."
+  },
+  {
+   "id": "FISIO-PF-URI3-14",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "carcinoma de células renais",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · tumores renais",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 60 anos, tabagista, apresenta hematúria, dor no flanco e massa palpável; hemograma com policitemia. A tríade e a hipótese são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipertensão, cistos e aneurismas — doença policística."
+    },
+    {
+     "letra": "B",
+     "texto": "Hematúria, dor lombar e massa — carcinoma de células renais (de células claras), que pode produzir eritropoetina."
+    },
+    {
+     "letra": "C",
+     "texto": "Edema, proteinúria e hipoalbuminemia — síndrome nefrótica."
+    },
+    {
+     "letra": "D",
+     "texto": "Hematúria, febre e disúria — cistite."
+    },
+    {
+     "letra": "E",
+     "texto": "Cólica, hematúria e cálculo — urolitíase, que causa policitemia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Carcinoma de células renais: origem tubular; associa-se a tabagismo, obesidade, von Hippel-Lindau (VHL); síndromes paraneoplásicas (policitemia, hipercalcemia); invasão da veia renal."
+  },
+  {
+   "id": "FISIO-PF-URI3-15",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "tumor de Wilms",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · tumores renais da infância",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 3 anos com massa abdominal grande, unilateral, que não cruza a linha média, descoberta pela mãe ao dar banho. A hipótese mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Doença renal policística do adulto."
+    },
+    {
+     "letra": "B",
+     "texto": "Glomerulonefrite pós-estreptocócica."
+    },
+    {
+     "letra": "C",
+     "texto": "Hidronefrose por cálculo."
+    },
+    {
+     "letra": "D",
+     "texto": "Carcinoma de células renais."
+    },
+    {
+     "letra": "E",
+     "texto": "Tumor de Wilms (nefroblastoma)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Wilms: tumor renal mais comum da infância (2–5 anos); associação com síndromes WAGR e Beckwith-Wiedemann."
+  },
+  {
+   "id": "FISIO-PF-URI3-16",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "carcinoma urotelial",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · bexiga (tumores)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Tabagista de 65 anos com hematúria macroscópica indolor. Sobre a hipótese principal, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glomerulonefrite proliferativa, por ser indolor."
+    },
+    {
+     "letra": "B",
+     "texto": "Pielonefrite aguda sem febre."
+    },
+    {
+     "letra": "C",
+     "texto": "Carcinoma urotelial da bexiga, cujo principal fator de risco é o tabagismo, além de exposição a aminas aromáticas e ciclofosfamida."
+    },
+    {
+     "letra": "D",
+     "texto": "Cálculo renal, que sempre causa hematúria indolor."
+    },
+    {
+     "letra": "E",
+     "texto": "Hiperplasia prostática como causa exclusiva."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Hematúria macroscópica indolor no adulto, especialmente tabagista, exige investigação do trato urinário (cistoscopia, imagem). Esquistossomose (S. haematobium) associa-se ao carcinoma escamoso."
+  },
+  {
+   "id": "FISIO-PF-URI3-17",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "SHU",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças vasculares renais (microangiopatia trombótica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança com diarreia sanguinolenta por E. coli produtora de toxina Shiga evolui com anemia hemolítica com esquizócitos, plaquetopenia e insuficiência renal aguda. A síndrome e o mecanismo são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Síndrome hemolítico-urêmica: a toxina lesa o endotélio dos capilares glomerulares, com microtrombos que consomem plaquetas e fragmentam hemácias."
+    },
+    {
+     "letra": "B",
+     "texto": "Nefrite intersticial alérgica."
+    },
+    {
+     "letra": "C",
+     "texto": "Glomerulonefrite pós-estreptocócica."
+    },
+    {
+     "letra": "D",
+     "texto": "Púrpura trombocitopênica imune com destruição de plaquetas no baço."
+    },
+    {
+     "letra": "E",
+     "texto": "Coagulação intravascular disseminada por sepse."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Microangiopatia trombótica: SHU (renal predominante) e PTT (neurológica, deficiência de ADAMTS13)."
+  },
+  {
+   "id": "FISIO-PF-URI3-18",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "nefropatia diabética · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal diabética",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a doença renal diabética, assinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O espessamento da membrana basal glomerular é a alteração morfológica mais precoce."
+    },
+    {
+     "letra": "B",
+     "texto": "Controle glicêmico e pressórico e uso de IECA ou BRA retardam a progressão."
+    },
+    {
+     "letra": "C",
+     "texto": "A hiperfiltração glomerular inicial contribui para a lesão."
+    },
+    {
+     "letra": "D",
+     "texto": "Seu primeiro sinal clínico costuma ser a hematúria macroscópica com cilindros hemáticos."
+    },
+    {
+     "letra": "E",
+     "texto": "A microalbuminúria é o marcador clínico precoce da nefropatia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Hematúria com cilindros hemáticos sugere glomerulonefrite proliferativa, não a nefropatia diabética típica."
+  },
+  {
+   "id": "FISIO-PF-URI3-19",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "síndrome nefrótica · mecanismos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndromes glomerulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique os mecanismos fisiopatológicos dos quatro componentes da síndrome nefrótica (proteinúria, hipoalbuminemia, edema e hiperlipidemia) e cite duas complicações.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "- **Proteinúria (≥ 3,5 g/dia)**: lesão da barreira de filtração (podócitos, membrana basal) com perda da seletividade de carga e tamanho.\n- **Hipoalbuminemia (< 3 g/dL)**: perda urinária de albumina maior que a capacidade de síntese hepática.\n- **Edema**: queda da pressão oncótica plasmática → líquido para o interstício; a hipovolemia relativa ativa o SRAA e o ADH → retenção de sódio e água (além de retenção primária de sódio pelo rim). Edema mole, generalizado, periorbitário matinal, anasarca.\n- **Hiperlipidemia e lipidúria**: aumento da síntese hepática de lipoproteínas (estimulada pela queda da pressão oncótica) e menor catabolismo; corpos graxos ovais na urina.\n\n**Complicações**: tromboses (perda de antitrombina III, proteínas C e S; trombose de veia renal), infecções (perda de imunoglobulinas e complemento; peritonite pneumocócica), desnutrição proteica, aterosclerose, insuficiência renal.",
+   "comentario": null
+  },
+  {
+   "id": "FISIO-PF-URI3-20",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Fisio do sistema urinário",
+   "subtema": "DRC · manifestações",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal crônica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Descreva as manifestações sistêmicas da doença renal crônica avançada e o mecanismo de cada uma (anemia, alterações ósseas, distúrbios ácido-base e eletrolíticos, hipertensão e manifestações urêmicas).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "- **Anemia normocítica**: ↓ produção de **eritropoetina** pelas células intersticiais renais; também hemólise e sangramentos urêmicos.\n- **Osteodistrofia renal**: retenção de **fosfato** e ↓ ativação da vitamina D (1-α-hidroxilase) → hipocalcemia → **hiperparatireoidismo secundário** (osteíte fibrosa), osteomalácia, calcificações vasculares.\n- **Acidose metabólica**: ↓ excreção de ácidos e ↓ regeneração de bicarbonato.\n- **Hipercalemia**: ↓ excreção de potássio (agravada por IECA, espironolactona).\n- **Hipertensão e sobrecarga de volume**: retenção de sódio e água e ativação do SRAA; levam a IC, edema e hipertrofia ventricular.\n- **Uremia**: pericardite, gastroenterite, neuropatia periférica, encefalopatia, prurido, disfunção plaquetária com sangramentos, hálito urêmico.",
+   "comentario": null
+  }
+ ]
+}
