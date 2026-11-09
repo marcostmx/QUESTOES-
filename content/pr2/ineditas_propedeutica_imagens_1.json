@@ -1,0 +1,649 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Questões com imagem (lote 1)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., e SOP IV Guia PR2 (treinos por imagem). Fotos livres do Wikimedia Commons (créditos em cada questão e em public/img/q/CREDITOS.json) e diagramas originais. Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-IMG1-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesão elementar · urtica (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem)",
+   "imagem": "/img/q/urtica.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente apresenta, poucas horas após comer camarão, as lesões mostradas na imagem: elevações eritematosas, de forma e tamanho variáveis, muito pruriginosas, que desaparecem em algumas horas e reaparecem em outros locais. A lesão elementar é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Urtica (pápula urticada), do grupo das elevações edematosas."
+    },
+    {
+     "letra": "B",
+     "texto": "Pápula, do grupo das formações sólidas."
+    },
+    {
+     "letra": "C",
+     "texto": "Vesícula, do grupo das coleções líquidas."
+    },
+    {
+     "letra": "D",
+     "texto": "Placa de liquenificação."
+    },
+    {
+     "letra": "E",
+     "texto": "Mancha eritematosa sem relevo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Urtica: edema dérmico circunscrito, efêmero, pruriginoso (urticária). O dermatografismo é uma urtica provocada.\n\n*Imagem: Psixtras — CC0, via Wikimedia Commons ([Hives urticaria.jpg](https://commons.wikimedia.org/wiki/File:Hives_urticaria.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesão elementar · vesícula (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem)",
+   "imagem": "/img/q/vesiculas-varicela.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 5 anos com febre baixa e lesões pruriginosas em diferentes estágios, disseminadas pelo tronco e membros. A imagem mostra lesões elevadas, de conteúdo líquido claro, com menos de 1 cm. A lesão elementar e a doença mais provável são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pápulas — picada de inseto."
+    },
+    {
+     "letra": "B",
+     "texto": "Vesículas — varicela."
+    },
+    {
+     "letra": "C",
+     "texto": "Pústulas — acne."
+    },
+    {
+     "letra": "D",
+     "texto": "Bolhas — pênfigo vulgar."
+    },
+    {
+     "letra": "E",
+     "texto": "Urticas — urticária alérgica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Vesícula: coleção líquida ≤ 1 cm (intraepidérmica); bolha > 1 cm. Na varicela as lesões evoluem de mácula → pápula → vesícula → pústula → crosta, em estágios diferentes ao mesmo tempo.\n\n*Imagem: Ronny Ager-Wick — CC BY-SA 3.0, via Wikimedia Commons ([Bem chickenpox vannkopper 20140318.jpg](https://commons.wikimedia.org/wiki/File:Bem_chickenpox_vannkopper_20140318.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesão elementar · pústula (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem)",
+   "imagem": "/img/q/pustula.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A imagem mostra uma lesão elevada, pequena, com conteúdo amarelo-esbranquiçado no centro e halo eritematoso. Pela classificação das lesões elementares, trata-se de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Mácula hipercrômica."
+    },
+    {
+     "letra": "B",
+     "texto": "Escama."
+    },
+    {
+     "letra": "C",
+     "texto": "Pústula (vesícula com conteúdo purulento)."
+    },
+    {
+     "letra": "D",
+     "texto": "Queloide."
+    },
+    {
+     "letra": "E",
+     "texto": "Nódulo da hipoderme."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Pústula: coleção de pus ≤ 1 cm (foliculite, acne pustulosa, varicela em evolução). Abscesso: coleção purulenta maior, dermo-hipodérmica, flutuante.\n\n*Imagem: LBPics — CC0, via Wikimedia Commons ([20200822 Pustule 1.jpg](https://commons.wikimedia.org/wiki/File:20200822_Pustule_1.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesão elementar · crosta melicérica (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem)",
+   "imagem": "/img/q/crostas-impetigo.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança com lesões ao redor do nariz que começaram como pequenas vesículas e evoluíram para as crostas amareladas, cor de mel, mostradas na imagem. A lesão elementar predominante e o diagnóstico são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Liquenificação — eczema crônico."
+    },
+    {
+     "letra": "B",
+     "texto": "Escamas laminares — psoríase."
+    },
+    {
+     "letra": "C",
+     "texto": "Escara — lesão por pressão."
+    },
+    {
+     "letra": "D",
+     "texto": "Vegetação — verruga viral."
+    },
+    {
+     "letra": "E",
+     "texto": "Crostas melicéricas — impetigo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Crosta: secreção ressecada (serosa, sanguínea ou purulenta) sobre área lesada; a crosta \"cor de mel\" é típica do impetigo (estafilococo/estreptococo). Grupo das perdas e reparações.\n\n*Imagem: Klaus D. Peter, Wiehl, Germany — CC BY 3.0 de, via Wikimedia Commons ([Impetigo Nase.jpg](https://commons.wikimedia.org/wiki/File:Impetigo_Nase.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "melanoma · ABCDE (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · regra ABCDE (Bloco 2 Q4)",
+   "imagem": "/img/q/melanoma.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 58 anos procura atendimento por \"pinta que mudou\". Observe a lesão da imagem, ao lado da régua milimetrada. Pela regra ABCDE, assinale a alternativa que melhor descreve os achados que sugerem melanoma:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão vesicular de conteúdo claro e efêmera."
+    },
+    {
+     "letra": "B",
+     "texto": "Placa amarelada palpebral bilateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Simetria, bordas regulares, cor uniforme e diâmetro menor que 6 mm."
+    },
+    {
+     "letra": "D",
+     "texto": "Assimetria, bordas irregulares, variação de cor e diâmetro maior que 6 mm."
+    },
+    {
+     "letra": "E",
+     "texto": "Mancha acrômica bem delimitada, sem relevo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "ABCDE: Assimetria, Bordas irregulares, Cores variadas, Diâmetro > 6 mm, Evolução (crescimento, mudança de forma ou cor). Lesão suspeita → biópsia excisional.\n\n*Imagem: Unknown photographer — Public domain, via Wikimedia Commons ([Asymmetrical melanoma.jpg](https://commons.wikimedia.org/wiki/File:Asymmetrical_melanoma.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "xantelasma (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · olhos e pálpebras (cap. 15)",
+   "imagem": "/img/q/xantelasma.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "As imagens mostram pálpebras de uma paciente de 52 anos com placas amareladas, planas ou discretamente elevadas, bilaterais, próximas ao canto interno dos olhos. O achado e a investigação indicada são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hordéolo — antibiótico tópico."
+    },
+    {
+     "letra": "B",
+     "texto": "Melanoma palpebral — biópsia urgente."
+    },
+    {
+     "letra": "C",
+     "texto": "Calázio — drenagem cirúrgica imediata."
+    },
+    {
+     "letra": "D",
+     "texto": "Vitiligo palpebral — sem investigação."
+    },
+    {
+     "letra": "E",
+     "texto": "Xantelasma — investigar dislipidemia (perfil lipídico)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Xantelasma: depósitos lipídicos; cerca de metade dos pacientes tem hiperlipidemia; comum também na colangite biliar primária.\n\n*Imagem: Oleg Tymofii — CC BY-SA 3.0, via Wikimedia Commons ([Eyelid Xanthelasma.jpg](https://commons.wikimedia.org/wiki/File:Eyelid_Xanthelasma.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "edema · cacifo (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · edema (cap. 10)",
+   "imagem": "/img/q/edema-cacifo.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A imagem mostra a compressão firme da pele da perna com o polegar e, ao lado, a depressão que permanece após a retirada do dedo. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Indica enfisema subcutâneo, pela crepitação."
+    },
+    {
+     "letra": "B",
+     "texto": "Indica linfedema crônico, que nunca deixa fóvea."
+    },
+    {
+     "letra": "C",
+     "texto": "É o sinal da prega, que indica desidratação."
+    },
+    {
+     "letra": "D",
+     "texto": "É o sinal do cacifo (fóvea), que indica edema depressível; sua intensidade é graduada de + a ++++."
+    },
+    {
+     "letra": "E",
+     "texto": "É o sinal de Trousseau, que indica hipocalcemia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Edema mole com fóvea persistente: cardíaco, renal, hepático, carencial. Linfedema crônico: duro, pouco depressível, pele espessa.\n\n*Imagem: James Heilman, MD — CC BY-SA 3.0, via Wikimedia Commons ([Combinpedal.jpg](https://commons.wikimedia.org/wiki/File:Combinpedal.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "aranha vascular (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões vasculares (telangiectasias)",
+   "imagem": "/img/q/aranha-vascular.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A imagem mostra lesão vascular com um ponto central avermelhado do qual partem finos vasos radiados. Em um etilista, esse achado sugere hepatopatia crônica. Qual a técnica correta para evidenciar sua natureza?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Puntipressão: comprimir o ponto central com objeto de ponta romba faz a lesão empalidecer."
+    },
+    {
+     "letra": "B",
+     "texto": "Manobra de Valsalva."
+    },
+    {
+     "letra": "C",
+     "texto": "Sinal da prega cutânea."
+    },
+    {
+     "letra": "D",
+     "texto": "Percussão digito-digital."
+    },
+    {
+     "letra": "E",
+     "texto": "Vitropressão: a lesão não some, por ser hemorrágica."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Aranhas vasculares (telangiectasias aracniformes): hiperestrogenismo da cirrose, gestação. Vitropressão/digitopressão diferenciam mancha vascular (some) de hemorrágica (fica).\n\n*Imagem: M. Sand, D. Sand, C. Thrandorf, V. Paech, P. Altmeyer, F. G. Bechara — CC BY 2.0, via Wikimedia Commons ([Nevus araneus 01.jpg](https://commons.wikimedia.org/wiki/File:Nevus_araneus_01.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "mancha eritematosa · exantema (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões elementares (manchas vasculares)",
+   "imagem": "/img/q/petequias-dengue.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com dengue apresenta, no 5º dia de doença, o quadro cutâneo da imagem: extenso eritema que empalidece à vitropressão, com pequenas áreas de pele poupada. Pela classificação das lesões elementares, trata-se de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vesículas agrupadas."
+    },
+    {
+     "letra": "B",
+     "texto": "Equimoses extensas, do grupo das manchas hemorrágicas."
+    },
+    {
+     "letra": "C",
+     "texto": "Manchas eritematosas confluentes (exantema), do grupo das alterações de cor vasculares."
+    },
+    {
+     "letra": "D",
+     "texto": "Urticas, do grupo das elevações edematosas."
+    },
+    {
+     "letra": "E",
+     "texto": "Placas de liquenificação."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Mancha vascular some à vitropressão; hemorrágica (petéquia, equimose) não. Exantema = manchas eritematosas disseminadas; enantema = nas mucosas.\n\n*Imagem: Emy Abi Thomas, Mary John,1 and Bimal Kanish — CC BY 3.0, via Wikimedia Commons ([Erythema with petechiae on patient with dengue fever.jpg](https://commons.wikimedia.org/wiki/File:Erythema_with_petechiae_on_patient_with_dengue_fever.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "púrpura palpável (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões elementares (manchas hemorrágicas)",
+   "imagem": "/img/q/purpura-hsp.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem com dor abdominal e artralgia apresenta as lesões da imagem nos membros inferiores: manchas violáceas, levemente elevadas à palpação, que não desaparecem à vitropressão. O achado é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Urticária aguda."
+    },
+    {
+     "letra": "B",
+     "texto": "Púrpura palpável, manifestação de vasculite de pequenos vasos (como a púrpura de Henoch-Schönlein)."
+    },
+    {
+     "letra": "C",
+     "texto": "Vitiligo."
+    },
+    {
+     "letra": "D",
+     "texto": "Eritema palmar da cirrose."
+    },
+    {
+     "letra": "E",
+     "texto": "Exantema viral que some à vitropressão."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Púrpura = extravasamento de sangue (petéquias, equimoses) que não some à vitropressão; quando palpável, sugere vasculite (inflamação da parede do vaso).\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "sinal de Cullen (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (treino por imagem) · inspeção (equimoses)",
+   "imagem": "/img/q/sinal-cullen.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente etilista com dor epigástrica intensa irradiada para o dorso apresenta o achado da imagem. O sinal e seu significado são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sinal de Jobert — pneumoperitônio."
+    },
+    {
+     "letra": "B",
+     "texto": "Sinal de Grey-Turner — equimose nos flancos por hérnia estrangulada."
+    },
+    {
+     "letra": "C",
+     "texto": "Sinal de Cullen — equimose periumbilical por hemorragia retroperitoneal, como na pancreatite necro-hemorrágica."
+    },
+    {
+     "letra": "D",
+     "texto": "Cabeça de Medusa — circulação colateral tipo porta."
+    },
+    {
+     "letra": "E",
+     "texto": "Onfalite — infecção do coto umbilical."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "\"Cullen = Centro; Grey-Turner = Grandes flancos\". Cullen também ocorre na gravidez ectópica rota.\n\n*Imagem: Herbert L. Fred, MD and Hendrik A. van Dijk — CC BY 2.0, via Wikimedia Commons ([Cullen's sign.jpg](https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG1-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "regiões do abdome (diagrama)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (treino por imagem) · divisão em nove regiões",
+   "imagem": "/img/q/abdome-regioes.svg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Observe o diagrama do abdome dividido em nove regiões (numeradas de 1 a 9, com o lado direito do paciente à esquerda da figura). A dor da apendicite aguda, após migrar, e a dor da colecistite aguda localizam-se, respectivamente, nas regiões:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "5 (mesogástrio) e 2 (epigástrio)."
+    },
+    {
+     "letra": "B",
+     "texto": "9 (fossa ilíaca esquerda) e 3 (hipocôndrio esquerdo)."
+    },
+    {
+     "letra": "C",
+     "texto": "7 (fossa ilíaca direita) e 3 (hipocôndrio esquerdo)."
+    },
+    {
+     "letra": "D",
+     "texto": "7 (fossa ilíaca direita) e 1 (hipocôndrio direito)."
+    },
+    {
+     "letra": "E",
+     "texto": "8 (hipogástrio) e 4 (flanco direito)."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "1 hipocôndrio D · 2 epigástrio · 3 hipocôndrio E · 4 flanco D · 5 mesogástrio · 6 flanco E · 7 fossa ilíaca D · 8 hipogástrio · 9 fossa ilíaca E. Linhas: bicostal e bi-ilíaca (horizontais), hemiclaviculares (verticais).\n\n*Imagem: diagrama original do banco de questões.*"
+  },
+  {
+   "id": "PROPE-IMG1-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "regiões do abdome · diverticulite (diagrama)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (treino por imagem) · divisão em nove regiões e síndromes",
+   "imagem": "/img/q/abdome-regioes.svg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Usando o diagrama das nove regiões abdominais, idoso com diverticulite aguda do sigmoide e paciente com úlcera péptica referem dor, respectivamente, principalmente nas regiões:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "9 e 2."
+    },
+    {
+     "letra": "B",
+     "texto": "7 e 5."
+    },
+    {
+     "letra": "C",
+     "texto": "3 e 8."
+    },
+    {
+     "letra": "D",
+     "texto": "9 e 8."
+    },
+    {
+     "letra": "E",
+     "texto": "1 e 6."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Sigmoide: fossa ilíaca esquerda (9) — \"apendicite à esquerda\". Estômago/duodeno: epigástrio (2).\n\n*Imagem: diagrama original do banco de questões.*"
+  },
+  {
+   "id": "PROPE-IMG1-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "campos visuais (diagrama)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · II par (defeitos de campo)",
+   "imagem": "/img/q/campos-visuais.svg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O diagrama mostra quatro padrões de defeito de campo visual (A a D), representados como o paciente os vê. Qual deles corresponde a uma lesão do quiasma óptico, como num adenoma de hipófise?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "C — hemianopsia homônima direita."
+    },
+    {
+     "letra": "B",
+     "texto": "B — hemianopsia bitemporal (heterônima)."
+    },
+    {
+     "letra": "C",
+     "texto": "A — cegueira monocular direita."
+    },
+    {
+     "letra": "D",
+     "texto": "Nenhum, pois o quiasma não altera o campo visual."
+    },
+    {
+     "letra": "E",
+     "texto": "D — quadrantanopsia superior direita."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Quiasma: cruzam as fibras das hemirretinas nasais, que veem os campos temporais. A = nervo óptico direito; C = trato/radiações/córtex esquerdos (AVC); D = radiações ópticas temporais esquerdas (alça de Meyer).\n\n*Imagem: diagrama original do banco de questões.*"
+  },
+  {
+   "id": "PROPE-IMG1-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "campos visuais · AVC (diagrama)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · II par e AVC",
+   "imagem": "/img/q/campos-visuais.svg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Considerando o diagrama de defeitos de campo visual (A a D), um paciente com AVC isquêmico no lobo occipital esquerdo (território da artéria cerebral posterior esquerda) apresentará qual padrão?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A — cegueira do olho direito."
+    },
+    {
+     "letra": "B",
+     "texto": "D — quadrantanopsia superior esquerda."
+    },
+    {
+     "letra": "C",
+     "texto": "Campo visual normal, pois o córtex não participa da visão."
+    },
+    {
+     "letra": "D",
+     "texto": "B — hemianopsia bitemporal."
+    },
+    {
+     "letra": "E",
+     "texto": "C — hemianopsia homônima direita."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Lesões retroquiasmáticas dão defeitos **homônimos** contralaterais; o córtex occipital esquerdo processa o campo visual direito dos dois olhos.\n\n*Imagem: diagrama original do banco de questões.*"
+  },
+  {
+   "id": "PROPE-IMG1-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "miastenia · ptose (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · III par × junção neuromuscular (ptose)",
+   "imagem": "/img/q/miastenia-ptose.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 30 anos com ptose palpebral que piora ao fim do dia e com o esforço, e diplopia flutuante. A imagem mostra ptose parcial (a) e sua melhora após o teste (b). Sobre o quadro, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É paralisia facial periférica com lagoftalmo."
+    },
+    {
+     "letra": "B",
+     "texto": "O padrão flutuante sugere miastenia gravis, doença autoimune da placa motora; a melhora da ptose com anticolinesterásico ou com gelo reforça o diagnóstico."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma lesão do nervo óptico."
+    },
+    {
+     "letra": "D",
+     "texto": "A ptose com pupila normal e flutuação indica lesão completa do III par por aneurisma."
+    },
+    {
+     "letra": "E",
+     "texto": "É síndrome de Horner, com miose e enoftalmia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Na lesão do III a ptose vem com midríase e olho para baixo e para fora; no Horner, ptose discreta com miose. Fácies miastênica (Hutchinson): ptose bilateral, franze a testa.\n\n*Imagem: Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyanam, Mansoor Nasim, Annapurni Jayam-Trouth. — CC BY 2.0, via Wikimedia Commons ([Myasthenia gravis ptosis reversal.jpg](https://commons.wikimedia.org/wiki/File:Myasthenia_gravis_ptosis_reversal.jpg)).*"
+  }
+ ]
+}

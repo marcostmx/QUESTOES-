@@ -1,0 +1,369 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Questões com imagem (lote 2)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., e SOP IV Guia PR2. Fotos livres do Wikimedia Commons (créditos em cada questão e em public/img/q/CREDITOS.json). Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-IMG2-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies acromegálica (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fácies e Complemento das provas antigas",
+   "imagem": "/img/q/acromegalia.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O paciente da imagem refere cefaleia, aumento do número dos sapatos e dos anéis, e dormência noturna nas mãos. Observe as arcadas supraorbitárias salientes, o nariz e os lábios grossos e a mandíbula desenvolvida. A fácies e a causa provável são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fácies acromegálica — excesso de hormônio do crescimento por adenoma hipofisário."
+    },
+    {
+     "letra": "B",
+     "texto": "Fácies mixedematosa — hipotireoidismo."
+    },
+    {
+     "letra": "C",
+     "texto": "Fácies cushingoide — corticoterapia."
+    },
+    {
+     "letra": "D",
+     "texto": "Fácies hipocrática — doença terminal."
+    },
+    {
+     "letra": "E",
+     "texto": "Fácies leonina — hanseníase virchowiana."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O caso típico da prova traz cefaleia (adenoma), túnel do carpo, mãos e pés grandes, prognatismo e macroglossia.\n\n*Imagem: Alfred Loomis & William Thompson — Public domain, via Wikimedia Commons ([Acromegaly 1887.jpg](https://commons.wikimedia.org/wiki/File:Acromegaly_1887.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies leonina (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fácies (leonina)",
+   "imagem": "/img/q/hanseniase-virchowiana.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com lesões cutâneas disseminadas e áreas de anestesia. Observe na imagem a pele da face espessada e infiltrada, com nódulos e perda dos supercílios. A fácies e a doença são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fácies renal — síndrome nefrótica."
+    },
+    {
+     "letra": "B",
+     "texto": "Fácies lúpica — lúpus eritematoso sistêmico."
+    },
+    {
+     "letra": "C",
+     "texto": "Fácies esclerodérmica — esclerodermia."
+    },
+    {
+     "letra": "D",
+     "texto": "Fácies acromegálica — adenoma hipofisário."
+    },
+    {
+     "letra": "E",
+     "texto": "Fácies leonina — hanseníase virchowiana."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Leonina: lepromas (sobretudo na fronte), madarose, nariz espessado, lábios grossos, áreas de anestesia. Nervos periféricos espessados (ulnar, fibular, auricular).\n\n*Imagem: Gadogado123 — CC BY-SA 4.0, via Wikimedia Commons ([Lepromatous leprosy patient Madagascar.jpg](https://commons.wikimedia.org/wiki/File:Lepromatous_leprosy_patient_Madagascar.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "fácies lúpica (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fácies (lúpica) e Complemento",
+   "imagem": "/img/q/lupus-asa-borboleta.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A ilustração mostra paciente com eritema nas regiões malares e no dorso do nariz, em asa de borboleta. Qual característica ajuda a diferenciá-lo de outras lesões faciais e qual a doença associada?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Surge apenas em áreas cobertas — dermatite de contato."
+    },
+    {
+     "letra": "B",
+     "texto": "Tem madarose e anestesia — hanseníase."
+    },
+    {
+     "letra": "C",
+     "texto": "Poupa os sulcos nasolabiais e é fotossensível — lúpus eritematoso sistêmico."
+    },
+    {
+     "letra": "D",
+     "texto": "É acompanhado de exoftalmia — doença de Graves."
+    },
+    {
+     "letra": "E",
+     "texto": "Acomete os sulcos nasolabiais e tem pústulas — rosácea."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Na prova: \"eritema que cobre as bochechas e a ponte nasal, sem acometer o sulco nasolabial, fotossensível\" = fácies lúpica.\n\n*Imagem: National Institute of Arthritis and Musculoskeletal and Skin Diseases — Public domain, via Wikimedia Commons ([Butterflyrash.jpg](https://commons.wikimedia.org/wiki/File:Butterflyrash.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "mácula acrômica · vitiligo (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · lesões elementares (alterações de cor)",
+   "imagem": "/img/q/vitiligo.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A imagem mostra áreas despigmentadas, brancas, bem delimitadas, nas pálpebras de um paciente, sem relevo nem alteração da superfície. A lesão elementar e a hipótese são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Escamas de psoríase."
+    },
+    {
+     "letra": "B",
+     "texto": "Placas de xantelasma."
+    },
+    {
+     "letra": "C",
+     "texto": "Pápulas — verrugas planas."
+    },
+    {
+     "letra": "D",
+     "texto": "Manchas acrômicas — vitiligo."
+    },
+    {
+     "letra": "E",
+     "texto": "Manchas hemorrágicas — equimoses."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Mácula: cor diferente, sem relevo nem alteração de superfície. Acrômica (vitiligo: destruição autoimune de melanócitos) × hipocrômica (pitiríase alba, hanseníase indeterminada).\n\n*Imagem: Maria Sieglinda von Nudeldorf — CC BY-SA 4.0, via Wikimedia Commons ([Eyelid vitiligo 06.jpg](https://commons.wikimedia.org/wiki/File:Eyelid_vitiligo_06.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "equimose · evolução da cor (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · manchas hemorrágicas (cor da equimose)",
+   "imagem": "/img/q/equimose.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A sequência de imagens mostra a mesma equimose em dias diferentes, mudando de arroxeada para anel esverdeado-amarelado até desaparecer. Sobre a lesão, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É uma urtica, pela evolução em horas."
+    },
+    {
+     "letra": "B",
+     "texto": "É uma mancha hemorrágica que não some à vitropressão, e a mudança de cor reflete a degradação da hemoglobina extravasada ao longo de cerca de 9 dias."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma mancha vascular que desaparece à vitropressão."
+    },
+    {
+     "letra": "D",
+     "texto": "As equimoses são puntiformes, menores que as petéquias."
+    },
+    {
+     "letra": "E",
+     "texto": "A cor amarelada indica sangramento recente, de menos de 24 horas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Vermelha (até 48 h) → arroxeada → azulada → esverdeada/amarelada → normal (após ~9º dia). Petéquias: puntiformes; equimoses: placas maiores.\n\n*Imagem: Clarinetguy097 — CC0, via Wikimedia Commons ([Bruise - ring resolution.jpg](https://commons.wikimedia.org/wiki/File:Bruise_-_ring_resolution.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "coiloníquia (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fâneros (unhas)",
+   "imagem": "/img/q/coiloniquia.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher com menorragia, fadiga e palidez apresenta as unhas da imagem, finas, côncavas, em forma de colher. O achado e a condição associada são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linhas de Beau — quimioterapia."
+    },
+    {
+     "letra": "B",
+     "texto": "Onicólise de Plummer — hipertireoidismo."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipocratismo digital — doença pulmonar crônica."
+    },
+    {
+     "letra": "D",
+     "texto": "Coiloníquia — anemia ferropriva."
+    },
+    {
+     "letra": "E",
+     "texto": "Unhas de Terry — hipoalbuminemia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Outros sinais da ferropriva: palidez, glossite atrófica, queilite angular, pica, cabelos frágeis.\n\n*Imagem: CHeitz — CC BY 2.0, via Wikimedia Commons ([Koilonychia iron deficiency anemia.jpg](https://commons.wikimedia.org/wiki/File:Koilonychia_iron_deficiency_anemia.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "retinopatia (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 15 · SOP IV Guia PR2 seção 02 (fundo de olho) · fundo de olho (retinopatia)",
+   "imagem": "/img/q/retinopatia.png",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A fundoscopia da imagem, de um paciente diabético e hipertenso com baixa visual, mostra hemorragias retinianas e manchas algodonosas (exsudatos moles). Sobre esses achados, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "As manchas algodonosas são microinfartos da camada de fibras nervosas e, com as hemorragias, indicam retinopatia (diabética e/ou hipertensiva) com lesão vascular retiniana."
+    },
+    {
+     "letra": "B",
+     "texto": "As manchas algodonosas são depósitos de colesterol sem significado vascular."
+    },
+    {
+     "letra": "C",
+     "texto": "As hemorragias indicam glaucoma."
+    },
+    {
+     "letra": "D",
+     "texto": "Os achados são normais no idoso."
+    },
+    {
+     "letra": "E",
+     "texto": "O achado é típico de catarata."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Diabética: microaneurismas (1ª lesão), exsudatos duros, hemorragias puntiformes, neovasos. Hipertensiva: estreitamento arteriolar, cruzamentos AV, fio de cobre/prata, hemorragias em chama, manchas algodonosas, papiledema (maligna).\n\n*Imagem: Renátó Besenczi\nJános Tóth\n\nAndrás Hajdu — CC BY-SA 4.0, via Wikimedia Commons ([A sample retinal image with cotton wool spots and hemorrhages.png](https://commons.wikimedia.org/wiki/File:A_sample_retinal_image_with_cotton_wool_spots_and_hemorrhages.png)).*"
+  },
+  {
+   "id": "PROPE-IMG2-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "papiledema (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 15 · SOP IV Guia PR2 seção 02 (fundo de olho) · fundo de olho (papiledema)",
+   "imagem": "/img/q/papiledema.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com cefaleia matinal progressiva e vômitos em jato. A fundoscopia (imagem) mostra disco óptico de bordas borradas e indistintas, com vasos congestos. O achado e seu significado são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Escavação aumentada do disco — glaucoma."
+    },
+    {
+     "letra": "B",
+     "texto": "Drusas maculares — degeneração macular."
+    },
+    {
+     "letra": "C",
+     "texto": "Papiledema — sinal de hipertensão intracraniana, que exige neuroimagem."
+    },
+    {
+     "letra": "D",
+     "texto": "Catarata com reflexo vermelho reduzido."
+    },
+    {
+     "letra": "E",
+     "texto": "Fundo de olho normal."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Causas de HIC: tumores, hematomas, hidrocefalia, meningite, trombose venosa, pseudotumor cerebral. Papiledema não costuma reduzir a acuidade no início.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*"
+  },
+  {
+   "id": "PROPE-IMG2-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "HIC · papiledema · raciocínio (imagem)",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · fundo de olho e plano 6.1",
+   "imagem": "/img/q/papiledema.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 60 anos, com câncer de pulmão tratado, refere cefaleia progressiva há um mês. A fundoscopia mostra o aspecto da imagem. Qual o primeiro exame a ser solicitado?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nenhum exame; trata-se de cefaleia tensional."
+    },
+    {
+     "letra": "B",
+     "texto": "Tomografia (ou ressonância) de crânio, pela suspeita de lesão expansiva com hipertensão intracraniana."
+    },
+    {
+     "letra": "C",
+     "texto": "Marcadores tumorais séricos."
+    },
+    {
+     "letra": "D",
+     "texto": "Punção lombar antes da imagem."
+    },
+    {
+     "letra": "E",
+     "texto": "Eletroencefalograma."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Papiledema + cefaleia nova progressiva + câncer prévio = sinais de alarme (SNOOP). Punção antes da imagem pode precipitar herniação.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*"
+  }
+ ]
+}

@@ -1,0 +1,725 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Cefaleias, tontura, síncope, demência e raciocínio clínico (lote 2)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20, e SOP IV Guia PR2 seção 05, restrito ao item 6.1 do plano e ao raciocínio clínico do Prof. Tiago. Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-PF-CEF2-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "anamnese da cefaleia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · características semiológicas da dor (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na anamnese de um paciente com cefaleia, qual característica mais sugere hemorragia subaracnóidea?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Instalação súbita, atingindo intensidade máxima em segundos (\"a pior dor da vida\")."
+    },
+    {
+     "letra": "B",
+     "texto": "Dor frontal após esforço visual prolongado."
+    },
+    {
+     "letra": "C",
+     "texto": "Dor em choque desencadeada pela mastigação."
+    },
+    {
+     "letra": "D",
+     "texto": "Dor em aperto bilateral ao fim do dia."
+    },
+    {
+     "letra": "E",
+     "texto": "Dor pulsátil unilateral que melhora em quarto escuro."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Modo de instalação súbito = cefaleia em trovoada → HSA até prova em contrário (TC sem contraste → punção lombar se normal)."
+  },
+  {
+   "id": "PROPE-PF-CEF2-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "migrânea · critérios",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · migrânea (critérios) e Complemento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 28 anos com crises recorrentes de cefaleia. Analise as afirmativas sobre a migrânea:\n\nI. As crises duram de 4 a 72 horas, com dor unilateral, pulsátil, de intensidade moderada a forte, que piora com a atividade física.\nII. Náuseas, vômitos, fotofobia e fonofobia são sintomas associados característicos.\nIII. A aura visual, quando presente, costuma preceder a dor, como escotomas cintilantes.\nIV. Toda migrânea exige neuroimagem para confirmação diagnóstica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas a III está correta."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a II está correta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O diagnóstico da migrânea é **clínico**; neuroimagem só com sinais de alarme ou mudança do padrão."
+  },
+  {
+   "id": "PROPE-PF-CEF2-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "tensional · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · cefaleia tensional",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Bancário de 35 anos refere dor bilateral \"em capacete\", em pressão, de intensidade leve a moderada, que surge no fim do expediente, sem náuseas e sem piora com a atividade física. Exame neurológico normal. O diagnóstico mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Migrânea sem aura."
+    },
+    {
+     "letra": "B",
+     "texto": "Cefaleia por hipertensão intracraniana."
+    },
+    {
+     "letra": "C",
+     "texto": "Neuralgia do trigêmeo."
+    },
+    {
+     "letra": "D",
+     "texto": "Cefaleia em salvas."
+    },
+    {
+     "letra": "E",
+     "texto": "Cefaleia do tipo tensional."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tensional: bilateral, em aperto, leve a moderada, sem náusea (no máximo foto **ou** fono), não piora com atividade rotineira."
+  },
+  {
+   "id": "PROPE-PF-CEF2-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "salvas · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · cefaleia em salvas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 30 anos, tabagista, acorda de madrugada, há duas semanas, com dor excruciante atrás do olho esquerdo, durando cerca de 1 hora, acompanhada de lacrimejamento, congestão nasal e ptose à esquerda; fica andando pelo quarto durante a crise. O diagnóstico e o tratamento abortivo característico são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neuralgia do trigêmeo — carbamazepina."
+    },
+    {
+     "letra": "B",
+     "texto": "Cefaleia tensional — relaxante muscular."
+    },
+    {
+     "letra": "C",
+     "texto": "Migrânea com aura — repouso em quarto escuro."
+    },
+    {
+     "letra": "D",
+     "texto": "Cefaleia em salvas — inalação de oxigênio a 100%."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemorragia subaracnóidea — punção lombar."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Salvas: periorbitária, excruciante, 15–180 min, em períodos (\"salvas\"), sinais autonômicos ipsilaterais, agitação; predomina em homens. O O₂ corta a crise."
+  },
+  {
+   "id": "PROPE-PF-CEF2-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "sinais de alarme",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · sinais de alarme (SNOOP) e Complemento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "São sinais de alarme na avaliação de um paciente com cefaleia, que indicam investigação complementar (assinale a(s) correta(s)):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cefaleia que desperta o paciente do sono ou piora com tosse, espirro ou manobra de Valsalva."
+    },
+    {
+     "letra": "B",
+     "texto": "Falha isolada do analgésico comum numa enxaqueca de padrão antigo, com exame normal."
+    },
+    {
+     "letra": "C",
+     "texto": "Início após os 50 anos ou mudança recente do padrão habitual da dor."
+    },
+    {
+     "letra": "D",
+     "texto": "Febre, rigidez de nuca, papiledema ou déficit neurológico focal."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "A, C e D",
+   "comentario": "A refratariedade ao analgésico, sozinha, não é sinal de alarme."
+  },
+  {
+   "id": "PROPE-PF-CEF2-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "arterite temporal · idoso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · sinais de alarme (Older: arterite temporal)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 72 anos com cefaleia temporal nova há 3 semanas, dor ao mastigar, couro cabeludo dolorido ao pentear e episódio de perda transitória da visão em um olho. Artéria temporal endurecida e pouco pulsátil. A hipótese que deve ser considerada com urgência é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sinusite frontal."
+    },
+    {
+     "letra": "B",
+     "texto": "Arterite temporal (de células gigantes), pelo risco de cegueira."
+    },
+    {
+     "letra": "C",
+     "texto": "Cefaleia tensional por estresse."
+    },
+    {
+     "letra": "D",
+     "texto": "Migrânea com aura tardia."
+    },
+    {
+     "letra": "E",
+     "texto": "Neuralgia do trigêmeo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Cefaleia nova após os 50 anos é sinal de alarme (\"Older\"): pensar em arterite temporal (claudicação mandibular, VHS elevada, risco de amaurose) e em tumor."
+  },
+  {
+   "id": "PROPE-PF-CEF2-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "meningite · cefaleia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · cefaleia secundária (meningite) e síndrome meníngea",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante de 19 anos com cefaleia holocraniana intensa há 12 horas, febre de 39,5 °C, vômitos, fotofobia e rigidez de nuca, com sinais de Kernig e Brudzinski positivos. Sobre a conduta, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deve-se aguardar 72 horas, pois a febre pode ser viral."
+    },
+    {
+     "letra": "B",
+     "texto": "O diagnóstico é de cefaleia tensional pela intensidade."
+    },
+    {
+     "letra": "C",
+     "texto": "É uma migrânea com aura, tratada com triptano."
+    },
+    {
+     "letra": "D",
+     "texto": "A rigidez de nuca descarta meningite bacteriana."
+    },
+    {
+     "letra": "E",
+     "texto": "É uma cefaleia secundária com sinais de alarme (febre e sinais meníngeos); exige investigação imediata, com exame do líquor, por suspeita de meningite."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Febre + cefaleia + sinais meníngeos = síndrome meníngea → líquor (imagem antes se houver déficit focal, papiledema ou rebaixamento)."
+  },
+  {
+   "id": "PROPE-PF-CEF2-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "HIC · cefaleia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · síndrome de hipertensão intracraniana (Porto)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a cefaleia da hipertensão intracraniana, analise as afirmativas:\n\nI. Costuma ser progressiva, holocraniana, pior pela manhã ou ao acordar e piorar com tosse e esforço.\nII. Pode vir acompanhada de vômitos em jato, sem náusea prévia, e de papiledema à fundoscopia.\nIII. A diplopia por paralisia do VI par pode ocorrer e não localiza a lesão.\nIV. Por ser causada por massa intracraniana, nunca melhora com analgésicos simples nos primeiros dias.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, III e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "No início a cefaleia da HIC pode ser ocasional e responder a analgésicos; o padrão progressivo e os sinais associados é que orientam."
+  },
+  {
+   "id": "PROPE-PF-CEF2-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "tontura · tipos",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · tontura (Porto, tipos de tontura)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente refere \"tontura\" com sensação de escurecimento visual, fraqueza e sudorese ao se levantar rapidamente da cama, que melhora ao deitar. Usa anti-hipertensivo recém-iniciado. A classificação e a causa provável são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desequilíbrio por polineuropatia."
+    },
+    {
+     "letra": "B",
+     "texto": "Vertigem por labirintopatia."
+    },
+    {
+     "letra": "C",
+     "texto": "Pré-síncope por hipotensão postural."
+    },
+    {
+     "letra": "D",
+     "texto": "Tontura psicogênica por ansiedade."
+    },
+    {
+     "letra": "E",
+     "texto": "Vertigem central por AVC de cerebelo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Pré-síncope: sensação de desmaio iminente por hipoperfusão cerebral (hipotensão postural, arritmia, hipoglicemia). Medir PA deitado e em pé."
+  },
+  {
+   "id": "PROPE-PF-CEF2-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "vertigem · periférica × central",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · tontura (vertigem) e VIII par",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual achado, num paciente com vertigem aguda, sugere causa central (como AVC de cerebelo ou tronco), e não periférica?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Zumbido e hipoacusia unilateral."
+    },
+    {
+     "letra": "B",
+     "texto": "Nistagmo horizontal unidirecional que diminui ao fixar o olhar."
+    },
+    {
+     "letra": "C",
+     "texto": "Vertigem posicional breve, com latência e fatigável."
+    },
+    {
+     "letra": "D",
+     "texto": "Nistagmo vertical ou que muda de direção com o olhar, acompanhado de ataxia intensa, disartria ou outros déficits neurológicos."
+    },
+    {
+     "letra": "E",
+     "texto": "Náuseas e vômitos intensos."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Periférica: nistagmo horizontal-rotatório unidirecional, inibido pela fixação, sintomas auditivos possíveis, sem outros déficits. Central: nistagmo vertical/multidirecional, ataxia desproporcional, sinais de tronco."
+  },
+  {
+   "id": "PROPE-PF-CEF2-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "síncope · vasovagal",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · síncope (Porto: síncope e lipotimia)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 20 anos desmaia ao ver sangue durante coleta de exames. Antes, sentiu calor, náusea, sudorese e escurecimento visual; recuperou-se em menos de 1 minuto ao ser deitada, sem confusão posterior. O tipo de síncope é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipoglicêmica."
+    },
+    {
+     "letra": "B",
+     "texto": "Vasovagal (neurocardiogênica), a mais comum."
+    },
+    {
+     "letra": "C",
+     "texto": "Cardíaca por estenose aórtica."
+    },
+    {
+     "letra": "D",
+     "texto": "Stokes-Adams por bloqueio atrioventricular."
+    },
+    {
+     "letra": "E",
+     "texto": "Crise epiléptica tônico-clônica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Vasovagal: gatilho (dor, sangue, ortostase prolongada), pródromos autonômicos, recuperação rápida ao deitar, sem confusão pós-evento. Epilepsia: confusão pós-ictal, mordedura de língua, liberação esfincteriana."
+  },
+  {
+   "id": "PROPE-PF-CEF2-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "síncope · sinais de gravidade",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · síncope (causas cardíacas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação da síncope, analise as afirmativas:\n\nI. Síncope durante o esforço sugere causa cardíaca obstrutiva, como estenose aórtica ou cardiomiopatia hipertrófica.\nII. Síncope precedida de palpitações ou em paciente com cardiopatia estrutural exige investigação de arritmia.\nIII. A síndrome de Stokes-Adams é a síncope por bradiarritmia grave, como no bloqueio atrioventricular total, comum na doença de Chagas.\nIV. Toda síncope com abalos musculares breves é, obrigatoriamente, crise epiléptica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Abalos mioclônicos breves podem ocorrer em qualquer síncope por hipoperfusão (síncope convulsiva); o contexto e o pós-evento ajudam a diferenciar."
+  },
+  {
+   "id": "PROPE-PF-CEF2-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "demência · avaliação",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · demência (MEEM e teste do relógio)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa de 76 anos, com 8 anos de escolaridade, tem esquecimentos progressivos há 2 anos e dificuldade em administrar finanças. MEEM = 21 pontos e teste do relógio alterado. Sobre a avaliação, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O MEEM abaixo do corte para a escolaridade (24 no slide) e o relógio alterado reforçam declínio cognitivo, mas o diagnóstico de demência e sua causa exigem avaliação clínica completa e exclusão de causas reversíveis."
+    },
+    {
+     "letra": "B",
+     "texto": "O MEEM confirma a doença de Alzheimer."
+    },
+    {
+     "letra": "C",
+     "texto": "O teste do relógio só avalia a memória recente."
+    },
+    {
+     "letra": "D",
+     "texto": "Com 21 pontos, a paciente está dentro do normal para qualquer escolaridade."
+    },
+    {
+     "letra": "E",
+     "texto": "Exames para causas reversíveis (B12, TSH, sífilis) são desnecessários."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Causas potencialmente reversíveis: hipotireoidismo, deficiência de B12, neurossífilis, depressão (pseudodemência), hidrocefalia de pressão normal, fármacos."
+  },
+  {
+   "id": "PROPE-PF-CEF2-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "demência · Alzheimer × vascular",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · demência (Alzheimer × vascular)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o padrão clínico das demências, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A memória remota é sempre a primeira afetada no Alzheimer."
+    },
+    {
+     "letra": "B",
+     "texto": "Demência e delirium são sinônimos."
+    },
+    {
+     "letra": "C",
+     "texto": "A demência vascular nunca está associada a fatores de risco cardiovascular."
+    },
+    {
+     "letra": "D",
+     "texto": "Na doença de Alzheimer o déficit inicial costuma ser de memória recente, com evolução lenta e progressiva; na demência vascular a evolução pode ser em degraus, com sinais focais e predomínio de alterações executivas."
+    },
+    {
+     "letra": "E",
+     "texto": "Na doença de Alzheimer há déficits focais motores desde o início."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Delirium: início agudo, flutuante, com alteração da atenção e da consciência, geralmente reversível. Demência: insidiosa, progressiva, consciência preservada."
+  },
+  {
+   "id": "PROPE-PF-CEF2-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "raciocínio clínico · etapas",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · raciocínio clínico (Prof. Tiago, Paciente 360)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 66 anos com hemiparesia direita e afasia de início súbito há 2 horas. Seguindo o raciocínio clínico da aula, a sequência correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Etiologia infecciosa → síndrome meníngea → topografia periférica."
+    },
+    {
+     "letra": "B",
+     "texto": "Síndrome medular → etiologia neoplásica pelo início súbito."
+    },
+    {
+     "letra": "C",
+     "texto": "Pedir ressonância → depois definir a síndrome → ignorar o modo de instalação."
+    },
+    {
+     "letra": "D",
+     "texto": "Topografia cerebelar → etiologia degenerativa → exames."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome piramidal com afasia → topografia: hemisfério esquerdo (território da ACM) → etiologia pelo modo de instalação súbito: vascular (AVC) → exames."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Dados → síndrome → topografia → etiologia (modo de instalação: súbito = vascular; progressivo = tumor; lento = degenerativo; surtos = EM; paroxístico = epilepsia/enxaqueca) → diferenciais e exames."
+  },
+  {
+   "id": "PROPE-PF-CEF2-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "raciocínio · evolução",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · anamnese neurológica (início e evolução)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a relação entre a evolução dos sintomas e a etiologia, julgue V ou F e marque a sequência correta:\n\nI. ( ) Evolução em surtos com recuperação cada vez mais incompleta sugere esclerose múltipla.\nII. ( ) Instalação em dias a poucas semanas sugere processo infeccioso ou inflamatório.\nIII. ( ) Evolução crônica e lentamente progressiva ao longo de anos sugere AVC isquêmico.\nIV. ( ) Sintomas paroxísticos com normalidade entre as crises sugerem epilepsia ou enxaqueca.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – V – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – V – V"
+    },
+    {
+     "letra": "C",
+     "texto": "V – V – F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – F – F"
+    },
+    {
+     "letra": "E",
+     "texto": "F – V – F – V"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "AVC é de instalação **súbita**; evolução lenta ao longo de anos sugere doença degenerativa ou tumor de crescimento lento."
+  },
+  {
+   "id": "PROPE-PF-CEF2-17",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "polineuropatia · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · polineuropatia periférica (seção 05)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 58 anos, diabético há 15 anos, com dor em queimação nos pés, pior à noite, e sensação de \"andar sobre algodão\". Qual achado do exame é o mais esperado?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dismetria no índex-nariz."
+    },
+    {
+     "letra": "B",
+     "texto": "Diminuição da sensibilidade vibratória e dolorosa distal nos pés, com aquileus abolidos."
+    },
+    {
+     "letra": "C",
+     "texto": "Nível sensitivo na altura do umbigo."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Babinski bilateral com hiper-reflexia."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemiparesia com paralisia facial central."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Polineuropatia diabética: distal, simétrica, sensitiva predominante, arreflexia aquileia, Romberg pode ser positivo; sem sinais piramidais."
+  },
+  {
+   "id": "PROPE-PF-CEF2-18",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "cefaleia · caso com alarme",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · cefaleia secundária (caso guiado)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Homem de 61 anos, ex-tabagista, com câncer de pulmão tratado há 2 anos, refere cefaleia nova e progressiva há 4 semanas, pior pela manhã, com vômitos e episódios de confusão. Identifique os sinais de alarme, a síndrome provável, a principal hipótese e o primeiro exame a ser pedido.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Sinais de alarme (SNOOP)**: **S**istêmico — câncer prévio; **N**eurológico — confusão (e papiledema, se presente); **O**lder — início após os 50 anos; **P**adrão novo e progressivo.\n\n**Síndrome**: hipertensão intracraniana (cefaleia matinal, vômitos, alteração mental).\n\n**Hipótese**: metástase cerebral de câncer de pulmão (lesão expansiva).\n\n**Primeiro exame**: neuroimagem — **TC de crânio** (de preferência com contraste) ou RM. Marcadores tumorais não localizam a lesão; escalonar opioide sem diagnóstico é erro (rebaixa a consciência e eleva a PIC).",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-CEF2-19",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cefaleias e raciocínio clínico",
+   "subtema": "síncope × crise epiléptica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · síncope e Porto (desmaio)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Cite os dados da anamnese que ajudam a diferenciar uma síncope de uma crise epiléptica.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| Dado | Síncope | Crise epiléptica |\n|---|---|---|\n| Gatilho | Ortostase, dor, calor, sangue, esforço | Privação de sono, álcool, sem gatilho postural |\n| Pródromos | Calor, náusea, sudorese, escurecimento visual (lipotimia) | Aura (sensação epigástrica, odor, déjà-vu) ou nenhum |\n| Pele | Pálida e sudoreica | Cianose durante a crise |\n| Movimentos | Breves abalos mioclônicos, se houver | Tônico-clônicos prolongados |\n| Mordedura de língua | Rara | Lateral, frequente |\n| Recuperação | Rápida, sem confusão | Confusão pós-ictal prolongada, sonolência |\n| Liberação esfincteriana | Pode ocorrer | Mais frequente |",
+   "comentario": null
+  }
+ ]
+}

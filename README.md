@@ -51,6 +51,8 @@ Os arquivos de origem de cada prova ficam em `content/<prova>/`: o arquivo origi
 npx tsx scripts/import-exam.ts PR2 content/pr2/*.json
 ```
 
+**Atenção com a PR1:** o banco em `src/data/questions/pr1/` é a fonte da verdade e não tem arquivos de origem completos. `content/pr1/` só guarda lotes acrescentados depois (ex.: `ineditas_farmacologia_farmacodinamica.json`). Rodar o importador na PR1 sobrescreve o arquivo da matéria: importe o lote e **acrescente** o resultado ao JSON existente.
+
 Para uma prova nova (ex.: PR3): acrescente-a no início de `EXAMS`, coloque os arquivos em `content/pr3/` e rode o mesmo comando com `PR3`.
 
 O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `tipo`, `origem`, `fonte`, `alternativas`, `gabarito`, `comentario`, `resposta_modelo`…). Reimportar mantém os IDs.

@@ -1,0 +1,927 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Exame neurológico (lote 3, formato das provas)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., cap. 20, e SOP IV Guia PR2 seção 04, restrito ao item 6.2 do plano (e HIC/tontura do 6.1). Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-PF-NEU3-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "nervos periféricos · mediano",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (nervos da mão) e Complemento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Costureira de 48 anos refere dormência e formigamento noturnos no polegar, indicador, dedo médio e metade radial do anelar, que a acordam e melhoram ao sacudir as mãos. A percussão do punho reproduz o formigamento, e a flexão máxima dos punhos por 1 minuto também. O diagnóstico e o nervo são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neuropatia do nervo ulnar — mão em garra."
+    },
+    {
+     "letra": "B",
+     "texto": "Radiculopatia C8."
+    },
+    {
+     "letra": "C",
+     "texto": "Polineuropatia diabética em luva."
+    },
+    {
+     "letra": "D",
+     "texto": "Paralisia do nervo radial — mão caída."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome do túnel do carpo — nervo mediano (sinais de Tinel e Phalen positivos)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Mediano no túnel do carpo: parestesia do 1º ao 3º dedos e metade radial do 4º, piora noturna, Tinel e Phalen; nos casos avançados, atrofia tenar. Ulnar: 4º (metade) e 5º dedos, garra. Radial: mão caída."
+  },
+  {
+   "id": "PROPE-PF-NEU3-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "nervos periféricos · ulnar",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (nervos da mão)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com fratura antiga do cotovelo apresenta hiperextensão das articulações metacarpofalângicas e flexão das interfalângicas do 4º e 5º dedos, atrofia dos interósseos e hipoestesia no 5º dedo. O nervo acometido é o:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ulnar"
+    },
+    {
+     "letra": "B",
+     "texto": "Radial"
+    },
+    {
+     "letra": "C",
+     "texto": "Axilar"
+    },
+    {
+     "letra": "D",
+     "texto": "Musculocutâneo"
+    },
+    {
+     "letra": "E",
+     "texto": "Mediano"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Mão em garra (4º e 5º dedos) com atrofia dos interósseos = ulnar. O nervo ulnar é palpável na goteira epitroclear (espessado na hanseníase)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "nervo fibular · marcha",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha (escarvante) e nervos periféricos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após emagrecimento importante e hábito de cruzar as pernas por longos períodos, paciente passa a arrastar a ponta do pé direito, não consegue andar sobre os calcanhares e eleva exageradamente o joelho ao caminhar. A lesão é do nervo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Obturatório."
+    },
+    {
+     "letra": "B",
+     "texto": "Tibial, no túnel do tarso."
+    },
+    {
+     "letra": "C",
+     "texto": "Fibular comum, comprimido na cabeça da fíbula."
+    },
+    {
+     "letra": "D",
+     "texto": "Femoral, na região inguinal."
+    },
+    {
+     "letra": "E",
+     "texto": "Ciático, na saída da pelve, com abolição do patelar."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Pé caído → marcha escarvante; incapacidade de andar nos calcanhares (tibial anterior, inervado pelo fibular). Andar na ponta dos pés testa a panturrilha (tibial)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "radiculopatias · Lasègue",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · irritação meningorradicular (Lasègue) e reflexos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 40 anos com lombalgia irradiada para a face posterior da coxa, lateral da perna e planta do pé esquerdo após carregar peso. Analise as afirmativas:\n\nI. O sinal de Lasègue é pesquisado elevando o membro inferior estendido; dor na face posterior logo no início (entre 30° e 70°) indica irritação de raiz ciática.\nII. A compressão da raiz S1 tipicamente diminui ou abole o reflexo aquileu do mesmo lado.\nIII. A compressão de raiz causa hiper-reflexia e sinal de Babinski no membro acometido.\nIV. A dor radicular costuma piorar com tosse, espirro e manobra de Valsalva.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I e III estão corretas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Radiculopatia é lesão do NMI (raiz): hipo/arreflexia segmentar, déficit sensitivo no dermátomo, sem Babinski. L4: patelar; S1: aquileu."
+  },
+  {
+   "id": "PROPE-PF-NEU3-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "Brown-Séquard",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (vias) e síndromes medulares",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após ferimento por arma branca no dorso, paciente apresenta paresia espástica e perda da sensibilidade vibratória e da posição no membro inferior direito, com perda da sensibilidade dolorosa e térmica no membro inferior esquerdo. A lesão é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hemissecção medular esquerda."
+    },
+    {
+     "letra": "B",
+     "texto": "Polineuropatia assimétrica."
+    },
+    {
+     "letra": "C",
+     "texto": "Lesão da cápsula interna direita."
+    },
+    {
+     "letra": "D",
+     "texto": "Hemissecção medular direita (síndrome de Brown-Séquard)."
+    },
+    {
+     "letra": "E",
+     "texto": "Lesão do cordão posterior bilateral."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Na hemissecção: déficit motor (piramidal) e da sensibilidade profunda (cordão posterior) **ipsilaterais**; perda de dor e temperatura **contralateral** (o espinotalâmico cruza na medula, 1–2 segmentos acima)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "pupilas · coma",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · pupilas e Complemento (pupilas no coma)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com hematoma extradural temporal esquerdo evolui com rebaixamento progressivo da consciência e pupila esquerda dilatada, que não reage à luz. Esse achado indica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão do nervo óptico direito."
+    },
+    {
+     "letra": "B",
+     "texto": "Lesão pontina bilateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Intoxicação por opioide."
+    },
+    {
+     "letra": "D",
+     "texto": "Compressão do nervo oculomotor esquerdo pela herniação do úncus (transtentorial)."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome de Horner esquerda."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Midríase fixa unilateral no rebaixamento = compressão do III (fibras parassimpáticas superficiais) na herniação uncal. Pupilas puntiformes: lesão pontina ou opioide. A reatividade pupilar entra no Glasgow-P."
+  },
+  {
+   "id": "PROPE-PF-NEU3-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "Horner",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · pupilas (Horner)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Tabagista de 62 anos com dor no ombro e no braço direito apresenta, à direita, pupila menor que a esquerda, discreta queda da pálpebra superior e afundamento do globo ocular, com redução da sudorese na hemiface direita. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Paralisia facial periférica direita."
+    },
+    {
+     "letra": "B",
+     "texto": "Síndrome de Horner por lesão do simpático cervical, possivelmente por tumor do ápice pulmonar (Pancoast)."
+    },
+    {
+     "letra": "C",
+     "texto": "Anisocoria fisiológica sem significado."
+    },
+    {
+     "letra": "D",
+     "texto": "Pupila de Argyll-Robertson por neurossífilis."
+    },
+    {
+     "letra": "E",
+     "texto": "Paralisia do oculomotor direito por aneurisma."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Horner: miose, ptose discreta, enoftalmia e anidrose ipsilaterais. Na lesão do III a pupila é **midriática** e a ptose é completa."
+  },
+  {
+   "id": "PROPE-PF-NEU3-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "hipertensão intracraniana · exame",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · pupilas, fundo de olho e plano 6.1 (HIC)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os achados de exame físico na síndrome de hipertensão intracraniana, analise as afirmativas:\n\nI. O papiledema aparece à fundoscopia como disco óptico de bordas borradas, com veias túrgidas e perda do pulso venoso.\nII. A paralisia do VI par (estrabismo convergente, diplopia) é frequente e não tem valor localizatório.\nIII. A tríade de Cushing é taquicardia, hipotensão e hiperventilação.\nIV. Na criança pequena, a fontanela anterior fica abaulada e tensa.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas III e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas II, III e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Todas as afirmativas estão corretas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Tríade de Cushing: **bradicardia, hipertensão arterial** e alteração respiratória (HIC aguda grave)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "Parkinson · exame",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus, movimentos involuntários e marcha (parkinsonismo)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 68 anos com tremor de repouso na mão direita (\"contar moedas\"), lentidão para abotoar a camisa, face inexpressiva e passos curtos. Ao exame, qual achado é esperado no membro superior direito?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Rigidez plástica com sinal da roda denteada à movimentação passiva do punho."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipotonia com reflexos pendulares."
+    },
+    {
+     "letra": "C",
+     "texto": "Espasticidade em canivete com hiper-reflexia e Babinski."
+    },
+    {
+     "letra": "D",
+     "texto": "Fasciculações e atrofia dos interósseos."
+    },
+    {
+     "letra": "E",
+     "texto": "Dismetria e tremor intencional no índex-nariz."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Parkinsonismo: tremor de repouso, rigidez plástica (roda denteada), bradicinesia, instabilidade postural; fácies em máscara, marcha em pequenos passos e em bloco. Reflexos normais, sem Babinski."
+  },
+  {
+   "id": "PROPE-PF-NEU3-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "síndrome cerebelar",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (Porto, síndrome cerebelar) e caso guiado 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Etilista crônico com marcha de base alargada, cambaleante, sem piora ao fechar os olhos. Assinale o(s) achado(s) esperado(s) na síndrome cerebelar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Romberg positivo com queda imediata ao fechar os olhos."
+    },
+    {
+     "letra": "B",
+     "texto": "Fala escandida (disartria cerebelar)."
+    },
+    {
+     "letra": "C",
+     "texto": "Nistagmo e hipotonia com reflexos pendulares."
+    },
+    {
+     "letra": "D",
+     "texto": "Disdiadococinesia nos movimentos alternados rápidos."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "B",
+    "C",
+    "D"
+   ],
+   "gabarito_texto": "B, C e D",
+   "comentario": "Na síndrome cerebelar o Romberg é **negativo** (o desequilíbrio já existe de olhos abertos e não piora sem a visão). Lesão do verme → tronco e marcha; hemisférios → membros do mesmo lado."
+  },
+  {
+   "id": "PROPE-PF-NEU3-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "tremor · asterix",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (asterix) e Porto cap. 10",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente urêmico em hemodiálise irregular, sonolento, ao estender os braços com os punhos em dorsiflexão, apresenta quedas bruscas e breves das mãos, como \"bater de asas\". O movimento é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fasciculação."
+    },
+    {
+     "letra": "B",
+     "texto": "Coreia de Huntington."
+    },
+    {
+     "letra": "C",
+     "texto": "Tremor de repouso parkinsoniano."
+    },
+    {
+     "letra": "D",
+     "texto": "Tremor essencial."
+    },
+    {
+     "letra": "E",
+     "texto": "Asterix (flapping), uma mioclonia negativa das encefalopatias metabólicas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Asterix: perda breve do tônus postural; encefalopatia hepática, uremia, hipercapnia."
+  },
+  {
+   "id": "PROPE-PF-NEU3-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "meníngeos · Brudzinski",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · irritação meníngea",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lactente febril e irritadiço. Com a criança em decúbito dorsal, o examinador flexiona passivamente a cabeça sobre o tórax e observa flexão espontânea dos quadris e joelhos. Esse sinal é o de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Kernig"
+    },
+    {
+     "letra": "B",
+     "texto": "Brudzinski"
+    },
+    {
+     "letra": "C",
+     "texto": "Babinski"
+    },
+    {
+     "letra": "D",
+     "texto": "Lasègue"
+    },
+    {
+     "letra": "E",
+     "texto": "Romberg"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Brudzinski: flexão da nuca → flexão dos membros inferiores. Nos lactentes os sinais meníngeos são menos confiáveis: valorizar fontanela abaulada, irritabilidade e recusa alimentar."
+  },
+  {
+   "id": "PROPE-PF-NEU3-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "reflexos e sinais",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos e motricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os achados do exame neurológico, julgue V ou F e marque a sequência correta:\n\nI. ( ) O sinal de Babinski no lactente até cerca de 1–2 anos pode ser fisiológico, pela mielinização incompleta do trato corticoespinal.\nII. ( ) A hiper-reflexia com aumento da área reflexógena e resposta contralateral indica lesão do neurônio motor inferior.\nIII. ( ) Reflexos pendulares (oscilações sucessivas da perna após o patelar) sugerem hipotonia cerebelar.\nIV. ( ) Assimetria de reflexos entre os dois lados sempre tem valor semiológico.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – V – V"
+    },
+    {
+     "letra": "B",
+     "texto": "F – F – V – F"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – V – V"
+    },
+    {
+     "letra": "D",
+     "texto": "F – F – F – V"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – V – V"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Hiper-reflexia patológica (área aumentada, resposta contralateral, clônus) = neurônio motor **superior**."
+  },
+  {
+   "id": "PROPE-PF-NEU3-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "sensibilidade · polineuropatia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (palestesia) e plano 6.1 (polineuropatia)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao examinar um diabético com o diapasão de 128 Hz, o médico apoia o instrumento no hálux e o paciente refere que \"quase não sente\" a vibração, enquanto no maléolo e na tíbia a percepção é normal. Esse achado é chamado de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Alodínia mecânica."
+    },
+    {
+     "letra": "B",
+     "texto": "Anestesia dolorosa em faixa."
+    },
+    {
+     "letra": "C",
+     "texto": "Hiperalgesia térmica."
+    },
+    {
+     "letra": "D",
+     "texto": "Astereognosia."
+    },
+    {
+     "letra": "E",
+     "texto": "Hipopalestesia distal, achado precoce da polineuropatia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Palestesia = sensibilidade vibratória (fibras grossas, cordão posterior). Na polineuropatia a perda começa distal e sobe (\"luvas e botas\")."
+  },
+  {
+   "id": "PROPE-PF-NEU3-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "Glasgow · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · Glasgow (escala da aula, com pupila)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente vítima de TCE abre os olhos ao chamado, fala palavras inapropriadas e retira o membro ao estímulo doloroso (flexão normal). Uma pupila está dilatada e não reage à luz; a outra reage. O Glasgow-P é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "12"
+    },
+    {
+     "letra": "B",
+     "texto": "10"
+    },
+    {
+     "letra": "C",
+     "texto": "9"
+    },
+    {
+     "letra": "D",
+     "texto": "8"
+    },
+    {
+     "letra": "E",
+     "texto": "11"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Ocular ao som 3 + verbal palavras inapropriadas 3 + motor flexão normal (retirada) 4 = 10; menos 1 ponto pela pupila unilateral não reativa = **9**."
+  },
+  {
+   "id": "PROPE-PF-NEU3-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "AVC · caso topográfico",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · síndromes (AVC: ACM × ACA) e Complemento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 74 anos com fibrilação atrial apresenta, de início súbito, fraqueza na perna esquerda muito mais intensa que no braço, sem alteração da face, além de incontinência urinária e apatia. O território vascular mais provável é o da artéria:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cerebral posterior esquerda."
+    },
+    {
+     "letra": "B",
+     "texto": "Cerebral média esquerda."
+    },
+    {
+     "letra": "C",
+     "texto": "Cerebral média direita."
+    },
+    {
+     "letra": "D",
+     "texto": "Cerebral anterior direita."
+    },
+    {
+     "letra": "E",
+     "texto": "Basilar."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "ACA: predomínio crural (o córtex motor da perna fica na face medial do hemisfério), pode haver abulia e incontinência. ACM: predomínio face e braço, afasia (dominante) ou heminegligência (não dominante)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-17",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "heminegligência",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · síndromes (AVC: sinais além do motor)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após AVC no hemisfério direito, o paciente ignora o lado esquerdo do corpo e do espaço: não come os alimentos do lado esquerdo do prato e, ao desenhar um relógio, coloca todos os números do lado direito. Esse fenômeno é chamado de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apraxia de marcha frontal."
+    },
+    {
+     "letra": "B",
+     "texto": "Heminegligência, típica de lesão do lobo parietal direito."
+    },
+    {
+     "letra": "C",
+     "texto": "Afasia de Broca."
+    },
+    {
+     "letra": "D",
+     "texto": "Hemianopsia bitemporal."
+    },
+    {
+     "letra": "E",
+     "texto": "Ataxia cerebelar."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Heminegligência espacial unilateral: lesão parietal do hemisfério não dominante (direito). Pode coexistir com hemianopsia homônima, mas não se explica por ela."
+  },
+  {
+   "id": "PROPE-PF-NEU3-18",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "exame do paciente em coma",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · consciência, pupilas e reflexos de tronco",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No exame do paciente comatoso, analise as afirmativas:\n\nI. Pupilas isocóricas e fotorreagentes num paciente em coma sugerem causa metabólica ou tóxica, mais do que lesão estrutural do mesencéfalo.\nII. O reflexo córneo-palpebral presente indica integridade da ponte (aferência pelo V e eferência pelo VII).\nIII. A postura em decorticação (flexão dos membros superiores) indica lesão mais baixa e mais grave que a descerebração.\nIV. Na Escala de Glasgow, a melhor resposta motora tem peso máximo de 6 pontos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas III e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I, II e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Decorticação (flexão anormal dos MMSS, extensão dos MMII) = lesão acima do núcleo rubro (hemisférios, cápsula); **descerebração** (extensão dos quatro membros) = lesão mais baixa (mesencéfalo/ponte), de pior prognóstico."
+  },
+  {
+   "id": "PROPE-PF-NEU3-19",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "marcha · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha e equilíbrio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 7 anos com fraqueza proximal dos membros inferiores caminha com hiperlordose lombar e oscilação lateral do tronco a cada passo; para se levantar do chão, \"escala\" as próprias pernas com as mãos. A marcha e a provável causa são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Marcha escarvante — lesão do fibular."
+    },
+    {
+     "letra": "B",
+     "texto": "Marcha em pequenos passos — Parkinson."
+    },
+    {
+     "letra": "C",
+     "texto": "Marcha ceifante — AVC."
+    },
+    {
+     "letra": "D",
+     "texto": "Marcha talonante — tabes dorsalis."
+    },
+    {
+     "letra": "E",
+     "texto": "Marcha anserina — miopatia (como a distrofia muscular de Duchenne)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Anserina (\"de pato\"): fraqueza da cintura pélvica; o sinal de Gowers (levantar-se apoiando as mãos nas coxas) reforça a miopatia proximal."
+  },
+  {
+   "id": "PROPE-PF-NEU3-20",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "vertigem × desequilíbrio",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · VIII vestibular e plano 6.1 (tontura)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso refere \"tontura\" apenas ao caminhar, sem sensação de rotação, que melhora ao sentar; tem neuropatia diabética e catarata. Esse tipo de tontura é melhor classificado como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desequilíbrio, de causa multifatorial (déficit sensorial somatossensitivo e visual)."
+    },
+    {
+     "letra": "B",
+     "texto": "Pré-síncope por arritmia."
+    },
+    {
+     "letra": "C",
+     "texto": "Vertigem de origem vestibular periférica."
+    },
+    {
+     "letra": "D",
+     "texto": "Vertigem central por AVC de tronco."
+    },
+    {
+     "letra": "E",
+     "texto": "Tontura psicogênica por hiperventilação."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"Vertigem gira; pré-síncope escurece; desequilíbrio só ao andar.\" No idoso, o desequilíbrio costuma somar polineuropatia, baixa visão e fraqueza."
+  },
+  {
+   "id": "PROPE-PF-NEU3-21",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "exame de força",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · motricidade (força segmentar)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "multipla",
+   "enunciado": "Sobre a avaliação da força muscular, assinale a(s) alternativa(s) correta(s):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Antes de atribuir a fraqueza a causa neurológica, afastam-se causas locais como anquilose, dor ou retração tendínea."
+    },
+    {
+     "letra": "B",
+     "texto": "A força é testada pedindo os mesmos movimentos da motricidade espontânea contra a oposição do examinador, comparando os dois lados."
+    },
+    {
+     "letra": "C",
+     "texto": "Deve-se graduar pela força máxima obtida, e não pelo tempo de manutenção da posição."
+    },
+    {
+     "letra": "D",
+     "texto": "Grau 4 corresponde à contração muscular visível sem movimento articular."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma alternativa está correta."
+    }
+   ],
+   "gabarito": [
+    "A",
+    "B",
+    "C"
+   ],
+   "gabarito_texto": "A, B e C",
+   "comentario": "Contração sem movimento = **grau 1**. Grau 4: vence resistência moderada (\"movimentação normal, força reduzida\")."
+  },
+  {
+   "id": "PROPE-PF-NEU3-22",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "coordenação · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (provas do slide 32)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para avaliar a coordenação dos membros inferiores com o paciente deitado, o examinador pede que ele toque o joelho oposto com o calcanhar e deslize o calcanhar pela crista da tíbia até o pé. Essa prova é a:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Manobra de Mingazzini."
+    },
+    {
+     "letra": "B",
+     "texto": "Prova índex-nariz."
+    },
+    {
+     "letra": "C",
+     "texto": "Prova de Fukuda."
+    },
+    {
+     "letra": "D",
+     "texto": "Prova calcanhar-joelho."
+    },
+    {
+     "letra": "E",
+     "texto": "Prova de Romberg sensibilizado."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Provas de coordenação do slide: índex-nariz, índex-índex, calcanhar-joelho e movimentos alternados (diadococinesia)."
+  },
+  {
+   "id": "PROPE-PF-NEU3-23",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "exame neurológico · roteiro",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · etapas do exame nos slides",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Cite, na ordem apresentada nos slides da aula, as etapas do exame neurológico e um item avaliado em cada uma.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "1. **Funções cognitivas e linguagem**: nível de consciência (Glasgow), orientação, memória (MEEM), afasias/disartria.\n2. **Nervos cranianos**: I a XII (acuidade, campos, pupilas, motilidade ocular, facial, audição, palato, língua).\n3. **Motricidade**: trofismo, tônus (espástico × plástico), força (graus 0–5), manobras deficitárias.\n4. **Reflexos**: profundos (bicipital, tricipital, patelar, aquileu) e superficiais (cutaneoplantar, cutâneo-abdominais).\n5. **Coordenação, marcha e equilíbrio**: índex-nariz, calcanhar-joelho, diadococinesia, Romberg, tipos de marcha.\n6. **Sensibilidade**: superficial (tátil, dolorosa, térmica) e profunda (vibratória, cinético-postural).\n7. **Sinais de irritação meningorradicular**: rigidez de nuca, Kernig, Brudzinski, Lasègue.\n8. **Movimentos involuntários**: tremores, coreia, atetose, asterix, fasciculações.",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-NEU3-24",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "caso · topografia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · síndromes medulares × polineuropatia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie, pelo exame físico, uma síndrome medular de uma polineuropatia periférica, citando ao menos quatro achados de cada.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "| Achado | Síndrome medular | Polineuropatia |\n|---|---|---|\n| Sensibilidade | **Nível sensitivo** (perda abaixo de um dermátomo) | Distal e simétrica, \"luvas e botas\", sem nível |\n| Força | Para/tetraparesia | Fraqueza distal |\n| Tônus | Espástico (após o choque medular) | Hipotonia |\n| Reflexos | Exaltados abaixo da lesão, clônus | Diminuídos/abolidos (aquileu primeiro) |\n| Cutaneoplantar | Babinski | Flexor ou indiferente |\n| Esfíncteres | Comprometidos (retenção, incontinência) | Geralmente preservados |\n| Causas | Trauma, compressão tumoral, mielite, deficiência de B12 (cordões) | Diabetes, álcool, B12, hipotireoidismo, hanseníase |",
+   "comentario": null
+  }
+ ]
+}

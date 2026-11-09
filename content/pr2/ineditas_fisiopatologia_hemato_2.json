@@ -1,0 +1,963 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema hematopoiético (lote 2, formato das provas do Prof. Fernando)",
+  "gerado_em": "2026-11-09",
+  "base": "Robbins & Cotran (Patologia: hemácias e distúrbios hemorrágicos; leucócitos, linfonodos e baço) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-PF-HEM2-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "classificação das anemias",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias (classificação)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Quanto à classificação morfológica das anemias pelo VCM, assinale a associação CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Microcítica: deficiência de B12; macrocítica: talassemia."
+    },
+    {
+     "letra": "B",
+     "texto": "Microcítica: anemia ferropriva e talassemias; macrocítica: deficiência de B12 e de folato; normocítica: anemia de doença crônica inicial, hemorragia aguda e insuficiência renal crônica."
+    },
+    {
+     "letra": "C",
+     "texto": "Todas as anemias carenciais são normocíticas."
+    },
+    {
+     "letra": "D",
+     "texto": "Macrocítica: anemia ferropriva; microcítica: anemia aplásica."
+    },
+    {
+     "letra": "E",
+     "texto": "Normocítica: anemia perniciosa; microcítica: hemólise aguda."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "VCM < 80 fL microcítica; 80–100 normocítica; > 100 macrocítica. Classificação fisiopatológica: perda (hemorragia), destruição (hemólise) ou produção diminuída (carências, aplasia, infiltração medular)."
+  },
+  {
+   "id": "FISIO-PF-HEM2-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "reticulócitos",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias (produção × destruição)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a contagem de reticulócitos na investigação das anemias, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Reticulócitos elevados indicam medula responsiva, como nas anemias hemolíticas e na recuperação de hemorragia aguda.\nII. Reticulócitos baixos sugerem produção inadequada, como nas anemias carenciais não tratadas e na aplasia medular.\nIII. Após o início da reposição de ferro na anemia ferropriva, espera-se aumento dos reticulócitos em poucos dias.\nIV. Uma contagem baixa de reticulócitos é o achado típico da hemólise.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Na hemólise a medula compensa: **reticulocitose**, com LDH e bilirrubina indireta elevadas e haptoglobina baixa."
+  },
+  {
+   "id": "FISIO-PF-HEM2-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "hemólise · laboratório",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas (achados gerais)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual conjunto de achados laboratoriais é típico de anemia hemolítica?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reticulocitopenia, ferritina baixa e RDW elevado."
+    },
+    {
+     "letra": "B",
+     "texto": "VCM > 110 fL, neutrófilos hipersegmentados e B12 baixa."
+    },
+    {
+     "letra": "C",
+     "texto": "Reticulocitose, aumento de LDH e de bilirrubina indireta e redução da haptoglobina."
+    },
+    {
+     "letra": "D",
+     "texto": "Ferro sérico baixo, ferritina alta e transferrina baixa."
+    },
+    {
+     "letra": "E",
+     "texto": "Bilirrubina direta elevada, colúria e acolia fecal."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Hemólise: destruição prematura das hemácias. Extravascular (baço/macrófagos): icterícia, esplenomegalia, cálculos biliares de bilirrubinato. Intravascular: hemoglobinemia, hemoglobinúria, hemossiderinúria."
+  },
+  {
+   "id": "FISIO-PF-HEM2-04",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia falciforme · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas (doença falciforme)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anemia falciforme, assinale a alternativa INCORRETA (0,5 ponto):",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desoxigenação, acidose e desidratação favorecem a polimerização da HbS e a falcização das hemácias."
+    },
+    {
+     "letra": "B",
+     "texto": "Os infartos esplênicos repetidos levam à autoesplenectomia e à maior suscetibilidade a bactérias encapsuladas."
+    },
+    {
+     "letra": "C",
+     "texto": "É causada pela substituição de ácido glutâmico por valina na posição 6 da cadeia β da globina (HbS)."
+    },
+    {
+     "letra": "D",
+     "texto": "As crises vaso-oclusivas causam dor óssea, síndrome torácica aguda e infartos em diversos órgãos."
+    },
+    {
+     "letra": "E",
+     "texto": "A doença decorre de um defeito nas proteínas do citoesqueleto da membrana, como a espectrina, que deixa a hemácia esférica."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Defeito de espectrina/anquirina = **esferocitose hereditária**. Falciforme: hemoglobinopatia qualitativa (HbS)."
+  },
+  {
+   "id": "FISIO-PF-HEM2-05",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "esferocitose · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas (esferocitose hereditária)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adolescente com anemia leve, icterícia flutuante, esplenomegalia e colelitíase. O esfregaço mostra esferócitos, o CHCM está elevado e o teste de Coombs direto é negativo; o pai tem quadro semelhante. Assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É anemia ferropriva, pelo CHCM elevado."
+    },
+    {
+     "letra": "B",
+     "texto": "É talassemia major, com hemácias em alvo e Hb fetal elevada."
+    },
+    {
+     "letra": "C",
+     "texto": "É anemia hemolítica autoimune, confirmada pelo Coombs negativo."
+    },
+    {
+     "letra": "D",
+     "texto": "É a esferocitose hereditária, por defeitos em proteínas da membrana (espectrina, anquirina), com perda de membrana, hemácias esféricas e pouco deformáveis destruídas no baço; a esplenectomia corrige a anemia."
+    },
+    {
+     "letra": "E",
+     "texto": "É deficiência de G6PD, com corpos de Heinz após fava."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Esferocitose: autossômica dominante na maioria; CHCM alto, fragilidade osmótica aumentada, Coombs negativo (diferencia da AHAI, em que também há esferócitos)."
+  },
+  {
+   "id": "FISIO-PF-HEM2-06",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "G6PD · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas (deficiência de G6PD)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 22 anos desenvolve icterícia, urina escura e anemia 2 dias após iniciar sulfametoxazol. O esfregaço mostra hemácias \"mordidas\" e corpos de Heinz. O mecanismo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Polimerização da hemoglobina S na desoxigenação."
+    },
+    {
+     "letra": "B",
+     "texto": "Deficiência de vitamina B12 com eritropoese ineficaz."
+    },
+    {
+     "letra": "C",
+     "texto": "Deficiência de glicose-6-fosfato desidrogenase, com menor produção de NADPH e glutationa reduzida, deixando as hemácias vulneráveis ao estresse oxidativo do fármaco."
+    },
+    {
+     "letra": "D",
+     "texto": "Autoanticorpos IgG quentes contra a membrana eritrocitária."
+    },
+    {
+     "letra": "E",
+     "texto": "Defeito de espectrina com esferócitos."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "G6PD: ligada ao X; hemólise episódica (sulfas, primaquina, fava, infecções). Corpos de Heinz = hemoglobina oxidada precipitada; os macrófagos removem-nos, formando as \"bite cells\"."
+  },
+  {
+   "id": "FISIO-PF-HEM2-07",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "talassemias",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas (talassemias)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as talassemias, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "São distúrbios quantitativos da síntese de globina; na β-talassemia major há grave anemia microcítica, eritropoese ineficaz, expansão da medula (deformidades ósseas, \"crânio em escova\") e sobrecarga de ferro."
+    },
+    {
+     "letra": "B",
+     "texto": "Cursam com anemia macrocítica e neutrófilos hipersegmentados."
+    },
+    {
+     "letra": "C",
+     "texto": "A ferritina está sempre baixa, como na ferropriva."
+    },
+    {
+     "letra": "D",
+     "texto": "São defeitos qualitativos da hemoglobina, como a HbS."
+    },
+    {
+     "letra": "E",
+     "texto": "O traço talassêmico causa anemia grave dependente de transfusão."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Talassemia menor (traço): microcitose acentuada com anemia leve e RDW normal, ferritina normal — diferencial com ferropriva. Major: transfusões → hemocromatose secundária."
+  },
+  {
+   "id": "FISIO-PF-HEM2-08",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "AHAI",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias hemolíticas imunes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anemia hemolítica autoimune por anticorpos quentes, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cursa com corpos de Heinz e hemácias mordidas."
+    },
+    {
+     "letra": "B",
+     "texto": "É mediada por autoanticorpos IgG contra antígenos da membrana eritrocitária, com hemólise extravascular no baço, esferócitos no esfregaço e teste de Coombs direto positivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Tem teste de Coombs direto sempre negativo."
+    },
+    {
+     "letra": "D",
+     "texto": "É mediada por IgM que fixa complemento a 4 °C, típica da mononucleose."
+    },
+    {
+     "letra": "E",
+     "texto": "Não tem relação com lúpus, linfomas ou fármacos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Quente (IgG, 37 °C): idiopática ou secundária a LES, LLC, fármacos. Fria (IgM, aglutininas frias): Mycoplasma, mononucleose, linfomas; acrocianose ao frio."
+  },
+  {
+   "id": "FISIO-PF-HEM2-09",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia perniciosa",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias megaloblásticas (anemia perniciosa)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anemia perniciosa, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não causa manifestações neurológicas."
+    },
+    {
+     "letra": "B",
+     "texto": "Cursa com anemia microcítica e hipocrômica."
+    },
+    {
+     "letra": "C",
+     "texto": "Diminui o risco de adenocarcinoma gástrico."
+    },
+    {
+     "letra": "D",
+     "texto": "É uma gastrite atrófica autoimune com autoanticorpos contra as células parietais e o fator intrínseco, levando à má absorção de vitamina B12 no íleo terminal."
+    },
+    {
+     "letra": "E",
+     "texto": "É causada por deficiência dietética de ácido fólico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Perniciosa: megaloblástica + glossite + manifestações neurológicas (degeneração combinada subaguda); aumenta o risco de câncer gástrico e tumor carcinoide. A deficiência de folato não causa lesão neurológica."
+  },
+  {
+   "id": "FISIO-PF-HEM2-10",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "megaloblástica · morfologia",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias megaloblásticas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as anemias megaloblásticas, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A deficiência de B12 ou de folato prejudica a síntese de DNA, com atraso da maturação nuclear em relação à citoplasmática.\nII. No sangue periférico há macro-ovalócitos e neutrófilos hipersegmentados.\nIII. A eritropoese ineficaz causa morte intramedular de precursores, com aumento de LDH e de bilirrubina indireta.\nIV. A deficiência isolada de ácido fólico causa degeneração combinada subaguda da medula, como a de B12.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A lesão neurológica é própria da deficiência de **B12** (metilmalonil-CoA, síntese de mielina); o folato não a causa — por isso não se repõe folato isolado sem excluir deficiência de B12."
+  },
+  {
+   "id": "FISIO-PF-HEM2-11",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia aplásica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · insuficiência medular (anemia aplásica)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 20 anos com fadiga, petéquias, sangramento gengival e infecções de repetição. Hemograma com pancitopenia e reticulócitos muito baixos; a biópsia de medula mostra hipocelularidade acentuada, substituída por gordura, sem células anormais. O diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Leucemia linfoblástica aguda."
+    },
+    {
+     "letra": "B",
+     "texto": "Mielofibrose primária."
+    },
+    {
+     "letra": "C",
+     "texto": "Anemia megaloblástica."
+    },
+    {
+     "letra": "D",
+     "texto": "Anemia aplásica."
+    },
+    {
+     "letra": "E",
+     "texto": "Hiperesplenismo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Aplasia: falência da célula-tronco (autoimune por linfócitos T, fármacos como cloranfenicol, benzeno, vírus, radiação); medula vazia e gordurosa; sem esplenomegalia. Leucemia: medula hipercelular com blastos."
+  },
+  {
+   "id": "FISIO-PF-HEM2-12",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "policitemia",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · policitemias",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as policitemias, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Na policitemia vera a eritropoetina sérica está muito elevada."
+    },
+    {
+     "letra": "B",
+     "texto": "A DPOC grave nunca causa policitemia."
+    },
+    {
+     "letra": "C",
+     "texto": "A policitemia relativa decorre da redução do volume plasmático (desidratação); a absoluta secundária ocorre por aumento de eritropoetina (hipóxia crônica, altitude, tumores produtores de EPO); a policitemia vera é neoplasia mieloproliferativa com EPO baixa e mutação JAK2."
+    },
+    {
+     "letra": "D",
+     "texto": "Policitemia é sinônimo de eritrocitopenia."
+    },
+    {
+     "letra": "E",
+     "texto": "A desidratação causa policitemia absoluta com aumento real da massa eritrocitária."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Policitemia vera: JAK2 V617F; aumento de hemácias (e muitas vezes de leucócitos e plaquetas), prurido aquagênico, esplenomegalia, tromboses."
+  },
+  {
+   "id": "FISIO-PF-HEM2-13",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "leucocitose · reacional × neoplásica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · leucócitos (distúrbios não neoplásicos)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com pneumonia grave tem leucocitose de 32.000/mm³ com desvio à esquerda (bastões, metamielócitos) e granulações tóxicas nos neutrófilos. O achado é mais compatível com:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reação leucemoide (leucocitose reacional à infecção)."
+    },
+    {
+     "letra": "B",
+     "texto": "Linfoma de Hodgkin."
+    },
+    {
+     "letra": "C",
+     "texto": "Leucemia mieloide crônica com cromossomo Filadélfia."
+    },
+    {
+     "letra": "D",
+     "texto": "Anemia aplásica."
+    },
+    {
+     "letra": "E",
+     "texto": "Leucemia linfoblástica aguda."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Reação leucemoide: leucocitose intensa reacional; fosfatase alcalina leucocitária alta e granulações tóxicas, ausência de Filadélfia. Na LMC: basofilia, fosfatase alcalina baixa, BCR-ABL."
+  },
+  {
+   "id": "FISIO-PF-HEM2-14",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "leucemias agudas · clínica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · leucemias agudas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 4 anos com febre, palidez, petéquias, dor óssea e linfonodomegalias. O hemograma mostra anemia, plaquetopenia e leucócitos com predomínio de blastos. Assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É leucemia mieloide crônica com fase indolente prolongada."
+    },
+    {
+     "letra": "B",
+     "texto": "O quadro é típico de leucemia linfoblástica aguda, o câncer mais comum da infância; a substituição da medula por blastos explica anemia, sangramentos e infecções."
+    },
+    {
+     "letra": "C",
+     "texto": "É mononucleose infecciosa com blastos clonais."
+    },
+    {
+     "letra": "D",
+     "texto": "É leucemia linfocítica crônica, típica da infância."
+    },
+    {
+     "letra": "E",
+     "texto": "É anemia aplásica, pois há blastos no sangue."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Leucemias agudas: bloqueio de maturação com acúmulo de blastos (> 20% na medula). LLA: crianças; LMA: adultos (bastonetes de Auer; M3 com CIVD)."
+  },
+  {
+   "id": "FISIO-PF-HEM2-15",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "LMA · bastonetes de Auer",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · leucemia mieloide aguda",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 60 anos com fadiga, febre e sangramentos. O esfregaço mostra blastos com inclusões citoplasmáticas em forma de bastão, azurófilas. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "São corpos de Howell-Jolly da asplenia."
+    },
+    {
+     "letra": "B",
+     "texto": "São inclusões típicas dos linfoblastos da leucemia linfoblástica aguda."
+    },
+    {
+     "letra": "C",
+     "texto": "São patognomônicos do linfoma de Hodgkin."
+    },
+    {
+     "letra": "D",
+     "texto": "Indicam infecção bacteriana com granulações tóxicas."
+    },
+    {
+     "letra": "E",
+     "texto": "Os bastonetes de Auer são agregados de grânulos azurófilos característicos dos mieloblastos, indicando leucemia mieloide aguda."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Auer = mieloide. A LMA promielocítica (t(15;17), PML-RARA) cursa com coagulação intravascular disseminada e responde ao ácido transretinoico."
+  },
+  {
+   "id": "FISIO-PF-HEM2-16",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "LLC · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · leucemia linfocítica crônica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 70 anos assintomático tem, em exame de rotina, linfocitose de 45.000/mm³ com linfócitos pequenos e maduros e numerosas \"células borradas\" (smudge cells) no esfregaço; linfonodos discretamente aumentados. O diagnóstico mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Mononucleose infecciosa."
+    },
+    {
+     "letra": "B",
+     "texto": "Anemia aplásica."
+    },
+    {
+     "letra": "C",
+     "texto": "Leucemia linfoblástica aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "Leucemia linfocítica crônica de linfócitos B."
+    },
+    {
+     "letra": "E",
+     "texto": "Leucemia mieloide crônica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "LLC: idosos, linfócitos B maduros (CD5+, CD23+), evolução indolente; pode cursar com hipogamaglobulinemia e AHAI quente."
+  },
+  {
+   "id": "FISIO-PF-HEM2-17",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "linfomas",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · linfomas (Hodgkin × não Hodgkin)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os linfomas, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. O linfoma de Hodgkin caracteriza-se pelas células de Reed-Sternberg em meio a infiltrado inflamatório reativo e costuma disseminar-se de forma contígua entre cadeias linfonodais.\nII. Febre, sudorese noturna e perda de peso superior a 10% em 6 meses são os sintomas B, de pior prognóstico.\nIII. Os linfomas não Hodgkin são mais frequentemente de células B e podem acometer sítios extranodais, como trato gastrointestinal e pele.\nIV. Os linfomas são neoplasias benignas que cursam tipicamente com leucocitose acentuada.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "II, III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Linfomas são neoplasias **malignas** do tecido linfoide; a apresentação típica é linfonodomegalia indolor, não leucocitose."
+  },
+  {
+   "id": "FISIO-PF-HEM2-18",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "linfonodomegalia · Hodgkin",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · linfomas (Hodgkin)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 24 anos com linfonodomegalia cervical e supraclavicular indolor, de consistência borrachosa, prurido, febre vespertina e massa mediastinal. A biópsia mostra células grandes binucleadas com nucléolos proeminentes (\"olhos de coruja\"). O diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Mieloma múltiplo."
+    },
+    {
+     "letra": "B",
+     "texto": "Mononucleose infecciosa."
+    },
+    {
+     "letra": "C",
+     "texto": "Linfoma de Hodgkin (forma esclerose nodular, a mais comum)."
+    },
+    {
+     "letra": "D",
+     "texto": "Leucemia linfocítica crônica."
+    },
+    {
+     "letra": "E",
+     "texto": "Tuberculose ganglionar."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Células de Reed-Sternberg (CD15+, CD30+). Distribuição bimodal (jovens e idosos); esclerose nodular é típica de mulheres jovens com massa mediastinal."
+  },
+  {
+   "id": "FISIO-PF-HEM2-19",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "mieloma",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · neoplasias de plasmócitos (mieloma múltiplo)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 68 anos com dor lombar, anemia normocítica, hipercalcemia, insuficiência renal e lesões líticas no crânio em \"saca-bocado\". A eletroforese de proteínas mostra pico monoclonal. O diagnóstico e o achado do esfregaço são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Anemia falciforme — drepanócitos."
+    },
+    {
+     "letra": "B",
+     "texto": "Leucemia mieloide crônica — basofilia."
+    },
+    {
+     "letra": "C",
+     "texto": "Linfoma de Hodgkin — células de Reed-Sternberg."
+    },
+    {
+     "letra": "D",
+     "texto": "Hiperparatireoidismo primário — esferócitos."
+    },
+    {
+     "letra": "E",
+     "texto": "Mieloma múltiplo — hemácias empilhadas em rouleaux, pelo excesso de imunoglobulina."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Mieloma: proliferação clonal de plasmócitos; CRAB (hiperCalcemia, insuficiência Renal, Anemia, lesões ósseas — Bone); proteína de Bence Jones (cadeias leves) na urina."
+  },
+  {
+   "id": "FISIO-PF-HEM2-20",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "hemostasia · plaquetas × coagulação",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios hemorrágicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o padrão de sangramento nos distúrbios da hemostasia, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "As petéquias são típicas da hemofilia A."
+    },
+    {
+     "letra": "B",
+     "texto": "Defeitos plaquetários e vasculares causam sangramento cutaneomucoso (petéquias, púrpura, epistaxe, gengivorragia, menorragia); defeitos dos fatores de coagulação causam hematomas profundos e hemartroses."
+    },
+    {
+     "letra": "C",
+     "texto": "A hemartrose é o sangramento característico da púrpura trombocitopênica imune."
+    },
+    {
+     "letra": "D",
+     "texto": "Na trombocitopenia o TTPa está sempre prolongado."
+    },
+    {
+     "letra": "E",
+     "texto": "O tempo de protrombina avalia a função plaquetária."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Plaquetas: contagem e tempo de sangramento. Via extrínseca/comum: TP (INR). Via intrínseca: TTPa (prolongado na hemofilia)."
+  },
+  {
+   "id": "FISIO-PF-HEM2-21",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "PTI · caso",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios plaquetários (púrpura trombocitopênica imune)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 5 anos, duas semanas após uma virose, surge com petéquias e equimoses difusas e epistaxe; está em bom estado geral, sem esplenomegalia. Plaquetas: 8.000/mm³; demais séries normais. O mecanismo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consumo de fatores e plaquetas por CIVD com sepse."
+    },
+    {
+     "letra": "B",
+     "texto": "Destruição periférica das plaquetas mediada por autoanticorpos, com sequestro e fagocitose no baço (púrpura trombocitopênica imune)."
+    },
+    {
+     "letra": "C",
+     "texto": "Falência medular com aplasia das três linhagens."
+    },
+    {
+     "letra": "D",
+     "texto": "Deficiência do fator VIII da coagulação."
+    },
+    {
+     "letra": "E",
+     "texto": "Infiltração medular por blastos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "PTI aguda na criança: pós-viral, autolimitada; na adulta, crônica (mulheres). Medula com megacariócitos aumentados."
+  },
+  {
+   "id": "FISIO-PF-HEM2-22",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "hemofilia",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios da coagulação (hemofilias)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Menino de 3 anos com hemartroses de repetição no joelho e hematomas extensos após pequenos traumas; o tio materno tem quadro semelhante. Plaquetas e TP normais, TTPa prolongado. O diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hemofilia A (deficiência do fator VIII), de herança recessiva ligada ao X."
+    },
+    {
+     "letra": "B",
+     "texto": "Púrpura trombocitopênica imune."
+    },
+    {
+     "letra": "C",
+     "texto": "Doença de von Willebrand com plaquetopenia grave."
+    },
+    {
+     "letra": "D",
+     "texto": "Deficiência de vitamina K."
+    },
+    {
+     "letra": "E",
+     "texto": "Coagulação intravascular disseminada."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Hemofilia A (fator VIII) e B (fator IX): ligadas ao X (homens afetados, mães portadoras); TTPa prolongado, TP normal."
+  },
+  {
+   "id": "FISIO-PF-HEM2-23",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "CIVD",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · coagulação intravascular disseminada",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com choque séptico apresenta sangramento em locais de punção, petéquias, plaquetopenia, TP e TTPa prolongados, fibrinogênio baixo e D-dímero muito elevado. Assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É púrpura trombocitopênica imune, com TP e TTPa normais."
+    },
+    {
+     "letra": "B",
+     "texto": "É deficiência isolada de vitamina K."
+    },
+    {
+     "letra": "C",
+     "texto": "É um distúrbio exclusivamente trombótico, sem sangramento."
+    },
+    {
+     "letra": "D",
+     "texto": "O quadro é de coagulação intravascular disseminada: ativação sistêmica da coagulação forma microtrombos e consome plaquetas e fatores, levando simultaneamente a isquemia e sangramento."
+    },
+    {
+     "letra": "E",
+     "texto": "É hemofilia adquirida, sem consumo de fatores."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Gatilhos da CIVD: sepse, trauma grave, complicações obstétricas, neoplasias (LMA promielocítica). Esquizócitos no esfregaço."
+  },
+  {
+   "id": "FISIO-PF-HEM2-24",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "ferropriva × doença crônica",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · anemias (cinética do ferro)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie a anemia ferropriva da anemia de doença crônica quanto à fisiopatologia e ao perfil do ferro (ferro sérico, ferritina, transferrina/capacidade total de ligação e saturação).",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Ferropriva**: deficiência real de ferro (perda crônica de sangue — menstruação, TGI —, baixa ingestão, má absorção). Sem ferro, a síntese de heme cai → hemácias microcíticas e hipocrômicas, RDW ↑.\n- Ferro sérico ↓ · **Ferritina ↓** (estoques vazios; marcador mais precoce) · **Transferrina/CTLF ↑** · Saturação ↓↓.\n\n**Doença crônica (inflamação)**: infecções crônicas, doenças autoimunes, neoplasias. A IL-6 estimula o fígado a produzir **hepcidina**, que degrada a ferroportina: o ferro fica retido nos macrófagos e o intestino absorve menos; há também menor resposta à eritropoetina. Anemia normocítica (às vezes microcítica), leve a moderada.\n- Ferro sérico ↓ · **Ferritina normal ou ↑** (estoques cheios, e é proteína de fase aguda) · **Transferrina/CTLF ↓ ou normal** · Saturação ↓.",
+   "comentario": null
+  },
+  {
+   "id": "FISIO-PF-HEM2-25",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "leucemias agudas × crônicas",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia, caps. Hemácias e distúrbios hemorrágicos; Leucócitos, linfonodos e baço · Silbernagl (sangue) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · leucemias",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Diferencie leucemias agudas e crônicas quanto ao tipo de célula predominante, à evolução e às manifestações, citando um exemplo de cada linhagem.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Agudas**: bloqueio da maturação com acúmulo de **blastos** (≥ 20% na medula); início abrupto; manifestações da falência medular — **anemia** (palidez, fadiga), **plaquetopenia** (petéquias, sangramentos) e **neutropenia** (infecções) — além de dor óssea, linfonodomegalia, hepatoesplenomegalia e infiltração do SNC. Exemplos: **LLA** (mais comum na infância) e **LMA** (adultos; bastonetes de Auer).\n\n**Crônicas**: proliferação de células **maduras** ou em maturação; evolução insidiosa, muitas vezes descoberta em exame de rotina. Exemplos: **LMC** — neoplasia mieloproliferativa com cromossomo Filadélfia t(9;22)/BCR-ABL, granulócitos em todas as fases, basofilia, grande esplenomegalia, pode evoluir para crise blástica; **LLC** — idosos, linfócitos B maduros, células borradas, linfonodomegalias, hipogamaglobulinemia.",
+   "comentario": null
+  }
+ ]
+}

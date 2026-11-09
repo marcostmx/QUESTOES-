@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 440" font-family="Arial, Helvetica, sans-serif">
+  <title>Defeitos de campo visual (A a D), olho esquerdo e olho direito</title>
+  <rect width="420" height="440" fill="#ffffff"/>
+  <defs>
+    <clipPath id="c"><circle r="38"/></clipPath>
+  </defs>
+  <g font-size="13" fill="#111827" text-anchor="middle">
+    <text x="165" y="22" font-weight="bold">Olho esquerdo</text>
+    <text x="305" y="22" font-weight="bold">Olho direito</text>
+  </g>
+  <!-- linha A: perda total do campo do olho direito -->
+  <g transform="translate(0,75)">
+    <text x="40" y="6" font-size="22" font-weight="bold">A</text>
+    <g transform="translate(165,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/></g>
+    <g transform="translate(305,0)"><circle r="38" fill="#111" stroke="#111" stroke-width="1.5"/></g>
+  </g>
+  <!-- linha B: metades temporais perdidas nos dois olhos (temporal = lado externo) -->
+  <g transform="translate(0,175)">
+    <text x="40" y="6" font-size="22" font-weight="bold">B</text>
+    <g transform="translate(165,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="-38" y="-38" width="38" height="76" fill="#111" clip-path="url(#c)"/></g>
+    <g transform="translate(305,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="0" y="-38" width="38" height="76" fill="#111" clip-path="url(#c)"/></g>
+  </g>
+  <!-- linha C: metade direita do campo perdida nos dois olhos -->
+  <g transform="translate(0,275)">
+    <text x="40" y="6" font-size="22" font-weight="bold">C</text>
+    <g transform="translate(165,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="0" y="-38" width="38" height="76" fill="#111" clip-path="url(#c)"/></g>
+    <g transform="translate(305,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="0" y="-38" width="38" height="76" fill="#111" clip-path="url(#c)"/></g>
+  </g>
+  <!-- linha D: quadrante superior direito perdido nos dois olhos -->
+  <g transform="translate(0,375)">
+    <text x="40" y="6" font-size="22" font-weight="bold">D</text>
+    <g transform="translate(165,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="0" y="-38" width="38" height="38" fill="#111" clip-path="url(#c)"/></g>
+    <g transform="translate(305,0)"><circle r="38" fill="#e5f0ff" stroke="#111" stroke-width="1.5"/><rect x="0" y="-38" width="38" height="38" fill="#111" clip-path="url(#c)"/></g>
+  </g>
+  <text x="210" y="432" font-size="11" fill="#374151" text-anchor="middle">Campos representados como o paciente os vê · preto = área sem visão</text>
+</svg>

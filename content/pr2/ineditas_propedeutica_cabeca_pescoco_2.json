@@ -1,0 +1,1043 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Propedêutica · Cabeça, pescoço e linfonodos (lote 2, formato das provas)",
+  "gerado_em": "2026-11-09",
+  "base": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15, e SOP IV Guia PR2 seção 02 (aula do Prof. Renato Leal), restrito aos itens 2.2 e 2.4 do plano. Formato das provas de Propedêutica."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-PF-CP2-01",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "anamnese · sinais de atenção",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · anamnese dirigida (slide 3)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na anamnese dirigida de cabeça e pescoço, o Prof. Renato chama atenção para a diferença entre \"tontura\" e \"vertigem\". Sobre esses termos, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tontura sempre indica doença cerebelar."
+    },
+    {
+     "letra": "B",
+     "texto": "Vertigem é a sensação de desmaio iminente."
+    },
+    {
+     "letra": "C",
+     "texto": "Tontura e vertigem são sinônimos e não precisam ser diferenciados."
+    },
+    {
+     "letra": "D",
+     "texto": "Tontura é um termo inespecífico que precisa ser caracterizado na história; vertigem é a sensação de movimento rotatório do paciente ou do ambiente."
+    },
+    {
+     "letra": "E",
+     "texto": "Vertigem é sinônimo de desequilíbrio ao andar."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sinais e sintomas de atenção: cefaleia, alterações visuais, dor ocular, diplopia, perda auditiva, otalgia, zumbido, tontura × vertigem, epistaxe, odinofagia, rouquidão, aumento de glândulas, bócio."
+  },
+  {
+   "id": "PROPE-PF-CP2-02",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "crânio · tamanho e forma",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · crânio (tamanho e forma)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o exame do crânio, analise as afirmativas:\n\nI. A macrocefalia tem como causa mais frequente a hidrocefalia; no idoso, pode ocorrer na doença de Paget.\nII. As cranioestenoses decorrem do fechamento precoce de suturas e podem produzir crânio em torre (acrocefalia) ou escafocefalia.\nIII. Na criança, a medida do perímetro cefálico faz parte do exame.\nIV. A fontanela deprimida no lactente indica hipertensão intracraniana.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a III está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas III e IV estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas II, III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Fontanela **deprimida** = desidratação; **abaulada e tensa** = hipertensão intracraniana (meningite, hidrocefalia)."
+  },
+  {
+   "id": "PROPE-PF-CP2-03",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "face · parótidas",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · face (simetria e tumefações)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com megaesôfago chagásico apresenta aumento bilateral, indolor, das regiões parotídeas. Sobre o achado, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "As parótidas aumentadas ficam no triângulo posterior do pescoço."
+    },
+    {
+     "letra": "B",
+     "texto": "O tumor benigno mais comum da parótida é o carcinoma mucoepidermoide."
+    },
+    {
+     "letra": "C",
+     "texto": "O aumento parotídeo é sempre neoplásico."
+    },
+    {
+     "letra": "D",
+     "texto": "A caxumba causa aumento unilateral endurecido e indolor por meses."
+    },
+    {
+     "letra": "E",
+     "texto": "A hipertrofia das parótidas é achado descrito no megaesôfago; entre outras causas de aumento parotídeo estão a caxumba e as neoplasias."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tumor benigno mais comum da parótida: **adenoma pleomórfico**."
+  },
+  {
+   "id": "PROPE-PF-CP2-04",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "olhos · posição",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · olhos (posição e alinhamento)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a posição e o alinhamento dos olhos, assinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A enoftalmia é o achado típico da doença de Graves."
+    },
+    {
+     "letra": "B",
+     "texto": "O nistagmo é sempre congênito e sem significado clínico."
+    },
+    {
+     "letra": "C",
+     "texto": "A enoftalmia unilateral pode ocorrer na síndrome de Horner; bilateral, na desidratação grave e na caquexia."
+    },
+    {
+     "letra": "D",
+     "texto": "O estrabismo convergente decorre da paralisia do reto medial (III par)."
+    },
+    {
+     "letra": "E",
+     "texto": "A exoftalmia bilateral é típica do hipotireoidismo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Exoftalmia: Graves (hipertireoidismo), tumores orbitários. Estrabismo convergente: paralisia do reto lateral (VI); divergente: paralisia do reto medial (III)."
+  },
+  {
+   "id": "PROPE-PF-CP2-05",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "pálpebras · ptose e lagoftalmo",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · olhos (pálpebras)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com paralisia facial periférica não consegue fechar completamente o olho do lado afetado, deixando a esclera exposta. Esse achado palpebral é chamado de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ptose palpebral."
+    },
+    {
+     "letra": "B",
+     "texto": "Lagoftalmo."
+    },
+    {
+     "letra": "C",
+     "texto": "Blefarite."
+    },
+    {
+     "letra": "D",
+     "texto": "Ectrópio senil."
+    },
+    {
+     "letra": "E",
+     "texto": "Epicanto."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Lagoftalmo: incapacidade de fechar a pálpebra (paralisia do orbicular, VII). Ptose: queda da pálpebra superior (III par, Horner, miastenia)."
+  },
+  {
+   "id": "PROPE-PF-CP2-06",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "conjuntivas · hemorragia subconjuntival",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · olhos (conjuntivas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após crise de tosse intensa, paciente nota mancha vermelha viva, homogênea e bem delimitada na parte branca do olho, sem dor, sem secreção e sem alteração da visão. O diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glaucoma agudo de ângulo fechado."
+    },
+    {
+     "letra": "B",
+     "texto": "Hemorragia subconjuntival."
+    },
+    {
+     "letra": "C",
+     "texto": "Hordéolo."
+    },
+    {
+     "letra": "D",
+     "texto": "Uveíte anterior com congestão ciliar."
+    },
+    {
+     "letra": "E",
+     "texto": "Conjuntivite bacteriana."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Hemorragia subconjuntival: benigna, por esforço (tosse, vômitos, Valsalva), trauma ou hipertensão/anticoagulação; regride em 1–2 semanas."
+  },
+  {
+   "id": "PROPE-PF-CP2-07",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "córnea e esclera",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · olhos (esclera, córnea, cristalino)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem com hepatopatia e tremor apresenta anel de coloração castanho-esverdeada na periferia da córnea. Esse achado sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Anel de Kayser-Fleischer, da doença de Wilson (depósito de cobre)."
+    },
+    {
+     "letra": "B",
+     "texto": "Icterícia, por depósito de bilirrubina na córnea."
+    },
+    {
+     "letra": "C",
+     "texto": "Catarata, por opacificação do cristalino."
+    },
+    {
+     "letra": "D",
+     "texto": "Pterígio."
+    },
+    {
+     "letra": "E",
+     "texto": "Arco senil, por depósito lipídico no idoso."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Kayser-Fleischer: cobre na membrana de Descemet (Wilson). Arco senil: anel esbranquiçado, lipídico, comum em idosos."
+  },
+  {
+   "id": "PROPE-PF-CP2-08",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "acuidade visual · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (acuidade)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o teste de acuidade visual com a tabela de Snellen, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A tabela de Snellen avalia o campo visual periférico."
+    },
+    {
+     "letra": "B",
+     "texto": "Os dois olhos são testados juntos, a 1 metro da tabela."
+    },
+    {
+     "letra": "C",
+     "texto": "O paciente fica a 20 pés (cerca de 6 metros), testa-se um olho por vez, cobrindo o outro, e registra-se a menor linha lida, por exemplo 20/40."
+    },
+    {
+     "letra": "D",
+     "texto": "A acuidade 20/200 é melhor que 20/20."
+    },
+    {
+     "letra": "E",
+     "texto": "O paciente que usa óculos deve retirá-los sempre, sem registro."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "20/20 = normal. O paciente com óculos é testado com a correção (registrar). Campos: confrontação."
+  },
+  {
+   "id": "PROPE-PF-CP2-09",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "campimetria por confrontação",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (campos visuais)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na campimetria por confrontação:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Avaliam-se os dois olhos simultaneamente, sem ocluir nenhum."
+    },
+    {
+     "letra": "B",
+     "texto": "O paciente lê letras de tamanho decrescente a 6 metros."
+    },
+    {
+     "letra": "C",
+     "texto": "Pede-se ao paciente que siga o dedo nas oito direções."
+    },
+    {
+     "letra": "D",
+     "texto": "Usa-se o oftalmoscópio para visualizar o disco óptico."
+    },
+    {
+     "letra": "E",
+     "texto": "Examinador e paciente ficam frente a frente; o paciente cobre um olho e fixa o olho oposto do examinador, que apresenta estímulos nos quadrantes de seu próprio campo, comparando-os."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O campo do examinador serve de referência (normal). Seguir o dedo nas oito direções é a motilidade ocular extrínseca."
+  },
+  {
+   "id": "PROPE-PF-CP2-10",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "fundoscopia · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (fundo de olho)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para examinar o fundo do olho direito do paciente com o oftalmoscópio direto, o examinador deve usar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A mão direita e o olho esquerdo."
+    },
+    {
+     "letra": "B",
+     "texto": "A mão esquerda e o olho esquerdo."
+    },
+    {
+     "letra": "C",
+     "texto": "Ambas as mãos e os dois olhos, à distância de 1 metro."
+    },
+    {
+     "letra": "D",
+     "texto": "A mão direita e o seu próprio olho direito, aproximando-se pelo lado temporal do paciente."
+    },
+    {
+     "letra": "E",
+     "texto": "O oftalmoscópio encostado na córnea, sem dilatação, com luz forte."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Olho direito do paciente → mão e olho direitos do examinador (e vice-versa). Avaliam-se disco óptico (bordas, cor, escavação), vasos, retina e mácula."
+  },
+  {
+   "id": "PROPE-PF-CP2-11",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "fundo de olho · papiledema",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · fundo de olho e HIC",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "À fundoscopia, paciente com cefaleia matinal progressiva e vômitos apresenta disco óptico com bordas borradas e elevadas, veias túrgidas, ausência de pulso venoso e pequenas hemorragias peripapilares. O achado e o significado são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atrofia óptica, sinal de glaucoma crônico."
+    },
+    {
+     "letra": "B",
+     "texto": "Degeneração macular relacionada à idade."
+    },
+    {
+     "letra": "C",
+     "texto": "Catarata madura."
+    },
+    {
+     "letra": "D",
+     "texto": "Retinopatia diabética proliferativa."
+    },
+    {
+     "letra": "E",
+     "texto": "Papiledema, sinal de hipertensão intracraniana."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Papiledema: edema do disco por HIC (tumor, hematoma, hidrocefalia, pseudotumor). Disco pálido = atrofia óptica; escavação aumentada = glaucoma."
+  },
+  {
+   "id": "PROPE-PF-CP2-12",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "orelhas · inspeção e otoscopia",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · orelhas e audição",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o exame das orelhas, analise as afirmativas:\n\nI. A dor à tração do pavilhão auricular ou à pressão do trago sugere otite externa.\nII. A dor e a tumefação à palpação da mastoide sugerem mastoidite.\nIII. A membrana timpânica normal é perolada ou acinzentada, translúcida e brilhante, com o cone de luz.\nIV. Os tofos no hélix sugerem hanseníase.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e IV estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I e III estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Todas as afirmativas são falsas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a III está correta."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Tofos (depósitos de urato) no hélix sugerem **gota**."
+  },
+  {
+   "id": "PROPE-PF-CP2-13",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "audição · Weber · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · orelhas e audição (Rinne e Weber)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com rolha de cerume no ouvido esquerdo. Espera-se, nos testes com diapasão:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Rinne negativo bilateral e Weber centralizado."
+    },
+    {
+     "letra": "B",
+     "texto": "Weber para a direita, por ser o lado sadio."
+    },
+    {
+     "letra": "C",
+     "texto": "Rinne negativo à esquerda e Weber lateralizado para a esquerda (perda condutiva)."
+    },
+    {
+     "letra": "D",
+     "texto": "Rinne positivo à esquerda com as duas vias reduzidas e Weber para a esquerda."
+    },
+    {
+     "letra": "E",
+     "texto": "Rinne positivo à esquerda e Weber para a direita."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Condutiva (cerume, otite média, otosclerose): óssea ≥ aérea (Rinne negativo) e Weber para o lado **doente**. Neurossensorial: Weber para o lado **sadio**."
+  },
+  {
+   "id": "PROPE-PF-CP2-14",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "nariz e seios",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · nariz e seios paranasais",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com rinorreia purulenta há 12 dias, obstrução nasal e cefaleia frontal refere dor intensa à compressão da região acima das sobrancelhas e das maçãs do rosto. O achado sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nariz em sela da sífilis congênita."
+    },
+    {
+     "letra": "B",
+     "texto": "Rinofima da rosácea."
+    },
+    {
+     "letra": "C",
+     "texto": "Desvio de septo congênito sem inflamação."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinusite (seios frontal e maxilar), pela dor à palpação dos seios."
+    },
+    {
+     "letra": "E",
+     "texto": "Epistaxe anterior."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Exame do nariz: região externa (forma, simetria, lesões), interna (rinoscopia: mucosa, septo, cornetos, secreção) e palpação dos seios frontal e maxilar."
+  },
+  {
+   "id": "PROPE-PF-CP2-15",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "boca · lesões",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · boca e cavidade oral",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as lesões da cavidade oral, analise as afirmativas:\n\nI. A úlcera aftosa é pequena, dolorosa, de fundo branco-amarelado com halo eritematoso, e cicatriza em 7 a 10 dias.\nII. A candidíase oral (\"sapinho\") forma placas brancas que se destacam à raspagem, deixando base avermelhada.\nIII. Úlcera oral que não cicatriza em 2 a 3 semanas deve ser biopsiada pelo risco de carcinoma epidermoide.\nIV. Os grânulos de Fordyce são lesões pré-malignas que exigem biópsia.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas a I está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas a III está correta."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Fordyce: glândulas sebáceas ectópicas na mucosa jugal e lábios, **normais**."
+  },
+  {
+   "id": "PROPE-PF-CP2-16",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "língua · alterações",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · boca (língua)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente etilista desnutrido apresenta língua lisa, avermelhada e dolorosa, sem papilas, associada a fissuras nos cantos da boca. O achado sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glossite atrófica com queilite angular, por deficiências nutricionais (complexo B, ferro)."
+    },
+    {
+     "letra": "B",
+     "texto": "Macroglossia por acromegalia."
+    },
+    {
+     "letra": "C",
+     "texto": "Língua saburrosa por doença gástrica."
+    },
+    {
+     "letra": "D",
+     "texto": "Língua geográfica benigna."
+    },
+    {
+     "letra": "E",
+     "texto": "Língua pilosa negra por antibióticos."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Língua lisa/careca: carências de riboflavina, niacina, folato, B12, ferro; anemia. Saburrosa: má higiene (não é doença do estômago). Geográfica: benigna."
+  },
+  {
+   "id": "PROPE-PF-CP2-17",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "orofaringe · amigdalite",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · orofaringe (amigdalites)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança não vacinada apresenta dor de garganta, febre baixa, prostração intensa e membranas acinzentadas e aderentes sobre as amígdalas, que se estendem aos pilares e à úvula e sangram ao tentar removê-las. A hipótese é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Amigdalite estreptocócica eritematopultácea."
+    },
+    {
+     "letra": "B",
+     "texto": "Candidíase orofaríngea."
+    },
+    {
+     "letra": "C",
+     "texto": "Difteria."
+    },
+    {
+     "letra": "D",
+     "texto": "Mononucleose infecciosa sem complicações."
+    },
+    {
+     "letra": "E",
+     "texto": "Herpangina."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Difteria: pseudomembranas acinzentadas que invadem pilares e úvula, aderentes. Estreptocócica: pontos e placas de exsudato restritos às amígdalas."
+  },
+  {
+   "id": "PROPE-PF-CP2-18",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "pescoço · jugulares",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · pescoço (jugulares)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com pericardite constritiva apresenta aumento da pulsação e da turgência da veia jugular durante a inspiração. Esse sinal é chamado de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Refluxo hepatojugular negativo."
+    },
+    {
+     "letra": "B",
+     "texto": "Sinal de Trousseau."
+    },
+    {
+     "letra": "C",
+     "texto": "Pulso paradoxal de Kussmaul arterial."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Musset."
+    },
+    {
+     "letra": "E",
+     "texto": "Sinal de Kussmaul."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Normalmente a jugular colaba na inspiração; o aumento paradoxal (Kussmaul) ocorre na pericardite constritiva e na IC direita grave."
+  },
+  {
+   "id": "PROPE-PF-CP2-19",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "pescoço · massas laterais",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · pescoço (massas e cistos)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 18 anos com massa cística, indolor, na borda anterior do músculo esternocleidomastóideo, no terço superior do pescoço, que aumenta após infecções de vias aéreas. A hipótese mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nódulo tireoidiano."
+    },
+    {
+     "letra": "B",
+     "texto": "Cisto do ducto tireoglosso."
+    },
+    {
+     "letra": "C",
+     "texto": "Linfonodo metastático supraclavicular."
+    },
+    {
+     "letra": "D",
+     "texto": "Cisto branquial."
+    },
+    {
+     "letra": "E",
+     "texto": "Higroma cístico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Linha média: tireoglosso (sobe com a protrusão da língua), cisto dermoide. Borda anterior do ECM: cisto branquial. Triângulo posterior: higroma cístico (crianças)."
+  },
+  {
+   "id": "PROPE-PF-CP2-20",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "tireoide · exame",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · tireoide (palpação e descrição)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o exame da tireoide, analise as afirmativas:\n\nI. Na abordagem anterior, o examinador fica à frente do paciente e palpa o lobo direito com a mão esquerda e o lobo esquerdo com a mão direita.\nII. Deve-se descrever volume, consistência, mobilidade, superfície, sensibilidade e a presença de frêmito ou sopro.\nIII. O aumento difuso da glândula, sem nódulos, é chamado de bócio difuso, como na doença de Graves.\nIV. A tireoide normal é sempre visível e endurecida à palpação.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I e II estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I, III e IV estão corretas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A tireoide normal é impalpável ou palpável lisa, elástica, móvel e indolor. Qualquer aumento = bócio."
+  },
+  {
+   "id": "PROPE-PF-CP2-21",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "tireoide · sopro",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · tireoide e vasos do pescoço",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com bócio difuso, exoftalmia, tremor e taquicardia apresenta frêmito e sopro contínuo à ausculta da tireoide. O achado se explica por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tireoidite subaguda com glândula hipofuncionante."
+    },
+    {
+     "letra": "B",
+     "texto": "Estenose de carótida interna por placa de ateroma."
+    },
+    {
+     "letra": "C",
+     "texto": "Calcificação de nódulo benigno."
+    },
+    {
+     "letra": "D",
+     "texto": "Cisto tireoidiano hemorrágico."
+    },
+    {
+     "letra": "E",
+     "texto": "Hipervascularização da glândula hiperfuncionante (bócio tóxico difuso, doença de Graves)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tireoide aumentada → sempre auscultar. Sopro tireoidiano = hiperfluxo (Graves). Sopro no trajeto da carótida = estenose carotídea ou irradiação de sopro aórtico."
+  },
+  {
+   "id": "PROPE-PF-CP2-22",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodos · cadeias e drenagem",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (Quadro 12.1, áreas de drenagem)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um linfonodo supraclavicular esquerdo aumentado e endurecido (nódulo de Virchow) deve levantar a suspeita principalmente de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Infecção dentária."
+    },
+    {
+     "letra": "B",
+     "texto": "Neoplasia abdominal, como câncer gástrico, ou torácica."
+    },
+    {
+     "letra": "C",
+     "texto": "Conjuntivite viral."
+    },
+    {
+     "letra": "D",
+     "texto": "Infecção do couro cabeludo."
+    },
+    {
+     "letra": "E",
+     "texto": "Faringite estreptocócica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Supraclavicular direito: mediastino e pulmão. Esquerdo (Virchow): abdome e tórax (ducto torácico). Submandibular: boca, dentes. Pré-auricular: conjuntiva, face. Occipital/retroauricular: couro cabeludo, rubéola."
+  },
+  {
+   "id": "PROPE-PF-CP2-23",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodos · técnica",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (técnica da palpação)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a técnica de palpação dos linfonodos, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Usam-se as polpas digitais em movimentos circulares, trazendo os tecidos moles contra uma estrutura rígida, com a cabeça do paciente levemente inclinada para o lado examinado, para relaxar a musculatura."
+    },
+    {
+     "letra": "B",
+     "texto": "Basta palpar a cadeia da queixa, sem comparar com o lado oposto."
+    },
+    {
+     "letra": "C",
+     "texto": "Os linfonodos axilares são palpados com o paciente em decúbito ventral."
+    },
+    {
+     "letra": "D",
+     "texto": "Palpa-se com a palma da mão, com a musculatura cervical contraída, para fixar os linfonodos."
+    },
+    {
+     "letra": "E",
+     "texto": "A palpação \"em garra\" é a técnica usada para os linfonodos cervicais."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Músculo se palpa \"em garra\"; linfonodo, contra um plano duro. Axilares: examinador à frente, braço do paciente apoiado, palpação em garra deslizando contra o gradil costal."
+  },
+  {
+   "id": "PROPE-PF-CP2-24",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodos · características",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (características semiológicas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as características dos linfonodos e sua interpretação, analise as afirmativas:\n\nI. Linfonodos coalescentes, formando massa de limites imprecisos, podem ocorrer em processos inflamatórios ou neoplásicos que rompem a cápsula.\nII. A fistulização de linfonodos cervicais com secreção caseosa sugere tuberculose ou micose, como a paracoccidioidomicose.\nIII. Linfonodos metastáticos costumam ser duros, indolores e aderidos aos planos profundos.\nIV. Todo linfonodo doloroso é benigno e dispensa reavaliação.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas I e IV estão corretas."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas II e III estão corretas."
+    },
+    {
+     "letra": "C",
+     "texto": "Todas as afirmativas estão corretas."
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas I, II e III estão corretas."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas I e II estão corretas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A dor sugere processo inflamatório, mas não separa com segurança benigno de maligno (um linfoma pode doer por crescimento rápido ou necrose)."
+  },
+  {
+   "id": "PROPE-PF-CP2-25",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodomegalia generalizada · caso",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (raciocínio em dois passos) e plano 2.2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adolescente de 17 anos com febre, faringite exsudativa intensa, fadiga, linfonodomegalia cervical posterior, axilar e inguinal e esplenomegalia. A hipótese mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Metástase de carcinoma de cabeça e pescoço."
+    },
+    {
+     "letra": "B",
+     "texto": "Faringite estreptocócica isolada, que causa linfonodomegalia generalizada."
+    },
+    {
+     "letra": "C",
+     "texto": "Mononucleose infecciosa (vírus Epstein-Barr), causa clássica de linfonodomegalia generalizada com esplenomegalia."
+    },
+    {
+     "letra": "D",
+     "texto": "Linfoma de Hodgkin sempre, sem necessidade de outros exames."
+    },
+    {
+     "letra": "E",
+     "texto": "Linfadenite bacteriana localizada."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Generalizada = 3 ou mais grupos: mononucleose, HIV, toxoplasmose, linfomas, leucemias, doenças autoimunes. Linfonodos + esplenomegalia: infecções sistêmicas, linfomas, leucemias."
+  },
+  {
+   "id": "PROPE-PF-CP2-26",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "linfonodomegalia · investigação",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (quando investigar)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Quais características clínicas de uma linfonodomegalia indicam investigação (exames de imagem, laboratório e biópsia)? Cite ao menos cinco.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "Quaisquer cinco:\n- **Localização supraclavicular** (patológica até prova em contrário) ou cervical baixa.\n- **Tamanho > 2 cm** (ou > 1 cm em locais de risco).\n- **Crescimento progressivo** ou **persistência por mais de 4 a 6 semanas** sem causa identificada.\n- **Consistência endurecida/pétrea**, **aderência aos planos profundos**, **coalescência**.\n- **Sintomas B**: febre, sudorese noturna, perda de peso > 10%.\n- **Linfonodomegalia generalizada** ou associada a **esplenomegalia**.\n- **Alterações no hemograma** (anemia inexplicada, citopenias, blastos) ou radiológicas.\n- Idade > 40 anos e fatores de risco (tabagismo, etilismo).\n\nLinfonodo pequeno, móvel, doloroso, na drenagem de um foco infeccioso, é reacional e deve regredir em 2 a 4 semanas.",
+   "comentario": null
+  },
+  {
+   "id": "PROPE-PF-CP2-27",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "exame do pescoço · roteiro",
+   "origem": "inédita",
+   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · pescoço, tireoide e vasos (Prof. Renato)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Descreva o roteiro do exame físico do pescoço (inspeção, palpação e ausculta), citando o que deve ser avaliado em cada etapa.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Inspeção**: pele (cicatrizes, fístulas, flogose), forma e simetria, posição da traqueia (centralizada), massas e abaulamentos (tireoide, linfonodos, parótidas), turgência e pulsações jugulares (diferenciar do pulso carotídeo); pedir que o paciente degluta e estenda o pescoço.\n\n**Palpação**: tireoide (abordagens anterior e posterior, com deglutição: volume, consistência, superfície, nódulos, mobilidade, sensibilidade, frêmito); todas as cadeias linfonodais em sequência, comparando os lados; traqueia; pulso carotídeo (um lado de cada vez); mobilidade do pescoço e rigidez de nuca.\n\n**Ausculta**: carótidas (sopro de estenose — obrigatória antes da massagem do seio carotídeo) e tireoide aumentada (sopro do bócio tóxico).",
+   "comentario": null
+  }
+ ]
+}
