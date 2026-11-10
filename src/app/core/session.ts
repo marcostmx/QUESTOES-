@@ -88,7 +88,7 @@ export function dueQueue(all: Question[], data: StudyData, todayKey: string, sub
 
 /* ---------- Sessão ---------- */
 
-export type SessionKind = 'pratica' | 'revisao' | 'erros' | 'favoritos' | 'avulsa';
+export type SessionKind = 'pratica' | 'revisao' | 'erros' | 'favoritos' | 'avulsa' | 'simulado';
 
 export interface SessionAnswer {
   /** Alternativa marcada (mcq). */
@@ -105,6 +105,8 @@ export interface SessionAnswer {
   revealed?: boolean;
   /** Resultado registrado (só uma vez por questão na sessão). */
   result?: Result;
+  /** Simulado: questão entregue em branco. */
+  blank?: boolean;
 }
 
 export interface Session {
@@ -117,6 +119,19 @@ export interface Session {
   answers: Record<string, SessionAnswer>;
   createdAt: number;
   finishedAt?: number;
+  /**
+   * Simulado: 'prova' = sem gabarito até entregar; 'correcao' = depois de entregue
+   * (a sessão volta a funcionar como uma sessão comum, com gabarito e comentários).
+   */
+  mode?: 'prova' | 'correcao';
+  /** Simulado: horário-limite (ms) e duração escolhida. */
+  endsAt?: number;
+  minutes?: number;
+}
+
+export interface StartOptions {
+  mode?: 'prova';
+  minutes?: number;
 }
 
 const KEY = 'pr1.v2.session';
@@ -142,8 +157,47 @@ export const sessions = {
     listeners.add(l);
     return () => listeners.delete(l);
   },
-  start(kind: SessionKind, title: string, questionIds: string[], index = 0, exam: ExamId = preferences.get().exam) {
-    set({ id: crypto.randomUUID?.() ?? String(Date.now()), kind, exam, title, questionIds, index, answers: {}, createdAt: Date.now() });
+  start(kind: SessionKind, title: string, questionIds: string[], index = 0, exam: ExamId = preferences.get().exam, opts: StartOptions = {}) {
+    const now = Date.now();
+    set({
+      id: crypto.randomUUID?.() ?? String(now),
+      kind,
+      exam,
+      title,
+      questionIds,
+      index,
+      answers: {},
+      createdAt: now,
+      ...(opts.mode ? { mode: opts.mode, minutes: opts.minutes, endsAt: opts.minutes ? now + opts.minutes * 60_000 : undefined } : {}),
+    });
+  },
+  /**
+   * Entrega o simulado: corrige todas as objetivas (em branco = errada, sem contar
+   * no histórico de estudo), libera o gabarito e encerra a sessão.
+   */
+  submitExam(byId: Map<string, Question>) {
+    if (!current || current.mode !== 'prova') return;
+    const answers = { ...current.answers };
+    for (const id of current.questionIds) {
+      const q = byId.get(id);
+      if (!q) continue;
+      const a = answers[id] ?? {};
+      if (q.format === 'open') {
+        answers[id] = { ...a, revealed: true };
+      } else if (canConfirm(q, a)) {
+        const result = gradeAnswer(q, a);
+        study.answer(q.id, result, { selected: q.format === 'mcq' ? a.selected : undefined, guessed: a.guessed });
+        answers[id] = { ...a, result, revealed: true };
+      } else {
+        answers[id] = { ...a, result: 'wrong', blank: true, revealed: true };
+      }
+    }
+    set({ ...current, answers, mode: 'correcao', index: 0, finishedAt: Date.now() });
+  },
+  /** Abre a correção do simulado entregue (questão a questão). */
+  review(index = 0) {
+    if (!current) return;
+    set({ ...current, finishedAt: undefined, index });
   },
   go(index: number) {
     if (!current) return;
@@ -189,6 +243,7 @@ export const sessions = {
   },
   /** Confirma a resposta de uma questão objetiva. */
   confirm(q: Question) {
+    if (current?.mode === 'prova') return;
     const a = current?.answers[q.id];
     if (!a || a.result || !canConfirm(q, a)) return;
     const result = gradeAnswer(q, a);
@@ -197,6 +252,7 @@ export const sessions = {
   },
   /** Mostra o gabarito sem responder (objetiva: conta como erro). */
   reveal(q: Question) {
+    if (current?.mode === 'prova') return;
     const a = current?.answers[q.id];
     if (a?.revealed) return;
     if (isObjective(q) && !a?.result) {
@@ -352,4 +408,98 @@ export function weakSession(all: Question[], data: StudyData, todayKey: string, 
     }
   }
   return out;
+}
+
+/* ---------- Simulado ---------- */
+
+export interface ExamPlan {
+  subjects: SubjectId[];
+  size: number;
+  includeOpen: boolean;
+}
+
+/** Divide `total` em partes proporcionais aos pesos (maiores restos). */
+export function apportion(weights: number[], total: number): number[] {
+  const sum = weights.reduce((a, b) => a + b, 0);
+  if (!sum || total <= 0) return weights.map(() => 0);
+  const raw = weights.map(w => (w / sum) * total);
+  const out = raw.map(Math.floor);
+  let left = total - out.reduce((a, b) => a + b, 0);
+  const order = raw.map((r, i) => [r - Math.floor(r), i] as const).sort((a, b) => b[0] - a[0]);
+  for (const [, i] of order) {
+    if (left <= 0) break;
+    out[i]++;
+    left--;
+  }
+  return out;
+}
+
+/**
+ * Monta um simulado: divide as questões entre as disciplinas e, dentro de cada uma,
+ * entre os temas na mesma proporção das provas antigas do professor (questões de
+ * origem "prova"). A fração de discursivas também segue a das provas. Prefere
+ * questões ainda não feitas. Objetivas primeiro, discursivas no fim, como na prova.
+ */
+export function buildExam(all: Question[], data: StudyData, plan: ExamPlan, rand: () => number = Math.random): Question[] {
+  const subjects = plan.subjects.length ? plan.subjects : [...new Set(all.map(q => q.subject))];
+  const perSubject = apportion(subjects.map(() => 1), plan.size);
+  const picked: Question[] = [];
+  const fresh = (q: Question) => (isAnswered(data.questions[q.id]) ? 1 : 0);
+  const take = (pool: Question[], n: number) =>
+    shuffle(pool, rand)
+      .sort((a, b) => fresh(a) - fresh(b))
+      .slice(0, n);
+
+  subjects.forEach((subject, si) => {
+    const pool = all.filter(q => q.subject === subject);
+    const real = pool.filter(q => q.origin === 'prova');
+    const ref = real.length ? real : pool;
+    const n = Math.min(perSubject[si], pool.length);
+    const openShare = plan.includeOpen ? ref.filter(q => q.format === 'open').length / (ref.length || 1) : 0;
+    const nOpen = Math.min(Math.round(n * openShare), pool.filter(q => q.format === 'open').length);
+    for (const [format, count] of [['obj', n - nOpen], ['open', nOpen]] as const) {
+      const fpool = pool.filter(q => (format === 'open') === (q.format === 'open'));
+      const topics = [...new Set(fpool.map(q => q.topic ?? ''))];
+      const w = topics.map(t => ref.filter(q => (q.topic ?? '') === t).length || 0.5);
+      const alloc = apportion(w, count);
+      const chosen: Question[] = [];
+      topics.forEach((t, i) => chosen.push(...take(fpool.filter(q => (q.topic ?? '') === t), alloc[i])));
+      // temas com poucas questões: completa com o restante da disciplina
+      if (chosen.length < count) {
+        const used = new Set(chosen.map(q => q.id));
+        chosen.push(...take(fpool.filter(q => !used.has(q.id)), count - chosen.length));
+      }
+      picked.push(...shuffle(chosen, rand).map(q => q));
+    }
+  });
+  const objs = picked.filter(q => q.format !== 'open');
+  const opens = picked.filter(q => q.format === 'open');
+  return [...shuffle(objs, rand), ...opens];
+}
+
+/** Nota do simulado (0–10): certa = 1, parcial = 0,5; discursivas ficam de fora até a autoavaliação. */
+export function examScore(s: Session, byId: Map<string, Question>) {
+  let points = 0;
+  let graded = 0;
+  let blank = 0;
+  let open = 0;
+  const bySubject = new Map<SubjectId, { points: number; total: number }>();
+  for (const id of s.questionIds) {
+    const q = byId.get(id);
+    if (!q) continue;
+    const a = s.answers[id];
+    if (q.format === 'open' && !a?.result) {
+      open++;
+      continue;
+    }
+    const p = a?.result === 'correct' ? 1 : a?.result === 'partial' ? 0.5 : 0;
+    points += p;
+    graded++;
+    if (a?.blank) blank++;
+    const g = bySubject.get(q.subject) ?? { points: 0, total: 0 };
+    g.points += p;
+    g.total++;
+    bySubject.set(q.subject, g);
+  }
+  return { grade: graded ? (points / graded) * 10 : 0, points, graded, blank, open, bySubject };
 }

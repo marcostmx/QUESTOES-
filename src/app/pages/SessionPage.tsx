@@ -1,19 +1,20 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { ArrowLeft, ArrowRight, Flame, Grid3x3, Keyboard, RotateCcw, Trophy, X } from 'lucide-react';
+import { ArrowLeft, ArrowRight, ClipboardCheck, Flame, Grid3x3, Keyboard, RotateCcw, Timer, Trophy, X } from 'lucide-react';
 import type { ExamId } from '../../data/schema';
 import { useBank } from '../core/bank';
-import { canConfirm, sessionSummary, sessions, useSession, type Session, type SessionKind } from '../core/session';
+import { canConfirm, examScore, sessionSummary, sessions, useSession, type Session, type SessionAnswer, type SessionKind, type StartOptions } from '../core/session';
 import { useStudy } from '../core/store';
 import { navigate } from '../router';
 import { FavoriteButton, QuestionMeta, QuestionView, type QuestionHandlers } from '../question/QuestionView';
 import { Bar, Button, cx, Dialog, Empty, IconButton, Loading, Ring } from '../ui';
 import { excerpt, plural } from '../core/text';
 import { subjectMeta } from '../subjects';
+import { examHistory } from '../core/exams';
 
-const RETURN_TO: Record<SessionKind, string> = { pratica: 'praticar', revisao: 'revisao', erros: 'erros', favoritos: 'favoritos', avulsa: '' };
+const RETURN_TO: Record<SessionKind, string> = { pratica: 'praticar', revisao: 'revisao', erros: 'erros', favoritos: 'favoritos', avulsa: '', simulado: 'simulado' };
 
-export function startSession(kind: SessionKind, title: string, ids: string[], index = 0, exam?: ExamId) {
-  sessions.start(kind, title, ids, index, exam);
+export function startSession(kind: SessionKind, title: string, ids: string[], index = 0, exam?: ExamId, opts?: StartOptions) {
+  sessions.start(kind, title, ids, index, exam, opts);
   navigate('sessao');
 }
 
@@ -30,7 +31,7 @@ export default function SessionPage() {
       </div>
     );
   if (!bank.ready) return <Loading />;
-  if (session.finishedAt) return <Summary session={session} />;
+  if (session.finishedAt) return session.kind === 'simulado' && session.mode === 'correcao' ? <ExamSummary session={session} /> : <Summary session={session} />;
   return <Runner session={session} />;
 }
 
@@ -39,6 +40,8 @@ function Runner({ session }: { session: Session }) {
   const data = useStudy();
   const [mapOpen, setMapOpen] = useState(false);
   const [keysOpen, setKeysOpen] = useState(false);
+  const [submitOpen, setSubmitOpen] = useState(false);
+  const examMode = session.mode === 'prova';
   const topRef = useRef<HTMLDivElement>(null);
 
   const ids = session.questionIds;
@@ -66,7 +69,14 @@ function Runner({ session }: { session: Session }) {
       }
     : null;
 
-  const next = () => (isLast ? sessions.finish() : sessions.go(session.index + 1));
+  const submit = () => sessions.submitExam(bank.byId);
+  const finishOrSubmit = () => (examMode ? setSubmitOpen(true) : sessions.finish());
+  const next = () => (isLast ? finishOrSubmit() : sessions.go(session.index + 1));
+  const filled = ids.filter(id => {
+    const qq = bank.byId.get(id);
+    const a = session.answers[id];
+    return qq && a && (qq.format === 'open' ? !!a.text?.trim() : canConfirm(qq, a));
+  }).length;
 
   // Atalhos de teclado
   useEffect(() => {
@@ -86,6 +96,9 @@ function Runner({ session }: { session: Session }) {
       if ((q.format === 'mcq' || q.format === 'multi') && idx >= 0 && idx < n) {
         e.preventDefault();
         e.shiftKey ? h.onEliminate(idx) : q.format === 'multi' ? h.onTogglePick(idx) : h.onSelect(idx);
+      } else if (e.key === 'Enter' && examMode) {
+        e.preventDefault();
+        next();
       } else if (e.key === 'Enter') {
         e.preventDefault();
         if (q.format !== 'open' && !answer.result && canConfirm(q, answer)) h.onConfirm();
@@ -107,7 +120,7 @@ function Runner({ session }: { session: Session }) {
     return () => window.removeEventListener('keydown', onKey);
   });
 
-  const progress = summary.answered / ids.length;
+  const progress = (examMode ? filled : summary.answered) / ids.length;
   // acertos seguidos até a questão atual (na ordem da sessão)
   let run = 0;
   for (let i = session.index; i >= 0; i--) {
@@ -129,6 +142,13 @@ function Runner({ session }: { session: Session }) {
               <span className="mr-1.5 rounded bg-surface-2 px-1.5 py-px font-mono text-[11px] text-ink-2">{session.exam}</span>
               {session.title}
             </p>
+            {examMode ? (
+              <p className="tabular text-[12px] text-ink-3">
+                Questão {session.index + 1} de {ids.length}
+                <span className="mx-1.5">·</span>
+                {filled} respondidas
+              </p>
+            ) : (
             <p className="tabular text-[12px] text-ink-3">
               Questão {session.index + 1} de {ids.length}
               <span className="mx-1.5">·</span>
@@ -145,7 +165,9 @@ function Runner({ session }: { session: Session }) {
                 </span>
               )}
             </p>
+            )}
           </div>
+          {examMode && session.endsAt && <Countdown endsAt={session.endsAt} onEnd={submit} />}
           <IconButton label="Atalhos de teclado" onClick={() => setKeysOpen(true)} className="hidden sm:inline-flex">
             <Keyboard className="size-[18px]" />
           </IconButton>
@@ -161,10 +183,10 @@ function Runner({ session }: { session: Session }) {
         {q && h ? (
           <div key={q.id} className="animate-rise">
             <div className="mb-5 flex items-start justify-between gap-3">
-              <QuestionMeta q={q} state={data.questions[q.id]} number={`#${session.index + 1}`} hideHistory={!!answer.result} />
+              <QuestionMeta q={q} state={data.questions[q.id]} number={`#${session.index + 1}`} hideHistory={!!answer.result || examMode} />
               <FavoriteButton id={q.id} state={data.questions[q.id]} />
             </div>
-            <QuestionView q={q} answer={answer} state={data.questions[q.id]} h={h} footerConfirm />
+            <QuestionView q={q} answer={answer} state={data.questions[q.id]} h={h} footerConfirm examMode={examMode} />
           </div>
         ) : (
           <Empty icon={<X className="size-5" />} title="Questão não encontrada">
@@ -178,7 +200,19 @@ function Runner({ session }: { session: Session }) {
           <Button variant="ghost" icon={<ArrowLeft className="size-4" />} disabled={session.index === 0} onClick={() => sessions.go(session.index - 1)}>
             <span className="hidden sm:inline">Anterior</span>
           </Button>
-          {q && h && q.format !== 'open' && !answer.result ? (
+          {examMode ? (
+            isLast ? (
+              <Button variant="primary" onClick={() => setSubmitOpen(true)} icon={<ClipboardCheck className="size-4" />}>
+                Entregar
+              </Button>
+            ) : (
+              <Button variant="primary" onClick={next}>
+                Próxima
+                <ArrowRight className="size-4" />
+              </Button>
+            )
+          ) : null}
+          {!examMode && q && h && q.format !== 'open' && !answer.result ? (
             <div className="flex items-center gap-2 sm:hidden">
               <Button variant="ghost" onClick={next}>
                 Pular
@@ -188,7 +222,7 @@ function Runner({ session }: { session: Session }) {
               </Button>
             </div>
           ) : null}
-          <div className={q && q.format !== 'open' && !answer.result ? 'hidden sm:block' : undefined}>
+          <div className={examMode ? 'hidden' : q && q.format !== 'open' && !answer.result ? 'hidden sm:block' : undefined}>
             {isLast ? (
               <Button variant="primary" onClick={() => sessions.finish()} icon={<Trophy className="size-4" />}>
                 Finalizar
@@ -206,14 +240,20 @@ function Runner({ session }: { session: Session }) {
       <Dialog open={mapOpen} onClose={() => setMapOpen(false)} title="Mapa da sessão">
         <div className="p-5">
           <div className="mb-4 flex flex-wrap gap-4 text-[12px] text-ink-2">
-            <Legend className="bg-good" label="Certa" />
-            <Legend className="bg-warn" label="Parcial" />
-            <Legend className="bg-bad" label="Errada" />
+            {examMode ? (
+              <Legend className="bg-accent" label="Respondida" />
+            ) : (
+              <>
+                <Legend className="bg-good" label="Certa" />
+                <Legend className="bg-warn" label="Parcial" />
+                <Legend className="bg-bad" label="Errada" />
+              </>
+            )}
             <Legend className="border border-line-strong bg-surface" label="Sem resposta" />
           </div>
           <div className="grid grid-cols-[repeat(auto-fill,minmax(44px,1fr))] gap-2">
             {ids.map((id, i) => {
-              const r = session.answers[id]?.result;
+              const r = examMode ? (isFilled(bank.byId.get(id), session.answers[id]) ? 'filled' : undefined) : session.answers[id]?.result;
               return (
                 <button
                   key={id}
@@ -225,7 +265,7 @@ function Runner({ session }: { session: Session }) {
                   aria-current={i === session.index}
                   className={cx(
                     'tabular h-11 rounded-xl font-mono text-[13px] font-medium transition',
-                    r === 'correct' ? 'bg-good text-white' : r === 'wrong' ? 'bg-bad text-white' : r === 'partial' ? 'bg-warn text-white' : 'border border-line bg-surface text-ink-2 hover:border-line-strong',
+                    r === 'filled' ? 'bg-accent text-accent-ink' : r === 'correct' ? 'bg-good text-white' : r === 'wrong' ? 'bg-bad text-white' : r === 'partial' ? 'bg-warn text-white' : 'border border-line bg-surface text-ink-2 hover:border-line-strong',
                     i === session.index && 'ring-2 ring-accent ring-offset-2 ring-offset-surface',
                   )}
                 >
@@ -239,10 +279,27 @@ function Runner({ session }: { session: Session }) {
               variant="primary"
               onClick={() => {
                 setMapOpen(false);
-                sessions.finish();
+                finishOrSubmit();
               }}
             >
-              Encerrar e ver resultado
+              {examMode ? 'Entregar simulado' : 'Encerrar e ver resultado'}
+            </Button>
+          </div>
+        </div>
+      </Dialog>
+
+      <Dialog open={submitOpen} onClose={() => setSubmitOpen(false)} title="Entregar o simulado?">
+        <div className="p-5">
+          <p className="text-[15px] text-ink-2">
+            Você respondeu {filled} de {ids.length} questões.
+            {filled < ids.length && ` ${plural(ids.length - filled, 'questão ficará', 'questões ficarão')} em branco e ${ids.length - filled === 1 ? 'conta' : 'contam'} como erro.`}
+          </p>
+          <div className="mt-5 flex justify-end gap-2">
+            <Button variant="ghost" onClick={() => setSubmitOpen(false)}>
+              Continuar a prova
+            </Button>
+            <Button variant="primary" icon={<ClipboardCheck className="size-4" />} onClick={submit}>
+              Entregar
             </Button>
           </div>
         </div>
@@ -267,6 +324,128 @@ function Runner({ session }: { session: Session }) {
           ))}
         </dl>
       </Dialog>
+    </div>
+  );
+}
+
+function isFilled(q: Parameters<typeof canConfirm>[0] | undefined, a: SessionAnswer | undefined) {
+  if (!q || !a) return false;
+  return q.format === 'open' ? !!a.text?.trim() : canConfirm(q, a);
+}
+
+/** Cronômetro regressivo do simulado; entrega sozinho quando o tempo acaba. */
+function Countdown({ endsAt, onEnd }: { endsAt: number; onEnd: () => void }) {
+  const [now, setNow] = useState(Date.now());
+  const ended = useRef(false);
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const left = Math.max(0, endsAt - now);
+  useEffect(() => {
+    if (left === 0 && !ended.current) {
+      ended.current = true;
+      onEnd();
+    }
+  }, [left, onEnd]);
+  const m = Math.floor(left / 60_000);
+  const sec = Math.floor((left % 60_000) / 1000);
+  const low = left < 5 * 60_000;
+  return (
+    <span
+      className={cx('tabular inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 font-mono text-[13px] font-semibold', low ? 'bg-bad-soft text-bad' : 'bg-surface-2 text-ink-2')}
+      aria-label="Tempo restante"
+    >
+      <Timer className="size-3.5" />
+      {String(m).padStart(2, '0')}:{String(sec).padStart(2, '0')}
+    </span>
+  );
+}
+
+function ExamSummary({ session }: { session: Session }) {
+  const bank = useBank(session.exam);
+  const sc = examScore(session, bank.byId);
+  const missed = session.questionIds.filter(id => ['wrong', 'partial'].includes(session.answers[id]?.result ?? ''));
+  const spent = session.finishedAt && session.createdAt ? Math.round((session.finishedAt - session.createdAt) / 60_000) : null;
+  useEffect(() => {
+    examHistory.save({
+      id: session.id,
+      exam: session.exam,
+      title: session.title,
+      subjects: [...sc.bySubject.keys()],
+      date: session.finishedAt ?? Date.now(),
+      grade: sc.grade,
+      questions: session.questionIds.length,
+      minutes: session.minutes,
+    });
+  }, [session.id, sc.grade]);
+  const tone = sc.grade >= 7 ? 'var(--good)' : sc.grade >= 5 ? 'var(--warn)' : 'var(--bad)';
+  return (
+    <div className="min-h-dvh bg-bg">
+      <main className="animate-rise mx-auto max-w-2xl px-4 py-10 sm:py-16">
+        <p className="mb-2 text-[13px] font-medium text-ink-3">
+          {session.exam} · {session.title}
+        </p>
+        <h1 className="font-display mb-8 text-4xl font-semibold sm:text-5xl">{sc.grade >= 7 ? 'Aprovado neste simulado.' : sc.grade >= 5 ? 'Quase lá.' : 'Hora de revisar a base.'}</h1>
+
+        <div className="mb-6 flex flex-col items-center gap-6 rounded-3xl border border-line bg-surface p-6 sm:flex-row sm:p-8">
+          <Ring value={sc.grade / 10} size={128} stroke={10} color={tone}>
+            <span className="text-center">
+              <span className="font-display tabular block text-3xl font-semibold">{sc.grade.toFixed(1).replace('.', ',')}</span>
+              <span className="block text-[11px] text-ink-3">nota (0–10)</span>
+            </span>
+          </Ring>
+          <dl className="grid flex-1 grid-cols-2 gap-4 text-center sm:text-left">
+            <Stat label="Pontos" value={`${String(sc.points).replace('.', ',')}/${sc.graded}`} />
+            <Stat label="Em branco" value={sc.blank} />
+            <Stat label="Tempo" value={spent !== null ? `${spent} min` : '—'} />
+            <Stat label="Discursivas a corrigir" value={sc.open} tone={sc.open ? 'text-warn' : undefined} />
+          </dl>
+        </div>
+
+        {sc.bySubject.size > 1 && (
+          <ul className="mb-6 space-y-3 rounded-2xl border border-line bg-surface p-5">
+            {[...sc.bySubject].map(([sid, g]) => {
+              const m = subjectMeta(sid);
+              return (
+                <li key={sid}>
+                  <div className="tabular mb-1.5 flex justify-between text-[13.5px]">
+                    <span className="font-medium">{m?.name ?? sid}</span>
+                    <span className="text-ink-2">{((g.points / (g.total || 1)) * 10).toFixed(1).replace('.', ',')}</span>
+                  </div>
+                  <Bar value={g.points / (g.total || 1)} color={m?.color} />
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
+        {sc.open > 0 && (
+          <p className="mb-6 rounded-2xl bg-warn-soft px-4 py-3 text-[14px] text-warn">
+            A nota ainda não inclui {sc.open === 1 ? 'a discursiva' : `as ${sc.open} discursivas`}. Abra a correção, compare sua resposta com a esperada e marque como foi.
+          </p>
+        )}
+
+        <div className="mb-10 flex flex-wrap gap-2">
+          <Button variant="primary" icon={<ClipboardCheck className="size-4" />} onClick={() => sessions.review(0)}>
+            Ver correção
+          </Button>
+          {missed.length > 0 && (
+            <Button icon={<RotateCcw className="size-4" />} onClick={() => startSession('erros', `Refazer erros · ${session.title}`, missed, 0, session.exam)}>
+              Refazer {plural(missed.length, 'erro', 'erros')}
+            </Button>
+          )}
+          <Button
+            variant="ghost"
+            onClick={() => {
+              sessions.discard();
+              navigate('simulado');
+            }}
+          >
+            Concluir
+          </Button>
+        </div>
+      </main>
     </div>
   );
 }

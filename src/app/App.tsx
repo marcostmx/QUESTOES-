@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, CalendarClock, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -14,6 +14,7 @@ import { cx, Loading } from './ui';
 const HomePage = lazy(() => import('./pages/HomePage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
+const ExamPage = lazy(() => import('./pages/ExamPage'));
 const ReviewPage = lazy(() => import('./pages/ReviewPage'));
 const ErrorsPage = lazy(() => import('./pages/ErrorsPage'));
 const FavoritesPage = lazy(() => import('./pages/FavoritesPage'));
@@ -82,6 +83,7 @@ function useNav(): NavItem[] {
     return [
       { path: '', label: 'Hoje', icon: Home },
       { path: 'praticar', label: 'Praticar', icon: PenLine },
+      { path: 'simulado', label: 'Simulado', icon: ClipboardList },
       { path: 'revisao', label: 'Revisão', icon: CalendarClock, badge: due },
       { path: 'erros', label: 'Caderno de erros', icon: NotebookPen, badge: errors },
       { path: 'favoritos', label: 'Favoritos', icon: Bookmark },
@@ -296,6 +298,7 @@ function page(parts: string[]): ReactNode {
   switch (head ?? '') {
     case '': return <HomePage />;
     case 'praticar': return <PracticePage subject={arg} />;
+    case 'simulado': return <ExamPage />;
     case 'revisao': return <ReviewPage />;
     case 'erros': return <ErrorsPage />;
     case 'favoritos': return <FavoritesPage />;
