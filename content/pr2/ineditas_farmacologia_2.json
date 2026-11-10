@@ -1,0 +1,1345 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Farmacologia · Lote 2 (colinérgica e adrenérgica)",
+  "gerado_em": "2026-11-10",
+  "base": "Plano de Farmacologia 2026.2, temas recorrentes nas provas. Formato do professor: incorreta/correta, I–IV, V/F, marque apenas, discursivas."
+ },
+ "questoes": [
+  {
+   "id": "FARM-PF2-01",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "receptores muscarínicos · coração",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · receptores M2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A bradicardia causada pela acetilcolina resulta da ativação de receptores:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "M1 dos gânglios simpáticos."
+    },
+    {
+     "letra": "B",
+     "texto": "M2 do nó sinoatrial."
+    },
+    {
+     "letra": "C",
+     "texto": "β1 do nó sinoatrial."
+    },
+    {
+     "letra": "D",
+     "texto": "M3 do músculo cardíaco."
+    },
+    {
+     "letra": "E",
+     "texto": "Nicotínicos Nm do miocárdio."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "M2 (acoplado a Gi): abre canais de K⁺ e reduz o AMPc → ↓ FC e condução AV."
+  },
+  {
+   "id": "FARM-PF2-02",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "pilocarpina · glaucoma",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · agonistas muscarínicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A pilocarpina reduz a pressão intraocular no glaucoma porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Bloqueia a produção de humor aquoso pela anidrase carbônica."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibe a acetilcolinesterase de modo irreversível."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueia receptores β no corpo ciliar."
+    },
+    {
+     "letra": "D",
+     "texto": "Contrai o músculo ciliar e facilita a drenagem do humor aquoso."
+    },
+    {
+     "letra": "E",
+     "texto": "Dilata a pupila e abre o ângulo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Agonista M3: miose e contração do ciliar → abre a malha trabecular. Timolol (β-bloqueador) e acetazolamida reduzem a produção."
+  },
+  {
+   "id": "FARM-PF2-03",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "neostigmina × fisostigmina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · anticolinesterásicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na intoxicação por atropina com delirium, prefere-se a fisostigmina à neostigmina porque a fisostigmina:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É amina terciária e atravessa a barreira hematoencefálica."
+    },
+    {
+     "letra": "B",
+     "texto": "É agonista muscarínico direto."
+    },
+    {
+     "letra": "C",
+     "texto": "Não age na junção neuromuscular."
+    },
+    {
+     "letra": "D",
+     "texto": "É quaternária e tem ação só periférica."
+    },
+    {
+     "letra": "E",
+     "texto": "É irreversível e mais duradoura."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Neostigmina e piridostigmina são quaternárias (não entram no SNC) — usadas na miastenia e para reverter bloqueio neuromuscular."
+  },
+  {
+   "id": "FARM-PF2-04",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "organofosforados · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · intoxicação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a intoxicação por organofosforados (\"chumbinho\"), analise:\n\nI. Há miose, sialorreia, broncorreia e bradicardia.\nII. Fasciculações e fraqueza decorrem do efeito nicotínico.\nIII. A atropina reverte a paralisia muscular.\nIV. A pralidoxima reativa a acetilcolinesterase se dada precocemente.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A atropina bloqueia só os efeitos **muscarínicos**; a fraqueza (nicotínica) melhora com pralidoxima antes do \"envelhecimento\" da enzima."
+  },
+  {
+   "id": "FARM-PF2-05",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "atropina · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · antimuscarínicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os efeitos da atropina em dose terapêutica, é INCORRETO afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reduz as secreções brônquicas."
+    },
+    {
+     "letra": "B",
+     "texto": "Causa taquicardia por bloqueio M2."
+    },
+    {
+     "letra": "C",
+     "texto": "Causa miose e aumento da secreção salivar."
+    },
+    {
+     "letra": "D",
+     "texto": "Causa midríase e cicloplegia."
+    },
+    {
+     "letra": "E",
+     "texto": "Pode causar retenção urinária."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Antimuscarínico: midríase, boca seca, taquicardia, retenção urinária, constipação, hipertermia."
+  },
+  {
+   "id": "FARM-PF2-06",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "antimuscarínico · contraindicação",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · antimuscarínicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Antimuscarínicos como a escopolamina devem ser evitados em pacientes com:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Asma brônquica."
+    },
+    {
+     "letra": "B",
+     "texto": "Bradicardia sinusal."
+    },
+    {
+     "letra": "C",
+     "texto": "Cinetose."
+    },
+    {
+     "letra": "D",
+     "texto": "Glaucoma de ângulo fechado."
+    },
+    {
+     "letra": "E",
+     "texto": "Doença de Parkinson."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A midríase fecha o ângulo e eleva a pressão intraocular. Outras cautelas: hiperplasia prostática (retenção) e íleo."
+  },
+  {
+   "id": "FARM-PF2-07",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "succinilcolina · hipercalemia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · bloqueadores despolarizantes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente grande queimado há 10 dias será intubado. O bloqueador neuromuscular que deve ser evitado e o motivo são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cisatracúrio, por depender do fígado."
+    },
+    {
+     "letra": "B",
+     "texto": "Rocurônio, pelo risco de hipertermia maligna."
+    },
+    {
+     "letra": "C",
+     "texto": "Succinilcolina, pelo risco de hipercalemia grave."
+    },
+    {
+     "letra": "D",
+     "texto": "Succinilcolina, por ser revertida pela neostigmina."
+    },
+    {
+     "letra": "E",
+     "texto": "Vecurônio, por causar fasciculações."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Queimados, trauma extenso, imobilização e denervação aumentam receptores extrajuncionais → efluxo maciço de K⁺ com succinilcolina."
+  },
+  {
+   "id": "FARM-PF2-08",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "hipertermia maligna",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · succinilcolina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante anestesia com sevoflurano e succinilcolina surgem rigidez muscular, hipercapnia, taquicardia e hipertermia. O tratamento específico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sugamadex."
+    },
+    {
+     "letra": "B",
+     "texto": "Atropina."
+    },
+    {
+     "letra": "C",
+     "texto": "Neostigmina."
+    },
+    {
+     "letra": "D",
+     "texto": "Naloxona."
+    },
+    {
+     "letra": "E",
+     "texto": "Dantroleno."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Hipertermia maligna: liberação descontrolada de Ca²⁺ (receptor de rianodina). Dantroleno bloqueia essa liberação."
+  },
+  {
+   "id": "FARM-PF2-09",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "sugamadex",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · reversão do bloqueio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O sugamadex reverte o bloqueio neuromuscular porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Encapsula o rocurônio ou o vecurônio no plasma."
+    },
+    {
+     "letra": "B",
+     "texto": "Bloqueia a pseudocolinesterase."
+    },
+    {
+     "letra": "C",
+     "texto": "Antagoniza a succinilcolina."
+    },
+    {
+     "letra": "D",
+     "texto": "É agonista nicotínico."
+    },
+    {
+     "letra": "E",
+     "texto": "Inibe a acetilcolinesterase."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Ciclodextrina que forma complexo com aminoesteroides. A neostigmina age aumentando a ACh e exige atropina/glicopirrolato."
+  },
+  {
+   "id": "FARM-PF2-10",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "atracúrio · Hofmann",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · não despolarizantes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em paciente com insuficiência renal e hepática, o bloqueador neuromuscular preferido é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Succinilcolina em infusão contínua."
+    },
+    {
+     "letra": "B",
+     "texto": "Cisatracúrio."
+    },
+    {
+     "letra": "C",
+     "texto": "Pancurônio."
+    },
+    {
+     "letra": "D",
+     "texto": "Vecurônio."
+    },
+    {
+     "letra": "E",
+     "texto": "Rocurônio."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Atracúrio/cisatracúrio sofrem eliminação de Hofmann (degradação espontânea no plasma), independente de rim e fígado."
+  },
+  {
+   "id": "FARM-PF2-11",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "V/F · miastenia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · miastenia gravis",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o tratamento farmacológico da miastenia gravis, julgue e marque a sequência correta:\n\nI. ( ) A piridostigmina aumenta a ACh disponível na placa motora.\nII. ( ) Aminoglicosídeos podem piorar a fraqueza.\nIII. ( ) A succinilcolina é o bloqueador de escolha na miastenia.\nIV. ( ) Corticoides e imunossupressores fazem parte do tratamento.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F, V, F, F"
+    },
+    {
+     "letra": "B",
+     "texto": "V, F, V, V"
+    },
+    {
+     "letra": "C",
+     "texto": "F, F, F, F"
+    },
+    {
+     "letra": "D",
+     "texto": "V, V, F, V"
+    },
+    {
+     "letra": "E",
+     "texto": "F, V, F, V"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Miastênicos são resistentes à succinilcolina e muito sensíveis aos não despolarizantes."
+  },
+  {
+   "id": "FARM-PF2-12",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "ipratrópio · DPOC",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · antimuscarínicos inalatórios",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O tiotrópio é útil na DPOC porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inibe a fosfodiesterase 4."
+    },
+    {
+     "letra": "B",
+     "texto": "Reduz a inflamação eosinofílica."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueia receptores M3 brônquicos, causando broncodilatação."
+    },
+    {
+     "letra": "D",
+     "texto": "Ativa receptores M2 pré-sinápticos."
+    },
+    {
+     "letra": "E",
+     "texto": "Estimula receptores β2 brônquicos."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Antimuscarínico de longa ação (LAMA), quaternário, pouco absorvido → poucos efeitos sistêmicos."
+  },
+  {
+   "id": "FARM-PF2-13",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "betanecol",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · agonistas muscarínicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O betanecol pode ser usado em:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Retenção urinária não obstrutiva pós-operatória."
+    },
+    {
+     "letra": "B",
+     "texto": "Asma aguda."
+    },
+    {
+     "letra": "C",
+     "texto": "Bradicardia sintomática."
+    },
+    {
+     "letra": "D",
+     "texto": "Glaucoma de ângulo aberto como 1ª escolha."
+    },
+    {
+     "letra": "E",
+     "texto": "Intoxicação por organofosforado."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Agonista muscarínico resistente à colinesterase, seletivo para bexiga e TGI. Contraindicado na obstrução."
+  },
+  {
+   "id": "FARM-PF2-14",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "marque apenas · sinais muscarínicos",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · intoxicação colinérgica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "itens_vf",
+   "enunciado": "Marque APENAS os achados esperados na síndrome colinérgica muscarínica (erro anula acerto): ( ) Miose ( ) Midríase ( ) Bradicardia ( ) Broncorreia ( ) Pele seca e quente ( ) Diarreia",
+   "alternativas": [],
+   "gabarito": [
+    "Miose",
+    "Bradicardia",
+    "Broncorreia",
+    "Diarreia"
+   ],
+   "gabarito_texto": "Miose; Bradicardia; Broncorreia; Diarreia",
+   "comentario": "Pele seca, midríase e taquicardia são da síndrome **anticolinérgica**."
+  },
+  {
+   "id": "FARM-PF2-15",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Colinérgica e junção neuromuscular",
+   "subtema": "discursiva · atropina × pralidoxima",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · organofosforados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique o mecanismo de ação dos organofosforados e a base farmacológica do uso de atropina e pralidoxima no tratamento da intoxicação.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Mecanismo**: os organofosforados fosforilam o sítio esterásico da **acetilcolinesterase**, inibindo-a de forma praticamente irreversível → acúmulo de ACh nas sinapses muscarínicas, nicotínicas (gânglios e placa motora) e no SNC.\n\n**Atropina**: antagonista competitivo **muscarínico** — reverte miose, broncorreia, broncoespasmo, bradicardia, sialorreia, diarreia; dose titulada até secar as secreções brônquicas. Não age nos receptores nicotínicos (não reverte a fraqueza).\n\n**Pralidoxima**: oxima que remove o grupo fosfato e **reativa a enzima**, desde que administrada antes do \"envelhecimento\" (perda de um grupo alquil que torna a ligação permanente). Melhora a fraqueza muscular (efeito nicotínico).\n\nSuporte: via aérea, O₂, descontaminação, benzodiazepínico para convulsões.",
+   "comentario": null
+  },
+  {
+   "id": "FARM-PF2-16",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "adrenalina · anafilaxia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · agonistas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na anafilaxia, a adrenalina é o fármaco de escolha porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Bloqueia a liberação de IgE."
+    },
+    {
+     "letra": "B",
+     "texto": "Ativa α1, β1 e β2: eleva a PA, aumenta o débito e broncodilata."
+    },
+    {
+     "letra": "C",
+     "texto": "Ativa só receptores β2."
+    },
+    {
+     "letra": "D",
+     "texto": "É anti-H1 potente."
+    },
+    {
+     "letra": "E",
+     "texto": "Inibe a fosfolipase A2."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "IM na face anterolateral da coxa. Anti-H1 e corticoide são adjuvantes."
+  },
+  {
+   "id": "FARM-PF2-17",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "noradrenalina · bradicardia reflexa",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · agonistas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A infusão de noradrenalina pode causar bradicardia reflexa porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ativa receptores α2 no nó sinusal."
+    },
+    {
+     "letra": "B",
+     "texto": "Ativa receptores M2 diretamente."
+    },
+    {
+     "letra": "C",
+     "texto": "Causa hipocalemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueia receptores β1."
+    },
+    {
+     "letra": "E",
+     "texto": "A vasoconstrição α1 eleva a PA e ativa o barorreflexo vagal."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Apesar do efeito β1 direto, a resposta vagal reflexa à hipertensão predomina."
+  },
+  {
+   "id": "FARM-PF2-18",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "dobutamina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · inotrópicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No choque cardiogênico com baixo débito, o agonista que aumenta a contratilidade por ação predominante em β1 é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Noradrenalina em dose baixa."
+    },
+    {
+     "letra": "B",
+     "texto": "Salbutamol."
+    },
+    {
+     "letra": "C",
+     "texto": "Clonidina."
+    },
+    {
+     "letra": "D",
+     "texto": "Fenilefrina."
+    },
+    {
+     "letra": "E",
+     "texto": "Dobutamina."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Dobutamina: β1 (inotrópico), discreto β2. Fenilefrina: α1 puro."
+  },
+  {
+   "id": "FARM-PF2-19",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "dopamina · doses",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · dopamina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dopamina em doses progressivamente maiores ativa, em sequência:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "β2, depois α2."
+    },
+    {
+     "letra": "B",
+     "texto": "Receptores muscarínicos e nicotínicos."
+    },
+    {
+     "letra": "C",
+     "texto": "α1, depois β1 e D1."
+    },
+    {
+     "letra": "D",
+     "texto": "Receptores D1, depois β1 e, em doses altas, α1."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas receptores β2."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Dose baixa: vasodilatação renal/mesentérica (D1); intermediária: inotropismo (β1); alta: vasoconstrição (α1)."
+  },
+  {
+   "id": "FARM-PF2-20",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "clonidina · rebote",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · α2-agonistas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A suspensão abrupta da clonidina pode causar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotensão grave."
+    },
+    {
+     "letra": "B",
+     "texto": "Crise hipertensiva de rebote."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipoglicemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Broncoespasmo."
+    },
+    {
+     "letra": "E",
+     "texto": "Bradicardia extrema."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Agonista α2 central (↓ tônus simpático). A retirada súbita libera o simpático → rebote."
+  },
+  {
+   "id": "FARM-PF2-21",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "prazosina · primeira dose",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · α1-bloqueadores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O principal efeito adverso no início do tratamento com prazosina ou doxazosina é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotensão postural com síncope (\"efeito da primeira dose\")."
+    },
+    {
+     "letra": "B",
+     "texto": "Broncoespasmo."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipercalemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Bradicardia."
+    },
+    {
+     "letra": "E",
+     "texto": "Tosse seca."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Iniciar com dose baixa à noite. Usados em HPB (relaxam o colo vesical) e HAS."
+  },
+  {
+   "id": "FARM-PF2-22",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "propranolol · asma",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · β-bloqueadores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente asmático com hipertireoidismo precisa de β-bloqueador. A escolha mais segura e o motivo são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Timolol oral, por ser broncodilatador."
+    },
+    {
+     "letra": "B",
+     "texto": "Nenhum β-bloqueador tem seletividade."
+    },
+    {
+     "letra": "C",
+     "texto": "β1-seletivo (como atenolol), por menor risco de broncoespasmo."
+    },
+    {
+     "letra": "D",
+     "texto": "Carvedilol, por bloquear β2."
+    },
+    {
+     "letra": "E",
+     "texto": "Propranolol, por ser não seletivo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Bloqueio β2 brônquico causa broncoespasmo. A seletividade β1 é relativa (cautela em doses altas)."
+  },
+  {
+   "id": "FARM-PF2-23",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "β-bloqueador · hipoglicemia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · β-bloqueadores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em diabéticos em uso de insulina, os β-bloqueadores não seletivos podem:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Causar hiperglicemia grave obrigatória."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumentar a absorção da insulina."
+    },
+    {
+     "letra": "C",
+     "texto": "Mascarar os sintomas adrenérgicos da hipoglicemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Eliminar a sudorese colinérgica."
+    },
+    {
+     "letra": "E",
+     "texto": "Provocar taquicardia na hipoglicemia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Taquicardia e tremor são mascarados; a sudorese (simpática colinérgica) persiste. O bloqueio β2 também retarda a recuperação da glicemia."
+  },
+  {
+   "id": "FARM-PF2-24",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "receptores · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · receptores adrenérgicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os receptores adrenérgicos, analise:\n\nI. A ativação de α1 causa vasoconstrição e midríase.\nII. A ativação de β2 causa broncoconstrição.\nIII. O α2 pré-sináptico reduz a liberação de noradrenalina.\nIV. A ativação de β1 aumenta a liberação de renina.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "I, III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "β2 causa broncodilatação, vasodilatação muscular, tremor e entrada de K⁺ nas células."
+  },
+  {
+   "id": "FARM-PF2-25",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "β2 · hipocalemia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · β2-agonistas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Doses repetidas de salbutamol nebulizado podem causar hipocalemia porque o β2:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estimula a Na⁺/K⁺-ATPase e desloca K⁺ para dentro das células."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibe a absorção intestinal de potássio."
+    },
+    {
+     "letra": "C",
+     "texto": "Causa vômitos intensos."
+    },
+    {
+     "letra": "D",
+     "texto": "Ativa receptores M3 renais."
+    },
+    {
+     "letra": "E",
+     "texto": "Aumenta a excreção renal de potássio por bloqueio da aldosterona."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Efeito usado no tratamento da hipercalemia. Outros efeitos: tremor, taquicardia, hiperglicemia."
+  },
+  {
+   "id": "FARM-PF2-26",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "asma · base do controle",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · asma",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O tratamento de controle (manutenção) da asma persistente tem como base:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Anti-histamínico H1."
+    },
+    {
+     "letra": "B",
+     "texto": "β2-agonista de curta ação regular."
+    },
+    {
+     "letra": "C",
+     "texto": "Teofilina oral."
+    },
+    {
+     "letra": "D",
+     "texto": "Corticoide inalatório."
+    },
+    {
+     "letra": "E",
+     "texto": "β2-agonista de longa ação isolado."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Corticoide inalatório reduz inflamação, sintomas, crises e mortalidade. LABA só associado ao corticoide."
+  },
+  {
+   "id": "FARM-PF2-27",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "LABA · monoterapia",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · asma",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os β2-agonistas de longa ação (salmeterol, formoterol) na asma, é correto:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não causam tremor nem taquicardia."
+    },
+    {
+     "letra": "B",
+     "texto": "Não devem ser usados sem corticoide inalatório."
+    },
+    {
+     "letra": "C",
+     "texto": "Agem bloqueando receptores M3."
+    },
+    {
+     "letra": "D",
+     "texto": "São a base do tratamento em monoterapia."
+    },
+    {
+     "letra": "E",
+     "texto": "São contraindicados com corticoide."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "LABA em monoterapia na asma associou-se a mais crises graves e mortes."
+  },
+  {
+   "id": "FARM-PF2-28",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "teofilina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · metilxantinas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A teofilina tem uso limitado na asma principalmente por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ausência de efeito broncodilatador."
+    },
+    {
+     "letra": "B",
+     "texto": "Causar hipoglicemia grave."
+    },
+    {
+     "letra": "C",
+     "texto": "Ser antagonista β2."
+    },
+    {
+     "letra": "D",
+     "texto": "Exigir via intramuscular."
+    },
+    {
+     "letra": "E",
+     "texto": "Janela terapêutica estreita, com risco de arritmias e convulsões."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Inibe fosfodiesterases e antagoniza adenosina. Níveis alterados por CYP1A2 (ciprofloxacino, eritromicina ↑; tabaco ↓)."
+  },
+  {
+   "id": "FARM-PF2-29",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "crise de asma · conduta",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · crise asmática",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na crise grave de asma no pronto-socorro, a associação inicial mais adequada é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Propranolol + corticoide inalatório."
+    },
+    {
+     "letra": "B",
+     "texto": "β2 de curta ação + ipratrópio inalatórios, corticoide sistêmico e O₂."
+    },
+    {
+     "letra": "C",
+     "texto": "Anti-histamínico + montelucaste."
+    },
+    {
+     "letra": "D",
+     "texto": "LABA isolado em alta dose."
+    },
+    {
+     "letra": "E",
+     "texto": "Teofilina oral isolada."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Sulfato de magnésio IV nos casos graves refratários."
+  },
+  {
+   "id": "FARM-PF2-30",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "montelucaste",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · antileucotrienos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O montelucaste atua:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inibindo a COX-2."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibindo a fosfolipase A2."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueando receptores H1."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueando receptores de leucotrienos cisteinílicos (CysLT1)."
+    },
+    {
+     "letra": "E",
+     "texto": "Estimulando receptores β2."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Útil na asma induzida por exercício/aspirina e na rinite alérgica; menos eficaz que o corticoide inalatório."
+  },
+  {
+   "id": "FARM-PF2-31",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "V/F · catecolaminas",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · agonistas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os itens e assinale a sequência correta:\n\nI. ( ) A fenilefrina é agonista α1 usada como descongestionante.\nII. ( ) O isoproterenol é agonista α puro.\nIII. ( ) A adrenalina associada ao anestésico local prolonga seu efeito.\nIV. ( ) A dobutamina é usada para vasoconstrição no choque séptico.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V, F, V, F"
+    },
+    {
+     "letra": "B",
+     "texto": "F, F, F, F"
+    },
+    {
+     "letra": "C",
+     "texto": "F, V, F, F"
+    },
+    {
+     "letra": "D",
+     "texto": "V, F, F, V"
+    },
+    {
+     "letra": "E",
+     "texto": "V, V, F, V"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Isoproterenol: β1 + β2. No choque séptico, o vasopressor de escolha é a noradrenalina."
+  },
+  {
+   "id": "FARM-PF2-32",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "cocaína · mecanismo",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · simpatomiméticos indiretos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A cocaína causa hipertensão, taquicardia e vasoconstrição coronária porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Libera acetilcolina."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibe a MAO."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueia a recaptação de noradrenalina."
+    },
+    {
+     "letra": "D",
+     "texto": "Estimula diretamente receptores β2."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueia receptores α2."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Também é anestésico local (bloqueio de canais de Na⁺). β-bloqueador isolado é evitado na intoxicação (α sem oposição)."
+  },
+  {
+   "id": "FARM-PF2-33",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "tansulosina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · α1A",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na hiperplasia prostática benigna, a tansulosina melhora o fluxo urinário por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estimular receptores muscarínicos vesicais."
+    },
+    {
+     "letra": "B",
+     "texto": "Bloquear receptores α1A da próstata e do colo vesical."
+    },
+    {
+     "letra": "C",
+     "texto": "Ativar receptores β3."
+    },
+    {
+     "letra": "D",
+     "texto": "Reduzir o volume prostático em semanas."
+    },
+    {
+     "letra": "E",
+     "texto": "Inibir a 5α-redutase."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Ação rápida; menos hipotensão que prazosina. A finasterida (5α-redutase) reduz o volume da próstata em meses."
+  },
+  {
+   "id": "FARM-PF2-34",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "metildopa · gestação",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · anti-hipertensivos simpatolíticos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um anti-hipertensivo de ação central, seguro e tradicional na gestação, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Enalapril."
+    },
+    {
+     "letra": "B",
+     "texto": "Propranolol."
+    },
+    {
+     "letra": "C",
+     "texto": "Metildopa."
+    },
+    {
+     "letra": "D",
+     "texto": "Fenilefrina."
+    },
+    {
+     "letra": "E",
+     "texto": "Losartana."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Pró-fármaco → α-metilnoradrenalina (agonista α2 central). IECA e BRA são contraindicados na gestação."
+  },
+  {
+   "id": "FARM-PF2-35",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "SNA, farmacologia adrenérgica e asma",
+   "subtema": "discursiva · asma",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · tratamento da asma",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique o mecanismo de ação e o papel de cada classe no tratamento da asma: β2-agonistas (curta e longa ação), corticoides inalatórios e antimuscarínicos.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**β2-agonistas**: ativam β2 (Gs → ↑ AMPc → PKA) no músculo liso brônquico → **broncodilatação**. Curta ação (salbutamol, fenoterol): **alívio** das crises. Longa ação (formoterol, salmeterol): **controle**, sempre associados ao corticoide inalatório. Efeitos: tremor, taquicardia, hipocalemia.\n\n**Corticoides inalatórios** (budesonida, beclometasona, fluticasona): receptor intracelular → ↓ citocinas, eosinófilos, mastócitos e hiper-responsividade; ↑ expressão de receptores β2. **Base do controle**; reduzem crises e mortalidade. Efeitos: candidíase oral, disfonia.\n\n**Antimuscarínicos** (ipratrópio, tiotrópio): bloqueiam M3 → ↓ tônus vagal broncoconstritor e secreção. Ipratrópio na crise grave (com β2); tiotrópio na asma grave e na DPOC.\n\nAdjuvantes: antileucotrienos, teofilina, anti-IgE.",
+   "comentario": null
+  }
+ ]
+}

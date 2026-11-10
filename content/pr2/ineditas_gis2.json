@@ -1,0 +1,1506 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Epidemiologia II (GIS 2)",
+  "gerado_em": "2026-11-10",
+  "base": "Temas cobrados nas provas de GIS 2 (coorte, caso-controle, acurácia, validade). Cálculos conferidos por script. Formato das provas: casos com tabela 2×2, delineamento + medida, afirmativas I–IV e V/F."
+ },
+ "questoes": [
+  {
+   "id": "GIS-PF-01",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "cálculo de RR · tabagismo e dpoc",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · medidas de associação na coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uma coorte acompanhou por 10 anos 1.000 tabagistas e 2.000 não tabagistas, todos sem DPOC no início. Desenvolveram DPOC 120 tabagistas e 40 não tabagistas.\n\n| | Doentes | Sadios | Total |\n| --- | --- | --- | --- |\n| Expostos | 120 | 880 | 1000 |\n| Não expostos | 40 | 1960 | 2000 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "OR = 6,68, medida própria do estudo de coorte."
+    },
+    {
+     "letra": "B",
+     "texto": "RR = 0,17; a exposição é fator de proteção."
+    },
+    {
+     "letra": "C",
+     "texto": "RR = 6,00; risco atribuível de 10,0% entre os expostos."
+    },
+    {
+     "letra": "D",
+     "texto": "RR = 6,60; a associação é negativa."
+    },
+    {
+     "letra": "E",
+     "texto": "RR = 6,00, mas o estudo não permite calcular incidência."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Incidência nos expostos = 120/1000 = 12,0%. Incidência nos não expostos = 40/2000 = 2,0%.\n\n**RR = 12,0 / 2,0 = 6,00**. RR > 1 → fator de risco. Diferença de riscos = 10,0%.\n\nNa coorte calcula-se a incidência diretamente; a OR é a medida do caso-controle."
+  },
+  {
+   "id": "GIS-PF-02",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "cálculo de RR · sedentarismo e diabetes",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · medidas de associação na coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em uma coorte de adultos sem diabetes, 400 eram sedentários e 600 ativos. Após 8 anos, 60 sedentários e 30 ativos desenvolveram diabetes tipo 2.\n\n| | Doentes | Sadios | Total |\n| --- | --- | --- | --- |\n| Expostos | 60 | 340 | 400 |\n| Não expostos | 30 | 570 | 600 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "RR = 3,60; a associação é negativa."
+    },
+    {
+     "letra": "B",
+     "texto": "RR = 3,00; risco atribuível de 10,0% entre os expostos."
+    },
+    {
+     "letra": "C",
+     "texto": "RR = 0,33; a exposição é fator de proteção."
+    },
+    {
+     "letra": "D",
+     "texto": "RR = 3,00, mas o estudo não permite calcular incidência."
+    },
+    {
+     "letra": "E",
+     "texto": "OR = 3,35, medida própria do estudo de coorte."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Incidência nos expostos = 60/400 = 15,0%. Incidência nos não expostos = 30/600 = 5,0%.\n\n**RR = 15,0 / 5,0 = 3,00**. RR > 1 → fator de risco. Diferença de riscos = 10,0%.\n\nNa coorte calcula-se a incidência diretamente; a OR é a medida do caso-controle."
+  },
+  {
+   "id": "GIS-PF-03",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "cálculo de RR · obesidade e has",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · medidas de associação na coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudo acompanhou 500 obesos e 1.500 não obesos normotensos. Em 5 anos, 100 obesos e 150 não obesos tornaram-se hipertensos.\n\n| | Doentes | Sadios | Total |\n| --- | --- | --- | --- |\n| Expostos | 100 | 400 | 500 |\n| Não expostos | 150 | 1350 | 1500 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "OR = 2,25, medida própria do estudo de coorte."
+    },
+    {
+     "letra": "B",
+     "texto": "RR = 0,50; a exposição é fator de proteção."
+    },
+    {
+     "letra": "C",
+     "texto": "RR = 2,00, mas o estudo não permite calcular incidência."
+    },
+    {
+     "letra": "D",
+     "texto": "RR = 2,60; a associação é negativa."
+    },
+    {
+     "letra": "E",
+     "texto": "RR = 2,00; risco atribuível de 10,0% entre os expostos."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Incidência nos expostos = 100/500 = 20,0%. Incidência nos não expostos = 150/1500 = 10,0%.\n\n**RR = 20,0 / 10,0 = 2,00**. RR > 1 → fator de risco. Diferença de riscos = 10,0%.\n\nNa coorte calcula-se a incidência diretamente; a OR é a medida do caso-controle."
+  },
+  {
+   "id": "GIS-PF-04",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "cálculo de RR · estatina e avc",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · medidas de associação na coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uma coorte de 2.000 usuários de estatina e 2.000 não usuários, sem AVC prévio, registrou em 6 anos 40 AVC entre usuários e 80 entre não usuários.\n\n| | Doentes | Sadios | Total |\n| --- | --- | --- | --- |\n| Expostos | 40 | 1960 | 2000 |\n| Não expostos | 80 | 1920 | 2000 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "RR = 0,50, mas o estudo não permite calcular incidência."
+    },
+    {
+     "letra": "B",
+     "texto": "OR = 0,49, medida própria do estudo de coorte."
+    },
+    {
+     "letra": "C",
+     "texto": "RR = 0,80; não há associação."
+    },
+    {
+     "letra": "D",
+     "texto": "RR = 0,50; a exposição é fator de proteção (redução absoluta do risco de 2,0%)."
+    },
+    {
+     "letra": "E",
+     "texto": "RR = 2,00; a exposição é fator de risco."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Incidência nos expostos = 40/2000 = 2,0%. Incidência nos não expostos = 80/2000 = 4,0%.\n\n**RR = 2,0 / 4,0 = 0,50**. RR < 1 → proteção. Diferença de riscos = -2,0%.\n\nNa coorte calcula-se a incidência diretamente; a OR é a medida do caso-controle."
+  },
+  {
+   "id": "GIS-PF-05",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "desenho · identificação",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tipos de estudo",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pesquisadores selecionaram 3.000 trabalhadores sem doença respiratória, classificaram-nos segundo a exposição à sílica e os acompanharam por 15 anos registrando os casos de silicose. O delineamento é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Coorte prospectiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Ensaio clínico randomizado."
+    },
+    {
+     "letra": "C",
+     "texto": "Ecológico."
+    },
+    {
+     "letra": "D",
+     "texto": "Caso-controle."
+    },
+    {
+     "letra": "E",
+     "texto": "Transversal."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Parte da **exposição**, com todos livres do desfecho, e segue no tempo → coorte. Não há intervenção do pesquisador (não é ensaio clínico)."
+  },
+  {
+   "id": "GIS-PF-06",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "coorte histórica",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · coorte retrospectiva",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em 2026, pesquisadores usaram registros de admissão de 1995 de uma fábrica para classificar operários como expostos ou não ao benzeno e, pelos prontuários até 2025, verificaram a ocorrência de leucemia. O estudo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Transversal, pois foi feito em 2026."
+    },
+    {
+     "letra": "B",
+     "texto": "Série de casos."
+    },
+    {
+     "letra": "C",
+     "texto": "Caso-controle, pois os dados são do passado."
+    },
+    {
+     "letra": "D",
+     "texto": "Ensaio clínico não randomizado."
+    },
+    {
+     "letra": "E",
+     "texto": "Coorte retrospectiva (histórica)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A lógica continua sendo exposição → desfecho, apenas reconstruída com registros do passado. Ser \"retrospectivo\" no tempo não o torna caso-controle."
+  },
+  {
+   "id": "GIS-PF-07",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "vantagens e limitações",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os estudos de coorte, analise as afirmativas:\n\nI. Permitem calcular a incidência e o risco relativo diretamente.\nII. São os mais indicados para investigar doenças raras.\nIII. Estabelecem a sequência temporal entre exposição e desfecho.\nIV. As perdas de seguimento podem introduzir viés de seleção.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "B",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "II é falsa: doenças raras exigiriam coortes enormes; o caso-controle é o desenho indicado. A coorte é boa para **exposições** raras."
+  },
+  {
+   "id": "GIS-PF-08",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "V/F · conceitos",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · coorte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os itens sobre estudos de coorte e assinale a sequência correta:\n\nI. ( ) Os participantes devem estar livres do desfecho no início do acompanhamento.\nII. ( ) A odds ratio é a medida de associação de escolha.\nIII. ( ) Permitem estudar vários desfechos de uma mesma exposição.\nIV. ( ) São rápidos e baratos em relação ao caso-controle.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "VVFF"
+    },
+    {
+     "letra": "B",
+     "texto": "VVFV"
+    },
+    {
+     "letra": "C",
+     "texto": "FFVF"
+    },
+    {
+     "letra": "D",
+     "texto": "VFVF"
+    },
+    {
+     "letra": "E",
+     "texto": "FFFV"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Coorte: RR/incidência, vários desfechos, temporalidade, porém cara e demorada."
+  },
+  {
+   "id": "GIS-PF-09",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos de coorte",
+   "subtema": "discursiva · cálculo completo",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · coorte (formato Pelotas)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Uma coorte de nascimentos acompanhou 4.000 recém-nascidos. Entre as 1.000 mães que fumaram na gestação, 150 tiveram filhos com baixo peso; entre as 3.000 não fumantes, 150 tiveram filhos com baixo peso. Encontre: a) a exposição e o desfecho; b) a incidência nos expostos; c) a incidência nos não expostos; d) o risco relativo e sua interpretação; e) o risco atribuível.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**a)** Exposição: tabagismo materno na gestação. Desfecho: baixo peso ao nascer.\n\n**b)** Ie = 150/1.000 = **15%**.\n\n**c)** Ine = 150/3.000 = **5%**.\n\n**d)** RR = 15/5 = **3,0**: filhos de mães fumantes têm 3 vezes o risco de baixo peso em relação aos de não fumantes (fator de risco).\n\n**e)** RA = 15% − 5% = **10%**: 10 em cada 100 nascimentos de baixo peso entre fumantes se devem ao tabagismo. RA% = 10/15 = 66,7%.",
+   "comentario": null
+  },
+  {
+   "id": "GIS-PF-10",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "cálculo de OR · café e câncer de pâncreas",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · odds ratio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Foram selecionados 200 pacientes com câncer de pâncreas e 400 controles sem a doença. Relataram consumo diário de café 120 casos e 160 controles.\n\n| | Casos | Controles | Total |\n| --- | --- | --- | --- |\n| Expostos | 120 | 160 | 280 |\n| Não expostos | 80 | 240 | 320 |\n\nO delineamento e a medida de associação são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Caso-controle; OR = 2,25 (fator de risco)."
+    },
+    {
+     "letra": "B",
+     "texto": "Caso-controle; OR = 0,44 (fator de proteção)."
+    },
+    {
+     "letra": "C",
+     "texto": "Transversal; razão de prevalência = 2,25."
+    },
+    {
+     "letra": "D",
+     "texto": "Coorte; RR = 2,25."
+    },
+    {
+     "letra": "E",
+     "texto": "Caso-controle; RR = 1,71."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Parte-se do desfecho (casos × controles) e investiga-se a exposição → **caso-controle**. OR = (a × d)/(b × c) = (120 × 240)/(160 × 80) = **2,25**.\n\nNão se calcula RR, porque o número de casos e de controles é fixado pelo pesquisador (a incidência não é estimável)."
+  },
+  {
+   "id": "GIS-PF-11",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "cálculo de OR · anticoncepcional e tvp",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · odds ratio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudo com 100 mulheres com trombose venosa profunda e 300 controles. Usavam anticoncepcional oral 60 casos e 90 controles.\n\n| | Casos | Controles | Total |\n| --- | --- | --- | --- |\n| Expostos | 60 | 90 | 150 |\n| Não expostos | 40 | 210 | 250 |\n\nO delineamento e a medida de associação são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Transversal; razão de prevalência = 3,50."
+    },
+    {
+     "letra": "B",
+     "texto": "Caso-controle; OR = 3,50 (fator de risco)."
+    },
+    {
+     "letra": "C",
+     "texto": "Caso-controle; RR = 2,50."
+    },
+    {
+     "letra": "D",
+     "texto": "Caso-controle; OR = 0,29 (fator de proteção)."
+    },
+    {
+     "letra": "E",
+     "texto": "Coorte; RR = 3,50."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Parte-se do desfecho (casos × controles) e investiga-se a exposição → **caso-controle**. OR = (a × d)/(b × c) = (60 × 210)/(90 × 40) = **3,50**.\n\nNão se calcula RR, porque o número de casos e de controles é fixado pelo pesquisador (a incidência não é estimável)."
+  },
+  {
+   "id": "GIS-PF-12",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "cálculo de OR · aine e sangramento digestivo",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · odds ratio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em 150 pacientes internados por hemorragia digestiva alta e 300 controles, o uso de AINE na semana anterior foi relatado por 90 casos e 60 controles.\n\n| | Casos | Controles | Total |\n| --- | --- | --- | --- |\n| Expostos | 90 | 60 | 150 |\n| Não expostos | 60 | 240 | 300 |\n\nO delineamento e a medida de associação são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Transversal; razão de prevalência = 6,00."
+    },
+    {
+     "letra": "B",
+     "texto": "Coorte; RR = 6,00."
+    },
+    {
+     "letra": "C",
+     "texto": "Caso-controle; RR = 3,00."
+    },
+    {
+     "letra": "D",
+     "texto": "Caso-controle; OR = 6,00 (fator de risco)."
+    },
+    {
+     "letra": "E",
+     "texto": "Caso-controle; OR = 0,17 (fator de proteção)."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Parte-se do desfecho (casos × controles) e investiga-se a exposição → **caso-controle**. OR = (a × d)/(b × c) = (90 × 240)/(60 × 60) = **6,00**.\n\nNão se calcula RR, porque o número de casos e de controles é fixado pelo pesquisador (a incidência não é estimável)."
+  },
+  {
+   "id": "GIS-PF-13",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "cálculo de OR · atividade física e iam",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · odds ratio",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Foram comparados 250 pacientes com infarto e 250 controles. Praticavam atividade física regular 50 casos e 100 controles.\n\n| | Casos | Controles | Total |\n| --- | --- | --- | --- |\n| Expostos | 50 | 100 | 150 |\n| Não expostos | 200 | 150 | 350 |\n\nO delineamento e a medida de associação são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Caso-controle; OR = 0,38 (fator de proteção)."
+    },
+    {
+     "letra": "B",
+     "texto": "Caso-controle; OR = 2,67 (fator de risco)."
+    },
+    {
+     "letra": "C",
+     "texto": "Transversal; razão de prevalência = 0,38."
+    },
+    {
+     "letra": "D",
+     "texto": "Caso-controle; RR = 0,58."
+    },
+    {
+     "letra": "E",
+     "texto": "Coorte; RR = 0,38."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Parte-se do desfecho (casos × controles) e investiga-se a exposição → **caso-controle**. OR = (a × d)/(b × c) = (50 × 150)/(100 × 200) = **0,38**.\n\nNão se calcula RR, porque o número de casos e de controles é fixado pelo pesquisador (a incidência não é estimável)."
+  },
+  {
+   "id": "GIS-PF-14",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "OR ≈ RR",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · doença rara",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em que situação a odds ratio de um estudo caso-controle é uma boa estimativa do risco relativo?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quando a exposição é muito frequente."
+    },
+    {
+     "letra": "B",
+     "texto": "Quando há viés de memória."
+    },
+    {
+     "letra": "C",
+     "texto": "Quando a doença é rara na população."
+    },
+    {
+     "letra": "D",
+     "texto": "Quando os controles são hospitalares."
+    },
+    {
+     "letra": "E",
+     "texto": "Sempre que a amostra for grande."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Com doença rara (< 10%), b ≈ a+b e d ≈ c+d, de modo que a/c ÷ b/d ≈ RR."
+  },
+  {
+   "id": "GIS-PF-15",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "viés de memória",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · vieses",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mães de crianças com malformação congênita tendem a lembrar com mais detalhe dos medicamentos usados na gestação do que mães de crianças sem malformação. Esse viés, típico do caso-controle, é o viés de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Perda de seguimento."
+    },
+    {
+     "letra": "B",
+     "texto": "Memória (recordação)."
+    },
+    {
+     "letra": "C",
+     "texto": "Tempo de antecipação."
+    },
+    {
+     "letra": "D",
+     "texto": "Confusão."
+    },
+    {
+     "letra": "E",
+     "texto": "Seleção de Berkson."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Viés de informação em que a exposição é relatada de modo diferente por casos e controles."
+  },
+  {
+   "id": "GIS-PF-16",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "vantagens",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · caso-controle",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o estudo caso-controle, analise:\n\nI. É adequado para doenças raras e de longa latência.\nII. Permite estudar várias exposições para um mesmo desfecho.\nIII. Permite calcular diretamente a incidência da doença nos expostos.\nIV. Os controles devem vir da mesma população que originou os casos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "III é falsa: a incidência só é calculada em coortes. IV: escolher controles de outra base gera viés de seleção."
+  },
+  {
+   "id": "GIS-PF-17",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "pareamento",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · pareamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em um caso-controle sobre tabagismo e câncer de bexiga, cada caso foi pareado com um controle de mesmo sexo e idade. Sobre o pareamento, é correto afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Elimina o viés de memória."
+    },
+    {
+     "letra": "B",
+     "texto": "Dispensa a análise estatística."
+    },
+    {
+     "letra": "C",
+     "texto": "Transforma o estudo em coorte."
+    },
+    {
+     "letra": "D",
+     "texto": "Permite calcular o risco relativo."
+    },
+    {
+     "letra": "E",
+     "texto": "Controla o confundimento por sexo e idade, que não podem mais ser estudados como fatores de risco."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O pareamento iguala a distribuição das variáveis entre casos e controles: controla o confundimento, mas a variável pareada não pode ser avaliada."
+  },
+  {
+   "id": "GIS-PF-18",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Estudos caso-controle",
+   "subtema": "desenho · Zika",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · identificação do desenho",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para investigar a associação entre uso de talidomida e focomelia, pesquisadores compararam a frequência de uso do fármaco na gestação entre mães de recém-nascidos com focomelia e mães de recém-nascidos sem a malformação. O delineamento e a medida são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Caso-controle e risco relativo."
+    },
+    {
+     "letra": "B",
+     "texto": "Transversal e razão de prevalência."
+    },
+    {
+     "letra": "C",
+     "texto": "Ecológico e coeficiente de correlação."
+    },
+    {
+     "letra": "D",
+     "texto": "Caso-controle e odds ratio."
+    },
+    {
+     "letra": "E",
+     "texto": "Coorte e risco relativo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Grupos definidos pelo desfecho (com e sem focomelia) e comparação da exposição passada → caso-controle → OR."
+  },
+  {
+   "id": "GIS-PF-19",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "S, E, VPP, VPN · teste rápido para estreptococo",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tabela 2×2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um teste rápido para faringite estreptocócica foi comparado à cultura (padrão-ouro) em 200 crianças:\n\n| | Doente | Sadio |\n| --- | --- | --- |\n| Teste + | 72 | 18 |\n| Teste − | 8 | 102 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensibilidade 80,0%; especificidade 92,7%; VPP 90,0%."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensibilidade 10,0%; especificidade 15,0%; VPP 80,0%."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensibilidade 90,0%; especificidade 85,0%; VPP 80,0%."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensibilidade 90,0%; especificidade 85,0%; VPP 92,7%."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensibilidade 85,0%; especificidade 90,0%; VPP 80,0%."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "S = VP/(VP+FN) = 72/80 = **90,0%**. E = VN/(VN+FP) = 102/120 = **85,0%**. VPP = VP/(VP+FP) = 72/90 = **80,0%**. VPN = VN/(VN+FN) = 102/110 = 92,7%."
+  },
+  {
+   "id": "GIS-PF-20",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "S, E, VPP, VPN · d-dímero para tep",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tabela 2×2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O D-dímero foi avaliado em 300 pacientes com suspeita de TEP, usando angiotomografia como padrão-ouro:\n\n| | Doente | Sadio |\n| --- | --- | --- |\n| Teste + | 58 | 112 |\n| Teste − | 2 | 128 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensibilidade 96,7%; especificidade 53,3%; VPP 34,1%."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensibilidade 3,3%; especificidade 46,7%; VPP 34,1%."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensibilidade 96,7%; especificidade 53,3%; VPP 98,5%."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensibilidade 53,3%; especificidade 96,7%; VPP 34,1%."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensibilidade 34,1%; especificidade 98,5%; VPP 96,7%."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "S = VP/(VP+FN) = 58/60 = **96,7%**. E = VN/(VN+FP) = 128/240 = **53,3%**. VPP = VP/(VP+FP) = 58/170 = **34,1%**. VPN = VN/(VN+FN) = 128/130 = 98,5%."
+  },
+  {
+   "id": "GIS-PF-21",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "S, E, VPP, VPN · mamografia",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tabela 2×2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em 1.000 mulheres submetidas a mamografia e biópsia (padrão-ouro):\n\n| | Doente | Sadio |\n| --- | --- | --- |\n| Teste + | 45 | 55 |\n| Teste − | 5 | 895 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensibilidade 90,0%; especificidade 94,2%; VPP 99,4%."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensibilidade 90,0%; especificidade 94,2%; VPP 45,0%."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensibilidade 45,0%; especificidade 99,4%; VPP 90,0%."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensibilidade 94,2%; especificidade 90,0%; VPP 45,0%."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensibilidade 10,0%; especificidade 5,8%; VPP 45,0%."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "S = VP/(VP+FN) = 45/50 = **90,0%**. E = VN/(VN+FP) = 895/950 = **94,2%**. VPP = VP/(VP+FP) = 45/100 = **45,0%**. VPN = VN/(VN+FN) = 895/900 = 99,4%."
+  },
+  {
+   "id": "GIS-PF-22",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "S, E, VPP, VPN · troponina",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tabela 2×2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Troponina ultrassensível em 400 pacientes com dor torácica, com diagnóstico final de IAM como padrão-ouro:\n\n| | Doente | Sadio |\n| --- | --- | --- |\n| Teste + | 76 | 32 |\n| Teste − | 4 | 288 |\n\nAssinale a alternativa CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensibilidade 95,0%; especificidade 90,0%; VPP 70,4%."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensibilidade 95,0%; especificidade 90,0%; VPP 98,6%."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensibilidade 90,0%; especificidade 95,0%; VPP 70,4%."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensibilidade 5,0%; especificidade 10,0%; VPP 70,4%."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensibilidade 70,4%; especificidade 98,6%; VPP 95,0%."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "S = VP/(VP+FN) = 76/80 = **95,0%**. E = VN/(VN+FP) = 288/320 = **90,0%**. VPP = VP/(VP+FP) = 76/108 = **70,4%**. VPN = VN/(VN+FN) = 288/292 = 98,6%."
+  },
+  {
+   "id": "GIS-PF-23",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "prevalência e VPP",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · valores preditivos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um mesmo teste, com sensibilidade e especificidade fixas, é aplicado num ambulatório especializado (prevalência de 40%) e em uma campanha na população geral (prevalência de 2%). Na campanha, espera-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Valores preditivos iguais, pois o teste é o mesmo."
+    },
+    {
+     "letra": "B",
+     "texto": "Maior sensibilidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Menor especificidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Menor valor preditivo positivo e maior valor preditivo negativo."
+    },
+    {
+     "letra": "E",
+     "texto": "Maior valor preditivo positivo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "S e E são propriedades do teste. Os valores preditivos dependem da prevalência: com prevalência baixa há mais falso-positivos proporcionalmente → VPP cai e VPN sobe."
+  },
+  {
+   "id": "GIS-PF-24",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "rastreamento × confirmação",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · escolha do teste",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para triagem de doença grave e tratável em bancos de sangue, em que não se pode deixar passar nenhum infectado, deve-se preferir um teste com:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Alto valor preditivo positivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Baixa razão de verossimilhança negativa apenas na população doente."
+    },
+    {
+     "letra": "C",
+     "texto": "Alta sensibilidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Ponto de corte mais alto."
+    },
+    {
+     "letra": "E",
+     "texto": "Alta especificidade."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Teste sensível tem poucos falso-negativos (SnNout). Os positivos são depois confirmados com teste específico (testes em série)."
+  },
+  {
+   "id": "GIS-PF-25",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "curva ROC",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · curva ROC",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a curva ROC, analise as afirmativas:\n\nI. Relaciona a sensibilidade com 1 − especificidade em diferentes pontos de corte.\nII. Quanto maior a área sob a curva, melhor o desempenho global do teste.\nIII. Uma curva sobre a diagonal indica teste perfeito.\nIV. O ponto mais próximo do canto superior esquerdo equilibra sensibilidade e especificidade.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "III é falsa: a diagonal (área 0,5) indica teste sem poder discriminatório, equivalente ao acaso."
+  },
+  {
+   "id": "GIS-PF-26",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "ponto de corte",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · ponto de corte",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao reduzir o ponto de corte da glicemia de jejum para diagnosticar diabetes (de 126 para 110 mg/dL), espera-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aumento do valor preditivo positivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumento da sensibilidade e redução da especificidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Redução da sensibilidade e aumento da especificidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Aumento da sensibilidade e da especificidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma mudança, pois o teste é o mesmo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mais pessoas passam a ser positivas: menos falso-negativos (S ↑), mais falso-positivos (E ↓)."
+  },
+  {
+   "id": "GIS-PF-27",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "testes em série",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · testes combinados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No diagnóstico de HIV, um teste de triagem positivo é seguido de um teste confirmatório, e o diagnóstico só é dado se ambos forem positivos. Essa estratégia:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aumenta os falso-positivos."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumenta a especificidade do diagnóstico (testes em série)."
+    },
+    {
+     "letra": "C",
+     "texto": "Reduz a especificidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Não altera a acurácia."
+    },
+    {
+     "letra": "E",
+     "texto": "Aumenta a sensibilidade (testes em paralelo)."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Em série (todos positivos): ↑ especificidade. Em paralelo (qualquer positivo): ↑ sensibilidade."
+  },
+  {
+   "id": "GIS-PF-28",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Acurácia de testes diagnósticos",
+   "subtema": "V/F · conceitos",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · acurácia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os itens e marque a sequência correta:\n\nI. ( ) Sensibilidade é a proporção de doentes com teste positivo.\nII. ( ) O valor preditivo negativo não depende da prevalência.\nIII. ( ) Teste muito específico, quando positivo, ajuda a confirmar o diagnóstico.\nIV. ( ) A razão de verossimilhança positiva depende da prevalência.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "VFFF"
+    },
+    {
+     "letra": "B",
+     "texto": "FVVF"
+    },
+    {
+     "letra": "C",
+     "texto": "VFVF"
+    },
+    {
+     "letra": "D",
+     "texto": "VFVV"
+    },
+    {
+     "letra": "E",
+     "texto": "VVVF"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Valores preditivos dependem da prevalência; S, E e razões de verossimilhança não."
+  },
+  {
+   "id": "GIS-PF-29",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "validade × precisão",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · conceitos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uma balança mal calibrada marca sempre cerca de 2 kg a mais, com resultados muito semelhantes entre si em pesagens repetidas. Essa balança é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Precisa, mas não válida (erro sistemático)."
+    },
+    {
+     "letra": "B",
+     "texto": "Válida, mas imprecisa (erro aleatório)."
+    },
+    {
+     "letra": "C",
+     "texto": "Nem válida nem precisa."
+    },
+    {
+     "letra": "D",
+     "texto": "Precisa e válida, pois os valores se repetem."
+    },
+    {
+     "letra": "E",
+     "texto": "Válida e precisa."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Repetibilidade = precisão (pouco erro aleatório). Desvio constante do valor real = viés (erro sistemático) → falta validade."
+  },
+  {
+   "id": "GIS-PF-30",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "confundimento",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · confusão",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um estudo encontrou associação entre consumo de café e câncer de pulmão, que desapareceu quando os resultados foram estratificados por tabagismo. O tabagismo atuou como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Viés de memória."
+    },
+    {
+     "letra": "B",
+     "texto": "Viés de seleção."
+    },
+    {
+     "letra": "C",
+     "texto": "Variável de desfecho."
+    },
+    {
+     "letra": "D",
+     "texto": "Fator de confusão."
+    },
+    {
+     "letra": "E",
+     "texto": "Modificador de efeito."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O tabagismo associa-se ao café e causa câncer de pulmão, sem estar no caminho causal: distorce a associação (confundimento). Controla-se por estratificação, pareamento, restrição, randomização ou análise multivariada."
+  },
+  {
+   "id": "GIS-PF-31",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "erro aleatório",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · tamanho amostral",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A principal forma de reduzir o erro aleatório em um estudo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cegar os avaliadores."
+    },
+    {
+     "letra": "B",
+     "texto": "Randomizar os participantes."
+    },
+    {
+     "letra": "C",
+     "texto": "Estratificar por idade."
+    },
+    {
+     "letra": "D",
+     "texto": "Parear casos e controles."
+    },
+    {
+     "letra": "E",
+     "texto": "Aumentar o tamanho da amostra."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O erro aleatório diminui com amostras maiores (intervalos de confiança mais estreitos). Randomização, cegamento e pareamento combatem vieses e confundimento."
+  },
+  {
+   "id": "GIS-PF-32",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "intervalo de confiança",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · significância",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um estudo relata RR = 1,4 (IC 95%: 0,9 – 2,1). A interpretação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O estudo tem viés de seleção."
+    },
+    {
+     "letra": "B",
+     "texto": "O valor de p é necessariamente menor que 0,05."
+    },
+    {
+     "letra": "C",
+     "texto": "A exposição é fator de proteção."
+    },
+    {
+     "letra": "D",
+     "texto": "A associação não é estatisticamente significativa, pois o intervalo inclui o 1."
+    },
+    {
+     "letra": "E",
+     "texto": "Há aumento significativo de 40% no risco."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Para RR e OR, o valor nulo é 1. Se o IC 95% contém o 1, p ≥ 0,05."
+  },
+  {
+   "id": "GIS-PF-33",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "validade interna × externa",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · validade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um ensaio feito só com homens de 40–60 anos, bem conduzido e sem vieses, mostrou benefício de um fármaco. Sobre a aplicação a mulheres idosas, é correto afirmar que o estudo tem:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Baixa validade interna."
+    },
+    {
+     "letra": "B",
+     "texto": "Validade externa garantida pela ausência de vieses."
+    },
+    {
+     "letra": "C",
+     "texto": "Boa validade interna, mas validade externa limitada para essa população."
+    },
+    {
+     "letra": "D",
+     "texto": "Erro tipo I."
+    },
+    {
+     "letra": "E",
+     "texto": "Viés de memória."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Validade interna: resultados verdadeiros na população estudada. Externa: possibilidade de generalizar para outras populações."
+  },
+  {
+   "id": "GIS-PF-34",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "erros tipo I e II",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · inferência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os erros em testes de hipótese, analise:\n\nI. O erro tipo I consiste em concluir que há diferença quando ela não existe.\nII. O poder do estudo é 1 − β.\nIII. Aumentar a amostra aumenta o erro tipo II.\nIV. O valor de p é a probabilidade de a hipótese alternativa ser verdadeira.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "III: amostras maiores reduzem β (aumentam o poder). IV: p é a probabilidade de observar resultado tão extremo **se a hipótese nula for verdadeira**."
+  },
+  {
+   "id": "GIS-PF-35",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "viés de seleção",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · vieses",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Um estudo sobre a gravidade da asma recrutou apenas pacientes internados em hospital terciário e concluiu que a doença é grave na maioria dos casos. O problema principal é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Erro aleatório."
+    },
+    {
+     "letra": "B",
+     "texto": "Viés do entrevistador."
+    },
+    {
+     "letra": "C",
+     "texto": "Viés de memória."
+    },
+    {
+     "letra": "D",
+     "texto": "Confundimento por idade."
+    },
+    {
+     "letra": "E",
+     "texto": "Viés de seleção."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A amostra hospitalar (casos mais graves) não representa a população de asmáticos — viés de seleção (de Berkson/referência)."
+  },
+  {
+   "id": "GIS-PF-36",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "Kappa",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · concordância",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dois radiologistas classificaram as mesmas 100 radiografias, com kappa de 0,85. Esse resultado indica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Concordância muito boa entre observadores, além do acaso."
+    },
+    {
+     "letra": "B",
+     "texto": "Alta sensibilidade dos dois radiologistas."
+    },
+    {
+     "letra": "C",
+     "texto": "Concordância igual à esperada pelo acaso."
+    },
+    {
+     "letra": "D",
+     "texto": "Viés de seleção."
+    },
+    {
+     "letra": "E",
+     "texto": "Alta acurácia em relação ao padrão-ouro."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Kappa mede **precisão/reprodutibilidade** entre observadores (0 = acaso; 1 = perfeita), não validade."
+  },
+  {
+   "id": "GIS-PF-37",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "estratificação · OR",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · confusão (formato da prova)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em um caso-controle, a OR bruta para a exposição E foi 2,0. Após estratificar pela variável C, a OR foi 1,0 no estrato C+ e 1,0 no estrato C−. Conclui-se que C é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fator de confusão, e não há associação real entre E e a doença."
+    },
+    {
+     "letra": "B",
+     "texto": "Modificador de efeito."
+    },
+    {
+     "letra": "C",
+     "texto": "Prova de viés de informação."
+    },
+    {
+     "letra": "D",
+     "texto": "Variável no caminho causal, sem efeito."
+    },
+    {
+     "letra": "E",
+     "texto": "Prova de que E é fator de proteção."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "OR estratificadas iguais entre si e diferentes da bruta → confundimento. Se as OR dos estratos fossem diferentes entre si → modificação de efeito (interação)."
+  },
+  {
+   "id": "GIS-PF-38",
+   "materia": "Epidemiologia II (GIS 2)",
+   "prova": "PR2",
+   "tema": "Validade e precisão",
+   "subtema": "V/F · vieses",
+   "origem": "inédita",
+   "fonte": "Aulas de Epidemiologia II (GIS 2) · Fletcher, Epidemiologia Clínica · Medronho, Epidemiologia · vieses",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os itens e assinale a sequência correta:\n\nI. ( ) A randomização controla fatores de confusão conhecidos e desconhecidos.\nII. ( ) O viés é reduzido aumentando o tamanho da amostra.\nIII. ( ) O cegamento reduz o viés de aferição.\nIV. ( ) Precisão e validade são sinônimos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "VFVV"
+    },
+    {
+     "letra": "B",
+     "texto": "FFVF"
+    },
+    {
+     "letra": "C",
+     "texto": "VFVF"
+    },
+    {
+     "letra": "D",
+     "texto": "VVVV"
+    },
+    {
+     "letra": "E",
+     "texto": "FFVV"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Viés (erro sistemático) não diminui com amostra maior; só o erro aleatório."
+  }
+ ]
+}

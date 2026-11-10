@@ -1,0 +1,2409 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Bases Cirúrgicas · Lote 2",
+  "gerado_em": "2026-11-10",
+  "base": "Plano de Bases Cirúrgicas 2026.2, temas recorrentes nas provas. Formato do professor: perguntas diretas de 5 alternativas curtas, EXCETO, cálculos (Parkland/ATLS, regra dos 9, doses) e casos."
+ },
+ "questoes": [
+  {
+   "id": "BC-PF2-01",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "célula-chave da inflamação",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fase inflamatória",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual célula é considerada essencial para a progressão normal da cicatrização, por fagocitar e liberar fatores de crescimento?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neutrófilo"
+    },
+    {
+     "letra": "B",
+     "texto": "Mastócito"
+    },
+    {
+     "letra": "C",
+     "texto": "Eosinófilo"
+    },
+    {
+     "letra": "D",
+     "texto": "Macrófago"
+    },
+    {
+     "letra": "E",
+     "texto": "Linfócito B"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sem macrófagos a cicatrização não progride; sem neutrófilos ela ocorre (com mais risco de infecção)."
+  },
+  {
+   "id": "BC-PF2-02",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "colágeno inicial",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fase proliferativa",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O tipo de colágeno predominante no tecido de granulação inicial é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tipo V"
+    },
+    {
+     "letra": "B",
+     "texto": "Tipo I"
+    },
+    {
+     "letra": "C",
+     "texto": "Tipo II"
+    },
+    {
+     "letra": "D",
+     "texto": "Tipo IV"
+    },
+    {
+     "letra": "E",
+     "texto": "Tipo III"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Na maturação o tipo III é substituído pelo tipo I."
+  },
+  {
+   "id": "BC-PF2-03",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "força tênsil",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · maturação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A força tênsil máxima de uma cicatriz madura, em relação à pele íntegra, é de aproximadamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "100%"
+    },
+    {
+     "letra": "B",
+     "texto": "120%"
+    },
+    {
+     "letra": "C",
+     "texto": "70 a 80%"
+    },
+    {
+     "letra": "D",
+     "texto": "20%"
+    },
+    {
+     "letra": "E",
+     "texto": "40%"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Cerca de 20% em 3 semanas; nunca volta a 100%."
+  },
+  {
+   "id": "BC-PF2-04",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "contração",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · contração da ferida",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A contração das feridas que cicatrizam por segunda intenção é feita principalmente por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Adipócitos"
+    },
+    {
+     "letra": "B",
+     "texto": "Miofibroblastos"
+    },
+    {
+     "letra": "C",
+     "texto": "Plaquetas"
+    },
+    {
+     "letra": "D",
+     "texto": "Neutrófilos"
+    },
+    {
+     "letra": "E",
+     "texto": "Queratinócitos"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Fibroblastos com actina de músculo liso."
+  },
+  {
+   "id": "BC-PF2-05",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "vitamina C",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · nutrição e cicatrização",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A deficiência de vitamina C prejudica a cicatrização porque compromete:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A hidroxilação de prolina e lisina do colágeno"
+    },
+    {
+     "letra": "B",
+     "texto": "A agregação plaquetária"
+    },
+    {
+     "letra": "C",
+     "texto": "A angiogênese mediada por VEGF exclusivamente"
+    },
+    {
+     "letra": "D",
+     "texto": "A síntese de queratina"
+    },
+    {
+     "letra": "E",
+     "texto": "A migração de neutrófilos"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Escorbuto: colágeno instável, deiscência, sangramentos."
+  },
+  {
+   "id": "BC-PF2-06",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "corticoide · vitamina A",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fatores sistêmicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em uso crônico de corticoide será operado. Qual vitamina pode reverter parcialmente o efeito do corticoide sobre a cicatrização?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vitamina A"
+    },
+    {
+     "letra": "B",
+     "texto": "Vitamina E"
+    },
+    {
+     "letra": "C",
+     "texto": "Vitamina D"
+    },
+    {
+     "letra": "D",
+     "texto": "Vitamina K"
+    },
+    {
+     "letra": "E",
+     "texto": "Vitamina B12"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Corticoides inibem a fase inflamatória; a vitamina A estimula a resposta inflamatória e a síntese de colágeno."
+  },
+  {
+   "id": "BC-PF2-07",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "EXCETO · fatores locais",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fatores que prejudicam",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São fatores locais que prejudicam a cicatrização, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hematoma"
+    },
+    {
+     "letra": "B",
+     "texto": "Boa perfusão tecidual"
+    },
+    {
+     "letra": "C",
+     "texto": "Tensão nas bordas"
+    },
+    {
+     "letra": "D",
+     "texto": "Corpo estranho"
+    },
+    {
+     "letra": "E",
+     "texto": "Infecção"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Hipóxia/isquemia, radiação e edema também prejudicam."
+  },
+  {
+   "id": "BC-PF2-08",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "queloide × hipertrófica",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · cicatrizes anômalas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diferencia o queloide da cicatriz hipertrófica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ser pruriginoso"
+    },
+    {
+     "letra": "B",
+     "texto": "Ocorrer após cirurgia"
+    },
+    {
+     "letra": "C",
+     "texto": "Ultrapassar os limites da ferida original"
+    },
+    {
+     "letra": "D",
+     "texto": "Ter excesso de colágeno"
+    },
+    {
+     "letra": "E",
+     "texto": "Ser elevado"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A hipertrófica fica nos limites da lesão e pode regredir; o queloide não regride e recidiva."
+  },
+  {
+   "id": "BC-PF2-09",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "terceira intenção",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · tipos de fechamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ferida contaminada foi deixada aberta por 4 dias e, sem sinais de infecção, foi suturada. Esse fechamento é por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Retalho"
+    },
+    {
+     "letra": "B",
+     "texto": "Segunda intenção"
+    },
+    {
+     "letra": "C",
+     "texto": "Enxerto de pele"
+    },
+    {
+     "letra": "D",
+     "texto": "Primeira intenção"
+    },
+    {
+     "letra": "E",
+     "texto": "Terceira intenção (primário retardado)"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Reduz a infecção em feridas contaminadas."
+  },
+  {
+   "id": "BC-PF2-10",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "V/F · fases",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fases",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os itens sobre a cicatrização e assinale a sequência correta:\n\nI. ( ) Os neutrófilos predominam nas primeiras 24–48 h.\nII. ( ) O tecido de granulação surge na fase de maturação.\nIII. ( ) A epitelização ocorre na fase proliferativa.\nIV. ( ) A remodelação pode durar até 1–2 anos.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – F – V"
+    },
+    {
+     "letra": "B",
+     "texto": "F – V – V – V"
+    },
+    {
+     "letra": "C",
+     "texto": "V – V – V – V"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – V – V"
+    },
+    {
+     "letra": "E",
+     "texto": "F – F – F – F"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Granulação: fase proliferativa."
+  },
+  {
+   "id": "BC-PF2-11",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "úlcera de Marjolin",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · cicatriz crônica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Carcinoma que surge em cicatriz crônica de queimadura é chamado de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Melanoma desmoplásico"
+    },
+    {
+     "letra": "B",
+     "texto": "Queloide maligno"
+    },
+    {
+     "letra": "C",
+     "texto": "Úlcera de Marjolin (carcinoma espinocelular)"
+    },
+    {
+     "letra": "D",
+     "texto": "Carcinoma basocelular nodular"
+    },
+    {
+     "letra": "E",
+     "texto": "Sarcoma de Kaposi"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Biopsiar úlceras crônicas que mudam de aspecto."
+  },
+  {
+   "id": "BC-PF2-12",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "diabetes",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fatores sistêmicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O diabetes prejudica a cicatrização por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Microangiopatia, neuropatia e disfunção de neutrófilos"
+    },
+    {
+     "letra": "B",
+     "texto": "Excesso de vitamina C"
+    },
+    {
+     "letra": "C",
+     "texto": "Excesso de colágeno tipo I"
+    },
+    {
+     "letra": "D",
+     "texto": "Aumento da angiogênese"
+    },
+    {
+     "letra": "E",
+     "texto": "Hipercoagulabilidade apenas"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Controle glicêmico perioperatório reduz infecção e deiscência."
+  },
+  {
+   "id": "BC-PF2-13",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "via preferida",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · vias de terapia nutricional",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No paciente cirúrgico com trato gastrointestinal funcionante que precisa de suporte nutricional, a via preferida é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Parenteral periférica"
+    },
+    {
+     "letra": "B",
+     "texto": "Enteral"
+    },
+    {
+     "letra": "C",
+     "texto": "Jejum até a alta"
+    },
+    {
+     "letra": "D",
+     "texto": "Hidratação venosa isolada"
+    },
+    {
+     "letra": "E",
+     "texto": "Parenteral central"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mantém o trofismo da mucosa e reduz infecções e custos."
+  },
+  {
+   "id": "BC-PF2-14",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "realimentação",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · síndrome de realimentação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O distúrbio eletrolítico característico da síndrome de realimentação é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hiperfosfatemia"
+    },
+    {
+     "letra": "B",
+     "texto": "Hipercalcemia"
+    },
+    {
+     "letra": "C",
+     "texto": "Hipernatremia"
+    },
+    {
+     "letra": "D",
+     "texto": "Hipercalemia"
+    },
+    {
+     "letra": "E",
+     "texto": "Hipofosfatemia"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A insulina leva fósforo, potássio e magnésio para dentro das células. Iniciar devagar e repor tiamina."
+  },
+  {
+   "id": "BC-PF2-15",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "jejum · ACERTO",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · abreviação do jejum",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Segundo o protocolo ACERTO/ERAS, líquidos claros com carboidrato podem ser ingeridos até:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "12 horas antes"
+    },
+    {
+     "letra": "B",
+     "texto": "6 horas antes"
+    },
+    {
+     "letra": "C",
+     "texto": "8 horas antes"
+    },
+    {
+     "letra": "D",
+     "texto": "2 horas antes da anestesia"
+    },
+    {
+     "letra": "E",
+     "texto": "30 minutos antes"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sólidos até 6 h."
+  },
+  {
+   "id": "BC-PF2-16",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "meia-vida · pré-albumina",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · marcadores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O marcador proteico de meia-vida curta (cerca de 2 dias), útil para acompanhar a resposta à terapia nutricional, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Albumina"
+    },
+    {
+     "letra": "B",
+     "texto": "Transferrina"
+    },
+    {
+     "letra": "C",
+     "texto": "Ferritina"
+    },
+    {
+     "letra": "D",
+     "texto": "Pré-albumina"
+    },
+    {
+     "letra": "E",
+     "texto": "Hemoglobina"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Albumina ~20 dias; transferrina ~8 dias. Todas caem na inflamação."
+  },
+  {
+   "id": "BC-PF2-17",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "cálculo calórico",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · necessidades",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 70 kg no pós-operatório tem meta de 25 kcal/kg/dia e 1,5 g de proteína/kg/dia. As metas diárias são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1.750 kcal e 105 g de proteína"
+    },
+    {
+     "letra": "B",
+     "texto": "2.100 kcal e 70 g de proteína"
+    },
+    {
+     "letra": "C",
+     "texto": "1.750 kcal e 70 g de proteína"
+    },
+    {
+     "letra": "D",
+     "texto": "1.400 kcal e 105 g de proteína"
+    },
+    {
+     "letra": "E",
+     "texto": "2.450 kcal e 140 g de proteína"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "25 × 70 = 1.750 kcal; 1,5 × 70 = 105 g."
+  },
+  {
+   "id": "BC-PF2-18",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "parenteral · indicação",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · nutrição parenteral",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Está indicada nutrição parenteral em:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desnutrição leve com TGI funcionante"
+    },
+    {
+     "letra": "B",
+     "texto": "Disfagia com sonda nasoenteral funcionando"
+    },
+    {
+     "letra": "C",
+     "texto": "Paciente que aceita dieta oral plena"
+    },
+    {
+     "letra": "D",
+     "texto": "Pós-operatório de colecistectomia sem complicações"
+    },
+    {
+     "letra": "E",
+     "texto": "Fístula enteral de alto débito"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Também: obstrução, íleo prolongado, intestino curto."
+  },
+  {
+   "id": "BC-PF2-19",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "resposta ao trauma",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · resposta metabólica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na resposta metabólica ao trauma cirúrgico, espera-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Queda das catecolaminas"
+    },
+    {
+     "letra": "B",
+     "texto": "Hipoglicemia e anabolismo proteico"
+    },
+    {
+     "letra": "C",
+     "texto": "Hiperglicemia e balanço nitrogenado negativo"
+    },
+    {
+     "letra": "D",
+     "texto": "Aumento da diurese de sódio"
+    },
+    {
+     "letra": "E",
+     "texto": "Redução do cortisol"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Catecolaminas, cortisol e glucagon ↑; ADH e aldosterona retêm sódio e água."
+  },
+  {
+   "id": "BC-PF2-20",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "risco nutricional · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · avaliação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São critérios de risco nutricional grave (ESPEN), analise:\n\nI. Perda de peso > 10–15% em 6 meses.\nII. IMC < 18,5 kg/m².\nIII. Albumina < 3,0 g/dL sem disfunção hepática ou renal.\nIV. IMC entre 25 e 30 kg/m² sem perda de peso.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "Nenhuma das afirmativas está correta."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Avaliação subjetiva global classe C também."
+  },
+  {
+   "id": "BC-PF2-21",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "imunonutrição",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · imunonutrição",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A imunonutrição perioperatória (arginina, ômega-3, nucleotídeos) é recomendada principalmente em:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Herniorrafias eletivas"
+    },
+    {
+     "letra": "B",
+     "texto": "Todos os pacientes cirúrgicos"
+    },
+    {
+     "letra": "C",
+     "texto": "Cirurgias ambulatoriais de pele"
+    },
+    {
+     "letra": "D",
+     "texto": "Pacientes em choque séptico instável"
+    },
+    {
+     "letra": "E",
+     "texto": "Cirurgias oncológicas de grande porte do aparelho digestivo"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Reduz complicações infecciosas."
+  },
+  {
+   "id": "BC-PF2-22",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "dieta precoce",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · pós-operatório",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após anastomose intestinal sem complicações, a dieta deve ser reintroduzida:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Somente com nutrição parenteral"
+    },
+    {
+     "letra": "B",
+     "texto": "Após 7 dias"
+    },
+    {
+     "letra": "C",
+     "texto": "Precocemente, nas primeiras 24 h"
+    },
+    {
+     "letra": "D",
+     "texto": "Após retirada da sonda vesical"
+    },
+    {
+     "letra": "E",
+     "texto": "Só após eliminação de flatos"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Não aumenta deiscência e acelera a recuperação."
+  },
+  {
+   "id": "BC-PF2-23",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "ASA III",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · classificação ASA",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com diabetes mal controlado e IMC de 42 kg/m² é classificado como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "ASA III"
+    },
+    {
+     "letra": "B",
+     "texto": "ASA IV"
+    },
+    {
+     "letra": "C",
+     "texto": "ASA V"
+    },
+    {
+     "letra": "D",
+     "texto": "ASA I"
+    },
+    {
+     "letra": "E",
+     "texto": "ASA II"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Doença sistêmica grave, sem ameaça constante à vida."
+  },
+  {
+   "id": "BC-PF2-24",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "cetamina",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · agentes venosos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Agente de indução que mantém a pressão arterial e é broncodilatador, útil no asmático e no choque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tiopental"
+    },
+    {
+     "letra": "B",
+     "texto": "Midazolam"
+    },
+    {
+     "letra": "C",
+     "texto": "Remifentanil"
+    },
+    {
+     "letra": "D",
+     "texto": "Cetamina"
+    },
+    {
+     "letra": "E",
+     "texto": "Propofol"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Antagonista NMDA; efeitos: alucinações, sialorreia."
+  },
+  {
+   "id": "BC-PF2-25",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "etomidato",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · agentes venosos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O etomidato é preferido em pacientes cardiopatas instáveis porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É broncodilatador potente"
+    },
+    {
+     "letra": "B",
+     "texto": "Causa mínima depressão cardiovascular"
+    },
+    {
+     "letra": "C",
+     "texto": "Não causa supressão adrenal"
+    },
+    {
+     "letra": "D",
+     "texto": "Reduz náuseas"
+    },
+    {
+     "letra": "E",
+     "texto": "Tem efeito analgésico intenso"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Efeito adverso: supressão adrenal transitória e mioclonias."
+  },
+  {
+   "id": "BC-PF2-26",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "CAM",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · anestésicos inalatórios",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a concentração alveolar mínima (CAM), é correto:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quanto menor a CAM, mais potente o anestésico"
+    },
+    {
+     "letra": "B",
+     "texto": "É igual para todos os inalatórios"
+    },
+    {
+     "letra": "C",
+     "texto": "Mede a velocidade de indução"
+    },
+    {
+     "letra": "D",
+     "texto": "Não varia com a idade"
+    },
+    {
+     "letra": "E",
+     "texto": "Quanto maior a CAM, mais potente"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "A CAM diminui com a idade, hipotermia e uso de opioides."
+  },
+  {
+   "id": "BC-PF2-27",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "raquianestesia · espaço",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · anestesia regional",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na raquianestesia, o anestésico é injetado no espaço:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Epidural"
+    },
+    {
+     "letra": "B",
+     "texto": "Intradérmico"
+    },
+    {
+     "letra": "C",
+     "texto": "Subdural"
+    },
+    {
+     "letra": "D",
+     "texto": "Paravertebral"
+    },
+    {
+     "letra": "E",
+     "texto": "Subaracnóideo"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Peridural: espaço epidural, maior volume, permite cateter."
+  },
+  {
+   "id": "BC-PF2-28",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "cefaleia pós-raqui",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · complicações",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Cefaleia que surge ao sentar e melhora ao deitar, 2 dias após raquianestesia, é tratada nos casos refratários com:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Antibiótico"
+    },
+    {
+     "letra": "B",
+     "texto": "Tampão sanguíneo peridural"
+    },
+    {
+     "letra": "C",
+     "texto": "Anticoagulação"
+    },
+    {
+     "letra": "D",
+     "texto": "Corticoide intratecal"
+    },
+    {
+     "letra": "E",
+     "texto": "Punção lombar de alívio"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Causada por perda de líquor pelo orifício dural."
+  },
+  {
+   "id": "BC-PF2-29",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "hipotensão · raqui",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · complicações",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A hipotensão após raquianestesia decorre de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipovolemia por sangramento obrigatório"
+    },
+    {
+     "letra": "B",
+     "texto": "Estímulo vagal da punção"
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueio simpático com vasodilatação"
+    },
+    {
+     "letra": "D",
+     "texto": "Reação alérgica"
+    },
+    {
+     "letra": "E",
+     "texto": "Toxicidade cardíaca direta"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Tratar com volume e vasopressor (efedrina, fenilefrina)."
+  },
+  {
+   "id": "BC-PF2-30",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "Mallampati",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · via aérea",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A classificação de Mallampati avalia:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O grau de bloqueio neuromuscular"
+    },
+    {
+     "letra": "B",
+     "texto": "O risco cardíaco"
+    },
+    {
+     "letra": "C",
+     "texto": "O estado físico do paciente"
+    },
+    {
+     "letra": "D",
+     "texto": "A visualização das estruturas da orofaringe"
+    },
+    {
+     "letra": "E",
+     "texto": "A profundidade anestésica"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Classe III–IV sugere intubação difícil."
+  },
+  {
+   "id": "BC-PF2-31",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "EXCETO · contraindicações",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · anestesia neuroaxial",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São contraindicações à raquianestesia, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Infecção no local da punção"
+    },
+    {
+     "letra": "B",
+     "texto": "Coagulopatia"
+    },
+    {
+     "letra": "C",
+     "texto": "Cirurgia de membro inferior"
+    },
+    {
+     "letra": "D",
+     "texto": "Hipovolemia grave não corrigida"
+    },
+    {
+     "letra": "E",
+     "texto": "Recusa do paciente"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Cirurgia de membros inferiores é indicação clássica."
+  },
+  {
+   "id": "BC-PF2-32",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "regra dos 9",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · extensão",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto com queimadura de 2º grau em todo o membro superior direito e na face anterior do tronco tem SCQ de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "45%"
+    },
+    {
+     "letra": "B",
+     "texto": "27%"
+    },
+    {
+     "letra": "C",
+     "texto": "18%"
+    },
+    {
+     "letra": "D",
+     "texto": "9%"
+    },
+    {
+     "letra": "E",
+     "texto": "36%"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "MS = 9% + tronco anterior = 18% → 27%."
+  },
+  {
+   "id": "BC-PF2-33",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "cálculo · ATLS",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · reposição",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto de 80 kg com 30% de SCQ por queimadura térmica (2º e 3º graus). Pela fórmula do ATLS (2 mL × kg × %SCQ), o volume das primeiras 8 h é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "2.400 mL"
+    },
+    {
+     "letra": "B",
+     "texto": "9.600 mL"
+    },
+    {
+     "letra": "C",
+     "texto": "3.600 mL"
+    },
+    {
+     "letra": "D",
+     "texto": "1.200 mL"
+    },
+    {
+     "letra": "E",
+     "texto": "4.800 mL"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "2 × 80 × 30 = 4.800 mL em 24 h; metade (2.400 mL) nas primeiras 8 h após a queimadura."
+  },
+  {
+   "id": "BC-PF2-34",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "cálculo · Parkland",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · reposição",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto de 60 kg com 40% de SCQ. Pela fórmula de Parkland (4 mL × kg × %SCQ), o volume total em 24 h é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "7.200 mL"
+    },
+    {
+     "letra": "B",
+     "texto": "2.400 mL"
+    },
+    {
+     "letra": "C",
+     "texto": "4.800 mL"
+    },
+    {
+     "letra": "D",
+     "texto": "12.000 mL"
+    },
+    {
+     "letra": "E",
+     "texto": "9.600 mL"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "4 × 60 × 40 = 9.600 mL; 4.800 mL nas primeiras 8 h."
+  },
+  {
+   "id": "BC-PF2-35",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "diurese alvo",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · monitorização",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A diurese-alvo na reposição volêmica do adulto queimado (não elétrico) é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "2 mL/kg/h"
+    },
+    {
+     "letra": "B",
+     "texto": "100 mL/h fixos"
+    },
+    {
+     "letra": "C",
+     "texto": "0,1 mL/kg/h"
+    },
+    {
+     "letra": "D",
+     "texto": "0,5 mL/kg/h"
+    },
+    {
+     "letra": "E",
+     "texto": "5 mL/kg/h"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Criança e queimadura elétrica: 1 mL/kg/h."
+  },
+  {
+   "id": "BC-PF2-36",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "3º grau · aspecto",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · profundidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Queimadura branca nacarada, seca, indolor e com aspecto de couro é de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "3º grau"
+    },
+    {
+     "letra": "B",
+     "texto": "2º grau superficial"
+    },
+    {
+     "letra": "C",
+     "texto": "2º grau profundo com bolhas"
+    },
+    {
+     "letra": "D",
+     "texto": "1º grau"
+    },
+    {
+     "letra": "E",
+     "texto": "Queimadura solar"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Destruição das terminações nervosas → indolor; requer enxerto."
+  },
+  {
+   "id": "BC-PF2-37",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "lesão inalatória",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · via aérea",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente resgatado de incêndio em ambiente fechado, com vibrissas chamuscadas, escarro carbonáceo e rouquidão. A conduta prioritária é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Escarotomia imediata"
+    },
+    {
+     "letra": "B",
+     "texto": "Calcular Parkland antes de tudo"
+    },
+    {
+     "letra": "C",
+     "texto": "Aguardar estridor para intubar"
+    },
+    {
+     "letra": "D",
+     "texto": "Curativo com sulfadiazina"
+    },
+    {
+     "letra": "E",
+     "texto": "Intubação orotraqueal precoce"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O edema progride e torna a intubação tardia muito difícil."
+  },
+  {
+   "id": "BC-PF2-38",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "escarotomia",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · queimaduras circunferenciais",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Queimadura de 3º grau circunferencial no tórax com dificuldade ventilatória exige:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Restrição hídrica"
+    },
+    {
+     "letra": "B",
+     "texto": "Corticoide sistêmico"
+    },
+    {
+     "letra": "C",
+     "texto": "Escarotomia"
+    },
+    {
+     "letra": "D",
+     "texto": "Enxerto imediato"
+    },
+    {
+     "letra": "E",
+     "texto": "Antibiótico profilático"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A escara inelástica restringe a expansão torácica ou a perfusão dos membros."
+  },
+  {
+   "id": "BC-PF2-39",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "EXCETO · transferência",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · centro de queimados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São critérios de transferência para centro de queimados, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão inalatória"
+    },
+    {
+     "letra": "B",
+     "texto": "Queimadura de face e mãos"
+    },
+    {
+     "letra": "C",
+     "texto": "Queimadura de 3º grau em qualquer extensão"
+    },
+    {
+     "letra": "D",
+     "texto": "Queimadura de 1º grau em 15% da SCQ"
+    },
+    {
+     "letra": "E",
+     "texto": "Queimadura elétrica"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Primeiro grau não entra no cálculo da SCQ."
+  },
+  {
+   "id": "BC-PF2-40",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "classificação · colecistectomia",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · classificação das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Colecistectomia eletiva sem extravasamento de bile é ferida:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Limpa"
+    },
+    {
+     "letra": "B",
+     "texto": "Potencialmente contaminada"
+    },
+    {
+     "letra": "C",
+     "texto": "Infectada"
+    },
+    {
+     "letra": "D",
+     "texto": "Contaminada"
+    },
+    {
+     "letra": "E",
+     "texto": "Suja"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Penetra o trato biliar de forma controlada."
+  },
+  {
+   "id": "BC-PF2-41",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "classificação · apendicite perfurada",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · classificação das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Apendicectomia por apendicite perfurada com pus livre é ferida:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Potencialmente contaminada"
+    },
+    {
+     "letra": "B",
+     "texto": "Limpa"
+    },
+    {
+     "letra": "C",
+     "texto": "Infectada (suja)"
+    },
+    {
+     "letra": "D",
+     "texto": "Contaminada"
+    },
+    {
+     "letra": "E",
+     "texto": "Limpa-contaminada"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Exige tratamento antibiótico, não profilaxia."
+  },
+  {
+   "id": "BC-PF2-42",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "profilaxia · momento",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · antibioticoprofilaxia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dose de antibiótico profilático deve ser administrada:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "30 a 60 minutos antes da incisão"
+    },
+    {
+     "letra": "B",
+     "texto": "Por 7 dias após a cirurgia"
+    },
+    {
+     "letra": "C",
+     "texto": "Após o fechamento da pele"
+    },
+    {
+     "letra": "D",
+     "texto": "Somente se houver febre no pós-operatório"
+    },
+    {
+     "letra": "E",
+     "texto": "Na véspera da cirurgia"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Repetir em cirurgias longas; não estender além de 24 h."
+  },
+  {
+   "id": "BC-PF2-43",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "tricotomia",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · prevenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a tricotomia na prevenção da infecção do sítio cirúrgico:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reduz a infecção quando feita 24 h antes"
+    },
+    {
+     "letra": "B",
+     "texto": "Deve ser feita com lâmina na véspera"
+    },
+    {
+     "letra": "C",
+     "texto": "Deve ser feita no pós-operatório"
+    },
+    {
+     "letra": "D",
+     "texto": "Se necessária, feita com tricotomizador logo antes da cirurgia"
+    },
+    {
+     "letra": "E",
+     "texto": "É obrigatória em todas as cirurgias"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Lâmina causa microlesões colonizadas."
+  },
+  {
+   "id": "BC-PF2-44",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "febre · 5º dia",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · febre pós-operatória",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Febre no 5º–7º dia de pós-operatório com hiperemia e secreção na incisão sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Resposta inflamatória normal do 1º dia"
+    },
+    {
+     "letra": "B",
+     "texto": "Infecção do sítio cirúrgico"
+    },
+    {
+     "letra": "C",
+     "texto": "Atelectasia"
+    },
+    {
+     "letra": "D",
+     "texto": "Febre por fármacos"
+    },
+    {
+     "letra": "E",
+     "texto": "Reação transfusional imediata"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Wound (5º–7º dia)."
+  },
+  {
+   "id": "BC-PF2-45",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "S. aureus",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · agentes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O agente mais comum da infecção de ferida operatória limpa é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Candida albicans"
+    },
+    {
+     "letra": "B",
+     "texto": "Pseudomonas aeruginosa"
+    },
+    {
+     "letra": "C",
+     "texto": "Escherichia coli"
+    },
+    {
+     "letra": "D",
+     "texto": "Bacteroides fragilis"
+    },
+    {
+     "letra": "E",
+     "texto": "Staphylococcus aureus"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Flora da pele. Em cirurgias colorretais predominam gram-negativos e anaeróbios."
+  },
+  {
+   "id": "BC-PF2-46",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "EXCETO · fatores do paciente",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fatores de risco",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São fatores de risco do paciente para infecção do sítio cirúrgico, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desnutrição"
+    },
+    {
+     "letra": "B",
+     "texto": "Obesidade"
+    },
+    {
+     "letra": "C",
+     "texto": "Tabagismo"
+    },
+    {
+     "letra": "D",
+     "texto": "Normoglicemia"
+    },
+    {
+     "letra": "E",
+     "texto": "Imunossupressão"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Hiperglicemia perioperatória aumenta a infecção."
+  },
+  {
+   "id": "BC-PF2-47",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "cisto sebáceo",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · lesões de pele",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para evitar recidiva na exérese de cisto epidérmico (sebáceo), deve-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cauterizar a pele sobrejacente"
+    },
+    {
+     "letra": "B",
+     "texto": "Usar só anestesia tópica"
+    },
+    {
+     "letra": "C",
+     "texto": "Retirar a cápsula íntegra"
+    },
+    {
+     "letra": "D",
+     "texto": "Apenas drenar o conteúdo"
+    },
+    {
+     "letra": "E",
+     "texto": "Deixar a ferida aberta"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Se inflamado: drenar e ressecar depois."
+  },
+  {
+   "id": "BC-PF2-48",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "incisão · Langer",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · técnica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para melhor resultado estético, as incisões cutâneas devem seguir:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A direção dos pelos"
+    },
+    {
+     "letra": "B",
+     "texto": "As linhas de tensão da pele (Langer)"
+    },
+    {
+     "letra": "C",
+     "texto": "Sempre verticais"
+    },
+    {
+     "letra": "D",
+     "texto": "Perpendiculares às linhas de tensão"
+    },
+    {
+     "letra": "E",
+     "texto": "Os trajetos venosos superficiais"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Excisão fusiforme na proporção de cerca de 3:1."
+  },
+  {
+   "id": "BC-PF2-49",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "dose máxima · lidocaína",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 60 kg. A dose máxima de lidocaína sem vasoconstritor (≈ 4,5 mg/kg) corresponde a quantos mL da solução a 1%?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "27 mL"
+    },
+    {
+     "letra": "B",
+     "texto": "13,5 mL"
+    },
+    {
+     "letra": "C",
+     "texto": "2,7 mL"
+    },
+    {
+     "letra": "D",
+     "texto": "45 mL"
+    },
+    {
+     "letra": "E",
+     "texto": "60 mL"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "4,5 × 60 = 270 mg. Solução a 1% = 10 mg/mL → 27 mL."
+  },
+  {
+   "id": "BC-PF2-50",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "abscesso · anestesia",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A anestesia local é menos eficaz na drenagem de abscessos porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A inflamação reduz o fluxo sanguíneo"
+    },
+    {
+     "letra": "B",
+     "texto": "O pus inativa as amidas"
+    },
+    {
+     "letra": "C",
+     "texto": "O abscesso não tem terminações nervosas"
+    },
+    {
+     "letra": "D",
+     "texto": "A adrenalina é inativada pelo pus"
+    },
+    {
+     "letra": "E",
+     "texto": "O pH ácido aumenta a fração ionizada do anestésico"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Preferir bloqueio de campo ao redor da lesão."
+  },
+  {
+   "id": "BC-PF2-51",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "lipoma",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · lesões de pele",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Nódulo subcutâneo mole, móvel, indolor, de crescimento lento, encapsulado, é mais provavelmente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Abscesso"
+    },
+    {
+     "letra": "B",
+     "texto": "Melanoma nodular"
+    },
+    {
+     "letra": "C",
+     "texto": "Lipoma"
+    },
+    {
+     "letra": "D",
+     "texto": "Queloide"
+    },
+    {
+     "letra": "E",
+     "texto": "Cisto sebáceo com ponto central"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O cisto epidérmico costuma ter um poro central."
+  },
+  {
+   "id": "BC-PF2-52",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "classe III",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · choque hemorrágico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto de 70 kg após trauma: FC 130, PA 85 × 60, FR 32, diurese 10 mL/h e confusão. Estima-se perda de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "15 a 30% (classe II)"
+    },
+    {
+     "letra": "B",
+     "texto": "> 40% (classe IV)"
+    },
+    {
+     "letra": "C",
+     "texto": "< 15% (classe I)"
+    },
+    {
+     "letra": "D",
+     "texto": "31 a 40% (classe III)"
+    },
+    {
+     "letra": "E",
+     "texto": "Sem perda sanguínea"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Classe III: queda da PA sistólica, taquicardia importante, confusão."
+  },
+  {
+   "id": "BC-PF2-53",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "neurogênico",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · tipos de choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hipotensão com bradicardia e extremidades quentes após trauma raquimedular cervical sugere choque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neurogênico"
+    },
+    {
+     "letra": "B",
+     "texto": "Hipovolêmico"
+    },
+    {
+     "letra": "C",
+     "texto": "Séptico frio"
+    },
+    {
+     "letra": "D",
+     "texto": "Obstrutivo"
+    },
+    {
+     "letra": "E",
+     "texto": "Cardiogênico"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Perda do tônus simpático."
+  },
+  {
+   "id": "BC-PF2-54",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "obstrutivo",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · tipos de choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hipotensão, turgência jugular, abafamento de bulhas após ferimento precordial sugerem:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Choque hipovolêmico puro"
+    },
+    {
+     "letra": "B",
+     "texto": "Choque anafilático"
+    },
+    {
+     "letra": "C",
+     "texto": "Choque neurogênico"
+    },
+    {
+     "letra": "D",
+     "texto": "Choque séptico"
+    },
+    {
+     "letra": "E",
+     "texto": "Choque obstrutivo por tamponamento cardíaco"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tríade de Beck. Pericardiocentese/toracotomia."
+  },
+  {
+   "id": "BC-PF2-55",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "vasopressor · séptico",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · choque séptico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No choque séptico refratário a volume, o vasopressor de primeira escolha é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dopamina"
+    },
+    {
+     "letra": "B",
+     "texto": "Noradrenalina"
+    },
+    {
+     "letra": "C",
+     "texto": "Dobutamina"
+    },
+    {
+     "letra": "D",
+     "texto": "Fenilefrina"
+    },
+    {
+     "letra": "E",
+     "texto": "Isoproterenol"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Meta: PAM ≥ 65 mmHg."
+  },
+  {
+   "id": "BC-PF2-56",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "tríade letal",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · trauma",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A \"tríade letal\" do paciente em choque hemorrágico é composta por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotermia, acidose e coagulopatia"
+    },
+    {
+     "letra": "B",
+     "texto": "Hipotensão, bradicardia e hipoxemia"
+    },
+    {
+     "letra": "C",
+     "texto": "Hiperglicemia, hipocalemia e acidose"
+    },
+    {
+     "letra": "D",
+     "texto": "Hipertermia, alcalose e trombose"
+    },
+    {
+     "letra": "E",
+     "texto": "Febre, leucocitose e taquicardia"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Evitar cristaloide em excesso; aquecer; transfundir precocemente."
+  },
+  {
+   "id": "BC-PF2-57",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "fibras C",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · fibras da dor",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dor em queimação, difusa e persistente (\"segunda dor\") é conduzida por fibras:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aδ mielinizadas"
+    },
+    {
+     "letra": "B",
+     "texto": "C amielínicas"
+    },
+    {
+     "letra": "C",
+     "texto": "Aβ"
+    },
+    {
+     "letra": "D",
+     "texto": "B pré-ganglionares"
+    },
+    {
+     "letra": "E",
+     "texto": "Aα"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Aδ: primeira dor, aguda e bem localizada."
+  },
+  {
+   "id": "BC-PF2-58",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "via",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · vias da dor",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A principal via ascendente da dor e da temperatura é o trato:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Rubroespinal"
+    },
+    {
+     "letra": "B",
+     "texto": "Corticoespinal"
+    },
+    {
+     "letra": "C",
+     "texto": "Fascículo grácil"
+    },
+    {
+     "letra": "D",
+     "texto": "Espinocerebelar"
+    },
+    {
+     "letra": "E",
+     "texto": "Espinotalâmico lateral"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Cruza na medula, sobe ao tálamo."
+  },
+  {
+   "id": "BC-PF2-59",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "dor referida · Kehr",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · dor referida",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor no ombro esquerdo após trauma abdominal com ruptura esplênica (sinal de Kehr) é exemplo de dor:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neuropática"
+    },
+    {
+     "letra": "B",
+     "texto": "Visceral pura"
+    },
+    {
+     "letra": "C",
+     "texto": "Referida"
+    },
+    {
+     "letra": "D",
+     "texto": "Fantasma"
+    },
+    {
+     "letra": "E",
+     "texto": "Psicogênica"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Irritação diafragmática (C3–C5) referida ao ombro."
+  },
+  {
+   "id": "BC-PF2-60",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "dor crônica",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · aulas da PR2 · definição",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor que persiste por mais de 3 meses ou além do tempo de cicatrização esperado é classificada como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Nociceptiva transitória"
+    },
+    {
+     "letra": "B",
+     "texto": "Somática superficial"
+    },
+    {
+     "letra": "C",
+     "texto": "Referida"
+    },
+    {
+     "letra": "D",
+     "texto": "Crônica"
+    },
+    {
+     "letra": "E",
+     "texto": "Aguda"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Definição da IASP."
+  }
+ ]
+}
