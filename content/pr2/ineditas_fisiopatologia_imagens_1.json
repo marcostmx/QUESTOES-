@@ -1,209 +1,209 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Fisiopatologia · Questões com imagem (lote 1)",
-  "gerado_em": "2026-11-09",
-  "base": "Robbins & Cotran e Silbernagl (bibliografia do plano). Fotos livres do Wikimedia Commons (créditos em cada questão e em public/img/q/CREDITOS.json). Formato das provas de Fisiopatologia."
- },
- "questoes": [
-  {
-   "id": "FISIO-IMG1-01",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "púrpura palpável · vasculite (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · distúrbios hemorrágicos (vasculares)",
-   "imagem": "/img/q/purpura-hsp.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança de 6 anos, após infecção de vias aéreas, apresenta as lesões da imagem nos membros inferiores, além de dor abdominal, artralgia e hematúria. Plaquetas e coagulograma normais. O diagnóstico e o mecanismo são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Deficiência de vitamina K."
-    },
-    {
-     "letra": "B",
-     "texto": "Hemofilia A, com hemartroses."
-    },
-    {
-     "letra": "C",
-     "texto": "Coagulação intravascular disseminada, com TP e TTPa prolongados."
-    },
-    {
-     "letra": "D",
-     "texto": "Púrpura de Henoch-Schönlein: vasculite de pequenos vasos por depósito de imunocomplexos com IgA, com púrpura palpável e plaquetas normais."
-    },
-    {
-     "letra": "E",
-     "texto": "Púrpura trombocitopênica imune, com plaquetas muito baixas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Púrpura com plaquetas normais = causa vascular. A HSP pode causar glomerulonefrite semelhante à nefropatia por IgA.\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*"
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Questões com imagem (lote 1)",
+    "gerado_em": "2026-11-09",
+    "base": "Robbins & Cotran e Silbernagl (bibliografia do plano). Fotos livres do Wikimedia Commons (créditos em cada questão e em public/img/q/CREDITOS.json). Formato das provas de Fisiopatologia."
   },
-  {
-   "id": "FISIO-IMG1-02",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "HSP · rim (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · glomerulopatias por IgA",
-   "imagem": "/img/q/purpura-hsp.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "A paciente da imagem tem púrpura palpável nos membros inferiores, dor abdominal e hematúria com cilindros hemáticos. A lesão renal esperada é:",
-   "alternativas": [
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Glomerulosclerose nodular diabética."
+      "id": "FISIO-IMG1-01",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "púrpura palpável · vasculite (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · distúrbios hemorrágicos (vasculares)",
+      "imagem": "/img/q/purpura-hsp.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança de 6 anos, após infecção de vias aéreas, apresenta as lesões da imagem nos membros inferiores, além de dor abdominal, artralgia e hematúria. Plaquetas e coagulograma normais. O diagnóstico e o mecanismo são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Deficiência de vitamina K."
+        },
+        {
+          "letra": "B",
+          "texto": "Hemofilia A, com hemartroses."
+        },
+        {
+          "letra": "C",
+          "texto": "Coagulação intravascular disseminada, com TP e TTPa prolongados."
+        },
+        {
+          "letra": "D",
+          "texto": "Púrpura de Henoch-Schönlein (vasculite por IgA)."
+        },
+        {
+          "letra": "E",
+          "texto": "Púrpura trombocitopênica imune, com plaquetas muito baixas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Púrpura de Henoch-Schönlein: vasculite de pequenos vasos por depósito de imunocomplexos com IgA, com púrpura palpável e plaquetas normais.\n\nPúrpura com plaquetas normais = causa vascular. A HSP pode causar glomerulonefrite semelhante à nefropatia por IgA.\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*"
     },
     {
-     "letra": "B",
-     "texto": "Necrose tubular aguda isquêmica."
+      "id": "FISIO-IMG1-02",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "HSP · rim (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · glomerulopatias por IgA",
+      "imagem": "/img/q/purpura-hsp.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "A paciente da imagem tem púrpura palpável nos membros inferiores, dor abdominal e hematúria com cilindros hemáticos. A lesão renal esperada é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Glomerulosclerose nodular diabética."
+        },
+        {
+          "letra": "B",
+          "texto": "Necrose tubular aguda isquêmica."
+        },
+        {
+          "letra": "C",
+          "texto": "Doença de lesões mínimas."
+        },
+        {
+          "letra": "D",
+          "texto": "Pielonefrite crônica."
+        },
+        {
+          "letra": "E",
+          "texto": "Glomerulonefrite com depósitos mesangiais de IgA."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Glomerulonefrite com depósitos mesangiais de IgA, semelhante à nefropatia por IgA (púrpura de Henoch-Schönlein).\n\nA nefropatia por IgA é a forma renal isolada; a HSP é a forma sistêmica (pele, intestino, articulações, rim).\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*"
     },
     {
-     "letra": "C",
-     "texto": "Doença de lesões mínimas."
+      "id": "FISIO-IMG1-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "pancreatite · Cullen (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · pâncreas (pancreatite aguda)",
+      "imagem": "/img/q/sinal-cullen.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com pancreatite aguda grave apresenta a equimose periumbilical da imagem. O mecanismo fisiopatológico desse achado é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Trombocitopenia imune com petéquias."
+        },
+        {
+          "letra": "B",
+          "texto": "Hipertensão portal com circulação colateral."
+        },
+        {
+          "letra": "C",
+          "texto": "Hemorragia retroperitoneal da pancreatite necrosante."
+        },
+        {
+          "letra": "D",
+          "texto": "Reação alérgica a contraste."
+        },
+        {
+          "letra": "E",
+          "texto": "Infecção cutânea por estafilococo."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Hemorragia retroperitoneal pela necrose pancreática e lesão vascular (elastase), com sangue que disseca até o tecido subcutâneo periumbilical (sinal de Cullen).\n\nCullen e Grey-Turner indicam pancreatite necro-hemorrágica (gravidade).\n\n*Imagem: Herbert L. Fred, MD and Hendrik A. van Dijk — CC BY 2.0, via Wikimedia Commons ([Cullen's sign.jpg](https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg)).*"
     },
     {
-     "letra": "D",
-     "texto": "Pielonefrite crônica."
+      "id": "FISIO-IMG1-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "cirrose · aranhas (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · fígado (insuficiência hepática)",
+      "imagem": "/img/q/aranha-vascular.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Cirrótico apresenta lesões como a da imagem na face e no tórax. O mecanismo fisiopatológico dessas lesões é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Deficiência de vitamina K com sangramento cutâneo."
+        },
+        {
+          "letra": "B",
+          "texto": "Hiperestrogenismo."
+        },
+        {
+          "letra": "C",
+          "texto": "Plaquetopenia por hiperesplenismo."
+        },
+        {
+          "letra": "D",
+          "texto": "Vasculite por imunocomplexos com IgA."
+        },
+        {
+          "letra": "E",
+          "texto": "Depósito de bilirrubina na pele."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Hiperestrogenismo, pela menor degradação hepática dos estrogênios, causando aranhas vasculares (telangiectasias), eritema palmar e ginecomastia.\n\nOutros sinais de hepatopatia crônica: icterícia, ascite, circulação colateral, atrofia testicular, contratura de Dupuytren.\n\n*Imagem: M. Sand, D. Sand, C. Thrandorf, V. Paech, P. Altmeyer, F. G. Bechara — CC BY 2.0, via Wikimedia Commons ([Nevus araneus 01.jpg](https://commons.wikimedia.org/wiki/File:Nevus_araneus_01.jpg)).*"
     },
     {
-     "letra": "E",
-     "texto": "Glomerulonefrite com depósitos mesangiais de IgA, semelhante à nefropatia por IgA (púrpura de Henoch-Schönlein)."
+      "id": "FISIO-IMG1-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "edema nefrótico (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · síndrome nefrótica (edema)",
+      "imagem": "/img/q/edema-cacifo.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança com síndrome nefrótica apresenta edema de membros inferiores com o sinal da imagem (depressão persistente após compressão). O mecanismo principal desse edema é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Queda da pressão oncótica plasmática pela hipoalbuminemia."
+        },
+        {
+          "letra": "B",
+          "texto": "Excesso de hormônio tireoidiano."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento da permeabilidade capilar por histamina."
+        },
+        {
+          "letra": "D",
+          "texto": "Trombose venosa profunda bilateral."
+        },
+        {
+          "letra": "E",
+          "texto": "Obstrução linfática por filariose."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Queda da pressão oncótica plasmática pela hipoalbuminemia, com saída de líquido para o interstício e retenção renal de sódio e água.\n\nEdema nefrótico: mole, depressível, generalizado, periorbitário pela manhã, podendo chegar à anasarca.\n\n*Imagem: James Heilman, MD — CC BY-SA 3.0, via Wikimedia Commons ([Combinpedal.jpg](https://commons.wikimedia.org/wiki/File:Combinpedal.jpg)).*"
     }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "A nefropatia por IgA é a forma renal isolada; a HSP é a forma sistêmica (pele, intestino, articulações, rim).\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*"
-  },
-  {
-   "id": "FISIO-IMG1-03",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "pancreatite · Cullen (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · pâncreas (pancreatite aguda)",
-   "imagem": "/img/q/sinal-cullen.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com pancreatite aguda grave apresenta a equimose periumbilical da imagem. O mecanismo fisiopatológico desse achado é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Trombocitopenia imune com petéquias."
-    },
-    {
-     "letra": "B",
-     "texto": "Hipertensão portal com circulação colateral."
-    },
-    {
-     "letra": "C",
-     "texto": "Hemorragia retroperitoneal pela necrose pancreática e lesão vascular (elastase), com sangue que disseca até o tecido subcutâneo periumbilical (sinal de Cullen)."
-    },
-    {
-     "letra": "D",
-     "texto": "Reação alérgica a contraste."
-    },
-    {
-     "letra": "E",
-     "texto": "Infecção cutânea por estafilococo."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Cullen e Grey-Turner indicam pancreatite necro-hemorrágica (gravidade).\n\n*Imagem: Herbert L. Fred, MD and Hendrik A. van Dijk — CC BY 2.0, via Wikimedia Commons ([Cullen's sign.jpg](https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg)).*"
-  },
-  {
-   "id": "FISIO-IMG1-04",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "cirrose · aranhas (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · fígado (insuficiência hepática)",
-   "imagem": "/img/q/aranha-vascular.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Cirrótico apresenta lesões como a da imagem na face e no tórax. O mecanismo fisiopatológico dessas lesões é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Deficiência de vitamina K com sangramento cutâneo."
-    },
-    {
-     "letra": "B",
-     "texto": "Hiperestrogenismo, pela menor degradação hepática dos estrogênios, causando aranhas vasculares (telangiectasias), eritema palmar e ginecomastia."
-    },
-    {
-     "letra": "C",
-     "texto": "Plaquetopenia por hiperesplenismo."
-    },
-    {
-     "letra": "D",
-     "texto": "Vasculite por imunocomplexos com IgA."
-    },
-    {
-     "letra": "E",
-     "texto": "Depósito de bilirrubina na pele."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Outros sinais de hepatopatia crônica: icterícia, ascite, circulação colateral, atrofia testicular, contratura de Dupuytren.\n\n*Imagem: M. Sand, D. Sand, C. Thrandorf, V. Paech, P. Altmeyer, F. G. Bechara — CC BY 2.0, via Wikimedia Commons ([Nevus araneus 01.jpg](https://commons.wikimedia.org/wiki/File:Nevus_araneus_01.jpg)).*"
-  },
-  {
-   "id": "FISIO-IMG1-05",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "edema nefrótico (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl · resumo FISIOPATOLOGIA - PR2 · síndrome nefrótica (edema)",
-   "imagem": "/img/q/edema-cacifo.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança com síndrome nefrótica apresenta edema de membros inferiores com o sinal da imagem (depressão persistente após compressão). O mecanismo principal desse edema é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Queda da pressão oncótica plasmática pela hipoalbuminemia, com saída de líquido para o interstício e retenção renal de sódio e água."
-    },
-    {
-     "letra": "B",
-     "texto": "Excesso de hormônio tireoidiano."
-    },
-    {
-     "letra": "C",
-     "texto": "Aumento da permeabilidade capilar por histamina."
-    },
-    {
-     "letra": "D",
-     "texto": "Trombose venosa profunda bilateral."
-    },
-    {
-     "letra": "E",
-     "texto": "Obstrução linfática por filariose."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Edema nefrótico: mole, depressível, generalizado, periorbitário pela manhã, podendo chegar à anasarca.\n\n*Imagem: James Heilman, MD — CC BY-SA 3.0, via Wikimedia Commons ([Combinpedal.jpg](https://commons.wikimedia.org/wiki/File:Combinpedal.jpg)).*"
-  }
- ]
+  ]
 }

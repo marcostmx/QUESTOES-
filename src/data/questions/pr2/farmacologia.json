@@ -10,13 +10,13 @@
     "stem": "Motorista de aplicativo de 35 anos, com rinite alérgica persistente, procura atendimento pedindo um antialérgico que \"não dê sono\", pois trabalha dirigindo. Qual a escolha mais adequada e a justificativa?",
     "options": [
       "Difenidramina, anti-H1 de primeira geração, que não atravessa a barreira hematoencefálica.",
-      "Loratadina, anti-H1 de segunda geração, que atravessa pouco a barreira hematoencefálica e por isso causa pouca sedação.",
+      "Loratadina, anti-H1 de segunda geração.",
       "Prometazina, anti-H1 de segunda geração, sem efeitos anticolinérgicos.",
       "Cimetidina, antagonista H1 seletivo, sem ação no sistema nervoso central.",
       "Dimenidrinato, por ser o anti-H1 com menor efeito sedativo disponível."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\n1ª geração (difenidramina, prometazina, dimenidrinato): lipofílicos, cruzam a BHE → sedação e efeitos anticolinérgicos; úteis na cinetose. 2ª geração (loratadina, desloratadina, cetirizina, fexofenadina, bilastina): pouca sedação. Cimetidina é antagonista **H2**.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Loratadina, anti-H1 de segunda geração, que atravessa pouco a barreira hematoencefálica e por isso causa pouca sedação.\n\n1ª geração (difenidramina, prometazina, dimenidrinato): lipofílicos, cruzam a BHE → sedação e efeitos anticolinérgicos; úteis na cinetose. 2ª geração (loratadina, desloratadina, cetirizina, fexofenadina, bilastina): pouca sedação. Cimetidina é antagonista **H2**.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina e anti-histamínicos",
     "origin": "inedita",
     "ref": "FARM-PF-01"
@@ -55,12 +55,12 @@
     "options": [
       "Prednisona oral e observação por 6 horas.",
       "Ranitidina IV como monoterapia.",
-      "Adrenalina intramuscular na face anterolateral da coxa (0,01 mg/kg, máximo 0,5 mg), podendo repetir em 5 a 15 minutos.",
+      "Adrenalina intramuscular na face anterolateral da coxa.",
       "Propranolol IV para controlar a taquicardia.",
       "Loratadina oral, por ser o anti-histamínico mais seguro."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nAdrenalina: α1 (vasoconstrição, reverte hipotensão e edema), β1 (inotropismo) e β2 (broncodilatação, ↓ liberação de mediadores dos mastócitos). Anti-H1/H2 e corticoide são adjuvantes. β-bloqueador piora a anafilaxia.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Adrenalina intramuscular na face anterolateral da coxa (0,01 mg/kg, máximo 0,5 mg), podendo repetir em 5 a 15 minutos.\n\nAdrenalina: α1 (vasoconstrição, reverte hipotensão e edema), β1 (inotropismo) e β2 (broncodilatação, ↓ liberação de mediadores dos mastócitos). Anti-H1/H2 e corticoide são adjuvantes. β-bloqueador piora a anafilaxia.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina (reações alérgicas agudas) e 06 Adrenérgica",
     "origin": "inedita",
     "ref": "FARM-PF-03"
@@ -120,13 +120,13 @@
     "stem": "Homem de 30 anos é encontrado inconsciente, com frequência respiratória de 5 irpm, pupilas puntiformes e cianose; ao lado, embalagens de comprimidos de oxicodona. Qual a conduta farmacológica e o mecanismo do antídoto?",
     "options": [
       "Buprenorfina em dose alta, agonista total que compete com a oxicodona.",
-      "Naloxona, antagonista competitivo dos receptores μ, que desloca o opioide e reverte rapidamente a depressão respiratória; como dura menos que muitos opioides, pode exigir doses repetidas.",
+      "Naloxona, antagonista competitivo dos receptores μ.",
       "N-acetilcisteína, que repõe a glutationa e neutraliza o opioide.",
       "Flumazenil, antagonista do receptor opioide κ, de longa duração.",
       "Atropina, que reverte a miose e a depressão respiratória por bloqueio muscarínico."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nTríade da intoxicação opioide: coma, **miose puntiforme** e depressão respiratória. Naloxona é antagonista competitivo; meia-vida curta (re-sedação). Flumazenil é antídoto de benzodiazepínico; N-acetilcisteína, de paracetamol.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Naloxona, antagonista competitivo dos receptores μ, que desloca o opioide e reverte rapidamente a depressão respiratória; como dura menos que muitos opioides, pode exigir doses repetidas.\n\nTríade da intoxicação opioide: coma, **miose puntiforme** e depressão respiratória. Naloxona é antagonista competitivo; meia-vida curta (re-sedação). Flumazenil é antídoto de benzodiazepínico; N-acetilcisteína, de paracetamol.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (intoxicação) e Discursiva 9",
     "origin": "inedita",
     "ref": "FARM-PF-06"
@@ -141,14 +141,14 @@
     "subtopic": "mecanismo · caso",
     "stem": "Idosa de 78 anos com fratura de colo de fêmur recebe morfina IV para dor intensa. No dia seguinte, apresenta sonolência, FR de 10 irpm, pupilas mióticas e não evacua há dois dias. Qual receptor e mecanismo explicam, ao mesmo tempo, a analgesia e esses efeitos adversos?",
     "options": [
-      "Ativação do receptor μ acoplado à proteína Gi/o, com redução da liberação de neurotransmissores e hiperpolarização neuronal no SNC e no plexo mioentérico.",
+      "Ativação do receptor μ acoplado à proteína Gi/o.",
       "Inibição da recaptação de serotonina e noradrenalina na medula espinal.",
       "Antagonismo dos receptores κ, que aumenta a motilidade intestinal.",
       "Bloqueio dos canais de sódio voltagem-dependentes dos nociceptores.",
       "Inibição reversível da COX-1 e COX-2, reduzindo prostaglandinas no SNC."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nO receptor μ medeia analgesia supraespinal e espinal, euforia, depressão respiratória, miose, constipação, sedação e dependência. Bloqueio de canal de Na⁺ = anestésico local; COX = AINE.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Ativação do receptor μ acoplado à proteína Gi/o, com redução da liberação de neurotransmissores e hiperpolarização neuronal no SNC e no plexo mioentérico.\n\nO receptor μ medeia analgesia supraespinal e espinal, euforia, depressão respiratória, miose, constipação, sedação e dependência. Bloqueio de canal de Na⁺ = anestésico local; COX = AINE.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides",
     "origin": "inedita",
     "ref": "FARM-PF-07"
@@ -202,11 +202,11 @@
       "O pus contém pseudocolinesterase, que degrada as amidas.",
       "A inflamação bloqueia os canais de potássio, impedindo a ação do anestésico.",
       "A inflamação aumenta a fração não ionizada, que é inativa no canal de sódio.",
-      "O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico, que não atravessa a membrana neuronal para chegar ao seu sítio de ação.",
+      "O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico.",
       "A lidocaína é um éster e é rapidamente hidrolisada no tecido inflamado."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nAnestésicos locais são bases fracas (pKa ~8–9). Em meio ácido, predominam na forma ionizada, que não cruza a membrana: menos fármaco chega ao interior do axônio.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico, que não atravessa a membrana neuronal para chegar ao seu sítio de ação.\n\nAnestésicos locais são bases fracas (pKa ~8–9). Em meio ácido, predominam na forma ionizada, que não cruza a membrana: menos fármaco chega ao interior do axônio.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais (ionização)",
     "origin": "inedita",
     "ref": "FARM-PF-10"
@@ -269,10 +269,10 @@
       "Diclofenaco sódico 50 mg de 8/8 h por 3 dias.",
       "Ácido acetilsalicílico 500 mg de 6/6 h por 5 dias.",
       "Nimesulida 100 mg de 12/12 h, por ser seletiva para COX-2.",
-      "Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor, sem ultrapassar 4 g/dia, associado à hidratação oral."
+      "Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNa dengue, AAS e AINEs são proibidos (antiagregação e lesão de mucosa → hemorragia). O paracetamol é o analgésico/antitérmico mais seguro também na gestação (AINE no 3º trimestre ainda fecha o canal arterial).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor, sem ultrapassar 4 g/dia, associado à hidratação oral.\n\nNa dengue, AAS e AINEs são proibidos (antiagregação e lesão de mucosa → hemorragia). O paracetamol é o analgésico/antitérmico mais seguro também na gestação (AINE no 3º trimestre ainda fecha o canal arterial).",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e 08 Prescrição (modelo 3, dengue)",
     "origin": "inedita",
     "ref": "FARM-PF-13"
@@ -362,11 +362,11 @@
       "Ligam-se a receptores acoplados à proteína G na membrana e inibem diretamente a COX-1 plaquetária.",
       "Estimulam a expressão do gene da COX-2, aumentando a síntese de prostaglandinas anti-inflamatórias.",
       "Induzem a lipocortina, que aumenta a atividade da fosfolipase A2 e a produção de ácido araquidônico.",
-      "Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1), que inibe a fosfolipase A2, e reduzem a síntese de citocinas e da COX-2.",
+      "Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1).",
       "São agonistas dos receptores β2-adrenérgicos, o que explica seu efeito na asma."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMecanismo **genômico** (receptor intracelular, efeito em horas). Lipocortina **inibe** a PLA2 (menos prostaglandinas e leucotrienos); reduzem IL-1, IL-6, TNF-α e a expressão de COX-2. \"Nunca inibe a COX.\"",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1), que inibe a fosfolipase A2, e reduzem a síntese de citocinas e da COX-2.\n\nMecanismo **genômico** (receptor intracelular, efeito em horas). Lipocortina **inibe** a PLA2 (menos prostaglandinas e leucotrienos); reduzem IL-1, IL-6, TNF-α e a expressão de COX-2. \"Nunca inibe a COX.\"",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides",
     "origin": "inedita",
     "ref": "FARM-PF-18"
@@ -419,12 +419,12 @@
     "options": [
       "Propranolol, que reduz o consumo de oxigênio do miocárdio.",
       "Isoproterenol, agonista β não seletivo que aumenta a resistência periférica.",
-      "Noradrenalina, que ativa receptores α1 nos vasos (vasoconstrição, aumento da resistência periférica) e β1 no coração, restaurando a pressão arterial.",
+      "Noradrenalina, agonista α1 e β1.",
       "Noradrenalina, que bloqueia os receptores α1 e β1 e reduz a frequência cardíaca.",
       "Prazosina, antagonista α1 que aumenta a pré-carga."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nChoque séptico após volume = **noradrenalina** (α1 > β1; pouca ação β2). Adrenalina IM = anafilaxia. Isoproterenol (β puro) vasodilata. A banca já trocou \"ativa\" por \"bloqueia\".",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Noradrenalina, que ativa receptores α1 nos vasos (vasoconstrição, aumento da resistência periférica) e β1 no coração, restaurando a pressão arterial.\n\nChoque séptico após volume = **noradrenalina** (α1 > β1; pouca ação β2). Adrenalina IM = anafilaxia. Isoproterenol (β puro) vasodilata. A banca já trocou \"ativa\" por \"bloqueia\".",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (qual vasopressor?)",
     "origin": "inedita",
     "ref": "FARM-PF-21"
@@ -487,13 +487,13 @@
     "stem": "Criança de 9 anos com asma chega ao pronto-socorro em crise, com sibilância difusa e uso de musculatura acessória. Recebe salbutamol associado a brometo de ipratrópio por via inalatória. Sobre essa associação, assinale a correta:",
     "options": [
       "O ipratrópio é um corticoide inalatório que reduz a inflamação da via aérea.",
-      "O salbutamol é agonista β2 de início rápido e curta duração; o ipratrópio é antagonista muscarínico (M3) que reduz o tônus broncoconstritor vagal; os mecanismos são diferentes e complementares.",
+      "O salbutamol é agonista β2 de início rápido e curta duração.",
       "Ambos são agonistas β2, e a associação apenas soma doses do mesmo mecanismo.",
       "O ipratrópio aumenta o AMPc ao estimular receptores muscarínicos M5.",
       "O salbutamol é um β2-agonista de longa ação, indicado como monoterapia de manutenção."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSalbutamol/fenoterol: rápido e curto (resgate). Formoterol: rápido e longo. Salmeterol: lento e longo (só manutenção). LABA nunca sozinho na asma: sempre com corticoide inalatório.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** O salbutamol é agonista β2 de início rápido e curta duração; o ipratrópio é antagonista muscarínico (M3) que reduz o tônus broncoconstritor vagal; os mecanismos são diferentes e complementares.\n\nSalbutamol/fenoterol: rápido e curto (resgate). Formoterol: rápido e longo. Salmeterol: lento e longo (só manutenção). LABA nunca sozinho na asma: sempre com corticoide inalatório.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica e asma",
     "origin": "inedita",
     "ref": "FARM-PF-24"
@@ -511,11 +511,11 @@
       "Clonidina, que pode ser suspensa abruptamente sem riscos.",
       "Propranolol, por ser β-bloqueador não seletivo sem efeito sobre o feto.",
       "Prazosina, por aumentar a resistência periférica.",
-      "Metildopa, convertida em metilnoradrenalina, que estimula receptores α2 centrais (falso transmissor) e reduz o tônus simpático, com longa experiência de segurança na gestação.",
+      "Metildopa, convertida em metilnoradrenalina.",
       "Adrenalina, que reduz a pressão por estímulo β2."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMetildopa: escolha na gestante (a aula cita o \"falso transmissor\"; o livro, o agonismo α2 central — cubra as duas versões). A clonidina exige retirada gradual pelo risco de hipertensão de rebote.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Metildopa, convertida em metilnoradrenalina, que estimula receptores α2 centrais (falso transmissor) e reduz o tônus simpático, com longa experiência de segurança na gestação.\n\nMetildopa: escolha na gestante (a aula cita o \"falso transmissor\"; o livro, o agonismo α2 central — cubra as duas versões). A clonidina exige retirada gradual pelo risco de hipertensão de rebote.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (agonistas α2 e gestação)",
     "origin": "inedita",
     "ref": "FARM-PF-25"
@@ -627,13 +627,13 @@
     "stem": "Para uma intubação de sequência rápida, o anestesista escolhe succinilcolina. Sobre os bloqueadores neuromusculares, assinale a alternativa CORRETA:",
     "options": [
       "O sugamadex reverte o bloqueio da succinilcolina por inibir a pseudocolinesterase.",
-      "A succinilcolina é agonista nicotínico despolarizante: causa fasciculações seguidas de paralisia, pode elevar o potássio sérico e desencadear hipertermia maligna, tratada com dantroleno.",
+      "A succinilcolina é agonista nicotínico despolarizante.",
       "Os bloqueadores não despolarizantes são agonistas do receptor muscarínico M2.",
       "A succinilcolina é revertida com neostigmina, que antagoniza o bloqueio despolarizante.",
       "O rocurônio é despolarizante e causa fasciculações intensas antes da paralisia."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSuccinilcolina: despolarizante, início rápido, metabolizada pela pseudocolinesterase, sem reversão (a neostigmina **potencializa**). Rocurônio e cia: antagonistas competitivos, sem fasciculação; reversão com neostigmina (+ atropina) ou **sugamadex** (encapsula rocurônio/vecurônio).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A succinilcolina é agonista nicotínico despolarizante: causa fasciculações seguidas de paralisia, pode elevar o potássio sérico e desencadear hipertermia maligna, tratada com dantroleno.\n\nSuccinilcolina: despolarizante, início rápido, metabolizada pela pseudocolinesterase, sem reversão (a neostigmina **potencializa**). Rocurônio e cia: antagonistas competitivos, sem fasciculação; reversão com neostigmina (+ atropina) ou **sugamadex** (encapsula rocurônio/vecurônio).",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (bloqueadores neuromusculares)",
     "origin": "inedita",
     "ref": "FARM-PF-29"
@@ -650,12 +650,12 @@
     "options": [
       "O fármaco reativa a acetilcolinesterase inibida por anticorpos.",
       "O fármaco aumenta a síntese de ACh pela colina acetiltransferase.",
-      "O fármaco inibe a acetilcolinesterase, aumentando a ACh na fenda da placa motora do músculo esquelético, que passa a ativar os receptores nicotínicos que restaram após o ataque autoimune.",
+      "O fármaco inibe a acetilcolinesterase.",
       "O fármaco bloqueia os receptores nicotínicos e reduz a fadiga muscular.",
       "O fármaco é agonista muscarínico e contrai a musculatura lisa da pálpebra."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nNa miastenia, anticorpos destroem receptores nicotínicos da **placa motora (músculo esquelético)**. Erro corrigido em prova: \"contração da musculatura lisa\". Tratamento: piridostigmina + imunossupressão; dose excessiva → crise colinérgica.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** O fármaco inibe a acetilcolinesterase, aumentando a ACh na fenda da placa motora do músculo esquelético, que passa a ativar os receptores nicotínicos que restaram após o ataque autoimune.\n\nNa miastenia, anticorpos destroem receptores nicotínicos da **placa motora (músculo esquelético)**. Erro corrigido em prova: \"contração da musculatura lisa\". Tratamento: piridostigmina + imunossupressão; dose excessiva → crise colinérgica.",
     "source": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (miastenia gravis) e Discursivas 87–88",
     "origin": "inedita",
     "ref": "FARM-PF-30"

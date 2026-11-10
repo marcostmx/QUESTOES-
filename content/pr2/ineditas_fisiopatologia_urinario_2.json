@@ -1,883 +1,883 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário (lote 2, formato das provas do Prof. Fernando)",
-  "gerado_em": "2026-11-09",
-  "base": "Robbins & Cotran (Patologia, cap. Rim e trato urinário) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
- },
- "questoes": [
-  {
-   "id": "FISIO-PF-URI2-01",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "azotemia × uremia",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · manifestações clínicas (azotemia, uremia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as manifestações clínicas das doenças renais, assinale a alternativa CORRETA:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema urinário (lote 2, formato das provas do Prof. Fernando)",
+    "gerado_em": "2026-11-09",
+    "base": "Robbins & Cotran (Patologia, cap. Rim e trato urinário) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "A azotemia pós-renal decorre de hipoperfusão por choque ou desidratação."
+      "id": "FISIO-PF-URI2-01",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "azotemia × uremia",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · manifestações clínicas (azotemia, uremia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as manifestações clínicas das doenças renais, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A azotemia pós-renal decorre de hipoperfusão por choque ou desidratação."
+        },
+        {
+          "letra": "B",
+          "texto": "Uremia é sinônimo de proteinúria maciça."
+        },
+        {
+          "letra": "C",
+          "texto": "Azotemia é a elevação de ureia e creatinina no sangue, relacionada à queda da filtração glomerular."
+        },
+        {
+          "letra": "D",
+          "texto": "Azotemia pré-renal ocorre por obstrução ureteral bilateral."
+        },
+        {
+          "letra": "E",
+          "texto": "A uremia não causa manifestações gastrointestinais, hematológicas ou neurológicas."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Azotemia é a elevação de ureia e creatinina no sangue, relacionada à queda da filtração glomerular; quando se associa a sinais e sintomas sistêmicos, denomina-se uremia.\n\nPré-renal: hipoperfusão (desidratação, choque, IC). Renal: lesão do parênquima. Pós-renal: obstrução ao fluxo urinário. Uremia: pericardite, gastroenterite, neuropatia, encefalopatia, disfunção plaquetária."
     },
     {
-     "letra": "B",
-     "texto": "Uremia é sinônimo de proteinúria maciça."
+      "id": "FISIO-PF-URI2-02",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "síndrome nefrítica",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndromes glomerulares (nefrítica)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a síndrome nefrítica, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Caracteriza-se por hematúria com cilindros hemáticos, oligúria, azotemia e hipertensão arterial.\nII. A proteinúria costuma ser inferior à da faixa nefrótica, e o edema é geralmente leve.\nIII. Resulta de inflamação glomerular com proliferação celular e lesão da parede capilar, reduzindo a taxa de filtração.\nIV. A doença de lesões mínimas é a causa clássica de síndrome nefrítica na criança.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I e II, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I, II, III e IV."
+        },
+        {
+          "letra": "C",
+          "texto": "III e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "II e III, apenas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Lesões mínimas é a causa clássica de síndrome **nefrótica** na criança; a nefrítica clássica é a GN pós-estreptocócica."
     },
     {
-     "letra": "C",
-     "texto": "Azotemia é a elevação de ureia e creatinina no sangue, relacionada à queda da filtração glomerular; quando se associa a sinais e sintomas sistêmicos, denomina-se uremia."
+      "id": "FISIO-PF-URI2-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "lesões mínimas · caso",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (doença de lesões mínimas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Menino de 4 anos com edema palpebral matinal que progrediu para anasarca em uma semana. Proteinúria maciça, albumina sérica de 1,8 g/dL, colesterol elevado, sem hematúria, pressão e função renal normais. À microscopia óptica, os glomérulos parecem normais. Sobre a doença provável, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É a nefropatia membranosa, com espículas na membrana basal."
+        },
+        {
+          "letra": "B",
+          "texto": "Doença de lesões mínimas (apagamento dos podócitos)."
+        },
+        {
+          "letra": "C",
+          "texto": "É a glomerulonefrite pós-estreptocócica, com depósitos subepiteliais em \"corcova\"."
+        },
+        {
+          "letra": "D",
+          "texto": "É a nefrite lúpica classe IV, com hipocomplementemia."
+        },
+        {
+          "letra": "E",
+          "texto": "É a doença anti-membrana basal, com depósito linear de IgG."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** É a doença de lesões mínimas, cuja alteração principal é o apagamento difuso dos processos podais dos podócitos à microscopia eletrônica, com ótima resposta a corticoide.\n\nLesões mínimas: causa mais comum de nefrótica na criança; MO normal, imunofluorescência negativa, ME com fusão/apagamento dos processos podais; proteinúria seletiva (albumina); corticossensível."
     },
     {
-     "letra": "D",
-     "texto": "Azotemia pré-renal ocorre por obstrução ureteral bilateral."
+      "id": "FISIO-PF-URI2-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefropatia membranosa",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (nefropatia membranosa)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 55 anos com síndrome nefrótica. A biópsia mostra espessamento difuso da membrana basal glomerular, com depósitos subepiteliais de imunocomplexos e \"espículas\" na coloração pela prata. Sobre a doença, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É a doença de lesões mínimas, típica da criança."
+        },
+        {
+          "letra": "B",
+          "texto": "É uma glomerulonefrite proliferativa que cursa com síndrome nefrítica."
+        },
+        {
+          "letra": "C",
+          "texto": "É a glomerulosclerose nodular diabética."
+        },
+        {
+          "letra": "D",
+          "texto": "Não se associa a tromboses, pois não causa perda de anticoagulantes."
+        },
+        {
+          "letra": "E",
+          "texto": "É a nefropatia membranosa, causa frequente de síndrome nefrótica no adulto."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** É a nefropatia membranosa, causa frequente de síndrome nefrótica no adulto, na maioria das vezes primária, associada a autoanticorpos contra o receptor de fosfolipase A2 (PLA2R) dos podócitos.\n\nMembranosa: depósitos subepiteliais, MBG espessada com espículas; secundária a lúpus, hepatite B, tumores, fármacos. Risco elevado de trombose de veia renal (estado de hipercoagulabilidade)."
     },
     {
-     "letra": "E",
-     "texto": "A uremia não causa manifestações gastrointestinais, hematológicas ou neurológicas."
+      "id": "FISIO-PF-URI2-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "GESF",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (glomerulosclerose segmentar e focal)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a glomerulosclerose segmentar e focal (GESF), assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Caracteriza-se por esclerose de alguns glomérulos (focal), acometendo apenas parte de cada glomérulo (segmentar)."
+        },
+        {
+          "letra": "B",
+          "texto": "É causada por depósito linear de anticorpos anti-MBG."
+        },
+        {
+          "letra": "C",
+          "texto": "É a principal causa de síndrome nefrítica pós-infecciosa."
+        },
+        {
+          "letra": "D",
+          "texto": "Tem prognóstico melhor que a doença de lesões mínimas, com remissão espontânea na maioria."
+        },
+        {
+          "letra": "E",
+          "texto": "Acomete todos os glomérulos de forma difusa e global."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Caracteriza-se por esclerose de alguns glomérulos (focal), acometendo apenas parte de cada glomérulo (segmentar); pode ser primária ou secundária a HIV, obesidade, refluxo ou perda de néfrons, e responde pior ao corticoide que a doença de lesões mínimas.\n\nFocal = alguns glomérulos; segmentar = parte do glomérulo. Na população negra e no HIV (nefropatia associada ao HIV, forma colapsante) é causa importante de nefrótica; evolui frequentemente para DRC."
+    },
+    {
+      "id": "FISIO-PF-URI2-06",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "síndrome nefrótica · mecanismos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (fisiopatologia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Analise as afirmativas sobre a fisiopatologia da síndrome nefrótica e assinale a alternativa com todas as corretas:\n\nI. A proteinúria maciça decorre da lesão da barreira de filtração, principalmente dos podócitos e da membrana basal.\nII. A hipoalbuminemia reduz a pressão oncótica do plasma, e a redução do volume efetivo ativa o sistema renina-angiotensina-aldosterona, com retenção de sódio e água.\nIII. A perda urinária de antitrombina III e de proteínas C e S favorece a trombose, inclusive de veia renal.\nIV. A hiperlipidemia decorre da perda urinária de lipoproteínas, que estimula sua destruição hepática.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II, III e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, apenas."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "A hiperlipidemia vem do **aumento da síntese hepática** de lipoproteínas (estimulada pela queda da pressão oncótica) e da menor degradação; há lipidúria (corpos graxos ovais, cruz de malta)."
+    },
+    {
+      "id": "FISIO-PF-URI2-07",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "GNRP · caso",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomerulonefrite rapidamente progressiva",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 30 anos com hemoptise e insuficiência renal rapidamente progressiva. A biópsia renal mostra crescentes na maioria dos glomérulos e depósito linear de IgG ao longo da membrana basal à imunofluorescência. O diagnóstico é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Doença de lesões mínimas."
+        },
+        {
+          "letra": "B",
+          "texto": "Nefropatia por IgA (doença de Berger)."
+        },
+        {
+          "letra": "C",
+          "texto": "Necrose tubular aguda isquêmica."
+        },
+        {
+          "letra": "D",
+          "texto": "Glomerulonefrite pós-estreptocócica."
+        },
+        {
+          "letra": "E",
+          "texto": "Doença anti-MBG (Goodpasture)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Doença antimembrana basal glomerular (síndrome de Goodpasture), uma glomerulonefrite rapidamente progressiva tipo I.\n\nGNRP: crescentes (proliferação do epitélio parietal e macrófagos). Tipo I: anti-MBG (linear; com pulmão = Goodpasture, anti-colágeno IV). Tipo II: imunocomplexos (granular: lúpus, pós-infecciosa, IgA). Tipo III: pauci-imune (ANCA)."
+    },
+    {
+      "id": "FISIO-PF-URI2-08",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefropatia por IgA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndromes glomerulares (nefropatia por IgA)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Jovem de 22 anos apresenta episódios de hematúria macroscópica 1 a 2 dias após infecções de vias aéreas superiores, que se resolvem espontaneamente. A biópsia mostra depósitos mesangiais de IgA. Assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É a doença de lesões mínimas."
+        },
+        {
+          "letra": "B",
+          "texto": "É a glomerulonefrite pós-estreptocócica, cuja hematúria surge 2 a 3 semanas após a faringite."
+        },
+        {
+          "letra": "C",
+          "texto": "É a nefropatia membranosa, com depósitos subepiteliais."
+        },
+        {
+          "letra": "D",
+          "texto": "É a nefropatia por IgA (doença de Berger), a glomerulonefrite primária mais comum no mundo."
+        },
+        {
+          "letra": "E",
+          "texto": "É uma síndrome nefrótica com complemento baixo."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** É a nefropatia por IgA (doença de Berger), a glomerulonefrite primária mais comum no mundo, com hematúria recorrente logo após (ou junto com) infecções de mucosa.\n\nDiferença clássica: IgA → hematúria **sincrônica** à infecção (1–2 dias); GNPE → **latência** de 1–3 semanas e C3 baixo. A púrpura de Henoch-Schönlein é a forma sistêmica da deposição de IgA."
+    },
+    {
+      "id": "FISIO-PF-URI2-09",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefropatia diabética · morfologia",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal diabética",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na biópsia renal de um diabético de longa data com proteinúria, encontram-se nódulos acelulares, PAS-positivos, na periferia dos tufos glomerulares, com espessamento da membrana basal e arteriolosclerose hialina das arteríolas aferente e eferente. A lesão característica é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Depósitos subepiteliais em corcova."
+        },
+        {
+          "letra": "B",
+          "texto": "Crescentes epiteliais da GNRP."
+        },
+        {
+          "letra": "C",
+          "texto": "Glomerulosclerose nodular (lesão de Kimmelstiel-Wilson)."
+        },
+        {
+          "letra": "D",
+          "texto": "Apagamento isolado dos processos podais."
+        },
+        {
+          "letra": "E",
+          "texto": "Necrose fibrinoide das arteríolas por hipertensão maligna."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Doença renal diabética: espessamento da MBG (lesão mais precoce), esclerose mesangial difusa, Kimmelstiel-Wilson (nodular), hialinose arteriolar aferente **e eferente**. Clínica: microalbuminúria → proteinúria nefrótica → DRC."
+    },
+    {
+      "id": "FISIO-PF-URI2-10",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "LRA · pré-renal × NTA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão renal aguda (pré-renal × renal)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso desidratado por diarreia apresenta oligúria e creatinina elevada. Qual conjunto de achados urinários indica que a azotemia ainda é pré-renal, sem necrose tubular estabelecida?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Urina concentrada, sódio urinário baixo e FENa < 1%."
+        },
+        {
+          "letra": "B",
+          "texto": "Hematúria macroscópica com coágulos."
+        },
+        {
+          "letra": "C",
+          "texto": "Cilindros hemáticos e proteinúria nefrótica."
+        },
+        {
+          "letra": "D",
+          "texto": "Urina isostenúrica, sódio urinário alto e cilindros granulosos \"cor de lama\"."
+        },
+        {
+          "letra": "E",
+          "texto": "Leucocitúria com cilindros leucocitários e eosinofilúria."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Urina concentrada (densidade e osmolaridade elevadas), sódio urinário baixo e fração de excreção de sódio menor que 1%, com sedimento sem cilindros granulosos.\n\nNa pré-renal o túbulo íntegro reabsorve avidamente sódio e água (FENa < 1%). Na NTA o túbulo lesado perde essa capacidade: urina isostenúrica, FENa > 2%, cilindros granulosos e células tubulares."
+    },
+    {
+      "id": "FISIO-PF-URI2-11",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "NTA · mecanismos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda (isquêmica e tóxica)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a necrose (lesão) tubular aguda, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Pode ser isquêmica (choque, sepse, hipotensão prolongada) ou nefrotóxica (aminoglicosídeos, contraste iodado, mioglobina, hemoglobina).\nII. A lesão do epitélio tubular é focal, e células descamadas formam cilindros que obstruem os túbulos e elevam a pressão intratubular.\nIII. O retrovazamento do filtrado através do epitélio lesado e a vasoconstrição intrarrenal contribuem para a queda da filtração.\nIV. É geralmente irreversível, pois o epitélio tubular não se regenera.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "II, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, II, III e IV."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "A NTA é geralmente **reversível**: o epitélio tubular regenera (fases de início, manutenção oligúrica e recuperação com poliúria)."
+    },
+    {
+      "id": "FISIO-PF-URI2-12",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "NTA · fases",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda (curso clínico)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente em recuperação de necrose tubular aguda isquêmica passa a urinar grandes volumes (poliúria), com perda de sódio e potássio. Essa fase se explica por:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Obstrução ureteral bilateral súbita."
+        },
+        {
+          "letra": "B",
+          "texto": "Insuficiência cardíaca descompensada."
+        },
+        {
+          "letra": "C",
+          "texto": "Lesão glomerular irreversível com perda de proteínas."
+        },
+        {
+          "letra": "D",
+          "texto": "Excesso de hormônio antidiurético."
+        },
+        {
+          "letra": "E",
+          "texto": "A filtração volta antes da função tubular."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Recuperação da filtração glomerular antes que o epitélio tubular regenerado recupere plenamente a capacidade de reabsorção e de concentração.\n\nFase de recuperação (poliúrica): risco de hipocalemia, hiponatremia e desidratação; exige reposição cuidadosa."
+    },
+    {
+      "id": "FISIO-PF-URI2-13",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "rabdomiólise · mioglobinúria",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda nefrotóxica (pigmentos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após esmagamento de membros num desabamento, paciente apresenta urina escura, oligúria, CPK muito elevada e fita urinária positiva para sangue, mas sem hemácias à microscopia. O mecanismo da lesão renal é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Nefrite intersticial alérgica por fármaco."
+        },
+        {
+          "letra": "B",
+          "texto": "Glomerulonefrite por imunocomplexos com hematúria dismórfica."
+        },
+        {
+          "letra": "C",
+          "texto": "Obstrução ureteral por cálculo de ácido úrico."
+        },
+        {
+          "letra": "D",
+          "texto": "Mioglobina liberada pela rabdomiólise, filtrada no glomérulo."
+        },
+        {
+          "letra": "E",
+          "texto": "Síndrome nefrótica por lesão podocitária."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Mioglobina liberada pela rabdomiólise, filtrada no glomérulo, que forma cilindros pigmentados e é tóxica ao epitélio tubular, causando lesão tubular aguda.\n\nFita positiva para \"sangue\" sem hemácias = pigmento (mioglobina ou hemoglobina). Hidratação vigorosa previne a lesão."
+    },
+    {
+      "id": "FISIO-PF-URI2-14",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "pielonefrite crônica",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · pielonefrite e infecção do trato urinário",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a pielonefrite crônica, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acomete apenas a bexiga, sem lesão do parênquima renal."
+        },
+        {
+          "letra": "B",
+          "texto": "Cicatrizes corticomedulares com deformidade dos cálices."
+        },
+        {
+          "letra": "C",
+          "texto": "É uma glomerulopatia por imunocomplexos com síndrome nefrótica."
+        },
+        {
+          "letra": "D",
+          "texto": "Não tem relação com refluxo vesicoureteral na infância."
+        },
+        {
+          "letra": "E",
+          "texto": "Produz rins aumentados, lisos e simétricos."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Caracteriza-se por inflamação túbulo-intersticial crônica com cicatrizes corticomedulares irregulares e deformidade dos cálices, associada a refluxo vesicoureteral ou obstrução, podendo evoluir para doença renal crônica.\n\nCicatrizes irregulares, assimétricas, sobre cálices deformados (diferente da nefroesclerose, que é simétrica e granular). Tubos atróficos com cilindros eosinofílicos (\"tireoidização\")."
+    },
+    {
+      "id": "FISIO-PF-URI2-15",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "ITU · fatores de risco",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecção do trato urinário (patogênese)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a patogênese da infecção do trato urinário, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A via hematogênica é a forma mais comum de chegada das bactérias ao rim na pielonefrite aguda."
+        },
+        {
+          "letra": "B",
+          "texto": "O refluxo vesicoureteral facilita a ascensão das bactérias da bexiga para o rim."
+        },
+        {
+          "letra": "C",
+          "texto": "Obstrução, estase urinária, cateterismo vesical, gestação e diabetes favorecem a infecção."
+        },
+        {
+          "letra": "D",
+          "texto": "A maioria das infecções é ascendente, por bactérias da flora intestinal (sobretudo Escherichia coli) que colonizam o períneo e a uretra."
+        },
+        {
+          "letra": "E",
+          "texto": "A uretra curta explica a maior frequência de cistite nas mulheres."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "A via **ascendente** é a mais comum; a hematogênica é rara (sepse estafilocócica, endocardite, imunossupressão)."
+    },
+    {
+      "id": "FISIO-PF-URI2-16",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefrite intersticial · fármacos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · nefrite tubulointersticial aguda (fármacos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a nefrite tubulointersticial aguda induzida por fármacos, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Não melhora com a suspensão do fármaco."
+        },
+        {
+          "letra": "B",
+          "texto": "É dose-dependente e surge apenas após anos de uso do medicamento."
+        },
+        {
+          "letra": "C",
+          "texto": "Hipersensibilidade a fármacos, com eosinofilia e eosinofilúria."
+        },
+        {
+          "letra": "D",
+          "texto": "É causada por deposição de imunocomplexos na membrana basal glomerular."
+        },
+        {
+          "letra": "E",
+          "texto": "Cursa tipicamente com síndrome nefrítica e cilindros hemáticos."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** É uma reação de hipersensibilidade (com infiltrado intersticial de linfócitos e eosinófilos) que surge dias a semanas após o início de fármacos como betalactâmicos, AINEs e diuréticos, podendo cursar com febre, rash, eosinofilia e eosinofilúria.\n\nA retirada do fármaco costuma levar à recuperação. Os AINEs também podem causar nefropatia por lesões mínimas e necrose de papila (uso crônico)."
+    },
+    {
+      "id": "FISIO-PF-URI2-17",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefropatia analgésica",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças túbulo-intersticiais (necrose de papila)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 60 anos que usou grandes quantidades de analgésicos combinados por décadas apresenta doença renal crônica, piúria estéril e eliminação de fragmentos de tecido na urina. A lesão característica é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Doença renal policística autossômica dominante."
+        },
+        {
+          "letra": "B",
+          "texto": "Carcinoma de células renais."
+        },
+        {
+          "letra": "C",
+          "texto": "Doença de lesões mínimas."
+        },
+        {
+          "letra": "D",
+          "texto": "Glomerulonefrite pós-infecciosa."
+        },
+        {
+          "letra": "E",
+          "texto": "Nefropatia por analgésicos."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Nefropatia por analgésicos, com necrose de papila renal e nefrite intersticial crônica.\n\nCausas de necrose de papila: analgésicos (fenacetina, AINEs), diabetes, anemia falciforme, obstrução com pielonefrite."
+    },
+    {
+      "id": "FISIO-PF-URI2-18",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "DRC · manifestações",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal crônica (manifestações sistêmicas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as manifestações da doença renal crônica avançada, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A anemia é normocítica e normocrômica, principalmente pela menor produção de eritropoetina.\nII. A retenção de fosfato e a menor ativação da vitamina D causam hipocalcemia e hiperparatireoidismo secundário, com osteodistrofia renal.\nIII. Há tendência a acidose metabólica e hipercalemia pela menor excreção renal de ácidos e potássio.\nIV. A hipertensão arterial é rara na DRC, pois o rim doente perde sódio.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I e III, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II, III e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, III e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "A HAS é **muito frequente** na DRC (retenção de sódio e água, ativação do SRAA) e acelera a progressão."
+    },
+    {
+      "id": "FISIO-PF-URI2-19",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefroesclerose hipertensiva",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · vasos sanguíneos (nefroesclerose benigna e maligna)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a lesão renal da hipertensão arterial, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Na nefroesclerose benigna há arteriolosclerose hialina e rins simetricamente reduzidos."
+        },
+        {
+          "letra": "B",
+          "texto": "A hipertensão maligna produz rins aumentados por cistos múltiplos."
+        },
+        {
+          "letra": "C",
+          "texto": "A hipertensão maligna nunca causa lesão renal aguda."
+        },
+        {
+          "letra": "D",
+          "texto": "A arteriolosclerose hialina é exclusiva do diabetes."
+        },
+        {
+          "letra": "E",
+          "texto": "A nefroesclerose benigna causa cicatrizes grosseiras e assimétricas sobre cálices deformados."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Na nefroesclerose benigna há arteriolosclerose hialina e rins simetricamente reduzidos, com superfície finamente granular; na hipertensão maligna há arteriolosclerose hiperplásica (\"em casca de cebola\"), necrose fibrinoide e petéquias na superfície renal.\n\nHialina: HAS benigna e diabetes. Hiperplásica (casca de cebola) + necrose fibrinoide: HAS maligna (rim \"picado de pulga\")."
+    },
+    {
+      "id": "FISIO-PF-URI2-20",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "litíase · tipos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · obstrução do trato urinário (urolitíase)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a urolitíase, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A obstrução por cálculo nunca causa hidronefrose."
+        },
+        {
+          "letra": "B",
+          "texto": "Os cálculos mais comuns são de oxalato de cálcio."
+        },
+        {
+          "letra": "C",
+          "texto": "Os cálculos de estruvita estão associados à urina ácida e à gota."
+        },
+        {
+          "letra": "D",
+          "texto": "A hipocalciúria é o principal fator de risco para cálculos de cálcio."
+        },
+        {
+          "letra": "E",
+          "texto": "Os cálculos de ácido úrico são radiopacos e se formam em urina alcalina."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Os cálculos mais comuns são de oxalato de cálcio; os de estruvita (fosfato de amônio e magnésio) se formam em urina alcalina por bactérias produtoras de urease, como Proteus, e podem formar cálculos coraliformes.\n\nÁcido úrico: urina ácida, radiotransparentes (gota, lise tumoral). Cistina: defeito tubular hereditário. Obstrução → hidronefrose e risco de infecção (urossepse)."
+    },
+    {
+      "id": "FISIO-PF-URI2-21",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "hidronefrose",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · obstrução do trato urinário (hidronefrose)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 70 anos com hiperplasia prostática e jato urinário fraco há anos apresenta creatinina elevada; o ultrassom mostra dilatação bilateral da pelve e dos cálices renais, com adelgaçamento do parênquima. O mecanismo da insuficiência renal é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Obstrução ao fluxo urinário (pós-renal)."
+        },
+        {
+          "letra": "B",
+          "texto": "Necrose tubular aguda por contraste."
+        },
+        {
+          "letra": "C",
+          "texto": "Lesão glomerular por imunocomplexos."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipoperfusão renal por desidratação."
+        },
+        {
+          "letra": "E",
+          "texto": "Nefropatia por IgA."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Obstrução ao fluxo urinário (pós-renal), com aumento da pressão retrógrada, dilatação do sistema coletor (hidronefrose) e atrofia progressiva do parênquima.\n\nObstrução bilateral (próstata, bexiga neurogênica) ou unilateral em rim único → azotemia pós-renal; tratamento: desobstrução (sonda vesical). A obstrução crônica leva a atrofia."
+    },
+    {
+      "id": "FISIO-PF-URI2-22",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "síndrome nefrítica · GNPE",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomerulonefrite pós-infecciosa",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique a fisiopatologia da glomerulonefrite pós-estreptocócica e relacione os mecanismos a cada manifestação clínica (hematúria, oligúria, edema e hipertensão).",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Patogênese**: 1 a 3 semanas após faringite ou piodermite por estreptococo β-hemolítico do grupo A (cepas nefritogênicas), formam-se **imunocomplexos** (circulantes ou in situ) que se depositam nos glomérulos (depósitos subepiteliais em \"corcova\"). Eles ativam o **complemento** (C3 baixo), recrutam neutrófilos e monócitos e induzem **proliferação endocapilar** — glomérulos hipercelulares.\n\n**Manifestações**:\n- **Hematúria** (urina \"cor de coca-cola\") com **cilindros hemáticos**: lesão inflamatória da parede capilar permite a passagem de hemácias.\n- **Oligúria e azotemia**: a proliferação e a inflamação obstruem os capilares e reduzem a **taxa de filtração glomerular**.\n- **Edema** (periorbitário) e **hipertensão**: a queda da filtração, com reabsorção tubular mantida, causa **retenção de sódio e água** e expansão de volume.\n- Proteinúria geralmente subnefrótica.\n\nNa criança o prognóstico é bom (recuperação na maioria).",
+      "comentario": null
+    },
+    {
+      "id": "FISIO-PF-URI2-23",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "LRA · classificação",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão renal aguda",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Classifique a lesão renal aguda quanto ao mecanismo (pré-renal, renal e pós-renal), citando a fisiopatologia e dois exemplos de cada.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "- **Pré-renal**: hipoperfusão renal com parênquima íntegro; a filtração cai, mas o túbulo reabsorve avidamente sódio e água (urina concentrada, FENa < 1%). Exemplos: desidratação (diarreia, vômitos), hemorragia, choque, insuficiência cardíaca, cirrose; AINE e IECA em paciente hipovolêmico. Corrigida a perfusão, a função volta; se a isquemia persiste, evolui para NTA.\n- **Renal (intrínseca)**: lesão do parênquima. Exemplos: **necrose tubular aguda** (isquemia prolongada, sepse, aminoglicosídeos, contraste, mioglobina), **glomerulonefrites** (pós-estreptocócica, GNRP), **nefrite intersticial aguda** por fármacos, doenças vasculares (hipertensão maligna, SHU).\n- **Pós-renal**: obstrução ao fluxo urinário com aumento da pressão retrógrada e queda da filtração. Exemplos: hiperplasia/câncer de próstata, cálculos bilaterais (ou em rim único), tumores pélvicos, bexiga neurogênica. Tratamento: desobstrução.",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Pré-renal: hipoperfusão (desidratação, choque, IC). Renal: lesão do parênquima. Pós-renal: obstrução ao fluxo urinário. Uremia: pericardite, gastroenterite, neuropatia, encefalopatia, disfunção plaquetária."
-  },
-  {
-   "id": "FISIO-PF-URI2-02",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "síndrome nefrítica",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndromes glomerulares (nefrítica)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a síndrome nefrítica, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Caracteriza-se por hematúria com cilindros hemáticos, oligúria, azotemia e hipertensão arterial.\nII. A proteinúria costuma ser inferior à da faixa nefrótica, e o edema é geralmente leve.\nIII. Resulta de inflamação glomerular com proliferação celular e lesão da parede capilar, reduzindo a taxa de filtração.\nIV. A doença de lesões mínimas é a causa clássica de síndrome nefrítica na criança.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I e II, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I, II, III e IV."
-    },
-    {
-     "letra": "C",
-     "texto": "III e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "II e III, apenas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Lesões mínimas é a causa clássica de síndrome **nefrótica** na criança; a nefrítica clássica é a GN pós-estreptocócica."
-  },
-  {
-   "id": "FISIO-PF-URI2-03",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "lesões mínimas · caso",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (doença de lesões mínimas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Menino de 4 anos com edema palpebral matinal que progrediu para anasarca em uma semana. Proteinúria maciça, albumina sérica de 1,8 g/dL, colesterol elevado, sem hematúria, pressão e função renal normais. À microscopia óptica, os glomérulos parecem normais. Sobre a doença provável, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É a nefropatia membranosa, com espículas na membrana basal."
-    },
-    {
-     "letra": "B",
-     "texto": "É a doença de lesões mínimas, cuja alteração principal é o apagamento difuso dos processos podais dos podócitos à microscopia eletrônica, com ótima resposta a corticoide."
-    },
-    {
-     "letra": "C",
-     "texto": "É a glomerulonefrite pós-estreptocócica, com depósitos subepiteliais em \"corcova\"."
-    },
-    {
-     "letra": "D",
-     "texto": "É a nefrite lúpica classe IV, com hipocomplementemia."
-    },
-    {
-     "letra": "E",
-     "texto": "É a doença anti-membrana basal, com depósito linear de IgG."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Lesões mínimas: causa mais comum de nefrótica na criança; MO normal, imunofluorescência negativa, ME com fusão/apagamento dos processos podais; proteinúria seletiva (albumina); corticossensível."
-  },
-  {
-   "id": "FISIO-PF-URI2-04",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefropatia membranosa",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (nefropatia membranosa)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 55 anos com síndrome nefrótica. A biópsia mostra espessamento difuso da membrana basal glomerular, com depósitos subepiteliais de imunocomplexos e \"espículas\" na coloração pela prata. Sobre a doença, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É a doença de lesões mínimas, típica da criança."
-    },
-    {
-     "letra": "B",
-     "texto": "É uma glomerulonefrite proliferativa que cursa com síndrome nefrítica."
-    },
-    {
-     "letra": "C",
-     "texto": "É a glomerulosclerose nodular diabética."
-    },
-    {
-     "letra": "D",
-     "texto": "Não se associa a tromboses, pois não causa perda de anticoagulantes."
-    },
-    {
-     "letra": "E",
-     "texto": "É a nefropatia membranosa, causa frequente de síndrome nefrótica no adulto, na maioria das vezes primária, associada a autoanticorpos contra o receptor de fosfolipase A2 (PLA2R) dos podócitos."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Membranosa: depósitos subepiteliais, MBG espessada com espículas; secundária a lúpus, hepatite B, tumores, fármacos. Risco elevado de trombose de veia renal (estado de hipercoagulabilidade)."
-  },
-  {
-   "id": "FISIO-PF-URI2-05",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "GESF",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (glomerulosclerose segmentar e focal)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a glomerulosclerose segmentar e focal (GESF), assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Caracteriza-se por esclerose de alguns glomérulos (focal), acometendo apenas parte de cada glomérulo (segmentar); pode ser primária ou secundária a HIV, obesidade, refluxo ou perda de néfrons, e responde pior ao corticoide que a doença de lesões mínimas."
-    },
-    {
-     "letra": "B",
-     "texto": "É causada por depósito linear de anticorpos anti-MBG."
-    },
-    {
-     "letra": "C",
-     "texto": "É a principal causa de síndrome nefrítica pós-infecciosa."
-    },
-    {
-     "letra": "D",
-     "texto": "Tem prognóstico melhor que a doença de lesões mínimas, com remissão espontânea na maioria."
-    },
-    {
-     "letra": "E",
-     "texto": "Acomete todos os glomérulos de forma difusa e global."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Focal = alguns glomérulos; segmentar = parte do glomérulo. Na população negra e no HIV (nefropatia associada ao HIV, forma colapsante) é causa importante de nefrótica; evolui frequentemente para DRC."
-  },
-  {
-   "id": "FISIO-PF-URI2-06",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "síndrome nefrótica · mecanismos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndrome nefrótica (fisiopatologia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Analise as afirmativas sobre a fisiopatologia da síndrome nefrótica e assinale a alternativa com todas as corretas:\n\nI. A proteinúria maciça decorre da lesão da barreira de filtração, principalmente dos podócitos e da membrana basal.\nII. A hipoalbuminemia reduz a pressão oncótica do plasma, e a redução do volume efetivo ativa o sistema renina-angiotensina-aldosterona, com retenção de sódio e água.\nIII. A perda urinária de antitrombina III e de proteínas C e S favorece a trombose, inclusive de veia renal.\nIV. A hiperlipidemia decorre da perda urinária de lipoproteínas, que estimula sua destruição hepática.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II, III e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, apenas."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "A hiperlipidemia vem do **aumento da síntese hepática** de lipoproteínas (estimulada pela queda da pressão oncótica) e da menor degradação; há lipidúria (corpos graxos ovais, cruz de malta)."
-  },
-  {
-   "id": "FISIO-PF-URI2-07",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "GNRP · caso",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomerulonefrite rapidamente progressiva",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 30 anos com hemoptise e insuficiência renal rapidamente progressiva. A biópsia renal mostra crescentes na maioria dos glomérulos e depósito linear de IgG ao longo da membrana basal à imunofluorescência. O diagnóstico é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Doença de lesões mínimas."
-    },
-    {
-     "letra": "B",
-     "texto": "Nefropatia por IgA (doença de Berger)."
-    },
-    {
-     "letra": "C",
-     "texto": "Necrose tubular aguda isquêmica."
-    },
-    {
-     "letra": "D",
-     "texto": "Glomerulonefrite pós-estreptocócica."
-    },
-    {
-     "letra": "E",
-     "texto": "Doença antimembrana basal glomerular (síndrome de Goodpasture), uma glomerulonefrite rapidamente progressiva tipo I."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "GNRP: crescentes (proliferação do epitélio parietal e macrófagos). Tipo I: anti-MBG (linear; com pulmão = Goodpasture, anti-colágeno IV). Tipo II: imunocomplexos (granular: lúpus, pós-infecciosa, IgA). Tipo III: pauci-imune (ANCA)."
-  },
-  {
-   "id": "FISIO-PF-URI2-08",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefropatia por IgA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · síndromes glomerulares (nefropatia por IgA)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Jovem de 22 anos apresenta episódios de hematúria macroscópica 1 a 2 dias após infecções de vias aéreas superiores, que se resolvem espontaneamente. A biópsia mostra depósitos mesangiais de IgA. Assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É a doença de lesões mínimas."
-    },
-    {
-     "letra": "B",
-     "texto": "É a glomerulonefrite pós-estreptocócica, cuja hematúria surge 2 a 3 semanas após a faringite."
-    },
-    {
-     "letra": "C",
-     "texto": "É a nefropatia membranosa, com depósitos subepiteliais."
-    },
-    {
-     "letra": "D",
-     "texto": "É a nefropatia por IgA (doença de Berger), a glomerulonefrite primária mais comum no mundo, com hematúria recorrente logo após (ou junto com) infecções de mucosa."
-    },
-    {
-     "letra": "E",
-     "texto": "É uma síndrome nefrótica com complemento baixo."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Diferença clássica: IgA → hematúria **sincrônica** à infecção (1–2 dias); GNPE → **latência** de 1–3 semanas e C3 baixo. A púrpura de Henoch-Schönlein é a forma sistêmica da deposição de IgA."
-  },
-  {
-   "id": "FISIO-PF-URI2-09",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefropatia diabética · morfologia",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal diabética",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na biópsia renal de um diabético de longa data com proteinúria, encontram-se nódulos acelulares, PAS-positivos, na periferia dos tufos glomerulares, com espessamento da membrana basal e arteriolosclerose hialina das arteríolas aferente e eferente. A lesão característica é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Depósitos subepiteliais em corcova."
-    },
-    {
-     "letra": "B",
-     "texto": "Crescentes epiteliais da GNRP."
-    },
-    {
-     "letra": "C",
-     "texto": "Glomerulosclerose nodular (lesão de Kimmelstiel-Wilson)."
-    },
-    {
-     "letra": "D",
-     "texto": "Apagamento isolado dos processos podais."
-    },
-    {
-     "letra": "E",
-     "texto": "Necrose fibrinoide das arteríolas por hipertensão maligna."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Doença renal diabética: espessamento da MBG (lesão mais precoce), esclerose mesangial difusa, Kimmelstiel-Wilson (nodular), hialinose arteriolar aferente **e eferente**. Clínica: microalbuminúria → proteinúria nefrótica → DRC."
-  },
-  {
-   "id": "FISIO-PF-URI2-10",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "LRA · pré-renal × NTA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão renal aguda (pré-renal × renal)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso desidratado por diarreia apresenta oligúria e creatinina elevada. Qual conjunto de achados urinários indica que a azotemia ainda é pré-renal, sem necrose tubular estabelecida?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Urina concentrada (densidade e osmolaridade elevadas), sódio urinário baixo e fração de excreção de sódio menor que 1%, com sedimento sem cilindros granulosos."
-    },
-    {
-     "letra": "B",
-     "texto": "Hematúria macroscópica com coágulos."
-    },
-    {
-     "letra": "C",
-     "texto": "Cilindros hemáticos e proteinúria nefrótica."
-    },
-    {
-     "letra": "D",
-     "texto": "Urina isostenúrica, sódio urinário alto e cilindros granulosos \"cor de lama\"."
-    },
-    {
-     "letra": "E",
-     "texto": "Leucocitúria com cilindros leucocitários e eosinofilúria."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Na pré-renal o túbulo íntegro reabsorve avidamente sódio e água (FENa < 1%). Na NTA o túbulo lesado perde essa capacidade: urina isostenúrica, FENa > 2%, cilindros granulosos e células tubulares."
-  },
-  {
-   "id": "FISIO-PF-URI2-11",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "NTA · mecanismos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda (isquêmica e tóxica)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a necrose (lesão) tubular aguda, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Pode ser isquêmica (choque, sepse, hipotensão prolongada) ou nefrotóxica (aminoglicosídeos, contraste iodado, mioglobina, hemoglobina).\nII. A lesão do epitélio tubular é focal, e células descamadas formam cilindros que obstruem os túbulos e elevam a pressão intratubular.\nIII. O retrovazamento do filtrado através do epitélio lesado e a vasoconstrição intrarrenal contribuem para a queda da filtração.\nIV. É geralmente irreversível, pois o epitélio tubular não se regenera.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "II, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, II, III e IV."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "A NTA é geralmente **reversível**: o epitélio tubular regenera (fases de início, manutenção oligúrica e recuperação com poliúria)."
-  },
-  {
-   "id": "FISIO-PF-URI2-12",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "NTA · fases",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda (curso clínico)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em recuperação de necrose tubular aguda isquêmica passa a urinar grandes volumes (poliúria), com perda de sódio e potássio. Essa fase se explica por:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Obstrução ureteral bilateral súbita."
-    },
-    {
-     "letra": "B",
-     "texto": "Insuficiência cardíaca descompensada."
-    },
-    {
-     "letra": "C",
-     "texto": "Lesão glomerular irreversível com perda de proteínas."
-    },
-    {
-     "letra": "D",
-     "texto": "Excesso de hormônio antidiurético."
-    },
-    {
-     "letra": "E",
-     "texto": "Recuperação da filtração glomerular antes que o epitélio tubular regenerado recupere plenamente a capacidade de reabsorção e de concentração."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Fase de recuperação (poliúrica): risco de hipocalemia, hiponatremia e desidratação; exige reposição cuidadosa."
-  },
-  {
-   "id": "FISIO-PF-URI2-13",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "rabdomiólise · mioglobinúria",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão tubular aguda nefrotóxica (pigmentos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após esmagamento de membros num desabamento, paciente apresenta urina escura, oligúria, CPK muito elevada e fita urinária positiva para sangue, mas sem hemácias à microscopia. O mecanismo da lesão renal é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Nefrite intersticial alérgica por fármaco."
-    },
-    {
-     "letra": "B",
-     "texto": "Glomerulonefrite por imunocomplexos com hematúria dismórfica."
-    },
-    {
-     "letra": "C",
-     "texto": "Obstrução ureteral por cálculo de ácido úrico."
-    },
-    {
-     "letra": "D",
-     "texto": "Mioglobina liberada pela rabdomiólise, filtrada no glomérulo, que forma cilindros pigmentados e é tóxica ao epitélio tubular, causando lesão tubular aguda."
-    },
-    {
-     "letra": "E",
-     "texto": "Síndrome nefrótica por lesão podocitária."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Fita positiva para \"sangue\" sem hemácias = pigmento (mioglobina ou hemoglobina). Hidratação vigorosa previne a lesão."
-  },
-  {
-   "id": "FISIO-PF-URI2-14",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "pielonefrite crônica",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · pielonefrite e infecção do trato urinário",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a pielonefrite crônica, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Acomete apenas a bexiga, sem lesão do parênquima renal."
-    },
-    {
-     "letra": "B",
-     "texto": "Caracteriza-se por inflamação túbulo-intersticial crônica com cicatrizes corticomedulares irregulares e deformidade dos cálices, associada a refluxo vesicoureteral ou obstrução, podendo evoluir para doença renal crônica."
-    },
-    {
-     "letra": "C",
-     "texto": "É uma glomerulopatia por imunocomplexos com síndrome nefrótica."
-    },
-    {
-     "letra": "D",
-     "texto": "Não tem relação com refluxo vesicoureteral na infância."
-    },
-    {
-     "letra": "E",
-     "texto": "Produz rins aumentados, lisos e simétricos."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Cicatrizes irregulares, assimétricas, sobre cálices deformados (diferente da nefroesclerose, que é simétrica e granular). Tubos atróficos com cilindros eosinofílicos (\"tireoidização\")."
-  },
-  {
-   "id": "FISIO-PF-URI2-15",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "ITU · fatores de risco",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecção do trato urinário (patogênese)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a patogênese da infecção do trato urinário, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A via hematogênica é a forma mais comum de chegada das bactérias ao rim na pielonefrite aguda."
-    },
-    {
-     "letra": "B",
-     "texto": "O refluxo vesicoureteral facilita a ascensão das bactérias da bexiga para o rim."
-    },
-    {
-     "letra": "C",
-     "texto": "Obstrução, estase urinária, cateterismo vesical, gestação e diabetes favorecem a infecção."
-    },
-    {
-     "letra": "D",
-     "texto": "A maioria das infecções é ascendente, por bactérias da flora intestinal (sobretudo Escherichia coli) que colonizam o períneo e a uretra."
-    },
-    {
-     "letra": "E",
-     "texto": "A uretra curta explica a maior frequência de cistite nas mulheres."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "A via **ascendente** é a mais comum; a hematogênica é rara (sepse estafilocócica, endocardite, imunossupressão)."
-  },
-  {
-   "id": "FISIO-PF-URI2-16",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefrite intersticial · fármacos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · nefrite tubulointersticial aguda (fármacos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a nefrite tubulointersticial aguda induzida por fármacos, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Não melhora com a suspensão do fármaco."
-    },
-    {
-     "letra": "B",
-     "texto": "É dose-dependente e surge apenas após anos de uso do medicamento."
-    },
-    {
-     "letra": "C",
-     "texto": "É uma reação de hipersensibilidade (com infiltrado intersticial de linfócitos e eosinófilos) que surge dias a semanas após o início de fármacos como betalactâmicos, AINEs e diuréticos, podendo cursar com febre, rash, eosinofilia e eosinofilúria."
-    },
-    {
-     "letra": "D",
-     "texto": "É causada por deposição de imunocomplexos na membrana basal glomerular."
-    },
-    {
-     "letra": "E",
-     "texto": "Cursa tipicamente com síndrome nefrítica e cilindros hemáticos."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "A retirada do fármaco costuma levar à recuperação. Os AINEs também podem causar nefropatia por lesões mínimas e necrose de papila (uso crônico)."
-  },
-  {
-   "id": "FISIO-PF-URI2-17",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefropatia analgésica",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças túbulo-intersticiais (necrose de papila)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 60 anos que usou grandes quantidades de analgésicos combinados por décadas apresenta doença renal crônica, piúria estéril e eliminação de fragmentos de tecido na urina. A lesão característica é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Doença renal policística autossômica dominante."
-    },
-    {
-     "letra": "B",
-     "texto": "Carcinoma de células renais."
-    },
-    {
-     "letra": "C",
-     "texto": "Doença de lesões mínimas."
-    },
-    {
-     "letra": "D",
-     "texto": "Glomerulonefrite pós-infecciosa."
-    },
-    {
-     "letra": "E",
-     "texto": "Nefropatia por analgésicos, com necrose de papila renal e nefrite intersticial crônica."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Causas de necrose de papila: analgésicos (fenacetina, AINEs), diabetes, anemia falciforme, obstrução com pielonefrite."
-  },
-  {
-   "id": "FISIO-PF-URI2-18",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "DRC · manifestações",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença renal crônica (manifestações sistêmicas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as manifestações da doença renal crônica avançada, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A anemia é normocítica e normocrômica, principalmente pela menor produção de eritropoetina.\nII. A retenção de fosfato e a menor ativação da vitamina D causam hipocalcemia e hiperparatireoidismo secundário, com osteodistrofia renal.\nIII. Há tendência a acidose metabólica e hipercalemia pela menor excreção renal de ácidos e potássio.\nIV. A hipertensão arterial é rara na DRC, pois o rim doente perde sódio.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I e III, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II, III e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, III e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "A HAS é **muito frequente** na DRC (retenção de sódio e água, ativação do SRAA) e acelera a progressão."
-  },
-  {
-   "id": "FISIO-PF-URI2-19",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefroesclerose hipertensiva",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · vasos sanguíneos (nefroesclerose benigna e maligna)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a lesão renal da hipertensão arterial, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Na nefroesclerose benigna há arteriolosclerose hialina e rins simetricamente reduzidos, com superfície finamente granular; na hipertensão maligna há arteriolosclerose hiperplásica (\"em casca de cebola\"), necrose fibrinoide e petéquias na superfície renal."
-    },
-    {
-     "letra": "B",
-     "texto": "A hipertensão maligna produz rins aumentados por cistos múltiplos."
-    },
-    {
-     "letra": "C",
-     "texto": "A hipertensão maligna nunca causa lesão renal aguda."
-    },
-    {
-     "letra": "D",
-     "texto": "A arteriolosclerose hialina é exclusiva do diabetes."
-    },
-    {
-     "letra": "E",
-     "texto": "A nefroesclerose benigna causa cicatrizes grosseiras e assimétricas sobre cálices deformados."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Hialina: HAS benigna e diabetes. Hiperplásica (casca de cebola) + necrose fibrinoide: HAS maligna (rim \"picado de pulga\")."
-  },
-  {
-   "id": "FISIO-PF-URI2-20",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "litíase · tipos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · obstrução do trato urinário (urolitíase)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a urolitíase, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A obstrução por cálculo nunca causa hidronefrose."
-    },
-    {
-     "letra": "B",
-     "texto": "Os cálculos mais comuns são de oxalato de cálcio; os de estruvita (fosfato de amônio e magnésio) se formam em urina alcalina por bactérias produtoras de urease, como Proteus, e podem formar cálculos coraliformes."
-    },
-    {
-     "letra": "C",
-     "texto": "Os cálculos de estruvita estão associados à urina ácida e à gota."
-    },
-    {
-     "letra": "D",
-     "texto": "A hipocalciúria é o principal fator de risco para cálculos de cálcio."
-    },
-    {
-     "letra": "E",
-     "texto": "Os cálculos de ácido úrico são radiopacos e se formam em urina alcalina."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Ácido úrico: urina ácida, radiotransparentes (gota, lise tumoral). Cistina: defeito tubular hereditário. Obstrução → hidronefrose e risco de infecção (urossepse)."
-  },
-  {
-   "id": "FISIO-PF-URI2-21",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "hidronefrose",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · obstrução do trato urinário (hidronefrose)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 70 anos com hiperplasia prostática e jato urinário fraco há anos apresenta creatinina elevada; o ultrassom mostra dilatação bilateral da pelve e dos cálices renais, com adelgaçamento do parênquima. O mecanismo da insuficiência renal é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Obstrução ao fluxo urinário (pós-renal), com aumento da pressão retrógrada, dilatação do sistema coletor (hidronefrose) e atrofia progressiva do parênquima."
-    },
-    {
-     "letra": "B",
-     "texto": "Necrose tubular aguda por contraste."
-    },
-    {
-     "letra": "C",
-     "texto": "Lesão glomerular por imunocomplexos."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipoperfusão renal por desidratação."
-    },
-    {
-     "letra": "E",
-     "texto": "Nefropatia por IgA."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Obstrução bilateral (próstata, bexiga neurogênica) ou unilateral em rim único → azotemia pós-renal; tratamento: desobstrução (sonda vesical). A obstrução crônica leva a atrofia."
-  },
-  {
-   "id": "FISIO-PF-URI2-22",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "síndrome nefrítica · GNPE",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · glomerulonefrite pós-infecciosa",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique a fisiopatologia da glomerulonefrite pós-estreptocócica e relacione os mecanismos a cada manifestação clínica (hematúria, oligúria, edema e hipertensão).",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Patogênese**: 1 a 3 semanas após faringite ou piodermite por estreptococo β-hemolítico do grupo A (cepas nefritogênicas), formam-se **imunocomplexos** (circulantes ou in situ) que se depositam nos glomérulos (depósitos subepiteliais em \"corcova\"). Eles ativam o **complemento** (C3 baixo), recrutam neutrófilos e monócitos e induzem **proliferação endocapilar** — glomérulos hipercelulares.\n\n**Manifestações**:\n- **Hematúria** (urina \"cor de coca-cola\") com **cilindros hemáticos**: lesão inflamatória da parede capilar permite a passagem de hemácias.\n- **Oligúria e azotemia**: a proliferação e a inflamação obstruem os capilares e reduzem a **taxa de filtração glomerular**.\n- **Edema** (periorbitário) e **hipertensão**: a queda da filtração, com reabsorção tubular mantida, causa **retenção de sódio e água** e expansão de volume.\n- Proteinúria geralmente subnefrótica.\n\nNa criança o prognóstico é bom (recuperação na maioria).",
-   "comentario": null
-  },
-  {
-   "id": "FISIO-PF-URI2-23",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "LRA · classificação",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Rim e trato urinário · Silbernagl (rim) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · lesão renal aguda",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Classifique a lesão renal aguda quanto ao mecanismo (pré-renal, renal e pós-renal), citando a fisiopatologia e dois exemplos de cada.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "- **Pré-renal**: hipoperfusão renal com parênquima íntegro; a filtração cai, mas o túbulo reabsorve avidamente sódio e água (urina concentrada, FENa < 1%). Exemplos: desidratação (diarreia, vômitos), hemorragia, choque, insuficiência cardíaca, cirrose; AINE e IECA em paciente hipovolêmico. Corrigida a perfusão, a função volta; se a isquemia persiste, evolui para NTA.\n- **Renal (intrínseca)**: lesão do parênquima. Exemplos: **necrose tubular aguda** (isquemia prolongada, sepse, aminoglicosídeos, contraste, mioglobina), **glomerulonefrites** (pós-estreptocócica, GNRP), **nefrite intersticial aguda** por fármacos, doenças vasculares (hipertensão maligna, SHU).\n- **Pós-renal**: obstrução ao fluxo urinário com aumento da pressão retrógrada e queda da filtração. Exemplos: hiperplasia/câncer de próstata, cálculos bilaterais (ou em rim único), tumores pélvicos, bexiga neurogênica. Tratamento: desobstrução.",
-   "comentario": null
-  }
- ]
+  ]
 }

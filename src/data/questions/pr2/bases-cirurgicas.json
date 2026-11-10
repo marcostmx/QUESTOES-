@@ -77,12 +77,12 @@
     "options": [
       "A dieta enteral plena deve ser iniciada imediatamente para combater o catabolismo.",
       "A meta de ressuscitação é PAM ≥ 90 mmHg e lactato acima de 4 mmol/L.",
-      "Há choque apesar da pressão aparentemente aceitável: taquicardia, lactato > 4 e má perfusão periférica indicam hipoperfusão, e a ressuscitação deve buscar PAM ≥ 65 mmHg, diurese ≥ 0,5 mL/kg/h e queda do lactato.",
+      "Há choque apesar da pressão aparentemente aceitável.",
       "A pressão arterial normal descarta choque, e o lactato elevado deve ser ignorado.",
       "O antibiótico deve ser adiado até o resultado das hemoculturas, colhidas em 24 horas."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nChoque é falência na oferta/uso de O₂, não só hipotensão. Sepse: antibiótico em ≤ 1 h, 30 mL/kg de cristaloide, noradrenalina se PAM < 65; metas: PAM ≥ 65, lactato < 2 (queda), TEC < 3 s, diurese ≥ 0,5 mL/kg/h, SvcO₂ > 70%. Enteral é contraindicada no choque instável.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Há choque apesar da pressão aparentemente aceitável: taquicardia, lactato > 4 e má perfusão periférica indicam hipoperfusão, e a ressuscitação deve buscar PAM ≥ 65 mmHg, diurese ≥ 0,5 mL/kg/h e queda do lactato.\n\nChoque é falência na oferta/uso de O₂, não só hipotensão. Sepse: antibiótico em ≤ 1 h, 30 mL/kg de cristaloide, noradrenalina se PAM < 65; metas: PAM ≥ 65, lactato < 2 (queda), TEC < 3 s, diurese ≥ 0,5 mL/kg/h, SvcO₂ > 70%. Enteral é contraindicada no choque instável.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 09 Números (choque) e 10 Distratores",
     "origin": "inedita",
     "ref": "BC-PF-04"
@@ -133,14 +133,14 @@
     "subtopic": "cefaleia pós-raqui · caso",
     "stem": "Puérpera submetida a cesariana sob raquianestesia refere, no 2º dia, cefaleia frontoccipital intensa que piora ao sentar ou levantar e melhora ao deitar. Qual a explicação e a conduta inicial?",
     "options": [
-      "Cefaleia pós-punção dural, por perda de líquor pelo orifício da dura; inicialmente repouso, hidratação, analgésicos e cafeína, com tampão sanguíneo peridural (blood patch) nos casos refratários.",
+      "Cefaleia pós-punção dural, por perda de líquor pelo orifício da dura.",
       "Toxicidade sistêmica do anestésico local, tratada com emulsão lipídica.",
       "Hematoma peridural, que exige cirurgia de urgência; o quadro piora ao deitar.",
       "Cefaleia tensional sem relação com a punção, tratada só com relaxante muscular.",
       "Meningite bacteriana, que melhora ao sentar."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nA cefaleia pós-raqui é **postural**: piora ao sentar/levantar e melhora deitado. Agulhas finas e de ponta de lápis reduzem o risco.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Cefaleia pós-punção dural, por perda de líquor pelo orifício da dura; inicialmente repouso, hidratação, analgésicos e cafeína, com tampão sanguíneo peridural (blood patch) nos casos refratários.\n\nA cefaleia pós-raqui é **postural**: piora ao sentar/levantar e melhora deitado. Agulhas finas e de ponta de lápis reduzem o risco.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (complicações do neuroeixo)",
     "origin": "inedita",
     "ref": "BC-PF-07"
@@ -156,13 +156,13 @@
     "stem": "Sobre a avaliação pré-anestésica, assinale a alternativa CORRETA:",
     "options": [
       "Refeição leve exige 2 horas de jejum antes da anestesia.",
-      "A classificação ASA descreve o estado físico do paciente (ASA II: doença sistêmica leve e controlada; ASA III: doença sistêmica grave), e não define a técnica anestésica.",
+      "A ASA descreve o estado físico, não a técnica anestésica.",
       "A classificação ASA define qual técnica anestésica deve ser usada em cada paciente.",
       "O jejum de líquidos claros deve começar à meia-noite para qualquer cirurgia eletiva.",
       "Pacientes ASA IV são candidatos ideais à cirurgia em regime ambulatorial."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nJejum (ASA/ERAS): **2 h** líquidos claros · 4 h leite materno · **6 h** refeição leve/fórmula · 8 h refeição completa. Ambulatorial: ASA I–II (III caso a caso).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A classificação ASA descreve o estado físico do paciente (ASA II: doença sistêmica leve e controlada; ASA III: doença sistêmica grave), e não define a técnica anestésica.\n\nJejum (ASA/ERAS): **2 h** líquidos claros · 4 h leite materno · **6 h** refeição leve/fórmula · 8 h refeição completa. Ambulatorial: ASA I–II (III caso a caso).",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 02 Bases da anestesiologia (avaliação pré-anestésica) e 07 Nutrição (jejum)",
     "origin": "inedita",
     "ref": "BC-PF-08"
@@ -224,11 +224,11 @@
       "1.800 mL nas primeiras 8 h, incluindo o 1º grau no cálculo, a 225 mL/h.",
       "1.500 mL nas 8 h contadas a partir da chegada, a 187,5 mL/h.",
       "3.000 mL nas primeiras 8 h, a 375 mL/h.",
-      "1.500 mL nas primeiras 8 h contadas a partir da queimadura, isto é, 300 mL/h nas 5 horas restantes.",
+      "1.500 mL nas primeiras 8 h contadas a partir da queimadura.",
       "6.000 mL em 24 h, a 250 mL/h desde a chegada."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\n2 mL × 60 kg × 25% = 3.000 mL/24 h; metade (1.500 mL) nas primeiras 8 h **após a queimadura** (não após a chegada) → restam 5 h → 300 mL/h; o restante nas 16 h seguintes. O 1º grau **não** entra na SCQ. Meta: diurese 0,5 mL/kg/h (≈ 30 mL/h).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** 1.500 mL nas primeiras 8 h contadas a partir da queimadura, isto é, 300 mL/h nas 5 horas restantes.\n\n2 mL × 60 kg × 25% = 3.000 mL/24 h; metade (1.500 mL) nas primeiras 8 h **após a queimadura** (não após a chegada) → restam 5 h → 300 mL/h; o restante nas 16 h seguintes. O 1º grau **não** entra na SCQ. Meta: diurese 0,5 mL/kg/h (≈ 30 mL/h).",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras e 09 Cálculos (fórmula da aula/ATLS 10)",
     "origin": "inedita",
     "ref": "BC-PF-11"
@@ -291,10 +291,10 @@
       "Restringir líquidos para evitar edema pulmonar.",
       "Alta após curativo, pois as lesões cutâneas são pequenas.",
       "Diurético de alça como primeira medida, antes da reposição volêmica.",
-      "ECG e monitorização cardíaca, CPK seriada e reposição com 4 mL × kg × %SCQ, ajustando o volume até a urina clarear (≈ 1–1,5 mL/kg/h), atento à síndrome compartimental."
+      "ECG, CPK seriada e volume guiado pela diurese."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNa elétrica a SCQ visível **subestima** a lesão (destruição muscular profunda → mioglobinúria → risco de lesão renal). Arritmias: ECG. Fasciotomia se síndrome compartimental.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** ECG e monitorização cardíaca, CPK seriada e reposição com 4 mL × kg × %SCQ, ajustando o volume até a urina clarear (≈ 1–1,5 mL/kg/h), atento à síndrome compartimental.\n\nNa elétrica a SCQ visível **subestima** a lesão (destruição muscular profunda → mioglobinúria → risco de lesão renal). Arritmias: ECG. Fasciotomia se síndrome compartimental.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 03 Queimaduras (elétrica)",
     "origin": "inedita",
     "ref": "BC-PF-14"
@@ -355,12 +355,12 @@
     "options": [
       "Manter a sutura e aplicar apenas pomada antibiótica.",
       "Aguardar a cicatrização por primeira intenção sem intervenção.",
-      "Abrir a ferida, drenar e desbridar, antibiótico sistêmico conforme gravidade, controle glicêmico e fechamento por terceira intenção quando a ferida estiver limpa.",
+      "Abrir, drenar e desbridar a ferida, com antibiótico se necessário.",
       "Iniciar corticoide para reduzir a inflamação.",
       "Ressuturar imediatamente a ferida e prescrever antibiótico oral."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nFerida infectada: drenagem e desbridamento + ATB + controle dos fatores sistêmicos. Terceira intenção (fechamento primário retardado) após 3–5 dias com a ferida limpa. Feridas crônicas ficam presas na fase **inflamatória**.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Abrir a ferida, drenar e desbridar, antibiótico sistêmico conforme gravidade, controle glicêmico e fechamento por terceira intenção quando a ferida estiver limpa.\n\nFerida infectada: drenagem e desbridamento + ATB + controle dos fatores sistêmicos. Terceira intenção (fechamento primário retardado) após 3–5 dias com a ferida limpa. Feridas crônicas ficam presas na fase **inflamatória**.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 04 Cicatrização (caso M.S.) e 10 Distratores",
     "origin": "inedita",
     "ref": "BC-PF-17"
@@ -485,14 +485,14 @@
     "subtopic": "via de nutrição · caso",
     "stem": "Paciente de 64 anos com câncer de esôfago obstrutivo, perda de 12% do peso em 3 meses, intestino funcionante, será operado em 2 semanas. Qual a melhor estratégia nutricional?",
     "options": [
-      "Terapia nutricional enteral pré-operatória por sonda ou estomia distal à obstrução, por 7 a 14 dias.",
+      "Terapia nutricional enteral pré-operatória por sonda ou estomia distal à obstrução.",
       "Apenas suplemento oral, mesmo sem conseguir deglutir.",
       "Nutrição parenteral total, por ser sempre superior à enteral.",
       "Jejum até a cirurgia para não atrasar o procedimento.",
       "Nutrição parenteral só após o 10º dia de pós-operatório, sem terapia prévia."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nRegra: \"se o intestino funciona, use-o\". A enteral preserva a barreira intestinal e tem menos infecção. NPT só se a enteral for impossível ou insuficiente por > 5–7 dias.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Terapia nutricional enteral pré-operatória por sonda ou estomia distal à obstrução, por 7 a 14 dias.\n\nRegra: \"se o intestino funciona, use-o\". A enteral preserva a barreira intestinal e tem menos infecção. NPT só se a enteral for impossível ou insuficiente por > 5–7 dias.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 07 Terapia nutricional (caso do paciente oncológico)",
     "origin": "inedita",
     "ref": "BC-PF-23"
@@ -510,11 +510,11 @@
       "A síndrome de realimentação ocorre apenas por via oral.",
       "O ERAS recomenda jejum absoluto desde a meia-noite e dieta só após eliminação de flatos.",
       "A hiperfosfatemia é o distúrbio característico da síndrome de realimentação.",
-      "No ERAS recomenda-se jejum de 6 horas para sólidos e de 2 horas para líquidos claros, com bebida rica em carboidrato no pré-operatório e realimentação precoce.",
+      "No ERAS recomenda-se jejum de 6 horas para sólidos e de 2 horas para líquidos claros.",
       "Na realimentação do desnutrido grave, deve-se iniciar com 100% da meta calórica desde o primeiro dia."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nRealimentação: ocorre por qualquer via (mais na parenteral); a insulina desloca fósforo, potássio e magnésio para dentro das células → **hipofosfatemia**, hipocalemia, hipomagnesemia. Iniciar com ~50% da meta e progredir.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** No ERAS recomenda-se jejum de 6 horas para sólidos e de 2 horas para líquidos claros, com bebida rica em carboidrato no pré-operatório e realimentação precoce.\n\nRealimentação: ocorre por qualquer via (mais na parenteral); a insulina desloca fósforo, potássio e magnésio para dentro das células → **hipofosfatemia**, hipocalemia, hipomagnesemia. Iniciar com ~50% da meta e progredir.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 07 Terapia nutricional (ERAS, síndrome de realimentação)",
     "origin": "inedita",
     "ref": "BC-PF-24"
@@ -597,12 +597,12 @@
     "options": [
       "Antissepsia cutânea inadequada é fator de risco relacionado ao paciente.",
       "A tricotomia com lâmina na véspera da cirurgia reduz a infecção.",
-      "A ISC é classificada em incisional superficial, incisional profunda e de órgão/espaço, com vigilância de 30 dias, estendida para 90 dias quando há implante.",
+      "A ISC é classificada em incisional superficial, incisional profunda e de órgão/espaço.",
       "A atelectasia é a principal causa infecciosa de febre no pós-operatório imediato.",
       "A ISC só pode ser notificada com cultura positiva."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nTricotomia com lâmina **aumenta** a infecção (usar tricotomizador, imediatamente antes, só se necessário). Cultura não é obrigatória para notificar. Atelectasia é causa **não** infecciosa. Antissepsia inadequada é fator do **ambiente/procedimento**.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** A ISC é classificada em incisional superficial, incisional profunda e de órgão/espaço, com vigilância de 30 dias, estendida para 90 dias quando há implante.\n\nTricotomia com lâmina **aumenta** a infecção (usar tricotomizador, imediatamente antes, só se necessário). Cultura não é obrigatória para notificar. Atelectasia é causa **não** infecciosa. Antissepsia inadequada é fator do **ambiente/procedimento**.",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 08 Infecção em cirurgia (ISC)",
     "origin": "inedita",
     "ref": "BC-PF-28"
@@ -643,10 +643,10 @@
       "A dor visceral é bem localizada e piora com o movimento.",
       "A dor referida no ombro direito na colecistite indica lesão do plexo braquial.",
       "A dor do intestino médio é percebida no epigástrio.",
-      "A dor de vísceras do intestino médio (delgado, apêndice, cólon direito) é percebida na região periumbilical, mal localizada e acompanhada de sintomas autonômicos."
+      "A dor do intestino médio é periumbilical e mal localizada."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nIntestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio. Dor **parietal** (peritônio parietal): bem localizada, piora com movimento e tosse. Colecistite → ombro direito por irritação diafragmática (C3–C5, nervo frênico).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** A dor de vísceras do intestino médio (delgado, apêndice, cólon direito) é percebida na região periumbilical, mal localizada e acompanhada de sintomas autonômicos.\n\nIntestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio. Dor **parietal** (peritônio parietal): bem localizada, piora com movimento e tosse. Colecistite → ombro direito por irritação diafragmática (C3–C5, nervo frênico).",
     "source": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (Drive), slides da aula e plano IDM030 · 01 Dor abdominal (visceral, parietal, referida)",
     "origin": "inedita",
     "ref": "BC-PF-30"
@@ -785,13 +785,13 @@
     "stem": "Sobre a teoria do portão (Melzack e Wall, 1965), apresentada nos slides da aula, assinale a correta:",
     "options": [
       "As fibras C ativam o interneurônio inibitório da substância gelatinosa e “fecham” o portão.",
-      "As fibras Aβ ativam o interneurônio inibitório da substância gelatinosa e “fecham” o portão, reduzindo o sinal que sobe ao encéfalo.",
+      "As fibras Aβ ativam interneurônios inibitórios e \"fecham\" o portão.",
       "O portão só é controlado por estímulos periféricos; atenção e emoção não interferem.",
       "A TENS age abrindo o portão para a dor.",
       "Quando só as fibras C estão ativas, o neurônio de projeção (T) fica inibido."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nEsquema do slide: portão fechado — a fibra calibrosa Aβ (tato, pressão) excita o interneurônio inibitório da substância gelatinosa (SG), que inibe o neurônio de projeção (T) → baixa saída ao encéfalo; é por isso que esfregar o local alivia. Portão aberto — só a fibra C ativa: ela excita T e inibe o interneurônio → a dor passa (A e E erradas). Controle descendente: centros supraespinais (substância cinzenta periaquedutal → bulbo rostroventromedial) também regulam o portão — atenção, emoção e expectativa mudam a dor percebida (C errada). Aplicações: massagem, TENS e estimulação da medula espinal (cordões posteriores) na dor neuropática refratária.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** As fibras Aβ ativam o interneurônio inibitório da substância gelatinosa e “fecham” o portão, reduzindo o sinal que sobe ao encéfalo.\n\nEsquema do slide: portão fechado — a fibra calibrosa Aβ (tato, pressão) excita o interneurônio inibitório da substância gelatinosa (SG), que inibe o neurônio de projeção (T) → baixa saída ao encéfalo; é por isso que esfregar o local alivia. Portão aberto — só a fibra C ativa: ela excita T e inibe o interneurônio → a dor passa (A e E erradas). Controle descendente: centros supraespinais (substância cinzenta periaquedutal → bulbo rostroventromedial) também regulam o portão — atenção, emoção e expectativa mudam a dor percebida (C errada). Aplicações: massagem, TENS e estimulação da medula espinal (cordões posteriores) na dor neuropática refratária.",
     "source": "Inédita · baseada nos slides da aula",
     "origin": "inedita",
     "ref": "BASES-007"
@@ -827,13 +827,13 @@
     "stem": "Paciente com apendicite aguda refere, nas primeiras horas, dor mal localizada na região periumbilical, acompanhada de náuseas; horas depois, a dor migra e se fixa na fossa ilíaca direita, com piora à tosse e descompressão dolorosa. Essa evolução se explica porque:",
     "options": [
       "A dor inicial é somática e a tardia, visceral",
-      "A dor inicial é visceral (distensão do apêndice, fibras C do intestino médio → T10, referida na linha média) e a tardia é parietal/somática (inflamação do peritônio parietal, bem localizada)",
+      "Visceral no início (linha média) e parietal depois (localizada)",
       "As duas fases são de dor neuropática",
       "A migração ocorre porque o apêndice muda de posição",
       "A dor periumbilical é dor referida do diafragma"
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nÉ o exemplo clássico de dor visceral → dor parietal (itens 8.2 e 8.4 do plano). Visceral: estímulos de distensão, isquemia ou inflamação da víscera, conduzidos por fibras C (amielínicas) que entram na medula em vários segmentos e bilateralmente → dor mal localizada, na linha média, em cólica ou peso, com sintomas autonômicos (náusea, sudorese, palidez). A localização segue a origem embriológica: intestino anterior (estômago, duodeno, fígado, vias biliares, pâncreas) → epigástrio; médio (delgado, apêndice, cólon direito) → periumbilical; posterior (cólon esquerdo, reto, bexiga) → hipogástrio. Parietal (somática): o peritônio parietal tem inervação somática segmentar → dor bem localizada, aguda, que piora com movimento, tosse e descompressão (sinal de Blumberg), com defesa muscular.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A dor inicial é visceral (distensão do apêndice, fibras C do intestino médio → T10, referida na linha média) e a tardia é parietal/somática (inflamação do peritônio parietal, bem localizada)\n\nÉ o exemplo clássico de dor visceral → dor parietal (itens 8.2 e 8.4 do plano). Visceral: estímulos de distensão, isquemia ou inflamação da víscera, conduzidos por fibras C (amielínicas) que entram na medula em vários segmentos e bilateralmente → dor mal localizada, na linha média, em cólica ou peso, com sintomas autonômicos (náusea, sudorese, palidez). A localização segue a origem embriológica: intestino anterior (estômago, duodeno, fígado, vias biliares, pâncreas) → epigástrio; médio (delgado, apêndice, cólon direito) → periumbilical; posterior (cólon esquerdo, reto, bexiga) → hipogástrio. Parietal (somática): o peritônio parietal tem inervação somática segmentar → dor bem localizada, aguda, que piora com movimento, tosse e descompressão (sinal de Blumberg), com defesa muscular.",
     "source": "Inédita · baseada no plano / slides",
     "origin": "inedita",
     "ref": "BASES-009"
@@ -1330,13 +1330,13 @@
     "stem": "Vítima de incêndio em ambiente fechado chega confusa, com cefaleia e SpO₂ de 99% na oximetria de pulso. Sobre a intoxicação por monóxido de carbono (CO), é correto afirmar:",
     "options": [
       "A SpO₂ normal afasta intoxicação por CO.",
-      "O tratamento inicial é oxigênio a 100% por máscara não reinalante, que reduz a meia-vida da carboxi-hemoglobina.",
+      "Oxigênio a 100% por máscara não reinalante.",
       "A cianose central é o achado mais característico.",
       "O diagnóstico é feito pela PaO₂, que está sempre baixa.",
       "O CO tem afinidade pela hemoglobina menor que a do O₂."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nO CO se liga à hemoglobina com afinidade ~240 vezes maior que o O₂ (E errada). O oxímetro de pulso comum não diferencia carboxi-hemoglobina de oxi-hemoglobina → SpO₂ falsamente normal (A errada); a PaO₂ também pode ser normal (D errada), porque mede O₂ dissolvido. O diagnóstico é pela carboxi-hemoglobina na gasometria (co-oximetria). A pele pode ficar “vermelho-cereja”, não cianótica (C). O₂ a 100% em máscara não reinalante reduz a meia-vida da COHb de ~4–5 h (ar ambiente) para ~60 min (números do slide da aula: “5 h → 60 min”); câmara hiperbárica em casos graves selecionados.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** O tratamento inicial é oxigênio a 100% por máscara não reinalante, que reduz a meia-vida da carboxi-hemoglobina.\n\nO CO se liga à hemoglobina com afinidade ~240 vezes maior que o O₂ (E errada). O oxímetro de pulso comum não diferencia carboxi-hemoglobina de oxi-hemoglobina → SpO₂ falsamente normal (A errada); a PaO₂ também pode ser normal (D errada), porque mede O₂ dissolvido. O diagnóstico é pela carboxi-hemoglobina na gasometria (co-oximetria). A pele pode ficar “vermelho-cereja”, não cianótica (C). O₂ a 100% em máscara não reinalante reduz a meia-vida da COHb de ~4–5 h (ar ambiente) para ~60 min (números do slide da aula: “5 h → 60 min”); câmara hiperbárica em casos graves selecionados.",
     "source": "Inédita · padrão da prova",
     "origin": "inedita",
     "ref": "BASES-033"
@@ -1435,13 +1435,13 @@
     "stem": "Sobre a queimadura química, assinale a alternativa correta:",
     "options": [
       "Deve-se neutralizar o agente: ácido com base e base com ácido.",
-      "A irrigação com água corrente deve durar mais tempo nos álcalis (1–2 h) do que nos ácidos (20–30 min), porque os álcalis penetram mais.",
+      "A irrigação deve durar mais nos álcalis do que nos ácidos.",
       "A equipe pode manipular o paciente sem luvas, já que o agente é diluído pela pele.",
       "Pó seco deve ser molhado antes de ser escovado.",
       "No ácido fluorídrico, a conduta é apenas irrigação, sem tratamento específico."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSequência do slide: remover o agente (roupas, pó seco escovado antes de molhar — D errada), proteger a equipe (luvas — C errada) e lavar com água corrente abundante: ácido > 20–30 min; álcali > 1–2 h — a base causa necrose de liquefação e continua penetrando, enquanto o ácido causa necrose de coagulação, que limita a progressão. Não neutralizar (A): a reação é exotérmica e aprofunda a lesão. Exceção: ácido fluorídrico → gluconato de cálcio 10% tópico ou infiltrado (o fluoreto quela cálcio e magnésio; risco de hipocalcemia e arritmia).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A irrigação com água corrente deve durar mais tempo nos álcalis (1–2 h) do que nos ácidos (20–30 min), porque os álcalis penetram mais.\n\nSequência do slide: remover o agente (roupas, pó seco escovado antes de molhar — D errada), proteger a equipe (luvas — C errada) e lavar com água corrente abundante: ácido > 20–30 min; álcali > 1–2 h — a base causa necrose de liquefação e continua penetrando, enquanto o ácido causa necrose de coagulação, que limita a progressão. Não neutralizar (A): a reação é exotérmica e aprofunda a lesão. Exceção: ácido fluorídrico → gluconato de cálcio 10% tópico ou infiltrado (o fluoreto quela cálcio e magnésio; risco de hipocalcemia e arritmia).",
     "source": "Inédita · baseada nos slides da aula",
     "origin": "inedita",
     "ref": "BASES-038"
@@ -2314,13 +2314,13 @@
     "stem": "Paciente com trauma raquimedular cervical alto apresenta PA 80 × 40 mmHg, FC 48 bpm, pele quente e seca e priapismo. O tipo de choque e o mecanismo são:",
     "options": [
       "Hipovolêmico — perda de volume oculta no retroperitônio",
-      "Neurogênico — perda do tônus simpático com vasodilatação e predomínio vagal",
+      "Neurogênico — perda do tônus simpático",
       "Cardiogênico — contusão miocárdica",
       "Obstrutivo — pneumotórax hipertensivo",
       "Séptico — translocação bacteriana"
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nLesão medular acima de T6 interrompe a saída simpática: vasodilatação (RVS ↓, pele quente e seca) e, sem a inervação simpática cardíaca (T1–T4), predomínio vagal → bradicardia. Hipotensão + bradicardia + pele quente = choque neurogênico (forma de distributivo). Atenção: não confundir com choque medular (perda transitória de reflexos e tônus abaixo da lesão, com arreflexia — é neurológico, não hemodinâmico). Conduta: excluir hemorragia primeiro (o politraumatizado hipotenso sangra até prova em contrário), volume com cautela, vasopressor (noradrenalina) e atropina se bradicardia sintomática.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Neurogênico — perda do tônus simpático com vasodilatação e predomínio vagal\n\nLesão medular acima de T6 interrompe a saída simpática: vasodilatação (RVS ↓, pele quente e seca) e, sem a inervação simpática cardíaca (T1–T4), predomínio vagal → bradicardia. Hipotensão + bradicardia + pele quente = choque neurogênico (forma de distributivo). Atenção: não confundir com choque medular (perda transitória de reflexos e tônus abaixo da lesão, com arreflexia — é neurológico, não hemodinâmico). Conduta: excluir hemorragia primeiro (o politraumatizado hipotenso sangra até prova em contrário), volume com cautela, vasopressor (noradrenalina) e atropina se bradicardia sintomática.",
     "source": "Inédita · padrão da prova",
     "origin": "inedita",
     "ref": "BASES-080"
@@ -2398,13 +2398,13 @@
     "stem": "Paciente apresenta, minutos após receber contraste iodado, urticária difusa, angioedema de lábios, sibilância e PA de 70 × 40 mmHg. A conduta imediata é:",
     "options": [
       "Anti-histamínico IV e corticoide IV, observando a resposta",
-      "Epinefrina 0,3–0,5 mg IM na face anterolateral da coxa, repetindo em 5–15 min se necessário, com O₂, posição supina e volume",
+      "Epinefrina 0,3–0,5 mg IM na face anterolateral da coxa",
       "Epinefrina 1 mg IV em bolus, sem diluir",
       "Salbutamol inalatório isolado",
       "Noradrenalina em infusão contínua como primeira droga"
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSlide da aula: “EPINEFRINA É O TRATAMENTO IMEDIATO — 0,3–0,5 mg IM (face anterior da coxa), repetir em 5–15 min se necessário”. A epinefrina reverte as três frentes: α1 (vasoconstrição, ↓ edema), β1 (inotropismo) e β2 (broncodilatação, estabiliza mastócitos). Medidas associadas: remover o alérgeno, posição supina, O₂ de alto fluxo, acesso venoso e cristaloide (há extravasamento capilar). Corticoide e anti-histamínico são adjuvantes (A), não primeira linha; salbutamol (D) só trata o broncoespasmo. Bolus IV de 1 mg (C) é dose de parada cardíaca — fora da PCR, causa arritmia e crise hipertensiva. O contraste é exemplo do slide de reação não IgE (assim como AINEs) — o tratamento é o mesmo.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Epinefrina 0,3–0,5 mg IM na face anterolateral da coxa, repetindo em 5–15 min se necessário, com O₂, posição supina e volume\n\nSlide da aula: “EPINEFRINA É O TRATAMENTO IMEDIATO — 0,3–0,5 mg IM (face anterior da coxa), repetir em 5–15 min se necessário”. A epinefrina reverte as três frentes: α1 (vasoconstrição, ↓ edema), β1 (inotropismo) e β2 (broncodilatação, estabiliza mastócitos). Medidas associadas: remover o alérgeno, posição supina, O₂ de alto fluxo, acesso venoso e cristaloide (há extravasamento capilar). Corticoide e anti-histamínico são adjuvantes (A), não primeira linha; salbutamol (D) só trata o broncoespasmo. Bolus IV de 1 mg (C) é dose de parada cardíaca — fora da PCR, causa arritmia e crise hipertensiva. O contraste é exemplo do slide de reação não IgE (assim como AINEs) — o tratamento é o mesmo.",
     "source": "Inédita · baseada nos slides da aula",
     "origin": "inedita",
     "ref": "BASES-084"
@@ -2921,13 +2921,13 @@
     "stem": "Pelos critérios GLIM (2019), apresentados na aula, o diagnóstico de desnutrição exige:",
     "options": [
       "Apenas albumina < 3,5 g/dL",
-      "Triagem positiva e, depois, pelo menos 1 critério fenotípico e pelo menos 1 critério etiológico",
+      "Triagem positiva + 1 critério fenotípico + 1 etiológico",
       "Dois critérios etiológicos, sem necessidade de critério fenotípico",
       "IMC < 18,5 em qualquer idade, isoladamente",
       "Dinamometria reduzida isolada"
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nGLIM em 2 etapas: (1) triagem positiva (NRS-2002 ≥ 3 ou outra ferramenta validada); (2) ≥ 1 fenotípico + ≥ 1 etiológico. Fenotípicos: perda de peso > 5% em 6 meses ou > 10% em mais de 6 meses; IMC < 20 (< 70 anos) ou < 22 (≥ 70 anos); massa muscular reduzida. Etiológicos: ingestão/absorção reduzida (< 50% por > 1 semana); inflamação aguda (trauma, cirurgia, sepse) ou crônica (câncer, DII, DRC, DPOC). Classifica em grau 1 (moderada) ou 2 (grave). Albumina não entra (A); dinamometria (E) é critério de sarcopenia (EWGSOP2: < 27 kg homens, < 16 kg mulheres).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Triagem positiva e, depois, pelo menos 1 critério fenotípico e pelo menos 1 critério etiológico\n\nGLIM em 2 etapas: (1) triagem positiva (NRS-2002 ≥ 3 ou outra ferramenta validada); (2) ≥ 1 fenotípico + ≥ 1 etiológico. Fenotípicos: perda de peso > 5% em 6 meses ou > 10% em mais de 6 meses; IMC < 20 (< 70 anos) ou < 22 (≥ 70 anos); massa muscular reduzida. Etiológicos: ingestão/absorção reduzida (< 50% por > 1 semana); inflamação aguda (trauma, cirurgia, sepse) ou crônica (câncer, DII, DRC, DPOC). Classifica em grau 1 (moderada) ou 2 (grave). Albumina não entra (A); dinamometria (E) é critério de sarcopenia (EWGSOP2: < 27 kg homens, < 16 kg mulheres).",
     "source": "Inédita · baseada nos slides da aula",
     "origin": "inedita",
     "ref": "BASES-109"
@@ -3089,13 +3089,13 @@
     "stem": "Segundo os critérios nacionais (ANVISA/CDC) para notificação de infecção do sítio cirúrgico, assinale a alternativa correta:",
     "options": [
       "A ISC incisional superficial acomete pele, subcutâneo e fáscia, e é notificada até 90 dias.",
-      "A ISC incisional profunda envolve fáscia e músculo; a de órgão/espaço envolve qualquer estrutura abordada além da parede (ex.: abscesso intra-abdominal).",
+      "A incisional profunda envolve fáscia e músculo.",
       "Só se notifica ISC quando há cultura positiva.",
       "A vigilância de cirurgias com implante dura 7 dias.",
       "Abscesso de ponto (mínima inflamação restrita ao ponto de sutura) é classificado como ISC incisional superficial."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nTrês níveis: incisional superficial — pele e subcutâneo, até 30 dias (A errada: a fáscia é da profunda); incisional profunda — fáscia e músculo; órgão/espaço — qualquer órgão ou cavidade manipulados (abscesso intra-abdominal, empiema, mediastinite). Janela de vigilância: 30 dias, ou 90 dias se houver implante (prótese, tela) nos critérios atuais (D errada). Critérios diagnósticos incluem drenagem purulenta, cultura positiva, sinais flogísticos com abertura deliberada pelo cirurgião ou diagnóstico médico — a cultura não é obrigatória (C errada). Abscesso de ponto não é notificado como ISC (E errada).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A ISC incisional profunda envolve fáscia e músculo; a de órgão/espaço envolve qualquer estrutura abordada além da parede (ex.: abscesso intra-abdominal).\n\nTrês níveis: incisional superficial — pele e subcutâneo, até 30 dias (A errada: a fáscia é da profunda); incisional profunda — fáscia e músculo; órgão/espaço — qualquer órgão ou cavidade manipulados (abscesso intra-abdominal, empiema, mediastinite). Janela de vigilância: 30 dias, ou 90 dias se houver implante (prótese, tela) nos critérios atuais (D errada). Critérios diagnósticos incluem drenagem purulenta, cultura positiva, sinais flogísticos com abertura deliberada pelo cirurgião ou diagnóstico médico — a cultura não é obrigatória (C errada). Abscesso de ponto não é notificado como ISC (E errada).",
     "source": "Inédita · baseada no plano / slides",
     "origin": "inedita",
     "ref": "BASES-117"
@@ -3278,13 +3278,13 @@
     "stem": "Sobre a sensibilização central e a dor pós-operatória, assinale a alternativa correta:",
     "options": [
       "É restrita ao local da lesão e depende apenas de mediadores inflamatórios periféricos.",
-      "O fenômeno de “wind-up” resulta de estímulos repetidos das fibras C, com ativação de receptores NMDA no corno dorsal pelo glutamato.",
+      "Estímulos repetidos de fibras C com ativação de receptores NMDA.",
       "A sensibilização central impede o surgimento de alodinia.",
       "A dor pós-operatória mal controlada não tem relação com cronificação.",
       "Os receptores NMDA são bloqueados pelo glutamato, o que reduz a dor."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nEstímulos repetidos de fibras C liberam glutamato e substância P; a despolarização acumulada retira o bloqueio de Mg²⁺ do receptor NMDA, entra Ca²⁺ e o neurônio do corno dorsal (WDR) passa a responder cada vez mais ao mesmo estímulo — wind-up. Persistindo, ocorre sensibilização central: hiperalgesia secundária e alodinia (fibras Aβ passam a ativar a via da dor) — C e A erradas. Isso explica a dor crônica pós-operatória (D errada) e é a base da analgesia multimodal e preventiva (anestésico local, AINE, dipirona, opioide, cetamina — antagonista NMDA). O glutamato ativa o NMDA (E errada).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** O fenômeno de “wind-up” resulta de estímulos repetidos das fibras C, com ativação de receptores NMDA no corno dorsal pelo glutamato.\n\nEstímulos repetidos de fibras C liberam glutamato e substância P; a despolarização acumulada retira o bloqueio de Mg²⁺ do receptor NMDA, entra Ca²⁺ e o neurônio do corno dorsal (WDR) passa a responder cada vez mais ao mesmo estímulo — wind-up. Persistindo, ocorre sensibilização central: hiperalgesia secundária e alodinia (fibras Aβ passam a ativar a via da dor) — C e A erradas. Isso explica a dor crônica pós-operatória (D errada) e é a base da analgesia multimodal e preventiva (anestésico local, AINE, dipirona, opioide, cetamina — antagonista NMDA). O glutamato ativa o NMDA (E errada).",
     "source": "Inédita · padrão da prova",
     "origin": "inedita",
     "ref": "BASES-126"

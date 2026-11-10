@@ -1,700 +1,700 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Fisiopatologia · Lote final (com imagem)",
-  "gerado_em": "2026-11-09",
-  "base": "Robbins & Cotran e Silbernagl (bibliografia do plano de Fisiopatologia 2026.2), com o resumo FISIOPATOLOGIA - PR2. Foto livre do Wikimedia Commons (crédito na questão). Formato das provas de Fisiopatologia."
- },
- "questoes": [
-  {
-   "id": "FISIO-PF-FIM-01",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "ascite · fisiopatologia (imagem)",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · fígado (ascite)",
-   "imagem": "/img/q/ascite.jpg",
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "O paciente da imagem tem cirrose alcoólica e ascite volumosa. Sobre a formação da ascite na cirrose, assinale a correta:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Lote final (com imagem)",
+    "gerado_em": "2026-11-09",
+    "base": "Robbins & Cotran e Silbernagl (bibliografia do plano de Fisiopatologia 2026.2), com o resumo FISIOPATOLOGIA - PR2. Foto livre do Wikimedia Commons (crédito na questão). Formato das provas de Fisiopatologia."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "A ascite é sempre exsudato inflamatório."
+      "id": "FISIO-PF-FIM-01",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "ascite · fisiopatologia (imagem)",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · fígado (ascite)",
+      "imagem": "/img/q/ascite.jpg",
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "O paciente da imagem tem cirrose alcoólica e ascite volumosa. Sobre a formação da ascite na cirrose, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A ascite é sempre exsudato inflamatório."
+        },
+        {
+          "letra": "B",
+          "texto": "A cirrose reduz a pressão portal e aumenta a albumina."
+        },
+        {
+          "letra": "C",
+          "texto": "A ascite decorre apenas da obstrução linfática por filariose."
+        },
+        {
+          "letra": "D",
+          "texto": "A hipertensão portal sinusoidal aumenta a filtração de líquido."
+        },
+        {
+          "letra": "E",
+          "texto": "Os rins excretam excesso de sódio na cirrose."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** A hipertensão portal sinusoidal aumenta a filtração de líquido, e a vasodilatação esplâncnica reduz o volume efetivo, ativando o sistema renina-angiotensina-aldosterona, o simpático e o ADH, com retenção de sódio e água; a hipoalbuminemia contribui.\n\nGASA ≥ 1,1 g/dL = hipertensão portal. Complicações: peritonite bacteriana espontânea, síndrome hepatorrenal, hérnia umbilical.\n\n*Imagem: Hobart Amory Hare (1862-1931) — Public domain, via Wikimedia Commons ([A man with ascites.jpg](https://commons.wikimedia.org/wiki/File:A_man_with_ascites.jpg)).*"
     },
     {
-     "letra": "B",
-     "texto": "A cirrose reduz a pressão portal e aumenta a albumina."
+      "id": "FISIO-PF-FIM-02",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "gastrite autoimune · mecanismo",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · estômago (gastrite autoimune)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na gastrite autoimune, a hipergastrinemia ocorre porque:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A destruição das células parietais causa acloridria."
+        },
+        {
+          "letra": "B",
+          "texto": "O excesso de ácido estimula a gastrina."
+        },
+        {
+          "letra": "C",
+          "texto": "O H. pylori estimula diretamente as células G do corpo."
+        },
+        {
+          "letra": "D",
+          "texto": "Os anticorpos atacam as células G do antro."
+        },
+        {
+          "letra": "E",
+          "texto": "A gastrina é produzida pelo pâncreas exócrino."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** A destruição das células parietais causa acloridria, e a falta de ácido retira o freio da secreção de gastrina pelas células G do antro (preservado), que se hiperplasiam.\n\nA hipergastrinemia crônica favorece hiperplasia de células enterocromafins e tumores carcinoides gástricos."
     },
     {
-     "letra": "C",
-     "texto": "A ascite decorre apenas da obstrução linfática por filariose."
+      "id": "FISIO-PF-FIM-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "icterícia · neonatal",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · metabolismo da bilirrubina (icterícia neonatal)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a icterícia fisiológica do recém-nascido, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ocorre apenas após o primeiro mês de vida."
+        },
+        {
+          "letra": "B",
+          "texto": "A bilirrubina indireta é hidrossolúvel e não atravessa a barreira hematoencefálica."
+        },
+        {
+          "letra": "C",
+          "texto": "Decorre da imaturidade da glicuroniltransferase hepática somada à maior destruição de hemácias fetais."
+        },
+        {
+          "letra": "D",
+          "texto": "Aumenta predominantemente a bilirrubina direta."
+        },
+        {
+          "letra": "E",
+          "texto": "É sempre causada por obstrução biliar."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Decorre da imaturidade da glicuroniltransferase hepática somada à maior destruição de hemácias fetais, com aumento de bilirrubina indireta nos primeiros dias; níveis muito altos podem causar kernicterus.\n\nIcterícia nas primeiras 24 h ou prolongada sugere causa patológica (hemólise, atresia biliar)."
     },
     {
-     "letra": "D",
-     "texto": "A hipertensão portal sinusoidal aumenta a filtração de líquido, e a vasodilatação esplâncnica reduz o volume efetivo, ativando o sistema renina-angiotensina-aldosterona, o simpático e o ADH, com retenção de sódio e água; a hipoalbuminemia contribui."
+      "id": "FISIO-PF-FIM-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "obstrução · alças",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · intestino (obstrução)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na obstrução intestinal mecânica do delgado, a distensão das alças e os vômitos levam a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipercalemia isolada sem desidratação."
+        },
+        {
+          "letra": "B",
+          "texto": "Redução da pressão intraluminal."
+        },
+        {
+          "letra": "C",
+          "texto": "Aumento da absorção de água e hipervolemia."
+        },
+        {
+          "letra": "D",
+          "texto": "Melhora espontânea da perfusão da parede."
+        },
+        {
+          "letra": "E",
+          "texto": "Sequestro de líquido e desidratação."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Sequestro de líquido no lúmen e na parede, desidratação, distúrbios eletrolíticos e, se houver estrangulamento, isquemia, necrose e translocação bacteriana.\n\nObstrução alta: vômitos precoces; baixa: distensão importante, vômitos tardios e fecaloides."
     },
     {
-     "letra": "E",
-     "texto": "Os rins excretam excesso de sódio na cirrose."
+      "id": "FISIO-PF-FIM-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "leucemia · CIVD",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · leucemia promielocítica",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com leucemia aguda apresenta sangramentos difusos, plaquetopenia, fibrinogênio baixo e D-dímero elevado. O subtipo mais associado a esse quadro é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Mieloma múltiplo indolente."
+        },
+        {
+          "letra": "B",
+          "texto": "Leucemia mieloide aguda promielocítica, t(15;17)."
+        },
+        {
+          "letra": "C",
+          "texto": "Leucemia linfocítica crônica."
+        },
+        {
+          "letra": "D",
+          "texto": "Leucemia mieloide crônica em fase crônica."
+        },
+        {
+          "letra": "E",
+          "texto": "Linfoma folicular."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Leucemia mieloide aguda promielocítica, t(15;17), cujos grânulos pró-coagulantes desencadeiam coagulação intravascular disseminada.\n\nTratada com ácido transretinoico (ATRA), que induz a diferenciação dos promielócitos."
+    },
+    {
+      "id": "FISIO-PF-FIM-06",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "mieloma · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · neoplasias de plasmócitos",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o mieloma múltiplo, assinale a alternativa INCORRETA (0,5 ponto):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Há maior suscetibilidade a infecções pela redução das imunoglobulinas normais."
+        },
+        {
+          "letra": "B",
+          "texto": "Causa lesões ósseas líticas e hipercalcemia por ativação de osteoclastos."
+        },
+        {
+          "letra": "C",
+          "texto": "A excreção de cadeias leves (Bence Jones) pode lesar os túbulos renais."
+        },
+        {
+          "letra": "D",
+          "texto": "É uma neoplasia de plasmócitos que produz imunoglobulina monoclonal (pico M)."
+        },
+        {
+          "letra": "E",
+          "texto": "É uma neoplasia de linfócitos T maduros que produz leucocitose acentuada."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Plasmócitos (linhagem B). Anemia normocítica e hemácias em rouleaux."
+    },
+    {
+      "id": "FISIO-PF-FIM-07",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "esplenectomia · consequências",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · baço",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após esplenectomia por trauma, espera-se encontrar no esfregaço de sangue periférico e na clínica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pancitopenia permanente."
+        },
+        {
+          "letra": "B",
+          "texto": "Ausência total de plaquetas."
+        },
+        {
+          "letra": "C",
+          "texto": "Neutrófilos hipersegmentados."
+        },
+        {
+          "letra": "D",
+          "texto": "Howell-Jolly, trombocitose e risco de sepse."
+        },
+        {
+          "letra": "E",
+          "texto": "Esferócitos com anemia hemolítica grave."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Corpúsculos de Howell-Jolly, trombocitose transitória e maior risco de sepse por bactérias encapsuladas.\n\nVacinar contra pneumococo, meningococo e Haemophilus."
+    },
+    {
+      "id": "FISIO-PF-FIM-08",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "anemia · insuficiência renal",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · anemia da doença renal crônica",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente em hemodiálise tem anemia normocítica e normocrômica com reticulócitos baixos e ferro normal. O principal mecanismo é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Produção insuficiente de eritropoetina pelo rim doente."
+        },
+        {
+          "letra": "B",
+          "texto": "Talassemia adquirida."
+        },
+        {
+          "letra": "C",
+          "texto": "Excesso de hepcidina exclusivo da anemia ferropriva."
+        },
+        {
+          "letra": "D",
+          "texto": "Hemólise imune por anticorpos IgG."
+        },
+        {
+          "letra": "E",
+          "texto": "Deficiência de vitamina B12 pela diálise."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Contribuem: hemólise urêmica, perdas na diálise, deficiência de ferro; tratamento com eritropoetina recombinante e ferro."
+    },
+    {
+      "id": "FISIO-PF-FIM-09",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "proteinúria · ortostática",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · alterações na urina (proteinúria)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a proteinúria, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Toda proteinúria indica glomerulonefrite grave."
+        },
+        {
+          "letra": "B",
+          "texto": "A fita urinária detecta bem as cadeias leves de imunoglobulina."
+        },
+        {
+          "letra": "C",
+          "texto": "A proteinúria glomerular maciça (≥ 3,5 g/dia) caracteriza a síndrome nefrótica."
+        },
+        {
+          "letra": "D",
+          "texto": "A microalbuminúria não tem significado no diabético."
+        },
+        {
+          "letra": "E",
+          "texto": "A proteinúria tubular é sempre maior que 3,5 g/dia."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** A proteinúria glomerular maciça (≥ 3,5 g/dia) caracteriza a síndrome nefrótica, enquanto proteinúrias transitórias podem ocorrer com febre, exercício intenso e ortostatismo, sem doença renal.\n\nProteinúria tubular: baixo peso molecular, geralmente < 2 g/dia. Microalbuminúria: marcador precoce da nefropatia diabética e de risco cardiovascular."
+    },
+    {
+      "id": "FISIO-PF-FIM-10",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "LRA · pós-renal · caso",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · lesão renal aguda pós-renal",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso com câncer de próstata apresenta anúria há 24 horas, dor suprapúbica e bexiga palpável. Após sondagem vesical, drena 1.500 mL de urina. O mecanismo da lesão renal é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Necrose tubular aguda isquêmica."
+        },
+        {
+          "letra": "B",
+          "texto": "Obstrução infravesical (pós-renal)."
+        },
+        {
+          "letra": "C",
+          "texto": "Nefrite intersticial alérgica."
+        },
+        {
+          "letra": "D",
+          "texto": "Glomerulonefrite rapidamente progressiva."
+        },
+        {
+          "letra": "E",
+          "texto": "Síndrome nefrótica por lesões mínimas."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Obstrução infravesical (pós-renal), com aumento da pressão retrógrada e queda da filtração, potencialmente reversível com a desobstrução.\n\nApós desobstrução pode ocorrer diurese pós-obstrutiva intensa (risco de distúrbios hidroeletrolíticos)."
+    },
+    {
+      "id": "FISIO-PF-FIM-11",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "nefrite intersticial crônica · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · doenças túbulo-intersticiais",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as doenças túbulo-intersticiais, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Prejudicam a capacidade de concentrar a urina, com poliúria e nictúria."
+        },
+        {
+          "letra": "B",
+          "texto": "Podem cursar com acidose tubular e perda de sódio."
+        },
+        {
+          "letra": "C",
+          "texto": "Cursam tipicamente com proteinúria maciça e hematúria com cilindros hemáticos desde o início."
+        },
+        {
+          "letra": "D",
+          "texto": "A leucocitúria e os cilindros leucocitários são achados possíveis."
+        },
+        {
+          "letra": "E",
+          "texto": "Podem ser causadas por infecção, fármacos, obstrução, refluxo e metais pesados."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Proteinúria maciça e cilindros hemáticos apontam para doença **glomerular**."
+    },
+    {
+      "id": "FISIO-PF-FIM-12",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "GNPE × IgA · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · síndromes nefríticas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a glomerulonefrite pós-estreptocócica e a nefropatia por IgA, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Na nefropatia por IgA a hematúria acompanha a infecção (1 a 2 dias)."
+        },
+        {
+          "letra": "B",
+          "texto": "Na nefropatia por IgA há depósitos mesangiais de IgA."
+        },
+        {
+          "letra": "C",
+          "texto": "Na GNPE há latência de 1 a 3 semanas após faringite ou piodermite."
+        },
+        {
+          "letra": "D",
+          "texto": "Na nefropatia por IgA o complemento C3 está caracteristicamente baixo."
+        },
+        {
+          "letra": "E",
+          "texto": "Na GNPE o C3 está reduzido."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Na nefropatia por IgA o complemento C3 está caracteristicamente baixo, e a hematúria surge 2 a 3 semanas após a infecção.\n\nNa nefropatia por IgA o complemento é **normal** e a hematúria é sincrônica à infecção."
+    },
+    {
+      "id": "FISIO-PF-FIM-13",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "AVE · fatores de risco",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · doença cerebrovascular (fatores de risco)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os fatores de risco e os mecanismos do AVE isquêmico, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipertensão, diabetes, tabagismo, dislipidemia e fibrilação atrial são fatores de risco."
+        },
+        {
+          "letra": "B",
+          "texto": "O AVE isquêmico não tem relação com aterosclerose."
+        },
+        {
+          "letra": "C",
+          "texto": "A embolia cerebral só ocorre a partir das veias dos membros inferiores em pessoas sem forame oval patente."
+        },
+        {
+          "letra": "D",
+          "texto": "O tabagismo reduz o risco de AVE."
+        },
+        {
+          "letra": "E",
+          "texto": "A fibrilação atrial protege contra embolia cerebral."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Hipertensão, diabetes, tabagismo, dislipidemia e fibrilação atrial são fatores de risco; a aterosclerose carotídea pode causar AVE por trombose local ou por embolia artério-arterial.\n\nEmbolia paradoxal: trombo venoso atravessa forame oval patente para a circulação arterial."
+    },
+    {
+      "id": "FISIO-PF-FIM-14",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "meningite · Waterhouse",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · meningococcemia",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Adolescente com febre alta, petéquias que evoluem rapidamente para púrpura extensa, hipotensão refratária e choque. A necropsia mostra hemorragia bilateral das adrenais. O agente e a síndrome são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Toxoplasma gondii — abscesso cerebral."
+        },
+        {
+          "letra": "B",
+          "texto": "Meningococo — Waterhouse-Friderichsen."
+        },
+        {
+          "letra": "C",
+          "texto": "Mycobacterium tuberculosis — meningite basal."
+        },
+        {
+          "letra": "D",
+          "texto": "Pneumococo — hidrocefalia ex vacuo."
+        },
+        {
+          "letra": "E",
+          "texto": "Herpes simples — encefalite temporal."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Neisseria meningitidis — síndrome de Waterhouse-Friderichsen.\n\nMeningococcemia: CIVD, púrpura fulminante, insuficiência adrenal aguda."
+    },
+    {
+      "id": "FISIO-PF-FIM-15",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "Glasgow e herniação · fisiopatologia",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · hipertensão intracraniana",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Por que a hipercapnia deve ser evitada no paciente com hipertensão intracraniana?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Porque o CO₂ é neurotóxico apenas no cerebelo."
+        },
+        {
+          "letra": "B",
+          "texto": "Porque a hipercapnia reduz o volume de líquor."
+        },
+        {
+          "letra": "C",
+          "texto": "Porque a hipercapnia causa hipoglicemia."
+        },
+        {
+          "letra": "D",
+          "texto": "Porque o CO₂ causa vasoconstrição cerebral grave."
+        },
+        {
+          "letra": "E",
+          "texto": "O CO₂ causa vasodilatação cerebral e eleva a PIC."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Porque o CO₂ elevado causa vasodilatação cerebral, aumenta o volume sanguíneo intracraniano e eleva ainda mais a pressão intracraniana.\n\nPor isso, opioides e sedativos que deprimem a respiração podem piorar a HIC sem via aérea protegida."
+    },
+    {
+      "id": "FISIO-PF-FIM-16",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "neurônio vermelho · tempo",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · lesão neuronal aguda",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Em uma necropsia, o patologista encontra neurônios com citoplasma intensamente eosinofílico, núcleo picnótico e perda da substância de Nissl no hipocampo. Esse achado indica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Gliose crônica de meses."
+        },
+        {
+          "letra": "B",
+          "texto": "Corpúsculos de Negri da raiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Neurônio vermelho (12 a 24 h após a isquemia)."
+        },
+        {
+          "letra": "D",
+          "texto": "Desmielinização da esclerose múltipla."
+        },
+        {
+          "letra": "E",
+          "texto": "Placas de β-amiloide do Alzheimer."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Lesão neuronal aguda irreversível (neurônio vermelho), surgida cerca de 12 a 24 horas após hipóxia/isquemia.\n\nDatação: neurônio vermelho (12–24 h) → neutrófilos (24 h) → macrófagos (dias) → gliose (semanas)."
+    },
+    {
+      "id": "FISIO-PF-FIM-17",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "DRGE · mecanismos e complicações",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · esôfago",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique os mecanismos de defesa contra o refluxo gastroesofágico, os fatores que os prejudicam e as complicações da DRGE.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Barreira antirrefluxo**: esfíncter esofágico inferior (tônus), pilares do diafragma, ângulo de His; **depuração esofágica** (peristalse e saliva com bicarbonato); **resistência da mucosa**.\n\n**Fatores que prejudicam**: relaxamentos transitórios do EEI, hipotonia (álcool, tabaco, cafeína, chocolate, gordura, fármacos como bloqueadores de canal de cálcio e nitratos), **hérnia de hiato**, aumento da pressão abdominal (obesidade, gestação), retardo do esvaziamento gástrico.\n\n**Complicações**: esofagite erosiva, úlcera e **estenose péptica** (disfagia), **esôfago de Barrett** (metaplasia intestinal) e **adenocarcinoma** do esôfago distal; manifestações extraesofágicas (tosse crônica, asma, rouquidão, erosão dentária).",
+      "comentario": null
+    },
+    {
+      "id": "FISIO-PF-FIM-18",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Hematopoiético",
+      "subtema": "linfomas × leucemias",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · neoplasias hematológicas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie leucemias e linfomas quanto ao local de origem, à apresentação clínica e ao achado no sangue periférico.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Leucemias**: neoplasias que se originam na **medula óssea** e circulam no **sangue**; o sangue periférico mostra células neoplásicas (blastos nas agudas; células maduras ou em maturação nas crônicas). Clínica: sinais de falência medular (anemia, sangramentos, infecções), dor óssea, hepatoesplenomegalia; nas agudas, evolução rápida.\n\n**Linfomas**: neoplasias que se originam no **tecido linfoide** (linfonodos, baço, tecido linfoide extranodal), formando **massas**. Clínica: **linfonodomegalia indolor**, esplenomegalia, sintomas B (febre, sudorese noturna, perda de peso). O sangue periférico geralmente é normal (fase leucêmica é possível). Tipos: **Hodgkin** (células de Reed-Sternberg, disseminação contígua) e **não Hodgkin** (maioria B; folicular, difuso de grandes células, Burkitt).",
+      "comentario": null
+    },
+    {
+      "id": "FISIO-PF-FIM-19",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema urinário",
+      "subtema": "ITU · patogênese",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · infecção do trato urinário",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique a patogênese da infecção do trato urinário e os fatores que predispõem à pielonefrite.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Patogênese (via ascendente, a mais comum)**: bactérias da flora intestinal (principalmente **E. coli** uropatogênica, com fímbrias/adesinas) colonizam o períneo e o introito vaginal → ascendem pela **uretra** (curta na mulher) → aderem ao urotélio e causam **cistite** → podem subir pelos ureteres até a pelve e o parênquima renal (**pielonefrite**), sobretudo se houver refluxo.\n\n**Fatores predisponentes**: sexo feminino, atividade sexual, gestação (dilatação ureteral, estase), **obstrução** (cálculos, hiperplasia prostática, tumores), **refluxo vesicoureteral** (incompetência da junção ureterovesical), **cateterismo vesical**, bexiga neurogênica, **diabetes**, imunossupressão, malformações.\n\n**Via hematogênica** é rara (S. aureus, sepse, endocardite).",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "GASA ≥ 1,1 g/dL = hipertensão portal. Complicações: peritonite bacteriana espontânea, síndrome hepatorrenal, hérnia umbilical.\n\n*Imagem: Hobart Amory Hare (1862-1931) — Public domain, via Wikimedia Commons ([A man with ascites.jpg](https://commons.wikimedia.org/wiki/File:A_man_with_ascites.jpg)).*"
-  },
-  {
-   "id": "FISIO-PF-FIM-02",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "gastrite autoimune · mecanismo",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · estômago (gastrite autoimune)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na gastrite autoimune, a hipergastrinemia ocorre porque:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A destruição das células parietais causa acloridria, e a falta de ácido retira o freio da secreção de gastrina pelas células G do antro (preservado), que se hiperplasiam."
-    },
-    {
-     "letra": "B",
-     "texto": "O excesso de ácido estimula a gastrina."
-    },
-    {
-     "letra": "C",
-     "texto": "O H. pylori estimula diretamente as células G do corpo."
-    },
-    {
-     "letra": "D",
-     "texto": "Os anticorpos atacam as células G do antro."
-    },
-    {
-     "letra": "E",
-     "texto": "A gastrina é produzida pelo pâncreas exócrino."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "A hipergastrinemia crônica favorece hiperplasia de células enterocromafins e tumores carcinoides gástricos."
-  },
-  {
-   "id": "FISIO-PF-FIM-03",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "icterícia · neonatal",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · metabolismo da bilirrubina (icterícia neonatal)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a icterícia fisiológica do recém-nascido, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ocorre apenas após o primeiro mês de vida."
-    },
-    {
-     "letra": "B",
-     "texto": "A bilirrubina indireta é hidrossolúvel e não atravessa a barreira hematoencefálica."
-    },
-    {
-     "letra": "C",
-     "texto": "Decorre da imaturidade da glicuroniltransferase hepática somada à maior destruição de hemácias fetais, com aumento de bilirrubina indireta nos primeiros dias; níveis muito altos podem causar kernicterus."
-    },
-    {
-     "letra": "D",
-     "texto": "Aumenta predominantemente a bilirrubina direta."
-    },
-    {
-     "letra": "E",
-     "texto": "É sempre causada por obstrução biliar."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Icterícia nas primeiras 24 h ou prolongada sugere causa patológica (hemólise, atresia biliar)."
-  },
-  {
-   "id": "FISIO-PF-FIM-04",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "obstrução · alças",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · intestino (obstrução)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na obstrução intestinal mecânica do delgado, a distensão das alças e os vômitos levam a:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipercalemia isolada sem desidratação."
-    },
-    {
-     "letra": "B",
-     "texto": "Redução da pressão intraluminal."
-    },
-    {
-     "letra": "C",
-     "texto": "Aumento da absorção de água e hipervolemia."
-    },
-    {
-     "letra": "D",
-     "texto": "Melhora espontânea da perfusão da parede."
-    },
-    {
-     "letra": "E",
-     "texto": "Sequestro de líquido no lúmen e na parede, desidratação, distúrbios eletrolíticos e, se houver estrangulamento, isquemia, necrose e translocação bacteriana."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Obstrução alta: vômitos precoces; baixa: distensão importante, vômitos tardios e fecaloides."
-  },
-  {
-   "id": "FISIO-PF-FIM-05",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "leucemia · CIVD",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · leucemia promielocítica",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com leucemia aguda apresenta sangramentos difusos, plaquetopenia, fibrinogênio baixo e D-dímero elevado. O subtipo mais associado a esse quadro é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mieloma múltiplo indolente."
-    },
-    {
-     "letra": "B",
-     "texto": "Leucemia mieloide aguda promielocítica, t(15;17), cujos grânulos pró-coagulantes desencadeiam coagulação intravascular disseminada."
-    },
-    {
-     "letra": "C",
-     "texto": "Leucemia linfocítica crônica."
-    },
-    {
-     "letra": "D",
-     "texto": "Leucemia mieloide crônica em fase crônica."
-    },
-    {
-     "letra": "E",
-     "texto": "Linfoma folicular."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Tratada com ácido transretinoico (ATRA), que induz a diferenciação dos promielócitos."
-  },
-  {
-   "id": "FISIO-PF-FIM-06",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "mieloma · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · neoplasias de plasmócitos",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre o mieloma múltiplo, assinale a alternativa INCORRETA (0,5 ponto):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Há maior suscetibilidade a infecções pela redução das imunoglobulinas normais."
-    },
-    {
-     "letra": "B",
-     "texto": "Causa lesões ósseas líticas e hipercalcemia por ativação de osteoclastos."
-    },
-    {
-     "letra": "C",
-     "texto": "A excreção de cadeias leves (Bence Jones) pode lesar os túbulos renais."
-    },
-    {
-     "letra": "D",
-     "texto": "É uma neoplasia de plasmócitos que produz imunoglobulina monoclonal (pico M)."
-    },
-    {
-     "letra": "E",
-     "texto": "É uma neoplasia de linfócitos T maduros que produz leucocitose acentuada."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Plasmócitos (linhagem B). Anemia normocítica e hemácias em rouleaux."
-  },
-  {
-   "id": "FISIO-PF-FIM-07",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "esplenectomia · consequências",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · baço",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após esplenectomia por trauma, espera-se encontrar no esfregaço de sangue periférico e na clínica:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Pancitopenia permanente."
-    },
-    {
-     "letra": "B",
-     "texto": "Ausência total de plaquetas."
-    },
-    {
-     "letra": "C",
-     "texto": "Neutrófilos hipersegmentados."
-    },
-    {
-     "letra": "D",
-     "texto": "Corpúsculos de Howell-Jolly, trombocitose transitória e maior risco de sepse por bactérias encapsuladas."
-    },
-    {
-     "letra": "E",
-     "texto": "Esferócitos com anemia hemolítica grave."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Vacinar contra pneumococo, meningococo e Haemophilus."
-  },
-  {
-   "id": "FISIO-PF-FIM-08",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "anemia · insuficiência renal",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · anemia da doença renal crônica",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em hemodiálise tem anemia normocítica e normocrômica com reticulócitos baixos e ferro normal. O principal mecanismo é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Produção insuficiente de eritropoetina pelo rim doente."
-    },
-    {
-     "letra": "B",
-     "texto": "Talassemia adquirida."
-    },
-    {
-     "letra": "C",
-     "texto": "Excesso de hepcidina exclusivo da anemia ferropriva."
-    },
-    {
-     "letra": "D",
-     "texto": "Hemólise imune por anticorpos IgG."
-    },
-    {
-     "letra": "E",
-     "texto": "Deficiência de vitamina B12 pela diálise."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Contribuem: hemólise urêmica, perdas na diálise, deficiência de ferro; tratamento com eritropoetina recombinante e ferro."
-  },
-  {
-   "id": "FISIO-PF-FIM-09",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "proteinúria · ortostática",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · alterações na urina (proteinúria)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a proteinúria, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Toda proteinúria indica glomerulonefrite grave."
-    },
-    {
-     "letra": "B",
-     "texto": "A fita urinária detecta bem as cadeias leves de imunoglobulina."
-    },
-    {
-     "letra": "C",
-     "texto": "A proteinúria glomerular maciça (≥ 3,5 g/dia) caracteriza a síndrome nefrótica, enquanto proteinúrias transitórias podem ocorrer com febre, exercício intenso e ortostatismo, sem doença renal."
-    },
-    {
-     "letra": "D",
-     "texto": "A microalbuminúria não tem significado no diabético."
-    },
-    {
-     "letra": "E",
-     "texto": "A proteinúria tubular é sempre maior que 3,5 g/dia."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Proteinúria tubular: baixo peso molecular, geralmente < 2 g/dia. Microalbuminúria: marcador precoce da nefropatia diabética e de risco cardiovascular."
-  },
-  {
-   "id": "FISIO-PF-FIM-10",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "LRA · pós-renal · caso",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · lesão renal aguda pós-renal",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso com câncer de próstata apresenta anúria há 24 horas, dor suprapúbica e bexiga palpável. Após sondagem vesical, drena 1.500 mL de urina. O mecanismo da lesão renal é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Necrose tubular aguda isquêmica."
-    },
-    {
-     "letra": "B",
-     "texto": "Obstrução infravesical (pós-renal), com aumento da pressão retrógrada e queda da filtração, potencialmente reversível com a desobstrução."
-    },
-    {
-     "letra": "C",
-     "texto": "Nefrite intersticial alérgica."
-    },
-    {
-     "letra": "D",
-     "texto": "Glomerulonefrite rapidamente progressiva."
-    },
-    {
-     "letra": "E",
-     "texto": "Síndrome nefrótica por lesões mínimas."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Após desobstrução pode ocorrer diurese pós-obstrutiva intensa (risco de distúrbios hidroeletrolíticos)."
-  },
-  {
-   "id": "FISIO-PF-FIM-11",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "nefrite intersticial crônica · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · doenças túbulo-intersticiais",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as doenças túbulo-intersticiais, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Prejudicam a capacidade de concentrar a urina, com poliúria e nictúria."
-    },
-    {
-     "letra": "B",
-     "texto": "Podem cursar com acidose tubular e perda de sódio."
-    },
-    {
-     "letra": "C",
-     "texto": "Cursam tipicamente com proteinúria maciça e hematúria com cilindros hemáticos desde o início."
-    },
-    {
-     "letra": "D",
-     "texto": "A leucocitúria e os cilindros leucocitários são achados possíveis."
-    },
-    {
-     "letra": "E",
-     "texto": "Podem ser causadas por infecção, fármacos, obstrução, refluxo e metais pesados."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Proteinúria maciça e cilindros hemáticos apontam para doença **glomerular**."
-  },
-  {
-   "id": "FISIO-PF-FIM-12",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "GNPE × IgA · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · síndromes nefríticas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a glomerulonefrite pós-estreptocócica e a nefropatia por IgA, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Na nefropatia por IgA a hematúria acompanha a infecção (1 a 2 dias)."
-    },
-    {
-     "letra": "B",
-     "texto": "Na nefropatia por IgA há depósitos mesangiais de IgA."
-    },
-    {
-     "letra": "C",
-     "texto": "Na GNPE há latência de 1 a 3 semanas após faringite ou piodermite."
-    },
-    {
-     "letra": "D",
-     "texto": "Na nefropatia por IgA o complemento C3 está caracteristicamente baixo, e a hematúria surge 2 a 3 semanas após a infecção."
-    },
-    {
-     "letra": "E",
-     "texto": "Na GNPE o C3 está reduzido."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Na nefropatia por IgA o complemento é **normal** e a hematúria é sincrônica à infecção."
-  },
-  {
-   "id": "FISIO-PF-FIM-13",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "AVE · fatores de risco",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · doença cerebrovascular (fatores de risco)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os fatores de risco e os mecanismos do AVE isquêmico, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipertensão, diabetes, tabagismo, dislipidemia e fibrilação atrial são fatores de risco; a aterosclerose carotídea pode causar AVE por trombose local ou por embolia artério-arterial."
-    },
-    {
-     "letra": "B",
-     "texto": "O AVE isquêmico não tem relação com aterosclerose."
-    },
-    {
-     "letra": "C",
-     "texto": "A embolia cerebral só ocorre a partir das veias dos membros inferiores em pessoas sem forame oval patente."
-    },
-    {
-     "letra": "D",
-     "texto": "O tabagismo reduz o risco de AVE."
-    },
-    {
-     "letra": "E",
-     "texto": "A fibrilação atrial protege contra embolia cerebral."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Embolia paradoxal: trombo venoso atravessa forame oval patente para a circulação arterial."
-  },
-  {
-   "id": "FISIO-PF-FIM-14",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "meningite · Waterhouse",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · meningococcemia",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Adolescente com febre alta, petéquias que evoluem rapidamente para púrpura extensa, hipotensão refratária e choque. A necropsia mostra hemorragia bilateral das adrenais. O agente e a síndrome são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Toxoplasma gondii — abscesso cerebral."
-    },
-    {
-     "letra": "B",
-     "texto": "Neisseria meningitidis — síndrome de Waterhouse-Friderichsen."
-    },
-    {
-     "letra": "C",
-     "texto": "Mycobacterium tuberculosis — meningite basal."
-    },
-    {
-     "letra": "D",
-     "texto": "Pneumococo — hidrocefalia ex vacuo."
-    },
-    {
-     "letra": "E",
-     "texto": "Herpes simples — encefalite temporal."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Meningococcemia: CIVD, púrpura fulminante, insuficiência adrenal aguda."
-  },
-  {
-   "id": "FISIO-PF-FIM-15",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "Glasgow e herniação · fisiopatologia",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · hipertensão intracraniana",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Por que a hipercapnia deve ser evitada no paciente com hipertensão intracraniana?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Porque o CO₂ é neurotóxico apenas no cerebelo."
-    },
-    {
-     "letra": "B",
-     "texto": "Porque a hipercapnia reduz o volume de líquor."
-    },
-    {
-     "letra": "C",
-     "texto": "Porque a hipercapnia causa hipoglicemia."
-    },
-    {
-     "letra": "D",
-     "texto": "Porque o CO₂ causa vasoconstrição cerebral grave."
-    },
-    {
-     "letra": "E",
-     "texto": "Porque o CO₂ elevado causa vasodilatação cerebral, aumenta o volume sanguíneo intracraniano e eleva ainda mais a pressão intracraniana."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Por isso, opioides e sedativos que deprimem a respiração podem piorar a HIC sem via aérea protegida."
-  },
-  {
-   "id": "FISIO-PF-FIM-16",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "neurônio vermelho · tempo",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · lesão neuronal aguda",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Em uma necropsia, o patologista encontra neurônios com citoplasma intensamente eosinofílico, núcleo picnótico e perda da substância de Nissl no hipocampo. Esse achado indica:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Gliose crônica de meses."
-    },
-    {
-     "letra": "B",
-     "texto": "Corpúsculos de Negri da raiva."
-    },
-    {
-     "letra": "C",
-     "texto": "Lesão neuronal aguda irreversível (neurônio vermelho), surgida cerca de 12 a 24 horas após hipóxia/isquemia."
-    },
-    {
-     "letra": "D",
-     "texto": "Desmielinização da esclerose múltipla."
-    },
-    {
-     "letra": "E",
-     "texto": "Placas de β-amiloide do Alzheimer."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Datação: neurônio vermelho (12–24 h) → neutrófilos (24 h) → macrófagos (dias) → gliose (semanas)."
-  },
-  {
-   "id": "FISIO-PF-FIM-17",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "DRGE · mecanismos e complicações",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · esôfago",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique os mecanismos de defesa contra o refluxo gastroesofágico, os fatores que os prejudicam e as complicações da DRGE.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Barreira antirrefluxo**: esfíncter esofágico inferior (tônus), pilares do diafragma, ângulo de His; **depuração esofágica** (peristalse e saliva com bicarbonato); **resistência da mucosa**.\n\n**Fatores que prejudicam**: relaxamentos transitórios do EEI, hipotonia (álcool, tabaco, cafeína, chocolate, gordura, fármacos como bloqueadores de canal de cálcio e nitratos), **hérnia de hiato**, aumento da pressão abdominal (obesidade, gestação), retardo do esvaziamento gástrico.\n\n**Complicações**: esofagite erosiva, úlcera e **estenose péptica** (disfagia), **esôfago de Barrett** (metaplasia intestinal) e **adenocarcinoma** do esôfago distal; manifestações extraesofágicas (tosse crônica, asma, rouquidão, erosão dentária).",
-   "comentario": null
-  },
-  {
-   "id": "FISIO-PF-FIM-18",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Hematopoiético",
-   "subtema": "linfomas × leucemias",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · neoplasias hematológicas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie leucemias e linfomas quanto ao local de origem, à apresentação clínica e ao achado no sangue periférico.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Leucemias**: neoplasias que se originam na **medula óssea** e circulam no **sangue**; o sangue periférico mostra células neoplásicas (blastos nas agudas; células maduras ou em maturação nas crônicas). Clínica: sinais de falência medular (anemia, sangramentos, infecções), dor óssea, hepatoesplenomegalia; nas agudas, evolução rápida.\n\n**Linfomas**: neoplasias que se originam no **tecido linfoide** (linfonodos, baço, tecido linfoide extranodal), formando **massas**. Clínica: **linfonodomegalia indolor**, esplenomegalia, sintomas B (febre, sudorese noturna, perda de peso). O sangue periférico geralmente é normal (fase leucêmica é possível). Tipos: **Hodgkin** (células de Reed-Sternberg, disseminação contígua) e **não Hodgkin** (maioria B; folicular, difuso de grandes células, Burkitt).",
-   "comentario": null
-  },
-  {
-   "id": "FISIO-PF-FIM-19",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema urinário",
-   "subtema": "ITU · patogênese",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · infecção do trato urinário",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique a patogênese da infecção do trato urinário e os fatores que predispõem à pielonefrite.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Patogênese (via ascendente, a mais comum)**: bactérias da flora intestinal (principalmente **E. coli** uropatogênica, com fímbrias/adesinas) colonizam o períneo e o introito vaginal → ascendem pela **uretra** (curta na mulher) → aderem ao urotélio e causam **cistite** → podem subir pelos ureteres até a pelve e o parênquima renal (**pielonefrite**), sobretudo se houver refluxo.\n\n**Fatores predisponentes**: sexo feminino, atividade sexual, gestação (dilatação ureteral, estase), **obstrução** (cálculos, hiperplasia prostática, tumores), **refluxo vesicoureteral** (incompetência da junção ureterovesical), **cateterismo vesical**, bexiga neurogênica, **diabetes**, imunossupressão, malformações.\n\n**Via hematogênica** é rara (S. aureus, sepse, endocardite).",
-   "comentario": null
-  }
- ]
+  ]
 }
