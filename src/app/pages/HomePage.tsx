@@ -13,6 +13,7 @@ import { activeSubjects } from '../subjects';
 import { Bar, Card, cx, Loading, Section } from '../ui';
 import { ResumeBanner } from './PracticePage';
 import { WeakSpots } from '../components/WeakSpots';
+import { PlanCard } from '../components/PlanCard';
 import { startSession } from './SessionPage';
 
 function greeting() {
@@ -72,6 +73,7 @@ export default function HomePage() {
       )}
 
       <ResumeBanner />
+      {bank.exam === CURRENT_EXAM && <PlanCard bank={bank} />}
 
       <div className="mb-10 grid gap-3 lg:grid-cols-[1.4fr_1fr]">
         <Card className="relative overflow-hidden bg-ink p-6 text-bg sm:p-7">
