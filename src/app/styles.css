@@ -292,3 +292,24 @@ button:disabled {
 .goal-burst {
   animation: burst 3.2s ease forwards;
 }
+
+/* Resumo do tema (diálogo) */
+.prose-summary {
+  font-size: 0.975rem;
+  line-height: 1.6;
+}
+.prose-summary h4 {
+  font-family: var(--font-display, inherit);
+  font-size: 1.05rem;
+  color: var(--accent);
+  margin: 1.4em 0 0.45em;
+}
+.prose-summary h4:first-child {
+  margin-top: 0;
+}
+.prose-summary td,
+.prose-summary th {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: auto;
+}

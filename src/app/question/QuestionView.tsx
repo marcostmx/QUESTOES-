@@ -7,6 +7,7 @@ import { study } from '../core/store';
 import { renderMarkdown } from '../core/text';
 import { KIND_LABEL, subjectMeta } from '../subjects';
 import { Badge, Button, cx, SubjectTag } from '../ui';
+import { TopicSummaryButton } from '../components/TopicSummary';
 
 export interface QuestionHandlers {
   onSelect: (i: number) => void;
@@ -63,6 +64,7 @@ function Explanation({ q }: { q: Question }) {
       <h3 className="mb-3 text-[12px] font-semibold tracking-wide text-ink-3 uppercase">{q.format === 'open' ? 'Resposta esperada' : 'Gabarito comentado'}</h3>
       <Rich text={q.explanation} className="prose-sm" />
       {q.source && <p className="mt-4 border-t border-line pt-3 text-[12.5px] text-ink-3">Fonte: {q.source}</p>}
+      <TopicSummaryButton exam={q.exam} subject={q.subject} topic={q.topic} className="mt-3 -ml-2" />
     </section>
   );
 }

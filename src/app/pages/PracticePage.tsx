@@ -12,6 +12,7 @@ import { KIND_LABEL, ORIGIN_LABEL, activeSubjects, subjectMeta } from '../subjec
 import { Bar, Button, Card, Chip, cx, Empty, Loading, PageHeader } from '../ui';
 import { startSession } from './SessionPage';
 import { WeakSpots } from '../components/WeakSpots';
+import { TopicSummaryButton } from '../components/TopicSummary';
 
 export default function PracticePage({ subject }: { subject?: string }) {
   if (!subject) return <SubjectPicker />;
@@ -216,6 +217,8 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
                   {tp}
                 </Chip>
               ))}
+              {subjects.length === 1 &&
+                f.topics.map(tp => <TopicSummaryButton key={'r' + tp} exam={bank.exam} subject={subjects[0]} topic={tp} className="h-9" label={f.topics.length > 1 ? `Resumo: ${tp}` : 'Ler o resumo do tema'} />)}
             </Group>
           )}
           {!subjects.length && (
