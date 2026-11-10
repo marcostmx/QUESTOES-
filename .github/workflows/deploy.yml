@@ -1,0 +1,55 @@
+# Publica o app no Cloud Run (o mesmo serviço criado pelo Google AI Studio)
+# a cada push na main. Configuração única no GitHub (Settings → Secrets and variables → Actions):
+#   Secret   GCP_SA_KEY         JSON da conta de serviço com permissão de deploy
+#   Variable GCP_PROJECT_ID     ID do projeto do Google Cloud
+#   Variable GCP_REGION         região do serviço (ex.: us-west1)
+#   Variable CLOUD_RUN_SERVICE  nome do serviço no Cloud Run
+# Sem o secret, o workflow só roda a checagem e pula o deploy.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run check
+
+  deploy:
+    needs: check
+    runs-on: ubuntu-latest
+    env:
+      HAS_KEY: ${{ secrets.GCP_SA_KEY != '' }}
+    steps:
+      - name: Sem credenciais — deploy ignorado
+        if: env.HAS_KEY != 'true'
+        run: echo "::notice::Configure o secret GCP_SA_KEY e as variáveis GCP_PROJECT_ID, GCP_REGION e CLOUD_RUN_SERVICE para publicar automaticamente."
+      - uses: actions/checkout@v4
+        if: env.HAS_KEY == 'true'
+      - uses: google-github-actions/auth@v2
+        if: env.HAS_KEY == 'true'
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+      - uses: google-github-actions/setup-gcloud@v2
+        if: env.HAS_KEY == 'true'
+      - name: Deploy no Cloud Run
+        if: env.HAS_KEY == 'true'
+        run: |
+          gcloud run deploy "${{ vars.CLOUD_RUN_SERVICE }}" \
+            --source . \
+            --project "${{ vars.GCP_PROJECT_ID }}" \
+            --region "${{ vars.GCP_REGION }}" \
+            --quiet

@@ -1,366 +1,366 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Exame neurológico (formato das provas)",
-  "gerado_em": "2026-11-08",
-  "base": "SOP IV Guia PR2, seção 04, restrito aos temas que se repetem nas provas (radial × mediano, córneo-palpebral, III par, gustação, espástica × plástica, ataxias, quiasma, Brudzinski, Babinski, afasias, MEEM, força, Mingazzini, neuropatia diabética, AVC), no formato dos professores."
- },
- "questoes": [
-  {
-   "id": "PROPE-PF-NEU-01",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "nervos e reflexos · CORRETA",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q15)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os achados do exame neurológico, marque a alternativa CORRETA:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Propedêutica · Exame neurológico (formato das provas)",
+    "gerado_em": "2026-11-08",
+    "base": "SOP IV Guia PR2, seção 04, restrito aos temas que se repetem nas provas (radial × mediano, córneo-palpebral, III par, gustação, espástica × plástica, ataxias, quiasma, Brudzinski, Babinski, afasias, MEEM, força, Mingazzini, neuropatia diabética, AVC), no formato dos professores."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos: o quadro sugere compressão do nervo radial."
+      "id": "PROPE-PF-NEU-01",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "nervos e reflexos · CORRETA",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q15)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os achados do exame neurológico, marque a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos."
+        },
+        {
+          "letra": "B",
+          "texto": "Semiptose e midríase à direita, com paresia do reto medial ipsilateral, direcionam para acometimento do nervo abducente direito."
+        },
+        {
+          "letra": "C",
+          "texto": "O ramo mandibular do trigêmeo é responsável pela gustação dos dois terços anteriores da língua."
+        },
+        {
+          "letra": "D",
+          "texto": "Parestesia noturna do 1º ao 3º dedos com sinais de Tinel e Phalen positivos indica lesão do nervo ulnar."
+        },
+        {
+          "letra": "E",
+          "texto": "O reflexo córneo-palpebral é usado nos pacientes em coma; quando está presente, levanta-se a suspeita de grave lesão do tronco encefálico."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos: o quadro sugere compressão do nervo radial.\n\nMão caída ao acordar = **radial**. Córneo-palpebral: a suspeita vem quando está **ausente**. Ptose + midríase + paresia do reto medial = **oculomotor**. Gustação dos 2/3 anteriores = **facial** (corda do tímpano). Tinel e Phalen = **mediano** (túnel do carpo)."
     },
     {
-     "letra": "B",
-     "texto": "Semiptose e midríase à direita, com paresia do reto medial ipsilateral, direcionam para acometimento do nervo abducente direito."
+      "id": "PROPE-PF-NEU-02",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "tônus, ataxias, campos, meníngeos",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q14)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Sobre os achados do exame neurológico, assinale a(s) alternativa(s) CORRETA(S):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A hipertonia plástica, com sinal da roda denteada, é um achado clássico da doença de Parkinson."
+        },
+        {
+          "letra": "B",
+          "texto": "A marcha ebriosa e o sinal de Romberg positivo são achados típicos das ataxias sensitivas."
+        },
+        {
+          "letra": "C",
+          "texto": "As provas índex-nariz e calcanhar-joelho avaliam a coordenação dos membros superiores e inferiores, respectivamente."
+        },
+        {
+          "letra": "D",
+          "texto": "A hemianopsia homônima bitemporal sinaliza acometimento do quiasma óptico."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "C"
+      ],
+      "gabarito_texto": "A e C",
+      "comentario": "Ataxia sensitiva: marcha **talonante** + Romberg; ebriosa é cerebelar (Romberg negativo). Lesão do quiasma dá hemianopsia **heterônima** bitemporal; homônima é retroquiasmática."
     },
     {
-     "letra": "C",
-     "texto": "O ramo mandibular do trigêmeo é responsável pela gustação dos dois terços anteriores da língua."
+      "id": "PROPE-PF-NEU-03",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "Babinski, afasias, MEEM",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q17)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a semiologia neurológica, assinale V (verdadeiro) ou F (falso) e marque a sequência correta:\n\nI. ( ) O sinal de Babinski é considerado patológico quando há extensão do hálux ao estímulo da planta do pé, sugerindo lesão da via piramidal.\nII. ( ) Na afasia de Broca, o paciente tem dificuldade de compreensão da linguagem, embora a fala seja fluente.\nIII. ( ) O Mini Exame do Estado Mental é um teste diagnóstico que define a causa da demência.\nIV. ( ) A dismetria é a dificuldade em realizar movimentos alternados rápidos.\nV. ( ) O Mini Exame do Estado Mental avalia orientação, memória, atenção e linguagem, com nota de corte ajustada pela escolaridade.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "V – F – V – F – F"
+        },
+        {
+          "letra": "B",
+          "texto": "F – V – F – F – V"
+        },
+        {
+          "letra": "C",
+          "texto": "V – F – F – F – V"
+        },
+        {
+          "letra": "D",
+          "texto": "V – V – F – F – V"
+        },
+        {
+          "letra": "E",
+          "texto": "V – F – F – F – F"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Broca: **não fluente**, compreensão preservada (fluente sem compreensão é Wernicke). MEEM é **rastreio**. Movimentos alternados = **disdiadococinesia**; dismetria = errar o alvo."
     },
     {
-     "letra": "D",
-     "texto": "Parestesia noturna do 1º ao 3º dedos com sinais de Tinel e Phalen positivos indica lesão do nervo ulnar."
+      "id": "PROPE-PF-NEU-04",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "caso de AVC · marcha e força",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q18) e caso guiado 1",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 70 anos, hipertenso, com AVC isquêmico há 6 meses, refere dificuldade para caminhar. A marcha é parética, com arrastamento do pé esquerdo. A força no membro superior esquerdo é grau 3 e no inferior esquerdo, grau 4; os reflexos estão exaltados à esquerda, com Babinski à esquerda. Analise as afirmativas:\n\nI. A marcha parética com arrastamento do pé esquerdo sugere lesão da via corticoespinhal no hemisfério direito.\nII. Força grau 3 significa que o paciente vence a gravidade, mas não vence resistência do examinador.\nIII. A manobra de Mingazzini avalia a força e a sensibilidade tátil dos membros inferiores.\nIV. A hiper-reflexia com Babinski indica lesão do neurônio motor inferior.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas a IV está correta."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I e II estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas II e III estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas I e III estão corretas."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Déficit à esquerda = lesão piramidal **direita** (decussação). Mingazzini avalia **só força**. Hiper-reflexia + Babinski = neurônio motor **superior**."
     },
     {
-     "letra": "E",
-     "texto": "O reflexo córneo-palpebral é usado nos pacientes em coma; quando está presente, levanta-se a suspeita de grave lesão do tronco encefálico."
+      "id": "PROPE-PF-NEU-05",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "pares cranianos",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 2 Nervos cranianos e Nas provas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Sobre o exame neurológico dos pares cranianos, assinale a(s) alternativa(s) correta(s):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Na paralisia facial periférica, toda a hemiface do mesmo lado é acometida; na central, apenas a metade inferior da face contralateral à lesão."
+        },
+        {
+          "letra": "B",
+          "texto": "O reflexo fotomotor tem via aferente pelo nervo óptico (II) e eferente pelo oculomotor (III)."
+        },
+        {
+          "letra": "C",
+          "texto": "Na lesão unilateral do hipoglosso (XII), a língua protrusa desvia para o lado são."
+        },
+        {
+          "letra": "D",
+          "texto": "Na lesão unilateral do vago (X), a úvula desvia para o lado normal."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "B",
+        "D"
+      ],
+      "gabarito_texto": "A, B e D",
+      "comentario": "\"Úvula foge, língua aponta\": no XII a língua desvia para o lado da **lesão**."
+    },
+    {
+      "id": "PROPE-PF-NEU-06",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "ataxia sensitiva × cerebelar",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 5 Coordenação (tabela de ataxias) e Bloco 2 Q3",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 58 anos, etilista e vegetariano estrito há anos, refere instabilidade ao andar, pior no escuro. Ao exame, olha para os pés ao caminhar e bate os calcanhares no chão; há redução da sensibilidade vibratória e da noção de posição nos pés, e o paciente cai imediatamente ao fechar os olhos com os pés juntos. Força e coordenação de olhos abertos são normais. Qual é a interpretação correta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ataxia cerebelar; o índex-nariz deve estar alterado de olhos abertos."
+        },
+        {
+          "letra": "B",
+          "texto": "Lesão piramidal bilateral, pois a força está preservada."
+        },
+        {
+          "letra": "C",
+          "texto": "Síndrome vestibular periférica, com queda sempre para o mesmo lado após latência."
+        },
+        {
+          "letra": "D",
+          "texto": "Ataxia sensitiva por lesão do cordão posterior; deficiência de vitamina B12 deve ser investigada."
+        },
+        {
+          "letra": "E",
+          "texto": "Ataxia cerebelar; o Romberg positivo confirma lesão do verme."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Marcha talonante + Romberg positivo imediato + perda da sensibilidade profunda = ataxia **sensitiva** (cordão posterior: B12, tabes, polineuropatia). Na cerebelar o Romberg é negativo e a coordenação já falha de olhos abertos."
+    },
+    {
+      "id": "PROPE-PF-NEU-07",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "neuropatia diabética",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q16) e 4 Polineuropatia (seção 05)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "JPS, 62 anos, motorista aposentado, diabético há 18 anos com má adesão ao tratamento, refere \"formigamento\" e queimação nos pés há 1 ano, com piora progressiva. Ao exame: hipoestesia tátil e dolorosa em \"bota\" bilateral, hipopalestesia nos pés, hipotrofia da musculatura intrínseca dos pés, aquileus abolidos e patelares hipoativos. Sem Babinski. Esfíncteres preservados. Assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A ausência de Babinski indica que o quadro é central e exige ressonância de crânio."
+        },
+        {
+          "letra": "B",
+          "texto": "Trata-se de síndrome medular, pelo acometimento bilateral e simétrico com preservação dos esfíncteres."
+        },
+        {
+          "letra": "C",
+          "texto": "A sensibilidade superficial pode ter sido testada com o diapasão e a profunda com a ponta de um estilete."
+        },
+        {
+          "letra": "D",
+          "texto": "Os achados são compatíveis com síndrome do neurônio motor superior, pela hipotrofia e pela ausência de reflexos."
+        },
+        {
+          "letra": "E",
+          "texto": "Polineuropatia periférica com perda sensitiva distal (hipótese: neuropatia diabética)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** O quadro é compatível com polineuropatia periférica, com alteração sensitiva superficial e profunda distal, tendo como principal hipótese a neuropatia diabética.\n\nDistal, simétrica, \"em bota\", arreflexia (aquileu primeiro), sem Babinski e sem nível sensitivo = polineuropatia. O diapasão testa a sensibilidade **profunda** (vibratória); o estilete, a dolorosa superficial."
+    },
+    {
+      "id": "PROPE-PF-NEU-08",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "Glasgow e localização",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 1 Consciência (Glasgow) e Complemento (pupilas no coma)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Vítima de TCE abre os olhos apenas à pressão, emite sons incompreensíveis e apresenta flexão anormal (decorticação) ao estímulo doloroso. A pupila direita está dilatada e não reage à luz. O Glasgow (sem a reatividade pupilar) e a interpretação do achado pupilar são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Glasgow 7 (TCE grave); midríase fixa unilateral sugere compressão do III par por herniação."
+        },
+        {
+          "letra": "B",
+          "texto": "Glasgow 6 (TCE grave); midríase fixa sugere pupila de Argyll-Robertson."
+        },
+        {
+          "letra": "C",
+          "texto": "Glasgow 8 (TCE moderado); midríase fixa é achado esperado e sem valor."
+        },
+        {
+          "letra": "D",
+          "texto": "Glasgow 7 (TCE grave); midríase fixa sugere síndrome de Horner."
+        },
+        {
+          "letra": "E",
+          "texto": "Glasgow 9 (TCE moderado); midríase fixa sugere lesão do nervo óptico."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Ocular à pressão 2 + verbal sons 2 + flexão anormal 3 = **7** (grave ≤ 8). Midríase fixa unilateral = compressão do III (herniação uncal). Horner = miose; Argyll-Robertson = miose que reage à acomodação."
+    },
+    {
+      "id": "PROPE-PF-NEU-09",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "AVC · sinais",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Complemento (AVC: sinais além do motor) e lista dissertativa",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Paciente teve acidente vascular cerebral isquêmico recentemente. Indique cinco sinais neurológicos que podem ser detectados no exame clínico.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "Quaisquer cinco: **hemiparesia/hemiplegia** contralateral (Barré/Mingazzini positivos); **paralisia facial central** (só a metade inferior, contralateral); **hiper-reflexia e sinal de Babinski** (na fase aguda pode haver flacidez); **espasticidade** em canivete (tardia), postura de Wernicke-Mann e marcha ceifante; **afasia** (Broca ou Wernicke, hemisfério dominante); **hemi-hipoestesia** contralateral; **hemianopsia homônima** contralateral; desvio conjugado do olhar para o lado da lesão; heminegligência (parietal direito); disartria, disfagia.",
+      "comentario": null
+    },
+    {
+      "id": "PROPE-PF-NEU-10",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "NMS × NMI",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 3 Síndromes motoras",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie, no exame físico, a síndrome do neurônio motor superior da síndrome do neurônio motor inferior, citando os achados de cada uma.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| Achado | Neurônio motor superior | Neurônio motor inferior |\n|---|---|---|\n| Fraqueza | Global/antigravitária (hemi, para, tetraparesia) | Segmentar |\n| Tônus | Hipertonia espástica (canivete) | Hipotonia |\n| Reflexos | Exaltados, clônus, **Babinski** | Diminuídos ou abolidos |\n| Atrofia | Ausente no início (tardia, por desuso) | Precoce |\n| Fasciculações | Ausentes | Presentes |\n\nNa fase aguda da lesão piramidal (choque) pode haver flacidez e arreflexia. NMS + NMI juntos, sem alteração sensitiva = ELA.",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Mão caída ao acordar = **radial**. Córneo-palpebral: a suspeita vem quando está **ausente**. Ptose + midríase + paresia do reto medial = **oculomotor**. Gustação dos 2/3 anteriores = **facial** (corda do tímpano). Tinel e Phalen = **mediano** (túnel do carpo)."
-  },
-  {
-   "id": "PROPE-PF-NEU-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "tônus, ataxias, campos, meníngeos",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q14)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Sobre os achados do exame neurológico, assinale a(s) alternativa(s) CORRETA(S):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A hipertonia plástica, com sinal da roda denteada, é um achado clássico da doença de Parkinson."
-    },
-    {
-     "letra": "B",
-     "texto": "A marcha ebriosa e o sinal de Romberg positivo são achados típicos das ataxias sensitivas."
-    },
-    {
-     "letra": "C",
-     "texto": "As provas índex-nariz e calcanhar-joelho avaliam a coordenação dos membros superiores e inferiores, respectivamente."
-    },
-    {
-     "letra": "D",
-     "texto": "A hemianopsia homônima bitemporal sinaliza acometimento do quiasma óptico."
-    },
-    {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
-    }
-   ],
-   "gabarito": [
-    "A",
-    "C"
-   ],
-   "gabarito_texto": "A e C",
-   "comentario": "Ataxia sensitiva: marcha **talonante** + Romberg; ebriosa é cerebelar (Romberg negativo). Lesão do quiasma dá hemianopsia **heterônima** bitemporal; homônima é retroquiasmática."
-  },
-  {
-   "id": "PROPE-PF-NEU-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "Babinski, afasias, MEEM",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q17)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a semiologia neurológica, assinale V (verdadeiro) ou F (falso) e marque a sequência correta:\n\nI. ( ) O sinal de Babinski é considerado patológico quando há extensão do hálux ao estímulo da planta do pé, sugerindo lesão da via piramidal.\nII. ( ) Na afasia de Broca, o paciente tem dificuldade de compreensão da linguagem, embora a fala seja fluente.\nIII. ( ) O Mini Exame do Estado Mental é um teste diagnóstico que define a causa da demência.\nIV. ( ) A dismetria é a dificuldade em realizar movimentos alternados rápidos.\nV. ( ) O Mini Exame do Estado Mental avalia orientação, memória, atenção e linguagem, com nota de corte ajustada pela escolaridade.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "V – F – V – F – F"
-    },
-    {
-     "letra": "B",
-     "texto": "F – V – F – F – V"
-    },
-    {
-     "letra": "C",
-     "texto": "V – F – F – F – V"
-    },
-    {
-     "letra": "D",
-     "texto": "V – V – F – F – V"
-    },
-    {
-     "letra": "E",
-     "texto": "V – F – F – F – F"
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Broca: **não fluente**, compreensão preservada (fluente sem compreensão é Wernicke). MEEM é **rastreio**. Movimentos alternados = **disdiadococinesia**; dismetria = errar o alvo."
-  },
-  {
-   "id": "PROPE-PF-NEU-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "caso de AVC · marcha e força",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q18) e caso guiado 1",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 70 anos, hipertenso, com AVC isquêmico há 6 meses, refere dificuldade para caminhar. A marcha é parética, com arrastamento do pé esquerdo. A força no membro superior esquerdo é grau 3 e no inferior esquerdo, grau 4; os reflexos estão exaltados à esquerda, com Babinski à esquerda. Analise as afirmativas:\n\nI. A marcha parética com arrastamento do pé esquerdo sugere lesão da via corticoespinhal no hemisfério direito.\nII. Força grau 3 significa que o paciente vence a gravidade, mas não vence resistência do examinador.\nIII. A manobra de Mingazzini avalia a força e a sensibilidade tátil dos membros inferiores.\nIV. A hiper-reflexia com Babinski indica lesão do neurônio motor inferior.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas a IV está correta."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I e II estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas II e III estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas I e III estão corretas."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Déficit à esquerda = lesão piramidal **direita** (decussação). Mingazzini avalia **só força**. Hiper-reflexia + Babinski = neurônio motor **superior**."
-  },
-  {
-   "id": "PROPE-PF-NEU-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "pares cranianos",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 2 Nervos cranianos e Nas provas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Sobre o exame neurológico dos pares cranianos, assinale a(s) alternativa(s) correta(s):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Na paralisia facial periférica, toda a hemiface do mesmo lado é acometida; na central, apenas a metade inferior da face contralateral à lesão."
-    },
-    {
-     "letra": "B",
-     "texto": "O reflexo fotomotor tem via aferente pelo nervo óptico (II) e eferente pelo oculomotor (III)."
-    },
-    {
-     "letra": "C",
-     "texto": "Na lesão unilateral do hipoglosso (XII), a língua protrusa desvia para o lado são."
-    },
-    {
-     "letra": "D",
-     "texto": "Na lesão unilateral do vago (X), a úvula desvia para o lado normal."
-    },
-    {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
-    }
-   ],
-   "gabarito": [
-    "A",
-    "B",
-    "D"
-   ],
-   "gabarito_texto": "A, B e D",
-   "comentario": "\"Úvula foge, língua aponta\": no XII a língua desvia para o lado da **lesão**."
-  },
-  {
-   "id": "PROPE-PF-NEU-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "ataxia sensitiva × cerebelar",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 5 Coordenação (tabela de ataxias) e Bloco 2 Q3",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 58 anos, etilista e vegetariano estrito há anos, refere instabilidade ao andar, pior no escuro. Ao exame, olha para os pés ao caminhar e bate os calcanhares no chão; há redução da sensibilidade vibratória e da noção de posição nos pés, e o paciente cai imediatamente ao fechar os olhos com os pés juntos. Força e coordenação de olhos abertos são normais. Qual é a interpretação correta?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ataxia cerebelar; o índex-nariz deve estar alterado de olhos abertos."
-    },
-    {
-     "letra": "B",
-     "texto": "Lesão piramidal bilateral, pois a força está preservada."
-    },
-    {
-     "letra": "C",
-     "texto": "Síndrome vestibular periférica, com queda sempre para o mesmo lado após latência."
-    },
-    {
-     "letra": "D",
-     "texto": "Ataxia sensitiva por lesão do cordão posterior; deficiência de vitamina B12 deve ser investigada."
-    },
-    {
-     "letra": "E",
-     "texto": "Ataxia cerebelar; o Romberg positivo confirma lesão do verme."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Marcha talonante + Romberg positivo imediato + perda da sensibilidade profunda = ataxia **sensitiva** (cordão posterior: B12, tabes, polineuropatia). Na cerebelar o Romberg é negativo e a coordenação já falha de olhos abertos."
-  },
-  {
-   "id": "PROPE-PF-NEU-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "neuropatia diabética",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q16) e 4 Polineuropatia (seção 05)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "JPS, 62 anos, motorista aposentado, diabético há 18 anos com má adesão ao tratamento, refere \"formigamento\" e queimação nos pés há 1 ano, com piora progressiva. Ao exame: hipoestesia tátil e dolorosa em \"bota\" bilateral, hipopalestesia nos pés, hipotrofia da musculatura intrínseca dos pés, aquileus abolidos e patelares hipoativos. Sem Babinski. Esfíncteres preservados. Assinale a alternativa correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A ausência de Babinski indica que o quadro é central e exige ressonância de crânio."
-    },
-    {
-     "letra": "B",
-     "texto": "Trata-se de síndrome medular, pelo acometimento bilateral e simétrico com preservação dos esfíncteres."
-    },
-    {
-     "letra": "C",
-     "texto": "A sensibilidade superficial pode ter sido testada com o diapasão e a profunda com a ponta de um estilete."
-    },
-    {
-     "letra": "D",
-     "texto": "Os achados são compatíveis com síndrome do neurônio motor superior, pela hipotrofia e pela ausência de reflexos."
-    },
-    {
-     "letra": "E",
-     "texto": "O quadro é compatível com polineuropatia periférica, com alteração sensitiva superficial e profunda distal, tendo como principal hipótese a neuropatia diabética."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Distal, simétrica, \"em bota\", arreflexia (aquileu primeiro), sem Babinski e sem nível sensitivo = polineuropatia. O diapasão testa a sensibilidade **profunda** (vibratória); o estilete, a dolorosa superficial."
-  },
-  {
-   "id": "PROPE-PF-NEU-08",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "Glasgow e localização",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 1 Consciência (Glasgow) e Complemento (pupilas no coma)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Vítima de TCE abre os olhos apenas à pressão, emite sons incompreensíveis e apresenta flexão anormal (decorticação) ao estímulo doloroso. A pupila direita está dilatada e não reage à luz. O Glasgow (sem a reatividade pupilar) e a interpretação do achado pupilar são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Glasgow 7 (TCE grave); midríase fixa unilateral sugere compressão do III par por herniação."
-    },
-    {
-     "letra": "B",
-     "texto": "Glasgow 6 (TCE grave); midríase fixa sugere pupila de Argyll-Robertson."
-    },
-    {
-     "letra": "C",
-     "texto": "Glasgow 8 (TCE moderado); midríase fixa é achado esperado e sem valor."
-    },
-    {
-     "letra": "D",
-     "texto": "Glasgow 7 (TCE grave); midríase fixa sugere síndrome de Horner."
-    },
-    {
-     "letra": "E",
-     "texto": "Glasgow 9 (TCE moderado); midríase fixa sugere lesão do nervo óptico."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Ocular à pressão 2 + verbal sons 2 + flexão anormal 3 = **7** (grave ≤ 8). Midríase fixa unilateral = compressão do III (herniação uncal). Horner = miose; Argyll-Robertson = miose que reage à acomodação."
-  },
-  {
-   "id": "PROPE-PF-NEU-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "AVC · sinais",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Complemento (AVC: sinais além do motor) e lista dissertativa",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Paciente teve acidente vascular cerebral isquêmico recentemente. Indique cinco sinais neurológicos que podem ser detectados no exame clínico.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "Quaisquer cinco: **hemiparesia/hemiplegia** contralateral (Barré/Mingazzini positivos); **paralisia facial central** (só a metade inferior, contralateral); **hiper-reflexia e sinal de Babinski** (na fase aguda pode haver flacidez); **espasticidade** em canivete (tardia), postura de Wernicke-Mann e marcha ceifante; **afasia** (Broca ou Wernicke, hemisfério dominante); **hemi-hipoestesia** contralateral; **hemianopsia homônima** contralateral; desvio conjugado do olhar para o lado da lesão; heminegligência (parietal direito); disartria, disfagia.",
-   "comentario": null
-  },
-  {
-   "id": "PROPE-PF-NEU-10",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "NMS × NMI",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · 3 Síndromes motoras",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie, no exame físico, a síndrome do neurônio motor superior da síndrome do neurônio motor inferior, citando os achados de cada uma.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| Achado | Neurônio motor superior | Neurônio motor inferior |\n|---|---|---|\n| Fraqueza | Global/antigravitária (hemi, para, tetraparesia) | Segmentar |\n| Tônus | Hipertonia espástica (canivete) | Hipotonia |\n| Reflexos | Exaltados, clônus, **Babinski** | Diminuídos ou abolidos |\n| Atrofia | Ausente no início (tardia, por desuso) | Precoce |\n| Fasciculações | Ausentes | Presentes |\n\nNa fase aguda da lesão piramidal (choque) pode haver flacidez e arreflexia. NMS + NMI juntos, sem alteração sensitiva = ELA.",
-   "comentario": null
-  }
- ]
+  ]
 }

@@ -1,963 +1,963 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Exame neurológico (lote 4, formato das provas)",
-  "gerado_em": "2026-11-09",
-  "base": "Porto, Semiologia Médica 8ª ed., cap. 20, e SOP IV Guia PR2 seção 04, restrito ao item 6.2 do plano. Formato das provas de Propedêutica."
- },
- "questoes": [
-  {
-   "id": "PROPE-PF-NEU4-01",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "Glasgow · melhor resposta",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · Glasgow (regra da melhor resposta)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com TCE obedece a comandos com o membro superior direito, mas apresenta apenas flexão anormal no membro superior esquerdo. Abre os olhos ao chamado e está confuso. Pela Escala de Glasgow, o escore é:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Propedêutica · Exame neurológico (lote 4, formato das provas)",
+    "gerado_em": "2026-11-09",
+    "base": "Porto, Semiologia Médica 8ª ed., cap. 20, e SOP IV Guia PR2 seção 04, restrito ao item 6.2 do plano. Formato das provas de Propedêutica."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "14"
+      "id": "PROPE-PF-NEU4-01",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "Glasgow · melhor resposta",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · Glasgow (regra da melhor resposta)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com TCE obedece a comandos com o membro superior direito, mas apresenta apenas flexão anormal no membro superior esquerdo. Abre os olhos ao chamado e está confuso. Pela Escala de Glasgow, o escore é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "14"
+        },
+        {
+          "letra": "B",
+          "texto": "11"
+        },
+        {
+          "letra": "C",
+          "texto": "10"
+        },
+        {
+          "letra": "D",
+          "texto": "13"
+        },
+        {
+          "letra": "E",
+          "texto": "12"
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Registra-se sempre a **melhor resposta**, do melhor lado: motor 6 + ocular ao som 3 + verbal confusa 4 = 13. A assimetria motora deve ser descrita à parte (sugere lesão focal)."
     },
     {
-     "letra": "B",
-     "texto": "11"
+      "id": "PROPE-PF-NEU4-02",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "MEEM · domínios",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · MEEM (domínios e pontuação)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "No Miniexame do Estado Mental, a tarefa \"subtrair 7 de 100 sucessivamente, cinco vezes\" avalia:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Orientação temporal."
+        },
+        {
+          "letra": "B",
+          "texto": "Praxia construtiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Linguagem (nomeação)."
+        },
+        {
+          "letra": "D",
+          "texto": "Evocação."
+        },
+        {
+          "letra": "E",
+          "texto": "Atenção e cálculo (5 pontos)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "MEEM: orientação temporal (5) e espacial (5), registro (3), atenção e cálculo (5), evocação (3), nomear (2), repetir (1), comando de 3 estágios (3), ler (1), escrever (1), copiar pentágonos (1) = 30."
     },
     {
-     "letra": "C",
-     "texto": "10"
+      "id": "PROPE-PF-NEU4-03",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "afasia global",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · linguagem (afasias)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com oclusão do tronco da artéria cerebral média esquerda não consegue falar espontaneamente, não compreende ordens simples, não repete nem nomeia objetos. A alteração é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Afasia global."
+        },
+        {
+          "letra": "B",
+          "texto": "Afasia de Wernicke pura."
+        },
+        {
+          "letra": "C",
+          "texto": "Afasia anômica."
+        },
+        {
+          "letra": "D",
+          "texto": "Disartria por lesão cerebelar."
+        },
+        {
+          "letra": "E",
+          "texto": "Afasia de Broca pura."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Afasia global, por lesão extensa das áreas da linguagem do hemisfério dominante.\n\nGlobal: expressão e compreensão comprometidas (território amplo da ACM esquerda), geralmente com hemiplegia direita."
     },
     {
-     "letra": "D",
-     "texto": "13"
+      "id": "PROPE-PF-NEU4-04",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "anosmia × cacosmia",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (I olfatório)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente refere crises breves em que sente \"cheiro de borracha queimada\" que ninguém mais percebe, seguidas de desligamento e movimentos mastigatórios. Esse sintoma olfatório é chamado de cacosmia e pode corresponder a:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sinusite crônica simples."
+        },
+        {
+          "letra": "B",
+          "texto": "Crise focal temporal (uncinada)."
+        },
+        {
+          "letra": "C",
+          "texto": "Lesão do nervo óptico."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertensão intracraniana sem crise."
+        },
+        {
+          "letra": "E",
+          "texto": "Paralisia facial periférica."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Crise epiléptica focal de origem temporal mesial (crise uncinada).\n\nCacosmia: percepção de odor desagradável inexistente; episódica, pode ser aura epiléptica (úncus)."
     },
     {
-     "letra": "E",
-     "texto": "12"
+      "id": "PROPE-PF-NEU4-05",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "III par · midríase isolada",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (III oculomotor)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na paralisia completa do nervo oculomotor direito, espera-se:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Impossibilidade isolada de abduzir o olho direito."
+        },
+        {
+          "letra": "B",
+          "texto": "Miose direita com ptose discreta e enoftalmia."
+        },
+        {
+          "letra": "C",
+          "texto": "Ptose, olho para baixo e para fora e midríase à direita."
+        },
+        {
+          "letra": "D",
+          "texto": "Paralisia da hemiface direita inteira."
+        },
+        {
+          "letra": "E",
+          "texto": "Diplopia vertical apenas ao descer escadas."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Ptose palpebral direita, olho desviado para baixo e para fora e pupila midriática que não reage à luz.\n\nO III inerva elevador da pálpebra, retos superior, inferior e medial, oblíquo inferior e o esfíncter da pupila (parassimpático). Sobram o reto lateral (VI) e o oblíquo superior (IV): olho \"para baixo e para fora\"."
+    },
+    {
+      "id": "PROPE-PF-NEU4-06",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "córneo-palpebral · técnica",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (V trigêmeo, reflexo córneo-palpebral)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na pesquisa do reflexo córneo-palpebral, o examinador pede que o paciente olhe para o lado oposto e toca a córnea com uma mecha de algodão. A resposta normal e as vias são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Piscar bilateral; aferência pelo trigêmeo (V1) e eferência pelo facial (VII)."
+        },
+        {
+          "letra": "B",
+          "texto": "Piscar apenas do olho estimulado; aferência pelo II e eferência pelo III."
+        },
+        {
+          "letra": "C",
+          "texto": "Desvio conjugado do olhar; aferência pelo VIII."
+        },
+        {
+          "letra": "D",
+          "texto": "Lacrimejamento sem piscar; aferência pelo VII e eferência pelo V."
+        },
+        {
+          "letra": "E",
+          "texto": "Miose bilateral; aferência pelo II e eferência pelo III."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Lesão do V do lado estimulado: nenhum dos olhos pisca. Lesão do VII de um lado: aquele olho não pisca, mas o outro sim."
+    },
+    {
+      "id": "PROPE-PF-NEU4-07",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "VII · central",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VII facial central)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Por que, na paralisia facial central (como no AVC), a musculatura da fronte fica preservada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Porque a fronte é inervada pelo trigêmeo."
+        },
+        {
+          "letra": "B",
+          "texto": "Porque a metade superior da face tem inervação cortical bilateral."
+        },
+        {
+          "letra": "C",
+          "texto": "Porque a paralisia central é sempre bilateral."
+        },
+        {
+          "letra": "D",
+          "texto": "Porque o músculo frontal é inervado pelo oculomotor."
+        },
+        {
+          "letra": "E",
+          "texto": "Porque a lesão central atinge apenas o ramo mandibular do facial."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Porque o núcleo do facial que inerva a metade superior da face recebe fibras corticonucleares dos dois hemisférios, enquanto a porção que inerva a metade inferior recebe inervação predominantemente contralateral.\n\nCentral: só a metade inferior, contralateral à lesão. Periférica: hemiface toda, ipsilateral."
+    },
+    {
+      "id": "PROPE-PF-NEU4-08",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "VIII · coclear · caso",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII coclear)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com perda auditiva progressiva no ouvido direito e zumbido. Rinne positivo bilateralmente, com tempos reduzidos à direita; Weber lateraliza para a esquerda. Qual a interpretação e uma causa a considerar?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Perda condutiva direita por rolha de cerume."
+        },
+        {
+          "letra": "B",
+          "texto": "Perda neurossensorial esquerda por presbiacusia."
+        },
+        {
+          "letra": "C",
+          "texto": "Audição normal."
+        },
+        {
+          "letra": "D",
+          "texto": "Perda neurossensorial direita."
+        },
+        {
+          "letra": "E",
+          "texto": "Perda condutiva esquerda."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Perda neurossensorial direita; considerar schwannoma vestibular (neurinoma do acústico) se unilateral e progressiva.\n\nPerda neurossensorial assimétrica e progressiva com zumbido exige investigação de lesão do VIII (ângulo pontocerebelar)."
+    },
+    {
+      "id": "PROPE-PF-NEU4-09",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "nistagmo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII vestibular: nistagmo)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o nistagmo, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O nistagmo vertical puro indica sempre lesão vestibular periférica."
+        },
+        {
+          "letra": "B",
+          "texto": "É nomeado pela direção do componente lento."
+        },
+        {
+          "letra": "C",
+          "texto": "É sempre sinal de doença psiquiátrica."
+        },
+        {
+          "letra": "D",
+          "texto": "Não pode ser provocado por manobras posicionais."
+        },
+        {
+          "letra": "E",
+          "texto": "É um movimento ocular involuntário rítmico, com componente lento e componente rápido."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** É um movimento ocular involuntário rítmico, com componente lento e componente rápido; por convenção, é nomeado pela direção do componente rápido.\n\nNa lesão vestibular periférica o componente lento vai para o lado lesado (rápido para o lado são). Nistagmo vertical ou que muda de direção sugere lesão central."
+    },
+    {
+      "id": "PROPE-PF-NEU4-10",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "XI par",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (XI acessório)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após biópsia de linfonodo no triângulo posterior do pescoço, paciente apresenta queda do ombro direito, dificuldade em elevá-lo e atrofia do trapézio. O nervo lesado é o:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipoglosso (XII)."
+        },
+        {
+          "letra": "B",
+          "texto": "Facial (VII)."
+        },
+        {
+          "letra": "C",
+          "texto": "Acessório (XI)."
+        },
+        {
+          "letra": "D",
+          "texto": "Glossofaríngeo (IX)."
+        },
+        {
+          "letra": "E",
+          "texto": "Vago (X)."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "XI: esternocleidomastóideo (girar a cabeça para o lado oposto) e trapézio (elevar os ombros). Lesão iatrogênica no triângulo posterior é clássica."
+    },
+    {
+      "id": "PROPE-PF-NEU4-11",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "tônus · técnica",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus (técnica: inspeção, palpação, movimentos passivos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a avaliação do tônus muscular, analise as afirmativas:\n\nI. Avalia-se com o paciente deitado e relaxado, por inspeção, palpação e movimentação passiva dos segmentos.\nII. A passividade aumentada e a extensibilidade aumentada (o calcanhar toca facilmente o glúteo) indicam hipotonia.\nIII. A prova do balanço (sacudir o segmento) mostra oscilações exageradas na hipotonia.\nIV. A hipertonia é avaliada pedindo ao paciente que realize contração voluntária máxima contra resistência.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas II e IV estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas II e III estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas a II está correta."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas I e III estão corretas."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Tônus = resistência à movimentação **passiva**; contração voluntária contra resistência avalia **força**."
+    },
+    {
+      "id": "PROPE-PF-NEU4-12",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "rigidez · descerebração",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus e consciência (posturas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente em coma, ao estímulo doloroso, estende e roda internamente os membros superiores e estende os inferiores. Essa postura e a localização da lesão sugerida são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Atitude passiva sem significado."
+        },
+        {
+          "letra": "B",
+          "texto": "Opistótono do tétano."
+        },
+        {
+          "letra": "C",
+          "texto": "Postura de Wernicke-Mann da hemiplegia crônica."
+        },
+        {
+          "letra": "D",
+          "texto": "Decorticação — lesão acima do núcleo rubro."
+        },
+        {
+          "letra": "E",
+          "texto": "Descerebração (lesão do tronco)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Descerebração — lesão do tronco encefálico (mesencéfalo/ponte), de pior prognóstico.\n\nNo Glasgow: extensão anormal = 2; flexão anormal (decorticação) = 3."
+    },
+    {
+      "id": "PROPE-PF-NEU4-13",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "reflexos · tricipital",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos (raízes)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com hérnia discal cervical C7 deve apresentar, mais provavelmente, diminuição do reflexo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Tricipital."
+        },
+        {
+          "letra": "B",
+          "texto": "Bicipital."
+        },
+        {
+          "letra": "C",
+          "texto": "Patelar."
+        },
+        {
+          "letra": "D",
+          "texto": "Aquileu."
+        },
+        {
+          "letra": "E",
+          "texto": "Cutâneo-abdominal inferior."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Aula: tricipital C7–C8 (Renato/Porto C6–C8); bicipital e estilorradial C5–C6; patelar L3–L4 (L2–L4); aquileu S1–S2 (L5–S1)."
+    },
+    {
+      "id": "PROPE-PF-NEU4-14",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "reflexos · cutâneo-abdominais",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos superficiais (cutâneo-abdominais)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Os reflexos cutâneo-abdominais são pesquisados estimulando a pele do abdome com objeto rombo, da periferia para a linha média. A resposta normal e as raízes do reflexo médio são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Desvio do umbigo para o lado oposto; raízes C5–C6."
+        },
+        {
+          "letra": "B",
+          "texto": "Contração do cremaster; raízes T6–T9."
+        },
+        {
+          "letra": "C",
+          "texto": "Ausência de contração em pessoas saudáveis; raízes L4–S1."
+        },
+        {
+          "letra": "D",
+          "texto": "Desvio da cicatriz umbilical para o lado estimulado."
+        },
+        {
+          "letra": "E",
+          "texto": "Flexão do hálux; raízes S1–S2."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Contração da musculatura com desvio da cicatriz umbilical para o lado estimulado; reflexo médio integrado em T10–T11 (aproximadamente).\n\nSuperior T6–T9, médio T10–T11, inferior T11–T12. Abolidos na lesão piramidal, em obesos, idosos, multíparas ou com o arco interrompido."
+    },
+    {
+      "id": "PROPE-PF-NEU4-15",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "Hoffmann",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos (sinais de liberação piramidal)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com mielopatia cervical compressiva apresenta, ao golpear a falange distal do dedo médio, flexão do polegar e do indicador. Esse achado e seu significado são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sinal de Phalen, indicativo de túnel do carpo."
+        },
+        {
+          "letra": "B",
+          "texto": "Reflexo de preensão frontal sem significado."
+        },
+        {
+          "letra": "C",
+          "texto": "Sinal de Hoffmann (liberação piramidal)."
+        },
+        {
+          "letra": "D",
+          "texto": "Sinal de Babinski do membro superior, normal no adulto."
+        },
+        {
+          "letra": "E",
+          "texto": "Sinal de Tinel, indicativo de lesão do nervo ulnar."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Sinal de Hoffmann, indicativo de liberação piramidal (lesão do neurônio motor superior) acima de C5–C6.\n\nHoffmann: análogo ao Babinski nos membros superiores; junto com hiper-reflexia sugere lesão piramidal cervical."
+    },
+    {
+      "id": "PROPE-PF-NEU4-16",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "coordenação · disdiadococinesia · técnica",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (movimentos alternados)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Para pesquisar a diadococinesia, o examinador pede que o paciente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ande em linha reta encostando o calcanhar na ponta do outro pé."
+        },
+        {
+          "letra": "B",
+          "texto": "Mantenha os braços estendidos à frente por 1 minuto."
+        },
+        {
+          "letra": "C",
+          "texto": "Realize rapidamente movimentos alternados."
+        },
+        {
+          "letra": "D",
+          "texto": "Toque o nariz com o indicador de olhos fechados."
+        },
+        {
+          "letra": "E",
+          "texto": "Fique em pé com os pés juntos e feche os olhos."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Realize rapidamente movimentos alternados, como pronação e supinação das mãos sobre as coxas ou abrir e fechar as mãos.\n\nEudiadococinesia (normal), disdiadococinesia (dificuldade), adiadococinesia (incapacidade): lesão cerebelar."
+    },
+    {
+      "id": "PROPE-PF-NEU4-17",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "marcha em tandem",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha e equilíbrio (slide 34)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com lesão do verme cerebelar caminha relativamente bem em linha reta normal, mas não consegue andar em tandem (colocando o calcanhar encostado na ponta do outro pé). Esse achado indica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lesão do nervo fibular."
+        },
+        {
+          "letra": "B",
+          "texto": "Paresia do tibial anterior."
+        },
+        {
+          "letra": "C",
+          "texto": "Marcha normal para a idade."
+        },
+        {
+          "letra": "D",
+          "texto": "Ataxia de tronco (verme cerebelar)."
+        },
+        {
+          "letra": "E",
+          "texto": "Polineuropatia sensitiva isolada."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Ataxia axial (de tronco), típica de lesão do verme cerebelar.\n\nMarcha em tandem sensibiliza a ataxia. Verme → tronco e marcha (base alargada); hemisférios → membros do mesmo lado."
+    },
+    {
+      "id": "PROPE-PF-NEU4-18",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "Romberg sensibilizado",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · equilíbrio estático (Romberg)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o teste de Romberg, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Deve ser feito sentado, com as pernas pendentes."
+        },
+        {
+          "letra": "B",
+          "texto": "É positivo quando o paciente oscila levemente ao fechar os olhos, o que é sempre patológico."
+        },
+        {
+          "letra": "C",
+          "texto": "Avalia a força dos membros inferiores."
+        },
+        {
+          "letra": "D",
+          "texto": "Exige no mínimo 2 minutos de observação."
+        },
+        {
+          "letra": "E",
+          "texto": "O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados, por cerca de 30 segundos a 1 minuto; a versão sensibilizada coloca um pé à frente do outro.\n\nLeves oscilações são normais. Positivo: desequilíbrio com tendência à queda ao fechar os olhos (proprioceptivo ou vestibular)."
+    },
+    {
+      "id": "PROPE-PF-NEU4-19",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "sensibilidade · dissociação",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (vias e lesões)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as alterações da sensibilidade, analise as afirmativas:\n\nI. Alodínia é a dor provocada por estímulo normalmente não doloroso, como o toque leve da roupa.\nII. Hipopalestesia é a diminuição da sensibilidade vibratória.\nIII. A astereognosia é a incapacidade de reconhecer um objeto pelo tato e sugere lesão parietal contralateral.\nIV. Parestesia é a ausência completa de qualquer sensibilidade.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I e IV estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas II e IV estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas a I está correta."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas II e III estão corretas."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Parestesia: sensação anormal espontânea (formigamento, dormência). Ausência completa: **anestesia**."
+    },
+    {
+      "id": "PROPE-PF-NEU4-20",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "dermátomos",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (dermátomos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com herpes-zóster apresenta vesículas em faixa que envolve a região dos mamilos, de um lado do tórax. O dermátomo acometido é, aproximadamente:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "L1"
+        },
+        {
+          "letra": "B",
+          "texto": "T4"
+        },
+        {
+          "letra": "C",
+          "texto": "C5"
+        },
+        {
+          "letra": "D",
+          "texto": "S1"
+        },
+        {
+          "letra": "E",
+          "texto": "T10"
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Referências: mamilo ≈ T4; apêndice xifoide ≈ T6; umbigo ≈ T10; região inguinal ≈ L1; face lateral do pé ≈ S1; polegar ≈ C6; dedo mínimo ≈ C8."
+    },
+    {
+      "id": "PROPE-PF-NEU4-21",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "rigidez de nuca × meningismo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · irritação meníngea (rigidez de nuca)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso com artrose cervical importante apresenta resistência à flexão, à extensão e à rotação do pescoço. Sobre a interpretação, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A rotação limitada é o achado mais específico de meningite."
+        },
+        {
+          "letra": "B",
+          "texto": "A rigidez de nuca é pesquisada com o paciente sentado e a cabeça em extensão."
+        },
+        {
+          "letra": "C",
+          "texto": "A rigidez em todas as direções é patognomônica de meningite."
+        },
+        {
+          "letra": "D",
+          "texto": "O idoso nunca apresenta rigidez por artrose."
+        },
+        {
+          "letra": "E",
+          "texto": "Na irritação meníngea a rigidez predomina na flexão do pescoço."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Na irritação meníngea a rigidez predomina na flexão do pescoço, enquanto a doença da coluna cervical limita movimentos em todas as direções.\n\nPesquisa: decúbito dorsal, mão na região occipital, flexão passiva do pescoço."
+    },
+    {
+      "id": "PROPE-PF-NEU4-22",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "fasciculações",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (fasciculações)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente refere \"tremores na carne\" na pálpebra após noites mal dormidas, sem fraqueza nem atrofia. Sobre esse fenômeno e as fasciculações, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "As fasciculações são típicas da lesão piramidal."
+        },
+        {
+          "letra": "B",
+          "texto": "As mioquimias indicam miopatia grave."
+        },
+        {
+          "letra": "C",
+          "texto": "As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro."
+        },
+        {
+          "letra": "D",
+          "texto": "Toda contração muscular visível indica ELA."
+        },
+        {
+          "letra": "E",
+          "texto": "As fasciculações só ocorrem na língua."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro, sem significado patológico; fasciculações com fraqueza e atrofia sugerem lesão do neurônio motor inferior.\n\nFasciculações (contração de feixe/unidade motora) com atrofia e fraqueza: ELA, radiculopatias, polineuropatias."
+    },
+    {
+      "id": "PROPE-PF-NEU4-23",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "distonia",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (distonia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente apresenta contração involuntária mantida dos músculos cervicais, com desvio e rotação da cabeça para um lado, que piora ao andar e melhora ao tocar levemente o queixo. O movimento é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Distonia cervical (torcicolo espasmódico)."
+        },
+        {
+          "letra": "B",
+          "texto": "Tique motor simples."
+        },
+        {
+          "letra": "C",
+          "texto": "Mioclonia."
+        },
+        {
+          "letra": "D",
+          "texto": "Tremor essencial cefálico."
+        },
+        {
+          "letra": "E",
+          "texto": "Coreia."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Distonia: contração simultânea de agonistas e antagonistas com postura anormal mantida; o \"truque sensorial\" (geste antagoniste) é característico."
+    },
+    {
+      "id": "PROPE-PF-NEU4-24",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "AVC · exame neurológico",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · síndromes (AVC) e Complemento",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Paciente com suspeita de AVC isquêmico no território da artéria cerebral média esquerda. Descreva os achados esperados no exame neurológico, organizando por etapa do exame.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "- **Consciência e linguagem**: geralmente vígil; **afasia** (Broca, Wernicke ou global — hemisfério dominante).\n- **Nervos cranianos**: **paralisia facial central direita** (metade inferior); **hemianopsia homônima direita**; desvio conjugado do olhar para a **esquerda** (para o lado da lesão).\n- **Motricidade**: **hemiparesia direita de predomínio braquiofacial**; Barré/braços estendidos com queda e pronação à direita. Na fase aguda pode haver hipotonia; depois, **espasticidade** em canivete.\n- **Reflexos**: hiper-reflexia à direita (tardia), **Babinski à direita**.\n- **Sensibilidade**: hemi-hipoestesia direita.\n- **Coordenação**: prejudicada pela paresia, sem dismetria cerebelar.\n- **Marcha** (sequela): ceifante, com postura de Wernicke-Mann.",
+      "comentario": null
+    },
+    {
+      "id": "PROPE-PF-NEU4-25",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Exame neurológico",
+      "subtema": "ataxias",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (tabela de ataxias)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie as ataxias sensitiva, vestibular e cerebelar quanto ao Romberg, à sensibilidade profunda, à coordenação de olhos abertos e fechados, ao nistagmo e à marcha.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| | Sensitiva | Vestibular | Cerebelar |\n|---|---|---|---|\n| Romberg | **Positivo** (queda imediata, para qualquer lado) | Pseudo-Romberg (queda lateralizada após latência) | **Negativo** |\n| Sensibilidade profunda | Comprometida | Normal | Normal |\n| Coordenação olhos abertos | Normal | Normal | Comprometida |\n| Olhos fechados | Piora muito | Piora | Não muda |\n| Nistagmo | Ausente | Presente | Pode existir |\n| Marcha | **Talonante** | **Em estrela** (desvio lateral) | **Ebriosa** (base alargada) |\n| Causas | Tabes, B12, polineuropatia | Labirintopatias | Álcool, AVC, tumor, EM |",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Registra-se sempre a **melhor resposta**, do melhor lado: motor 6 + ocular ao som 3 + verbal confusa 4 = 13. A assimetria motora deve ser descrita à parte (sugere lesão focal)."
-  },
-  {
-   "id": "PROPE-PF-NEU4-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "MEEM · domínios",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · MEEM (domínios e pontuação)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "No Miniexame do Estado Mental, a tarefa \"subtrair 7 de 100 sucessivamente, cinco vezes\" avalia:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Orientação temporal."
-    },
-    {
-     "letra": "B",
-     "texto": "Praxia construtiva."
-    },
-    {
-     "letra": "C",
-     "texto": "Linguagem (nomeação)."
-    },
-    {
-     "letra": "D",
-     "texto": "Evocação."
-    },
-    {
-     "letra": "E",
-     "texto": "Atenção e cálculo (5 pontos)."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "MEEM: orientação temporal (5) e espacial (5), registro (3), atenção e cálculo (5), evocação (3), nomear (2), repetir (1), comando de 3 estágios (3), ler (1), escrever (1), copiar pentágonos (1) = 30."
-  },
-  {
-   "id": "PROPE-PF-NEU4-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "afasia global",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · linguagem (afasias)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com oclusão do tronco da artéria cerebral média esquerda não consegue falar espontaneamente, não compreende ordens simples, não repete nem nomeia objetos. A alteração é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Afasia global, por lesão extensa das áreas da linguagem do hemisfério dominante."
-    },
-    {
-     "letra": "B",
-     "texto": "Afasia de Wernicke pura."
-    },
-    {
-     "letra": "C",
-     "texto": "Afasia anômica."
-    },
-    {
-     "letra": "D",
-     "texto": "Disartria por lesão cerebelar."
-    },
-    {
-     "letra": "E",
-     "texto": "Afasia de Broca pura."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Global: expressão e compreensão comprometidas (território amplo da ACM esquerda), geralmente com hemiplegia direita."
-  },
-  {
-   "id": "PROPE-PF-NEU4-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "anosmia × cacosmia",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (I olfatório)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente refere crises breves em que sente \"cheiro de borracha queimada\" que ninguém mais percebe, seguidas de desligamento e movimentos mastigatórios. Esse sintoma olfatório é chamado de cacosmia e pode corresponder a:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Sinusite crônica simples."
-    },
-    {
-     "letra": "B",
-     "texto": "Crise epiléptica focal de origem temporal mesial (crise uncinada)."
-    },
-    {
-     "letra": "C",
-     "texto": "Lesão do nervo óptico."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipertensão intracraniana sem crise."
-    },
-    {
-     "letra": "E",
-     "texto": "Paralisia facial periférica."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Cacosmia: percepção de odor desagradável inexistente; episódica, pode ser aura epiléptica (úncus)."
-  },
-  {
-   "id": "PROPE-PF-NEU4-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "III par · midríase isolada",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (III oculomotor)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na paralisia completa do nervo oculomotor direito, espera-se:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Impossibilidade isolada de abduzir o olho direito."
-    },
-    {
-     "letra": "B",
-     "texto": "Miose direita com ptose discreta e enoftalmia."
-    },
-    {
-     "letra": "C",
-     "texto": "Ptose palpebral direita, olho desviado para baixo e para fora e pupila midriática que não reage à luz."
-    },
-    {
-     "letra": "D",
-     "texto": "Paralisia da hemiface direita inteira."
-    },
-    {
-     "letra": "E",
-     "texto": "Diplopia vertical apenas ao descer escadas."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "O III inerva elevador da pálpebra, retos superior, inferior e medial, oblíquo inferior e o esfíncter da pupila (parassimpático). Sobram o reto lateral (VI) e o oblíquo superior (IV): olho \"para baixo e para fora\"."
-  },
-  {
-   "id": "PROPE-PF-NEU4-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "córneo-palpebral · técnica",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (V trigêmeo, reflexo córneo-palpebral)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na pesquisa do reflexo córneo-palpebral, o examinador pede que o paciente olhe para o lado oposto e toca a córnea com uma mecha de algodão. A resposta normal e as vias são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Piscar bilateral; aferência pelo trigêmeo (V1) e eferência pelo facial (VII)."
-    },
-    {
-     "letra": "B",
-     "texto": "Piscar apenas do olho estimulado; aferência pelo II e eferência pelo III."
-    },
-    {
-     "letra": "C",
-     "texto": "Desvio conjugado do olhar; aferência pelo VIII."
-    },
-    {
-     "letra": "D",
-     "texto": "Lacrimejamento sem piscar; aferência pelo VII e eferência pelo V."
-    },
-    {
-     "letra": "E",
-     "texto": "Miose bilateral; aferência pelo II e eferência pelo III."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Lesão do V do lado estimulado: nenhum dos olhos pisca. Lesão do VII de um lado: aquele olho não pisca, mas o outro sim."
-  },
-  {
-   "id": "PROPE-PF-NEU4-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "VII · central",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VII facial central)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Por que, na paralisia facial central (como no AVC), a musculatura da fronte fica preservada?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Porque a fronte é inervada pelo trigêmeo."
-    },
-    {
-     "letra": "B",
-     "texto": "Porque o núcleo do facial que inerva a metade superior da face recebe fibras corticonucleares dos dois hemisférios, enquanto a porção que inerva a metade inferior recebe inervação predominantemente contralateral."
-    },
-    {
-     "letra": "C",
-     "texto": "Porque a paralisia central é sempre bilateral."
-    },
-    {
-     "letra": "D",
-     "texto": "Porque o músculo frontal é inervado pelo oculomotor."
-    },
-    {
-     "letra": "E",
-     "texto": "Porque a lesão central atinge apenas o ramo mandibular do facial."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Central: só a metade inferior, contralateral à lesão. Periférica: hemiface toda, ipsilateral."
-  },
-  {
-   "id": "PROPE-PF-NEU4-08",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "VIII · coclear · caso",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII coclear)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com perda auditiva progressiva no ouvido direito e zumbido. Rinne positivo bilateralmente, com tempos reduzidos à direita; Weber lateraliza para a esquerda. Qual a interpretação e uma causa a considerar?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Perda condutiva direita por rolha de cerume."
-    },
-    {
-     "letra": "B",
-     "texto": "Perda neurossensorial esquerda por presbiacusia."
-    },
-    {
-     "letra": "C",
-     "texto": "Audição normal."
-    },
-    {
-     "letra": "D",
-     "texto": "Perda neurossensorial direita; considerar schwannoma vestibular (neurinoma do acústico) se unilateral e progressiva."
-    },
-    {
-     "letra": "E",
-     "texto": "Perda condutiva esquerda."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Perda neurossensorial assimétrica e progressiva com zumbido exige investigação de lesão do VIII (ângulo pontocerebelar)."
-  },
-  {
-   "id": "PROPE-PF-NEU4-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "nistagmo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII vestibular: nistagmo)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre o nistagmo, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O nistagmo vertical puro indica sempre lesão vestibular periférica."
-    },
-    {
-     "letra": "B",
-     "texto": "É nomeado pela direção do componente lento."
-    },
-    {
-     "letra": "C",
-     "texto": "É sempre sinal de doença psiquiátrica."
-    },
-    {
-     "letra": "D",
-     "texto": "Não pode ser provocado por manobras posicionais."
-    },
-    {
-     "letra": "E",
-     "texto": "É um movimento ocular involuntário rítmico, com componente lento e componente rápido; por convenção, é nomeado pela direção do componente rápido."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Na lesão vestibular periférica o componente lento vai para o lado lesado (rápido para o lado são). Nistagmo vertical ou que muda de direção sugere lesão central."
-  },
-  {
-   "id": "PROPE-PF-NEU4-10",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "XI par",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (XI acessório)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após biópsia de linfonodo no triângulo posterior do pescoço, paciente apresenta queda do ombro direito, dificuldade em elevá-lo e atrofia do trapézio. O nervo lesado é o:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipoglosso (XII)."
-    },
-    {
-     "letra": "B",
-     "texto": "Facial (VII)."
-    },
-    {
-     "letra": "C",
-     "texto": "Acessório (XI)."
-    },
-    {
-     "letra": "D",
-     "texto": "Glossofaríngeo (IX)."
-    },
-    {
-     "letra": "E",
-     "texto": "Vago (X)."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "XI: esternocleidomastóideo (girar a cabeça para o lado oposto) e trapézio (elevar os ombros). Lesão iatrogênica no triângulo posterior é clássica."
-  },
-  {
-   "id": "PROPE-PF-NEU4-11",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "tônus · técnica",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus (técnica: inspeção, palpação, movimentos passivos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a avaliação do tônus muscular, analise as afirmativas:\n\nI. Avalia-se com o paciente deitado e relaxado, por inspeção, palpação e movimentação passiva dos segmentos.\nII. A passividade aumentada e a extensibilidade aumentada (o calcanhar toca facilmente o glúteo) indicam hipotonia.\nIII. A prova do balanço (sacudir o segmento) mostra oscilações exageradas na hipotonia.\nIV. A hipertonia é avaliada pedindo ao paciente que realize contração voluntária máxima contra resistência.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas II e IV estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas II e III estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas a II está correta."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas I e III estão corretas."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Tônus = resistência à movimentação **passiva**; contração voluntária contra resistência avalia **força**."
-  },
-  {
-   "id": "PROPE-PF-NEU4-12",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "rigidez · descerebração",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus e consciência (posturas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em coma, ao estímulo doloroso, estende e roda internamente os membros superiores e estende os inferiores. Essa postura e a localização da lesão sugerida são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Atitude passiva sem significado."
-    },
-    {
-     "letra": "B",
-     "texto": "Opistótono do tétano."
-    },
-    {
-     "letra": "C",
-     "texto": "Postura de Wernicke-Mann da hemiplegia crônica."
-    },
-    {
-     "letra": "D",
-     "texto": "Decorticação — lesão acima do núcleo rubro."
-    },
-    {
-     "letra": "E",
-     "texto": "Descerebração — lesão do tronco encefálico (mesencéfalo/ponte), de pior prognóstico."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "No Glasgow: extensão anormal = 2; flexão anormal (decorticação) = 3."
-  },
-  {
-   "id": "PROPE-PF-NEU4-13",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "reflexos · tricipital",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos (raízes)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com hérnia discal cervical C7 deve apresentar, mais provavelmente, diminuição do reflexo:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Tricipital."
-    },
-    {
-     "letra": "B",
-     "texto": "Bicipital."
-    },
-    {
-     "letra": "C",
-     "texto": "Patelar."
-    },
-    {
-     "letra": "D",
-     "texto": "Aquileu."
-    },
-    {
-     "letra": "E",
-     "texto": "Cutâneo-abdominal inferior."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Aula: tricipital C7–C8 (Renato/Porto C6–C8); bicipital e estilorradial C5–C6; patelar L3–L4 (L2–L4); aquileu S1–S2 (L5–S1)."
-  },
-  {
-   "id": "PROPE-PF-NEU4-14",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "reflexos · cutâneo-abdominais",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos superficiais (cutâneo-abdominais)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Os reflexos cutâneo-abdominais são pesquisados estimulando a pele do abdome com objeto rombo, da periferia para a linha média. A resposta normal e as raízes do reflexo médio são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Desvio do umbigo para o lado oposto; raízes C5–C6."
-    },
-    {
-     "letra": "B",
-     "texto": "Contração do cremaster; raízes T6–T9."
-    },
-    {
-     "letra": "C",
-     "texto": "Ausência de contração em pessoas saudáveis; raízes L4–S1."
-    },
-    {
-     "letra": "D",
-     "texto": "Contração da musculatura com desvio da cicatriz umbilical para o lado estimulado; reflexo médio integrado em T10–T11 (aproximadamente)."
-    },
-    {
-     "letra": "E",
-     "texto": "Flexão do hálux; raízes S1–S2."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Superior T6–T9, médio T10–T11, inferior T11–T12. Abolidos na lesão piramidal, em obesos, idosos, multíparas ou com o arco interrompido."
-  },
-  {
-   "id": "PROPE-PF-NEU4-15",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "Hoffmann",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos (sinais de liberação piramidal)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com mielopatia cervical compressiva apresenta, ao golpear a falange distal do dedo médio, flexão do polegar e do indicador. Esse achado e seu significado são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Sinal de Phalen, indicativo de túnel do carpo."
-    },
-    {
-     "letra": "B",
-     "texto": "Reflexo de preensão frontal sem significado."
-    },
-    {
-     "letra": "C",
-     "texto": "Sinal de Hoffmann, indicativo de liberação piramidal (lesão do neurônio motor superior) acima de C5–C6."
-    },
-    {
-     "letra": "D",
-     "texto": "Sinal de Babinski do membro superior, normal no adulto."
-    },
-    {
-     "letra": "E",
-     "texto": "Sinal de Tinel, indicativo de lesão do nervo ulnar."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Hoffmann: análogo ao Babinski nos membros superiores; junto com hiper-reflexia sugere lesão piramidal cervical."
-  },
-  {
-   "id": "PROPE-PF-NEU4-16",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "coordenação · disdiadococinesia · técnica",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (movimentos alternados)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Para pesquisar a diadococinesia, o examinador pede que o paciente:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ande em linha reta encostando o calcanhar na ponta do outro pé."
-    },
-    {
-     "letra": "B",
-     "texto": "Mantenha os braços estendidos à frente por 1 minuto."
-    },
-    {
-     "letra": "C",
-     "texto": "Realize rapidamente movimentos alternados, como pronação e supinação das mãos sobre as coxas ou abrir e fechar as mãos."
-    },
-    {
-     "letra": "D",
-     "texto": "Toque o nariz com o indicador de olhos fechados."
-    },
-    {
-     "letra": "E",
-     "texto": "Fique em pé com os pés juntos e feche os olhos."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Eudiadococinesia (normal), disdiadococinesia (dificuldade), adiadococinesia (incapacidade): lesão cerebelar."
-  },
-  {
-   "id": "PROPE-PF-NEU4-17",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "marcha em tandem",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha e equilíbrio (slide 34)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com lesão do verme cerebelar caminha relativamente bem em linha reta normal, mas não consegue andar em tandem (colocando o calcanhar encostado na ponta do outro pé). Esse achado indica:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Lesão do nervo fibular."
-    },
-    {
-     "letra": "B",
-     "texto": "Paresia do tibial anterior."
-    },
-    {
-     "letra": "C",
-     "texto": "Marcha normal para a idade."
-    },
-    {
-     "letra": "D",
-     "texto": "Ataxia axial (de tronco), típica de lesão do verme cerebelar."
-    },
-    {
-     "letra": "E",
-     "texto": "Polineuropatia sensitiva isolada."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Marcha em tandem sensibiliza a ataxia. Verme → tronco e marcha (base alargada); hemisférios → membros do mesmo lado."
-  },
-  {
-   "id": "PROPE-PF-NEU4-18",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "Romberg sensibilizado",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · equilíbrio estático (Romberg)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre o teste de Romberg, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Deve ser feito sentado, com as pernas pendentes."
-    },
-    {
-     "letra": "B",
-     "texto": "É positivo quando o paciente oscila levemente ao fechar os olhos, o que é sempre patológico."
-    },
-    {
-     "letra": "C",
-     "texto": "Avalia a força dos membros inferiores."
-    },
-    {
-     "letra": "D",
-     "texto": "Exige no mínimo 2 minutos de observação."
-    },
-    {
-     "letra": "E",
-     "texto": "O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados, por cerca de 30 segundos a 1 minuto; a versão sensibilizada coloca um pé à frente do outro."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Leves oscilações são normais. Positivo: desequilíbrio com tendência à queda ao fechar os olhos (proprioceptivo ou vestibular)."
-  },
-  {
-   "id": "PROPE-PF-NEU4-19",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "sensibilidade · dissociação",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (vias e lesões)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as alterações da sensibilidade, analise as afirmativas:\n\nI. Alodínia é a dor provocada por estímulo normalmente não doloroso, como o toque leve da roupa.\nII. Hipopalestesia é a diminuição da sensibilidade vibratória.\nIII. A astereognosia é a incapacidade de reconhecer um objeto pelo tato e sugere lesão parietal contralateral.\nIV. Parestesia é a ausência completa de qualquer sensibilidade.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I e IV estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas II e IV estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas a I está correta."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas II e III estão corretas."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Parestesia: sensação anormal espontânea (formigamento, dormência). Ausência completa: **anestesia**."
-  },
-  {
-   "id": "PROPE-PF-NEU4-20",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "dermátomos",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (dermátomos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com herpes-zóster apresenta vesículas em faixa que envolve a região dos mamilos, de um lado do tórax. O dermátomo acometido é, aproximadamente:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "L1"
-    },
-    {
-     "letra": "B",
-     "texto": "T4"
-    },
-    {
-     "letra": "C",
-     "texto": "C5"
-    },
-    {
-     "letra": "D",
-     "texto": "S1"
-    },
-    {
-     "letra": "E",
-     "texto": "T10"
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Referências: mamilo ≈ T4; apêndice xifoide ≈ T6; umbigo ≈ T10; região inguinal ≈ L1; face lateral do pé ≈ S1; polegar ≈ C6; dedo mínimo ≈ C8."
-  },
-  {
-   "id": "PROPE-PF-NEU4-21",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "rigidez de nuca × meningismo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · irritação meníngea (rigidez de nuca)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso com artrose cervical importante apresenta resistência à flexão, à extensão e à rotação do pescoço. Sobre a interpretação, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A rotação limitada é o achado mais específico de meningite."
-    },
-    {
-     "letra": "B",
-     "texto": "A rigidez de nuca é pesquisada com o paciente sentado e a cabeça em extensão."
-    },
-    {
-     "letra": "C",
-     "texto": "A rigidez em todas as direções é patognomônica de meningite."
-    },
-    {
-     "letra": "D",
-     "texto": "O idoso nunca apresenta rigidez por artrose."
-    },
-    {
-     "letra": "E",
-     "texto": "Na irritação meníngea a rigidez predomina na flexão do pescoço, enquanto a doença da coluna cervical limita movimentos em todas as direções."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Pesquisa: decúbito dorsal, mão na região occipital, flexão passiva do pescoço."
-  },
-  {
-   "id": "PROPE-PF-NEU4-22",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "fasciculações",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (fasciculações)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente refere \"tremores na carne\" na pálpebra após noites mal dormidas, sem fraqueza nem atrofia. Sobre esse fenômeno e as fasciculações, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "As fasciculações são típicas da lesão piramidal."
-    },
-    {
-     "letra": "B",
-     "texto": "As mioquimias indicam miopatia grave."
-    },
-    {
-     "letra": "C",
-     "texto": "As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro, sem significado patológico; fasciculações com fraqueza e atrofia sugerem lesão do neurônio motor inferior."
-    },
-    {
-     "letra": "D",
-     "texto": "Toda contração muscular visível indica ELA."
-    },
-    {
-     "letra": "E",
-     "texto": "As fasciculações só ocorrem na língua."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Fasciculações (contração de feixe/unidade motora) com atrofia e fraqueza: ELA, radiculopatias, polineuropatias."
-  },
-  {
-   "id": "PROPE-PF-NEU4-23",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "distonia",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (distonia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente apresenta contração involuntária mantida dos músculos cervicais, com desvio e rotação da cabeça para um lado, que piora ao andar e melhora ao tocar levemente o queixo. O movimento é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Distonia cervical (torcicolo espasmódico)."
-    },
-    {
-     "letra": "B",
-     "texto": "Tique motor simples."
-    },
-    {
-     "letra": "C",
-     "texto": "Mioclonia."
-    },
-    {
-     "letra": "D",
-     "texto": "Tremor essencial cefálico."
-    },
-    {
-     "letra": "E",
-     "texto": "Coreia."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Distonia: contração simultânea de agonistas e antagonistas com postura anormal mantida; o \"truque sensorial\" (geste antagoniste) é característico."
-  },
-  {
-   "id": "PROPE-PF-NEU4-24",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "AVC · exame neurológico",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · síndromes (AVC) e Complemento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Paciente com suspeita de AVC isquêmico no território da artéria cerebral média esquerda. Descreva os achados esperados no exame neurológico, organizando por etapa do exame.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "- **Consciência e linguagem**: geralmente vígil; **afasia** (Broca, Wernicke ou global — hemisfério dominante).\n- **Nervos cranianos**: **paralisia facial central direita** (metade inferior); **hemianopsia homônima direita**; desvio conjugado do olhar para a **esquerda** (para o lado da lesão).\n- **Motricidade**: **hemiparesia direita de predomínio braquiofacial**; Barré/braços estendidos com queda e pronação à direita. Na fase aguda pode haver hipotonia; depois, **espasticidade** em canivete.\n- **Reflexos**: hiper-reflexia à direita (tardia), **Babinski à direita**.\n- **Sensibilidade**: hemi-hipoestesia direita.\n- **Coordenação**: prejudicada pela paresia, sem dismetria cerebelar.\n- **Marcha** (sequela): ceifante, com postura de Wernicke-Mann.",
-   "comentario": null
-  },
-  {
-   "id": "PROPE-PF-NEU4-25",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Exame neurológico",
-   "subtema": "ataxias",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (tabela de ataxias)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie as ataxias sensitiva, vestibular e cerebelar quanto ao Romberg, à sensibilidade profunda, à coordenação de olhos abertos e fechados, ao nistagmo e à marcha.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| | Sensitiva | Vestibular | Cerebelar |\n|---|---|---|---|\n| Romberg | **Positivo** (queda imediata, para qualquer lado) | Pseudo-Romberg (queda lateralizada após latência) | **Negativo** |\n| Sensibilidade profunda | Comprometida | Normal | Normal |\n| Coordenação olhos abertos | Normal | Normal | Comprometida |\n| Olhos fechados | Piora muito | Piora | Não muda |\n| Nistagmo | Ausente | Presente | Pode existir |\n| Marcha | **Talonante** | **Em estrela** (desvio lateral) | **Ebriosa** (base alargada) |\n| Causas | Tabes, B12, polineuropatia | Labirintopatias | Álcool, AVC, tumor, EM |",
-   "comentario": null
-  }
- ]
+  ]
 }

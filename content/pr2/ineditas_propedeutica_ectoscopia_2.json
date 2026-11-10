@@ -1,1125 +1,1125 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Ectoscopia e pele (lote 2, formato das provas)",
-  "gerado_em": "2026-11-09",
-  "base": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11, e SOP IV Guia PR2 seção 01, restrito aos itens 1.2 e 2.2 do plano (sem antropometria, nutrição e sinais vitais, da PR1). Formato das provas de Propedêutica."
- },
- "questoes": [
-  {
-   "id": "PROPE-PF-ECT2-01",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "roteiro da ectoscopia",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · roteiro da ectoscopia (Porto, cap. 10)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Sobre a ectoscopia (exame físico geral), assinale a(s) alternativa(s) correta(s):",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Propedêutica · Ectoscopia e pele (lote 2, formato das provas)",
+    "gerado_em": "2026-11-09",
+    "base": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11, e SOP IV Guia PR2 seção 01, restrito aos itens 1.2 e 2.2 do plano (sem antropometria, nutrição e sinais vitais, da PR1). Formato das provas de Propedêutica."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "A observação começa no primeiro contato com o paciente, ainda durante a anamnese."
+      "id": "PROPE-PF-ECT2-01",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "roteiro da ectoscopia",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · roteiro da ectoscopia (Porto, cap. 10)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Sobre a ectoscopia (exame físico geral), assinale a(s) alternativa(s) correta(s):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A observação começa no primeiro contato com o paciente, ainda durante a anamnese."
+        },
+        {
+          "letra": "B",
+          "texto": "É a primeira etapa do exame físico e reúne dados gerais, independentes dos sistemas, que dão uma visão do paciente como um todo."
+        },
+        {
+          "letra": "C",
+          "texto": "Por ser subjetiva, a ectoscopia dispensa o registro no prontuário."
+        },
+        {
+          "letra": "D",
+          "texto": "Deve ser feita com boa iluminação, de preferência natural, com a região descoberta e respeito ao pudor."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "B",
+        "D"
+      ],
+      "gabarito_texto": "A, B e D",
+      "comentario": "Todos os itens (estado geral, consciência, fala, hidratação, fácies, atitude, mucosas, pele e fâneros, musculatura, movimentos involuntários, edema, circulação colateral) devem ser registrados com a nomenclatura correta."
     },
     {
-     "letra": "B",
-     "texto": "É a primeira etapa do exame físico e reúne dados gerais, independentes dos sistemas, que dão uma visão do paciente como um todo."
+      "id": "PROPE-PF-ECT2-02",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "confusão mental",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · nível de consciência (graus)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso internado com infecção urinária passa a apresentar desatenção, pensamento desorganizado, respostas lentas, desorientação no tempo e no espaço e alucinações visuais, com flutuação ao longo do dia. O grau de alteração da consciência é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Confusão mental."
+        },
+        {
+          "letra": "B",
+          "texto": "Obnubilação leve sem desorientação."
+        },
+        {
+          "letra": "C",
+          "texto": "Sonolência."
+        },
+        {
+          "letra": "D",
+          "texto": "Coma superficial."
+        },
+        {
+          "letra": "E",
+          "texto": "Torpor."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Confusão mental: perda da atenção, pensamento não claro, respostas lentas, desorientação, possíveis alucinações e agitação (no idoso com infecção, pensar em delirium)."
     },
     {
-     "letra": "C",
-     "texto": "Por ser subjetiva, a ectoscopia dispensa o registro no prontuário."
+      "id": "PROPE-PF-ECT2-03",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fala · disfasia",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fala e linguagem (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com AVC entende o que lhe dizem, mas tem grande dificuldade em se expressar, com fala lenta, laboriosa e vocabulário pobre; a laringe e os músculos da fonação são normais. Pela classificação do Porto, a alteração é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Disfonia por lesão do órgão fonador."
+        },
+        {
+          "letra": "B",
+          "texto": "Disartria cerebelar."
+        },
+        {
+          "letra": "C",
+          "texto": "Dislalia."
+        },
+        {
+          "letra": "D",
+          "texto": "Disfasia de recepção."
+        },
+        {
+          "letra": "E",
+          "texto": "Disfasia de expressão (motora)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Disfasia de expressão (motora), por lesão cortical no hemisfério dominante.\n\nDisfasia: órgão fonador e músculos normais; falha na elaboração cortical. Recepção (sensorial: não entende), expressão (motora: entende, não se expressa) ou mista (a mais frequente)."
     },
     {
-     "letra": "D",
-     "texto": "Deve ser feita com boa iluminação, de preferência natural, com a região descoberta e respeito ao pudor."
+      "id": "PROPE-PF-ECT2-04",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "hidratação · tonicidade",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · estado de hidratação (classificação)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a classificação da desidratação, analise as afirmativas:\n\nI. Pela perda de peso, a desidratação é leve quando a perda é de até 5%, moderada entre 5 e 10% e grave acima de 10%.\nII. Pela osmolaridade, é isotônica com sódio entre 130 e 150 mEq/L, hipotônica abaixo de 130 e hipertônica acima de 150.\nIII. Na desidratação hipertônica perde-se proporcionalmente mais sal que água.\nIV. Idosos que bebem pouca água e lactentes com diarreia são grupos de risco.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I e II estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas a IV está correta."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas II e IV estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas I, II e IV estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas I, II e III estão corretas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Na hipertônica perde-se proporcionalmente **mais água** que sal (sódio sobe); na hipotônica, mais sal que água."
     },
     {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
+      "id": "PROPE-PF-ECT2-05",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fácies · basedowiana",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 32 anos com nervosismo, emagrecimento, palpitações e intolerância ao calor apresenta olhos salientes e brilhantes, retração palpebral, rosto magro e expressão de espanto; palpa-se aumento difuso da tireoide. A fácies é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acromegálica."
+        },
+        {
+          "letra": "B",
+          "texto": "Basedowiana (hipertireoidiana)."
+        },
+        {
+          "letra": "C",
+          "texto": "Cushingoide."
+        },
+        {
+          "letra": "D",
+          "texto": "Mixedematosa."
+        },
+        {
+          "letra": "E",
+          "texto": "Miastênica."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Basedowiana = hipertireoidismo (doença de Graves): exoftalmia, retração palpebral, olhar vivo/assustado, bócio."
+    },
+    {
+      "id": "PROPE-PF-ECT2-06",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fácies · cushingoide",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente em uso prolongado de prednisona para artrite reumatoide apresenta rosto arredondado, com bochechas proeminentes, rubor, acne e acúmulo de gordura na região cervical posterior. A fácies é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Acromegálica."
+        },
+        {
+          "letra": "B",
+          "texto": "Mixedematosa."
+        },
+        {
+          "letra": "C",
+          "texto": "Cushingoide (em lua cheia)."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipocrática."
+        },
+        {
+          "letra": "E",
+          "texto": "Renal."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Cushingoide: hipercortisolismo endógeno ou iatrogênico (corticoterapia prolongada)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-07",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fácies · renal × mixedematosa",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança com síndrome nefrótica apresenta edema predominantemente periorbitário, mais evidente pela manhã, e palidez cutânea. A fácies é denominada:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cushingoide."
+        },
+        {
+          "letra": "B",
+          "texto": "Renal."
+        },
+        {
+          "letra": "C",
+          "texto": "Hipocrática."
+        },
+        {
+          "letra": "D",
+          "texto": "Adenoidiana."
+        },
+        {
+          "letra": "E",
+          "texto": "Mixedematosa."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Fácies renal: edema ao redor dos olhos + palidez (síndrome nefrótica, glomerulonefrite). Mixedematosa: pele seca e espessa, sem cacifo, com supercílios rarefeitos."
+    },
+    {
+      "id": "PROPE-PF-ECT2-08",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fácies · adenoidiana",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança de 7 anos com roncos noturnos e respiração bucal crônica apresenta nariz pequeno e afilado e boca constantemente entreaberta. A fácies é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Mongoloide."
+        },
+        {
+          "letra": "B",
+          "texto": "Leonina."
+        },
+        {
+          "letra": "C",
+          "texto": "Adenoidiana, por hipertrofia das adenoides."
+        },
+        {
+          "letra": "D",
+          "texto": "Esclerodérmica."
+        },
+        {
+          "letra": "E",
+          "texto": "Parkinsoniana."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Adenoidiana: obstrução nasal crônica por hipertrofia de adenoides."
+    },
+    {
+      "id": "PROPE-PF-ECT2-09",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fácies · parkinsoniana",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Complemento das provas antigas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso com tremor de repouso apresenta face inexpressiva, imóvel, com olhar fixo, raro piscar, supercílios elevados e fronte enrugada, dando aspecto de espanto. A fácies é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Miastênica."
+        },
+        {
+          "letra": "B",
+          "texto": "Hipocrática."
+        },
+        {
+          "letra": "C",
+          "texto": "Basedowiana."
+        },
+        {
+          "letra": "D",
+          "texto": "Parkinsoniana (\"em máscara\")."
+        },
+        {
+          "letra": "E",
+          "texto": "Depressiva."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Parkinsoniana: hipomimia (rigidez e bradicinesia), cabeça inclinada para a frente. A depressiva tem olhar sem brilho voltado para baixo e canto da boca rebaixado."
+    },
+    {
+      "id": "PROPE-PF-ECT2-10",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "atitudes · involuntárias",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · atitude e decúbito (involuntárias)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as atitudes involuntárias, analise as afirmativas:\n\nI. No opistótono há contratura da musculatura lombar, com o corpo em arco apoiado na cabeça e nos calcanhares, como no tétano e na meningite.\nII. A atitude em gatilho (hiperextensão da cabeça, pernas fletidas e tronco curvado) é vista na irritação meníngea, sobretudo em crianças.\nIII. A mão pêndula é uma atitude segmentar da paralisia do nervo radial.\nIV. A atitude passiva é escolhida voluntariamente pelo paciente para aliviar a dor.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Todas as afirmativas estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas I, III e IV estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas a I está correta."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas II, III e IV estão corretas."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Atitude **passiva**: o paciente fica na posição em que é colocado (inconscientes, comatosos) — é involuntária."
+    },
+    {
+      "id": "PROPE-PF-ECT2-11",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "atitudes · voluntárias",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · atitude e decúbito (voluntárias)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com derrame pericárdico volumoso adota posição de joelhos, com o tronco fletido e o peito apoiado no colchão. Essa atitude é chamada de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ortopneica."
+        },
+        {
+          "letra": "B",
+          "texto": "De cócoras."
+        },
+        {
+          "letra": "C",
+          "texto": "Opistótono."
+        },
+        {
+          "letra": "D",
+          "texto": "Decúbito lateral sobre o lado doente."
+        },
+        {
+          "letra": "E",
+          "texto": "Genupeitoral (\"prece maometana\")."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Genupeitoral (\"prece maometana\"), que facilita o enchimento cardíaco.\n\nOrtopneica: IC, asma, ascite volumosa. Cócoras: cardiopatia congênita cianótica. Genupeitoral: derrame pericárdico."
+    },
+    {
+      "id": "PROPE-PF-ECT2-12",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "mucosas · descoramento",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · mucosas (coloração)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Ao examinar as conjuntivas de uma paciente com menorragia, o médico registra \"mucosas descoradas ++/4+\". Sobre o achado, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Indica icterícia leve, mais bem vista nas mucosas descoradas."
+        },
+        {
+          "letra": "B",
+          "texto": "Indica desidratação moderada, que deve ser avaliada pela coloração das mucosas."
+        },
+        {
+          "letra": "C",
+          "texto": "Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes."
+        },
+        {
+          "letra": "D",
+          "texto": "Confirma anemia ferropriva, dispensando o hemograma."
+        },
+        {
+          "letra": "E",
+          "texto": "Indica poliglobulia por hipóxia crônica."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes, mas o tipo de anemia só se define pelo hemograma.\n\nMucosas: coloração (normocoradas, descoradas + a ++++, hipercoradas, cianóticas, ictéricas) e umidade (hidratação). A cor fala do sangue; a umidade, da hidratação."
+    },
+    {
+      "id": "PROPE-PF-ECT2-13",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "musculatura · trofismo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · musculatura (trofismo e tônus)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente acamado há 3 meses apresenta redução evidente do volume das massas musculares das coxas e panturrilhas, com relevo muscular apagado à inspeção e à palpação em pinça. O registro correto é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipotrofia muscular (alteração do trofismo)."
+        },
+        {
+          "letra": "B",
+          "texto": "Rigidez em roda denteada."
+        },
+        {
+          "letra": "C",
+          "texto": "Fasciculações."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipotonia por lesão piramidal aguda."
+        },
+        {
+          "letra": "E",
+          "texto": "Hipertonia espástica."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Trofismo = massa muscular (hipertrófica, normotrófica, hipotrófica). Tônus = estado de semicontração (hipertonia, hipotonia)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-14",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "enfisema subcutâneo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · enfisema subcutâneo (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após trauma torácico com fratura de costelas, o médico desliza a mão sobre a parede torácica e o pescoço do paciente e percebe crepitação fina, como \"pisar em neve\". O achado e sua causa provável são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Linfedema por obstrução linfática."
+        },
+        {
+          "letra": "B",
+          "texto": "Enfisema subcutâneo (pneumotórax)."
+        },
+        {
+          "letra": "C",
+          "texto": "Atrofia da pele por corticoide."
+        },
+        {
+          "letra": "D",
+          "texto": "Circulação colateral tipo cava superior."
+        },
+        {
+          "letra": "E",
+          "texto": "Edema inflamatório por erisipela."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Enfisema subcutâneo, por ar que escapa do pulmão lesado (pneumotórax) para o tecido subcutâneo.\n\nEnfisema subcutâneo: ar sob a pele, crepitação à palpação; origem torácica (pneumotórax, ruptura de traqueia/esôfago) ou infecciosa (gangrena gasosa)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-15",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "edema · características",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (parâmetros e tipos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a semiologia do edema, analise as afirmativas:\n\nI. A intensidade é avaliada pela fóvea (sinal do cacifo), comprimindo firmemente com o polegar contra um plano ósseo, e graduada de + a ++++.\nII. O edema inflamatório é localizado, quente, doloroso, avermelhado e elástico.\nIII. No acamado, o edema cardíaco pode predominar na região pré-sacral.\nIV. O linfedema crônico é mole, depressível e de pele fina e lisa.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I e II estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I, III e IV estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas I e IV estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas II e III estão corretas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Linfedema crônico: **duro**, inelástico, pouco depressível, com pele **espessada** (elefantíase: filariose, erisipelas de repetição)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-16",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "edema · trombose venosa",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (trombose venosa profunda)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 45 anos, 5 dias após cirurgia ortopédica, apresenta edema unilateral de toda a perna esquerda, com dor à palpação da panturrilha, empastamento e discreto aumento da temperatura local. A causa mais provável do edema é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Insuficiência cardíaca direita."
+        },
+        {
+          "letra": "B",
+          "texto": "Síndrome nefrótica."
+        },
+        {
+          "letra": "C",
+          "texto": "Edema alérgico."
+        },
+        {
+          "letra": "D",
+          "texto": "Linfedema primário."
+        },
+        {
+          "letra": "E",
+          "texto": "Trombose venosa profunda."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Trombose venosa profunda, com obstrução do retorno venoso do membro.\n\nEdema **unilateral** de instalação aguda = pensar em TVP (risco de embolia pulmonar). Edemas sistêmicos (cardíaco, renal, hepático) são bilaterais."
+    },
+    {
+      "id": "PROPE-PF-ECT2-17",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "edema · cirrose",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (hepático)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Cirrótico apresenta edema discreto (+/4+) nos membros inferiores, mole e indolor, acompanhado de ascite volumosa. O principal mecanismo do edema é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hipoalbuminemia e hiperaldosteronismo secundário."
+        },
+        {
+          "letra": "B",
+          "texto": "Obstrução linfática por filariose."
+        },
+        {
+          "letra": "C",
+          "texto": "Trombose venosa bilateral."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipertireoidismo com mixedema pré-tibial."
+        },
+        {
+          "letra": "E",
+          "texto": "Aumento da permeabilidade capilar por histamina."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Hipoalbuminemia (queda da pressão oncótica) associada a hiperaldosteronismo secundário com retenção de sódio.\n\nMecanismos do edema: ↑ pressão hidrostática, ↓ pressão oncótica, ↓ drenagem linfática, ↑ permeabilidade e retenção de sódio e água (presente em todo edema generalizado)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-18",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "biótipo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · postura e biótipo (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com pescoço curto e grosso, tórax largo, membros curtos e ângulo de Charpy maior que 90° tem biótipo:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Mediolíneo."
+        },
+        {
+          "letra": "B",
+          "texto": "Astênico."
+        },
+        {
+          "letra": "C",
+          "texto": "Leptossômico extremo com ângulo agudo."
+        },
+        {
+          "letra": "D",
+          "texto": "Longilíneo."
+        },
+        {
+          "letra": "E",
+          "texto": "Brevilíneo."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Brevilíneo (Sancho Pança): Charpy > 90°. Mediolíneo: ~90°. Longilíneo (D. Quixote): < 90°, pescoço longo, tórax chato. Biótipo não é altura."
+    },
+    {
+      "id": "PROPE-PF-ECT2-19",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "pele · coloração · icterícia",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (coloração: icterícia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança que come grandes quantidades de mamão e cenoura apresenta pele amarelada nas palmas e plantas, com escleróticas brancas e bilirrubina normal. O achado é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hepatite viral aguda."
+        },
+        {
+          "letra": "B",
+          "texto": "Icterícia hemolítica."
+        },
+        {
+          "letra": "C",
+          "texto": "Carotenemia (pseudoicterícia), que poupa as escleróticas."
+        },
+        {
+          "letra": "D",
+          "texto": "Icterícia colestática."
+        },
+        {
+          "letra": "E",
+          "texto": "Síndrome de Gilbert."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Icterícia verdadeira (bilirrubina > ~2 mg/dL) cora esclerótica e freio da língua. Carotenemia e quinacrina amarelam a pele, mas poupam a esclerótica."
+    },
+    {
+      "id": "PROPE-PF-ECT2-20",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "pele · coloração · Raynaud",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (coloração: fenômeno de Raynaud)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 35 anos refere que, ao segurar objetos gelados, os dedos ficam brancos, depois arroxeados e, ao reaquecer, muito vermelhos e doloridos. O fenômeno descrito é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Eritema palmar da cirrose."
+        },
+        {
+          "letra": "B",
+          "texto": "Cianose central por shunt."
+        },
+        {
+          "letra": "C",
+          "texto": "Dermatografismo."
+        },
+        {
+          "letra": "D",
+          "texto": "Fenômeno de Raynaud."
+        },
+        {
+          "letra": "E",
+          "texto": "Acrocianose constante e indolor."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Fenômeno de Raynaud (palidez → cianose → rubor), que pode associar-se a esclerodermia e lúpus.\n\nRaynaud: crises vasoespásticas trifásicas nas extremidades (frio, emoção). Acrocianose: cianose constante, sem fases."
+    },
+    {
+      "id": "PROPE-PF-ECT2-21",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "pele · parâmetros",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (umidade, textura, temperatura, elasticidade)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o exame da pele, analise as afirmativas:\n\nI. A pele seca é encontrada em idosos, no mixedema, na desidratação e na insuficiência renal crônica.\nII. A temperatura cutânea é avaliada com o dorso das mãos ou dos dedos, comparando regiões homólogas.\nIII. A elasticidade está aumentada na síndrome de Ehlers-Danlos e diminuída nos idosos, desnutridos e desidratados.\nIV. A sudorese excessiva é típica do hipotireoidismo.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas II e IV estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I, II e III estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas I e III estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Todas as afirmativas estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas I, III e IV estão corretas."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Sudorese aumentada: febre, ansiedade, **hipertireoidismo**, neoplasias, menopausa. No hipotireoidismo a pele é seca, áspera e fria."
+    },
+    {
+      "id": "PROPE-PF-ECT2-22",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "lesões elementares · tubérculo × nódulo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (formações sólidas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Lesão sólida e elevada, de cerca de 2 cm, situada na hipoderme, mais palpável que visível, em paciente com eritema nodoso. Pela classificação do Porto, trata-se de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Nódulo."
+        },
+        {
+          "letra": "B",
+          "texto": "Mácula."
+        },
+        {
+          "letra": "C",
+          "texto": "Vesícula."
+        },
+        {
+          "letra": "D",
+          "texto": "Urtica."
+        },
+        {
+          "letra": "E",
+          "texto": "Pápula."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Pápula: sólida, superficial, ≤ 1 cm. Tubérculo: sólido, na derme, > 1 cm, deixa cicatriz. Nódulo/nodosidade/goma: na hipoderme, mais palpáveis que visíveis."
+    },
+    {
+      "id": "PROPE-PF-ECT2-23",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "lesões elementares · perdas",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (perdas e reparações)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso acamado, imobilizado há semanas, apresenta na região sacral área de tecido necrosado, escuro, endurecido e insensível, separado da pele sadia por um sulco. A lesão elementar é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Queloide."
+        },
+        {
+          "letra": "B",
+          "texto": "Exulceração."
+        },
+        {
+          "letra": "C",
+          "texto": "Escara."
+        },
+        {
+          "letra": "D",
+          "texto": "Crosta melicérica."
+        },
+        {
+          "letra": "E",
+          "texto": "Fissura."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Escara: necrose por pressão (± fricção/cisalhamento) em idosos e imobilizados. Crosta: secreção ressecada sobre área lesada (melicérica no impetigo)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-24",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "lesões elementares · espessura",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (alterações da espessura)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com esclerodermia sistêmica apresenta pele dos dedos e da face firme, endurecida, aderida aos planos profundos e difícil de preguear. A lesão elementar é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Liquenificação."
+        },
+        {
+          "letra": "B",
+          "texto": "Infiltração."
+        },
+        {
+          "letra": "C",
+          "texto": "Atrofia."
+        },
+        {
+          "letra": "D",
+          "texto": "Queratose."
+        },
+        {
+          "letra": "E",
+          "texto": "Esclerose."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Grupo das alterações da espessura: queratose, infiltração, liquenificação, esclerose, edema e atrofia."
+    },
+    {
+      "id": "PROPE-PF-ECT2-25",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "manchas · hemorrágicas · evolução",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (manchas hemorrágicas: cor da equimose)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente apresenta equimose na coxa após trauma. Sobre a evolução da cor da equimose, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A cor amarela indica lesão recente, de menos de 24 horas."
+        },
+        {
+          "letra": "B",
+          "texto": "Muda de vermelha para arroxeada, esverdeada e amarelada."
+        },
+        {
+          "letra": "C",
+          "texto": "Ela desaparece à vitropressão, por ser mancha vascular."
+        },
+        {
+          "letra": "D",
+          "texto": "Equimoses e petéquias têm o mesmo tamanho."
+        },
+        {
+          "letra": "E",
+          "texto": "Ela permanece vermelha até desaparecer."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Ela evolui de vermelha (até 48 h) para arroxeada, azulada, esverdeada/amarelada e desaparece após cerca de 9 dias, pela degradação da hemoglobina.\n\n\"Equimose do arco-íris\": vermelha → roxa → azul → verde/amarela → normal. Petéquias: puntiformes (até ~1 cm); equimoses: placas maiores. Ambas não somem à vitropressão."
+    },
+    {
+      "id": "PROPE-PF-ECT2-26",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fâneros · cabelos e pelos",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (cabelos e pelos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 26 anos com ciclos menstruais irregulares, acne e surgimento de pelos grossos no buço, no queixo, no tórax e na linha média do abdome. O achado é chamado de:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Alopecia androgenética."
+        },
+        {
+          "letra": "B",
+          "texto": "Madarose."
+        },
+        {
+          "letra": "C",
+          "texto": "Virilização completa com clitoromegalia."
+        },
+        {
+          "letra": "D",
+          "texto": "Hirsutismo (hiperandrogenismo)."
+        },
+        {
+          "letra": "E",
+          "texto": "Hipertricose generalizada sem significado hormonal."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Hirsutismo, que sugere hiperandrogenismo (como na síndrome dos ovários policísticos).\n\nHirsutismo: pelos terminais de padrão masculino na mulher. Virilização: hirsutismo + voz grave + clitoromegalia + aumento de massa muscular. Hipertricose: excesso de pelos não androgênico."
+    },
+    {
+      "id": "PROPE-PF-ECT2-27",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "unhas · hipocratismo",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (unhas: hipocratismo digital)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com bronquiectasias apresenta pontas dos dedos alargadas e unhas convexas em todos os sentidos, com o ângulo entre a unha e a prega ungueal próximo de 180°. O achado é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Linhas de Beau."
+        },
+        {
+          "letra": "B",
+          "texto": "Onicólise de Plummer."
+        },
+        {
+          "letra": "C",
+          "texto": "Coiloníquia."
+        },
+        {
+          "letra": "D",
+          "texto": "Hipocratismo digital (baqueteamento)."
+        },
+        {
+          "letra": "E",
+          "texto": "Unhas de Terry."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Hipocratismo digital (baqueteamento), com unhas em vidro de relógio.\n\nÂngulo normal < 160°; ≈ 180° no hipocratismo (doenças pulmonares e cardíacas crônicas, cirrose, doença inflamatória intestinal)."
+    },
+    {
+      "id": "PROPE-PF-ECT2-28",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "fâneros · unhas",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (unhas, Quadro 11.1)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Cite cinco alterações das unhas e a condição clínica associada a cada uma.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "Quaisquer cinco:\n- **Coiloníquia** (unha em colher) — anemia ferropriva.\n- **Hipocratismo / vidro de relógio** (ângulo ≈ 180°) — doenças pulmonares e cardíacas crônicas.\n- **Unhas de Terry** (brancas, com faixa distal rósea) — hipoalbuminemia, cirrose.\n- **Unhas de Lindsay** (\"meio a meio\") — insuficiência renal crônica.\n- **Onicólise de Plummer** — hipertireoidismo.\n- **Linhas de Beau** (sulcos transversais) — doença sistêmica grave, quimioterapia.\n- **Faixas de Mee** (brancas transversais) — intoxicação por arsênico, doença aguda.\n- **Paroníquia** — inflamação periungueal (mãos na água, cândida).\n- **Leuconíquia** puntiforme — trauma, comum em sadios.",
+      "comentario": null
+    },
+    {
+      "id": "PROPE-PF-ECT2-29",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Ectoscopia e pele",
+      "subtema": "edema · tipos",
+      "origem": "inédita",
+      "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (Porto)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Compare o edema de origem cardíaca, renal e linfática quanto à localização, horário, consistência e mecanismo principal.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| | Cardíaco | Renal | Linfedema |\n|---|---|---|---|\n| Localização | MMII, ascendente, bilateral; pré-sacral no acamado | Face e pálpebras, depois generalizado (anasarca na nefrótica) | Localizado, geralmente um membro |\n| Horário | Vespertino (piora ao longo do dia) | Matinal (\"amanhece com os olhos inchados\") | Constante |\n| Consistência | Mole, depressível, indolor, frio ou normal | Mole, inelástico, indolor | Duro, inelástico, pouco depressível, pele espessa |\n| Mecanismo | ↑ pressão hidrostática venosa + retenção de sódio (SRAA) | Nefrótica: ↓ pressão oncótica (hipoalbuminemia); nefrítica: retenção de sódio e água | Obstrução linfática (filariose, erisipelas, linfadenectomia) |",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "A",
-    "B",
-    "D"
-   ],
-   "gabarito_texto": "A, B e D",
-   "comentario": "Todos os itens (estado geral, consciência, fala, hidratação, fácies, atitude, mucosas, pele e fâneros, musculatura, movimentos involuntários, edema, circulação colateral) devem ser registrados com a nomenclatura correta."
-  },
-  {
-   "id": "PROPE-PF-ECT2-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "confusão mental",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · nível de consciência (graus)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso internado com infecção urinária passa a apresentar desatenção, pensamento desorganizado, respostas lentas, desorientação no tempo e no espaço e alucinações visuais, com flutuação ao longo do dia. O grau de alteração da consciência é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Confusão mental."
-    },
-    {
-     "letra": "B",
-     "texto": "Obnubilação leve sem desorientação."
-    },
-    {
-     "letra": "C",
-     "texto": "Sonolência."
-    },
-    {
-     "letra": "D",
-     "texto": "Coma superficial."
-    },
-    {
-     "letra": "E",
-     "texto": "Torpor."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Confusão mental: perda da atenção, pensamento não claro, respostas lentas, desorientação, possíveis alucinações e agitação (no idoso com infecção, pensar em delirium)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fala · disfasia",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fala e linguagem (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com AVC entende o que lhe dizem, mas tem grande dificuldade em se expressar, com fala lenta, laboriosa e vocabulário pobre; a laringe e os músculos da fonação são normais. Pela classificação do Porto, a alteração é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Disfonia por lesão do órgão fonador."
-    },
-    {
-     "letra": "B",
-     "texto": "Disartria cerebelar."
-    },
-    {
-     "letra": "C",
-     "texto": "Dislalia."
-    },
-    {
-     "letra": "D",
-     "texto": "Disfasia de recepção."
-    },
-    {
-     "letra": "E",
-     "texto": "Disfasia de expressão (motora), por lesão cortical no hemisfério dominante."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Disfasia: órgão fonador e músculos normais; falha na elaboração cortical. Recepção (sensorial: não entende), expressão (motora: entende, não se expressa) ou mista (a mais frequente)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "hidratação · tonicidade",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · estado de hidratação (classificação)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a classificação da desidratação, analise as afirmativas:\n\nI. Pela perda de peso, a desidratação é leve quando a perda é de até 5%, moderada entre 5 e 10% e grave acima de 10%.\nII. Pela osmolaridade, é isotônica com sódio entre 130 e 150 mEq/L, hipotônica abaixo de 130 e hipertônica acima de 150.\nIII. Na desidratação hipertônica perde-se proporcionalmente mais sal que água.\nIV. Idosos que bebem pouca água e lactentes com diarreia são grupos de risco.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I e II estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas a IV está correta."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas II e IV estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas I, II e IV estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas I, II e III estão corretas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Na hipertônica perde-se proporcionalmente **mais água** que sal (sódio sobe); na hipotônica, mais sal que água."
-  },
-  {
-   "id": "PROPE-PF-ECT2-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies · basedowiana",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 32 anos com nervosismo, emagrecimento, palpitações e intolerância ao calor apresenta olhos salientes e brilhantes, retração palpebral, rosto magro e expressão de espanto; palpa-se aumento difuso da tireoide. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Acromegálica."
-    },
-    {
-     "letra": "B",
-     "texto": "Basedowiana (hipertireoidiana)."
-    },
-    {
-     "letra": "C",
-     "texto": "Cushingoide."
-    },
-    {
-     "letra": "D",
-     "texto": "Mixedematosa."
-    },
-    {
-     "letra": "E",
-     "texto": "Miastênica."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Basedowiana = hipertireoidismo (doença de Graves): exoftalmia, retração palpebral, olhar vivo/assustado, bócio."
-  },
-  {
-   "id": "PROPE-PF-ECT2-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies · cushingoide",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em uso prolongado de prednisona para artrite reumatoide apresenta rosto arredondado, com bochechas proeminentes, rubor, acne e acúmulo de gordura na região cervical posterior. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Acromegálica."
-    },
-    {
-     "letra": "B",
-     "texto": "Mixedematosa."
-    },
-    {
-     "letra": "C",
-     "texto": "Cushingoide (em lua cheia)."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipocrática."
-    },
-    {
-     "letra": "E",
-     "texto": "Renal."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Cushingoide: hipercortisolismo endógeno ou iatrogênico (corticoterapia prolongada)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies · renal × mixedematosa",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança com síndrome nefrótica apresenta edema predominantemente periorbitário, mais evidente pela manhã, e palidez cutânea. A fácies é denominada:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Cushingoide."
-    },
-    {
-     "letra": "B",
-     "texto": "Renal."
-    },
-    {
-     "letra": "C",
-     "texto": "Hipocrática."
-    },
-    {
-     "letra": "D",
-     "texto": "Adenoidiana."
-    },
-    {
-     "letra": "E",
-     "texto": "Mixedematosa."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Fácies renal: edema ao redor dos olhos + palidez (síndrome nefrótica, glomerulonefrite). Mixedematosa: pele seca e espessa, sem cacifo, com supercílios rarefeitos."
-  },
-  {
-   "id": "PROPE-PF-ECT2-08",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies · adenoidiana",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança de 7 anos com roncos noturnos e respiração bucal crônica apresenta nariz pequeno e afilado e boca constantemente entreaberta. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mongoloide."
-    },
-    {
-     "letra": "B",
-     "texto": "Leonina."
-    },
-    {
-     "letra": "C",
-     "texto": "Adenoidiana, por hipertrofia das adenoides."
-    },
-    {
-     "letra": "D",
-     "texto": "Esclerodérmica."
-    },
-    {
-     "letra": "E",
-     "texto": "Parkinsoniana."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Adenoidiana: obstrução nasal crônica por hipertrofia de adenoides."
-  },
-  {
-   "id": "PROPE-PF-ECT2-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fácies · parkinsoniana",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fácies (Complemento das provas antigas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso com tremor de repouso apresenta face inexpressiva, imóvel, com olhar fixo, raro piscar, supercílios elevados e fronte enrugada, dando aspecto de espanto. A fácies é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Miastênica."
-    },
-    {
-     "letra": "B",
-     "texto": "Hipocrática."
-    },
-    {
-     "letra": "C",
-     "texto": "Basedowiana."
-    },
-    {
-     "letra": "D",
-     "texto": "Parkinsoniana (\"em máscara\")."
-    },
-    {
-     "letra": "E",
-     "texto": "Depressiva."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Parkinsoniana: hipomimia (rigidez e bradicinesia), cabeça inclinada para a frente. A depressiva tem olhar sem brilho voltado para baixo e canto da boca rebaixado."
-  },
-  {
-   "id": "PROPE-PF-ECT2-10",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "atitudes · involuntárias",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · atitude e decúbito (involuntárias)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as atitudes involuntárias, analise as afirmativas:\n\nI. No opistótono há contratura da musculatura lombar, com o corpo em arco apoiado na cabeça e nos calcanhares, como no tétano e na meningite.\nII. A atitude em gatilho (hiperextensão da cabeça, pernas fletidas e tronco curvado) é vista na irritação meníngea, sobretudo em crianças.\nIII. A mão pêndula é uma atitude segmentar da paralisia do nervo radial.\nIV. A atitude passiva é escolhida voluntariamente pelo paciente para aliviar a dor.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Todas as afirmativas estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas I, III e IV estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas a I está correta."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas II, III e IV estão corretas."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Atitude **passiva**: o paciente fica na posição em que é colocado (inconscientes, comatosos) — é involuntária."
-  },
-  {
-   "id": "PROPE-PF-ECT2-11",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "atitudes · voluntárias",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · atitude e decúbito (voluntárias)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com derrame pericárdico volumoso adota posição de joelhos, com o tronco fletido e o peito apoiado no colchão. Essa atitude é chamada de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ortopneica."
-    },
-    {
-     "letra": "B",
-     "texto": "De cócoras."
-    },
-    {
-     "letra": "C",
-     "texto": "Opistótono."
-    },
-    {
-     "letra": "D",
-     "texto": "Decúbito lateral sobre o lado doente."
-    },
-    {
-     "letra": "E",
-     "texto": "Genupeitoral (\"prece maometana\"), que facilita o enchimento cardíaco."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Ortopneica: IC, asma, ascite volumosa. Cócoras: cardiopatia congênita cianótica. Genupeitoral: derrame pericárdico."
-  },
-  {
-   "id": "PROPE-PF-ECT2-12",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "mucosas · descoramento",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · mucosas (coloração)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Ao examinar as conjuntivas de uma paciente com menorragia, o médico registra \"mucosas descoradas ++/4+\". Sobre o achado, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Indica icterícia leve, mais bem vista nas mucosas descoradas."
-    },
-    {
-     "letra": "B",
-     "texto": "Indica desidratação moderada, que deve ser avaliada pela coloração das mucosas."
-    },
-    {
-     "letra": "C",
-     "texto": "Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes, mas o tipo de anemia só se define pelo hemograma."
-    },
-    {
-     "letra": "D",
-     "texto": "Confirma anemia ferropriva, dispensando o hemograma."
-    },
-    {
-     "letra": "E",
-     "texto": "Indica poliglobulia por hipóxia crônica."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Mucosas: coloração (normocoradas, descoradas + a ++++, hipercoradas, cianóticas, ictéricas) e umidade (hidratação). A cor fala do sangue; a umidade, da hidratação."
-  },
-  {
-   "id": "PROPE-PF-ECT2-13",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "musculatura · trofismo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · musculatura (trofismo e tônus)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente acamado há 3 meses apresenta redução evidente do volume das massas musculares das coxas e panturrilhas, com relevo muscular apagado à inspeção e à palpação em pinça. O registro correto é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipotrofia muscular (alteração do trofismo)."
-    },
-    {
-     "letra": "B",
-     "texto": "Rigidez em roda denteada."
-    },
-    {
-     "letra": "C",
-     "texto": "Fasciculações."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipotonia por lesão piramidal aguda."
-    },
-    {
-     "letra": "E",
-     "texto": "Hipertonia espástica."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Trofismo = massa muscular (hipertrófica, normotrófica, hipotrófica). Tônus = estado de semicontração (hipertonia, hipotonia)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-14",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "enfisema subcutâneo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · enfisema subcutâneo (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após trauma torácico com fratura de costelas, o médico desliza a mão sobre a parede torácica e o pescoço do paciente e percebe crepitação fina, como \"pisar em neve\". O achado e sua causa provável são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Linfedema por obstrução linfática."
-    },
-    {
-     "letra": "B",
-     "texto": "Enfisema subcutâneo, por ar que escapa do pulmão lesado (pneumotórax) para o tecido subcutâneo."
-    },
-    {
-     "letra": "C",
-     "texto": "Atrofia da pele por corticoide."
-    },
-    {
-     "letra": "D",
-     "texto": "Circulação colateral tipo cava superior."
-    },
-    {
-     "letra": "E",
-     "texto": "Edema inflamatório por erisipela."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Enfisema subcutâneo: ar sob a pele, crepitação à palpação; origem torácica (pneumotórax, ruptura de traqueia/esôfago) ou infecciosa (gangrena gasosa)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-15",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema · características",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (parâmetros e tipos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a semiologia do edema, analise as afirmativas:\n\nI. A intensidade é avaliada pela fóvea (sinal do cacifo), comprimindo firmemente com o polegar contra um plano ósseo, e graduada de + a ++++.\nII. O edema inflamatório é localizado, quente, doloroso, avermelhado e elástico.\nIII. No acamado, o edema cardíaco pode predominar na região pré-sacral.\nIV. O linfedema crônico é mole, depressível e de pele fina e lisa.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I e II estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I, III e IV estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas I e IV estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas II e III estão corretas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Linfedema crônico: **duro**, inelástico, pouco depressível, com pele **espessada** (elefantíase: filariose, erisipelas de repetição)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-16",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema · trombose venosa",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (trombose venosa profunda)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 45 anos, 5 dias após cirurgia ortopédica, apresenta edema unilateral de toda a perna esquerda, com dor à palpação da panturrilha, empastamento e discreto aumento da temperatura local. A causa mais provável do edema é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Insuficiência cardíaca direita."
-    },
-    {
-     "letra": "B",
-     "texto": "Síndrome nefrótica."
-    },
-    {
-     "letra": "C",
-     "texto": "Edema alérgico."
-    },
-    {
-     "letra": "D",
-     "texto": "Linfedema primário."
-    },
-    {
-     "letra": "E",
-     "texto": "Trombose venosa profunda, com obstrução do retorno venoso do membro."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Edema **unilateral** de instalação aguda = pensar em TVP (risco de embolia pulmonar). Edemas sistêmicos (cardíaco, renal, hepático) são bilaterais."
-  },
-  {
-   "id": "PROPE-PF-ECT2-17",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema · cirrose",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (hepático)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Cirrótico apresenta edema discreto (+/4+) nos membros inferiores, mole e indolor, acompanhado de ascite volumosa. O principal mecanismo do edema é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hipoalbuminemia (queda da pressão oncótica) associada a hiperaldosteronismo secundário com retenção de sódio."
-    },
-    {
-     "letra": "B",
-     "texto": "Obstrução linfática por filariose."
-    },
-    {
-     "letra": "C",
-     "texto": "Trombose venosa bilateral."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipertireoidismo com mixedema pré-tibial."
-    },
-    {
-     "letra": "E",
-     "texto": "Aumento da permeabilidade capilar por histamina."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Mecanismos do edema: ↑ pressão hidrostática, ↓ pressão oncótica, ↓ drenagem linfática, ↑ permeabilidade e retenção de sódio e água (presente em todo edema generalizado)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-18",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "biótipo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · postura e biótipo (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com pescoço curto e grosso, tórax largo, membros curtos e ângulo de Charpy maior que 90° tem biótipo:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Mediolíneo."
-    },
-    {
-     "letra": "B",
-     "texto": "Astênico."
-    },
-    {
-     "letra": "C",
-     "texto": "Leptossômico extremo com ângulo agudo."
-    },
-    {
-     "letra": "D",
-     "texto": "Longilíneo."
-    },
-    {
-     "letra": "E",
-     "texto": "Brevilíneo."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Brevilíneo (Sancho Pança): Charpy > 90°. Mediolíneo: ~90°. Longilíneo (D. Quixote): < 90°, pescoço longo, tórax chato. Biótipo não é altura."
-  },
-  {
-   "id": "PROPE-PF-ECT2-19",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "pele · coloração · icterícia",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (coloração: icterícia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança que come grandes quantidades de mamão e cenoura apresenta pele amarelada nas palmas e plantas, com escleróticas brancas e bilirrubina normal. O achado é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hepatite viral aguda."
-    },
-    {
-     "letra": "B",
-     "texto": "Icterícia hemolítica."
-    },
-    {
-     "letra": "C",
-     "texto": "Carotenemia (pseudoicterícia), que poupa as escleróticas."
-    },
-    {
-     "letra": "D",
-     "texto": "Icterícia colestática."
-    },
-    {
-     "letra": "E",
-     "texto": "Síndrome de Gilbert."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Icterícia verdadeira (bilirrubina > ~2 mg/dL) cora esclerótica e freio da língua. Carotenemia e quinacrina amarelam a pele, mas poupam a esclerótica."
-  },
-  {
-   "id": "PROPE-PF-ECT2-20",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "pele · coloração · Raynaud",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (coloração: fenômeno de Raynaud)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 35 anos refere que, ao segurar objetos gelados, os dedos ficam brancos, depois arroxeados e, ao reaquecer, muito vermelhos e doloridos. O fenômeno descrito é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Eritema palmar da cirrose."
-    },
-    {
-     "letra": "B",
-     "texto": "Cianose central por shunt."
-    },
-    {
-     "letra": "C",
-     "texto": "Dermatografismo."
-    },
-    {
-     "letra": "D",
-     "texto": "Fenômeno de Raynaud (palidez → cianose → rubor), que pode associar-se a esclerodermia e lúpus."
-    },
-    {
-     "letra": "E",
-     "texto": "Acrocianose constante e indolor."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Raynaud: crises vasoespásticas trifásicas nas extremidades (frio, emoção). Acrocianose: cianose constante, sem fases."
-  },
-  {
-   "id": "PROPE-PF-ECT2-21",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "pele · parâmetros",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (umidade, textura, temperatura, elasticidade)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre o exame da pele, analise as afirmativas:\n\nI. A pele seca é encontrada em idosos, no mixedema, na desidratação e na insuficiência renal crônica.\nII. A temperatura cutânea é avaliada com o dorso das mãos ou dos dedos, comparando regiões homólogas.\nIII. A elasticidade está aumentada na síndrome de Ehlers-Danlos e diminuída nos idosos, desnutridos e desidratados.\nIV. A sudorese excessiva é típica do hipotireoidismo.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas II e IV estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I, II e III estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas I e III estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Todas as afirmativas estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas I, III e IV estão corretas."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Sudorese aumentada: febre, ansiedade, **hipertireoidismo**, neoplasias, menopausa. No hipotireoidismo a pele é seca, áspera e fria."
-  },
-  {
-   "id": "PROPE-PF-ECT2-22",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · tubérculo × nódulo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (formações sólidas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Lesão sólida e elevada, de cerca de 2 cm, situada na hipoderme, mais palpável que visível, em paciente com eritema nodoso. Pela classificação do Porto, trata-se de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Nódulo."
-    },
-    {
-     "letra": "B",
-     "texto": "Mácula."
-    },
-    {
-     "letra": "C",
-     "texto": "Vesícula."
-    },
-    {
-     "letra": "D",
-     "texto": "Urtica."
-    },
-    {
-     "letra": "E",
-     "texto": "Pápula."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Pápula: sólida, superficial, ≤ 1 cm. Tubérculo: sólido, na derme, > 1 cm, deixa cicatriz. Nódulo/nodosidade/goma: na hipoderme, mais palpáveis que visíveis."
-  },
-  {
-   "id": "PROPE-PF-ECT2-23",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · perdas",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (perdas e reparações)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso acamado, imobilizado há semanas, apresenta na região sacral área de tecido necrosado, escuro, endurecido e insensível, separado da pele sadia por um sulco. A lesão elementar é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Queloide."
-    },
-    {
-     "letra": "B",
-     "texto": "Exulceração."
-    },
-    {
-     "letra": "C",
-     "texto": "Escara."
-    },
-    {
-     "letra": "D",
-     "texto": "Crosta melicérica."
-    },
-    {
-     "letra": "E",
-     "texto": "Fissura."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Escara: necrose por pressão (± fricção/cisalhamento) em idosos e imobilizados. Crosta: secreção ressecada sobre área lesada (melicérica no impetigo)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-24",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "lesões elementares · espessura",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (alterações da espessura)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com esclerodermia sistêmica apresenta pele dos dedos e da face firme, endurecida, aderida aos planos profundos e difícil de preguear. A lesão elementar é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Liquenificação."
-    },
-    {
-     "letra": "B",
-     "texto": "Infiltração."
-    },
-    {
-     "letra": "C",
-     "texto": "Atrofia."
-    },
-    {
-     "letra": "D",
-     "texto": "Queratose."
-    },
-    {
-     "letra": "E",
-     "texto": "Esclerose."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Grupo das alterações da espessura: queratose, infiltração, liquenificação, esclerose, edema e atrofia."
-  },
-  {
-   "id": "PROPE-PF-ECT2-25",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "manchas · hemorrágicas · evolução",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (manchas hemorrágicas: cor da equimose)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente apresenta equimose na coxa após trauma. Sobre a evolução da cor da equimose, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A cor amarela indica lesão recente, de menos de 24 horas."
-    },
-    {
-     "letra": "B",
-     "texto": "Ela evolui de vermelha (até 48 h) para arroxeada, azulada, esverdeada/amarelada e desaparece após cerca de 9 dias, pela degradação da hemoglobina."
-    },
-    {
-     "letra": "C",
-     "texto": "Ela desaparece à vitropressão, por ser mancha vascular."
-    },
-    {
-     "letra": "D",
-     "texto": "Equimoses e petéquias têm o mesmo tamanho."
-    },
-    {
-     "letra": "E",
-     "texto": "Ela permanece vermelha até desaparecer."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "\"Equimose do arco-íris\": vermelha → roxa → azul → verde/amarela → normal. Petéquias: puntiformes (até ~1 cm); equimoses: placas maiores. Ambas não somem à vitropressão."
-  },
-  {
-   "id": "PROPE-PF-ECT2-26",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fâneros · cabelos e pelos",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (cabelos e pelos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 26 anos com ciclos menstruais irregulares, acne e surgimento de pelos grossos no buço, no queixo, no tórax e na linha média do abdome. O achado é chamado de:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Alopecia androgenética."
-    },
-    {
-     "letra": "B",
-     "texto": "Madarose."
-    },
-    {
-     "letra": "C",
-     "texto": "Virilização completa com clitoromegalia."
-    },
-    {
-     "letra": "D",
-     "texto": "Hirsutismo, que sugere hiperandrogenismo (como na síndrome dos ovários policísticos)."
-    },
-    {
-     "letra": "E",
-     "texto": "Hipertricose generalizada sem significado hormonal."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Hirsutismo: pelos terminais de padrão masculino na mulher. Virilização: hirsutismo + voz grave + clitoromegalia + aumento de massa muscular. Hipertricose: excesso de pelos não androgênico."
-  },
-  {
-   "id": "PROPE-PF-ECT2-27",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "unhas · hipocratismo",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (unhas: hipocratismo digital)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com bronquiectasias apresenta pontas dos dedos alargadas e unhas convexas em todos os sentidos, com o ângulo entre a unha e a prega ungueal próximo de 180°. O achado é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Linhas de Beau."
-    },
-    {
-     "letra": "B",
-     "texto": "Onicólise de Plummer."
-    },
-    {
-     "letra": "C",
-     "texto": "Coiloníquia."
-    },
-    {
-     "letra": "D",
-     "texto": "Hipocratismo digital (baqueteamento), com unhas em vidro de relógio."
-    },
-    {
-     "letra": "E",
-     "texto": "Unhas de Terry."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Ângulo normal < 160°; ≈ 180° no hipocratismo (doenças pulmonares e cardíacas crônicas, cirrose, doença inflamatória intestinal)."
-  },
-  {
-   "id": "PROPE-PF-ECT2-28",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "fâneros · unhas",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (unhas, Quadro 11.1)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Cite cinco alterações das unhas e a condição clínica associada a cada uma.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "Quaisquer cinco:\n- **Coiloníquia** (unha em colher) — anemia ferropriva.\n- **Hipocratismo / vidro de relógio** (ângulo ≈ 180°) — doenças pulmonares e cardíacas crônicas.\n- **Unhas de Terry** (brancas, com faixa distal rósea) — hipoalbuminemia, cirrose.\n- **Unhas de Lindsay** (\"meio a meio\") — insuficiência renal crônica.\n- **Onicólise de Plummer** — hipertireoidismo.\n- **Linhas de Beau** (sulcos transversais) — doença sistêmica grave, quimioterapia.\n- **Faixas de Mee** (brancas transversais) — intoxicação por arsênico, doença aguda.\n- **Paroníquia** — inflamação periungueal (mãos na água, cândida).\n- **Leuconíquia** puntiforme — trauma, comum em sadios.",
-   "comentario": null
-  },
-  {
-   "id": "PROPE-PF-ECT2-29",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Ectoscopia e pele",
-   "subtema": "edema · tipos",
-   "origem": "inédita",
-   "fonte": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (Porto)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Compare o edema de origem cardíaca, renal e linfática quanto à localização, horário, consistência e mecanismo principal.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| | Cardíaco | Renal | Linfedema |\n|---|---|---|---|\n| Localização | MMII, ascendente, bilateral; pré-sacral no acamado | Face e pálpebras, depois generalizado (anasarca na nefrótica) | Localizado, geralmente um membro |\n| Horário | Vespertino (piora ao longo do dia) | Matinal (\"amanhece com os olhos inchados\") | Constante |\n| Consistência | Mole, depressível, indolor, frio ou normal | Mole, inelástico, indolor | Duro, inelástico, pouco depressível, pele espessa |\n| Mecanismo | ↑ pressão hidrostática venosa + retenção de sódio (SRAA) | Nefrótica: ↓ pressão oncótica (hipoalbuminemia); nefrítica: retenção de sódio e água | Obstrução linfática (filariose, erisipelas, linfadenectomia) |",
-   "comentario": null
-  }
- ]
+  ]
 }

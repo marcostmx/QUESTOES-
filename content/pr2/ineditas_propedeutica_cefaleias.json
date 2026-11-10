@@ -1,188 +1,188 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Cefaleias e raciocínio clínico (formato das provas)",
-  "gerado_em": "2026-11-08",
-  "base": "SOP IV Guia PR2, seção 05, restrito aos temas que se repetem nas provas (primárias × secundárias, sinais de alarme, HIC com câncer prévio, caso de cefaleia no PA), no formato dos professores."
- },
- "questoes": [
-  {
-   "id": "PROPE-PF-CEF-01",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "primárias × secundárias",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q20)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Analise as afirmativas a seguir:\n\nI. A migrânea costuma ser unilateral, pulsátil, durar de 4 a 72 horas e vir acompanhada de náuseas, fotofobia e fonofobia.\nII. A cefaleia tensional é classificada como secundária, pois está associada ao estresse.\nIII. Nas cefaleias secundárias, a dor é sintoma de outra doença, e a investigação é obrigatória.\nIV. A cefaleia em salvas é tipicamente bilateral, em aperto, leve, e sem sinais autonômicos.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I e IV estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas I e III estão corretas."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas I e II estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas II e III estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas a I está correta."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Tensional, migrânea e salvas são **primárias**. Salvas: unilateral periorbitária, excruciante, com lacrimejamento, rinorreia e ptose ipsilaterais; o O₂ corta a crise."
+  "meta": {
+    "titulo": "Inéditas PR2 · Propedêutica · Cefaleias e raciocínio clínico (formato das provas)",
+    "gerado_em": "2026-11-08",
+    "base": "SOP IV Guia PR2, seção 05, restrito aos temas que se repetem nas provas (primárias × secundárias, sinais de alarme, HIC com câncer prévio, caso de cefaleia no PA), no formato dos professores."
   },
-  {
-   "id": "PROPE-PF-CEF-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "sinais de alarme",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Complemento das provas antigas (sinais de alarme, falha do analgésico)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Em qual das situações abaixo NÃO é necessária investigação com exame complementar, quando o sintoma guia é cefaleia?",
-   "alternativas": [
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Cefaleia progressiva com início após os 50 anos."
+      "id": "PROPE-PF-CEF-01",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cefaleias e raciocínio clínico",
+      "subtema": "primárias × secundárias",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q20)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Analise as afirmativas a seguir:\n\nI. A migrânea costuma ser unilateral, pulsátil, durar de 4 a 72 horas e vir acompanhada de náuseas, fotofobia e fonofobia.\nII. A cefaleia tensional é classificada como secundária, pois está associada ao estresse.\nIII. Nas cefaleias secundárias, a dor é sintoma de outra doença, e a investigação é obrigatória.\nIV. A cefaleia em salvas é tipicamente bilateral, em aperto, leve, e sem sinais autonômicos.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I e IV estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas I e III estão corretas."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas I e II estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas II e III estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas a I está correta."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Tensional, migrânea e salvas são **primárias**. Salvas: unilateral periorbitária, excruciante, com lacrimejamento, rinorreia e ptose ipsilaterais; o O₂ corta a crise."
     },
     {
-     "letra": "B",
-     "texto": "Cefaleia em paciente com HIV, febre e crise convulsiva."
+      "id": "PROPE-PF-CEF-02",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cefaleias e raciocínio clínico",
+      "subtema": "sinais de alarme",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Complemento das provas antigas (sinais de alarme, falha do analgésico)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Em qual das situações abaixo NÃO é necessária investigação com exame complementar, quando o sintoma guia é cefaleia?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cefaleia progressiva com início após os 50 anos."
+        },
+        {
+          "letra": "B",
+          "texto": "Cefaleia em paciente com HIV, febre e crise convulsiva."
+        },
+        {
+          "letra": "C",
+          "texto": "Cefaleia nova, súbita e intensa, descrita como \"a pior da vida\"."
+        },
+        {
+          "letra": "D",
+          "texto": "Enxaqueca de padrão antigo e estável, com exame neurológico normal."
+        },
+        {
+          "letra": "E",
+          "texto": "Cefaleia com papiledema e rigidez de nuca."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Enxaqueca de padrão antigo e estável, com exame neurológico normal, que não tem melhorado com analgésicos simples.\n\nA refratariedade ao analgésico, sozinha e com exame normal, não é sinal de alarme. SNOOP: Sistêmicos, Neurológicos, Onset súbito, Older (> 50), Padrão novo."
     },
     {
-     "letra": "C",
-     "texto": "Cefaleia nova, súbita e intensa, descrita como \"a pior da vida\"."
+      "id": "PROPE-PF-CEF-03",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cefaleias e raciocínio clínico",
+      "subtema": "hipertensão intracraniana",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q19) e caso guiado",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Marta, 63 anos, tratada de câncer de mama há 4 anos, refere cefaleia progressivamente mais frequente há 1 mês, pior ao acordar, com vômitos e episódios de confusão mental. O exame de fundo de olho mostra papiledema bilateral. Qual etapa deve ser priorizada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aumentar a dose dos analgésicos, preferencialmente opioides."
+        },
+        {
+          "letra": "B",
+          "texto": "Encaminhar para avaliação psiquiátrica."
+        },
+        {
+          "letra": "C",
+          "texto": "Tomografia de crânio para investigar causa secundária."
+        },
+        {
+          "letra": "D",
+          "texto": "Iniciar profilaxia para migrânea e reavaliar em 3 meses."
+        },
+        {
+          "letra": "E",
+          "texto": "Solicitar marcadores tumorais séricos."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Realizar tomografia computadorizada de crânio para investigar causa secundária.\n\nCefaleia secundária com síndrome de HIC (matinal, vômitos, papiledema) em paciente com câncer prévio → imagem do crânio primeiro (metástase). Marcadores não localizam lesão; opioide em escalada rebaixa a consciência e eleva a PIC."
     },
     {
-     "letra": "D",
-     "texto": "Enxaqueca de padrão antigo e estável, com exame neurológico normal, que não tem melhorado com analgésicos simples."
+      "id": "PROPE-PF-CEF-04",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cefaleias e raciocínio clínico",
+      "subtema": "caso de cefaleia · condutas",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas e Complemento (trovoada, HIV)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Jovem de 24 anos, estudante, natural de Petrolina (PE), dá entrada no pronto-atendimento com queixa principal de cefaleia. Assinale a(s) alternativa(s) correta(s):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Se a dor for unilateral, pulsátil, moderada a intensa, com mais de 4 horas, piora ao esforço, náuseas e fotofobia, igual às crises habituais e com exame normal, trata-se de migrânea, sem necessidade de neuroimagem."
+        },
+        {
+          "letra": "B",
+          "texto": "Tratando-se de cefaleia nova, súbita, holocraniana e de intensidade máxima (\"a pior da vida\"), deve-se pedir TC de crânio sem contraste e, se normal, punção lombar."
+        },
+        {
+          "letra": "C",
+          "texto": "Se a paciente for portadora de HIV e apresentar febre e crise convulsiva, pode receber alta precoce com sintomáticos."
+        },
+        {
+          "letra": "D",
+          "texto": "Papiledema ao fundo de olho e sinais de irritação meningorradicular são sinais de alarme que tornam mandatória a investigação complementar."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "B",
+        "D"
+      ],
+      "gabarito_texto": "A, B e D",
+      "comentario": "HIV + cefaleia + febre/convulsão → internar e investigar (neurotoxoplasmose, criptococose, linfoma). Cefaleia em trovoada = HSA até prova em contrário."
     },
     {
-     "letra": "E",
-     "texto": "Cefaleia com papiledema e rigidez de nuca."
+      "id": "PROPE-PF-CEF-05",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cefaleias e raciocínio clínico",
+      "subtema": "cefaleias primárias",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · 1 Cefaleias",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie migrânea, cefaleia tensional e cefaleia em salvas quanto à localização, ao caráter, à duração e aos sintomas associados.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| | Migrânea | Tensional | Salvas |\n|---|---|---|---|\n| Local | Unilateral (frontotemporal) | Bilateral, \"em capacete\" ou nuca | Unilateral, periorbitária |\n| Caráter | Pulsátil, moderada a forte | Aperto/pressão, leve a moderada | Excruciante |\n| Duração | 4–72 h | 30 min a 7 dias | 15–180 min, em surtos |\n| Associados | Náuseas/vômitos, fotofobia e fonofobia, ± aura | Sem náusea; no máximo foto **ou** fono | Lacrimejamento, rinorreia, ptose ipsilateral; O₂ corta a crise |",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "A refratariedade ao analgésico, sozinha e com exame normal, não é sinal de alarme. SNOOP: Sistêmicos, Neurológicos, Onset súbito, Older (> 50), Padrão novo."
-  },
-  {
-   "id": "PROPE-PF-CEF-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "hipertensão intracraniana",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q19) e caso guiado",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Marta, 63 anos, tratada de câncer de mama há 4 anos, refere cefaleia progressivamente mais frequente há 1 mês, pior ao acordar, com vômitos e episódios de confusão mental. O exame de fundo de olho mostra papiledema bilateral. Qual etapa deve ser priorizada?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Aumentar a dose dos analgésicos, preferencialmente opioides."
-    },
-    {
-     "letra": "B",
-     "texto": "Encaminhar para avaliação psiquiátrica."
-    },
-    {
-     "letra": "C",
-     "texto": "Realizar tomografia computadorizada de crânio para investigar causa secundária."
-    },
-    {
-     "letra": "D",
-     "texto": "Iniciar profilaxia para migrânea e reavaliar em 3 meses."
-    },
-    {
-     "letra": "E",
-     "texto": "Solicitar marcadores tumorais séricos."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Cefaleia secundária com síndrome de HIC (matinal, vômitos, papiledema) em paciente com câncer prévio → imagem do crânio primeiro (metástase). Marcadores não localizam lesão; opioide em escalada rebaixa a consciência e eleva a PIC."
-  },
-  {
-   "id": "PROPE-PF-CEF-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "caso de cefaleia · condutas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas e Complemento (trovoada, HIV)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Jovem de 24 anos, estudante, natural de Petrolina (PE), dá entrada no pronto-atendimento com queixa principal de cefaleia. Assinale a(s) alternativa(s) correta(s):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Se a dor for unilateral, pulsátil, moderada a intensa, com mais de 4 horas, piora ao esforço, náuseas e fotofobia, igual às crises habituais e com exame normal, trata-se de migrânea, sem necessidade de neuroimagem."
-    },
-    {
-     "letra": "B",
-     "texto": "Tratando-se de cefaleia nova, súbita, holocraniana e de intensidade máxima (\"a pior da vida\"), deve-se pedir TC de crânio sem contraste e, se normal, punção lombar."
-    },
-    {
-     "letra": "C",
-     "texto": "Se a paciente for portadora de HIV e apresentar febre e crise convulsiva, pode receber alta precoce com sintomáticos."
-    },
-    {
-     "letra": "D",
-     "texto": "Papiledema ao fundo de olho e sinais de irritação meningorradicular são sinais de alarme que tornam mandatória a investigação complementar."
-    },
-    {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
-    }
-   ],
-   "gabarito": [
-    "A",
-    "B",
-    "D"
-   ],
-   "gabarito_texto": "A, B e D",
-   "comentario": "HIV + cefaleia + febre/convulsão → internar e investigar (neurotoxoplasmose, criptococose, linfoma). Cefaleia em trovoada = HSA até prova em contrário."
-  },
-  {
-   "id": "PROPE-PF-CEF-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cefaleias e raciocínio clínico",
-   "subtema": "cefaleias primárias",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · 1 Cefaleias",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie migrânea, cefaleia tensional e cefaleia em salvas quanto à localização, ao caráter, à duração e aos sintomas associados.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| | Migrânea | Tensional | Salvas |\n|---|---|---|---|\n| Local | Unilateral (frontotemporal) | Bilateral, \"em capacete\" ou nuca | Unilateral, periorbitária |\n| Caráter | Pulsátil, moderada a forte | Aperto/pressão, leve a moderada | Excruciante |\n| Duração | 4–72 h | 30 min a 7 dias | 15–180 min, em surtos |\n| Associados | Náuseas/vômitos, fotofobia e fonofobia, ± aura | Sem náusea; no máximo foto **ou** fono | Lacrimejamento, rinorreia, ptose ipsilateral; O₂ corta a crise |",
-   "comentario": null
-  }
- ]
+  ]
 }

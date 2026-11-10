@@ -1,0 +1,129 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Fisiopatologia · Imagens 3 (lâminas de sangue)",
+  "gerado_em": "2026-11-10",
+  "base": "Robbins & Cotran e Silbernagl. Fotos livres do Wikimedia Commons (créditos nas questões)."
+ },
+ "questoes": [
+  {
+   "id": "FISIO-IMG3-01",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "anemia falciforme (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · hemoglobinopatias",
+   "imagem": "/img/q/falciforme-esfregaco.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O esfregaço de sangue periférico da imagem é de um adolescente com crises dolorosas recorrentes. O mecanismo das hemácias alongadas e em foice observadas é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deficiência de ferro na síntese do heme."
+    },
+    {
+     "letra": "B",
+     "texto": "Anticorpos IgG contra a membrana."
+    },
+    {
+     "letra": "C",
+     "texto": "Fragmentação por microtrombos."
+    },
+    {
+     "letra": "D",
+     "texto": "Polimerização da HbS desoxigenada."
+    },
+    {
+     "letra": "E",
+     "texto": "Defeito de espectrina da membrana."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Mutação no gene da β-globina (Glu → Val). A HbS polimeriza na desoxigenação → hemácias rígidas em foice → **hemólise** e **vaso-oclusão** (crises dolorosas, síndrome torácica aguda, AVC, priapismo, autoesplenectomia). Desencadeantes: hipóxia, desidratação, acidose, frio.\n\n*Imagem: Paulo Henrique Orlandi Mourao — CC BY-SA 4.0, via Wikimedia Commons ([Sickle-cell smear 2015-09-10.jpg](https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg)).*"
+  },
+  {
+   "id": "FISIO-IMG3-02",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "esferocitose (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · anemias hemolíticas",
+   "imagem": "/img/q/esferocitose-esfregaco.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O esfregaço mostra hemácias pequenas, arredondadas e sem halo central, em paciente com anemia, icterícia, esplenomegalia e Coombs direto negativo. O diagnóstico e o local de destruição das hemácias são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Talassemia major; rins."
+    },
+    {
+     "letra": "B",
+     "texto": "Anemia hemolítica autoimune; fígado."
+    },
+    {
+     "letra": "C",
+     "texto": "Anemia falciforme; medula óssea."
+    },
+    {
+     "letra": "D",
+     "texto": "PTT; vasos de pequeno calibre."
+    },
+    {
+     "letra": "E",
+     "texto": "Esferocitose hereditária; baço."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Defeito de espectrina/anquirina → perda de membrana → esferócitos rígidos retidos nos cordões esplênicos. CHCM aumentado, fragilidade osmótica ↑. Esplenectomia corrige a anemia. Esferócitos com **Coombs positivo** sugerem hemólise autoimune.\n\n*Imagem: Paulo Henrique Orlandi Mourao — CC BY-SA 3.0, via Wikimedia Commons ([Hereditary Spherocytosis smear 2010-03-17.JPG](https://commons.wikimedia.org/wiki/File:Hereditary_Spherocytosis_smear_2010-03-17.JPG)).*"
+  },
+  {
+   "id": "FISIO-IMG3-03",
+   "materia": "Fisiopatologia (SOP IV)",
+   "prova": "PR2",
+   "tema": "Hematopoiético",
+   "subtema": "Reed-Sternberg (imagem)",
+   "origem": "inédita",
+   "fonte": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · linfomas",
+   "imagem": "/img/q/reed-sternberg.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na biópsia de linfonodo cervical de um jovem de 22 anos com febre e sudorese noturna, observa-se a célula grande, binucleada, com nucléolos proeminentes (\"olhos de coruja\") da imagem. O diagnóstico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Leucemia linfocítica crônica."
+    },
+    {
+     "letra": "B",
+     "texto": "Linfoma de Burkitt."
+    },
+    {
+     "letra": "C",
+     "texto": "Linfoma de Hodgkin."
+    },
+    {
+     "letra": "D",
+     "texto": "Mieloma múltiplo."
+    },
+    {
+     "letra": "E",
+     "texto": "Mononucleose infecciosa."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Célula de **Reed-Sternberg** (origem B, CD15+ CD30+) em meio a infiltrado reacional. Disseminação por contiguidade entre cadeias, jovens e > 50 anos, sintomas B. Burkitt: \"céu estrelado\", t(8;14).\n\n*Imagem: Ed Uthman, MD — CC BY-SA 2.0, via Wikimedia Commons ([Hodgkin Disease, Reed-Sternberg Cell.jpg](https://commons.wikimedia.org/wiki/File:Hodgkin_Disease,_Reed-Sternberg_Cell.jpg)).*"
+  }
+ ]
+}

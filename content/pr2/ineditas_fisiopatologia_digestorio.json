@@ -1,386 +1,386 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema digestório (formato das provas do Prof. Fernando)",
-  "gerado_em": "2026-11-08",
-  "base": "Resumo FISIOPATOLOGIA - PR2 (Drive), slides do Prof. Adauto e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (DRGE, gastrite/H. pylori, úlcera péptica, dispepsia, Crohn × RCU, diarreias, obstrução, hepatopatia crônica), no formato do professor."
- },
- "questoes": [
-  {
-   "id": "FISIO-PF-DIG-01",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "digestório · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · refluxo, gastrite, obstrução, DII",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Com relação à fisiopatologia do aparelho digestório, assinale a alternativa que apresenta a assertiva INCORRETA (0,5 ponto):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O esfíncter esofágico inferior não é um músculo esfincteriano verdadeiro identificável histologicamente; seu relaxamento inadequado permite o refluxo do conteúdo ácido e a sensação de azia."
-    },
-    {
-     "letra": "B",
-     "texto": "Os sintomas mais frequentes da doença do refluxo gastroesofágico são azia (pirose), regurgitação ácida e, em alguns casos, disfagia."
-    },
-    {
-     "letra": "C",
-     "texto": "Na gastrite autoimune há anticorpos contra as células parietais e o fator intrínseco, com atrofia do corpo gástrico e risco de anemia perniciosa."
-    },
-    {
-     "letra": "D",
-     "texto": "A retocolite ulcerativa tem como principais aspectos a inflamação granulomatosa transmural, lesões salteadas e sangramento retal raro."
-    },
-    {
-     "letra": "E",
-     "texto": "Hérnias, aderências, intussuscepção e vólvulo respondem pela grande maioria das obstruções mecânicas do intestino."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "A descrição (granulomas, transmural, salteada) é da **doença de Crohn**. A RCU é **mucosa/submucosa**, **contínua** a partir do reto, com sangramento retal **frequente**."
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema digestório (formato das provas do Prof. Fernando)",
+    "gerado_em": "2026-11-08",
+    "base": "Resumo FISIOPATOLOGIA - PR2 (Drive), slides do Prof. Adauto e Robbins, restrito aos temas que se repetem nas provas de Fisiopatologia (DRGE, gastrite/H. pylori, úlcera péptica, dispepsia, Crohn × RCU, diarreias, obstrução, hepatopatia crônica), no formato do professor."
   },
-  {
-   "id": "FISIO-PF-DIG-02",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "Crohn × RCU · caso",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal (Prova 26.1)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Dois pacientes têm doença inflamatória intestinal. Paciente A: dor abdominal, perda de peso, diarreia sem sangue e fístula perianal; a colonoscopia mostra segmentos inflamados intercalados com mucosa normal. Paciente B: diarreia sanguinolenta, tenesmo e urgência; inflamação contínua a partir do reto. Qual complicação está mais diretamente relacionada ao mecanismo presente no paciente A?",
-   "alternativas": [
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Estenoses e fístulas, pela inflamação que acomete todas as camadas da parede intestinal."
+      "id": "FISIO-PF-DIG-01",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "digestório · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · refluxo, gastrite, obstrução, DII",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Com relação à fisiopatologia do aparelho digestório, assinale a alternativa que apresenta a assertiva INCORRETA (0,5 ponto):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O esfíncter esofágico inferior não é um músculo esfincteriano verdadeiro identificável histologicamente; seu relaxamento inadequado permite o refluxo do conteúdo ácido e a sensação de azia."
+        },
+        {
+          "letra": "B",
+          "texto": "Os sintomas mais frequentes da doença do refluxo gastroesofágico são azia (pirose), regurgitação ácida e, em alguns casos, disfagia."
+        },
+        {
+          "letra": "C",
+          "texto": "Na gastrite autoimune há anticorpos contra as células parietais e o fator intrínseco, com atrofia do corpo gástrico e risco de anemia perniciosa."
+        },
+        {
+          "letra": "D",
+          "texto": "A retocolite ulcerativa tem como principais aspectos a inflamação granulomatosa transmural, lesões salteadas e sangramento retal raro."
+        },
+        {
+          "letra": "E",
+          "texto": "Hérnias, aderências, intussuscepção e vólvulo respondem pela grande maioria das obstruções mecânicas do intestino."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "A descrição (granulomas, transmural, salteada) é da **doença de Crohn**. A RCU é **mucosa/submucosa**, **contínua** a partir do reto, com sangramento retal **frequente**."
     },
     {
-     "letra": "B",
-     "texto": "Megacólon tóxico pela liberação difusa de mediadores na mucosa colônica."
+      "id": "FISIO-PF-DIG-02",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "Crohn × RCU · caso",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal (Prova 26.1)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Dois pacientes têm doença inflamatória intestinal. Paciente A: dor abdominal, perda de peso, diarreia sem sangue e fístula perianal; a colonoscopia mostra segmentos inflamados intercalados com mucosa normal. Paciente B: diarreia sanguinolenta, tenesmo e urgência; inflamação contínua a partir do reto. Qual complicação está mais diretamente relacionada ao mecanismo presente no paciente A?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Estenoses e fístulas, pela inflamação que acomete todas as camadas da parede intestinal."
+        },
+        {
+          "letra": "B",
+          "texto": "Megacólon tóxico pela liberação difusa de mediadores na mucosa colônica."
+        },
+        {
+          "letra": "C",
+          "texto": "Hemorragia digestiva pela erosão superficial contínua da mucosa colônica."
+        },
+        {
+          "letra": "D",
+          "texto": "Pseudopólipos inflamatórios pela regeneração repetida da mucosa superficial."
+        },
+        {
+          "letra": "E",
+          "texto": "Sangramento retal persistente por ulceração restrita à mucosa e submucosa."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Paciente A = **Crohn**: inflamação **transmural** e salteada → fibrose com estenose, fístulas e abscessos. Sangramento contínuo, pseudopólipos e megacólon tóxico são mais da **RCU** (paciente B)."
     },
     {
-     "letra": "C",
-     "texto": "Hemorragia digestiva pela erosão superficial contínua da mucosa colônica."
+      "id": "FISIO-PF-DIG-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "DII · caso INCORRETA",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 27 anos tem dor abdominal e diarreia com sangue há 2 meses, perda de 8 kg e úlceras orais dolorosas. A colonoscopia mostra acometimento do reto, cólon ascendente e região ileocecal, com áreas preservadas entre eles. Sobre o caso, marque a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O tabagismo é fator de risco para a doença apresentada pelo paciente."
+        },
+        {
+          "letra": "B",
+          "texto": "O paciente tem risco de desenvolver fístulas perianais e estenoses segmentares."
+        },
+        {
+          "letra": "C",
+          "texto": "Se for feita biópsia de um segmento acometido, o histopatológico deve mostrar inflamação restrita à mucosa e à submucosa."
+        },
+        {
+          "letra": "D",
+          "texto": "Tanto a retocolite ulcerativa quanto a doença de Crohn podem causar diarreia e dor abdominal."
+        },
+        {
+          "letra": "E",
+          "texto": "Pacientes com DII têm risco aumentado de câncer colorretal, maior quanto mais longa e extensa a doença."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Acometimento ileocecal com áreas salteadas e úlceras orais = **Crohn**, cuja inflamação é **transmural** (com granulomas não caseosos). O tabagismo piora o Crohn (e é \"protetor\" na RCU)."
     },
     {
-     "letra": "D",
-     "texto": "Pseudopólipos inflamatórios pela regeneração repetida da mucosa superficial."
+      "id": "FISIO-PF-DIG-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "H. pylori · gastrite e câncer",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite crônica (Prova 26.1)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 60 anos, com infecção crônica por H. pylori, tem biópsia gástrica com gastrite crônica atrófica e metaplasia intestinal. Qual mecanismo explica de forma mais adequada a associação com o adenocarcinoma gástrico?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A metaplasia intestinal resulta da proliferação de células neoplásicas já presentes na mucosa normal."
+        },
+        {
+          "letra": "B",
+          "texto": "A inflamação crônica acelera a renovação e o acúmulo de mutações."
+        },
+        {
+          "letra": "C",
+          "texto": "A hipocloridria aumenta a absorção de nutrientes e estimula a proliferação descontrolada."
+        },
+        {
+          "letra": "D",
+          "texto": "O DNA bacteriano integra-se ao genoma das células epiteliais e as transforma diretamente."
+        },
+        {
+          "letra": "E",
+          "texto": "A atrofia glandular impede a apoptose e leva inevitavelmente ao câncer."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** A inflamação crônica aumenta a renovação celular e favorece o acúmulo progressivo de alterações genéticas num epitélio sob lesão persistente.\n\nSequência de Correa: gastrite crônica → atrofia → metaplasia intestinal → displasia → adenocarcinoma, pelo dano inflamatório persistente e pela alta renovação celular. H. pylori também se associa ao linfoma MALT."
     },
     {
-     "letra": "E",
-     "texto": "Sangramento retal persistente por ulceração restrita à mucosa e submucosa."
+      "id": "FISIO-PF-DIG-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "dispepsia e úlcera péptica",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite, úlcera péptica",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os distúrbios do sistema digestório, assinale a alternativa que contém apenas afirmativas corretas:\n\nI. Dor aguda no hipocôndrio direito após refeição gordurosa, com náuseas e vômitos, é sugestiva de cólica biliar.\nII. O H. pylori está claramente associado às úlceras gástricas e duodenais.\nIII. Uma causa comum de úlceras gástricas e duodenais é o uso de anti-inflamatórios esteroides (corticoides) isoladamente.\nIV. Dor ou desconforto no andar superior do abdome, na linha média ou em torno dela, relacionado ou não às refeições, exemplifica o conceito de dispepsia.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "II e IV, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II, III e IV."
+        },
+        {
+          "letra": "D",
+          "texto": "IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, II e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "A causa comum de úlcera é o uso de **AINEs (não esteroides)**, que inibem a COX e as prostaglandinas protetoras da mucosa. A cólica biliar dói no hipocôndrio **direito**/epigástrio."
+    },
+    {
+      "id": "FISIO-PF-DIG-06",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "úlcera perfurada · caso",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · úlcera péptica e complicações",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 48 anos, que usa diclofenaco diariamente por lombalgia e é tabagista, apresenta dor epigástrica súbita e intensa \"em punhalada\", que se difunde pelo abdome e irradia para o ombro. Está imóvel no leito, com abdome em tábua; a radiografia mostra ar sob o diafragma. Assinale a alternativa correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O quadro é típico de pancreatite aguda biliar, que cursa com pneumoperitônio."
+        },
+        {
+          "letra": "B",
+          "texto": "O quadro é de úlcera péptica perfurada: os AINEs reduzem as prostaglandinas que protegem a mucosa."
+        },
+        {
+          "letra": "C",
+          "texto": "O AINE protege a mucosa gástrica ao aumentar a síntese de prostaglandinas."
+        },
+        {
+          "letra": "D",
+          "texto": "O ar sob o diafragma indica obstrução intestinal por vólvulo do sigmoide."
+        },
+        {
+          "letra": "E",
+          "texto": "A rigidez abdominal decorre de hemorragia digestiva alta sem perfuração."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** O quadro é de úlcera péptica perfurada: os AINEs reduzem as prostaglandinas que protegem a mucosa, e a perfuração libera conteúdo gástrico e ar na cavidade, causando peritonite química e pneumoperitônio.\n\nPerfuração: dor súbita, abdome em tábua (peritonite), pneumoperitônio (ar sob o diafragma, sinal de Jobert). Fatores: AINE, H. pylori, tabagismo."
+    },
+    {
+      "id": "FISIO-PF-DIG-07",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "diarreia · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · diarreia, má absorção, doença celíaca",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Com relação aos mecanismos de diarreia, analise as assertivas e assinale a alternativa INCORRETA (0,5 ponto):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A doença de Crohn caracteriza-se por inflamação restrita à mucosa, lesões contínuas a partir do reto e hematoquezia abundante."
+        },
+        {
+          "letra": "B",
+          "texto": "Na cólera, a enterotoxina estimula a secreção ativa de cloreto para o lúmen intestinal, seguida de sódio e água (diarreia secretora)."
+        },
+        {
+          "letra": "C",
+          "texto": "A esteatorreia, com fezes volumosas, gordurosas e fétidas, é um marco da síndrome de má absorção."
+        },
+        {
+          "letra": "D",
+          "texto": "Na doença celíaca, a ingestão de glúten desencadeia lesão imunomediada da mucosa do intestino delgado, com atrofia das vilosidades e má absorção."
+        },
+        {
+          "letra": "E",
+          "texto": "Na intolerância à lactose, a lactose não digerida aumenta a osmolaridade do conteúdo intestinal e atrai água para o lúmen (diarreia osmótica)."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "A descrição é da **RCU**; o Crohn é transmural, salteado e pode acometer qualquer segmento do tubo digestivo."
+    },
+    {
+      "id": "FISIO-PF-DIG-08",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "síndrome dispéptica · caso",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · dispepsia, refluxo, gastrite",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 62 anos, atendida na USF, refere que \"não consegue comer tudo o que coloca no prato\" porque se sente cheia antes de terminar. Teve episódios de dor epigástrica com melhora parcial ao antiácido e usou omeprazol por meses sem resolução completa. Em relação ao caso, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A dispepsia funcional é definida pela presença de esofagite ou gastrite na endoscopia."
+        },
+        {
+          "letra": "B",
+          "texto": "A paciente não tem síndrome dispéptica, pois a saciedade precoce não faz parte dela."
+        },
+        {
+          "letra": "C",
+          "texto": "Não há necessidade de investigação, pois o diagnóstico de DRGE é evidente."
+        },
+        {
+          "letra": "D",
+          "texto": "A associação de pirose e regurgitação tem alta especificidade para câncer gástrico."
+        },
+        {
+          "letra": "E",
+          "texto": "Gastrite, úlcera, neoplasias, doenças biliares e parasitoses."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Os diagnósticos diferenciais incluem gastrite, úlcera, neoplasias, doenças das vias biliares e parasitoses intestinais, e a idade com sintomas persistentes justifica investigação endoscópica.\n\nSaciedade precoce e dor epigástrica = síndrome dispéptica. Acima de 60 anos ou com sinais de alarme, investigar (EDA). Dispepsia **funcional** = sintomas **sem** lesão estrutural que os explique."
+    },
+    {
+      "id": "FISIO-PF-DIG-09",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "hepatopatia crônica · caso",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · fígado (hepatite crônica, cirrose, ascite)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 50 anos, com transfusão sanguínea no passado e uso remoto de drogas injetáveis, apresenta icterícia, ascite com macicez móvel, Na 129 mmol/L, albumina 2,8 g/dL, TP alargado e plaquetas 78.000/mm³. Sobre o caso, assinale a alternativa com todas as afirmativas corretas:\n\nI. As causas mais comuns de hepatite crônica são as infecções pelos vírus B e C, o álcool, drogas e toxinas e a hepatite autoimune.\nII. A cirrose é o estágio final da lesão hepatocelular crônica, com fibrose difusa e nódulos de regeneração que distorcem a arquitetura do fígado.\nIII. A hipertensão portal causa esplenomegalia com sequestro de plaquetas, ascite e varizes esofágicas.\nIV. Albumina baixa e tempo de protrombina alargado indicam aumento da função de síntese hepática.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "II, III e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Hipoalbuminemia e TP alargado indicam **perda** da função de síntese. A história de transfusão e drogas injetáveis sugere hepatite C."
+    },
+    {
+      "id": "FISIO-PF-DIG-10",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisiopatologia do sistema digestório",
+      "subtema": "Crohn × RCU",
+      "origem": "inédita",
+      "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie a fisiopatologia da doença de Crohn e da colite (retocolite) ulcerativa (1,0 ponto).",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| | Doença de Crohn | Retocolite ulcerativa |\n|---|---|---|\n| Localização | Qualquer segmento da boca ao ânus; mais íleo terminal e cólon direito | Reto, estendendo-se proximalmente pelo cólon |\n| Distribuição | **Salteada** (áreas sãs entre as doentes) | **Contínua** |\n| Profundidade | **Transmural** | Mucosa e submucosa |\n| Histologia | **Granulomas não caseosos**, úlceras lineares \"em pedra de calçamento\" | Abscessos de criptas, pseudopólipos, sem granulomas |\n| Complicações | Fístulas, abscessos, estenoses, doença perianal, má absorção (B12) | Hemorragia, megacólon tóxico, maior risco de câncer colorretal |\n| Clínica | Dor, diarreia (geralmente sem sangue), perda de peso | Diarreia sanguinolenta, tenesmo, urgência |\n| Tabagismo | Fator de risco | Fator \"protetor\" |\n\nAmbas resultam de resposta imune desregulada à microbiota em hospedeiro geneticamente suscetível (NOD2 no Crohn).",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Paciente A = **Crohn**: inflamação **transmural** e salteada → fibrose com estenose, fístulas e abscessos. Sangramento contínuo, pseudopólipos e megacólon tóxico são mais da **RCU** (paciente B)."
-  },
-  {
-   "id": "FISIO-PF-DIG-03",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "DII · caso INCORRETA",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 27 anos tem dor abdominal e diarreia com sangue há 2 meses, perda de 8 kg e úlceras orais dolorosas. A colonoscopia mostra acometimento do reto, cólon ascendente e região ileocecal, com áreas preservadas entre eles. Sobre o caso, marque a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O tabagismo é fator de risco para a doença apresentada pelo paciente."
-    },
-    {
-     "letra": "B",
-     "texto": "O paciente tem risco de desenvolver fístulas perianais e estenoses segmentares."
-    },
-    {
-     "letra": "C",
-     "texto": "Se for feita biópsia de um segmento acometido, o histopatológico deve mostrar inflamação restrita à mucosa e à submucosa."
-    },
-    {
-     "letra": "D",
-     "texto": "Tanto a retocolite ulcerativa quanto a doença de Crohn podem causar diarreia e dor abdominal."
-    },
-    {
-     "letra": "E",
-     "texto": "Pacientes com DII têm risco aumentado de câncer colorretal, maior quanto mais longa e extensa a doença."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Acometimento ileocecal com áreas salteadas e úlceras orais = **Crohn**, cuja inflamação é **transmural** (com granulomas não caseosos). O tabagismo piora o Crohn (e é \"protetor\" na RCU)."
-  },
-  {
-   "id": "FISIO-PF-DIG-04",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "H. pylori · gastrite e câncer",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite crônica (Prova 26.1)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 60 anos, com infecção crônica por H. pylori, tem biópsia gástrica com gastrite crônica atrófica e metaplasia intestinal. Qual mecanismo explica de forma mais adequada a associação com o adenocarcinoma gástrico?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A metaplasia intestinal resulta da proliferação de células neoplásicas já presentes na mucosa normal."
-    },
-    {
-     "letra": "B",
-     "texto": "A inflamação crônica aumenta a renovação celular e favorece o acúmulo progressivo de alterações genéticas num epitélio sob lesão persistente."
-    },
-    {
-     "letra": "C",
-     "texto": "A hipocloridria aumenta a absorção de nutrientes e estimula a proliferação descontrolada."
-    },
-    {
-     "letra": "D",
-     "texto": "O DNA bacteriano integra-se ao genoma das células epiteliais e as transforma diretamente."
-    },
-    {
-     "letra": "E",
-     "texto": "A atrofia glandular impede a apoptose e leva inevitavelmente ao câncer."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Sequência de Correa: gastrite crônica → atrofia → metaplasia intestinal → displasia → adenocarcinoma, pelo dano inflamatório persistente e pela alta renovação celular. H. pylori também se associa ao linfoma MALT."
-  },
-  {
-   "id": "FISIO-PF-DIG-05",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "dispepsia e úlcera péptica",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · gastrite, úlcera péptica",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os distúrbios do sistema digestório, assinale a alternativa que contém apenas afirmativas corretas:\n\nI. Dor aguda no hipocôndrio direito após refeição gordurosa, com náuseas e vômitos, é sugestiva de cólica biliar.\nII. O H. pylori está claramente associado às úlceras gástricas e duodenais.\nIII. Uma causa comum de úlceras gástricas e duodenais é o uso de anti-inflamatórios esteroides (corticoides) isoladamente.\nIV. Dor ou desconforto no andar superior do abdome, na linha média ou em torno dela, relacionado ou não às refeições, exemplifica o conceito de dispepsia.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "II e IV, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II, III e IV."
-    },
-    {
-     "letra": "D",
-     "texto": "IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, II e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "A causa comum de úlcera é o uso de **AINEs (não esteroides)**, que inibem a COX e as prostaglandinas protetoras da mucosa. A cólica biliar dói no hipocôndrio **direito**/epigástrio."
-  },
-  {
-   "id": "FISIO-PF-DIG-06",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "úlcera perfurada · caso",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · úlcera péptica e complicações",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 48 anos, que usa diclofenaco diariamente por lombalgia e é tabagista, apresenta dor epigástrica súbita e intensa \"em punhalada\", que se difunde pelo abdome e irradia para o ombro. Está imóvel no leito, com abdome em tábua; a radiografia mostra ar sob o diafragma. Assinale a alternativa correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O quadro é típico de pancreatite aguda biliar, que cursa com pneumoperitônio."
-    },
-    {
-     "letra": "B",
-     "texto": "O quadro é de úlcera péptica perfurada: os AINEs reduzem as prostaglandinas que protegem a mucosa, e a perfuração libera conteúdo gástrico e ar na cavidade, causando peritonite química e pneumoperitônio."
-    },
-    {
-     "letra": "C",
-     "texto": "O AINE protege a mucosa gástrica ao aumentar a síntese de prostaglandinas."
-    },
-    {
-     "letra": "D",
-     "texto": "O ar sob o diafragma indica obstrução intestinal por vólvulo do sigmoide."
-    },
-    {
-     "letra": "E",
-     "texto": "A rigidez abdominal decorre de hemorragia digestiva alta sem perfuração."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Perfuração: dor súbita, abdome em tábua (peritonite), pneumoperitônio (ar sob o diafragma, sinal de Jobert). Fatores: AINE, H. pylori, tabagismo."
-  },
-  {
-   "id": "FISIO-PF-DIG-07",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "diarreia · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · diarreia, má absorção, doença celíaca",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Com relação aos mecanismos de diarreia, analise as assertivas e assinale a alternativa INCORRETA (0,5 ponto):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A doença de Crohn caracteriza-se por inflamação restrita à mucosa, lesões contínuas a partir do reto e hematoquezia abundante."
-    },
-    {
-     "letra": "B",
-     "texto": "Na cólera, a enterotoxina estimula a secreção ativa de cloreto para o lúmen intestinal, seguida de sódio e água (diarreia secretora)."
-    },
-    {
-     "letra": "C",
-     "texto": "A esteatorreia, com fezes volumosas, gordurosas e fétidas, é um marco da síndrome de má absorção."
-    },
-    {
-     "letra": "D",
-     "texto": "Na doença celíaca, a ingestão de glúten desencadeia lesão imunomediada da mucosa do intestino delgado, com atrofia das vilosidades e má absorção."
-    },
-    {
-     "letra": "E",
-     "texto": "Na intolerância à lactose, a lactose não digerida aumenta a osmolaridade do conteúdo intestinal e atrai água para o lúmen (diarreia osmótica)."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "A descrição é da **RCU**; o Crohn é transmural, salteado e pode acometer qualquer segmento do tubo digestivo."
-  },
-  {
-   "id": "FISIO-PF-DIG-08",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "síndrome dispéptica · caso",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · dispepsia, refluxo, gastrite",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 62 anos, atendida na USF, refere que \"não consegue comer tudo o que coloca no prato\" porque se sente cheia antes de terminar. Teve episódios de dor epigástrica com melhora parcial ao antiácido e usou omeprazol por meses sem resolução completa. Em relação ao caso, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A dispepsia funcional é definida pela presença de esofagite ou gastrite na endoscopia."
-    },
-    {
-     "letra": "B",
-     "texto": "A paciente não tem síndrome dispéptica, pois a saciedade precoce não faz parte dela."
-    },
-    {
-     "letra": "C",
-     "texto": "Não há necessidade de investigação, pois o diagnóstico de DRGE é evidente."
-    },
-    {
-     "letra": "D",
-     "texto": "A associação de pirose e regurgitação tem alta especificidade para câncer gástrico."
-    },
-    {
-     "letra": "E",
-     "texto": "Os diagnósticos diferenciais incluem gastrite, úlcera, neoplasias, doenças das vias biliares e parasitoses intestinais, e a idade com sintomas persistentes justifica investigação endoscópica."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Saciedade precoce e dor epigástrica = síndrome dispéptica. Acima de 60 anos ou com sinais de alarme, investigar (EDA). Dispepsia **funcional** = sintomas **sem** lesão estrutural que os explique."
-  },
-  {
-   "id": "FISIO-PF-DIG-09",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "hepatopatia crônica · caso",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · fígado (hepatite crônica, cirrose, ascite)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 50 anos, com transfusão sanguínea no passado e uso remoto de drogas injetáveis, apresenta icterícia, ascite com macicez móvel, Na 129 mmol/L, albumina 2,8 g/dL, TP alargado e plaquetas 78.000/mm³. Sobre o caso, assinale a alternativa com todas as afirmativas corretas:\n\nI. As causas mais comuns de hepatite crônica são as infecções pelos vírus B e C, o álcool, drogas e toxinas e a hepatite autoimune.\nII. A cirrose é o estágio final da lesão hepatocelular crônica, com fibrose difusa e nódulos de regeneração que distorcem a arquitetura do fígado.\nIII. A hipertensão portal causa esplenomegalia com sequestro de plaquetas, ascite e varizes esofágicas.\nIV. Albumina baixa e tempo de protrombina alargado indicam aumento da função de síntese hepática.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "II, III e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Hipoalbuminemia e TP alargado indicam **perda** da função de síntese. A história de transfusão e drogas injetáveis sugere hepatite C."
-  },
-  {
-   "id": "FISIO-PF-DIG-10",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisiopatologia do sistema digestório",
-   "subtema": "Crohn × RCU",
-   "origem": "inédita",
-   "fonte": "Resumo FISIOPATOLOGIA - PR2 (Drive), Sistema Digestório (slides do Prof. Adauto) · Robbins · temas recorrentes nas provas · doença inflamatória intestinal",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie a fisiopatologia da doença de Crohn e da colite (retocolite) ulcerativa (1,0 ponto).",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| | Doença de Crohn | Retocolite ulcerativa |\n|---|---|---|\n| Localização | Qualquer segmento da boca ao ânus; mais íleo terminal e cólon direito | Reto, estendendo-se proximalmente pelo cólon |\n| Distribuição | **Salteada** (áreas sãs entre as doentes) | **Contínua** |\n| Profundidade | **Transmural** | Mucosa e submucosa |\n| Histologia | **Granulomas não caseosos**, úlceras lineares \"em pedra de calçamento\" | Abscessos de criptas, pseudopólipos, sem granulomas |\n| Complicações | Fístulas, abscessos, estenoses, doença perianal, má absorção (B12) | Hemorragia, megacólon tóxico, maior risco de câncer colorretal |\n| Clínica | Dor, diarreia (geralmente sem sangue), perda de peso | Diarreia sanguinolenta, tenesmo, urgência |\n| Tabagismo | Fator de risco | Fator \"protetor\" |\n\nAmbas resultam de resposta imune desregulada à microbiota em hospedeiro geneticamente suscetível (NOD2 no Crohn).",
-   "comentario": null
-  }
- ]
+  ]
 }

@@ -1,883 +1,883 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Fisiopatologia · Sistema nervoso (lote 4, formato das provas do Prof. Fernando)",
-  "gerado_em": "2026-11-09",
-  "base": "Robbins & Cotran (SNC) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
- },
- "questoes": [
-  {
-   "id": "FISIO-PF-SNC4-01",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "barreira hematoencefálica",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · barreira hematoencefálica e líquor",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a barreira hematoencefálica, assinale a correta:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Fisiopatologia · Sistema nervoso (lote 4, formato das provas do Prof. Fernando)",
+    "gerado_em": "2026-11-09",
+    "base": "Robbins & Cotran (SNC) e Silbernagl, bibliografia básica do plano de Fisiopatologia 2026.2, com o resumo FISIOPATOLOGIA - PR2. Formato das provas do Prof. Fernando."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "É mais permeável no cérebro adulto que nos plexos coroides."
+      "id": "FISIO-PF-SNC4-01",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "barreira hematoencefálica",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · barreira hematoencefálica e líquor",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a barreira hematoencefálica, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É mais permeável no cérebro adulto que nos plexos coroides."
+        },
+        {
+          "letra": "B",
+          "texto": "Não tem relação com o edema cerebral."
+        },
+        {
+          "letra": "C",
+          "texto": "Permite livre passagem de proteínas plasmáticas no cérebro normal."
+        },
+        {
+          "letra": "D",
+          "texto": "É formada pelas células da micróglia, que fagocitam todas as substâncias do plasma."
+        },
+        {
+          "letra": "E",
+          "texto": "É formada pelas junções firmes do endotélio capilar cerebral, sustentadas pelos pés dos astrócitos."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** É formada pelas junções firmes do endotélio capilar cerebral, sustentadas pelos pés dos astrócitos, e restringe a passagem de substâncias hidrossolúveis e proteínas; sua ruptura causa edema vasogênico.\n\nRuptura da BHE: tumores, abscessos, inflamação, trauma; o contraste \"capta\" nessas áreas na neuroimagem."
     },
     {
-     "letra": "B",
-     "texto": "Não tem relação com o edema cerebral."
+      "id": "FISIO-PF-SNC4-02",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "líquor · produção e fluxo",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · líquor e hidrocefalia",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a produção e a circulação do líquor, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A obstrução do aqueduto causa hidrocefalia comunicante."
+        },
+        {
+          "letra": "B",
+          "texto": "É produzido pelas granulações aracnóideas e absorvido pelos plexos coroides."
+        },
+        {
+          "letra": "C",
+          "texto": "Circula do quarto ventrículo para os ventrículos laterais."
+        },
+        {
+          "letra": "D",
+          "texto": "Produzido nos plexos coroides e absorvido nas granulações aracnóideas."
+        },
+        {
+          "letra": "E",
+          "texto": "O aqueduto cerebral liga os ventrículos laterais ao terceiro ventrículo."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** É produzido principalmente pelos plexos coroides dos ventrículos, circula dos ventrículos laterais ao terceiro e ao quarto ventrículo e ao espaço subaracnoide, sendo absorvido pelas granulações aracnóideas nos seios venosos.\n\nO aqueduto de Sylvius liga o 3º ao 4º ventrículo; sua obstrução causa hidrocefalia **não comunicante** (dilatação dos laterais e do 3º)."
     },
     {
-     "letra": "C",
-     "texto": "Permite livre passagem de proteínas plasmáticas no cérebro normal."
+      "id": "FISIO-PF-SNC4-03",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "HIC · sinais clínicos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · hipertensão intracraniana (manifestações)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as manifestações da hipertensão intracraniana, assinale a alternativa INCORRETA (0,5 ponto):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A tríade de Cushing é composta por taquicardia, hipotensão arterial e respiração regular."
+        },
+        {
+          "letra": "B",
+          "texto": "A cefaleia tende a piorar pela manhã e com manobras que aumentam a pressão intratorácica."
+        },
+        {
+          "letra": "C",
+          "texto": "A paralisia do VI par é comum e não tem valor localizatório."
+        },
+        {
+          "letra": "D",
+          "texto": "Os vômitos podem ocorrer em jato, sem náusea prévia."
+        },
+        {
+          "letra": "E",
+          "texto": "O papiledema resulta da transmissão da pressão ao espaço subaracnoide da bainha do nervo óptico."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Tríade de Cushing: **hipertensão** arterial, **bradicardia** e respiração irregular (resposta à isquemia do tronco)."
     },
     {
-     "letra": "D",
-     "texto": "É formada pelas células da micróglia, que fagocitam todas as substâncias do plasma."
+      "id": "FISIO-PF-SNC4-04",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "herniação uncal",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · herniações",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a herniação transtentorial (uncal), assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O giro do cíngulo passa sob a foice, comprimindo a artéria basilar."
+        },
+        {
+          "letra": "B",
+          "texto": "O úncus do lobo temporal desloca-se sob a borda livre do tentório."
+        },
+        {
+          "letra": "C",
+          "texto": "Não tem relação com hematomas supratentoriais."
+        },
+        {
+          "letra": "D",
+          "texto": "Causa miose bilateral precoce por compressão do simpático."
+        },
+        {
+          "letra": "E",
+          "texto": "As tonsilas cerebelares herniam pelo forame magno sem compressão do bulbo."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** O úncus do lobo temporal desloca-se sob a borda livre do tentório, comprimindo o nervo oculomotor (midríase ipsilateral), a artéria cerebral posterior e o mesencéfalo, podendo causar hemorragias de Duret no tronco.\n\nA compressão do pedúnculo cerebral contralateral contra o tentório pode causar hemiparesia ipsilateral à lesão (falso sinal localizatório — fenômeno de Kernohan)."
     },
     {
-     "letra": "E",
-     "texto": "É formada pelas junções firmes do endotélio capilar cerebral, sustentadas pelos pés dos astrócitos, e restringe a passagem de substâncias hidrossolúveis e proteínas; sua ruptura causa edema vasogênico."
+      "id": "FISIO-PF-SNC4-05",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "traumatismo · fraturas",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · trauma (fraturas cranianas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as fraturas cranianas, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A fratura com afundamento é aquela em que o osso se desloca para dentro da cavidade craniana por distância maior que sua espessura.\nII. As fraturas da base do crânio podem causar fístula liquórica, com rinorreia ou otorreia.\nIII. A equimose retroauricular (sinal de Battle) e a periorbitária (\"olhos de guaxinim\") sugerem fratura da base do crânio.\nIV. A fratura temporal não tem relação com o hematoma epidural.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, II e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I, II, III e IV."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I e II, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, apenas."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "A fratura temporal pode lacerar a **artéria meníngea média** → hematoma epidural."
+    },
+    {
+      "id": "FISIO-PF-SNC4-06",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "lesão medular · choque",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · trauma raquimedular",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com trauma raquimedular cervical apresenta, nas primeiras horas, paralisia flácida, arreflexia, hipotensão com bradicardia e pele quente. Sobre o quadro, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O choque neurogênico decorre de perda sanguínea pela fratura."
+        },
+        {
+          "letra": "B",
+          "texto": "A bradicardia indica choque hipovolêmico."
+        },
+        {
+          "letra": "C",
+          "texto": "O choque medular explica a flacidez e a arreflexia iniciais."
+        },
+        {
+          "letra": "D",
+          "texto": "A pele quente exclui lesão medular."
+        },
+        {
+          "letra": "E",
+          "texto": "A espasticidade e a hiper-reflexia são imediatas após a lesão."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** O choque medular explica a flacidez e a arreflexia iniciais, e a perda do tônus simpático (lesão acima de T6) causa choque neurogênico com hipotensão e bradicardia.\n\nSemanas depois surgem espasticidade, hiper-reflexia e Babinski abaixo da lesão; disreflexia autonômica em lesões altas."
+    },
+    {
+      "id": "FISIO-PF-SNC4-07",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "abscesso · vias",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (vias de acesso ao SNC)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "As principais vias pelas quais os agentes infecciosos atingem o sistema nervoso central são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Exclusivamente pela via linfática."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas por implantação cirúrgica."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas por contiguidade com o pulmão."
+        },
+        {
+          "letra": "D",
+          "texto": "Hematogênica, direta, por contiguidade e axonal retrógrada."
+        },
+        {
+          "letra": "E",
+          "texto": "Por difusão através da barreira hematoencefálica íntegra, sem lesão."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Hematogênica (a mais comum), implantação direta (trauma, procedimentos), extensão local (seios paranasais, ouvido, dentes) e transporte axonal retrógrado (raiva, herpes).\n\nO herpes simples e a raiva usam o transporte axonal retrógrado pelos nervos periféricos."
+    },
+    {
+      "id": "FISIO-PF-SNC4-08",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "raiva",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções virais (raiva)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a raiva, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É transmitida por via respiratória entre humanos."
+        },
+        {
+          "letra": "B",
+          "texto": "Causa meningite bacteriana purulenta."
+        },
+        {
+          "letra": "C",
+          "texto": "Os corpúsculos de Negri são típicos do Alzheimer."
+        },
+        {
+          "letra": "D",
+          "texto": "O período de incubação é sempre de poucas horas."
+        },
+        {
+          "letra": "E",
+          "texto": "Ascende por transporte axonal; corpúsculos de Negri."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** O vírus penetra pela mordedura de animal infectado, ascende pelos nervos periféricos por transporte axonal até o SNC e causa encefalite com corpúsculos de Negri; uma vez sintomática, é quase sempre fatal.\n\nPeríodo de incubação variável (depende da distância da mordedura ao SNC); profilaxia pós-exposição eficaz antes dos sintomas."
+    },
+    {
+      "id": "FISIO-PF-SNC4-09",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "neurossífilis",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (sífilis terciária)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a neurossífilis, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Na tabes dorsalis há degeneração dos cordões posteriores e das raízes dorsais."
+        },
+        {
+          "letra": "B",
+          "texto": "Causa ataxia cerebelar com Romberg negativo."
+        },
+        {
+          "letra": "C",
+          "texto": "Não tem relação com demência."
+        },
+        {
+          "letra": "D",
+          "texto": "Acomete exclusivamente os nervos periféricos."
+        },
+        {
+          "letra": "E",
+          "texto": "A pupila de Argyll-Robertson reage à luz, mas não à acomodação."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Na tabes dorsalis há degeneração dos cordões posteriores e das raízes dorsais, com ataxia sensitiva, Romberg positivo, dores lancinantes e pupilas de Argyll-Robertson.\n\nParesia geral (demência progressiva) é outra forma de neurossífilis parenquimatosa."
+    },
+    {
+      "id": "FISIO-PF-SNC4-10",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "HIV · SNC",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (HIV e SNC)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre o acometimento do sistema nervoso central pelo HIV, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O HIV infecta micróglia e macrófagos do SNC e pode causar demência associada ao HIV."
+        },
+        {
+          "letra": "B",
+          "texto": "O HIV não atravessa a barreira hematoencefálica e nunca causa doença neurológica primária."
+        },
+        {
+          "letra": "C",
+          "texto": "A imunossupressão favorece neurotoxoplasmose, criptococose e linfoma primário do SNC."
+        },
+        {
+          "letra": "D",
+          "texto": "Meningite asséptica pode ocorrer na infecção aguda pelo HIV."
+        },
+        {
+          "letra": "E",
+          "texto": "A leucoencefalopatia multifocal progressiva é causada pelo vírus JC em imunossuprimidos."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "O HIV é neurotrópico, entra no SNC por monócitos infectados."
+    },
+    {
+      "id": "FISIO-PF-SNC4-11",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "demência vascular",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · demências (vascular)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a demência vascular, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Múltiplos infartos ou doença de pequenos vasos."
+        },
+        {
+          "letra": "B",
+          "texto": "Evolui sempre de forma lenta e linear, sem sinais focais."
+        },
+        {
+          "letra": "C",
+          "texto": "É a doença de Huntington com AVC associado."
+        },
+        {
+          "letra": "D",
+          "texto": "É causada por placas de β-amiloide sem lesão vascular."
+        },
+        {
+          "letra": "E",
+          "texto": "Não tem relação com hipertensão arterial."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Resulta de múltiplos infartos (corticais ou lacunares) ou de doença de pequenos vasos da substância branca, com evolução frequentemente em degraus, sinais focais e fatores de risco cardiovasculares.\n\nÉ a segunda causa mais comum de demência; frequentemente coexiste com Alzheimer (demência mista)."
+    },
+    {
+      "id": "FISIO-PF-SNC4-12",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "hidrocefalia de pressão normal",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · hidrocefalia",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idoso com distúrbio de marcha (passos curtos, \"magnética\"), incontinência urinária e declínio cognitivo, com ventrículos dilatados na imagem e pressão liquórica normal à punção. A hipótese é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Doença de Alzheimer avançada."
+        },
+        {
+          "letra": "B",
+          "texto": "Hidrocefalia de pressão normal."
+        },
+        {
+          "letra": "C",
+          "texto": "Esclerose lateral amiotrófica."
+        },
+        {
+          "letra": "D",
+          "texto": "Hidrocefalia ex vacuo por atrofia."
+        },
+        {
+          "letra": "E",
+          "texto": "Meningite bacteriana."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Hidrocefalia de pressão normal, uma causa potencialmente reversível de demência.\n\nTríade de Hakim: marcha, incontinência e demência. Pode melhorar com derivação ventricular."
+    },
+    {
+      "id": "FISIO-PF-SNC4-13",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "Parkinson · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença de Parkinson",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a doença de Parkinson, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os sintomas surgem quando grande parte dos neurônios nigrais já foi perdida."
+        },
+        {
+          "letra": "B",
+          "texto": "A bradicinesia, a rigidez e o tremor de repouso compõem a tríade motora clássica."
+        },
+        {
+          "letra": "C",
+          "texto": "Sintomas não motores, como constipação, hiposmia e distúrbio do sono REM, podem preceder os motores."
+        },
+        {
+          "letra": "D",
+          "texto": "O tremor característico é de intenção, piorando à medida que a mão se aproxima do alvo."
+        },
+        {
+          "letra": "E",
+          "texto": "Há perda de neurônios dopaminérgicos da substância negra."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Tremor de intenção é **cerebelar**; no Parkinson é de **repouso** (\"contar moedas\")."
+    },
+    {
+      "id": "FISIO-PF-SNC4-14",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "ELA · mecanismos",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença do neurônio motor",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na esclerose lateral amiotrófica, a perda dos neurônios motores do corno anterior da medula explica:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Hiper-reflexia e sinal de Babinski."
+        },
+        {
+          "letra": "B",
+          "texto": "Perda da sensibilidade vibratória."
+        },
+        {
+          "letra": "C",
+          "texto": "Demência com placas amiloides."
+        },
+        {
+          "letra": "D",
+          "texto": "Incontinência urinária precoce."
+        },
+        {
+          "letra": "E",
+          "texto": "Atrofia, fasciculações e fraqueza flácida."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Atrofia muscular, fasciculações e fraqueza de padrão neurônio motor inferior.\n\nO componente NMS (perda das células de Betz e dos tratos corticoespinhais) causa espasticidade, hiper-reflexia e Babinski."
+    },
+    {
+      "id": "FISIO-PF-SNC4-15",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "neurodegenerativas · associações",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças neurodegenerativas (inclusões)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que contém todas as associações corretas entre doença e inclusão/proteína característica:\n\nI. Doença de Alzheimer — placas de β-amiloide e emaranhados de tau.\nII. Doença de Parkinson — corpúsculos de Lewy (α-sinucleína).\nIII. Doença de Huntington — expansão de poliglutamina na huntingtina, com perda do estriado.\nIV. Esclerose lateral amiotrófica — corpúsculos de Negri.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I e III, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "II e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Corpúsculos de Negri = **raiva**. Na ELA há inclusões ubiquitinadas (TDP-43)."
+    },
+    {
+      "id": "FISIO-PF-SNC4-16",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "epilepsia · fisiopatologia",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · epilepsias (Silbernagl)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a fisiopatologia das crises epilépticas, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "São sempre de causa psiquiátrica."
+        },
+        {
+          "letra": "B",
+          "texto": "Decorrem do excesso de GABA no córtex."
+        },
+        {
+          "letra": "C",
+          "texto": "A hipoglicemia protege contra crises."
+        },
+        {
+          "letra": "D",
+          "texto": "Descargas neuronais excessivas e sincrônicas."
+        },
+        {
+          "letra": "E",
+          "texto": "Não há relação com lesões estruturais do córtex."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Resultam de descargas neuronais anormais, excessivas e sincrônicas, por desequilíbrio entre excitação (glutamato) e inibição (GABA); causas incluem cicatrizes corticais, tumores, distúrbios metabólicos (hipoglicemia, hiponatremia) e predisposição genética.\n\nEstado de mal epiléptico: crise prolongada (> 5 min) ou recorrente sem recuperação — emergência pela lesão neuronal excitotóxica."
+    },
+    {
+      "id": "FISIO-PF-SNC4-17",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "tumores · manifestações",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · neoplasias do SNC (efeitos)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as manifestações dos tumores do sistema nervoso central, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Todos os tumores do SNC causam febre alta."
+        },
+        {
+          "letra": "B",
+          "texto": "Os gliomas metastatizam com frequência para os pulmões."
+        },
+        {
+          "letra": "C",
+          "texto": "Mesmo benignos, podem matar pelo efeito de massa."
+        },
+        {
+          "letra": "D",
+          "texto": "Tumores benignos nunca causam sintomas graves."
+        },
+        {
+          "letra": "E",
+          "texto": "O meningioma é tumor maligno do parênquima."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Mesmo tumores histologicamente benignos podem ser fatais pela localização e pelo efeito de massa, causando hipertensão intracraniana, herniação, crises epilépticas e déficits focais.\n\nLocal de origem e invasividade importam mais que a histologia; gliomas infiltram difusamente o parênquima."
+    },
+    {
+      "id": "FISIO-PF-SNC4-18",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "Wernicke-Korsakoff",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças tóxicas e metabólicas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Etilista desnutrido apresenta confusão, oftalmoplegia (nistagmo, paralisia do VI) e ataxia de marcha. A causa e o tratamento são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Encefalopatia de Wernicke (tiamina)."
+        },
+        {
+          "letra": "B",
+          "texto": "Deficiência de B12 com degeneração combinada."
+        },
+        {
+          "letra": "C",
+          "texto": "Hipoglicemia simples."
+        },
+        {
+          "letra": "D",
+          "texto": "Hematoma subdural crônico, tratado só com cirurgia."
+        },
+        {
+          "letra": "E",
+          "texto": "Intoxicação por metanol."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Encefalopatia de Wernicke por deficiência de tiamina (vitamina B1), com lesão dos corpos mamilares e região periaquedutal; tratamento com tiamina parenteral antes da glicose.\n\nSem tratamento pode evoluir para síndrome de Korsakoff (amnésia anterógrada, confabulação)."
+    },
+    {
+      "id": "FISIO-PF-SNC4-19",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "encefalopatia hepática · SNC",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · encefalopatias metabólicas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre a encefalopatia hepática, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "É causada por placas amiloides."
+        },
+        {
+          "letra": "B",
+          "texto": "Amônia não depurada altera o metabolismo dos astrócitos."
+        },
+        {
+          "letra": "C",
+          "texto": "Não há alterações de consciência."
+        },
+        {
+          "letra": "D",
+          "texto": "A amônia é depurada pelos rins, sem participação hepática."
+        },
+        {
+          "letra": "E",
+          "texto": "É uma meningite infecciosa."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** A amônia e outras neurotoxinas não depuradas pelo fígado alteram a neurotransmissão e o metabolismo dos astrócitos (que detoxificam amônia formando glutamina), causando confusão, asterix e coma.\n\nPrecipitantes: hemorragia digestiva, infecções, constipação, diuréticos, distúrbios eletrolíticos, sedativos."
+    },
+    {
+      "id": "FISIO-PF-SNC4-20",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "desmielinização osmótica",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios eletrolíticos e SNC",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com hiponatremia grave crônica teve o sódio corrigido muito rapidamente e, dias depois, desenvolveu tetraparesia, disartria e disfagia. O mecanismo provável é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Edema citotóxico por isquemia."
+        },
+        {
+          "letra": "B",
+          "texto": "Meningite viral."
+        },
+        {
+          "letra": "C",
+          "texto": "Esclerose múltipla de início tardio."
+        },
+        {
+          "letra": "D",
+          "texto": "Hemorragia subaracnóidea."
+        },
+        {
+          "letra": "E",
+          "texto": "Mielinólise pontina central."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Síndrome de desmielinização osmótica (mielinólise pontina central), pela correção rápida da hiponatremia crônica.\n\nPor isso a hiponatremia crônica deve ser corrigida lentamente; já o edema cerebral é o risco da hiponatremia aguda."
+    },
+    {
+      "id": "FISIO-PF-SNC4-21",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "AVE · ACP",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença cerebrovascular (territórios)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente com AVC isquêmico apresenta hemianopsia homônima esquerda isolada, sem déficit motor. O território vascular mais provável é o da artéria:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Espinhal anterior."
+        },
+        {
+          "letra": "B",
+          "texto": "Cerebral anterior direita."
+        },
+        {
+          "letra": "C",
+          "texto": "Cerebral média esquerda."
+        },
+        {
+          "letra": "D",
+          "texto": "Carótida externa."
+        },
+        {
+          "letra": "E",
+          "texto": "Cerebral posterior direita (córtex occipital)."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "ACP: córtex visual occipital, tálamo. ACM: face e braço, afasia/negligência. ACA: membro inferior."
+    },
+    {
+      "id": "FISIO-PF-SNC4-22",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "meningoencefalites · causas",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções do SNC",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Descreva as principais causas de meningoencefalites, agrupando-as por tipo de agente, e cite o achado liquórico típico de cada grupo.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "- **Bacterianas agudas (piogênicas)**: pneumococo, meningococo, Haemophilus, Listeria, estreptococo do grupo B, E. coli. Líquor turvo, **neutrófilos**, proteína muito ↑, **glicose ↓**.\n- **Virais (assépticas/encefalites)**: enterovírus (meningite), herpes simples tipo 1 (encefalite temporal hemorrágica), arbovírus, HIV, raiva, CMV. Líquor claro, **linfócitos**, proteína normal ou levemente ↑, **glicose normal**.\n- **Bacterianas crônicas**: tuberculose (exsudato basal, nervos cranianos, hidrocefalia), sífilis (tabes, paresia geral). Líquor com **linfócitos**, proteína muito ↑, glicose ↓ (TB).\n- **Fúngicas**: criptococo (imunossuprimidos, HIV). Líquor linfocítico, glicose ↓, tinta da China/antígeno.\n- **Parasitárias**: neurotoxoplasmose (HIV), neurocisticercose (crises epilépticas; calcificações).\n- **Príons**: doença de Creutzfeldt-Jakob (demência rápida, mioclonias).",
+      "comentario": null
+    },
+    {
+      "id": "FISIO-PF-SNC4-23",
+      "materia": "Fisiopatologia (SOP IV)",
+      "prova": "PR2",
+      "tema": "Fisio do sistema nervoso",
+      "subtema": "Parkinson × Huntington",
+      "origem": "inédita",
+      "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças dos núcleos da base",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Compare a doença de Parkinson e a doença de Huntington quanto à região acometida, ao mecanismo e ao quadro clínico.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "| | Parkinson | Huntington |\n|---|---|---|\n| Região | **Substância negra** (parte compacta), via nigroestriatal | **Estriado** (núcleo caudado e putâmen), com atrofia do caudado |\n| Mecanismo | Perda de neurônios **dopaminérgicos**; corpúsculos de Lewy (α-sinucleína) | **Expansão de repetições CAG** no gene da huntingtina (cromossomo 4), autossômica dominante, com antecipação |\n| Efeito no circuito | Falta de dopamina → excesso de inibição do movimento | Perda dos neurônios GABAérgicos estriatais → excesso de movimento |\n| Quadro | **Hipocinético**: bradicinesia, rigidez em roda denteada, tremor de repouso, instabilidade postural | **Hipercinético**: **coreia**, distúrbios psiquiátricos e demência |\n| Idade | Geralmente > 60 anos | 30–50 anos |",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Ruptura da BHE: tumores, abscessos, inflamação, trauma; o contraste \"capta\" nessas áreas na neuroimagem."
-  },
-  {
-   "id": "FISIO-PF-SNC4-02",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "líquor · produção e fluxo",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · líquor e hidrocefalia",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a produção e a circulação do líquor, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A obstrução do aqueduto causa hidrocefalia comunicante."
-    },
-    {
-     "letra": "B",
-     "texto": "É produzido pelas granulações aracnóideas e absorvido pelos plexos coroides."
-    },
-    {
-     "letra": "C",
-     "texto": "Circula do quarto ventrículo para os ventrículos laterais."
-    },
-    {
-     "letra": "D",
-     "texto": "É produzido principalmente pelos plexos coroides dos ventrículos, circula dos ventrículos laterais ao terceiro e ao quarto ventrículo e ao espaço subaracnoide, sendo absorvido pelas granulações aracnóideas nos seios venosos."
-    },
-    {
-     "letra": "E",
-     "texto": "O aqueduto cerebral liga os ventrículos laterais ao terceiro ventrículo."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "O aqueduto de Sylvius liga o 3º ao 4º ventrículo; sua obstrução causa hidrocefalia **não comunicante** (dilatação dos laterais e do 3º)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-03",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "HIC · sinais clínicos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · hipertensão intracraniana (manifestações)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as manifestações da hipertensão intracraniana, assinale a alternativa INCORRETA (0,5 ponto):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A tríade de Cushing é composta por taquicardia, hipotensão arterial e respiração regular."
-    },
-    {
-     "letra": "B",
-     "texto": "A cefaleia tende a piorar pela manhã e com manobras que aumentam a pressão intratorácica."
-    },
-    {
-     "letra": "C",
-     "texto": "A paralisia do VI par é comum e não tem valor localizatório."
-    },
-    {
-     "letra": "D",
-     "texto": "Os vômitos podem ocorrer em jato, sem náusea prévia."
-    },
-    {
-     "letra": "E",
-     "texto": "O papiledema resulta da transmissão da pressão ao espaço subaracnoide da bainha do nervo óptico."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Tríade de Cushing: **hipertensão** arterial, **bradicardia** e respiração irregular (resposta à isquemia do tronco)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-04",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "herniação uncal",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · herniações",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a herniação transtentorial (uncal), assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O giro do cíngulo passa sob a foice, comprimindo a artéria basilar."
-    },
-    {
-     "letra": "B",
-     "texto": "O úncus do lobo temporal desloca-se sob a borda livre do tentório, comprimindo o nervo oculomotor (midríase ipsilateral), a artéria cerebral posterior e o mesencéfalo, podendo causar hemorragias de Duret no tronco."
-    },
-    {
-     "letra": "C",
-     "texto": "Não tem relação com hematomas supratentoriais."
-    },
-    {
-     "letra": "D",
-     "texto": "Causa miose bilateral precoce por compressão do simpático."
-    },
-    {
-     "letra": "E",
-     "texto": "As tonsilas cerebelares herniam pelo forame magno sem compressão do bulbo."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "A compressão do pedúnculo cerebral contralateral contra o tentório pode causar hemiparesia ipsilateral à lesão (falso sinal localizatório — fenômeno de Kernohan)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-05",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "traumatismo · fraturas",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · trauma (fraturas cranianas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as fraturas cranianas, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A fratura com afundamento é aquela em que o osso se desloca para dentro da cavidade craniana por distância maior que sua espessura.\nII. As fraturas da base do crânio podem causar fístula liquórica, com rinorreia ou otorreia.\nIII. A equimose retroauricular (sinal de Battle) e a periorbitária (\"olhos de guaxinim\") sugerem fratura da base do crânio.\nIV. A fratura temporal não tem relação com o hematoma epidural.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, II e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I, II, III e IV."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I e II, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, apenas."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "A fratura temporal pode lacerar a **artéria meníngea média** → hematoma epidural."
-  },
-  {
-   "id": "FISIO-PF-SNC4-06",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "lesão medular · choque",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · trauma raquimedular",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com trauma raquimedular cervical apresenta, nas primeiras horas, paralisia flácida, arreflexia, hipotensão com bradicardia e pele quente. Sobre o quadro, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O choque neurogênico decorre de perda sanguínea pela fratura."
-    },
-    {
-     "letra": "B",
-     "texto": "A bradicardia indica choque hipovolêmico."
-    },
-    {
-     "letra": "C",
-     "texto": "O choque medular explica a flacidez e a arreflexia iniciais, e a perda do tônus simpático (lesão acima de T6) causa choque neurogênico com hipotensão e bradicardia."
-    },
-    {
-     "letra": "D",
-     "texto": "A pele quente exclui lesão medular."
-    },
-    {
-     "letra": "E",
-     "texto": "A espasticidade e a hiper-reflexia são imediatas após a lesão."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Semanas depois surgem espasticidade, hiper-reflexia e Babinski abaixo da lesão; disreflexia autonômica em lesões altas."
-  },
-  {
-   "id": "FISIO-PF-SNC4-07",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "abscesso · vias",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (vias de acesso ao SNC)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "As principais vias pelas quais os agentes infecciosos atingem o sistema nervoso central são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Exclusivamente pela via linfática."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas por implantação cirúrgica."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas por contiguidade com o pulmão."
-    },
-    {
-     "letra": "D",
-     "texto": "Hematogênica (a mais comum), implantação direta (trauma, procedimentos), extensão local (seios paranasais, ouvido, dentes) e transporte axonal retrógrado (raiva, herpes)."
-    },
-    {
-     "letra": "E",
-     "texto": "Por difusão através da barreira hematoencefálica íntegra, sem lesão."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "O herpes simples e a raiva usam o transporte axonal retrógrado pelos nervos periféricos."
-  },
-  {
-   "id": "FISIO-PF-SNC4-08",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "raiva",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções virais (raiva)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a raiva, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É transmitida por via respiratória entre humanos."
-    },
-    {
-     "letra": "B",
-     "texto": "Causa meningite bacteriana purulenta."
-    },
-    {
-     "letra": "C",
-     "texto": "Os corpúsculos de Negri são típicos do Alzheimer."
-    },
-    {
-     "letra": "D",
-     "texto": "O período de incubação é sempre de poucas horas."
-    },
-    {
-     "letra": "E",
-     "texto": "O vírus penetra pela mordedura de animal infectado, ascende pelos nervos periféricos por transporte axonal até o SNC e causa encefalite com corpúsculos de Negri; uma vez sintomática, é quase sempre fatal."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Período de incubação variável (depende da distância da mordedura ao SNC); profilaxia pós-exposição eficaz antes dos sintomas."
-  },
-  {
-   "id": "FISIO-PF-SNC4-09",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "neurossífilis",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (sífilis terciária)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a neurossífilis, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Na tabes dorsalis há degeneração dos cordões posteriores e das raízes dorsais, com ataxia sensitiva, Romberg positivo, dores lancinantes e pupilas de Argyll-Robertson."
-    },
-    {
-     "letra": "B",
-     "texto": "Causa ataxia cerebelar com Romberg negativo."
-    },
-    {
-     "letra": "C",
-     "texto": "Não tem relação com demência."
-    },
-    {
-     "letra": "D",
-     "texto": "Acomete exclusivamente os nervos periféricos."
-    },
-    {
-     "letra": "E",
-     "texto": "A pupila de Argyll-Robertson reage à luz, mas não à acomodação."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Paresia geral (demência progressiva) é outra forma de neurossífilis parenquimatosa."
-  },
-  {
-   "id": "FISIO-PF-SNC4-10",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "HIV · SNC",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções (HIV e SNC)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre o acometimento do sistema nervoso central pelo HIV, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O HIV infecta micróglia e macrófagos do SNC e pode causar demência associada ao HIV."
-    },
-    {
-     "letra": "B",
-     "texto": "O HIV não atravessa a barreira hematoencefálica e nunca causa doença neurológica primária."
-    },
-    {
-     "letra": "C",
-     "texto": "A imunossupressão favorece neurotoxoplasmose, criptococose e linfoma primário do SNC."
-    },
-    {
-     "letra": "D",
-     "texto": "Meningite asséptica pode ocorrer na infecção aguda pelo HIV."
-    },
-    {
-     "letra": "E",
-     "texto": "A leucoencefalopatia multifocal progressiva é causada pelo vírus JC em imunossuprimidos."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "O HIV é neurotrópico, entra no SNC por monócitos infectados."
-  },
-  {
-   "id": "FISIO-PF-SNC4-11",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "demência vascular",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · demências (vascular)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a demência vascular, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Resulta de múltiplos infartos (corticais ou lacunares) ou de doença de pequenos vasos da substância branca, com evolução frequentemente em degraus, sinais focais e fatores de risco cardiovasculares."
-    },
-    {
-     "letra": "B",
-     "texto": "Evolui sempre de forma lenta e linear, sem sinais focais."
-    },
-    {
-     "letra": "C",
-     "texto": "É a doença de Huntington com AVC associado."
-    },
-    {
-     "letra": "D",
-     "texto": "É causada por placas de β-amiloide sem lesão vascular."
-    },
-    {
-     "letra": "E",
-     "texto": "Não tem relação com hipertensão arterial."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "É a segunda causa mais comum de demência; frequentemente coexiste com Alzheimer (demência mista)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-12",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "hidrocefalia de pressão normal",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · hidrocefalia",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idoso com distúrbio de marcha (passos curtos, \"magnética\"), incontinência urinária e declínio cognitivo, com ventrículos dilatados na imagem e pressão liquórica normal à punção. A hipótese é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Doença de Alzheimer avançada."
-    },
-    {
-     "letra": "B",
-     "texto": "Hidrocefalia de pressão normal, uma causa potencialmente reversível de demência."
-    },
-    {
-     "letra": "C",
-     "texto": "Esclerose lateral amiotrófica."
-    },
-    {
-     "letra": "D",
-     "texto": "Hidrocefalia ex vacuo por atrofia."
-    },
-    {
-     "letra": "E",
-     "texto": "Meningite bacteriana."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Tríade de Hakim: marcha, incontinência e demência. Pode melhorar com derivação ventricular."
-  },
-  {
-   "id": "FISIO-PF-SNC4-13",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "Parkinson · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença de Parkinson",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a doença de Parkinson, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Os sintomas surgem quando grande parte dos neurônios nigrais já foi perdida."
-    },
-    {
-     "letra": "B",
-     "texto": "A bradicinesia, a rigidez e o tremor de repouso compõem a tríade motora clássica."
-    },
-    {
-     "letra": "C",
-     "texto": "Sintomas não motores, como constipação, hiposmia e distúrbio do sono REM, podem preceder os motores."
-    },
-    {
-     "letra": "D",
-     "texto": "O tremor característico é de intenção, piorando à medida que a mão se aproxima do alvo."
-    },
-    {
-     "letra": "E",
-     "texto": "Há perda de neurônios dopaminérgicos da substância negra."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Tremor de intenção é **cerebelar**; no Parkinson é de **repouso** (\"contar moedas\")."
-  },
-  {
-   "id": "FISIO-PF-SNC4-14",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "ELA · mecanismos",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença do neurônio motor",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na esclerose lateral amiotrófica, a perda dos neurônios motores do corno anterior da medula explica:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Hiper-reflexia e sinal de Babinski."
-    },
-    {
-     "letra": "B",
-     "texto": "Perda da sensibilidade vibratória."
-    },
-    {
-     "letra": "C",
-     "texto": "Demência com placas amiloides."
-    },
-    {
-     "letra": "D",
-     "texto": "Incontinência urinária precoce."
-    },
-    {
-     "letra": "E",
-     "texto": "Atrofia muscular, fasciculações e fraqueza de padrão neurônio motor inferior."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "O componente NMS (perda das células de Betz e dos tratos corticoespinhais) causa espasticidade, hiper-reflexia e Babinski."
-  },
-  {
-   "id": "FISIO-PF-SNC4-15",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "neurodegenerativas · associações",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças neurodegenerativas (inclusões)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Assinale a alternativa que contém todas as associações corretas entre doença e inclusão/proteína característica:\n\nI. Doença de Alzheimer — placas de β-amiloide e emaranhados de tau.\nII. Doença de Parkinson — corpúsculos de Lewy (α-sinucleína).\nIII. Doença de Huntington — expansão de poliglutamina na huntingtina, com perda do estriado.\nIV. Esclerose lateral amiotrófica — corpúsculos de Negri.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I e III, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "II e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Corpúsculos de Negri = **raiva**. Na ELA há inclusões ubiquitinadas (TDP-43)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-16",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "epilepsia · fisiopatologia",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · epilepsias (Silbernagl)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a fisiopatologia das crises epilépticas, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "São sempre de causa psiquiátrica."
-    },
-    {
-     "letra": "B",
-     "texto": "Decorrem do excesso de GABA no córtex."
-    },
-    {
-     "letra": "C",
-     "texto": "A hipoglicemia protege contra crises."
-    },
-    {
-     "letra": "D",
-     "texto": "Resultam de descargas neuronais anormais, excessivas e sincrônicas, por desequilíbrio entre excitação (glutamato) e inibição (GABA); causas incluem cicatrizes corticais, tumores, distúrbios metabólicos (hipoglicemia, hiponatremia) e predisposição genética."
-    },
-    {
-     "letra": "E",
-     "texto": "Não há relação com lesões estruturais do córtex."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Estado de mal epiléptico: crise prolongada (> 5 min) ou recorrente sem recuperação — emergência pela lesão neuronal excitotóxica."
-  },
-  {
-   "id": "FISIO-PF-SNC4-17",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "tumores · manifestações",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · neoplasias do SNC (efeitos)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as manifestações dos tumores do sistema nervoso central, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Todos os tumores do SNC causam febre alta."
-    },
-    {
-     "letra": "B",
-     "texto": "Os gliomas metastatizam com frequência para os pulmões."
-    },
-    {
-     "letra": "C",
-     "texto": "Mesmo tumores histologicamente benignos podem ser fatais pela localização e pelo efeito de massa, causando hipertensão intracraniana, herniação, crises epilépticas e déficits focais."
-    },
-    {
-     "letra": "D",
-     "texto": "Tumores benignos nunca causam sintomas graves."
-    },
-    {
-     "letra": "E",
-     "texto": "O meningioma é tumor maligno do parênquima."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Local de origem e invasividade importam mais que a histologia; gliomas infiltram difusamente o parênquima."
-  },
-  {
-   "id": "FISIO-PF-SNC4-18",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "Wernicke-Korsakoff",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças tóxicas e metabólicas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Etilista desnutrido apresenta confusão, oftalmoplegia (nistagmo, paralisia do VI) e ataxia de marcha. A causa e o tratamento são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Encefalopatia de Wernicke por deficiência de tiamina (vitamina B1), com lesão dos corpos mamilares e região periaquedutal; tratamento com tiamina parenteral antes da glicose."
-    },
-    {
-     "letra": "B",
-     "texto": "Deficiência de B12 com degeneração combinada."
-    },
-    {
-     "letra": "C",
-     "texto": "Hipoglicemia simples."
-    },
-    {
-     "letra": "D",
-     "texto": "Hematoma subdural crônico, tratado só com cirurgia."
-    },
-    {
-     "letra": "E",
-     "texto": "Intoxicação por metanol."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Sem tratamento pode evoluir para síndrome de Korsakoff (amnésia anterógrada, confabulação)."
-  },
-  {
-   "id": "FISIO-PF-SNC4-19",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "encefalopatia hepática · SNC",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · encefalopatias metabólicas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre a encefalopatia hepática, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "É causada por placas amiloides."
-    },
-    {
-     "letra": "B",
-     "texto": "A amônia e outras neurotoxinas não depuradas pelo fígado alteram a neurotransmissão e o metabolismo dos astrócitos (que detoxificam amônia formando glutamina), causando confusão, asterix e coma."
-    },
-    {
-     "letra": "C",
-     "texto": "Não há alterações de consciência."
-    },
-    {
-     "letra": "D",
-     "texto": "A amônia é depurada pelos rins, sem participação hepática."
-    },
-    {
-     "letra": "E",
-     "texto": "É uma meningite infecciosa."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Precipitantes: hemorragia digestiva, infecções, constipação, diuréticos, distúrbios eletrolíticos, sedativos."
-  },
-  {
-   "id": "FISIO-PF-SNC4-20",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "desmielinização osmótica",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · distúrbios eletrolíticos e SNC",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com hiponatremia grave crônica teve o sódio corrigido muito rapidamente e, dias depois, desenvolveu tetraparesia, disartria e disfagia. O mecanismo provável é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Edema citotóxico por isquemia."
-    },
-    {
-     "letra": "B",
-     "texto": "Meningite viral."
-    },
-    {
-     "letra": "C",
-     "texto": "Esclerose múltipla de início tardio."
-    },
-    {
-     "letra": "D",
-     "texto": "Hemorragia subaracnóidea."
-    },
-    {
-     "letra": "E",
-     "texto": "Síndrome de desmielinização osmótica (mielinólise pontina central), pela correção rápida da hiponatremia crônica."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Por isso a hiponatremia crônica deve ser corrigida lentamente; já o edema cerebral é o risco da hiponatremia aguda."
-  },
-  {
-   "id": "FISIO-PF-SNC4-21",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "AVE · ACP",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doença cerebrovascular (territórios)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente com AVC isquêmico apresenta hemianopsia homônima esquerda isolada, sem déficit motor. O território vascular mais provável é o da artéria:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Espinhal anterior."
-    },
-    {
-     "letra": "B",
-     "texto": "Cerebral anterior direita."
-    },
-    {
-     "letra": "C",
-     "texto": "Cerebral média esquerda."
-    },
-    {
-     "letra": "D",
-     "texto": "Carótida externa."
-    },
-    {
-     "letra": "E",
-     "texto": "Cerebral posterior direita (córtex occipital)."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "ACP: córtex visual occipital, tálamo. ACM: face e braço, afasia/negligência. ACA: membro inferior."
-  },
-  {
-   "id": "FISIO-PF-SNC4-22",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "meningoencefalites · causas",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · infecções do SNC",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Descreva as principais causas de meningoencefalites, agrupando-as por tipo de agente, e cite o achado liquórico típico de cada grupo.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "- **Bacterianas agudas (piogênicas)**: pneumococo, meningococo, Haemophilus, Listeria, estreptococo do grupo B, E. coli. Líquor turvo, **neutrófilos**, proteína muito ↑, **glicose ↓**.\n- **Virais (assépticas/encefalites)**: enterovírus (meningite), herpes simples tipo 1 (encefalite temporal hemorrágica), arbovírus, HIV, raiva, CMV. Líquor claro, **linfócitos**, proteína normal ou levemente ↑, **glicose normal**.\n- **Bacterianas crônicas**: tuberculose (exsudato basal, nervos cranianos, hidrocefalia), sífilis (tabes, paresia geral). Líquor com **linfócitos**, proteína muito ↑, glicose ↓ (TB).\n- **Fúngicas**: criptococo (imunossuprimidos, HIV). Líquor linfocítico, glicose ↓, tinta da China/antígeno.\n- **Parasitárias**: neurotoxoplasmose (HIV), neurocisticercose (crises epilépticas; calcificações).\n- **Príons**: doença de Creutzfeldt-Jakob (demência rápida, mioclonias).",
-   "comentario": null
-  },
-  {
-   "id": "FISIO-PF-SNC4-23",
-   "materia": "Fisiopatologia (SOP IV)",
-   "prova": "PR2",
-   "tema": "Fisio do sistema nervoso",
-   "subtema": "Parkinson × Huntington",
-   "origem": "inédita",
-   "fonte": "Robbins & Cotran, Patologia, cap. Sistema Nervoso Central · Silbernagl, Fisiopatologia: texto e atlas (sistema nervoso) · resumo FISIOPATOLOGIA - PR2 (Prof. Fernando Vanraj) · doenças dos núcleos da base",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Compare a doença de Parkinson e a doença de Huntington quanto à região acometida, ao mecanismo e ao quadro clínico.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "| | Parkinson | Huntington |\n|---|---|---|\n| Região | **Substância negra** (parte compacta), via nigroestriatal | **Estriado** (núcleo caudado e putâmen), com atrofia do caudado |\n| Mecanismo | Perda de neurônios **dopaminérgicos**; corpúsculos de Lewy (α-sinucleína) | **Expansão de repetições CAG** no gene da huntingtina (cromossomo 4), autossômica dominante, com antecipação |\n| Efeito no circuito | Falta de dopamina → excesso de inibição do movimento | Perda dos neurônios GABAérgicos estriatais → excesso de movimento |\n| Quadro | **Hipocinético**: bradicinesia, rigidez em roda denteada, tremor de repouso, instabilidade postural | **Hipercinético**: **coreia**, distúrbios psiquiátricos e demência |\n| Idade | Geralmente > 60 anos | 30–50 anos |",
-   "comentario": null
-  }
- ]
+  ]
 }

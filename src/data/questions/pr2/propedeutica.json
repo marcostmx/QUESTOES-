@@ -227,7 +227,7 @@
       "Linha xifoumbilical e linha umbilicopúbica; linhas axilares anteriores.",
       "Linhas bicostal (subcostal) e bi-ilíaca (intertubercular); linhas hemiclaviculares direita e esquerda.",
       "Linha que passa pelo umbigo e linha mediana; linhas axilares médias.",
-      "Linhas hemiclaviculares; linhas bicostal e bi-ilíaca.",
+      "Linhas hemiclaviculares; linha xifoumbilical e linha umbilicopúbica.",
       "Linha transpilórica e linha umbilical; linha média."
     ],
     "answerIndex": 1,
@@ -272,14 +272,14 @@
     "subtopic": "cicatriz umbilical",
     "stem": "À inspeção de um cirrótico, a cicatriz umbilical está protrusa e evertida, e há abaulamento que aumenta com a tosse. Esse achado sugere:",
     "options": [
-      "Hérnia umbilical associada ao aumento da pressão intra-abdominal pela ascite.",
+      "Hérnia umbilical pela ascite.",
       "Diástase dos retos sem significado.",
       "Cicatriz umbilical normal.",
       "Sinal de Cullen.",
       "Onfalite bacteriana."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCicatriz normal: plana ou levemente retraída. Protrusa: hérnia, ascite volumosa ou gravidez. Onfalite: infecção com secreção (mais em crianças).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Hérnia umbilical associada ao aumento da pressão intra-abdominal pela ascite.\n\nCicatriz normal: plana ou levemente retraída. Protrusa: hérnia, ascite volumosa ou gravidez. Onfalite: infecção com secreção (mais em crianças).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · inspeção (cicatriz umbilical)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-03"
@@ -474,14 +474,14 @@
     "subtopic": "ascite · pequeno volume",
     "stem": "Suspeita-se de ascite de pequeno volume (menos de 500 mL) num paciente com hepatopatia inicial. Sobre a sua pesquisa, assinale a correta:",
     "options": [
-      "O exame físico é pouco sensível nesse volume; pode-se tentar a percussão periumbilical em posição genupeitoral ou o piparote no baixo ventre com o paciente de pé, mas o método ideal é o ultrassom.",
+      "O exame físico é pouco sensível nesse volume.",
       "A macicez móvel detecta com facilidade volumes abaixo de 100 mL.",
       "Os semicírculos de Skoda são característicos da ascite pequena.",
       "A ascite pequena causa abdome em ventre de batráquio.",
       "O sinal do piparote em decúbito dorsal é o mais sensível para volumes pequenos."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nAscite \"1-5-0,5\": piparote > 1,5 L; macicez móvel + Skoda = média; < 500 mL = ultrassom.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** O exame físico é pouco sensível nesse volume; pode-se tentar a percussão periumbilical em posição genupeitoral ou o piparote no baixo ventre com o paciente de pé, mas o método ideal é o ultrassom.\n\nAscite \"1-5-0,5\": piparote > 1,5 L; macicez móvel + Skoda = média; < 500 mL = ultrassom.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · percussão (pesquisa de ascite por volume)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-12"
@@ -518,14 +518,14 @@
     "subtopic": "palpação · ordem",
     "stem": "Paciente com dor intensa na fossa ilíaca direita. Sobre a técnica da palpação abdominal, assinale a correta:",
     "options": [
-      "Palpar as nove regiões com a mão espalmada, começando longe da área dolorosa e deixando a região da dor por último, comparando regiões homólogas.",
+      "Palpar as nove regiões com a mão espalmada.",
       "Fazer a palpação profunda antes da superficial.",
       "Palpar com o paciente sentado, com as pernas estendidas.",
       "Palpar com a ponta dos dedos em movimentos bruscos, para vencer a defesa.",
       "Começar pela área dolorosa, para não perder o diagnóstico."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nDecúbito dorsal, examinador à direita, mão espalmada, superficial antes da profunda, sentido horário, região dolorosa por último.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Palpar as nove regiões com a mão espalmada, começando longe da área dolorosa e deixando a região da dor por último, comparando regiões homólogas.\n\nDecúbito dorsal, examinador à direita, mão espalmada, superficial antes da profunda, sentido horário, região dolorosa por último.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação superficial (técnica da aula)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-14"
@@ -543,11 +543,11 @@
       "Contratura voluntária por ansiedade.",
       "Ventre de batráquio.",
       "Hérnia incisional.",
-      "Abdome em tábua, sinal de peritonite difusa (como na úlcera perfurada).",
+      "Abdome em tábua (peritonite difusa).",
       "Diástase dos retos."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nDefesa (contratura involuntária) = reflexo visceromotor do peritônio inflamado; localizada ou generalizada (tábua). Não cede com distração.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Abdome em tábua, sinal de peritonite difusa (como na úlcera perfurada).\n\nDefesa (contratura involuntária) = reflexo visceromotor do peritônio inflamado; localizada ou generalizada (tábua). Não cede com distração.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação (contratura voluntária × involuntária)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-15"
@@ -563,13 +563,13 @@
     "stem": "Na técnica de palpação hepática de Lemos-Torres:",
     "options": [
       "A borda hepática é percutida com o punho fechado.",
-      "A mão esquerda do examinador, na região lombar direita, empurra o fígado para a frente, enquanto a mão direita palpa a borda hepática na inspiração profunda.",
+      "A mão esquerda do examinador, na região lombar direita, empurra o fígado para a frente.",
       "O paciente fica em decúbito lateral direito com a coxa esquerda fletida.",
       "O examinador, voltado para os pés do paciente, coloca as mãos em garra sob o rebordo costal.",
       "O fígado é palpado pelo rechaço, com impulsos rápidos dos dedos."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nLemos-Torres: mão E na região lombar D anteriorizando o fígado. Mathieu: mãos em garra, examinador voltado para os pés. Schuster: baço. Rechaço: ascite volumosa.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A mão esquerda do examinador, na região lombar direita, empurra o fígado para a frente, enquanto a mão direita palpa a borda hepática na inspiração profunda.\n\nLemos-Torres: mão E na região lombar D anteriorizando o fígado. Mathieu: mãos em garra, examinador voltado para os pés. Schuster: baço. Rechaço: ascite volumosa.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação do fígado (técnicas)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-16"
@@ -609,11 +609,11 @@
       "Comprime a fossa ilíaca esquerda e observa dor na direita.",
       "Descomprime bruscamente o ponto de McBurney.",
       "Percute a região lombar com o punho fechado.",
-      "Comprime o ponto cístico (ângulo entre o rebordo costal direito e a borda externa do reto abdominal) e pede inspiração profunda, observando se a dor interrompe a inspiração.",
+      "Comprime o ponto cístico durante inspiração profunda.",
       "Palpa a vesícula indolor em paciente ictérico."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMurphy positivo: colecistite aguda (a vesícula inflamada desce na inspiração e encontra o dedo).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Comprime o ponto cístico (ângulo entre o rebordo costal direito e a borda externa do reto abdominal) e pede inspiração profunda, observando se a dor interrompe a inspiração.\n\nMurphy positivo: colecistite aguda (a vesícula inflamada desce na inspiração e encontra o dedo).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação da vesícula (Murphy)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-18"
@@ -632,10 +632,10 @@
       "Decúbito ventral, com os braços ao longo do corpo.",
       "Ortostatismo, inclinado para a frente.",
       "Decúbito lateral esquerdo, com a coxa direita fletida.",
-      "Decúbito lateral direito, com a perna direita estendida, a coxa esquerda fletida a 90° e o braço esquerdo elevado sobre a cabeça."
+      "Decúbito lateral direito, com a perna direita estendida."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nO baço normal não é palpável; só se palpa quando praticamente dobra de tamanho. Sempre percutir o espaço de Traube.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Decúbito lateral direito, com a perna direita estendida, a coxa esquerda fletida a 90° e o braço esquerdo elevado sobre a cabeça.\n\nO baço normal não é palpável; só se palpa quando praticamente dobra de tamanho. Sempre percutir o espaço de Traube.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação do baço (posição de Schuster)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-19"
@@ -678,12 +678,12 @@
     "options": [
       "A palpação renal é feita com o paciente em pé.",
       "A técnica é a mesma da posição de Schuster.",
-      "O polo inferior do rim direito pode ser palpável em mulheres magras e não significa doença.",
+      "O polo inferior do rim direito, sem significado patológico.",
       "Rim palpável é sempre sinal de tumor renal.",
       "O rim esquerdo é mais facilmente palpável que o direito."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nPalpação bimanual (\"captura do rim\") e choque lomboabdominal. Rins palpáveis patologicamente: nefroptose, tumor, hidronefrose, rins policísticos.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** O polo inferior do rim direito pode ser palpável em mulheres magras e não significa doença.\n\nPalpação bimanual (\"captura do rim\") e choque lomboabdominal. Rins palpáveis patologicamente: nefroptose, tumor, hidronefrose, rins policísticos.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · palpação dos rins (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-21"
@@ -742,14 +742,14 @@
     "subtopic": "úlcera perfurada · caso",
     "stem": "Homem de 52 anos com história de dispepsia e uso frequente de anti-inflamatórios apresenta dor epigástrica súbita, intensíssima, \"em punhalada\", que se generaliza e irradia para os ombros. Está imóvel, com abdome em tábua. O sinal de percussão que reforça o diagnóstico é:",
     "options": [
-      "Sinal de Jobert (timpanismo na loja hepática), por pneumoperitônio.",
+      "Sinal de Jobert (timpanismo na loja hepática).",
       "Sinal de Courvoisier.",
       "Sinal de Giordano.",
       "Sinal de Murphy.",
       "Sinal de Cullen."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nÚlcera perfurada: dor súbita em punhalada, abdome em tábua, Jobert (ar livre sob o diafragma). Dor no ombro: irritação diafragmática.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Sinal de Jobert (timpanismo na loja hepática), por pneumoperitônio.\n\nÚlcera perfurada: dor súbita em punhalada, abdome em tábua, Jobert (ar livre sob o diafragma). Dor no ombro: irritação diafragmática.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (Porto: úlcera perfurada) e Nas provas",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-24"
@@ -768,10 +768,10 @@
       "A vesícula palpável e indolor é o achado esperado na colecistite aguda.",
       "O quadro sugere neoplasia da cabeça do pâncreas.",
       "O sinal descrito é o de Courvoisier-Terrier, típico da colecistite.",
-      "O quadro é de colecistite aguda por cálculo no ducto cístico; o colédoco livre explica a ausência de icterícia, e a vesícula dolorosa exclui o sinal de Courvoisier."
+      "O quadro é de colecistite aguda por cálculo no ducto cístico."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nCourvoisier = vesícula palpável **indolor** + icterícia (neoplasia periampular). Na colecistite a vesícula é dolorosa (Murphy).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** O quadro é de colecistite aguda por cálculo no ducto cístico; o colédoco livre explica a ausência de icterícia, e a vesícula dolorosa exclui o sinal de Courvoisier.\n\nCourvoisier = vesícula palpável **indolor** + icterícia (neoplasia periampular). Na colecistite a vesícula é dolorosa (Murphy).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (vesícula) e Complemento (Courvoisier: quando não aparece)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-25"
@@ -809,13 +809,13 @@
     "stem": "Sobre a peritonite aguda difusa, assinale a alternativa CORRETA:",
     "options": [
       "O paciente costuma se movimentar muito no leito para aliviar a dor.",
-      "A defesa abdominal (contratura involuntária) é o sinal mais precoce, seguro e constante; associam-se Blumberg, distensão progressiva até íleo paralítico, taquicardia e fácies de sofrimento.",
+      "A defesa abdominal (contratura involuntária).",
       "A febre afasta o diagnóstico de peritonite.",
       "A defesa abdominal desaparece com a distração do paciente.",
       "Os ruídos hidroaéreos estão sempre aumentados e metálicos."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nNa peritonite o paciente fica imóvel (o movimento piora a dor); na cólica (biliar, renal) ele se agita. RHA diminuídos/ausentes (íleo).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** A defesa abdominal (contratura involuntária) é o sinal mais precoce, seguro e constante; associam-se Blumberg, distensão progressiva até íleo paralítico, taquicardia e fácies de sofrimento.\n\nNa peritonite o paciente fica imóvel (o movimento piora a dor); na cólica (biliar, renal) ele se agita. RHA diminuídos/ausentes (íleo).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · síndromes (Porto: peritonite aguda difusa)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-27"
@@ -853,13 +853,13 @@
     "stem": "Idoso acamado, com constipação, passa a apresentar perda de fezes líquidas constante e confusão mental. O abdome está distendido, timpânico e flácido, sem defesa; palpa-se massa endurecida no quadrante inferior esquerdo. O exame que confirma a principal hipótese é:",
     "options": [
       "Ausculta dos focos renais.",
-      "Toque retal, que encontra a ampola retal com fezes endurecidas (fecaloma), explicando a diarreia paradoxal.",
+      "Toque retal (fecaloma).",
       "Pesquisa do sinal de Murphy.",
       "Hepatimetria.",
       "Ultrassom de vesícula biliar."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nNo idoso o fecaloma pode se apresentar apenas como diarreia paradoxal (por transbordamento), incontinência ou confusão. O toque retal faz o diagnóstico.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Toque retal, que encontra a ampola retal com fezes endurecidas (fecaloma), explicando a diarreia paradoxal.\n\nNo idoso o fecaloma pode se apresentar apenas como diarreia paradoxal (por transbordamento), incontinência ou confusão. O toque retal faz o diagnóstico.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 (Exame do abdome) · SOP IV Guia PR2 seção 03 (aula Prof. Epaminondas) · plano item 5.3 · exame do abdome no idoso (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD2-29"
@@ -990,14 +990,14 @@
     "subtopic": "hérnias · exame",
     "stem": "Homem de 50 anos refere abaulamento na região inguinal direita que aparece ao tossir e ao fazer esforço e desaparece ao deitar. Sobre o exame, assinale a correta:",
     "options": [
-      "Deve-se examinar com o paciente em pé e deitado, pedindo tosse ou manobra de Valsalva, que aumenta a pressão abdominal e evidencia a hérnia; a redutibilidade e a dor devem ser registradas.",
+      "Deve-se examinar com o paciente em pé e deitado, pedindo tosse ou manobra de Valsalva.",
       "A hérnia inguinal nunca se estende para a bolsa escrotal.",
       "Hérnia redutível e indolor é emergência cirúrgica.",
       "O exame deve ser feito apenas em decúbito dorsal, sem esforço.",
       "A manobra de Smith-Bates é a escolha para evidenciar hérnias inguinais."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nValsalva/tosse = hérnia; Smith-Bates = diástase. Hérnia dolorosa, irredutível, com sinais de obstrução = encarcerada/estrangulada (emergência).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Deve-se examinar com o paciente em pé e deitado, pedindo tosse ou manobra de Valsalva, que aumenta a pressão abdominal e evidencia a hérnia; a redutibilidade e a dor devem ser registradas.\n\nValsalva/tosse = hérnia; Smith-Bates = diástase. Hérnia dolorosa, irredutível, com sinais de obstrução = encarcerada/estrangulada (emergência).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · inspeção dinâmica (Valsalva) e palpação (continuidade da parede)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-05"
@@ -1035,13 +1035,13 @@
     "stem": "Paciente com esquistossomose hepatoesplênica apresenta, à palpação, fígado aumentado à custa principalmente do lobo esquerdo, endurecido, de borda romba e indolor, com grande esplenomegalia. Sobre o quadro, assinale a correta:",
     "options": [
       "O achado é normal em pacientes magros.",
-      "O padrão é típico da forma hepatoesplênica da esquistossomose, com fibrose periportal e hipertensão portal pré-sinusoidal.",
+      "O padrão é típico da forma hepatoesplênica da esquistossomose.",
       "Trata-se de hepatite viral aguda, com fígado mole e doloroso.",
       "A esteatose explica o baço volumoso.",
       "O fígado doloroso e liso é o achado esperado."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nEsquistossomose: hepatomegalia com predomínio do lobo E, endurecida, indolor; grande esplenomegalia; varizes e hematêmese com função hepática relativamente preservada.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** O padrão é típico da forma hepatoesplênica da esquistossomose, com fibrose periportal e hipertensão portal pré-sinusoidal.\n\nEsquistossomose: hepatomegalia com predomínio do lobo E, endurecida, indolor; grande esplenomegalia; varizes e hematêmese com função hepática relativamente preservada.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · fígado (Quadro 17.1)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-07"
@@ -1080,12 +1080,12 @@
     "options": [
       "Hérnia redutível da parede.",
       "Baço normal palpável.",
-      "Origem retroperitoneal (como rim, pâncreas, linfonodos retroperitoneais ou aorta).",
+      "Origem retroperitoneal.",
       "Origem intraperitoneal com mesentério longo.",
       "Fecaloma no cólon transverso, sempre móvel."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nMobilidade (Porto): intraperitoneais móveis (pedículo = grande mobilidade); retroperitoneais fixas; aderências fixam. Fígado, baço e rins descem na inspiração.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Origem retroperitoneal (como rim, pâncreas, linfonodos retroperitoneais ou aorta).\n\nMobilidade (Porto): intraperitoneais móveis (pedículo = grande mobilidade); retroperitoneais fixas; aderências fixam. Fígado, baço e rins descem na inspiração.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · palpação profunda (massas: mobilidade)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-09"
@@ -1104,10 +1104,10 @@
       "Sopro venoso.",
       "Pulsação expansiva própria de aneurisma.",
       "Pulsação hepática da insuficiência tricúspide.",
-      "Pulsação transmitida pela aorta subjacente, e não pulsação própria."
+      "Pulsação transmitida pela aorta subjacente."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nPulsação própria (aneurisma): expansiva, em todas as direções. Transmitida: o tumor apenas repousa sobre a aorta.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Pulsação transmitida pela aorta subjacente, e não pulsação própria.\n\nPulsação própria (aneurisma): expansiva, em todas as direções. Transmitida: o tumor apenas repousa sobre a aorta.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · palpação profunda (pulsatilidade)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-10"
@@ -1124,12 +1124,12 @@
     "options": [
       "Porque a vesícula fica retroperitoneal na litíase.",
       "Porque o cálculo dissolve a bile e reduz o volume vesicular.",
-      "Porque episódios repetidos de colecistite crônica deixam a vesícula fibrosada e esclerosada, incapaz de se distender, enquanto na neoplasia a obstrução é progressiva e a vesícula sadia se dilata.",
+      "Porque a vesícula fibrosada pela colecistite crônica não se distende.",
       "Porque a icterícia impede a palpação.",
       "Porque a coledocolitíase não causa obstrução biliar."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nLei de Courvoisier: vesícula palpável e indolor em paciente ictérico → obstrução maligna distal (cabeça do pâncreas, periampular), raramente cálculo.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Porque episódios repetidos de colecistite crônica deixam a vesícula fibrosada e esclerosada, incapaz de se distender, enquanto na neoplasia a obstrução é progressiva e a vesícula sadia se dilata.\n\nLei de Courvoisier: vesícula palpável e indolor em paciente ictérico → obstrução maligna distal (cabeça do pâncreas, periampular), raramente cálculo.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · vesícula (Courvoisier) e Complemento",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-11"
@@ -1147,11 +1147,11 @@
       "Estende passivamente o quadril direito em decúbito lateral esquerdo.",
       "Mede as temperaturas retal e axilar.",
       "Roda internamente a coxa direita fletida.",
-      "Comprime a fossa ilíaca esquerda, deslocando os gases do cólon em direção ao ceco, e observa se surge dor na fossa ilíaca direita.",
+      "Comprime a fossa ilíaca esquerda, deslocando os gases do cólon em direção ao ceco.",
       "Comprime a fossa ilíaca direita e solta bruscamente."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nBlumberg: descompressão brusca. Psoas: extensão do quadril (retrocecal). Obturador: rotação interna (pélvico). Lenander: temperaturas.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Comprime a fossa ilíaca esquerda, deslocando os gases do cólon em direção ao ceco, e observa se surge dor na fossa ilíaca direita.\n\nBlumberg: descompressão brusca. Psoas: extensão do quadril (retrocecal). Obturador: rotação interna (pélvico). Lenander: temperaturas.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · irritação peritoneal (Rovsing)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-12"
@@ -1167,13 +1167,13 @@
     "stem": "Paciente com dor abdominal difusa apresenta dor nitidamente maior à descompressão brusca em todos os quadrantes, com defesa generalizada. A interpretação é:",
     "options": [
       "Apendicite não complicada restrita à FID.",
-      "Irritação peritoneal difusa, compatível com peritonite generalizada.",
+      "Irritação peritoneal difusa.",
       "Contratura voluntária por ansiedade.",
       "Diástase dos retos.",
       "Cólica biliar sem inflamação peritoneal."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nO Blumberg pode ser pesquisado em qualquer ponto; positivo em todo o abdome = peritonite generalizada (perfuração, apendicite perfurada).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Irritação peritoneal difusa, compatível com peritonite generalizada.\n\nO Blumberg pode ser pesquisado em qualquer ponto; positivo em todo o abdome = peritonite generalizada (perfuração, apendicite perfurada).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · irritação peritoneal (Blumberg)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-13"
@@ -1192,10 +1192,10 @@
       "A melena indica sangramento do cólon esquerdo.",
       "RHA aumentados indicam obstrução intestinal associada.",
       "O toque retal está contraindicado na hemorragia digestiva.",
-      "Os sinais de hipovolemia indicam perda volumosa; os RHA aumentados se explicam pelo efeito catártico do sangue no lúmen, e o toque retal pode mostrar melena."
+      "Os sinais de hipovolemia indicam perda volumosa."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNa HDA por varizes do cirrótico procurar estigmas de hepatopatia e hipertensão portal (ascite, esplenomegalia, circulação colateral).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Os sinais de hipovolemia indicam perda volumosa; os RHA aumentados se explicam pelo efeito catártico do sangue no lúmen, e o toque retal pode mostrar melena.\n\nNa HDA por varizes do cirrótico procurar estigmas de hepatopatia e hipertensão portal (ascite, esplenomegalia, circulação colateral).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · síndromes (hemorragia digestiva) e Complemento",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-14"
@@ -1210,14 +1210,14 @@
     "subtopic": "icterícia + abdome · caso",
     "stem": "Mulher de 40 anos com icterícia, colúria e acolia fecal, febre com calafrios e dor no hipocôndrio direito. Ao exame, ictérica, febril, com dor à palpação do hipocôndrio direito. A tríade apresentada sugere:",
     "options": [
-      "Colangite aguda por obstrução do colédoco (tríade de Charcot: febre, icterícia e dor no hipocôndrio direito).",
+      "Colangite aguda (tríade de Charcot).",
       "Abscesso hepático amebiano sem icterícia.",
       "Pancreatite crônica.",
       "Hepatite A aguda não complicada.",
       "Colecistite aguda alitiásica sem obstrução."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCharcot: febre + icterícia + dor no QSD. Pêntade de Reynolds: + confusão mental e hipotensão (colangite grave).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Colangite aguda por obstrução do colédoco (tríade de Charcot: febre, icterícia e dor no hipocôndrio direito).\n\nCharcot: febre + icterícia + dor no QSD. Pêntade de Reynolds: + confusão mental e hipotensão (colangite grave).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · fígado e vesícula (correlação clínica)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-15"
@@ -1232,14 +1232,14 @@
     "subtopic": "exame do idoso",
     "stem": "No exame abdominal do idoso, o Porto recomenda atenção especial a:",
     "options": [
-      "Palpação e ausculta da aorta (aneurisma), palpação suprapúbica (bexiga distendida) e toque retal (próstata, fecaloma, câncer de reto).",
+      "Ausculta e palpação da aorta, palpação suprapúbica e toque retal.",
       "Pesquisa de diástase, que é exclusiva do idoso.",
       "Hepatimetria com valores maiores que no adulto jovem.",
       "Apenas à ausculta dos ruídos hidroaéreos, dispensando a palpação.",
       "Somente à pesquisa do sinal de Murphy."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nNo idoso a resposta inflamatória é menor: abdome agudo com poucos sinais; fecaloma pode se apresentar como diarreia paradoxal ou confusão.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Palpação e ausculta da aorta (aneurisma), palpação suprapúbica (bexiga distendida) e toque retal (próstata, fecaloma, câncer de reto).\n\nNo idoso a resposta inflamatória é menor: abdome agudo com poucos sinais; fecaloma pode se apresentar como diarreia paradoxal ou confusão.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · exame do abdome no idoso (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-16"
@@ -1303,13 +1303,13 @@
     "stem": "Na pesquisa dos semicírculos de Skoda:",
     "options": [
       "Percute-se a região lombar com o punho fechado.",
-      "Percute-se do epigástrio radialmente em direção aos flancos e ao hipogástrio, encontrando timpanismo, submacicez e macicez, que delimitam semicírculos de concavidade voltada para cima (cabeceira a 30–45° na aula).",
+      "Percute-se radialmente do epigástrio para os flancos e o hipogástrio.",
       "Muda-se o paciente de decúbito e observa-se a inversão da macicez.",
       "Dá-se um peteleco num flanco e sente-se a onda líquida no outro.",
       "Comprime-se o hipocôndrio direito e observa-se a jugular."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSkoda e macicez móvel: ascite média. Piparote: grande. Refluxo hepatojugular: congestão venosa.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Percute-se do epigástrio radialmente em direção aos flancos e ao hipogástrio, encontrando timpanismo, submacicez e macicez, que delimitam semicírculos de concavidade voltada para cima (cabeceira a 30–45° na aula).\n\nSkoda e macicez móvel: ascite média. Piparote: grande. Refluxo hepatojugular: congestão venosa.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (Prof. Epaminondas) · plano item 5.3 · ascite (Skoda)",
     "origin": "inedita",
     "ref": "PROPE-PF-ABD3-19"
@@ -1492,12 +1492,12 @@
     "options": [
       "Puncionar o linfonodo imediatamente.",
       "Encaminhar ao hematologista com suspeita de linfoma.",
-      "Considerá-lo reacional, tratar o foco e reavaliar a regressão nas próximas semanas.",
+      "Considerá-lo reacional, tratar o foco e reavaliar.",
       "Solicitar tomografia de tórax e PET-CT para estadiamento.",
       "Internar a paciente e realizar biópsia excisional."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nPequeno, móvel, doloroso e na drenagem do foco = reacional; regride em 2–4 semanas. \"Internar e biopsiar\" foi o item falso da prova. Investiga-se se persistir > 4–6 semanas, crescer, > 2 cm, supraclavicular ou com sintomas B.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Considerá-lo reacional, tratar o foco e reavaliar a regressão nas próximas semanas.\n\nPequeno, móvel, doloroso e na drenagem do foco = reacional; regride em 2–4 semanas. \"Internar e biopsiar\" foi o item falso da prova. Investiga-se se persistir > 4–6 semanas, crescer, > 2 cm, supraclavicular ou com sintomas B.",
     "source": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q4) e caso guiado 2",
     "origin": "inedita",
     "ref": "PROPE-PF-CP-06"
@@ -1515,11 +1515,11 @@
       "Menor que 1 cm, móvel, doloroso e amolecido.",
       "Doloroso, com sinais flogísticos e foco infeccioso próximo.",
       "Móvel, borrachoso e que regride em poucas semanas.",
-      "Mais de 2 cm, endurecido, indolor, aderido aos planos profundos e em crescimento.",
+      "> 2 cm, endurecido, indolor, aderido e em crescimento.",
       "Bilateral, pequeno e simétrico em criança com resfriado."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nSuspeito: \"DUAS + B\" — Duro, Unido aos planos, Acima de 2 cm, Supraclavicular + sintomas B.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Mais de 2 cm, endurecido, indolor, aderido aos planos profundos e em crescimento.\n\nSuspeito: \"DUAS + B\" — Duro, Unido aos planos, Acima de 2 cm, Supraclavicular + sintomas B.",
     "source": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · 11 Linfonodos e Nas provas (Q7)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP-07"
@@ -1565,11 +1565,11 @@
       "Tontura sempre indica doença cerebelar.",
       "Vertigem é a sensação de desmaio iminente.",
       "Tontura e vertigem são sinônimos e não precisam ser diferenciados.",
-      "Tontura é um termo inespecífico que precisa ser caracterizado na história; vertigem é a sensação de movimento rotatório do paciente ou do ambiente.",
+      "Tontura é um termo inespecífico que precisa ser caracterizado na história.",
       "Vertigem é sinônimo de desequilíbrio ao andar."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nSinais e sintomas de atenção: cefaleia, alterações visuais, dor ocular, diplopia, perda auditiva, otalgia, zumbido, tontura × vertigem, epistaxe, odinofagia, rouquidão, aumento de glândulas, bócio.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Tontura é um termo inespecífico que precisa ser caracterizado na história; vertigem é a sensação de movimento rotatório do paciente ou do ambiente.\n\nSinais e sintomas de atenção: cefaleia, alterações visuais, dor ocular, diplopia, perda auditiva, otalgia, zumbido, tontura × vertigem, epistaxe, odinofagia, rouquidão, aumento de glândulas, bócio.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · anamnese dirigida (slide 3)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-01"
@@ -1610,10 +1610,10 @@
       "O tumor benigno mais comum da parótida é o carcinoma mucoepidermoide.",
       "O aumento parotídeo é sempre neoplásico.",
       "A caxumba causa aumento unilateral endurecido e indolor por meses.",
-      "A hipertrofia das parótidas é achado descrito no megaesôfago; entre outras causas de aumento parotídeo estão a caxumba e as neoplasias."
+      "A hipertrofia das parótidas é achado descrito no megaesôfago."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nTumor benigno mais comum da parótida: **adenoma pleomórfico**.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** A hipertrofia das parótidas é achado descrito no megaesôfago; entre outras causas de aumento parotídeo estão a caxumba e as neoplasias.\n\nTumor benigno mais comum da parótida: **adenoma pleomórfico**.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · face (simetria e tumefações)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-03"
@@ -1694,14 +1694,14 @@
     "subtopic": "córnea e esclera",
     "stem": "Jovem com hepatopatia e tremor apresenta anel de coloração castanho-esverdeada na periferia da córnea. Esse achado sugere:",
     "options": [
-      "Anel de Kayser-Fleischer, da doença de Wilson (depósito de cobre).",
+      "Anel de Kayser-Fleischer (doença de Wilson).",
       "Icterícia, por depósito de bilirrubina na córnea.",
       "Catarata, por opacificação do cristalino.",
       "Pterígio.",
       "Arco senil, por depósito lipídico no idoso."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nKayser-Fleischer: cobre na membrana de Descemet (Wilson). Arco senil: anel esbranquiçado, lipídico, comum em idosos.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Anel de Kayser-Fleischer, da doença de Wilson (depósito de cobre).\n\nKayser-Fleischer: cobre na membrana de Descemet (Wilson). Arco senil: anel esbranquiçado, lipídico, comum em idosos.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · olhos (esclera, córnea, cristalino)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-07"
@@ -1718,12 +1718,12 @@
     "options": [
       "A tabela de Snellen avalia o campo visual periférico.",
       "Os dois olhos são testados juntos, a 1 metro da tabela.",
-      "O paciente fica a 20 pés (cerca de 6 metros), testa-se um olho por vez, cobrindo o outro, e registra-se a menor linha lida, por exemplo 20/40.",
+      "A 6 metros (20 pés), um olho de cada vez.",
       "A acuidade 20/200 é melhor que 20/20.",
       "O paciente que usa óculos deve retirá-los sempre, sem registro."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\n20/20 = normal. O paciente com óculos é testado com a correção (registrar). Campos: confrontação.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** O paciente fica a 20 pés (cerca de 6 metros), testa-se um olho por vez, cobrindo o outro, e registra-se a menor linha lida, por exemplo 20/40.\n\n20/20 = normal. O paciente com óculos é testado com a correção (registrar). Campos: confrontação.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (acuidade)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-08"
@@ -1742,10 +1742,10 @@
       "O paciente lê letras de tamanho decrescente a 6 metros.",
       "Pede-se ao paciente que siga o dedo nas oito direções.",
       "Usa-se o oftalmoscópio para visualizar o disco óptico.",
-      "Examinador e paciente ficam frente a frente; o paciente cobre um olho e fixa o olho oposto do examinador, que apresenta estímulos nos quadrantes de seu próprio campo, comparando-os."
+      "Examinador e paciente ficam frente a frente."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nO campo do examinador serve de referência (normal). Seguir o dedo nas oito direções é a motilidade ocular extrínseca.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Examinador e paciente ficam frente a frente; o paciente cobre um olho e fixa o olho oposto do examinador, que apresenta estímulos nos quadrantes de seu próprio campo, comparando-os.\n\nO campo do examinador serve de referência (normal). Seguir o dedo nas oito direções é a motilidade ocular extrínseca.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (campos visuais)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-09"
@@ -1763,11 +1763,11 @@
       "A mão direita e o olho esquerdo.",
       "A mão esquerda e o olho esquerdo.",
       "Ambas as mãos e os dois olhos, à distância de 1 metro.",
-      "A mão direita e o seu próprio olho direito, aproximando-se pelo lado temporal do paciente.",
+      "A mão direita e o próprio olho direito.",
       "O oftalmoscópio encostado na córnea, sem dilatação, com luz forte."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nOlho direito do paciente → mão e olho direitos do examinador (e vice-versa). Avaliam-se disco óptico (bordas, cor, escavação), vasos, retina e mácula.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** A mão direita e o seu próprio olho direito, aproximando-se pelo lado temporal do paciente.\n\nOlho direito do paciente → mão e olho direitos do examinador (e vice-versa). Avaliam-se disco óptico (bordas, cor, escavação), vasos, retina e mácula.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · exames especiais do olho (fundo de olho)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-10"
@@ -1851,11 +1851,11 @@
       "Nariz em sela da sífilis congênita.",
       "Rinofima da rosácea.",
       "Desvio de septo congênito sem inflamação.",
-      "Sinusite (seios frontal e maxilar), pela dor à palpação dos seios.",
+      "Sinusite (seios frontal e maxilar).",
       "Epistaxe anterior."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nExame do nariz: região externa (forma, simetria, lesões), interna (rinoscopia: mucosa, septo, cornetos, secreção) e palpação dos seios frontal e maxilar.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Sinusite (seios frontal e maxilar), pela dor à palpação dos seios.\n\nExame do nariz: região externa (forma, simetria, lesões), interna (rinoscopia: mucosa, septo, cornetos, secreção) e palpação dos seios frontal e maxilar.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · nariz e seios paranasais",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-14"
@@ -1892,14 +1892,14 @@
     "subtopic": "língua · alterações",
     "stem": "Paciente etilista desnutrido apresenta língua lisa, avermelhada e dolorosa, sem papilas, associada a fissuras nos cantos da boca. O achado sugere:",
     "options": [
-      "Glossite atrófica com queilite angular, por deficiências nutricionais (complexo B, ferro).",
+      "Glossite atrófica com queilite angular.",
       "Macroglossia por acromegalia.",
       "Língua saburrosa por doença gástrica.",
       "Língua geográfica benigna.",
       "Língua pilosa negra por antibióticos."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nLíngua lisa/careca: carências de riboflavina, niacina, folato, B12, ferro; anemia. Saburrosa: má higiene (não é doença do estômago). Geográfica: benigna.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Glossite atrófica com queilite angular, por deficiências nutricionais (complexo B, ferro).\n\nLíngua lisa/careca: carências de riboflavina, niacina, folato, B12, ferro; anemia. Saburrosa: má higiene (não é doença do estômago). Geográfica: benigna.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · boca (língua)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-16"
@@ -2006,10 +2006,10 @@
       "Estenose de carótida interna por placa de ateroma.",
       "Calcificação de nódulo benigno.",
       "Cisto tireoidiano hemorrágico.",
-      "Hipervascularização da glândula hiperfuncionante (bócio tóxico difuso, doença de Graves)."
+      "Hipervascularização da tireoide (doença de Graves)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nTireoide aumentada → sempre auscultar. Sopro tireoidiano = hiperfluxo (Graves). Sopro no trajeto da carótida = estenose carotídea ou irradiação de sopro aórtico.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Hipervascularização da glândula hiperfuncionante (bócio tóxico difuso, doença de Graves).\n\nTireoide aumentada → sempre auscultar. Sopro tireoidiano = hiperfluxo (Graves). Sopro no trajeto da carótida = estenose carotídea ou irradiação de sopro aórtico.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · tireoide e vasos do pescoço",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-21"
@@ -2046,14 +2046,14 @@
     "subtopic": "linfonodos · técnica",
     "stem": "Sobre a técnica de palpação dos linfonodos, assinale a correta:",
     "options": [
-      "Usam-se as polpas digitais em movimentos circulares, trazendo os tecidos moles contra uma estrutura rígida, com a cabeça do paciente levemente inclinada para o lado examinado, para relaxar a musculatura.",
+      "Usam-se as polpas digitais em movimentos circulares, trazendo os tecidos moles contra uma estrutura rígida.",
       "Basta palpar a cadeia da queixa, sem comparar com o lado oposto.",
       "Os linfonodos axilares são palpados com o paciente em decúbito ventral.",
       "Palpa-se com a palma da mão, com a musculatura cervical contraída, para fixar os linfonodos.",
       "A palpação \"em garra\" é a técnica usada para os linfonodos cervicais."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nMúsculo se palpa \"em garra\"; linfonodo, contra um plano duro. Axilares: examinador à frente, braço do paciente apoiado, palpação em garra deslizando contra o gradil costal.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Usam-se as polpas digitais em movimentos circulares, trazendo os tecidos moles contra uma estrutura rígida, com a cabeça do paciente levemente inclinada para o lado examinado, para relaxar a musculatura.\n\nMúsculo se palpa \"em garra\"; linfonodo, contra um plano duro. Axilares: examinador à frente, braço do paciente apoiado, palpação em garra deslizando contra o gradil costal.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (técnica da palpação)",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-23"
@@ -2092,12 +2092,12 @@
     "options": [
       "Metástase de carcinoma de cabeça e pescoço.",
       "Faringite estreptocócica isolada, que causa linfonodomegalia generalizada.",
-      "Mononucleose infecciosa (vírus Epstein-Barr), causa clássica de linfonodomegalia generalizada com esplenomegalia.",
+      "Mononucleose infecciosa (vírus Epstein-Barr).",
       "Linfoma de Hodgkin sempre, sem necessidade de outros exames.",
       "Linfadenite bacteriana localizada."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nGeneralizada = 3 ou mais grupos: mononucleose, HIV, toxoplasmose, linfomas, leucemias, doenças autoimunes. Linfonodos + esplenomegalia: infecções sistêmicas, linfomas, leucemias.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Mononucleose infecciosa (vírus Epstein-Barr), causa clássica de linfonodomegalia generalizada com esplenomegalia.\n\nGeneralizada = 3 ou mais grupos: mononucleose, HIV, toxoplasmose, linfomas, leucemias, doenças autoimunes. Linfonodos + esplenomegalia: infecções sistêmicas, linfomas, leucemias.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 (Linfonodos) e 15 (Cabeça e pescoço) · SOP IV Guia PR2 seção 02 (Prof. Renato Leal) · plano itens 2.2 e 2.4 · linfonodos (raciocínio em dois passos) e plano 2.2",
     "origin": "inedita",
     "ref": "PROPE-PF-CP2-25"
@@ -2165,11 +2165,11 @@
       "Cefaleia progressiva com início após os 50 anos.",
       "Cefaleia em paciente com HIV, febre e crise convulsiva.",
       "Cefaleia nova, súbita e intensa, descrita como \"a pior da vida\".",
-      "Enxaqueca de padrão antigo e estável, com exame neurológico normal, que não tem melhorado com analgésicos simples.",
+      "Enxaqueca de padrão antigo e estável, com exame neurológico normal.",
       "Cefaleia com papiledema e rigidez de nuca."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nA refratariedade ao analgésico, sozinha e com exame normal, não é sinal de alarme. SNOOP: Sistêmicos, Neurológicos, Onset súbito, Older (> 50), Padrão novo.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Enxaqueca de padrão antigo e estável, com exame neurológico normal, que não tem melhorado com analgésicos simples.\n\nA refratariedade ao analgésico, sozinha e com exame normal, não é sinal de alarme. SNOOP: Sistêmicos, Neurológicos, Onset súbito, Older (> 50), Padrão novo.",
     "source": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Complemento das provas antigas (sinais de alarme, falha do analgésico)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF-02"
@@ -2186,12 +2186,12 @@
     "options": [
       "Aumentar a dose dos analgésicos, preferencialmente opioides.",
       "Encaminhar para avaliação psiquiátrica.",
-      "Realizar tomografia computadorizada de crânio para investigar causa secundária.",
+      "Tomografia de crânio para investigar causa secundária.",
       "Iniciar profilaxia para migrânea e reavaliar em 3 meses.",
       "Solicitar marcadores tumorais séricos."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nCefaleia secundária com síndrome de HIC (matinal, vômitos, papiledema) em paciente com câncer prévio → imagem do crânio primeiro (metástase). Marcadores não localizam lesão; opioide em escalada rebaixa a consciência e eleva a PIC.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Realizar tomografia computadorizada de crânio para investigar causa secundária.\n\nCefaleia secundária com síndrome de HIC (matinal, vômitos, papiledema) em paciente com câncer prévio → imagem do crânio primeiro (metástase). Marcadores não localizam lesão; opioide em escalada rebaixa a consciência e eleva a PIC.",
     "source": "SOP IV Guia PR2 · 05 Cefaleias e raciocínio clínico (plano 6.1, Prof. Tiago + Porto cap. 6) · temas recorrentes nas provas · Nas provas (Q19) e caso guiado",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF-03"
@@ -2246,14 +2246,14 @@
     "subtopic": "anamnese da cefaleia",
     "stem": "Na anamnese de um paciente com cefaleia, qual característica mais sugere hemorragia subaracnóidea?",
     "options": [
-      "Instalação súbita, atingindo intensidade máxima em segundos (\"a pior dor da vida\").",
+      "Instalação súbita (\"a pior dor da vida\").",
       "Dor frontal após esforço visual prolongado.",
       "Dor em choque desencadeada pela mastigação.",
       "Dor em aperto bilateral ao fim do dia.",
       "Dor pulsátil unilateral que melhora em quarto escuro."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nModo de instalação súbito = cefaleia em trovoada → HSA até prova em contrário (TC sem contraste → punção lombar se normal).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Instalação súbita, atingindo intensidade máxima em segundos (\"a pior dor da vida\").\n\nModo de instalação súbito = cefaleia em trovoada → HSA até prova em contrário (TC sem contraste → punção lombar se normal).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · características semiológicas da dor (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-01"
@@ -2361,13 +2361,13 @@
     "stem": "Mulher de 72 anos com cefaleia temporal nova há 3 semanas, dor ao mastigar, couro cabeludo dolorido ao pentear e episódio de perda transitória da visão em um olho. Artéria temporal endurecida e pouco pulsátil. A hipótese que deve ser considerada com urgência é:",
     "options": [
       "Sinusite frontal.",
-      "Arterite temporal (de células gigantes), pelo risco de cegueira.",
+      "Arterite temporal (de células gigantes).",
       "Cefaleia tensional por estresse.",
       "Migrânea com aura tardia.",
       "Neuralgia do trigêmeo."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nCefaleia nova após os 50 anos é sinal de alarme (\"Older\"): pensar em arterite temporal (claudicação mandibular, VHS elevada, risco de amaurose) e em tumor.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Arterite temporal (de células gigantes), pelo risco de cegueira.\n\nCefaleia nova após os 50 anos é sinal de alarme (\"Older\"): pensar em arterite temporal (claudicação mandibular, VHS elevada, risco de amaurose) e em tumor.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · sinais de alarme (Older: arterite temporal)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-06"
@@ -2386,10 +2386,10 @@
       "O diagnóstico é de cefaleia tensional pela intensidade.",
       "É uma migrânea com aura, tratada com triptano.",
       "A rigidez de nuca descarta meningite bacteriana.",
-      "É uma cefaleia secundária com sinais de alarme (febre e sinais meníngeos); exige investigação imediata, com exame do líquor, por suspeita de meningite."
+      "Cefaleia secundária com sinais de alarme."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nFebre + cefaleia + sinais meníngeos = síndrome meníngea → líquor (imagem antes se houver déficit focal, papiledema ou rebaixamento).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** É uma cefaleia secundária com sinais de alarme (febre e sinais meníngeos); exige investigação imediata, com exame do líquor, por suspeita de meningite.\n\nFebre + cefaleia + sinais meníngeos = síndrome meníngea → líquor (imagem antes se houver déficit focal, papiledema ou rebaixamento).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · cefaleia secundária (meningite) e síndrome meníngea",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-07"
@@ -2451,11 +2451,11 @@
       "Zumbido e hipoacusia unilateral.",
       "Nistagmo horizontal unidirecional que diminui ao fixar o olhar.",
       "Vertigem posicional breve, com latência e fatigável.",
-      "Nistagmo vertical ou que muda de direção com o olhar, acompanhado de ataxia intensa, disartria ou outros déficits neurológicos.",
+      "Nistagmo vertical ou que muda de direção com o olhar.",
       "Náuseas e vômitos intensos."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nPeriférica: nistagmo horizontal-rotatório unidirecional, inibido pela fixação, sintomas auditivos possíveis, sem outros déficits. Central: nistagmo vertical/multidirecional, ataxia desproporcional, sinais de tronco.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Nistagmo vertical ou que muda de direção com o olhar, acompanhado de ataxia intensa, disartria ou outros déficits neurológicos.\n\nPeriférica: nistagmo horizontal-rotatório unidirecional, inibido pela fixação, sintomas auditivos possíveis, sem outros déficits. Central: nistagmo vertical/multidirecional, ataxia desproporcional, sinais de tronco.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · tontura (vertigem) e VIII par",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-10"
@@ -2514,14 +2514,14 @@
     "subtopic": "demência · avaliação",
     "stem": "Idosa de 76 anos, com 8 anos de escolaridade, tem esquecimentos progressivos há 2 anos e dificuldade em administrar finanças. MEEM = 21 pontos e teste do relógio alterado. Sobre a avaliação, assinale a correta:",
     "options": [
-      "O MEEM abaixo do corte para a escolaridade (24 no slide) e o relógio alterado reforçam declínio cognitivo, mas o diagnóstico de demência e sua causa exigem avaliação clínica completa e exclusão de causas reversíveis.",
+      "MEEM e teste do relógio alterados reforçam declínio cognitivo.",
       "O MEEM confirma a doença de Alzheimer.",
       "O teste do relógio só avalia a memória recente.",
       "Com 21 pontos, a paciente está dentro do normal para qualquer escolaridade.",
       "Exames para causas reversíveis (B12, TSH, sífilis) são desnecessários."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCausas potencialmente reversíveis: hipotireoidismo, deficiência de B12, neurossífilis, depressão (pseudodemência), hidrocefalia de pressão normal, fármacos.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** O MEEM abaixo do corte para a escolaridade (24 no slide) e o relógio alterado reforçam declínio cognitivo, mas o diagnóstico de demência e sua causa exigem avaliação clínica completa e exclusão de causas reversíveis.\n\nCausas potencialmente reversíveis: hipotireoidismo, deficiência de B12, neurossífilis, depressão (pseudodemência), hidrocefalia de pressão normal, fármacos.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · demência (MEEM e teste do relógio)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-13"
@@ -2539,11 +2539,11 @@
       "A memória remota é sempre a primeira afetada no Alzheimer.",
       "Demência e delirium são sinônimos.",
       "A demência vascular nunca está associada a fatores de risco cardiovascular.",
-      "Na doença de Alzheimer o déficit inicial costuma ser de memória recente, com evolução lenta e progressiva; na demência vascular a evolução pode ser em degraus, com sinais focais e predomínio de alterações executivas.",
+      "Na doença de Alzheimer o déficit inicial costuma ser de memória recente.",
       "Na doença de Alzheimer há déficits focais motores desde o início."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nDelirium: início agudo, flutuante, com alteração da atenção e da consciência, geralmente reversível. Demência: insidiosa, progressiva, consciência preservada.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Na doença de Alzheimer o déficit inicial costuma ser de memória recente, com evolução lenta e progressiva; na demência vascular a evolução pode ser em degraus, com sinais focais e predomínio de alterações executivas.\n\nDelirium: início agudo, flutuante, com alteração da atenção e da consciência, geralmente reversível. Demência: insidiosa, progressiva, consciência preservada.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · demência (Alzheimer × vascular)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-14"
@@ -2603,13 +2603,13 @@
     "stem": "Homem de 58 anos, diabético há 15 anos, com dor em queimação nos pés, pior à noite, e sensação de \"andar sobre algodão\". Qual achado do exame é o mais esperado?",
     "options": [
       "Dismetria no índex-nariz.",
-      "Diminuição da sensibilidade vibratória e dolorosa distal nos pés, com aquileus abolidos.",
+      "Hipoestesia vibratória e dolorosa distal nos pés.",
       "Nível sensitivo na altura do umbigo.",
       "Sinal de Babinski bilateral com hiper-reflexia.",
       "Hemiparesia com paralisia facial central."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nPolineuropatia diabética: distal, simétrica, sensitiva predominante, arreflexia aquileia, Romberg pode ser positivo; sem sinais piramidais.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Diminuição da sensibilidade vibratória e dolorosa distal nos pés, com aquileus abolidos.\n\nPolineuropatia diabética: distal, simétrica, sensitiva predominante, arreflexia aquileia, Romberg pode ser positivo; sem sinais piramidais.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano item 6.1 (cefaleias, tontura, síncope, demência) e raciocínio clínico (Prof. Tiago) · polineuropatia periférica (seção 05)",
     "origin": "inedita",
     "ref": "PROPE-PF-CEF2-17"
@@ -3028,10 +3028,10 @@
       "Disartria cerebelar.",
       "Dislalia.",
       "Disfasia de recepção.",
-      "Disfasia de expressão (motora), por lesão cortical no hemisfério dominante."
+      "Disfasia de expressão (motora)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nDisfasia: órgão fonador e músculos normais; falha na elaboração cortical. Recepção (sensorial: não entende), expressão (motora: entende, não se expressa) ou mista (a mais frequente).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Disfasia de expressão (motora), por lesão cortical no hemisfério dominante.\n\nDisfasia: órgão fonador e músculos normais; falha na elaboração cortical. Recepção (sensorial: não entende), expressão (motora: entende, não se expressa) ou mista (a mais frequente).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fala e linguagem (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-03"
@@ -3204,10 +3204,10 @@
       "De cócoras.",
       "Opistótono.",
       "Decúbito lateral sobre o lado doente.",
-      "Genupeitoral (\"prece maometana\"), que facilita o enchimento cardíaco."
+      "Genupeitoral (\"prece maometana\")."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nOrtopneica: IC, asma, ascite volumosa. Cócoras: cardiopatia congênita cianótica. Genupeitoral: derrame pericárdico.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Genupeitoral (\"prece maometana\"), que facilita o enchimento cardíaco.\n\nOrtopneica: IC, asma, ascite volumosa. Cócoras: cardiopatia congênita cianótica. Genupeitoral: derrame pericárdico.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · atitude e decúbito (voluntárias)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-11"
@@ -3224,12 +3224,12 @@
     "options": [
       "Indica icterícia leve, mais bem vista nas mucosas descoradas.",
       "Indica desidratação moderada, que deve ser avaliada pela coloração das mucosas.",
-      "Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes, mas o tipo de anemia só se define pelo hemograma.",
+      "Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes.",
       "Confirma anemia ferropriva, dispensando o hemograma.",
       "Indica poliglobulia por hipóxia crônica."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nMucosas: coloração (normocoradas, descoradas + a ++++, hipercoradas, cianóticas, ictéricas) e umidade (hidratação). A cor fala do sangue; a umidade, da hidratação.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Indica palidez das mucosas por redução da hemoglobina (anemia); a intensidade é graduada em cruzes, mas o tipo de anemia só se define pelo hemograma.\n\nMucosas: coloração (normocoradas, descoradas + a ++++, hipercoradas, cianóticas, ictéricas) e umidade (hidratação). A cor fala do sangue; a umidade, da hidratação.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · mucosas (coloração)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-12"
@@ -3267,13 +3267,13 @@
     "stem": "Após trauma torácico com fratura de costelas, o médico desliza a mão sobre a parede torácica e o pescoço do paciente e percebe crepitação fina, como \"pisar em neve\". O achado e sua causa provável são:",
     "options": [
       "Linfedema por obstrução linfática.",
-      "Enfisema subcutâneo, por ar que escapa do pulmão lesado (pneumotórax) para o tecido subcutâneo.",
+      "Enfisema subcutâneo (pneumotórax).",
       "Atrofia da pele por corticoide.",
       "Circulação colateral tipo cava superior.",
       "Edema inflamatório por erisipela."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nEnfisema subcutâneo: ar sob a pele, crepitação à palpação; origem torácica (pneumotórax, ruptura de traqueia/esôfago) ou infecciosa (gangrena gasosa).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Enfisema subcutâneo, por ar que escapa do pulmão lesado (pneumotórax) para o tecido subcutâneo.\n\nEnfisema subcutâneo: ar sob a pele, crepitação à palpação; origem torácica (pneumotórax, ruptura de traqueia/esôfago) ou infecciosa (gangrena gasosa).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · enfisema subcutâneo (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-14"
@@ -3314,10 +3314,10 @@
       "Síndrome nefrótica.",
       "Edema alérgico.",
       "Linfedema primário.",
-      "Trombose venosa profunda, com obstrução do retorno venoso do membro."
+      "Trombose venosa profunda."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nEdema **unilateral** de instalação aguda = pensar em TVP (risco de embolia pulmonar). Edemas sistêmicos (cardíaco, renal, hepático) são bilaterais.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Trombose venosa profunda, com obstrução do retorno venoso do membro.\n\nEdema **unilateral** de instalação aguda = pensar em TVP (risco de embolia pulmonar). Edemas sistêmicos (cardíaco, renal, hepático) são bilaterais.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (trombose venosa profunda)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-16"
@@ -3332,14 +3332,14 @@
     "subtopic": "edema · cirrose",
     "stem": "Cirrótico apresenta edema discreto (+/4+) nos membros inferiores, mole e indolor, acompanhado de ascite volumosa. O principal mecanismo do edema é:",
     "options": [
-      "Hipoalbuminemia (queda da pressão oncótica) associada a hiperaldosteronismo secundário com retenção de sódio.",
+      "Hipoalbuminemia e hiperaldosteronismo secundário.",
       "Obstrução linfática por filariose.",
       "Trombose venosa bilateral.",
       "Hipertireoidismo com mixedema pré-tibial.",
       "Aumento da permeabilidade capilar por histamina."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nMecanismos do edema: ↑ pressão hidrostática, ↓ pressão oncótica, ↓ drenagem linfática, ↑ permeabilidade e retenção de sódio e água (presente em todo edema generalizado).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Hipoalbuminemia (queda da pressão oncótica) associada a hiperaldosteronismo secundário com retenção de sódio.\n\nMecanismos do edema: ↑ pressão hidrostática, ↓ pressão oncótica, ↓ drenagem linfática, ↑ permeabilidade e retenção de sódio e água (presente em todo edema generalizado).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · edema (hepático)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-17"
@@ -3401,11 +3401,11 @@
       "Eritema palmar da cirrose.",
       "Cianose central por shunt.",
       "Dermatografismo.",
-      "Fenômeno de Raynaud (palidez → cianose → rubor), que pode associar-se a esclerodermia e lúpus.",
+      "Fenômeno de Raynaud.",
       "Acrocianose constante e indolor."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nRaynaud: crises vasoespásticas trifásicas nas extremidades (frio, emoção). Acrocianose: cianose constante, sem fases.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Fenômeno de Raynaud (palidez → cianose → rubor), que pode associar-se a esclerodermia e lúpus.\n\nRaynaud: crises vasoespásticas trifásicas nas extremidades (frio, emoção). Acrocianose: cianose constante, sem fases.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · pele (coloração: fenômeno de Raynaud)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-20"
@@ -3509,13 +3509,13 @@
     "stem": "Paciente apresenta equimose na coxa após trauma. Sobre a evolução da cor da equimose, assinale a correta:",
     "options": [
       "A cor amarela indica lesão recente, de menos de 24 horas.",
-      "Ela evolui de vermelha (até 48 h) para arroxeada, azulada, esverdeada/amarelada e desaparece após cerca de 9 dias, pela degradação da hemoglobina.",
+      "Muda de vermelha para arroxeada, esverdeada e amarelada.",
       "Ela desaparece à vitropressão, por ser mancha vascular.",
       "Equimoses e petéquias têm o mesmo tamanho.",
       "Ela permanece vermelha até desaparecer."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\n\"Equimose do arco-íris\": vermelha → roxa → azul → verde/amarela → normal. Petéquias: puntiformes (até ~1 cm); equimoses: placas maiores. Ambas não somem à vitropressão.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Ela evolui de vermelha (até 48 h) para arroxeada, azulada, esverdeada/amarelada e desaparece após cerca de 9 dias, pela degradação da hemoglobina.\n\n\"Equimose do arco-íris\": vermelha → roxa → azul → verde/amarela → normal. Petéquias: puntiformes (até ~1 cm); equimoses: placas maiores. Ambas não somem à vitropressão.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · lesões elementares (manchas hemorrágicas: cor da equimose)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-25"
@@ -3533,11 +3533,11 @@
       "Alopecia androgenética.",
       "Madarose.",
       "Virilização completa com clitoromegalia.",
-      "Hirsutismo, que sugere hiperandrogenismo (como na síndrome dos ovários policísticos).",
+      "Hirsutismo (hiperandrogenismo).",
       "Hipertricose generalizada sem significado hormonal."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nHirsutismo: pelos terminais de padrão masculino na mulher. Virilização: hirsutismo + voz grave + clitoromegalia + aumento de massa muscular. Hipertricose: excesso de pelos não androgênico.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Hirsutismo, que sugere hiperandrogenismo (como na síndrome dos ovários policísticos).\n\nHirsutismo: pelos terminais de padrão masculino na mulher. Virilização: hirsutismo + voz grave + clitoromegalia + aumento de massa muscular. Hipertricose: excesso de pelos não androgênico.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (cabelos e pelos)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-26"
@@ -3555,11 +3555,11 @@
       "Linhas de Beau.",
       "Onicólise de Plummer.",
       "Coiloníquia.",
-      "Hipocratismo digital (baqueteamento), com unhas em vidro de relógio.",
+      "Hipocratismo digital (baqueteamento).",
       "Unhas de Terry."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nÂngulo normal < 160°; ≈ 180° no hipocratismo (doenças pulmonares e cardíacas crônicas, cirrose, doença inflamatória intestinal).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Hipocratismo digital (baqueteamento), com unhas em vidro de relógio.\n\nÂngulo normal < 160°; ≈ 180° no hipocratismo (doenças pulmonares e cardíacas crônicas, cirrose, doença inflamatória intestinal).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 (Exame físico geral) e 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 · plano itens 1.2 e 2.2 · fâneros (unhas: hipocratismo digital)",
     "origin": "inedita",
     "ref": "PROPE-PF-ECT2-27"
@@ -3605,11 +3605,11 @@
       "Exagerados, com respiração predominantemente abdominal.",
       "Normais, pois a peritonite não altera a respiração.",
       "Paradoxais, com retração na expiração.",
-      "Diminuídos ou abolidos, com respiração predominantemente torácica, pois o movimento do peritônio inflamado provoca dor.",
+      "Diminuídos ou abolidos, com respiração predominantemente torácica.",
       "Substituídos por ondas peristálticas visíveis."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nNo homem a respiração é normalmente toracoabdominal; nas dores do andar superior e na peritonite o paciente \"trava\" o abdome.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Diminuídos ou abolidos, com respiração predominantemente torácica, pois o movimento do peritônio inflamado provoca dor.\n\nNo homem a respiração é normalmente toracoabdominal; nas dores do andar superior e na peritonite o paciente \"trava\" o abdome.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · inspeção dinâmica",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-01"
@@ -3626,12 +3626,12 @@
     "options": [
       "O espaço de Traube deve ser maciço em jejum.",
       "A percussão substitui a ausculta.",
-      "Usa-se a percussão dígito-digital, percorrendo todas as regiões, e a percussão deve preceder a palpação profunda; deve-se comparar o som esperado de cada região (macicez hepática, timpanismo intestinal).",
+      "Usa-se a percussão dígito-digital, percorrendo todas as regiões.",
       "A percussão é desnecessária quando a palpação é normal.",
       "A percussão é feita apenas no hipocôndrio direito."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nPercussão: delimita fígado e baço, identifica ascite, timpanismo (gases, pneumoperitônio), massas maciças e bexiga distendida.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Usa-se a percussão dígito-digital, percorrendo todas as regiões, e a percussão deve preceder a palpação profunda; deve-se comparar o som esperado de cada região (macicez hepática, timpanismo intestinal).\n\nPercussão: delimita fígado e baço, identifica ascite, timpanismo (gases, pneumoperitônio), massas maciças e bexiga distendida.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · percussão",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-02"
@@ -3646,14 +3646,14 @@
     "subtopic": "palpação · superficial × profunda",
     "stem": "Qual o principal objetivo da palpação superficial do abdome?",
     "options": [
-      "Avaliar a sensibilidade, a tensão e a integridade da parede (pontos dolorosos, defesa, hérnias, diástase) antes da palpação profunda.",
+      "Avaliar a sensibilidade.",
       "Palpar o pâncreas e o duodeno.",
       "Avaliar os ruídos hidroaéreos.",
       "Delimitar o tamanho exato do baço.",
       "Medir a hepatimetria."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nProfunda: órgãos e massas (localização, forma, consistência, mobilidade, sensibilidade, pulsatilidade).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Avaliar a sensibilidade, a tensão e a integridade da parede (pontos dolorosos, defesa, hérnias, diástase) antes da palpação profunda.\n\nProfunda: órgãos e massas (localização, forma, consistência, mobilidade, sensibilidade, pulsatilidade).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-03"
@@ -3691,13 +3691,13 @@
     "stem": "Mulher de 45 anos com massa no hipogástrio que permanece após cateterismo vesical, de consistência cística, móvel lateralmente, com flancos timpânicos. A hipótese mais provável é:",
     "options": [
       "Hepatomegalia.",
-      "Cisto de ovário volumoso (ou mioma uterino), pois a bexiga já foi esvaziada.",
+      "Cisto de ovário volumoso (ou mioma uterino).",
       "Fecaloma do cólon transverso.",
       "Ascite de grande volume.",
       "Bexigoma por retenção urinária."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nA massa que persiste após o esvaziamento vesical não é a bexiga; flancos timpânicos sem macicez móvel falam contra ascite.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Cisto de ovário volumoso (ou mioma uterino), pois a bexiga já foi esvaziada.\n\nA massa que persiste após o esvaziamento vesical não é a bexiga; flancos timpânicos sem macicez móvel falam contra ascite.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação (massas hipogástricas)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-05"
@@ -3712,14 +3712,14 @@
     "subtopic": "vascolejo",
     "stem": "Paciente com úlcera duodenal antiga refere vômitos de alimentos ingeridos no dia anterior. Ao sacudir o abdome em jejum, ouve-se ruído de líquido no epigástrio. O achado e o diagnóstico sugeridos são:",
     "options": [
-      "Vascolejo (patinhação) — estase gástrica por obstrução pilórica (estenose cicatricial).",
+      "Vascolejo (patinhação).",
       "Sopro — aneurisma de aorta.",
       "Gersuny — fecaloma.",
       "Ruído metálico — íleo paralítico.",
       "Sinal de Murphy — colecistite."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nVascolejo é normal logo após beber líquidos; em jejum indica estase (estenose pilórica, atonia gástrica).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Vascolejo (patinhação) — estase gástrica por obstrução pilórica (estenose cicatricial).\n\nVascolejo é normal logo após beber líquidos; em jejum indica estase (estenose pilórica, atonia gástrica).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · palpação (vascolejo)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-06"
@@ -3738,10 +3738,10 @@
       "A dor parietal melhora com a movimentação.",
       "A dor visceral é sempre bem localizada no órgão doente.",
       "A dor referida ocorre no próprio local do órgão doente.",
-      "A dor visceral é mal localizada, em geral na linha média, acompanhada de náuseas e sudorese; a dor parietal, pela irritação do peritônio parietal, é bem localizada e piora com movimentos e tosse."
+      "A dor visceral é mal localizada, em geral na linha média."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nEstímulos viscerais: distensão, isquemia, inflamação. Projeção: intestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** A dor visceral é mal localizada, em geral na linha média, acompanhada de náuseas e sudorese; a dor parietal, pela irritação do peritônio parietal, é bem localizada e piora com movimentos e tosse.\n\nEstímulos viscerais: distensão, isquemia, inflamação. Projeção: intestino anterior → epigástrio; médio → periumbilical; posterior → hipogástrio.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · dor abdominal (visceral, parietal, referida)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-07"
@@ -3758,12 +3758,12 @@
     "options": [
       "A dor melhora com a compressão profunda do flanco.",
       "O sinal de Blumberg é obrigatoriamente positivo.",
-      "Espera-se agitação, Giordano possivelmente positivo e dor à palpação dos pontos ureterais, com abdome sem sinais de irritação peritoneal.",
+      "Agitação, Giordano positivo e abdome sem irritação peritoneal.",
       "O paciente fica imóvel, com abdome em tábua.",
       "Há sempre ascite associada."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nNa cólica (renal, biliar) o paciente se movimenta à procura de posição; na peritonite fica imóvel.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Espera-se agitação, Giordano possivelmente positivo e dor à palpação dos pontos ureterais, com abdome sem sinais de irritação peritoneal.\n\nNa cólica (renal, biliar) o paciente se movimenta à procura de posição; na peritonite fica imóvel.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · pontos dolorosos e Giordano",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-08"
@@ -3803,11 +3803,11 @@
       "A candidíase forma placas que não se destacam à raspagem.",
       "A leucoplasia é sempre infecciosa e regride com antifúngico.",
       "A linha alba é lesão pré-maligna.",
-      "A leucoplasia é uma placa branca que não se destaca à raspagem e não se caracteriza como outra doença, sendo lesão potencialmente maligna, sobretudo em tabagistas e etilistas.",
+      "Placa branca que não se destaca à raspagem; potencialmente maligna.",
       "Os grânulos de Fordyce são placas de leucoplasia."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nLeucoplasia é diagnóstico de exclusão; biópsia para avaliar displasia. Eritroplasia (placa vermelha) tem risco ainda maior.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** A leucoplasia é uma placa branca que não se destaca à raspagem e não se caracteriza como outra doença, sendo lesão potencialmente maligna, sobretudo em tabagistas e etilistas.\n\nLeucoplasia é diagnóstico de exclusão; biópsia para avaliar displasia. Eritroplasia (placa vermelha) tem risco ainda maior.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · boca (lesões brancas)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-10"
@@ -3847,11 +3847,11 @@
       "Otite externa.",
       "Rolha de cerume unilateral.",
       "Otite média aguda bilateral.",
-      "Presbiacusia (perda neurossensorial bilateral simétrica do envelhecimento).",
+      "Presbiacusia.",
       "Otosclerose com perda condutiva."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nWeber centralizado = perda simétrica (ou audição normal). Presbiacusia: altas frequências primeiro.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Presbiacusia (perda neurossensorial bilateral simétrica do envelhecimento).\n\nWeber centralizado = perda simétrica (ou audição normal). Presbiacusia: altas frequências primeiro.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · orelhas (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-12"
@@ -3910,14 +3910,14 @@
     "subtopic": "linfonodo · inguinal",
     "stem": "Homem jovem com linfonodomegalia inguinal unilateral dolorosa, com úlcera genital recente. A área de drenagem que explica o achado é:",
     "options": [
-      "Genitália externa e períneo (a cadeia inguinal drena também ânus e membros inferiores).",
+      "Genitália externa e períneo.",
       "Conjuntiva e pálpebras.",
       "Mama e parede torácica.",
       "Couro cabeludo posterior.",
       "Mediastino e pulmões."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nEm adultos, pequenos linfonodos inguinais palpáveis podem ser normais; aumentados e dolorosos sugerem IST ou infecção do membro inferior.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Genitália externa e períneo (a cadeia inguinal drena também ânus e membros inferiores).\n\nEm adultos, pequenos linfonodos inguinais palpáveis podem ser normais; aumentados e dolorosos sugerem IST ou infecção do membro inferior.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · linfonodos (cadeias e drenagem)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-15"
@@ -3936,10 +3936,10 @@
       "O sangramento nunca está relacionado a distúrbios de coagulação.",
       "A epistaxe é sempre causada por tumor.",
       "A área de Kiesselbach fica na concha nasal inferior posterior.",
-      "A maioria dos sangramentos é anterior, na área de Kiesselbach do septo nasal, e costuma ceder com compressão; sangramentos posteriores são mais comuns em idosos hipertensos e mais graves."
+      "A maioria dos sangramentos é anterior, na área de Kiesselbach do septo nasal."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nCausas: trauma digital, ressecamento, rinite, HAS, anticoagulantes, plaquetopenia, tumores (raros).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** A maioria dos sangramentos é anterior, na área de Kiesselbach do septo nasal, e costuma ceder com compressão; sangramentos posteriores são mais comuns em idosos hipertensos e mais graves.\n\nCausas: trauma digital, ressecamento, rinite, HAS, anticoagulantes, plaquetopenia, tumores (raros).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · plano 2.2 e 2.4 · nariz e seios paranasais",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-16"
@@ -3956,12 +3956,12 @@
     "options": [
       "Arterite temporal.",
       "Neuralgia do trigêmeo.",
-      "Cefaleia por uso excessivo de medicamentos (rebote), que perpetua a dor crônica diária.",
+      "Uso excessivo de analgésicos.",
       "Hemorragia subaracnóidea.",
       "Cefaleia em salvas."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nO tratamento envolve retirar o analgésico em excesso e instituir profilaxia.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Cefaleia por uso excessivo de medicamentos (rebote), que perpetua a dor crônica diária.\n\nO tratamento envolve retirar o analgésico em excesso e instituir profilaxia.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · cefaleias secundárias (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-17"
@@ -3979,11 +3979,11 @@
       "Melhora ao mastigar e ao falar.",
       "Cursa obrigatoriamente com anestesia da hemiface.",
       "Acomete preferencialmente crianças.",
-      "Caracteriza-se por dor em choque, breve e intensa, num ramo do V, com zonas-gatilho, e exame neurológico normal entre as crises; déficit sensitivo sugere causa secundária (tumor, esclerose múltipla).",
+      "Dor em choque, breve, num ramo do V par.",
       "É uma dor contínua em aperto, bilateral."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nGatilhos: falar, mastigar, escovar os dentes, vento no rosto.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Caracteriza-se por dor em choque, breve e intensa, num ramo do V, com zonas-gatilho, e exame neurológico normal entre as crises; déficit sensitivo sugere causa secundária (tumor, esclerose múltipla).\n\nGatilhos: falar, mastigar, escovar os dentes, vento no rosto.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · dor facial",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-18"
@@ -3999,13 +3999,13 @@
     "stem": "Diabético em uso de insulina apresenta tontura, sudorese, tremor, palpitações e confusão antes do almoço, que melhoram após comer. A causa mais provável é:",
     "options": [
       "Estenose aórtica.",
-      "Hipoglicemia, causa metabólica de pré-síncope e alteração de consciência.",
+      "Hipoglicemia.",
       "Hipertensão intracraniana.",
       "Vertigem posicional paroxística benigna.",
       "Crise de enxaqueca com aura."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSempre medir a glicemia capilar no paciente com alteração de consciência ou síncope.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Hipoglicemia, causa metabólica de pré-síncope e alteração de consciência.\n\nSempre medir a glicemia capilar no paciente com alteração de consciência ou síncope.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · tontura e síncope (causas metabólicas)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-19"
@@ -4020,14 +4020,14 @@
     "subtopic": "síncope · ortostática",
     "stem": "Como se confirma, ao exame físico, a hipotensão ortostática num idoso com tonturas ao levantar?",
     "options": [
-      "Medindo a pressão deitado e após 1 a 3 minutos em pé: queda de pelo menos 20 mmHg na sistólica ou 10 mmHg na diastólica.",
+      "Medindo a pressão deitado e após 1 a 3 minutos em pé.",
       "Pela ausculta do sopro carotídeo.",
       "Pela palpação do pulso carotídeo apenas.",
       "Pelo teste de Romberg.",
       "Pela manobra de Dix-Hallpike."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCausas: desidratação, anti-hipertensivos, diuréticos, neuropatia autonômica (diabetes, Parkinson).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Medindo a pressão deitado e após 1 a 3 minutos em pé: queda de pelo menos 20 mmHg na sistólica ou 10 mmHg na diastólica.\n\nCausas: desidratação, anti-hipertensivos, diuréticos, neuropatia autonômica (diabetes, Parkinson).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · síncope (hipotensão postural)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-20"
@@ -4046,10 +4046,10 @@
       "Demência vascular em degraus.",
       "Afasia de Wernicke.",
       "Depressão maior.",
-      "Delirium (estado confusional agudo), geralmente reversível com o tratamento da causa."
+      "Delirium (estado confusional agudo)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nDelirium: início agudo, curso flutuante, déficit de atenção e da consciência. Demência: insidiosa, progressiva, atenção preservada no início.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Delirium (estado confusional agudo), geralmente reversível com o tratamento da causa.\n\nDelirium: início agudo, curso flutuante, déficit de atenção e da consciência. Demência: insidiosa, progressiva, atenção preservada no início.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · demência (diferencial)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-21"
@@ -4066,12 +4066,12 @@
     "options": [
       "Lesão paroxística com normalidade entre as crises (enxaqueca).",
       "Lesão progressiva única por tumor.",
-      "Lesões múltiplas no SNC (multifocal), com evolução em surtos e remissões, sugerindo esclerose múltipla.",
+      "Lesões múltiplas no SNC (multifocal).",
       "Lesão periférica em bota e luva (polineuropatia).",
       "Lesão única, súbita e vascular (AVC)."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nDisseminação no espaço (vários locais) e no tempo (surtos) = desmielinizante.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Lesões múltiplas no SNC (multifocal), com evolução em surtos e remissões, sugerindo esclerose múltipla.\n\nDisseminação no espaço (vários locais) e no tempo (surtos) = desmielinizante.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · raciocínio clínico (Prof. Tiago)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-22"
@@ -4089,11 +4089,11 @@
       "Aguardar o parto sem investigar.",
       "Prescrever triptano e liberar.",
       "Tratar como cefaleia tensional.",
-      "Considerar pré-eclâmpsia grave (sinal de alarme na gestação), com avaliação imediata, e não tratar apenas como enxaqueca.",
+      "Pré-eclâmpsia grave.",
       "Indicar punção lombar como primeiro passo."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nGestação e puerpério são sinais de alarme para cefaleia (pré-eclâmpsia, trombose venosa cerebral, HSA).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Considerar pré-eclâmpsia grave (sinal de alarme na gestação), com avaliação imediata, e não tratar apenas como enxaqueca.\n\nGestação e puerpério são sinais de alarme para cefaleia (pré-eclâmpsia, trombose venosa cerebral, HSA).",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · sinais de alarme (gestação e puerpério)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-23"
@@ -4130,14 +4130,14 @@
     "subtopic": "hidratação · lactente",
     "stem": "Na avaliação de um lactente com diarreia, qual conjunto de achados indica hidratação normal?",
     "options": [
-      "Fontanela plana e normotensa, mucosas úmidas, olhos sem alteração, prega cutânea que se desfaz rapidamente, criança ativa e com diurese normal.",
+      "Fontanela normotensa, mucosas úmidas e prega que se desfaz rápido.",
       "Letargia, enchimento capilar de 4 segundos e oligúria.",
       "Fontanela abaulada e vômitos em jato.",
       "Prega cutânea que se desfaz lentamente e mucosas secas.",
       "Fontanela deprimida, olhos fundos e choro sem lágrimas."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nFontanela abaulada = hipertensão intracraniana, não hidratação normal.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Fontanela plana e normotensa, mucosas úmidas, olhos sem alteração, prega cutânea que se desfaz rapidamente, criança ativa e com diurese normal.\n\nFontanela abaulada = hipertensão intracraniana, não hidratação normal.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · hidratação (criança)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-25"
@@ -4176,12 +4176,12 @@
     "options": [
       "Adenoidiana.",
       "Cushingoide.",
-      "Mongoloide, característica da síndrome de Down (trissomia do 21).",
+      "Mongoloide (síndrome de Down).",
       "Mixedematosa.",
       "Acromegálica."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nAssociações: hipotonia, cardiopatia congênita, maior risco de leucemia e de Alzheimer precoce.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Mongoloide, característica da síndrome de Down (trissomia do 21).\n\nAssociações: hipotonia, cardiopatia congênita, maior risco de leucemia e de Alzheimer precoce.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · fácies (Porto)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-27"
@@ -4196,14 +4196,14 @@
     "subtopic": "mucosas · cianose",
     "stem": "Paciente com DPOC exacerbada apresenta lábios, língua e leitos ungueais azulados, com mãos quentes. Sobre o achado, assinale a correta:",
     "options": [
-      "É cianose central, por insaturação do sangue arterial (hemoglobina reduzida > 5 g/dL), que costuma melhorar com oxigênio.",
+      "Cianose central, por insaturação arterial.",
       "É icterícia mucosa.",
       "É cianose periférica por vasoconstrição ao frio.",
       "É palidez por anemia.",
       "É cianose que só aparece em anêmicos graves."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nPacientes muito anêmicos podem não ficar cianóticos (não atingem 5 g/dL de Hb reduzida); policitêmicos ficam com facilidade.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** É cianose central, por insaturação do sangue arterial (hemoglobina reduzida > 5 g/dL), que costuma melhorar com oxigênio.\n\nPacientes muito anêmicos podem não ficar cianóticos (não atingem 5 g/dL de Hb reduzida); policitêmicos ficam com facilidade.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · mucosas e pele (cianose)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-28"
@@ -4222,10 +4222,10 @@
       "Linfedema.",
       "Fenômeno de Raynaud sistêmico.",
       "Erisipela.",
-      "Oclusão arterial aguda (isquemia), pela frialdade e palidez localizadas comparadas ao lado homólogo."
+      "Oclusão arterial aguda (isquemia)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nIsquemia arterial aguda: dor, palidez, ausência de pulso, parestesia, paralisia e frialdade (\"6 Ps\"). Inflamação: calor e rubor localizados.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Oclusão arterial aguda (isquemia), pela frialdade e palidez localizadas comparadas ao lado homólogo.\n\nIsquemia arterial aguda: dor, palidez, ausência de pulso, parestesia, paralisia e frialdade (\"6 Ps\"). Inflamação: calor e rubor localizados.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · pele (temperatura e coloração)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-29"
@@ -4243,11 +4243,11 @@
       "\"Desidratado ++++ com mucosas úmidas e brilhantes.\"",
       "\"Fácies hipocrática em paciente em bom estado geral, sem alterações.\"",
       "\"Estado geral objetivo, consciente grau 15, mucosas boas.\"",
-      "\"Bom estado geral, lúcido e orientado, hidratado, normocorado, anictérico, acianótico, afebril, fácies atípica, atitude indiferente, sem edemas.\"",
+      "\"BEG, lúcido, hidratado, normocorado, anictérico, acianótico, afebril.\"",
       "\"Paciente com tônus de massa normal e trofismo de semicontração.\""
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nDescrição sistemática: estado geral, consciência, hidratação, coloração (descorado/normocorado, ictérico, cianótico), temperatura, fácies, atitude, edema, linfonodos etc.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** \"Bom estado geral, lúcido e orientado, hidratado, normocorado, anictérico, acianótico, afebril, fácies atípica, atitude indiferente, sem edemas.\"\n\nDescrição sistemática: estado geral, consciência, hidratação, coloração (descorado/normocorado, ictérico, cianótico), temperatura, fácies, atitude, edema, linfonodos etc.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · plano 1.2 · exame físico geral (descrição)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-30"
@@ -4266,10 +4266,10 @@
       "Morte encefálica.",
       "Simulação.",
       "Paralisia do VI par bilateral.",
-      "Integridade das vias do tronco encefálico (vestíbulo-oculomotoras), sugerindo coma de causa metabólica ou hemisférica."
+      "Tronco encefálico íntegro."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nReflexo oculocefálico ausente (olhos acompanham a cabeça) sugere lesão do tronco. Não pesquisar se houver suspeita de lesão cervical.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Integridade das vias do tronco encefálico (vestíbulo-oculomotoras), sugerindo coma de causa metabólica ou hemisférica.\n\nReflexo oculocefálico ausente (olhos acompanham a cabeça) sugere lesão do tronco. Não pesquisar se houver suspeita de lesão cervical.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · consciência e tronco encefálico",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-31"
@@ -4308,12 +4308,12 @@
     "options": [
       "Percutir o tendão de Aquiles com o martelo.",
       "Estimular a ponta do hálux com agulha.",
-      "Estimular a borda lateral da planta do pé com objeto rombo, do calcanhar em direção aos dedos, fazendo uma curva na região metatarsal.",
+      "Estímulo rombo na borda lateral da planta, do calcanhar aos dedos.",
       "Comprimir a panturrilha com força.",
       "Flexionar passivamente o hálux."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nVariantes (Chaddock, Oppenheim) também pesquisam a resposta extensora; o significado é o mesmo do Babinski.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Estimular a borda lateral da planta do pé com objeto rombo, do calcanhar em direção aos dedos, fazendo uma curva na região metatarsal.\n\nVariantes (Chaddock, Oppenheim) também pesquisam a resposta extensora; o significado é o mesmo do Babinski.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · reflexos (cutaneoplantar)",
     "origin": "inedita",
     "ref": "PROPE-PF-MIX-33"
@@ -4369,11 +4369,11 @@
       "Hérnia umbilical encarcerada, evidenciada pelo piparote.",
       "Hérnia inguinal direta, evidenciada pela palpação do canal inguinal.",
       "Aneurisma de aorta, evidenciado pela ausculta.",
-      "Diástase dos músculos retos abdominais, evidenciada pela manobra de Smith-Bates (contração do abdome ao elevar a cabeça ou as pernas).",
+      "Diástase dos retos abdominais, pela manobra de Smith-Bates.",
       "Hepatomegalia, evidenciada pela técnica de Lemos-Torres."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nDiástase: afastamento dos retos sem saco nem anel herniário (puerpério, obesidade, idosos). Valsalva/tosse evidenciam hérnias.\n\n*Imagem: Jmarchn — CC0, via Wikimedia Commons ([Diastasis recti, old man.jpg](https://commons.wikimedia.org/wiki/File:Diastasis_recti,_old_man.jpg)).*",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Diástase dos músculos retos abdominais, evidenciada pela manobra de Smith-Bates (contração do abdome ao elevar a cabeça ou as pernas).\n\nDiástase: afastamento dos retos sem saco nem anel herniário (puerpério, obesidade, idosos). Valsalva/tosse evidenciam hérnias.\n\n*Imagem: Jmarchn — CC0, via Wikimedia Commons ([Diastasis recti, old man.jpg](https://commons.wikimedia.org/wiki/File:Diastasis_recti,_old_man.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · inspeção dinâmica (Smith-Bates)",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-02"
@@ -4411,13 +4411,13 @@
     "stem": "Ao pedir que um paciente com dor na fossa ilíaca direita tussa, ele refere piora nítida da dor nessa região. Esse achado indica:",
     "options": [
       "Cólica ureteral sem inflamação.",
-      "Irritação peritoneal (sinal de Dunphy), reforçando a hipótese de apendicite.",
+      "Irritação peritoneal (sinal de Dunphy).",
       "Ruído hidroaéreo metálico.",
       "Hérnia inguinal redutível.",
       "Contratura voluntária por ansiedade."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nA tosse movimenta o peritônio inflamado — útil para pesquisar irritação peritoneal sem palpação brusca.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Irritação peritoneal (sinal de Dunphy), reforçando a hipótese de apendicite.\n\nA tosse movimenta o peritônio inflamado — útil para pesquisar irritação peritoneal sem palpação brusca.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 · plano 5.3 · irritação peritoneal (Dunphy)",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-04"
@@ -4434,12 +4434,12 @@
     "options": [
       "A traqueia não deve ser palpada no exame do pescoço.",
       "O desvio indica obrigatoriamente pneumotórax hipertensivo.",
-      "O bócio volumoso pode deslocar a traqueia para o lado oposto e causar compressão (dispneia, estridor, disfagia), o que deve ser registrado.",
+      "O bócio pode desviar e comprimir a traqueia.",
       "Traqueia desviada é achado normal em adultos.",
       "O bócio só desvia a traqueia quando é maligno."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nA traqueia deve estar centralizada; desvios ocorrem por massas cervicais/mediastinais, pneumotórax, atelectasia.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** O bócio volumoso pode deslocar a traqueia para o lado oposto e causar compressão (dispneia, estridor, disfagia), o que deve ser registrado.\n\nA traqueia deve estar centralizada; desvios ocorrem por massas cervicais/mediastinais, pneumotórax, atelectasia.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 12 e 15 · SOP IV Guia PR2 seção 02 · pescoço (inspeção e palpação da traqueia)",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-05"
@@ -4479,11 +4479,11 @@
       "Ataxia sensitiva.",
       "AVC cerebelar.",
       "Vertigem posicional paroxística benigna.",
-      "Doença de Ménière (hidropsia endolinfática), síndrome vestibular periférica.",
+      "Doença de Ménière.",
       "Pré-síncope por arritmia."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nVPPB: segundos, posicional, sem sintomas auditivos. Neurite vestibular: vertigem contínua por dias, sem perda auditiva. Ménière: crises de horas com sintomas auditivos.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Doença de Ménière (hidropsia endolinfática), síndrome vestibular periférica.\n\nVPPB: segundos, posicional, sem sintomas auditivos. Neurite vestibular: vertigem contínua por dias, sem perda auditiva. Ménière: crises de horas com sintomas auditivos.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 6 e 20 · SOP IV Guia PR2 seção 05 · plano 6.1 · tontura (vertigem periférica)",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-07"
@@ -4567,11 +4567,11 @@
       "Apenas o tamanho em centímetros.",
       "Somente a cor da pele.",
       "Somente a presença de dor.",
-      "Localização, número, tamanho, consistência, mobilidade, sensibilidade, coalescência e alterações da pele sobrejacente.",
+      "Local, tamanho, consistência, mobilidade e dor.",
       "Apenas a cadeia, sem outras características."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nSinais de alerta: supraclavicular, > 2 cm, endurecido, aderido, indolor, crescente, sintomas B.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Localização, número, tamanho, consistência, mobilidade, sensibilidade, coalescência e alterações da pele sobrejacente.\n\nSinais de alerta: supraclavicular, > 2 cm, endurecido, aderido, indolor, crescente, sintomas B.",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 · ectoscopia (linfonodos) e plano 2.2",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-11"
@@ -4586,14 +4586,14 @@
     "subtopic": "reflexo fotomotor · técnica",
     "stem": "Sobre a pesquisa dos reflexos pupilares, assinale a correta:",
     "options": [
-      "Em ambiente pouco iluminado, incide-se a luz em uma pupila e observam-se as duas: a contração da pupila iluminada é o reflexo direto e a da outra, o consensual.",
+      "Em ambiente pouco iluminado, incide-se a luz em uma pupila e observam-se as duas.",
       "A luz deve ser incidida nos dois olhos ao mesmo tempo.",
       "O reflexo consensual depende apenas do nervo óptico do mesmo lado.",
       "A acomodação é pesquisada com luz forte no olho.",
       "Pupilas normais medem 8 a 10 mm em ambiente claro."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nPupilas normais: 2–4 mm, centrais, redondas e simétricas (até 5% têm leve anisocoria). Acomodação: ao fixar objeto próximo, as pupilas contraem e os olhos convergem.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Em ambiente pouco iluminado, incide-se a luz em uma pupila e observam-se as duas: a contração da pupila iluminada é o reflexo direto e a da outra, o consensual.\n\nPupilas normais: 2–4 mm, centrais, redondas e simétricas (até 5% têm leve anisocoria). Acomodação: ao fixar objeto próximo, as pupilas contraem e os olhos convergem.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · pupilas (técnica)",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-12"
@@ -4612,10 +4612,10 @@
       "Anserina, por miopatia.",
       "Ebriosa, por síndrome cerebelar.",
       "Escarvante, por lesão do fibular.",
-      "Ceifante (hemiplégica), por lesão piramidal com espasticidade."
+      "Ceifante (hemiplégica)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nPostura de Wernicke-Mann: flexão do membro superior e extensão do inferior (padrão espástico piramidal).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Ceifante (hemiplégica), por lesão piramidal com espasticidade.\n\nPostura de Wernicke-Mann: flexão do membro superior e extensão do inferior (padrão espástico piramidal).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano 6.2 · marcha",
     "origin": "inedita",
     "ref": "PROPE-PF-FIM-13"
@@ -4800,11 +4800,11 @@
       "Indica enfisema subcutâneo, pela crepitação.",
       "Indica linfedema crônico, que nunca deixa fóvea.",
       "É o sinal da prega, que indica desidratação.",
-      "É o sinal do cacifo (fóvea), que indica edema depressível; sua intensidade é graduada de + a ++++.",
+      "É o sinal do cacifo (fóvea), que indica edema depressível.",
       "É o sinal de Trousseau, que indica hipocalcemia."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nEdema mole com fóvea persistente: cardíaco, renal, hepático, carencial. Linfedema crônico: duro, pouco depressível, pele espessa.\n\n*Imagem: James Heilman, MD — CC BY-SA 3.0, via Wikimedia Commons ([Combinpedal.jpg](https://commons.wikimedia.org/wiki/File:Combinpedal.jpg)).*",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** É o sinal do cacifo (fóvea), que indica edema depressível; sua intensidade é graduada de + a ++++.\n\nEdema mole com fóvea persistente: cardíaco, renal, hepático, carencial. Linfedema crônico: duro, pouco depressível, pele espessa.\n\n*Imagem: James Heilman, MD — CC BY-SA 3.0, via Wikimedia Commons ([Combinpedal.jpg](https://commons.wikimedia.org/wiki/File:Combinpedal.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · edema (cap. 10)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-07"
@@ -4820,14 +4820,14 @@
     "stem": "A imagem mostra lesão vascular com um ponto central avermelhado do qual partem finos vasos radiados. Em um etilista, esse achado sugere hepatopatia crônica. Qual a técnica correta para evidenciar sua natureza?",
     "image": "/img/q/aranha-vascular.jpg",
     "options": [
-      "Puntipressão: comprimir o ponto central com objeto de ponta romba faz a lesão empalidecer.",
+      "Puntipressão: a lesão empalidece.",
       "Manobra de Valsalva.",
       "Sinal da prega cutânea.",
       "Percussão digito-digital.",
       "Vitropressão: a lesão não some, por ser hemorrágica."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nAranhas vasculares (telangiectasias aracniformes): hiperestrogenismo da cirrose, gestação. Vitropressão/digitopressão diferenciam mancha vascular (some) de hemorrágica (fica).\n\n*Imagem: M. Sand, D. Sand, C. Thrandorf, V. Paech, P. Altmeyer, F. G. Bechara — CC BY 2.0, via Wikimedia Commons ([Nevus araneus 01.jpg](https://commons.wikimedia.org/wiki/File:Nevus_araneus_01.jpg)).*",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Puntipressão: comprimir o ponto central com objeto de ponta romba faz a lesão empalidecer.\n\nAranhas vasculares (telangiectasias aracniformes): hiperestrogenismo da cirrose, gestação. Vitropressão/digitopressão diferenciam mancha vascular (some) de hemorrágica (fica).\n\n*Imagem: M. Sand, D. Sand, C. Thrandorf, V. Paech, P. Altmeyer, F. G. Bechara — CC BY 2.0, via Wikimedia Commons ([Nevus araneus 01.jpg](https://commons.wikimedia.org/wiki/File:Nevus_araneus_01.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões vasculares (telangiectasias)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-08"
@@ -4845,12 +4845,12 @@
     "options": [
       "Vesículas agrupadas.",
       "Equimoses extensas, do grupo das manchas hemorrágicas.",
-      "Manchas eritematosas confluentes (exantema), do grupo das alterações de cor vasculares.",
+      "Manchas eritematosas confluentes (exantema).",
       "Urticas, do grupo das elevações edematosas.",
       "Placas de liquenificação."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nMancha vascular some à vitropressão; hemorrágica (petéquia, equimose) não. Exantema = manchas eritematosas disseminadas; enantema = nas mucosas.\n\n*Imagem: Emy Abi Thomas, Mary John,1 and Bimal Kanish — CC BY 3.0, via Wikimedia Commons ([Erythema with petechiae on patient with dengue fever.jpg](https://commons.wikimedia.org/wiki/File:Erythema_with_petechiae_on_patient_with_dengue_fever.jpg)).*",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Manchas eritematosas confluentes (exantema), do grupo das alterações de cor vasculares.\n\nMancha vascular some à vitropressão; hemorrágica (petéquia, equimose) não. Exantema = manchas eritematosas disseminadas; enantema = nas mucosas.\n\n*Imagem: Emy Abi Thomas, Mary John,1 and Bimal Kanish — CC BY 3.0, via Wikimedia Commons ([Erythema with petechiae on patient with dengue fever.jpg](https://commons.wikimedia.org/wiki/File:Erythema_with_petechiae_on_patient_with_dengue_fever.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões elementares (manchas vasculares)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-09"
@@ -4867,13 +4867,13 @@
     "image": "/img/q/purpura-hsp.jpg",
     "options": [
       "Urticária aguda.",
-      "Púrpura palpável, manifestação de vasculite de pequenos vasos (como a púrpura de Henoch-Schönlein).",
+      "Púrpura palpável (vasculite).",
       "Vitiligo.",
       "Eritema palmar da cirrose.",
       "Exantema viral que some à vitropressão."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nPúrpura = extravasamento de sangue (petéquias, equimoses) que não some à vitropressão; quando palpável, sugere vasculite (inflamação da parede do vaso).\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Púrpura palpável, manifestação de vasculite de pequenos vasos (como a púrpura de Henoch-Schönlein).\n\nPúrpura = extravasamento de sangue (petéquias, equimoses) que não some à vitropressão; quando palpável, sugere vasculite (inflamação da parede do vaso).\n\n*Imagem: Profrofrof — CC0, via Wikimedia Commons ([HSP Vasculitis.jpg](https://commons.wikimedia.org/wiki/File:HSP_Vasculitis.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 11 (Pele, mucosas e fâneros) · SOP IV Guia PR2 seção 01 (lesões elementares, treino por imagem) · lesões elementares (manchas hemorrágicas)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-10"
@@ -4891,12 +4891,12 @@
     "options": [
       "Sinal de Jobert — pneumoperitônio.",
       "Sinal de Grey-Turner — equimose nos flancos por hérnia estrangulada.",
-      "Sinal de Cullen — equimose periumbilical por hemorragia retroperitoneal, como na pancreatite necro-hemorrágica.",
+      "Sinal de Cullen — equimose periumbilical por hemorragia retroperitoneal.",
       "Cabeça de Medusa — circulação colateral tipo porta.",
       "Onfalite — infecção do coto umbilical."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\n\"Cullen = Centro; Grey-Turner = Grandes flancos\". Cullen também ocorre na gravidez ectópica rota.\n\n*Imagem: Herbert L. Fred, MD and Hendrik A. van Dijk — CC BY 2.0, via Wikimedia Commons ([Cullen's sign.jpg](https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg)).*",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Sinal de Cullen — equimose periumbilical por hemorragia retroperitoneal, como na pancreatite necro-hemorrágica.\n\n\"Cullen = Centro; Grey-Turner = Grandes flancos\". Cullen também ocorre na gravidez ectópica rota.\n\n*Imagem: Herbert L. Fred, MD and Hendrik A. van Dijk — CC BY 2.0, via Wikimedia Commons ([Cullen's sign.jpg](https://commons.wikimedia.org/wiki/File:Cullen%27s_sign.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 17 · SOP IV Guia PR2 seção 03 (treino por imagem) · inspeção (equimoses)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-11"
@@ -5005,13 +5005,13 @@
     "image": "/img/q/miastenia-ptose.jpg",
     "options": [
       "É paralisia facial periférica com lagoftalmo.",
-      "O padrão flutuante sugere miastenia gravis, doença autoimune da placa motora; a melhora da ptose com anticolinesterásico ou com gelo reforça o diagnóstico.",
+      "O padrão flutuante sugere miastenia gravis, doença autoimune da placa motora.",
       "É uma lesão do nervo óptico.",
       "A ptose com pupila normal e flutuação indica lesão completa do III par por aneurisma.",
       "É síndrome de Horner, com miose e enoftalmia."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nNa lesão do III a ptose vem com midríase e olho para baixo e para fora; no Horner, ptose discreta com miose. Fácies miastênica (Hutchinson): ptose bilateral, franze a testa.\n\n*Imagem: Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyanam, Mansoor Nasim, Annapurni Jayam-Trouth. — CC BY 2.0, via Wikimedia Commons ([Myasthenia gravis ptosis reversal.jpg](https://commons.wikimedia.org/wiki/File:Myasthenia_gravis_ptosis_reversal.jpg)).*",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** O padrão flutuante sugere miastenia gravis, doença autoimune da placa motora; a melhora da ptose com anticolinesterásico ou com gelo reforça o diagnóstico.\n\nNa lesão do III a ptose vem com midríase e olho para baixo e para fora; no Horner, ptose discreta com miose. Fácies miastênica (Hutchinson): ptose bilateral, franze a testa.\n\n*Imagem: Mohankumar Kurukumbi, Roger L Weir, Janaki Kalyanam, Mansoor Nasim, Annapurni Jayam-Trouth. — CC BY 2.0, via Wikimedia Commons ([Myasthenia gravis ptosis reversal.jpg](https://commons.wikimedia.org/wiki/File:Myasthenia_gravis_ptosis_reversal.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · III par × junção neuromuscular (ptose)",
     "origin": "inedita",
     "ref": "PROPE-IMG1-16"
@@ -5027,14 +5027,14 @@
     "stem": "O paciente da imagem refere cefaleia, aumento do número dos sapatos e dos anéis, e dormência noturna nas mãos. Observe as arcadas supraorbitárias salientes, o nariz e os lábios grossos e a mandíbula desenvolvida. A fácies e a causa provável são:",
     "image": "/img/q/acromegalia.jpg",
     "options": [
-      "Fácies acromegálica — excesso de hormônio do crescimento por adenoma hipofisário.",
+      "Fácies acromegálica.",
       "Fácies mixedematosa — hipotireoidismo.",
       "Fácies cushingoide — corticoterapia.",
       "Fácies hipocrática — doença terminal.",
       "Fácies leonina — hanseníase virchowiana."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nO caso típico da prova traz cefaleia (adenoma), túnel do carpo, mãos e pés grandes, prognatismo e macroglossia.\n\n*Imagem: Alfred Loomis & William Thompson — Public domain, via Wikimedia Commons ([Acromegaly 1887.jpg](https://commons.wikimedia.org/wiki/File:Acromegaly_1887.jpg)).*",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Fácies acromegálica — excesso de hormônio do crescimento por adenoma hipofisário.\n\nO caso típico da prova traz cefaleia (adenoma), túnel do carpo, mãos e pés grandes, prognatismo e macroglossia.\n\n*Imagem: Alfred Loomis & William Thompson — Public domain, via Wikimedia Commons ([Acromegaly 1887.jpg](https://commons.wikimedia.org/wiki/File:Acromegaly_1887.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fácies e Complemento das provas antigas",
     "origin": "inedita",
     "ref": "PROPE-IMG2-01"
@@ -5075,12 +5075,12 @@
     "options": [
       "Surge apenas em áreas cobertas — dermatite de contato.",
       "Tem madarose e anestesia — hanseníase.",
-      "Poupa os sulcos nasolabiais e é fotossensível — lúpus eritematoso sistêmico.",
+      "Poupa os sulcos nasolabiais e é fotossensível.",
       "É acompanhado de exoftalmia — doença de Graves.",
       "Acomete os sulcos nasolabiais e tem pústulas — rosácea."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nNa prova: \"eritema que cobre as bochechas e a ponte nasal, sem acometer o sulco nasolabial, fotossensível\" = fácies lúpica.\n\n*Imagem: National Institute of Arthritis and Musculoskeletal and Skin Diseases — Public domain, via Wikimedia Commons ([Butterflyrash.jpg](https://commons.wikimedia.org/wiki/File:Butterflyrash.jpg)).*",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Poupa os sulcos nasolabiais e é fotossensível — lúpus eritematoso sistêmico.\n\nNa prova: \"eritema que cobre as bochechas e a ponte nasal, sem acometer o sulco nasolabial, fotossensível\" = fácies lúpica.\n\n*Imagem: National Institute of Arthritis and Musculoskeletal and Skin Diseases — Public domain, via Wikimedia Commons ([Butterflyrash.jpg](https://commons.wikimedia.org/wiki/File:Butterflyrash.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · fácies (lúpica) e Complemento",
     "origin": "inedita",
     "ref": "PROPE-IMG2-03"
@@ -5120,13 +5120,13 @@
     "image": "/img/q/equimose.jpg",
     "options": [
       "É uma urtica, pela evolução em horas.",
-      "É uma mancha hemorrágica que não some à vitropressão, e a mudança de cor reflete a degradação da hemoglobina extravasada ao longo de cerca de 9 dias.",
+      "É uma mancha hemorrágica que não some à vitropressão.",
       "É uma mancha vascular que desaparece à vitropressão.",
       "As equimoses são puntiformes, menores que as petéquias.",
       "A cor amarelada indica sangramento recente, de menos de 24 horas."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nVermelha (até 48 h) → arroxeada → azulada → esverdeada/amarelada → normal (após ~9º dia). Petéquias: puntiformes; equimoses: placas maiores.\n\n*Imagem: Clarinetguy097 — CC0, via Wikimedia Commons ([Bruise - ring resolution.jpg](https://commons.wikimedia.org/wiki/File:Bruise_-_ring_resolution.jpg)).*",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** É uma mancha hemorrágica que não some à vitropressão, e a mudança de cor reflete a degradação da hemoglobina extravasada ao longo de cerca de 9 dias.\n\nVermelha (até 48 h) → arroxeada → azulada → esverdeada/amarelada → normal (após ~9º dia). Petéquias: puntiformes; equimoses: placas maiores.\n\n*Imagem: Clarinetguy097 — CC0, via Wikimedia Commons ([Bruise - ring resolution.jpg](https://commons.wikimedia.org/wiki/File:Bruise_-_ring_resolution.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., caps. 10 e 11 · SOP IV Guia PR2 seção 01 (fácies, lesões elementares, fâneros) · manchas hemorrágicas (cor da equimose)",
     "origin": "inedita",
     "ref": "PROPE-IMG2-05"
@@ -5165,14 +5165,14 @@
     "stem": "A fundoscopia da imagem, de um paciente diabético e hipertenso com baixa visual, mostra hemorragias retinianas e manchas algodonosas (exsudatos moles). Sobre esses achados, assinale a correta:",
     "image": "/img/q/retinopatia.png",
     "options": [
-      "As manchas algodonosas são microinfartos da camada de fibras nervosas e, com as hemorragias, indicam retinopatia (diabética e/ou hipertensiva) com lesão vascular retiniana.",
+      "Microinfartos da camada de fibras nervosas da retina.",
       "As manchas algodonosas são depósitos de colesterol sem significado vascular.",
       "As hemorragias indicam glaucoma.",
       "Os achados são normais no idoso.",
       "O achado é típico de catarata."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nDiabética: microaneurismas (1ª lesão), exsudatos duros, hemorragias puntiformes, neovasos. Hipertensiva: estreitamento arteriolar, cruzamentos AV, fio de cobre/prata, hemorragias em chama, manchas algodonosas, papiledema (maligna).\n\n*Imagem: Renátó Besenczi\nJános Tóth\n\nAndrás Hajdu — CC BY-SA 4.0, via Wikimedia Commons ([A sample retinal image with cotton wool spots and hemorrhages.png](https://commons.wikimedia.org/wiki/File:A_sample_retinal_image_with_cotton_wool_spots_and_hemorrhages.png)).*",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** As manchas algodonosas são microinfartos da camada de fibras nervosas e, com as hemorragias, indicam retinopatia (diabética e/ou hipertensiva) com lesão vascular retiniana.\n\nDiabética: microaneurismas (1ª lesão), exsudatos duros, hemorragias puntiformes, neovasos. Hipertensiva: estreitamento arteriolar, cruzamentos AV, fio de cobre/prata, hemorragias em chama, manchas algodonosas, papiledema (maligna).\n\n*Imagem: Renátó Besenczi\nJános Tóth\n\nAndrás Hajdu — CC BY-SA 4.0, via Wikimedia Commons ([A sample retinal image with cotton wool spots and hemorrhages.png](https://commons.wikimedia.org/wiki/File:A_sample_retinal_image_with_cotton_wool_spots_and_hemorrhages.png)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 15 · SOP IV Guia PR2 seção 02 (fundo de olho) · fundo de olho (retinopatia)",
     "origin": "inedita",
     "ref": "PROPE-IMG2-07"
@@ -5190,12 +5190,12 @@
     "options": [
       "Escavação aumentada do disco — glaucoma.",
       "Drusas maculares — degeneração macular.",
-      "Papiledema — sinal de hipertensão intracraniana, que exige neuroimagem.",
+      "Papiledema — sinal de hipertensão intracraniana.",
       "Catarata com reflexo vermelho reduzido.",
       "Fundo de olho normal."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nCausas de HIC: tumores, hematomas, hidrocefalia, meningite, trombose venosa, pseudotumor cerebral. Papiledema não costuma reduzir a acuidade no início.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Papiledema — sinal de hipertensão intracraniana, que exige neuroimagem.\n\nCausas de HIC: tumores, hematomas, hidrocefalia, meningite, trombose venosa, pseudotumor cerebral. Papiledema não costuma reduzir a acuidade no início.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 15 · SOP IV Guia PR2 seção 02 (fundo de olho) · fundo de olho (papiledema)",
     "origin": "inedita",
     "ref": "PROPE-IMG2-08"
@@ -5212,13 +5212,13 @@
     "image": "/img/q/papiledema.jpg",
     "options": [
       "Nenhum exame; trata-se de cefaleia tensional.",
-      "Tomografia (ou ressonância) de crânio, pela suspeita de lesão expansiva com hipertensão intracraniana.",
+      "Tomografia (ou ressonância) de crânio.",
       "Marcadores tumorais séricos.",
       "Punção lombar antes da imagem.",
       "Eletroencefalograma."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nPapiledema + cefaleia nova progressiva + câncer prévio = sinais de alarme (SNOOP). Punção antes da imagem pode precipitar herniação.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Tomografia (ou ressonância) de crânio, pela suspeita de lesão expansiva com hipertensão intracraniana.\n\nPapiledema + cefaleia nova progressiva + câncer prévio = sinais de alarme (SNOOP). Punção antes da imagem pode precipitar herniação.\n\n*Imagem: Shveta Bansal , Timothy Dabbs  and Vernon Long — CC BY 2.0, via Wikimedia Commons ([Fundal photograph showing severe papilloedema in the right eye.jpg](https://commons.wikimedia.org/wiki/File:Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg)).*",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · fundo de olho e plano 6.1",
     "origin": "inedita",
     "ref": "PROPE-IMG2-09"
@@ -5233,14 +5233,14 @@
     "subtopic": "nervos e reflexos · CORRETA",
     "stem": "Sobre os achados do exame neurológico, marque a alternativa CORRETA:",
     "options": [
-      "Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos: o quadro sugere compressão do nervo radial.",
+      "Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos.",
       "Semiptose e midríase à direita, com paresia do reto medial ipsilateral, direcionam para acometimento do nervo abducente direito.",
       "O ramo mandibular do trigêmeo é responsável pela gustação dos dois terços anteriores da língua.",
       "Parestesia noturna do 1º ao 3º dedos com sinais de Tinel e Phalen positivos indica lesão do nervo ulnar.",
       "O reflexo córneo-palpebral é usado nos pacientes em coma; quando está presente, levanta-se a suspeita de grave lesão do tronco encefálico."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nMão caída ao acordar = **radial**. Córneo-palpebral: a suspeita vem quando está **ausente**. Ptose + midríase + paresia do reto medial = **oculomotor**. Gustação dos 2/3 anteriores = **facial** (corda do tímpano). Tinel e Phalen = **mediano** (túnel do carpo).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Paciente de 25 anos acordou, após dormir com o braço apoiado no encosto do sofá, com queda do punho direito e paresia da extensão dos dedos: o quadro sugere compressão do nervo radial.\n\nMão caída ao acordar = **radial**. Córneo-palpebral: a suspeita vem quando está **ausente**. Ptose + midríase + paresia do reto medial = **oculomotor**. Gustação dos 2/3 anteriores = **facial** (corda do tímpano). Tinel e Phalen = **mediano** (túnel do carpo).",
     "source": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q15)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU-01"
@@ -5376,10 +5376,10 @@
       "Trata-se de síndrome medular, pelo acometimento bilateral e simétrico com preservação dos esfíncteres.",
       "A sensibilidade superficial pode ter sido testada com o diapasão e a profunda com a ponta de um estilete.",
       "Os achados são compatíveis com síndrome do neurônio motor superior, pela hipotrofia e pela ausência de reflexos.",
-      "O quadro é compatível com polineuropatia periférica, com alteração sensitiva superficial e profunda distal, tendo como principal hipótese a neuropatia diabética."
+      "Polineuropatia periférica com perda sensitiva distal (hipótese: neuropatia diabética)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nDistal, simétrica, \"em bota\", arreflexia (aquileu primeiro), sem Babinski e sem nível sensitivo = polineuropatia. O diapasão testa a sensibilidade **profunda** (vibratória); o estilete, a dolorosa superficial.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** O quadro é compatível com polineuropatia periférica, com alteração sensitiva superficial e profunda distal, tendo como principal hipótese a neuropatia diabética.\n\nDistal, simétrica, \"em bota\", arreflexia (aquileu primeiro), sem Babinski e sem nível sensitivo = polineuropatia. O diapasão testa a sensibilidade **profunda** (vibratória); o estilete, a dolorosa superficial.",
     "source": "SOP IV Guia PR2 · 04 Exame neurológico (Profa. Bárbara e Prof. Renato + Porto cap. 20) · temas recorrentes nas provas · Nas provas (Q16) e 4 Polineuropatia (seção 05)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU-07"
@@ -5606,10 +5606,10 @@
       "As duas narinas devem ser testadas juntas, com os olhos abertos.",
       "A anosmia pós-traumática é sempre psicogênica.",
       "Cacosmia é a perda total do olfato.",
-      "Deve-se afastar obstrução nasal e testar cada narina separadamente, com os olhos fechados, usando substâncias conhecidas e não irritantes, como café ou canela."
+      "Deve-se afastar obstrução nasal e testar cada narina separadamente."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nSubstâncias irritantes (amônia) estimulam o trigêmeo, não o olfatório. Anosmia = perda; cacosmia = odor desagradável inexistente (pode ser crise uncinada).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Deve-se afastar obstrução nasal e testar cada narina separadamente, com os olhos fechados, usando substâncias conhecidas e não irritantes, como café ou canela.\n\nSubstâncias irritantes (amônia) estimulam o trigêmeo, não o olfatório. Anosmia = perda; cacosmia = odor desagradável inexistente (pode ser crise uncinada).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · nervos cranianos (I olfatório)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-08"
@@ -5646,14 +5646,14 @@
     "subtopic": "pupilas · defeito aferente",
     "stem": "Paciente com neurite óptica à esquerda. Ao iluminar o olho esquerdo, nenhuma das pupilas contrai; ao iluminar o olho direito, ambas contraem normalmente. A interpretação correta é:",
     "options": [
-      "Lesão da via aferente (nervo óptico) esquerda, com via eferente (III par) preservada nos dois olhos.",
+      "Lesão da via aferente (nervo óptico) esquerda.",
       "Pupila de Argyll-Robertson bilateral.",
       "Síndrome de Horner à esquerda.",
       "Lesão do nervo oculomotor esquerdo.",
       "Lesão do nervo oculomotor direito."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nFotomotor: aferente II, eferente III. Luz no olho com lesão do II → sem direto nem consensual; luz no olho sadio → ambos contraem. Na lesão do III a pupila desse olho não contrai com luz em nenhum dos olhos (midríase paralítica).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Lesão da via aferente (nervo óptico) esquerda, com via eferente (III par) preservada nos dois olhos.\n\nFotomotor: aferente II, eferente III. Luz no olho com lesão do II → sem direto nem consensual; luz no olho sadio → ambos contraem. Na lesão do III a pupila desse olho não contrai com luz em nenhum dos olhos (midríase paralítica).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · pupilas (lesão aferente do II)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-10"
@@ -5716,14 +5716,14 @@
     "subtopic": "VII · Bell",
     "stem": "Homem de 40 anos acorda com incapacidade de fechar o olho esquerdo, lacrimejamento, apagamento do sulco nasolabial e desvio da boca para a direita; não consegue franzir a testa à esquerda. Refere sensibilidade aumentada aos sons no ouvido esquerdo. O diagnóstico mais provável é:",
     "options": [
-      "Paralisia facial periférica esquerda (paralisia de Bell), com acometimento do ramo para o músculo estapédio.",
+      "Paralisia facial periférica esquerda (paralisia de Bell).",
       "Miastenia gravis ocular.",
       "Paralisia facial central esquerda.",
       "Paralisia facial central direita por AVC.",
       "Lesão do trigêmeo esquerdo."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nHemiface toda (inclusive a testa), ipsilateral = periférica. A hiperacusia indica lesão proximal à saída do nervo para o estapédio. Bell (a frigore) é a causa mais comum (~80%).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Paralisia facial periférica esquerda (paralisia de Bell), com acometimento do ramo para o músculo estapédio.\n\nHemiface toda (inclusive a testa), ipsilateral = periférica. A hiperacusia indica lesão proximal à saída do nervo para o estapédio. Bell (a frigore) é a causa mais comum (~80%).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · nervos cranianos (VII facial periférico)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-13"
@@ -5740,12 +5740,12 @@
     "options": [
       "Síndrome cerebelar central por AVC de fossa posterior.",
       "Neuralgia do trigêmeo.",
-      "Vertigem posicional paroxística benigna, uma síndrome vestibular periférica.",
+      "Vertigem posicional paroxística benigna.",
       "Pré-síncope por arritmia cardíaca.",
       "Ataxia sensitiva por lesão do cordão posterior."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nVertigem posicional breve com nistagmo de latência e fatigável ao Dix-Hallpike = VPPB (periférica). Sinais de alarme de causa central: nistagmo vertical puro, sem latência, não fatigável, com outros déficits neurológicos.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Vertigem posicional paroxística benigna, uma síndrome vestibular periférica.\n\nVertigem posicional breve com nistagmo de latência e fatigável ao Dix-Hallpike = VPPB (periférica). Sinais de alarme de causa central: nistagmo vertical puro, sem latência, não fatigável, com outros déficits neurológicos.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · nervos cranianos (VIII vestibular)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-14"
@@ -5960,12 +5960,12 @@
     "options": [
       "Aumento do reflexo aquileu com reflexo patelar normal.",
       "Reflexo patelar normal, pois o arco é integrado no tronco encefálico.",
-      "Diminuição ou abolição do reflexo patelar do lado acometido, por interrupção do arco reflexo.",
+      "Diminuição ou abolição do reflexo patelar do lado acometido.",
       "Exaltação do reflexo patelar com clônus.",
       "Sinal de Babinski ipsilateral."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nLesão do 2º neurônio/raiz (arco) → hiporreflexia; lesão do 1º neurônio (perde a inibição) → hiper-reflexia.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Diminuição ou abolição do reflexo patelar do lado acometido, por interrupção do arco reflexo.\n\nLesão do 2º neurônio/raiz (arco) → hiporreflexia; lesão do 1º neurônio (perde a inibição) → hiper-reflexia.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · reflexos (arco reflexo, slide 25)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-24"
@@ -6028,10 +6028,10 @@
       "Romberg negativo, típico de síndrome cerebelar.",
       "Romberg positivo de padrão proprioceptivo, com queda imediata para qualquer lado.",
       "Achado normal, pois todos oscilam ao fechar os olhos.",
-      "Romberg positivo de padrão vestibular, com queda lateralizada para o lado da lesão labiríntica, após latência."
+      "Romberg vestibular: queda para o lado lesado, após latência."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nProprioceptivo: queda imediata, para qualquer lado. Vestibular: após latência, sempre para o mesmo lado (o da lesão). Cerebelar: Romberg negativo.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Romberg positivo de padrão vestibular, com queda lateralizada para o lado da lesão labiríntica, após latência.\n\nProprioceptivo: queda imediata, para qualquer lado. Vestibular: após latência, sempre para o mesmo lado (o da lesão). Cerebelar: Romberg negativo.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · equilíbrio estático (Romberg)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-27"
@@ -6161,13 +6161,13 @@
     "stem": "Idoso de 72 anos refere tremor nas mãos que aparece quando segura a xícara e piora ao aproximá-la da boca; o tremor some em repouso. O pai tinha quadro semelhante, e o tremor melhora com pequena dose de álcool. O tipo de tremor mais provável é:",
     "options": [
       "Asterix, como na encefalopatia hepática.",
-      "Tremor postural e de ação, como no tremor essencial (familiar).",
+      "Tremor postural e de ação.",
       "Tremor de repouso, como no parkinsonismo.",
       "Tremor vibratório do hipertireoidismo.",
       "Mioclonia negativa."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nTremor de repouso some com o movimento (Parkinson). Postural/de ação: tremor essencial (o mais comum, familiar). Intencional: cerebelar.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Tremor postural e de ação, como no tremor essencial (familiar).\n\nTremor de repouso some com o movimento (Parkinson). Postural/de ação: tremor essencial (o mais comum, familiar). Intencional: cerebelar.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · movimentos involuntários (tremores)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-33"
@@ -6206,12 +6206,12 @@
     "options": [
       "Síndrome do neurônio motor superior.",
       "AVC lacunar sensitivo.",
-      "Polineuropatia periférica sensitivo-motora, distal e simétrica.",
+      "Polineuropatia sensitivo-motora distal.",
       "Síndrome cerebelar.",
       "Síndrome medular torácica."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nPolineuropatia = \"luva, bota, sem reflexo\": distal, simétrica, arreflexia (aquileu primeiro), Romberg pode ser positivo; sem nível sensitivo e sem Babinski. Causas: diabetes, álcool, B12, hipotireoidismo, hanseníase.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Polineuropatia periférica sensitivo-motora, distal e simétrica.\n\nPolineuropatia = \"luva, bota, sem reflexo\": distal, simétrica, arreflexia (aquileu primeiro), Romberg pode ser positivo; sem nível sensitivo e sem Babinski. Causas: diabetes, álcool, B12, hipotireoidismo, hanseníase.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 (Exame neurológico) · SOP IV Guia PR2 seção 04 · plano item 6.2 (Profa. Bárbara e Prof. Renato) · síndromes (polineuropatia) e Complemento",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU2-35"
@@ -6258,10 +6258,10 @@
       "Radiculopatia C8.",
       "Polineuropatia diabética em luva.",
       "Paralisia do nervo radial — mão caída.",
-      "Síndrome do túnel do carpo — nervo mediano (sinais de Tinel e Phalen positivos)."
+      "Síndrome do túnel do carpo."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nMediano no túnel do carpo: parestesia do 1º ao 3º dedos e metade radial do 4º, piora noturna, Tinel e Phalen; nos casos avançados, atrofia tenar. Ulnar: 4º (metade) e 5º dedos, garra. Radial: mão caída.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Síndrome do túnel do carpo — nervo mediano (sinais de Tinel e Phalen positivos).\n\nMediano no túnel do carpo: parestesia do 1º ao 3º dedos e metade radial do 4º, piora noturna, Tinel e Phalen; nos casos avançados, atrofia tenar. Ulnar: 4º (metade) e 5º dedos, garra. Radial: mão caída.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · sensibilidade (nervos da mão) e Complemento",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-01"
@@ -6367,11 +6367,11 @@
       "Lesão do nervo óptico direito.",
       "Lesão pontina bilateral.",
       "Intoxicação por opioide.",
-      "Compressão do nervo oculomotor esquerdo pela herniação do úncus (transtentorial).",
+      "Herniação do úncus (III par).",
       "Síndrome de Horner esquerda."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMidríase fixa unilateral no rebaixamento = compressão do III (fibras parassimpáticas superficiais) na herniação uncal. Pupilas puntiformes: lesão pontina ou opioide. A reatividade pupilar entra no Glasgow-P.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Compressão do nervo oculomotor esquerdo pela herniação do úncus (transtentorial).\n\nMidríase fixa unilateral no rebaixamento = compressão do III (fibras parassimpáticas superficiais) na herniação uncal. Pupilas puntiformes: lesão pontina ou opioide. A reatividade pupilar entra no Glasgow-P.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · pupilas e Complemento (pupilas no coma)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-06"
@@ -6387,13 +6387,13 @@
     "stem": "Tabagista de 62 anos com dor no ombro e no braço direito apresenta, à direita, pupila menor que a esquerda, discreta queda da pálpebra superior e afundamento do globo ocular, com redução da sudorese na hemiface direita. A hipótese é:",
     "options": [
       "Paralisia facial periférica direita.",
-      "Síndrome de Horner por lesão do simpático cervical, possivelmente por tumor do ápice pulmonar (Pancoast).",
+      "Síndrome de Horner (tumor de Pancoast).",
       "Anisocoria fisiológica sem significado.",
       "Pupila de Argyll-Robertson por neurossífilis.",
       "Paralisia do oculomotor direito por aneurisma."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nHorner: miose, ptose discreta, enoftalmia e anidrose ipsilaterais. Na lesão do III a pupila é **midriática** e a ptose é completa.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Síndrome de Horner por lesão do simpático cervical, possivelmente por tumor do ápice pulmonar (Pancoast).\n\nHorner: miose, ptose discreta, enoftalmia e anidrose ipsilaterais. Na lesão do III a pupila é **midriática** e a ptose é completa.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · pupilas (Horner)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-07"
@@ -6430,14 +6430,14 @@
     "subtopic": "Parkinson · exame",
     "stem": "Homem de 68 anos com tremor de repouso na mão direita (\"contar moedas\"), lentidão para abotoar a camisa, face inexpressiva e passos curtos. Ao exame, qual achado é esperado no membro superior direito?",
     "options": [
-      "Rigidez plástica com sinal da roda denteada à movimentação passiva do punho.",
+      "Rigidez plástica com roda denteada.",
       "Hipotonia com reflexos pendulares.",
       "Espasticidade em canivete com hiper-reflexia e Babinski.",
       "Fasciculações e atrofia dos interósseos.",
       "Dismetria e tremor intencional no índex-nariz."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nParkinsonismo: tremor de repouso, rigidez plástica (roda denteada), bradicinesia, instabilidade postural; fácies em máscara, marcha em pequenos passos e em bloco. Reflexos normais, sem Babinski.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Rigidez plástica com sinal da roda denteada à movimentação passiva do punho.\n\nParkinsonismo: tremor de repouso, rigidez plástica (roda denteada), bradicinesia, instabilidade postural; fácies em máscara, marcha em pequenos passos e em bloco. Reflexos normais, sem Babinski.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus, movimentos involuntários e marcha (parkinsonismo)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-09"
@@ -6482,10 +6482,10 @@
       "Coreia de Huntington.",
       "Tremor de repouso parkinsoniano.",
       "Tremor essencial.",
-      "Asterix (flapping), uma mioclonia negativa das encefalopatias metabólicas."
+      "Asterix (flapping)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nAsterix: perda breve do tônus postural; encefalopatia hepática, uremia, hipercapnia.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Asterix (flapping), uma mioclonia negativa das encefalopatias metabólicas.\n\nAsterix: perda breve do tônus postural; encefalopatia hepática, uremia, hipercapnia.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (asterix) e Porto cap. 10",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-11"
@@ -6658,10 +6658,10 @@
       "Marcha em pequenos passos — Parkinson.",
       "Marcha ceifante — AVC.",
       "Marcha talonante — tabes dorsalis.",
-      "Marcha anserina — miopatia (como a distrofia muscular de Duchenne)."
+      "Anserina (miopatia)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nAnserina (\"de pato\"): fraqueza da cintura pélvica; o sinal de Gowers (levantar-se apoiando as mãos nas coxas) reforça a miopatia proximal.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Marcha anserina — miopatia (como a distrofia muscular de Duchenne).\n\nAnserina (\"de pato\"): fraqueza da cintura pélvica; o sinal de Gowers (levantar-se apoiando as mãos nas coxas) reforça a miopatia proximal.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha e equilíbrio",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-19"
@@ -6676,14 +6676,14 @@
     "subtopic": "vertigem × desequilíbrio",
     "stem": "Idoso refere \"tontura\" apenas ao caminhar, sem sensação de rotação, que melhora ao sentar; tem neuropatia diabética e catarata. Esse tipo de tontura é melhor classificado como:",
     "options": [
-      "Desequilíbrio, de causa multifatorial (déficit sensorial somatossensitivo e visual).",
+      "Desequilíbrio multifatorial.",
       "Pré-síncope por arritmia.",
       "Vertigem de origem vestibular periférica.",
       "Vertigem central por AVC de tronco.",
       "Tontura psicogênica por hiperventilação."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\n\"Vertigem gira; pré-síncope escurece; desequilíbrio só ao andar.\" No idoso, o desequilíbrio costuma somar polineuropatia, baixa visão e fraqueza.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Desequilíbrio, de causa multifatorial (déficit sensorial somatossensitivo e visual).\n\n\"Vertigem gira; pré-síncope escurece; desequilíbrio só ao andar.\" No idoso, o desequilíbrio costuma somar polineuropatia, baixa visão e fraqueza.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · VIII vestibular e plano 6.1 (tontura)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU3-20"
@@ -6818,14 +6818,14 @@
     "subtopic": "afasia global",
     "stem": "Paciente com oclusão do tronco da artéria cerebral média esquerda não consegue falar espontaneamente, não compreende ordens simples, não repete nem nomeia objetos. A alteração é:",
     "options": [
-      "Afasia global, por lesão extensa das áreas da linguagem do hemisfério dominante.",
+      "Afasia global.",
       "Afasia de Wernicke pura.",
       "Afasia anômica.",
       "Disartria por lesão cerebelar.",
       "Afasia de Broca pura."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nGlobal: expressão e compreensão comprometidas (território amplo da ACM esquerda), geralmente com hemiplegia direita.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Afasia global, por lesão extensa das áreas da linguagem do hemisfério dominante.\n\nGlobal: expressão e compreensão comprometidas (território amplo da ACM esquerda), geralmente com hemiplegia direita.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · linguagem (afasias)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-03"
@@ -6841,13 +6841,13 @@
     "stem": "Paciente refere crises breves em que sente \"cheiro de borracha queimada\" que ninguém mais percebe, seguidas de desligamento e movimentos mastigatórios. Esse sintoma olfatório é chamado de cacosmia e pode corresponder a:",
     "options": [
       "Sinusite crônica simples.",
-      "Crise epiléptica focal de origem temporal mesial (crise uncinada).",
+      "Crise focal temporal (uncinada).",
       "Lesão do nervo óptico.",
       "Hipertensão intracraniana sem crise.",
       "Paralisia facial periférica."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nCacosmia: percepção de odor desagradável inexistente; episódica, pode ser aura epiléptica (úncus).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Crise epiléptica focal de origem temporal mesial (crise uncinada).\n\nCacosmia: percepção de odor desagradável inexistente; episódica, pode ser aura epiléptica (úncus).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (I olfatório)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-04"
@@ -6864,12 +6864,12 @@
     "options": [
       "Impossibilidade isolada de abduzir o olho direito.",
       "Miose direita com ptose discreta e enoftalmia.",
-      "Ptose palpebral direita, olho desviado para baixo e para fora e pupila midriática que não reage à luz.",
+      "Ptose, olho para baixo e para fora e midríase à direita.",
       "Paralisia da hemiface direita inteira.",
       "Diplopia vertical apenas ao descer escadas."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nO III inerva elevador da pálpebra, retos superior, inferior e medial, oblíquo inferior e o esfíncter da pupila (parassimpático). Sobram o reto lateral (VI) e o oblíquo superior (IV): olho \"para baixo e para fora\".",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Ptose palpebral direita, olho desviado para baixo e para fora e pupila midriática que não reage à luz.\n\nO III inerva elevador da pálpebra, retos superior, inferior e medial, oblíquo inferior e o esfíncter da pupila (parassimpático). Sobram o reto lateral (VI) e o oblíquo superior (IV): olho \"para baixo e para fora\".",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (III oculomotor)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-05"
@@ -6907,13 +6907,13 @@
     "stem": "Por que, na paralisia facial central (como no AVC), a musculatura da fronte fica preservada?",
     "options": [
       "Porque a fronte é inervada pelo trigêmeo.",
-      "Porque o núcleo do facial que inerva a metade superior da face recebe fibras corticonucleares dos dois hemisférios, enquanto a porção que inerva a metade inferior recebe inervação predominantemente contralateral.",
+      "Porque a metade superior da face tem inervação cortical bilateral.",
       "Porque a paralisia central é sempre bilateral.",
       "Porque o músculo frontal é inervado pelo oculomotor.",
       "Porque a lesão central atinge apenas o ramo mandibular do facial."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nCentral: só a metade inferior, contralateral à lesão. Periférica: hemiface toda, ipsilateral.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Porque o núcleo do facial que inerva a metade superior da face recebe fibras corticonucleares dos dois hemisférios, enquanto a porção que inerva a metade inferior recebe inervação predominantemente contralateral.\n\nCentral: só a metade inferior, contralateral à lesão. Periférica: hemiface toda, ipsilateral.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VII facial central)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-07"
@@ -6931,11 +6931,11 @@
       "Perda condutiva direita por rolha de cerume.",
       "Perda neurossensorial esquerda por presbiacusia.",
       "Audição normal.",
-      "Perda neurossensorial direita; considerar schwannoma vestibular (neurinoma do acústico) se unilateral e progressiva.",
+      "Perda neurossensorial direita.",
       "Perda condutiva esquerda."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nPerda neurossensorial assimétrica e progressiva com zumbido exige investigação de lesão do VIII (ângulo pontocerebelar).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Perda neurossensorial direita; considerar schwannoma vestibular (neurinoma do acústico) se unilateral e progressiva.\n\nPerda neurossensorial assimétrica e progressiva com zumbido exige investigação de lesão do VIII (ângulo pontocerebelar).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII coclear)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-08"
@@ -6954,10 +6954,10 @@
       "É nomeado pela direção do componente lento.",
       "É sempre sinal de doença psiquiátrica.",
       "Não pode ser provocado por manobras posicionais.",
-      "É um movimento ocular involuntário rítmico, com componente lento e componente rápido; por convenção, é nomeado pela direção do componente rápido."
+      "É um movimento ocular involuntário rítmico, com componente lento e componente rápido."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNa lesão vestibular periférica o componente lento vai para o lado lesado (rápido para o lado são). Nistagmo vertical ou que muda de direção sugere lesão central.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** É um movimento ocular involuntário rítmico, com componente lento e componente rápido; por convenção, é nomeado pela direção do componente rápido.\n\nNa lesão vestibular periférica o componente lento vai para o lado lesado (rápido para o lado são). Nistagmo vertical ou que muda de direção sugere lesão central.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · nervos cranianos (VIII vestibular: nistagmo)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-09"
@@ -7020,10 +7020,10 @@
       "Opistótono do tétano.",
       "Postura de Wernicke-Mann da hemiplegia crônica.",
       "Decorticação — lesão acima do núcleo rubro.",
-      "Descerebração — lesão do tronco encefálico (mesencéfalo/ponte), de pior prognóstico."
+      "Descerebração (lesão do tronco)."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNo Glasgow: extensão anormal = 2; flexão anormal (decorticação) = 3.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Descerebração — lesão do tronco encefálico (mesencéfalo/ponte), de pior prognóstico.\n\nNo Glasgow: extensão anormal = 2; flexão anormal (decorticação) = 3.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · tônus e consciência (posturas)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-12"
@@ -7063,11 +7063,11 @@
       "Desvio do umbigo para o lado oposto; raízes C5–C6.",
       "Contração do cremaster; raízes T6–T9.",
       "Ausência de contração em pessoas saudáveis; raízes L4–S1.",
-      "Contração da musculatura com desvio da cicatriz umbilical para o lado estimulado; reflexo médio integrado em T10–T11 (aproximadamente).",
+      "Desvio da cicatriz umbilical para o lado estimulado.",
       "Flexão do hálux; raízes S1–S2."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nSuperior T6–T9, médio T10–T11, inferior T11–T12. Abolidos na lesão piramidal, em obesos, idosos, multíparas ou com o arco interrompido.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Contração da musculatura com desvio da cicatriz umbilical para o lado estimulado; reflexo médio integrado em T10–T11 (aproximadamente).\n\nSuperior T6–T9, médio T10–T11, inferior T11–T12. Abolidos na lesão piramidal, em obesos, idosos, multíparas ou com o arco interrompido.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos superficiais (cutâneo-abdominais)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-14"
@@ -7084,12 +7084,12 @@
     "options": [
       "Sinal de Phalen, indicativo de túnel do carpo.",
       "Reflexo de preensão frontal sem significado.",
-      "Sinal de Hoffmann, indicativo de liberação piramidal (lesão do neurônio motor superior) acima de C5–C6.",
+      "Sinal de Hoffmann (liberação piramidal).",
       "Sinal de Babinski do membro superior, normal no adulto.",
       "Sinal de Tinel, indicativo de lesão do nervo ulnar."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nHoffmann: análogo ao Babinski nos membros superiores; junto com hiper-reflexia sugere lesão piramidal cervical.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Sinal de Hoffmann, indicativo de liberação piramidal (lesão do neurônio motor superior) acima de C5–C6.\n\nHoffmann: análogo ao Babinski nos membros superiores; junto com hiper-reflexia sugere lesão piramidal cervical.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · reflexos (sinais de liberação piramidal)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-15"
@@ -7106,12 +7106,12 @@
     "options": [
       "Ande em linha reta encostando o calcanhar na ponta do outro pé.",
       "Mantenha os braços estendidos à frente por 1 minuto.",
-      "Realize rapidamente movimentos alternados, como pronação e supinação das mãos sobre as coxas ou abrir e fechar as mãos.",
+      "Realize rapidamente movimentos alternados.",
       "Toque o nariz com o indicador de olhos fechados.",
       "Fique em pé com os pés juntos e feche os olhos."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nEudiadococinesia (normal), disdiadococinesia (dificuldade), adiadococinesia (incapacidade): lesão cerebelar.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Realize rapidamente movimentos alternados, como pronação e supinação das mãos sobre as coxas ou abrir e fechar as mãos.\n\nEudiadococinesia (normal), disdiadococinesia (dificuldade), adiadococinesia (incapacidade): lesão cerebelar.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · coordenação (movimentos alternados)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-16"
@@ -7129,11 +7129,11 @@
       "Lesão do nervo fibular.",
       "Paresia do tibial anterior.",
       "Marcha normal para a idade.",
-      "Ataxia axial (de tronco), típica de lesão do verme cerebelar.",
+      "Ataxia de tronco (verme cerebelar).",
       "Polineuropatia sensitiva isolada."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nMarcha em tandem sensibiliza a ataxia. Verme → tronco e marcha (base alargada); hemisférios → membros do mesmo lado.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Ataxia axial (de tronco), típica de lesão do verme cerebelar.\n\nMarcha em tandem sensibiliza a ataxia. Verme → tronco e marcha (base alargada); hemisférios → membros do mesmo lado.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · marcha e equilíbrio (slide 34)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-17"
@@ -7152,10 +7152,10 @@
       "É positivo quando o paciente oscila levemente ao fechar os olhos, o que é sempre patológico.",
       "Avalia a força dos membros inferiores.",
       "Exige no mínimo 2 minutos de observação.",
-      "O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados, por cerca de 30 segundos a 1 minuto; a versão sensibilizada coloca um pé à frente do outro."
+      "O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nLeves oscilações são normais. Positivo: desequilíbrio com tendência à queda ao fechar os olhos (proprioceptivo ou vestibular).",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** O paciente fica de pé, com os pés juntos e braços ao longo do corpo, primeiro de olhos abertos e depois fechados, por cerca de 30 segundos a 1 minuto; a versão sensibilizada coloca um pé à frente do outro.\n\nLeves oscilações são normais. Positivo: desequilíbrio com tendência à queda ao fechar os olhos (proprioceptivo ou vestibular).",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · equilíbrio estático (Romberg)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-18"
@@ -7218,10 +7218,10 @@
       "A rigidez de nuca é pesquisada com o paciente sentado e a cabeça em extensão.",
       "A rigidez em todas as direções é patognomônica de meningite.",
       "O idoso nunca apresenta rigidez por artrose.",
-      "Na irritação meníngea a rigidez predomina na flexão do pescoço, enquanto a doença da coluna cervical limita movimentos em todas as direções."
+      "Na irritação meníngea a rigidez predomina na flexão do pescoço."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nPesquisa: decúbito dorsal, mão na região occipital, flexão passiva do pescoço.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Na irritação meníngea a rigidez predomina na flexão do pescoço, enquanto a doença da coluna cervical limita movimentos em todas as direções.\n\nPesquisa: decúbito dorsal, mão na região occipital, flexão passiva do pescoço.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · irritação meníngea (rigidez de nuca)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-21"
@@ -7238,12 +7238,12 @@
     "options": [
       "As fasciculações são típicas da lesão piramidal.",
       "As mioquimias indicam miopatia grave.",
-      "As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro, sem significado patológico; fasciculações com fraqueza e atrofia sugerem lesão do neurônio motor inferior.",
+      "As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro.",
       "Toda contração muscular visível indica ELA.",
       "As fasciculações só ocorrem na língua."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nFasciculações (contração de feixe/unidade motora) com atrofia e fraqueza: ELA, radiculopatias, polineuropatias.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** As mioquimias (\"tremor na carne\") ocorrem em músculo íntegro, sem significado patológico; fasciculações com fraqueza e atrofia sugerem lesão do neurônio motor inferior.\n\nFasciculações (contração de feixe/unidade motora) com atrofia e fraqueza: ELA, radiculopatias, polineuropatias.",
     "source": "Porto, Semiologia Médica 8ª ed., cap. 20 · SOP IV Guia PR2 seção 04 · plano item 6.2 · movimentos involuntários (fasciculações)",
     "origin": "inedita",
     "ref": "PROPE-PF-NEU4-22"

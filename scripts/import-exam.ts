@@ -9,10 +9,12 @@
  * inéditas, cada um em seu próprio arquivo).
  *
  * Os IDs são derivados do conteúdo (prova + enunciado + alternativas/itens), então
- * reimportar o mesmo arquivo mantém os IDs — e o progresso dos alunos.
+ * reimportar o mesmo arquivo mantém os IDs — e o progresso dos alunos. Se uma
+ * questão já importada for corrigida (mesmo `id` no arquivo de origem), o ID
+ * publicado é mantido, para não perder o progresso de quem já a respondeu.
  */
 import { createHash } from 'node:crypto';
-import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { SUBJECTS, type ExamId, type Question, type SubjectId } from '../src/data/schema';
 import { validateQuestions } from '../src/data/validate';
@@ -91,6 +93,14 @@ const out = new Map<SubjectId, Question[]>();
 const prefixOf = (s: SubjectId) => SUBJECTS.find(x => x.id === s)!.prefix;
 const usedIds = new Set<string>();
 
+/** IDs já publicados, por disciplina + id do arquivo de origem (ref). */
+const previousIds = new Map<string, string>();
+for (const s of SUBJECTS) {
+  const file = join(import.meta.dirname, '..', 'src', 'data', 'questions', exam.toLowerCase(), `${s.id}.json`);
+  if (!existsSync(file)) continue;
+  for (const q of JSON.parse(readFileSync(file, 'utf8')) as Question[]) if (q.ref) previousIds.set(`${s.id}|${q.ref}`, q.id);
+}
+
 for (const r of raw.questoes) {
   const subject = subjectOf(r.materia);
   const base: Partial<Question> = { subject, exam };
@@ -135,7 +145,8 @@ for (const r of raw.questoes) {
   }
 
   const content = q.options ?? q.statements ?? [];
-  let id = prefixOf(subject) + '-' + createHash('sha1').update(exam + '|' + norm(q.stem) + JSON.stringify(content.map(norm))).digest('hex').slice(0, 8);
+  const kept = previousIds.get(`${subject}|${r.id}`);
+  let id = kept && !usedIds.has(kept) ? kept : prefixOf(subject) + '-' + createHash('sha1').update(exam + '|' + norm(q.stem) + JSON.stringify(content.map(norm))).digest('hex').slice(0, 8);
   while (usedIds.has(id)) id = prefixOf(subject) + '-' + createHash('sha1').update(id).digest('hex').slice(0, 8);
   usedIds.add(id);
 

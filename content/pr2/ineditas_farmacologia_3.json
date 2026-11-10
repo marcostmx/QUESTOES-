@@ -1,0 +1,1745 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Farmacologia · Lote 3 (AINEs, corticoides, opioides, histamina, AL)",
+  "gerado_em": "2026-11-10",
+  "base": "Plano de Farmacologia 2026.2, temas recorrentes nas provas. Formato do professor: incorreta/correta, I–IV, V/F, marque apenas, discursivas com caso clínico."
+ },
+ "questoes": [
+  {
+   "id": "FARM-PF3-01",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "COX-1 × COX-2",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · isoformas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as isoformas da ciclo-oxigenase, assinale a CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A COX-1 só aparece na inflamação."
+    },
+    {
+     "letra": "B",
+     "texto": "A COX-2 é a única presente nas plaquetas."
+    },
+    {
+     "letra": "C",
+     "texto": "A COX-2 produz o tromboxano A2 plaquetário."
+    },
+    {
+     "letra": "D",
+     "texto": "A COX-1 é constitutiva e protege a mucosa gástrica."
+    },
+    {
+     "letra": "E",
+     "texto": "Os coxibes inibem mais a COX-1."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "COX-1: estômago, plaquetas (TXA2), rim. COX-2: induzível na inflamação; constitutiva no rim e no endotélio (PGI2)."
+  },
+  {
+   "id": "FARM-PF3-02",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "AAS · antiagregante",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · ácido acetilsalicílico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O efeito antiagregante do AAS em dose baixa dura cerca de 7 a 10 dias porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É eliminado lentamente pelo rim."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibe a síntese hepática de fatores."
+    },
+    {
+     "letra": "C",
+     "texto": "Acetila a COX-1 plaquetária de forma irreversível."
+    },
+    {
+     "letra": "D",
+     "texto": "Inibe reversivelmente a COX-2."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueia o receptor P2Y12 de forma reversível."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A plaqueta não tem núcleo para sintetizar nova enzima; o efeito dura a vida da plaqueta."
+  },
+  {
+   "id": "FARM-PF3-03",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "Reye",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · AAS em crianças",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O AAS deve ser evitado em crianças com varicela ou influenza pelo risco de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipertermia maligna."
+    },
+    {
+     "letra": "B",
+     "texto": "Agranulocitose."
+    },
+    {
+     "letra": "C",
+     "texto": "Síndrome de Stevens-Johnson."
+    },
+    {
+     "letra": "D",
+     "texto": "Síndrome serotoninérgica."
+    },
+    {
+     "letra": "E",
+     "texto": "Síndrome de Reye."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Encefalopatia aguda com esteatose hepática microvesicular."
+  },
+  {
+   "id": "FARM-PF3-04",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "paracetamol · intoxicação",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · paracetamol",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na intoxicação por paracetamol, o antídoto e seu mecanismo são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "N-acetilcisteína, que repõe a glutationa e neutraliza o NAPQI."
+    },
+    {
+     "letra": "B",
+     "texto": "Carvão ativado, que reverte a necrose hepática."
+    },
+    {
+     "letra": "C",
+     "texto": "Vitamina K, que corrige a coagulopatia diretamente."
+    },
+    {
+     "letra": "D",
+     "texto": "Flumazenil, que reverte a sedação."
+    },
+    {
+     "letra": "E",
+     "texto": "Naloxona, que antagoniza o paracetamol."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O NAPQI (via CYP2E1) causa necrose centrolobular quando a glutationa se esgota. Etilistas e jejum têm maior risco."
+  },
+  {
+   "id": "FARM-PF3-05",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "dengue · antitérmico",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · escolha do antitérmico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com suspeita de dengue tem febre e mialgia. O analgésico/antitérmico indicado é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cetoprofeno."
+    },
+    {
+     "letra": "B",
+     "texto": "Paracetamol ou dipirona."
+    },
+    {
+     "letra": "C",
+     "texto": "AAS."
+    },
+    {
+     "letra": "D",
+     "texto": "Diclofenaco."
+    },
+    {
+     "letra": "E",
+     "texto": "Ibuprofeno."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "AINEs e AAS aumentam o risco de sangramento (antiagregação, lesão gástrica) e devem ser evitados na dengue."
+  },
+  {
+   "id": "FARM-PF3-06",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "AINE · rim",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · nefrotoxicidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso hipertenso em uso de IECA e diurético inicia diclofenaco e evolui com lesão renal aguda. O mecanismo principal é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glomerulonefrite por imunocomplexos."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibição das prostaglandinas que dilatam a arteríola aferente."
+    },
+    {
+     "letra": "C",
+     "texto": "Obstrução tubular por cristais de diclofenaco."
+    },
+    {
+     "letra": "D",
+     "texto": "Aumento da excreção de sódio."
+    },
+    {
+     "letra": "E",
+     "texto": "Vasodilatação da arteríola eferente."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "\"Triplo golpe\": IECA (dilata a eferente) + diurético (hipovolemia) + AINE (contrai a aferente) → queda da filtração."
+  },
+  {
+   "id": "FARM-PF3-07",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "coxibes · risco CV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · inibidores seletivos da COX-2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O aumento do risco cardiovascular com os coxibes é explicado por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aumento da prostaciclina endotelial."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibição irreversível da COX-1 plaquetária."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumento da síntese de óxido nítrico."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueio de receptores β1."
+    },
+    {
+     "letra": "E",
+     "texto": "Redução da prostaciclina endotelial com tromboxano preservado."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Desequilíbrio pró-trombótico (↓ PGI2 vasodilatadora e antiagregante; TXA2 plaquetário intacto)."
+  },
+  {
+   "id": "FARM-PF3-08",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "efeitos adversos · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · efeitos adversos dos AINEs",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os efeitos adversos dos AINEs, analise:\n\nI. Podem causar úlcera e sangramento gastrointestinal.\nII. Podem desencadear broncoespasmo em asmáticos sensíveis à aspirina.\nIII. Reduzem a pressão arterial de hipertensos.\nIV. Podem causar retenção de sódio e edema.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II, III e IV."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "AINEs elevam a PA e antagonizam anti-hipertensivos (retenção de Na⁺)."
+  },
+  {
+   "id": "FARM-PF3-09",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "misoprostol",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · análogos de prostaglandinas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O misoprostol pode ser associado ao AINE em pacientes de risco porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É análogo da PGE1 e protege a mucosa gástrica."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibe a bomba de prótons de modo irreversível."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueia receptores H2."
+    },
+    {
+     "letra": "D",
+     "texto": "Aumenta a absorção do AINE."
+    },
+    {
+     "letra": "E",
+     "texto": "Neutraliza o ácido no lúmen."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Reduz secreção ácida e aumenta muco/bicarbonato. Contraindicado na gestação (contrações uterinas)."
+  },
+  {
+   "id": "FARM-PF3-10",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "dipirona · agranulocitose",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · dipirona",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O efeito adverso grave, raro, associado à dipirona é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ototoxicidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Síndrome de Reye."
+    },
+    {
+     "letra": "C",
+     "texto": "Necrose hepática centrolobular."
+    },
+    {
+     "letra": "D",
+     "texto": "Agranulocitose."
+    },
+    {
+     "letra": "E",
+     "texto": "Fibrose pulmonar."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Outros: hipotensão (infusão rápida) e reações alérgicas."
+  },
+  {
+   "id": "FARM-PF3-11",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "intoxicação salicílica",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · AAS",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na intoxicação aguda por AAS, o distúrbio ácido-base clássico do adulto é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Alcalose respiratória inicial seguida de acidose metabólica."
+    },
+    {
+     "letra": "B",
+     "texto": "Acidose respiratória pura."
+    },
+    {
+     "letra": "C",
+     "texto": "Acidose metabólica com ânion gap normal."
+    },
+    {
+     "letra": "D",
+     "texto": "Nenhum distúrbio ácido-base."
+    },
+    {
+     "letra": "E",
+     "texto": "Alcalose metabólica isolada."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Estímulo direto do centro respiratório + desacoplamento da fosforilação oxidativa. Zumbido é sinal precoce. Tratamento: alcalinização urinária, diálise se grave."
+  },
+  {
+   "id": "FARM-PF3-12",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "febre · mecanismo",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · antipirese",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O efeito antitérmico dos AINEs e do paracetamol resulta de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aumento da produção de calor."
+    },
+    {
+     "letra": "B",
+     "texto": "Vasoconstrição periférica."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueio de receptores de IL-1."
+    },
+    {
+     "letra": "D",
+     "texto": "Inibição do TNF-α nos macrófagos."
+    },
+    {
+     "letra": "E",
+     "texto": "Redução da PGE2 no hipotálamo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Pirógenos (IL-1, IL-6, TNF) induzem COX-2 hipotalâmica → PGE2 eleva o ponto de ajuste térmico."
+  },
+  {
+   "id": "FARM-PF3-13",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "V/F · paracetamol",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · paracetamol",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o paracetamol, julgue e marque a sequência correta:\n\nI. ( ) Tem boa ação analgésica e antitérmica.\nII. ( ) Tem potente ação anti-inflamatória periférica.\nIII. ( ) É seguro para a mucosa gástrica em doses terapêuticas.\nIV. ( ) O etilismo crônico reduz o risco de hepatotoxicidade.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F, F, V, V"
+    },
+    {
+     "letra": "B",
+     "texto": "F, F, V, F"
+    },
+    {
+     "letra": "C",
+     "texto": "V, F, V, F"
+    },
+    {
+     "letra": "D",
+     "texto": "F, F, F, F"
+    },
+    {
+     "letra": "E",
+     "texto": "V, F, F, F"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O álcool induz CYP2E1 (mais NAPQI) e reduz a glutationa → mais hepatotoxicidade."
+  },
+  {
+   "id": "FARM-PF3-14",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "indometacina · canal arterial",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · usos especiais",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No prematuro com persistência do canal arterial, usa-se indometacina ou ibuprofeno porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dilatam o canal arterial."
+    },
+    {
+     "letra": "B",
+     "texto": "A redução das prostaglandinas favorece o fechamento do canal."
+    },
+    {
+     "letra": "C",
+     "texto": "As prostaglandinas fecham o canal."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueiam receptores β1."
+    },
+    {
+     "letra": "E",
+     "texto": "Agem como diuréticos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A PGE mantém o canal pérvio (alprostadil é usado quando se quer mantê-lo aberto)."
+  },
+  {
+   "id": "FARM-PF3-15",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "AINE · INCORRETA",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · AINEs",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anti-inflamatórios não esteroidais, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Têm efeito analgésico, antipirético e anti-inflamatório."
+    },
+    {
+     "letra": "B",
+     "texto": "Podem causar lesão renal."
+    },
+    {
+     "letra": "C",
+     "texto": "Reduzem a síntese de prostaglandinas e tromboxanos."
+    },
+    {
+     "letra": "D",
+     "texto": "Inibem a fosfolipase A2 por induzirem a lipocortina."
+    },
+    {
+     "letra": "E",
+     "texto": "Inibem a ciclo-oxigenase."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A indução de lipocortina (anexina-1) e a inibição da fosfolipase A2 são mecanismos dos **corticoides**."
+  },
+  {
+   "id": "FARM-PF3-16",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "leucotrienos · aspirina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · asma induzida por aspirina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O broncoespasmo induzido por AAS em alguns asmáticos é explicado por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Liberação de histamina por IgE específica obrigatória."
+    },
+    {
+     "letra": "B",
+     "texto": "Desvio do ácido araquidônico para a via da lipo-oxigenase."
+    },
+    {
+     "letra": "C",
+     "texto": "Estímulo vagal direto."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueio de receptores β2."
+    },
+    {
+     "letra": "E",
+     "texto": "Aumento de prostaglandinas broncodilatadoras."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mais leucotrienos (broncoconstritores). Associa-se a pólipos nasais e rinossinusite (doença respiratória exacerbada por aspirina)."
+  },
+  {
+   "id": "FARM-PF3-17",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "marque apenas · contraindicações",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · uso seguro de AINEs",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "itens_vf",
+   "enunciado": "Marque APENAS as situações em que o uso de AINE exige cautela ou deve ser evitado: ( ) Úlcera péptica prévia ( ) Doença renal crônica ( ) Cefaleia tensional em adulto jovem saudável ( ) Uso de anticoagulante ( ) Insuficiência cardíaca ( ) Dor muscular leve sem comorbidades",
+   "alternativas": [],
+   "gabarito": [
+    "Úlcera péptica prévia",
+    "Doença renal crônica",
+    "Uso de anticoagulante",
+    "Insuficiência cardíaca"
+   ],
+   "gabarito_texto": "Úlcera péptica prévia; Doença renal crônica; Uso de anticoagulante; Insuficiência cardíaca",
+   "comentario": "Em IC os AINEs retêm sódio e descompensam a doença."
+  },
+  {
+   "id": "FARM-PF3-18",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Eicosanoides, AINEs e antitérmicos",
+   "subtema": "discursiva · prescrição na dengue",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · caso clínico (formato da prova)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Paciente de 30 anos com suspeita de dengue sem sinais de alarme: febre de 39 °C, mialgia e cefaleia. Justifique farmacologicamente a escolha do antitérmico/analgésico e cite as classes a evitar.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "**Escolha**: **paracetamol** (500–750 mg até de 6/6 h, máximo ~3–4 g/dia) ou **dipirona**. Agem reduzindo a síntese de PGE2 no hipotálamo (antipirese) e têm efeito analgésico, com **mínimo efeito antiagregante** e sem lesão gástrica relevante.\n\n**Evitar**: **AAS** e **AINEs** (ibuprofeno, diclofenaco, nimesulida, cetoprofeno) — inibem a COX-1 plaquetária (TXA2) e a proteção gástrica, aumentando o risco de **sangramento** num paciente que pode ter plaquetopenia e fragilidade capilar; o AAS também se associa à síndrome de Reye em crianças.\n\nAssociar hidratação oral vigorosa e orientar sinais de alarme (dor abdominal, vômitos persistentes, sangramentos, tontura).",
+   "comentario": null
+  },
+  {
+   "id": "FARM-PF3-19",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "potência · dexametasona",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · potência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O corticoide com maior potência anti-inflamatória e praticamente sem efeito mineralocorticoide é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Prednisona."
+    },
+    {
+     "letra": "B",
+     "texto": "Fludrocortisona."
+    },
+    {
+     "letra": "C",
+     "texto": "Dexametasona."
+    },
+    {
+     "letra": "D",
+     "texto": "Hidrocortisona."
+    },
+    {
+     "letra": "E",
+     "texto": "Aldosterona."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Dexametasona/betametasona: ~25–30× a hidrocortisona; usadas no edema cerebral vasogênico e na maturação pulmonar fetal."
+  },
+  {
+   "id": "FARM-PF3-20",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "fludrocortisona",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · mineralocorticoides",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na insuficiência adrenal primária, associa-se à hidrocortisona:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cetoconazol."
+    },
+    {
+     "letra": "B",
+     "texto": "Prednisona em dose alta."
+    },
+    {
+     "letra": "C",
+     "texto": "Espironolactona."
+    },
+    {
+     "letra": "D",
+     "texto": "Dexametasona, para repor a aldosterona."
+    },
+    {
+     "letra": "E",
+     "texto": "Fludrocortisona, para repor o efeito mineralocorticoide."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Na doença de Addison falta aldosterona (zona glomerulosa) além do cortisol."
+  },
+  {
+   "id": "FARM-PF3-21",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "suspensão abrupta",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · supressão do eixo HHA",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em prednisona 20 mg/dia há 3 meses interrompe o uso de forma abrupta. O maior risco é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Insuficiência adrenal aguda por supressão do eixo HHA."
+    },
+    {
+     "letra": "B",
+     "texto": "Hiperglicemia grave."
+    },
+    {
+     "letra": "C",
+     "texto": "Síndrome de Cushing aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "Hipercalemia por excesso de aldosterona."
+    },
+    {
+     "letra": "E",
+     "texto": "Hipertensão por excesso de cortisol."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O corticoide exógeno suprime CRH/ACTH e atrofia o córtex adrenal → desmame gradual."
+  },
+  {
+   "id": "FARM-PF3-22",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "efeitos adversos · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · uso crônico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os efeitos do uso crônico de glicocorticoides, analise:\n\nI. Hiperglicemia por aumento da gliconeogênese.\nII. Osteoporose por redução da formação óssea.\nIII. Ganho de massa muscular proximal.\nIV. Maior risco de infecções.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "C",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Causam **miopatia** proximal (catabolismo proteico)."
+  },
+  {
+   "id": "FARM-PF3-23",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "mecanismo",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · mecanismo de ação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O principal mecanismo anti-inflamatório dos glicocorticoides é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Alterar a transcrição gênica após ligação a receptor intracelular."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibir a COX-1 de forma irreversível."
+    },
+    {
+     "letra": "C",
+     "texto": "Antagonizar receptores de leucotrienos."
+    },
+    {
+     "letra": "D",
+     "texto": "Ativar receptores β2 de membrana."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloquear receptores H1."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Inibem NF-κB e AP-1 (↓ citocinas, COX-2), induzem anexina-1 (↓ fosfolipase A2)."
+  },
+  {
+   "id": "FARM-PF3-24",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "leucograma",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · efeitos hematológicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após dose alta de corticoide, espera-se no hemograma:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Neutropenia com linfocitose."
+    },
+    {
+     "letra": "B",
+     "texto": "Eosinofilia acentuada."
+    },
+    {
+     "letra": "C",
+     "texto": "Plaquetopenia grave."
+    },
+    {
+     "letra": "D",
+     "texto": "Anemia hemolítica."
+    },
+    {
+     "letra": "E",
+     "texto": "Neutrofilia com linfopenia e eosinopenia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Neutrofilia por desmarginação e liberação medular; redistribuição de linfócitos e eosinófilos."
+  },
+  {
+   "id": "FARM-PF3-25",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "inalatório · candidíase",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · corticoide inalatório",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para reduzir a candidíase oral com corticoide inalatório, orienta-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Usar antifúngico profilático contínuo."
+    },
+    {
+     "letra": "B",
+     "texto": "Usar espaçador e lavar a boca após a inalação."
+    },
+    {
+     "letra": "C",
+     "texto": "Inalar antes das refeições sem enxaguar."
+    },
+    {
+     "letra": "D",
+     "texto": "Trocar por corticoide oral."
+    },
+    {
+     "letra": "E",
+     "texto": "Suspender o corticoide."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Também reduz disfonia e absorção sistêmica."
+  },
+  {
+   "id": "FARM-PF3-26",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "V/F · usos",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · usos clínicos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Julgue os usos dos corticoides e marque a sequência correta:\n\nI. ( ) Edema cerebral vasogênico de tumor.\nII. ( ) Maturação pulmonar fetal no trabalho de parto prematuro.\nIII. ( ) Primeira escolha isolada na anafilaxia.\nIV. ( ) Exacerbação de DPOC.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V, V, F, F"
+    },
+    {
+     "letra": "B",
+     "texto": "V, F, V, F"
+    },
+    {
+     "letra": "C",
+     "texto": "F, V, V, F"
+    },
+    {
+     "letra": "D",
+     "texto": "V, V, F, V"
+    },
+    {
+     "letra": "E",
+     "texto": "V, V, V, V"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Na anafilaxia a primeira escolha é adrenalina IM; corticoide é adjuvante."
+  },
+  {
+   "id": "FARM-PF3-27",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "Cushing · eixo",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · eixo hipotálamo-hipófise-adrenal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No Cushing iatrogênico por prednisona, os níveis de ACTH e de cortisol endógeno estão:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ambos normais."
+    },
+    {
+     "letra": "B",
+     "texto": "ACTH alto e cortisol alto."
+    },
+    {
+     "letra": "C",
+     "texto": "ACTH e cortisol endógeno baixos."
+    },
+    {
+     "letra": "D",
+     "texto": "ACTH alto e cortisol baixo."
+    },
+    {
+     "letra": "E",
+     "texto": "ACTH baixo e cortisol endógeno alto."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "O corticoide exógeno faz feedback negativo. Na doença de Cushing (adenoma hipofisário), ACTH e cortisol estão altos."
+  },
+  {
+   "id": "FARM-PF3-28",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "prednisona · fígado",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · farmacocinética",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A prednisona é pró-fármaco ativado no fígado em:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Prednisolona."
+    },
+    {
+     "letra": "B",
+     "texto": "Hidrocortisona."
+    },
+    {
+     "letra": "C",
+     "texto": "Fludrocortisona."
+    },
+    {
+     "letra": "D",
+     "texto": "Dexametasona."
+    },
+    {
+     "letra": "E",
+     "texto": "Cortisona."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Em hepatopatas graves prefere-se a prednisolona."
+  },
+  {
+   "id": "FARM-PF3-29",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "osteoporose · prevenção",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · efeitos ósseos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente que usará prednisona ≥ 7,5 mg/dia por mais de 3 meses deve receber:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estrogênio em todos os casos."
+    },
+    {
+     "letra": "B",
+     "texto": "Fludrocortisona."
+    },
+    {
+     "letra": "C",
+     "texto": "Cálcio, vitamina D e avaliar bisfosfonato."
+    },
+    {
+     "letra": "D",
+     "texto": "Suspensão imediata do corticoide."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas anti-inflamatório não esteroidal."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Glicocorticoides inibem osteoblastos e a absorção de cálcio — principal causa de osteoporose secundária."
+  },
+  {
+   "id": "FARM-PF3-30",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Corticoides (anti-inflamatórios esteroidais)",
+   "subtema": "discursiva · desmame",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · supressão adrenal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "discursiva",
+   "enunciado": "Explique por que o corticoide usado por tempo prolongado não pode ser suspenso abruptamente, relacionando com o eixo hipotálamo-hipófise-adrenal.",
+   "alternativas": [],
+   "gabarito": null,
+   "resposta_modelo": "O cortisol exerce **feedback negativo** sobre o hipotálamo (CRH) e a hipófise (ACTH). O glicocorticoide exógeno em dose suprafisiológica por mais de 2–3 semanas mantém CRH e ACTH suprimidos → **atrofia da zona fasciculada** do córtex adrenal.\n\nNa suspensão abrupta, o eixo não consegue retomar a produção a tempo → **insuficiência adrenal aguda** (fraqueza, hipotensão, hipoglicemia, náuseas, choque em situação de estresse), além de rebote da doença de base.\n\nPor isso faz-se **desmame gradual** (reduções progressivas até a dose fisiológica e depois mais lentamente), e em cirurgias ou infecções graves desses pacientes dá-se dose de estresse.",
+   "comentario": null
+  },
+  {
+   "id": "FARM-PF3-31",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "receptor μ · efeitos",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · receptores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual efeito dos opioides NÃO desenvolve tolerância significativa?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Analgesia."
+    },
+    {
+     "letra": "B",
+     "texto": "Euforia."
+    },
+    {
+     "letra": "C",
+     "texto": "Náusea."
+    },
+    {
+     "letra": "D",
+     "texto": "Constipação."
+    },
+    {
+     "letra": "E",
+     "texto": "Depressão respiratória."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Miose e constipação persistem — prescrever laxante em uso crônico."
+  },
+  {
+   "id": "FARM-PF3-32",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "morfina · renal",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · farmacocinética",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em paciente com insuficiência renal grave, a morfina pode causar sedação prolongada porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O rim converte morfina em naloxona."
+    },
+    {
+     "letra": "B",
+     "texto": "A morfina deixa de ser absorvida."
+    },
+    {
+     "letra": "C",
+     "texto": "Ocorre indução do CYP2D6."
+    },
+    {
+     "letra": "D",
+     "texto": "A morfina passa a ser eliminada pela bile."
+    },
+    {
+     "letra": "E",
+     "texto": "O metabólito ativo morfina-6-glicuronídeo se acumula."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Preferir fentanil ou metadona com ajuste na doença renal."
+  },
+  {
+   "id": "FARM-PF3-33",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "codeína · CYP2D6",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · codeína",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A codeína pode ser ineficaz em alguns pacientes e perigosa em outros porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É eliminada inalterada pelos pulmões."
+    },
+    {
+     "letra": "B",
+     "texto": "É convertida em morfina pelo CYP2D6, cuja atividade varia geneticamente."
+    },
+    {
+     "letra": "C",
+     "texto": "É antagonista μ."
+    },
+    {
+     "letra": "D",
+     "texto": "Age apenas em receptores κ."
+    },
+    {
+     "letra": "E",
+     "texto": "Não sofre metabolismo hepático."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Metabolizadores ultrarrápidos → excesso de morfina (mortes em crianças); lentos → pouca analgesia."
+  },
+  {
+   "id": "FARM-PF3-34",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "meperidina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · meperidina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O uso repetido de meperidina é desaconselhado porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É antagonista da naloxona."
+    },
+    {
+     "letra": "B",
+     "texto": "Causa miose irreversível."
+    },
+    {
+     "letra": "C",
+     "texto": "Não tem efeito analgésico."
+    },
+    {
+     "letra": "D",
+     "texto": "Seu metabólito normeperidina causa convulsões."
+    },
+    {
+     "letra": "E",
+     "texto": "Provoca hipoglicemia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Também interage com IMAO (síndrome serotoninérgica)."
+  },
+  {
+   "id": "FARM-PF3-35",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "tramadol",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · tramadol",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O tramadol, além do agonismo μ fraco:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inibe a COX-2."
+    },
+    {
+     "letra": "B",
+     "texto": "É antagonista NMDA potente."
+    },
+    {
+     "letra": "C",
+     "texto": "Inibe a recaptação de serotonina e noradrenalina."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloqueia receptores H1."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueia canais de sódio como anestésico local."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Risco de convulsões e síndrome serotoninérgica (com ISRS)."
+  },
+  {
+   "id": "FARM-PF3-36",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "V/F · intoxicação",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · intoxicação por opioides",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a intoxicação por opioides, julgue e marque a sequência correta:\n\nI. ( ) Coma, depressão respiratória e miose formam a tríade clássica.\nII. ( ) A naloxona tem meia-vida maior que a da metadona.\nIII. ( ) Pode ser necessário repetir a naloxona.\nIV. ( ) A midríase é o achado típico.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V, F, F, V"
+    },
+    {
+     "letra": "B",
+     "texto": "V, V, F, F"
+    },
+    {
+     "letra": "C",
+     "texto": "F, V, V, V"
+    },
+    {
+     "letra": "D",
+     "texto": "F, F, V, F"
+    },
+    {
+     "letra": "E",
+     "texto": "V, F, V, F"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A naloxona dura 30–90 min, menos que muitos opioides → ressedação."
+  },
+  {
+   "id": "FARM-PF3-37",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Opioides",
+   "subtema": "abstinência",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · dependência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São sinais de abstinência de opioides:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Miose, bradipneia e sonolência."
+    },
+    {
+     "letra": "B",
+     "texto": "Midríase, lacrimejamento, rinorreia, diarreia e piloereção."
+    },
+    {
+     "letra": "C",
+     "texto": "Constipação e retenção urinária."
+    },
+    {
+     "letra": "D",
+     "texto": "Rigidez de nuca e febre alta."
+    },
+    {
+     "letra": "E",
+     "texto": "Bradicardia e hipotermia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Quadro oposto à intoxicação; desconfortável, raramente fatal."
+  },
+  {
+   "id": "FARM-PF3-38",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Histamina e anti-histamínicos",
+   "subtema": "anti-H1 · gerações",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · anti-H1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Motorista com rinite alérgica precisa de anti-histamínico. A melhor opção é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fexofenadina ou loratadina."
+    },
+    {
+     "letra": "B",
+     "texto": "Hidroxizina."
+    },
+    {
+     "letra": "C",
+     "texto": "Dexclorfeniramina."
+    },
+    {
+     "letra": "D",
+     "texto": "Prometazina."
+    },
+    {
+     "letra": "E",
+     "texto": "Difenidramina."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Segunda geração: pouca passagem pela barreira hematoencefálica → pouca sedação e sem efeito anticolinérgico."
+  },
+  {
+   "id": "FARM-PF3-39",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Histamina e anti-histamínicos",
+   "subtema": "receptor H2",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · receptores",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A estimulação de receptores H2 causa principalmente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Contração do músculo liso intestinal."
+    },
+    {
+     "letra": "B",
+     "texto": "Prurido."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumento da secreção ácida gástrica."
+    },
+    {
+     "letra": "D",
+     "texto": "Broncoconstrição."
+    },
+    {
+     "letra": "E",
+     "texto": "Aumento da permeabilidade vascular."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "H1: broncoconstrição, prurido, edema, vasodilatação. H2: secreção ácida, ↑ FC."
+  },
+  {
+   "id": "FARM-PF3-40",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Histamina e anti-histamínicos",
+   "subtema": "cimetidina",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · anti-H2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A cimetidina se diferencia dos outros anti-H2 por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inibir o citocromo P450 e ter efeito antiandrogênico."
+    },
+    {
+     "letra": "B",
+     "texto": "Atravessar a barreira e ser antialérgica."
+    },
+    {
+     "letra": "C",
+     "texto": "Não ter interações medicamentosas."
+    },
+    {
+     "letra": "D",
+     "texto": "Bloquear receptores H1."
+    },
+    {
+     "letra": "E",
+     "texto": "Ser mais potente que os IBP."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Ginecomastia e interações (varfarina, fenitoína, teofilina)."
+  },
+  {
+   "id": "FARM-PF3-41",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Histamina e anti-histamínicos",
+   "subtema": "anti-H1 · I–IV",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · anti-H1 de 1ª geração",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anti-H1 de primeira geração, analise:\n\nI. Causam sedação.\nII. Têm efeitos anticolinérgicos.\nIII. Substituem a adrenalina na anafilaxia.\nIV. Alguns são úteis na cinetose.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Na anafilaxia são apenas adjuvantes (aliviam prurido e urticária)."
+  },
+  {
+   "id": "FARM-PF3-42",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Histamina e anti-histamínicos",
+   "subtema": "vancomicina · homem vermelho",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · liberação de histamina",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante infusão rápida de vancomicina surgem rubor e prurido no tronco e na face. O mecanismo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reação mediada por IgE obrigatória."
+    },
+    {
+     "letra": "B",
+     "texto": "Bloqueio de receptores H2."
+    },
+    {
+     "letra": "C",
+     "texto": "Deficiência de G6PD."
+    },
+    {
+     "letra": "D",
+     "texto": "Liberação direta de histamina pelos mastócitos."
+    },
+    {
+     "letra": "E",
+     "texto": "Hemólise imune."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Síndrome do homem vermelho: reduzir a velocidade de infusão; anti-H1 pode prevenir."
+  },
+  {
+   "id": "FARM-PF3-43",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Anestésicos locais",
+   "subtema": "ésteres × amidas",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · classes",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anestésicos locais, assinale a CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A lidocaína é um éster."
+    },
+    {
+     "letra": "B",
+     "texto": "Os ésteres são hidrolisados no plasma e liberam PABA, associado a alergia."
+    },
+    {
+     "letra": "C",
+     "texto": "A benzocaína é uma amida."
+    },
+    {
+     "letra": "D",
+     "texto": "As amidas causam mais alergia que os ésteres."
+    },
+    {
+     "letra": "E",
+     "texto": "As amidas são hidrolisadas pela pseudocolinesterase."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Amidas (lidocaína, bupivacaína, ropivacaína): metabolismo hepático."
+  },
+  {
+   "id": "FARM-PF3-44",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Anestésicos locais",
+   "subtema": "ordem de bloqueio",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · fibras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A primeira sensação perdida após infiltração com anestésico local é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O tato grosseiro."
+    },
+    {
+     "letra": "B",
+     "texto": "A dor."
+    },
+    {
+     "letra": "C",
+     "texto": "A função motora."
+    },
+    {
+     "letra": "D",
+     "texto": "A pressão profunda."
+    },
+    {
+     "letra": "E",
+     "texto": "A propriocepção."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Fibras finas (C, Aδ) bloqueiam primeiro: dor → temperatura → tato → pressão → motor."
+  },
+  {
+   "id": "FARM-PF3-45",
+   "materia": "Farmacologia",
+   "prova": "PR2",
+   "tema": "Anestésicos locais",
+   "subtema": "bupivacaína · cardiotoxicidade",
+   "origem": "inédita",
+   "fonte": "Plano de Farmacologia 2026.2 · Goodman & Gilman / Katzung · aulas da PR2 · toxicidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O anestésico local mais cardiotóxico, cuja toxicidade se trata com emulsão lipídica a 20%, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Bupivacaína."
+    },
+    {
+     "letra": "B",
+     "texto": "Benzocaína."
+    },
+    {
+     "letra": "C",
+     "texto": "Lidocaína."
+    },
+    {
+     "letra": "D",
+     "texto": "Prilocaína."
+    },
+    {
+     "letra": "E",
+     "texto": "Procaína."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Alta lipossolubilidade e ligação prolongada aos canais de Na⁺ cardíacos."
+  }
+ ]
+}

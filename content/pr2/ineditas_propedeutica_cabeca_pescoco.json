@@ -1,325 +1,325 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Propedêutica · Cabeça, pescoço e linfonodos (formato das provas)",
-  "gerado_em": "2026-11-08",
-  "base": "SOP IV Guia PR2, seção 02, restrito aos temas que se repetem nas provas (Snellen × campimetria, Rinne/Weber, ausculta do pescoço, pupilas, fundo de olho, Koplik/Hutchinson, linfonodo reacional × suspeito), no formato dos professores."
- },
- "questoes": [
-  {
-   "id": "PROPE-PF-CP-01",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "cabeça, olhos e orelhas · assertivas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q3)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Marque a(s) alternativa(s) INCORRETA(S):",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Propedêutica · Cabeça, pescoço e linfonodos (formato das provas)",
+    "gerado_em": "2026-11-08",
+    "base": "SOP IV Guia PR2, seção 02, restrito aos temas que se repetem nas provas (Snellen × campimetria, Rinne/Weber, ausculta do pescoço, pupilas, fundo de olho, Koplik/Hutchinson, linfonodo reacional × suspeito), no formato dos professores."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "A presença de sopro carotídeo pode indicar estenose carotídea, uma importante causa de AVC isquêmico."
+      "id": "PROPE-PF-CP-01",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "cabeça, olhos e orelhas · assertivas",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q3)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Marque a(s) alternativa(s) INCORRETA(S):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A presença de sopro carotídeo pode indicar estenose carotídea, uma importante causa de AVC isquêmico."
+        },
+        {
+          "letra": "B",
+          "texto": "O exame dos olhos inclui a avaliação dos campos visuais, para a qual utilizamos a tabela de Snellen."
+        },
+        {
+          "letra": "C",
+          "texto": "Durante o exame do pescoço, a palpação da tireoide é fundamental, porém a ausculta dessa região é dispensável."
+        },
+        {
+          "letra": "D",
+          "texto": "No teste de Weber, o som lateraliza para o lado doente na perda auditiva condutiva e para o lado sadio na neurossensorial."
+        },
+        {
+          "letra": "E",
+          "texto": "Todas as alternativas estão corretas."
+        }
+      ],
+      "gabarito": [
+        "B",
+        "C"
+      ],
+      "gabarito_texto": "B e C",
+      "comentario": "Questão de \"incorretas\": marque as erradas. Snellen avalia **acuidade**; campos se avaliam por **confrontação**. A ausculta (sopro carotídeo e tireoidiano) é parte **obrigatória** do exame do pescoço."
     },
     {
-     "letra": "B",
-     "texto": "O exame dos olhos inclui a avaliação dos campos visuais, para a qual utilizamos a tabela de Snellen."
+      "id": "PROPE-PF-CP-02",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "cabeça e pescoço · revisão",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas e Complemento (isocoria, disfonia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Assinale V para as verdadeiras e F para as falsas e marque a sequência correta:\n\nI. ( ) A avaliação pupilar é fundamental no paciente com alteração do nível de consciência; quando há assimetria no tamanho das pupilas, chamamos isocoria.\nII. ( ) No indivíduo normal, no teste de Rinne, a condução aérea é mais duradoura que a condução óssea.\nIII. ( ) Linfonodos metastáticos, em geral, são indolores, crescem com o tempo e estão aderidos.\nIV. ( ) A língua lisa pode ser observada nas deficiências de riboflavina, ferro e vitamina B12 e em pacientes submetidos à quimioterapia.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "F – V – F – F"
+        },
+        {
+          "letra": "B",
+          "texto": "F – V – F – V"
+        },
+        {
+          "letra": "C",
+          "texto": "V – F – F – V"
+        },
+        {
+          "letra": "D",
+          "texto": "F – V – V – F"
+        },
+        {
+          "letra": "E",
+          "texto": "F – V – V – V"
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Pupilas de tamanhos diferentes = **anisocoria**; isocoria = iguais. Midríase fixa unilateral no rebaixamento sugere compressão do III (herniação uncal)."
     },
     {
-     "letra": "C",
-     "texto": "Durante o exame do pescoço, a palpação da tireoide é fundamental, porém a ausculta dessa região é dispensável."
+      "id": "PROPE-PF-CP-03",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "sinais e sintomas",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Complemento das provas antigas (Koplik, Hutchinson, síncope × lipotimia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre sinais e sintomas observados no exame de cabeça e pescoço e na anamnese, analise as afirmativas:\n\nI. As manchas de Koplik, pontos esbranquiçados sobre base eritematosa na mucosa jugal, são patognomônicas do sarampo.\nII. Os dentes de Hutchinson, incisivos em chave de fenda, fazem parte da tríade da sífilis congênita tardia.\nIII. A lipotimia consiste na perda súbita e transitória completa da consciência.\nIV. A hipertrofia gengival difusa pode ocorrer em leucemias e no uso de fenitoína.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Apenas I, II e IV estão corretas."
+        },
+        {
+          "letra": "B",
+          "texto": "Apenas a IV está correta."
+        },
+        {
+          "letra": "C",
+          "texto": "Apenas II e IV estão corretas."
+        },
+        {
+          "letra": "D",
+          "texto": "Apenas I e IV estão corretas."
+        },
+        {
+          "letra": "E",
+          "texto": "Apenas III e IV estão corretas."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Perda súbita e transitória da consciência é a **síncope**; lipotimia (pré-síncope) é a sensação de desmaio iminente, sem perda completa da consciência."
     },
     {
-     "letra": "D",
-     "texto": "No teste de Weber, o som lateraliza para o lado doente na perda auditiva condutiva e para o lado sadio na neurossensorial."
+      "id": "PROPE-PF-CP-04",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "fundo de olho",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Complemento das provas antigas (fundo de olho)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 62 anos, hipertenso de longa data e mal controlado, apresenta à fundoscopia estreitamento arteriolar, cruzamentos arteriovenosos patológicos, arteríolas em fio de cobre e hemorragias em chama. Qual é o diagnóstico mais provável?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Degeneração macular relacionada à idade"
+        },
+        {
+          "letra": "B",
+          "texto": "Retinopatia hipertensiva"
+        },
+        {
+          "letra": "C",
+          "texto": "Catarata"
+        },
+        {
+          "letra": "D",
+          "texto": "Glaucoma"
+        },
+        {
+          "letra": "E",
+          "texto": "Retinopatia diabética"
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Fio de cobre/prata, cruzamentos AV e hemorragias em chama = hipertensiva. Microaneurismas e exsudatos duros = diabética; escavação aumentada = glaucoma; drusas = DMRI; reflexo vermelho fraco = catarata."
     },
     {
-     "letra": "E",
-     "texto": "Todas as alternativas estão corretas."
+      "id": "PROPE-PF-CP-05",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "caroço no pescoço · condução",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q4) e caso guiado",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Mulher de 65 anos, natural de Petrolina (PE), procura o ambulatório com queixa de \"caroço no pescoço\" acima da clavícula esquerda há 6 meses, que vem crescendo. Perdeu 8 kg em 3 meses e sente-se fraca. Considerando a condução da consulta, sinalize a(s) opção(ões) pertinente(s):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O tempo de apresentação, a localização, a progressão, a existência de achados em outros sítios e a pesquisa de febre, perda ponderal, sudorese noturna e astenia são indispensáveis para a decisão."
+        },
+        {
+          "letra": "B",
+          "texto": "Um linfonodo de 3 cm, endurecido, aderido aos planos e indolor sugere processo inflamatório agudo reacional."
+        },
+        {
+          "letra": "C",
+          "texto": "Não se pode abrir mão da palpação de todas as cadeias linfonodais, descrevendo localização, tamanho, consistência, mobilidade e sinais flogísticos."
+        },
+        {
+          "letra": "D",
+          "texto": "O linfonodo supraclavicular associado a sintomas constitucionais sinaliza condição pouco mórbida, sem necessidade de investigação pormenorizada."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "A",
+        "C"
+      ],
+      "gabarito_texto": "A e C",
+      "comentario": "Supraclavicular palpável é patológico até prova em contrário (à esquerda, Virchow: abdome e tórax). Endurecido, aderido e indolor sugere **malignidade**. Conduta: exame completo (outras cadeias, abdome, baço), hemograma, imagem e biópsia."
+    },
+    {
+      "id": "PROPE-PF-CP-06",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "linfonodo reacional",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q4) e caso guiado 2",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Estudante de 20 anos com febre, tosse seca e odinofagia há 4 dias. Ao exame: faringe hiperemiada com exsudato e linfonodo submandibular direito de 1 cm, móvel, doloroso e amolecido. Sinais vitais estáveis. Qual a conduta mais adequada em relação ao linfonodo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Puncionar o linfonodo imediatamente."
+        },
+        {
+          "letra": "B",
+          "texto": "Encaminhar ao hematologista com suspeita de linfoma."
+        },
+        {
+          "letra": "C",
+          "texto": "Considerá-lo reacional, tratar o foco e reavaliar."
+        },
+        {
+          "letra": "D",
+          "texto": "Solicitar tomografia de tórax e PET-CT para estadiamento."
+        },
+        {
+          "letra": "E",
+          "texto": "Internar a paciente e realizar biópsia excisional."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Considerá-lo reacional, tratar o foco e reavaliar a regressão nas próximas semanas.\n\nPequeno, móvel, doloroso e na drenagem do foco = reacional; regride em 2–4 semanas. \"Internar e biopsiar\" foi o item falso da prova. Investiga-se se persistir > 4–6 semanas, crescer, > 2 cm, supraclavicular ou com sintomas B."
+    },
+    {
+      "id": "PROPE-PF-CP-07",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "linfonodo suspeito",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · 11 Linfonodos e Nas provas (Q7)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Na avaliação dos linfonodos cervicais, qual conjunto de características sugere que um linfonodo aumentado é potencialmente maligno?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Menor que 1 cm, móvel, doloroso e amolecido."
+        },
+        {
+          "letra": "B",
+          "texto": "Doloroso, com sinais flogísticos e foco infeccioso próximo."
+        },
+        {
+          "letra": "C",
+          "texto": "Móvel, borrachoso e que regride em poucas semanas."
+        },
+        {
+          "letra": "D",
+          "texto": "> 2 cm, endurecido, indolor, aderido e em crescimento."
+        },
+        {
+          "letra": "E",
+          "texto": "Bilateral, pequeno e simétrico em criança com resfriado."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Mais de 2 cm, endurecido, indolor, aderido aos planos profundos e em crescimento.\n\nSuspeito: \"DUAS + B\" — Duro, Unido aos planos, Acima de 2 cm, Supraclavicular + sintomas B."
+    },
+    {
+      "id": "PROPE-PF-CP-08",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "palpação linfonodal",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · 11 Linfonodos (lista dissertativa)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Descreva como se realiza a palpação dos linfonodos cervicais e quais características devem ser descritas.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Técnica**: boa luz, região despida, comparando os dois lados; examinador preferencialmente atrás do paciente, cabeça levemente inclinada para o lado examinado (relaxa os músculos); polpas do indicador, médio e anelar, em movimentos circulares, trazendo os tecidos contra uma estrutura rígida (mandíbula, ECM). Seguir sempre a mesma sequência: occipital → retroauricular → pré-auricular → submandibular → submentoniana → cervical anterior → cervical posterior → supraclavicular.\n\n**Descrever**: localização, tamanho, consistência (borrachosa, endurecida, pétrea, flutuante), mobilidade (móvel × aderido), sensibilidade (doloroso × indolor), coalescência e sinais flogísticos/fístula.",
+      "comentario": null
+    },
+    {
+      "id": "PROPE-PF-CP-09",
+      "materia": "Propedêutica (SOP IV)",
+      "prova": "PR2",
+      "tema": "Cabeça, pescoço e linfonodos",
+      "subtema": "exame dos olhos e orelhas",
+      "origem": "inédita",
+      "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Exames especiais do olho e 4 Orelhas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Paciente com queixa de baixa acuidade visual no olho esquerdo e diminuição da audição à esquerda. Descreva como avaliar a acuidade visual, o campo visual e a audição (Rinne e Weber), incluindo o resultado esperado numa perda auditiva condutiva à esquerda.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "- **Acuidade**: tabela de Snellen a 20 pés (~6 m), um olho por vez, cobrindo o outro (20/20 = normal).\n- **Campo visual**: confrontação — examinador e paciente frente a frente, um olho por vez, testando os quadrantes.\n- **Rinne**: diapasão na mastoide até deixar de ouvir, depois em frente ao conduto; normal = aérea > óssea. Na perda condutiva à esquerda: **Rinne negativo à esquerda** (óssea ≥ aérea).\n- **Weber**: diapasão no vértice ou glabela; na perda condutiva **lateraliza para a esquerda** (lado doente); na neurossensorial, para o lado sadio.",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "B",
-    "C"
-   ],
-   "gabarito_texto": "B e C",
-   "comentario": "Questão de \"incorretas\": marque as erradas. Snellen avalia **acuidade**; campos se avaliam por **confrontação**. A ausculta (sopro carotídeo e tireoidiano) é parte **obrigatória** do exame do pescoço."
-  },
-  {
-   "id": "PROPE-PF-CP-02",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "cabeça e pescoço · revisão",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas e Complemento (isocoria, disfonia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Assinale V para as verdadeiras e F para as falsas e marque a sequência correta:\n\nI. ( ) A avaliação pupilar é fundamental no paciente com alteração do nível de consciência; quando há assimetria no tamanho das pupilas, chamamos isocoria.\nII. ( ) No indivíduo normal, no teste de Rinne, a condução aérea é mais duradoura que a condução óssea.\nIII. ( ) Linfonodos metastáticos, em geral, são indolores, crescem com o tempo e estão aderidos.\nIV. ( ) A língua lisa pode ser observada nas deficiências de riboflavina, ferro e vitamina B12 e em pacientes submetidos à quimioterapia.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "F – V – F – F"
-    },
-    {
-     "letra": "B",
-     "texto": "F – V – F – V"
-    },
-    {
-     "letra": "C",
-     "texto": "V – F – F – V"
-    },
-    {
-     "letra": "D",
-     "texto": "F – V – V – F"
-    },
-    {
-     "letra": "E",
-     "texto": "F – V – V – V"
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Pupilas de tamanhos diferentes = **anisocoria**; isocoria = iguais. Midríase fixa unilateral no rebaixamento sugere compressão do III (herniação uncal)."
-  },
-  {
-   "id": "PROPE-PF-CP-03",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "sinais e sintomas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Complemento das provas antigas (Koplik, Hutchinson, síncope × lipotimia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre sinais e sintomas observados no exame de cabeça e pescoço e na anamnese, analise as afirmativas:\n\nI. As manchas de Koplik, pontos esbranquiçados sobre base eritematosa na mucosa jugal, são patognomônicas do sarampo.\nII. Os dentes de Hutchinson, incisivos em chave de fenda, fazem parte da tríade da sífilis congênita tardia.\nIII. A lipotimia consiste na perda súbita e transitória completa da consciência.\nIV. A hipertrofia gengival difusa pode ocorrer em leucemias e no uso de fenitoína.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Apenas I, II e IV estão corretas."
-    },
-    {
-     "letra": "B",
-     "texto": "Apenas a IV está correta."
-    },
-    {
-     "letra": "C",
-     "texto": "Apenas II e IV estão corretas."
-    },
-    {
-     "letra": "D",
-     "texto": "Apenas I e IV estão corretas."
-    },
-    {
-     "letra": "E",
-     "texto": "Apenas III e IV estão corretas."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Perda súbita e transitória da consciência é a **síncope**; lipotimia (pré-síncope) é a sensação de desmaio iminente, sem perda completa da consciência."
-  },
-  {
-   "id": "PROPE-PF-CP-04",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "fundo de olho",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Complemento das provas antigas (fundo de olho)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 62 anos, hipertenso de longa data e mal controlado, apresenta à fundoscopia estreitamento arteriolar, cruzamentos arteriovenosos patológicos, arteríolas em fio de cobre e hemorragias em chama. Qual é o diagnóstico mais provável?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Degeneração macular relacionada à idade"
-    },
-    {
-     "letra": "B",
-     "texto": "Retinopatia hipertensiva"
-    },
-    {
-     "letra": "C",
-     "texto": "Catarata"
-    },
-    {
-     "letra": "D",
-     "texto": "Glaucoma"
-    },
-    {
-     "letra": "E",
-     "texto": "Retinopatia diabética"
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Fio de cobre/prata, cruzamentos AV e hemorragias em chama = hipertensiva. Microaneurismas e exsudatos duros = diabética; escavação aumentada = glaucoma; drusas = DMRI; reflexo vermelho fraco = catarata."
-  },
-  {
-   "id": "PROPE-PF-CP-05",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "caroço no pescoço · condução",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q4) e caso guiado",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Mulher de 65 anos, natural de Petrolina (PE), procura o ambulatório com queixa de \"caroço no pescoço\" acima da clavícula esquerda há 6 meses, que vem crescendo. Perdeu 8 kg em 3 meses e sente-se fraca. Considerando a condução da consulta, sinalize a(s) opção(ões) pertinente(s):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O tempo de apresentação, a localização, a progressão, a existência de achados em outros sítios e a pesquisa de febre, perda ponderal, sudorese noturna e astenia são indispensáveis para a decisão."
-    },
-    {
-     "letra": "B",
-     "texto": "Um linfonodo de 3 cm, endurecido, aderido aos planos e indolor sugere processo inflamatório agudo reacional."
-    },
-    {
-     "letra": "C",
-     "texto": "Não se pode abrir mão da palpação de todas as cadeias linfonodais, descrevendo localização, tamanho, consistência, mobilidade e sinais flogísticos."
-    },
-    {
-     "letra": "D",
-     "texto": "O linfonodo supraclavicular associado a sintomas constitucionais sinaliza condição pouco mórbida, sem necessidade de investigação pormenorizada."
-    },
-    {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
-    }
-   ],
-   "gabarito": [
-    "A",
-    "C"
-   ],
-   "gabarito_texto": "A e C",
-   "comentario": "Supraclavicular palpável é patológico até prova em contrário (à esquerda, Virchow: abdome e tórax). Endurecido, aderido e indolor sugere **malignidade**. Conduta: exame completo (outras cadeias, abdome, baço), hemograma, imagem e biópsia."
-  },
-  {
-   "id": "PROPE-PF-CP-06",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "linfonodo reacional",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Nas provas (Q4) e caso guiado 2",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Estudante de 20 anos com febre, tosse seca e odinofagia há 4 dias. Ao exame: faringe hiperemiada com exsudato e linfonodo submandibular direito de 1 cm, móvel, doloroso e amolecido. Sinais vitais estáveis. Qual a conduta mais adequada em relação ao linfonodo?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Puncionar o linfonodo imediatamente."
-    },
-    {
-     "letra": "B",
-     "texto": "Encaminhar ao hematologista com suspeita de linfoma."
-    },
-    {
-     "letra": "C",
-     "texto": "Considerá-lo reacional, tratar o foco e reavaliar a regressão nas próximas semanas."
-    },
-    {
-     "letra": "D",
-     "texto": "Solicitar tomografia de tórax e PET-CT para estadiamento."
-    },
-    {
-     "letra": "E",
-     "texto": "Internar a paciente e realizar biópsia excisional."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Pequeno, móvel, doloroso e na drenagem do foco = reacional; regride em 2–4 semanas. \"Internar e biopsiar\" foi o item falso da prova. Investiga-se se persistir > 4–6 semanas, crescer, > 2 cm, supraclavicular ou com sintomas B."
-  },
-  {
-   "id": "PROPE-PF-CP-07",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "linfonodo suspeito",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · 11 Linfonodos e Nas provas (Q7)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Na avaliação dos linfonodos cervicais, qual conjunto de características sugere que um linfonodo aumentado é potencialmente maligno?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Menor que 1 cm, móvel, doloroso e amolecido."
-    },
-    {
-     "letra": "B",
-     "texto": "Doloroso, com sinais flogísticos e foco infeccioso próximo."
-    },
-    {
-     "letra": "C",
-     "texto": "Móvel, borrachoso e que regride em poucas semanas."
-    },
-    {
-     "letra": "D",
-     "texto": "Mais de 2 cm, endurecido, indolor, aderido aos planos profundos e em crescimento."
-    },
-    {
-     "letra": "E",
-     "texto": "Bilateral, pequeno e simétrico em criança com resfriado."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Suspeito: \"DUAS + B\" — Duro, Unido aos planos, Acima de 2 cm, Supraclavicular + sintomas B."
-  },
-  {
-   "id": "PROPE-PF-CP-08",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "palpação linfonodal",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · 11 Linfonodos (lista dissertativa)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Descreva como se realiza a palpação dos linfonodos cervicais e quais características devem ser descritas.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Técnica**: boa luz, região despida, comparando os dois lados; examinador preferencialmente atrás do paciente, cabeça levemente inclinada para o lado examinado (relaxa os músculos); polpas do indicador, médio e anelar, em movimentos circulares, trazendo os tecidos contra uma estrutura rígida (mandíbula, ECM). Seguir sempre a mesma sequência: occipital → retroauricular → pré-auricular → submandibular → submentoniana → cervical anterior → cervical posterior → supraclavicular.\n\n**Descrever**: localização, tamanho, consistência (borrachosa, endurecida, pétrea, flutuante), mobilidade (móvel × aderido), sensibilidade (doloroso × indolor), coalescência e sinais flogísticos/fístula.",
-   "comentario": null
-  },
-  {
-   "id": "PROPE-PF-CP-09",
-   "materia": "Propedêutica (SOP IV)",
-   "prova": "PR2",
-   "tema": "Cabeça, pescoço e linfonodos",
-   "subtema": "exame dos olhos e orelhas",
-   "origem": "inédita",
-   "fonte": "SOP IV Guia PR2 · 02 Cabeça e pescoço (aula Prof. Renato Leal + Porto caps. 12 e 15) · temas recorrentes nas provas · Exames especiais do olho e 4 Orelhas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Paciente com queixa de baixa acuidade visual no olho esquerdo e diminuição da audição à esquerda. Descreva como avaliar a acuidade visual, o campo visual e a audição (Rinne e Weber), incluindo o resultado esperado numa perda auditiva condutiva à esquerda.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "- **Acuidade**: tabela de Snellen a 20 pés (~6 m), um olho por vez, cobrindo o outro (20/20 = normal).\n- **Campo visual**: confrontação — examinador e paciente frente a frente, um olho por vez, testando os quadrantes.\n- **Rinne**: diapasão na mastoide até deixar de ouvir, depois em frente ao conduto; normal = aérea > óssea. Na perda condutiva à esquerda: **Rinne negativo à esquerda** (óssea ≥ aérea).\n- **Weber**: diapasão no vértice ou glabela; na perda condutiva **lateraliza para a esquerda** (lado doente); na neurossensorial, para o lado sadio.",
-   "comentario": null
-  }
- ]
+  ]
 }

@@ -1,0 +1,89 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Bases Cirúrgicas · Imagens",
+  "gerado_em": "2026-11-10",
+  "base": "Fotos livres do Wikimedia Commons (créditos nas questões)."
+ },
+ "questoes": [
+  {
+   "id": "BC-IMG-01",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "queloide (imagem)",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · cicatrizes anômalas",
+   "imagem": "/img/q/queloide-orelha.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 25 anos apresenta a lesão da imagem, que surgiu meses após um piercing na borda da orelha e cresceu além dos limites do furo. O diagnóstico e a característica que o diferencia são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lipoma; é mole e móvel"
+    },
+    {
+     "letra": "B",
+     "texto": "Queloide; ultrapassa os limites da ferida original"
+    },
+    {
+     "letra": "C",
+     "texto": "Granuloma piogênico; sangra fácil"
+    },
+    {
+     "letra": "D",
+     "texto": "Cisto sebáceo; tem poro central"
+    },
+    {
+     "letra": "E",
+     "texto": "Cicatriz hipertrófica; regride espontaneamente"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Queloide: excesso de colágeno que invade a pele sã, não regride e recidiva após excisão isolada. Mais comum em pele negra, lóbulo da orelha, região pré-esternal e ombros. Tratamento: corticoide intralesional, compressão, silicone; excisão associada a corticoide ou radioterapia.\n\n*Imagem: Htirgan — CC BY-SA 3.0, via Wikimedia Commons ([Ear Keloid- Auricular Keloid.JPG](https://commons.wikimedia.org/wiki/File:Ear_Keloid-_Auricular_Keloid.JPG)).*"
+  },
+  {
+   "id": "BC-IMG-02",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "profundidade (imagem)",
+   "origem": "inédita",
+   "fonte": "Plano de Bases Cirúrgicas 2026.2 · Sabiston / Schwartz · ATLS 10ª ed. · profundidade das queimaduras",
+   "imagem": "/img/q/queimadura-2grau.jpg",
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A queimadura da imagem, por líquido quente, apresenta bolhas, leito rosado e úmido e é muito dolorosa. A profundidade e a evolução esperada são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "3º grau; exige enxerto"
+    },
+    {
+     "letra": "B",
+     "texto": "2º grau profundo; sempre exige enxerto"
+    },
+    {
+     "letra": "C",
+     "texto": "2º grau superficial; cicatriza em 2 a 3 semanas"
+    },
+    {
+     "letra": "D",
+     "texto": "1º grau; cura em 3 a 6 dias"
+    },
+    {
+     "letra": "E",
+     "texto": "4º grau; atinge músculo"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Bolhas = 2º grau (epiderme + derme). Superficial (derme papilar): rosado, úmido, muito doloroso, enchimento capilar presente. Profundo (derme reticular): pálido, menos dor, cicatriza em > 3 semanas. Entra no cálculo da SCQ.\n\n*Imagem: ErikHmn — CC BY-SA 3.0, via Wikimedia Commons ([Brandwond-graad2.JPG](https://commons.wikimedia.org/wiki/File:Brandwond-graad2.JPG)).*"
+  }
+ ]
+}

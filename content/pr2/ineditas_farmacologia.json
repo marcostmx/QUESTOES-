@@ -1,1101 +1,1101 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · Farmacologia (formato das provas de Farmacologia Médica I)",
-  "gerado_em": "2026-11-08",
-  "base": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta FARMACOLOGIA/PR2), baseado no plano de aprendizagem 2026.2, nas aulas das Profs. Maria Alice e Fernando Vanraj e no Goodman & Gilman. Escopo da PR2 sem TGI (fora a pedido) e sem gota/AR (nunca caíram). Formato das provas: assinale a INCORRETA/CORRETA, afirmativas I–IV, sequência V/F, \"marque apenas\", casos de escolha de fármaco e discursivas."
- },
- "questoes": [
-  {
-   "id": "FARM-PF-01",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Histamina e anti-histamínicos",
-   "subtema": "anti-H1 · gerações · caso",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina e anti-histamínicos",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Motorista de aplicativo de 35 anos, com rinite alérgica persistente, procura atendimento pedindo um antialérgico que \"não dê sono\", pois trabalha dirigindo. Qual a escolha mais adequada e a justificativa?",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · Farmacologia (formato das provas de Farmacologia Médica I)",
+    "gerado_em": "2026-11-08",
+    "base": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta FARMACOLOGIA/PR2), baseado no plano de aprendizagem 2026.2, nas aulas das Profs. Maria Alice e Fernando Vanraj e no Goodman & Gilman. Escopo da PR2 sem TGI (fora a pedido) e sem gota/AR (nunca caíram). Formato das provas: assinale a INCORRETA/CORRETA, afirmativas I–IV, sequência V/F, \"marque apenas\", casos de escolha de fármaco e discursivas."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Difenidramina, anti-H1 de primeira geração, que não atravessa a barreira hematoencefálica."
+      "id": "FARM-PF-01",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Histamina e anti-histamínicos",
+      "subtema": "anti-H1 · gerações · caso",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina e anti-histamínicos",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Motorista de aplicativo de 35 anos, com rinite alérgica persistente, procura atendimento pedindo um antialérgico que \"não dê sono\", pois trabalha dirigindo. Qual a escolha mais adequada e a justificativa?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Difenidramina, anti-H1 de primeira geração, que não atravessa a barreira hematoencefálica."
+        },
+        {
+          "letra": "B",
+          "texto": "Loratadina, anti-H1 de segunda geração."
+        },
+        {
+          "letra": "C",
+          "texto": "Prometazina, anti-H1 de segunda geração, sem efeitos anticolinérgicos."
+        },
+        {
+          "letra": "D",
+          "texto": "Cimetidina, antagonista H1 seletivo, sem ação no sistema nervoso central."
+        },
+        {
+          "letra": "E",
+          "texto": "Dimenidrinato, por ser o anti-H1 com menor efeito sedativo disponível."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Loratadina, anti-H1 de segunda geração, que atravessa pouco a barreira hematoencefálica e por isso causa pouca sedação.\n\n1ª geração (difenidramina, prometazina, dimenidrinato): lipofílicos, cruzam a BHE → sedação e efeitos anticolinérgicos; úteis na cinetose. 2ª geração (loratadina, desloratadina, cetirizina, fexofenadina, bilastina): pouca sedação. Cimetidina é antagonista **H2**."
     },
     {
-     "letra": "B",
-     "texto": "Loratadina, anti-H1 de segunda geração, que atravessa pouco a barreira hematoencefálica e por isso causa pouca sedação."
+      "id": "FARM-PF-02",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Histamina e anti-histamínicos",
+      "subtema": "histamina e anti-histamínicos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina (receptores e mecanismo)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Todos os \"antagonistas\" H1 disponíveis comportam-se como agonistas inversos, estabilizando o receptor na conformação inativa.\nII. O receptor H1 está acoplado à proteína Gq, e o H2, à proteína Gs, responsável pelo estímulo da secreção ácida gástrica.\nIII. Os anti-H1 de primeira geração são úteis na prevenção da cinetose, justamente por atravessarem a barreira hematoencefálica.\nIV. Na anafilaxia, o anti-H1 é o fármaco de primeira escolha, substituindo a adrenalina.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "II e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I e IV, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I e II, apenas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Na anafilaxia a primeira escolha é a **adrenalina IM**; o anti-H1 é adjuvante (alivia prurido e urticária, não reverte choque nem broncoespasmo)."
     },
     {
-     "letra": "C",
-     "texto": "Prometazina, anti-H1 de segunda geração, sem efeitos anticolinérgicos."
+      "id": "FARM-PF-03",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Histamina e anti-histamínicos",
+      "subtema": "anafilaxia · conduta",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina (reações alérgicas agudas) e 06 Adrenérgica",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Adolescente de 14 anos, minutos após receber penicilina benzatina IM, apresenta urticária difusa, edema de lábios, sibilância, dispneia e PA 70/40 mmHg. Qual a conduta farmacológica inicial correta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Prednisona oral e observação por 6 horas."
+        },
+        {
+          "letra": "B",
+          "texto": "Ranitidina IV como monoterapia."
+        },
+        {
+          "letra": "C",
+          "texto": "Adrenalina intramuscular na face anterolateral da coxa."
+        },
+        {
+          "letra": "D",
+          "texto": "Propranolol IV para controlar a taquicardia."
+        },
+        {
+          "letra": "E",
+          "texto": "Loratadina oral, por ser o anti-histamínico mais seguro."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Adrenalina intramuscular na face anterolateral da coxa (0,01 mg/kg, máximo 0,5 mg), podendo repetir em 5 a 15 minutos.\n\nAdrenalina: α1 (vasoconstrição, reverte hipotensão e edema), β1 (inotropismo) e β2 (broncodilatação, ↓ liberação de mediadores dos mastócitos). Anti-H1/H2 e corticoide são adjuvantes. β-bloqueador piora a anafilaxia."
     },
     {
-     "letra": "D",
-     "texto": "Cimetidina, antagonista H1 seletivo, sem ação no sistema nervoso central."
+      "id": "FARM-PF-04",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Opioides",
+      "subtema": "mecanismo · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (receptores e cadeia Gi)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Os opioides são amplamente empregados como analgésicos. A esse respeito, é INCORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os receptores opioides são canais iônicos de cloreto; o influxo de cloreto hiperpolariza o neurônio e impede a liberação de neurotransmissores álgicos."
+        },
+        {
+          "letra": "B",
+          "texto": "A naloxona é um antagonista competitivo dos receptores opioides, usada para reverter a intoxicação."
+        },
+        {
+          "letra": "C",
+          "texto": "Com o uso repetido desenvolve-se tolerância à analgesia e à depressão respiratória, mas praticamente não à miose e à constipação."
+        },
+        {
+          "letra": "D",
+          "texto": "A subunidade βγ da proteína G abre canais de potássio, causando efluxo de K⁺ e hiperpolarização do neurônio pós-sináptico."
+        },
+        {
+          "letra": "E",
+          "texto": "Os receptores opioides são acoplados à proteína Gi/o, que inibe a adenilil ciclase, reduz o AMPc e o influxo de cálcio, diminuindo a liberação de neurotransmissores da dor."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Receptor opioide é **metabotrópico (GPCR Gi/o)**, não canal de cloreto: α-GTP inibe a AC (↓ AMPc → ↓ PKA → ↓ influxo de Ca²⁺ → ↓ exocitose); βγ abre K⁺ (hiperpolarização)."
     },
     {
-     "letra": "E",
-     "texto": "Dimenidrinato, por ser o anti-H1 com menor efeito sedativo disponível."
+      "id": "FARM-PF-05",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Opioides",
+      "subtema": "escolha e efeitos adversos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides e 10 Banco de pegadinhas",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os analgésicos opioides, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) Codeína e tramadol são opioides fracos; morfina, metadona e fentanil são opioides fortes.\nII. ( ) No trato gastrointestinal, o principal efeito adverso dos opioides é a diarreia.\nIII. ( ) A buprenorfina é um agonista parcial do receptor μ, com efeito teto para a depressão respiratória.\nIV. ( ) A naloxona é um agonista opioide de escolha para a dor pós-operatória intensa.\nV. ( ) A morfina pode liberar histamina, causando prurido, rubor e, raramente, broncoespasmo.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "F, V, F, F, V"
+        },
+        {
+          "letra": "B",
+          "texto": "V, V, V, F, V"
+        },
+        {
+          "letra": "C",
+          "texto": "V, V, F, F, V"
+        },
+        {
+          "letra": "D",
+          "texto": "V, F, V, V, V"
+        },
+        {
+          "letra": "E",
+          "texto": "V, F, V, F, V"
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "O efeito GI clássico é a **constipação** (por isso a loperamida é antidiarreica). Naloxona é **antagonista**. A banca já trocou \"metadona\" por opioide fraco: ela é forte."
+    },
+    {
+      "id": "FARM-PF-06",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Opioides",
+      "subtema": "intoxicação · caso",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (intoxicação) e Discursiva 9",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 30 anos é encontrado inconsciente, com frequência respiratória de 5 irpm, pupilas puntiformes e cianose; ao lado, embalagens de comprimidos de oxicodona. Qual a conduta farmacológica e o mecanismo do antídoto?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Buprenorfina em dose alta, agonista total que compete com a oxicodona."
+        },
+        {
+          "letra": "B",
+          "texto": "Naloxona, antagonista competitivo dos receptores μ."
+        },
+        {
+          "letra": "C",
+          "texto": "N-acetilcisteína, que repõe a glutationa e neutraliza o opioide."
+        },
+        {
+          "letra": "D",
+          "texto": "Flumazenil, antagonista do receptor opioide κ, de longa duração."
+        },
+        {
+          "letra": "E",
+          "texto": "Atropina, que reverte a miose e a depressão respiratória por bloqueio muscarínico."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Naloxona, antagonista competitivo dos receptores μ, que desloca o opioide e reverte rapidamente a depressão respiratória; como dura menos que muitos opioides, pode exigir doses repetidas.\n\nTríade da intoxicação opioide: coma, **miose puntiforme** e depressão respiratória. Naloxona é antagonista competitivo; meia-vida curta (re-sedação). Flumazenil é antídoto de benzodiazepínico; N-acetilcisteína, de paracetamol."
+    },
+    {
+      "id": "FARM-PF-07",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Opioides",
+      "subtema": "mecanismo · caso",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Idosa de 78 anos com fratura de colo de fêmur recebe morfina IV para dor intensa. No dia seguinte, apresenta sonolência, FR de 10 irpm, pupilas mióticas e não evacua há dois dias. Qual receptor e mecanismo explicam, ao mesmo tempo, a analgesia e esses efeitos adversos?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ativação do receptor μ acoplado à proteína Gi/o."
+        },
+        {
+          "letra": "B",
+          "texto": "Inibição da recaptação de serotonina e noradrenalina na medula espinal."
+        },
+        {
+          "letra": "C",
+          "texto": "Antagonismo dos receptores κ, que aumenta a motilidade intestinal."
+        },
+        {
+          "letra": "D",
+          "texto": "Bloqueio dos canais de sódio voltagem-dependentes dos nociceptores."
+        },
+        {
+          "letra": "E",
+          "texto": "Inibição reversível da COX-1 e COX-2, reduzindo prostaglandinas no SNC."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Ativação do receptor μ acoplado à proteína Gi/o, com redução da liberação de neurotransmissores e hiperpolarização neuronal no SNC e no plexo mioentérico.\n\nO receptor μ medeia analgesia supraespinal e espinal, euforia, depressão respiratória, miose, constipação, sedação e dependência. Bloqueio de canal de Na⁺ = anestésico local; COX = AINE."
+    },
+    {
+      "id": "FARM-PF-08",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Opioides",
+      "subtema": "mecanismo do opioide",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (cadeia da aula)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique, passo a passo, o mecanismo molecular pelo qual a morfina produz analgesia.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "A morfina é **agonista do receptor μ** (também age em δ e κ), um receptor acoplado à **proteína Gi/o**.\n\n1. Ao se ligar, ativa a proteína G (GDP → GTP), que se separa em **α-GTP** e **βγ**.\n2. **α-GTP inibe a adenilil ciclase** → ↓ AMPc → ↓ PKA → menos fosforilação dos canais de Ca²⁺ → **↓ influxo de Ca²⁺** no terminal pré-sináptico → **↓ exocitose** de neurotransmissores álgicos (glutamato, substância P).\n3. **βγ abre canais de K⁺** no neurônio pós-sináptico → efluxo de K⁺ → **hiperpolarização** (e também fecha canais de Ca²⁺).\n4. Resultado: menor transmissão da dor no corno dorsal da medula e ativação das vias descendentes inibitórias → **analgesia**.",
+      "comentario": null
+    },
+    {
+      "id": "FARM-PF-09",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Anestésicos locais",
+      "subtema": "estrutura, absorção, vasoconstritor",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os anestésicos locais, analise as afirmativas e assinale a alternativa que contém todas as corretas:\n\nI. São formados por um grupo lipofílico (anel aromático) ligado por uma cadeia intermediária éster ou amida a uma amina terciária ionizável.\nII. A forma ionizada (com carga) é a que atravessa a membrana do axônio; a forma neutra bloqueia o canal por dentro.\nIII. A adição de vasoconstritor reduz a absorção sistêmica, prolonga o efeito e diminui o risco de toxicidade.\nIV. Paciente com insuficiência hepática tem maior risco de intoxicação com anestésicos do tipo amida do que com os do tipo éster.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "III e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "II, III e IV, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, III e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "É o inverso: a forma **neutra** (não ionizada) atravessa a membrana; dentro do axônio ela se protona e a forma **ionizada** bloqueia o canal de Na⁺ pelo lado interno. Ésteres: hidrolisados pela pseudocolinesterase plasmática; amidas: fígado."
+    },
+    {
+      "id": "FARM-PF-10",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Anestésicos locais",
+      "subtema": "tecido inflamado · caso",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais (ionização)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Dentista tenta drenar um abscesso dentário e, mesmo após infiltrar lidocaína, o paciente continua sentindo dor intensa. Qual a explicação farmacológica?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O pus contém pseudocolinesterase, que degrada as amidas."
+        },
+        {
+          "letra": "B",
+          "texto": "A inflamação bloqueia os canais de potássio, impedindo a ação do anestésico."
+        },
+        {
+          "letra": "C",
+          "texto": "A inflamação aumenta a fração não ionizada, que é inativa no canal de sódio."
+        },
+        {
+          "letra": "D",
+          "texto": "O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico."
+        },
+        {
+          "letra": "E",
+          "texto": "A lidocaína é um éster e é rapidamente hidrolisada no tecido inflamado."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico, que não atravessa a membrana neuronal para chegar ao seu sítio de ação.\n\nAnestésicos locais são bases fracas (pKa ~8–9). Em meio ácido, predominam na forma ionizada, que não cruza a membrana: menos fármaco chega ao interior do axônio."
+    },
+    {
+      "id": "FARM-PF-11",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Anestésicos locais",
+      "subtema": "toxicidade sistêmica · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais (toxicidade)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Em relação à toxicidade dos anestésicos locais, é INCORRETO afirmar que:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os primeiros sinais de toxicidade costumam ser neurológicos: gosto metálico, parestesia perioral, zumbido e agitação, podendo evoluir para convulsões."
+        },
+        {
+          "letra": "B",
+          "texto": "Os ésteres têm duração mais curta por serem hidrolisados por esterases plasmáticas e estão mais associados a reações alérgicas."
+        },
+        {
+          "letra": "C",
+          "texto": "Os anestésicos locais aumentam a excitabilidade e a força de contração do miocárdio, sendo a taquicardia com hipertensão a principal manifestação da intoxicação grave."
+        },
+        {
+          "letra": "D",
+          "texto": "Quanto mais vascularizado o local de injeção, mais rápida a absorção sistêmica e maior o risco de toxicidade."
+        },
+        {
+          "letra": "E",
+          "texto": "A bupivacaína é particularmente cardiotóxica, e a emulsão lipídica a 20% é usada no tratamento da intoxicação grave."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "No coração os anestésicos locais **deprimem** a excitabilidade, a condução e a contratilidade (bradicardia, arritmias, colapso cardiovascular)."
+    },
+    {
+      "id": "FARM-PF-12",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "AINEs · INCORRETA",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e antitérmicos (classificação e pegadinhas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as características farmacológicas dos AINEs e antitérmicos, assinale a alternativa INCORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os coxibes são seletivos para COX-2 e, por isso, não apresentam risco cardiovascular nem renal, podendo ser usados com segurança em cardiopatas."
+        },
+        {
+          "letra": "B",
+          "texto": "O paracetamol tem efeito anti-inflamatório insignificante, e seu principal risco em doses altas é a hepatotoxicidade pelo metabólito NAPQI."
+        },
+        {
+          "letra": "C",
+          "texto": "A dipirona, derivado pirazolônico, foi retirada do mercado em alguns países pelo risco de agranulocitose."
+        },
+        {
+          "letra": "D",
+          "texto": "O ácido acetilsalicílico acetila a COX de forma irreversível; em baixas doses inibe a COX-1 plaquetária e reduz o tromboxano A2 por toda a vida da plaqueta (7 a 10 dias)."
+        },
+        {
+          "letra": "E",
+          "texto": "Os AINEs não seletivos reduzem as prostaglandinas protetoras da mucosa gástrica e podem causar gastrite e úlcera."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Coxibe \"poupa o estômago, cobra do coração\": menos lesão gástrica, mas **maior risco cardiovascular** (↓ prostaciclina endotelial com tromboxano preservado) e o risco **renal se mantém** (a COX-2 é constitutiva no rim)."
+    },
+    {
+      "id": "FARM-PF-13",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "dengue · prescrição",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e 08 Prescrição (modelo 3, dengue)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Gestante de 26 semanas com febre de 39 °C, cefaleia retro-orbitária, mialgia e prova do laço positiva, sem sinais de alarme; plaquetas 160.000/mm³. Suspeita de dengue. Qual a prescrição sintomática mais adequada?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ibuprofeno 600 mg de 8/8 h por 5 dias."
+        },
+        {
+          "letra": "B",
+          "texto": "Diclofenaco sódico 50 mg de 8/8 h por 3 dias."
+        },
+        {
+          "letra": "C",
+          "texto": "Ácido acetilsalicílico 500 mg de 6/6 h por 5 dias."
+        },
+        {
+          "letra": "D",
+          "texto": "Nimesulida 100 mg de 12/12 h, por ser seletiva para COX-2."
+        },
+        {
+          "letra": "E",
+          "texto": "Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor, sem ultrapassar 4 g/dia, associado à hidratação oral.\n\nNa dengue, AAS e AINEs são proibidos (antiagregação e lesão de mucosa → hemorragia). O paracetamol é o analgésico/antitérmico mais seguro também na gestação (AINE no 3º trimestre ainda fecha o canal arterial)."
+    },
+    {
+      "id": "FARM-PF-14",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "AINEs · interações e rim",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs (rim, interações, duração)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre os AINEs, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) O uso concomitante de AINE com varfarina aumenta o risco de sangramento.\nII. ( ) Os AINEs podem reduzir o efeito dos inibidores da ECA ao bloquear a síntese de prostaglandinas vasodilatadoras.\nIII. ( ) A associação de AINE com IECA (ou BRA) e diurético pode precipitar lesão renal aguda.\nIV. ( ) A síndrome nefrótica associada aos AINEs é sempre dose-dependente.\nV. ( ) Os AINEs podem ser usados por 2 a 3 semanas sem preocupação com efeitos adversos.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "V, F, V, F, F"
+        },
+        {
+          "letra": "B",
+          "texto": "V, V, V, F, F"
+        },
+        {
+          "letra": "C",
+          "texto": "F, V, V, F, V"
+        },
+        {
+          "letra": "D",
+          "texto": "F, V, F, F, F"
+        },
+        {
+          "letra": "E",
+          "texto": "F, F, V, F, V"
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Prostaglandinas (PGE2, PGI2) mantêm a perfusão renal; sem elas: retenção de sódio, HAS e LRA (\"triple whammy\"). A nefrite intersticial/síndrome nefrótica por AINE é **idiossincrática**. A duração ideal do AINE é de **3 a 5 dias**."
+    },
+    {
+      "id": "FARM-PF-15",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "COX e prostaglandinas",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs (COX-1, COX-2, COX-3)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A COX-1 é constitutiva e participa da proteção da mucosa gástrica, da função renal e da agregação plaquetária.\nII. A COX-2 é induzida na inflamação, mas também é constitutiva em alguns tecidos, como rim, endotélio e SNC.\nIII. O efeito antipirético do paracetamol é atribuído à inibição da COX no hipotálamo (a chamada COX-3), com pouca ação periférica.\nIV. Os AINEs atuam inibindo a fosfolipase A2, reduzindo a formação de prostaglandinas e leucotrienos.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I e II, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, II, III e IV."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Quem inibe (indiretamente) a **fosfolipase A2** é o **corticoide** (via lipocortina/anexina-1). AINEs inibem a **COX**; ao bloqueá-la, podem desviar o ácido araquidônico para leucotrienos (asma induzida por AAS)."
+    },
+    {
+      "id": "FARM-PF-16",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "AAS cardioprotetor",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e Discursiva 29",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Por que o ácido acetilsalicílico (AAS) em dose baixa (100 mg/dia) é usado como cardioprotetor?",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "O AAS **acetila de forma irreversível** a COX (principalmente a **COX-1 plaquetária**). Sem COX, a plaqueta não produz **tromboxano A2**, mediador vasoconstritor e pró-agregante.\n\nComo a **plaqueta não tem núcleo**, não sintetiza nova enzima: o efeito antiagregante dura toda a vida da plaqueta (**7 a 10 dias**). Já o **endotélio tem núcleo** e volta a produzir COX e **prostaciclina** (antiagregante e vasodilatadora).\n\nEm dose baixa, o efeito predomina sobre o tromboxano plaquetário, reduzindo a trombose arterial (prevenção secundária de IAM e AVC isquêmico). Risco: sangramento; por isso é proibido na dengue.",
+      "comentario": null
+    },
+    {
+      "id": "FARM-PF-17",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Eicosanoides, AINEs e antitérmicos",
+      "subtema": "paracetamol",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e Discursiva 30",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Por que o paracetamol apresenta pouco efeito anti-inflamatório e qual é o seu principal efeito adverso? Explique o mecanismo desse efeito adverso.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Pouco anti-inflamatório**: o paracetamol inibe a COX principalmente no **SNC** (hipotálamo — antipirético e analgésico). Nos tecidos inflamados, os **peróxidos** produzidos pelos leucócitos oxidam a enzima e anulam a ação do paracetamol, que por isso quase não tem efeito periférico (também não lesa o estômago nem a plaqueta).\n\n**Efeito adverso principal**: **hepatotoxicidade**. Uma fração é metabolizada pelo **CYP2E1** em **NAPQI**, metabólito tóxico normalmente conjugado com **glutationa**. Em doses altas (acima de 4 g/dia), jejum ou etilismo, a glutationa se esgota, o NAPQI se liga às proteínas dos hepatócitos e causa **necrose hepática**. Antídoto: **N-acetilcisteína**.",
+      "comentario": null
+    },
+    {
+      "id": "FARM-PF-18",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Corticoides (anti-inflamatórios esteroidais)",
+      "subtema": "mecanismo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Os glicocorticoides são usados pelas propriedades anti-inflamatórias e imunossupressoras. Sobre seu mecanismo de ação, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ligam-se a receptores acoplados à proteína G na membrana e inibem diretamente a COX-1 plaquetária."
+        },
+        {
+          "letra": "B",
+          "texto": "Estimulam a expressão do gene da COX-2, aumentando a síntese de prostaglandinas anti-inflamatórias."
+        },
+        {
+          "letra": "C",
+          "texto": "Induzem a lipocortina, que aumenta a atividade da fosfolipase A2 e a produção de ácido araquidônico."
+        },
+        {
+          "letra": "D",
+          "texto": "Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1)."
+        },
+        {
+          "letra": "E",
+          "texto": "São agonistas dos receptores β2-adrenérgicos, o que explica seu efeito na asma."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1), que inibe a fosfolipase A2, e reduzem a síntese de citocinas e da COX-2.\n\nMecanismo **genômico** (receptor intracelular, efeito em horas). Lipocortina **inibe** a PLA2 (menos prostaglandinas e leucotrienos); reduzem IL-1, IL-6, TNF-α e a expressão de COX-2. \"Nunca inibe a COX.\""
+    },
+    {
+      "id": "FARM-PF-19",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Corticoides (anti-inflamatórios esteroidais)",
+      "subtema": "corticoterapia",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides (princípios da corticoterapia)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "A respeito da farmacologia dos glicocorticoides, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) O tratamento prolongado deve ser retirado gradualmente, pois o eixo hipotálamo-hipófise-adrenal fica suprimido e a suspensão abrupta pode causar insuficiência adrenal.\nII. ( ) A prednisolona é preferível no hepatopata grave, porque a prednisona é pró-fármaco e precisa de metabolização hepática para ser ativada.\nIII. ( ) A espironolactona é um glicocorticoide com potente ação anti-inflamatória.\nIV. ( ) O uso de corticoide inalatório pode causar candidíase oral e alteração da voz, por isso se recomenda enxaguar a boca após a inalação.\nV. ( ) Os corticoides, associados aos AINEs, reduzem o risco de complicações gastrointestinais.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "F, F, V, V, F"
+        },
+        {
+          "letra": "B",
+          "texto": "F, V, V, V, F"
+        },
+        {
+          "letra": "C",
+          "texto": "F, F, F, V, V"
+        },
+        {
+          "letra": "D",
+          "texto": "V, F, F, F, V"
+        },
+        {
+          "letra": "E",
+          "texto": "V, V, F, V, F"
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Espironolactona é **antagonista mineralocorticoide** (diurético). Corticoide + AINE **aumenta** o risco de úlcera e sangramento."
+    },
+    {
+      "id": "FARM-PF-20",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Corticoides (anti-inflamatórios esteroidais)",
+      "subtema": "efeitos adversos crônicos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides e Discursivas 45–46",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique a farmacologia dos efeitos adversos dos anti-inflamatórios esteroidais usados de forma crônica e cite dois fármacos dessa classe.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "Os glicocorticoides agem em receptores intracelulares de quase todas as células, por isso os efeitos adversos são amplos e dose/tempo-dependentes:\n\n- **Metabólicos**: ↑ gliconeogênese e resistência à insulina → **hiperglicemia**/diabetes; redistribuição de gordura (face em lua cheia, giba) → **síndrome de Cushing iatrogênica**.\n- **Catabolismo proteico** → miopatia, atrofia da pele, estrias, má cicatrização; ↓ formação óssea e ↓ absorção de cálcio → **osteoporose**.\n- **Imunossupressão** → infecções oportunistas e reativação de tuberculose.\n- **Ação mineralocorticoide** (alguns) → retenção de sódio e água, HAS, hipocalemia.\n- **Supressão do eixo HHA** (feedback negativo sobre CRH/ACTH) → atrofia adrenal e **insuficiência adrenal** se suspensos abruptamente: exigem desmame.\n- Outros: úlcera (sobretudo com AINE), catarata, glaucoma, alterações de humor.\n\n**Exemplos**: prednisona, prednisolona, dexametasona, betametasona, hidrocortisona, metilprednisolona.",
+      "comentario": null
+    },
+    {
+      "id": "FARM-PF-21",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "SNA, farmacologia adrenérgica e asma",
+      "subtema": "choque séptico · vasopressor",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (qual vasopressor?)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Homem de 70 anos com pneumonia grave evolui com PA 78/40 mmHg e lactato elevado, sem resposta a 30 mL/kg de cristaloide. Qual vasopressor é indicado e qual o mecanismo?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Propranolol, que reduz o consumo de oxigênio do miocárdio."
+        },
+        {
+          "letra": "B",
+          "texto": "Isoproterenol, agonista β não seletivo que aumenta a resistência periférica."
+        },
+        {
+          "letra": "C",
+          "texto": "Noradrenalina, agonista α1 e β1."
+        },
+        {
+          "letra": "D",
+          "texto": "Noradrenalina, que bloqueia os receptores α1 e β1 e reduz a frequência cardíaca."
+        },
+        {
+          "letra": "E",
+          "texto": "Prazosina, antagonista α1 que aumenta a pré-carga."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** Noradrenalina, que ativa receptores α1 nos vasos (vasoconstrição, aumento da resistência periférica) e β1 no coração, restaurando a pressão arterial.\n\nChoque séptico após volume = **noradrenalina** (α1 > β1; pouca ação β2). Adrenalina IM = anafilaxia. Isoproterenol (β puro) vasodilata. A banca já trocou \"ativa\" por \"bloqueia\"."
+    },
+    {
+      "id": "FARM-PF-22",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "SNA, farmacologia adrenérgica e asma",
+      "subtema": "β-bloqueadores e α-bloqueadores",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (antagonistas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "multipla",
+      "enunciado": "Sobre os antagonistas adrenérgicos, assinale a(s) alternativa(s) correta(s):",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A prazosina, antagonista α1, aumenta a resistência vascular periférica e a pré-carga, sendo útil na hipotensão ortostática."
+        },
+        {
+          "letra": "B",
+          "texto": "O propranolol, β-bloqueador não seletivo, pode mascarar e prolongar a hipoglicemia em diabéticos usuários de insulina."
+        },
+        {
+          "letra": "C",
+          "texto": "Atenolol, metoprolol, bisoprolol e nebivolol são β-bloqueadores não seletivos."
+        },
+        {
+          "letra": "D",
+          "texto": "Os β-bloqueadores fazem parte do tratamento padrão pós-infarto, pois reduzem os aumentos simpático-estimulados da frequência e da contratilidade cardíacas."
+        },
+        {
+          "letra": "E",
+          "texto": "Nenhuma alternativa está correta."
+        }
+      ],
+      "gabarito": [
+        "B",
+        "D"
+      ],
+      "gabarito_texto": "B e D",
+      "comentario": "Atenolol, metoprolol, bisoprolol, esmolol e nebivolol são **β1-seletivos**. A prazosina **reduz** a resistência periférica e a pré-carga (anti-hipertensivo, HPB) e pode **causar** hipotensão ortostática (efeito de primeira dose). Carvedilol (e labetalol) bloqueiam **α1 + β1 + β2**. β-bloqueador não seletivo: evitar em asma/DPOC."
+    },
+    {
+      "id": "FARM-PF-23",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "SNA, farmacologia adrenérgica e asma",
+      "subtema": "receptores e proteína G",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · Fundamentos (QISS QIQ) e 06 Adrenérgica",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sobre as respostas mediadas pelos receptores adrenérgicos, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. O receptor α1 está acoplado à proteína Gq: ativa a fosfolipase C, gera IP3 e DAG, libera cálcio e contrai o músculo liso vascular.\nII. A estimulação dos receptores α2 pré-sinápticos aumenta a liberação de noradrenalina.\nIII. Os receptores β1 e β2 estão acoplados à proteína Gs, que ativa a adenilil ciclase e aumenta o AMPc.\nIV. A estimulação do receptor β2 causa broncodilatação e pode provocar tremor e hipocalemia.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "II, III e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "α2 (Gi) pré-sináptico é **autorreceptor inibitório**: reduz a liberação de noradrenalina (base da clonidina). Macete \"QISS QIQ\": α1 Q, α2 I, β1 S, β2 S · M1 Q, M2 I, M3 Q."
+    },
+    {
+      "id": "FARM-PF-24",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "SNA, farmacologia adrenérgica e asma",
+      "subtema": "asma · broncodilatadores",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica e asma",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Criança de 9 anos com asma chega ao pronto-socorro em crise, com sibilância difusa e uso de musculatura acessória. Recebe salbutamol associado a brometo de ipratrópio por via inalatória. Sobre essa associação, assinale a correta:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O ipratrópio é um corticoide inalatório que reduz a inflamação da via aérea."
+        },
+        {
+          "letra": "B",
+          "texto": "O salbutamol é agonista β2 de início rápido e curta duração."
+        },
+        {
+          "letra": "C",
+          "texto": "Ambos são agonistas β2, e a associação apenas soma doses do mesmo mecanismo."
+        },
+        {
+          "letra": "D",
+          "texto": "O ipratrópio aumenta o AMPc ao estimular receptores muscarínicos M5."
+        },
+        {
+          "letra": "E",
+          "texto": "O salbutamol é um β2-agonista de longa ação, indicado como monoterapia de manutenção."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** O salbutamol é agonista β2 de início rápido e curta duração; o ipratrópio é antagonista muscarínico (M3) que reduz o tônus broncoconstritor vagal; os mecanismos são diferentes e complementares.\n\nSalbutamol/fenoterol: rápido e curto (resgate). Formoterol: rápido e longo. Salmeterol: lento e longo (só manutenção). LABA nunca sozinho na asma: sempre com corticoide inalatório."
+    },
+    {
+      "id": "FARM-PF-25",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "SNA, farmacologia adrenérgica e asma",
+      "subtema": "metildopa e clonidina",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (agonistas α2 e gestação)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Gestante de 30 semanas com hipertensão arterial crônica precisa de tratamento anti-hipertensivo oral. Qual fármaco simpaticolítico é a escolha clássica nesse cenário e por quê?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Clonidina, que pode ser suspensa abruptamente sem riscos."
+        },
+        {
+          "letra": "B",
+          "texto": "Propranolol, por ser β-bloqueador não seletivo sem efeito sobre o feto."
+        },
+        {
+          "letra": "C",
+          "texto": "Prazosina, por aumentar a resistência periférica."
+        },
+        {
+          "letra": "D",
+          "texto": "Metildopa, convertida em metilnoradrenalina."
+        },
+        {
+          "letra": "E",
+          "texto": "Adrenalina, que reduz a pressão por estímulo β2."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Metildopa, convertida em metilnoradrenalina, que estimula receptores α2 centrais (falso transmissor) e reduz o tônus simpático, com longa experiência de segurança na gestação.\n\nMetildopa: escolha na gestante (a aula cita o \"falso transmissor\"; o livro, o agonismo α2 central — cubra as duas versões). A clonidina exige retirada gradual pelo risco de hipertensão de rebote."
+    },
+    {
+      "id": "FARM-PF-26",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "organofosforados · marque apenas",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (intoxicação por organofosforado)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "itens_vf",
+      "enunciado": "Trabalhador rural é trazido após exposição a um inseticida organofosforado. Marque APENAS os sinais esperados nessa intoxicação (erro anula acerto): ( ) Miose ( ) Midríase ( ) Sialorreia e broncorreia ( ) Xerostomia ( ) Bradicardia ( ) Taquicardia ( ) Fasciculações musculares ( ) Broncodilatação ( ) Diarreia e incontinência urinária",
+      "alternativas": [],
+      "gabarito": [
+        "Miose",
+        "Sialorreia e broncorreia",
+        "Bradicardia",
+        "Fasciculações musculares",
+        "Diarreia e incontinência urinária"
+      ],
+      "gabarito_texto": "Miose; Sialorreia e broncorreia; Bradicardia; Fasciculações musculares; Diarreia e incontinência urinária",
+      "comentario": "Organofosforado inibe a AChE de forma **irreversível** → excesso de ACh: muscarínico (DUMBELS: diarreia, micção, miose, bradicardia, broncorreia/broncoespasmo, êmese, lacrimejamento, salivação), nicotínico (fasciculações → paralisia) e central (confusão, convulsão). Tratamento: atropina até secar a broncorreia + pralidoxima precoce."
+    },
+    {
+      "id": "FARM-PF-27",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "antimuscarínicos · marque apenas",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (\"seco como osso\")",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "itens_vf",
+      "enunciado": "Marque APENAS os efeitos colaterais esperados com o uso de antagonistas muscarínicos, como a atropina (erro anula acerto): ( ) Midríase e visão turva ( ) Miose ( ) Xerostomia (boca seca) ( ) Sialorreia ( ) Taquicardia ( ) Bradicardia ( ) Retenção urinária e constipação ( ) Aumento do peristaltismo ( ) Pele seca, rubor e hipertermia",
+      "alternativas": [],
+      "gabarito": [
+        "Midríase e visão turva",
+        "Xerostomia (boca seca)",
+        "Taquicardia",
+        "Retenção urinária e constipação",
+        "Pele seca, rubor e hipertermia"
+      ],
+      "gabarito_texto": "Midríase e visão turva; Xerostomia (boca seca); Taquicardia; Retenção urinária e constipação; Pele seca, rubor e hipertermia",
+      "comentario": "\"Seco como osso, cego como morcego, vermelho como beterraba, quente como lebre, louco como chapeleiro\": boca/pele secas, midríase, rubor, febre, delírio, taquicardia, retenção urinária e constipação."
+    },
+    {
+      "id": "FARM-PF-28",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "fármacos colinérgicos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (agonistas, anticolinesterásicos, antagonistas)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A pilocarpina é agonista muscarínico direto, usada no glaucoma por causar miose e na xerostomia como sialagogo.\nII. O betanecol inibe o peristaltismo e é usado no tratamento da diarreia.\nIII. A neostigmina é um anticolinesterásico usado na miastenia gravis e na reversão do bloqueio neuromuscular não despolarizante.\nIV. A tropicamida é usada para causar midríase no exame de fundo de olho, e a escopolamina (N-butil) é usada nas cólicas abdominais.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I e IV, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "I, II, III e IV."
+        },
+        {
+          "letra": "C",
+          "texto": "III, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "II e IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, III e IV, apenas."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "O betanecol **estimula** o peristaltismo e a micção (retenção urinária pós-operatória, íleo). A banca já inverteu tropicamida e escopolamina."
+    },
+    {
+      "id": "FARM-PF-29",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "bloqueadores neuromusculares",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (bloqueadores neuromusculares)",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Para uma intubação de sequência rápida, o anestesista escolhe succinilcolina. Sobre os bloqueadores neuromusculares, assinale a alternativa CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O sugamadex reverte o bloqueio da succinilcolina por inibir a pseudocolinesterase."
+        },
+        {
+          "letra": "B",
+          "texto": "A succinilcolina é agonista nicotínico despolarizante."
+        },
+        {
+          "letra": "C",
+          "texto": "Os bloqueadores não despolarizantes são agonistas do receptor muscarínico M2."
+        },
+        {
+          "letra": "D",
+          "texto": "A succinilcolina é revertida com neostigmina, que antagoniza o bloqueio despolarizante."
+        },
+        {
+          "letra": "E",
+          "texto": "O rocurônio é despolarizante e causa fasciculações intensas antes da paralisia."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** A succinilcolina é agonista nicotínico despolarizante: causa fasciculações seguidas de paralisia, pode elevar o potássio sérico e desencadear hipertermia maligna, tratada com dantroleno.\n\nSuccinilcolina: despolarizante, início rápido, metabolizada pela pseudocolinesterase, sem reversão (a neostigmina **potencializa**). Rocurônio e cia: antagonistas competitivos, sem fasciculação; reversão com neostigmina (+ atropina) ou **sugamadex** (encapsula rocurônio/vecurônio)."
+    },
+    {
+      "id": "FARM-PF-30",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "miastenia · edrofônio",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (miastenia gravis) e Discursivas 87–88",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher de 28 anos refere ptose palpebral e diplopia que pioram ao fim do dia. Após a administração de um anticolinesterásico de ação rápida (edrofônio), a ptose melhora em segundos. Qual a explicação correta?",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O fármaco reativa a acetilcolinesterase inibida por anticorpos."
+        },
+        {
+          "letra": "B",
+          "texto": "O fármaco aumenta a síntese de ACh pela colina acetiltransferase."
+        },
+        {
+          "letra": "C",
+          "texto": "O fármaco inibe a acetilcolinesterase."
+        },
+        {
+          "letra": "D",
+          "texto": "O fármaco bloqueia os receptores nicotínicos e reduz a fadiga muscular."
+        },
+        {
+          "letra": "E",
+          "texto": "O fármaco é agonista muscarínico e contrai a musculatura lisa da pálpebra."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** O fármaco inibe a acetilcolinesterase, aumentando a ACh na fenda da placa motora do músculo esquelético, que passa a ativar os receptores nicotínicos que restaram após o ataque autoimune.\n\nNa miastenia, anticorpos destroem receptores nicotínicos da **placa motora (músculo esquelético)**. Erro corrigido em prova: \"contração da musculatura lisa\". Tratamento: piridostigmina + imunossupressão; dose excessiva → crise colinérgica."
+    },
+    {
+      "id": "FARM-PF-31",
+      "materia": "Farmacologia",
+      "prova": "PR2",
+      "tema": "Colinérgica e junção neuromuscular",
+      "subtema": "sinapse colinérgica",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica e Discursiva 87",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Descreva a sinapse colinérgica (síntese, armazenamento, liberação e término da ação da acetilcolina) e cite um fármaco ou toxina que atue em cada etapa.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "1. **Captação de colina** pelo transportador CHT (bloqueado pelo **hemicolínio**).\n2. **Síntese**: colina + acetil-CoA → ACh, pela **colina acetiltransferase (ChAT)**.\n3. **Armazenamento** em vesículas pelo VAChT (bloqueado pelo **vesamicol**).\n4. **Liberação**: o potencial de ação abre canais de Ca²⁺; o **Ca²⁺** dispara a fusão da vesícula pelas proteínas SNARE (sinaptobrevina/VAMP, SNAP-25, sintaxina) — a **toxina botulínica** cliva as SNAREs e impede a exocitose (paralisia flácida).\n5. **Ação**: receptores **nicotínicos** (canais iônicos; placa motora, gânglios) e **muscarínicos** (GPCR: M2 Gi no coração; M3 Gq em glândulas, brônquios, TGI, bexiga, íris). Agonistas: pilocarpina, betanecol; antagonistas: atropina, ipratrópio; bloqueadores NM: rocurônio, succinilcolina.\n6. **Término**: hidrólise pela **acetilcolinesterase** em colina + acetato (inibida por neostigmina, piridostigmina, fisostigmina, edrofônio e, irreversivelmente, pelos organofosforados).",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "1ª geração (difenidramina, prometazina, dimenidrinato): lipofílicos, cruzam a BHE → sedação e efeitos anticolinérgicos; úteis na cinetose. 2ª geração (loratadina, desloratadina, cetirizina, fexofenadina, bilastina): pouca sedação. Cimetidina é antagonista **H2**."
-  },
-  {
-   "id": "FARM-PF-02",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Histamina e anti-histamínicos",
-   "subtema": "histamina e anti-histamínicos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina (receptores e mecanismo)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. Todos os \"antagonistas\" H1 disponíveis comportam-se como agonistas inversos, estabilizando o receptor na conformação inativa.\nII. O receptor H1 está acoplado à proteína Gq, e o H2, à proteína Gs, responsável pelo estímulo da secreção ácida gástrica.\nIII. Os anti-H1 de primeira geração são úteis na prevenção da cinetose, justamente por atravessarem a barreira hematoencefálica.\nIV. Na anafilaxia, o anti-H1 é o fármaco de primeira escolha, substituindo a adrenalina.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "II e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I e IV, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I e II, apenas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Na anafilaxia a primeira escolha é a **adrenalina IM**; o anti-H1 é adjuvante (alivia prurido e urticária, não reverte choque nem broncoespasmo)."
-  },
-  {
-   "id": "FARM-PF-03",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Histamina e anti-histamínicos",
-   "subtema": "anafilaxia · conduta",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 01 Histamina (reações alérgicas agudas) e 06 Adrenérgica",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Adolescente de 14 anos, minutos após receber penicilina benzatina IM, apresenta urticária difusa, edema de lábios, sibilância, dispneia e PA 70/40 mmHg. Qual a conduta farmacológica inicial correta?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Prednisona oral e observação por 6 horas."
-    },
-    {
-     "letra": "B",
-     "texto": "Ranitidina IV como monoterapia."
-    },
-    {
-     "letra": "C",
-     "texto": "Adrenalina intramuscular na face anterolateral da coxa (0,01 mg/kg, máximo 0,5 mg), podendo repetir em 5 a 15 minutos."
-    },
-    {
-     "letra": "D",
-     "texto": "Propranolol IV para controlar a taquicardia."
-    },
-    {
-     "letra": "E",
-     "texto": "Loratadina oral, por ser o anti-histamínico mais seguro."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Adrenalina: α1 (vasoconstrição, reverte hipotensão e edema), β1 (inotropismo) e β2 (broncodilatação, ↓ liberação de mediadores dos mastócitos). Anti-H1/H2 e corticoide são adjuvantes. β-bloqueador piora a anafilaxia."
-  },
-  {
-   "id": "FARM-PF-04",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Opioides",
-   "subtema": "mecanismo · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (receptores e cadeia Gi)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Os opioides são amplamente empregados como analgésicos. A esse respeito, é INCORRETO afirmar que:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Os receptores opioides são canais iônicos de cloreto; o influxo de cloreto hiperpolariza o neurônio e impede a liberação de neurotransmissores álgicos."
-    },
-    {
-     "letra": "B",
-     "texto": "A naloxona é um antagonista competitivo dos receptores opioides, usada para reverter a intoxicação."
-    },
-    {
-     "letra": "C",
-     "texto": "Com o uso repetido desenvolve-se tolerância à analgesia e à depressão respiratória, mas praticamente não à miose e à constipação."
-    },
-    {
-     "letra": "D",
-     "texto": "A subunidade βγ da proteína G abre canais de potássio, causando efluxo de K⁺ e hiperpolarização do neurônio pós-sináptico."
-    },
-    {
-     "letra": "E",
-     "texto": "Os receptores opioides são acoplados à proteína Gi/o, que inibe a adenilil ciclase, reduz o AMPc e o influxo de cálcio, diminuindo a liberação de neurotransmissores da dor."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Receptor opioide é **metabotrópico (GPCR Gi/o)**, não canal de cloreto: α-GTP inibe a AC (↓ AMPc → ↓ PKA → ↓ influxo de Ca²⁺ → ↓ exocitose); βγ abre K⁺ (hiperpolarização)."
-  },
-  {
-   "id": "FARM-PF-05",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Opioides",
-   "subtema": "escolha e efeitos adversos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides e 10 Banco de pegadinhas",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os analgésicos opioides, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) Codeína e tramadol são opioides fracos; morfina, metadona e fentanil são opioides fortes.\nII. ( ) No trato gastrointestinal, o principal efeito adverso dos opioides é a diarreia.\nIII. ( ) A buprenorfina é um agonista parcial do receptor μ, com efeito teto para a depressão respiratória.\nIV. ( ) A naloxona é um agonista opioide de escolha para a dor pós-operatória intensa.\nV. ( ) A morfina pode liberar histamina, causando prurido, rubor e, raramente, broncoespasmo.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "F, V, F, F, V"
-    },
-    {
-     "letra": "B",
-     "texto": "V, V, V, F, V"
-    },
-    {
-     "letra": "C",
-     "texto": "V, V, F, F, V"
-    },
-    {
-     "letra": "D",
-     "texto": "V, F, V, V, V"
-    },
-    {
-     "letra": "E",
-     "texto": "V, F, V, F, V"
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "O efeito GI clássico é a **constipação** (por isso a loperamida é antidiarreica). Naloxona é **antagonista**. A banca já trocou \"metadona\" por opioide fraco: ela é forte."
-  },
-  {
-   "id": "FARM-PF-06",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Opioides",
-   "subtema": "intoxicação · caso",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (intoxicação) e Discursiva 9",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 30 anos é encontrado inconsciente, com frequência respiratória de 5 irpm, pupilas puntiformes e cianose; ao lado, embalagens de comprimidos de oxicodona. Qual a conduta farmacológica e o mecanismo do antídoto?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Buprenorfina em dose alta, agonista total que compete com a oxicodona."
-    },
-    {
-     "letra": "B",
-     "texto": "Naloxona, antagonista competitivo dos receptores μ, que desloca o opioide e reverte rapidamente a depressão respiratória; como dura menos que muitos opioides, pode exigir doses repetidas."
-    },
-    {
-     "letra": "C",
-     "texto": "N-acetilcisteína, que repõe a glutationa e neutraliza o opioide."
-    },
-    {
-     "letra": "D",
-     "texto": "Flumazenil, antagonista do receptor opioide κ, de longa duração."
-    },
-    {
-     "letra": "E",
-     "texto": "Atropina, que reverte a miose e a depressão respiratória por bloqueio muscarínico."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Tríade da intoxicação opioide: coma, **miose puntiforme** e depressão respiratória. Naloxona é antagonista competitivo; meia-vida curta (re-sedação). Flumazenil é antídoto de benzodiazepínico; N-acetilcisteína, de paracetamol."
-  },
-  {
-   "id": "FARM-PF-07",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Opioides",
-   "subtema": "mecanismo · caso",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Idosa de 78 anos com fratura de colo de fêmur recebe morfina IV para dor intensa. No dia seguinte, apresenta sonolência, FR de 10 irpm, pupilas mióticas e não evacua há dois dias. Qual receptor e mecanismo explicam, ao mesmo tempo, a analgesia e esses efeitos adversos?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ativação do receptor μ acoplado à proteína Gi/o, com redução da liberação de neurotransmissores e hiperpolarização neuronal no SNC e no plexo mioentérico."
-    },
-    {
-     "letra": "B",
-     "texto": "Inibição da recaptação de serotonina e noradrenalina na medula espinal."
-    },
-    {
-     "letra": "C",
-     "texto": "Antagonismo dos receptores κ, que aumenta a motilidade intestinal."
-    },
-    {
-     "letra": "D",
-     "texto": "Bloqueio dos canais de sódio voltagem-dependentes dos nociceptores."
-    },
-    {
-     "letra": "E",
-     "texto": "Inibição reversível da COX-1 e COX-2, reduzindo prostaglandinas no SNC."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "O receptor μ medeia analgesia supraespinal e espinal, euforia, depressão respiratória, miose, constipação, sedação e dependência. Bloqueio de canal de Na⁺ = anestésico local; COX = AINE."
-  },
-  {
-   "id": "FARM-PF-08",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Opioides",
-   "subtema": "mecanismo do opioide",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 02 Opioides (cadeia da aula)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique, passo a passo, o mecanismo molecular pelo qual a morfina produz analgesia.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "A morfina é **agonista do receptor μ** (também age em δ e κ), um receptor acoplado à **proteína Gi/o**.\n\n1. Ao se ligar, ativa a proteína G (GDP → GTP), que se separa em **α-GTP** e **βγ**.\n2. **α-GTP inibe a adenilil ciclase** → ↓ AMPc → ↓ PKA → menos fosforilação dos canais de Ca²⁺ → **↓ influxo de Ca²⁺** no terminal pré-sináptico → **↓ exocitose** de neurotransmissores álgicos (glutamato, substância P).\n3. **βγ abre canais de K⁺** no neurônio pós-sináptico → efluxo de K⁺ → **hiperpolarização** (e também fecha canais de Ca²⁺).\n4. Resultado: menor transmissão da dor no corno dorsal da medula e ativação das vias descendentes inibitórias → **analgesia**.",
-   "comentario": null
-  },
-  {
-   "id": "FARM-PF-09",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Anestésicos locais",
-   "subtema": "estrutura, absorção, vasoconstritor",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os anestésicos locais, analise as afirmativas e assinale a alternativa que contém todas as corretas:\n\nI. São formados por um grupo lipofílico (anel aromático) ligado por uma cadeia intermediária éster ou amida a uma amina terciária ionizável.\nII. A forma ionizada (com carga) é a que atravessa a membrana do axônio; a forma neutra bloqueia o canal por dentro.\nIII. A adição de vasoconstritor reduz a absorção sistêmica, prolonga o efeito e diminui o risco de toxicidade.\nIV. Paciente com insuficiência hepática tem maior risco de intoxicação com anestésicos do tipo amida do que com os do tipo éster.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "III e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "II, III e IV, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, III e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "É o inverso: a forma **neutra** (não ionizada) atravessa a membrana; dentro do axônio ela se protona e a forma **ionizada** bloqueia o canal de Na⁺ pelo lado interno. Ésteres: hidrolisados pela pseudocolinesterase plasmática; amidas: fígado."
-  },
-  {
-   "id": "FARM-PF-10",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Anestésicos locais",
-   "subtema": "tecido inflamado · caso",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais (ionização)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Dentista tenta drenar um abscesso dentário e, mesmo após infiltrar lidocaína, o paciente continua sentindo dor intensa. Qual a explicação farmacológica?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O pus contém pseudocolinesterase, que degrada as amidas."
-    },
-    {
-     "letra": "B",
-     "texto": "A inflamação bloqueia os canais de potássio, impedindo a ação do anestésico."
-    },
-    {
-     "letra": "C",
-     "texto": "A inflamação aumenta a fração não ionizada, que é inativa no canal de sódio."
-    },
-    {
-     "letra": "D",
-     "texto": "O pH ácido do tecido inflamado aumenta a fração ionizada do anestésico, que não atravessa a membrana neuronal para chegar ao seu sítio de ação."
-    },
-    {
-     "letra": "E",
-     "texto": "A lidocaína é um éster e é rapidamente hidrolisada no tecido inflamado."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Anestésicos locais são bases fracas (pKa ~8–9). Em meio ácido, predominam na forma ionizada, que não cruza a membrana: menos fármaco chega ao interior do axônio."
-  },
-  {
-   "id": "FARM-PF-11",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Anestésicos locais",
-   "subtema": "toxicidade sistêmica · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 03 Anestésicos locais (toxicidade)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Em relação à toxicidade dos anestésicos locais, é INCORRETO afirmar que:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Os primeiros sinais de toxicidade costumam ser neurológicos: gosto metálico, parestesia perioral, zumbido e agitação, podendo evoluir para convulsões."
-    },
-    {
-     "letra": "B",
-     "texto": "Os ésteres têm duração mais curta por serem hidrolisados por esterases plasmáticas e estão mais associados a reações alérgicas."
-    },
-    {
-     "letra": "C",
-     "texto": "Os anestésicos locais aumentam a excitabilidade e a força de contração do miocárdio, sendo a taquicardia com hipertensão a principal manifestação da intoxicação grave."
-    },
-    {
-     "letra": "D",
-     "texto": "Quanto mais vascularizado o local de injeção, mais rápida a absorção sistêmica e maior o risco de toxicidade."
-    },
-    {
-     "letra": "E",
-     "texto": "A bupivacaína é particularmente cardiotóxica, e a emulsão lipídica a 20% é usada no tratamento da intoxicação grave."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "No coração os anestésicos locais **deprimem** a excitabilidade, a condução e a contratilidade (bradicardia, arritmias, colapso cardiovascular)."
-  },
-  {
-   "id": "FARM-PF-12",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "AINEs · INCORRETA",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e antitérmicos (classificação e pegadinhas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as características farmacológicas dos AINEs e antitérmicos, assinale a alternativa INCORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Os coxibes são seletivos para COX-2 e, por isso, não apresentam risco cardiovascular nem renal, podendo ser usados com segurança em cardiopatas."
-    },
-    {
-     "letra": "B",
-     "texto": "O paracetamol tem efeito anti-inflamatório insignificante, e seu principal risco em doses altas é a hepatotoxicidade pelo metabólito NAPQI."
-    },
-    {
-     "letra": "C",
-     "texto": "A dipirona, derivado pirazolônico, foi retirada do mercado em alguns países pelo risco de agranulocitose."
-    },
-    {
-     "letra": "D",
-     "texto": "O ácido acetilsalicílico acetila a COX de forma irreversível; em baixas doses inibe a COX-1 plaquetária e reduz o tromboxano A2 por toda a vida da plaqueta (7 a 10 dias)."
-    },
-    {
-     "letra": "E",
-     "texto": "Os AINEs não seletivos reduzem as prostaglandinas protetoras da mucosa gástrica e podem causar gastrite e úlcera."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Coxibe \"poupa o estômago, cobra do coração\": menos lesão gástrica, mas **maior risco cardiovascular** (↓ prostaciclina endotelial com tromboxano preservado) e o risco **renal se mantém** (a COX-2 é constitutiva no rim)."
-  },
-  {
-   "id": "FARM-PF-13",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "dengue · prescrição",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e 08 Prescrição (modelo 3, dengue)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Gestante de 26 semanas com febre de 39 °C, cefaleia retro-orbitária, mialgia e prova do laço positiva, sem sinais de alarme; plaquetas 160.000/mm³. Suspeita de dengue. Qual a prescrição sintomática mais adequada?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ibuprofeno 600 mg de 8/8 h por 5 dias."
-    },
-    {
-     "letra": "B",
-     "texto": "Diclofenaco sódico 50 mg de 8/8 h por 3 dias."
-    },
-    {
-     "letra": "C",
-     "texto": "Ácido acetilsalicílico 500 mg de 6/6 h por 5 dias."
-    },
-    {
-     "letra": "D",
-     "texto": "Nimesulida 100 mg de 12/12 h, por ser seletiva para COX-2."
-    },
-    {
-     "letra": "E",
-     "texto": "Paracetamol 500 mg, 1 a 2 comprimidos de 6/6 h se febre ou dor, sem ultrapassar 4 g/dia, associado à hidratação oral."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Na dengue, AAS e AINEs são proibidos (antiagregação e lesão de mucosa → hemorragia). O paracetamol é o analgésico/antitérmico mais seguro também na gestação (AINE no 3º trimestre ainda fecha o canal arterial)."
-  },
-  {
-   "id": "FARM-PF-14",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "AINEs · interações e rim",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs (rim, interações, duração)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre os AINEs, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) O uso concomitante de AINE com varfarina aumenta o risco de sangramento.\nII. ( ) Os AINEs podem reduzir o efeito dos inibidores da ECA ao bloquear a síntese de prostaglandinas vasodilatadoras.\nIII. ( ) A associação de AINE com IECA (ou BRA) e diurético pode precipitar lesão renal aguda.\nIV. ( ) A síndrome nefrótica associada aos AINEs é sempre dose-dependente.\nV. ( ) Os AINEs podem ser usados por 2 a 3 semanas sem preocupação com efeitos adversos.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "V, F, V, F, F"
-    },
-    {
-     "letra": "B",
-     "texto": "V, V, V, F, F"
-    },
-    {
-     "letra": "C",
-     "texto": "F, V, V, F, V"
-    },
-    {
-     "letra": "D",
-     "texto": "F, V, F, F, F"
-    },
-    {
-     "letra": "E",
-     "texto": "F, F, V, F, V"
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Prostaglandinas (PGE2, PGI2) mantêm a perfusão renal; sem elas: retenção de sódio, HAS e LRA (\"triple whammy\"). A nefrite intersticial/síndrome nefrótica por AINE é **idiossincrática**. A duração ideal do AINE é de **3 a 5 dias**."
-  },
-  {
-   "id": "FARM-PF-15",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "COX e prostaglandinas",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs (COX-1, COX-2, COX-3)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A COX-1 é constitutiva e participa da proteção da mucosa gástrica, da função renal e da agregação plaquetária.\nII. A COX-2 é induzida na inflamação, mas também é constitutiva em alguns tecidos, como rim, endotélio e SNC.\nIII. O efeito antipirético do paracetamol é atribuído à inibição da COX no hipotálamo (a chamada COX-3), com pouca ação periférica.\nIV. Os AINEs atuam inibindo a fosfolipase A2, reduzindo a formação de prostaglandinas e leucotrienos.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I e II, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, II, III e IV."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Quem inibe (indiretamente) a **fosfolipase A2** é o **corticoide** (via lipocortina/anexina-1). AINEs inibem a **COX**; ao bloqueá-la, podem desviar o ácido araquidônico para leucotrienos (asma induzida por AAS)."
-  },
-  {
-   "id": "FARM-PF-16",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "AAS cardioprotetor",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e Discursiva 29",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Por que o ácido acetilsalicílico (AAS) em dose baixa (100 mg/dia) é usado como cardioprotetor?",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "O AAS **acetila de forma irreversível** a COX (principalmente a **COX-1 plaquetária**). Sem COX, a plaqueta não produz **tromboxano A2**, mediador vasoconstritor e pró-agregante.\n\nComo a **plaqueta não tem núcleo**, não sintetiza nova enzima: o efeito antiagregante dura toda a vida da plaqueta (**7 a 10 dias**). Já o **endotélio tem núcleo** e volta a produzir COX e **prostaciclina** (antiagregante e vasodilatadora).\n\nEm dose baixa, o efeito predomina sobre o tromboxano plaquetário, reduzindo a trombose arterial (prevenção secundária de IAM e AVC isquêmico). Risco: sangramento; por isso é proibido na dengue.",
-   "comentario": null
-  },
-  {
-   "id": "FARM-PF-17",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Eicosanoides, AINEs e antitérmicos",
-   "subtema": "paracetamol",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 04 AINEs e Discursiva 30",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Por que o paracetamol apresenta pouco efeito anti-inflamatório e qual é o seu principal efeito adverso? Explique o mecanismo desse efeito adverso.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Pouco anti-inflamatório**: o paracetamol inibe a COX principalmente no **SNC** (hipotálamo — antipirético e analgésico). Nos tecidos inflamados, os **peróxidos** produzidos pelos leucócitos oxidam a enzima e anulam a ação do paracetamol, que por isso quase não tem efeito periférico (também não lesa o estômago nem a plaqueta).\n\n**Efeito adverso principal**: **hepatotoxicidade**. Uma fração é metabolizada pelo **CYP2E1** em **NAPQI**, metabólito tóxico normalmente conjugado com **glutationa**. Em doses altas (acima de 4 g/dia), jejum ou etilismo, a glutationa se esgota, o NAPQI se liga às proteínas dos hepatócitos e causa **necrose hepática**. Antídoto: **N-acetilcisteína**.",
-   "comentario": null
-  },
-  {
-   "id": "FARM-PF-18",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Corticoides (anti-inflamatórios esteroidais)",
-   "subtema": "mecanismo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Os glicocorticoides são usados pelas propriedades anti-inflamatórias e imunossupressoras. Sobre seu mecanismo de ação, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ligam-se a receptores acoplados à proteína G na membrana e inibem diretamente a COX-1 plaquetária."
-    },
-    {
-     "letra": "B",
-     "texto": "Estimulam a expressão do gene da COX-2, aumentando a síntese de prostaglandinas anti-inflamatórias."
-    },
-    {
-     "letra": "C",
-     "texto": "Induzem a lipocortina, que aumenta a atividade da fosfolipase A2 e a produção de ácido araquidônico."
-    },
-    {
-     "letra": "D",
-     "texto": "Ligam-se a receptores intracelulares e modificam a transcrição gênica: induzem a lipocortina (anexina-1), que inibe a fosfolipase A2, e reduzem a síntese de citocinas e da COX-2."
-    },
-    {
-     "letra": "E",
-     "texto": "São agonistas dos receptores β2-adrenérgicos, o que explica seu efeito na asma."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Mecanismo **genômico** (receptor intracelular, efeito em horas). Lipocortina **inibe** a PLA2 (menos prostaglandinas e leucotrienos); reduzem IL-1, IL-6, TNF-α e a expressão de COX-2. \"Nunca inibe a COX.\""
-  },
-  {
-   "id": "FARM-PF-19",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Corticoides (anti-inflamatórios esteroidais)",
-   "subtema": "corticoterapia",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides (princípios da corticoterapia)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "A respeito da farmacologia dos glicocorticoides, julgue as afirmativas como verdadeiras (V) ou falsas (F) e marque a sequência correta:\n\nI. ( ) O tratamento prolongado deve ser retirado gradualmente, pois o eixo hipotálamo-hipófise-adrenal fica suprimido e a suspensão abrupta pode causar insuficiência adrenal.\nII. ( ) A prednisolona é preferível no hepatopata grave, porque a prednisona é pró-fármaco e precisa de metabolização hepática para ser ativada.\nIII. ( ) A espironolactona é um glicocorticoide com potente ação anti-inflamatória.\nIV. ( ) O uso de corticoide inalatório pode causar candidíase oral e alteração da voz, por isso se recomenda enxaguar a boca após a inalação.\nV. ( ) Os corticoides, associados aos AINEs, reduzem o risco de complicações gastrointestinais.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "F, F, V, V, F"
-    },
-    {
-     "letra": "B",
-     "texto": "F, V, V, V, F"
-    },
-    {
-     "letra": "C",
-     "texto": "F, F, F, V, V"
-    },
-    {
-     "letra": "D",
-     "texto": "V, F, F, F, V"
-    },
-    {
-     "letra": "E",
-     "texto": "V, V, F, V, F"
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Espironolactona é **antagonista mineralocorticoide** (diurético). Corticoide + AINE **aumenta** o risco de úlcera e sangramento."
-  },
-  {
-   "id": "FARM-PF-20",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Corticoides (anti-inflamatórios esteroidais)",
-   "subtema": "efeitos adversos crônicos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 05 Corticoides e Discursivas 45–46",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique a farmacologia dos efeitos adversos dos anti-inflamatórios esteroidais usados de forma crônica e cite dois fármacos dessa classe.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "Os glicocorticoides agem em receptores intracelulares de quase todas as células, por isso os efeitos adversos são amplos e dose/tempo-dependentes:\n\n- **Metabólicos**: ↑ gliconeogênese e resistência à insulina → **hiperglicemia**/diabetes; redistribuição de gordura (face em lua cheia, giba) → **síndrome de Cushing iatrogênica**.\n- **Catabolismo proteico** → miopatia, atrofia da pele, estrias, má cicatrização; ↓ formação óssea e ↓ absorção de cálcio → **osteoporose**.\n- **Imunossupressão** → infecções oportunistas e reativação de tuberculose.\n- **Ação mineralocorticoide** (alguns) → retenção de sódio e água, HAS, hipocalemia.\n- **Supressão do eixo HHA** (feedback negativo sobre CRH/ACTH) → atrofia adrenal e **insuficiência adrenal** se suspensos abruptamente: exigem desmame.\n- Outros: úlcera (sobretudo com AINE), catarata, glaucoma, alterações de humor.\n\n**Exemplos**: prednisona, prednisolona, dexametasona, betametasona, hidrocortisona, metilprednisolona.",
-   "comentario": null
-  },
-  {
-   "id": "FARM-PF-21",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "SNA, farmacologia adrenérgica e asma",
-   "subtema": "choque séptico · vasopressor",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (qual vasopressor?)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Homem de 70 anos com pneumonia grave evolui com PA 78/40 mmHg e lactato elevado, sem resposta a 30 mL/kg de cristaloide. Qual vasopressor é indicado e qual o mecanismo?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Propranolol, que reduz o consumo de oxigênio do miocárdio."
-    },
-    {
-     "letra": "B",
-     "texto": "Isoproterenol, agonista β não seletivo que aumenta a resistência periférica."
-    },
-    {
-     "letra": "C",
-     "texto": "Noradrenalina, que ativa receptores α1 nos vasos (vasoconstrição, aumento da resistência periférica) e β1 no coração, restaurando a pressão arterial."
-    },
-    {
-     "letra": "D",
-     "texto": "Noradrenalina, que bloqueia os receptores α1 e β1 e reduz a frequência cardíaca."
-    },
-    {
-     "letra": "E",
-     "texto": "Prazosina, antagonista α1 que aumenta a pré-carga."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Choque séptico após volume = **noradrenalina** (α1 > β1; pouca ação β2). Adrenalina IM = anafilaxia. Isoproterenol (β puro) vasodilata. A banca já trocou \"ativa\" por \"bloqueia\"."
-  },
-  {
-   "id": "FARM-PF-22",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "SNA, farmacologia adrenérgica e asma",
-   "subtema": "β-bloqueadores e α-bloqueadores",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (antagonistas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "multipla",
-   "enunciado": "Sobre os antagonistas adrenérgicos, assinale a(s) alternativa(s) correta(s):",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "A prazosina, antagonista α1, aumenta a resistência vascular periférica e a pré-carga, sendo útil na hipotensão ortostática."
-    },
-    {
-     "letra": "B",
-     "texto": "O propranolol, β-bloqueador não seletivo, pode mascarar e prolongar a hipoglicemia em diabéticos usuários de insulina."
-    },
-    {
-     "letra": "C",
-     "texto": "Atenolol, metoprolol, bisoprolol e nebivolol são β-bloqueadores não seletivos."
-    },
-    {
-     "letra": "D",
-     "texto": "Os β-bloqueadores fazem parte do tratamento padrão pós-infarto, pois reduzem os aumentos simpático-estimulados da frequência e da contratilidade cardíacas."
-    },
-    {
-     "letra": "E",
-     "texto": "Nenhuma alternativa está correta."
-    }
-   ],
-   "gabarito": [
-    "B",
-    "D"
-   ],
-   "gabarito_texto": "B e D",
-   "comentario": "Atenolol, metoprolol, bisoprolol, esmolol e nebivolol são **β1-seletivos**. A prazosina **reduz** a resistência periférica e a pré-carga (anti-hipertensivo, HPB) e pode **causar** hipotensão ortostática (efeito de primeira dose). Carvedilol (e labetalol) bloqueiam **α1 + β1 + β2**. β-bloqueador não seletivo: evitar em asma/DPOC."
-  },
-  {
-   "id": "FARM-PF-23",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "SNA, farmacologia adrenérgica e asma",
-   "subtema": "receptores e proteína G",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · Fundamentos (QISS QIQ) e 06 Adrenérgica",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sobre as respostas mediadas pelos receptores adrenérgicos, assinale a alternativa que contém todas as afirmativas corretas:\n\nI. O receptor α1 está acoplado à proteína Gq: ativa a fosfolipase C, gera IP3 e DAG, libera cálcio e contrai o músculo liso vascular.\nII. A estimulação dos receptores α2 pré-sinápticos aumenta a liberação de noradrenalina.\nIII. Os receptores β1 e β2 estão acoplados à proteína Gs, que ativa a adenilil ciclase e aumenta o AMPc.\nIV. A estimulação do receptor β2 causa broncodilatação e pode provocar tremor e hipocalemia.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "II, III e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "α2 (Gi) pré-sináptico é **autorreceptor inibitório**: reduz a liberação de noradrenalina (base da clonidina). Macete \"QISS QIQ\": α1 Q, α2 I, β1 S, β2 S · M1 Q, M2 I, M3 Q."
-  },
-  {
-   "id": "FARM-PF-24",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "SNA, farmacologia adrenérgica e asma",
-   "subtema": "asma · broncodilatadores",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica e asma",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Criança de 9 anos com asma chega ao pronto-socorro em crise, com sibilância difusa e uso de musculatura acessória. Recebe salbutamol associado a brometo de ipratrópio por via inalatória. Sobre essa associação, assinale a correta:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O ipratrópio é um corticoide inalatório que reduz a inflamação da via aérea."
-    },
-    {
-     "letra": "B",
-     "texto": "O salbutamol é agonista β2 de início rápido e curta duração; o ipratrópio é antagonista muscarínico (M3) que reduz o tônus broncoconstritor vagal; os mecanismos são diferentes e complementares."
-    },
-    {
-     "letra": "C",
-     "texto": "Ambos são agonistas β2, e a associação apenas soma doses do mesmo mecanismo."
-    },
-    {
-     "letra": "D",
-     "texto": "O ipratrópio aumenta o AMPc ao estimular receptores muscarínicos M5."
-    },
-    {
-     "letra": "E",
-     "texto": "O salbutamol é um β2-agonista de longa ação, indicado como monoterapia de manutenção."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Salbutamol/fenoterol: rápido e curto (resgate). Formoterol: rápido e longo. Salmeterol: lento e longo (só manutenção). LABA nunca sozinho na asma: sempre com corticoide inalatório."
-  },
-  {
-   "id": "FARM-PF-25",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "SNA, farmacologia adrenérgica e asma",
-   "subtema": "metildopa e clonidina",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 06 Adrenérgica (agonistas α2 e gestação)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Gestante de 30 semanas com hipertensão arterial crônica precisa de tratamento anti-hipertensivo oral. Qual fármaco simpaticolítico é a escolha clássica nesse cenário e por quê?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Clonidina, que pode ser suspensa abruptamente sem riscos."
-    },
-    {
-     "letra": "B",
-     "texto": "Propranolol, por ser β-bloqueador não seletivo sem efeito sobre o feto."
-    },
-    {
-     "letra": "C",
-     "texto": "Prazosina, por aumentar a resistência periférica."
-    },
-    {
-     "letra": "D",
-     "texto": "Metildopa, convertida em metilnoradrenalina, que estimula receptores α2 centrais (falso transmissor) e reduz o tônus simpático, com longa experiência de segurança na gestação."
-    },
-    {
-     "letra": "E",
-     "texto": "Adrenalina, que reduz a pressão por estímulo β2."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Metildopa: escolha na gestante (a aula cita o \"falso transmissor\"; o livro, o agonismo α2 central — cubra as duas versões). A clonidina exige retirada gradual pelo risco de hipertensão de rebote."
-  },
-  {
-   "id": "FARM-PF-26",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "organofosforados · marque apenas",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (intoxicação por organofosforado)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "itens_vf",
-   "enunciado": "Trabalhador rural é trazido após exposição a um inseticida organofosforado. Marque APENAS os sinais esperados nessa intoxicação (erro anula acerto): ( ) Miose ( ) Midríase ( ) Sialorreia e broncorreia ( ) Xerostomia ( ) Bradicardia ( ) Taquicardia ( ) Fasciculações musculares ( ) Broncodilatação ( ) Diarreia e incontinência urinária",
-   "alternativas": [],
-   "gabarito": [
-    "Miose",
-    "Sialorreia e broncorreia",
-    "Bradicardia",
-    "Fasciculações musculares",
-    "Diarreia e incontinência urinária"
-   ],
-   "gabarito_texto": "Miose; Sialorreia e broncorreia; Bradicardia; Fasciculações musculares; Diarreia e incontinência urinária",
-   "comentario": "Organofosforado inibe a AChE de forma **irreversível** → excesso de ACh: muscarínico (DUMBELS: diarreia, micção, miose, bradicardia, broncorreia/broncoespasmo, êmese, lacrimejamento, salivação), nicotínico (fasciculações → paralisia) e central (confusão, convulsão). Tratamento: atropina até secar a broncorreia + pralidoxima precoce."
-  },
-  {
-   "id": "FARM-PF-27",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "antimuscarínicos · marque apenas",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (\"seco como osso\")",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "itens_vf",
-   "enunciado": "Marque APENAS os efeitos colaterais esperados com o uso de antagonistas muscarínicos, como a atropina (erro anula acerto): ( ) Midríase e visão turva ( ) Miose ( ) Xerostomia (boca seca) ( ) Sialorreia ( ) Taquicardia ( ) Bradicardia ( ) Retenção urinária e constipação ( ) Aumento do peristaltismo ( ) Pele seca, rubor e hipertermia",
-   "alternativas": [],
-   "gabarito": [
-    "Midríase e visão turva",
-    "Xerostomia (boca seca)",
-    "Taquicardia",
-    "Retenção urinária e constipação",
-    "Pele seca, rubor e hipertermia"
-   ],
-   "gabarito_texto": "Midríase e visão turva; Xerostomia (boca seca); Taquicardia; Retenção urinária e constipação; Pele seca, rubor e hipertermia",
-   "comentario": "\"Seco como osso, cego como morcego, vermelho como beterraba, quente como lebre, louco como chapeleiro\": boca/pele secas, midríase, rubor, febre, delírio, taquicardia, retenção urinária e constipação."
-  },
-  {
-   "id": "FARM-PF-28",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "fármacos colinérgicos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (agonistas, anticolinesterásicos, antagonistas)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Assinale a alternativa que contém todas as afirmativas corretas:\n\nI. A pilocarpina é agonista muscarínico direto, usada no glaucoma por causar miose e na xerostomia como sialagogo.\nII. O betanecol inibe o peristaltismo e é usado no tratamento da diarreia.\nIII. A neostigmina é um anticolinesterásico usado na miastenia gravis e na reversão do bloqueio neuromuscular não despolarizante.\nIV. A tropicamida é usada para causar midríase no exame de fundo de olho, e a escopolamina (N-butil) é usada nas cólicas abdominais.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I e IV, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "I, II, III e IV."
-    },
-    {
-     "letra": "C",
-     "texto": "III, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "II e IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, III e IV, apenas."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "O betanecol **estimula** o peristaltismo e a micção (retenção urinária pós-operatória, íleo). A banca já inverteu tropicamida e escopolamina."
-  },
-  {
-   "id": "FARM-PF-29",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "bloqueadores neuromusculares",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (bloqueadores neuromusculares)",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Para uma intubação de sequência rápida, o anestesista escolhe succinilcolina. Sobre os bloqueadores neuromusculares, assinale a alternativa CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O sugamadex reverte o bloqueio da succinilcolina por inibir a pseudocolinesterase."
-    },
-    {
-     "letra": "B",
-     "texto": "A succinilcolina é agonista nicotínico despolarizante: causa fasciculações seguidas de paralisia, pode elevar o potássio sérico e desencadear hipertermia maligna, tratada com dantroleno."
-    },
-    {
-     "letra": "C",
-     "texto": "Os bloqueadores não despolarizantes são agonistas do receptor muscarínico M2."
-    },
-    {
-     "letra": "D",
-     "texto": "A succinilcolina é revertida com neostigmina, que antagoniza o bloqueio despolarizante."
-    },
-    {
-     "letra": "E",
-     "texto": "O rocurônio é despolarizante e causa fasciculações intensas antes da paralisia."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Succinilcolina: despolarizante, início rápido, metabolizada pela pseudocolinesterase, sem reversão (a neostigmina **potencializa**). Rocurônio e cia: antagonistas competitivos, sem fasciculação; reversão com neostigmina (+ atropina) ou **sugamadex** (encapsula rocurônio/vecurônio)."
-  },
-  {
-   "id": "FARM-PF-30",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "miastenia · edrofônio",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica (miastenia gravis) e Discursivas 87–88",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher de 28 anos refere ptose palpebral e diplopia que pioram ao fim do dia. Após a administração de um anticolinesterásico de ação rápida (edrofônio), a ptose melhora em segundos. Qual a explicação correta?",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O fármaco reativa a acetilcolinesterase inibida por anticorpos."
-    },
-    {
-     "letra": "B",
-     "texto": "O fármaco aumenta a síntese de ACh pela colina acetiltransferase."
-    },
-    {
-     "letra": "C",
-     "texto": "O fármaco inibe a acetilcolinesterase, aumentando a ACh na fenda da placa motora do músculo esquelético, que passa a ativar os receptores nicotínicos que restaram após o ataque autoimune."
-    },
-    {
-     "letra": "D",
-     "texto": "O fármaco bloqueia os receptores nicotínicos e reduz a fadiga muscular."
-    },
-    {
-     "letra": "E",
-     "texto": "O fármaco é agonista muscarínico e contrai a musculatura lisa da pálpebra."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Na miastenia, anticorpos destroem receptores nicotínicos da **placa motora (músculo esquelético)**. Erro corrigido em prova: \"contração da musculatura lisa\". Tratamento: piridostigmina + imunossupressão; dose excessiva → crise colinérgica."
-  },
-  {
-   "id": "FARM-PF-31",
-   "materia": "Farmacologia",
-   "prova": "PR2",
-   "tema": "Colinérgica e junção neuromuscular",
-   "subtema": "sinapse colinérgica",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 de Farmacologia 2026.2 (Drive, pasta PR2; aulas das Profs. Maria Alice e Fernando Vanraj, Goodman & Gilman) · 07 Colinérgica e Discursiva 87",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Descreva a sinapse colinérgica (síntese, armazenamento, liberação e término da ação da acetilcolina) e cite um fármaco ou toxina que atue em cada etapa.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "1. **Captação de colina** pelo transportador CHT (bloqueado pelo **hemicolínio**).\n2. **Síntese**: colina + acetil-CoA → ACh, pela **colina acetiltransferase (ChAT)**.\n3. **Armazenamento** em vesículas pelo VAChT (bloqueado pelo **vesamicol**).\n4. **Liberação**: o potencial de ação abre canais de Ca²⁺; o **Ca²⁺** dispara a fusão da vesícula pelas proteínas SNARE (sinaptobrevina/VAMP, SNAP-25, sintaxina) — a **toxina botulínica** cliva as SNAREs e impede a exocitose (paralisia flácida).\n5. **Ação**: receptores **nicotínicos** (canais iônicos; placa motora, gânglios) e **muscarínicos** (GPCR: M2 Gi no coração; M3 Gq em glândulas, brônquios, TGI, bexiga, íris). Agonistas: pilocarpina, betanecol; antagonistas: atropina, ipratrópio; bloqueadores NM: rocurônio, succinilcolina.\n6. **Término**: hidrólise pela **acetilcolinesterase** em colina + acetato (inibida por neostigmina, piridostigmina, fisostigmina, edrofônio e, irreversivelmente, pelos organofosforados).",
-   "comentario": null
-  }
- ]
+  ]
 }

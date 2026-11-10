@@ -7,6 +7,7 @@ import { study } from '../core/store';
 import { renderMarkdown } from '../core/text';
 import { KIND_LABEL, subjectMeta } from '../subjects';
 import { Badge, Button, cx, SubjectTag } from '../ui';
+import { TopicSummaryButton } from '../components/TopicSummary';
 
 export interface QuestionHandlers {
   onSelect: (i: number) => void;
@@ -63,6 +64,7 @@ function Explanation({ q }: { q: Question }) {
       <h3 className="mb-3 text-[12px] font-semibold tracking-wide text-ink-3 uppercase">{q.format === 'open' ? 'Resposta esperada' : 'Gabarito comentado'}</h3>
       <Rich text={q.explanation} className="prose-sm" />
       {q.source && <p className="mt-4 border-t border-line pt-3 text-[12.5px] text-ink-3">Fonte: {q.source}</p>}
+      <TopicSummaryButton exam={q.exam} subject={q.subject} topic={q.topic} className="mt-3 -ml-2" />
     </section>
   );
 }
@@ -125,6 +127,7 @@ export function QuestionView({
   state,
   h,
   footerConfirm,
+  examMode,
 }: {
   q: Question;
   answer?: SessionAnswer;
@@ -132,6 +135,8 @@ export function QuestionView({
   h: QuestionHandlers;
   /** No celular, o botão "Responder" fica no rodapé fixo da sessão. */
   footerConfirm?: boolean;
+  /** Simulado em andamento: só marcar; sem confirmar nem ver gabarito. */
+  examMode?: boolean;
 }) {
   const done = !!answer.result;
 
@@ -149,7 +154,9 @@ export function QuestionView({
       {q.graphicsHtml && <div className="q-graphics" dangerouslySetInnerHTML={{ __html: q.graphicsHtml }} />}
 
       {q.format === 'open' ? (
-        <OpenAnswer q={q} answer={answer} h={h} />
+        <OpenAnswer q={q} answer={answer} h={h} examMode={examMode} />
+      ) : examMode ? (
+        q.format === 'tf' ? <Statements q={q} answer={answer} h={h} /> : <Options q={q} answer={answer} h={h} />
       ) : (
         <>
           {q.format === 'tf' ? <Statements q={q} answer={answer} h={h} /> : <Options q={q} answer={answer} h={h} />}
@@ -174,8 +181,11 @@ export function QuestionView({
         </>
       )}
 
+      {answer.blank && (
+        <p className="mt-4 rounded-xl bg-surface-2 px-3 py-2 text-[14px] text-ink-2">Você deixou esta questão em branco no simulado.</p>
+      )}
       {answer.revealed && <Explanation q={q} />}
-      {done && answer.result !== 'correct' && <CausePicker id={q.id} state={state} key={q.id} />}
+      {done && answer.result !== 'correct' && !answer.blank && <CausePicker id={q.id} state={state} key={q.id} />}
     </article>
   );
 }
@@ -355,12 +365,12 @@ function ResultBanner({ q, answer }: { q: Question; answer: SessionAnswer }) {
   );
 }
 
-function OpenAnswer({ q, answer, h }: { q: Question; answer: SessionAnswer; h: QuestionHandlers }) {
+function OpenAnswer({ q, answer, h, examMode }: { q: Question; answer: SessionAnswer; h: QuestionHandlers; examMode?: boolean }) {
   const done = !!answer.result;
   return (
     <div className="mt-7">
       <label className="mb-2 block text-[13px] font-medium text-ink-2" htmlFor={`ans-${q.id}`}>
-        Sua resposta <span className="font-normal text-ink-3">— escreva antes de conferir (opcional)</span>
+        Sua resposta <span className="font-normal text-ink-3">{examMode ? '— a resposta esperada aparece na correção' : '— escreva antes de conferir (opcional)'}</span>
       </label>
       <textarea
         id={`ans-${q.id}`}
@@ -371,7 +381,7 @@ function OpenAnswer({ q, answer, h }: { q: Question; answer: SessionAnswer; h: Q
         placeholder="Organize o raciocínio: mecanismo, achados, conclusão…"
         className="w-full resize-y rounded-2xl border border-line bg-surface px-4 py-3 text-[15.5px] leading-relaxed outline-none placeholder:text-ink-3 read-only:bg-surface-2 focus:border-accent"
       />
-      {!answer.revealed ? (
+      {examMode ? null : !answer.revealed ? (
         <div className="mt-4">
           <Button variant="primary" size="lg" icon={<Eye className="size-4" />} onClick={h.onReveal}>
             Ver resposta esperada

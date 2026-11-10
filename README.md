@@ -59,7 +59,13 @@ O importador entende o formato `{ meta, questoes: [...] }` (campos `materia`, `t
 
 ### Questões inéditas
 
-Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina e da prova em questão (conferir o plano/cronograma da disciplina), e cobrir só conteúdo de **alto rendimento para prova**: mecanismos centrais, diagnósticos diferenciais clássicos e o que os professores cobram — sem listas exaustivas, números decorativos ou detalhes de nicho. Devem seguir o **formato das provas do professor** da disciplina (ex.: em Propedêutica, "assinale a(s) correta(s)" com assertivas longas e uma palavra trocada, afirmativas I–IV com combinações, sequência V/F, casos clínicos com cinco diagnósticos, associação de colunas e discursivas "cite cinco sinais") e se restringir aos temas que já se repetem nessas provas.
+Questões que não caíram em prova do professor usam `"origem": "inédita"` e `"fonte"` com o material exato em que se baseiam (arquivo, caso, item). O app mostra um aviso de "questão não original" nelas. Devem usar **apenas** o conteúdo dos materiais da disciplina e da prova em questão (conferir o plano/cronograma da disciplina), e cobrir só conteúdo de **alto rendimento para prova**: mecanismos centrais, diagnósticos diferenciais clássicos e o que os professores cobram — sem listas exaustivas, números decorativos ou detalhes de nicho. Devem seguir o **formato das provas do professor** da disciplina (ex.: em Propedêutica, "assinale a(s) correta(s)" com assertivas longas e uma palavra trocada, afirmativas I–IV com combinações, sequência V/F, casos clínicos com cinco diagnósticos, associação de colunas e discursivas "cite cinco sinais") e se restringir aos temas que já se repetem nessas provas. A alternativa correta **não pode ser sistematicamente a mais longa** (nas provas reais ela é a mais longa em cerca de 25–50% das questões): escreva a correta enxuta e deixe a explicação para o comentário.
+
+Para corrigir uma inédita já publicada, edite o arquivo de origem mantendo o mesmo `id` e reimporte: o importador preserva o ID publicado (e o progresso de quem já respondeu).
+
+### Resumos por tema
+
+`src/data/summaries/<prova>/<disciplina>.json` guarda um resumo de 1 página por tema (`{ "Nome do tema": "markdown" }`). A chave deve ser igual ao `topic` das questões: o app mostra o botão "Resumo do tema" no gabarito comentado e em Praticar quando o tema está selecionado.
 
 ### Imagens nas questões
 
