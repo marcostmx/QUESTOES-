@@ -4086,6 +4086,75 @@
     "ref": "FISIO-IMG2-06"
   },
   {
+    "id": "fis-ce03c5ea",
+    "subject": "fisiopatologia",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Hematopoiético",
+    "subtopic": "anemia falciforme (imagem)",
+    "stem": "O esfregaço de sangue periférico da imagem é de um adolescente com crises dolorosas recorrentes. O mecanismo das hemácias alongadas e em foice observadas é:",
+    "image": "/img/q/falciforme-esfregaco.jpg",
+    "options": [
+      "Deficiência de ferro na síntese do heme.",
+      "Anticorpos IgG contra a membrana.",
+      "Fragmentação por microtrombos.",
+      "Polimerização da HbS desoxigenada.",
+      "Defeito de espectrina da membrana."
+    ],
+    "answerIndex": 3,
+    "explanation": "**Gabarito: D**\n\nMutação no gene da β-globina (Glu → Val). A HbS polimeriza na desoxigenação → hemácias rígidas em foice → **hemólise** e **vaso-oclusão** (crises dolorosas, síndrome torácica aguda, AVC, priapismo, autoesplenectomia). Desencadeantes: hipóxia, desidratação, acidose, frio.\n\n*Imagem: Paulo Henrique Orlandi Mourao — CC BY-SA 4.0, via Wikimedia Commons ([Sickle-cell smear 2015-09-10.jpg](https://commons.wikimedia.org/wiki/File:Sickle-cell_smear_2015-09-10.jpg)).*",
+    "source": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · hemoglobinopatias",
+    "origin": "inedita",
+    "ref": "FISIO-IMG3-01"
+  },
+  {
+    "id": "fis-e4f86a38",
+    "subject": "fisiopatologia",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Hematopoiético",
+    "subtopic": "esferocitose (imagem)",
+    "stem": "O esfregaço mostra hemácias pequenas, arredondadas e sem halo central, em paciente com anemia, icterícia, esplenomegalia e Coombs direto negativo. O diagnóstico e o local de destruição das hemácias são:",
+    "image": "/img/q/esferocitose-esfregaco.jpg",
+    "options": [
+      "Talassemia major; rins.",
+      "Anemia hemolítica autoimune; fígado.",
+      "Anemia falciforme; medula óssea.",
+      "PTT; vasos de pequeno calibre.",
+      "Esferocitose hereditária; baço."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nDefeito de espectrina/anquirina → perda de membrana → esferócitos rígidos retidos nos cordões esplênicos. CHCM aumentado, fragilidade osmótica ↑. Esplenectomia corrige a anemia. Esferócitos com **Coombs positivo** sugerem hemólise autoimune.\n\n*Imagem: Paulo Henrique Orlandi Mourao — CC BY-SA 3.0, via Wikimedia Commons ([Hereditary Spherocytosis smear 2010-03-17.JPG](https://commons.wikimedia.org/wiki/File:Hereditary_Spherocytosis_smear_2010-03-17.JPG)).*",
+    "source": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · anemias hemolíticas",
+    "origin": "inedita",
+    "ref": "FISIO-IMG3-02"
+  },
+  {
+    "id": "fis-8f3a44cc",
+    "subject": "fisiopatologia",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Hematopoiético",
+    "subtopic": "Reed-Sternberg (imagem)",
+    "stem": "Na biópsia de linfonodo cervical de um jovem de 22 anos com febre e sudorese noturna, observa-se a célula grande, binucleada, com nucléolos proeminentes (\"olhos de coruja\") da imagem. O diagnóstico é:",
+    "image": "/img/q/reed-sternberg.jpg",
+    "options": [
+      "Leucemia linfocítica crônica.",
+      "Linfoma de Burkitt.",
+      "Linfoma de Hodgkin.",
+      "Mieloma múltiplo.",
+      "Mononucleose infecciosa."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nCélula de **Reed-Sternberg** (origem B, CD15+ CD30+) em meio a infiltrado reacional. Disseminação por contiguidade entre cadeias, jovens e > 50 anos, sintomas B. Burkitt: \"céu estrelado\", t(8;14).\n\n*Imagem: Ed Uthman, MD — CC BY-SA 2.0, via Wikimedia Commons ([Hodgkin Disease, Reed-Sternberg Cell.jpg](https://commons.wikimedia.org/wiki/File:Hodgkin_Disease,_Reed-Sternberg_Cell.jpg)).*",
+    "source": "Robbins & Cotran, Patologia · Silbernagl, Fisiopatologia · resumo FISIOPATOLOGIA - PR2 · linfomas",
+    "origin": "inedita",
+    "ref": "FISIO-IMG3-03"
+  },
+  {
     "id": "fis-61cd890b",
     "subject": "fisiopatologia",
     "exam": "PR2",
