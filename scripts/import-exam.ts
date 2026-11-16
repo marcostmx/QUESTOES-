@@ -59,6 +59,7 @@ function subjectOf(materia: string): SubjectId {
   if (m.startsWith('proped')) return 'propedeutica';
   if (m.startsWith('fisiopato')) return 'fisiopatologia';
   if (m.includes('iesc')) return 'iesc-iv';
+  if (m.includes('hmp')) return 'hmp-iv';
   throw new Error(`matéria desconhecida: ${materia}`);
 }
 
