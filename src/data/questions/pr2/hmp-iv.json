@@ -53,14 +53,14 @@
     "subtopic": "democrático",
     "stem": "Médico diz ao paciente confuso: \"O senhor decide; a autonomia é sua\", e encerra sem explicar as opções. Segundo Carrió, esse comportamento:",
     "options": [
-      "Pode mascarar frieza como respeito à autonomia.",
+      "Pode mascarar frieza como autonomia.",
       "É competência emocional avançada.",
       "É o modelo constitutivo.",
       "É paternalismo cordial.",
       "É o modelo fiduciário ideal."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nPara Carrió, o problema atual é a frieza emocional, não só o paternalismo.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Pode mascarar frieza como respeito à autonomia.\n\nPara Carrió, o problema atual é a frieza emocional, não só o paternalismo.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modelos relacionais",
     "origin": "inedita",
     "ref": "HMP-PF2-03"
@@ -208,13 +208,13 @@
     "stem": "Durante um curativo (entrevista operativa), o paciente revela medo de perder o pé. O médico passa a ouvir e depois explica a doença e os cuidados. A sequência de modalidades foi:",
     "options": [
       "Motivacional → informativa → escuta.",
-      "Operativa → escuta e acomodação → psicoeducacional.",
+      "Operativa → escuta → psicoeducacional.",
       "Semiológica → motivacional → operativa.",
       "Informativa → semiológica → operativa.",
       "Psicoeducacional → operativa → semiológica."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nCiclo clássico: operativa → aparece ansiedade oculta → escuta → psicoeducacional.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Operativa → escuta e acomodação → psicoeducacional.\n\nCiclo clássico: operativa → aparece ansiedade oculta → escuta → psicoeducacional.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
     "origin": "inedita",
     "ref": "HMP-PF2-10"
@@ -231,12 +231,12 @@
     "options": [
       "De escuta e acomodação.",
       "Semiológica.",
-      "De mudança de hábitos (motivacional).",
+      "Motivacional (mudança de hábitos).",
       "Informativa e prescritiva.",
       "Operativa."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nModalidades de Carrió.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** De mudança de hábitos (motivacional).\n\nModalidades de Carrió.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
     "origin": "inedita",
     "ref": "HMP-PF2-11"
@@ -277,10 +277,10 @@
       "Concluir que ela está mentindo.",
       "Registrar transtorno de ansiedade.",
       "Encerrar a consulta.",
-      "Usá-la como abertura para a paciente continuar."
+      "Usá-la como abertura para ela continuar."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nIncongruência fala × corpo é abertura, não conclusão.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Usá-la como abertura para a paciente continuar.\n\nIncongruência fala × corpo é abertura, não conclusão.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação não verbal",
     "origin": "inedita",
     "ref": "HMP-PF2-13"
@@ -295,14 +295,14 @@
     "subtopic": "telemedicina",
     "stem": "Segundo a Resolução CFM 2.314/2022, assinale a CORRETA:",
     "options": [
-      "O médico pode recusar a teleconsulta e indicar o atendimento presencial.",
+      "O médico pode recusar e indicar consulta presencial.",
       "Há apenas duas modalidades de telemedicina.",
       "O paciente não pode recusar.",
       "Dispensa TCLE e prontuário.",
       "A teleconsulta substitui o presencial como padrão-ouro."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nPresencial é padrão-ouro; tele é complementar; 7 modalidades; exige TCLE e prontuário.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** O médico pode recusar a teleconsulta e indicar o atendimento presencial.\n\nPresencial é padrão-ouro; tele é complementar; 7 modalidades; exige TCLE e prontuário.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação e tecnologia",
     "origin": "inedita",
     "ref": "HMP-PF2-14"
@@ -385,12 +385,12 @@
     "options": [
       "D (Drugs).",
       "A (Activities).",
-      "S (Suicide/depression).",
+      "S (Suicide).",
       "E (Education).",
       "H (Home)."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nHome · Education · Eating · Activities · Drugs · Sexuality · Suicide/depression · Safety.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** S (Suicide/depression).\n\nHome · Education · Eating · Activities · Drugs · Sexuality · Suicide/depression · Safety.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · HEEADSSS",
     "origin": "inedita",
     "ref": "HMP-PF2-18"
@@ -405,14 +405,14 @@
     "subtopic": "quebra",
     "stem": "Bruno, 16 anos, a sós, conta que pensa em se matar e tem um plano. A conduta correta é:",
     "options": [
-      "Quebrar o sigilo, avisando-o antes e explicando o motivo.",
+      "Quebrar o sigilo, avisando-o antes.",
       "Esperar a próxima consulta.",
       "Manter sigilo absoluto.",
       "Encaminhar sem conversar.",
       "Contar aos pais sem avisá-lo."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nPergunta-chave: há risco? Ideação suicida quebra o sigilo, sempre avisando o adolescente.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Quebrar o sigilo, avisando-o antes e explicando o motivo.\n\nPergunta-chave: há risco? Ideação suicida quebra o sigilo, sempre avisando o adolescente.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Sigilo do adolescente",
     "origin": "inedita",
     "ref": "HMP-PF2-19"
@@ -428,13 +428,13 @@
     "stem": "Ao examinar uma criança de 4 anos, a conduta adequada é:",
     "options": [
       "Falar só com a mãe.",
-      "Abaixar-se, usar linguagem lúdica e explicar o que fará.",
+      "Abaixar-se e usar linguagem lúdica.",
       "Examinar sem explicar, para ser rápido.",
       "Pedir que a criança saia da sala.",
       "Manter-se em pé, com distância."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nOlho no olho = abaixe-se; mãos aquecidas; observe o vínculo com o familiar.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Abaixar-se, usar linguagem lúdica e explicar o que fará.\n\nOlho no olho = abaixe-se; mãos aquecidas; observe o vínculo com o familiar.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Entrevista com criança",
     "origin": "inedita",
     "ref": "HMP-PF2-20"
@@ -584,11 +584,11 @@
       "Afetividade, aguda (labilidade).",
       "Consciência, de instalação aguda (delirium).",
       "Atenção dividida, transitória.",
-      "Memória/cognição, de instalação lenta (demência).",
+      "Memória, de instalação lenta (demência).",
       "Juízo de realidade, aguda (delírio)."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nDemência: meses; atenção relativamente preservada no início.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Memória/cognição, de instalação lenta (demência).\n\nDemência: meses; atenção relativamente preservada no início.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · demência",
     "origin": "inedita",
     "ref": "HMP-PF2-27"
@@ -897,12 +897,12 @@
     "options": [
       "Memória — demência de Alzheimer.",
       "Sensopercepção — ilusão visual.",
-      "Consciência — delirium (quadro confusional agudo).",
+      "Consciência — delirium.",
       "Afetividade — labilidade.",
       "Juízo de realidade — delírio persecutório."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nInício em **dias**, curso **flutuante**, causa clínica/fármaco, desatenção, desorientação e alucinação visual → delirium. Demência é lenta, em meses.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Consciência — delirium (quadro confusional agudo).\n\nInício em **dias**, curso **flutuante**, causa clínica/fármaco, desatenção, desorientação e alucinação visual → delirium. Demência é lenta, em meses.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
     "origin": "inedita",
     "ref": "HMP-PF-05"
@@ -961,14 +961,14 @@
     "subtopic": "delirium × demência",
     "stem": "Dona Lúcia, 86 anos, tem esquecimentos lentos e progressivos há 2 anos. Há 2 dias, com desidratação, ficou sonolenta, desatenta e confusa à noite. A interpretação correta é:",
     "options": [
-      "Delirium sobreposto à demência; tratar a causa clínica.",
+      "Delirium sobreposto à demência.",
       "Transtorno de humor bipolar tardio.",
       "Apenas privação de sono.",
       "Piora esperada da demência; nada a investigar.",
       "Delírio persecutório de início tardio."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nO **tempo** separa: demência = meses/anos, atenção relativamente preservada no início; delirium = horas a dias, flutuante, com desatenção. Idosos com demência têm mais risco de delirium. Rotular como \"idade\" atrasa o tratamento.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Delirium sobreposto à demência; tratar a causa clínica.\n\nO **tempo** separa: demência = meses/anos, atenção relativamente preservada no início; delirium = horas a dias, flutuante, com desatenção. Idosos com demência têm mais risco de delirium. Rotular como \"idade\" atrasa o tratamento.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · delirium no idoso",
     "origin": "inedita",
     "ref": "HMP-PF-08"
@@ -987,10 +987,10 @@
       "Delirium é sinônimo de delírio.",
       "É avaliada só depois da memória.",
       "Torpor é responder apenas à dor.",
-      "Seu rebaixamento compromete atenção, memória e orientação."
+      "Se rebaixada, compromete as demais funções."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nConsciência é a base (\"se cai, tudo cai\"); por isso vem antes de memória no roteiro.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Seu rebaixamento compromete atenção, memória e orientação.\n\nConsciência é a base (\"se cai, tudo cai\"); por isso vem antes de memória no roteiro.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · consciência",
     "origin": "inedita",
     "ref": "HMP-PF-09"
@@ -1117,12 +1117,12 @@
     "options": [
       "Sensopercepção visual (alucinação).",
       "Memória de longo prazo.",
-      "Atenção seletiva e inibição da leitura automática.",
+      "Atenção seletiva.",
       "Orientação temporal.",
       "Juízo de realidade."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nÉ preciso inibir a resposta automática (ler a palavra) e selecionar o estímulo relevante (a cor).",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Atenção seletiva e inibição da leitura automática.\n\nÉ preciso inibir a resposta automática (ler a palavra) e selecionar o estímulo relevante (a cor).",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · teste de Stroop",
     "origin": "inedita",
     "ref": "HMP-PF-15"
@@ -1163,10 +1163,10 @@
       "O tom afetivo predominante.",
       "A capacidade de se situar no tempo e no espaço.",
       "A clareza dos sentidos (vigília).",
-      "A direção da consciência, concentrando a atividade mental sobre um objeto."
+      "A direção da consciência sobre um objeto."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nConsciência = clareza/vigília; atenção = direção; orientação = situar-se; percepção = tomada de consciência do estímulo.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** A direção da consciência, concentrando a atividade mental sobre um objeto.\n\nConsciência = clareza/vigília; atenção = direção; orientação = situar-se; percepção = tomada de consciência do estímulo.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · atenção",
     "origin": "inedita",
     "ref": "HMP-PF-17"
@@ -1182,13 +1182,13 @@
     "stem": "Paciente internada há 5 dias diz o próprio nome e a idade corretamente, mas afirma que \"hoje é Natal\" (estamos em novembro) e não sabe há quanto tempo está no hospital.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
       "Orientação — desorientação autopsíquica.",
-      "Orientação — desorientação alopsíquica temporal.",
+      "Orientação — desorientação alopsíquica.",
       "Juízo de realidade — delírio.",
       "Vivência do tempo — tempo dilatado.",
       "Memória — evocação remota."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nSabe de si (autopsíquica preservada); erra o tempo (alopsíquica).",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Orientação — desorientação alopsíquica temporal.\n\nSabe de si (autopsíquica preservada); erra o tempo (alopsíquica).",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Orientação",
     "origin": "inedita",
     "ref": "HMP-PF-18"
@@ -1205,12 +1205,12 @@
     "options": [
       "Pensamento — concreto.",
       "Consciência — coma.",
-      "Orientação — desorientação alopsíquica espacial.",
+      "Orientação — desorientação alopsíquica.",
       "Orientação — desorientação autopsíquica.",
       "Sensopercepção — ilusão visual."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nAlopsíquica = tempo e espaço (\"alô, mundo!\").",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Orientação — desorientação alopsíquica espacial.\n\nAlopsíquica = tempo e espaço (\"alô, mundo!\").",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Orientação",
     "origin": "inedita",
     "ref": "HMP-PF-19"
@@ -1251,10 +1251,10 @@
       "\"Como está seu humor?\"",
       "\"Quantos anos o senhor tem?\"",
       "\"Tem ouvido vozes?\"",
-      "\"Que dia é hoje e onde estamos?\""
+      "\"Que dia é hoje?\""
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNome e idade avaliam a autopsíquica.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** \"Que dia é hoje e onde estamos?\"\n\nNome e idade avaliam a autopsíquica.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · semiotécnica",
     "origin": "inedita",
     "ref": "HMP-PF-21"
@@ -1272,11 +1272,11 @@
       "Há delirium.",
       "Há tempo dilatado da mania.",
       "Há desorientação alopsíquica temporal.",
-      "Não há desorientação; é variação subjetiva da vivência do tempo.",
+      "Não há desorientação.",
       "Há desorientação autopsíquica."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nA percepção subjetiva muda; o relógio não. Alegria faz o tempo passar rápido.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Não há desorientação; é variação subjetiva da vivência do tempo.\n\nA percepção subjetiva muda; o relógio não. Alegria faz o tempo passar rápido.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · pegadinha",
     "origin": "inedita",
     "ref": "HMP-PF-22"
@@ -1314,13 +1314,13 @@
     "stem": "Em episódio maníaco, o paciente diz que \"o dia tem 50 horas, dá para fazer tudo\" e começa dez projetos ao mesmo tempo.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
       "Atenção — concentrada.",
-      "Vivência do tempo — tempo dilatado (mania).",
+      "Vivência do tempo — tempo dilatado.",
       "Vivência do tempo — inibição do fluir.",
       "Orientação — desorientação temporal.",
       "Memória — curto prazo."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nMania: parece caber tudo em pouco tempo.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Vivência do tempo — tempo dilatado (mania).\n\nMania: parece caber tudo em pouco tempo.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
     "origin": "inedita",
     "ref": "HMP-PF-24"
@@ -1337,12 +1337,12 @@
     "options": [
       "Vivência do tempo — tempo dilatado.",
       "Afetividade — euforia.",
-      "Vivência do tempo — inibição do fluir do tempo.",
+      "Vivência do tempo — inibição do fluir.",
       "Consciência — obnubilação.",
       "Orientação — desorientação alopsíquica."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nDepressão grave: \"o tempo não passa\".",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Vivência do tempo — inibição do fluir do tempo.\n\nDepressão grave: \"o tempo não passa\".",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
     "origin": "inedita",
     "ref": "HMP-PF-25"
@@ -1358,13 +1358,13 @@
     "stem": "Paciente em quadro paranoide sente que \"o quarto foi invadido\", que não há separação entre ele e as coisas ao redor.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
       "Sensopercepção — ilusão.",
-      "Vivência do espaço — perda da fronteira eu × mundo (espaço invadido).",
+      "Vivência do espaço — espaço invadido.",
       "Atenção — dispersa.",
       "Consciência — transe.",
       "Orientação — alopsíquica espacial."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nQuadro paranoide: perde a fronteira entre eu e mundo.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Vivência do espaço — perda da fronteira eu × mundo (espaço invadido).\n\nQuadro paranoide: perde a fronteira entre eu e mundo.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
     "origin": "inedita",
     "ref": "HMP-PF-26"
@@ -1381,12 +1381,12 @@
     "options": [
       "Delirium.",
       "Desorientação temporal.",
-      "Alteração subjetiva da vivência do tempo (espera parece mais longa).",
+      "Alteração subjetiva da vivência do tempo.",
       "Amnésia de fixação.",
       "Delírio de prejuízo."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nDor, febre e medo alongam a espera; alegria encurta.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Alteração subjetiva da vivência do tempo (espera parece mais longa).\n\nDor, febre e medo alongam a espera; alegria encurta.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · vivência do tempo",
     "origin": "inedita",
     "ref": "HMP-PF-27"
@@ -1405,10 +1405,10 @@
       "Orientação — autopsíquica.",
       "Memória — falha da memória remota.",
       "Consciência — torpor.",
-      "Memória — falha de fixação (evocação recente)."
+      "Memória — falha de fixação."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nRegistrou (repetiu) mas não consolidou. Com consciência e atenção preservadas, a falha é da memória.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Memória — falha de fixação (evocação recente).\n\nRegistrou (repetiu) mas não consolidou. Com consciência e atenção preservadas, a falha é da memória.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Memória",
     "origin": "inedita",
     "ref": "HMP-PF-28"
@@ -1445,14 +1445,14 @@
     "subtopic": "sedação",
     "stem": "Após sedação para colonoscopia, o paciente fica sonolento e depois não recorda o que ocorreu na sala. A falha está:",
     "options": [
-      "Na consciência, que impediu o registro.",
+      "Na consciência.",
       "No armazenamento de longo prazo.",
       "Na afetividade.",
       "No juízo de realidade.",
       "Na linguagem."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nSem vigília e atenção, a informação não é codificada; parece \"memória\", mas a falha começou na base.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Na consciência, que impediu o registro.\n\nSem vigília e atenção, a informação não é codificada; parece \"memória\", mas a falha começou na base.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · interdependência",
     "origin": "inedita",
     "ref": "HMP-PF-30"
@@ -1469,12 +1469,12 @@
     "options": [
       "Avalia apenas a memória.",
       "Não avalia orientação.",
-      "Tem o mesmo ponte de corte para todos.",
+      "Tem o mesmo ponto de corte para todos.",
       "É restrito a psicólogos.",
-      "Os pontos de corte variam com a escolaridade."
+      "Os cortes variam com a escolaridade."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nAvalia orientação, registro, atenção e cálculo, evocação, linguagem e praxia (Folstein, 1975); cortes por escolaridade (Brucki, 2003). RAVLT, TEPIC-M e MVR são restritos a psicólogos.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Os pontos de corte variam com a escolaridade.\n\nAvalia orientação, registro, atenção e cálculo, evocação, linguagem e praxia (Folstein, 1975); cortes por escolaridade (Brucki, 2003). RAVLT, TEPIC-M e MVR são restritos a psicólogos.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · MEEM",
     "origin": "inedita",
     "ref": "HMP-PF-31"
@@ -1512,13 +1512,13 @@
     "stem": "Na atividade da aula, o examinador mostra figuras, esconde-as e pergunta \"que figuras eu acabei de lhe mostrar?\", aguardando até 60 segundos. Avalia-se:",
     "options": [
       "Juízo de realidade.",
-      "Memória imediata (evocação).",
+      "Memória imediata.",
       "Sensopercepção visual.",
       "Orientação temporal.",
       "Atenção alternada."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nEvocação logo após a apresentação = memória imediata.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Memória imediata (evocação).\n\nEvocação logo após a apresentação = memória imediata.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · semiotécnica",
     "origin": "inedita",
     "ref": "HMP-PF-33"
@@ -1665,14 +1665,14 @@
     "subtopic": "parestesia × alucinação",
     "stem": "Diabético relata formigamento nos pés e diz: \"sei que é da neuropatia\". O correto é afirmar:",
     "options": [
-      "Não é alucinação; é sintoma corporal reconhecido como tal.",
+      "Não é alucinação.",
       "É delírio somático.",
       "É ilusão tátil.",
       "É alucinação tátil.",
       "É alucinação cenestésica."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nFormigamento reconhecido como sintoma do corpo não é alucinação.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Não é alucinação; é sintoma corporal reconhecido como tal.\n\nFormigamento reconhecido como sintoma do corpo não é alucinação.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · pegadinha",
     "origin": "inedita",
     "ref": "HMP-PF-40"
@@ -1689,12 +1689,12 @@
     "options": [
       "Elimina uma alucinação auditiva.",
       "Mostra que a dor é só psicológica.",
-      "Cria a ilusão de movimento do membro ausente.",
+      "Cria ilusão de movimento do membro.",
       "Corrige um delírio somático.",
       "Bloqueia o nervo periférico."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nA ilusão também trata. Dor e coceira no membro amputado não são \"só psicológicas\".",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Cria a ilusão de movimento do membro ausente.\n\nA ilusão também trata. Dor e coceira no membro amputado não são \"só psicológicas\".",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · terapia do espelho",
     "origin": "inedita",
     "ref": "HMP-PF-41"
@@ -1735,10 +1735,10 @@
       "Consciência — coma.",
       "Juízo de realidade — delírio de referência.",
       "Atenção — seletiva.",
-      "Sensopercepção — alucinação auditiva (privação de sono)."
+      "Sensopercepção — alucinação auditiva."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nEstresse e privação de sono também geram alucinações, sem psicose.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Sensopercepção — alucinação auditiva (privação de sono).\n\nEstresse e privação de sono também geram alucinações, sem psicose.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
     "origin": "inedita",
     "ref": "HMP-PF-43"
@@ -1821,12 +1821,12 @@
     "options": [
       "Atenção — dispersa.",
       "Pensamento — mágico.",
-      "Pensamento — concreto (esperado aos 5 anos).",
+      "Pensamento — concreto.",
       "Linguagem — afasia.",
       "Juízo de realidade — delírio."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nInterpretação literal de metáforas; esperado na idade.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Pensamento — concreto (esperado aos 5 anos).\n\nInterpretação literal de metáforas; esperado na idade.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
     "origin": "inedita",
     "ref": "HMP-PF-47"
@@ -1911,10 +1911,10 @@
       "Orientação.",
       "Conteúdo (delírio).",
       "Juízo de realidade.",
-      "Curso do pensamento (bloqueio)."
+      "Curso do pensamento."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nCurso: aceleração, lentificação, bloqueio.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Curso do pensamento (bloqueio).\n\nCurso: aceleração, lentificação, bloqueio.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · curso do pensamento",
     "origin": "inedita",
     "ref": "HMP-PF-51"
@@ -1929,14 +1929,14 @@
     "subtopic": "egodistonia",
     "stem": "O que diferencia o pensamento intrusivo do delírio?",
     "options": [
-      "No intrusivo a pessoa reconhece o pensamento como indesejado (crítica preservada).",
+      "No intrusivo a crítica está preservada.",
       "O delírio é sempre reconhecido como absurdo.",
       "O intrusivo indica intenção de agir.",
       "Não há diferença clínica.",
       "No intrusivo há alucinação associada."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nSe a pessoa diz \"sei que é absurdo, mas…\", não é delírio.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** No intrusivo a pessoa reconhece o pensamento como indesejado (crítica preservada).\n\nSe a pessoa diz \"sei que é absurdo, mas…\", não é delírio.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · conceito-chave",
     "origin": "inedita",
     "ref": "HMP-PF-52"
@@ -1952,13 +1952,13 @@
     "stem": "Funcionário afirma que os vizinhos instalaram câmeras para vigiá-lo e que as placas dos carros na rua são \"mensagens\" contra ele. Nenhuma evidência o faz mudar de ideia.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
       "Atenção — interna.",
-      "Juízo de realidade — delírio persecutório/de referência.",
+      "Juízo de realidade — delírio persecutório.",
       "Juízo de realidade — ideia sobrevalorada.",
       "Pensamento — obsessivo.",
       "Sensopercepção — ilusão."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nCrença que reorganiza a interpretação de todos os fatos e não cede.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Juízo de realidade — delírio persecutório/de referência.\n\nCrença que reorganiza a interpretação de todos os fatos e não cede.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
     "origin": "inedita",
     "ref": "HMP-PF-53"
@@ -1976,11 +1976,11 @@
       "Afetividade — euforia apenas.",
       "Consciência — transe religioso.",
       "Pensamento — mágico.",
-      "Juízo de realidade — delírio de grandeza/místico.",
+      "Juízo de realidade — delírio de grandeza.",
       "Juízo de realidade — ideia sobrevalorada."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nConteúdo religioso deve ser lido no contexto cultural; aqui não é compartilhado → delírio.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Juízo de realidade — delírio de grandeza/místico.\n\nConteúdo religioso deve ser lido no contexto cultural; aqui não é compartilhado → delírio.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
     "origin": "inedita",
     "ref": "HMP-PF-54"
@@ -2039,14 +2039,14 @@
     "subtopic": "sobrevalorada · dismórfico",
     "stem": "Rapaz com nariz normal, segundo todos, pede cirurgia porque \"meu nariz é disforme e horrível\".\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
-      "Juízo de realidade — ideia sobrevalorada (dismórfico corporal).",
+      "Juízo de realidade — ideia sobrevalorada.",
       "Vontade — impulsividade.",
       "Sensopercepção — ilusão.",
       "Pensamento — concreto.",
       "Juízo de realidade — delírio de grandeza."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nExemplo do slide.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Juízo de realidade — ideia sobrevalorada (dismórfico corporal).\n\nExemplo do slide.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
     "origin": "inedita",
     "ref": "HMP-PF-57"
@@ -2087,10 +2087,10 @@
       "Há história familiar?",
       "O paciente é psicótico?",
       "O paciente usa drogas?",
-      "É uma percepção ou uma crença?"
+      "Percepção ou crença?"
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nPercepção: sem estímulo = alucinação; estímulo mal interpretado = ilusão. Crença: compreensível e afetiva = sobrevalorada; reorganiza tudo e não cede = delírio.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** É uma percepção ou uma crença?\n\nPercepção: sem estímulo = alucinação; estímulo mal interpretado = ilusão. Crença: compreensível e afetiva = sobrevalorada; reorganiza tudo e não cede = delírio.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · fluxo percepção × crença",
     "origin": "inedita",
     "ref": "HMP-PF-59"
@@ -2108,11 +2108,11 @@
       "Disforia.",
       "Delírio erotomaníaco.",
       "Alucinação auditiva.",
-      "Ciúme patológico não delirante (ideia sobrevalorada).",
+      "Ideia sobrevalorada.",
       "Pensamento mágico."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nO slide lista o ciúme patológico não delirante entre as ideias sobrevaloradas.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Ciúme patológico não delirante (ideia sobrevalorada).\n\nO slide lista o ciúme patológico não delirante entre as ideias sobrevaloradas.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · ciúme",
     "origin": "inedita",
     "ref": "HMP-PF-60"
@@ -2261,12 +2261,12 @@
     "options": [
       "Afetividade — apatia.",
       "Afetividade — distimia.",
-      "Afetividade — eutimia (normal).",
+      "Afetividade — eutimia.",
       "Afetividade — labilidade.",
       "Afetividade — euforia."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nEU-timia = \"eu tô bem\".",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Afetividade — eutimia (normal).\n\nEU-timia = \"eu tô bem\".",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
     "origin": "inedita",
     "ref": "HMP-PF-67"
@@ -2284,11 +2284,11 @@
       "Afetividade — disforia.",
       "Afetividade — euforia.",
       "Afetividade — labilidade.",
-      "Afetividade — distimia (humor deprimido persistente).",
+      "Afetividade — distimia.",
       "Afetividade — vazio afetivo."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nNa prova: distimia = humor deprimido **persistente** (slide).",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Afetividade — distimia (humor deprimido persistente).\n\nNa prova: distimia = humor deprimido **persistente** (slide).",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
     "origin": "inedita",
     "ref": "HMP-PF-68"
@@ -2371,12 +2371,12 @@
     "options": [
       "Vontade — impulsividade.",
       "Afetividade — labilidade.",
-      "Afetividade — inadequação do afeto.",
+      "Afetividade — inadequação.",
       "Afetividade — euforia.",
       "Afetividade — eutimia."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nAfeto não combina com o conteúdo; comum em psicoses.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Afetividade — inadequação do afeto.\n\nAfeto não combina com o conteúdo; comum em psicoses.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
     "origin": "inedita",
     "ref": "HMP-PF-72"
@@ -2461,10 +2461,10 @@
       "Afetividade — euforia.",
       "Juízo de realidade — delírio.",
       "Pensamento — concreto.",
-      "Vontade — cleptomania (impulso/ato repetido com tensão e alívio)."
+      "Vontade — cleptomania."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nNa cleptomania o valor do objeto não importa.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Vontade — cleptomania (impulso/ato repetido com tensão e alívio).\n\nNa cleptomania o valor do objeto não importa.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vontade",
     "origin": "inedita",
     "ref": "HMP-PF-76"
@@ -2523,14 +2523,14 @@
     "subtopic": "macete",
     "stem": "Sobre impulsividade e compulsividade, assinale a INCORRETA:",
     "options": [
-      "No ato compulsivo a pessoa deseja o ato (egossintônico).",
+      "O compulsivo é egossintônico.",
       "O impulsivo não freia a largada.",
       "Nos dois grupos há risco de suicídio.",
       "O compulsivo não acha a linha de chegada.",
       "O compulsivo é seguido de alívio da ansiedade."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nO compulsivo \"odeia, mas faz para aliviar\" (indesejável); o impulsivo é egossintônico.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** No ato compulsivo a pessoa deseja o ato (egossintônico).\n\nO compulsivo \"odeia, mas faz para aliviar\" (indesejável); o impulsivo é egossintônico.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · impulsivo × compulsivo",
     "origin": "inedita",
     "ref": "HMP-PF-79"
@@ -2547,12 +2547,12 @@
     "options": [
       "Psicomotricidade — catatonia.",
       "Vontade — compulsão.",
-      "Psicomotricidade — agitação psicomotora.",
+      "Psicomotricidade — agitação.",
       "Consciência — transe.",
       "Psicomotricidade — estereotipia."
     ],
     "answerIndex": 2,
-    "explanation": "**Gabarito: C**\n\nAgitação é a alteração mais comum.",
+    "explanation": "**Gabarito: C**\n\n**Alternativa correta, por extenso:** Psicomotricidade — agitação psicomotora.\n\nAgitação é a alteração mais comum.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
     "origin": "inedita",
     "ref": "HMP-PF-80"
@@ -2567,14 +2567,14 @@
     "subtopic": "catatonia",
     "stem": "Homem com depressão grave permanece imóvel na cama por horas, sem responder nem mudar de posição.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
-      "Psicomotricidade — catatonia (inibição).",
+      "Psicomotricidade — catatonia.",
       "Psicomotricidade — agitação.",
       "Psicomotricidade — tique.",
       "Consciência — coma.",
       "Afetividade — euforia."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nCatatonia: corpo inativo (depressão grave, medicação).",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Psicomotricidade — catatonia (inibição).\n\nCatatonia: corpo inativo (depressão grave, medicação).",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
     "origin": "inedita",
     "ref": "HMP-PF-81"
@@ -2592,11 +2592,11 @@
       "Psicomotricidade — tiques vocais.",
       "Vontade — impulsividade.",
       "Afetividade — euforia.",
-      "Psicomotricidade — estereotipias motoras.",
+      "Psicomotricidade — estereotipias.",
       "Consciência — transe."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nEstereotipias: TEA níveis 2 e 3, ócio, desregulação.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Psicomotricidade — estereotipias motoras.\n\nEstereotipias: TEA níveis 2 e 3, ócio, desregulação.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
     "origin": "inedita",
     "ref": "HMP-PF-82"
@@ -2612,13 +2612,13 @@
     "stem": "Adolescente de 13 anos faz caretas, pisca e emite sons e palavras involuntárias desde os 6 anos; percebe os tiques, mas não consegue contê-los.\n\nQual a função psíquica alterada e qual a alteração?",
     "options": [
       "Psicomotricidade — catatonia.",
-      "Psicomotricidade — tiques motores e vocais (Tourette).",
+      "Psicomotricidade — tiques.",
       "Vontade — ato impulsivo.",
       "Afetividade — inadequação.",
       "Linguagem — dislalia."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nTiques motores e vocais involuntários; não é má educação.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Psicomotricidade — tiques motores e vocais (Tourette).\n\nTiques motores e vocais involuntários; não é má educação.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
     "origin": "inedita",
     "ref": "HMP-PF-83"
@@ -2637,10 +2637,10 @@
       "Consciência — torpor.",
       "Psicomotricidade — agitação.",
       "Orientação — espacial.",
-      "Psicomotricidade — alteração da marcha."
+      "Psicomotricidade — marcha alterada."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nAlterações da marcha: Parkinson, álcool.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Psicomotricidade — alteração da marcha.\n\nAlterações da marcha: Parkinson, álcool.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
     "origin": "inedita",
     "ref": "HMP-PF-84"
@@ -2681,10 +2681,10 @@
       "Ocorre em idosos.",
       "Não segue o ideal de saúde.",
       "Difere da média estatística.",
-      "Associa-se a sofrimento ou perda de funcionalidade."
+      "Há sofrimento ou perda funcional."
     ],
     "answerIndex": 4,
-    "explanation": "**Gabarito: E**\n\nCritérios: ausência de doença, ideal (utopia), estatístico, funcional, processo e subjetivação.",
+    "explanation": "**Gabarito: E**\n\n**Alternativa correta, por extenso:** Associa-se a sofrimento ou perda de funcionalidade.\n\nCritérios: ausência de doença, ideal (utopia), estatístico, funcional, processo e subjetivação.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · normalidade",
     "origin": "inedita",
     "ref": "HMP-PF-86"
@@ -2700,13 +2700,13 @@
     "stem": "Pela ordem do roteiro do exame psíquico (\"de fora para dentro, de baixo para cima\"), examina-se primeiro:",
     "options": [
       "Personalidade e contratransferência.",
-      "Aspecto geral, consciência, orientação e atenção.",
+      "Aspecto geral e consciência.",
       "Crítica e desejo de ajuda.",
       "Juízo de realidade e pensamento.",
       "Afetividade e vontade."
     ],
     "answerIndex": 1,
-    "explanation": "**Gabarito: B**\n\nPrimeiro o que se vê e a base; depois perceber/pensar; depois sentir/agir; por fim a pessoa e você.",
+    "explanation": "**Gabarito: B**\n\n**Alternativa correta, por extenso:** Aspecto geral, consciência, orientação e atenção.\n\nPrimeiro o que se vê e a base; depois perceber/pensar; depois sentir/agir; por fim a pessoa e você.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · roteiro de Dalgalarrondo",
     "origin": "inedita",
     "ref": "HMP-PF-87"
@@ -2724,11 +2724,11 @@
       "Inteligência e linguagem.",
       "Orientação autopsíquica apenas.",
       "Afetividade e psicomotricidade apenas.",
-      "Sensopercepção, pensamento e juízo de realidade.",
+      "Sensopercepção, pensamento e juízo.",
       "Consciência, atenção e memória."
     ],
     "answerIndex": 3,
-    "explanation": "**Gabarito: D**\n\nPsico-orgânicos: base cognitiva; humor/personalidade: sentir e agir; psicóticos: a realidade.",
+    "explanation": "**Gabarito: D**\n\n**Alternativa correta, por extenso:** Sensopercepção, pensamento e juízo de realidade.\n\nPsico-orgânicos: base cognitiva; humor/personalidade: sentir e agir; psicóticos: a realidade.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · mapa dos transtornos",
     "origin": "inedita",
     "ref": "HMP-PF-88"
@@ -2743,14 +2743,14 @@
     "subtopic": "sinal isolado",
     "stem": "Paciente chega com postura encurvada e higiene precária. Pelo guia, a conduta correta é:",
     "options": [
-      "Descrever o aspecto e investigar as funções, sem fechar diagnóstico.",
+      "Investigar as funções sem fechar diagnóstico.",
       "Concluir esquizofrenia.",
       "Encerrar o exame psíquico.",
       "Concluir demência.",
       "Concluir depressão."
     ],
     "answerIndex": 0,
-    "explanation": "**Gabarito: A**\n\nErro clássico: concluir a causa a partir de um sinal isolado.",
+    "explanation": "**Gabarito: A**\n\n**Alternativa correta, por extenso:** Descrever o aspecto e investigar as funções, sem fechar diagnóstico.\n\nErro clássico: concluir a causa a partir de um sinal isolado.",
     "source": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · erros que a prova explora",
     "origin": "inedita",
     "ref": "HMP-PF-89"

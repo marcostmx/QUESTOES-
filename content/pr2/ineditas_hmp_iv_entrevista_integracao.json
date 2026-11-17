@@ -1,1350 +1,1350 @@
 {
- "meta": {
-  "titulo": "Inéditas PR2 · HMP IV · Comunicação, integração e discursivas",
-  "gerado_em": "2026-11-17",
-  "base": "Guia de estudo PR2 de HMP IV. Formato da prova: caso clínico + função/técnica; discursivas do modelo do guia."
- },
- "questoes": [
-  {
-   "id": "HMP-PF2-01",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Perfil do entrevistador",
-   "subtema": "reativo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Perfil do entrevistador",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente chega irritado reclamando da demora. O médico responde no mesmo tom ríspido: \"Se não quer esperar, procure outro serviço\". Pelo eixo emocional de Carrió, o médico foi:",
-   "alternativas": [
+  "meta": {
+    "titulo": "Inéditas PR2 · HMP IV · Comunicação, integração e discursivas",
+    "gerado_em": "2026-11-17",
+    "base": "Guia de estudo PR2 de HMP IV. Formato da prova: caso clínico + função/técnica; discursivas do modelo do guia."
+  },
+  "questoes": [
     {
-     "letra": "A",
-     "texto": "Cordial."
+      "id": "HMP-PF2-01",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Perfil do entrevistador",
+      "subtema": "reativo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Perfil do entrevistador",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente chega irritado reclamando da demora. O médico responde no mesmo tom ríspido: \"Se não quer esperar, procure outro serviço\". Pelo eixo emocional de Carrió, o médico foi:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Cordial."
+        },
+        {
+          "letra": "B",
+          "texto": "Contido."
+        },
+        {
+          "letra": "C",
+          "texto": "Empático."
+        },
+        {
+          "letra": "D",
+          "texto": "Reativo."
+        },
+        {
+          "letra": "E",
+          "texto": "Proativo."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Reativo devolve o tom do paciente; proativo conduz o clima da consulta."
     },
     {
-     "letra": "B",
-     "texto": "Contido."
+      "id": "HMP-PF2-02",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Perfil do entrevistador",
+      "subtema": "dispático",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Perfil do entrevistador",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente chora ao contar a perda do emprego e o médico responde com sarcasmo: \"Pelo menos agora tem tempo para fazer exercício\". Segundo Carrió, essa resposta é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Paternalista."
+        },
+        {
+          "letra": "B",
+          "texto": "Dispática."
+        },
+        {
+          "letra": "C",
+          "texto": "Fria (ignorar a emoção)."
+        },
+        {
+          "letra": "D",
+          "texto": "Contida."
+        },
+        {
+          "letra": "E",
+          "texto": "Empática."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Dispático não é \"sem empatia\": é responder à emoção com emoção inadequada (irritação, sarcasmo). Ignorar é frieza."
     },
     {
-     "letra": "C",
-     "texto": "Empático."
+      "id": "HMP-PF2-03",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Modelos relacionais",
+      "subtema": "democrático",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modelos relacionais",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Médico diz ao paciente confuso: \"O senhor decide; a autonomia é sua\", e encerra sem explicar as opções. Segundo Carrió, esse comportamento:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Pode mascarar frieza como autonomia."
+        },
+        {
+          "letra": "B",
+          "texto": "É competência emocional avançada."
+        },
+        {
+          "letra": "C",
+          "texto": "É o modelo constitutivo."
+        },
+        {
+          "letra": "D",
+          "texto": "É paternalismo cordial."
+        },
+        {
+          "letra": "E",
+          "texto": "É o modelo fiduciário ideal."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Pode mascarar frieza como respeito à autonomia.\n\nPara Carrió, o problema atual é a frieza emocional, não só o paternalismo."
     },
     {
-     "letra": "D",
-     "texto": "Reativo."
+      "id": "HMP-PF2-04",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Competência emocional",
+      "subtema": "modo avançado",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Competência emocional",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente grita exigindo um atestado. O médico mantém a calma, reconhece a frustração e reconstrói o vínculo antes de negociar. Ele usou:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O modelo de transmissão."
+        },
+        {
+          "letra": "B",
+          "texto": "A entrevista dirigida."
+        },
+        {
+          "letra": "C",
+          "texto": "O modo emocional avançado."
+        },
+        {
+          "letra": "D",
+          "texto": "O tom emocional básico."
+        },
+        {
+          "letra": "E",
+          "texto": "A contratransferência."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Tom básico: o que o paciente percebe de imediato. Modo avançado: situações difíceis (choro, exigência), recuperar o vínculo."
     },
     {
-     "letra": "E",
-     "texto": "Proativo."
+      "id": "HMP-PF2-05",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Condução",
+      "subtema": "dirigida",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Condução",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "No pronto-socorro, o médico faz apenas perguntas fechadas e rápidas (\"Dói onde? Desde quando? Tem febre?\") e interrompe quando o paciente começa a contar sua história. A condução é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Semidirigida."
+        },
+        {
+          "letra": "B",
+          "texto": "Psicoeducacional."
+        },
+        {
+          "letra": "C",
+          "texto": "Motivacional."
+        },
+        {
+          "letra": "D",
+          "texto": "Não dirigida."
+        },
+        {
+          "letra": "E",
+          "texto": "Dirigida."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Dirigida: dados rápidos, perde a narrativa. Semidirigida é a ideal."
+    },
+    {
+      "id": "HMP-PF2-06",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Técnicas de apoio narrativo",
+      "subtema": "assinalamento",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Médico: \"Percebi que a senhora ficou com os olhos marejados quando falou do seu filho.\" A técnica utilizada é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Legitimação."
+        },
+        {
+          "letra": "B",
+          "texto": "Frase por repetição."
+        },
+        {
+          "letra": "C",
+          "texto": "Facilitação."
+        },
+        {
+          "letra": "D",
+          "texto": "Sumarização."
+        },
+        {
+          "letra": "E",
+          "texto": "Assinalamento."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Assinalamento nomeia uma emoção ou comportamento observado."
+    },
+    {
+      "id": "HMP-PF2-07",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Técnicas de apoio narrativo",
+      "subtema": "legitimação",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Médico: \"É natural sentir medo antes de uma cirurgia.\" A técnica é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Legitimação."
+        },
+        {
+          "letra": "B",
+          "texto": "Baixa reatividade."
+        },
+        {
+          "letra": "C",
+          "texto": "Silêncio funcional."
+        },
+        {
+          "letra": "D",
+          "texto": "Sumarização."
+        },
+        {
+          "letra": "E",
+          "texto": "Assinalamento."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Legitimação normaliza a emoção."
+    },
+    {
+      "id": "HMP-PF2-08",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Técnicas de apoio narrativo",
+      "subtema": "sumarização",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Médico: \"Deixe-me ver se entendi: a dor começou há 3 dias, piora à noite e melhora com dipirona, certo?\" A técnica é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Assinalamento."
+        },
+        {
+          "letra": "B",
+          "texto": "Facilitação."
+        },
+        {
+          "letra": "C",
+          "texto": "Sumarização."
+        },
+        {
+          "letra": "D",
+          "texto": "Legitimação."
+        },
+        {
+          "letra": "E",
+          "texto": "Frase por repetição."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Sumarização: o paciente pode corrigir e completar."
+    },
+    {
+      "id": "HMP-PF2-09",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Técnicas de apoio narrativo",
+      "subtema": "silêncio funcional",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após a paciente revelar que sofre violência em casa, o médico faz uma pausa intencional, mantendo o olhar acolhedor, sem falar. A técnica é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Entrevista dirigida."
+        },
+        {
+          "letra": "B",
+          "texto": "Sumarização."
+        },
+        {
+          "letra": "C",
+          "texto": "Baixa reatividade."
+        },
+        {
+          "letra": "D",
+          "texto": "Silêncio funcional."
+        },
+        {
+          "letra": "E",
+          "texto": "Facilitação."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Pausa intencional após revelação difícil. Baixa reatividade: esperar 1–2 s antes de falar."
+    },
+    {
+      "id": "HMP-PF2-10",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Modalidades de entrevista",
+      "subtema": "ciclo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Durante um curativo (entrevista operativa), o paciente revela medo de perder o pé. O médico passa a ouvir e depois explica a doença e os cuidados. A sequência de modalidades foi:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Motivacional → informativa → escuta."
+        },
+        {
+          "letra": "B",
+          "texto": "Operativa → escuta → psicoeducacional."
+        },
+        {
+          "letra": "C",
+          "texto": "Semiológica → motivacional → operativa."
+        },
+        {
+          "letra": "D",
+          "texto": "Informativa → semiológica → operativa."
+        },
+        {
+          "letra": "E",
+          "texto": "Psicoeducacional → operativa → semiológica."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Operativa → escuta e acomodação → psicoeducacional.\n\nCiclo clássico: operativa → aparece ansiedade oculta → escuta → psicoeducacional."
+    },
+    {
+      "id": "HMP-PF2-11",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Modalidades de entrevista",
+      "subtema": "motivacional",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Consulta voltada a ajudar o paciente a parar de fumar, explorando suas razões e ambivalências, corresponde à entrevista:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "De escuta e acomodação."
+        },
+        {
+          "letra": "B",
+          "texto": "Semiológica."
+        },
+        {
+          "letra": "C",
+          "texto": "Motivacional (mudança de hábitos)."
+        },
+        {
+          "letra": "D",
+          "texto": "Informativa e prescritiva."
+        },
+        {
+          "letra": "E",
+          "texto": "Operativa."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** De mudança de hábitos (motivacional).\n\nModalidades de Carrió."
+    },
+    {
+      "id": "HMP-PF2-12",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Como perguntar",
+      "subtema": "pergunta boa",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Como perguntar",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Para saber o que o paciente já sabe sobre seu diabetes, a pergunta mais adequada é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "\"Leu o folheto que eu dei?\""
+        },
+        {
+          "letra": "B",
+          "texto": "\"Que informações você já tem sobre o diabetes?\""
+        },
+        {
+          "letra": "C",
+          "texto": "\"Está informado sobre sua doença?\""
+        },
+        {
+          "letra": "D",
+          "texto": "\"Você não sabe nada sobre diabetes, certo?\""
+        },
+        {
+          "letra": "E",
+          "texto": "\"Entendeu tudo?\""
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Pergunta aberta, sem induzir resposta sim/não."
+    },
+    {
+      "id": "HMP-PF2-13",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Comunicação não verbal",
+      "subtema": "incongruência",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação não verbal",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente diz \"estou tranquila\", mas aperta as mãos e evita o olhar. Diante dessa incongruência, o médico deve:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ignorar a comunicação não verbal."
+        },
+        {
+          "letra": "B",
+          "texto": "Concluir que ela está mentindo."
+        },
+        {
+          "letra": "C",
+          "texto": "Registrar transtorno de ansiedade."
+        },
+        {
+          "letra": "D",
+          "texto": "Encerrar a consulta."
+        },
+        {
+          "letra": "E",
+          "texto": "Usá-la como abertura para ela continuar."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "**Alternativa correta, por extenso:** Usá-la como abertura para a paciente continuar.\n\nIncongruência fala × corpo é abertura, não conclusão."
+    },
+    {
+      "id": "HMP-PF2-14",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Comunicação e tecnologia",
+      "subtema": "telemedicina",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação e tecnologia",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Segundo a Resolução CFM 2.314/2022, assinale a CORRETA:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O médico pode recusar e indicar consulta presencial."
+        },
+        {
+          "letra": "B",
+          "texto": "Há apenas duas modalidades de telemedicina."
+        },
+        {
+          "letra": "C",
+          "texto": "O paciente não pode recusar."
+        },
+        {
+          "letra": "D",
+          "texto": "Dispensa TCLE e prontuário."
+        },
+        {
+          "letra": "E",
+          "texto": "A teleconsulta substitui o presencial como padrão-ouro."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** O médico pode recusar a teleconsulta e indicar o atendimento presencial.\n\nPresencial é padrão-ouro; tele é complementar; 7 modalidades; exige TCLE e prontuário."
+    },
+    {
+      "id": "HMP-PF2-15",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Transferência",
+      "subtema": "contratransferência",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Transferência",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "O residente percebe que fica impaciente com um paciente idoso porque ele lembra o próprio pai, com quem tem conflitos. Isso é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Projeção do paciente."
+        },
+        {
+          "letra": "B",
+          "texto": "Formação reativa do paciente."
+        },
+        {
+          "letra": "C",
+          "texto": "Sublimação."
+        },
+        {
+          "letra": "D",
+          "texto": "Contratransferência."
+        },
+        {
+          "letra": "E",
+          "texto": "Transferência."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Contratransferência é a reação do médico, vinda da história dele. Ocorre em toda relação."
+    },
+    {
+      "id": "HMP-PF2-16",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Mecanismos de defesa",
+      "subtema": "deslocamento",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Mecanismos de defesa",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após receber notícia ruim do médico, o paciente sai e briga com a recepcionista por um motivo banal. O mecanismo é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Sublimação."
+        },
+        {
+          "letra": "B",
+          "texto": "Projeção."
+        },
+        {
+          "letra": "C",
+          "texto": "Negação."
+        },
+        {
+          "letra": "D",
+          "texto": "Deslocamento."
+        },
+        {
+          "letra": "E",
+          "texto": "Racionalização."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Deslocamento: descarregar o afeto em alvo mais \"seguro\"."
+    },
+    {
+      "id": "HMP-PF2-17",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Mecanismos de defesa",
+      "subtema": "racionalização",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Mecanismos de defesa",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente que não fez os exames diz: \"O laboratório é muito longe, não compensa ir\". O mecanismo é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Regressão."
+        },
+        {
+          "letra": "B",
+          "texto": "Formação reativa."
+        },
+        {
+          "letra": "C",
+          "texto": "Intelectualização."
+        },
+        {
+          "letra": "D",
+          "texto": "Negação."
+        },
+        {
+          "letra": "E",
+          "texto": "Racionalização."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Justificativa lógica para evitar o conteúdo ansiogênico."
+    },
+    {
+      "id": "HMP-PF2-18",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "HEEADSSS",
+      "subtema": "ordem",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · HEEADSSS",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "No HEEADSSS, a letra que investiga ideação suicida e depressão é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "D (Drugs)."
+        },
+        {
+          "letra": "B",
+          "texto": "A (Activities)."
+        },
+        {
+          "letra": "C",
+          "texto": "S (Suicide)."
+        },
+        {
+          "letra": "D",
+          "texto": "E (Education)."
+        },
+        {
+          "letra": "E",
+          "texto": "H (Home)."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "**Alternativa correta, por extenso:** S (Suicide/depression).\n\nHome · Education · Eating · Activities · Drugs · Sexuality · Suicide/depression · Safety."
+    },
+    {
+      "id": "HMP-PF2-19",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Sigilo do adolescente",
+      "subtema": "quebra",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Sigilo do adolescente",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Bruno, 16 anos, a sós, conta que pensa em se matar e tem um plano. A conduta correta é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Quebrar o sigilo, avisando-o antes."
+        },
+        {
+          "letra": "B",
+          "texto": "Esperar a próxima consulta."
+        },
+        {
+          "letra": "C",
+          "texto": "Manter sigilo absoluto."
+        },
+        {
+          "letra": "D",
+          "texto": "Encaminhar sem conversar."
+        },
+        {
+          "letra": "E",
+          "texto": "Contar aos pais sem avisá-lo."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "**Alternativa correta, por extenso:** Quebrar o sigilo, avisando-o antes e explicando o motivo.\n\nPergunta-chave: há risco? Ideação suicida quebra o sigilo, sempre avisando o adolescente."
+    },
+    {
+      "id": "HMP-PF2-20",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Entrevista com criança",
+      "subtema": "conduta",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Entrevista com criança",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Ao examinar uma criança de 4 anos, a conduta adequada é:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Falar só com a mãe."
+        },
+        {
+          "letra": "B",
+          "texto": "Abaixar-se e usar linguagem lúdica."
+        },
+        {
+          "letra": "C",
+          "texto": "Examinar sem explicar, para ser rápido."
+        },
+        {
+          "letra": "D",
+          "texto": "Pedir que a criança saia da sala."
+        },
+        {
+          "letra": "E",
+          "texto": "Manter-se em pé, com distância."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "**Alternativa correta, por extenso:** Abaixar-se, usar linguagem lúdica e explicar o que fará.\n\nOlho no olho = abaixe-se; mãos aquecidas; observe o vínculo com o familiar."
+    },
+    {
+      "id": "HMP-PF2-21",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "caso integrado",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Sr. Geraldo, 81 anos, com pneumonia há 2 dias, está sonolento, não consegue manter a atenção na conversa, diz que está \"na roça\" e vê \"galinhas no quarto\". Analise:\n\nI. Há rebaixamento da consciência.\nII. Há desorientação alopsíquica espacial.\nIII. As \"galinhas\" correspondem a alucinação visual.\nIV. O quadro é típico de demência, pela idade.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, II, III e IV."
+        },
+        {
+          "letra": "B",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II, III e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, apenas."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "Delirium: agudo, causa clínica, flutuante. Rotular como \"idade\" atrasa o tratamento."
+    },
+    {
+      "id": "HMP-PF2-22",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Sensopercepção e juízo",
+      "subtema": "psicose",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Jovem de 22 anos ouve vozes que comentam seus atos, acredita que a TV fala dele e ri ao contar que o avô morreu. Analise:\n\nI. Há alucinação auditiva.\nII. Há delírio de referência.\nIII. Há inadequação do afeto.\nIV. Há rebaixamento da consciência.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "I, II e III, apenas."
+        },
+        {
+          "letra": "B",
+          "texto": "II e III, apenas."
+        },
+        {
+          "letra": "C",
+          "texto": "II, III e IV, apenas."
+        },
+        {
+          "letra": "D",
+          "texto": "I, III e IV, apenas."
+        },
+        {
+          "letra": "E",
+          "texto": "I, II, III e IV."
+        }
+      ],
+      "gabarito": [
+        "A"
+      ],
+      "gabarito_texto": "A",
+      "comentario": "Psicóticos alteram sensopercepção, pensamento e juízo; a consciência costuma estar clara."
+    },
+    {
+      "id": "HMP-PF2-23",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "V/F · mania",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Paciente em mania fala sem parar, salta de um assunto a outro, diz que \"o dia rende infinitamente\" e está extremamente alegre. Julgue:\n\nI. ( ) Há euforia (afetividade).\nII. ( ) Há tempo dilatado (vivência do tempo).\nIII. ( ) Há desorientação temporal.\nIV. ( ) Há aceleração do curso do pensamento.",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "V – F – V – F"
+        },
+        {
+          "letra": "B",
+          "texto": "V – F – F – V"
+        },
+        {
+          "letra": "C",
+          "texto": "V – V – F – V"
+        },
+        {
+          "letra": "D",
+          "texto": "F – V – F – V"
+        },
+        {
+          "letra": "E",
+          "texto": "F – V – F – F"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "\"O dia rende\" é vivência subjetiva, não desorientação."
+    },
+    {
+      "id": "HMP-PF2-24",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "TOC",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Mulher tem a ideia de que vai se contaminar ao tocar maçanetas, lava as mãos 20 vezes por dia, acha isso absurdo e se alivia após lavar. As funções alteradas são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Afetividade (euforia) e psicomotricidade."
+        },
+        {
+          "letra": "B",
+          "texto": "Pensamento (obsessivo) e vontade (ato compulsivo)."
+        },
+        {
+          "letra": "C",
+          "texto": "Juízo (delírio) e sensopercepção (alucinação)."
+        },
+        {
+          "letra": "D",
+          "texto": "Linguagem e orientação."
+        },
+        {
+          "letra": "E",
+          "texto": "Consciência (torpor) e memória."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Crítica preservada: não é delírio."
+    },
+    {
+      "id": "HMP-PF2-25",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "puérpera",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Puérpera exausta \"ouve\" o bebê chorar quando ele dorme e tem imagens repentinas de machucá-lo, que a apavoram. Classifique:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Ilusão e compulsão."
+        },
+        {
+          "letra": "B",
+          "texto": "Ilusão auditiva e delírio."
+        },
+        {
+          "letra": "C",
+          "texto": "Alucinação visual e ideia sobrevalorada."
+        },
+        {
+          "letra": "D",
+          "texto": "Delirium e pensamento mágico."
+        },
+        {
+          "letra": "E",
+          "texto": "Alucinação auditiva e pensamento intrusivo."
+        }
+      ],
+      "gabarito": [
+        "E"
+      ],
+      "gabarito_texto": "E",
+      "comentario": "Privação de sono favorece alucinação; a imagem assusta (egodistônica) → intrusivo."
+    },
+    {
+      "id": "HMP-PF2-26",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "AVC",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Após AVC, o paciente está alerta, sabe onde está, entende o que se diz, mas não consegue falar o que pensa e chora e ri sem motivo, de forma brusca. As alterações são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Afetividade (euforia) e vontade (impulsividade)."
+        },
+        {
+          "letra": "B",
+          "texto": "Linguagem (afasia) e afetividade (labilidade)."
+        },
+        {
+          "letra": "C",
+          "texto": "Memória e atenção."
+        },
+        {
+          "letra": "D",
+          "texto": "Consciência (torpor) e orientação."
+        },
+        {
+          "letra": "E",
+          "texto": "Linguagem (disartria) e juízo (delírio)."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "comentario": "Consciência e orientação preservadas."
+    },
+    {
+      "id": "HMP-PF2-27",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Delirium × demência",
+      "subtema": "idosa lenta",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · demência",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Dona Rosa, 78 anos, há 2 anos esquece recados, repete perguntas e se perde no bairro; está alerta e atenta na consulta. A função mais afetada e o tipo de instalação são:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Afetividade, aguda (labilidade)."
+        },
+        {
+          "letra": "B",
+          "texto": "Consciência, de instalação aguda (delirium)."
+        },
+        {
+          "letra": "C",
+          "texto": "Atenção dividida, transitória."
+        },
+        {
+          "letra": "D",
+          "texto": "Memória, de instalação lenta (demência)."
+        },
+        {
+          "letra": "E",
+          "texto": "Juízo de realidade, aguda (delírio)."
+        }
+      ],
+      "gabarito": [
+        "D"
+      ],
+      "gabarito_texto": "D",
+      "comentario": "**Alternativa correta, por extenso:** Memória/cognição, de instalação lenta (demência).\n\nDemência: meses; atenção relativamente preservada no início."
+    },
+    {
+      "id": "HMP-PF2-28",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "TDAH × memória",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · interdependência",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "objetiva",
+      "enunciado": "Estudante com TDAH diz que \"não tem memória\", mas, quando atento, lembra bem do conteúdo. A falha principal está na:",
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Consciência (sopor)."
+        },
+        {
+          "letra": "B",
+          "texto": "Memória de longo prazo."
+        },
+        {
+          "letra": "C",
+          "texto": "Atenção, que prejudica o registro."
+        },
+        {
+          "letra": "D",
+          "texto": "Juízo de realidade."
+        },
+        {
+          "letra": "E",
+          "texto": "Orientação autopsíquica."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "comentario": "Cadeia: consciência → atenção → memória → orientação."
+    },
+    {
+      "id": "HMP-PF2-29",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Consciência",
+      "subtema": "níveis",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · consciência",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Descreva os níveis de rebaixamento da consciência, dizendo qual estímulo é necessário para o paciente responder em cada um.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Obnubilação**: sonolento e lento, mas responde à **fala**.\n**Torpor**: intensamente sonolento, psicomotricidade inibida; responde ao **toque** (cutucar).\n**Sopor**: responde apenas à **dor**.\n**Coma**: sem resposta consciente; restam só **reflexos** (ex.: pupilar).\n\nMacete: Fala → Toque → Dor → Reflexo. Pergunte sempre \"o que eu precisei fazer para ele reagir?\".",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-30",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Delirium",
+      "subtema": "delirium × delírio × demência",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · encruzilhada",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie delirium, delírio e demência quanto à função psíquica alterada e ao tempo de instalação.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Delirium**: alteração da **consciência** (rebaixamento leve a moderado, flutuante), com desatenção, desorientação e às vezes alucinações visuais; instalação em **horas a dias**, com causa clínica (ITU, pneumonia, desidratação, fármacos, abstinência). É urgência: tratar a causa.\n\n**Delírio**: alteração do **juízo de realidade** — crença diferente da realidade, que organiza a interpretação dos fatos e não cede à argumentação (persecutório, grandeza, erotomania); consciência clara.\n\n**Demência**: comprometimento **cognitivo/memória** de instalação **lenta (meses a anos)**, com atenção relativamente preservada no início.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-31",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Atenção",
+      "subtema": "cinco pares",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · atenção",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Cite os cinco pares de tipos de atenção apresentados na aula, com um exemplo de manifestação na pessoa com TDAH estudando.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "1. **Interna × externa**: desvia para pensamentos e para ruídos do ambiente.\n2. **Focal × dispersa**: não fixa num ponto do material.\n3. **Concentrada × difusa**: não sustenta uma operação mental por muito tempo.\n4. **Seletiva × dividida**: não filtra distrações nem divide entre ler e ouvir.\n5. **Alternada × sustentada**: precisa retomar a leitura após cada distração; perde onde parou.\n\nMacete: \"Insônia Faz Cair Sua Atenção\". Estratégias: sentar mais à frente, estudar em blocos menores.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-32",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Orientação",
+      "subtema": "auto × alo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · orientação",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie orientação autopsíquica e alopsíquica, dê uma pergunta para avaliar cada uma e explique por que \"o tempo voou\" não é desorientação.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Autopsíquica**: em relação a si — \"Qual o seu nome? Sua idade?\".\n**Alopsíquica**: em relação ao mundo — tempo (\"Que dia é hoje?\") e espaço (\"Onde estamos?\").\n\n\"O tempo voou\" é variação **subjetiva da vivência do tempo** (alegria encurta, dor e medo alongam): a pessoa sabe a data e o lugar. Desorientação é erro real de data ou lugar.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-33",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Memória",
+      "subtema": "MEEM",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · memória",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique como o MEEM avalia a memória e por que, antes de concluir falha de memória, é preciso avaliar consciência e atenção.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "No MEEM o examinador diz três palavras (carro, vaso, tijolo), pede que o paciente repita (**registro/fixação**) e, depois de outras tarefas, que as lembre (**evocação**). O MEEM também avalia orientação, atenção e cálculo, linguagem e praxia; os cortes variam com a escolaridade.\n\nA memória depende de codificar, armazenar e evocar. Sem **consciência** (vigília) e **atenção**, a informação não é codificada: o paciente sonolento parece ter \"problema de memória\", mas a falha começou na base. Por isso o roteiro examina consciência antes de memória.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-34",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Pensamento",
+      "subtema": "tipos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · pensamento",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Defina pensamento mágico, intrusivo, concreto, obsessivo e ruminação, com um exemplo de cada.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Mágico**: atribui a um pensamento/gesto o poder de mudar a realidade (\"se eu pensar positivo, a vaga vai surgir\").\n**Intrusivo**: imagem ou impulso inapropriado, contrário à personalidade, que assusta (puérpera com a imagem de jogar o bebê) — egodistônico, não é intenção.\n**Concreto**: interpretação literal (\"fique à vontade\" ao pé da letra); esperado aos 5 anos.\n**Obsessivo**: medo/preocupação que se impõe, às vezes absurdo (\"se tocar na roupa de alguém, fico contaminado\").\n**Ruminação**: repassar uma situação por muito tempo, sem desfecho (rever uma briga por dias).",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-35",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Juízo de realidade",
+      "subtema": "fluxo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · juízo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Descreva o fluxo de decisão \"percepção ou crença?\" usado para chegar a alucinação, ilusão, ideia sobrevalorada ou delírio.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "Diante de uma experiência estranha, a 1ª pergunta é: **percepção ou crença?**\n\n**Percepção** → há estímulo real?\n- Não → **alucinação** (ouvir vozes).\n- Sim, mal interpretado → **ilusão** (cinto que parece cobra).\n\n**Crença** → é compreensível no contexto e carregada de afeto?\n- Sim → **ideia sobrevalorada** (\"estou muito gorda\" na anorexia).\n- Não; reorganiza tudo e não cede → **delírio** (\"o chefe e a máfia me perseguem\").",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-36",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Linguagem",
+      "subtema": "prefixos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · linguagem",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Diferencie afasia, disartria, agrafia, alexia, dislexia e dislalia.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Afasia**: perda da capacidade de transformar o pensamento em fala (AVC).\n**Disartria**: dificuldade de articular; sabe o que quer dizer, sai \"embolado\".\n**Agrafia**: não escreve, mesmo sabendo escrever.\n**Alexia**: não compreende o que está escrito.\n**Dislexia**: troca sons e símbolos; dificuldade de leitura e de seguir a linha.\n**Dislalia**: troca de letras na fala (\"Cebolinha\").\n\nMacete: a- = ausência; dis- = dificuldade/troca; -fasia = fala; -grafia = escrita; -lexia = leitura; -artria = articulação; -lalia = sons.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-37",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Afetividade",
+      "subtema": "termos",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · afetividade",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Defina eutimia, distimia, disforia, euforia, apatia, vazio afetivo, labilidade e inadequação do afeto.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Eutimia**: humor equilibrado. **Distimia**: humor deprimido **persistente**. **Disforia**: distimia + irritabilidade. **Euforia**: elevação do humor (mania). **Apatia**: nada parece afetar a pessoa. **Vazio afetivo**: sentimento de falta de sentimento. **Labilidade**: mudanças bruscas e rápidas do humor — não é sinônimo de bipolaridade. **Inadequação do afeto**: afeto que não combina com a situação (rir num velório), comum em psicoses.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-38",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Vontade",
+      "subtema": "impulsivo × compulsivo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · vontade",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Explique as etapas do ato voluntário e diferencie ato impulsivo de ato compulsivo, com exemplos de transtornos ligados a cada um.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "Ato voluntário: **intenção → deliberação → decisão → execução**.\n\n**Impulsivo**: curto-circuito da intenção para a execução (pula deliberação e decisão); **egossintônico**; difícil é conter o início. Ex.: dependência de substâncias, borderline, explosivo intermitente, antissocial, TDAH.\n\n**Compulsivo**: ideia obsessiva → ansiedade → tenta resistir → executa → alívio → repete; reconhecido como **indesejável**; difícil é parar. Ex.: TOC, dismórfico corporal, acumulação, tricotilomania, escoriação.\n\nNos dois grupos há risco de suicídio.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-39",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Interdependência das funções",
+      "subtema": "caso completo",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Sr. Antônio, 80 anos, com infecção urinária há 3 dias, está sonolento de dia e agitado à noite, não sabe que dia é nem onde está, e diz ver \"gente estranha\" no quarto. A filha acha que \"é a idade\". Quais funções estão alteradas, por que não é demência e qual o risco de rotular como \"idade\"?",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Funções**: consciência (rebaixamento flutuante), atenção (desatenção), orientação alopsíquica (tempo e espaço) e sensopercepção (alucinação visual).\n\n**Não é demência** porque a instalação é aguda (dias), o curso é flutuante e há causa clínica (ITU) → **delirium**. A demência se instala em meses, com atenção preservada no início.\n\n**Risco**: rotular como \"idade\" atrasa o tratamento da ITU; delirium não tratado leva a quedas, declínio funcional e maior mortalidade.",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-40",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Fases da entrevista",
+      "subtema": "técnicas",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · entrevista",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Cite as três fases da entrevista clínica e quatro técnicas de apoio narrativo, com uma frase de exemplo para cada técnica.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Fases**: recepção (pano de fundo e contato inicial) → exploração (pergunta aberta, \"mais alguma coisa?\", abertas → fechadas, ideias e medos, contexto) → resolução (informar e negociar).\n\n**Técnicas**:\n- Facilitação: \"Continue, por favor.\"\n- Frase por repetição: \"Então a dor era forte de cabeça…\"\n- Sumarização: \"Deixe-me ver se entendi…\"\n- Assinalamento: \"Notei que ficou triste ao falar do seu pai.\"\n- Legitimação: \"É natural sentir-se irritado com essa dor.\"\n- Silêncio funcional e baixa reatividade (esperar 1–2 s).",
+      "comentario": null
+    },
+    {
+      "id": "HMP-PF2-41",
+      "materia": "HMP IV",
+      "prova": "PR2",
+      "tema": "Transferência e ética",
+      "subtema": "caso",
+      "origem": "inédita",
+      "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · vínculo",
+      "imagem": null,
+      "gabarito_oficial": null,
+      "tipo": "discursiva",
+      "enunciado": "Durante a anamnese, a paciente trata o estudante com hostilidade porque ele \"parece o ex-marido\". O estudante fica irritado e quer encerrar a consulta. Identifique os fenômenos e como manejá-los.",
+      "alternativas": [],
+      "gabarito": null,
+      "resposta_modelo": "**Transferência**: a paciente leva para o estudante afetos de uma relação antiga (ex-marido).\n**Contratransferência**: a irritação do estudante, reação vinda da história dele diante da paciente.\n\n**Manejo**: reconhecer os dois fenômenos (ocorrem em toda relação), não agir pela irritação, manter postura acolhedora e proativa (não reativa), usar técnicas de apoio narrativo e registrar na reflexão ética do roteiro; se necessário, discutir com o preceptor.",
+      "comentario": null
     }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Reativo devolve o tom do paciente; proativo conduz o clima da consulta."
-  },
-  {
-   "id": "HMP-PF2-02",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Perfil do entrevistador",
-   "subtema": "dispático",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Perfil do entrevistador",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente chora ao contar a perda do emprego e o médico responde com sarcasmo: \"Pelo menos agora tem tempo para fazer exercício\". Segundo Carrió, essa resposta é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Paternalista."
-    },
-    {
-     "letra": "B",
-     "texto": "Dispática."
-    },
-    {
-     "letra": "C",
-     "texto": "Fria (ignorar a emoção)."
-    },
-    {
-     "letra": "D",
-     "texto": "Contida."
-    },
-    {
-     "letra": "E",
-     "texto": "Empática."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Dispático não é \"sem empatia\": é responder à emoção com emoção inadequada (irritação, sarcasmo). Ignorar é frieza."
-  },
-  {
-   "id": "HMP-PF2-03",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Modelos relacionais",
-   "subtema": "democrático",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modelos relacionais",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Médico diz ao paciente confuso: \"O senhor decide; a autonomia é sua\", e encerra sem explicar as opções. Segundo Carrió, esse comportamento:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Pode mascarar frieza como respeito à autonomia."
-    },
-    {
-     "letra": "B",
-     "texto": "É competência emocional avançada."
-    },
-    {
-     "letra": "C",
-     "texto": "É o modelo constitutivo."
-    },
-    {
-     "letra": "D",
-     "texto": "É paternalismo cordial."
-    },
-    {
-     "letra": "E",
-     "texto": "É o modelo fiduciário ideal."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Para Carrió, o problema atual é a frieza emocional, não só o paternalismo."
-  },
-  {
-   "id": "HMP-PF2-04",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Competência emocional",
-   "subtema": "modo avançado",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Competência emocional",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente grita exigindo um atestado. O médico mantém a calma, reconhece a frustração e reconstrói o vínculo antes de negociar. Ele usou:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O modelo de transmissão."
-    },
-    {
-     "letra": "B",
-     "texto": "A entrevista dirigida."
-    },
-    {
-     "letra": "C",
-     "texto": "O modo emocional avançado."
-    },
-    {
-     "letra": "D",
-     "texto": "O tom emocional básico."
-    },
-    {
-     "letra": "E",
-     "texto": "A contratransferência."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Tom básico: o que o paciente percebe de imediato. Modo avançado: situações difíceis (choro, exigência), recuperar o vínculo."
-  },
-  {
-   "id": "HMP-PF2-05",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Condução",
-   "subtema": "dirigida",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Condução",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "No pronto-socorro, o médico faz apenas perguntas fechadas e rápidas (\"Dói onde? Desde quando? Tem febre?\") e interrompe quando o paciente começa a contar sua história. A condução é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Semidirigida."
-    },
-    {
-     "letra": "B",
-     "texto": "Psicoeducacional."
-    },
-    {
-     "letra": "C",
-     "texto": "Motivacional."
-    },
-    {
-     "letra": "D",
-     "texto": "Não dirigida."
-    },
-    {
-     "letra": "E",
-     "texto": "Dirigida."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Dirigida: dados rápidos, perde a narrativa. Semidirigida é a ideal."
-  },
-  {
-   "id": "HMP-PF2-06",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Técnicas de apoio narrativo",
-   "subtema": "assinalamento",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Médico: \"Percebi que a senhora ficou com os olhos marejados quando falou do seu filho.\" A técnica utilizada é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Legitimação."
-    },
-    {
-     "letra": "B",
-     "texto": "Frase por repetição."
-    },
-    {
-     "letra": "C",
-     "texto": "Facilitação."
-    },
-    {
-     "letra": "D",
-     "texto": "Sumarização."
-    },
-    {
-     "letra": "E",
-     "texto": "Assinalamento."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Assinalamento nomeia uma emoção ou comportamento observado."
-  },
-  {
-   "id": "HMP-PF2-07",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Técnicas de apoio narrativo",
-   "subtema": "legitimação",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Médico: \"É natural sentir medo antes de uma cirurgia.\" A técnica é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Legitimação."
-    },
-    {
-     "letra": "B",
-     "texto": "Baixa reatividade."
-    },
-    {
-     "letra": "C",
-     "texto": "Silêncio funcional."
-    },
-    {
-     "letra": "D",
-     "texto": "Sumarização."
-    },
-    {
-     "letra": "E",
-     "texto": "Assinalamento."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Legitimação normaliza a emoção."
-  },
-  {
-   "id": "HMP-PF2-08",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Técnicas de apoio narrativo",
-   "subtema": "sumarização",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Médico: \"Deixe-me ver se entendi: a dor começou há 3 dias, piora à noite e melhora com dipirona, certo?\" A técnica é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Assinalamento."
-    },
-    {
-     "letra": "B",
-     "texto": "Facilitação."
-    },
-    {
-     "letra": "C",
-     "texto": "Sumarização."
-    },
-    {
-     "letra": "D",
-     "texto": "Legitimação."
-    },
-    {
-     "letra": "E",
-     "texto": "Frase por repetição."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Sumarização: o paciente pode corrigir e completar."
-  },
-  {
-   "id": "HMP-PF2-09",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Técnicas de apoio narrativo",
-   "subtema": "silêncio funcional",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Técnicas de apoio narrativo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após a paciente revelar que sofre violência em casa, o médico faz uma pausa intencional, mantendo o olhar acolhedor, sem falar. A técnica é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Entrevista dirigida."
-    },
-    {
-     "letra": "B",
-     "texto": "Sumarização."
-    },
-    {
-     "letra": "C",
-     "texto": "Baixa reatividade."
-    },
-    {
-     "letra": "D",
-     "texto": "Silêncio funcional."
-    },
-    {
-     "letra": "E",
-     "texto": "Facilitação."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Pausa intencional após revelação difícil. Baixa reatividade: esperar 1–2 s antes de falar."
-  },
-  {
-   "id": "HMP-PF2-10",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Modalidades de entrevista",
-   "subtema": "ciclo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Durante um curativo (entrevista operativa), o paciente revela medo de perder o pé. O médico passa a ouvir e depois explica a doença e os cuidados. A sequência de modalidades foi:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Motivacional → informativa → escuta."
-    },
-    {
-     "letra": "B",
-     "texto": "Operativa → escuta e acomodação → psicoeducacional."
-    },
-    {
-     "letra": "C",
-     "texto": "Semiológica → motivacional → operativa."
-    },
-    {
-     "letra": "D",
-     "texto": "Informativa → semiológica → operativa."
-    },
-    {
-     "letra": "E",
-     "texto": "Psicoeducacional → operativa → semiológica."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Ciclo clássico: operativa → aparece ansiedade oculta → escuta → psicoeducacional."
-  },
-  {
-   "id": "HMP-PF2-11",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Modalidades de entrevista",
-   "subtema": "motivacional",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Modalidades de entrevista",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Consulta voltada a ajudar o paciente a parar de fumar, explorando suas razões e ambivalências, corresponde à entrevista:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "De escuta e acomodação."
-    },
-    {
-     "letra": "B",
-     "texto": "Semiológica."
-    },
-    {
-     "letra": "C",
-     "texto": "De mudança de hábitos (motivacional)."
-    },
-    {
-     "letra": "D",
-     "texto": "Informativa e prescritiva."
-    },
-    {
-     "letra": "E",
-     "texto": "Operativa."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Modalidades de Carrió."
-  },
-  {
-   "id": "HMP-PF2-12",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Como perguntar",
-   "subtema": "pergunta boa",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Como perguntar",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Para saber o que o paciente já sabe sobre seu diabetes, a pergunta mais adequada é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "\"Leu o folheto que eu dei?\""
-    },
-    {
-     "letra": "B",
-     "texto": "\"Que informações você já tem sobre o diabetes?\""
-    },
-    {
-     "letra": "C",
-     "texto": "\"Está informado sobre sua doença?\""
-    },
-    {
-     "letra": "D",
-     "texto": "\"Você não sabe nada sobre diabetes, certo?\""
-    },
-    {
-     "letra": "E",
-     "texto": "\"Entendeu tudo?\""
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Pergunta aberta, sem induzir resposta sim/não."
-  },
-  {
-   "id": "HMP-PF2-13",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Comunicação não verbal",
-   "subtema": "incongruência",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação não verbal",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente diz \"estou tranquila\", mas aperta as mãos e evita o olhar. Diante dessa incongruência, o médico deve:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ignorar a comunicação não verbal."
-    },
-    {
-     "letra": "B",
-     "texto": "Concluir que ela está mentindo."
-    },
-    {
-     "letra": "C",
-     "texto": "Registrar transtorno de ansiedade."
-    },
-    {
-     "letra": "D",
-     "texto": "Encerrar a consulta."
-    },
-    {
-     "letra": "E",
-     "texto": "Usá-la como abertura para a paciente continuar."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Incongruência fala × corpo é abertura, não conclusão."
-  },
-  {
-   "id": "HMP-PF2-14",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Comunicação e tecnologia",
-   "subtema": "telemedicina",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Comunicação e tecnologia",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Segundo a Resolução CFM 2.314/2022, assinale a CORRETA:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "O médico pode recusar a teleconsulta e indicar o atendimento presencial."
-    },
-    {
-     "letra": "B",
-     "texto": "Há apenas duas modalidades de telemedicina."
-    },
-    {
-     "letra": "C",
-     "texto": "O paciente não pode recusar."
-    },
-    {
-     "letra": "D",
-     "texto": "Dispensa TCLE e prontuário."
-    },
-    {
-     "letra": "E",
-     "texto": "A teleconsulta substitui o presencial como padrão-ouro."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Presencial é padrão-ouro; tele é complementar; 7 modalidades; exige TCLE e prontuário."
-  },
-  {
-   "id": "HMP-PF2-15",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Transferência",
-   "subtema": "contratransferência",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Transferência",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "O residente percebe que fica impaciente com um paciente idoso porque ele lembra o próprio pai, com quem tem conflitos. Isso é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Projeção do paciente."
-    },
-    {
-     "letra": "B",
-     "texto": "Formação reativa do paciente."
-    },
-    {
-     "letra": "C",
-     "texto": "Sublimação."
-    },
-    {
-     "letra": "D",
-     "texto": "Contratransferência."
-    },
-    {
-     "letra": "E",
-     "texto": "Transferência."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Contratransferência é a reação do médico, vinda da história dele. Ocorre em toda relação."
-  },
-  {
-   "id": "HMP-PF2-16",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Mecanismos de defesa",
-   "subtema": "deslocamento",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Mecanismos de defesa",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após receber notícia ruim do médico, o paciente sai e briga com a recepcionista por um motivo banal. O mecanismo é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Sublimação."
-    },
-    {
-     "letra": "B",
-     "texto": "Projeção."
-    },
-    {
-     "letra": "C",
-     "texto": "Negação."
-    },
-    {
-     "letra": "D",
-     "texto": "Deslocamento."
-    },
-    {
-     "letra": "E",
-     "texto": "Racionalização."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Deslocamento: descarregar o afeto em alvo mais \"seguro\"."
-  },
-  {
-   "id": "HMP-PF2-17",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Mecanismos de defesa",
-   "subtema": "racionalização",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Mecanismos de defesa",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente que não fez os exames diz: \"O laboratório é muito longe, não compensa ir\". O mecanismo é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Regressão."
-    },
-    {
-     "letra": "B",
-     "texto": "Formação reativa."
-    },
-    {
-     "letra": "C",
-     "texto": "Intelectualização."
-    },
-    {
-     "letra": "D",
-     "texto": "Negação."
-    },
-    {
-     "letra": "E",
-     "texto": "Racionalização."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Justificativa lógica para evitar o conteúdo ansiogênico."
-  },
-  {
-   "id": "HMP-PF2-18",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "HEEADSSS",
-   "subtema": "ordem",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · HEEADSSS",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "No HEEADSSS, a letra que investiga ideação suicida e depressão é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "D (Drugs)."
-    },
-    {
-     "letra": "B",
-     "texto": "A (Activities)."
-    },
-    {
-     "letra": "C",
-     "texto": "S (Suicide/depression)."
-    },
-    {
-     "letra": "D",
-     "texto": "E (Education)."
-    },
-    {
-     "letra": "E",
-     "texto": "H (Home)."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Home · Education · Eating · Activities · Drugs · Sexuality · Suicide/depression · Safety."
-  },
-  {
-   "id": "HMP-PF2-19",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Sigilo do adolescente",
-   "subtema": "quebra",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Sigilo do adolescente",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Bruno, 16 anos, a sós, conta que pensa em se matar e tem um plano. A conduta correta é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Quebrar o sigilo, avisando-o antes e explicando o motivo."
-    },
-    {
-     "letra": "B",
-     "texto": "Esperar a próxima consulta."
-    },
-    {
-     "letra": "C",
-     "texto": "Manter sigilo absoluto."
-    },
-    {
-     "letra": "D",
-     "texto": "Encaminhar sem conversar."
-    },
-    {
-     "letra": "E",
-     "texto": "Contar aos pais sem avisá-lo."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Pergunta-chave: há risco? Ideação suicida quebra o sigilo, sempre avisando o adolescente."
-  },
-  {
-   "id": "HMP-PF2-20",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Entrevista com criança",
-   "subtema": "conduta",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · Entrevista com criança",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Ao examinar uma criança de 4 anos, a conduta adequada é:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Falar só com a mãe."
-    },
-    {
-     "letra": "B",
-     "texto": "Abaixar-se, usar linguagem lúdica e explicar o que fará."
-    },
-    {
-     "letra": "C",
-     "texto": "Examinar sem explicar, para ser rápido."
-    },
-    {
-     "letra": "D",
-     "texto": "Pedir que a criança saia da sala."
-    },
-    {
-     "letra": "E",
-     "texto": "Manter-se em pé, com distância."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Olho no olho = abaixe-se; mãos aquecidas; observe o vínculo com o familiar."
-  },
-  {
-   "id": "HMP-PF2-21",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "caso integrado",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Sr. Geraldo, 81 anos, com pneumonia há 2 dias, está sonolento, não consegue manter a atenção na conversa, diz que está \"na roça\" e vê \"galinhas no quarto\". Analise:\n\nI. Há rebaixamento da consciência.\nII. Há desorientação alopsíquica espacial.\nIII. As \"galinhas\" correspondem a alucinação visual.\nIV. O quadro é típico de demência, pela idade.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, II, III e IV."
-    },
-    {
-     "letra": "B",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II, III e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, apenas."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Delirium: agudo, causa clínica, flutuante. Rotular como \"idade\" atrasa o tratamento."
-  },
-  {
-   "id": "HMP-PF2-22",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Sensopercepção e juízo",
-   "subtema": "psicose",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Jovem de 22 anos ouve vozes que comentam seus atos, acredita que a TV fala dele e ri ao contar que o avô morreu. Analise:\n\nI. Há alucinação auditiva.\nII. Há delírio de referência.\nIII. Há inadequação do afeto.\nIV. Há rebaixamento da consciência.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "I, II e III, apenas."
-    },
-    {
-     "letra": "B",
-     "texto": "II e III, apenas."
-    },
-    {
-     "letra": "C",
-     "texto": "II, III e IV, apenas."
-    },
-    {
-     "letra": "D",
-     "texto": "I, III e IV, apenas."
-    },
-    {
-     "letra": "E",
-     "texto": "I, II, III e IV."
-    }
-   ],
-   "gabarito": [
-    "A"
-   ],
-   "gabarito_texto": "A",
-   "comentario": "Psicóticos alteram sensopercepção, pensamento e juízo; a consciência costuma estar clara."
-  },
-  {
-   "id": "HMP-PF2-23",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "V/F · mania",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Paciente em mania fala sem parar, salta de um assunto a outro, diz que \"o dia rende infinitamente\" e está extremamente alegre. Julgue:\n\nI. ( ) Há euforia (afetividade).\nII. ( ) Há tempo dilatado (vivência do tempo).\nIII. ( ) Há desorientação temporal.\nIV. ( ) Há aceleração do curso do pensamento.",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "V – F – V – F"
-    },
-    {
-     "letra": "B",
-     "texto": "V – F – F – V"
-    },
-    {
-     "letra": "C",
-     "texto": "V – V – F – V"
-    },
-    {
-     "letra": "D",
-     "texto": "F – V – F – V"
-    },
-    {
-     "letra": "E",
-     "texto": "F – V – F – F"
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "\"O dia rende\" é vivência subjetiva, não desorientação."
-  },
-  {
-   "id": "HMP-PF2-24",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "TOC",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Mulher tem a ideia de que vai se contaminar ao tocar maçanetas, lava as mãos 20 vezes por dia, acha isso absurdo e se alivia após lavar. As funções alteradas são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Afetividade (euforia) e psicomotricidade."
-    },
-    {
-     "letra": "B",
-     "texto": "Pensamento (obsessivo) e vontade (ato compulsivo)."
-    },
-    {
-     "letra": "C",
-     "texto": "Juízo (delírio) e sensopercepção (alucinação)."
-    },
-    {
-     "letra": "D",
-     "texto": "Linguagem e orientação."
-    },
-    {
-     "letra": "E",
-     "texto": "Consciência (torpor) e memória."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Crítica preservada: não é delírio."
-  },
-  {
-   "id": "HMP-PF2-25",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "puérpera",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Puérpera exausta \"ouve\" o bebê chorar quando ele dorme e tem imagens repentinas de machucá-lo, que a apavoram. Classifique:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Ilusão e compulsão."
-    },
-    {
-     "letra": "B",
-     "texto": "Ilusão auditiva e delírio."
-    },
-    {
-     "letra": "C",
-     "texto": "Alucinação visual e ideia sobrevalorada."
-    },
-    {
-     "letra": "D",
-     "texto": "Delirium e pensamento mágico."
-    },
-    {
-     "letra": "E",
-     "texto": "Alucinação auditiva e pensamento intrusivo."
-    }
-   ],
-   "gabarito": [
-    "E"
-   ],
-   "gabarito_texto": "E",
-   "comentario": "Privação de sono favorece alucinação; a imagem assusta (egodistônica) → intrusivo."
-  },
-  {
-   "id": "HMP-PF2-26",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "AVC",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Após AVC, o paciente está alerta, sabe onde está, entende o que se diz, mas não consegue falar o que pensa e chora e ri sem motivo, de forma brusca. As alterações são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Afetividade (euforia) e vontade (impulsividade)."
-    },
-    {
-     "letra": "B",
-     "texto": "Linguagem (afasia) e afetividade (labilidade)."
-    },
-    {
-     "letra": "C",
-     "texto": "Memória e atenção."
-    },
-    {
-     "letra": "D",
-     "texto": "Consciência (torpor) e orientação."
-    },
-    {
-     "letra": "E",
-     "texto": "Linguagem (disartria) e juízo (delírio)."
-    }
-   ],
-   "gabarito": [
-    "B"
-   ],
-   "gabarito_texto": "B",
-   "comentario": "Consciência e orientação preservadas."
-  },
-  {
-   "id": "HMP-PF2-27",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Delirium × demência",
-   "subtema": "idosa lenta",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · demência",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Dona Rosa, 78 anos, há 2 anos esquece recados, repete perguntas e se perde no bairro; está alerta e atenta na consulta. A função mais afetada e o tipo de instalação são:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Afetividade, aguda (labilidade)."
-    },
-    {
-     "letra": "B",
-     "texto": "Consciência, de instalação aguda (delirium)."
-    },
-    {
-     "letra": "C",
-     "texto": "Atenção dividida, transitória."
-    },
-    {
-     "letra": "D",
-     "texto": "Memória/cognição, de instalação lenta (demência)."
-    },
-    {
-     "letra": "E",
-     "texto": "Juízo de realidade, aguda (delírio)."
-    }
-   ],
-   "gabarito": [
-    "D"
-   ],
-   "gabarito_texto": "D",
-   "comentario": "Demência: meses; atenção relativamente preservada no início."
-  },
-  {
-   "id": "HMP-PF2-28",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "TDAH × memória",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · interdependência",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "objetiva",
-   "enunciado": "Estudante com TDAH diz que \"não tem memória\", mas, quando atento, lembra bem do conteúdo. A falha principal está na:",
-   "alternativas": [
-    {
-     "letra": "A",
-     "texto": "Consciência (sopor)."
-    },
-    {
-     "letra": "B",
-     "texto": "Memória de longo prazo."
-    },
-    {
-     "letra": "C",
-     "texto": "Atenção, que prejudica o registro."
-    },
-    {
-     "letra": "D",
-     "texto": "Juízo de realidade."
-    },
-    {
-     "letra": "E",
-     "texto": "Orientação autopsíquica."
-    }
-   ],
-   "gabarito": [
-    "C"
-   ],
-   "gabarito_texto": "C",
-   "comentario": "Cadeia: consciência → atenção → memória → orientação."
-  },
-  {
-   "id": "HMP-PF2-29",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Consciência",
-   "subtema": "níveis",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · consciência",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Descreva os níveis de rebaixamento da consciência, dizendo qual estímulo é necessário para o paciente responder em cada um.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Obnubilação**: sonolento e lento, mas responde à **fala**.\n**Torpor**: intensamente sonolento, psicomotricidade inibida; responde ao **toque** (cutucar).\n**Sopor**: responde apenas à **dor**.\n**Coma**: sem resposta consciente; restam só **reflexos** (ex.: pupilar).\n\nMacete: Fala → Toque → Dor → Reflexo. Pergunte sempre \"o que eu precisei fazer para ele reagir?\".",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-30",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Delirium",
-   "subtema": "delirium × delírio × demência",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · encruzilhada",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie delirium, delírio e demência quanto à função psíquica alterada e ao tempo de instalação.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Delirium**: alteração da **consciência** (rebaixamento leve a moderado, flutuante), com desatenção, desorientação e às vezes alucinações visuais; instalação em **horas a dias**, com causa clínica (ITU, pneumonia, desidratação, fármacos, abstinência). É urgência: tratar a causa.\n\n**Delírio**: alteração do **juízo de realidade** — crença diferente da realidade, que organiza a interpretação dos fatos e não cede à argumentação (persecutório, grandeza, erotomania); consciência clara.\n\n**Demência**: comprometimento **cognitivo/memória** de instalação **lenta (meses a anos)**, com atenção relativamente preservada no início.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-31",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Atenção",
-   "subtema": "cinco pares",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · atenção",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Cite os cinco pares de tipos de atenção apresentados na aula, com um exemplo de manifestação na pessoa com TDAH estudando.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "1. **Interna × externa**: desvia para pensamentos e para ruídos do ambiente.\n2. **Focal × dispersa**: não fixa num ponto do material.\n3. **Concentrada × difusa**: não sustenta uma operação mental por muito tempo.\n4. **Seletiva × dividida**: não filtra distrações nem divide entre ler e ouvir.\n5. **Alternada × sustentada**: precisa retomar a leitura após cada distração; perde onde parou.\n\nMacete: \"Insônia Faz Cair Sua Atenção\". Estratégias: sentar mais à frente, estudar em blocos menores.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-32",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Orientação",
-   "subtema": "auto × alo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · orientação",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie orientação autopsíquica e alopsíquica, dê uma pergunta para avaliar cada uma e explique por que \"o tempo voou\" não é desorientação.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Autopsíquica**: em relação a si — \"Qual o seu nome? Sua idade?\".\n**Alopsíquica**: em relação ao mundo — tempo (\"Que dia é hoje?\") e espaço (\"Onde estamos?\").\n\n\"O tempo voou\" é variação **subjetiva da vivência do tempo** (alegria encurta, dor e medo alongam): a pessoa sabe a data e o lugar. Desorientação é erro real de data ou lugar.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-33",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Memória",
-   "subtema": "MEEM",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · memória",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique como o MEEM avalia a memória e por que, antes de concluir falha de memória, é preciso avaliar consciência e atenção.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "No MEEM o examinador diz três palavras (carro, vaso, tijolo), pede que o paciente repita (**registro/fixação**) e, depois de outras tarefas, que as lembre (**evocação**). O MEEM também avalia orientação, atenção e cálculo, linguagem e praxia; os cortes variam com a escolaridade.\n\nA memória depende de codificar, armazenar e evocar. Sem **consciência** (vigília) e **atenção**, a informação não é codificada: o paciente sonolento parece ter \"problema de memória\", mas a falha começou na base. Por isso o roteiro examina consciência antes de memória.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-34",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Pensamento",
-   "subtema": "tipos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · pensamento",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Defina pensamento mágico, intrusivo, concreto, obsessivo e ruminação, com um exemplo de cada.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Mágico**: atribui a um pensamento/gesto o poder de mudar a realidade (\"se eu pensar positivo, a vaga vai surgir\").\n**Intrusivo**: imagem ou impulso inapropriado, contrário à personalidade, que assusta (puérpera com a imagem de jogar o bebê) — egodistônico, não é intenção.\n**Concreto**: interpretação literal (\"fique à vontade\" ao pé da letra); esperado aos 5 anos.\n**Obsessivo**: medo/preocupação que se impõe, às vezes absurdo (\"se tocar na roupa de alguém, fico contaminado\").\n**Ruminação**: repassar uma situação por muito tempo, sem desfecho (rever uma briga por dias).",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-35",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Juízo de realidade",
-   "subtema": "fluxo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · juízo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Descreva o fluxo de decisão \"percepção ou crença?\" usado para chegar a alucinação, ilusão, ideia sobrevalorada ou delírio.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "Diante de uma experiência estranha, a 1ª pergunta é: **percepção ou crença?**\n\n**Percepção** → há estímulo real?\n- Não → **alucinação** (ouvir vozes).\n- Sim, mal interpretado → **ilusão** (cinto que parece cobra).\n\n**Crença** → é compreensível no contexto e carregada de afeto?\n- Sim → **ideia sobrevalorada** (\"estou muito gorda\" na anorexia).\n- Não; reorganiza tudo e não cede → **delírio** (\"o chefe e a máfia me perseguem\").",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-36",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Linguagem",
-   "subtema": "prefixos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · linguagem",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Diferencie afasia, disartria, agrafia, alexia, dislexia e dislalia.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Afasia**: perda da capacidade de transformar o pensamento em fala (AVC).\n**Disartria**: dificuldade de articular; sabe o que quer dizer, sai \"embolado\".\n**Agrafia**: não escreve, mesmo sabendo escrever.\n**Alexia**: não compreende o que está escrito.\n**Dislexia**: troca sons e símbolos; dificuldade de leitura e de seguir a linha.\n**Dislalia**: troca de letras na fala (\"Cebolinha\").\n\nMacete: a- = ausência; dis- = dificuldade/troca; -fasia = fala; -grafia = escrita; -lexia = leitura; -artria = articulação; -lalia = sons.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-37",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Afetividade",
-   "subtema": "termos",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · afetividade",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Defina eutimia, distimia, disforia, euforia, apatia, vazio afetivo, labilidade e inadequação do afeto.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Eutimia**: humor equilibrado. **Distimia**: humor deprimido **persistente**. **Disforia**: distimia + irritabilidade. **Euforia**: elevação do humor (mania). **Apatia**: nada parece afetar a pessoa. **Vazio afetivo**: sentimento de falta de sentimento. **Labilidade**: mudanças bruscas e rápidas do humor — não é sinônimo de bipolaridade. **Inadequação do afeto**: afeto que não combina com a situação (rir num velório), comum em psicoses.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-38",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Vontade",
-   "subtema": "impulsivo × compulsivo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · vontade",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Explique as etapas do ato voluntário e diferencie ato impulsivo de ato compulsivo, com exemplos de transtornos ligados a cada um.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "Ato voluntário: **intenção → deliberação → decisão → execução**.\n\n**Impulsivo**: curto-circuito da intenção para a execução (pula deliberação e decisão); **egossintônico**; difícil é conter o início. Ex.: dependência de substâncias, borderline, explosivo intermitente, antissocial, TDAH.\n\n**Compulsivo**: ideia obsessiva → ansiedade → tenta resistir → executa → alívio → repete; reconhecido como **indesejável**; difícil é parar. Ex.: TOC, dismórfico corporal, acumulação, tricotilomania, escoriação.\n\nNos dois grupos há risco de suicídio.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-39",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Interdependência das funções",
-   "subtema": "caso completo",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · integração",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Sr. Antônio, 80 anos, com infecção urinária há 3 dias, está sonolento de dia e agitado à noite, não sabe que dia é nem onde está, e diz ver \"gente estranha\" no quarto. A filha acha que \"é a idade\". Quais funções estão alteradas, por que não é demência e qual o risco de rotular como \"idade\"?",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Funções**: consciência (rebaixamento flutuante), atenção (desatenção), orientação alopsíquica (tempo e espaço) e sensopercepção (alucinação visual).\n\n**Não é demência** porque a instalação é aguda (dias), o curso é flutuante e há causa clínica (ITU) → **delirium**. A demência se instala em meses, com atenção preservada no início.\n\n**Risco**: rotular como \"idade\" atrasa o tratamento da ITU; delirium não tratado leva a quedas, declínio funcional e maior mortalidade.",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-40",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Fases da entrevista",
-   "subtema": "técnicas",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · entrevista",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Cite as três fases da entrevista clínica e quatro técnicas de apoio narrativo, com uma frase de exemplo para cada técnica.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Fases**: recepção (pano de fundo e contato inicial) → exploração (pergunta aberta, \"mais alguma coisa?\", abertas → fechadas, ideias e medos, contexto) → resolução (informar e negociar).\n\n**Técnicas**:\n- Facilitação: \"Continue, por favor.\"\n- Frase por repetição: \"Então a dor era forte de cabeça…\"\n- Sumarização: \"Deixe-me ver se entendi…\"\n- Assinalamento: \"Notei que ficou triste ao falar do seu pai.\"\n- Legitimação: \"É natural sentir-se irritado com essa dor.\"\n- Silêncio funcional e baixa reatividade (esperar 1–2 s).",
-   "comentario": null
-  },
-  {
-   "id": "HMP-PF2-41",
-   "materia": "HMP IV",
-   "prova": "PR2",
-   "tema": "Transferência e ética",
-   "subtema": "caso",
-   "origem": "inédita",
-   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Borrell Carrió (2012) · De Marco et al. (2012) · SBP (2019) · CFM 2.314/2022 · Dalgalarrondo (2019) · vínculo",
-   "imagem": null,
-   "gabarito_oficial": null,
-   "tipo": "discursiva",
-   "enunciado": "Durante a anamnese, a paciente trata o estudante com hostilidade porque ele \"parece o ex-marido\". O estudante fica irritado e quer encerrar a consulta. Identifique os fenômenos e como manejá-los.",
-   "alternativas": [],
-   "gabarito": null,
-   "resposta_modelo": "**Transferência**: a paciente leva para o estudante afetos de uma relação antiga (ex-marido).\n**Contratransferência**: a irritação do estudante, reação vinda da história dele diante da paciente.\n\n**Manejo**: reconhecer os dois fenômenos (ocorrem em toda relação), não agir pela irritação, manter postura acolhedora e proativa (não reativa), usar técnicas de apoio narrativo e registrar na reflexão ética do roteiro; se necessário, discutir com o preceptor.",
-   "comentario": null
-  }
- ]
+  ]
 }
