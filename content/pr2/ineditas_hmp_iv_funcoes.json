@@ -1,0 +1,3569 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · HMP IV · Funções psíquicas (casos)",
+  "gerado_em": "2026-11-17",
+  "base": "Guia de estudo PR2 de HMP IV (Dalgalarrondo 2019, slides Funções Psíquicas Elementares 1 e 2). Formato da prova: caso clínico + função psíquica e alteração."
+ },
+ "questoes": [
+  {
+   "id": "HMP-PF-01",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "obnubilação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sr. Raimundo, 70 anos, internado com febre, responde quando você o chama pelo nome, mas fala devagar, boceja e parece \"meio dormindo\". Não foi preciso tocá-lo.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — hipoprosexia isolada."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — sopor."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — desorientação autopsíquica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Responde à **fala**, lentificado → obnubilação. Macete: Fala → Toque → Dor → Reflexo."
+  },
+  {
+   "id": "HMP-PF-02",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "torpor",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente pós-operatório não responde ao chamado verbal; só abre os olhos e murmura quando o estudante o sacode pelo ombro.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — abulia."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — coma."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Precisou **tocar/cutucar** → torpor. Só com dor seria sopor."
+  },
+  {
+   "id": "HMP-PF-03",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "sopor",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa com sepse não reage à voz nem ao toque; apenas retira a mão e geme quando o médico comprime o leito ungueal.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — sopor."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — anestesia tátil."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Resposta só ao estímulo **doloroso** → sopor. Coma: sem resposta consciente, só reflexos."
+  },
+  {
+   "id": "HMP-PF-04",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "coma",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após TCE grave, o paciente não responde a voz, toque nem dor; persistem apenas reflexos como o pupilar.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Memória — amnésia anterógrada."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — sopor."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — transe."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — estado hipnótico."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — coma."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Coma: ausência de resposta consciente; restam reflexos."
+  },
+  {
+   "id": "HMP-PF-05",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "delirium",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sr. Francisco, 79 anos, iniciou automedicação com antialérgico há 3 dias. Desde então fica sonolento de dia, agitado à noite, troca o nome dos filhos e diz ver \"bichos no teto\". Antes estava lúcido.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Memória — demência de Alzheimer."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — ilusão visual."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — delirium (quadro confusional agudo)."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio persecutório."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Início em **dias**, curso **flutuante**, causa clínica/fármaco, desatenção, desorientação e alucinação visual → delirium. Demência é lenta, em meses."
+  },
+  {
+   "id": "HMP-PF-06",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "transe",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante um ritual religioso, uma mulher passa a se mover de forma repetitiva e automática, com olhar fixo, e depois diz não lembrar bem do que fez. Ela e a comunidade consideram a experiência parte do culto.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — delirium."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — coma."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — estado de transe."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio místico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Transe: estado alterado com atividade motora automática e estereotipada, comum em contexto religioso; ler no contexto cultural."
+  },
+  {
+   "id": "HMP-PF-07",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "estado hipnótico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em sessão de hipnose terapêutica, o paciente fica com a consciência estreitada, muito concentrado na voz do terapeuta e mais sugestionável.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — impulsividade."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — estado hipnótico."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — hiperprosexia patológica."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — delirium."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Rebaixamento induzido, técnica de concentração com sugestionabilidade aumentada; \"nada de místico\"."
+  },
+  {
+   "id": "HMP-PF-08",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "delirium × demência",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · delirium no idoso",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dona Lúcia, 86 anos, tem esquecimentos lentos e progressivos há 2 anos. Há 2 dias, com desidratação, ficou sonolenta, desatenta e confusa à noite. A interpretação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Delirium sobreposto à demência; tratar a causa clínica."
+    },
+    {
+     "letra": "B",
+     "texto": "Transtorno de humor bipolar tardio."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas privação de sono."
+    },
+    {
+     "letra": "D",
+     "texto": "Piora esperada da demência; nada a investigar."
+    },
+    {
+     "letra": "E",
+     "texto": "Delírio persecutório de início tardio."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O **tempo** separa: demência = meses/anos, atenção relativamente preservada no início; delirium = horas a dias, flutuante, com desatenção. Idosos com demência têm mais risco de delirium. Rotular como \"idade\" atrasa o tratamento."
+  },
+  {
+   "id": "HMP-PF-09",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Consciência",
+   "subtema": "base que cai",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · consciência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a consciência no exame psíquico, assinale a CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Obnubilação é ausência total de resposta."
+    },
+    {
+     "letra": "B",
+     "texto": "Delirium é sinônimo de delírio."
+    },
+    {
+     "letra": "C",
+     "texto": "É avaliada só depois da memória."
+    },
+    {
+     "letra": "D",
+     "texto": "Torpor é responder apenas à dor."
+    },
+    {
+     "letra": "E",
+     "texto": "Seu rebaixamento compromete atenção, memória e orientação."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Consciência é a base (\"se cai, tudo cai\"); por isso vem antes de memória no roteiro."
+  },
+  {
+   "id": "HMP-PF-10",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "interna × externa",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rafael, 20 anos, com TDAH, tenta estudar, mas a todo momento se pega pensando no jogo de ontem e reparando no barulho do ventilador.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — ruminação."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — alopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — interna × externa."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — alternada × sustentada."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção — seletiva × dividida."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Desvia para pensamentos espontâneos (interna) e para ruídos e movimentos do ambiente (externa). Macete: \"Insônia Faz Cair Sua Atenção\"."
+  },
+  {
+   "id": "HMP-PF-11",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "focal × dispersa",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao ler o resumo, Júlia não consegue fixar a atenção num parágrafo específico; o olhar e a mente se espalham por várias partes da página ao mesmo tempo.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — focal × dispersa."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — dislexia."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — concentrada × difusa."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção — seletiva × dividida."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Focal × dispersa = direcionamento/amplitude: não fixa num ponto específico."
+  },
+  {
+   "id": "HMP-PF-12",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "concentrada × difusa",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante consegue começar a resolver um exercício longo, mas não sustenta essa única operação mental por muito tempo, sobretudo quando o assunto é pouco estimulante.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — interna × externa."
+    },
+    {
+     "letra": "B",
+     "texto": "Atenção — concentrada × difusa."
+    },
+    {
+     "letra": "C",
+     "texto": "Memória — fixação."
+    },
+    {
+     "letra": "D",
+     "texto": "Vontade — abulia."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção — focal × dispersa."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Concentrada: sustentar uma única operação mental; falha sobretudo com conteúdo pouco estimulante."
+  },
+  {
+   "id": "HMP-PF-13",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "seletiva × dividida",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante a aula, Marcos não consegue anotar o slide e ouvir a explicação da professora ao mesmo tempo, e qualquer conversa ao lado o tira da tarefa.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — alternada × sustentada."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — focal × dispersa."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção — seletiva × dividida."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Seletiva: filtrar o relevante e inibir distrações; dividida: realizar duas tarefas simultâneas."
+  },
+  {
+   "id": "HMP-PF-14",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "alternada × sustentada",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ana para de ler para responder uma mensagem e, ao voltar, não sabe onde parou e precisa recomeçar a página.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Memória — evocação."
+    },
+    {
+     "letra": "B",
+     "texto": "Atenção — seletiva × dividida."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — interna × externa."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — alternada × sustentada."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — alopsíquica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O que define o caso é a **retomada após a distração** (alternada) e a manutenção ao longo do tempo (sustentada). Pegadinha que caiu em simulado."
+  },
+  {
+   "id": "HMP-PF-15",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "Stroop",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · teste de Stroop",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No teste de Stroop, o paciente deve dizer a cor da tinta em que a palavra \"AZUL\" está escrita em vermelho. O teste avalia principalmente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção visual (alucinação)."
+    },
+    {
+     "letra": "B",
+     "texto": "Memória de longo prazo."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção seletiva e inibição da leitura automática."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação temporal."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "É preciso inibir a resposta automática (ler a palavra) e selecionar o estímulo relevante (a cor)."
+  },
+  {
+   "id": "HMP-PF-16",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "TDAH · I–IV",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · atenção no TDAH",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a atenção da pessoa com TDAH estudando (slide), analise:\n\nI. Desvia para pensamentos internos e estímulos externos.\nII. Tem dificuldade de dividir a atenção entre ler e ouvir.\nIII. Sustenta facilmente tarefas pouco estimulantes.\nIV. Sentar mais à frente e estudar em blocos menores são estratégias citadas.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "III: a dificuldade é justamente sustentar conteúdo pouco estimulante."
+  },
+  {
+   "id": "HMP-PF-17",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Atenção",
+   "subtema": "definição",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · atenção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A atenção é definida no exame psíquico como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A tomada de consciência de um estímulo sensorial."
+    },
+    {
+     "letra": "B",
+     "texto": "O tom afetivo predominante."
+    },
+    {
+     "letra": "C",
+     "texto": "A capacidade de se situar no tempo e no espaço."
+    },
+    {
+     "letra": "D",
+     "texto": "A clareza dos sentidos (vigília)."
+    },
+    {
+     "letra": "E",
+     "texto": "A direção da consciência, concentrando a atividade mental sobre um objeto."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Consciência = clareza/vigília; atenção = direção; orientação = situar-se; percepção = tomada de consciência do estímulo."
+  },
+  {
+   "id": "HMP-PF-18",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "alopsíquica temporal",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Orientação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente internada há 5 dias diz o próprio nome e a idade corretamente, mas afirma que \"hoje é Natal\" (estamos em novembro) e não sabe há quanto tempo está no hospital.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — desorientação alopsíquica temporal."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio."
+    },
+    {
+     "letra": "D",
+     "texto": "Vivência do tempo — tempo dilatado."
+    },
+    {
+     "letra": "E",
+     "texto": "Memória — evocação remota."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Sabe de si (autopsíquica preservada); erra o tempo (alopsíquica)."
+  },
+  {
+   "id": "HMP-PF-19",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "alopsíquica espacial",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Orientação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sr. Pedro sabe quem é e que dia é hoje, mas acredita estar em casa, embora esteja no pronto-socorro.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — coma."
+    },
+    {
+     "letra": "C",
+     "texto": "Orientação — desorientação alopsíquica espacial."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — ilusão visual."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Alopsíquica = tempo e espaço (\"alô, mundo!\")."
+  },
+  {
+   "id": "HMP-PF-20",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "autopsíquica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Orientação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após TCE, o paciente não consegue dizer o próprio nome, a idade nem a profissão.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "B",
+     "texto": "Memória — imediata preservada."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — vazio afetivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia de expressão."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — desorientação alopsíquica."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "AUTO = autorretrato (em relação a si)."
+  },
+  {
+   "id": "HMP-PF-21",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "pergunta alopsíquica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · semiotécnica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual pergunta avalia a orientação ALOPSÍQUICA?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "\"Qual é o seu nome?\""
+    },
+    {
+     "letra": "B",
+     "texto": "\"Como está seu humor?\""
+    },
+    {
+     "letra": "C",
+     "texto": "\"Quantos anos o senhor tem?\""
+    },
+    {
+     "letra": "D",
+     "texto": "\"Tem ouvido vozes?\""
+    },
+    {
+     "letra": "E",
+     "texto": "\"Que dia é hoje e onde estamos?\""
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Nome e idade avaliam a autopsíquica."
+  },
+  {
+   "id": "HMP-PF-22",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "\"o tempo voou\"",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · pegadinha",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após uma festa, a estudante diz: \"Nem vi o tempo passar, voou!\". Sabe a data, a hora aproximada e onde está. O correto é afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Há delirium."
+    },
+    {
+     "letra": "B",
+     "texto": "Há tempo dilatado da mania."
+    },
+    {
+     "letra": "C",
+     "texto": "Há desorientação alopsíquica temporal."
+    },
+    {
+     "letra": "D",
+     "texto": "Não há desorientação; é variação subjetiva da vivência do tempo."
+    },
+    {
+     "letra": "E",
+     "texto": "Há desorientação autopsíquica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A percepção subjetiva muda; o relógio não. Alegria faz o tempo passar rápido."
+  },
+  {
+   "id": "HMP-PF-23",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Orientação",
+   "subtema": "integração",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · orientação",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A orientação integra várias funções. Assinale a alternativa que as reúne:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência, atenção, percepção e memória."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção e afeto apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade, vontade e psicomotricidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Inteligência e personalidade apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem e juízo de realidade apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Se a base (consciência) cai, a orientação cai junto."
+  },
+  {
+   "id": "HMP-PF-24",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vivência do tempo e espaço",
+   "subtema": "mania",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em episódio maníaco, o paciente diz que \"o dia tem 50 horas, dá para fazer tudo\" e começa dez projetos ao mesmo tempo.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — concentrada."
+    },
+    {
+     "letra": "B",
+     "texto": "Vivência do tempo — tempo dilatado (mania)."
+    },
+    {
+     "letra": "C",
+     "texto": "Vivência do tempo — inibição do fluir."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação — desorientação temporal."
+    },
+    {
+     "letra": "E",
+     "texto": "Memória — curto prazo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mania: parece caber tudo em pouco tempo."
+  },
+  {
+   "id": "HMP-PF-25",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vivência do tempo e espaço",
+   "subtema": "depressão grave",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com depressão grave relata: \"As horas se arrastam, parece que o dia nunca acaba\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vivência do tempo — tempo dilatado."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "C",
+     "texto": "Vivência do tempo — inibição do fluir do tempo."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — desorientação alopsíquica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Depressão grave: \"o tempo não passa\"."
+  },
+  {
+   "id": "HMP-PF-26",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vivência do tempo e espaço",
+   "subtema": "quadro paranoide",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vivência do tempo e espaço",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em quadro paranoide sente que \"o quarto foi invadido\", que não há separação entre ele e as coisas ao redor.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — ilusão."
+    },
+    {
+     "letra": "B",
+     "texto": "Vivência do espaço — perda da fronteira eu × mundo (espaço invadido)."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — dispersa."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — transe."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — alopsíquica espacial."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Quadro paranoide: perde a fronteira entre eu e mundo."
+  },
+  {
+   "id": "HMP-PF-27",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vivência do tempo e espaço",
+   "subtema": "dor e febre",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · vivência do tempo",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na sala de espera, com dor e febre, o paciente diz que \"esperou horas\", mas foram 20 minutos. Isso exemplifica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Delirium."
+    },
+    {
+     "letra": "B",
+     "texto": "Desorientação temporal."
+    },
+    {
+     "letra": "C",
+     "texto": "Alteração subjetiva da vivência do tempo (espera parece mais longa)."
+    },
+    {
+     "letra": "D",
+     "texto": "Amnésia de fixação."
+    },
+    {
+     "letra": "E",
+     "texto": "Delírio de prejuízo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Dor, febre e medo alongam a espera; alegria encurta."
+  },
+  {
+   "id": "HMP-PF-28",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "fixação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Memória",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente lúcido e atento repete corretamente \"carro, vaso, tijolo\", mas, após outras tarefas, não lembra nenhuma das palavras. Lembra bem fatos da infância.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — seletiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — autopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Memória — falha da memória remota."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "E",
+     "texto": "Memória — falha de fixação (evocação recente)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Registrou (repetiu) mas não consolidou. Com consciência e atenção preservadas, a falha é da memória."
+  },
+  {
+   "id": "HMP-PF-29",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "tempos do slide",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · tipos de memória",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Segundo o slide da aula, os tempos da memória imediata e de curto prazo são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1 dia; 1 semana."
+    },
+    {
+     "letra": "B",
+     "texto": "1 a 3 horas; 3 a 6 dias."
+    },
+    {
+     "letra": "C",
+     "texto": "Segundos; 1 a 3 minutos."
+    },
+    {
+     "letra": "D",
+     "texto": "1 a 3 minutos; 3 a 6 horas."
+    },
+    {
+     "letra": "E",
+     "texto": "3 a 6 horas; dias a anos."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Macete: \"1-3, 3-6, o resto é história\". Longo prazo: dias, meses, anos."
+  },
+  {
+   "id": "HMP-PF-30",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "sedação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · interdependência",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após sedação para colonoscopia, o paciente fica sonolento e depois não recorda o que ocorreu na sala. A falha está:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Na consciência, que impediu o registro."
+    },
+    {
+     "letra": "B",
+     "texto": "No armazenamento de longo prazo."
+    },
+    {
+     "letra": "C",
+     "texto": "Na afetividade."
+    },
+    {
+     "letra": "D",
+     "texto": "No juízo de realidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Na linguagem."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Sem vigília e atenção, a informação não é codificada; parece \"memória\", mas a falha começou na base."
+  },
+  {
+   "id": "HMP-PF-31",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "MEEM",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · MEEM",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o Mini-Exame do Estado Mental (MEEM), assinale a CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Avalia apenas a memória."
+    },
+    {
+     "letra": "B",
+     "texto": "Não avalia orientação."
+    },
+    {
+     "letra": "C",
+     "texto": "Tem o mesmo ponte de corte para todos."
+    },
+    {
+     "letra": "D",
+     "texto": "É restrito a psicólogos."
+    },
+    {
+     "letra": "E",
+     "texto": "Os pontos de corte variam com a escolaridade."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Avalia orientação, registro, atenção e cálculo, evocação, linguagem e praxia (Folstein, 1975); cortes por escolaridade (Brucki, 2003). RAVLT, TEPIC-M e MVR são restritos a psicólogos."
+  },
+  {
+   "id": "HMP-PF-32",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "etapas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · memória",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "As três etapas da memória são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Codificar, armazenar e evocar."
+    },
+    {
+     "letra": "B",
+     "texto": "Perceber, julgar e agir."
+    },
+    {
+     "letra": "C",
+     "texto": "Recepção, exploração e resolução."
+    },
+    {
+     "letra": "D",
+     "texto": "Intenção, deliberação e execução."
+    },
+    {
+     "letra": "E",
+     "texto": "Vigiar, orientar e atender."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Depende de consciência, atenção, emoção, interesse e contexto."
+  },
+  {
+   "id": "HMP-PF-33",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Memória",
+   "subtema": "atividade das figuras",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · semiotécnica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na atividade da aula, o examinador mostra figuras, esconde-as e pergunta \"que figuras eu acabei de lhe mostrar?\", aguardando até 60 segundos. Avalia-se:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Memória imediata (evocação)."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção visual."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação temporal."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção alternada."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Evocação logo após a apresentação = memória imediata."
+  },
+  {
+   "id": "HMP-PF-34",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "alucinação auditiva",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lucas, 23 anos, ouve uma voz masculina comentando o que ele faz, mesmo quando está sozinho em casa e em silêncio.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — ilusão auditiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — alucinação auditiva."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — intrusivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — disartria."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Percepção sem estímulo, não compartilhada. Macete: alucinação vem do **Ar**."
+  },
+  {
+   "id": "HMP-PF-35",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "alucinação visual",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa com Parkinson vê crianças brincando na sala, que mais ninguém vê.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — ilusão visual."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — alopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — transe."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — erotomania."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Parkinson, demências, fármacos, privação de sono e psicoses podem causar alucinações."
+  },
+  {
+   "id": "HMP-PF-36",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "ilusão",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na estrada, ao anoitecer, o motorista vê \"um homem acenando\"; ao se aproximar, percebe que era um arbusto balançando.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — ilusão."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — dispersa."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Estímulo real mal interpretado → ilusão (tem **Isca**). Pode ocorrer em qualquer pessoa."
+  },
+  {
+   "id": "HMP-PF-37",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "alucinação tátil",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem em abstinência alcoólica coça os braços e diz sentir \"formigas andando por baixo da pele\", certo de que estão lá.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — obsessivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — tique."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — alucinação tátil."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — ilusão tátil."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Sensação percebida como presente, sem estímulo → alucinação tátil."
+  },
+  {
+   "id": "HMP-PF-38",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "alucinação olfativa",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente sente cheiro forte de \"borracha queimada\" em todos os ambientes, sem que ninguém mais sinta.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — delírio de ruína."
+    },
+    {
+     "letra": "B",
+     "texto": "Memória — evocação."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — disforia."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação olfativa."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — ilusão olfativa."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Semiotécnica: \"Notou cheiro ou sabor diferente?\"."
+  },
+  {
+   "id": "HMP-PF-39",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "cenestésica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente diz sentir \"uma corrente elétrica dentro da barriga\" e que \"os órgãos estão se mexendo\", sem causa física.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — ilusão."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "D",
+     "texto": "Vontade — compulsão."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação cenestésica."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Táteis e cenestésicas: \"sente algo estranho dentro do corpo? correntes elétricas?\"."
+  },
+  {
+   "id": "HMP-PF-40",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "parestesia × alucinação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · pegadinha",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diabético relata formigamento nos pés e diz: \"sei que é da neuropatia\". O correto é afirmar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não é alucinação; é sintoma corporal reconhecido como tal."
+    },
+    {
+     "letra": "B",
+     "texto": "É delírio somático."
+    },
+    {
+     "letra": "C",
+     "texto": "É ilusão tátil."
+    },
+    {
+     "letra": "D",
+     "texto": "É alucinação tátil."
+    },
+    {
+     "letra": "E",
+     "texto": "É alucinação cenestésica."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Formigamento reconhecido como sintoma do corpo não é alucinação."
+  },
+  {
+   "id": "HMP-PF-41",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "dor fantasma",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · terapia do espelho",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Amputado sente dor no pé que não existe mais. Na terapia do espelho, o reflexo do membro preservado reduz a dor porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Elimina uma alucinação auditiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Mostra que a dor é só psicológica."
+    },
+    {
+     "letra": "C",
+     "texto": "Cria a ilusão de movimento do membro ausente."
+    },
+    {
+     "letra": "D",
+     "texto": "Corrige um delírio somático."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueia o nervo periférico."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A ilusão também trata. Dor e coceira no membro amputado não são \"só psicológicas\"."
+  },
+  {
+   "id": "HMP-PF-42",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "semiotécnica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · semiotécnica",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao investigar sensopercepção, a abordagem correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Começar com pergunta ampla e depois especificar."
+    },
+    {
+     "letra": "B",
+     "texto": "Perguntar diretamente se o paciente é louco."
+    },
+    {
+     "letra": "C",
+     "texto": "Pedir exame de imagem antes de perguntar."
+    },
+    {
+     "letra": "D",
+     "texto": "Investigar apenas as alucinações auditivas."
+    },
+    {
+     "letra": "E",
+     "texto": "Evitar perguntar para não sugerir sintomas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Ex.: \"tem observado coisas que não consegue explicar?\" → depois vozes, visões, cheiros, sensações corporais."
+  },
+  {
+   "id": "HMP-PF-43",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Sensopercepção",
+   "subtema": "hipnagógica/estresse",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Sensopercepção",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Plantonista após 36 horas sem dormir \"ouve\" o telefone tocar várias vezes, mas o aparelho está desligado.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — ilusão auditiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — coma."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio de referência."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — seletiva."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação auditiva (privação de sono)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Estresse e privação de sono também geram alucinações, sem psicose."
+  },
+  {
+   "id": "HMP-PF-44",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "mágico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante usa sempre a mesma caneta \"da sorte\" nas provas, convencida de que é a caneta que garante a aprovação.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — obsessivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio de grandeza."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — compulsão."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Atribui a um objeto/gesto o poder de mudar a realidade."
+  },
+  {
+   "id": "HMP-PF-45",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "intrusivo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pai segurando o filho no colo, na sacada, tem de repente a imagem de deixá-lo cair. Fica horrorizado, entra em casa e diz que \"jamais faria isso\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — ato impulsivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — intrusivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — mágico."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Imagem indesejada, egodistônica, que assusta; crítica preservada. Intrusivo não é intenção."
+  },
+  {
+   "id": "HMP-PF-46",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "obsessivo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher tem a ideia recorrente de que deixou o gás aberto e de que a casa vai explodir; sabe que é exagero, mas a ideia volta e gera muita angústia.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — obsessivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio de ruína."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação olfativa."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Medo ou preocupação que se impõe, reconhecido como absurdo/excessivo."
+  },
+  {
+   "id": "HMP-PF-47",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "concreto",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ao ouvir \"você está com a cabeça nas nuvens\", a criança de 5 anos olha para cima e diz que sua cabeça está no corpo.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — dispersa."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — concreto (esperado aos 5 anos)."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Interpretação literal de metáforas; esperado na idade."
+  },
+  {
+   "id": "HMP-PF-48",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "ruminação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após uma consulta difícil, o residente passa a semana repassando mentalmente cada frase do paciente, sem chegar a conclusão nenhuma.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — intrusivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — sustentada."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — ruminação."
+    },
+    {
+     "letra": "E",
+     "texto": "Memória — hipermnésia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Repassar uma situação por muito tempo, sem desfecho."
+  },
+  {
+   "id": "HMP-PF-49",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "concreto · adulto",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente adulto, ao ser convidado a \"ficar à vontade\", tira os sapatos e se deita na maca; também não entende ironias nem regras não ditas.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — inadequação."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "D",
+     "texto": "Vontade — impulsividade."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — mágico."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Concreto: interpretação literal; não entende ironia, metáfora e regras implícitas."
+  },
+  {
+   "id": "HMP-PF-50",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "três eixos",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · eixos do pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O pensamento é examinado em três eixos. Assinale a associação CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Curso — organização; forma — tema; conteúdo — velocidade."
+    },
+    {
+     "letra": "B",
+     "texto": "Curso — afeto; forma — juízo; conteúdo — vontade."
+    },
+    {
+     "letra": "C",
+     "texto": "Curso — tema; forma — velocidade; conteúdo — organização."
+    },
+    {
+     "letra": "D",
+     "texto": "Curso — memória; forma — atenção; conteúdo — consciência."
+    },
+    {
+     "letra": "E",
+     "texto": "Curso — velocidade; forma — organização; conteúdo — tema."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Analogia do trem: como anda (curso), como os trilhos se ligam (forma), que carga leva (conteúdo)."
+  },
+  {
+   "id": "HMP-PF-51",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "curso",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · curso do pensamento",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente interrompe a fala no meio da frase, fica em silêncio e diz que \"o pensamento sumiu\". Trata-se de alteração do:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Forma (incoerência)."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação."
+    },
+    {
+     "letra": "C",
+     "texto": "Conteúdo (delírio)."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Curso do pensamento (bloqueio)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Curso: aceleração, lentificação, bloqueio."
+  },
+  {
+   "id": "HMP-PF-52",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Pensamento",
+   "subtema": "egodistonia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · conceito-chave",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O que diferencia o pensamento intrusivo do delírio?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No intrusivo a pessoa reconhece o pensamento como indesejado (crítica preservada)."
+    },
+    {
+     "letra": "B",
+     "texto": "O delírio é sempre reconhecido como absurdo."
+    },
+    {
+     "letra": "C",
+     "texto": "O intrusivo indica intenção de agir."
+    },
+    {
+     "letra": "D",
+     "texto": "Não há diferença clínica."
+    },
+    {
+     "letra": "E",
+     "texto": "No intrusivo há alucinação associada."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Se a pessoa diz \"sei que é absurdo, mas…\", não é delírio."
+  },
+  {
+   "id": "HMP-PF-53",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "persecutório",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Funcionário afirma que os vizinhos instalaram câmeras para vigiá-lo e que as placas dos carros na rua são \"mensagens\" contra ele. Nenhuma evidência o faz mudar de ideia.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Atenção — interna."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — delírio persecutório/de referência."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — obsessivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — ilusão."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Crença que reorganiza a interpretação de todos os fatos e não cede."
+  },
+  {
+   "id": "HMP-PF-54",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "grandeza/místico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente diz ser \"o enviado de Deus para salvar a humanidade\" e pede que os médicos se ajoelhem. Na sua comunidade religiosa, ninguém compartilha essa ideia.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — euforia apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — transe religioso."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — delírio de grandeza/místico."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Conteúdo religioso deve ser lido no contexto cultural; aqui não é compartilhado → delírio."
+  },
+  {
+   "id": "HMP-PF-55",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "erotomania",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher tem certeza de que o apresentador do jornal está apaixonado por ela e lhe envia sinais pela forma de arrumar a gravata.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — intrusivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio erotomaníaco."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação visual."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Erotomania: certeza de ser amado por alguém."
+  },
+  {
+   "id": "HMP-PF-56",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "sobrevalorada · anorexia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem com IMC de 15 kg/m² afirma: \"Tenho certeza de que estou muito gorda\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — mágico."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Crença intensa, carregada de afeto, compreensível no contexto do transtorno alimentar (slide)."
+  },
+  {
+   "id": "HMP-PF-57",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "sobrevalorada · dismórfico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rapaz com nariz normal, segundo todos, pede cirurgia porque \"meu nariz é disforme e horrível\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada (dismórfico corporal)."
+    },
+    {
+     "letra": "B",
+     "texto": "Vontade — impulsividade."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — ilusão."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio de grandeza."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Exemplo do slide."
+  },
+  {
+   "id": "HMP-PF-58",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "sobrevalorada · seguradora",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Juízo de realidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem, em estado paranoide, insiste em todas as consultas que \"a seguradora me deve milhões\" e fala disso com grande carga emocional.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Memória — hipermnésia."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — alopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — delírio erotomaníaco."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — ruminação isolada."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Slide: estado paranoide → \"a seguradora me deve milhões\"."
+  },
+  {
+   "id": "HMP-PF-59",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "fluxo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · fluxo percepção × crença",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pelo fluxo de decisão da aula, diante de uma experiência estranha, a primeira pergunta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Qual o diagnóstico do DSM?"
+    },
+    {
+     "letra": "B",
+     "texto": "Há história familiar?"
+    },
+    {
+     "letra": "C",
+     "texto": "O paciente é psicótico?"
+    },
+    {
+     "letra": "D",
+     "texto": "O paciente usa drogas?"
+    },
+    {
+     "letra": "E",
+     "texto": "É uma percepção ou uma crença?"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Percepção: sem estímulo = alucinação; estímulo mal interpretado = ilusão. Crença: compreensível e afetiva = sobrevalorada; reorganiza tudo e não cede = delírio."
+  },
+  {
+   "id": "HMP-PF-60",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Juízo de realidade",
+   "subtema": "ciúme",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · ciúme",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Marido convencido de que a esposa \"está tendo um caso\", com sofrimento intenso, mas sem estrutura delirante e com alguma compreensibilidade no contexto, corresponde (slide) a:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Disforia."
+    },
+    {
+     "letra": "B",
+     "texto": "Delírio erotomaníaco."
+    },
+    {
+     "letra": "C",
+     "texto": "Alucinação auditiva."
+    },
+    {
+     "letra": "D",
+     "texto": "Ciúme patológico não delirante (ideia sobrevalorada)."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento mágico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O slide lista o ciúme patológico não delirante entre as ideias sobrevaloradas."
+  },
+  {
+   "id": "HMP-PF-61",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "afasia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após AVC, Dona Célia entende tudo o que lhe dizem, mas não consegue transformar o que pensa em palavras.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — bloqueio."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — disartria."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — dislalia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "-fasia = fala como expressão do pensamento."
+  },
+  {
+   "id": "HMP-PF-62",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "disartria",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com esclerose lateral fala \"embolado\", com dificuldade de articular, mas sabe exatamente o que quer dizer.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — dislexia."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — disartria."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — dislalia."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — incoerência."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "-artria = articulação."
+  },
+  {
+   "id": "HMP-PF-63",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "agrafia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Professor aposentado, após AVC, lê o jornal normalmente, mas não consegue mais escrever, embora saiba escrever.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — agrafia."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — alexia."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — dislexia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "a-grafia = escrita."
+  },
+  {
+   "id": "HMP-PF-64",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "alexia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após tumor cerebral, a paciente escreve bilhetes, mas não compreende o que está escrito, nem o que ela mesma escreveu.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Memória — evocação."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — agrafia."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — disartria."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — alexia."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — afasia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "a-lexia = leitura. \"Alexia é dificuldade de escrever\" está errado."
+  },
+  {
+   "id": "HMP-PF-65",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "dislexia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 9 anos troca letras e símbolos ao ler, perde a linha do texto e lê muito devagar, apesar de inteligente.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — dislalia."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — focal."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — alexia."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — dislexia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "dis- = dificuldade/troca; -lexia = leitura."
+  },
+  {
+   "id": "HMP-PF-66",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Linguagem",
+   "subtema": "dislalia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Linguagem",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Menino de 6 anos diz \"plato\" em vez de \"prato\" e \"blanco\" em vez de \"branco\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — dislexia."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — afasia."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — tique vocal."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — disartria."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — dislalia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "-lalia = sons da fala (\"Cebolinha\")."
+  },
+  {
+   "id": "HMP-PF-67",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "eutimia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente, durante toda a consulta, mostra humor equilibrado, reage com tristeza a notícias tristes e sorri em momentos alegres.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — distimia."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — eutimia (normal)."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — euforia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "EU-timia = \"eu tô bem\"."
+  },
+  {
+   "id": "HMP-PF-68",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "distimia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher relata que \"há mais de dois anos vive desanimada\", com humor deprimido quase todos os dias, sem grandes crises.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — disforia."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — distimia (humor deprimido persistente)."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — vazio afetivo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Na prova: distimia = humor deprimido **persistente** (slide)."
+  },
+  {
+   "id": "HMP-PF-69",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "disforia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com humor deprimido persistente está irritado, responde com grosseria e se queixa de tudo.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — disforia."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — eutimia."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — impulsividade."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Dis-FÚRIA: distimia + irritabilidade."
+  },
+  {
+   "id": "HMP-PF-70",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "euforia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em episódio maníaco, o paciente está extremamente alegre, expansivo, faz piadas sem parar e diz que \"nunca esteve tão bem\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — eutimia."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo — delírio erotomaníaco."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — inadequação do afeto."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Elevação do humor (mania)."
+  },
+  {
+   "id": "HMP-PF-71",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "vazio afetivo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente diz: \"O pior é que eu não sinto nada; sinto falta de sentir alguma coisa\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — vazio afetivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — distimia."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — eutimia."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — obnubilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — apatia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Vazio afetivo: ela **sente que não sente**. Apatia: nada chega nela."
+  },
+  {
+   "id": "HMP-PF-72",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "inadequação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente conta, sorrindo e rindo, que o irmão morreu atropelado na semana passada.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — impulsividade."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — inadequação do afeto."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — eutimia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Afeto não combina com o conteúdo; comum em psicoses."
+  },
+  {
+   "id": "HMP-PF-73",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Afetividade",
+   "subtema": "labilidade",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Afetividade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante a consulta, a paciente passa do choro ao riso e depois à irritação em poucos minutos, diante de estímulos pequenos.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — disforia persistente."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — labilidade afetiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — agitação."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — transtorno bipolar."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — vazio afetivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Labilidade é sinal, não diagnóstico; não é sinônimo de bipolaridade."
+  },
+  {
+   "id": "HMP-PF-74",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "impulsivo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vontade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na fila do banco, Carlos agride um homem que esbarrou nele, sem pensar, e depois diz que \"faria de novo\".\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — ato compulsivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — obsessivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — delírio."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — ato impulsivo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Intenção → execução direto (curto-circuito), egossintônico; falha no começo."
+  },
+  {
+   "id": "HMP-PF-75",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "compulsivo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vontade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem verifica 30 vezes se trancou a porta; acha isso absurdo, tenta resistir, mas só se acalma depois de verificar.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — mágico."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — tique."
+    },
+    {
+     "letra": "C",
+     "texto": "Memória — fixação."
+    },
+    {
+     "letra": "D",
+     "texto": "Vontade — ato compulsivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — ato impulsivo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Ideia obsessiva → ansiedade → resiste → executa → alívio → repete. Falha em parar."
+  },
+  {
+   "id": "HMP-PF-76",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "cleptomania",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Vontade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher com boa condição financeira furta canetas sem valor em lojas; sente tensão antes e alívio depois, e se envergonha.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — abulia."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — concreto."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — cleptomania (impulso/ato repetido com tensão e alívio)."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Na cleptomania o valor do objeto não importa."
+  },
+  {
+   "id": "HMP-PF-77",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "etapas do ato",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · ato voluntário",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A sequência do ato voluntário apresentada na aula é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Codificar → armazenar → evocar."
+    },
+    {
+     "letra": "B",
+     "texto": "Decisão → intenção → execução → deliberação."
+    },
+    {
+     "letra": "C",
+     "texto": "Execução → decisão → intenção → deliberação."
+    },
+    {
+     "letra": "D",
+     "texto": "Intenção → deliberação → decisão → execução."
+    },
+    {
+     "letra": "E",
+     "texto": "Recepção → exploração → resolução."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "No impulsivo há curto-circuito (pula deliberação e decisão)."
+  },
+  {
+   "id": "HMP-PF-78",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "grupos",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · transtornos ligados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Está corretamente associado a atos COMPULSIVOS:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Personalidade antissocial."
+    },
+    {
+     "letra": "B",
+     "texto": "Transtorno de acumulação."
+    },
+    {
+     "letra": "C",
+     "texto": "TDAH."
+    },
+    {
+     "letra": "D",
+     "texto": "Dependência de substâncias."
+    },
+    {
+     "letra": "E",
+     "texto": "Transtorno explosivo intermitente."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Compulsivos: TOC, dismórfico, acumulação, tricotilomania, escoriação. Os demais são impulsivos."
+  },
+  {
+   "id": "HMP-PF-79",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Vontade",
+   "subtema": "macete",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · impulsivo × compulsivo",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre impulsividade e compulsividade, assinale a INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No ato compulsivo a pessoa deseja o ato (egossintônico)."
+    },
+    {
+     "letra": "B",
+     "texto": "O impulsivo não freia a largada."
+    },
+    {
+     "letra": "C",
+     "texto": "Nos dois grupos há risco de suicídio."
+    },
+    {
+     "letra": "D",
+     "texto": "O compulsivo não acha a linha de chegada."
+    },
+    {
+     "letra": "E",
+     "texto": "O compulsivo é seguido de alívio da ansiedade."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O compulsivo \"odeia, mas faz para aliviar\" (indesejável); o impulsivo é egossintônico."
+  },
+  {
+   "id": "HMP-PF-80",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Psicomotricidade",
+   "subtema": "agitação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente em crise anda de um lado para o outro no pronto-socorro, não consegue ficar sentado e gesticula muito.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "B",
+     "texto": "Vontade — compulsão."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — transe."
+    },
+    {
+     "letra": "E",
+     "texto": "Psicomotricidade — estereotipia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Agitação é a alteração mais comum."
+  },
+  {
+   "id": "HMP-PF-81",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Psicomotricidade",
+   "subtema": "catatonia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem com depressão grave permanece imóvel na cama por horas, sem responder nem mudar de posição.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — catatonia (inibição)."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — agitação."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — tique."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — coma."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — euforia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Catatonia: corpo inativo (depressão grave, medicação)."
+  },
+  {
+   "id": "HMP-PF-82",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Psicomotricidade",
+   "subtema": "estereotipia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança com TEA nível 2 balança as mãos repetidamente e faz uma sequência de saltos quando fica desregulada.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — tiques vocais."
+    },
+    {
+     "letra": "B",
+     "texto": "Vontade — impulsividade."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — euforia."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — estereotipias motoras."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — transe."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Estereotipias: TEA níveis 2 e 3, ócio, desregulação."
+  },
+  {
+   "id": "HMP-PF-83",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Psicomotricidade",
+   "subtema": "Tourette",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adolescente de 13 anos faz caretas, pisca e emite sons e palavras involuntárias desde os 6 anos; percebe os tiques, mas não consegue contê-los.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — tiques motores e vocais (Tourette)."
+    },
+    {
+     "letra": "C",
+     "texto": "Vontade — ato impulsivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — inadequação."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — dislalia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Tiques motores e vocais involuntários; não é má educação."
+  },
+  {
+   "id": "HMP-PF-84",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Psicomotricidade",
+   "subtema": "marcha",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · Psicomotricidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idoso com Parkinson anda a pequenos passos, arrastando os pés, com o corpo em bloco.\n\nQual a função psíquica alterada e qual a alteração?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — compulsão."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — torpor."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — agitação."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação — espacial."
+    },
+    {
+     "letra": "E",
+     "texto": "Psicomotricidade — alteração da marcha."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Alterações da marcha: Parkinson, álcool."
+  },
+  {
+   "id": "HMP-PF-85",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Normalidade e observação",
+   "subtema": "elementares × superiores",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · funções",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São funções psíquicas SUPERIORES:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade e orientação."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade e vontade."
+    },
+    {
+     "letra": "C",
+     "texto": "Inteligência, imaginação, self e personalidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência, atenção, orientação e memória."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção, pensamento e linguagem."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Elementares (10) × superiores (4); as superiores exigem várias elementares para serem avaliadas."
+  },
+  {
+   "id": "HMP-PF-86",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Normalidade e observação",
+   "subtema": "critério de atenção",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · normalidade",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Segundo a aula, uma alteração psíquica merece atenção clínica principalmente quando:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É relatada por familiares."
+    },
+    {
+     "letra": "B",
+     "texto": "Ocorre em idosos."
+    },
+    {
+     "letra": "C",
+     "texto": "Não segue o ideal de saúde."
+    },
+    {
+     "letra": "D",
+     "texto": "Difere da média estatística."
+    },
+    {
+     "letra": "E",
+     "texto": "Associa-se a sofrimento ou perda de funcionalidade."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Critérios: ausência de doença, ideal (utopia), estatístico, funcional, processo e subjetivação."
+  },
+  {
+   "id": "HMP-PF-87",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Normalidade e observação",
+   "subtema": "roteiro",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · roteiro de Dalgalarrondo",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pela ordem do roteiro do exame psíquico (\"de fora para dentro, de baixo para cima\"), examina-se primeiro:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Personalidade e contratransferência."
+    },
+    {
+     "letra": "B",
+     "texto": "Aspecto geral, consciência, orientação e atenção."
+    },
+    {
+     "letra": "C",
+     "texto": "Crítica e desejo de ajuda."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade e pensamento."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade e vontade."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Primeiro o que se vê e a base; depois perceber/pensar; depois sentir/agir; por fim a pessoa e você."
+  },
+  {
+   "id": "HMP-PF-88",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Normalidade e observação",
+   "subtema": "mapa",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · mapa dos transtornos",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No mapa da aula, os transtornos PSICÓTICOS alteram principalmente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inteligência e linguagem."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação autopsíquica apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade e psicomotricidade apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção, pensamento e juízo de realidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência, atenção e memória."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Psico-orgânicos: base cognitiva; humor/personalidade: sentir e agir; psicóticos: a realidade."
+  },
+  {
+   "id": "HMP-PF-89",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Normalidade e observação",
+   "subtema": "sinal isolado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · erros que a prova explora",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente chega com postura encurvada e higiene precária. Pelo guia, a conduta correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Descrever o aspecto e investigar as funções, sem fechar diagnóstico."
+    },
+    {
+     "letra": "B",
+     "texto": "Concluir esquizofrenia."
+    },
+    {
+     "letra": "C",
+     "texto": "Encerrar o exame psíquico."
+    },
+    {
+     "letra": "D",
+     "texto": "Concluir demência."
+    },
+    {
+     "letra": "E",
+     "texto": "Concluir depressão."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Erro clássico: concluir a causa a partir de um sinal isolado."
+  }
+ ]
+}
