@@ -1,0 +1,128 @@
+{
+ "bases-cirurgicas": {
+  "title": "Treino essencial de Bases Cirúrgicas",
+  "summary": "Questões selecionadas pelo que mais caiu nas provas antigas (cicatrização 22, nutrição 19, anestesia 13, queimaduras 7, infecção 6) e pelo que o professor mais enfatizou nas aulas (casos que abrem e fecham as aulas, \"questão de prova\" anotada no slide, banco de distratores do guia). Um conceito por questão, sem repetições e sem os tópicos fora do plano.",
+  "groups": [
+   {
+    "topic": "Cicatrização das feridas",
+    "why": "22 questões nas provas antigas + caso M.S. da aula",
+    "ids": [
+     "bc-5661c1b1",
+     "bc-1203459b",
+     "bc-54c48100",
+     "bc-3a5056de",
+     "bc-83fc2800",
+     "bc-561cfbd6",
+     "bc-8cbd757f",
+     "bc-fb5f9154",
+     "bc-db331c3d",
+     "bc-dc439992",
+     "bc-3930e104",
+     "bc-88e1f888",
+     "bc-f543430a"
+    ]
+   },
+   {
+    "topic": "Terapia nutricional no paciente cirúrgico",
+    "why": "19 nas provas + caso oncológico e \"mito da albumina\"",
+    "ids": [
+     "bc-5b285372",
+     "bc-9b462834",
+     "bc-684a9804",
+     "bc-3c7e83db",
+     "bc-b68f765a",
+     "bc-bf1ec3a5",
+     "bc-aad7ffe3",
+     "bc-1042ba8f",
+     "bc-13d30860",
+     "bc-1f6c7489",
+     "bc-df696b7e"
+    ]
+   },
+   {
+    "topic": "Bases da anestesiologia",
+    "why": "13 nas provas + slides e 10 questões do material da aula",
+    "ids": [
+     "bc-13ddb713",
+     "bc-adaf3322",
+     "bc-4661d0a9",
+     "bc-447752c5",
+     "bc-c32c5fee",
+     "bc-718b4769",
+     "bc-6a9deb49",
+     "bc-ddcaa5fa",
+     "bc-f333a5e4",
+     "bc-4cd766f5",
+     "bc-b8249973",
+     "bc-96abad5f"
+    ]
+   },
+   {
+    "topic": "Queimaduras",
+    "why": "7 nas provas + \"questão de prova\" anotada no slide (Parkland, 8 h desde a queimadura)",
+    "ids": [
+     "bc-e9bf2bb0",
+     "bc-ce01f3a2",
+     "bc-741c42a3",
+     "bc-4b3b59da",
+     "bc-57ed873d",
+     "bc-f6d19144",
+     "bc-1a9bce03",
+     "bc-31c67eba",
+     "bc-1a7da381",
+     "bc-297f748d"
+    ]
+   },
+   {
+    "topic": "Infecção em cirurgia",
+    "why": "6 nas provas + radar dos slides (controle do foco, classes, profilaxia, 5 pilares)",
+    "ids": [
+     "bc-12d13cde",
+     "bc-c7ea9c43",
+     "bc-c28b3c57",
+     "bc-01fb3e25",
+     "bc-5d13913d",
+     "bc-32df8d79",
+     "bc-b250461c",
+     "bc-90830dd9"
+    ]
+   },
+   {
+    "topic": "Choque",
+    "why": "3 casos e tabela de drogas da aula",
+    "ids": [
+     "bc-63e70077",
+     "bc-d870910b",
+     "bc-bf7f50f7",
+     "bc-8066d72a",
+     "bc-334cd4f4",
+     "bc-22adf36d",
+     "bc-abbf8dc4"
+    ]
+   },
+   {
+    "topic": "Cirurgia ambulatorial e anestesia local",
+    "why": "4 nas provas + caso João (dose em mL, LAST, alta)",
+    "ids": [
+     "bc-6f9829d4",
+     "bc-b3da08a4",
+     "bc-66a9bf0d",
+     "bc-3e3f1e37",
+     "bc-b7f865d2",
+     "bc-1c181486"
+    ]
+   },
+   {
+    "topic": "Fisiologia da dor e dor abdominal",
+    "why": "2 nas provas + slide do portão e dos 3 neurônios",
+    "ids": [
+     "bc-b988c237",
+     "bc-fd26b8ac",
+     "bc-01cb7cca",
+     "bc-28b8bc53",
+     "bc-73e95d25"
+    ]
+   }
+  ]
+ }
+}

@@ -12,6 +12,7 @@ import { KIND_LABEL, ORIGIN_LABEL, activeSubjects, subjectMeta } from '../subjec
 import { Bar, Button, Card, Chip, cx, Empty, Loading, PageHeader } from '../ui';
 import { startSession } from './SessionPage';
 import { WeakSpots } from '../components/WeakSpots';
+import { EssentialCard } from '../components/EssentialCard';
 import { TopicSummaryButton } from '../components/TopicSummary';
 
 export default function PracticePage({ subject }: { subject?: string }) {
@@ -174,6 +175,7 @@ function Builder({ subjects }: { subjects: SubjectId[] }) {
         {meta?.blurb ?? `Questões de todas as disciplinas da ${bank.exam}.`}
       </PageHeader>
       <ResumeBanner />
+      {subjects.length === 1 && <EssentialCard exam={bank.exam} subject={subjects[0]} />}
 
       <div className="grid gap-8 lg:grid-cols-[1fr_300px] lg:gap-10">
         <div className="flex flex-col gap-8">
