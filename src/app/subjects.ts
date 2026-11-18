@@ -1,4 +1,4 @@
-import { ChartScatter, HeartPulse, MessagesSquare, Pill, Scissors, Stethoscope, Users, type LucideIcon } from 'lucide-react';
+import { ChartScatter, FlaskConical, HeartPulse, MessagesSquare, Pill, Scissors, Stethoscope, Users, type LucideIcon } from 'lucide-react';
 import { SUBJECTS, type QuestionKind, type QuestionOrigin, type SubjectId } from '../data/schema';
 
 export interface SubjectMeta {
@@ -17,6 +17,7 @@ const extra: Record<SubjectId, { icon: LucideIcon; blurb: string }> = {
   'bases-cirurgicas': { icon: Scissors, blurb: 'Técnica cirúrgica, cicatrização, choque, nutrição, queimaduras e anestesia.' },
   gis2: { icon: ChartScatter, blurb: 'Estudos de coorte e caso-controle, validade e acurácia de testes.' },
   'iesc-iv': { icon: Users, blurb: 'Atenção primária, MCCP, SOAP e qualidade na ESF.' },
+  sop3: { icon: FlaskConical, blurb: 'Provas de SOI III: sistema urinário e sistemas reprodutores (fisiologia, histologia, embriologia e anatomia).' },
   'hmp-iv': { icon: MessagesSquare, blurb: 'Comunicação clínica, entrevista e exame do estado mental.' },
 };
 

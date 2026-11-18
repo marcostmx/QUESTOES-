@@ -53,6 +53,7 @@ const clean = (s: string) => s.replace(/ /g, ' ').replace(/[ \t]+\n/g, '\n').tr
 
 function subjectOf(materia: string): SubjectId {
   const m = norm(materia);
+  if (m.includes('sop 3')) return 'sop3';
   if (m.startsWith('farmaco')) return 'farmacologia';
   if (m.includes('epidemio') || m.includes('gis')) return 'gis2';
   if (m.startsWith('bases')) return 'bases-cirurgicas';

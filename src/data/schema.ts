@@ -14,6 +14,7 @@ export const SUBJECTS = [
   { id: 'gis2', name: 'Epidemiologia II', short: 'GIS 2', prefix: 'gis' },
   { id: 'iesc-iv', name: 'IESC IV', short: 'IESC', prefix: 'iesc' },
   { id: 'hmp-iv', name: 'HMP IV', short: 'HMP', prefix: 'hmp' },
+  { id: 'sop3', name: 'PR2 SOP 3', short: 'SOP 3', prefix: 'sop3' },
 ] as const;
 
 export type SubjectId = (typeof SUBJECTS)[number]['id'];

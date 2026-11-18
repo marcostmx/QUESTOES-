@@ -1,0 +1,1026 @@
+[
+  {
+    "id": "sop3-f45e9cdf",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre o sistema renal, julgue os itens a seguir:\n\nI) O néfron é a unidade funcional do rim, ele modifica o volume e a osmolalidade do líquido.\nII) Filtração, reabsorção e secreção são processos básicos que ocorrem nos néfrons.\nIII) Reabsorção é o movimento de líquido do sangue para o lúmen do néfron. A filtração ocorre apenas no corpúsculo renal, onde as paredes dos capilares glomerulares e da cápsula de Bowman são modificadas para permitir o fluxo do líquido.\nIV) A filtração é um processo de transporte de substâncias presentes no filtrado, do lúmen tubular de volta para o sangue através dos capilares peritubulares.\nV) A secreção remove seletivamente moléculas do sangue e as adiciona ao filtrado no lúmen tubular. A secreção, assim como a reabsorção, depende principalmente de sistemas de transporte de membrana, principalmente, transporte ativo secundário.\n\nAssinale a alternativa CORRETA:",
+    "options": [
+      "Apenas I, II, III e IV estão corretas.",
+      "Apenas III e IV estão corretas.",
+      "Apenas I, II e V estão corretas.",
+      "Todas as afirmativas estão corretas.",
+      "Todas as afirmativas estão incorretas."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nIII descreve a **secreção**/inverte a reabsorção (que é do lúmen para o sangue). IV descreve a **reabsorção**, não a filtração.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-001"
+  },
+  {
+    "id": "sop3-e7ef25f5",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Em relação à regulação da taxa de filtração glomerular, a vasoconstrição (aumento da resistência) na arteríola aferente promove:",
+    "options": [
+      "Redução da TFG.",
+      "Aumento da TFG.",
+      "Não altera a TFG.",
+      "Altera apenas a reabsorção.",
+      "Não altera a secreção."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nConstrição da aferente ↓ o fluxo e a pressão hidrostática glomerular → ↓ TFG. Constrição da eferente (moderada) ↑ a TFG.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-002"
+  },
+  {
+    "id": "sop3-e762f413",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre a fisiologia do sistema renal, assinale a alternativa INCORRETA:",
+    "options": [
+      "Na excreção a glicose, aminoácidos e metabólitos úteis desaparecem, e os resíduos orgânicos estão mais concentrados. A depuração (em inglês, clearance) de um soluto é a taxa na qual esse soluto desaparece do corpo por excreção ou metabolização.",
+      "A capacidade dos rins de filtrar o plasma nos glomérulos pode ser avaliada aferindo-se a depuração de creatinina, que se aproxima da taxa de filtração glomerular. O valor da creatinina sérica está relacionado à produção endógena, e esta é proporcional à massa muscular, à dieta e ao ritmo de filtração glomerular.",
+      "A vasopressina ou ADH estimula a translocação das aquaporinas para a membrana, estimulando a reabsorção da água, e impedindo a diurese. Por isso que esse hormônio é chamado de hormônio antidiurético (ADH), ele é produzido e liberado em situações de risco de desidratação.",
+      "O sistema renina-angiotensina-aldosterona é estimulado quando a pressão arterial (PA) está reduzida, pois esse sistema promove aumento do volume sistólico (VS), aumento do débito cardíaco (DC), promovendo aumento da PA.",
+      "A aldosterona promove aumento da síntese da bomba de sódio e potássio, levando ao aumento da retenção de sódio na corrente sanguínea, promovendo aumento do volume sistólico (VS), redução do débito cardíaco (DC) e aumento da pressão arterial (PA)."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nA aldosterona ↑ volemia, VS e **débito cardíaco** (não reduz o DC).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-003"
+  },
+  {
+    "id": "sop3-d9a61228",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Paciente D.M., sexo masculino, 30 anos, realizou um sumário de urina (EAS) que mostrou: volume 50 mL, aspecto turvo, densidade 1,040, proteínas ++, corpos cetônicos ++, glicose ++; esterase, nitrito, hemoglobina e bilirrubina negativos; sedimento sem alterações relevantes.\n\nSobre este resultado, julgue os itens a seguir:\n\nI) A presença de proteinúria e glicosúria pode ser indicativo de dano renal.\nII) A presença de cetonúria e glicosúria pode ser indicativo de diabetes descompensado (cetoacidose diabética).\nIII) É normal o aparecimento de glicose na urina, pois o transportador de sódio e glicose realiza esse transporte de glicose para a urina.\nIV) A presença de proteína na urina ocorre devido à ativação do sistema renina-angiotensina-aldosterona.\n\nAssinale a alternativa CORRETA:",
+    "options": [
+      "Apenas I e II estão corretos.",
+      "Apenas I, II e III estão corretos.",
+      "Apenas III e IV estão corretos.",
+      "Todos os itens estão corretos.",
+      "Todos os itens estão incorretos."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nIII: o SGLT **reabsorve** glicose; glicosúria ocorre quando a carga filtrada satura o transporte. IV: proteinúria indica lesão da barreira glomerular, não ativação do SRAA.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-004"
+  },
+  {
+    "id": "sop3-ac645f3d",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre o sistema renina-angiotensina-aldosterona, correlacione as enzimas ou hormônios com suas funções:\n\n(A) Renina\n(B) Enzima conversora de angiotensina (ECA)\n(C) Angiotensina II\n(D) Aldosterona\n\n( ) Aumenta a síntese da bomba de sódio e potássio, aumentando a concentração plasmática de sódio, promovendo aumento do volume sistólico (VS), do débito cardíaco (DC) e da pressão arterial (PA).\n( ) Proporciona a conversão da angiotensina I em angiotensina II.\n( ) Se liga aos receptores AT1 (acoplados a Gq/11) no vaso sanguíneo, promove vasoconstrição e aumento da resistência vascular periférica (RVP).\n( ) Converte angiotensinogênio em angiotensina I.\n\nA sequência correta, de cima para baixo, é:",
+    "options": [
+      "D – B – C – A",
+      "A – B – C – D",
+      "D – C – B – A",
+      "C – B – D – A",
+      "B – A – C – D"
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nAldosterona (bomba Na⁺/K⁺) · ECA (Ang I → Ang II) · Ang II (AT1, vasoconstrição) · renina (angiotensinogênio → Ang I). *As alternativas foram montadas para o app; no compilado a questão era de preenchimento.*\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-005"
+  },
+  {
+    "id": "sop3-f7561d96",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre a autorregulação renal, assinale a alternativa CORRETA.",
+    "options": [
+      "O mecanismo de feedback tubuloglomerular apresenta dois componentes que atuam em conjunto para controlar a TFG: (1) um mecanismo de feedback arteriolar aferente; e (2) um mecanismo de feedback arteriolar eferente.",
+      "O aumento do cloreto de sódio na mácula densa causa dilatação das arteríolas aferentes e aumento da liberação de renina.",
+      "Beta-bloqueadores estimulam as células justaglomerulares.",
+      "Anti-inflamatórios não esteroidais inibem a formação de COX nas células justaglomerulares, favorecendo a liberação de renina.",
+      "O sistema nervoso parassimpático estimula a TFG."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\n↑ NaCl na mácula densa → constrição da aferente e ↓ renina. β-bloqueadores ↓ renina; AINEs ↓ prostaglandinas e ↓ renina.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-006"
+  },
+  {
+    "id": "sop3-8bbea85c",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre a função renal, assinale a alternativa CORRETA.",
+    "options": [
+      "A maioria das substâncias presentes no plasma, como as proteínas, são filtradas livremente, de forma que sua concentração no filtrado glomerular da cápsula de Bowman é praticamente igual à do plasma.",
+      "Uma substância é livremente filtrada, porém também é parcialmente reabsorvida dos túbulos de volta para o sangue. Ou seja, a taxa de excreção urinária é menor que a taxa de filtração nos capilares glomerulares.",
+      "A substância que é livremente filtrada nos capilares glomerulares e não sofre reabsorção, porém quantidades adicionais são secretadas a partir do sangue dos capilares peritubulares para dentro dos túbulos renais. A taxa de excreção nesse caso é calculada como taxa de filtração menos taxa de secreção tubular.",
+      "Substância é livremente filtrada nos capilares glomerulares, porém não é excretada na urina por ser toda ela reabsorvida dos túbulos para o sangue. Esse padrão ocorre para algumas substâncias nutricionais, como aminoácidos, glicose e creatinina, o que permite sua conservação nos líquidos corporais.",
+      "Em geral, a secreção tubular é quantitativamente mais importante que a reabsorção tubular para a formação da urina."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nExcreção = filtração − reabsorção + secreção. Proteínas praticamente não são filtradas; a creatinina não é reabsorvida (é excretada); a reabsorção é quantitativamente mais importante.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-007"
+  },
+  {
+    "id": "sop3-d27e2797",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "O sistema reprodutor masculino desempenha funções essenciais para a perpetuação da espécie. Avalie as afirmações a seguir sobre o desenvolvimento, estrutura e funcionamento desse sistema e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O escroto, as túnicas do testículo e o epidídimo têm a função conjunta de regular a temperatura dos testículos para que ocorra a espermatogênese.",
+      "As células de Sertoli têm a função de suporte, nutrição e proteção aos espermatozoides, convertem testosterona em estradiol, além de produzir a substância antimülleriana na vida fetal. Já as células de Leydig produzem testosterona quando estimuladas pelo LH.",
+      "No sexo masculino, os ductos mesonéfricos originam estruturas como os epidídimos, os ductos deferentes, as vesículas seminais e os ductos ejaculatórios, sob a influência da testosterona.",
+      "A túnica vaginal das bolsas escrotais tem origem do peritônio.",
+      "A enzima 5-alfa-redutase é a responsável pela conversão da testosterona em estradiol. E a enzima aromatase é responsável pela conversão da testosterona em di-hidrotestosterona (DHT)."
+    ],
+    "truth": [
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – V – V – V – F**\n\nAs enzimas estão trocadas: **aromatase** → estradiol; **5α-redutase** → DHT. A túnica vaginal deriva do processo vaginal (evaginação do peritônio).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-008"
+  },
+  {
+    "id": "sop3-fa0d4c7e",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "A respeito da estratigrafia do escroto, temos da superfície para o interior as seguintes túnicas:",
+    "options": [
+      "Pele, dartos, espermática interna, cremastérica, espermática externa e vaginal.",
+      "Pele, cremastérica, dartos, espermática externa, vaginal e espermática interna.",
+      "Pele, dartos, espermática externa, cremastérica, espermática interna e vaginal.",
+      "Pele, dartos, cremastérica, espermática externa, vaginal e espermática interna.",
+      "Pele, dartos, espermática externa, espermática interna, cremastérica e vaginal."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nFáscia espermática externa (oblíquo externo) → cremastérica (oblíquo interno) → espermática interna (fáscia transversal) → túnica vaginal.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-009"
+  },
+  {
+    "id": "sop3-d951c372",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "João, 22 anos, quer entender as funções da testosterona além das características sexuais visíveis. Qual das seguintes funções está INCORRETAMENTE associada a este hormônio?",
+    "options": [
+      "Estimula o desenvolvimento e a maturação dos espermatozoides (espermatogênese).",
+      "Contribui para o aumento da massa muscular.",
+      "Aumenta a matriz óssea.",
+      "Promove o aprofundamento da voz e o crescimento de pelos faciais e corporais.",
+      "É responsável pela produção do líquido prostático e pela motilidade dos espermatozoides após a ejaculação."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nO líquido é produzido pela próstata e pelas glândulas seminais; a motilidade é adquirida no epidídimo.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-010"
+  },
+  {
+    "id": "sop3-d4143a2e",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "Sobre a fisiologia do sistema reprodutor masculino, julgue as alternativas abaixo em Verdadeiro (V) ou Falso (F).",
+    "statements": [
+      "As células intersticiais de Leydig são células localizadas nos testículos, mais especificamente entre os túbulos seminíferos, com a função de secretar hormônios denominados androgênios, quando estimuladas pelo hormônio luteinizante (LH).",
+      "Os espermatozoides são produzidos no interior dos túbulos seminíferos e ficam armazenados nos ductos deferentes, onde completam seu amadurecimento.",
+      "As glândulas seminais, a próstata e as glândulas bulbouretrais são consideradas glândulas anexas do sistema reprodutor masculino, cujos principais conteúdos liberados são frutose; ácido cítrico e enzimas; e muco lubrificante, respectivamente.",
+      "As células de Sertoli estão localizadas no epidídimo, em que possuem diversas funções como a formação da barreira hematotesticular, fagocitar restos celulares, nutrição das células da linhagem espermatogênica, e endócrina.",
+      "A regulação da espermatogênese pelo hormônio folículo estimulante (FSH) e pela testosterona acontece pela ação desses hormônios nas células de Leydig.",
+      "A presença da proteína SRY no embrião possibilita o desenvolvimento do testículo primitivo, em que as células intersticiais irão liberar o hormônio antimülleriano; este último é responsável por inibir o ducto de Müller em desenvolver as gônadas femininas."
+    ],
+    "truth": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – F – V – F – F – F**\n\nAmadurecimento no **epidídimo**. Sertoli fica nos **túbulos seminíferos**; FSH e testosterona agem nas **células de Sertoli** (o LH age na Leydig). O AMH é produzido pelas **células de Sertoli** e faz regredir os ductos de Müller (útero, tubas).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-011"
+  },
+  {
+    "id": "sop3-386696a9",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "Sobre o sistema reprodutor masculino, marque a alternativa INCORRETA:",
+    "options": [
+      "A produção de testosterona pelas células de Leydig fornece localmente altas concentrações intratesticulares desse hormônio, o que estimula a espermatogênese.",
+      "O hormônio testosterona tem diversas funções como o desenvolvimento do trato reprodutor masculino, as características sexuais, a descida dos testículos, entre outras ações. Sabe-se que nos tecidos temos a atuação da di-hidrotestosterona, que é derivada da testosterona pela ação da enzima aromatase.",
+      "A posição dos testículos na bolsa escrotal é importante para a espermatogênese, pois permite a manutenção de uma temperatura ideal para o processo.",
+      "O processo de ereção é desencadeado por estímulos táteis no local do pênis (mecanorreceptores), estímulos visuais e pensamentos, em que dispara o sistema autônomo, onde o parassimpático irá desencadear a vasodilatação das arteríolas penianas, desencadeando o processo hemodinâmico."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nDHT é formada pela **5α-redutase**; a aromatase forma estradiol.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-012"
+  },
+  {
+    "id": "sop3-2d8562d3",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "O sistema reprodutor masculino apresenta uma organização complexa que garante o sucesso reprodutivo. Analise as afirmações a seguir e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "Os ductos eferentes do testículo se unem ao ducto do epidídimo na parte superior e maior do epidídimo, denominada cabeça. O corpo é a parte média estreita, e a cauda é a parte inferior, menor. Em sua extremidade distal, a cauda do epidídimo continua como o ducto ejaculatório.",
+      "O ducto deferente ascende ao longo da margem posterior do epidídimo e segue pelo funículo espermático até a parede abdominal inferior, em que atravessa o canal inguinal e entra na cavidade pélvica; aí faz uma curva sobre o ureter, passa sobre a face lateral da bexiga e desce ao longo de sua face anterior.",
+      "O ducto deferente é uma continuação direta da cauda do epidídimo. É revestido por um epitélio pseudoestratificado colunar com estereocílios, que é circundado por um revestimento muscular espesso.",
+      "O processo de ereção é desencadeado por estímulos táteis (mecanorreceptores), visuais e pensamentos, em que o parassimpático desencadeia a vasodilatação das arteríolas penianas.",
+      "Nos tecidos, a di-hidrotestosterona é derivada da testosterona pela ação da enzima aromatase."
+    ],
+    "truth": [
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: F – V – V – V – F**\n\nA cauda do epidídimo continua como **ducto deferente** (o ejaculatório forma-se pela união do deferente com o ducto da glândula seminal). DHT: 5α-redutase.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-013"
+  },
+  {
+    "id": "sop3-bbe004d6",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "A hipertrofia prostática benigna ocorre quase exclusivamente nas zonas de transição e periuretral. Sobre a histologia do sistema reprodutor masculino, marque a alternativa INCORRETA:",
+    "options": [
+      "O ducto deferente é uma continuação direta da cauda do epidídimo. É revestido por um epitélio pseudoestratificado colunar com estereocílios, que é circundado por um revestimento muscular espesso.",
+      "As células de Leydig (intersticiais) produzem testosterona e outros hormônios que orientam o desenvolvimento e a descida dos testículos; estas células são localizadas entre os túbulos seminíferos.",
+      "Os espermatozoides são produzidos no epitélio germinativo presente nos túbulos seminíferos, que é formado por dois tipos celulares: as células de Sertoli e as células da linhagem espermatogênica.",
+      "Os tecidos eréteis do pênis contêm espaços vasculares que aumentam de tamanho e rigidez pelo seu enchimento com sangue durante a ereção; além dos espaços vasculares, este tecido contém trabéculas compostas somente de músculo liso."
+    ],
+    "answerIndex": 3,
+    "explanation": "**Gabarito: D**\n\nAs trabéculas do tecido erétil têm **tecido conjuntivo e músculo liso**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-014"
+  },
+  {
+    "id": "sop3-bcfd7ca8",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "Sobre o sistema reprodutor masculino, analise as alternativas e assinale a resposta CORRETA:",
+    "options": [
+      "O epidídimo é um órgão com cerca de 4 cm de comprimento, que se curva ao longo da margem anterossuperior de cada testículo e, quando visto de perfil, tem o formato de uma vírgula.",
+      "A próstata é uma glândula que ocupa posição inferior à bexiga e circunda parte da uretra; secreta um líquido leitoso que contribui para a motilidade e viabilidade dos espermatozoides.",
+      "As glândulas seminais são estruturas semelhantes a bolsas, localizadas na base da bexiga e posterior a ela, em posição posterior ao reto.",
+      "O pênis contém a uretra e dá passagem para a ejaculação do sêmen e a excreção da urina. O corpo do pênis é composto por uma massa dorsolateral chamada corpo esponjoso e uma ventral média chamada corpo cavernoso."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nEpidídimo: margem **posterior**. Glândulas seminais: **anteriores** ao reto. Corpos cavernosos são dorsolaterais; o esponjoso é ventral.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-015"
+  },
+  {
+    "id": "sop3-ef4d7453",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor masculino",
+    "stem": "Analise as afirmações a seguir e assinale a única alternativa correta. O epidídimo tem por função:\n\nI – Produzir uma secreção leitosa e fluida que favorece a mobilidade dos espermatozoides;\nII – Aspirar os espermatozoides do canal deferente e impulsionar o conteúdo em direção à uretra prostática;\nIII – Armazenar e amadurecer os espermatozoides, até serem eliminados pela ejaculação.",
+    "options": [
+      "Apenas a afirmativa I está correta.",
+      "Apenas a afirmativa II está correta.",
+      "Apenas a afirmativa III está correta.",
+      "As afirmativas I e II estão corretas.",
+      "As afirmativas II e III estão corretas."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nSecreção leitosa = próstata.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-016"
+  },
+  {
+    "id": "sop3-670d9ef5",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "O néfron é a unidade funcional do rim responsável pela filtração do sangue e formação da urina. Sobre sua anatomia, assinale a alternativa correta.",
+    "options": [
+      "O túbulo contorcido proximal conecta diretamente o glomérulo ao túbulo coletor.",
+      "A porção descendente da alça renal é impermeável à água.",
+      "A alça renal está localizada apenas no córtex renal.",
+      "O glomérulo é um emaranhado de capilares localizado dentro da cápsula renal (de Bowman).",
+      "O túbulo coletor desemboca na pelve renal."
+    ],
+    "answerIndex": 3,
+    "explanation": "**Gabarito: D**\n\nA porção **ascendente** espessa é impermeável à água; a alça desce à medula; os ductos coletores desembocam pelos ductos papilares nos cálices.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-017"
+  },
+  {
+    "id": "sop3-145142bd",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "A micção é um processo coordenado que envolve a contração do músculo detrusor e o relaxamento dos esfíncteres uretrais. Com relação à inervação da bexiga urinária, assinale a alternativa CORRETA:",
+    "options": [
+      "O controle voluntário da micção é mediado exclusivamente pelo sistema nervoso parassimpático.",
+      "A estimulação simpática promove a contração do músculo detrusor, facilitando a micção.",
+      "Os nervos parassimpáticos, originados dos segmentos sacrais (S2–S4), estimulam a contração do detrusor durante a micção.",
+      "O nervo pudendo, responsável pelo controle do esfíncter uretral externo, é de origem autonômica.",
+      "A inervação da bexiga é exclusivamente autônoma, sem participação de vias somáticas."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nControle voluntário: nervo **pudendo** (somático). O simpático **relaxa** o detrusor e contrai o esfíncter interno (enchimento).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-018"
+  },
+  {
+    "id": "sop3-40b9ef7a",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "O processo normal da micção consiste na coordenação recíproca entre a uretra e a bexiga, sob os comandos dos sistemas nervosos parassimpático, simpático e somático. Assinale a alternativa CORRETA.",
+    "options": [
+      "Os nervos simpáticos que inervam a bexiga e a uretra são provenientes dos segmentos medulares de T10 a L2. Os nervos parassimpáticos se originam dos segmentos sacrais de S2 a S4. A inervação somática do esfíncter externo da uretra é proveniente do nervo pudendo.",
+      "Os nervos simpáticos que inervam a bexiga e a uretra se originam dos segmentos medulares de T9 a L3. Os parassimpáticos provêm dos níveis sacrais de S1 a S4. A região posterior da medula, aos níveis de S2 a S4, é responsável pela inervação somática do esfíncter externo da uretra.",
+      "Tanto os nervos simpáticos quanto os parassimpáticos que inervam a uretra e a bexiga são oriundos dos segmentos medulares de L2 a L5. A inervação somática do esfíncter externo tem origem na região lateral da medula, nos níveis de S1 a S4.",
+      "A inervação simpática da uretra e bexiga tem origem nos segmentos medulares de S2 a S4. Já a inervação parassimpática é proveniente da região de T11 a L2 e a inervação somática tem como procedência os segmentos sacrais de S2 e S4.",
+      "Os nervos simpáticos e somáticos que inervam a bexiga e a uretra são originados na região posterior da medula, nos níveis de S2 a S4, enquanto a inervação somática dessas estruturas é oriunda da porção lateral da medula dos segmentos de T11 a L5."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nSimpático T10–L2 (hipogástrico), parassimpático S2–S4 (pélvico), somático: pudendo (S2–S4).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-019"
+  },
+  {
+    "id": "sop3-61fffb15",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre o sistema urinário, analise as alternativas e assinale a CORRETA:",
+    "options": [
+      "O néfron é a unidade funcional do rim, constituído por um corpúsculo renal, onde encontramos o glomérulo e a cápsula glomerular, e um longo tubo que ao longo do seu percurso se diferencia em túbulo contorcido proximal, ramo descendente e ramo ascendente da alça renal, túbulo contorcido distal e tubo coletor.",
+      "O ureter corresponde a um tubo que encaminha a urina do rim até a bexiga; apresenta uma porção abdominal e uma pélvica e é irrigado por ramos uretéricos das artérias suprarrenal, aorta descendente torácica, gonadais e ilíaca interna.",
+      "A bexiga apresenta como função armazenar a urina proveniente da filtração do sangue que ocorre no rim; anatomicamente divide-se em ápice, corpo, fundo e colo; é nela que encontramos o músculo detrusor e o trígono vesical, formado pelos óstios dos ureteres e o óstio da uretra.",
+      "As fibras simpáticas são responsáveis por relaxar o músculo esfíncter interno da uretra e contrair o detrusor. Já as fibras parassimpáticas contraem o esfíncter interno da uretra e relaxam o detrusor.",
+      "A drenagem venosa da bexiga ocorre pelo plexo pampiniforme, que encaminha o sangue para a veia ilíaca interna."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nO ducto coletor não faz parte do néfron; ureter irrigado por ramos das renais, aorta **abdominal**, gonadais, ilíacas e vesicais; simpático/parassimpático estão invertidos; plexo pampiniforme é do funículo espermático (a bexiga drena pelo plexo venoso vesical). O trígono é formado pelos óstios ureterais e o óstio **interno** da uretra.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-020"
+  },
+  {
+    "id": "sop3-30c431b1",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema urinário",
+    "stem": "Sobre o sistema urinário, analise as alternativas e assinale a INCORRETA:",
+    "options": [
+      "Em cirurgia de transplante renal é comum realizar arteriotomia na artéria ilíaca interna para a confecção da anastomose entre artéria renal e ilíaca interna.",
+      "Os ureteres são tubos que encaminham a urina do rim até a bexiga e são irrigados por ramos das artérias renais, aorta descendente abdominal, gonadais, ilíacas comuns e vesicais inferiores.",
+      "A uretra é um conduto que nas mulheres encaminha a urina para o meio externo e nos homens encaminha tanto a urina quanto o sêmen para o meio externo.",
+      "O rim direito tem relação anatômica anteriormente com o fígado, cólon descendente, jejuno, pâncreas e glândula suprarrenal direita, já o rim esquerdo se relaciona com o estômago, cabeça do pâncreas, cólon transverso, baço e glândula suprarrenal esquerda.",
+      "A uretra masculina é dividida em porção intramural, prostática, membranácea e esponjosa; é maior e apresenta curvaturas, já a feminina é menor e não apresenta curvaturas."
+    ],
+    "answerIndex": 3,
+    "explanation": "**Gabarito: D**\n\nRim direito: fígado, duodeno, flexura **direita** do cólon (ascendente); rim esquerdo: estômago, baço, **cauda** do pâncreas, jejuno, cólon descendente.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-021"
+  },
+  {
+    "id": "sop3-e04466e4",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema urinário",
+    "stem": "O sistema urinário é fundamental para a manutenção do equilíbrio interno do organismo. Avalie as afirmações a seguir e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O ureter apresenta uma porção torácica, uma abdominal e uma pélvica.",
+      "A lâmina basal glomerular é composta por três camadas: a lâmina rara externa (adjacente ao endotélio capilar), a lâmina rara interna (adjacente aos prolongamentos dos podócitos) e a lâmina densa.",
+      "As células do túbulo contorcido proximal apresentam epitélio simples cúbico ou colunar baixo com microvilos, que aumentam a superfície de absorção, e muitas mitocôndrias na região basal.",
+      "Os rins liberam renina, enzima envolvida no equilíbrio do sódio e na homeostase da pressão, causando a diminuição da resistência vascular periférica.",
+      "As prostaglandinas liberadas pela mácula densa, quando há pequenas quantidades de Na⁺ no filtrado, causam a inibição das células justaglomerulares na liberação de renina."
+    ],
+    "truth": [
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: F – F – V – F – F**\n\nUreter: só abdominal e pélvico. Lâmina rara **interna** = junto ao endotélio; **externa** = junto aos podócitos. A renina leva à Ang II (↑ RVP). Pouco Na⁺ na mácula densa → prostaglandinas **estimulam** a renina.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-022"
+  },
+  {
+    "id": "sop3-5ffac853",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema urinário",
+    "stem": "Para garantir a homeostase, o sistema urinário realiza filtração, reabsorção e excreção. Julgue as afirmações e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O néfron é constituído por um corpúsculo renal e um longo tubo que se diferencia em túbulo contorcido proximal, ramos da alça renal, túbulo contorcido distal e tubo coletor.",
+      "A bexiga divide-se em ápice, corpo, fundo e colo; nela encontramos o músculo detrusor e o trígono vesical, formado pelos óstios dos ureteres e o óstio interno da uretra.",
+      "A uretra feminina é um tubo de 4 a 5 cm de comprimento, revestido por epitélio estratificado pavimentoso, com áreas de epitélio pseudoestratificado colunar.",
+      "A mácula densa é formada por células modificadas do túbulo contorcido proximal, com função de secreção, constituída de epitélio simples colunar.",
+      "A glicosúria presente no diabetes mellitus está vinculada à saturação dos transportadores renais que promovem a secreção."
+    ],
+    "truth": [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: F – V – V – F – F**\n\nO ducto coletor não pertence ao néfron. Mácula densa: túbulo contorcido **distal**. Glicosúria: saturação dos transportadores de **reabsorção** (SGLT).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-023"
+  },
+  {
+    "id": "sop3-acfa0bc8",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema urinário",
+    "stem": "Ao longo da vida, o sistema urinário passa por diferentes fases de desenvolvimento e maturação. Analise as afirmações e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "A drenagem linfática das estruturas do períneo é realizada inicialmente pelos linfonodos ilíacos internos e externos; em seguida a linfa segue para os linfonodos inguinais superficiais e profundos.",
+      "Os músculos transverso superficial e profundo do períneo, além de fixar o corpo do períneo, resistem ao aumento da pressão intra-abdominal, contribuindo para a continência.",
+      "As células justaglomerulares são células modificadas das arteríolas aferentes que secretam renina, que age sobre a conversão do angiotensinogênio em angiotensina.",
+      "No corpúsculo renal, a camada visceral da cápsula de Bowman é composta de epitélio simples colunar e a camada parietal contém os podócitos.",
+      "O peptídeo natriurético atrial é liberado em situações de desidratação."
+    ],
+    "truth": [
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: F – V – V – F – F**\n\nLinfa do períneo: inguinais primeiro. A camada **visceral** tem os podócitos; a parietal é simples pavimentosa. O ANP é liberado na **sobrecarga de volume** (distensão atrial).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-024"
+  },
+  {
+    "id": "sop3-eaaddb99",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema urinário",
+    "stem": "As glomerulonefrites agudas caracterizam-se por edema, hipertensão, hematúria e proteinúria. Sobre a histologia do sistema urinário, julgue em Verdadeiro (V) ou Falso (F).",
+    "statements": [
+      "Além das células endoteliais e dos podócitos, os glomérulos renais contêm as células mesangiais internas, mergulhadas em matriz mesangial; essas células possuem contratilidade e receptores para angiotensina II.",
+      "O túbulo contorcido proximal recebe o ultrafiltrado da cápsula de Bowman e tem parede revestida de epitélio simples pavimentoso com orla em escova.",
+      "A alça de Henle apresenta segmentos estruturalmente iguais, porém funcionalmente diferentes, sendo revestida por epitélio simples pavimentoso em todo o seu comprimento.",
+      "Os ductos coletores mais delgados são revestidos por epitélio simples cúbico e têm diâmetro de aproximadamente 40 µm."
+    ],
+    "truth": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – F – F – V**\n\nTCP: simples **cúbico** com orla em escova. A alça tem segmentos delgados (pavimentoso) e espessos (cúbico).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-025"
+  },
+  {
+    "id": "sop3-0a47f788",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Considerando a anatomia do sistema reprodutor feminino, especialmente das tubas uterinas, assinale a alternativa CORRETA:",
+    "options": [
+      "As fímbrias da tuba uterina produzem contrações musculares para transportar o embrião até o útero.",
+      "As fímbrias da tuba uterina estimulam a ovulação por meio de estímulos táteis diretos sobre o ovário.",
+      "As fímbrias são projeções móveis localizadas no infundíbulo da tuba uterina que captam o ovócito liberado pelo ovário.",
+      "A porção intramural da tuba uterina está localizada entre o istmo e o infundíbulo.",
+      "O istmo da tuba uterina é a porção mais dilatada e larga, sendo o principal local de encontro entre o ovócito e os espermatozoides."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nIntramural fica na parede do útero; a **ampola** é a porção mais larga e o local da fecundação.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-026"
+  },
+  {
+    "id": "sop3-93c01ed5",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Ciclo menstrual e hormônios",
+    "stem": "Maria, 32 anos, planeja engravidar e monitora seu ciclo menstrual. No gráfico clássico de concentração hormonal ao longo do ciclo (28 dias), há uma curva baixa e estável na fase folicular (A), um pico agudo no meio do ciclo (B), uma curva que sobe antes do pico (C) e uma curva que atinge o máximo por volta do 22º dia (D). Julgue:\n\nI) A é o pico de LH.\nII) B representa o pico de FSH.\nIII) O pico de estrogênio é representado pela letra C.\nIV) D representa o pico de progesterona.\n\nAssinale a alternativa CORRETA:",
+    "options": [
+      "Apenas I e II estão corretos.",
+      "Apenas III e IV estão corretos.",
+      "Apenas I, III e IV estão corretos.",
+      "Todos os itens estão corretos.",
+      "Todos os itens estão incorretos."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nA = FSH (fase folicular); B = pico de **LH**; C = estrogênio (pré-ovulatório); D = progesterona (fase lútea). *O gráfico da prova foi descrito em texto.*\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-027"
+  },
+  {
+    "id": "sop3-24dc499f",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Ciclo menstrual e hormônios",
+    "stem": "No gráfico clássico das concentrações de hormônios hipofisários e ovarianos ao longo do ciclo (A: curva da fase folicular inicial; B: pico agudo no meio do ciclo; C: curva que sobe antes do pico; D: curva máxima na fase lútea), marque a alternativa CORRETA:",
+    "options": [
+      "A letra \"C\" equivale ao hormônio LH, fundamental para a maturação oocitária, ovulação e processo de luteinização.",
+      "\"B\" equivale ao estrógeno, liberado pelas células da granulosa durante o crescimento folicular, importante para promover o pico de LH.",
+      "\"A\" equivale ao hormônio FSH, responsável pelo recrutamento de folículos primordiais, para iniciar o crescimento folicular.",
+      "\"D\" equivale à inibina, liberada pelo corpo lúteo, que fará feedback negativo na liberação do FSH pela adeno-hipófise."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nB = LH; C = estrogênio; D = progesterona.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-028"
+  },
+  {
+    "id": "sop3-7d8b559e",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "O sistema reprodutor feminino envolve complexos processos biológicos. Avalie as afirmações e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O estrogênio e a progesterona, produzidos pelos ovários, são fundamentais para a regulação do ciclo menstrual. Na fase folicular, o estrogênio promove o espessamento do endométrio; após a ovulação, a progesterona do corpo lúteo mantém o endométrio receptivo. Sem fecundação, os níveis caem, levando à menstruação.",
+      "O epitélio de revestimento do ovário é do tipo cúbico/pavimentoso simples, também conhecido como epitélio germinativo; logo abaixo há tecido conjuntivo denso, a túnica albugínea.",
+      "O ligamento próprio do ovário une o ovário ao útero, próximo à junção das tubas uterinas.",
+      "A fase lútea é caracterizada por baixos níveis de progesterona, e o pico de LH ocorre após a ovulação."
+    ],
+    "truth": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – V – V – F**\n\nFase lútea: progesterona **alta**; o pico de LH **precede** a ovulação. O ligamento próprio é o útero-ovárico.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-029"
+  },
+  {
+    "id": "sop3-c3bcb76b",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "O sistema reprodutor feminino possui uma organização funcional e estrutural que assegura a produção de gametas e o suporte ao desenvolvimento embrionário. Marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O corpo do útero é a porção inferior e mais estreita que se conecta à vagina por meio do colo uterino.",
+      "A ausência da fecundação promove redução das concentrações de estrogênio e progesterona, levando à menstruação.",
+      "O útero possui três camadas: endométrio, miométrio e perimétrio. O endométrio é dividido em basal e funcional, sendo que a funcional sofre alterações a cada ciclo menstrual.",
+      "Todas as divisões meióticas (meiose I e meiose II) da oogênese são completadas antes do nascimento da mulher."
+    ],
+    "truth": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: F – V – V – F**\n\nA porção inferior e estreita é o **colo**. A meiose I para em prófase até a puberdade; a meiose II só se completa se houver fecundação.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Fisiologia (Profas. Bruna B. Gouveia e Alice)",
+    "origin": "prova",
+    "ref": "SOP3-030"
+  },
+  {
+    "id": "sop3-c21a468c",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "O útero tem formato de pera e sua parede é formada por endométrio, miométrio e perimétrio. Durante o ciclo menstrual o endométrio muda sua composição. Sobre as fases do ciclo, marque a alternativa INCORRETA:",
+    "options": [
+      "A espessura do endométrio, a sua atividade glandular e o seu padrão vascular são característicos em cada uma das três fases (proliferativa, secretora e menstrual) do ciclo menstrual.",
+      "A fase proliferativa é influenciada pelos estrogênios produzidos pelos folículos em crescimento, que renovam a camada funcional do endométrio (tecido conjuntivo, epitélio de revestimento e glândulas uterinas).",
+      "A fase menstrual representa a isquemia da camada basal do endométrio, que está sendo eliminada durante a menstruação, devido a sofrer necrose pelo aumento dos níveis de progesterona.",
+      "A fase secretora é influenciada pela progesterona secretada pelo corpo lúteo, em que o endométrio apresenta glândulas uterinas bem desenvolvidas e tortuosas."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nElimina-se a camada **funcional**, por isquemia causada pela **queda** da progesterona.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-031"
+  },
+  {
+    "id": "sop3-34db1f16",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "O ovário policístico caracteriza-se por aumento bilateral dos ovários, com numerosos cistos foliculares. Sobre a histologia do sistema reprodutor feminino, marque a alternativa CORRETA.",
+    "options": [
+      "No ovário a região medular é formada por folículos ovarianos que contêm os ovócitos, enquanto a região cortical é constituída por tecido conjuntivo frouxo muito vascularizado.",
+      "O epitélio da mucosa da tuba uterina apresenta células ciliadas e secretoras, importantes para a condução do ovócito e também para secreção de fatores nutritivos, protetores e de ativação do espermatozoide.",
+      "A vagina estende-se do colo do útero até o vestíbulo, é revestida por epitélio estratificado pavimentoso queratinizado e contém glândulas.",
+      "Os folículos primários são formados na vida fetal e são constituídos pelo ovócito primário envolvido por células da granulosa pavimentosas."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nFolículos ficam no **córtex**; a vagina tem epitélio **não queratinizado** e não tem glândulas; ovócito com células foliculares pavimentosas = folículo **primordial**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-032"
+  },
+  {
+    "id": "sop3-b12e1e1f",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Para garantir o sucesso da reprodução, o sistema reprodutor feminino passa por diversas fases. Julgue as afirmações e marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "O útero é composto por perimétrio, miométrio e endométrio; este último é a camada mais interna e se diferencia em camada basal e funcional, irrigadas respectivamente pelas arteríolas retas e espirais.",
+      "O útero tem origem a partir das partes caudais fusionadas dos ductos paramesonéfricos, que formam o primórdio uterovaginal.",
+      "Os folículos primários são formados na vida fetal e são constituídos pelo ovócito primário envolvido por células da granulosa pavimentosas.",
+      "A secreção de estrogênio e progesterona pelo corpo lúteo suprime a secreção hipotalâmica de GnRH e a secreção hipofisária de LH e FSH.",
+      "Estrogênios são formados pela conversão de andrógenos, através da ação da aromatase, nas células da granulosa."
+    ],
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – V – F – V – V**\n\nOvócito + células pavimentosas = folículo primordial.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-033"
+  },
+  {
+    "id": "sop3-37b63a99",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Sobre a organização do sistema reprodutor feminino, marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "As glândulas situadas de um e de outro lado do orifício vaginal, em contato com a extremidade posterior de cada massa lateral do bulbo do vestíbulo, são as glândulas vestibulares maiores.",
+      "As glândulas vestibulares maiores originam-se de protuberâncias do seio urogenital no terço inferior dos grandes lábios; dessa forma, o tecido secretor deriva do ectoderma.",
+      "A vagina se desenvolve a partir dos ductos mesonéfricos, que proliferam e sofrem fusão no embrião XX.",
+      "No ciclo menstrual, na fase secretora, a progesterona induz as glândulas a se tornarem tortuosas e intensamente secretoras, e o tecido conjuntivo fica muito edemaciado, com acúmulo de glicogênio e lipídeos nos fibroblastos."
+    ],
+    "truth": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – F – F – V**\n\nO seio urogenital é **endodérmico**. A vagina vem do seio urogenital e do primórdio uterovaginal (paramesonéfricos).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-034"
+  },
+  {
+    "id": "sop3-0d2e3e66",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Sobre a anatomia do sistema reprodutor feminino, assinale a alternativa INCORRETA:",
+    "options": [
+      "Na profundidade da base de implantação dos lábios menores e, portanto, de cada lado da parte mais alta do vestíbulo da vagina, encontramos uma formação esponjosa denominada bulbo do vestíbulo.",
+      "Medianamente no vestíbulo da vagina situam-se duas aberturas. A anterior, pequena, é o óstio externo da uretra.",
+      "As glândulas situadas de um e de outro lado do orifício vaginal, em contato com a extremidade posterior de cada massa lateral do bulbo do vestíbulo, são as glândulas vestibulares maiores.",
+      "O ligamento suspensor do ovário estende-se da fáscia do músculo psoas maior à extremidade tubária do ovário, enquanto o ligamento próprio do ovário vai de sua extremidade uterina à borda lateral do útero, logo abaixo da implantação da tuba uterina.",
+      "O ovário é irrigado pelos ramos ováricos da artéria ovárica e também da artéria vaginal."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nO ovário é irrigado pela artéria **ovárica** e pelo ramo ovárico da artéria **uterina**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-035"
+  },
+  {
+    "id": "sop3-492abb12",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Os ligamentos do sistema reprodutor feminino têm funções específicas na fixação e no suporte. Qual alternativa descreve corretamente a relação e a função dos ligamentos suspensor e útero-ovárico?",
+    "options": [
+      "O ligamento útero-ovárico conecta o ovário ao útero e contém as principais artérias e veias que irrigam o ovário, enquanto o ligamento suspensor apenas o conecta à parede pélvica sem vascularização relevante.",
+      "O ligamento suspensor do ovário liga o ovário à parede lateral da pelve e contém vasos sanguíneos e linfáticos, enquanto o ligamento útero-ovárico o conecta ao útero, sem conter vasos significativos.",
+      "Tanto o ligamento suspensor quanto o útero-ovárico contêm vasos sanguíneos principais, mas apenas o suspensor conecta o ovário diretamente ao útero.",
+      "O ligamento útero-ovárico liga o ovário à parede abdominal e contém os principais vasos, enquanto o suspensor conecta o ovário ao útero.",
+      "O ligamento suspensor do ovário conecta o ovário ao útero e contém as artérias e veias ováricas principais, enquanto o útero-ovárico fixa o ovário à parede lateral da pelve."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nOs vasos ováricos correm no ligamento **suspensor** (infundibulopélvico).\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-036"
+  },
+  {
+    "id": "sop3-1c5c6204",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Sobre o sistema reprodutor feminino, julgue os itens:\n\nI – As mamas são formadas por tecido glandular e tecido fibroso de sustentação integrados a uma matriz adiposa, com vasos, linfáticos e nervos; estendem-se transversalmente da margem lateral do esterno até a linha axilar média e verticalmente da costela II a VI.\nII – A tuba uterina divide-se em infundíbulo, ampola, istmo e porção intramural; nessa última encontramos as fímbrias.\nIII – O útero apresenta três camadas; o endométrio tem uma camada interna e uma externa, e a camada que descama na menstruação é denominada endométrio basal.\nIV – A vagina tem a região superior irrigada por ramos vaginais da artéria uterina e as porções média e inferior por ramos vaginais da artéria ilíaca externa.\n\nAssinale a alternativa correta:",
+    "options": [
+      "Apenas o item I está correto.",
+      "Apenas o item II está correto.",
+      "Apenas o item III está correto.",
+      "Os itens III e IV estão corretos.",
+      "Todos os itens estão corretos."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nFímbrias ficam no **infundíbulo**; descama a camada **funcional**; vagina média/inferior: ramos da ilíaca **interna**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-037"
+  },
+  {
+    "id": "sop3-33d35fb7",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "O sistema reprodutor feminino é responsável por funções essenciais para a reprodução. Marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "Uma série de ligamentos mantém a posição dos ovários: o ligamento largo fixa-se aos ovários pelo mesovário; o útero-ovárico ancora os ovários no útero; e o suspensor os prende à parede pélvica.",
+      "Os ovários originam-se dos ductos de Wolff (mesonéfricos), que se diferenciam nas gônadas femininas devido à ausência de testosterona.",
+      "Os folículos primordiais são formados após o nascimento a partir das células germinativas primordiais.",
+      "No meio do ciclo ovariano o estradiol faz feedback positivo sobre a secreção de FSH, que desencadeia a ovulação e a luteinização."
+    ],
+    "truth": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – F – F – F**\n\nGônadas vêm da crista gonadal; ductos de Wolff regridem no XX. Folículos primordiais formam-se na vida **fetal**. O pico ovulatório é de **LH**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-038"
+  },
+  {
+    "id": "sop3-20112e57",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Sistema reprodutor feminino",
+    "stem": "Sobre o períneo, assinale a alternativa INCORRETA:",
+    "options": [
+      "O diafragma da pelve é formado pelos músculos pubococcígeo, iliococcígeo e isquiococcígeo.",
+      "O períneo é limitado anteriormente pela sínfise púbica, lateralmente pelos túberes isquiáticos e posteriormente pelo cóccix.",
+      "O corpo do períneo fica no ponto central, por onde passam fibras do bulboesponjoso, transversos superficial e profundo, esfíncteres externos da uretra e do ânus e levantador do ânus.",
+      "Os músculos transverso superficial e profundo do períneo, além de fixar o corpo do períneo, resistem ao aumento da pressão intra-abdominal, contribuindo para a continência.",
+      "A drenagem linfática do períneo é realizada inicialmente pelos linfonodos ilíacos internos e externos; em seguida a linfa segue para os inguinais superficiais e profundos."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nA linfa do períneo vai primeiro aos **inguinais superficiais**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III / SOP III (anatomia)",
+    "origin": "prova",
+    "ref": "SOP3-039"
+  },
+  {
+    "id": "sop3-f7126460",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "Adolescente com amenorreia primária. Na história da paciente, descobriu-se que aos 11 anos começou a desenvolver mamas e aos 13 anos apresentava mamas acima da média para a idade. EXAME CLÍNICO: presença de testículos e vagina curta, sem colo uterino, ovários ou útero. A avaliação cromossômica revela genótipo XY. Diagnóstico: síndrome da insensibilidade androgênica. Marque a alternativa INCORRETA:",
+    "options": [
+      "Geralmente ocorrem mutações nos receptores do androgênio.",
+      "Pacientes com a síndrome da insensibilidade androgênica podem desenvolver ovários mesmo na presença do cromossomo Y.",
+      "Ocorre o desenvolvimento dos testículos, uma vez que o fator determinante dos testículos está presente no cromossomo Y.",
+      "Ocorre uma falha na masculinização devido à resistência à ação da testosterona ao nível celular no tubérculo genital e pregas labioescrotais e uretrais.",
+      "Pode-se explicar o desenvolvimento de mamas devido à aromatização da testosterona."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\nCom SRY há **testículos**; o AMH faz regredir útero e tubas; não há ovários.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-040"
+  },
+  {
+    "id": "sop3-4da8ef25",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "No que diz respeito ao desenvolvimento do sistema reprodutor feminino, julgue as assertivas como V ou F e assinale a sequência CORRETA:\n\n( ) As gônadas tornam-se diferenciadas a partir da quinta semana de desenvolvimento intrauterino.\n( ) Observa-se o desenvolvimento das gônadas a partir de três origens: epitélio mesodérmico que reveste a parede abdominal posterior, mesênquima subjacente e células germinativas primordiais.\n( ) As células germinativas primordiais encontram-se inicialmente entre as células do endoderma da vesícula vitelínica. Essas células originam as oogônias no embrião feminino.\n( ) Em embriões XX a medula da gônada indiferenciada forma os folículos primordiais encontrados nos ovários.\n( ) Nos embriões XX o tubérculo genital se alonga apenas um pouco e forma o clitóris.",
+    "options": [
+      "V – V – V – V – F",
+      "F – V – V – F – F",
+      "F – V – V – F – V",
+      "V – V – F – F – V",
+      "F – V – F – V – F"
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nA gônada é indiferente até a **7ª** semana; os folículos vêm do **córtex**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-041"
+  },
+  {
+    "id": "sop3-3fec3a54",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "Sobre a embriologia do sistema reprodutor masculino, marque a alternativa INCORRETA:",
+    "options": [
+      "Nos embriões XY a diferenciação sexual normal é determinada pela testosterona, di-hidrotestosterona e hormônio antimülleriano.",
+      "No embrião XY o prepúcio tem origem a partir da decomposição de uma invaginação circular de ectoderma que se forma na periferia da glande peniana.",
+      "As pregas uretrais fundem-se e dão origem ao escroto nos embriões XY.",
+      "A formação dos canais inguinais no embrião XY é importante pois fornece um caminho para que os testículos cheguem até o escroto.",
+      "A genitália externa no embrião XY desenvolve-se na presença de testosterona produzida pelos testículos fetais."
+    ],
+    "answerIndex": 2,
+    "explanation": "**Gabarito: C**\n\nPregas uretrais → **uretra esponjosa**; o escroto vem das **saliências labioescrotais**.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-042"
+  },
+  {
+    "id": "sop3-d62e121f",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "Durante o desenvolvimento embrionário, a diferenciação da genitália externa feminina ocorre na ausência de estímulos masculinizantes. Marque a alternativa que descreve CORRETAMENTE o processo:",
+    "options": [
+      "Os tubérculos genitais se fundem e alongam para formar o clitóris, enquanto as pregas uretrais se tornam o prepúcio.",
+      "Em resposta à ausência de testosterona, os tubérculos genitais formam o clitóris, enquanto as pregas uretrais não se fundem, dando origem aos lábios menores, e as saliências labioescrotais formam os lábios maiores.",
+      "Na presença de estrogênio, as pregas uretrais formam os lábios maiores e os tubérculos genitais se alongam para formar o clitóris.",
+      "As pregas uretrais se desenvolvem no clitóris e as saliências labioescrotais formam a uretra e os lábios menores.",
+      "A diferenciação da genitália externa feminina depende do hormônio antimülleriano, produzido pelos ovários a partir da 8ª semana."
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-043"
+  },
+  {
+    "id": "sop3-9456aa9e",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "Associe as estruturas embrionárias (coluna A) às suas derivações no sistema reprodutor masculino (coluna B):\n\nColuna A\n1 – Ducto mesonéfrico (de Wolff)\n2 – Tubérculo genital\n3 – Pregas uretrais\n4 – Protuberâncias genitais\n\nColuna B\nA. Parte esponjosa da uretra\nB. Lábios escrotais (escroto)\nC. Epidídimo, ducto deferente e vesículas seminais\nD. Pênis, corpo esponjoso e corpos cavernosos",
+    "options": [
+      "1 – A; 2 – C; 3 – B; 4 – D",
+      "1 – C; 2 – D; 3 – A; 4 – B",
+      "1 – D; 2 – A; 3 – C; 4 – B",
+      "1 – C; 2 – D; 3 – B; 4 – A",
+      "1 – B; 2 – D; 3 – A; 4 – C"
+    ],
+    "answerIndex": 1,
+    "explanation": "**Gabarito: B**\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-044"
+  },
+  {
+    "id": "sop3-84936b1a",
+    "subject": "sop3",
+    "exam": "PR2",
+    "format": "tf",
+    "kind": "verdadeiro-falso",
+    "topic": "Embriologia do sistema reprodutor",
+    "stem": "Sobre o desenvolvimento e a estrutura do sistema reprodutor masculino, marque V (Verdadeiro) ou F (Falso).",
+    "statements": [
+      "A hipospádia é uma malformação congênita em que a abertura da uretra não se encontra na ponta do pênis, mas em algum lugar ao longo da parte inferior do pênis, escroto ou, raramente, no períneo.",
+      "O fator determinante de testículo, regulado pelo cromossomo Y, determina a diferenciação testicular; sob sua influência, os cordões gonadais diferenciam-se nos cordões seminíferos.",
+      "O hormônio antimülleriano determina a diferenciação da gônada primitiva em testículos, por meio da diferenciação dos cordões corticais em cordões gonadais.",
+      "A criptorquidia é um distúrbio em que os testículos não descem até o escroto; quando bilateral e não tratada, causa esterilidade pela temperatura mais alta na cavidade pélvica.",
+      "O processo vaginal, uma evaginação do peritônio, desenvolve-se ventral ao gubernáculo e hernia através da parede do abdome, possibilitando a descida dos testículos até o escroto.",
+      "As paredes dos túbulos seminíferos são compostas por células de Sertoli e espermatogônias, e os dois tipos celulares derivam das células germinativas primordiais."
+    ],
+    "truth": [
+      true,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    "tfStyle": "vf",
+    "explanation": "**Gabarito: V – V – F – V – V – F**\n\nQuem determina o testículo é o **SRY**; o AMH faz regredir os ductos de Müller. As células de Sertoli derivam do epitélio celômico, não das células germinativas.\n\n*Gabarito conferido pelo conteúdo; as marcações à mão do compilado nem sempre estavam certas.*",
+    "source": "Compilado de provas SOI III — Histologia e Embriologia (Profas. Bruna B. Gouveia e Ana Rita França)",
+    "origin": "prova",
+    "ref": "SOP3-045"
+  }
+]
