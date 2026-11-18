@@ -1,0 +1,697 @@
+{
+  "meta": {
+    "titulo": "Bases Cirúrgicas PR2 · questões do material de anestesia e de infecção",
+    "gerado_em": "2026-11-18",
+    "base": "Guia Bases Cirúrgicas PR2 completo (83 p.), módulos 04B e 07B."
+  },
+  "questoes": [
+    {
+      "id": "BC-ANEST-MAT-01",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Mulher de 58 anos, DM2 de difícil controle (HbA1c 10,2%) e obesidade mórbida (IMC 45), para colecistectomia videolaparoscópica eletiva. Pela classificação ASA, o caso é:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "ASA I — sem doença sistêmica."
+        },
+        {
+          "letra": "B",
+          "texto": "ASA II — doença sistêmica leve, sem limitação funcional."
+        },
+        {
+          "letra": "C",
+          "texto": "ASA III — doença sistêmica grave."
+        },
+        {
+          "letra": "D",
+          "texto": "ASA IV — ameaça constante à vida."
+        },
+        {
+          "letra": "E",
+          "texto": "ASA V — moribundo."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "DM mal controlado e IMC ≥ 40 = doença sistêmica grave → ASA III; eletiva, sem E. ASA II seria DM controlado, IMC 30–39,9, tabagista, gestante; ASA IV, IAM < 3 meses, sepse, choque. Dica: a banca troca \"grave\" por \"leve\" e \"mal controlada\" por \"controlada\"."
+    },
+    {
+      "id": "BC-ANEST-MAT-02",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Homem de 34 anos, ASA I, colecistectomia eletiva às 8h. Às 5h30 tomou café preto sem leite e suco de laranja coado, sem polpa. Pela SBA, para paciente sem risco de aspiração, a conduta é:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Adiar para 10h30: líquidos claros exigem 4 h."
+        },
+        {
+          "letra": "B",
+          "texto": "Adiar para 14h30: qualquer ingestão exige 6 h."
+        },
+        {
+          "letra": "C",
+          "texto": "Manter o horário: líquidos claros sem resíduos exigem 2 h."
+        },
+        {
+          "letra": "D",
+          "texto": "Suspender: líquidos claros são proibidos até a indução."
+        },
+        {
+          "letra": "E",
+          "texto": "Fazer só bloqueio de neuroeixo, pois a via aérea está \"contaminada\"."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Café sem leite e suco coado sem polpa são líquidos claros: 2 h. A ingestão foi 2h30 antes → manter. Jejum longo não protege e causa ansiedade, desidratação, hipoglicemia e resistência insulínica. Dica: café com leite, suco com polpa ou pão → regra de 6–8 h."
+    },
+    {
+      "id": "BC-ANEST-MAT-03",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Na consulta pré-anestésica de um paciente de 47 anos para artroplastia de joelho, sobre os preditores de via aérea difícil, é correto:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Mallampati IV, isoladamente, confirma intubação difícil."
+        },
+        {
+          "letra": "B",
+          "texto": "Ausência de dentes, barba espessa, apneia obstrutiva do sono e aumento de partes moles da face predizem ventilação difícil com máscara."
+        },
+        {
+          "letra": "C",
+          "texto": "Distância tireomentoniana < 6 cm indica intubação fácil."
+        },
+        {
+          "letra": "D",
+          "texto": "Cormack-Lehane é determinado no pré-operatório, com o paciente acordado."
+        },
+        {
+          "letra": "E",
+          "texto": "Abertura bucal > 3 cm é critério de via aérea difícil."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Barba, edentulismo, AOS e partes moles aumentadas dificultam a vedação da máscara. (A) nenhum teste isolado confirma; (C) < 6 cm prediz intubação difícil; (D) Cormack-Lehane é feito durante a laringoscopia; (E) difícil é abertura < 3 cm."
+    },
+    {
+      "id": "BC-ANEST-MAT-04",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Sobre os agentes venosos de indução, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "O propofol, em dose hipnótica, proporciona analgesia visceral intensa."
+        },
+        {
+          "letra": "B",
+          "texto": "A cetamina reduz a PIC e é a escolha no TCE com hipertensão intracraniana."
+        },
+        {
+          "letra": "C",
+          "texto": "O etomidato preserva a estabilidade hemodinâmica, mas inibe a esteroidogênese adrenocortical."
+        },
+        {
+          "letra": "D",
+          "texto": "O tiopental é broncodilatador e não libera histamina, sendo preferível na asma grave."
+        },
+        {
+          "letra": "E",
+          "texto": "O midazolam é o indutor de escolha no hipovolêmico, pela estabilidade cardiovascular."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Etomidato: o mais estável, mas inibe a 11β-hidroxilase (cortisol ↓ até 24 h). (A) propofol não é analgésico; (B) cetamina eleva a PIC; (D) tiopental libera histamina; (E) midazolam causa hipotensão no hipovolêmico."
+    },
+    {
+      "id": "BC-ANEST-MAT-05",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Sobre a concentração alveolar mínima e seus modificadores, é correto:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A CAM aumenta progressivamente com a idade."
+        },
+        {
+          "letra": "B",
+          "texto": "A associação de óxido nitroso reduz a CAM do halogenado."
+        },
+        {
+          "letra": "C",
+          "texto": "Hipotermia e hipotensão grave elevam a CAM."
+        },
+        {
+          "letra": "D",
+          "texto": "A CAM é a concentração que anestesia 100% dos pacientes sob estímulo padronizado."
+        },
+        {
+          "letra": "E",
+          "texto": "A CAM depende da solubilidade sanguínea, e não da lipossolubilidade."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "A CAM é aditiva: 60–70% de N₂O reduz em ~metade a CAM do halogenado. (A) idade reduz; (C) hipotermia e hipotensão reduzem; (D) é 50%; (E) potência acompanha a lipossolubilidade; solubilidade sanguínea muda a velocidade."
+    },
+    {
+      "id": "BC-ANEST-MAT-06",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Sobre a farmacologia dos anestésicos locais e vasoconstritores, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Os ésteres são metabolizados no fígado e têm menor potencial alergênico que as amidas."
+        },
+        {
+          "letra": "B",
+          "texto": "Lidocaína, bupivacaína e ropivacaína são amidas, metabolizadas no fígado; os ésteres são hidrolisados pela pseudocolinesterase e têm mais risco de alergia."
+        },
+        {
+          "letra": "C",
+          "texto": "A adrenalina prolonga o bloqueio e aumenta a absorção sistêmica."
+        },
+        {
+          "letra": "D",
+          "texto": "A bupivacaína é a amida de menor cardiotoxicidade."
+        },
+        {
+          "letra": "E",
+          "texto": "O início de ação depende apenas da concentração da solução."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Amida = fígado; éster = plasma e PABA (alergia). (A) inverte tudo; (C) adrenalina reduz a absorção; (D) bupivacaína é a mais cardiotóxica; (E) o início depende também do pKa. Dica: éster = alergia · amida = fígado · bupivacaína = coração."
+    },
+    {
+      "id": "BC-ANEST-MAT-07",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Baricidade é a razão entre a densidade da solução e a do LCR a 37 °C. Sobre a raquianestesia, é correto:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Soluções hiperbáricas são menos densas que o LCR e tendem a subir."
+        },
+        {
+          "letra": "B",
+          "texto": "Soluções isobáricas se distribuem conforme a gravidade, exigindo mudança de posição."
+        },
+        {
+          "letra": "C",
+          "texto": "Soluções hipobáricas são menos densas que o LCR e tendem a subir em relação ao ponto de injeção."
+        },
+        {
+          "letra": "D",
+          "texto": "A baricidade não interfere no nível nem na duração do bloqueio."
+        },
+        {
+          "letra": "E",
+          "texto": "Aumentar a dose reduz a dispersão cefálica."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Hipobárica sobe; hiperbárica (com glicose) desce; isobárica fica. (D) baricidade e dose mudam nível e duração; (E) dose maior aumenta a dispersão cefálica."
+    },
+    {
+      "id": "BC-ANEST-MAT-08",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Sobre os bloqueadores neuromusculares, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A succinilcolina é não despolarizante, de início lento e sem efeito sobre o potássio."
+        },
+        {
+          "letra": "B",
+          "texto": "A succinilcolina é a escolha no grande queimado com mais de 72 h."
+        },
+        {
+          "letra": "C",
+          "texto": "A succinilcolina é despolarizante, de início ultrarrápido, útil na sequência rápida, mas eleva o potássio e pode desencadear hipertermia maligna."
+        },
+        {
+          "letra": "D",
+          "texto": "O rocurônio é plenamente revertido pela neostigmina em 2 min, mesmo em bloqueio profundo."
+        },
+        {
+          "letra": "E",
+          "texto": "O atracúrio depende exclusivamente do fígado para sua eliminação."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Início em 30–60 s, duração 5–10 min, K⁺ ↑ ~0,5 mEq/L, gatilho de HM. (B) contraindicada no queimado após 24–48 h; (D) neostigmina só reverte bloqueio parcial — profundo com rocurônio = sugamadex; (E) atracúrio = Hofmann."
+    },
+    {
+      "id": "BC-ANEST-MAT-09",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Jovem de 19 anos, hígido, sob anestesia com sevoflurano e succinilcolina: taquicardia, ETCO₂ subindo sem resposta ao aumento da ventilação-minuto, rigidez mandibular e acidose metabólica. A conduta imediata é:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Aprofundar a anestesia com o halogenado e manter a succinilcolina."
+        },
+        {
+          "letra": "B",
+          "texto": "Suspender os agentes desencadeantes, hiperventilar com O₂ 100% e dar dantrolene 2,5 mg/kg IV."
+        },
+        {
+          "letra": "C",
+          "texto": "Dar naloxona e flumazenil."
+        },
+        {
+          "letra": "D",
+          "texto": "Resfriar passivamente e observar, pois a hipertermia é o sinal mais precoce."
+        },
+        {
+          "letra": "E",
+          "texto": "Repetir a succinilcolina para controlar a rigidez."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Hipertermia maligna: retirar gatilhos, O₂ 100% e dantrolene. (D) a hipertermia é tardia; o primeiro sinal é o ETCO₂ refratário."
+    },
+    {
+      "id": "BC-ANEST-MAT-10",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Bases da anestesiologia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "slide do professor",
+      "fonte": "Material da aula de anestesia: \"Anestesiologia — 10 questões de princípios básicos\" (com gabarito comentado), via Guia Bases Cirúrgicas PR2 completo, módulo 04B",
+      "enunciado": "Sobre a monitorização mínima na anestesia geral e a alta da SRPA, assinale a correta:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "A capnografia é obrigatória apenas com intubação orotraqueal."
+        },
+        {
+          "letra": "B",
+          "texto": "A monitorização mínima inclui oximetria, FC, PA, ECG, capnografia e temperatura."
+        },
+        {
+          "letra": "C",
+          "texto": "O Aldrete permite alta a partir de 4 pontos, num máximo de 10."
+        },
+        {
+          "letra": "D",
+          "texto": "A temperatura só é monitorada em cirurgias com mais de 4 h."
+        },
+        {
+          "letra": "E",
+          "texto": "A ausculta precordial substitui a capnografia na máscara laríngea."
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Oxigenação, ventilação (capnografia), circulação e temperatura. (A/E) capnografia vale também para máscara laríngea e facial; (C) alta com 8–9 (maioria ≥ 9); (D) temperatura em procedimentos > 60 min. Dica: oximetria normal não descarta intubação esofágica; o Aldrete não avalia dor nem náusea."
+    },
+    {
+      "id": "BC-INFEC-GUIA-01",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "Paciente com cultura de swab nasal positiva para S. aureus, sem febre, sem sinais flogísticos e sem lesão. Isso caracteriza:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Contaminação"
+        },
+        {
+          "letra": "B",
+          "texto": "Colonização"
+        },
+        {
+          "letra": "C",
+          "texto": "Infecção de sítio cirúrgico superficial"
+        },
+        {
+          "letra": "D",
+          "texto": "Sepse"
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Multiplicação sem sinais clínicos = colonização. Contaminação é só presença; infecção exige invasão e clínica."
+    },
+    {
+      "id": "BC-INFEC-GUIA-02",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "Apendicectomia por apendicite aguda sem perfuração, com inflamação aguda e sem pus. A ferida é classificada como:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Limpa"
+        },
+        {
+          "letra": "B",
+          "texto": "Limpa-contaminada"
+        },
+        {
+          "letra": "C",
+          "texto": "Contaminada"
+        },
+        {
+          "letra": "D",
+          "texto": "Infectada/suja"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Inflamação aguda sem pus = contaminada (III). Com perfuração e pus seria IV."
+    },
+    {
+      "id": "BC-INFEC-GUIA-03",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "No 10º dia após colectomia, paciente com febre e coleção subfrênica na TC. Trata-se de ISC:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Incisional superficial"
+        },
+        {
+          "letra": "B",
+          "texto": "Incisional profunda"
+        },
+        {
+          "letra": "C",
+          "texto": "De órgão/espaço"
+        },
+        {
+          "letra": "D",
+          "texto": "Não é ISC, pois passou de 7 dias"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Coleção em cavidade manipulada = órgão/espaço (tipo 3). O prazo é de até 30 dias."
+    },
+    {
+      "id": "BC-INFEC-GUIA-04",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "Sobre a antibioticoprofilaxia cirúrgica, assinale a INCORRETA:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Deve ser feita 60–30 min antes da incisão."
+        },
+        {
+          "letra": "B",
+          "texto": "Na cirurgia gastrointestinal, cefazolina 2 g IV em dose única é a 1ª escolha."
+        },
+        {
+          "letra": "C",
+          "texto": "Iniciar na véspera aumenta a proteção e é a conduta recomendada."
+        },
+        {
+          "letra": "D",
+          "texto": "Na alergia a β-lactâmico em prótese, usa-se vancomicina 15 mg/kg."
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Profilaxia é na janela de 60–30 min, quase sempre dose única. Começar na véspera não protege mais."
+    },
+    {
+      "id": "BC-INFEC-GUIA-05",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "São medidas dos 5 pilares de prevenção da ISC, EXCETO:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Glicemia perioperatória < 180 mg/dL"
+        },
+        {
+          "letra": "B",
+          "texto": "Temperatura intraoperatória ≥ 36 °C"
+        },
+        {
+          "letra": "C",
+          "texto": "Tricotomia com lâmina na véspera"
+        },
+        {
+          "letra": "D",
+          "texto": "Clorexidina alcoólica no preparo da pele"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "Lâmina causa microlesões (porta de entrada). Se precisar, tricotomizador."
+    },
+    {
+      "id": "BC-INFEC-GUIA-06",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "Paciente com abscesso de parede (ISC superficial), sem febre e sem celulite extensa. A conduta é:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Antibiótico oral por 14 dias, sem abrir a ferida"
+        },
+        {
+          "letra": "B",
+          "texto": "Abrir e drenar a ferida, desbridar e fazer curativo; antibiótico só com sinais sistêmicos"
+        },
+        {
+          "letra": "C",
+          "texto": "Reoperação imediata com laparotomia"
+        },
+        {
+          "letra": "D",
+          "texto": "Observar por 48 h"
+        }
+      ],
+      "gabarito": [
+        "B"
+      ],
+      "gabarito_texto": "B",
+      "gabarito_oficial": "B",
+      "comentario": "Controle do foco primeiro; ATB só com celulite extensa ou sinais sistêmicos (conduta do caso de abertura)."
+    },
+    {
+      "id": "BC-INFEC-GUIA-07",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "Faz parte do qSOFA:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Lactato > 2 mmol/L"
+        },
+        {
+          "letra": "B",
+          "texto": "Frequência cardíaca > 90 bpm"
+        },
+        {
+          "letra": "C",
+          "texto": "Frequência respiratória ≥ 22 irpm"
+        },
+        {
+          "letra": "D",
+          "texto": "Leucócitos > 12.000"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "qSOFA: FR ≥ 22, alteração mental, PAS ≤ 100. Lactato entra no pacote da 1ª hora, não no qSOFA."
+    },
+    {
+      "id": "BC-INFEC-GUIA-08",
+      "materia": "Bases Cirúrgicas",
+      "prova": "PR2",
+      "tema": "Infecção em cirurgia",
+      "subtema": null,
+      "tipo": "objetiva",
+      "origem": "inédita",
+      "fonte": "Guia Bases Cirúrgicas PR2 completo, módulo 07B — questões montadas a partir dos slides da aula de infecção em cirurgia (Prof. Thiago P. Rodrigues)",
+      "enunciado": "São fatores de risco relacionados ao procedimento, EXCETO:",
+      "imagem": null,
+      "alternativas": [
+        {
+          "letra": "A",
+          "texto": "Duração maior que 2 horas"
+        },
+        {
+          "letra": "B",
+          "texto": "Hipotermia intraoperatória"
+        },
+        {
+          "letra": "C",
+          "texto": "Colonização nasal por S. aureus"
+        },
+        {
+          "letra": "D",
+          "texto": "Cirurgia de urgência"
+        }
+      ],
+      "gabarito": [
+        "C"
+      ],
+      "gabarito_texto": "C",
+      "gabarito_oficial": "C",
+      "comentario": "S. aureus nasal é fator do paciente."
+    }
+  ]
+}

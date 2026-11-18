@@ -1,0 +1,689 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Bases · Anestesiologia e infecção (slides novos)",
+  "gerado_em": "2026-11-18",
+  "base": "Guia Bases Cirúrgicas PR2 completo, módulos 04B (princípios de anestesia) e 07B (infecção em cirurgia). Formato do professor."
+ },
+ "questoes": [
+  {
+   "id": "BC-PF4-01",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "indutores",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anestésicos venosos,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O propofol causa hipotensão e é antiemético."
+    },
+    {
+     "letra": "B",
+     "texto": "A cetamina é broncodilatadora e eleva a PIC."
+    },
+    {
+     "letra": "C",
+     "texto": "O propofol tem potente efeito analgésico."
+    },
+    {
+     "letra": "D",
+     "texto": "O etomidato suprime a adrenal (11β-hidroxilase)."
+    },
+    {
+     "letra": "E",
+     "texto": "O tiopental libera histamina e é contraindicado na porfiria."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Macete: \"Propofol nunca é analgésico (e é antiemético)\"."
+  },
+  {
+   "id": "BC-PF4-02",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "indutor · choque",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Politraumatizado hipovolêmico e hipotenso precisa de intubação. O indutor que melhor preserva a estabilidade hemodinâmica é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tiopental."
+    },
+    {
+     "letra": "B",
+     "texto": "Sevoflurano por máscara."
+    },
+    {
+     "letra": "C",
+     "texto": "Propofol em dose plena."
+    },
+    {
+     "letra": "D",
+     "texto": "Etomidato."
+    },
+    {
+     "letra": "E",
+     "texto": "Midazolam em dose alta."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Etomidato: escolha em hipovolêmico, cardiopata grave e choque — com a ressalva da supressão adrenal (cautela na sepse)."
+  },
+  {
+   "id": "BC-PF4-03",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "indutor · asma",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Asmático em broncoespasmo precisa de intubação. O indutor com efeito broncodilatador é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cetamina."
+    },
+    {
+     "letra": "B",
+     "texto": "Atracúrio."
+    },
+    {
+     "letra": "C",
+     "texto": "Tiopental."
+    },
+    {
+     "letra": "D",
+     "texto": "Etomidato."
+    },
+    {
+     "letra": "E",
+     "texto": "Fentanil em bolus rápido."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Cetamina: antagonista NMDA, simpaticomimética e broncodilatadora; evitar na hipertensão intracraniana."
+  },
+  {
+   "id": "BC-PF4-04",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "CAM",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a concentração alveolar mínima (CAM),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Quanto mais lipossolúvel, menor a CAM."
+    },
+    {
+     "letra": "B",
+     "texto": "O desflurano acorda mais rápido porque é o mais potente."
+    },
+    {
+     "letra": "C",
+     "texto": "Febre e uso crônico de álcool aumentam a CAM."
+    },
+    {
+     "letra": "D",
+     "texto": "A CAM impede o movimento em 50% dos pacientes."
+    },
+    {
+     "letra": "E",
+     "texto": "Idade avançada e hipotermia reduzem a CAM."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "O desflurano acorda rápido pela **baixa solubilidade sanguínea**; potência acompanha a lipossolubilidade (CAM ~6%, pouco potente)."
+  },
+  {
+   "id": "BC-PF4-05",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "óxido nitroso",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o óxido nitroso,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Não atinge 1 CAM sozinho."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumenta náuseas e vômitos pós-operatórios."
+    },
+    {
+     "letra": "C",
+     "texto": "Reduz a CAM do halogenado associado."
+    },
+    {
+     "letra": "D",
+     "texto": "Expande cavidades aéreas."
+    },
+    {
+     "letra": "E",
+     "texto": "Desencadeia hipertermia maligna como os halogenados."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "O N₂O **não** desencadeia HM; também inativa a vitamina B12."
+  },
+  {
+   "id": "BC-PF4-06",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "succinilcolina",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São contraindicações à succinilcolina, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "História pessoal ou familiar de hipertermia maligna."
+    },
+    {
+     "letra": "B",
+     "texto": "Distrofia muscular."
+    },
+    {
+     "letra": "C",
+     "texto": "Lesão medular com denervação."
+    },
+    {
+     "letra": "D",
+     "texto": "Queimadura com mais de 24–48 h."
+    },
+    {
+     "letra": "E",
+     "texto": "Grande queimado nas primeiras horas, para sequência rápida."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "No queimado agudo (primeiras horas) a succinilcolina ainda pode ser usada; a contraindicação começa após 24–48 h."
+  },
+  {
+   "id": "BC-PF4-07",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "via aérea",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação da via aérea,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O Mallampati isolado tem baixo valor preditivo positivo."
+    },
+    {
+     "letra": "B",
+     "texto": "O Cormack-Lehane é avaliado no pré-operatório, com o paciente acordado."
+    },
+    {
+     "letra": "C",
+     "texto": "Barba e falta de dentes predizem ventilação difícil sob máscara."
+    },
+    {
+     "letra": "D",
+     "texto": "O Mallampati é feito com o paciente sentado e a língua protruída."
+    },
+    {
+     "letra": "E",
+     "texto": "Distância tireomentoniana < 6 cm prediz intubação difícil."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Cormack-Lehane é a visão da glote **durante a laringoscopia**."
+  },
+  {
+   "id": "BC-PF4-08",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "baricidade",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na raquianestesia com bupivacaína hiperbárica (com glicose), ao colocar o paciente em posição de Trendelenburg, espera-se que o bloqueio:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Suba em direção cefálica."
+    },
+    {
+     "letra": "B",
+     "texto": "Desça para os membros inferiores."
+    },
+    {
+     "letra": "C",
+     "texto": "Fique restrito ao ponto de injeção."
+    },
+    {
+     "letra": "D",
+     "texto": "Passe ao espaço peridural."
+    },
+    {
+     "letra": "E",
+     "texto": "Não se altere com a posição."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"Hiper desce, hipo sobe, iso fica\" — desce pela gravidade: com a cabeça mais baixa, sobe em direção cefálica."
+  },
+  {
+   "id": "BC-PF4-09",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "monitorização",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a monitorização mínima (CFM 2.174/2017),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cardioscopia e oximetria são contínuas."
+    },
+    {
+     "letra": "B",
+     "texto": "A temperatura é monitorada em procedimentos > 60 min."
+    },
+    {
+     "letra": "C",
+     "texto": "A capnografia é exigida também na máscara laríngea."
+    },
+    {
+     "letra": "D",
+     "texto": "Oximetria normal descarta intubação esofágica."
+    },
+    {
+     "letra": "E",
+     "texto": "A capnografia confirma a intubação."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Quem descarta intubação esofágica é a **capnografia**."
+  },
+  {
+   "id": "BC-PF4-10",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "hipertermia maligna",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na hipertermia maligna, o sinal mais precoce é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotensão isolada."
+    },
+    {
+     "letra": "B",
+     "texto": "Febre acima de 40 °C."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumento do ETCO₂ refratário à hiperventilação."
+    },
+    {
+     "letra": "D",
+     "texto": "Hipoglicemia."
+    },
+    {
+     "letra": "E",
+     "texto": "Bradicardia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "\"O CO₂ chega antes do calor.\" Conduta: suspender gatilhos, O₂ 100%, dantrolene 2,5 mg/kg."
+  },
+  {
+   "id": "BC-PF4-11",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "ASA · exemplos",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com IAM há 2 meses, internado com isquemia ativa, para cirurgia de urgência. A classificação ASA é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "ASA IVE."
+    },
+    {
+     "letra": "B",
+     "texto": "ASA V."
+    },
+    {
+     "letra": "C",
+     "texto": "ASA II."
+    },
+    {
+     "letra": "D",
+     "texto": "ASA IV, sem E."
+    },
+    {
+     "letra": "E",
+     "texto": "ASA IIIE."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "IAM ou AVC < 3 meses, isquemia ativa = ASA IV; urgência → E."
+  },
+  {
+   "id": "BC-PF4-12",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "balanceada",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anestesia geral balanceada,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Os bloqueadores agem no receptor nicotínico da placa motora."
+    },
+    {
+     "letra": "B",
+     "texto": "Combina classes diferentes para reduzir doses e efeitos adversos."
+    },
+    {
+     "letra": "C",
+     "texto": "O trem de quatro (TOF) monitora o bloqueio neuromuscular."
+    },
+    {
+     "letra": "D",
+     "texto": "TIVA é a técnica que combina halogenado com opioide."
+    },
+    {
+     "letra": "E",
+     "texto": "Hipnose, analgesia e relaxamento têm fármacos próprios."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "TIVA = anestesia **venosa total** (propofol + opioide), sem volátil."
+  },
+  {
+   "id": "BC-PF4-13",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "conceitos",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os conceitos em infecção cirúrgica (slides),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A ISC é a 3ª infecção hospitalar mais frequente."
+    },
+    {
+     "letra": "B",
+     "texto": "A colonização exige invasão tecidual e resposta clínica."
+    },
+    {
+     "letra": "C",
+     "texto": "Contaminação é a presença de micro-organismos sem resposta."
+    },
+    {
+     "letra": "D",
+     "texto": "Infecção é invasão com resposta e clínica."
+    },
+    {
+     "letra": "E",
+     "texto": "Colonização é a multiplicação sem clínica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Contaminação → colonização → infecção."
+  },
+  {
+   "id": "BC-PF4-14",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "taxas por classe",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Segundo os slides, a taxa esperada de ISC na ferida limpa-contaminada (classe II) é de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "10–20%."
+    },
+    {
+     "letra": "B",
+     "texto": "50%."
+    },
+    {
+     "letra": "C",
+     "texto": "< 2%."
+    },
+    {
+     "letra": "D",
+     "texto": "> 30%."
+    },
+    {
+     "letra": "E",
+     "texto": "2–10%."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "I < 2% · II 2–10% · III 10–20% · IV > 30%."
+  },
+  {
+   "id": "BC-PF4-15",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "controle do foco",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Segundo a hierarquia do tratamento da infecção cirúrgica ensinada na aula, a prioridade é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Corticoide."
+    },
+    {
+     "letra": "B",
+     "texto": "Aguardar a cultura."
+    },
+    {
+     "letra": "C",
+     "texto": "Controle do foco (drenar/desbridar)."
+    },
+    {
+     "letra": "D",
+     "texto": "Antibiótico de amplo espectro isolado."
+    },
+    {
+     "letra": "E",
+     "texto": "Suporte nutricional."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "\"O antibiótico sem drenagem do foco é insuficiente!\" Controle do foco > antibiótico > suporte."
+  },
+  {
+   "id": "BC-PF4-16",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "caso H.M.",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 58 anos, diabético e obeso, 7 dias após colecistectomia de urgência convertida para aberta, com febre, eritema e secreção amarelada na ferida, fáscia íntegra. O diagnóstico e a conduta inicial são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "ISC profunda; apenas antibiótico oral."
+    },
+    {
+     "letra": "B",
+     "texto": "Seroma; puncionar e dar alta."
+    },
+    {
+     "letra": "C",
+     "texto": "ISC incisional superficial; abrir, drenar e fazer curativo."
+    },
+    {
+     "letra": "D",
+     "texto": "Colonização; observar."
+    },
+    {
+     "letra": "E",
+     "texto": "ISC de órgão/espaço; laparotomia imediata."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Caso de abertura da aula. Fatores: DM, obesidade, urgência, conversão (> 2 h). ATB se sinais sistêmicos/celulite."
+  },
+  {
+   "id": "BC-PF4-17",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "5 pilares",
+   "origem": "inédita",
+   "fonte": "Guia Bases Cirúrgicas PR2 completo · slides \"Princípios básicos e noções em anestesia\" e \"Infecção em cirurgia\" (Prof. Thiago P. Rodrigues)",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os 5 pilares de prevenção da ISC (slides),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Temperatura ≥ 36 °C."
+    },
+    {
+     "letra": "B",
+     "texto": "Glicemia < 180 mg/dL."
+    },
+    {
+     "letra": "C",
+     "texto": "Antibiótico 60–30 min antes da incisão."
+    },
+    {
+     "letra": "D",
+     "texto": "A profilaxia deve ser mantida por 7 dias após a cirurgia."
+    },
+    {
+     "letra": "E",
+     "texto": "Clorexidina alcoólica, sem tricotomia com lâmina."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Profilaxia em **dose única** na maioria das cirurgias."
+  }
+ ]
+}

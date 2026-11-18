@@ -1,0 +1,3289 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · Bases Cirúrgicas · Lote 3 (cobertura completa do guia)",
+  "gerado_em": "2026-11-18",
+  "base": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides das aulas, plano IDM030, banco de distratores). Formato do professor: incorreta/EXCETO com uma peça trocada, casos da aula, cálculos e associação de colunas."
+ },
+ "questoes": [
+  {
+   "id": "BC-PF3-01",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "fibras",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as fibras da dor,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A fibra C conduz a segunda dor, em queimação e difusa."
+    },
+    {
+     "letra": "B",
+     "texto": "A fibra Aδ é amielínica e conduz a dor em queimação, difusa."
+    },
+    {
+     "letra": "C",
+     "texto": "A fibra C é amielínica e lenta (0,5–2 m/s)."
+    },
+    {
+     "letra": "D",
+     "texto": "A fibra Aδ é pouco mielinizada e conduz a primeira dor, em pontada."
+    },
+    {
+     "letra": "E",
+     "texto": "A fibra Aβ conduz tato e vibração e fecha o portão."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Distrator do banco: \"Aδ é amielínica e conduz dor em queimação\". Aδ = mielinizada, 1ª dor; C = amielínica, 2ª dor (\"A-delta é Direta; C é Calma e Chata\")."
+  },
+  {
+   "id": "BC-PF3-02",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "etapas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as etapas da nocicepção,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O anestésico local bloqueia a transmissão ao inibir canais de Na⁺."
+    },
+    {
+     "letra": "B",
+     "texto": "A transdução converte o estímulo nocivo em potencial elétrico no nociceptor."
+    },
+    {
+     "letra": "C",
+     "texto": "A percepção envolve córtex, cíngulo, ínsula e sistema límbico."
+    },
+    {
+     "letra": "D",
+     "texto": "Os AINEs e a dipirona agem principalmente na transdução."
+    },
+    {
+     "letra": "E",
+     "texto": "A modulação ocorre no córtex somatossensorial e define onde e quanto dói."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Modulação ocorre no **corno dorsal** (portão, vias descendentes, opioides). Ordem: Transdução, Transmissão, Modulação, Percepção (T-T-M-P)."
+  },
+  {
+   "id": "BC-PF3-03",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "neurotransmissores",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a modulação da dor no corno dorsal,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glutamato e substância P são neurotransmissores inibitórios da primeira sinapse."
+    },
+    {
+     "letra": "B",
+     "texto": "Serotonina e noradrenalina participam das vias descendentes inibitórias."
+    },
+    {
+     "letra": "C",
+     "texto": "Receptores NMDA participam da sensibilização central."
+    },
+    {
+     "letra": "D",
+     "texto": "As vias descendentes partem da substância cinzenta periaquedutal."
+    },
+    {
+     "letra": "E",
+     "texto": "GABA, glicina e encefalinas são inibitórios."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Glutamato e substância P são **excitatórios** (distrator do banco)."
+  },
+  {
+   "id": "BC-PF3-04",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "via ascendente",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os três neurônios da via da dor (slide),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O neurônio de 3ª ordem está no tálamo (núcleos VPL/VPM)."
+    },
+    {
+     "letra": "B",
+     "texto": "O neurônio de 1ª ordem está no gânglio da raiz dorsal."
+    },
+    {
+     "letra": "C",
+     "texto": "O neurônio de 2ª ordem está no tálamo e projeta ao córtex."
+    },
+    {
+     "letra": "D",
+     "texto": "A fibra cruza pela comissura anterior e sobe pelo trato espinotalâmico."
+    },
+    {
+     "letra": "E",
+     "texto": "O neurônio de 2ª ordem está no corno dorsal (lâminas I, II e V)."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "2ª ordem: corno dorsal; 3ª ordem: tálamo."
+  },
+  {
+   "id": "BC-PF3-05",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "classificação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a classificação da dor,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dor aguda tem lesão identificável e função de alerta."
+    },
+    {
+     "letra": "B",
+     "texto": "A dor do membro fantasma é exemplo de dor neuropática."
+    },
+    {
+     "letra": "C",
+     "texto": "Dor neuropática decorre de lesão ou doença do sistema somatossensorial."
+    },
+    {
+     "letra": "D",
+     "texto": "Dor crônica é a que dura mais de 30 dias."
+    },
+    {
+     "letra": "E",
+     "texto": "A fibromialgia é exemplo de dor nociplástica."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Crônica: **> 3 meses** ou além do tempo de cicatrização (IASP)."
+  },
+  {
+   "id": "BC-PF3-06",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "portão",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a teoria do portão (Melzack e Wall, 1965),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A estimulação da medula espinal é usada na dor neuropática refratária."
+    },
+    {
+     "letra": "B",
+     "texto": "Esfregar o local e o TENS aplicam o princípio do portão."
+    },
+    {
+     "letra": "C",
+     "texto": "Centros supraespinais também regulam o portão."
+    },
+    {
+     "letra": "D",
+     "texto": "A fibra Aβ ativa o interneurônio inibitório da substância gelatinosa."
+    },
+    {
+     "letra": "E",
+     "texto": "A fibra C ativa o interneurônio inibitório e fecha o portão."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Aβ **fecha**; C **abre** (inibe o interneurônio)."
+  },
+  {
+   "id": "BC-PF3-07",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "visceral × parietal",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a dor abdominal,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor parietal é bem localizada, com defesa e descompressão dolorosa."
+    },
+    {
+     "letra": "B",
+     "texto": "A dor visceral é mal localizada, na linha média, com sintomas autonômicos."
+    },
+    {
+     "letra": "C",
+     "texto": "A víscera é sensível a distensão, isquemia e inflamação, não ao corte."
+    },
+    {
+     "letra": "D",
+     "texto": "A dor visceral é bem localizada e piora com o movimento e a tosse."
+    },
+    {
+     "letra": "E",
+     "texto": "Na dor parietal o paciente tende a ficar imóvel."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A descrição da alternativa errada é da dor **parietal**."
+  },
+  {
+   "id": "BC-PF3-08",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "origem embriológica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a localização da dor visceral pela origem embriológica,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A dor do intestino médio é sentida no epigástrio."
+    },
+    {
+     "letra": "B",
+     "texto": "Estômago e duodeno (intestino anterior) doem no epigástrio."
+    },
+    {
+     "letra": "C",
+     "texto": "Cólon esquerdo e reto (intestino posterior) doem no hipogástrio."
+    },
+    {
+     "letra": "D",
+     "texto": "Apêndice e delgado (intestino médio) doem na região periumbilical."
+    },
+    {
+     "letra": "E",
+     "texto": "Vias biliares e pâncreas são do intestino anterior."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"Anterior em cima, médio no meio, posterior embaixo.\""
+  },
+  {
+   "id": "BC-PF3-09",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "dor referida",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a víscera ao local da dor referida:\n\n1. Diafragma\n2. Vesícula biliar\n3. Ureter\n4. Coração\n\nA. Braço esquerdo e mandíbula\nB. Ombro (sinal de Kehr)\nC. Escápula direita\nD. Região inguinal e genitália\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-D, 2-A, 3-C, 4-B"
+    },
+    {
+     "letra": "B",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "C",
+     "texto": "1-D, 2-C, 3-A, 4-B"
+    },
+    {
+     "letra": "D",
+     "texto": "1-D, 2-A, 3-B, 4-C"
+    },
+    {
+     "letra": "E",
+     "texto": "1-D, 2-B, 3-A, 4-C"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Dor referida: convergência de aferentes viscerais e somáticos no mesmo neurônio do corno dorsal."
+  },
+  {
+   "id": "BC-PF3-10",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "caso · apendicite",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 19 anos com dor \"no meio da barriga\", difusa e com náusea; 10 horas depois a dor está na fossa ilíaca direita, piora ao tossir e há descompressão dolorosa. A mudança é explicada pela passagem de dor:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Somática para visceral."
+    },
+    {
+     "letra": "B",
+     "texto": "Neuropática para nociceptiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Visceral para parietal."
+    },
+    {
+     "letra": "D",
+     "texto": "Parietal para visceral."
+    },
+    {
+     "letra": "E",
+     "texto": "Referida para nociplástica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Distensão do apêndice (fibras C, T10, linha média) → inflamação do peritônio parietal (inervação somática, bem localizada)."
+  },
+  {
+   "id": "BC-PF3-11",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "caso · Kehr",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Motociclista com trauma abdominal fechado refere dor no ombro esquerdo, sem trauma no ombro. Essa dor é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Parietal, por fratura de clavícula."
+    },
+    {
+     "letra": "B",
+     "texto": "Neuropática, por lesão do plexo braquial."
+    },
+    {
+     "letra": "C",
+     "texto": "Nociplástica, sem lesão."
+    },
+    {
+     "letra": "D",
+     "texto": "Referida, por irritação diafragmática."
+    },
+    {
+     "letra": "E",
+     "texto": "Visceral, por lesão do ombro."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sangue do baço irrita o diafragma (C3–C5) → sinal de Kehr."
+  },
+  {
+   "id": "BC-PF3-12",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Fisiologia da dor e dor abdominal",
+   "subtema": "definição IASP",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Fisiologia da dor e dor abdominal",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a definição e os componentes da dor,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O pré-frontal participa do componente cognitivo (expectativa, catastrofização)."
+    },
+    {
+     "letra": "B",
+     "texto": "O cíngulo anterior participa do componente motivacional (sofrimento)."
+    },
+    {
+     "letra": "C",
+     "texto": "A IASP define a dor como experiência sensorial e emocional."
+    },
+    {
+     "letra": "D",
+     "texto": "TCC e meditação modulam o componente afetivo sem alterar a lesão."
+    },
+    {
+     "letra": "E",
+     "texto": "A dor é exclusivamente sensorial, sem componente emocional."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "IASP 2020: experiência sensorial **e emocional**."
+  },
+  {
+   "id": "BC-PF3-13",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "raqui × peridural",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre raquianestesia e anestesia peridural,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A peridural usa volume maior e tem início mais lento."
+    },
+    {
+     "letra": "B",
+     "texto": "Ambas podem causar hipotensão por bloqueio simpático."
+    },
+    {
+     "letra": "C",
+     "texto": "Na raquianestesia o anestésico é injetado no espaço peridural."
+    },
+    {
+     "letra": "D",
+     "texto": "A raqui é feita abaixo de L2, onde termina o cone medular."
+    },
+    {
+     "letra": "E",
+     "texto": "A peridural permite a colocação de cateter."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Raqui = **subaracnoide** (sai líquor). \"Raqui é Rápida e Rasa de volume; Peridural é Paciente e Põe cateter.\""
+  },
+  {
+   "id": "BC-PF3-14",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "peridural",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anestesia peridural,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A concentração determina a intensidade do bloqueio."
+    },
+    {
+     "letra": "B",
+     "texto": "Na peridural, a extensão do bloqueio independe do volume injetado."
+    },
+    {
+     "letra": "C",
+     "texto": "É contraindicada em pacientes anticoagulados."
+    },
+    {
+     "letra": "D",
+     "texto": "O volume determina a extensão do bloqueio."
+    },
+    {
+     "letra": "E",
+     "texto": "O espaço é identificado pela perda de resistência."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "\"Volume vai longe, Concentração vai fundo.\""
+  },
+  {
+   "id": "BC-PF3-15",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "ASA",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a classificação ASA,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A classificação ASA define a técnica anestésica a ser usada."
+    },
+    {
+     "letra": "B",
+     "texto": "ASA IV é doença sistêmica grave com ameaça constante à vida."
+    },
+    {
+     "letra": "C",
+     "texto": "O sufixo \"E\" indica cirurgia de emergência."
+    },
+    {
+     "letra": "D",
+     "texto": "ASA II é doença sistêmica leve, sem limitação."
+    },
+    {
+     "letra": "E",
+     "texto": "Avalia o estado físico do paciente."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Distrator do banco: a ASA avalia o estado físico, não define a técnica."
+  },
+  {
+   "id": "BC-PF3-16",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "reversores",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os fármacos reversores usados em anestesia,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O flumazenil reverte benzodiazepínicos, com risco de ressedação."
+    },
+    {
+     "letra": "B",
+     "texto": "O sugamadex reverte rocurônio e vecurônio."
+    },
+    {
+     "letra": "C",
+     "texto": "A neostigmina reverte bloqueadores neuromusculares não despolarizantes."
+    },
+    {
+     "letra": "D",
+     "texto": "A naloxona reverte os efeitos dos benzodiazepínicos."
+    },
+    {
+     "letra": "E",
+     "texto": "A naloxona reverte opioides."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Benzodiazepínico → flumazenil; opioide → naloxona."
+  },
+  {
+   "id": "BC-PF3-17",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "cefaleia pós-raqui",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a cefaleia pós-punção dural,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O tampão sanguíneo peridural é usado nos casos refratários."
+    },
+    {
+     "letra": "B",
+     "texto": "A cefaleia pós-raqui melhora ao sentar e piora ao deitar."
+    },
+    {
+     "letra": "C",
+     "texto": "Trata-se inicialmente com analgésicos, hidratação e cafeína."
+    },
+    {
+     "letra": "D",
+     "texto": "Gestantes jovens são grupo de risco."
+    },
+    {
+     "letra": "E",
+     "texto": "Decorre da perda de líquor pelo orifício na dura-máter."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "É **postural**: piora ao sentar/levantar e melhora deitado."
+  },
+  {
+   "id": "BC-PF3-18",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "sequência rápida",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a indução em sequência rápida no paciente com estômago cheio,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Usa-se hipnótico e bloqueador de início rápido."
+    },
+    {
+     "letra": "B",
+     "texto": "Evita-se ventilar sob máscara antes da intubação."
+    },
+    {
+     "letra": "C",
+     "texto": "Deve-se evitar o bloqueador neuromuscular na indução."
+    },
+    {
+     "letra": "D",
+     "texto": "Faz-se pré-oxigenação."
+    },
+    {
+     "letra": "E",
+     "texto": "Mantém-se a cabeceira elevada e pode-se usar sonda gástrica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A sequência rápida **usa** bloqueador de início rápido (succinilcolina ou rocurônio)."
+  },
+  {
+   "id": "BC-PF3-19",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "Apfel",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São fatores do escore de Apfel para náuseas e vômitos pós-operatórios, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tabagismo."
+    },
+    {
+     "letra": "B",
+     "texto": "NVPO ou cinetose prévia."
+    },
+    {
+     "letra": "C",
+     "texto": "Sexo feminino."
+    },
+    {
+     "letra": "D",
+     "texto": "Uso de opioide no pós-operatório."
+    },
+    {
+     "letra": "E",
+     "texto": "Não ser fumante."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"Mulher, Não fuma, Já enjoou, vai usar Opioide.\" Fumar **protege**."
+  },
+  {
+   "id": "BC-PF3-20",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "anestesia geral",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São componentes da anestesia geral, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Analgesia."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipnose."
+    },
+    {
+     "letra": "C",
+     "texto": "Imobilidade e controle dos reflexos autonômicos."
+    },
+    {
+     "letra": "D",
+     "texto": "Amnésia."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueio simpático segmentar."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Bloqueio segmentar é próprio da anestesia neuroaxial."
+  },
+  {
+   "id": "BC-PF3-21",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "sedação moderada",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na sedação consciente (moderada), o paciente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Perde os reflexos de via aérea."
+    },
+    {
+     "letra": "B",
+     "texto": "Responde a comando verbal e mantém a ventilação espontânea."
+    },
+    {
+     "letra": "C",
+     "texto": "Não responde a estímulos dolorosos."
+    },
+    {
+     "letra": "D",
+     "texto": "Precisa de intubação obrigatória."
+    },
+    {
+     "letra": "E",
+     "texto": "Está em anestesia geral."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Mínima → moderada → profunda → anestesia geral é um contínuo: monitorizar e estar pronto para resgatar a via aérea."
+  },
+  {
+   "id": "BC-PF3-22",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "Aldrete",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O critério de alta da sala de recuperação pós-anestésica (SRPA) é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aldrete ≥ 5."
+    },
+    {
+     "letra": "B",
+     "texto": "Glasgow ≥ 12 apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Ausência total de dor."
+    },
+    {
+     "letra": "D",
+     "texto": "Diurese espontânea obrigatória em todos."
+    },
+    {
+     "letra": "E",
+     "texto": "Aldrete-Kroulik ≥ 9 com dor controlada."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Aldrete avalia atividade, respiração, circulação, consciência e SpO₂."
+  },
+  {
+   "id": "BC-PF3-23",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "caso · raqui na cesárea",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Gestante sob raquianestesia com bupivacaína apresenta, 10 minutos depois, PA 80 × 40, FC 58 e náusea. A causa e a conduta inicial são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cefaleia pós-punção; tampão sanguíneo."
+    },
+    {
+     "letra": "B",
+     "texto": "Toxicidade sistêmica; Intralipid 20%."
+    },
+    {
+     "letra": "C",
+     "texto": "Bloqueio simpático; deslocar o útero, volume e vasopressor."
+    },
+    {
+     "letra": "D",
+     "texto": "Anafilaxia; adrenalina IM."
+    },
+    {
+     "letra": "E",
+     "texto": "Hipovolemia por sangramento; transfusão."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Vasodilatação e ↓ retorno venoso (+ compressão aortocava); bloqueio acima de T4 → bradicardia (atropina se importante)."
+  },
+  {
+   "id": "BC-PF3-24",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Bases da anestesiologia",
+   "subtema": "neuroeixo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Bases da anestesiologia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a anatomia do neuroeixo para a anestesia,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O cone medular termina em L4 no adulto."
+    },
+    {
+     "letra": "B",
+     "texto": "A linha de Tuffier (cristas ilíacas) corresponde a cerca de L4."
+    },
+    {
+     "letra": "C",
+     "texto": "A agulha da peridural para antes da dura-máter."
+    },
+    {
+     "letra": "D",
+     "texto": "Na raqui, a agulha atravessa o ligamento amarelo e a dura."
+    },
+    {
+     "letra": "E",
+     "texto": "O espaço subaracnoide contém líquor."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "O cone termina em **L1–L2** no adulto; por isso a raqui é feita abaixo de L2."
+  },
+  {
+   "id": "BC-PF3-25",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "reposição",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a reposição volêmica no queimado, segundo a aula,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A queimadura elétrica recebe 4 mL × kg × %SCQ."
+    },
+    {
+     "letra": "B",
+     "texto": "A criança recebe 3 mL × kg × %SCQ."
+    },
+    {
+     "letra": "C",
+     "texto": "O adulto com queimadura térmica recebe 2 mL × kg × %SCQ."
+    },
+    {
+     "letra": "D",
+     "texto": "Metade do volume deve ser dada nas primeiras 8 h contadas a partir da chegada ao hospital."
+    },
+    {
+     "letra": "E",
+     "texto": "O 1º grau não entra no cálculo da SCQ."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "As 8 h contam **desde a queimadura** (\"questão de prova\" anotada no slide)."
+  },
+  {
+   "id": "BC-PF3-26",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "cálculo · chegada tardia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adulto de 60 kg com 25% de SCQ (2º grau) chega ao hospital 3 h após a queimadura. Pela fórmula da aula (2 mL), a velocidade inicial de infusão deve ser:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "300 mL/h."
+    },
+    {
+     "letra": "B",
+     "texto": "125 mL/h."
+    },
+    {
+     "letra": "C",
+     "texto": "500 mL/h."
+    },
+    {
+     "letra": "D",
+     "texto": "375 mL/h."
+    },
+    {
+     "letra": "E",
+     "texto": "187,5 mL/h."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "2 × 60 × 25 = 3.000 mL/24 h → 1.500 mL nas primeiras 8 h **da queimadura**; restam 5 h → 1.500 ÷ 5 = 300 mL/h."
+  },
+  {
+   "id": "BC-PF3-27",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "cálculo · criança",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 20 kg com 20% de SCQ por escaldadura. O volume de 24 h pela fórmula da aula e a meta de diurese são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "2.400 mL e 40 mL/h."
+    },
+    {
+     "letra": "B",
+     "texto": "1.600 mL e 10 mL/h."
+    },
+    {
+     "letra": "C",
+     "texto": "1.200 mL e 10 mL/h."
+    },
+    {
+     "letra": "D",
+     "texto": "1.200 mL (+ soro glicosado) e 20 mL/h."
+    },
+    {
+     "letra": "E",
+     "texto": "800 mL e 10 mL/h."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "3 × 20 × 20 = 1.200 mL; manutenção com glicose (< 30 kg); diurese 1 mL/kg/h = 20 mL/h."
+  },
+  {
+   "id": "BC-PF3-28",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "cálculo · elétrica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Eletricista de 75 kg com 10% de SCQ por queimadura elétrica. O volume inicial de 24 h é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "2.250 mL, com diurese de 0,5 mL/kg/h."
+    },
+    {
+     "letra": "B",
+     "texto": "6.000 mL fixos."
+    },
+    {
+     "letra": "C",
+     "texto": "3.000 mL, ajustando até a urina clarear."
+    },
+    {
+     "letra": "D",
+     "texto": "1.500 mL, com diurese de 0,5 mL/kg/h."
+    },
+    {
+     "letra": "E",
+     "texto": "750 mL, sem monitorar diurese."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "4 × 75 × 10 = 3.000 mL; meta ≈ 1–1,5 mL/kg/h (urina clara; risco de mioglobinúria)."
+  },
+  {
+   "id": "BC-PF3-29",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "Baux",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 45 anos com 60% de SCQ. O índice de Baux e o prognóstico são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "60; mortalidade > 90%."
+    },
+    {
+     "letra": "B",
+     "texto": "150; mortalidade baixa."
+    },
+    {
+     "letra": "C",
+     "texto": "15; mortalidade moderada."
+    },
+    {
+     "letra": "D",
+     "texto": "105; mortalidade baixa."
+    },
+    {
+     "letra": "E",
+     "texto": "105; mortalidade em torno de 50%."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Baux = idade + SCQ. 100–140 ≈ 50%; > 140 > 90%."
+  },
+  {
+   "id": "BC-PF3-30",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "lesão inalatória",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a lesão inalatória,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A janela ideal para intubação é de 2 a 6 horas."
+    },
+    {
+     "letra": "B",
+     "texto": "SpO₂ normal afasta intoxicação por monóxido de carbono."
+    },
+    {
+     "letra": "C",
+     "texto": "Confusão mental deve fazer pensar primeiro em CO."
+    },
+    {
+     "letra": "D",
+     "texto": "Rouquidão e vibrissas chamuscadas sugerem lesão inalatória."
+    },
+    {
+     "letra": "E",
+     "texto": "O O₂ a 100% reduz a meia-vida da COHb de ~5 h para ~60 min."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "O oxímetro não diferencia COHb: dosar na co-oximetria."
+  },
+  {
+   "id": "BC-PF3-31",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "química",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a queimadura química,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deve-se neutralizar o ácido com uma base para reduzir a lesão."
+    },
+    {
+     "letra": "B",
+     "texto": "Remove-se o agente com luvas, protegendo a equipe."
+    },
+    {
+     "letra": "C",
+     "texto": "O álcali exige irrigação mais longa (1–2 h) que o ácido."
+    },
+    {
+     "letra": "D",
+     "texto": "No ácido fluorídrico usa-se gluconato de cálcio."
+    },
+    {
+     "letra": "E",
+     "texto": "Irriga-se com água corrente abundante."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Não neutralizar (reação exotérmica). \"Ácido meia hora, álcali duas.\""
+  },
+  {
+   "id": "BC-PF3-32",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "elétrica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a queimadura elétrica,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A CPK deve ser dosada de forma seriada."
+    },
+    {
+     "letra": "B",
+     "texto": "O ECG é obrigatório."
+    },
+    {
+     "letra": "C",
+     "texto": "Pode exigir fasciotomia precoce se houver isquemia."
+    },
+    {
+     "letra": "D",
+     "texto": "A rabdomiólise pode causar mioglobinúria e lesão renal."
+    },
+    {
+     "letra": "E",
+     "texto": "A área de pele queimada visível reflete bem o dano interno."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "\"O que você vê na pele não reflete o dano interno.\""
+  },
+  {
+   "id": "BC-PF3-33",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "manejo",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o tratamento do queimado,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deve-se fazer profilaxia antitetânica."
+    },
+    {
+     "letra": "B",
+     "texto": "AINE deve ser evitado no queimado extenso."
+    },
+    {
+     "letra": "C",
+     "texto": "A prevenção da infecção é local (limpeza, desbridamento, sulfadiazina)."
+    },
+    {
+     "letra": "D",
+     "texto": "O antibiótico sistêmico profilático está indicado em todo grande queimado."
+    },
+    {
+     "letra": "E",
+     "texto": "A nutrição enteral deve começar precocemente."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Sem antibiótico sistêmico profilático (distrator do banco)."
+  },
+  {
+   "id": "BC-PF3-34",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "escarotomia × fasciotomia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a conduta à indicação:\n\n1. Escarotomia\n2. Fasciotomia\n3. Intubação precoce\n4. Gluconato de cálcio\n\nA. Rouquidão, estridor e queimadura facial\nB. Queimadura por ácido fluorídrico\nC. Escara circunferencial de 3º grau restringindo o tórax\nD. Síndrome compartimental muscular\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-B, 2-C, 3-A, 4-D"
+    },
+    {
+     "letra": "B",
+     "texto": "1-D, 2-C, 3-A, 4-B"
+    },
+    {
+     "letra": "C",
+     "texto": "1-C, 2-D, 3-A, 4-B"
+    },
+    {
+     "letra": "D",
+     "texto": "1-A, 2-C, 3-D, 4-B"
+    },
+    {
+     "letra": "E",
+     "texto": "1-C, 2-B, 3-D, 4-A"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Escarotomia: incisões até o subcutâneo sangrante; fasciotomia: pressão compartimental elevada (5 P)."
+  },
+  {
+   "id": "BC-PF3-35",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Queimaduras",
+   "subtema": "transferência",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Queimaduras",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São critérios de transferência para centro de queimados (ABA), EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Queimadura de face, mãos, pés ou genitália."
+    },
+    {
+     "letra": "B",
+     "texto": "Queimadura de 1º grau em 15% da superfície corporal."
+    },
+    {
+     "letra": "C",
+     "texto": "Queimadura elétrica ou química."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão inalatória."
+    },
+    {
+     "letra": "E",
+     "texto": "Qualquer queimadura de 3º grau."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "FACE-GEN. O 1º grau não entra na SCQ."
+  },
+  {
+   "id": "BC-PF3-36",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "fases",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre as fases da cicatrização,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O neutrófilo predomina nas primeiras 48 h."
+    },
+    {
+     "letra": "B",
+     "texto": "O macrófago é a célula indispensável da fase inflamatória."
+    },
+    {
+     "letra": "C",
+     "texto": "Na proliferativa formam-se tecido de granulação e colágeno III."
+    },
+    {
+     "letra": "D",
+     "texto": "A hemostasia é o primeiro evento."
+    },
+    {
+     "letra": "E",
+     "texto": "A fase proliferativa se caracteriza por aumento da permeabilidade e quimiotaxia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Permeabilidade e quimiotaxia são da fase **inflamatória** (distrator do banco)."
+  },
+  {
+   "id": "BC-PF3-37",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "colágeno",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o colágeno na cicatrização,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O colágeno tipo I é produzido primeiro e depois substituído pelo tipo III."
+    },
+    {
+     "letra": "B",
+     "texto": "A síntese exige vitamina C como cofator da hidroxilação."
+    },
+    {
+     "letra": "C",
+     "texto": "O oxigênio é necessário para a hidroxilação."
+    },
+    {
+     "letra": "D",
+     "texto": "A força máxima é de 70–80% da pele íntegra."
+    },
+    {
+     "letra": "E",
+     "texto": "A força tênsil é de ~20% em 3 semanas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"O III chega primeiro, o I fica para sempre.\""
+  },
+  {
+   "id": "BC-PF3-38",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "fatores",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os fatores que atrasam a cicatrização,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O diabetes causa disfunção leucocitária e angiopatia."
+    },
+    {
+     "letra": "B",
+     "texto": "A infecção acima de 10⁵ UFC/g prejudica a cicatrização."
+    },
+    {
+     "letra": "C",
+     "texto": "A vitamina A reverte parcialmente o efeito do corticoide."
+    },
+    {
+     "letra": "D",
+     "texto": "O corticoide aumenta a proliferação de fibroblastos e a síntese de colágeno."
+    },
+    {
+     "letra": "E",
+     "texto": "O tabagismo causa vasoconstrição e hipóxia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "O corticoide **inibe** fibroblastos e colágeno."
+  },
+  {
+   "id": "BC-PF3-39",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "princípios do fechamento",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os princípios cirúrgicos do fechamento das feridas (slide),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deve-se eliminar o espaço morto."
+    },
+    {
+     "letra": "B",
+     "texto": "Incisões perpendiculares às linhas de Langer reduzem a tensão."
+    },
+    {
+     "letra": "C",
+     "texto": "O tecido desvitalizado deve ser desbridado antes."
+    },
+    {
+     "letra": "D",
+     "texto": "A síntese deve ser feita sem tensão."
+    },
+    {
+     "letra": "E",
+     "texto": "Faz-se hemostasia cuidadosa para evitar hematoma."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Incisões **paralelas** a Langer."
+  },
+  {
+   "id": "BC-PF3-40",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "deiscência",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a deiscência de ferida,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A tensão excessiva causa isquemia e necrose das bordas."
+    },
+    {
+     "letra": "B",
+     "texto": "Saída de líquido serossanguinolento é sinal típico."
+    },
+    {
+     "letra": "C",
+     "texto": "A pressão intra-abdominal baixa favorece a deiscência."
+    },
+    {
+     "letra": "D",
+     "texto": "Infecção e hematoma favorecem a deiscência."
+    },
+    {
+     "letra": "E",
+     "texto": "Desnutrição e corticoide são fatores de risco."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Pressão intra-abdominal **aumentada** favorece."
+  },
+  {
+   "id": "BC-PF3-41",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "caso M.S.",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "M.S., 52 anos, diabético descompensado e tabagista, com ferida maleolar há 3 semanas, fundo necrótico, pus e halo eritematoso; cultura com MSSA. A conduta adequada é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Apenas corticoide tópico."
+    },
+    {
+     "letra": "B",
+     "texto": "Internar, desbridar, oxacilina EV, controle glicêmico e VAC."
+    },
+    {
+     "letra": "C",
+     "texto": "Sutura primária imediata."
+    },
+    {
+     "letra": "D",
+     "texto": "Antibiótico oral e curativo em casa."
+    },
+    {
+     "letra": "E",
+     "texto": "Aguardar nova cultura antes de tratar."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "A ferida travou na fase **inflamatória** crônica. Resposta do professor no caso da aula."
+  },
+  {
+   "id": "BC-PF3-42",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "fase travada",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Feridas crônicas, como a do caso M.S., ficam bloqueadas principalmente na fase:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "De maturação."
+    },
+    {
+     "letra": "B",
+     "texto": "Proliferativa."
+    },
+    {
+     "letra": "C",
+     "texto": "Inflamatória."
+    },
+    {
+     "letra": "D",
+     "texto": "De remodelação."
+    },
+    {
+     "letra": "E",
+     "texto": "De hemostasia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Distrator do banco: \"feridas crônicas ficam presas na proliferativa\" — falso."
+  },
+  {
+   "id": "BC-PF3-43",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "células",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a célula à fase ou função:\n\n1. Plaqueta\n2. Neutrófilo\n3. Macrófago\n4. Miofibroblasto\n\nA. Hemostasia e liberação de PDGF e TGF-β\nB. Contração da ferida\nC. Célula indispensável que orquestra a transição\nD. Primeiras 48 h; fagocitose e desbridamento\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-D, 2-A, 3-B, 4-C"
+    },
+    {
+     "letra": "B",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "C",
+     "texto": "1-B, 2-C, 3-A, 4-D"
+    },
+    {
+     "letra": "D",
+     "texto": "1-A, 2-D, 3-C, 4-B"
+    },
+    {
+     "letra": "E",
+     "texto": "1-B, 2-D, 3-A, 4-C"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "\"Para Nunca Mais Fechar Mal\": Plaqueta → Neutrófilo → Macrófago → Fibroblasto → Miofibroblasto."
+  },
+  {
+   "id": "BC-PF3-44",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cicatrização das feridas",
+   "subtema": "queloide × hipertrófica",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cicatrização das feridas",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o queloide e a cicatriz hipertrófica,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O TGF-β está muito elevado no queloide."
+    },
+    {
+     "letra": "B",
+     "texto": "A cicatriz hipertrófica fica nos limites da ferida original."
+    },
+    {
+     "letra": "C",
+     "texto": "O queloide tem predisposição genética (fototipos altos)."
+    },
+    {
+     "letra": "D",
+     "texto": "O queloide recidiva com frequência após excisão isolada."
+    },
+    {
+     "letra": "E",
+     "texto": "O queloide fica nos limites da ferida e tende a regredir."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A descrição é da **hipertrófica**."
+  },
+  {
+   "id": "BC-PF3-45",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "seleção",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a seleção para cirurgia ambulatorial,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pacientes ASA IV podem ser operados em centro ambulatorial."
+    },
+    {
+     "letra": "B",
+     "texto": "O paciente precisa de acompanhante e transporte."
+    },
+    {
+     "letra": "C",
+     "texto": "O procedimento deve durar menos de 2 horas."
+    },
+    {
+     "letra": "D",
+     "texto": "ASA I e II são candidatos."
+    },
+    {
+     "letra": "E",
+     "texto": "ASA III é avaliado caso a caso."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "ASA IV–V → hospital."
+  },
+  {
+   "id": "BC-PF3-46",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "anestésico local",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os anestésicos locais,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "pKa menor resulta em menor latência."
+    },
+    {
+     "letra": "B",
+     "texto": "Maior lipofilicidade aumenta potência e duração."
+    },
+    {
+     "letra": "C",
+     "texto": "O vasoconstritor acelera a absorção do anestésico local."
+    },
+    {
+     "letra": "D",
+     "texto": "O pH ácido do tecido inflamado reduz a eficácia."
+    },
+    {
+     "letra": "E",
+     "texto": "Bloqueiam canais de Na⁺ voltagem-dependentes."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "A epinefrina **retarda** a absorção: mais duração, menos toxicidade e sangramento."
+  },
+  {
+   "id": "BC-PF3-47",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "cálculo · lidocaína 2%",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 60 kg receberá lidocaína 2% com adrenalina (dose máxima 7 mg/kg). O volume máximo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "30 mL."
+    },
+    {
+     "letra": "B",
+     "texto": "13,5 mL."
+    },
+    {
+     "letra": "C",
+     "texto": "10,5 mL."
+    },
+    {
+     "letra": "D",
+     "texto": "21 mL."
+    },
+    {
+     "letra": "E",
+     "texto": "42 mL."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "7 × 60 = 420 mg; 2% = 20 mg/mL → 21 mL. Regra: % × 10 = mg/mL."
+  },
+  {
+   "id": "BC-PF3-48",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "cálculo · João",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "João, 80 kg, terá lipoma retirado com lidocaína 1% SEM epinefrina (4,5 mg/kg). O volume máximo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "45 mL."
+    },
+    {
+     "letra": "B",
+     "texto": "36 mL."
+    },
+    {
+     "letra": "C",
+     "texto": "18 mL."
+    },
+    {
+     "letra": "D",
+     "texto": "72 mL."
+    },
+    {
+     "letra": "E",
+     "texto": "56 mL."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "4,5 × 80 = 360 mg; 1% = 10 mg/mL → 36 mL (com epinefrina: 56 mL)."
+  },
+  {
+   "id": "BC-PF3-49",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "LAST",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a toxicidade sistêmica dos anestésicos locais (LAST),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Convulsões são tratadas com midazolam."
+    },
+    {
+     "letra": "B",
+     "texto": "Zumbido e gosto metálico são sinais precoces."
+    },
+    {
+     "letra": "C",
+     "texto": "O antídoto é a emulsão lipídica a 20% (1,5 mL/kg)."
+    },
+    {
+     "letra": "D",
+     "texto": "A bupivacaína é mais cardiotóxica que a lidocaína."
+    },
+    {
+     "letra": "E",
+     "texto": "O primeiro sinal de toxicidade costuma ser cardiovascular."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "SNC primeiro, depois coração."
+  },
+  {
+   "id": "BC-PF3-50",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "LAST · conduta",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na conduta da LAST,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Usa-se propofol como antídoto no lugar do Intralipid."
+    },
+    {
+     "letra": "B",
+     "texto": "Faz-se Intralipid 20% em bolus."
+    },
+    {
+     "letra": "C",
+     "texto": "Interrompe-se a injeção."
+    },
+    {
+     "letra": "D",
+     "texto": "Oferece-se O₂ e ventilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Chama-se ajuda."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "\"Para, Pede ajuda, Oxigena, Midazolam, Lipídio.\" Nunca propofol."
+  },
+  {
+   "id": "BC-PF3-51",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "técnicas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a técnica de anestesia local à descrição:\n\n1. Botão anestésico\n2. Infiltração em leque\n3. Bloqueio de campo\n4. Bloqueio digital\n\nA. Vários trajetos a partir de uma única punção\nB. Pápula intradérmica no ponto de entrada\nC. Anestesia perineural do dedo\nD. \"Cerca\" ao redor da área, sem injetar no campo\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-B, 2-A, 3-D, 4-C"
+    },
+    {
+     "letra": "B",
+     "texto": "1-B, 2-C, 3-A, 4-D"
+    },
+    {
+     "letra": "C",
+     "texto": "1-B, 2-A, 3-C, 4-D"
+    },
+    {
+     "letra": "D",
+     "texto": "1-A, 2-D, 3-C, 4-B"
+    },
+    {
+     "letra": "E",
+     "texto": "1-C, 2-D, 3-B, 4-A"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Sempre aspirar antes de injetar."
+  },
+  {
+   "id": "BC-PF3-52",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "dor da injeção",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São medidas que reduzem a dor da injeção do anestésico local, EXCETO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Agulha fina."
+    },
+    {
+     "letra": "B",
+     "texto": "Bicarbonato 8,4% (1:10)."
+    },
+    {
+     "letra": "C",
+     "texto": "Solução aquecida a 37 °C."
+    },
+    {
+     "letra": "D",
+     "texto": "Injeção rápida e agulha de grosso calibre."
+    },
+    {
+     "letra": "E",
+     "texto": "Avançar pelo tecido já anestesiado."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Injeção **lenta** (< 1 mL/s) e agulha fina."
+  },
+  {
+   "id": "BC-PF3-53",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "vasoconstritor",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o uso de epinefrina com anestésico local,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Reduz o sangramento."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumenta a duração em cerca de 50%."
+    },
+    {
+     "letra": "C",
+     "texto": "Pode ser usada sem restrição em dedos e pênis."
+    },
+    {
+     "letra": "D",
+     "texto": "Permite dose máxima maior de lidocaína."
+    },
+    {
+     "letra": "E",
+     "texto": "Reduz a toxicidade sistêmica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Conduta clássica: evitar em dedos, pênis, nariz e orelha."
+  },
+  {
+   "id": "BC-PF3-54",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Cirurgia ambulatorial e anestesia local",
+   "subtema": "alta",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Cirurgia ambulatorial e anestesia local",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após exérese de lipoma, João está alerta, com dor 3/10 controlada, PA na basal e a esposa o acompanha de carro. Sobre a alta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deve ficar até eliminar flatos."
+    },
+    {
+     "letra": "B",
+     "texto": "Precisa de dor zero para a alta."
+    },
+    {
+     "letra": "C",
+     "texto": "Deve ser internado por 24 h."
+    },
+    {
+     "letra": "D",
+     "texto": "Pode dirigir para casa."
+    },
+    {
+     "letra": "E",
+     "texto": "Pode ter alta, com Aldrete ≥ 9 e orientações escritas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Critérios: Aldrete ≥ 9/10, dor controlada, acompanhante; não dirigir; retorno em 7 dias."
+  },
+  {
+   "id": "BC-PF3-55",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "perfil hemodinâmico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe o tipo de choque ao perfil hemodinâmico:\n\n1. Hipovolêmico\n2. Séptico\n3. Cardiogênico\n4. Obstrutivo\n\nA. DC ↓, PVC ↑; tratar a causa (TEP, tamponamento)\nB. DC ↓, RVP ↑, PVC ↓\nC. DC ↑ ou normal, RVP ↓↓\nD. DC ↓↓, RVP ↑, PVC ↑↑\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-C, 2-B, 3-D, 4-A"
+    },
+    {
+     "letra": "B",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "C",
+     "texto": "1-A, 2-B, 3-D, 4-C"
+    },
+    {
+     "letra": "D",
+     "texto": "1-D, 2-B, 3-C, 4-A"
+    },
+    {
+     "letra": "E",
+     "texto": "1-D, 2-A, 3-B, 4-C"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Tabela do slide. \"Quem falta? Quem falha? Quem trava? Quem dilata?\""
+  },
+  {
+   "id": "BC-PF3-56",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "drogas vasoativas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a droga vasoativa à indicação principal:\n\n1. Noradrenalina\n2. Dobutamina\n3. Epinefrina IM\n4. Vasopressina\n\nA. Anafilaxia\nB. Séptico refratário — adjuvante\nC. Choque cardiogênico — inotrópico\nD. Choque séptico — 1ª linha\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-C, 2-D, 3-A, 4-B"
+    },
+    {
+     "letra": "B",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "C",
+     "texto": "1-D, 2-C, 3-B, 4-A"
+    },
+    {
+     "letra": "D",
+     "texto": "1-D, 2-C, 3-A, 4-B"
+    },
+    {
+     "letra": "E",
+     "texto": "1-B, 2-D, 3-C, 4-A"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "\"Nora no séptico, Dobuta no coração, Adrena na alergia, Vaso de reforço.\""
+  },
+  {
+   "id": "BC-PF3-57",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "neurogênico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o choque distributivo,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O choque neurogênico cursa com taquicardia e pele fria."
+    },
+    {
+     "letra": "B",
+     "texto": "O séptico tem resistência vascular baixa."
+    },
+    {
+     "letra": "C",
+     "texto": "O neurogênico cursa com hipotensão e bradicardia."
+    },
+    {
+     "letra": "D",
+     "texto": "O neurogênico decorre de lesão medular alta."
+    },
+    {
+     "letra": "E",
+     "texto": "O anafilático é distributivo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Neurogênico: bradicardia e pele **quente**."
+  },
+  {
+   "id": "BC-PF3-58",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "conduta",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a conduta no choque,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Na anafilaxia, epinefrina IM na face anterior da coxa."
+    },
+    {
+     "letra": "B",
+     "texto": "No obstrutivo, corrigir a causa."
+    },
+    {
+     "letra": "C",
+     "texto": "No hemorrágico, sangue e controle do sangramento."
+    },
+    {
+     "letra": "D",
+     "texto": "No séptico, antibiótico em até 1 h."
+    },
+    {
+     "letra": "E",
+     "texto": "No choque cardiogênico, faz-se reposição volêmica agressiva."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Volume agressivo **piora** o cardiogênico."
+  },
+  {
+   "id": "BC-PF3-59",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "reconhecimento",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o reconhecimento do choque,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A hipotensão é sinal tardio."
+    },
+    {
+     "letra": "B",
+     "texto": "Tempo de enchimento capilar > 3 s sugere hipoperfusão."
+    },
+    {
+     "letra": "C",
+     "texto": "Pressão arterial normal descarta choque."
+    },
+    {
+     "letra": "D",
+     "texto": "Taquicardia é sinal precoce."
+    },
+    {
+     "letra": "E",
+     "texto": "Lactato > 4 mmol/L indica choque."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Erro comum (slide): esperar a hipotensão para agir."
+  },
+  {
+   "id": "BC-PF3-60",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "metas",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "São metas de ressuscitação do choque, segundo a aula:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "FC < 60, diurese > 0,1 mL/kg/h."
+    },
+    {
+     "letra": "B",
+     "texto": "PAM ≥ 65, lactato < 2, diurese > 0,5 mL/kg/h e SvcO₂ > 70%."
+    },
+    {
+     "letra": "C",
+     "texto": "PAM ≥ 50, SvcO₂ > 50%, Hb > 5."
+    },
+    {
+     "letra": "D",
+     "texto": "PAM ≥ 90, lactato < 4, diurese > 2 mL/kg/h."
+    },
+    {
+     "letra": "E",
+     "texto": "PAS ≥ 120, lactato > 2, Hb > 12."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Metas \"65 – 2 – 0,5 – 70 – 7 – 36\"."
+  },
+  {
+   "id": "BC-PF3-61",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "caso · motociclista",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 34 anos após acidente de moto: PA 80 × 50, FC 128, FR 26, extremidades frias, não responde a perguntas simples e tem equimose periumbilical. O tipo de choque e a prioridade são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipovolêmico; vasopressor antes do volume."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipovolêmico hemorrágico; sangue precoce e controle do sangramento."
+    },
+    {
+     "letra": "C",
+     "texto": "Séptico; antibiótico em 1 h."
+    },
+    {
+     "letra": "D",
+     "texto": "Cardiogênico; dobutamina."
+    },
+    {
+     "letra": "E",
+     "texto": "Neurogênico; noradrenalina."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Caso da aula. Vasopressor não substitui volume; ácido tranexâmico < 3 h; FAST."
+  },
+  {
+   "id": "BC-PF3-62",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "sepse",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o choque séptico (Sepsis-3), assinale a CORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Exige apenas febre e leucocitose."
+    },
+    {
+     "letra": "B",
+     "texto": "O antibiótico deve aguardar as culturas por 24 h."
+    },
+    {
+     "letra": "C",
+     "texto": "Exige vasopressor para PAM ≥ 65 e lactato > 2 apesar de volume."
+    },
+    {
+     "letra": "D",
+     "texto": "Tem resistência vascular elevada."
+    },
+    {
+     "letra": "E",
+     "texto": "A dobutamina é a primeira linha."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Hemoculturas antes do ATB, ATB ≤ 1 h, 30 mL/kg, noradrenalina."
+  },
+  {
+   "id": "BC-PF3-63",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "CaO₂",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com Hb 6 g/dL, SaO₂ 98% e PaO₂ 100 mmHg. Para aumentar a oferta de O₂, a medida de maior impacto é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Elevar a hemoglobina."
+    },
+    {
+     "letra": "B",
+     "texto": "Aumentar a FiO₂ para elevar a PaO₂."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumentar a PaCO₂."
+    },
+    {
+     "letra": "D",
+     "texto": "Reduzir a FC."
+    },
+    {
+     "letra": "E",
+     "texto": "Dar diurético."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "CaO₂ = Hb × SaO₂ × 1,34 + PaO₂ × 0,003: quase todo o O₂ viaja na Hb."
+  },
+  {
+   "id": "BC-PF3-64",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "hemoderivados",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a reposição no choque,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "O ácido tranexâmico é dado no trauma em até 3 h."
+    },
+    {
+     "letra": "B",
+     "texto": "Na hemorragia ativa faz-se transfusão 1:1:1."
+    },
+    {
+     "letra": "C",
+     "texto": "SF em excesso causa acidose hiperclorêmica."
+    },
+    {
+     "letra": "D",
+     "texto": "O cristaloide é a 1ª escolha (Ringer preferido)."
+    },
+    {
+     "letra": "E",
+     "texto": "Coloides são a 1ª escolha na reposição inicial."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Coloide (albumina) só na sepse refratária."
+  },
+  {
+   "id": "BC-PF3-65",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Choque",
+   "subtema": "anafilaxia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Choque",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o choque anafilático,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Epinefrina 0,3–0,5 mg IM é a 1ª linha."
+    },
+    {
+     "letra": "B",
+     "texto": "A dose pode ser repetida em 5–15 min."
+    },
+    {
+     "letra": "C",
+     "texto": "A aplicação é na face anterolateral da coxa."
+    },
+    {
+     "letra": "D",
+     "texto": "Anti-histamínico e corticoide são a 1ª linha do tratamento."
+    },
+    {
+     "letra": "E",
+     "texto": "Salbutamol trata o broncoespasmo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Anti-histamínico e corticoide são **adjuvantes**."
+  },
+  {
+   "id": "BC-PF3-66",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "albumina",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a avaliação nutricional no paciente cirúrgico,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A pré-albumina tem meia-vida de cerca de 2 dias."
+    },
+    {
+     "letra": "B",
+     "texto": "A albumina cai com a inflamação."
+    },
+    {
+     "letra": "C",
+     "texto": "A albumina é marcador prognóstico."
+    },
+    {
+     "letra": "D",
+     "texto": "Albumina baixa define desnutrição e indica nutrição parenteral."
+    },
+    {
+     "letra": "E",
+     "texto": "A albumina tem meia-vida de cerca de 21 dias."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "\"Albumina é prognóstico, não nutrição\" (mito do slide)."
+  },
+  {
+   "id": "BC-PF3-67",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "jejum",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre o jejum pré-operatório (ERAS/ACERTO),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Refeição leve até 6 h antes."
+    },
+    {
+     "letra": "B",
+     "texto": "Deve-se manter jejum de líquidos claros desde a meia-noite."
+    },
+    {
+     "letra": "C",
+     "texto": "Refeição completa até 8 h antes."
+    },
+    {
+     "letra": "D",
+     "texto": "Leite materno até 4 h antes."
+    },
+    {
+     "letra": "E",
+     "texto": "Líquidos claros até 2 h antes."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "\"2 – 4 – 6 – 8\". Jejum desde a meia-noite é prática ultrapassada."
+  },
+  {
+   "id": "BC-PF3-68",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "parenteral",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a nutrição parenteral total (NPT),\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tem risco de infecção de cateter e hiperglicemia."
+    },
+    {
+     "letra": "B",
+     "texto": "Está indicada no intestino curto."
+    },
+    {
+     "letra": "C",
+     "texto": "Está indicada no 2º dia de pós-operatório se não houver ruídos intestinais."
+    },
+    {
+     "letra": "D",
+     "texto": "É usada se a enteral for impossível por mais de 5–7 dias."
+    },
+    {
+     "letra": "E",
+     "texto": "Está indicada na fístula de alto débito."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "\"Se o intestino funciona, use-o\": dieta oral/enteral precoce mesmo sem ruídos."
+  },
+  {
+   "id": "BC-PF3-69",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "realimentação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a síndrome de realimentação,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ocorre apenas quando a dieta é oferecida por via oral."
+    },
+    {
+     "letra": "B",
+     "texto": "Inicia-se com cerca de 50% da meta calórica."
+    },
+    {
+     "letra": "C",
+     "texto": "O distúrbio característico é a hipofosfatemia."
+    },
+    {
+     "letra": "D",
+     "texto": "Deve-se dar tiamina antes da glicose."
+    },
+    {
+     "letra": "E",
+     "texto": "Ocorrem hipocalemia e hipomagnesemia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Ocorre por **qualquer via** (mais na parenteral)."
+  },
+  {
+   "id": "BC-PF3-70",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "enteral",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a nutrição enteral,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Está contraindicada no choque refratário."
+    },
+    {
+     "letra": "B",
+     "texto": "É a via preferida se o TGI funciona."
+    },
+    {
+     "letra": "C",
+     "texto": "A sonda nasoentérica tem menos aspiração que a SNG."
+    },
+    {
+     "letra": "D",
+     "texto": "A jejunostomia é usada após gastrectomia."
+    },
+    {
+     "letra": "E",
+     "texto": "A fístula de baixo débito contraindica a nutrição enteral."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Fístula de **alto** débito contraindica."
+  },
+  {
+   "id": "BC-PF3-71",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "NRS-2002",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na triagem nutricional NRS-2002, indica risco e necessidade de intervenção a pontuação:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "≥ 1."
+    },
+    {
+     "letra": "B",
+     "texto": "≥ 3."
+    },
+    {
+     "letra": "C",
+     "texto": "≥ 5 apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "Igual a 7."
+    },
+    {
+     "letra": "E",
+     "texto": "< 3."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Todos os pacientes na admissão; +1 se ≥ 70 anos."
+  },
+  {
+   "id": "BC-PF3-72",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "GLIM",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O diagnóstico de desnutrição pelo GLIM exige:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "IMC < 30 isolado."
+    },
+    {
+     "letra": "B",
+     "texto": "Dois critérios etiológicos sem fenotípico."
+    },
+    {
+     "letra": "C",
+     "texto": "Apenas albumina < 3,5 g/dL."
+    },
+    {
+     "letra": "D",
+     "texto": "Triagem positiva + ≥ 1 critério fenotípico + ≥ 1 etiológico."
+    },
+    {
+     "letra": "E",
+     "texto": "Apenas perda de peso de 1%."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Fenotípicos: perda de peso, IMC baixo, massa muscular reduzida. Etiológicos: ingestão reduzida, inflamação."
+  },
+  {
+   "id": "BC-PF3-73",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "caso oncológico",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 68 anos com câncer gástrico, perda de 22% do peso em 6 meses, NRS-2002 = 5, com gastrectomia eletiva marcada. A conduta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Operar imediatamente."
+    },
+    {
+     "letra": "B",
+     "texto": "Apenas albumina venosa."
+    },
+    {
+     "letra": "C",
+     "texto": "Jejum até a cirurgia."
+    },
+    {
+     "letra": "D",
+     "texto": "NPT por 30 dias antes de operar."
+    },
+    {
+     "letra": "E",
+     "texto": "Adiar a cirurgia e fazer terapia nutricional por 7–14 dias."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Caso da aula: fórmula imunomoduladora, dieta oral precoce no pós-operatório."
+  },
+  {
+   "id": "BC-PF3-74",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "kcal",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe a situação à necessidade energética (tabela da aula):\n\n1. Cirurgia eletiva (pós-op)\n2. Queimado > 30% SCQ\n3. UTI — fase aguda inicial\n4. Obesidade (IMC > 30)\n\nA. 35–40 kcal/kg/dia\nB. 11–14 kcal/kg/dia (peso real)\nC. 25–30 kcal/kg/dia\nD. < 20 kcal/kg/dia\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-C, 2-A, 3-D, 4-B"
+    },
+    {
+     "letra": "B",
+     "texto": "1-D, 2-C, 3-B, 4-A"
+    },
+    {
+     "letra": "C",
+     "texto": "1-A, 2-B, 3-C, 4-D"
+    },
+    {
+     "letra": "D",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "E",
+     "texto": "1-D, 2-C, 3-A, 4-B"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Proteína: 1,2–1,5 g/kg/dia no cirúrgico estável."
+  },
+  {
+   "id": "BC-PF3-75",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Terapia nutricional no paciente cirúrgico",
+   "subtema": "resposta ao trauma",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Terapia nutricional no paciente cirúrgico",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a resposta metabólica ao trauma,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A fase flow cursa com hiperglicemia e catabolismo proteico."
+    },
+    {
+     "letra": "B",
+     "texto": "A fase ebb ocorre nas primeiras 24 h."
+    },
+    {
+     "letra": "C",
+     "texto": "A fase ebb é hipermetabólica, com aumento do débito cardíaco."
+    },
+    {
+     "letra": "D",
+     "texto": "O balanço nitrogenado fica negativo."
+    },
+    {
+     "letra": "E",
+     "texto": "Há resistência insulínica na fase flow."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Ebb é **hipodinâmica** (↓ DC, ↓ temperatura); flow é hipermetabólica."
+  },
+  {
+   "id": "BC-PF3-76",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "classes",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a classificação da ferida operatória,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A colecistectomia eletiva é limpa-contaminada."
+    },
+    {
+     "letra": "B",
+     "texto": "A apendicite não perfurada com extravasamento é contaminada."
+    },
+    {
+     "letra": "C",
+     "texto": "A herniorrafia é ferida limpa."
+    },
+    {
+     "letra": "D",
+     "texto": "A apendicite perfurada é suja/infectada."
+    },
+    {
+     "letra": "E",
+     "texto": "A ferida limpa penetra víscera oca de forma controlada."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Penetrar víscera de forma controlada = **limpa-contaminada**."
+  },
+  {
+   "id": "BC-PF3-77",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "profilaxia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a antibioticoprofilaxia,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Repete-se se o sangramento passar de 1.500 mL."
+    },
+    {
+     "letra": "B",
+     "texto": "Repete-se se a cirurgia passar de ~4 h."
+    },
+    {
+     "letra": "C",
+     "texto": "Está indicada em cirurgia limpa com prótese."
+    },
+    {
+     "letra": "D",
+     "texto": "Deve ser iniciada na véspera e mantida por 48 h."
+    },
+    {
+     "letra": "E",
+     "texto": "A cefazolina é dada 30–60 min antes da incisão."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "\"Cefazolina 30–60 antes, repete em 4 h, para em 24 h.\""
+  },
+  {
+   "id": "BC-PF3-78",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "tricotomia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a prevenção da infecção do sítio cirúrgico,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Controle glicêmico reduz a infecção."
+    },
+    {
+     "letra": "B",
+     "texto": "A tricotomia com lâmina na véspera reduz a infecção."
+    },
+    {
+     "letra": "C",
+     "texto": "Normotermia reduz a infecção."
+    },
+    {
+     "letra": "D",
+     "texto": "Drenos e cateteres devem ser retirados o quanto antes."
+    },
+    {
+     "letra": "E",
+     "texto": "Clorexidina alcoólica é usada na pele."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Tricotomia só se necessária, com tricotomizador, imediatamente antes."
+  },
+  {
+   "id": "BC-PF3-79",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "notificação",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a notificação da infecção do sítio cirúrgico,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A ISC só pode ser notificada com cultura positiva."
+    },
+    {
+     "letra": "B",
+     "texto": "A vigilância é de 30 dias."
+    },
+    {
+     "letra": "C",
+     "texto": "Com implante, a vigilância é de 90 dias."
+    },
+    {
+     "letra": "D",
+     "texto": "Abscesso de ponto não é notificado como ISC."
+    },
+    {
+     "letra": "E",
+     "texto": "O diagnóstico do cirurgião é critério válido."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Cultura não é obrigatória."
+  },
+  {
+   "id": "BC-PF3-80",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "fatores de risco",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre os fatores de risco para ISC,\n\nAssinale a alternativa INCORRETA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Diabetes é fator do paciente."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipotermia é fator do procedimento."
+    },
+    {
+     "letra": "C",
+     "texto": "A antissepsia cutânea inadequada é fator de risco do paciente."
+    },
+    {
+     "letra": "D",
+     "texto": "Tabagismo é fator do paciente."
+    },
+    {
+     "letra": "E",
+     "texto": "Duração longa é fator do procedimento."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Antissepsia inadequada é fator do **ambiente**."
+  },
+  {
+   "id": "BC-PF3-81",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "febre pós-op",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Associe o dia de pós-operatório à causa provável de febre (\"5 W\"):\n\n1. 1º–2º dia\n2. 3º–5º dia\n3. 5º–7º dia\n4. Após o 7º dia\n\nA. Atelectasia / resposta inflamatória (wind)\nB. Infecção urinária (water)\nC. Fármacos e coleções intra-abdominais\nD. Infecção da ferida (wound)\n\nA associação correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "1-B, 2-C, 3-D, 4-A"
+    },
+    {
+     "letra": "B",
+     "texto": "1-A, 2-B, 3-D, 4-C"
+    },
+    {
+     "letra": "C",
+     "texto": "1-D, 2-A, 3-B, 4-C"
+    },
+    {
+     "letra": "D",
+     "texto": "1-D, 2-C, 3-A, 4-B"
+    },
+    {
+     "letra": "E",
+     "texto": "1-D, 2-B, 3-C, 4-A"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Atelectasia é causa **não infecciosa**."
+  },
+  {
+   "id": "BC-PF3-82",
+   "materia": "Bases Cirúrgicas",
+   "prova": "PR2",
+   "tema": "Infecção em cirurgia",
+   "subtema": "caso · colectomia",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 de Bases Cirúrgicas 2026.2 (slides do Prof. Thiago P. Rodrigues e plano IDM030) · Sabiston/Schwartz · ATLS 10ª ed. · Infecção em cirurgia",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher diabética e obesa, no 6º dia após colectomia eletiva, tem febre, hiperemia e pus pela incisão, com fáscia íntegra. A classificação da ferida e da infecção é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Limpa-contaminada; ISC de órgão/espaço."
+    },
+    {
+     "letra": "B",
+     "texto": "Limpa; ISC de órgão/espaço."
+    },
+    {
+     "letra": "C",
+     "texto": "Limpa-contaminada; ISC incisional superficial."
+    },
+    {
+     "letra": "D",
+     "texto": "Suja; ISC incisional profunda."
+    },
+    {
+     "letra": "E",
+     "texto": "Contaminada; abscesso de ponto."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Conduta: abrir e drenar, cultura, antibiótico se celulite/sinais sistêmicos, notificar à CCIH."
+  }
+ ]
+}

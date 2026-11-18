@@ -1,0 +1,2009 @@
+{
+ "meta": {
+  "titulo": "Inéditas PR2 · HMP IV · Casos integrados (lote 1)",
+  "gerado_em": "2026-11-18",
+  "base": "Resumo PR2 HMP IV (92 p.) e guia de estudo: casos que integram várias funções psíquicas, formato da prova (caso → funções e alterações)."
+ },
+ "questoes": [
+  {
+   "id": "HMP-CI1-01",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sr. Joaquim, 83 anos, com pneumonia há 2 dias, só responde quando a enfermeira o cutuca, não sabe em que cidade está e diz ver \"cachorros embaixo da cama\".\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — torpor; Orientação — desorientação alopsíquica; Sensopercepção — alucinação auditiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — torpor; Orientação — desorientação alopsíquica; Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — torpor; Orientação — desorientação autopsíquica; Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — torpor; Orientação — desorientação alopsíquica; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio persecutório; Orientação — desorientação autopsíquica; Sensopercepção — alucinação visual."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Delirium: rebaixamento (precisou cutucar = torpor), desorientação no espaço e alucinação visual, agudo e com causa clínica. Não é demência.\n\n**Funções alteradas:** Consciência — torpor; Orientação — desorientação alopsíquica; Sensopercepção — alucinação visual."
+  },
+  {
+   "id": "HMP-CI1-02",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dona Irene, 79 anos, em pós-operatório de fêmur, fica sonolenta de dia e agitada à noite, não sabe que dia é e não consegue manter a atenção para responder às perguntas.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Consciência: delirium.\nII. Atenção: desatenção.\nIII. Memória: demência.\nIV. Orientação: desorientação alopsíquica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "E",
+     "texto": "I, apenas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Curso flutuante + desatenção + pós-operatório → delirium (consciência). Precipitante citado: pós-operatório.\n\n**Funções alteradas:** Consciência — delirium; Orientação — desorientação alopsíquica; Atenção — desatenção."
+  },
+  {
+   "id": "HMP-CI1-03",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lucas, 24 anos, há 6 meses ouve vozes que o xingam quando está sozinho, acredita que os vizinhos colocaram escutas no quarto para persegui-lo e, ao relatar isso, ri sem motivo.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — alucinação auditiva; Juízo de realidade — delírio de grandeza; Afetividade — inadequação do afeto."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — alucinação auditiva; Juízo de realidade — ideia sobrevalorada; Afetividade — inadequação do afeto."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — alucinação auditiva; Consciência — delirium; Afetividade — inadequação do afeto."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação auditiva; Juízo de realidade — delírio persecutório; Afetividade — inadequação do afeto."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — delirium; Juízo de realidade — delírio persecutório; Afetividade — inadequação do afeto."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Quadro psicótico: sensopercepção, juízo de realidade e afeto inadequado; consciência clara.\n\n**Funções alteradas:** Sensopercepção — alucinação auditiva; Juízo de realidade — delírio persecutório; Afetividade — inadequação do afeto."
+  },
+  {
+   "id": "HMP-CI1-04",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Marina, 30 anos, puérpera, dormindo 3 horas por noite, ouve o bebê chorar quando ele está dormindo e tem imagens súbitas de deixá-lo cair, que a apavoram; pede ao marido que segure o bebê.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de sensopercepção: alucinação auditiva.\nII. ( ) Há alteração de vontade: ato impulsivo.\nIII. ( ) Há alteração de juízo de realidade: delírio persecutório.\nIV. ( ) Há alteração de pensamento: pensamento intrusivo.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F – F – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "F – F – F – V"
+    },
+    {
+     "letra": "C",
+     "texto": "V – F – F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – F – F"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – V – V"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Privação de sono → alucinação; imagem egodistônica, crítica preservada → intrusivo (não é intenção nem delírio).\n\n**Funções alteradas:** Sensopercepção — alucinação auditiva; Pensamento — pensamento intrusivo."
+  },
+  {
+   "id": "HMP-CI1-05",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Carla, 27 anos, lava as mãos 25 vezes por dia porque teme se contaminar ao tocar maçanetas; acha isso exagerado, tenta resistir, mas só se acalma depois de lavar.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — pensamento mágico; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — pensamento obsessivo; Vontade — ato compulsivo; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — pensamento obsessivo; Vontade — ato impulsivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — delírio persecutório; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — pensamento obsessivo; Vontade — ato compulsivo."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Obsessão (contaminação) + compulsão (resistir, executar, alívio). Crítica preservada.\n\n**Funções alteradas:** Pensamento — pensamento obsessivo; Vontade — ato compulsivo."
+  },
+  {
+   "id": "HMP-CI1-06",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em episódio maníaco, Rogério, 35 anos, está extremamente alegre, fala sem parar mudando de assunto, diz que \"o dia rende infinitamente\" e que é \"o maior empresário do país\".\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Orientação: desorientação alopsíquica.\nII. Vivência do tempo: tempo dilatado.\nIII. Afetividade: euforia.\nIV. Juízo de realidade: delírio de grandeza.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "B",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "\"O dia rende\" é vivência do tempo dilatado (mania), não desorientação. Grandeza não compartilhada → delírio.\n\n**Funções alteradas:** Afetividade — euforia; Vivência do tempo — tempo dilatado; Juízo de realidade — delírio de grandeza."
+  },
+  {
+   "id": "HMP-CI1-07",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Seu Antônio, 68 anos, com depressão grave, fica imóvel na cama por horas, diz que \"nada mais me afeta\" e que \"cada hora é uma eternidade\".\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — catatonia; Afetividade — apatia; Afetividade — euforia."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — catatonia; Afetividade — apatia; Vivência do tempo — inibição do fluir do tempo."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — catatonia; Afetividade — apatia; Vivência do tempo — tempo dilatado."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — tiques; Afetividade — apatia; Vivência do tempo — inibição do fluir do tempo."
+    },
+    {
+     "letra": "E",
+     "texto": "Afetividade — euforia; Afetividade — apatia; Vivência do tempo — inibição do fluir do tempo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Depressão grave: corpo inativo (catatonia), apatia e \"o tempo não passa\".\n\n**Funções alteradas:** Psicomotricidade — catatonia; Afetividade — apatia; Vivência do tempo — inibição do fluir do tempo."
+  },
+  {
+   "id": "HMP-CI1-08",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após AVC, Dona Ana está alerta e orientada, entende tudo o que lhe dizem, mas não consegue transformar o pensamento em fala; chora e ri de forma brusca várias vezes durante a consulta.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — afasia; Afetividade — labilidade; Linguagem — disartria."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — disartria; Afetividade — labilidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — afasia; Consciência — estado hipnótico."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia; Afetividade — labilidade; Consciência — torpor."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — afasia; Afetividade — labilidade."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Consciência e orientação preservadas; afasia (não transforma pensamento em fala) e labilidade afetiva.\n\n**Funções alteradas:** Linguagem — afasia; Afetividade — labilidade."
+  },
+  {
+   "id": "HMP-CI1-09",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pedro, 8 anos, com TDAH, se distrai com qualquer ruído da sala e, ao voltar, precisa reler; quando contrariado, empurra colegas \"sem pensar\" e diz que faria de novo.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de vontade: ato impulsivo.\nII. ( ) Há alteração de vontade: ato compulsivo.\nIII. ( ) Há alteração de atenção: alternada × sustentada.\nIV. ( ) Há alteração de memória: falha de fixação.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "B",
+     "texto": "F – F – V – F"
+    },
+    {
+     "letra": "C",
+     "texto": "V – V – V – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – F – F"
+    },
+    {
+     "letra": "E",
+     "texto": "F – V – V – V"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Atenção: retomada após distração. Vontade: curto-circuito intenção → execução, egossintônico.\n\n**Funções alteradas:** Atenção — alternada × sustentada; Vontade — ato impulsivo."
+  },
+  {
+   "id": "HMP-CI1-10",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 50 anos em abstinência alcoólica há 2 dias está agitado, não sabe o dia nem onde está, coça os braços dizendo que \"bichos andam por baixo da pele\" e treme.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — delirium; Orientação — desorientação alopsíquica; Sensopercepção — ilusão; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — delirium; Orientação — desorientação autopsíquica; Sensopercepção — alucinação tátil; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — delirium; Orientação — desorientação alopsíquica; Sensopercepção — alucinação tátil; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — ilusão; Orientação — desorientação alopsíquica; Sensopercepção — alucinação tátil; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — delirium; Orientação — desorientação alopsíquica; Juízo de realidade — ideia sobrevalorada; Psicomotricidade — agitação psicomotora."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Abstinência de álcool é precipitante de delirium; formigas percebidas como presentes → alucinação tátil.\n\n**Funções alteradas:** Consciência — delirium; Orientação — desorientação alopsíquica; Sensopercepção — alucinação tátil; Psicomotricidade — agitação psicomotora."
+  },
+  {
+   "id": "HMP-CI1-11",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dona Helena, 81 anos, há 3 anos repete as mesmas perguntas, esquece recados e se perdeu duas vezes no bairro; na consulta está alerta e atenta.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Consciência: delirium.\nII. Memória: falha de fixação.\nIII. Atenção: desatenção (seletiva).\nIV. Orientação: desorientação alopsíquica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Instalação lenta (anos), atenção preservada → demência; função mais afetada: memória/cognição, com desorientação espacial.\n\n**Funções alteradas:** Memória — falha de fixação; Orientação — desorientação alopsíquica."
+  },
+  {
+   "id": "HMP-CI1-12",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante de 22 anos, após 40 horas sem dormir para uma prova, \"vê\" vultos passando no corredor e sente que \"o tempo passou voando\" na madrugada, mas sabe a data e onde está.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — alucinação auditiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — ilusão."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação visual; Consciência — coma."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — coma."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Privação de sono gera alucinação. \"O tempo voou\" sem erro de data não é desorientação.\n\n**Funções alteradas:** Sensopercepção — alucinação visual."
+  },
+  {
+   "id": "HMP-CI1-13",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Joana, 16 anos, com IMC de 15 kg/m², afirma ter certeza de que está muito gorda, recusa-se a comer e está irritada e mal-humorada há meses.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Afetividade — disforia; Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Afetividade — disforia."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Sensopercepção — ilusão."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Afetividade — disforia; Juízo de realidade — delírio persecutório."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Anorexia: ideia sobrevalorada (slide). Humor deprimido persistente com irritabilidade → disforia.\n\n**Funções alteradas:** Juízo de realidade — ideia sobrevalorada; Afetividade — disforia."
+  },
+  {
+   "id": "HMP-CI1-14",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 45 anos acredita que a cantora famosa está apaixonada por ele e manda recados pela TV; está eufórico e diz que \"nunca esteve tão feliz\".\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de sensopercepção: ilusão.\nII. ( ) Há alteração de juízo de realidade: ideia sobrevalorada.\nIII. ( ) Há alteração de juízo de realidade: delírio erotomaníaco.\nIV. ( ) Há alteração de afetividade: euforia.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F – F – V – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – V – V"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "F – F – V – V"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – F – V"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Erotomania: certeza de ser amado por alguém; não cede à argumentação.\n\n**Funções alteradas:** Juízo de realidade — delírio erotomaníaco; Afetividade — euforia."
+  },
+  {
+   "id": "HMP-CI1-15",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante a consulta, Seu Mário, 74 anos, após TCE, não sabe dizer o próprio nome nem a idade, responde apenas quando chamado em voz alta e de forma lenta.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Orientação — desorientação autopsíquica; Linguagem — afasia."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — desorientação autopsíquica; Consciência — obnubilação."
+    },
+    {
+     "letra": "C",
+     "texto": "Orientação — desorientação autopsíquica; Consciência — obnubilação; Linguagem — afasia."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia; Consciência — obnubilação."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — desorientação alopsíquica; Consciência — obnubilação."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Responde à fala, lentificado → obnubilação; não sabe de si → autopsíquica.\n\n**Funções alteradas:** Orientação — desorientação autopsíquica; Consciência — obnubilação."
+  },
+  {
+   "id": "HMP-CI1-16",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 5 anos, ao ouvir \"fique à vontade\", tira os sapatos e se deita no sofá; ela também acredita que, se pisar nas linhas da calçada, a mãe vai adoecer.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — pensamento concreto; Pensamento — pensamento mágico; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — pensamento concreto; Pensamento — pensamento mágico; Pensamento — pensamento obsessivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — pensamento concreto; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — pensamento concreto; Pensamento — pensamento mágico."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — pensamento concreto; Pensamento — pensamento intrusivo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Concreto (literal, esperado aos 5 anos) e mágico (gesto muda a realidade).\n\n**Funções alteradas:** Pensamento — pensamento concreto; Pensamento — pensamento mágico."
+  },
+  {
+   "id": "HMP-CI1-17",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rapaz de 19 anos, após usar alucinógeno numa festa, diz que \"as horas viraram minutos\" e vê as paredes \"respirando\"; sabe onde está e quem é.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Vivência do tempo: tempo dilatado.\nII. Orientação: desorientação autopsíquica.\nIII. Juízo de realidade: delírio de grandeza.\nIV. Sensopercepção: ilusão.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "C",
+     "texto": "I e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, apenas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Alucinógenos alteram a vivência do tempo; paredes reais percebidas distorcidas → ilusão (há estímulo).\n\n**Funções alteradas:** Vivência do tempo — tempo dilatado; Sensopercepção — ilusão."
+  },
+  {
+   "id": "HMP-CI1-18",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 38 anos, preso por agressão, conta que \"explode\" quando contrariado, quebra objetos sem pensar e não se arrepende; durante a consulta, anda de um lado para o outro.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vontade — ato impulsivo; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "B",
+     "texto": "Vontade — ato impulsivo; Pensamento — pensamento obsessivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Vontade — ato compulsivo; Psicomotricidade — agitação psicomotora."
+    },
+    {
+     "letra": "D",
+     "texto": "Vontade — ato impulsivo; Psicomotricidade — agitação psicomotora; Pensamento — pensamento obsessivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — ato impulsivo; Psicomotricidade — agitação psicomotora; Vontade — ato compulsivo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Impulsivo: falha no começo, egossintônico. Agitação psicomotora.\n\n**Funções alteradas:** Vontade — ato impulsivo; Psicomotricidade — agitação psicomotora."
+  },
+  {
+   "id": "HMP-CI1-19",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Menino de 9 anos pisca, faz caretas e emite grunhidos e palavrões involuntários desde os 6 anos; percebe os tiques, mas não consegue contê-los. Na escola, troca letras ao ler e perde a linha do texto.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — catatonia; Linguagem — dislexia."
+    },
+    {
+     "letra": "B",
+     "texto": "Vontade — ato impulsivo; Linguagem — dislexia."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — agitação psicomotora; Linguagem — dislexia."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — tiques; Linguagem — dislexia; Linguagem — dislalia."
+    },
+    {
+     "letra": "E",
+     "texto": "Psicomotricidade — tiques; Linguagem — dislexia."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Tourette (tiques motores e vocais, involuntários) e dislexia (leitura).\n\n**Funções alteradas:** Psicomotricidade — tiques; Linguagem — dislexia."
+  },
+  {
+   "id": "HMP-CI1-20",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa com Parkinson anda a pequenos passos, em bloco, e à noite vê crianças brincando no quarto, que ninguém mais vê; durante o dia está lúcida e orientada.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de consciência: delirium.\nII. ( ) Há alteração de sensopercepção: ilusão.\nIII. ( ) Há alteração de psicomotricidade: marcha alterada.\nIV. ( ) Há alteração de sensopercepção: alucinação visual.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F – V – V – V"
+    },
+    {
+     "letra": "B",
+     "texto": "F – F – V – V"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – V – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "E",
+     "texto": "F – F – V – F"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Parkinson: alteração da marcha e alucinações visuais, sem rebaixamento da consciência.\n\n**Funções alteradas:** Psicomotricidade — marcha alterada; Sensopercepção — alucinação visual."
+  },
+  {
+   "id": "HMP-CI1-21",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 40 anos fez 6 endoscopias normais e segue \"convencido de que tem câncer de estômago\"; repassa mentalmente cada sintoma por dias, sem chegar a conclusão.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Pensamento — ruminação; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Pensamento — ruminação."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Pensamento — pensamento concreto."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Pensamento — ruminação; Sensopercepção — alucinação cenestésica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Ansiedade de doença: ideia sobrevalorada (slide). Ruminação: repassar sem desfecho.\n\n**Funções alteradas:** Juízo de realidade — ideia sobrevalorada; Pensamento — ruminação."
+  },
+  {
+   "id": "HMP-CI1-22",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 33 anos muda do choro ao riso e à raiva várias vezes no mesmo dia, diz sentir \"um vazio, como se não sentisse nada\" e corta o braço quando fica tensa.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Afetividade: euforia.\nII. Afetividade: vazio afetivo.\nIII. Vontade: ato impulsivo.\nIV. Afetividade: labilidade.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "III, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "D",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Labilidade (não é bipolar), vazio afetivo, automutilação ligada a impulsos (ex.: borderline).\n\n**Funções alteradas:** Afetividade — labilidade; Afetividade — vazio afetivo; Vontade — ato impulsivo."
+  },
+  {
+   "id": "HMP-CI1-23",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após sedação para endoscopia, Dona Rosa, 60 anos, fica sonolenta por uma hora e depois não recorda a ordem dos acontecimentos da manhã.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — obnubilação; Memória — falha de fixação; Memória — amnésia de evocação."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — obnubilação; Memória — falha de fixação; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — obnubilação; Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — obnubilação; Memória — falha de fixação."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — estado hipnótico; Memória — falha de fixação."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "A falha começou na consciência: sem vigília e atenção, não há registro.\n\n**Funções alteradas:** Consciência — obnubilação; Memória — falha de fixação."
+  },
+  {
+   "id": "HMP-CI1-24",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com esquizofrenia diz que \"os pensamentos foram roubados\", interrompe a fala no meio da frase e fica em silêncio; acredita que a TV fala dele.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — afasia; Juízo de realidade — delírio de referência."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — bloqueio do curso; Juízo de realidade — delírio de referência; Consciência — torpor."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — bloqueio do curso; Juízo de realidade — delírio de referência; Linguagem — afasia."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — pensamento mágico; Juízo de realidade — delírio de referência."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — bloqueio do curso; Juízo de realidade — delírio de referência."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Bloqueio = curso do pensamento. Referência: a TV fala dele.\n\n**Funções alteradas:** Pensamento — bloqueio do curso; Juízo de realidade — delírio de referência."
+  },
+  {
+   "id": "HMP-CI1-25",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 72 anos com ITU há 3 dias, antes lúcido, agora sonolento, troca o nome da esposa e diz que está \"no quartel\" em 1975.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de consciência: delirium.\nII. ( ) Há alteração de orientação: desorientação alopsíquica.\nIII. ( ) Há alteração de juízo de realidade: delírio de grandeza.\nIV. ( ) Há alteração de memória: demência.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – V – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – V – V"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "F – F – F – F"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – V – F"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Agudo + causa clínica → delirium; erra tempo e espaço.\n\n**Funções alteradas:** Consciência — delirium; Orientação — desorientação alopsíquica."
+  },
+  {
+   "id": "HMP-CI1-26",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Moça de 25 anos acha seu nariz \"disforme e horrível\", embora normal, verifica o espelho dezenas de vezes por dia e sofre por não conseguir parar.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo; Vontade — ato impulsivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo; Juízo de realidade — delírio de grandeza."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato impulsivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — ato impulsivo; Vontade — ato compulsivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Dismórfico corporal: ideia sobrevalorada + compulsão de checagem.\n\n**Funções alteradas:** Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo."
+  },
+  {
+   "id": "HMP-CI1-27",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Professor de 58 anos, após AVC, lê o jornal normalmente, mas não consegue mais escrever; fala de forma \"embolada\", embora saiba o que quer dizer.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — agrafia; Linguagem — disartria."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — agrafia; Linguagem — afasia."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — dislalia; Linguagem — disartria."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — afasia; Linguagem — disartria."
+    },
+    {
+     "letra": "E",
+     "texto": "Linguagem — agrafia; Linguagem — dislalia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Agrafia (escrita) + disartria (articulação). Alexia seria leitura.\n\n**Funções alteradas:** Linguagem — agrafia; Linguagem — disartria."
+  },
+  {
+   "id": "HMP-CI1-28",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Puérpera de 23 anos diz que o bebê \"foi trocado por um robô\", que a vizinha quer envenená-la e não dorme há dias; está agitada e confusa sobre o dia da semana.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Psicomotricidade: agitação psicomotora.\nII. Juízo de realidade: delírio persecutório.\nIII. Orientação: desorientação alopsíquica.\nIV. Pensamento: pensamento intrusivo.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e III, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Diferente do pensamento intrusivo: aqui a crença é vivida como verdade (delírio). Urgência.\n\n**Funções alteradas:** Juízo de realidade — delírio persecutório; Psicomotricidade — agitação psicomotora; Orientação — desorientação alopsíquica."
+  },
+  {
+   "id": "HMP-CI1-29",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 70 anos, viúva há 1 mês, diz ouvir a voz do marido chamando seu nome à noite e sabe que \"é coisa da saudade\"; está triste e diz que \"os dias não passam\".\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sensopercepção — alucinação visual; Vivência do tempo — inibição do fluir do tempo."
+    },
+    {
+     "letra": "B",
+     "texto": "Sensopercepção — alucinação auditiva; Vivência do tempo — tempo dilatado."
+    },
+    {
+     "letra": "C",
+     "texto": "Sensopercepção — alucinação auditiva; Vivência do tempo — inibição do fluir do tempo."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — alucinação auditiva; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação auditiva; Vivência do tempo — inibição do fluir do tempo; Orientação — desorientação autopsíquica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Alucinação no luto, com crítica; vivência lenta do tempo. Não fechar diagnóstico por sinal isolado.\n\n**Funções alteradas:** Sensopercepção — alucinação auditiva; Vivência do tempo — inibição do fluir do tempo."
+  },
+  {
+   "id": "HMP-CI1-30",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na fila do SUS, com dor intensa e febre, o paciente diz que \"esperou o dia inteiro\" (foram 40 minutos); está irritado e responde com grosseria.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de afetividade: disforia.\nII. ( ) Há alteração de consciência: delirium.\nIII. ( ) Há alteração de vivência do tempo: alteração subjetiva do tempo.\nIV. ( ) Há alteração de orientação: desorientação alopsíquica.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – V – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – F – V"
+    },
+    {
+     "letra": "C",
+     "texto": "F – F – V – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "E",
+     "texto": "V – F – F – F"
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Dor, febre e medo alongam a espera; não é desorientação.\n\n**Funções alteradas:** Vivência do tempo — alteração subjetiva do tempo; Afetividade — disforia."
+  },
+  {
+   "id": "HMP-CI1-31",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Adolescente com TEA nível 2 balança as mãos repetidamente quando ansioso, interpreta \"estou morrendo de fome\" ao pé da letra e não entende ironias.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — estereotipias; Psicomotricidade — catatonia."
+    },
+    {
+     "letra": "B",
+     "texto": "Psicomotricidade — estereotipias; Pensamento — pensamento concreto; Psicomotricidade — tiques."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — estereotipias; Pensamento — pensamento concreto; Pensamento — pensamento mágico."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — estereotipias; Pensamento — pensamento concreto."
+    },
+    {
+     "letra": "E",
+     "texto": "Psicomotricidade — estereotipias; Pensamento — pensamento mágico."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Estereotipias (TEA 2 e 3) e pensamento concreto (literal).\n\n**Funções alteradas:** Psicomotricidade — estereotipias; Pensamento — pensamento concreto."
+  },
+  {
+   "id": "HMP-CI1-32",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Senhora de 66 anos, após 3 dias de vômitos e diarreia, está sonolenta, só responde quando sacudida, e diz ver \"fogo\" na janela.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — torpor; Sensopercepção — alucinação auditiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — torpor; Sensopercepção — ilusão."
+    },
+    {
+     "letra": "C",
+     "texto": "Consciência — torpor; Sensopercepção — alucinação visual; Sensopercepção — ilusão."
+    },
+    {
+     "letra": "D",
+     "texto": "Sensopercepção — ilusão; Sensopercepção — alucinação visual."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — torpor; Sensopercepção — alucinação visual."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Desidratação → delirium; precisou sacudir = torpor; alucinação visual.\n\n**Funções alteradas:** Consciência — torpor; Sensopercepção — alucinação visual."
+  },
+  {
+   "id": "HMP-CI1-33",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 30 anos diz que é \"enviado de Deus para curar a cidade\", não dorme há 4 noites, fala sem parar e não fica sentado. Sua igreja não compartilha a ideia.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Consciência: transe.\nII. Afetividade: euforia.\nIII. Juízo de realidade: delírio de grandeza.\nIV. Psicomotricidade: agitação psicomotora.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "II, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, III e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Conteúdo religioso lido no contexto: não compartilhado → delírio. Não é transe (não é ritual coletivo).\n\n**Funções alteradas:** Juízo de realidade — delírio de grandeza; Psicomotricidade — agitação psicomotora; Afetividade — euforia."
+  },
+  {
+   "id": "HMP-CI1-34",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Durante culto religioso, mulher entra em estado de movimentos repetitivos e automáticos e depois diz não lembrar bem do que fez; na consulta está lúcida, orientada e com humor equilibrado.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — transe; Juízo de realidade — delírio de grandeza."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — transe."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio de grandeza."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — coma."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — estado hipnótico."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Transe em contexto religioso; fora dele, exame normal (eutimia).\n\n**Funções alteradas:** Consciência — transe."
+  },
+  {
+   "id": "HMP-CI1-35",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 29 anos tem medo de que, se tocar em alguém no ônibus, \"fica contaminada\"; pensa nisso o dia todo e repassa os trajetos sem conseguir parar; sabe que é absurdo.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — pensamento obsessivo; Pensamento — ruminação."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — pensamento intrusivo; Pensamento — ruminação."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — pensamento obsessivo; Pensamento — ruminação; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — pensamento obsessivo; Juízo de realidade — ideia sobrevalorada."
+    },
+    {
+     "letra": "E",
+     "texto": "Pensamento — pensamento obsessivo; Juízo de realidade — delírio persecutório."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Obsessão de contaminação (exemplo da aula) com ruminação; crítica preservada.\n\n**Funções alteradas:** Pensamento — pensamento obsessivo; Pensamento — ruminação."
+  },
+  {
+   "id": "HMP-CI1-36",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente de 55 anos, no 2º dia de internação por IAM, fica confuso à noite, tira o acesso venoso, acha que está no trabalho e vê \"insetos\" na parede.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de juízo de realidade: delírio de grandeza.\nII. ( ) Há alteração de orientação: desorientação alopsíquica.\nIII. ( ) Há alteração de memória: demência.\nIV. ( ) Há alteração de consciência: delirium.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F – V – V – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – F – V"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – F – V"
+    },
+    {
+     "letra": "D",
+     "texto": "F – F – F – V"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – F – F"
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Doença cardiovascular é precipitante de delirium.\n\n**Funções alteradas:** Consciência — delirium; Orientação — desorientação alopsíquica; Sensopercepção — alucinação visual; Psicomotricidade — agitação psicomotora."
+  },
+  {
+   "id": "HMP-CI1-37",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estudante de 20 anos não consegue ouvir a explicação e anotar ao mesmo tempo e esquece as datas das provas porque \"nem prestou atenção\" quando foram ditas.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Orientação — desorientação autopsíquica; Memória — falha de fixação."
+    },
+    {
+     "letra": "B",
+     "texto": "Atenção — seletiva × dividida; Memória — falha de fixação; Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Atenção — hiperprosexia; Memória — falha de fixação."
+    },
+    {
+     "letra": "D",
+     "texto": "Atenção — seletiva × dividida; Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "E",
+     "texto": "Atenção — seletiva × dividida; Memória — falha de fixação."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Sem atenção não há registro: a falha de memória decorre da atenção.\n\n**Funções alteradas:** Atenção — seletiva × dividida; Memória — falha de fixação."
+  },
+  {
+   "id": "HMP-CI1-38",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 60 anos com cirrose está sonolento, responde lentamente quando chamado, não sabe que dia é e tem tremor em \"bater de asas\" das mãos.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Juízo de realidade: delírio persecutório.\nII. Consciência: obnubilação.\nIII. Orientação: desorientação alopsíquica.\nIV. Consciência: coma.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "II, III e IV, apenas."
+    },
+    {
+     "letra": "B",
+     "texto": "III e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I, III e IV, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "I, II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Encefalopatia (causa metabólica): rebaixamento leve, responde à fala.\n\n**Funções alteradas:** Consciência — obnubilação; Orientação — desorientação alopsíquica."
+  },
+  {
+   "id": "HMP-CI1-39",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Jovem de 26 anos relata que, toda vez que segura uma faca para cozinhar, tem a imagem de ferir a mãe; isso a horroriza, ela esconde as facas e chora ao contar.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pensamento — pensamento concreto; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Pensamento — pensamento intrusivo; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Pensamento — pensamento intrusivo; Vontade — ato compulsivo; Vontade — ato impulsivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Pensamento — pensamento intrusivo; Vontade — ato impulsivo."
+    },
+    {
+     "letra": "E",
+     "texto": "Vontade — ato impulsivo; Vontade — ato compulsivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Intrusivo egodistônico; esconder facas para aliviar → comportamento compulsivo/evitação. Não é intenção.\n\n**Funções alteradas:** Pensamento — pensamento intrusivo; Vontade — ato compulsivo."
+  },
+  {
+   "id": "HMP-CI1-40",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 42 anos com distimia há anos está agora irritada com todos, responde com grosseria e diz que \"nada presta\".\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Afetividade — disforia."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — delírio de grandeza."
+    },
+    {
+     "letra": "C",
+     "texto": "Afetividade — apatia."
+    },
+    {
+     "letra": "D",
+     "texto": "Afetividade — labilidade."
+    },
+    {
+     "letra": "E",
+     "texto": "Juízo de realidade — delírio persecutório."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Disforia = distimia + irritabilidade.\n\n**Funções alteradas:** Afetividade — disforia."
+  },
+  {
+   "id": "HMP-CI1-41",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente psicótico conta, sorrindo, que o pai morreu ontem, e em seguida fala de forma desconexa, saltando de um tema a outro sem ligação lógica.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de afetividade: inadequação do afeto.\nII. ( ) Há alteração de afetividade: euforia.\nIII. ( ) Há alteração de linguagem: afasia.\nIV. ( ) Há alteração de pensamento: incoerência (forma).",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – F – F – V"
+    },
+    {
+     "letra": "B",
+     "texto": "F – V – F – F"
+    },
+    {
+     "letra": "C",
+     "texto": "V – F – F – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "E",
+     "texto": "F – F – F – V"
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Forma do pensamento: dissociação/incoerência. Afeto inadequado.\n\n**Funções alteradas:** Afetividade — inadequação do afeto; Pensamento — incoerência (forma)."
+  },
+  {
+   "id": "HMP-CI1-42",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Senhor de 80 anos, com demência leve conhecida, há 2 dias está muito mais confuso, sonolento de dia e agitado à noite, desde que iniciou um antialérgico por conta própria.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consciência — coma; Atenção — desatenção."
+    },
+    {
+     "letra": "B",
+     "texto": "Consciência — delirium; Atenção — desatenção; Memória — piora esperada da demência."
+    },
+    {
+     "letra": "C",
+     "texto": "Memória — piora esperada da demência; Atenção — desatenção."
+    },
+    {
+     "letra": "D",
+     "texto": "Consciência — delirium; Atenção — desatenção."
+    },
+    {
+     "letra": "E",
+     "texto": "Consciência — delirium; Atenção — hiperprosexia."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Delirium sobreposto à demência; automedicação é precipitante.\n\n**Funções alteradas:** Consciência — delirium; Atenção — desatenção."
+  },
+  {
+   "id": "HMP-CI1-43",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Mulher de 35 anos, cleptomaníaca, furta batons sem valor; sente tensão antes, alívio depois, se envergonha; nos últimos meses, ruminou o episódio da última loja por dias.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Juízo de realidade: delírio de grandeza.\nII. Vontade: ato compulsivo.\nIII. Vontade: ato impulsivo (egossintônico).\nIV. Pensamento: ruminação.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "B",
+     "texto": "IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "Nenhuma das afirmativas está correta."
+    },
+    {
+     "letra": "D",
+     "texto": "I, II e III, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "A aula usou a cleptomania como ato repetido com tensão e alívio.\n\n**Funções alteradas:** Vontade — ato compulsivo; Pensamento — ruminação."
+  },
+  {
+   "id": "HMP-CI1-44",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Criança de 6 anos troca \"r\" por \"l\" (\"plato\", \"blanco\") e acredita que se apagar a luz rápido \"o monstro não pega\".\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linguagem — disartria; Pensamento — pensamento mágico."
+    },
+    {
+     "letra": "B",
+     "texto": "Linguagem — dislalia; Pensamento — pensamento mágico; Linguagem — dislexia."
+    },
+    {
+     "letra": "C",
+     "texto": "Linguagem — dislalia; Pensamento — pensamento mágico."
+    },
+    {
+     "letra": "D",
+     "texto": "Linguagem — dislexia; Pensamento — pensamento mágico."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação auditiva; Pensamento — pensamento mágico."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Dislalia (Cebolinha) e pensamento mágico.\n\n**Funções alteradas:** Linguagem — dislalia; Pensamento — pensamento mágico."
+  },
+  {
+   "id": "HMP-CI1-45",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Homem de 47 anos tem certeza de que a esposa \"está tendo um caso\", sem provas; fica irritado, verifica o celular dela várias vezes por dia e não consegue parar.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo; Juízo de realidade — delírio erotomaníaco."
+    },
+    {
+     "letra": "B",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "C",
+     "texto": "Juízo de realidade — delírio de grandeza; Vontade — ato compulsivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo; Sensopercepção — alucinação auditiva."
+    },
+    {
+     "letra": "E",
+     "texto": "Sensopercepção — alucinação auditiva; Vontade — ato compulsivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Ciúme patológico não delirante (slide) com checagem repetitiva.\n\n**Funções alteradas:** Juízo de realidade — ideia sobrevalorada; Vontade — ato compulsivo."
+  },
+  {
+   "id": "HMP-CI1-46",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente amputado sente dor no pé que não existe e diz: \"sei que não tenho o pé, mas dói\". Está ansioso e repassa o acidente o tempo todo.\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de juízo de realidade: delírio somático.\nII. ( ) Há alteração de sensopercepção: alucinação auditiva.\nIII. ( ) Há alteração de pensamento: ruminação.\nIV. ( ) Há alteração de sensopercepção: dor fantasma (ilusão).",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "V – V – V – V"
+    },
+    {
+     "letra": "B",
+     "texto": "V – V – V – F"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – V – V"
+    },
+    {
+     "letra": "D",
+     "texto": "F – F – F – V"
+    },
+    {
+     "letra": "E",
+     "texto": "F – F – V – V"
+    }
+   ],
+   "gabarito": [
+    "E"
+   ],
+   "gabarito_texto": "E",
+   "comentario": "Dor fantasma não é \"só psicológica\"; terapia do espelho usa a ilusão.\n\n**Funções alteradas:** Sensopercepção — dor fantasma (ilusão); Pensamento — ruminação."
+  },
+  {
+   "id": "HMP-CI1-47",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Após TCE, o motorista de 28 anos está alerta, sabe o nome e a idade, mas não sabe dizer onde está nem que mês é, e não lembra das três palavras ditas há 5 minutos.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Orientação — desorientação autopsíquica; Memória — falha de fixação."
+    },
+    {
+     "letra": "B",
+     "texto": "Orientação — desorientação alopsíquica; Orientação — desorientação autopsíquica."
+    },
+    {
+     "letra": "C",
+     "texto": "Orientação — desorientação alopsíquica; Memória — falha de fixação."
+    },
+    {
+     "letra": "D",
+     "texto": "Orientação — desorientação alopsíquica; Memória — falha de fixação; Consciência — sopor."
+    },
+    {
+     "letra": "E",
+     "texto": "Orientação — desorientação alopsíquica; Memória — falha de fixação; Orientação — desorientação autopsíquica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": "C",
+   "comentario": "Autopsíquica preservada; alopsíquica alterada; fixação prejudicada.\n\n**Funções alteradas:** Orientação — desorientação alopsíquica; Memória — falha de fixação."
+  },
+  {
+   "id": "HMP-CI1-48",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Idosa internada só abre os olhos e geme quando comprimem o leito ungueal; a família diz que há 1 dia ela \"via pessoas mortas\" no quarto.\n\nSobre as funções psíquicas desse caso, analise:\n\nI. Consciência: sopor.\nII. Sensopercepção: alucinação visual.\nIII. Consciência: torpor.\nIV. Sensopercepção: ilusão.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "I, II, III e IV."
+    },
+    {
+     "letra": "B",
+     "texto": "I, II e IV, apenas."
+    },
+    {
+     "letra": "C",
+     "texto": "I e III, apenas."
+    },
+    {
+     "letra": "D",
+     "texto": "I e II, apenas."
+    },
+    {
+     "letra": "E",
+     "texto": "II e IV, apenas."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": "D",
+   "comentario": "Só estímulo doloroso → sopor. Evolução de delirium.\n\n**Funções alteradas:** Consciência — sopor; Sensopercepção — alucinação visual."
+  },
+  {
+   "id": "HMP-CI1-49",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rapaz de 21 anos, após cocaína, está agitado, acredita que \"a polícia está atrás dele\" e sente \"o coração vai explodir\"; sabe onde está.\n\nQuais funções psíquicas estão alteradas e quais as alterações?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Psicomotricidade — agitação psicomotora; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "B",
+     "texto": "Afetividade — apatia; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "C",
+     "texto": "Psicomotricidade — agitação psicomotora; Afetividade — euforia."
+    },
+    {
+     "letra": "D",
+     "texto": "Psicomotricidade — catatonia; Juízo de realidade — delírio persecutório."
+    },
+    {
+     "letra": "E",
+     "texto": "Psicomotricidade — agitação psicomotora; Juízo de realidade — delírio persecutório; Afetividade — apatia."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": "A",
+   "comentario": "Psicoestimulantes: agitação e ideação persecutória.\n\n**Funções alteradas:** Psicomotricidade — agitação psicomotora; Juízo de realidade — delírio persecutório."
+  },
+  {
+   "id": "HMP-CI1-50",
+   "materia": "HMP IV",
+   "prova": "PR2",
+   "tema": "Casos integrados",
+   "subtema": "caso integrado",
+   "origem": "inédita",
+   "fonte": "Guia de estudo PR2 · HMP IV 2026.2 · Dalgalarrondo (2019) · slides Funções Psíquicas Elementares 1 e 2 · casos integrados",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Senhora de 75 anos, deprimida, fala muito devagar, demora a responder, diz que \"o tempo não passa\" e que \"não sente mais nada, nem tristeza\".\n\nJulgue os itens e assinale a sequência correta:\n\nI. ( ) Há alteração de vivência do tempo: inibição do fluir do tempo.\nII. ( ) Há alteração de afetividade: euforia.\nIII. ( ) Há alteração de pensamento: lentificação do curso.\nIV. ( ) Há alteração de consciência: coma.",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "F – V – F – F"
+    },
+    {
+     "letra": "B",
+     "texto": "V – F – V – F"
+    },
+    {
+     "letra": "C",
+     "texto": "F – V – V – F"
+    },
+    {
+     "letra": "D",
+     "texto": "V – F – F – V"
+    },
+    {
+     "letra": "E",
+     "texto": "V – V – V – F"
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": "B",
+   "comentario": "Curso lentificado, tempo inibido, vazio afetivo (sente que não sente).\n\n**Funções alteradas:** Pensamento — lentificação do curso; Vivência do tempo — inibição do fluir do tempo; Afetividade — vazio afetivo."
+  }
+ ]
+}
