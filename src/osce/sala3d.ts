@@ -168,7 +168,7 @@ export class Cortina {
   private posiciona(e: number) {
     this.paineis.forEach((m, i) => {
       const fechado = i / (this.paineis.length - 1);
-      const aberto = 0.012 * i; // recolhida no canto
+      const aberto = 1 - 0.012 * i; // recolhida no canto, longe do avaliador
       const { p, ang } = this.ponto(aberto + (fechado - aberto) * e);
       m.position.x = p.x;
       m.position.z = p.y;

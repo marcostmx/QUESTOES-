@@ -132,7 +132,7 @@ export default function OscePage() {
           <div className="mt-4 space-y-2.5 text-[13px] text-ink-2">
             <p className="flex gap-2.5"><Timer className="mt-0.5 size-4 shrink-0 text-accent" />{REGRAS_GERAIS.tempo}</p>
             <p className="flex gap-2.5"><Hand className="mt-0.5 size-4 shrink-0 text-accent" />{REGRAS_GERAIS.abertura}</p>
-            <p className="flex gap-2.5"><MousePointerClick className="mt-0.5 size-4 shrink-0 text-accent" />Clique no corpo do paciente para escolher a manobra. Ande com WASD/setas ou tocando no chão.</p>
+            <p className="flex gap-2.5"><MousePointerClick className="mt-0.5 size-4 shrink-0 text-accent" />Visão em primeira pessoa: arraste para olhar, ande com WASD ou o joystick e toque no corpo do paciente para escolher a manobra.</p>
           </div>
         </Card>
         <Card className="p-5">
