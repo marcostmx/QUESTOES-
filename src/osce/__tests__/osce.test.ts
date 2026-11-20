@@ -6,10 +6,12 @@ import { byId, POSTURAS } from '../maneuvers';
 const ESTACOES = data as unknown as Estacao[];
 
 describe('estações OSCE', () => {
-  it('tem as 80 estações dos quatro sistemas, com comandos e gabarito', () => {
-    expect(ESTACOES).toHaveLength(80);
+  it('tem as 116 estações (80 dos cadernos + 36 do material de estudo), com comandos e gabarito', () => {
+    expect(ESTACOES).toHaveLength(116);
+    expect(new Set(ESTACOES.map(e => e.id)).size).toBe(116);
     for (const e of ESTACOES) {
       expect(e.comandos.length).toBeGreaterThan(1);
+      if (e.checklist) expect(e.checklist.reduce((a, x) => a + x.pts, 0)).toBeCloseTo(10);
       for (const c of e.comandos) expect(c.gabarito.length).toBeGreaterThan(0);
     }
   });
@@ -29,7 +31,7 @@ describe('estações OSCE', () => {
   it('exame completo e respostas completas dão 100', () => {
     for (const e of ESTACOES) {
       const t = novaTentativa(e);
-      t.abertura = { higiene: 1, apresentar: 2, explicar: 3, consentimento: 4, dor: 5 };
+      t.abertura = { higiene: 1, apresentar: 2, explicar: 3, consentimento: 4, privacidade: 5, dor: 6 };
       let s = 10;
       e.comandos.forEach((_, i) => {
         for (const id of manobrasDoComando(e, i)) {
@@ -44,7 +46,7 @@ describe('estações OSCE', () => {
       });
       t.fechamento = { agradecer: 90, higieneFinal: 91 };
       const notas: Record<number, Status> = {};
-      e.comandos.forEach((_, i) => (notas[i] = 'fez'));
+      for (const it of corrigir(e, t, {}).itens) if (it.chave != null) notas[it.chave] = 'fez';
       const r = corrigir(e, t, notas);
       expect(r.nota, e.id).toBe(100);
       expect(r.pendentes).toBe(0);

@@ -361,7 +361,7 @@ export default function App() {
   if (route.parts[0] === 'osce' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Montando a estação…" />}>
-        <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} />
+        <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} query={route.query} />
       </Suspense>
     );
   }

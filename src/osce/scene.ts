@@ -630,7 +630,7 @@ export class World {
     if (this.disposed) return;
     this.raf = requestAnimationFrame(this.loop);
     if (document.hidden) return;
-    const dt = Math.min(0.05, this.clock.getDelta());
+    const dt = Math.min(0.1, this.clock.getDelta());
     this.step(dt);
     this.breathe();
     this.prox();

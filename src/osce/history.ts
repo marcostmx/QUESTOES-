@@ -2,7 +2,7 @@
 import { useSyncExternalStore } from 'react';
 import { storage } from '../app/core/store';
 
-export interface OsceRecord { key: string; id: string; date: number; nota: number; pendentes: number }
+export interface OsceRecord { key: string; id: string; date: number; nota: number; pendentes: number; modo?: 'prova' | 'treino'; circuito?: string }
 
 const KEY = 'pr.v2.osce';
 let list: OsceRecord[] = storage.read<OsceRecord[]>(KEY) ?? [];

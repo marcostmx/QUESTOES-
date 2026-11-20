@@ -1,21 +1,23 @@
 /* Estação OSCE imersiva: corredor → leitura (1 min) → sala (5 min) → checklist. */
 import { Component, useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  ArrowLeft, BedDouble, Check, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
+  ArrowLeft, BedDouble, BookOpen, Check, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
 } from 'lucide-react';
 import data from '../data/osce/stations.json';
 import { href } from '../app/router';
 import { Badge, Button, cx, Ring, toast } from '../app/ui';
 import {
-  achado, corrigir, ESTACAO_S, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, temParteVerbal,
+  achado, corrigir, ESTACAO_S, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
   type Abertura, type Estacao, type Status, type Tentativa,
 } from './engine';
-import { osceHistory } from './history';
+import { osceHistory, useOsceHistory } from './history';
+import { COLAS } from './colas';
 import { doSistema, POSTURAS, REGIOES, type Manobra, type Postura, type Regiao } from './maneuvers';
 import { World, webglOk, type Alvo, type Proximidade } from './scene';
 import { sfx } from './sfx';
 
 const ESTACOES = data as unknown as Estacao[];
+const TOQUE = typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches;
 type Fase = 'leitura' | 'estacao' | 'resultado';
 interface Log { key: number; nome: string; texto: string; alterado: boolean; aviso?: string }
 
@@ -51,7 +53,7 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     let w: World | null = null;
     try {
       w = new World(ref.current, {
-        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: String(e.n),
+        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo,
         onClick: a => cbs.current.onAlvo(a),
         onHover: a => cbs.current.onHover(a),
         onProx: p => cbs.current.onProx(p),
@@ -72,13 +74,20 @@ const REGIAO_CLIQUE: Record<Regiao, Regiao[]> = {
   cabeca: ['cabeca'], torax: ['torax', 'dorso'], dorso: ['dorso', 'torax'], abdome: ['abdome'], mmss: ['mmss'], mmii: ['mmii'], geral: ['geral'],
 };
 
-export default function OsceRun({ id }: { id: string }) {
+export type Modo = 'prova' | 'treino';
+export interface Circuito { ids: string[]; i: number; inicio: string }
+
+export default function OsceRun({ id, query }: { id: string; query: URLSearchParams }) {
   const e = useMemo(() => ESTACOES.find(x => x.id === id), [id]);
   if (!e) return <div className="p-10 text-center">Estação não encontrada. <a className="text-accent underline" href={href('osce')}>Voltar</a></div>;
-  return <Run key={id} e={e} />;
+  const modo: Modo = query.get('modo') === 'treino' ? 'treino' : 'prova';
+  const c = query.get('c');
+  const circuito: Circuito | null = c ? { ids: c.split(','), i: Number(query.get('i') ?? 0), inicio: query.get('t') ?? '' } : null;
+  return <Run key={id + query.toString()} e={e} modo={modo} circuito={circuito} />;
 }
 
-function Run({ e }: { e: Estacao }) {
+function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito | null }) {
+  const treino = modo === 'treino';
   const worldRef = useRef<World | null>(null);
   const [fallback, setFallback] = useState(() => !webglOk());
   const [fase, setFase] = useState<Fase>('leitura');
@@ -119,7 +128,7 @@ function Run({ e }: { e: Estacao }) {
     setFase('estacao');
     setPainel(false);
     sfx.bell();
-    toast('A porta abriu — você tem 5 minutos.');
+    toast(treino ? 'Modo treino: sem limite de tempo.' : 'A porta abriu — você tem 5 minutos.');
   }, []);
 
   const encerrar = useCallback(() => {
@@ -131,7 +140,7 @@ function Run({ e }: { e: Estacao }) {
 
   useEffect(() => {
     if (fase === 'leitura' && restante <= 0) entrar();
-    if (fase === 'estacao') {
+    if (fase === 'estacao' && !treino) {
       if (restante <= 60 && !avisou.current) {
         avisou.current = true;
         sfx.beep();
@@ -139,7 +148,7 @@ function Run({ e }: { e: Estacao }) {
       }
       if (restante <= 0) encerrar();
     }
-  }, [restante, fase, entrar, encerrar]);
+  }, [restante, fase, entrar, encerrar, treino]);
 
   /* ----- balão de fala acompanha a cabeça do paciente ----- */
   useEffect(() => {
@@ -245,10 +254,14 @@ function Run({ e }: { e: Estacao }) {
     worldRef.current?.pulse(m.regiao);
     sfx.tap();
     const a = achado(e, m);
-    const aviso = ok ? undefined : `Paciente em "${nomePostura(s.postura)}". Posição adequada: ${m.postura!.map(nomePostura).join(' ou ')}.`;
-    setLog(l => [{ key: Date.now(), nome: m.nome, texto: a.texto, alterado: a.alterado, aviso }, ...l]);
-    if (a.dor) diz('Ai! Aí dói, doutor(a)!');
-    if (aviso) toast('Atenção à posição do paciente.');
+    const aviso = ok ? undefined : treino
+      ? `Paciente em "${nomePostura(s.postura)}". Posição adequada: ${m.postura!.map(nomePostura).join(' ou ')}.`
+      : 'Técnica/posição inadequada — reposicione e repita.';
+    // regra do avaliador: só informa o achado se a manobra foi feita corretamente
+    const texto = ok ? a.texto : 'Avaliador: “sem achados”.';
+    setLog(l => [{ key: Date.now(), nome: m.nome, texto, alterado: ok && a.alterado, aviso }, ...l]);
+    if (ok && a.dor) diz('Ai! Aí dói, doutor(a)!');
+    if (aviso) toast(treino ? 'Atenção à posição do paciente.' : 'Avaliador: sem achados.');
   };
 
   const manobra = (m: Manobra) => {
@@ -283,16 +296,20 @@ function Run({ e }: { e: Estacao }) {
   const res = useMemo(() => (fase === 'resultado' ? corrigir(e, t, notas) : null), [fase, e, t, notas]);
   useEffect(() => {
     if (!res) return;
-    osceHistory.save({ key: attemptKey.current, id: e.id, date: Date.now(), nota: res.nota, pendentes: res.pendentes });
-  }, [res, e.id]);
+    osceHistory.save({ key: attemptKey.current, id: e.id, date: Date.now(), nota: res.nota, pendentes: res.pendentes, modo, circuito: circuito?.inicio || undefined });
+  }, [res, e.id, modo, circuito]);
 
   const refazer = () => {
-    location.hash = href(`osce/${e.id}`) + `?r=${Date.now()}`;
+    location.hash = href(`osce/${e.id}`) + `?modo=${modo}&r=${Date.now()}`;
   };
   const proxima = () => {
+    if (circuito && circuito.i + 1 < circuito.ids.length) {
+      location.hash = href(`osce/${circuito.ids[circuito.i + 1]}`) + `?modo=${modo}&c=${circuito.ids.join(',')}&i=${circuito.i + 1}&t=${circuito.inicio}`;
+      return;
+    }
     const mesmos = ESTACOES.filter(x => x.sistema === e.sistema);
     const n = mesmos[(mesmos.findIndex(x => x.id === e.id) + 1) % mesmos.length];
-    location.hash = href(`osce/${n.id}`);
+    location.hash = href(`osce/${n.id}`) + `?modo=${modo}`;
   };
 
   const manobrasSis = useMemo(() => doSistema(e.sistema), [e.sistema]);
@@ -315,14 +332,14 @@ function Run({ e }: { e: Estacao }) {
             <ArrowLeft className="size-5" />
           </a>
           <div className="rounded-xl bg-white/90 px-3 py-1.5 shadow-card backdrop-blur">
-            <div className="text-[11px] font-medium text-ink-3 uppercase">Estação {e.n} · {nomeSistema(e.sistema)}</div>
-            <div className="text-[13px] font-semibold">{fase === 'leitura' ? 'Leitura do caso' : fase === 'estacao' ? 'Execução' : 'Correção'}</div>
+            <div className="text-[11px] font-medium text-ink-3 uppercase">Estação {e.rotulo} · {nomeSistema(e.sistema)}{circuito ? ` · circuito ${circuito.i + 1}/${circuito.ids.length}` : ''}</div>
+            <div className="text-[13px] font-semibold">{fase === 'leitura' ? 'Leitura do caso' : fase === 'estacao' ? (treino ? 'Treino livre' : 'Execução') : 'Correção'}</div>
           </div>
         </div>
         {fase !== 'resultado' && (
           <div className={cx('pointer-events-auto rounded-2xl px-4 py-2 font-mono text-[22px] font-bold shadow-card backdrop-blur tabular',
-            fase === 'estacao' && restante <= 60 ? 'animate-pulse bg-bad text-white' : 'bg-white/90 text-ink')}>
-            {fmt(restante)}
+            fase === 'estacao' && !treino && restante <= 60 ? 'animate-pulse bg-bad text-white' : 'bg-white/90 text-ink')}>
+            {fase === 'estacao' && treino ? fmt((agora - inicio.current) / 1000) : fmt(restante)}
           </div>
         )}
         <div className="pointer-events-auto flex items-center gap-2">
@@ -341,9 +358,13 @@ function Run({ e }: { e: Estacao }) {
         <div className="absolute inset-x-0 top-20 bottom-0 overflow-y-auto px-3 pb-6">
           <div className="animate-rise mx-auto max-w-2xl rounded-3xl border-4 border-[#1f2a44] bg-[#fffdf6] p-5 shadow-pop sm:p-7">
             <div className="mb-3 flex items-center justify-between gap-3">
-              <span className="rounded-lg bg-[#1f2a44] px-3 py-1 font-mono text-[13px] font-bold text-white">ESTAÇÃO {e.n}</span>
-              <span className="text-[12px] text-ink-3">1 min de leitura · 5 min de estação</span>
+              <span className="rounded-lg bg-[#1f2a44] px-3 py-1 font-mono text-[13px] font-bold text-white">ESTAÇÃO {e.rotulo}</span>
+              <span className="text-[12px] text-ink-3">{treino ? 'Modo treino · sem limite de tempo' : '1 min de leitura · 5 min de estação'}</span>
             </div>
+            {e.tipo === 'discussao' && (
+              <p className="mb-3 rounded-xl bg-accent-soft px-3 py-2 text-[13px] text-accent">Estação de discussão: o exame já está descrito no caso. Entre, cumprimente o paciente e responda os comandos ao avaliador em “Tarefas”.</p>
+            )}
+            {e.checklist && <p className="mb-3 rounded-xl bg-good-soft px-3 py-2 text-[13px] text-good">Estação com checklist oficial do avaliador (10 pontos). O achado só é informado se a manobra for feita corretamente.</p>}
             <h2 className="mb-1.5 text-[13px] font-semibold tracking-wide text-ink-3 uppercase">Caso clínico</h2>
             <p className="text-[15px] leading-relaxed">{e.caso}</p>
             <h2 className="mt-4 mb-1.5 text-[13px] font-semibold tracking-wide text-ink-3 uppercase">Comandos</h2>
@@ -385,6 +406,7 @@ function Run({ e }: { e: Estacao }) {
             <Acao icon={<Smile />} label="Apresentar-se" done={t.abertura.apresentar != null} onClick={() => abrir('apresentar')} />
             <Acao icon={<MessageCircle />} label="Explicar" done={t.abertura.explicar != null} onClick={() => abrir('explicar')} />
             <Acao icon={<ShieldCheck />} label="Consentimento" done={t.abertura.consentimento != null} onClick={() => abrir('consentimento')} />
+            <Acao icon={<Lock />} label="Privacidade" done={t.abertura.privacidade != null} onClick={() => abrir('privacidade')} />
             <Acao icon={<Hand />} label="Perguntar dor" done={t.abertura.dor != null} onClick={() => abrir('dor')} />
             <Acao icon={<BedDouble />} label="Posicionar" onClick={() => naSala() && setPosMenu(true)} />
             <Acao icon={<Stethoscope />} label="Manobras" onClick={() => naSala() && setMenu(['geral'])} />
@@ -392,7 +414,7 @@ function Run({ e }: { e: Estacao }) {
             <Acao icon={<Flag />} label="Finalizar" tone="bad" onClick={() => { if (confirm('Finalizar a estação agora?')) encerrar(); }} />
           </div>
           <div className="mt-1.5 text-center text-[11.5px] font-medium text-ink/70">
-            {fallback ? 'Modo 2D' : `WASD/setas ou toque no chão para andar · clique no paciente para examinar · F tela cheia`}
+            {fallback ? 'Modo 2D' : TOQUE ? 'Toque no chão para andar e no paciente para examinar' : 'WASD/setas ou clique no chão para andar · clique no paciente para examinar · F tela cheia'}
             {!fallback && prox.dentro && prox.lado && ` · você está à ${prox.lado === 'direito' ? 'direita' : 'esquerda'} do paciente`}
           </div>
         </div>
@@ -415,7 +437,7 @@ function Run({ e }: { e: Estacao }) {
 
       {/* manobras */}
       {menu && (
-        <MenuManobras regioesSis={regioesSis} inicial={menu} manobras={manobrasSis} feitas={new Set(t.execs.map(x => x.id))} onPick={manobra} onClose={() => setMenu(null)} />
+        <MenuManobras dicasPermitidas={treino} regioesSis={regioesSis} inicial={menu} manobras={manobrasSis} feitas={new Set(t.execs.map(x => x.id))} onPick={manobra} onClose={() => setMenu(null)} />
       )}
 
       {/* painel de tarefas e achados */}
@@ -433,6 +455,16 @@ function Run({ e }: { e: Estacao }) {
             {e.comandos.map((c, i) => (
               <div key={i}>
                 <p className="text-[14px] leading-snug"><b className="font-mono text-accent">{String(i + 1).padStart(2, '0')}</b> {c.texto}</p>
+                {treino && manobrasDoComando(e, i).length > 0 && (() => {
+                  const sp = statusPratico(e, t, i);
+                  const n = manobrasDoComando(e, i).length;
+                  return (
+                    <p className={cx('mt-1 text-[12px] font-medium', sp.status === 'fez' ? 'text-good' : sp.status === 'parcial' ? 'text-warn' : 'text-ink-3')}>
+                      {sp.status === 'fez' ? '✓ Exame deste comando concluído' : `Exame: ${n - sp.faltam.length}/${n} manobra(s) feita(s)`}
+                      {sp.posicaoErrada.length > 0 && ' · refaça na posição correta'}
+                    </p>
+                  );
+                })()}
                 {temParteVerbal(e, i) && (
                   <textarea
                     value={t.respostas[i] ?? ''}
@@ -464,7 +496,7 @@ function Run({ e }: { e: Estacao }) {
       )}
 
       {res && (
-        <Resultado e={e} t={t} res={res} log={log} notas={notas} setNota={(i, s) => setNotas(n => ({ ...n, [i]: s }))} onRefazer={refazer} onProxima={proxima} />
+        <Resultado e={e} t={t} res={res} circuito={circuito} log={log} notas={notas} setNota={(i, s) => setNotas(n => ({ ...n, [i]: s }))} onRefazer={refazer} onProxima={proxima} />
       )}
     </div>
   );
@@ -497,11 +529,12 @@ function Folha({ titulo, onClose, children }: { titulo: string; onClose: () => v
   );
 }
 
-function MenuManobras({ regioesSis, inicial, manobras, feitas, onPick, onClose }: {
+function MenuManobras({ dicasPermitidas, regioesSis, inicial, manobras, feitas, onPick, onClose }: {
+  dicasPermitidas: boolean;
   regioesSis: Regiao[]; inicial: Regiao[]; manobras: Manobra[]; feitas: Set<string>; onPick: (m: Manobra) => void; onClose: () => void;
 }) {
   const [sel, setSel] = useState<Regiao | 'todas'>(inicial[0] === 'geral' ? 'todas' : inicial.find(r => regioesSis.includes(r)) ?? 'todas');
-  const [dicas, setDicas] = useState(false);
+  const [dicas, setDicas] = useState(dicasPermitidas);
   const lista = manobras.filter(m => sel === 'todas' || m.regiao === sel || (sel === inicial[0] && inicial.includes(m.regiao)));
   return (
     <Folha titulo="Escolha a manobra" onClose={onClose}>
@@ -512,9 +545,11 @@ function MenuManobras({ regioesSis, inicial, manobras, feitas, onPick, onClose }
             {r === 'todas' ? 'Todas' : REGIOES[r]}
           </button>
         ))}
-        <label className="ml-auto flex items-center gap-1.5 text-[12px] text-ink-3">
-          <input type="checkbox" checked={dicas} onChange={ev => setDicas(ev.target.checked)} /> dicas
-        </label>
+        {dicasPermitidas && (
+          <label className="ml-auto flex items-center gap-1.5 text-[12px] text-ink-3">
+            <input type="checkbox" checked={dicas} onChange={ev => setDicas(ev.target.checked)} /> dicas
+          </label>
+        )}
       </div>
       <div className="grid gap-1 p-2">
         {lista.map(m => (
@@ -567,12 +602,30 @@ function Fallback2D({ e, onRegiao, postura }: { e: Estacao; onRegiao: (r: Regiao
   );
 }
 
-function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima }: {
-  e: Estacao; t: Tentativa; res: ReturnType<typeof corrigir>; log: Log[];
+function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circuito }: {
+  e: Estacao; t: Tentativa; res: ReturnType<typeof corrigir>; log: Log[]; circuito: Circuito | null;
   notas: Record<number, Status | null>; setNota: (i: number, s: Status) => void; onRefazer: () => void; onProxima: () => void;
 }) {
   const grupos = ['Abertura', 'Técnica', 'Encerramento'] as const;
   const cor = res.nota >= 70 ? 'var(--good)' : res.nota >= 50 ? 'var(--warn)' : 'var(--bad)';
+  const hist = useOsceHistory();
+  const ultimo = circuito && circuito.i + 1 >= circuito.ids.length;
+  const doCircuito = circuito ? hist.filter(r => r.circuito === circuito.inicio) : [];
+  const cola = COLAS[e.sistema];
+  const pts = (x: number) => x.toLocaleString('pt-BR', { minimumFractionDigits: x % 1 ? 1 : 0, maximumFractionDigits: 2 });
+  const Nota = ({ chave }: { chave: number }) => (
+    <div className="mt-1.5 flex flex-wrap items-center gap-1.5">
+      <span className="mr-1 text-[12.5px] text-ink-3">Você disse?</span>
+      {(['fez', 'parcial', 'nao'] as Status[]).map(st => (
+        <button key={st} type="button" onClick={() => setNota(chave, st)}
+          className={cx('rounded-full border px-3 py-1 text-[12.5px] font-semibold', notas[chave] === st
+            ? st === 'fez' ? 'border-good bg-good text-white' : st === 'parcial' ? 'border-warn bg-warn text-white' : 'border-bad bg-bad text-white'
+            : 'border-line text-ink-2 hover:border-line-strong')}>
+          {st === 'fez' ? 'Completo' : st === 'parcial' ? 'Parcial' : 'Não disse'}
+        </button>
+      ))}
+    </div>
+  );
   return (
     <div className="absolute inset-0 z-50 overflow-y-auto bg-bg">
       <div className="mx-auto max-w-3xl px-4 pt-20 pb-16">
@@ -581,19 +634,33 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima }: {
             <span className="font-display text-[26px] font-semibold">{res.nota}</span>
           </Ring>
           <div>
-            <div className="text-[12px] font-medium text-ink-3 uppercase">Estação {e.n} · {nomeSistema(e.sistema)}</div>
+            <div className="text-[12px] font-medium text-ink-3 uppercase">Estação {e.rotulo} · {nomeSistema(e.sistema)}{e.titulo ? ` · ${e.titulo}` : ''}</div>
             <h1 className="font-display text-[26px] font-semibold">Checklist do avaliador</h1>
             {res.pendentes > 0 ? (
-              <p className="text-[13.5px] text-warn">Autoavalie {res.pendentes} resposta(s) verbal(is) abaixo para fechar a nota.</p>
+              <p className="text-[13.5px] text-warn">Autoavalie {res.pendentes} item(ns) abaixo para fechar a nota.</p>
             ) : (
               <p className="text-[13.5px] text-ink-2">Nota salva no seu histórico.</p>
             )}
+            {e.fonte && <p className="text-[12px] text-ink-3">Fonte: {e.fonte}</p>}
           </div>
         </div>
 
+        {ultimo && doCircuito.length > 0 && (
+          <div className="mb-6 rounded-2xl border border-accent/30 bg-accent-soft p-4">
+            <div className="text-[13px] font-semibold text-accent">Circuito concluído</div>
+            <div className="font-display text-[28px] font-semibold">{Math.round(doCircuito.reduce((a, r) => a + r.nota, 0) / doCircuito.length)}% <span className="text-[14px] font-normal text-ink-2">de média em {doCircuito.length} estações</span></div>
+            <div className="mt-1 flex flex-wrap gap-1.5">
+              {[...doCircuito].reverse().map(r => {
+                const x = ESTACOES.find(y => y.id === r.id);
+                return <Badge key={r.key} tone={r.nota >= 70 ? 'good' : r.nota >= 50 ? 'warn' : 'bad'}>{x ? `${x.rotulo} ${nomeSistema(x.sistema)}` : r.id}: {r.nota}%</Badge>;
+              })}
+            </div>
+          </div>
+        )}
+
         <div className="mb-6 flex flex-wrap gap-2">
           <Button variant="primary" icon={<RotateCcw className="size-4" />} onClick={onRefazer}>Refazer</Button>
-          <Button onClick={onProxima}>Próxima estação</Button>
+          <Button onClick={onProxima}>{circuito && !ultimo ? `Próxima do circuito (${circuito.i + 2}/${circuito.ids.length})` : 'Próxima estação'}</Button>
           <Button variant="ghost" to="osce">Todas as estações</Button>
         </div>
 
@@ -604,7 +671,12 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima }: {
             <section key={g} className="mb-5">
               <h2 className="mb-2 text-[12px] font-semibold tracking-wide text-ink-3 uppercase">{g}</h2>
               <div className="divide-y divide-line rounded-2xl border border-line bg-surface">
-                {its.map((x, i) => <Linha key={i} label={x.label} status={x.status} detalhe={x.detalhe} />)}
+                {its.map((x, i) => (
+                  <div key={i}>
+                    <Linha label={x.label} status={x.status} detalhe={x.detalhe} pts={e.checklist ? pts(x.peso) : undefined} />
+                    {x.chave != null && <div className="px-4 pb-3"><Nota chave={x.chave} /></div>}
+                  </div>
+                ))}
               </div>
             </section>
           );
@@ -619,28 +691,27 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima }: {
               return (
                 <div key={i} className="rounded-2xl border border-line bg-surface p-4">
                   <p className="mb-2 text-[14.5px] font-medium leading-snug"><span className="font-mono text-accent">{String(i + 1).padStart(2, '0')}</span> {c.texto}</p>
-                  {its.filter(x => x.auto).map((x, k) => <Linha key={k} label={`Execução${req.length ? ` (${req.length} manobra${req.length > 1 ? 's' : ''})` : ''}`} status={x.status} detalhe={x.detalhe} compact />)}
-                  <details className="mt-2 rounded-xl bg-surface-2 p-3" open={temParteVerbal(e, i)}>
-                    <summary className="cursor-pointer text-[13px] font-semibold">Gabarito</summary>
-                    <ul className="mt-1.5 list-disc space-y-1 pl-5 text-[13.5px] leading-snug">
-                      {c.gabarito.map((g, k) => <li key={k}>{g}</li>)}
-                    </ul>
-                  </details>
-                  {temParteVerbal(e, i) && (
-                    <div className="mt-3">
-                      {t.respostas[i] && <p className="mb-2 rounded-xl border border-dashed border-line px-3 py-2 text-[13px] text-ink-2"><b>Sua resposta:</b> {t.respostas[i]}</p>}
-                      <div className="flex flex-wrap items-center gap-1.5">
-                        <span className="mr-1 text-[12.5px] text-ink-3">Sua resposta verbal:</span>
-                        {(['fez', 'parcial', 'nao'] as Status[]).map(s => (
-                          <button key={s} type="button" onClick={() => setNota(i, s)}
-                            className={cx('rounded-full border px-3 py-1 text-[12.5px] font-semibold', notas[i] === s
-                              ? s === 'fez' ? 'border-good bg-good text-white' : s === 'parcial' ? 'border-warn bg-warn text-white' : 'border-bad bg-bad text-white'
-                              : 'border-line text-ink-2 hover:border-line-strong')}>
-                            {s === 'fez' ? 'Completa' : s === 'parcial' ? 'Parcial' : 'Não disse'}
-                          </button>
-                        ))}
-                      </div>
+                  {t.respostas[i] && <p className="mb-2 rounded-xl border border-dashed border-line px-3 py-2 text-[13px] text-ink-2"><b>Sua resposta:</b> {t.respostas[i]}</p>}
+                  {e.checklist ? (
+                    <div className="divide-y divide-line">
+                      {its.map((x, k) => (
+                        <div key={k} className="py-2">
+                          <Linha label={x.label} status={x.status} detalhe={x.detalhe} pts={pts(x.peso)} compact />
+                          {x.chave != null && <Nota chave={x.chave} />}
+                        </div>
+                      ))}
                     </div>
+                  ) : (
+                    <>
+                      {its.filter(x => x.auto).map((x, k) => <Linha key={k} label={`Execução${req.length ? ` (${req.length} manobra${req.length > 1 ? 's' : ''})` : ''}`} status={x.status} detalhe={x.detalhe} compact />)}
+                      <details className="mt-2 rounded-xl bg-surface-2 p-3" open={temParteVerbal(e, i)}>
+                        <summary className="cursor-pointer text-[13px] font-semibold">Gabarito</summary>
+                        <ul className="mt-1.5 list-disc space-y-1 pl-5 text-[13.5px] leading-snug">
+                          {c.gabarito.map((g, k) => <li key={k}>{g}</li>)}
+                        </ul>
+                      </details>
+                      {its.filter(x => x.chave != null).map(x => <Nota key={x.chave} chave={x.chave!} />)}
+                    </>
                   )}
                 </div>
               );
@@ -655,17 +726,34 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima }: {
           </div>
         )}
 
-        <details className="rounded-2xl border border-line bg-surface p-4">
+        <details className="mb-5 rounded-2xl border border-line bg-surface p-4">
           <summary className="flex cursor-pointer items-center gap-2 text-[14px] font-semibold">Achados que você encontrou ({log.length}) <ChevronDown className="size-4" /></summary>
           <div className="mt-3">{log.length ? <AchadosLista log={log} /> : <p className="text-[13px] text-ink-3">Nenhuma manobra executada.</p>}</div>
           {e.achados && <p className="mt-3 text-[13px] text-ink-2"><b>Achados simulados da estação:</b> {e.achados}</p>}
         </details>
+
+        {cola && (
+          <details className="rounded-2xl border border-line bg-surface p-4">
+            <summary className="flex cursor-pointer items-center gap-2 text-[14px] font-semibold"><BookOpen className="size-4 text-accent" /> Revisão rápida: {cola.titulo}</summary>
+            <div className="mt-3 space-y-3 text-[13.5px] leading-snug">
+              {cola.tabela && (
+                <div className="overflow-x-auto">
+                  <table className="w-full text-left text-[12.5px]">
+                    <thead><tr>{cola.tabela[0].map((h, k) => <th key={k} className="border-b border-line px-2 py-1.5 font-semibold">{h}</th>)}</tr></thead>
+                    <tbody>{cola.tabela.slice(1).map((r, k) => <tr key={k}>{r.map((c, j) => <td key={j} className="border-b border-line px-2 py-1.5">{c}</td>)}</tr>)}</tbody>
+                  </table>
+                </div>
+              )}
+              {cola.pontos.map((x, k) => <p key={k}>• {x}</p>)}
+            </div>
+          </details>
+        )}
       </div>
     </div>
   );
 }
 
-function Linha({ label, status, detalhe, compact }: { label: string; status: Status | null; detalhe?: string; compact?: boolean }) {
+function Linha({ label, status, detalhe, compact, pts }: { label: string; status: Status | null; detalhe?: string; compact?: boolean; pts?: string }) {
   const tone = status === 'fez' ? 'good' : status === 'parcial' ? 'warn' : status === 'nao' ? 'bad' : 'neutral';
   const txt = status === 'fez' ? 'Fez' : status === 'parcial' ? 'Parcial' : status === 'nao' ? 'Não fez' : 'Avaliar';
   return (
@@ -674,6 +762,7 @@ function Linha({ label, status, detalhe, compact }: { label: string; status: Sta
         <div className="text-[14px]">{label}</div>
         {detalhe && <div className="text-[12.5px] text-ink-3">{detalhe}</div>}
       </div>
+      {pts && <span className="tabular shrink-0 text-[12px] text-ink-3">{pts} pt</span>}
       <Badge tone={tone}>{txt}</Badge>
     </div>
   );

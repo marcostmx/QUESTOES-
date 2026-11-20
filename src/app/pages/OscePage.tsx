@@ -1,51 +1,109 @@
-/* OSCE: escolha da estação (sem revelar o subtema) e histórico. */
+/* OSCE: escolha da estação (sem revelar o subtema), modos, circuito e histórico. */
 import { useMemo, useState } from 'react';
-import { Gamepad2, Hand, MousePointerClick, Shuffle, Timer } from 'lucide-react';
+import { Gamepad2, Hand, ListChecks, MousePointerClick, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
 import data from '../../data/osce/stations.json';
+import { REGRAS_GERAIS } from '../../osce/colas';
 import { nomeSistema, SISTEMAS, type Estacao } from '../../osce/engine';
 import { melhores, useOsceHistory } from '../../osce/history';
 import type { Sistema } from '../../osce/maneuvers';
+import { storage } from '../core/store';
 import { href } from '../router';
-import { Badge, Button, Card, Chip, cx, PageHeader, Section } from '../ui';
+import { Badge, Bar, Button, Card, Chip, cx, PageHeader, Section } from '../ui';
 
 const ESTACOES = data as unknown as Estacao[];
+const PRINCIPAIS: Sistema[] = ['abdome', 'cardiovascular', 'respiratorio', 'neurologico'];
+type Modo = 'prova' | 'treino';
+const MODO_KEY = 'pr.v2.osce.modo';
+
+const sorteia = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)];
 
 export default function OscePage() {
   const [sis, setSis] = useState<Sistema | 'todos'>('todos');
+  const [modo, setModoState] = useState<Modo>(() => storage.read<Modo>(MODO_KEY) ?? 'prova');
+  const setModo = (m: Modo) => {
+    setModoState(m);
+    storage.write(MODO_KEY, m);
+  };
   const hist = useOsceHistory();
   const best = useMemo(() => melhores(hist), [hist]);
   const lista = ESTACOES.filter(e => sis === 'todos' || e.sistema === sis);
   const feitas = lista.filter(e => best.has(e.id)).length;
+  const q = (extra = '') => `?modo=${modo}${extra}`;
+
   const aleatoria = () => {
-    const pool = lista.filter(e => !best.has(e.id));
-    const src = pool.length ? pool : lista;
-    location.hash = href(`osce/${src[Math.floor(Math.random() * src.length)].id}`);
+    const exames = lista.filter(e => e.tipo !== 'discussao');
+    const pool = exames.filter(e => !best.has(e.id));
+    const e = sorteia(pool.length ? pool : exames);
+    location.hash = href(`osce/${e.id}`) + q();
   };
+  const circuito = () => {
+    // uma estação de cada sistema principal, priorizando as menos treinadas
+    const ids = PRINCIPAIS.map(s => {
+      const ex = ESTACOES.filter(e => e.sistema === s && e.tipo !== 'discussao');
+      const novas = ex.filter(e => !best.has(e.id));
+      return sorteia(novas.length ? novas : ex).id;
+    });
+    location.hash = href(`osce/${ids[0]}`) + q(`&c=${ids.join(',')}&i=0&t=${Date.now()}`);
+  };
+
+  const porSistema = SISTEMAS.map(s => {
+    const est = ESTACOES.filter(e => e.sistema === s.id);
+    const notas = est.map(e => best.get(e.id)).filter((x): x is number => x != null);
+    return { ...s, total: est.length, feitas: notas.length, media: notas.length ? Math.round(notas.reduce((a, b) => a + b, 0) / notas.length) : null };
+  });
 
   return (
     <div>
       <PageHeader
         eyebrow="Prova prática"
         title="Simulador OSCE"
-        actions={<Button variant="primary" icon={<Shuffle className="size-4" />} onClick={aleatoria}>Estação aleatória</Button>}
+        actions={
+          <div className="flex flex-wrap gap-2">
+            <Button icon={<RouteIcon className="size-4" />} onClick={circuito}>Circuito de 4</Button>
+            <Button variant="primary" icon={<Shuffle className="size-4" />} onClick={aleatoria}>Estação aleatória</Button>
+          </div>
+        }
       >
-        Entre na sala, examine o paciente em 3D e seja avaliado pelo checklist da estação: 1 min de leitura e 5 min de execução.
+        Entre na sala, examine o paciente em 3D e seja avaliado pelo checklist da estação. São {ESTACOES.length} estações, dos cadernos de treino e do material de estudo.
       </PageHeader>
 
-      <Card className="mb-6 grid gap-4 p-5 sm:grid-cols-3">
-        <div className="flex gap-3">
-          <Timer className="mt-0.5 size-5 shrink-0 text-accent" />
-          <p className="text-[13.5px] text-ink-2"><b className="text-ink">Leitura na porta.</b> O caso e os comandos ficam na porta por 1 minuto. Depois ela abre e começam os 5 minutos.</p>
-        </div>
-        <div className="flex gap-3">
-          <Hand className="mt-0.5 size-5 shrink-0 text-accent" />
-          <p className="text-[13.5px] text-ink-2"><b className="text-ink">Abertura conta ponto.</b> Higienize as mãos na pia, apresente-se, explique, peça consentimento e pergunte sobre dor.</p>
-        </div>
-        <div className="flex gap-3">
-          <MousePointerClick className="mt-0.5 size-5 shrink-0 text-accent" />
-          <p className="text-[13.5px] text-ink-2"><b className="text-ink">Clique no corpo do paciente</b> para escolher a manobra. Ande com WASD/setas ou tocando no chão.</p>
-        </div>
-      </Card>
+      <div className="mb-6 grid gap-3 lg:grid-cols-[1fr_1.2fr]">
+        <Card className="p-5">
+          <div className="mb-3 text-[13px] font-semibold text-ink-3 uppercase">Modo</div>
+          <div role="radiogroup" className="grid grid-cols-2 gap-2">
+            {([
+              ['prova', 'Prova', '1 min de leitura + 5 min, sem dicas, avaliador só dá o achado com a manobra certa'],
+              ['treino', 'Treino', 'Sem limite de tempo, dicas nas manobras e progresso de cada comando'],
+            ] as const).map(([id, nome, desc]) => (
+              <button key={id} type="button" role="radio" aria-checked={modo === id} onClick={() => setModo(id)}
+                className={cx('rounded-xl border p-3 text-left transition', modo === id ? 'border-accent bg-accent-soft' : 'border-line hover:border-line-strong')}>
+                <span className={cx('block text-[15px] font-semibold', modo === id && 'text-accent')}>{nome}</span>
+                <span className="block text-[12.5px] text-ink-2">{desc}</span>
+              </button>
+            ))}
+          </div>
+          <div className="mt-4 space-y-2.5 text-[13px] text-ink-2">
+            <p className="flex gap-2.5"><Timer className="mt-0.5 size-4 shrink-0 text-accent" />{REGRAS_GERAIS.tempo}</p>
+            <p className="flex gap-2.5"><Hand className="mt-0.5 size-4 shrink-0 text-accent" />{REGRAS_GERAIS.abertura}</p>
+            <p className="flex gap-2.5"><MousePointerClick className="mt-0.5 size-4 shrink-0 text-accent" />Clique no corpo do paciente para escolher a manobra. Ande com WASD/setas ou tocando no chão.</p>
+          </div>
+        </Card>
+        <Card className="p-5">
+          <div className="mb-3 flex items-center gap-2 text-[13px] font-semibold text-ink-3 uppercase"><ListChecks className="size-4" />Seu desempenho por sistema</div>
+          <div className="grid gap-2.5 sm:grid-cols-2">
+            {porSistema.map(s => (
+              <button key={s.id} type="button" onClick={() => setSis(s.id)} className="text-left">
+                <div className="mb-1 flex items-baseline justify-between gap-2 text-[13px]">
+                  <span className="font-medium">{s.nome}</span>
+                  <span className="tabular text-ink-3">{s.media != null ? `${s.media}% · ` : ''}{s.feitas}/{s.total}</span>
+                </div>
+                <Bar value={s.media ?? 0} color={s.media == null ? 'var(--line)' : s.media >= 70 ? 'var(--good)' : s.media >= 50 ? 'var(--warn)' : 'var(--bad)'} />
+              </button>
+            ))}
+          </div>
+          <p className="mt-4 rounded-xl bg-surface-2 px-3 py-2 text-[12.5px] text-ink-2"><b>Regra de ouro:</b> {REGRAS_GERAIS.ouro}</p>
+        </Card>
+      </div>
 
       <div className="mb-4 flex flex-wrap gap-2">
         <Chip active={sis === 'todos'} onClick={() => setSis('todos')} count={ESTACOES.length}>Todos</Chip>
@@ -61,17 +119,22 @@ export default function OscePage() {
             return (
               <a
                 key={e.id}
-                href={href(`osce/${e.id}`)}
+                href={href(`osce/${e.id}`) + q()}
                 className="group flex flex-col gap-2 rounded-2xl border border-line bg-surface p-3.5 transition hover:border-line-strong hover:shadow-card"
               >
                 <span className="flex items-center justify-between">
-                  <span className="flex size-9 items-center justify-center rounded-[10px] bg-surface-2 font-mono text-[14px] font-semibold text-ink group-hover:bg-accent-soft group-hover:text-accent">
-                    {e.n}
+                  <span className="flex h-9 min-w-9 items-center justify-center rounded-[10px] bg-surface-2 px-1.5 font-mono text-[14px] font-semibold text-ink group-hover:bg-accent-soft group-hover:text-accent">
+                    {e.rotulo}
                   </span>
                   {b != null && <Badge tone={b >= 70 ? 'good' : b >= 50 ? 'warn' : 'bad'}>{b}%</Badge>}
                 </span>
-                <span className="text-[13.5px] font-medium">Estação {e.n}</span>
+                <span className="text-[13.5px] font-medium">Estação {e.rotulo}</span>
                 <span className="text-[12px] text-ink-3">{nomeSistema(e.sistema)}</span>
+                {(e.checklist || e.tipo === 'discussao') && (
+                  <span className={cx('w-fit rounded-md px-1.5 py-0.5 text-[10.5px] font-semibold', e.checklist ? 'bg-good-soft text-good' : 'bg-surface-2 text-ink-2')}>
+                    {e.checklist ? 'Checklist oficial' : 'Discussão de caso'}
+                  </span>
+                )}
               </a>
             );
           })}
@@ -84,9 +147,9 @@ export default function OscePage() {
             {hist.slice(0, 8).map(r => {
               const e = ESTACOES.find(x => x.id === r.id);
               return (
-                <a key={r.key} href={href(`osce/${r.id}`)} className="flex items-center gap-3 px-4 py-3 text-[14px] hover:bg-surface-2">
+                <a key={r.key} href={href(`osce/${r.id}`) + q()} className="flex items-center gap-3 px-4 py-3 text-[14px] hover:bg-surface-2">
                   <Gamepad2 className="size-4 text-ink-3" />
-                  <span className="flex-1">Estação {e?.n} · {e ? nomeSistema(e.sistema) : ''}</span>
+                  <span className="flex-1">Estação {e?.rotulo} · {e ? nomeSistema(e.sistema) : ''}{r.modo === 'treino' ? ' · treino' : ''}</span>
                   <span className="text-[12px] text-ink-3">{new Date(r.date).toLocaleDateString('pt-BR')}</span>
                   <span className={cx('tabular w-12 text-right font-semibold', r.nota >= 70 ? 'text-good' : r.nota >= 50 ? 'text-warn' : 'text-bad')}>{r.nota}%</span>
                 </a>
