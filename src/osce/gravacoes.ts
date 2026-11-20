@@ -53,4 +53,4 @@ export function gravacaoPara(som: Som): Gravacao | null {
 }
 
 /** Arquivos efetivamente incluídos no app (preenchido conforme os downloads foram concluídos). */
-export const DISPONIVEIS = new Set<string>(['normal', 'crepitacoes-pneumonia', 'estridor', 'rha-metalicos']);
+export const DISPONIVEIS = new Set<string>(['normal', 'crepitacoes-pneumonia', 'estridor', 'rha-metalicos', 'sibilos']);
