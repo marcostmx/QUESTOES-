@@ -1,0 +1,3709 @@
+{
+ "meta": {
+  "titulo": "Propedêutica PR2 · Autotestes do Material de Estudo OSCE",
+  "gerado_em": "2026-11-20",
+  "base": "Material_Estudo_OSCE_v2_atualizado_151p.pdf — autotestes de cada parte, com o gabarito comentado do próprio material."
+ },
+ "questoes": [
+  {
+   "id": "PROPE-OSCE-AT-001",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na estimativa palpatória da PAS, após o desaparecimento do pulso radial, o examinador deve:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Desinsuflar imediatamente e iniciar a ausculta."
+    },
+    {
+     "letra": "B",
+     "texto": "Acrescentar 20–30 mmHg, desinsuflar e aguardar 30 segundos antes da medida auscultatória."
+    },
+    {
+     "letra": "C",
+     "texto": "Acrescentar 50 mmHg e iniciar a ausculta sem desinsuflar."
+    },
+    {
+     "letra": "D",
+     "texto": "Registrar esse valor como PAS definitiva."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A sequência do roteiro é: palpar o radial → insuflar até sumir → +20–30 mmHg → desinsuflar → aguardar 30 s. A palpatória só estima; a PAS é a fase I da ausculta (D é o distrator clássico).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-002",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A PAD corresponde à:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fase I de Korotkoff."
+    },
+    {
+     "letra": "B",
+     "texto": "Fase III (sons nítidos)."
+    },
+    {
+     "letra": "C",
+     "texto": "Fase IV (sons abafados)."
+    },
+    {
+     "letra": "D",
+     "texto": "Fase V (desaparecimento dos sons)."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": null,
+   "comentario": "PAS = fase I (aparecimento); PAD = fase V (desaparecimento). A fase IV (abafamento) é o distrator mais comum.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-003",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com PA 138/96 mmHg em consultório. Classificação correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pré-hipertensão, porque a PAS está abaixo de 140."
+    },
+    {
+     "letra": "B",
+     "texto": "HA estágio 1, porque a classificação usa o maior valor e a PAD está entre 90–99."
+    },
+    {
+     "letra": "C",
+     "texto": "HA estágio 2."
+    },
+    {
+     "letra": "D",
+     "texto": "Hipertensão sistólica isolada."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Classifica-se pelo valor mais elevado entre PAS e PAD. PAD 96 → estágio 1; o padrão é de hipertensão diastólica isolada (PAS < 140 com PAD ≥ 90).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-004",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre a escolha do manguito, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A bolsa deve cobrir 40% da circunferência e 80% da largura do braço."
+    },
+    {
+     "letra": "B",
+     "texto": "A bolsa deve cobrir 80–100% da circunferência e 40% da largura do braço."
+    },
+    {
+     "letra": "C",
+     "texto": "Manguito pequeno subestima a PA."
+    },
+    {
+     "letra": "D",
+     "texto": "Manguito grande superestima a PA."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "80–100% da circunferência e 40% da largura. Pequeno superestima; grande subestima (C e D estão invertidos).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-005",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hipotensão ortostática é definida como queda de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "PAS ≥ 10 mmHg e/ou PAD ≥ 5 mmHg."
+    },
+    {
+     "letra": "B",
+     "texto": "PAS ≥ 20 mmHg e/ou PAD ≥ 10 mmHg."
+    },
+    {
+     "letra": "C",
+     "texto": "PAS ≥ 30 mmHg isoladamente."
+    },
+    {
+     "letra": "D",
+     "texto": "Qualquer queda acompanhada de taquicardia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Medir supino (5 min) e após 1 e 3 min em pé; queda da PAS ≥ 20 e/ou PAD ≥ 10 mmHg define hipotensão ortostática.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-006",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diferença de PA entre os braços que sugere maior risco cardiovascular e doença arterial obstrutiva:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "> 5 mmHg."
+    },
+    {
+     "letra": "B",
+     "texto": "> 10 mmHg."
+    },
+    {
+     "letra": "C",
+     "texto": "> 15 mmHg."
+    },
+    {
+     "letra": "D",
+     "texto": "> 30 mmHg."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "O roteiro cita diferença superior a 15 mmHg. Nas medidas seguintes, usa-se o braço de maior valor.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-007",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Braço do paciente pendente, abaixo do nível do coração, durante a medida. Efeito esperado:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tende a superestimar a PA."
+    },
+    {
+     "letra": "B",
+     "texto": "Tende a subestimar a PA."
+    },
+    {
+     "letra": "C",
+     "texto": "Não altera, desde que o manguito esteja correto."
+    },
+    {
+     "letra": "D",
+     "texto": "Altera apenas a PAD."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Braço abaixo do coração superestima; acima, subestima. Mnemônico: “pequeno e baixo sobem”.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-008",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Aferição da pressão arterial",
+   "subtema": "técnica e classificação",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 1 · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Em um paciente com fibrilação atrial, a conduta de medida recomendada é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Medir apenas uma vez, pois a irregularidade invalida as demais."
+    },
+    {
+     "letra": "B",
+     "texto": "Usar sempre a maior medida obtida."
+    },
+    {
+     "letra": "C",
+     "texto": "Realizar mais medidas e considerar a média de 3 valores estáveis."
+    },
+    {
+     "letra": "D",
+     "texto": "Medir só na panturrilha."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Observação do roteiro: em arritmias (ex.: FA), realizar mais medidas e usar a média de 3 valores estáveis.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-009",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sopro sistólico de grau III/VI difere do grau IV/VI pela presença de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Irradiação para as carótidas."
+    },
+    {
+     "letra": "B",
+     "texto": "Frêmito palpável."
+    },
+    {
+     "letra": "C",
+     "texto": "Audição com o estetoscópio afastado do tórax."
+    },
+    {
+     "letra": "D",
+     "texto": "Caráter ejetivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Pela escala de Levine, III/VI é moderadamente intenso sem frêmito; IV/VI é intenso e com frêmito. A ausculta com estetoscópio afastado define o grau VI.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-010",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sopro holossistólico no ápice, irradiado para a axila esquerda, que se intensifica com o handgrip. Hipótese:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estenose aórtica."
+    },
+    {
+     "letra": "B",
+     "texto": "Estenose mitral."
+    },
+    {
+     "letra": "C",
+     "texto": "Insuficiência mitral."
+    },
+    {
+     "letra": "D",
+     "texto": "Cardiomiopatia hipertrófica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Insuficiência AV = sistólico regurgitativo; mitral irradia para a axila; handgrip aumenta a pós-carga e intensifica IM e IA. EA irradia para o pescoço; EM é diastólico.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-011",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na pesquisa de ruflar mitral, a conduta técnica correta é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Diafragma com pressão firme, paciente sentado."
+    },
+    {
+     "letra": "B",
+     "texto": "Campânula com pressão firme no foco aórtico."
+    },
+    {
+     "letra": "C",
+     "texto": "Campânula suavemente apoiada no ápice, em decúbito lateral esquerdo."
+    },
+    {
+     "letra": "D",
+     "texto": "Diafragma em expiração, inclinado para frente."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Sons graves (ruflar, B3, B4) → campânula leve (pressão excessiva filtra baixas frequências) + DLE. A alternativa D é a posição da insuficiência aórtica.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-012",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com fibrilação atrial. Qual achado NÃO é esperado?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pulso irregularmente irregular."
+    },
+    {
+     "letra": "B",
+     "texto": "Déficit de pulso."
+    },
+    {
+     "letra": "C",
+     "texto": "B4 verdadeira."
+    },
+    {
+     "letra": "D",
+     "texto": "Intervalos R–R variáveis à ausculta."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "B4 e onda A proeminente dependem de contração atrial organizada, que não existe na FA.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-013",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sopro sistólico na borda esternal esquerda que aumenta na fase de esforço do Valsalva e diminui no agachamento, sem irradiação cervical:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estenose aórtica."
+    },
+    {
+     "letra": "B",
+     "texto": "Cardiomiopatia hipertrófica obstrutiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Insuficiência tricúspide."
+    },
+    {
+     "letra": "D",
+     "texto": "Estenose pulmonar."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A CMH “é do contra”: Valsalva reduz o retorno venoso e acentua a obstrução dinâmica; agachamento aumenta retorno e resistência e reduz o sopro. A EA tende a aumentar no agachamento e irradia ao pescoço.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-014",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ictus no 6º EIC esquerdo, lateral à LHC, com 3 polpas e impulso sustentado. Qual afirmação é correta?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Deslocado e sustentado são sinônimos."
+    },
+    {
+     "letra": "B",
+     "texto": "Deslocamento/extensão sugerem aumento do VE; o caráter sustentado sugere sobrecarga pressórica/hipertrofia."
+    },
+    {
+     "letra": "C",
+     "texto": "A palpação define a etiologia (hipertensiva)."
+    },
+    {
+     "letra": "D",
+     "texto": "Ictus de 3 polpas é normal."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Ponto-chave da estação 2: deslocado, difuso e sustentado são descritores distintos; a palpação não estabelece etiologia.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-015",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Manobra de Rivero-Carvallo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Expiração forçada que aumenta sopros esquerdos."
+    },
+    {
+     "letra": "B",
+     "texto": "Inspiração profunda que aumenta sopros do coração direito, especialmente a IT."
+    },
+    {
+     "letra": "C",
+     "texto": "Handgrip que aumenta a pós-carga."
+    },
+    {
+     "letra": "D",
+     "texto": "Agachamento que aumenta o retorno venoso."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Inspiração profunda aumenta o retorno ao coração direito; confirmar o ciclo antes da manobra.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-016",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sopro protodiastólico aspirativo em foco pulmonar, P2 hiperfonética, paciente com hipertensão pulmonar e pulsos normais. A hipótese e o epônimo corretos são:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Insuficiência aórtica — sinal de Quincke."
+    },
+    {
+     "letra": "B",
+     "texto": "Insuficiência pulmonar — sopro de Graham Steell."
+    },
+    {
+     "letra": "C",
+     "texto": "Estenose pulmonar — desdobramento amplo de B2."
+    },
+    {
+     "letra": "D",
+     "texto": "Estenose mitral — estalido de abertura."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Contexto de HP + P2 hiperfonética + ausência de pulso amplo e célere favorecem IP (Graham Steell). São pistas, não prova: confirmar com eco.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-017",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 9",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Regra mental: insuficiência de valva semilunar produz sopro:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sistólico de ejeção."
+    },
+    {
+     "letra": "B",
+     "texto": "Sistólico regurgitativo."
+    },
+    {
+     "letra": "C",
+     "texto": "Diastólico em ruflar."
+    },
+    {
+     "letra": "D",
+     "texto": "Diastólico regurgitativo."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Estenose semilunar = sistólico de ejeção; insuficiência AV = sistólico regurgitativo; estenose AV = diastólico (ruflar); insuficiência semilunar = diastólico regurgitativo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-018",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame cardiovascular",
+   "subtema": "OSCE cardiovascular",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 2 e 3 (cardiovascular) · questão 10",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na palpação carotídea do OSCE, é ERRADO:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Palpar um lado por vez."
+    },
+    {
+     "letra": "B",
+     "texto": "Usar o pulso carotídeo como marcador da sístole."
+    },
+    {
+     "letra": "C",
+     "texto": "Palpar as duas carótidas simultaneamente para comparar a amplitude."
+    },
+    {
+     "letra": "D",
+     "texto": "Evitar massagear o seio carotídeo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Ponto-chave da estação 3: evitar palpar as duas carótidas ao mesmo tempo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-019",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Macicez em base direita com FTV aumentado e sopro tubário. A síndrome mais provável é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Consolidação com brônquio pérvio."
+    },
+    {
+     "letra": "B",
+     "texto": "Derrame pleural."
+    },
+    {
+     "letra": "C",
+     "texto": "Atelectasia obstrutiva."
+    },
+    {
+     "letra": "D",
+     "texto": "Pneumotórax."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "É a única síndrome com FTV aumentado. Derrame e atelectasia obstrutiva também são maciços, mas com FTV reduzido/abolido.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-020",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hemitórax esquerdo com expansibilidade e FTV reduzidos, hipersonoridade e MV diminuído, após dor súbita em jovem:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Derrame pleural."
+    },
+    {
+     "letra": "B",
+     "texto": "Atelectasia."
+    },
+    {
+     "letra": "C",
+     "texto": "Pneumotórax."
+    },
+    {
+     "letra": "D",
+     "texto": "Pleurite seca."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Ar pleural → hipersonoridade/timpanismo + FTV/MV reduzidos. O derrame tende à macicez.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-021",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Respiração com apneias seguidas de aumento progressivo e depois redução da amplitude, de forma periódica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Biot."
+    },
+    {
+     "letra": "B",
+     "texto": "Cheyne-Stokes."
+    },
+    {
+     "letra": "C",
+     "texto": "Kussmaul."
+    },
+    {
+     "letra": "D",
+     "texto": "Suspirosa."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Crescendo-decrescendo organizado com apneias = Cheyne-Stokes. Biot tem apneias com ciclos irregulares; Kussmaul é profunda sem apneias.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-022",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Estertores finos diferem dos grossos porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "São contínuos."
+    },
+    {
+     "letra": "B",
+     "texto": "Mudam com a tosse."
+    },
+    {
+     "letra": "C",
+     "texto": "São curtos, agudos, predominam no fim da inspiração e não costumam mudar com a tosse."
+    },
+    {
+     "letra": "D",
+     "texto": "São audíveis sem estetoscópio."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Grossos são mais graves/prolongados e variam com a tosse (secreção em vias de maior calibre). Contínuos são roncos e sibilos.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-023",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Egofonia é pesquisada pedindo ao paciente que:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Repita “trinta e três” em voz alta."
+    },
+    {
+     "letra": "B",
+     "texto": "Sussurre palavras."
+    },
+    {
+     "letra": "C",
+     "texto": "Sustente a vogal “ê”, procurando timbre anasalado."
+    },
+    {
+     "letra": "D",
+     "texto": "Tussa e respire fundo."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A egofonia (“voz de bode”) aparece logo acima de alguns derrames e também em consolidação. Sussurrar = pectorilóquia afônica; “trinta e três” = broncofonia/FTV.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-024",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ruído intenso, inspiratório, audível sobre o pescoço, com esforço respiratório. A prioridade é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Completar o exame com percussão e ressonância vocal."
+    },
+    {
+     "letra": "B",
+     "texto": "Avaliar imediatamente a permeabilidade da via aérea."
+    },
+    {
+     "letra": "C",
+     "texto": "Pedir tosse e reauscultar."
+    },
+    {
+     "letra": "D",
+     "texto": "Classificar como sibilo e prescrever broncodilatador."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Estridor = obstrução de via aérea alta; sinal de alerta.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-025",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na palpação da expansibilidade das bases, a posição correta das mãos é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Polegares na linha vertebral e dedos nas fossas supraclaviculares."
+    },
+    {
+     "letra": "B",
+     "texto": "Polegares nas linhas paravertebrais e demais dedos sobre os últimos arcos costais."
+    },
+    {
+     "letra": "C",
+     "texto": "Palma da mão sobre o esterno."
+    },
+    {
+     "letra": "D",
+     "texto": "Mãos nas axilas."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A alternativa A descreve os ápices.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-026",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Tórax em tonel é corretamente descrito como:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Projeção anterior do esterno."
+    },
+    {
+     "letra": "B",
+     "texto": "Depressão esternal."
+    },
+    {
+     "letra": "C",
+     "texto": "Aumento do diâmetro anteroposterior, não específico e possível no envelhecimento."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal patognomônico de enfisema."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Ponto do roteiro: sugere hiperaeração quando associado à redução difusa da transmissão sonora, mas não é específico.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-027",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 9",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Qual combinação favorece atelectasia obstrutiva em vez de consolidação?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Macicez + FTV aumentado + sopro tubário."
+    },
+    {
+     "letra": "B",
+     "texto": "Retração do hemitórax + macicez + FTV reduzido + ressonância vocal diminuída."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipersonoridade + FTV reduzido."
+    },
+    {
+     "letra": "D",
+     "texto": "Percussão normal + atrito pleural."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Na atelectasia obstrutiva o brônquio não conduz a vibração → FTV e voz diminuem; há perda de volume (retração).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-028",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame respiratório",
+   "subtema": "OSCE respiratório",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 4 e 5 (respiratório) · questão 10",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na pleurite seca, o achado auscultatório mais característico é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sibilos expiratórios difusos."
+    },
+    {
+     "letra": "B",
+     "texto": "Estertores finos bibasais."
+    },
+    {
+     "letra": "C",
+     "texto": "Atrito pleural, áspero e sincronizado com a respiração."
+    },
+    {
+     "letra": "D",
+     "texto": "Egofonia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A percussão pode ser normal; a expansibilidade cai pela dor.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-029",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A sequência correta do exame abdominal é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Inspeção, palpação, percussão, ausculta."
+    },
+    {
+     "letra": "B",
+     "texto": "Inspeção, ausculta, percussão, palpação."
+    },
+    {
+     "letra": "C",
+     "texto": "Ausculta, inspeção, palpação, percussão."
+    },
+    {
+     "letra": "D",
+     "texto": "Palpação, percussão, ausculta, inspeção."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "No abdome ausculta-se antes de percutir/palpar. A alternativa A é a ordem dos outros sistemas (distrator clássico).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-030",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ruídos hidroaéreos não audíveis no primeiro minuto. Conduta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Registrar imediatamente como ausentes."
+    },
+    {
+     "letra": "B",
+     "texto": "Manter a ausculta por até 5 minutos antes de classificá-los como ausentes."
+    },
+    {
+     "letra": "C",
+     "texto": "Percutir para estimular o peristaltismo e reauscultar."
+    },
+    {
+     "letra": "D",
+     "texto": "Auscultar apenas o quadrante doloroso."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "~1 min por quadrante; se ausentes, até 5 min.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-031",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Formação que desaparece ao contrair a musculatura abdominal na manobra de Smith-Bates:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Origem intra-abdominal."
+    },
+    {
+     "letra": "B",
+     "texto": "Origem na parede abdominal."
+    },
+    {
+     "letra": "C",
+     "texto": "Hérnia encarcerada."
+    },
+    {
+     "letra": "D",
+     "texto": "Lipoma subcutâneo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Contração dos retos esconde lesões intra-abdominais; se permanece ou fica mais evidente, é da parede/subcutâneo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-032",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Desaparecimento da macicez hepática, substituída por timpanismo, sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sinal de Torres-Homem — abscesso hepático."
+    },
+    {
+     "letra": "B",
+     "texto": "Sinal de Jobert — pneumoperitônio."
+    },
+    {
+     "letra": "C",
+     "texto": "Hepatomegalia."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Murphy."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Cuidado com Chilaiditi: interposição do cólon também dá timpanismo na loja hepática (falsa redução da macicez).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-033",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Valores de referência da hepatimetria:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "4–8 cm na LHC direita e 6–12 cm na linha esternal média."
+    },
+    {
+     "letra": "B",
+     "texto": "6–12 cm na LHC direita e 4–8 cm na linha esternal média."
+    },
+    {
+     "letra": "C",
+     "texto": "10–14 cm na LHC direita."
+    },
+    {
+     "letra": "D",
+     "texto": "2–4 cm na linha esternal média."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A alternativa A inverte os valores — erro comum.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-034",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Diferença-chave entre Lemos-Torres e Mathieu:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lemos-Torres usa dedos em garra."
+    },
+    {
+     "letra": "B",
+     "texto": "Em Mathieu o examinador fica voltado para os pés, com os dedos em garra; em Lemos-Torres, voltado para a cabeça."
+    },
+    {
+     "letra": "C",
+     "texto": "Mathieu é feito em decúbito ventral."
+    },
+    {
+     "letra": "D",
+     "texto": "Lemos-Torres dispensa coordenação respiratória."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Mathieu: decúbito semilateral esquerdo, garra, voltado para os pés.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-035",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Vesícula palpável e indolor em paciente com icterícia progressiva sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Colecistite aguda (Murphy)."
+    },
+    {
+     "letra": "B",
+     "texto": "Obstrução biliar distal por neoplasia, especialmente da cabeça do pâncreas (Courvoisier)."
+    },
+    {
+     "letra": "C",
+     "texto": "Hepatite aguda."
+    },
+    {
+     "letra": "D",
+     "texto": "Pneumoperitônio."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "É pista de raciocínio, não equivalência automática com câncer.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-036",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Macicez no espaço de Traube. Qual NÃO é causa citada além da esplenomegalia?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estômago cheio."
+    },
+    {
+     "letra": "B",
+     "texto": "Consolidação pulmonar."
+    },
+    {
+     "letra": "C",
+     "texto": "Derrame pleural basal esquerdo."
+    },
+    {
+     "letra": "D",
+     "texto": "Pneumoperitônio."
+    }
+   ],
+   "gabarito": [
+    "D"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Pneumoperitônio dá timpanismo (Jobert). O Traube normal é timpânico.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-037",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 9",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Posição de Schuster:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Decúbito lateral direito, perna direita estendida, coxa esquerda fletida, braço esquerdo elevado."
+    },
+    {
+     "letra": "B",
+     "texto": "Decúbito lateral esquerdo, perna esquerda estendida."
+    },
+    {
+     "letra": "C",
+     "texto": "Decúbito ventral com braços elevados."
+    },
+    {
+     "letra": "D",
+     "texto": "Semilateral esquerdo, examinador voltado para os pés."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "D descreve Mathieu (fígado).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-038",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 10",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pesquisa de macicez móvel positiva indica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ascite de grande volume obrigatoriamente."
+    },
+    {
+     "letra": "B",
+     "texto": "Líquido livre intraperitoneal; compatível com ascite de volume moderado."
+    },
+    {
+     "letra": "C",
+     "texto": "Bexigoma."
+    },
+    {
+     "letra": "D",
+     "texto": "Visceromegalia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Piparote = grande volume (> 1.500 mL no Porto); macicez móvel = moderado; pequenos volumes podem passar despercebidos.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-039",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 11",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No semicírculo de Skoda, a convexidade voltada para cima obriga a considerar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ascite livre."
+    },
+    {
+     "letra": "B",
+     "texto": "Bexigoma, tumor gigante, útero gravídico, mioma gigante."
+    },
+    {
+     "letra": "C",
+     "texto": "Pneumoperitônio."
+    },
+    {
+     "letra": "D",
+     "texto": "Diástase dos retos."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Na ascite livre o líquido ocupa regiões dependentes e o timpanismo fica central.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-040",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 12",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor na FID ao comprimir a FIE:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Blumberg."
+    },
+    {
+     "letra": "B",
+     "texto": "Rovsing."
+    },
+    {
+     "letra": "C",
+     "texto": "Psoas."
+    },
+    {
+     "letra": "D",
+     "texto": "Obturador."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Blumberg = dor à descompressão brusca (irritação peritoneal).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-041",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "OSCE abdome",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 6 e 7 (abdome) · questão 13",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor em FID durante a extensão passiva da coxa direita em decúbito lateral esquerdo sugere irritação do psoas, comum na apendicite:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pélvica."
+    },
+    {
+     "letra": "B",
+     "texto": "Retrocecal."
+    },
+    {
+     "letra": "C",
+     "texto": "Subepática."
+    },
+    {
+     "letra": "D",
+     "texto": "Mesentérica."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Obturador (rotação interna da coxa fletida) → apendicite pélvica.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-042",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Romberg: paciente estável de olhos abertos que, ao fechar os olhos, oscila e tende a cair imediatamente para qualquer lado. Interpretação:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão cerebelar."
+    },
+    {
+     "letra": "B",
+     "texto": "Lesão das vias da sensibilidade proprioceptiva consciente."
+    },
+    {
+     "letra": "C",
+     "texto": "Lesão vestibular."
+    },
+    {
+     "letra": "D",
+     "texto": "Normal para a idade."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Vestibular cai sempre para o mesmo lado após latência; cerebelar já é instável de olhos abertos e o Romberg é negativo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-043",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hemiparesia esquerda proporcionada (face inferior, braço e perna), sem afasia, com Babinski à esquerda. Topografia mais provável:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Córtex motor direito."
+    },
+    {
+     "letra": "B",
+     "texto": "Cápsula interna direita."
+    },
+    {
+     "letra": "C",
+     "texto": "Mesencéfalo esquerdo."
+    },
+    {
+     "letra": "D",
+     "texto": "Medula cervical esquerda."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Proporcionada = capsular; desproporcionada com afasia = cortical. Na medula não há face.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-044",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ptose, midríase e olho para baixo e para fora à esquerda com hemiparesia direita:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Millard-Gubler."
+    },
+    {
+     "letra": "B",
+     "texto": "Wallenberg."
+    },
+    {
+     "letra": "C",
+     "texto": "Weber."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão capsular."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "III par ipsilateral + hemiparesia contralateral = mesencéfalo (Weber). Lesão capsular não produz paralisia periférica do III.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-045",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na síndrome de Wallenberg NÃO se espera:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Horner ipsilateral."
+    },
+    {
+     "letra": "B",
+     "texto": "Perda de dor e temperatura na face ipsilateral e no corpo contralateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Hemiparesia contralateral."
+    },
+    {
+     "letra": "D",
+     "texto": "Disfagia e disfonia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A lesão lateral do bulbo poupa a pirâmide (medial): síndrome alterna sensitiva, sem hemiparesia.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-046",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paralisia facial com testa e fechamento ocular preservados e desvio da boca para a esquerda:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Central à direita."
+    },
+    {
+     "letra": "B",
+     "texto": "Periférica à direita."
+    },
+    {
+     "letra": "C",
+     "texto": "Central à esquerda."
+    },
+    {
+     "letra": "D",
+     "texto": "Periférica à esquerda."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A boca é puxada para o lado normal (esquerdo); o lado fraco é o direito; testa poupada = central (andar superior com inervação bilateral).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-047",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com AVC há 3 horas: hemiparesia flácida e hiporreflexia à direita, com Babinski à direita. Conclusão correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão de 2º neurônio, pois há flacidez."
+    },
+    {
+     "letra": "B",
+     "texto": "Lesão piramidal em fase de choque; a liberação aparece depois."
+    },
+    {
+     "letra": "C",
+     "texto": "Exame inconclusivo até surgir espasticidade."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão medular, pela hiporreflexia."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Hipotonia inicial não exclui lesão piramidal; Babinski e manobras deficitárias já provam.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-048",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Combinação mais sugestiva de ELA:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hiper-reflexia com perda de propriocepção."
+    },
+    {
+     "letra": "B",
+     "texto": "Atrofia e fasciculações com hiper-reflexia e Babinski no mesmo segmento, sensibilidade normal."
+    },
+    {
+     "letra": "C",
+     "texto": "Hipotonia, arreflexia e nível sensitivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Rigidez em roda dentada e tremor de repouso."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "ELA = 1º + 2º neurônio no mesmo segmento, puramente motora.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-049",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rigidez plástica com roda dentada difere da espasticidade porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É eletiva para flexores dos MMSS."
+    },
+    {
+     "letra": "B",
+     "texto": "É não eletiva (agonistas e antagonistas), constante e não depende da velocidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Vem com Babinski."
+    },
+    {
+     "letra": "D",
+     "texto": "Cede subitamente (canivete)."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Espasticidade: eletiva, elástica, dependente da velocidade (“canivete”). Rigidez: não eletiva, plástica, roda dentada, aumenta com a manobra de ativação.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-050",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 9",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Parkinsonismo simétrico, quedas para trás no primeiro ano, dificuldade de olhar para baixo e retrocolo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Doença de Parkinson."
+    },
+    {
+     "letra": "B",
+     "texto": "PSP."
+    },
+    {
+     "letra": "C",
+     "texto": "AMS."
+    },
+    {
+     "letra": "D",
+     "texto": "DCB."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "AMS: disautonomia precoce; DCB: assimetria extrema, apraxia, mão alienígena.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-051",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 10",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pull test positivo é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Qualquer passo para trás."
+    },
+    {
+     "letra": "B",
+     "texto": "Até 2 passos para recuperar."
+    },
+    {
+     "letra": "C",
+     "texto": "Mais de 2 passos (3 ou mais) ou queda sem reação."
+    },
+    {
+     "letra": "D",
+     "texto": "Queda para o mesmo lado após latência."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Avisar o paciente, estar pronto para segurar. Instabilidade postural é tardia na DP.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-052",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 11",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paraplegia flácida após cirurgia de aorta, perda de dor/temperatura abaixo de T10, vibração e posição preservadas, retenção urinária:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Síndrome da artéria espinal anterior."
+    },
+    {
+     "letra": "B",
+     "texto": "Brown-Séquard."
+    },
+    {
+     "letra": "C",
+     "texto": "Síndrome cordonal posterior."
+    },
+    {
+     "letra": "D",
+     "texto": "Mielite transversa."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "2/3 anteriores isquêmicos (Adamkiewicz/hipoperfusão); cordões posteriores têm irrigação própria.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-053",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 12",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Facada à direita: perna direita fraca com Babinski e sem propriocepção; perna esquerda sem dor/temperatura. O nível da lesão em relação à perda contralateral de dor:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Coincide exatamente."
+    },
+    {
+     "letra": "B",
+     "texto": "Está 1–2 segmentos acima do início da perda contralateral."
+    },
+    {
+     "letra": "C",
+     "texto": "Está 1–2 segmentos abaixo."
+    },
+    {
+     "letra": "D",
+     "texto": "Não tem relação."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "O espinotalâmico cruza 1–2 segmentos acima da entrada; a perda contralateral começa 1–2 segmentos abaixo da lesão.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-054",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 13",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "“Babinski com aquileu abolido” associado a perda de vibração e anemia macrocítica sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tabes dorsalis."
+    },
+    {
+     "letra": "B",
+     "texto": "Degeneração combinada subaguda (B12)."
+    },
+    {
+     "letra": "C",
+     "texto": "ELA."
+    },
+    {
+     "letra": "D",
+     "texto": "Síndrome espinal anterior."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Cordões posteriores + corticoespinal; aquileu abolido pela neuropatia periférica associada. Exames: B12, ácido metilmalônico, homocisteína, RM (“V invertido”).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-055",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 14",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Glasgow de paciente que abre os olhos ao chamado, fala de forma confusa e obedece comandos:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "12."
+    },
+    {
+     "letra": "B",
+     "texto": "13."
+    },
+    {
+     "letra": "C",
+     "texto": "14."
+    },
+    {
+     "letra": "D",
+     "texto": "15."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "E3 + V4 + M6 = 13. Registrar os componentes separadamente.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-056",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 15",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Ponto de corte do MEEM para escolaridade superior:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "20."
+    },
+    {
+     "letra": "B",
+     "texto": "23."
+    },
+    {
+     "letra": "C",
+     "texto": "26."
+    },
+    {
+     "letra": "D",
+     "texto": "28."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Cortes: analfabeto 14 • até 4 anos 18 • 4–7 anos 20 • fundamental 21 • médio 23 • superior 26.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-057",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 16",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lasègue positivo indica principalmente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Irritação meníngea."
+    },
+    {
+     "letra": "B",
+     "texto": "Dor radicular/irritação do ciático, quando reproduz a dor irradiada logo no início (~30°)."
+    },
+    {
+     "letra": "C",
+     "texto": "Hérnia discal confirmada."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão piramidal."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Não é sinal meníngeo específico nem confirma hérnia; complementar com força, reflexos e sensibilidade.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-058",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 17",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Hemiparesia com marcha em que o membro inferior descreve um semicírculo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tesoura."
+    },
+    {
+     "letra": "B",
+     "texto": "Ceifante (helicópode)."
+    },
+    {
+     "letra": "C",
+     "texto": "Escarvante."
+    },
+    {
+     "letra": "D",
+     "texto": "Tabética."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Tesoura = piramidal bilateral; escarvante = pé caído; tabética = cordão posterior.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-059",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame neurológico",
+   "subtema": "OSCE neurológico",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Partes 8 a 10B (neurológico) · questão 18",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com tremor de repouso, rigidez e bradicinesia assimétricos, pré-motores e PA estável em pé. Qual achado seria red flag?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Micrografia."
+    },
+    {
+     "letra": "B",
+     "texto": "Hiposmia."
+    },
+    {
+     "letra": "C",
+     "texto": "Paralisia do olhar vertical."
+    },
+    {
+     "letra": "D",
+     "texto": "Glabelar inesgotável."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Olhar vertical limitado → PSP. Micrografia, hiposmia e glabelar inesgotável são compatíveis com DP.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-060",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lesão plana, no mesmo plano da pele, de coloração diferente da pele vizinha, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Mancha ou mácula."
+    },
+    {
+     "letra": "B",
+     "texto": "Pápula."
+    },
+    {
+     "letra": "C",
+     "texto": "Placa urticada."
+    },
+    {
+     "letra": "D",
+     "texto": "Tubérculo."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Mancha é alteração apenas da cor, sem relevo. Pápula e tubérculo são sólidas e elevadas; a urticada é elevação edematosa.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-061",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Manobra que separa mancha vascular de mancha hemorrágica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Palpação profunda."
+    },
+    {
+     "letra": "B",
+     "texto": "Digitopressão: a vascular desaparece, a hemorrágica não."
+    },
+    {
+     "letra": "C",
+     "texto": "Percussão digitodigital."
+    },
+    {
+     "letra": "D",
+     "texto": "Iluminação tangencial."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Anotação de aula: as manchas vasculares “desaparecem ao toque”; as hemorrágicas (petéquia, equimose) não.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-062",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lesão sólida, superficial, de até 1 cm, com bordas percebidas ao deslizar a polpa digital:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pápula."
+    },
+    {
+     "letra": "B",
+     "texto": "Tubérculo."
+    },
+    {
+     "letra": "C",
+     "texto": "Nódulo."
+    },
+    {
+     "letra": "D",
+     "texto": "Vesícula."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Tubérculo é > 1 cm, na derme, e deixa cicatriz; nódulo vai até a derme e tem até 2 cm; vesícula tem conteúdo líquido.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-063",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Coleção fluida de 8 mm na pele é chamada de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Vesícula."
+    },
+    {
+     "letra": "B",
+     "texto": "Bolha."
+    },
+    {
+     "letra": "C",
+     "texto": "Pústula."
+    },
+    {
+     "letra": "D",
+     "texto": "Abscesso."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "O corte é 5 mm: até 5 mm vesícula; maior que 5 mm bolha. Pústula tem pus; abscesso é coleção de pus profunda.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-064",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pele espessada, com acentuação das estrias formando um quadriculado “como vista através de uma lupa”, em área de coçadura constante:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Esclerose."
+    },
+    {
+     "letra": "B",
+     "texto": "Queratose."
+    },
+    {
+     "letra": "C",
+     "texto": "Liquenificação."
+    },
+    {
+     "letra": "D",
+     "texto": "Atrofia."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Esclerose = pele firme, aderida, difícil de preguear (esclerodermia). Queratose = espessamento da camada córnea (calo).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-065",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Sobre erosão e úlcera, assinale a correta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ambas deixam cicatriz."
+    },
+    {
+     "letra": "B",
+     "texto": "A erosão atinge a derme."
+    },
+    {
+     "letra": "C",
+     "texto": "A úlcera atinge a derme e deixa cicatriz; a erosão é epidérmica e não deixa."
+    },
+    {
+     "letra": "D",
+     "texto": "Escoriação é úlcera traumática."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Escoriação é a erosão traumática.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-066",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na regra ABCDE do melanoma, o critério D é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Dor à palpação."
+    },
+    {
+     "letra": "B",
+     "texto": "Diâmetro maior que 6 cm."
+    },
+    {
+     "letra": "C",
+     "texto": "Diâmetro maior que 6 mm."
+    },
+    {
+     "letra": "D",
+     "texto": "Descamação."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A anotação manuscrita do slide trazia “6 cm”; o slide impresso diz 6 mm.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-067",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Ectoscopia e pele",
+   "subtema": "lesões elementares",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 12 · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Lesão escura, insensível, separada do tecido sadio por um sulco, em paciente idoso imobilizado:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Crosta."
+    },
+    {
+     "letra": "B",
+     "texto": "Escara."
+    },
+    {
+     "letra": "C",
+     "texto": "Queloide."
+    },
+    {
+     "letra": "D",
+     "texto": "Equimose."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Escara = necrose por pressão (± fricção/cisalhamento), típica de idosos e imobilizados.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-068",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No reflexo pupilar, as vias aferente e eferente são, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "III e II."
+    },
+    {
+     "letra": "B",
+     "texto": "II e III."
+    },
+    {
+     "letra": "C",
+     "texto": "II e VI."
+    },
+    {
+     "letra": "D",
+     "texto": "V e VII."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Aferência pelo nervo óptico (II); resposta muscular pelo oculomotor (III).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-069",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "“Os 4 rela 6, o resto é 3” significa que:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Oblíquo superior é inervado pelo IV e reto lateral pelo VI; os demais pelo III."
+    },
+    {
+     "letra": "B",
+     "texto": "Reto medial pelo IV e reto lateral pelo VI."
+    },
+    {
+     "letra": "C",
+     "texto": "Oblíquo inferior pelo IV."
+    },
+    {
+     "letra": "D",
+     "texto": "Todos os retos pelo III, inclusive o lateral."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "OS4 (troclear) e RL6 (abducente).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-070",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Uso correto do abaixador de língua:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Pedir que o paciente ponha a língua para fora e apoiar o abaixador."
+    },
+    {
+     "letra": "B",
+     "texto": "Com a língua dentro da cavidade oral."
+    },
+    {
+     "letra": "C",
+     "texto": "Na base da língua, provocando reflexo nauseoso."
+    },
+    {
+     "letra": "D",
+     "texto": "Só com o paciente em decúbito dorsal."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "O slide marca como ERRADO o abaixador com a língua para fora.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-071",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Linfonodo de 3 cm, supraclavicular esquerdo, fixo, sem sinais inflamatórios, em paciente com perda de 8 kg:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Linfonodo reacional, sem necessidade de investigação."
+    },
+    {
+     "letra": "B",
+     "texto": "Alto risco de malignidade."
+    },
+    {
+     "letra": "C",
+     "texto": "Típico de faringite viral."
+    },
+    {
+     "letra": "D",
+     "texto": "Normal no idoso."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Supraclavicular, > 2 cm, crescimento, aderido e sintomas constitucionais.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-072",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Infecção dolorosa, avermelhada e supurativa da borda palpebral, por estafilococo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hordéolo (terçol)."
+    },
+    {
+     "letra": "B",
+     "texto": "Calázio."
+    },
+    {
+     "letra": "C",
+     "texto": "Xantelasma."
+    },
+    {
+     "letra": "D",
+     "texto": "Ectrópio."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Calázio é nódulo por inflamação crônica da glândula de Meibômio.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-073",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pequenas lesões brancas “como grãos de sal” sobre base vermelha na mucosa oral:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Úlcera aftosa."
+    },
+    {
+     "letra": "B",
+     "texto": "Difteria."
+    },
+    {
+     "letra": "C",
+     "texto": "Manchas de Koplik — sinal precoce de sarampo."
+    },
+    {
+     "letra": "D",
+     "texto": "Língua geográfica."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Afta = ulceração esbranquiçada com halo vermelho que cicatriza em 7–10 dias.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-074",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Vertigem, segundo a aula, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Qualquer tontura."
+    },
+    {
+     "letra": "B",
+     "texto": "Tontura de padrão rotatório."
+    },
+    {
+     "letra": "C",
+     "texto": "Sinônimo de síncope."
+    },
+    {
+     "letra": "D",
+     "texto": "Zumbido."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "“Tontura” é inespecífico; a HDA precisa definir melhor. Zumbido = tinido.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-075",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "cabeça e pescoço",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 13 · questão 8",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Pelos grossos e escassos, segundo o slide, sugerem:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hipotireoidismo."
+    },
+    {
+     "letra": "B",
+     "texto": "Hipertireoidismo."
+    },
+    {
+     "letra": "C",
+     "texto": "Psoríase."
+    },
+    {
+     "letra": "D",
+     "texto": "Dermatite seborreica."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Cabelos finos no hipertireoidismo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-076",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No teste de Weber, o som lateraliza para o ouvido com perda auditiva. Isso indica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Perda de condução."
+    },
+    {
+     "letra": "B",
+     "texto": "Perda neurossensorial."
+    },
+    {
+     "letra": "C",
+     "texto": "Audição normal."
+    },
+    {
+     "letra": "D",
+     "texto": "Lesão vestibular."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Weber ipsilateral à perda = condução; contralateral (ouvido bom) = neurossensorial.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-077",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Rinne em que a condução óssea é maior que a aérea:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Rinne positivo, normal."
+    },
+    {
+     "letra": "B",
+     "texto": "Rinne negativo, problema de condução."
+    },
+    {
+     "letra": "C",
+     "texto": "Rinne positivo, perda neurossensorial."
+    },
+    {
+     "letra": "D",
+     "texto": "Achado sem valor."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "CA > CO = Rinne positivo; CO > CA = Rinne negativo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-078",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Onde se apoia o diapasão no teste de Weber?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "No processo mastoide."
+    },
+    {
+     "letra": "B",
+     "texto": "No meio da testa (linha média)."
+    },
+    {
+     "letra": "C",
+     "texto": "No trago."
+    },
+    {
+     "letra": "D",
+     "texto": "No conduto auditivo."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "No Rinne, começa-se pela mastoide (óssea) e depois junto ao conduto (aérea).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-079",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No Romberg, queda sempre para o mesmo lado, após pequena latência, sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Lesão cerebelar."
+    },
+    {
+     "letra": "B",
+     "texto": "Lesão proprioceptiva."
+    },
+    {
+     "letra": "C",
+     "texto": "Lesão vestibular, com queda para o lado lesado."
+    },
+    {
+     "letra": "D",
+     "texto": "Simulação."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Proprioceptiva cai para qualquer lado, imediatamente; cerebelar é instável já de olhos abertos.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-080",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Vertigem, segundo a aula de cabeça e pescoço, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Tontura de padrão rotatório."
+    },
+    {
+     "letra": "B",
+     "texto": "Qualquer tontura."
+    },
+    {
+     "letra": "C",
+     "texto": "Zumbido."
+    },
+    {
+     "letra": "D",
+     "texto": "Perda auditiva súbita."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "“Tontura” é inespecífico; a HDA deve definir melhor.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-081",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Cabeça, pescoço e linfonodos",
+   "subtema": "VIII par",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 14 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Marcha com lateropulsão, “em estrela”, sugere:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Ataxia sensitiva."
+    },
+    {
+     "letra": "B",
+     "texto": "Hemiplegia."
+    },
+    {
+     "letra": "C",
+     "texto": "Marcha vestibular (labirintopatias)."
+    },
+    {
+     "letra": "D",
+     "texto": "Marcha parkinsoniana."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Marcha vestibular do roteiro neurológico.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-082",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Para classificar uma dor como tipo A (definitivamente anginosa), é indispensável:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Início súbito, com intensidade máxima imediata."
+    },
+    {
+     "letra": "B",
+     "texto": "Desconforto retroesternal desencadeado por esforço/estresse e aliviado por repouso ou nitrato em minutos."
+    },
+    {
+     "letra": "C",
+     "texto": "Dor que piora com a inspiração."
+    },
+    {
+     "letra": "D",
+     "texto": "Dor reproduzida à palpação."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Súbita e máxima desde o início lembra dissecção (PR1, Q9, item I falso). Pleurítica e à palpação reduzem a chance isquêmica.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-083",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor nova, em crescendo ou em repouso, SEM elevação de troponina, é:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Angina instável."
+    },
+    {
+     "letra": "B",
+     "texto": "IAM sem supra de ST."
+    },
+    {
+     "letra": "C",
+     "texto": "IAM com supra de ST."
+    },
+    {
+     "letra": "D",
+     "texto": "Angina estável."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "PR1 Q11 item III (falso) chamava isso de IAMSSST. No IAMSSST há elevação de troponina.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-084",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Dor torácica que piora deitado e melhora sentado, inclinado para frente, com ruído contínuo e reforço sistólico na BEE:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Estenose aórtica."
+    },
+    {
+     "letra": "B",
+     "texto": "Pericardite com atrito pericárdico."
+    },
+    {
+     "letra": "C",
+     "texto": "Pneumotórax."
+    },
+    {
+     "letra": "D",
+     "texto": "Dissecção de aorta."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Atrito: sem relação fixa com as bulhas, entre ápice e BEE.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-085",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Achado de exame que mais sustenta dissecção de aorta:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sopro diastólico na ponta."
+    },
+    {
+     "letra": "B",
+     "texto": "Assimetria de pulsos e de PA entre os membros."
+    },
+    {
+     "letra": "C",
+     "texto": "Atrito pericárdico."
+    },
+    {
+     "letra": "D",
+     "texto": "Macicez em base pulmonar."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Dor súbita “rasgando”, irradiada para o dorso + assimetria.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-086",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No pneumotórax hipertensivo, o mediastino:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É tracionado para o lado afetado."
+    },
+    {
+     "letra": "B",
+     "texto": "É empurrado para o lado oposto."
+    },
+    {
+     "letra": "C",
+     "texto": "Não se desloca."
+    },
+    {
+     "letra": "D",
+     "texto": "Desloca-se só em decúbito."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Desvio ipsilateral ocorre na atelectasia (PR1, Q9, item III falso).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-087",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Dor torácica",
+   "subtema": "dor torácica",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 15 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dor do infarto é mal localizada porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "É visceral, conduzida por fibras C, com projeção para a linha média."
+    },
+    {
+     "letra": "B",
+     "texto": "É parietal, por fibras Aδ."
+    },
+    {
+     "letra": "C",
+     "texto": "Só existe em diabéticos."
+    },
+    {
+     "letra": "D",
+     "texto": "Depende do decúbito."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Dor parietal é bem localizada e piora com movimento e respiração.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-088",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Perda da macicez hepática à percussão do hipocôndrio direito em paciente com peritonite:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Sinal de Murphy."
+    },
+    {
+     "letra": "B",
+     "texto": "Sinal de Jobert — pneumoperitônio."
+    },
+    {
+     "letra": "C",
+     "texto": "Sinal de Blumberg."
+    },
+    {
+     "letra": "D",
+     "texto": "Sinal de Rovsing."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "O ar livre se interpõe entre o fígado e a parede, trocando macicez por timpanismo.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-089",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "O abdome “em tábua” da peritonite decorre de:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Contratura voluntária por medo."
+    },
+    {
+     "letra": "B",
+     "texto": "Reflexo viscerossomático com contração involuntária e contínua da parede."
+    },
+    {
+     "letra": "C",
+     "texto": "Distensão gasosa por obstrução."
+    },
+    {
+     "letra": "D",
+     "texto": "Ascite volumosa."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A rigidez persiste mesmo com o paciente distraído — não é voluntária.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-090",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com peritonite costuma ficar:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Imóvel, com as pernas fletidas."
+    },
+    {
+     "letra": "B",
+     "texto": "Inquieto, mudando de posição."
+    },
+    {
+     "letra": "C",
+     "texto": "Em posição genupeitoral."
+    },
+    {
+     "letra": "D",
+     "texto": "Sentado inclinado para frente."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Inquieto é o paciente com cólica (dor visceral).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-091",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "A dor visceral é conduzida predominantemente por:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fibras C, sendo mal localizada e na linha média."
+    },
+    {
+     "letra": "B",
+     "texto": "Fibras Aδ, sendo bem localizada."
+    },
+    {
+     "letra": "C",
+     "texto": "Nervos frênicos."
+    },
+    {
+     "letra": "D",
+     "texto": "Fibras motoras."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A parietal usa Aδ (e C), é bem localizada e piora com o movimento.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-092",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Úlcera que perfura com mais frequência:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Parede posterior do duodeno."
+    },
+    {
+     "letra": "B",
+     "texto": "Parede anterior do duodeno."
+    },
+    {
+     "letra": "C",
+     "texto": "Fundo gástrico."
+    },
+    {
+     "letra": "D",
+     "texto": "Esôfago distal."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Parede posterior sangra (artéria gastroduodenal) ou penetra no pâncreas.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-093",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Exame do abdome",
+   "subtema": "abdome agudo perfurativo",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 16 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Como os AINEs causam úlcera?",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Aumentando as prostaglandinas."
+    },
+    {
+     "letra": "B",
+     "texto": "Inibindo a COX-1 (↓ prostaglandinas, muco, bicarbonato e fluxo) e por lesão tópica."
+    },
+    {
+     "letra": "C",
+     "texto": "Colonizando o muco gástrico."
+    },
+    {
+     "letra": "D",
+     "texto": "Estimulando a somatostatina."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Colonização do muco e urease são do H. pylori.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-094",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 1",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Urina “cor de Coca-Cola”, sem coágulos, com edema palpebral e HAS em criança após impetigo:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Hematúria glomerular — síndrome nefrítica."
+    },
+    {
+     "letra": "B",
+     "texto": "Hematúria de vias urinárias por cálculo."
+    },
+    {
+     "letra": "C",
+     "texto": "Síndrome nefrótica."
+    },
+    {
+     "letra": "D",
+     "texto": "Rabdomiólise."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Vermelho vivo com coágulos sugere sangramento das vias urinárias.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-095",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 2",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Na síndrome nefrótica, a ausência de turgência jugular e de HAS se explica porque:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "A TFG está muito reduzida."
+    },
+    {
+     "letra": "B",
+     "texto": "O líquido está no interstício; o volume intravascular é normal ou reduzido."
+    },
+    {
+     "letra": "C",
+     "texto": "Há perda de sódio na urina."
+    },
+    {
+     "letra": "D",
+     "texto": "Há insuficiência cardíaca associada."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Na nefrítica, ao contrário, há retenção real de sal e água (hipervolemia).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-096",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 3",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "No modelo das “duas torneiras”, AINE e IECA reduzem a TFG porque, respectivamente:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Contraem a aferente e dilatam a eferente."
+    },
+    {
+     "letra": "B",
+     "texto": "Dilatam a aferente e contraem a eferente."
+    },
+    {
+     "letra": "C",
+     "texto": "Contraem ambas."
+    },
+    {
+     "letra": "D",
+     "texto": "Dilatam ambas."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "AINE ↓ prostaglandinas (aferente fecha); IECA ↓ angiotensina II (eferente abre).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-097",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 4",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Respiração profunda e regular, sem esforço, em paciente urêmica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Cheyne-Stokes."
+    },
+    {
+     "letra": "B",
+     "texto": "Biot."
+    },
+    {
+     "letra": "C",
+     "texto": "Kussmaul — acidose metabólica."
+    },
+    {
+     "letra": "D",
+     "texto": "Dispneia por congestão."
+    }
+   ],
+   "gabarito": [
+    "C"
+   ],
+   "gabarito_texto": null,
+   "comentario": "A congestão dá respiração rápida, superficial e com esforço.",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-098",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 5",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Achados da paciente urêmica que indicam diálise de urgência:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Noctúria e prurido."
+    },
+    {
+     "letra": "B",
+     "texto": "Atrito pericárdico e asterixis."
+    },
+    {
+     "letra": "C",
+     "texto": "Pele amarelo-palha."
+    },
+    {
+     "letra": "D",
+     "texto": "Hipoestesia em bota."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Pericardite e encefalopatia urêmicas (U de AEIOU).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-099",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 6",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Paciente com cólica renal típica:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Fica inquieto, com abdome flácido e Giordano positivo."
+    },
+    {
+     "letra": "B",
+     "texto": "Fica imóvel com abdome em tábua."
+    },
+    {
+     "letra": "C",
+     "texto": "Tem Blumberg positivo."
+    },
+    {
+     "letra": "D",
+     "texto": "Tem macicez móvel."
+    }
+   ],
+   "gabarito": [
+    "A"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Imobilidade, tábua e Blumberg são da peritonite (dor parietal).",
+   "resposta_modelo": null
+  },
+  {
+   "id": "PROPE-OSCE-AT-100",
+   "materia": "Propedêutica (SOP IV)",
+   "prova": "PR2",
+   "tema": "Sistema urinário",
+   "subtema": "sistema urinário",
+   "origem": "inédita",
+   "fonte": "Material de estudo OSCE v2 · Autoteste — Parte 17 · questão 7",
+   "imagem": null,
+   "gabarito_oficial": null,
+   "tipo": "objetiva",
+   "enunciado": "Urina escura com fita positiva para sangue e SEM hemácias no sedimento, após esforço no calor:",
+   "alternativas": [
+    {
+     "letra": "A",
+     "texto": "Glomerulonefrite."
+    },
+    {
+     "letra": "B",
+     "texto": "Rabdomiólise."
+    },
+    {
+     "letra": "C",
+     "texto": "Cistite."
+    },
+    {
+     "letra": "D",
+     "texto": "Pré-renal simples."
+    }
+   ],
+   "gabarito": [
+    "B"
+   ],
+   "gabarito_texto": null,
+   "comentario": "Pigmento heme (mioglobina); dosar CK.",
+   "resposta_modelo": null
+  }
+ ]
+}

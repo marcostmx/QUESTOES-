@@ -113,14 +113,14 @@ export default function OscePage() {
       </div>
 
       <Section title={`Estações · ${feitas}/${lista.length} treinadas`}>
-        <div className="grid grid-cols-2 gap-2.5 sm:grid-cols-3 lg:grid-cols-5">
+        <div className="grid grid-cols-3 gap-2 sm:gap-2.5 lg:grid-cols-5">
           {lista.map(e => {
             const b = best.get(e.id);
             return (
               <a
                 key={e.id}
                 href={href(`osce/${e.id}`) + q()}
-                className="group flex flex-col gap-2 rounded-2xl border border-line bg-surface p-3.5 transition hover:border-line-strong hover:shadow-card"
+                className="group flex flex-col gap-1.5 rounded-2xl border border-line bg-surface p-2.5 transition hover:border-line-strong hover:shadow-card active:scale-[0.98] sm:gap-2 sm:p-3.5"
               >
                 <span className="flex items-center justify-between">
                   <span className="flex h-9 min-w-9 items-center justify-center rounded-[10px] bg-surface-2 px-1.5 font-mono text-[14px] font-semibold text-ink group-hover:bg-accent-soft group-hover:text-accent">
@@ -128,11 +128,11 @@ export default function OscePage() {
                   </span>
                   {b != null && <Badge tone={b >= 70 ? 'good' : b >= 50 ? 'warn' : 'bad'}>{b}%</Badge>}
                 </span>
-                <span className="text-[13.5px] font-medium">Estação {e.rotulo}</span>
-                <span className="text-[12px] text-ink-3">{nomeSistema(e.sistema)}</span>
+                <span className="hidden text-[13.5px] font-medium sm:block">Estação {e.rotulo}</span>
+                <span className="text-[11.5px] leading-tight text-ink-3 sm:text-[12px]">{nomeSistema(e.sistema)}</span>
                 {(e.checklist || e.tipo === 'discussao') && (
                   <span className={cx('w-fit rounded-md px-1.5 py-0.5 text-[10.5px] font-semibold', e.checklist ? 'bg-good-soft text-good' : 'bg-surface-2 text-ink-2')}>
-                    {e.checklist ? 'Checklist oficial' : 'Discussão de caso'}
+                    {e.checklist ? 'Checklist' : 'Discussão'}
                   </span>
                 )}
               </a>

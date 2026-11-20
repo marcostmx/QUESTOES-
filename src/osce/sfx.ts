@@ -26,7 +26,29 @@ function tone(freq: number, dur: number, type: OscillatorType = 'sine', vol = 0.
   o.stop(t0 + dur + 0.05);
 }
 
+/** Som de Korotkoff: batida grave; fases II e IV mais abafadas. */
+function korotkoff(fase: 1 | 2 | 3 | 4) {
+  const c = ac();
+  if (!c) return;
+  const o = c.createOscillator();
+  const g = c.createGain();
+  const f = c.createBiquadFilter();
+  f.type = 'lowpass';
+  f.frequency.value = fase === 4 ? 180 : fase === 2 ? 320 : 600;
+  o.type = fase === 2 ? 'sawtooth' : 'triangle';
+  o.frequency.setValueAtTime(fase === 4 ? 70 : 95, c.currentTime);
+  o.frequency.exponentialRampToValueAtTime(45, c.currentTime + 0.12);
+  const vol = fase === 1 ? 0.35 : fase === 3 ? 0.4 : fase === 2 ? 0.2 : 0.12;
+  g.gain.setValueAtTime(0, c.currentTime);
+  g.gain.linearRampToValueAtTime(vol, c.currentTime + 0.01);
+  g.gain.exponentialRampToValueAtTime(0.0001, c.currentTime + (fase === 4 ? 0.18 : 0.12));
+  o.connect(f).connect(g).connect(c.destination);
+  o.start();
+  o.stop(c.currentTime + 0.25);
+}
+
 export const sfx = {
+  korotkoff,
   tap: () => tone(660, 0.08, 'square', 0.05),
   beep: () => {
     tone(880, 0.18, 'sine', 0.15);

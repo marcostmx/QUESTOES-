@@ -1,7 +1,7 @@
 /* Biblioteca de manobras do simulador OSCE.
  * `rx` reconhece a manobra no texto do comando; `fk` reconhece trechos dos achados simulados. */
 
-export type Sistema = 'abdome' | 'cardiovascular' | 'respiratorio' | 'neurologico' | 'pele' | 'cabeca-pescoco' | 'dor-toracica' | 'abdome-agudo' | 'urinario';
+export type Sistema = 'abdome' | 'cardiovascular' | 'respiratorio' | 'neurologico' | 'pele' | 'cabeca-pescoco' | 'dor-toracica' | 'abdome-agudo' | 'urinario' | 'pressao';
 export type Regiao = 'cabeca' | 'torax' | 'abdome' | 'dorso' | 'mmss' | 'mmii' | 'geral';
 export type Postura = 'dorsal' | 'semi' | 'sentado' | 'pe' | 'lat-d' | 'lat-e';
 export type Etapa = 'insp' | 'ausc' | 'perc' | 'palp';
@@ -383,6 +383,32 @@ export const MANOBRAS: Manobra[] = [
     fk: /respira[çc][ãa]o|irpm|h[áa]lito/i, normal: 'Respiração eupneica.' },
   { id: 'ur-asterixis', nome: 'Pesquisa de asterixis (flapping)', sis: 'urinario', regiao: 'mmss',
     rx: /asterixis/i, fk: /asterixis/i, normal: 'Sem asterixis.' },
+
+  /* ---------- AFERIÇÃO DA PA ---------- */
+  { id: 'pa-preparo', nome: 'Conferir o preparo (café, fumo, alimento, exercício, bexiga)', sis: 'pressao', regiao: 'geral',
+    normal: 'Preparo adequado.', dica: '“30 · 90 · 5 · 1”: 30 min sem fumo/café/comida, 90 min sem exercício, 5 min de repouso, 1 min entre medidas.' },
+  { id: 'pa-repouso', nome: 'Repouso de 5 min, sentado, costas apoiadas, sem falar', sis: 'pressao', regiao: 'geral', postura: ['sentado', 'dorsal'],
+    normal: 'Paciente em repouso, pernas descruzadas e pés no chão.' },
+  { id: 'pa-braco', nome: 'Braço nu, apoiado na altura do coração, palma para cima', sis: 'pressao', regiao: 'mmss',
+    normal: 'Braço nu e apoiado na altura do coração.' },
+  { id: 'pa-circunferencia', nome: 'Medir a circunferência do braço e escolher o manguito', sis: 'pressao', regiao: 'mmss',
+    normal: 'Circunferência adequada ao manguito adulto.', dica: 'Bolsa inflável cobre 80–100% da circunferência e 40% da largura do braço.' },
+  { id: 'pa-manguito', nome: 'Colocar o manguito 2–3 cm acima da fossa cubital, sobre a braquial', sis: 'pressao', regiao: 'mmss',
+    normal: 'Manguito bem ajustado, sem folgas.' },
+  { id: 'pa-palpatoria', nome: 'Estimativa palpatória da PAS (pulso radial)', sis: 'pressao', regiao: 'mmss',
+    normal: 'Pulso radial desaparece durante a insuflação.', dica: 'Insuflar até sumir o radial, +20–30 mmHg, desinsuflar e aguardar 30 s.' },
+  { id: 'pa-esteto', nome: 'Estetoscópio sobre a artéria braquial', sis: 'pressao', regiao: 'mmss',
+    normal: 'Diafragma posicionado sobre a braquial, sem comprimir.' },
+  { id: 'pa-insuflar', nome: 'Insuflar 20–30 mmHg acima da PAS estimada', sis: 'pressao', regiao: 'mmss',
+    normal: 'Manguito insuflado.' },
+  { id: 'pa-ausculta', nome: 'Desinsuflar (2–3 mmHg/s) e auscultar os sons de Korotkoff', sis: 'pressao', regiao: 'mmss',
+    normal: 'Medida realizada.', dica: 'PAS = fase I (primeiro som); PAD = fase V (desaparecimento), não a fase IV (abafamento).' },
+  { id: 'pa-esperar', nome: 'Aguardar 1 minuto e repetir a medida', sis: 'pressao', regiao: 'geral',
+    normal: 'Aguardou 1 minuto.' },
+  { id: 'pa-outro-braco', nome: 'Trocar o manguito para o outro braço', sis: 'pressao', regiao: 'mmss',
+    normal: 'Manguito no outro braço.' },
+  { id: 'pa-ortostatica', nome: 'Medir deitado (5 min) e após 1 e 3 min em pé', sis: 'pressao', regiao: 'mmss',
+    normal: 'Sem queda significativa ao ficar em pé.' },
 ];
 
 /** Substituições para comandos cujo texto não nomeia a manobra (estação → índice do comando → manobras). */
@@ -448,6 +474,10 @@ export const OVERRIDES: Record<string, Record<number, string[]>> = {
   'URI-R2': { 0: ['ur-edema', 'ur-macicez-movel'] },
   'URI-R3': { 0: ['ur-giordano'] },
   'URI-R4': { 0: ['ur-asterixis'], 1: ['ur-resp'] },
+  'PA-1': { 0: ['pa-preparo', 'pa-repouso', 'pa-braco'], 1: ['pa-circunferencia', 'pa-manguito', 'pa-palpatoria', 'pa-esteto', 'pa-insuflar', 'pa-ausculta'], 2: [] },
+  'PA-2': { 0: ['pa-palpatoria', 'pa-ausculta', 'pa-outro-braco'], 1: [], 2: [] },
+  'PA-3': { 0: ['pa-ortostatica'], 1: [], 2: [] },
+  'PA-4': { 0: ['pa-braco', 'pa-circunferencia', 'pa-manguito'], 1: ['pa-palpatoria', 'pa-esteto', 'pa-insuflar', 'pa-ausculta'], 2: ['pa-esperar'] },
   'RESP-01': { 0: ['pos-sentado', 'resp-insp-est', 'resp-insp-din'] },
 };
 

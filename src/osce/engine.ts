@@ -3,6 +3,9 @@ import { byId, CHECKLIST_AUTO, doSistema, OVERRIDES, POSTURAS, type Manobra, typ
 
 export interface Comando { texto: string; gabarito: string[] }
 export interface ItemChecklist { sec: number; texto: string; pts: number }
+export interface LeituraPA { braco: 'D' | 'E'; pas: number; pad: number; fase4: number }
+export interface CenarioPA { circunferencia: number; manguito: 'adulto' | 'obeso'; leituras: LeituraPA[]; classe: string; ortostatica?: boolean; arritmia?: boolean }
+export const CLASSES_PA = ['PA normal', 'Pré-hipertensão', 'HA estágio 1', 'HA estágio 2', 'HA estágio 3'];
 export interface Estacao {
   id: string;
   n: number;
@@ -18,6 +21,7 @@ export interface Estacao {
   pontoChave: string;
   paciente: { sexo: 'M' | 'F'; idade: number; fr: number; padrao: 'normal' | 'cheyne' | 'kussmaul' | 'taquipneia'; postura: Postura; dor: boolean };
   achadosPorManobra?: Record<string, string>;
+  pa?: CenarioPA;
 }
 
 export const SISTEMAS: { id: Sistema; nome: string }[] = [
@@ -30,6 +34,7 @@ export const SISTEMAS: { id: Sistema; nome: string }[] = [
   { id: 'dor-toracica', nome: 'Dor torácica' },
   { id: 'abdome-agudo', nome: 'Abdome agudo' },
   { id: 'urinario', nome: 'Sistema urinário' },
+  { id: 'pressao', nome: 'Aferição da PA' },
 ];
 export const nomeSistema = (s: Sistema) => SISTEMAS.find(x => x.id === s)!.nome;
 
@@ -58,6 +63,13 @@ const SEM_DOR = /indolor|sem dor|n[ãa]o h[áa] dor|sem desconforto/i;
 
 /** Achado mostrado ao executar a manobra nesta estação. */
 export function achado(e: Estacao, m: Manobra): { texto: string; alterado: boolean; dor: boolean } {
+  if (e.pa) {
+    const pa = e.pa;
+    if (m.id === 'pa-circunferencia')
+      return { texto: `Circunferência do braço: ${pa.circunferencia} cm → ${pa.manguito === 'obeso' ? 'manguito de obeso (grande); o adulto padrão superestimaria a PA' : 'manguito adulto padrão'}.`, alterado: pa.manguito === 'obeso', dor: false };
+    if (m.id === 'pa-palpatoria')
+      return { texto: `O pulso radial desaparece em cerca de ${Math.round((Math.max(...pa.leituras.map(l => l.pas)) + 4) / 2) * 2} mmHg (estimativa da PAS).`, alterado: true, dor: false };
+  }
   const fixo = e.achadosPorManobra?.[m.id];
   if (fixo) return { texto: fixo, alterado: true, dor: DOR.test(fixo) && !SEM_DOR.test(fixo) };
   if (e.sistema === 'abdome') return { texto: m.normal, alterado: false, dor: false };
@@ -82,10 +94,14 @@ export interface Tentativa {
   posturas: { postura: Postura; t: number }[];
   execs: Execucao[];
   respostas: Record<number, string>;
+  /** aferição da PA */
+  braco?: 'D' | 'E';
+  medidas: { braco: 'D' | 'E'; pas: number | null; pad: number | null; t: number }[];
+  registro: { pas?: number; pad?: number; classe?: string; orto?: 'sim' | 'nao' };
 }
 
 export const novaTentativa = (e: Estacao): Tentativa => ({
-  abertura: {}, fechamento: {}, postura: e.paciente.postura, posturas: [], execs: [], respostas: {},
+  abertura: {}, fechamento: {}, postura: e.paciente.postura, posturas: [], execs: [], respostas: {}, braco: e.pa?.leituras[0].braco, medidas: [], registro: {},
 });
 
 export const nomePostura = (p: Postura) => POSTURAS.find(x => x.id === p)!.nome;
@@ -183,6 +199,8 @@ export function corrigir(e: Estacao, t: Tentativa, auto: Record<number, Status |
     if (verbal) itens.push({ grupo: 'Comandos', label: `${i + 1}. Resposta`, comando: i, chave: i, peso: req.length ? 1 : 2, status: auto[i] ?? null });
   });
 
+  if (e.pa) itens.push(...itensPA(e, t));
+
   itens.push({ grupo: 'Encerramento', label: 'Agradeceu e informou o fim do exame', auto: true, peso: 0.5, status: t.fechamento.agradecer != null ? 'fez' : 'nao' });
   itens.push({ grupo: 'Encerramento', label: 'Higienizou as mãos ao final', auto: true, peso: 0.5,
     status: t.fechamento.higieneFinal != null ? 'fez' : 'nao' });
@@ -190,6 +208,57 @@ export function corrigir(e: Estacao, t: Tentativa, auto: Record<number, Status |
   const total = itens.reduce((s, x) => s + x.peso, 0);
   const got = itens.reduce((s, x) => s + x.peso * pts(x.status), 0);
   return { itens, nota: Math.round((got / total) * 100), pendentes: itens.filter(x => x.status === null).length };
+}
+
+/** Valor esperado no registro da PA (média em arritmia; braço de maior valor na avaliação inicial). */
+export function paEsperada(pa: CenarioPA): { pas: number; pad: number; fase4: number } {
+  if (pa.arritmia) {
+    const m = (k: 'pas' | 'pad' | 'fase4') => Math.round(pa.leituras.reduce((a, l) => a + l[k], 0) / pa.leituras.length);
+    return { pas: m('pas'), pad: m('pad'), fase4: m('fase4') };
+  }
+  return [...pa.leituras].sort((a, b) => b.pas - a.pas)[0];
+}
+
+const ORDEM_PA = ['pa-preparo', 'pa-repouso', 'pa-braco', 'pa-circunferencia', 'pa-manguito', 'pa-palpatoria', 'pa-esteto', 'pa-insuflar', 'pa-ausculta'];
+
+function itensPA(e: Estacao, t: Tentativa): Item[] {
+  const pa = e.pa!;
+  const itens: Item[] = [];
+  const first = (id: string) => t.execs.find(x => x.id === id)?.t;
+  const mede = e.comandos.some((_, i) => manobrasDoComando(e, i).includes('pa-ausculta'));
+  if (mede) {
+    const palp = first('pa-palpatoria');
+    const ausc = first('pa-ausculta');
+    itens.push({ grupo: 'Técnica', label: 'Fez a estimativa palpatória antes da ausculta', auto: true, peso: 1,
+      status: palp != null && ausc != null && palp < ausc ? 'fez' : palp != null ? 'parcial' : 'nao' });
+    const seq = ORDEM_PA.map(first).filter((x): x is number => x != null);
+    let ok = seq.length >= 2;
+    for (let i = 1; i < seq.length; i++) if (seq[i] < seq[i - 1]) ok = false;
+    itens.push({ grupo: 'Técnica', label: 'Seguiu a ordem: preparo → braço → manguito → palpatória → estetoscópio → insuflar → ausculta', auto: true, peso: 1,
+      status: ok ? 'fez' : seq.length >= 2 ? 'parcial' : 'nao' });
+    const esp = paEsperada(pa);
+    const r = t.registro;
+    itens.push({ grupo: 'Comandos', label: `PAS registrada (fase I): ${r.pas ?? '—'} mmHg`, auto: true, peso: 1,
+      status: r.pas != null && r.pas <= esp.pas + 2 && r.pas >= esp.pas - 6 ? 'fez' : 'nao', detalhe: `Esperado: ${esp.pas} mmHg${pa.arritmia ? ' (média de 3 medidas na FA)' : pa.leituras.length > 1 ? ' (braço de maior valor)' : ''}.` });
+    const fase4 = r.pad != null && r.pad >= esp.fase4 - 3;
+    itens.push({ grupo: 'Comandos', label: `PAD registrada (fase V): ${r.pad ?? '—'} mmHg`, auto: true, peso: 1,
+      status: r.pad != null && r.pad <= esp.pad + 2 && r.pad >= esp.pad - 6 && !fase4 ? 'fez' : 'nao',
+      detalhe: fase4 ? `Você registrou o abafamento (fase IV). A PAD é o desaparecimento: ${esp.pad} mmHg.` : `Esperado: ${esp.pad} mmHg.` });
+    if (pa.arritmia) {
+      const n = t.medidas.length;
+      itens.push({ grupo: 'Técnica', label: 'Fez 3 medidas por causa da arritmia', auto: true, peso: 0.5, status: n >= 3 ? 'fez' : n === 2 ? 'parcial' : 'nao' });
+    }
+    if (pa.leituras.length > 1 && !pa.arritmia) {
+      const bracos = new Set(t.medidas.map(m => m.braco));
+      itens.push({ grupo: 'Técnica', label: 'Mediu nos dois braços', auto: true, peso: 0.5, status: bracos.size >= 2 ? 'fez' : 'nao' });
+    }
+  }
+  itens.push({ grupo: 'Comandos', label: `Classificação: ${t.registro.classe ?? '—'}`, auto: true, peso: 1,
+    status: t.registro.classe === pa.classe ? 'fez' : 'nao', detalhe: `Esperado: ${pa.classe} (pelo maior valor entre PAS e PAD).` });
+  if (pa.ortostatica)
+    itens.push({ grupo: 'Comandos', label: `Hipotensão ortostática: ${t.registro.orto === 'sim' ? 'presente' : t.registro.orto === 'nao' ? 'ausente' : '—'}`, auto: true, peso: 1,
+      status: t.registro.orto === 'sim' ? 'fez' : 'nao', detalhe: 'Queda da PAS de 136 para 110 mmHg (≥ 20) = presente.' });
+  return itens;
 }
 
 /** Estações com checklist oficial do avaliador (pontos do material). */
@@ -245,4 +314,57 @@ export function fala(e: Estacao, acao: Abertura | Fechamento | 'queixa'): string
     case 'higiene':
     case 'higieneFinal': return '';
   }
+}
+
+/* ---------- Anamnese (roteiro fixo a partir do caso) ---------- */
+const NAO_SEI = 'Sem informação no caso — o paciente não sabe informar.';
+const EXCLUI = /exame|achados|equipe|dever[áa]|objetivo|esta[çc][ãa]o|inspe[çc][ãa]o|palpa[çc][ãa]o|ausculta|percuss|foi percebid|observa-se|em observa|avalia[çc][ãa]o|hemodinamicamente|^est[áa] (?!internad)|conversa|responde [àa]s perguntas|voc[êe]|examinador|avaliador|pede que|distingue|^(PA|FC|FR|SpO|Glasgow|Press[ãa]o arterial|Frequ[êe]ncia|Temperatura)\b|^\d+ ?mmHg|sinais vitais|^(h[áa] |ao |um aparelho|durante|na observa)|^(irregular|glicemia)/i;
+const VITAIS = /[,;]?\s*(e\s+)?(temperatura|press[ãa]o arterial|frequ[êe]ncia (card[íi]aca|respirat[óo]ria)|PA|FC|FR|SpO₂?|T)\s*(de\s*)?[\d,./×x ]+\s*(°C|mmHg|bpm|irpm|%)?/gi;
+const SINTOMA = /dor|febre|fotofobia|frac[oa]s?|boca torta|palavra|tontura|cefaleia|falta de ar|dispneia|tosse|tremor|fraqueza|mancha|caro[çc]o|incha|aumento|cansa|plenitude|saciedade|abaulamento|equimose|ferida|vis[ãa]o|ouvido|vertigem|gira|urina|pinta|bolha|ard[êe]ncia|desconforto|peso|distens|sono|queda|dificuldade|v[ôo]mit|n[áa]usea|apetite|ic?ter|chiado|palpita|desmaio|formigamento|esquec|engasg|fala|escrita|letra|volume/i;
+const ANTEC = /hipertens|diab[ée]t|\bHAS\b|\bDM\b|\bFA\b|comorbid|cirurgi|operad|doen[çc]a|insufici|c[âa]ncer|anticoag|vacina|internad|cardiopat|asm|DPOC/i;
+const MEDIC = /\b(usa|uso|faz uso|toma|em uso|medica[çc]|enalapril|diclofenaco|metoclopramida|levodopa|anlodipino|hidroclorotiazida|anti-hipertens|AINE|rem[ée]dio)/i;
+const NEGA = /^(nega|sem )|\bnega\b|\bn[ãa]o (relata|h[áa]|houve|apresenta)/i;
+const HABITO = /fuma|tabag|[áa]lcool|etilis|trabalh|estudante|agricultor|mora |rep[úu]blica|caf[ée]|profiss|exerc[íi]cio|corrida|dieta|bebendo/i;
+
+function clausulas(caso: string): string[] {
+  return caso
+    .split(/(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚ“"])/)
+    .flatMap(f => f.split(/;\s*|\s*•\s*|,\s+(?=(?:e\s+)?(?:chega|apresenta|refere|relata|procura|queixa|acorda|nota|percebeu|notou)\b)/))
+    .map(s => s.replace(VITAIS, '').trim().replace(/[.;,]+$/, ''))
+    .filter(s => s.length > 3 && !EXCLUI.test(s));
+}
+
+/** Limpa a cláusula do caso para servir de resposta (sem reescrever em 1ª pessoa, para não distorcer o caso). */
+function limpa(f: string): string {
+  const t = f.replace(/^[A-ZÁÉÍÓÚ][a-záéíóúãõç]+( [A-ZÁÉÍÓÚ][a-záéíóúãõç]+)?,\s*\d+\s*anos,?\s*/u, '').replace(/^(Um|Uma)\s+[^,]{0,40}?\d+\s+anos,?\s*(com\s+)?/i, '').replace(/^(Paciente|Homem|Mulher)\s*(de\s*)?,?\s*\d+\s*anos,?\s*/i, '').replace(/^e\s+/i, '').trim();
+  return t ? t[0].toUpperCase() + t.slice(1) + '.' : '';
+}
+
+export interface Pergunta { id: string; pergunta: string; resposta: string }
+
+/** Respostas do paciente, tiradas só do caso (quando o caso não traz a informação, ele diz que não sabe). */
+export function anamnese(e: Estacao): Pergunta[] {
+  const cs = clausulas(e.caso);
+  const grupos: Record<'antec' | 'medic' | 'nega' | 'habito' | 'sint', string[]> = { antec: [], medic: [], nega: [], habito: [], sint: [] };
+  for (const c of cs) {
+    if (NEGA.test(c)) grupos.nega.push(c);
+    else if (MEDIC.test(c)) grupos.medic.push(c);
+    else if (ANTEC.test(c) && !SINTOMA.test(c)) grupos.antec.push(c);
+    else if (HABITO.test(c) && !SINTOMA.test(c)) grupos.habito.push(c);
+    else if (SINTOMA.test(c)) grupos.sint.push(c);
+    else if (ANTEC.test(c)) grupos.antec.push(c);
+    else grupos.habito.push(c);
+  }
+  const r = (l: string[], n = 2) => {
+    const t = l.map(limpa).filter(x => x.length > 3).slice(0, n).join(' ');
+    return t || NAO_SEI;
+  };
+  return [
+    { id: 'queixa', pergunta: 'O que traz o(a) senhor(a) aqui hoje?', resposta: grupos.sint.length ? r(grupos.sint, 1) : r(cs, 1) },
+    { id: 'historia', pergunta: 'Me conte mais: quando começou, como é, o que piora ou melhora?', resposta: r(grupos.sint.slice(1), 3) },
+    { id: 'nega', pergunta: 'Teve febre, vômitos, trauma ou outra coisa?', resposta: r(grupos.nega, 3) },
+    { id: 'antecedentes', pergunta: 'Tem alguma doença ou já fez cirurgia?', resposta: r(grupos.antec) },
+    { id: 'medicacoes', pergunta: 'Usa algum remédio?', resposta: r(grupos.medic) },
+    { id: 'habitos', pergunta: 'Fuma, bebe? Com o que trabalha?', resposta: r(grupos.habito) },
+  ];
 }

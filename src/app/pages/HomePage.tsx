@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { ArrowRight, CalendarClock, Flame, History, NotebookPen, Sparkles } from 'lucide-react';
+import { ArrowRight, CalendarClock, Flame, Gamepad2, History, NotebookPen, Sparkles } from 'lucide-react';
 import { CURRENT_EXAM, EXAMS } from '../../data/schema';
 import { useBank } from '../core/bank';
 import { dueQueue, shuffle } from '../core/session';
@@ -74,6 +74,15 @@ export default function HomePage() {
 
       <ResumeBanner />
       {bank.exam === CURRENT_EXAM && <PlanCard bank={bank} />}
+
+      <a href={href('osce')} className="mb-6 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><Gamepad2 className="size-5" /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-[15px] font-semibold">Simulador OSCE</span>
+          <span className="block text-[13px] text-ink-2">Treine as estações da prova prática em 3D, no computador ou no celular.</span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 text-ink-3" />
+      </a>
 
       <div className="mb-10 grid gap-3 lg:grid-cols-[1.4fr_1fr]">
         <Card className="relative overflow-hidden bg-ink p-6 text-bg sm:p-7">

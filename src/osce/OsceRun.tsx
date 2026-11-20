@@ -1,25 +1,27 @@
 /* Estação OSCE imersiva: corredor → leitura (1 min) → sala (5 min) → checklist. */
 import { Component, useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  ArrowLeft, BedDouble, BookOpen, Check, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
+  ArrowLeft, BedDouble, BookOpen, Check, Gauge, ListChecks, MessagesSquare, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
 } from 'lucide-react';
 import data from '../data/osce/stations.json';
 import { href } from '../app/router';
 import { Badge, Button, cx, Ring, toast } from '../app/ui';
 import {
-  achado, corrigir, ESTACAO_S, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
-  type Abertura, type Estacao, type Status, type Tentativa,
+  achado, anamnese, CLASSES_PA, corrigir, ESTACAO_S, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
+  type Abertura, type Estacao, type LeituraPA, type Status, type Tentativa,
 } from './engine';
 import { osceHistory, useOsceHistory } from './history';
 import { COLAS } from './colas';
 import { doSistema, POSTURAS, REGIOES, type Manobra, type Postura, type Regiao } from './maneuvers';
 import { World, webglOk, type Alvo, type Proximidade } from './scene';
 import { sfx } from './sfx';
+import { Manometro } from './Manometro';
+import { Joystick } from './Joystick';
 
 const ESTACOES = data as unknown as Estacao[];
 const TOQUE = typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches;
 type Fase = 'leitura' | 'estacao' | 'resultado';
-interface Log { key: number; nome: string; texto: string; alterado: boolean; aviso?: string }
+interface Log { key: number; nome: string; texto: string; alterado: boolean; aviso?: string; fala?: boolean }
 
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.max(0, Math.floor(s % 60))).padStart(2, '0')}`;
 
@@ -102,6 +104,12 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
   proxRef.current = fallback ? { pertoPaciente: true, pertoPia: true, lado: 'direito', dentro: true } : prox;
   const [menu, setMenu] = useState<Regiao[] | null>(null);
   const [posMenu, setPosMenu] = useState(false);
+  const [aberturaMenu, setAberturaMenu] = useState(false);
+  const [falarMenu, setFalarMenu] = useState(false);
+  const [perguntadas, setPerguntadas] = useState<Set<string>>(new Set());
+  const [mano, setMano] = useState<{ leitura: LeituraPA; inicio: number; braco: 'D' | 'E' } | null>(null);
+  const [ocultaUltimo, setOcultaUltimo] = useState(0);
+  const perguntas = useMemo(() => anamnese(e), [e]);
   const [painel, setPainel] = useState(false);
   const [hover, setHover] = useState<Alvo | null>(null);
   const [log, setLog] = useState<Log[]>([]);
@@ -253,6 +261,22 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
     setT(x => ({ ...x, execs: [...x.execs, exec] }));
     worldRef.current?.pulse(m.regiao);
     sfx.tap();
+    if (e.pa && ok && m.id === 'pa-outro-braco') {
+      const novo = s.braco === 'D' ? 'E' : 'D';
+      setT(x => ({ ...x, braco: novo }));
+      setLog(l => [{ key: Date.now(), nome: m.nome, texto: `Manguito agora no braço ${novo === 'D' ? 'direito' : 'esquerdo'}.`, alterado: false }, ...l]);
+      return;
+    }
+    if (e.pa && ok && m.id === 'pa-ausculta') {
+      const pa = e.pa;
+      const leitura = pa.arritmia ? pa.leituras[s.medidas.length % pa.leituras.length] : pa.leituras.find(l => l.braco === s.braco) ?? pa.leituras[0];
+      const palp = s.execs.some(x => x.id === 'pa-palpatoria') && s.execs.some(x => x.id === 'pa-insuflar');
+      const max = Math.max(...pa.leituras.map(l => l.pas));
+      const inicio = palp ? Math.round((max + 28) / 2) * 2 : 160;
+      if (!palp) toast(treino ? 'Sem estimativa palpatória: você insuflou só até 160 mmHg.' : 'Insuflado até 160 mmHg.');
+      setMano({ leitura, inicio, braco: s.braco ?? leitura.braco });
+      return;
+    }
     const a = achado(e, m);
     const aviso = ok ? undefined : treino
       ? `Paciente em "${nomePostura(s.postura)}". Posição adequada: ${m.postura!.map(nomePostura).join(' ou ')}.`
@@ -262,6 +286,33 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
     setLog(l => [{ key: Date.now(), nome: m.nome, texto, alterado: ok && a.alterado, aviso }, ...l]);
     if (ok && a.dor) diz('Ai! Aí dói, doutor(a)!');
     if (aviso) toast(treino ? 'Atenção à posição do paciente.' : 'Avaliador: sem achados.');
+  };
+
+  const perguntar = (id: string) => {
+    if (!naSala()) return;
+    const q = perguntas.find(x => x.id === id)!;
+    setPerguntadas(p => new Set(p).add(id));
+    setLog(l => [{ key: Date.now(), nome: q.pergunta, texto: q.resposta, alterado: false, fala: true }, ...l]);
+    diz(q.resposta.length > 140 ? q.resposta.slice(0, 137) + '…' : q.resposta);
+  };
+
+  const registrarMedida = (pas: number | null, pad: number | null) => {
+    const m = mano!;
+    setMano(null);
+    setT(x => {
+      const medidas = [...x.medidas, { braco: m.braco, pas, pad, t: sec() }];
+      const validas = medidas.filter(y => y.pas != null && y.pad != null);
+      let reg = x.registro;
+      if (e.pa?.arritmia && validas.length) {
+        const avg = (k: 'pas' | 'pad') => Math.round(validas.reduce((a, y) => a + (y[k] as number), 0) / validas.length);
+        reg = { ...reg, pas: avg('pas'), pad: avg('pad') };
+      } else if (validas.length) {
+        const maior = [...validas].sort((a, b) => (b.pas as number) - (a.pas as number))[0];
+        reg = { ...reg, pas: maior.pas as number, pad: maior.pad as number };
+      }
+      return { ...x, medidas, registro: reg };
+    });
+    setLog(l => [{ key: Date.now(), nome: `Medida no braço ${m.braco === 'D' ? 'direito' : 'esquerdo'}`, texto: `Você marcou: PAS ${pas ?? '—'} / PAD ${pad ?? '—'} mmHg.`, alterado: false }, ...l]);
   };
 
   const manobra = (m: Manobra) => {
@@ -331,20 +382,20 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
           <a href={href('osce')} className="flex size-10 items-center justify-center rounded-xl bg-white/90 text-ink shadow-card backdrop-blur hover:bg-white" aria-label="Sair">
             <ArrowLeft className="size-5" />
           </a>
-          <div className="rounded-xl bg-white/90 px-3 py-1.5 shadow-card backdrop-blur">
-            <div className="text-[11px] font-medium text-ink-3 uppercase">Estação {e.rotulo} · {nomeSistema(e.sistema)}{circuito ? ` · circuito ${circuito.i + 1}/${circuito.ids.length}` : ''}</div>
+          <div className="max-w-[46vw] rounded-xl bg-white/90 px-3 py-1.5 shadow-card backdrop-blur sm:max-w-none">
+            <div className="truncate text-[11px] font-medium text-ink-3 uppercase">Estação {e.rotulo} · {nomeSistema(e.sistema)}{circuito ? ` · circuito ${circuito.i + 1}/${circuito.ids.length}` : ''}</div>
             <div className="text-[13px] font-semibold">{fase === 'leitura' ? 'Leitura do caso' : fase === 'estacao' ? (treino ? 'Treino livre' : 'Execução') : 'Correção'}</div>
           </div>
         </div>
         {fase !== 'resultado' && (
-          <div className={cx('pointer-events-auto rounded-2xl px-4 py-2 font-mono text-[22px] font-bold shadow-card backdrop-blur tabular',
+          <div className={cx('pointer-events-auto rounded-2xl px-3 py-1.5 font-mono text-[18px] font-bold shadow-card backdrop-blur tabular sm:px-4 sm:py-2 sm:text-[22px]',
             fase === 'estacao' && !treino && restante <= 60 ? 'animate-pulse bg-bad text-white' : 'bg-white/90 text-ink')}>
             {fase === 'estacao' && treino ? fmt((agora - inicio.current) / 1000) : fmt(restante)}
           </div>
         )}
         <div className="pointer-events-auto flex items-center gap-2">
           {fase !== 'resultado' && (
-            <Button size="sm" className="bg-white/90 shadow-card" icon={<ClipboardList className="size-4" />} onClick={() => setPainel(p => !p)}>Tarefas</Button>
+            <Button size="sm" aria-label="Tarefas" className="bg-white/90 shadow-card" icon={<ClipboardList className="size-4" />} onClick={() => setPainel(p => !p)}><span className="hidden sm:inline">Tarefas</span></Button>
           )}
           <button type="button" aria-label="Tela cheia (F)" title="Tela cheia (F)" onClick={() => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.().catch(() => {}))}
             className="hidden size-9 items-center justify-center rounded-lg bg-white/90 shadow-card sm:flex">
@@ -376,8 +427,8 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
                 </li>
               ))}
             </ol>
-            <div className="mt-5 flex justify-end">
-              <Button variant="primary" size="lg" onClick={entrar}>Entrar na sala</Button>
+            <div className="sticky bottom-0 -mx-5 mt-5 flex justify-end bg-gradient-to-t from-[#fffdf6] via-[#fffdf6] to-transparent px-5 pt-4 pb-1 sm:static sm:mx-0 sm:bg-none sm:p-0">
+              <Button variant="primary" size="lg" className="w-full sm:w-auto" onClick={entrar}>Entrar na sala</Button>
             </div>
           </div>
         </div>
@@ -398,26 +449,91 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
         </div>
       )}
 
+      {/* joystick (celular) */}
+      {fase === 'estacao' && TOQUE && !fallback && (
+        <div className="pointer-events-none absolute bottom-[104px] left-3 z-10">
+          <Joystick onMove={(x, y) => { if (worldRef.current) worldRef.current.joy = { x, y }; }} />
+        </div>
+      )}
+
       {/* barra de ações */}
       {fase === 'estacao' && (
         <div className="safe-bottom absolute inset-x-0 bottom-0 p-2 sm:p-3">
-          <div className="mx-auto flex max-w-4xl gap-1.5 overflow-x-auto rounded-2xl bg-white/92 p-1.5 shadow-pop backdrop-blur">
+          {/* celular: poucos botões grandes, o resto em folhas */}
+          <div className="mx-auto grid max-w-md touch-manipulation grid-cols-5 gap-1 rounded-2xl bg-white/95 p-1.5 shadow-pop backdrop-blur sm:hidden">
+            <Acao icon={<ListChecks />} label="Abertura" done={(['higiene', 'apresentar', 'explicar', 'consentimento', 'privacidade', 'dor'] as const).every(k => t.abertura[k] != null)} onClick={() => naSala() && setAberturaMenu(true)} />
+            <Acao icon={<MessagesSquare />} label="Perguntar" onClick={() => naSala() && setFalarMenu(true)} />
+            <Acao icon={<BedDouble />} label="Posição" onClick={() => naSala() && setPosMenu(true)} />
+            <Acao icon={<Stethoscope />} label="Examinar" onClick={() => naSala() && setMenu(['geral'])} />
+            <Acao icon={<Flag />} label="Finalizar" tone="bad" onClick={() => { if (confirm('Finalizar a estação agora?')) encerrar(); }} />
+          </div>
+          {/* computador/tablet: tudo à mão */}
+          <div className="mx-auto hidden max-w-5xl gap-1.5 overflow-x-auto rounded-2xl bg-white/92 p-1.5 shadow-pop backdrop-blur sm:flex">
             <Acao icon={<Droplets />} label="Higienizar" done={t.abertura.higiene != null} onClick={higienizar} />
             <Acao icon={<Smile />} label="Apresentar-se" done={t.abertura.apresentar != null} onClick={() => abrir('apresentar')} />
             <Acao icon={<MessageCircle />} label="Explicar" done={t.abertura.explicar != null} onClick={() => abrir('explicar')} />
             <Acao icon={<ShieldCheck />} label="Consentimento" done={t.abertura.consentimento != null} onClick={() => abrir('consentimento')} />
             <Acao icon={<Lock />} label="Privacidade" done={t.abertura.privacidade != null} onClick={() => abrir('privacidade')} />
             <Acao icon={<Hand />} label="Perguntar dor" done={t.abertura.dor != null} onClick={() => abrir('dor')} />
+            <Acao icon={<MessagesSquare />} label="Anamnese" onClick={() => naSala() && setFalarMenu(true)} />
             <Acao icon={<BedDouble />} label="Posicionar" onClick={() => naSala() && setPosMenu(true)} />
             <Acao icon={<Stethoscope />} label="Manobras" onClick={() => naSala() && setMenu(['geral'])} />
             <Acao icon={<HeartHandshake />} label="Agradecer" done={t.fechamento.agradecer != null} onClick={agradecer} />
             <Acao icon={<Flag />} label="Finalizar" tone="bad" onClick={() => { if (confirm('Finalizar a estação agora?')) encerrar(); }} />
           </div>
-          <div className="mt-1.5 text-center text-[11.5px] font-medium text-ink/70">
-            {fallback ? 'Modo 2D' : TOQUE ? 'Toque no chão para andar e no paciente para examinar' : 'WASD/setas ou clique no chão para andar · clique no paciente para examinar · F tela cheia'}
-            {!fallback && prox.dentro && prox.lado && ` · você está à ${prox.lado === 'direito' ? 'direita' : 'esquerda'} do paciente`}
+          <div className="mt-1 text-center text-[11px] font-medium text-ink/70 sm:mt-1.5 sm:text-[11.5px]">
+            {fallback ? 'Modo 2D' : TOQUE ? 'Use o joystick ou toque no chão · toque no paciente para examinar' : 'WASD/setas ou clique no chão para andar · clique no paciente para examinar · F tela cheia'}
+            {!fallback && prox.dentro && prox.lado && ` · à ${prox.lado === 'direito' ? 'direita' : 'esquerda'} do paciente`}
           </div>
         </div>
+      )}
+
+      {/* abertura (celular) */}
+      {aberturaMenu && (
+        <Folha titulo="Abertura e encerramento" onClose={() => setAberturaMenu(false)}>
+          <p className="px-4 pt-3 text-[12.5px] text-ink-3">HIAE-CPD: faça antes de tocar o paciente. Ao final, agradeça e higienize de novo.</p>
+          <div className="grid grid-cols-2 gap-2 p-3">
+            {([
+              ['higiene', 'Higienizar as mãos', <Droplets key="h" />, () => { setAberturaMenu(false); higienizar(); }],
+              ['apresentar', 'Apresentar-se e confirmar o nome', <Smile key="a" />, () => abrir('apresentar')],
+              ['explicar', 'Explicar o exame', <MessageCircle key="e" />, () => abrir('explicar')],
+              ['consentimento', 'Pedir consentimento', <ShieldCheck key="c" />, () => abrir('consentimento')],
+              ['privacidade', 'Privacidade / expor só o necessário', <Lock key="p" />, () => abrir('privacidade')],
+              ['dor', 'Perguntar sobre dor', <Hand key="d" />, () => abrir('dor')],
+            ] as const).map(([k, label, icon, fn]) => (
+              <button key={k} type="button" onClick={fn}
+                className={cx('flex min-h-14 items-center gap-2.5 rounded-xl border px-3 py-2.5 text-left text-[13.5px] font-medium [&>svg]:size-5 [&>svg]:shrink-0', t.abertura[k] != null ? 'border-good bg-good-soft text-good' : 'border-line')}>
+                {icon}{label}{t.abertura[k] != null && <Check className="ml-auto !size-4" />}
+              </button>
+            ))}
+            <button type="button" onClick={() => { setAberturaMenu(false); agradecer(); }}
+              className={cx('col-span-2 flex min-h-12 items-center justify-center gap-2 rounded-xl border px-3 text-[13.5px] font-medium', t.fechamento.agradecer != null ? 'border-good bg-good-soft text-good' : 'border-line')}>
+              <HeartHandshake className="size-5" /> Agradecer e encerrar o exame
+            </button>
+          </div>
+        </Folha>
+      )}
+
+      {/* anamnese */}
+      {falarMenu && (
+        <Folha titulo="Perguntar ao paciente" onClose={() => setFalarMenu(false)}>
+          <p className="px-4 pt-3 text-[12.5px] text-ink-3">O paciente responde só com o que está no caso (roteiro fixo).</p>
+          <div className="grid gap-1.5 p-3">
+            {perguntas.map(q => (
+              <button key={q.id} type="button" onClick={() => { setFalarMenu(false); perguntar(q.id); }}
+                className="flex min-h-12 items-center gap-3 rounded-xl border border-line px-3 py-2.5 text-left text-[14px] hover:border-accent">
+                <MessagesSquare className="size-4 shrink-0 text-ink-3" />
+                <span className="flex-1">{q.pergunta}</span>
+                {perguntadas.has(q.id) && <Check className="size-4 text-good" />}
+              </button>
+            ))}
+          </div>
+        </Folha>
+      )}
+
+      {/* esfigmomanômetro */}
+      {mano && (
+        <Manometro leitura={mano.leitura} inicio={mano.inicio} braco={mano.braco} irregular={e.pa?.arritmia} onDone={registrarMedida} onClose={() => setMano(null)} />
       )}
 
       {/* posições */}
@@ -442,7 +558,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
 
       {/* painel de tarefas e achados */}
       {painel && fase !== 'resultado' && (
-        <aside className="animate-rise absolute top-16 right-2 bottom-24 z-20 flex w-[min(420px,calc(100%-16px))] flex-col overflow-hidden rounded-2xl border border-line bg-surface shadow-pop">
+        <aside className="animate-rise absolute inset-x-0 top-14 bottom-0 z-40 flex flex-col overflow-hidden rounded-t-3xl border border-line bg-surface shadow-pop sm:inset-x-auto sm:top-16 sm:right-2 sm:bottom-24 sm:z-20 sm:w-[420px] sm:rounded-2xl">
           <div className="flex items-center justify-between border-b border-line px-4 py-2.5">
             <span className="text-[14px] font-semibold">Tarefas da estação</span>
             <button type="button" aria-label="Fechar" onClick={() => setPainel(false)} className="flex size-8 items-center justify-center rounded-lg hover:bg-surface-2"><X className="size-4" /></button>
@@ -476,9 +592,44 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
                 )}
               </div>
             ))}
+            {e.pa && (
+              <div className="rounded-xl border border-accent/40 bg-accent-soft/40 p-3">
+                <h3 className="mb-2 flex items-center gap-2 text-[13px] font-semibold"><Gauge className="size-4 text-accent" /> Registro da PA</h3>
+                {t.medidas.length > 0 && (
+                  <ul className="mb-2 space-y-0.5 text-[12.5px] text-ink-2">
+                    {t.medidas.map((m, k) => <li key={k}>Medida {k + 1} · braço {m.braco}: {m.pas ?? '—'}/{m.pad ?? '—'} mmHg</li>)}
+                  </ul>
+                )}
+                <div className="grid grid-cols-2 gap-2">
+                  {(['pas', 'pad'] as const).map(k => (
+                    <label key={k} className="text-[12px] font-medium text-ink-2">{k.toUpperCase()} (mmHg)
+                      <input type="number" inputMode="numeric" value={t.registro[k] ?? ''} onChange={ev => { const v = ev.target.value === '' ? undefined : Number(ev.target.value); setT(x => ({ ...x, registro: { ...x.registro, [k]: v } })); }}
+                        className="mt-1 h-11 w-full rounded-xl border border-line bg-bg px-3 text-[16px] outline-none focus:border-accent" />
+                    </label>
+                  ))}
+                </div>
+                <label className="mt-2 block text-[12px] font-medium text-ink-2">Classificação
+                  <select value={t.registro.classe ?? ''} onChange={ev => { const v = ev.target.value || undefined; setT(x => ({ ...x, registro: { ...x.registro, classe: v } })); }}
+                    className="mt-1 h-11 w-full rounded-xl border border-line bg-bg px-3 text-[15px] outline-none focus:border-accent">
+                    <option value="">Escolha…</option>
+                    {CLASSES_PA.map(c => <option key={c}>{c}</option>)}
+                  </select>
+                </label>
+                {e.pa.ortostatica && (
+                  <div className="mt-2 text-[12px] font-medium text-ink-2">Hipotensão ortostática?
+                    <div className="mt-1 grid grid-cols-2 gap-2">
+                      {(['sim', 'nao'] as const).map(o => (
+                        <button key={o} type="button" onClick={() => setT(x => ({ ...x, registro: { ...x.registro, orto: o } }))}
+                          className={cx('h-10 rounded-xl border text-[14px]', t.registro.orto === o ? 'border-accent bg-accent-soft font-semibold text-accent' : 'border-line')}>{o === 'sim' ? 'Presente' : 'Ausente'}</button>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            )}
             {log.length > 0 && (
               <div>
-                <h3 className="mb-2 text-[12px] font-semibold tracking-wide text-ink-3 uppercase">Achados do exame</h3>
+                <h3 className="mb-2 text-[12px] font-semibold tracking-wide text-ink-3 uppercase">Achados e respostas</h3>
                 <AchadosLista log={log} />
               </div>
             )}
@@ -487,12 +638,13 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
       )}
 
       {/* último achado */}
-      {fase === 'estacao' && log[0] && !painel && (
-        <div key={log[0].key} className="animate-rise absolute top-20 right-2 z-10 w-[min(340px,calc(100%-16px))] rounded-2xl border border-line bg-surface/95 p-3 shadow-pop backdrop-blur">
-          <div className="mb-0.5 flex items-center gap-2 text-[12px] font-semibold text-ink-3"><Stethoscope className="size-3.5" />{log[0].nome}</div>
+      {fase === 'estacao' && log[0] && !painel && ocultaUltimo !== log[0].key && (
+        <button type="button" key={log[0].key} onClick={() => setOcultaUltimo(log[0].key)} aria-label="Fechar achado"
+          className="animate-rise absolute top-[68px] right-2 left-2 z-10 rounded-2xl border border-line bg-surface/95 p-3 text-left shadow-pop backdrop-blur sm:top-20 sm:left-auto sm:w-[340px]">
+          <div className="mb-0.5 flex items-center gap-2 text-[12px] font-semibold text-ink-3">{log[0].fala ? <MessagesSquare className="size-3.5" /> : <Stethoscope className="size-3.5" />}<span className="flex-1">{log[0].nome}</span><X className="size-3.5" /></div>
           <p className="text-[13.5px] leading-snug">{log[0].texto}</p>
           {log[0].aviso && <p className="mt-1 text-[12px] font-medium text-warn">{log[0].aviso}</p>}
-        </div>
+        </button>
       )}
 
       {res && (
@@ -505,7 +657,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
 function Acao({ icon, label, onClick, done, tone }: { icon: ReactNode; label: string; onClick: () => void; done?: boolean; tone?: 'bad' }) {
   return (
     <button type="button" onClick={onClick}
-      className={cx('relative flex min-w-[76px] shrink-0 flex-col items-center gap-1 rounded-xl px-2 py-2 text-[11.5px] font-semibold transition active:scale-95 [&>svg]:size-5',
+      className={cx('relative flex min-h-14 min-w-0 shrink-0 flex-col items-center justify-center gap-1 rounded-xl px-1 py-2 text-[11px] sm:min-w-[76px] sm:px-2 sm:text-[11.5px] font-semibold transition active:scale-95 [&>svg]:size-5',
         tone === 'bad' ? 'text-bad hover:bg-bad-soft' : 'text-ink hover:bg-surface-2', done && 'bg-good-soft text-good')}>
       {icon}
       {label}
@@ -554,7 +706,7 @@ function MenuManobras({ dicasPermitidas, regioesSis, inicial, manobras, feitas, 
       <div className="grid gap-1 p-2">
         {lista.map(m => (
           <button key={m.id} type="button" onClick={() => onPick(m)}
-            className="flex items-start gap-3 rounded-xl px-3 py-2.5 text-left transition hover:bg-surface-2">
+            className="flex min-h-12 items-start gap-3 rounded-xl px-3 py-2.5 text-left transition hover:bg-surface-2 active:bg-surface-2">
             <Stethoscope className="mt-0.5 size-4 shrink-0 text-ink-3" />
             <span className="flex-1">
               <span className="block text-[14px] font-medium">{m.nome}</span>
