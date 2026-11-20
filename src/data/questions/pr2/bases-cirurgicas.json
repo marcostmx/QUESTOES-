@@ -1,5 +1,115 @@
 [
   {
+    "id": "bc-7271434e",
+    "subject": "bases-cirurgicas",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Queimaduras",
+    "subtopic": "caso da aula",
+    "stem": "Caso de abertura e fechamento da aula: 22h30, UPA. Homem, 40 anos, 70 kg, incêndio residencial, com queimadura de 2º grau em toda a cabeça e face (SCQ de 9%), rouquidão, SpO₂ 91% e pelos nasais chamuscados. Já intubado, qual o volume de Ringer lactato pela fórmula da aula nas primeiras 8 horas?",
+    "options": [
+      "630 mL, contados a partir do momento da queimadura.",
+      "1.260 mL, contados a partir da chegada à UPA.",
+      "2.520 mL, pela Parkland clássica de 4 mL.",
+      "630 mL, contados a partir da chegada à UPA.",
+      "315 mL, porque a face vale 4,5%."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nResolução do slide: SCQ 9% (cabeça) → 2 × 70 × 9 = **1.260 mL em 24 h** → **630 mL nas primeiras 8 h contadas da queimadura** (anotação \"importante\" no slide) e 630 mL nas 16 h seguintes. Prioridade antes disso: IOT imediata, O₂ 100% e co-oximetria; transferir (face + lesão inalatória).",
+    "source": "Caso dos slides da aula (Prof. Thiago P. Rodrigues), via Guia Bases Cirúrgicas PR2 completo — resolução do slide",
+    "origin": "slide",
+    "ref": "BC-CASO-SLIDE-01"
+  },
+  {
+    "id": "bc-d8ad3e6e",
+    "subject": "bases-cirurgicas",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Choque",
+    "subtopic": "caso da aula",
+    "stem": "Caso 2 da aula: mulher, 68 anos, DM2 e HAS, febre de 39,2 °C há 3 dias, disúria e prostração. PA 88 × 52, FC 118, FR 24, SatO₂ 95%, lactato 5,2, leucócitos 22.000, confusa, extremidades quentes e rubras. São medidas do pacote da 1ª hora, EXCETO:",
+    "options": [
+      "Dosar o lactato.",
+      "Colher hemoculturas antes do antibiótico.",
+      "Antibiótico de amplo espectro.",
+      "30 mL/kg de cristaloide.",
+      "Aguardar o resultado das culturas para iniciar o antibiótico."
+    ],
+    "answerIndex": 4,
+    "explanation": "**Gabarito: E**\n\nChoque séptico de foco urinário (qSOFA 3: confusa, FR ≥ 22, PAS ≤ 100). Pacote da 1ª hora: lactato, hemoculturas, ATB de amplo espectro (cada hora de atraso ↑ mortalidade ~7%), 30 mL/kg de cristaloide e vasopressor (noradrenalina, PAM ≥ 65) se a hipotensão persistir.",
+    "source": "Caso dos slides da aula (Prof. Thiago P. Rodrigues), via Guia Bases Cirúrgicas PR2 completo — resolução do slide",
+    "origin": "slide",
+    "ref": "BC-CASO-SLIDE-02"
+  },
+  {
+    "id": "bc-e0929fef",
+    "subject": "bases-cirurgicas",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Choque",
+    "subtopic": "caso da aula",
+    "stem": "Caso 3 da aula: homem, 55 anos, IAM anterior há 4 h. PA 82 × 60, FC 105, SpO₂ 89%, crepitações até a metade dos campos, jugulares túrgidas, extremidades frias, BRE novo, lactato 3,8. O que diferencia este choque do séptico do caso 2?",
+    "options": [
+      "É frio e congesto (DC ↓↓, PVC ↑↑), enquanto o séptico é quente com RVP ↓↓.",
+      "É quente e com RVP baixa, como o séptico.",
+      "Tem PVC baixa e responde a volume agressivo.",
+      "É obstrutivo, por tamponamento.",
+      "Não há diferença hemodinâmica entre eles."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nResolução do slide: cardiogênico = frio + congesto. Não infundir volume agressivo (piora o edema pulmonar); dobutamina (+ noradrenalina se hipotensão grave) e revascularização urgente.",
+    "source": "Caso dos slides da aula (Prof. Thiago P. Rodrigues), via Guia Bases Cirúrgicas PR2 completo — resolução do slide",
+    "origin": "slide",
+    "ref": "BC-CASO-SLIDE-03"
+  },
+  {
+    "id": "bc-5e6b60f1",
+    "subject": "bases-cirurgicas",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Infecção em cirurgia",
+    "subtopic": "caso da aula",
+    "stem": "Caso P.S. da aula: 65 anos, HAS e DM2 (HbA1c 8,8%), colectomia esquerda por neoplasia de sigmoide há 8 dias. Febre de 39,2 °C, leucocitose de 18.000, FC 118 e dor abdominal intensa. TC: coleção pericólica de 5 cm com gás. O diagnóstico e a conduta imediata são:",
+    "options": [
+      "ISC de órgão/espaço; hemoculturas e cultura do abscesso, antibiótico IV empírico e drenagem percutânea guiada por TC.",
+      "ISC incisional superficial; abrir a ferida e fazer curativo.",
+      "ISC incisional profunda; apenas antibiótico oral.",
+      "Atelectasia; fisioterapia respiratória.",
+      "Colonização; observar sem tratamento."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nResolução do slide: abscesso intra-abdominal pós-operatório = ISC de **órgão/espaço**. Fatores de risco: DM2 não controlado, idade, cirurgia de grande porte. Conduta: (1) hemoculturas + cultura do abscesso; (2) ATB IV empírico (pip-tazo ou carbapenêmico); (3) drenagem percutânea guiada por TC — controle do foco.",
+    "source": "Caso dos slides da aula (Prof. Thiago P. Rodrigues), via Guia Bases Cirúrgicas PR2 completo — resolução do slide",
+    "origin": "slide",
+    "ref": "BC-CASO-SLIDE-04"
+  },
+  {
+    "id": "bc-7cd56dc2",
+    "subject": "bases-cirurgicas",
+    "exam": "PR2",
+    "format": "mcq",
+    "kind": "multipla-escolha",
+    "topic": "Infecção em cirurgia",
+    "subtopic": "caso da aula",
+    "stem": "Retomada do caso de abertura (H.M., 58 anos, DM2, obesidade grau II, colecistectomia de urgência convertida para aberta, com ISC incisional superficial no 7º dia). Qual o erro de prevenção mais provável apontado na aula?",
+    "options": [
+      "Ausência ou erro de timing da antibioticoprofilaxia e controle glicêmico inadequado.",
+      "Uso de clorexidina alcoólica no preparo da pele.",
+      "Manter a temperatura acima de 36 °C.",
+      "Tricotomia com tricotomizador imediatamente antes.",
+      "Profilaxia em dose única 30–60 min antes da incisão."
+    ],
+    "answerIndex": 0,
+    "explanation": "**Gabarito: A**\n\nOs 5 pilares: profilaxia no momento certo (60–30 min antes), clorexidina alcoólica sem lâmina, glicemia < 180, temperatura ≥ 36 °C e técnica. As alternativas B–E são medidas corretas.",
+    "source": "Caso dos slides da aula (Prof. Thiago P. Rodrigues), via Guia Bases Cirúrgicas PR2 completo — resolução do slide",
+    "origin": "slide",
+    "ref": "BC-CASO-SLIDE-05"
+  },
+  {
     "id": "bc-13ddb713",
     "subject": "bases-cirurgicas",
     "exam": "PR2",

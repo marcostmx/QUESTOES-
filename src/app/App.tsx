@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, Gamepad2, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -22,6 +22,8 @@ const LibraryPage = lazy(() => import('./pages/LibraryPage'));
 const StatsPage = lazy(() => import('./pages/StatsPage'));
 const SearchPage = lazy(() => import('./pages/SearchPage'));
 const AccountPage = lazy(() => import('./pages/AccountPage'));
+const OscePage = lazy(() => import('./pages/OscePage'));
+const OsceRun = lazy(() => import('../osce/OsceRun'));
 const QuestionPage = lazy(() => import('./pages/QuestionPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
@@ -85,6 +87,7 @@ function useNav(): NavItem[] {
       { path: 'praticar', label: 'Praticar', icon: PenLine },
       { path: 'simulado', label: 'Simulado', icon: ClipboardList },
       { path: 'revisao', label: 'Revisão', icon: CalendarClock, badge: due },
+      { path: 'osce', label: 'Simulador OSCE', icon: Gamepad2 },
       { path: 'erros', label: 'Caderno de erros', icon: NotebookPen, badge: errors },
       { path: 'favoritos', label: 'Favoritos', icon: Bookmark },
       { path: 'biblioteca', label: 'Biblioteca', icon: Library },
@@ -299,6 +302,7 @@ function page(parts: string[]): ReactNode {
     case '': return <HomePage />;
     case 'praticar': return <PracticePage subject={arg} />;
     case 'simulado': return <ExamPage />;
+    case 'osce': return <OscePage />;
     case 'revisao': return <ReviewPage />;
     case 'erros': return <ErrorsPage />;
     case 'favoritos': return <FavoritesPage />;
@@ -345,7 +349,7 @@ export default function App() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement;
-      if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(t.tagName) && !t.isContentEditable && route.parts[0] !== 'sessao') {
+      if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(t.tagName) && !t.isContentEditable && route.parts[0] !== 'sessao' && route.parts[0] !== 'osce') {
         e.preventDefault();
         location.hash = href('busca');
       }
@@ -353,6 +357,14 @@ export default function App() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [route.parts]);
+
+  if (route.parts[0] === 'osce' && route.parts[1]) {
+    return (
+      <Suspense fallback={<Loading label="Montando a estação…" />}>
+        <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} query={route.query} />
+      </Suspense>
+    );
+  }
 
   if (route.parts[0] === 'sessao') {
     return (
