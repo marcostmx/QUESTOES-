@@ -6,7 +6,13 @@ import { ANCORAS, estiloDe, ferramenta3d, marcador, ondeExaminar, roteiro, type 
 import { poseMarcha, RITMO, type PadraoMotor } from './motor';
 import { Cortina, desenhaAchados, Monitor } from './sala3d';
 import type { Achado3d, Vitais } from './visual';
-import { construirSala, SALA, type Caixa } from './salaOsce';
+import { construirSala, desenhaTelaAvaliador, LUMINARIAS, SALA, type Caixa } from './salaOsce';
+import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+import { GTAOPass } from 'three/examples/jsm/postprocessing/GTAOPass.js';
+import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
+import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
+import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLightUniformsLib.js';
 
 export type Alvo =
   | { kind: 'paciente'; regiao: Regiao }
@@ -43,7 +49,7 @@ const PALETA: Record<number, number> = {
   0x8a5a3c: 0x7d8790, 0x5b3b28: 0x5e6870, 0xa47148: 0xc9ced3, 0x6d4a2f: 0x8a939b, 0x7a4e2d: 0xb9c3cc,
 };
 const lambert = (color: number | string) => {
-  if (!CLIN) return new THREE.MeshLambertMaterial({ color });
+  if (!CLIN) return new THREE.MeshStandardMaterial({ color, roughness: 0.72, metalness: 0 });
   const c = typeof color === 'number' ? PALETA[color] ?? color : color;
   return new THREE.MeshStandardMaterial({ color: c, roughness: 0.78, metalness: 0.02 });
 };
@@ -160,7 +166,11 @@ export class World {
   private evaluator: Boneco;
   private doorOpen = false;
   private obstaculos: Caixa[] = [];
-  private ponteiros!: { min: THREE.Object3D; hora: THREE.Object3D };
+  private ponteiros!: { min: THREE.Object3D; hora: THREE.Object3D; seg: THREE.Object3D };
+  private tela!: { cv: HTMLCanvasElement; tex: THREE.CanvasTexture };
+  private telaSeg = -1;
+  private composer: EffectComposer | null = null;
+  private envTex: THREE.Texture | null = null;
   /** primeira pessoa: direção do olhar */
   private yaw = 0;
   private pitch = -0.12;
@@ -189,11 +199,9 @@ export class World {
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
     CLIN = o.estilo === 'clinico';
-    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
-    if (CLIN) {
-      this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
-      this.renderer.toneMappingExposure = 1.05;
-    }
+    this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+    this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    this.renderer.toneMappingExposure = 1.0;
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -201,17 +209,39 @@ export class World {
     this.scene.background = new THREE.Color(0x1d2329);
     this.camera = new THREE.PerspectiveCamera(70, 1, 0.05, 40);
 
-    // iluminação de sala: luz difusa do teto + uma luz direcional suave com sombra
-    this.scene.add(new THREE.HemisphereLight(0xffffff, 0xb9b2a6, CLIN ? 1.7 : 1.45));
-    const luz = new THREE.DirectionalLight(0xfff8ee, CLIN ? 1.1 : 1.0);
-    luz.position.set(1.5, 6, 2.5);
-    luz.castShadow = true;
-    luz.shadow.mapSize.set(1024, 1024);
-    Object.assign(luz.shadow.camera, { left: -5, right: 5, top: 5, bottom: -5, near: 1, far: 12 });
-    luz.shadow.bias = -0.0008;
-    this.scene.add(luz);
+    // reflexos e luz indireta de um ambiente interno pré-filtrado
+    const pmrem = new THREE.PMREMGenerator(this.renderer);
+    this.envTex = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+    pmrem.dispose();
+    this.scene.environment = this.envTex;
+    this.scene.environmentIntensity = 0.32;
 
-    const sala = construirSala(this.scene, o.numero, PIA, MACA);
+    // iluminação de sala: painéis de LED (luz de área), preenchimento suave e uma luz com sombra macia
+    RectAreaLightUniformsLib.init();
+    for (const [x, z] of LUMINARIAS) {
+      const l = new THREE.RectAreaLight(0xfff6e8, 5.2, 1.18, 0.58);
+      l.position.set(x, SALA.h - 0.035, z);
+      l.lookAt(x, 0, z);
+      this.scene.add(l);
+    }
+    this.scene.add(new THREE.HemisphereLight(0xfffaf2, 0xe0d8cc, CLIN ? 1.0 : 0.9));
+    const luz = new THREE.DirectionalLight(0xfff4e6, 1.15);
+    luz.position.set(0.8, 7, 1.4);
+    luz.castShadow = true;
+    luz.shadow.mapSize.set(2048, 2048);
+    Object.assign(luz.shadow.camera, { left: -5.2, right: 5.2, top: 5.2, bottom: -5.2, near: 2, far: 10 });
+    luz.shadow.bias = -0.0004;
+    luz.shadow.normalBias = 0.02;
+    luz.shadow.radius = 4;
+    this.scene.add(luz);
+    // luz de presença sobre a maca (foco de exame)
+    const foco = new THREE.SpotLight(0xfff2de, 6, 6, 0.6, 0.8, 1.6);
+    foco.position.set(MACA.x + 0.2, SALA.h - 0.05, MACA.z + 0.2);
+    foco.target.position.set(MACA.x, 0.7, MACA.z);
+    this.scene.add(foco, foco.target);
+
+    const sala = construirSala(this.scene, o.numero, PIA, MACA, this.renderer.capabilities.getMaxAnisotropy());
+    this.tela = sala.telaAvaliador;
     this.floor.push(...sala.pisos);
     this.obstaculos = sala.obstaculos;
     this.ponteiros = sala.ponteiros;
@@ -535,9 +565,9 @@ export class World {
   }
 
   private setHover(ms: THREE.Mesh[]) {
-    for (const m of this.hovered) (m.material as THREE.MeshLambertMaterial).emissive?.setHex(0);
+    for (const m of this.hovered) (m.material as THREE.MeshStandardMaterial).emissive?.setHex(0);
     this.hovered = ms;
-    for (const m of ms) (m.material as THREE.MeshLambertMaterial).emissive?.setHex(0x335577);
+    for (const m of ms) (m.material as THREE.MeshStandardMaterial).emissive?.setHex(0x335577);
   }
 
   private onMove = (e: PointerEvent) => {
@@ -753,12 +783,19 @@ export class World {
     this.prox();
     // relógio de parede com a hora real
     const agora = new Date();
-    this.ponteiros.min.rotation.z = -(agora.getMinutes() / 60) * Math.PI * 2;
+    this.ponteiros.seg.rotation.z = -((agora.getSeconds() + agora.getMilliseconds() / 1000) / 60) * Math.PI * 2;
+    this.ponteiros.min.rotation.z = -((agora.getMinutes() + agora.getSeconds() / 60) / 60) * Math.PI * 2;
+    const seg = Math.floor(this.clock.elapsedTime);
+    if (seg !== this.telaSeg) {
+      this.telaSeg = seg;
+      desenhaTelaAvaliador(this.tela.cv, this.o.numero, Math.min(9, Math.floor(seg / 25)), seg);
+      this.tela.tex.needsUpdate = true;
+    }
     this.ponteiros.hora.rotation.z = -(((agora.getHours() % 12) + agora.getMinutes() / 60) / 12) * Math.PI * 2;
     if (this.flash) {
       this.flash.t -= dt;
       const on = this.flash.t > 0 && Math.floor(this.flash.t * 8) % 2 === 0;
-      for (const m of this.flash.meshes) if (!this.hovered.includes(m)) (m.material as THREE.MeshLambertMaterial).emissive?.setHex(on ? 0x2d6a3e : 0);
+      for (const m of this.flash.meshes) if (!this.hovered.includes(m)) (m.material as THREE.MeshStandardMaterial).emissive?.setHex(on ? 0x2d6a3e : 0);
       if (this.flash.t <= 0) this.flash = null;
     }
     // expressão de dor
@@ -819,14 +856,39 @@ export class World {
       }
       this.camera.lookAt(this.lookCur);
     }
-    this.renderer.render(this.scene, this.camera);
+    if (this.composer) this.composer.render(dt);
+    else this.renderer.render(this.scene, this.camera);
   };
+
+  /** Pós-processamento: oclusão de ambiente (GTAO) para assentar móveis e cantos. Só em WebGL 2. */
+  private montaComposer(w: number, h: number) {
+    if (!this.renderer.capabilities.isWebGL2) return;
+    try {
+      const rt = new THREE.WebGLRenderTarget(w, h, { type: THREE.HalfFloatType, samples: 4 });
+      const c = new EffectComposer(this.renderer, rt);
+      c.addPass(new RenderPass(this.scene, this.camera));
+      const ao = new GTAOPass(this.scene, this.camera, w, h);
+      ao.updateGtaoMaterial({ radius: 0.32, distanceExponent: 1.6, thickness: 1.2, scale: 1.15, samples: 16, distanceFallOff: 1 });
+      ao.updatePdMaterial({ lumaPhi: 10, depthPhi: 2, normalPhi: 3, radius: 6, rings: 2, samples: 12 });
+      ao.blendIntensity = 0.9;
+      c.addPass(ao);
+      c.addPass(new OutputPass());
+      this.composer = c;
+    } catch {
+      this.composer = null;
+    }
+  }
 
   private resize() {
     const w = this.canvas.clientWidth;
     const h = this.canvas.clientHeight;
     if (!w || !h) return;
     this.renderer.setSize(w, h, false);
+    if (!this.composer) this.montaComposer(w, h);
+    if (this.composer) {
+      this.composer.setPixelRatio(this.renderer.getPixelRatio());
+      this.composer.setSize(w, h);
+    }
     this.camera.aspect = w / h;
     this.camera.fov = w < h ? 80 : 70;
     this.camera.updateProjectionMatrix();
@@ -853,6 +915,8 @@ export class World {
         }
       }
     });
+    this.composer?.dispose();
+    this.envTex?.dispose();
     this.renderer.dispose();
   }
 }

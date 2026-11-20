@@ -1,5 +1,12 @@
 /* Achados desenhados no corpo do paciente, cortina de privacidade e monitor de sinais vitais. */
 import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
+
+class RoundedBoxGeometryMesh extends THREE.Mesh {
+  constructor(w: number, h: number, d: number, r: number, m: THREE.Material) {
+    super(new RoundedBoxGeometry(w, h, d, 3, r), m);
+  }
+}
 import type { Achado3d, Vitais } from './visual';
 
 interface Corpo {
@@ -7,7 +14,7 @@ interface Corpo {
   boca: THREE.Mesh; olhos: THREE.Mesh[]; parts: Map<string, THREE.Mesh[]>;
 }
 
-const lb = (c: number) => new THREE.MeshLambertMaterial({ color: c });
+const lb = (c: number) => new THREE.MeshStandardMaterial({ color: c, roughness: 0.7 });
 function placa(g: THREE.Object3D, w: number, h: number, d: number, c: number, x: number, y: number, z: number, rz = 0) {
   const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), lb(c));
   m.position.set(x, y, z);
@@ -23,7 +30,7 @@ export function desenhaAchados(b: Corpo, achados: Achado3d[], pele: number, expo
   const corPele = (c: number) => {
     for (const r of ['cabeca', 'mmss', 'mmii'] as const)
       for (const m of b.parts.get(r) ?? []) {
-        const mat = m.material as THREE.MeshLambertMaterial;
+        const mat = m.material as THREE.MeshStandardMaterial;
         if (mat.color.getHex() === pele) mat.color.setHex(c);
       }
     return c;
@@ -33,8 +40,8 @@ export function desenhaAchados(b: Corpo, achados: Achado3d[], pele: number, expo
     if (a.tipo === 'ictericia') skin = corPele(0xd8c25a);
     if (a.tipo === 'palidez' && skin === pele) skin = corPele(0xf0d9c4);
   }
-  if (expor.abdome && abd) (abd.material as THREE.MeshLambertMaterial).color.setHex(skin);
-  if (expor.torax) (b.chest.material as THREE.MeshLambertMaterial).color.setHex(skin);
+  if (expor.abdome && abd) (abd.material as THREE.MeshStandardMaterial).color.setHex(skin);
+  if (expor.torax) (b.chest.material as THREE.MeshStandardMaterial).color.setHex(skin);
   const T = b.torso;
   const H = b.head;
   for (const a of achados) {
@@ -82,7 +89,7 @@ export function desenhaAchados(b: Corpo, achados: Achado3d[], pele: number, expo
         placa(T, 0.08, 0.12, 0.004, 0x9a7a5c, 0, 0.38, 0.112);
         break;
       case 'cianose':
-        (b.boca.material as THREE.MeshLambertMaterial).color.setHex(0x4a5bbf);
+        (b.boca.material as THREE.MeshStandardMaterial).color.setHex(0x4a5bbf);
         break;
       case 'acromica':
         placa(H, 0.07, 0.04, 0.004, 0xf6f1ea, 0.02, 0.085, 0.132);
@@ -123,7 +130,7 @@ export function desenhaAchados(b: Corpo, achados: Achado3d[], pele: number, expo
 /* ---------- Cortina de privacidade ---------- */
 export class Cortina {
   grupo = new THREE.Group();
-  private paineis: THREE.Mesh[] = [];
+  private paineis: THREE.Object3D[] = [];
   private alvo = 0; // 0 aberta, 1 fechada
   private estado = 0;
   private pontos: THREE.Vector2[];
@@ -131,20 +138,65 @@ export class Cortina {
   constructor(cx: number, cz: number) {
     const x0 = cx - 1.75, x1 = cx + 1.75, zf = cz - 0.95, zn = cz + 0.55;
     this.pontos = [new THREE.Vector2(x0, zn), new THREE.Vector2(x0, zf), new THREE.Vector2(x1, zf), new THREE.Vector2(x1, zn)];
-    const trilho = new THREE.MeshLambertMaterial({ color: 0x9aa5ad });
+    const trilho = new THREE.MeshStandardMaterial({ color: 0xd0d5d9, roughness: 0.35, metalness: 0.85 });
     const H = 2.0;
     for (let i = 0; i < 3; i++) {
       const a = this.pontos[i], b = this.pontos[i + 1];
       const len = a.distanceTo(b);
-      const m = new THREE.Mesh(new THREE.BoxGeometry(len, 0.03, 0.03), trilho);
-      m.position.set((a.x + b.x) / 2, H, (a.y + b.y) / 2);
+      const m = new THREE.Mesh(new THREE.BoxGeometry(len + 0.03, 0.035, 0.03), trilho);
+      m.position.set((a.x + b.x) / 2, H + 0.02, (a.y + b.y) / 2);
       m.rotation.y = -Math.atan2(b.y - a.y, b.x - a.x);
       this.grupo.add(m);
     }
-    const mat = new THREE.MeshLambertMaterial({ color: 0x8fd1c4, transparent: true, opacity: 0.55, side: THREE.DoubleSide, depthWrite: false });
+    // hastes de sustentação até o forro
+    for (const p of [this.pontos[1], this.pontos[2], new THREE.Vector2((this.pontos[1].x + this.pontos[2].x) / 2, this.pontos[1].y), this.pontos[0], this.pontos[3]]) {
+      const h = new THREE.Mesh(new THREE.CylinderGeometry(0.008, 0.008, 0.78, 8), trilho);
+      h.position.set(p.x, H + 0.41, p.y);
+      this.grupo.add(h);
+      const base = new THREE.Mesh(new THREE.CylinderGeometry(0.03, 0.03, 0.012, 16), trilho);
+      base.position.set(p.x, 2.79, p.y);
+      this.grupo.add(base);
+    }
+    // tecido com pregas (ondas) e faixa de tela vazada no alto
+    const tex = (() => {
+      const c = document.createElement('canvas');
+      c.width = c.height = 128;
+      const g = c.getContext('2d')!;
+      g.fillStyle = '#8fd1c4';
+      g.fillRect(0, 0, 128, 128);
+      for (let i = 0; i < 128; i += 4) {
+        g.fillStyle = 'rgba(255,255,255,0.08)';
+        g.fillRect(i, 0, 2, 128);
+        g.fillStyle = 'rgba(0,60,50,0.06)';
+        g.fillRect(0, i, 128, 2);
+      }
+      const t = new THREE.CanvasTexture(c);
+      t.colorSpace = THREE.SRGBColorSpace;
+      t.wrapS = t.wrapT = THREE.RepeatWrapping;
+      t.repeat.set(2, 10);
+      return t;
+    })();
+    const mat = new THREE.MeshStandardMaterial({ map: tex, roughness: 0.95, transparent: true, opacity: 0.8, side: THREE.DoubleSide, depthWrite: false });
+    const tela = new THREE.MeshStandardMaterial({ color: 0xf4f7f6, roughness: 0.9, transparent: true, opacity: 0.35, side: THREE.DoubleSide, depthWrite: false });
+    const argola = new THREE.MeshStandardMaterial({ color: 0xc9ced2, roughness: 0.3, metalness: 0.9 });
+    const prega = (w: number, h: number) => {
+      const geo = new THREE.PlaneGeometry(w, h, 16, 1);
+      const pa = geo.attributes.position;
+      for (let k = 0; k < pa.count; k++) pa.setZ(k, Math.sin((pa.getX(k) / w) * Math.PI * 4) * 0.03);
+      geo.computeVertexNormals();
+      return geo;
+    };
+    const geoT = prega(0.36, 1.42), geoM = prega(0.36, 0.22);
     for (let i = 0; i < 16; i++) {
-      const p = new THREE.Mesh(new THREE.BoxGeometry(0.34, 1.6, 0.02), mat);
-      p.position.y = H - 0.82;
+      const p = new THREE.Group();
+      const t = new THREE.Mesh(geoT, mat);
+      t.position.y = -0.31 - 0.71;
+      const m = new THREE.Mesh(geoM, tela);
+      m.position.y = -0.2;
+      const a = new THREE.Mesh(new THREE.TorusGeometry(0.018, 0.004, 6, 14), argola);
+      a.position.y = -0.06;
+      p.add(t, m, a);
+      p.position.y = H;
       this.paineis.push(p);
       this.grupo.add(p);
     }
@@ -201,17 +253,42 @@ export class Monitor {
     this.cv.height = 200;
     this.tex = new THREE.CanvasTexture(this.cv);
     this.tex.colorSpace = THREE.SRGBColorSpace;
-    const pe = new THREE.MeshLambertMaterial({ color: 0x5b6670 });
-    const base = new THREE.Mesh(new THREE.BoxGeometry(0.4, 0.05, 0.4), pe);
-    base.position.y = 0.03;
-    const haste = new THREE.Mesh(new THREE.BoxGeometry(0.05, 1.3, 0.05), pe);
-    haste.position.y = 0.67;
-    const caixa = new THREE.Mesh(new THREE.BoxGeometry(0.62, 0.42, 0.08), new THREE.MeshLambertMaterial({ color: 0x2a3138 }));
-    caixa.position.y = 1.45;
+    const pe = new THREE.MeshStandardMaterial({ color: 0xc9ced2, roughness: 0.3, metalness: 0.9 });
+    const plast = new THREE.MeshStandardMaterial({ color: 0xe9ecee, roughness: 0.4 });
+    const escuro = new THREE.MeshStandardMaterial({ color: 0x2a3138, roughness: 0.5 });
+    const borr = new THREE.MeshStandardMaterial({ color: 0x16181a, roughness: 0.9 });
+    const add = (m: THREE.Mesh, x: number, y: number, z: number) => {
+      m.position.set(x, y, z);
+      this.grupo.add(m);
+      return m;
+    };
+    // pedestal com cinco rodízios
+    for (let i = 0; i < 5; i++) {
+      const a = (i / 5) * Math.PI * 2;
+      const p = add(new THREE.Mesh(new THREE.BoxGeometry(0.26, 0.025, 0.035), pe), Math.cos(a) * 0.13, 0.06, Math.sin(a) * 0.13);
+      p.rotation.y = -a;
+      const r = add(new THREE.Mesh(new THREE.CylinderGeometry(0.025, 0.025, 0.02, 14), borr), Math.cos(a) * 0.26, 0.025, Math.sin(a) * 0.26);
+      r.rotation.z = Math.PI / 2;
+    }
+    add(new THREE.Mesh(new THREE.CylinderGeometry(0.018, 0.018, 1.2, 14), pe), 0, 0.66, 0);
+    add(new THREE.Mesh(new THREE.BoxGeometry(0.22, 0.1, 0.12), plast), 0, 0.9, 0.04); // cesto de cabos
+    // monitor com moldura, alça e teclas
+    add(new RoundedBoxGeometryMesh(0.64, 0.46, 0.1, 0.03, plast), 0, 1.45, 0);
+    add(new RoundedBoxGeometryMesh(0.6, 0.38, 0.02, 0.01, escuro), 0, 1.46, 0.045);
+    add(new RoundedBoxGeometryMesh(0.4, 0.04, 0.06, 0.02, plast), 0, 1.71, -0.01);
+    for (let i = 0; i < 5; i++) add(new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.018, 0.01), escuro), -0.2 + i * 0.1, 1.24, 0.05);
+    add(new THREE.Mesh(new THREE.SphereGeometry(0.008, 8, 6), new THREE.MeshBasicMaterial({ color: 0x55ff88 })), 0.27, 1.24, 0.05);
     const tela = new THREE.Mesh(new THREE.PlaneGeometry(0.56, 0.35), new THREE.MeshBasicMaterial({ map: this.tex }));
-    tela.position.set(0, 1.45, 0.041);
-    this.grupo.add(base, haste, caixa, tela);
-    this.grupo.traverse(o => o instanceof THREE.Mesh && (o.castShadow = true));
+    tela.position.set(0, 1.46, 0.057);
+    this.grupo.add(tela);
+    // cabos de ECG e oxímetro
+    const cabo = (pts: [number, number, number][], cor: number) => {
+      const t = new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map(p => new THREE.Vector3(...p))), 24, 0.004, 6), new THREE.MeshStandardMaterial({ color: cor, roughness: 0.5 }));
+      this.grupo.add(t);
+    };
+    cabo([[0.25, 1.3, -0.04], [0.3, 1.0, -0.02], [0.12, 0.92, 0.06]], 0x3a4046);
+    cabo([[0.28, 1.32, -0.04], [0.36, 1.05, 0.0], [0.05, 0.93, 0.08]], 0x1e88e5);
+    this.grupo.traverse(o => o instanceof THREE.Mesh && (o.castShadow = o.receiveShadow = true));
     this.desenha();
   }
 
