@@ -19,6 +19,7 @@ import { Manometro } from './Manometro';
 import { Joystick } from './Joystick';
 import { Microfone } from './Microfone';
 import { padraoMotor } from './motor';
+import { achadosVisuais, vitais } from './visual';
 import { storage } from '../app/core/store';
 
 const ESTACOES = data as unknown as Estacao[];
@@ -58,7 +59,7 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     let w: World | null = null;
     try {
       w = new World(ref.current, {
-        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e),
+        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e), ...visual(e),
         onClick: a => cbs.current.onAlvo(a),
         onHover: a => cbs.current.onHover(a),
         onProx: p => cbs.current.onProx(p),
@@ -73,6 +74,19 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     };
   }, [e, worldRef, onFail]);
   return <canvas ref={ref} className="absolute inset-0 h-full w-full touch-none" />;
+}
+
+function visual(e: Estacao) {
+  const achados = achadosVisuais(e);
+  const tem = (...t: string[]) => achados.some(a => t.includes(a.tipo));
+  return {
+    achados,
+    vitais: vitais(e),
+    expor: {
+      abdome: e.sistema === 'abdome' || e.sistema === 'abdome-agudo' || tem('cullen', 'grey-turner', 'globoso', 'colateral', 'hernia', 'massa'),
+      torax: tem('tonel', 'pectus', 'vesiculas') || (e.paciente.sexo === 'M' && ['respiratorio', 'cardiovascular', 'dor-toracica'].includes(e.sistema)),
+    },
+  };
 }
 
 const REGIAO_CLIQUE: Record<Regiao, Regiao[]> = {
@@ -256,6 +270,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
     if (!naSala()) return;
     setT(s => (s.abertura[k] != null ? s : { ...s, abertura: { ...s.abertura, [k]: sec() } }));
     worldRef.current?.gesture();
+    if (k === 'privacidade') worldRef.current?.fecharCortina();
     diz(fala(e, k));
   };
 

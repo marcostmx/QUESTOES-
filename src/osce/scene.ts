@@ -3,6 +3,8 @@ import * as THREE from 'three';
 import type { Postura, Regiao } from './maneuvers';
 import { ANCORAS, ferramenta3d, marcador, ondeExaminar } from './exame3d';
 import { poseMarcha, RITMO, type PadraoMotor } from './motor';
+import { Cortina, desenhaAchados, Monitor } from './sala3d';
+import type { Achado3d, Vitais } from './visual';
 
 export type Alvo =
   | { kind: 'paciente'; regiao: Regiao }
@@ -19,6 +21,9 @@ export interface WorldOpts {
   postura: Postura;
   numero: string;
   motor?: PadraoMotor;
+  achados?: Achado3d[];
+  vitais?: Vitais;
+  expor?: { abdome: boolean; torax: boolean };
   onClick: (a: Alvo) => void;
   onHover: (a: Alvo | null) => void;
   onProx: (p: Proximidade) => void;
@@ -190,6 +195,9 @@ export class World {
   private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean; seguir?: boolean } | null = null;
   private lookCur = new THREE.Vector3(0, 0.8, 4);
   private dorT = 0;
+  private toraxZ = 1;
+  private cortina = new Cortina(MACA.x, MACA.z);
+  private monitor: Monitor;
   private anim: { tipo: 'marcha' | 'romberg' | 'pull'; t: number; dur: number; x: number; dir: number; y: number; z: number } | null = null;
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
@@ -219,9 +227,16 @@ export class World {
     this.player.root.traverse(m => m instanceof THREE.Mesh && (m.userData.regiao = undefined));
 
     const f = o.sexo === 'F';
-    this.patient = boneco({ pele: f ? 0xc68642 : 0xf1c27d, cabelo: f ? 0x2b1a10 : 0x5a3d2b, tronco: 0x9ccbe8, calca: 0x7fb0d0, sapato: 0xeeeeee, longo: f });
+    const pele = f ? 0xc68642 : 0xf1c27d;
+    this.patient = boneco({ pele, cabelo: f ? 0x2b1a10 : 0x5a3d2b, tronco: 0x9ccbe8, calca: 0x7fb0d0, sapato: 0xeeeeee, longo: f });
     this.scene.add(this.patient.root);
+    this.toraxZ = desenhaAchados(this.patient as never, o.achados ?? [], pele, o.expor ?? { abdome: false, torax: false });
     for (const [, ms] of this.patient.parts) for (const m of ms) this.clickables.push(m);
+    this.scene.add(this.cortina.grupo);
+    this.monitor = new Monitor(o.vitais ?? {});
+    this.monitor.grupo.position.set(MACA.x - 1.65, 0, MACA.z - 0.6);
+    this.monitor.grupo.rotation.y = 0.55;
+    this.scene.add(this.monitor.grupo);
     this.posture = o.postura;
     this.applyPosture(o.postura);
     for (const [nome, a] of Object.entries(ANCORAS)) {
@@ -426,6 +441,10 @@ export class World {
 
   gesture() {
     this.gestureT = 0.8;
+  }
+
+  fecharCortina() {
+    this.cortina.fechar();
   }
 
   /** Animação da manobra: instrumento no ponto do corpo, anel que pulsa e câmera em close. */
@@ -643,6 +662,7 @@ export class World {
       [PIA.x - 0.5, PIA.x + 0.5, PIA.z - 0.3, PIA.z + 0.3],
       [-3.4, -1.9, -3.0, -1.5],
       [-3.6, -3.0, -2.9, -2.3],
+      [MACA.x - 1.9, MACA.x - 1.4, MACA.z - 0.85, MACA.z - 0.35],
     ];
     if (this.posture === 'pe') boxes.push([MACA.x + 0.0, MACA.x + 0.4, MACA.z + 0.65, MACA.z + 1.05]);
     if (this.posture === 'sentado') boxes.push([MACA.x - 0.25, MACA.x + 0.25, MACA.z, MACA.z + 0.85]);
@@ -730,7 +750,7 @@ export class World {
       amp = c < 0.67 ? 0.1 * Math.sin((c / 0.67) * Math.PI) : 0;
     }
     const s = 1 + amp * (0.5 + 0.5 * Math.sin(t * w));
-    this.patient.chest.scale.set(1 + (s - 1) * 0.3, 1, s);
+    this.patient.chest.scale.set(1 + (s - 1) * 0.3, 1, s * this.toraxZ);
   }
 
   private prox() {
@@ -772,6 +792,8 @@ export class World {
     this.step(dt);
     this.breathe();
     this.animar(dt);
+    this.cortina.passo(dt);
+    this.monitor.passo(dt);
     this.prox();
     const want = this.doorOpen ? -Math.PI / 2 : 0;
     this.door.rotation.y += (want - this.door.rotation.y) * 0.08;
