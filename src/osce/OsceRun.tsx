@@ -428,11 +428,11 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
 
       {/* topo */}
       <div className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-between gap-2 p-3">
-        <div className="pointer-events-auto flex items-center gap-2">
+        <div className="pointer-events-auto flex items-center gap-1.5 sm:gap-2">
           <a href={href('osce')} className="flex size-10 items-center justify-center rounded-xl bg-white/90 text-ink shadow-card backdrop-blur hover:bg-white" aria-label="Sair">
             <ArrowLeft className="size-5" />
           </a>
-          <div className="max-w-[46vw] rounded-xl bg-white/90 px-3 py-1.5 shadow-card backdrop-blur sm:max-w-none">
+          <div className="max-w-[34vw] rounded-xl bg-white/90 px-2.5 py-1.5 shadow-card backdrop-blur sm:max-w-none sm:px-3">
             <div className="truncate text-[11px] font-medium text-ink-3 uppercase">Estação {e.rotulo} · {nomeSistema(e.sistema)}{circuito ? ` · circuito ${circuito.i + 1}/${circuito.ids.length}` : ''}</div>
             <div className="text-[13px] font-semibold">{fase === 'leitura' ? 'Leitura do caso' : fase === 'estacao' ? (treino ? 'Treino livre' : 'Execução') : 'Correção'}</div>
           </div>
@@ -443,7 +443,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             {fase === 'estacao' && treino ? fmt((agora - inicio.current) / 1000) : fmt(restante)}
           </div>
         )}
-        <div className="pointer-events-auto flex items-center gap-2">
+        <div className="pointer-events-auto flex items-center gap-1.5 sm:gap-2">
           {fase !== 'resultado' && (
             <Button size="sm" aria-label="Tarefas" className="bg-white/90 shadow-card" icon={<ClipboardList className="size-4" />} onClick={() => setPainel(p => !p)}><span className="hidden sm:inline">Tarefas</span></Button>
           )}
@@ -539,7 +539,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             <Acao icon={<Flag />} label="Finalizar" tone="bad" onClick={() => { if (confirm('Finalizar a estação agora?')) encerrar(); }} />
           </div>
           <div className="mt-1 text-center text-[11px] font-medium text-ink/70 sm:mt-1.5 sm:text-[11.5px]">
-            {fallback ? 'Modo 2D' : TOQUE ? 'Use o joystick ou toque no chão · toque no paciente para examinar' : 'WASD/setas ou clique no chão para andar · clique no paciente para examinar · F tela cheia'}
+            {fallback ? 'Modo 2D' : TOQUE ? 'Joystick para andar · arraste a tela para olhar · toque no paciente para examinar' : 'WASD para andar · arraste o mouse para olhar · clique no paciente para examinar · F tela cheia'}
             {!fallback && prox.dentro && prox.lado && ` · à ${prox.lado === 'direito' ? 'direita' : 'esquerda'} do paciente`}
           </div>
         </div>
