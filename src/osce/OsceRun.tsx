@@ -62,7 +62,7 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     let w: World | null = null;
     try {
       w = new World(ref.current, {
-        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e), ...visual(e),
+        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e), ...visual(e), estilo: storage.read<'blocos' | 'clinico'>('pr.v2.osce.visual') ?? 'blocos',
         onClick: a => cbs.current.onAlvo(a),
         onHover: a => cbs.current.onHover(a),
         onProx: p => cbs.current.onProx(p),
@@ -331,7 +331,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
       : 'Técnica/posição inadequada — reposicione e repita.';
     // regra do avaliador: só informa o achado se a manobra foi feita corretamente
     const texto = ok ? a.texto : 'Avaliador: “sem achados”.';
-    const som = ok ? somDaManobra(m.id, a.texto, vit.fc, e.paciente.fr, contextoSom) : null;
+    const som = ok ? somDaManobra(m.id, a.texto, vit.fc, e.paciente.fr, contextoSom, e.paciente.sexo === 'F') : null;
     setAusculta(som ? { som, titulo: m.nome, key: Date.now() } : null);
     setLog(l => [{ key: Date.now(), nome: m.nome, texto, alterado: ok && a.alterado, aviso }, ...l]);
     if (ok && a.dor) diz('Ai! Aí dói, doutor(a)!');

@@ -1,7 +1,7 @@
 /* Sons de ausculta sintetizados (WebAudio): bulhas, sopros, sons pulmonares e ruídos hidroaéreos.
  * O padrão é deduzido do achado da estação; nada é gravado — tudo é gerado no aparelho. */
 
-export type TipoAusculta = 'cardiaca' | 'pulmonar' | 'abdominal';
+export type TipoAusculta = 'cardiaca' | 'pulmonar' | 'abdominal' | 'voz';
 
 export interface Cardiaca {
   fc: number; irregular: boolean; b2: 'normal' | 'desdobrado' | 'hiper'; b3: boolean; b4: boolean; estalido: boolean; atrito: boolean;
@@ -12,7 +12,17 @@ export interface Pulmonar {
   finos: boolean; grossos: boolean; sibilos: boolean; roncos: boolean; estridor: boolean; atrito: boolean;
 }
 export interface Abdominal { rha: 'normal' | 'aumentados' | 'diminuidos' | 'abolidos' }
-export type Som = { tipo: 'cardiaca'; c: Cardiaca } | { tipo: 'pulmonar'; p: Pulmonar } | { tipo: 'abdominal'; a: Abdominal };
+export interface Voz { modo: 'normal' | 'aumentada' | 'diminuida' | 'abolida' | 'egofonia'; fala: '33' | 'iii'; feminina: boolean }
+export type Som = { tipo: 'cardiaca'; c: Cardiaca } | { tipo: 'pulmonar'; p: Pulmonar } | { tipo: 'abdominal'; a: Abdominal } | { tipo: 'voz'; v: Voz };
+
+/** Ressonância vocal: como a voz chega ao estetoscópio. */
+export function somVocal(txt: string, fala: Voz['fala'], feminina: boolean): Voz {
+  const modo: Voz['modo'] = fala === 'iii' && /egofonia/i.test(txt) && !/sem egofonia/i.test(txt) ? 'egofonia'
+    : /voz mais (n[íi]tida|intensa)|broncofonia|pectoril[óo]quia|resson[âa]ncia vocal aumentada|voz [↑]|\bvoz\s*↑/i.test(txt) ? 'aumentada'
+    : /(resson[âa]ncia vocal|voz)[^.;]{0,25}abolid/i.test(txt) ? 'abolida'
+    : /(resson[âa]ncia vocal|voz)[^.;]{0,25}(diminu|reduz)|resson[âa]ncia vocal reduzid|MV e resson[âa]ncia vocal reduzidos/i.test(txt) ? 'diminuida' : 'normal';
+  return { modo, fala, feminina };
+}
 
 const GRAU: Record<string, number> = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6 };
 
@@ -62,9 +72,11 @@ export function somAbdominal(txt: string): Abdominal {
 const CARD = /^(cv-(focos|ao|pulm|tric|mitral|pachon|frente|rivero|handgrip|valsalva|agachamento)|dt-ausc-precordio|ur-ausc-card)/;
 const PULM = /^(resp-(ausc|tosse)|dt-ausc-pulm|ur-ausc-pulm)/;
 const ABD = /^(abd-ausc|aa-ausc)$/;
+const VOZ = /^resp-(resson|egofonia)$/;
 
 /** Qual som a manobra produz (ou nada, se não for ausculta). */
-export function somDaManobra(id: string, achado: string, fc?: number, fr?: number, contexto = ''): Som | null {
+export function somDaManobra(id: string, achado: string, fc?: number, fr?: number, contexto = '', feminina = false): Som | null {
+  if (VOZ.test(id)) return { tipo: 'voz', v: somVocal(`${achado}. ${contexto}`, id === 'resp-egofonia' ? 'iii' : '33', feminina) };
   if (CARD.test(id)) {
     const c = somCardiaco(achado, fc ?? 76);
     // achados que só descrevem a variação ("o sopro aumenta") herdam o sopro descrito no restante da estação
@@ -77,7 +89,7 @@ export function somDaManobra(id: string, achado: string, fc?: number, fr?: numbe
     }
     return { tipo: 'cardiaca', c };
   }
-  if (PULM.test(id)) return { tipo: 'pulmonar', p: somPulmonar(achado, fr ?? 16) };
+  if (PULM.test(id) || (/^resp-insp-din/.test(id) && /estridor|ru[íi]do agudo/i.test(achado))) return { tipo: 'pulmonar', p: somPulmonar(achado, fr ?? 16) };
   if (ABD.test(id)) return { tipo: 'abdominal', a: somAbdominal(achado) };
   return null;
 }
@@ -133,6 +145,7 @@ export class Estetoscopio {
     this.ciclo++;
     if (this.som.tipo === 'cardiaca') return this.batimento(t, this.som.c);
     if (this.som.tipo === 'pulmonar') return this.respiracao(t, this.som.p);
+    if (this.som.tipo === 'voz') return this.fala(t, this.som.v);
     return this.intestino(t, this.som.a);
   }
 
@@ -311,6 +324,73 @@ export class Estetoscopio {
       this.ruidoFiltrado(tt, d, f * 1.5, 3, (gp, t0) => { gp.linearRampToValueAtTime(0.08, t0 + 0.02); gp.linearRampToValueAtTime(0.0001, t0 + d); });
     }
     return janela;
+  }
+
+  /** Voz sintetizada por formantes ("trinta e três" ou "iii") filtrada pelo tórax. */
+  private fala(t: number, v: Voz): number {
+    const f0 = v.feminina ? 210 : 118;
+    const FORM: Record<string, [number, number, number]> = { i: [280, 2250, 2900], a: [700, 1220, 2600], e: [420, 2000, 2550], eh: [550, 1700, 2500] };
+    // cadeia do tórax
+    const torax = this.ctx.createBiquadFilter();
+    const saida = this.ctx.createGain();
+    if (v.modo === 'aumentada') { torax.type = 'lowpass'; torax.frequency.value = 3200; saida.gain.value = 0.9; }
+    else if (v.modo === 'egofonia') { torax.type = 'bandpass'; torax.frequency.value = 1100; torax.Q.value = 1.1; saida.gain.value = 1.1; }
+    else if (v.modo === 'diminuida') { torax.type = 'lowpass'; torax.frequency.value = 260; saida.gain.value = 0.18; }
+    else if (v.modo === 'abolida') { torax.type = 'lowpass'; torax.frequency.value = 200; saida.gain.value = 0.03; }
+    else { torax.type = 'lowpass'; torax.frequency.value = 380; saida.gain.value = 0.55; }
+    torax.connect(saida).connect(this.master);
+    if (v.modo === 'egofonia') {
+      // timbre anasalado, "voz de cabra": tremolo rápido
+      const lfo = this.ctx.createOscillator();
+      const lg = this.ctx.createGain();
+      lfo.frequency.value = 9;
+      lg.gain.value = 0.45;
+      lfo.connect(lg).connect(saida.gain);
+      lfo.start(t);
+      lfo.stop(t + 2);
+    }
+    const vogal = (t0: number, d: number, nome: string) => {
+      const o = this.ctx.createOscillator();
+      o.type = 'sawtooth';
+      o.frequency.setValueAtTime(f0 * 1.05, t0);
+      o.frequency.linearRampToValueAtTime(f0 * 0.92, t0 + d);
+      const env = this.ctx.createGain();
+      env.gain.setValueAtTime(0, t0);
+      env.gain.linearRampToValueAtTime(0.5, t0 + 0.03);
+      env.gain.setValueAtTime(0.5, t0 + d - 0.05);
+      env.gain.linearRampToValueAtTime(0.0001, t0 + d);
+      o.connect(env);
+      const f = FORM[v.modo === 'egofonia' && nome === 'i' ? 'eh' : nome];
+      f.forEach((fr, k) => {
+        const bp = this.ctx.createBiquadFilter();
+        bp.type = 'bandpass';
+        bp.frequency.value = fr;
+        bp.Q.value = 8;
+        const g = this.ctx.createGain();
+        g.gain.value = [1, 0.5, 0.25][k] * 3;
+        env.connect(bp).connect(g).connect(torax);
+      });
+      o.start(t0);
+      o.stop(t0 + d + 0.02);
+    };
+    const consoante = (t0: number, d: number, f: number) => this.ruidoFiltrado(t0, d, f, 1.5, (g, a) => {
+      g.linearRampToValueAtTime(0.25, a + 0.005);
+      g.exponentialRampToValueAtTime(0.0001, a + d);
+    }, 'bandpass');
+    if (v.fala === 'iii') vogal(t + 0.1, 1.1, 'i');
+    else {
+      // "trin - ta - e - três"
+      consoante(t + 0.1, 0.03, 3000);
+      vogal(t + 0.14, 0.2, 'i');
+      consoante(t + 0.38, 0.03, 3000);
+      vogal(t + 0.42, 0.16, 'a');
+      vogal(t + 0.6, 0.12, 'i');
+      consoante(t + 0.75, 0.03, 3000);
+      vogal(t + 0.8, 0.22, 'e');
+      consoante(t + 1.02, 0.14, 5500);
+    }
+    this.fase = { inicio: t, sistole: 0, duracao: 2.2 };
+    return 2.2;
   }
 
   /** Tempo atual dentro do ciclo (0..1) e se está na 1ª fase (sístole/inspiração). */

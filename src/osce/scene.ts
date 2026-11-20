@@ -1,5 +1,6 @@
 /* Cena 3D em blocos (estilo voxel original) do simulador OSCE — Three.js puro, sem React. */
 import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import type { Postura, Regiao } from './maneuvers';
 import { ANCORAS, estiloDe, ferramenta3d, marcador, ondeExaminar, roteiro, type Estilo } from './exame3d';
 import { poseMarcha, RITMO, type PadraoMotor } from './motor';
@@ -21,6 +22,7 @@ export interface WorldOpts {
   postura: Postura;
   numero: string;
   motor?: PadraoMotor;
+  estilo?: 'blocos' | 'clinico';
   achados?: Achado3d[];
   vitais?: Vitais;
   expor?: { abdome: boolean; torax: boolean };
@@ -36,10 +38,22 @@ const ROOM = { x0: -4.5, x1: 4.5, z0: -4.5, z1: 4 };
 const CORR = { x0: -7, x1: 7, z0: 4, z1: 7.6 };
 const DOOR_W = 1.3;
 
-const lambert = (color: number | string) => new THREE.MeshLambertMaterial({ color });
+/** Visual "clínico": formas arredondadas, materiais foscos e paleta hospitalar (definido ao criar o mundo). */
+let CLIN = false;
+const PALETA: Record<number, number> = {
+  0xf4efe6: 0xf1f4f7, 0x6aa7c9: 0x9db8cc, 0xe8e1d4: 0xeef1f4, 0x7cc46a: 0xd6dde4, 0xdfe8f0: 0xe9eef2, 0x2f4858: 0x5e6b75,
+  0x8a5a3c: 0x7d8790, 0x5b3b28: 0x5e6870, 0xa47148: 0xc9ced3, 0x6d4a2f: 0x8a939b, 0x7a4e2d: 0xb9c3cc,
+};
+const lambert = (color: number | string) => {
+  if (!CLIN) return new THREE.MeshLambertMaterial({ color });
+  const c = typeof color === 'number' ? PALETA[color] ?? color : color;
+  return new THREE.MeshStandardMaterial({ color: c, roughness: 0.78, metalness: 0.02 });
+};
 
 function box(w: number, h: number, d: number, mat: THREE.Material, x = 0, y = 0, z = 0) {
-  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat);
+  const r = Math.min(w, h, d) * 0.3;
+  const geo = CLIN && r > 0.004 ? new RoundedBoxGeometry(w, h, d, 3, r) : new THREE.BoxGeometry(w, h, d);
+  const m = new THREE.Mesh(geo, mat);
   m.position.set(x, y, z);
   m.castShadow = true;
   m.receiveShadow = true;
@@ -74,7 +88,7 @@ function checker(a: string, b: string, n = 8) {
   }
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
-  t.magFilter = THREE.NearestFilter;
+  t.magFilter = CLIN ? THREE.LinearFilter : THREE.NearestFilter;
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   return t;
 }
@@ -125,6 +139,7 @@ function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number
   }
   const head = new THREE.Group();
   head.position.y = 0.55;
+  if (CLIN) head.scale.setScalar(0.9);
   torso.add(head);
   head.add(tag('cabeca', box(0.12, 0.08, 0.12, pele, 0, 0.03, 0)));
   head.add(tag('cabeca', box(0.28, 0.28, 0.26, pele, 0, 0.21, 0)));
@@ -202,16 +217,22 @@ export class World {
   private anim: { tipo: 'marcha' | 'romberg' | 'pull'; t: number; dur: number; x: number; dir: number; y: number; z: number } | null = null;
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
+    CLIN = o.estilo === 'clinico';
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+    if (CLIN) {
+      this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      this.renderer.toneMappingExposure = 1.05;
+    }
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
-    this.scene.background = new THREE.Color(0xbfe3f5);
-    this.scene.fog = new THREE.Fog(0xbfe3f5, 18, 34);
+    const ceu = CLIN ? 0xe3e9ef : 0xbfe3f5;
+    this.scene.background = new THREE.Color(ceu);
+    this.scene.fog = new THREE.Fog(ceu, 18, 34);
     this.camera = new THREE.PerspectiveCamera(50, 1, 0.1, 80);
 
-    this.scene.add(new THREE.HemisphereLight(0xffffff, 0x8a7f70, 1.6));
+    this.scene.add(new THREE.HemisphereLight(0xffffff, CLIN ? 0x9aa3ab : 0x8a7f70, CLIN ? 1.9 : 1.6));
     const sun = new THREE.DirectionalLight(0xffffff, 1.5);
     sun.position.set(4, 9, 6);
     sun.castShadow = true;
@@ -279,13 +300,13 @@ export class World {
 
   /* ----- construção ----- */
   private buildRoom() {
-    const piso = new THREE.MeshLambertMaterial({ map: checker('#e9e4d8', '#ddd6c6') });
+    const piso = new THREE.MeshLambertMaterial({ map: CLIN ? checker('#e4e8ec', '#dde2e7') : checker('#e9e4d8', '#ddd6c6') });
     piso.map!.repeat.set(9, 8.5);
     const floor = new THREE.Mesh(new THREE.BoxGeometry(9, 0.1, 8.5), piso);
     floor.position.set(0, -0.05, -0.25);
     floor.receiveShadow = true;
     this.scene.add(floor);
-    const pisoC = new THREE.MeshLambertMaterial({ map: checker('#b9c7d6', '#aebdcd') });
+    const pisoC = new THREE.MeshLambertMaterial({ map: CLIN ? checker('#c9d3dc', '#c2ccd6') : checker('#b9c7d6', '#aebdcd') });
     pisoC.map!.repeat.set(14, 3.6);
     const corr = new THREE.Mesh(new THREE.BoxGeometry(14, 0.1, 3.6), pisoC);
     corr.position.set(0, -0.05, 5.8);

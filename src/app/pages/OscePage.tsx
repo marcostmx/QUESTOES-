@@ -15,6 +15,8 @@ const ESTACOES = data as unknown as Estacao[];
 const PRINCIPAIS: Sistema[] = ['abdome', 'cardiovascular', 'respiratorio', 'neurologico'];
 type Modo = 'prova' | 'treino';
 const MODO_KEY = 'pr.v2.osce.modo';
+const VISUAL_KEY = 'pr.v2.osce.visual';
+type Visual = 'blocos' | 'clinico';
 
 const sorteia = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)];
 type Fonte = 'todas' | 'cadernos' | 'material' | 'simulado';
@@ -35,6 +37,11 @@ export default function OscePage() {
   const setModo = (m: Modo) => {
     setModoState(m);
     storage.write(MODO_KEY, m);
+  };
+  const [visual, setVisualState] = useState<Visual>(() => storage.read<Visual>(VISUAL_KEY) ?? 'blocos');
+  const setVisual = (v: Visual) => {
+    setVisualState(v);
+    storage.write(VISUAL_KEY, v);
   };
   const hist = useOsceHistory();
   const best = useMemo(() => melhores(hist), [hist]);
@@ -109,6 +116,16 @@ export default function OscePage() {
                 className={cx('rounded-xl border p-3 text-left transition', modo === id ? 'border-accent bg-accent-soft' : 'border-line hover:border-line-strong')}>
                 <span className={cx('block text-[15px] font-semibold', modo === id && 'text-accent')}>{nome}</span>
                 <span className="block text-[12.5px] text-ink-2">{desc}</span>
+              </button>
+            ))}
+          </div>
+          <div className="mt-4 mb-1 text-[13px] font-semibold text-ink-3 uppercase">Visual</div>
+          <div role="radiogroup" className="grid grid-cols-2 gap-2">
+            {([['blocos', 'Blocos', 'Estilo jogo, leve em qualquer celular'], ['clinico', 'Clínico', 'Formas arredondadas e sala hospitalar']] as const).map(([id, nome, desc]) => (
+              <button key={id} type="button" role="radio" aria-checked={visual === id} onClick={() => setVisual(id)}
+                className={cx('rounded-xl border p-3 text-left transition', visual === id ? 'border-accent bg-accent-soft' : 'border-line hover:border-line-strong')}>
+                <span className={cx('block text-[14px] font-semibold', visual === id && 'text-accent')}>{nome}</span>
+                <span className="block text-[12px] text-ink-2">{desc}</span>
               </button>
             ))}
           </div>
