@@ -137,7 +137,7 @@ export function ondeExaminar(id: string, regiao: Regiao): { ancora: string | nul
 }
 
 /* ---------- Instrumentos em blocos ---------- */
-const mat = (c: number, emissive = 0) => new THREE.MeshLambertMaterial({ color: c, emissive });
+const mat = (c: number, emissive = 0) => new THREE.MeshStandardMaterial({ color: c, emissive, roughness: 0.45, metalness: c === 0xb8c4cc || c === 0xc9d1d6 ? 0.9 : 0 });
 const bx = (w: number, h: number, d: number, m: THREE.Material, x = 0, y = 0, z = 0) => {
   const o = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), m);
   o.position.set(x, y, z);
