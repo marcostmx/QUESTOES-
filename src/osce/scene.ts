@@ -1,6 +1,7 @@
 /* Cena 3D em blocos (estilo voxel original) do simulador OSCE — Three.js puro, sem React. */
 import * as THREE from 'three';
 import type { Postura, Regiao } from './maneuvers';
+import { ANCORAS, ferramenta3d, marcador, ondeExaminar } from './exame3d';
 
 export type Alvo =
   | { kind: 'paciente'; regiao: Regiao }
@@ -85,6 +86,8 @@ interface Boneco {
   kneeL: THREE.Group;
   kneeR: THREE.Group;
   parts: Map<Regiao, THREE.Mesh[]>;
+  boca: THREE.Mesh;
+  olhos: THREE.Mesh[];
 }
 
 function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number; sapato: number; jaleco?: boolean; longo?: boolean }): Boneco {
@@ -122,9 +125,10 @@ function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number
   head.add(box(0.3, 0.08, 0.28, cab, 0, 0.37, -0.01));
   head.add(box(0.3, o.longo ? 0.34 : 0.16, 0.06, cab, 0, o.longo ? 0.2 : 0.28, -0.13));
   const olho = lambert(0x1b1b1b);
-  head.add(box(0.045, 0.045, 0.01, olho, -0.06, 0.23, 0.131));
-  head.add(box(0.045, 0.045, 0.01, olho, 0.06, 0.23, 0.131));
-  head.add(box(0.08, 0.02, 0.01, lambert(0xa0524a), 0, 0.14, 0.131));
+  const olhos = [box(0.045, 0.045, 0.01, olho, -0.06, 0.23, 0.131), box(0.045, 0.045, 0.01, olho, 0.06, 0.23, 0.131)];
+  olhos.forEach(x => head.add(x));
+  const boca = box(0.08, 0.02, 0.01, lambert(0xa0524a), 0, 0.14, 0.131);
+  head.add(boca);
   const braco = (side: number) => {
     const g = new THREE.Group();
     g.position.set(side * 0.27, 0.5, 0);
@@ -147,7 +151,7 @@ function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number
   };
   const l = perna(1);
   const r = perna(-1);
-  return { root, frame, torso, chest, head, armL: braco(1), armR: braco(-1), hipL: l.hip, hipR: r.hip, kneeL: l.knee, kneeR: r.knee, parts };
+  return { root, frame, torso, chest, head, armL: braco(1), armR: braco(-1), hipL: l.hip, hipR: r.hip, kneeL: l.knee, kneeR: r.knee, parts, boca, olhos };
 }
 
 /* ---------- Mundo ---------- */
@@ -178,6 +182,12 @@ export class World {
   private heading = Math.PI;
   private ro: ResizeObserver;
   private disposed = false;
+  private ancoras = new Map<string, THREE.Object3D>();
+  private ferr: THREE.Group | null = null;
+  private anel = marcador();
+  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean } | null = null;
+  private lookCur = new THREE.Vector3(0, 0.8, 4);
+  private dorT = 0;
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
@@ -211,6 +221,16 @@ export class World {
     for (const [, ms] of this.patient.parts) for (const m of ms) this.clickables.push(m);
     this.posture = o.postura;
     this.applyPosture(o.postura);
+    for (const [nome, a] of Object.entries(ANCORAS)) {
+      const g = this.patient[a.g] as THREE.Object3D;
+      const o3 = new THREE.Object3D();
+      o3.position.set(...a.p);
+      o3.userData.n = new THREE.Vector3(...a.n).normalize();
+      g.add(o3);
+      this.ancoras.set(nome, o3);
+    }
+    this.anel.visible = false;
+    this.scene.add(this.anel);
 
     this.evaluator = boneco({ pele: 0x8d5524, cabelo: 0x111111, tronco: 0x3e6f5a, calca: 0x2a2a2a, sapato: 0x111111 });
     this.evaluator.root.position.set(-3.3, 0.05, -2.6);
@@ -405,6 +425,47 @@ export class World {
     this.gestureT = 0.8;
   }
 
+  /** Animação da manobra: instrumento no ponto do corpo, anel que pulsa e câmera em close. */
+  examinar(id: string, regiao: Regiao, dor = false) {
+    const { ancora, ferramenta } = ondeExaminar(id, regiao);
+    this.pulse(regiao);
+    if (dor) this.dorT = 1.8;
+    if (this.ferr) {
+      this.scene.remove(this.ferr);
+      this.ferr = null;
+    }
+    const pl = this.player.root.position;
+    let pos: THREE.Vector3;
+    let n: THREE.Vector3;
+    const a = ancora ? this.ancoras.get(ancora) : undefined;
+    this.patient.root.updateMatrixWorld(true);
+    if (a) {
+      pos = a.getWorldPosition(new THREE.Vector3());
+      n = (a.userData.n as THREE.Vector3).clone().applyQuaternion(a.getWorldQuaternion(new THREE.Quaternion())).normalize();
+    } else {
+      pos = this.patient.chest.getWorldPosition(new THREE.Vector3());
+      n = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+    }
+    const lado = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+    const dist = a ? 0.75 : 2.3;
+    const dir = n.clone().add(new THREE.Vector3(0, 0.75, 0)).add(lado.multiplyScalar(0.55)).normalize();
+    const cam = pos.clone().add(dir.multiplyScalar(dist));
+    cam.y = Math.max(cam.y, 0.5);
+    if (a && ferramenta !== 'olhar') {
+      const f = ferramenta3d(ferramenta);
+      f.position.copy(pos).addScaledVector(n, 0.006);
+      f.lookAt(pos.clone().add(n));
+      this.scene.add(f);
+      this.ferr = f;
+    }
+    this.anel.visible = !!a;
+    this.anel.position.copy(pos).addScaledVector(n, 0.012);
+    this.anel.lookAt(pos.clone().add(n));
+    this.faceTo(pos);
+    this.gestureT = 2.4;
+    this.close = { pos, n, cam, t: 3.2, total: 3.2, bate: ferramenta === 'martelo' || ferramenta === 'mao' };
+  }
+
   /** Caminha até um ponto e chama `then` ao chegar. */
   walkTo(where: 'paciente' | 'pia', then?: () => void) {
     const p = where === 'pia' ? new THREE.Vector3(PIA.x - 0.2, 0, PIA.z + 0.85) : this.examSpot();
@@ -467,6 +528,10 @@ export class World {
   };
 
   private onDown = (e: PointerEvent) => {
+    if (this.close) {
+      this.close.t = Math.min(this.close.t, 0.15);
+      return;
+    }
     const p = this.pick(e);
     if (!p) return;
     if (p.alvo) this.o.onClick(p.alvo);
@@ -570,7 +635,7 @@ export class World {
     const sw = moving ? Math.sin(t * 10) * 0.7 : 0;
     pl.hipL.rotation.x += (sw - pl.hipL.rotation.x) * 0.3;
     pl.hipR.rotation.x += (-sw - pl.hipR.rotation.x) * 0.3;
-    const g = this.gestureT > 0 ? -1.2 : 0;
+    const g = this.gestureT > 0 ? (this.close ? -1.45 : -1.2) : 0;
     pl.armL.rotation.x += ((g || -sw) - pl.armL.rotation.x) * 0.3;
     pl.armR.rotation.x += ((g || sw) - pl.armR.rotation.x) * 0.3;
     pl.root.position.y = moving ? Math.abs(Math.sin(t * 10)) * 0.03 : 0;
@@ -642,13 +707,41 @@ export class World {
       for (const m of this.flash.meshes) if (!this.hovered.includes(m)) (m.material as THREE.MeshLambertMaterial).emissive?.setHex(on ? 0x2d6a3e : 0);
       if (this.flash.t <= 0) this.flash = null;
     }
-    // câmera em terceira pessoa (ângulo fixo, segue o jogador)
-    const p = this.player.root.position;
-    const inside = p.z < ROOM.z1;
-    const want3 = new THREE.Vector3(p.x * 0.6, inside ? 5.4 : 4.2, p.z + (inside ? 5.2 : 4.6));
-    this.camera.position.lerp(want3, 0.08);
-    const look = new THREE.Vector3(p.x * 0.8, 0.8, p.z - (inside ? 1.2 : 1.6));
-    this.camera.lookAt(look);
+    // expressão de dor
+    if (this.dorT > 0) this.dorT = Math.max(0, this.dorT - dt);
+    const d = this.dorT > 0 ? 1 : 0;
+    this.patient.boca.scale.set(1 - 0.15 * d, 1 + 2.5 * d, 1);
+    for (const o of this.patient.olhos) o.scale.y = 1 - 0.75 * d;
+    this.player.root.visible = !this.close || this.close.t < 0.25;
+    if (this.close) {
+      // close no ponto examinado
+      const c = this.close;
+      c.t -= dt;
+      const k1 = 1 - Math.exp(-dt * 7);
+      this.camera.position.lerp(c.cam, k1);
+      this.lookCur.lerp(c.pos, Math.min(1, k1 * 1.4));
+      this.camera.lookAt(this.lookCur);
+      const k = 1 + 0.25 * Math.sin(this.clock.elapsedTime * 8);
+      this.anel.scale.setScalar(k);
+      if (this.ferr && c.bate) this.ferr.position.copy(c.pos).addScaledVector(c.n, 0.006 + Math.max(0, Math.sin(this.clock.elapsedTime * 9)) * 0.02);
+      if (c.t <= 0) {
+        this.close = null;
+        this.anel.visible = false;
+        if (this.ferr) {
+          this.scene.remove(this.ferr);
+          this.ferr = null;
+        }
+      }
+    } else {
+      // câmera em terceira pessoa (ângulo fixo, segue o jogador)
+      const p = this.player.root.position;
+      const inside = p.z < ROOM.z1;
+      const want3 = new THREE.Vector3(p.x * 0.6, inside ? 5.4 : 4.2, p.z + (inside ? 5.2 : 4.6));
+      this.camera.position.lerp(want3, 0.08);
+      const look = new THREE.Vector3(p.x * 0.8, 0.8, p.z - (inside ? 1.2 : 1.6));
+      this.lookCur.lerp(look, 0.15);
+      this.camera.lookAt(this.lookCur);
+    }
     this.renderer.render(this.scene, this.camera);
   };
 

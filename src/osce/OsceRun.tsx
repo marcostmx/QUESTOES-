@@ -277,8 +277,9 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
     const ok = !m.postura || m.postura.includes(s.postura);
     const exec = { id: m.id, t: sec(), postura: s.postura, lado: proxRef.current.lado, ok };
     setT(x => ({ ...x, execs: [...x.execs, exec] }));
-    worldRef.current?.pulse(m.regiao);
     sfx.tap();
+    const anim = achado(e, m);
+    worldRef.current?.examinar(m.id, m.regiao, ok && anim.dor);
     if (e.pa && ok && m.id === 'pa-outro-braco') {
       const novo = s.braco === 'D' ? 'E' : 'D';
       setT(x => ({ ...x, braco: novo }));
