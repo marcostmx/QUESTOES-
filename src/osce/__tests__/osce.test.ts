@@ -1,14 +1,14 @@
 import { describe, expect, it } from 'vitest';
 import data from '../../data/osce/stations.json';
-import { achado, anamnese, corrigir, paEsperada, manobrasDoComando, novaTentativa, temParteVerbal, type Estacao, type Status } from '../engine';
+import { achado, anamnese, cobertura, corrigir, falhas, paEsperada, sugestoes, manobrasDoComando, novaTentativa, temParteVerbal, type Estacao, type Status } from '../engine';
 import { byId, POSTURAS } from '../maneuvers';
 
 const ESTACOES = data as unknown as Estacao[];
 
 describe('estações OSCE', () => {
-  it('tem as 120 estações (80 dos cadernos + 40 do material de estudo), com comandos e gabarito', () => {
-    expect(ESTACOES).toHaveLength(120);
-    expect(new Set(ESTACOES.map(e => e.id)).size).toBe(120);
+  it('tem as 220 estações (cadernos, material de estudo e simulado de 100), com comandos e gabarito', () => {
+    expect(ESTACOES).toHaveLength(220);
+    expect(new Set(ESTACOES.map(e => e.id)).size).toBe(220);
     for (const e of ESTACOES) {
       expect(e.comandos.length).toBeGreaterThan(1);
       if (e.checklist) expect(e.checklist.reduce((a, x) => a + x.pts, 0)).toBeCloseTo(10);
@@ -81,10 +81,28 @@ describe('estações OSCE', () => {
   it('anamnese responde só com o que está no caso', () => {
     for (const e of ESTACOES) {
       const q = anamnese(e);
-      expect(q).toHaveLength(6);
-      for (const p of q) expect(p.resposta.length).toBeGreaterThan(3);
+      expect(q.length).toBeGreaterThanOrEqual(2);
+      for (const p of q) expect(p.resposta.length).toBeGreaterThan(1);
     }
     const r1 = anamnese(ESTACOES.find(x => x.id === 'URI-R1')!).find(p => p.id === 'medicacoes')!;
     expect(r1.resposta).toMatch(/enalapril/);
+  });
+
+  it('resposta falada: gabarito coberto vira sugestão de nota', () => {
+    expect(cobertura('é uma estenose aórtica com sopro ejetivo irradiado para carótidas', 'Estenose aórtica')).toBe(1);
+    expect(cobertura('não sei', 'Estenose aórtica')).toBe(0);
+    const e = ESTACOES.find(x => x.id === 'SIM-CV-003')!;
+    const t = novaTentativa(e);
+    t.respostas[3] = 'Estenose aórtica: sopro ejetivo aórtico irradiado para o pescoço, frêmito e pulso parvus et tardus; confirmar com ecocardiograma';
+    const sug = sugestoes(e, t);
+    expect(Object.values(sug)).toContain('fez');
+  });
+
+  it('erros da tentativa viram etiquetas para a revisão', () => {
+    const e = ESTACOES.find(x => x.id === 'ABD-07')!;
+    const t = novaTentativa(e);
+    const tags = falhas(e, t, corrigir(e, t, {}).itens);
+    expect(tags).toContain('man:abd-murphy');
+    expect(tags.some(x => x.startsWith('ab:'))).toBe(true);
   });
 });

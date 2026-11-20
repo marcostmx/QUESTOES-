@@ -1,14 +1,15 @@
 /* OSCE: escolha da estação (sem revelar o subtema), modos, circuito e histórico. */
 import { useMemo, useState } from 'react';
-import { Gamepad2, Hand, ListChecks, MousePointerClick, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
+import { AlertTriangle, ArrowRight, ClipboardCheck, Gamepad2, Hand, ListChecks, MousePointerClick, RotateCcw, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
 import data from '../../data/osce/stations.json';
 import { REGRAS_GERAIS } from '../../osce/colas';
 import { nomeSistema, SISTEMAS, type Estacao } from '../../osce/engine';
 import { melhores, useOsceHistory } from '../../osce/history';
+import { errosFrequentes, paraRefazer } from '../../osce/erros';
 import type { Sistema } from '../../osce/maneuvers';
 import { storage } from '../core/store';
 import { href } from '../router';
-import { Badge, Bar, Button, Card, Chip, cx, PageHeader, Section } from '../ui';
+import { Badge, Bar, Button, Card, Chip, cx, Dialog, PageHeader, Section } from '../ui';
 
 const ESTACOES = data as unknown as Estacao[];
 const PRINCIPAIS: Sistema[] = ['abdome', 'cardiovascular', 'respiratorio', 'neurologico'];
@@ -16,9 +17,20 @@ type Modo = 'prova' | 'treino';
 const MODO_KEY = 'pr.v2.osce.modo';
 
 const sorteia = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)];
+type Fonte = 'todas' | 'cadernos' | 'material' | 'simulado';
+const fonteDe = (e: Estacao): Exclude<Fonte, 'todas'> => (e.id.startsWith('SIM-') ? 'simulado' : e.extra ? 'material' : 'cadernos');
+const FONTES: { id: Fonte; nome: string }[] = [
+  { id: 'todas', nome: 'Todas as fontes' }, { id: 'cadernos', nome: 'Cadernos da monitoria' }, { id: 'material', nome: 'Material de estudo' }, { id: 'simulado', nome: 'Simulado 100' },
+];
+const SIS_PROVA: Sistema[] = ['abdome', 'cardiovascular', 'respiratorio', 'neurologico', 'pressao'];
 
 export default function OscePage() {
   const [sis, setSis] = useState<Sistema | 'todos'>('todos');
+  const [fonte, setFonte] = useState<Fonte>('todas');
+  const [cfg, setCfg] = useState(false);
+  const [nProva, setNProva] = useState(6);
+  const [sisProva, setSisProva] = useState<Sistema[]>(SIS_PROVA);
+  const [troca, setTroca] = useState(60);
   const [modo, setModoState] = useState<Modo>(() => storage.read<Modo>(MODO_KEY) ?? 'prova');
   const setModo = (m: Modo) => {
     setModoState(m);
@@ -26,7 +38,24 @@ export default function OscePage() {
   };
   const hist = useOsceHistory();
   const best = useMemo(() => melhores(hist), [hist]);
-  const lista = ESTACOES.filter(e => sis === 'todos' || e.sistema === sis);
+  const lista = ESTACOES.filter(e => (sis === 'todos' || e.sistema === sis) && (fonte === 'todas' || fonteDe(e) === fonte));
+  const erros = useMemo(() => errosFrequentes(hist, best), [hist, best]);
+  const refazer = useMemo(() => paraRefazer(best), [best]);
+  const iniciarProva = () => {
+    // distribui as estações entre os sistemas escolhidos, priorizando as menos treinadas
+    const ids: string[] = [];
+    for (let k = 0; k < nProva; k++) {
+      const s = sisProva[k % sisProva.length];
+      const ex = ESTACOES.filter(e => e.sistema === s && e.tipo !== 'discussao' && !ids.includes(e.id));
+      const novas = ex.filter(e => !best.has(e.id));
+      ids.push(sorteia(novas.length ? novas : ex).id);
+    }
+    for (let i = ids.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [ids[i], ids[j]] = [ids[j], ids[i]];
+    }
+    location.hash = href(`osce/${ids[0]}`) + `?modo=prova&c=${ids.join(',')}&i=0&t=${Date.now()}&x=1&tr=${troca}`;
+  };
   const feitas = lista.filter(e => best.has(e.id)).length;
   const q = (extra = '') => `?modo=${modo}${extra}`;
 
@@ -59,6 +88,7 @@ export default function OscePage() {
         title="Simulador OSCE"
         actions={
           <div className="flex flex-wrap gap-2">
+            <Button icon={<ClipboardCheck className="size-4" />} onClick={() => setCfg(true)}>Prova completa</Button>
             <Button icon={<RouteIcon className="size-4" />} onClick={circuito}>Circuito de 4</Button>
             <Button variant="primary" icon={<Shuffle className="size-4" />} onClick={aleatoria}>Estação aleatória</Button>
           </div>
@@ -105,6 +135,49 @@ export default function OscePage() {
         </Card>
       </div>
 
+      {(erros.length > 0 || refazer.length > 0) && (
+        <Section title="Revisão dos seus erros" className="mb-6">
+          <div className="grid gap-3 lg:grid-cols-2">
+            {erros.length > 0 && (
+              <Card className="p-4">
+                <div className="mb-2 flex items-center gap-2 text-[13px] font-semibold text-ink-3 uppercase"><AlertTriangle className="size-4 text-warn" /> O que mais se repete</div>
+                <ul className="divide-y divide-line">
+                  {erros.map(x => (
+                    <li key={x.tag} className="flex items-center gap-3 py-2">
+                      <span className="min-w-0 flex-1 text-[13.5px] leading-snug">{x.label}<span className="block text-[11.5px] text-ink-3">em {x.n} de {x.tentativas} tentativas</span></span>
+                      {x.estacao && <a href={href(`osce/${x.estacao}`) + q()} className="inline-flex h-9 shrink-0 items-center gap-1 rounded-full border border-line px-3 text-[12.5px] font-semibold text-accent hover:border-accent">Treinar <ArrowRight className="size-3.5" /></a>}
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            )}
+            {refazer.length > 0 && (
+              <Card className="p-4">
+                <div className="mb-2 flex items-center gap-2 text-[13px] font-semibold text-ink-3 uppercase"><RotateCcw className="size-4 text-accent" /> Estações para refazer</div>
+                <ul className="divide-y divide-line">
+                  {refazer.map(({ e, n }) => (
+                    <li key={e.id}>
+                      <a href={href(`osce/${e.id}`) + q()} className="flex items-center gap-3 py-2 text-[13.5px] hover:text-accent">
+                        <span className="flex-1">Estação {e.rotulo} · {nomeSistema(e.sistema)}</span>
+                        <Badge tone={n >= 50 ? 'warn' : 'bad'}>{n}%</Badge>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+            )}
+          </div>
+        </Section>
+      )}
+
+      <div className="mb-2 flex flex-wrap gap-2">
+        {FONTES.map(f => (
+          <button key={f.id} type="button" onClick={() => setFonte(f.id)}
+            className={cx('rounded-full px-3 py-1.5 text-[12.5px] font-medium transition', fonte === f.id ? 'bg-ink text-bg' : 'bg-surface-2 text-ink-2 hover:text-ink')}>
+            {f.nome}
+          </button>
+        ))}
+      </div>
       <div className="mb-4 flex flex-wrap gap-2">
         <Chip active={sis === 'todos'} onClick={() => setSis('todos')} count={ESTACOES.length}>Todos</Chip>
         {SISTEMAS.map(s => (
@@ -140,6 +213,37 @@ export default function OscePage() {
           })}
         </div>
       </Section>
+
+      <Dialog open={cfg} onClose={() => setCfg(false)} title="Prova OSCE completa">
+        <div className="space-y-4 p-5">
+          <p className="text-[13.5px] text-ink-2">Rodízio cronometrado como na prova: 1 min de leitura + 5 min por estação, sem correção entre elas. No fim, relatório por sistema.</p>
+          <div>
+            <div className="mb-1.5 text-[13px] font-semibold">Número de estações</div>
+            <div className="grid grid-cols-4 gap-2">
+              {[4, 6, 8, 10].map(n => (
+                <button key={n} type="button" onClick={() => setNProva(n)} className={cx('h-11 rounded-xl border text-[15px] font-semibold', nProva === n ? 'border-accent bg-accent-soft text-accent' : 'border-line')}>{n}</button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <div className="mb-1.5 text-[13px] font-semibold">Sistemas</div>
+            <div className="flex flex-wrap gap-2">
+              {SIS_PROVA.map(s => (
+                <Chip key={s} active={sisProva.includes(s)} onClick={() => setSisProva(l => (l.includes(s) ? (l.length > 1 ? l.filter(x => x !== s) : l) : [...l, s]))}>{nomeSistema(s)}</Chip>
+              ))}
+            </div>
+          </div>
+          <div>
+            <div className="mb-1.5 text-[13px] font-semibold">Troca entre estações</div>
+            <div className="grid grid-cols-3 gap-2">
+              {[[15, '15 s'], [60, '1 min'], [0, 'sem pausa']].map(([v, l]) => (
+                <button key={v} type="button" onClick={() => setTroca(v as number)} className={cx('h-11 rounded-xl border text-[14px] font-medium', troca === v ? 'border-accent bg-accent-soft text-accent' : 'border-line')}>{l}</button>
+              ))}
+            </div>
+          </div>
+          <Button variant="primary" size="lg" className="w-full" onClick={iniciarProva}>Começar a prova ({nProva} estações · ~{nProva * 6 + Math.round(((nProva - 1) * troca) / 60)} min)</Button>
+        </div>
+      </Dialog>
 
       {hist.length > 0 && (
         <Section title="Últimas tentativas" className="mt-8">

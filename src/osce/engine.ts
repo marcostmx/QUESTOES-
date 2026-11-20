@@ -1,8 +1,19 @@
 /* Regras do simulador OSCE: o que cada comando exige, achados revelados e correção. Sem dependências de UI. */
 import { byId, CHECKLIST_AUTO, doSistema, OVERRIDES, POSTURAS, type Manobra, type Postura, type Sistema } from './maneuvers';
 
-export interface Comando { texto: string; gabarito: string[] }
-export interface ItemChecklist { sec: number; texto: string; pts: number }
+export interface Comando {
+  texto: string;
+  gabarito: string[];
+  /** tipo da tarefa no simulado de 100 (EXAME, INTERPRETAÇÃO, DIAGNÓSTICO...) */
+  tipo?: string;
+  /** texto extra para reconhecer a manobra (rótulo e técnica do caderno do avaliador) */
+  busca?: string;
+  criterios?: string;
+  erros?: string;
+  /** achado informado pelo avaliador nesta tarefa */
+  achado?: string;
+}
+export interface ItemChecklist { sec: number; texto: string; pts: number; parcial?: string }
 export interface LeituraPA { braco: 'D' | 'E'; pas: number; pad: number; fase4: number }
 export interface CenarioPA { circunferencia: number; manguito: 'adulto' | 'obeso'; leituras: LeituraPA[]; classe: string; ortostatica?: boolean; arritmia?: boolean }
 export const CLASSES_PA = ['PA normal', 'Pré-hipertensão', 'HA estágio 1', 'HA estágio 2', 'HA estágio 3'];
@@ -13,6 +24,7 @@ export interface Estacao {
   titulo?: string;
   tipo?: 'exame' | 'discussao';
   fonte?: string;
+  extra?: boolean;
   checklist?: ItemChecklist[];
   sistema: Sistema;
   caso: string;
@@ -22,6 +34,10 @@ export interface Estacao {
   paciente: { sexo: 'M' | 'F'; idade: number; fr: number; padrao: 'normal' | 'cheyne' | 'kussmaul' | 'taquipneia'; postura: Postura; dor: boolean };
   achadosPorManobra?: Record<string, string>;
   pa?: CenarioPA;
+  falas?: { tema: string; resposta: string }[];
+  pacienteSimulado?: string;
+  vitais?: string;
+  nivel?: string;
 }
 
 export const SISTEMAS: { id: Sistema; nome: string }[] = [
@@ -48,14 +64,22 @@ const VERBAL = /\b(verbaliz|interpret|descrev|descri[çc]|inform|defin|expliq|ex
 export function manobrasDoComando(e: Estacao, i: number): string[] {
   const o = OVERRIDES[e.id]?.[i];
   if (o) return o;
-  const t = e.comandos[i].texto;
+  const c = e.comandos[i];
+  if (c.tipo) {
+    if (c.tipo !== 'EXAME') return [];
+    const alvo = `${c.texto} ${c.busca ?? ''}`;
+    return doSistema(e.sistema).filter(m => m.rx?.test(alvo)).map(m => m.id);
+  }
+  const t = c.texto;
   if (!DEMONSTRA.test(t)) return [];
   return doSistema(e.sistema).filter(m => m.rx?.test(t)).map(m => m.id);
 }
 
 /** O comando também pede resposta falada? */
 export function temParteVerbal(e: Estacao, i: number): boolean {
-  return manobrasDoComando(e, i).length === 0 || VERBAL.test(e.comandos[i].texto);
+  const c = e.comandos[i];
+  if (c.tipo && c.tipo !== 'EXAME') return true;
+  return manobrasDoComando(e, i).length === 0 || VERBAL.test(c.texto);
 }
 
 const DOR = /\bdor\b|parada .*inspira|desconforto/i;
@@ -70,6 +94,8 @@ export function achado(e: Estacao, m: Manobra): { texto: string; alterado: boole
     if (m.id === 'pa-palpatoria')
       return { texto: `O pulso radial desaparece em cerca de ${Math.round((Math.max(...pa.leituras.map(l => l.pas)) + 4) / 2) * 2} mmHg (estimativa da PAS).`, alterado: true, dor: false };
   }
+  const daTarefa = e.comandos.find((c, i) => c.achado && manobrasDoComando(e, i).includes(m.id))?.achado;
+  if (daTarefa) return { texto: daTarefa, alterado: true, dor: DOR.test(daTarefa) && !SEM_DOR.test(daTarefa) };
   const fixo = e.achadosPorManobra?.[m.id];
   if (fixo) return { texto: fixo, alterado: true, dor: DOR.test(fixo) && !SEM_DOR.test(fixo) };
   if (e.sistema === 'abdome') return { texto: m.normal, alterado: false, dor: false };
@@ -261,15 +287,41 @@ function itensPA(e: Estacao, t: Tentativa): Item[] {
   return itens;
 }
 
+/** Itens de abertura citados no texto do checklist (higiene, apresentação, explicação...). */
+function aberturaDoItem(txt: string): Abertura[] {
+  const ks: Abertura[] = [];
+  if (/higien/i.test(txt)) ks.push('higiene');
+  if (/apresent|identific/i.test(txt)) ks.push('apresentar');
+  if (/expli/i.test(txt)) ks.push('explicar');
+  if (/permiss|consent/i.test(txt)) ks.push('consentimento');
+  if (/privacid/i.test(txt)) ks.push('privacidade');
+  if (/\bdor\b/i.test(txt)) ks.push('dor');
+  return ks.length ? ks : ['higiene', 'apresentar', 'explicar', 'consentimento'];
+}
+
+/** Nas estações com checklist sem mapa manual: o 1º item de cada tarefa de exame é corrigido pelas manobras. */
+function mapaAutomatico(e: Estacao): Record<number, string[]> {
+  const m: Record<number, string[]> = {};
+  const vistos = new Set<number>();
+  e.checklist!.forEach((it, idx) => {
+    if (it.sec < 1 || vistos.has(it.sec)) return;
+    vistos.add(it.sec);
+    const ids = manobrasDoComando(e, it.sec - 1);
+    if (ids.length) m[idx] = ids;
+  });
+  return m;
+}
+
 /** Estações com checklist oficial do avaliador (pontos do material). */
 function corrigirChecklist(e: Estacao, t: Tentativa, auto: Record<number, Status | null>) {
-  const mapa = CHECKLIST_AUTO[e.id] ?? {};
+  const mapa = CHECKLIST_AUTO[e.id] ?? mapaAutomatico(e);
   const itens: Item[] = e.checklist!.map((it, idx) => {
     const grupo: Item['grupo'] = it.sec === 0 ? 'Abertura' : it.sec === -1 ? 'Encerramento' : 'Comandos';
     const base = { grupo, label: it.texto, peso: it.pts, comando: it.sec > 0 ? it.sec - 1 : undefined };
     if (it.sec === 0) {
-      const n = (['higiene', 'apresentar', 'explicar', 'consentimento'] as Abertura[]).filter(k => t.abertura[k] != null).length;
-      return { ...base, auto: true, status: (n === 4 ? 'fez' : n >= 2 ? 'parcial' : 'nao') as Status };
+      const ks = aberturaDoItem(it.texto);
+      const n = ks.filter(k => t.abertura[k] != null).length;
+      return { ...base, auto: true, status: (n === ks.length ? 'fez' : n > 0 ? 'parcial' : 'nao') as Status, detalhe: n < ks.length ? it.parcial && `Parcial quando: ${it.parcial}.` : undefined };
     }
     if (it.sec === -1) return { ...base, auto: true, status: (t.fechamento.agradecer != null ? 'fez' : 'nao') as Status };
     const ids = mapa[idx];
@@ -285,7 +337,7 @@ function corrigirChecklist(e: Estacao, t: Tentativa, auto: Record<number, Status
       const st: Status = feitos.every(f => f === 2) ? 'fez' : feitos.some(f => f > 0) ? 'parcial' : 'nao';
       return { ...base, auto: true, status: st, detalhe: st === 'parcial' ? 'Manobra feita fora da posição adequada ou incompleta.' : undefined };
     }
-    return { ...base, chave: 1000 + idx, status: auto[1000 + idx] ?? null };
+    return { ...base, chave: 1000 + idx, status: auto[1000 + idx] ?? null, detalhe: it.parcial ? `Parcial quando: ${it.parcial}.` : undefined };
   });
   const total = itens.reduce((s, x) => s + x.peso, 0);
   const got = itens.reduce((s, x) => s + x.peso * pts(x.status), 0);
@@ -344,6 +396,13 @@ export interface Pergunta { id: string; pergunta: string; resposta: string }
 
 /** Respostas do paciente, tiradas só do caso (quando o caso não traz a informação, ele diz que não sabe). */
 export function anamnese(e: Estacao): Pergunta[] {
+  if (e.falas?.length) {
+    const cs0 = clausulas(e.caso);
+    return [
+      { id: 'queixa', pergunta: 'O que traz o(a) senhor(a) aqui hoje?', resposta: cs0.map(limpa).find(x => x.length > 3) ?? NAO_SEI },
+      ...e.falas.map((f, i) => ({ id: `f${i}`, pergunta: `Perguntar sobre ${f.tema}`, resposta: f.resposta })),
+    ];
+  }
   const cs = clausulas(e.caso);
   const grupos: Record<'antec' | 'medic' | 'nega' | 'habito' | 'sint', string[]> = { antec: [], medic: [], nega: [], habito: [], sint: [] };
   for (const c of cs) {
@@ -367,4 +426,79 @@ export function anamnese(e: Estacao): Pergunta[] {
     { id: 'medicacoes', pergunta: 'Usa algum remédio?', resposta: r(grupos.medic) },
     { id: 'habitos', pergunta: 'Fuma, bebe? Com o que trabalha?', resposta: r(grupos.habito) },
   ];
+}
+
+/* ---------- Respostas faladas: quanto do gabarito apareceu na resposta ---------- */
+const STOP = new Set('para pela pelo pelos pelas como com sem uma umas uns que porque quando onde entre sobre mais menos muito pouco este esta isso essa esse aquele aquela deve pode ser sua seu suas seus pois apenas também tambem ainda depois antes outro outra cada qual quais neste nesta nesse nessa desde'.split(' '));
+const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9/≥≤ ]+/g, ' ');
+function termos(s: string): string[] {
+  const out = new Set<string>();
+  for (const w of norm(s).split(/\s+/)) {
+    if (!w) continue;
+    if (/^\d/.test(w)) out.add(w);
+    else if (w.length >= 4 && !STOP.has(w)) out.add(w.slice(0, 5));
+  }
+  return [...out];
+}
+
+/** Proporção dos termos do item do gabarito que aparecem na resposta (0 a 1). */
+export function cobertura(resposta: string, alvo: string): number {
+  const a = termos(alvo);
+  if (!a.length || !resposta.trim()) return 0;
+  const r = new Set(termos(resposta));
+  return a.filter(x => r.has(x)).length / a.length;
+}
+
+export const statusCobertura = (c: number): Status => (c >= 0.55 ? 'fez' : c >= 0.25 ? 'parcial' : 'nao');
+
+/** Sugestão de autoavaliação a partir do que foi escrito/ditado (o estudante confirma). */
+export function sugestoes(e: Estacao, t: Tentativa): Record<number, Status> {
+  const out: Record<number, Status> = {};
+  if (e.checklist) {
+    e.checklist.forEach((it, idx) => {
+      const r = it.sec > 0 ? t.respostas[it.sec - 1] : undefined;
+      if (r?.trim()) out[1000 + idx] = statusCobertura(cobertura(r, it.texto));
+    });
+    return out;
+  }
+  e.comandos.forEach((c, i) => {
+    const r = t.respostas[i];
+    if (!r?.trim() || !temParteVerbal(e, i) || !c.gabarito.length) return;
+    const cs = c.gabarito.map(g => cobertura(r, g));
+    out[i] = statusCobertura(cs.reduce((a, b) => a + b, 0) / cs.length);
+  });
+  return out;
+}
+
+/* ---------- Erros por tentativa (para a revisão dos erros) ---------- */
+export function falhas(e: Estacao, t: Tentativa, itens: Item[]): string[] {
+  const tags = new Set<string>();
+  for (const it of itens) {
+    if (it.status !== 'nao' && it.status !== 'parcial') continue;
+    if (it.grupo === 'Abertura' || it.grupo === 'Encerramento') continue;
+    else if (it.grupo === 'Técnica') tags.add('tec:' + it.label.replace(/:.*$/, ''));
+    else if (it.chave != null) tags.add('verb:' + e.sistema);
+  }
+  // abertura e encerramento: etiquetas padronizadas (iguais em todas as estações)
+  const primeiroToque = t.execs.length ? Math.min(...t.execs.map(x => x.t)) : Infinity;
+  for (const k of ['higiene', 'apresentar', 'explicar', 'consentimento', 'privacidade', 'dor'] as Abertura[]) {
+    const v = t.abertura[k];
+    if (v == null || v > primeiroToque) tags.add('ab:' + k);
+  }
+  if (t.fechamento.agradecer == null) tags.add('ab:agradecer');
+  e.comandos.forEach((_, i) => {
+    if (!manobrasDoComando(e, i).length) return;
+    const sp = statusPratico(e, t, i);
+    sp.faltam.forEach(id => tags.add('man:' + id));
+    sp.posicaoErrada.forEach(id => tags.add('pos:' + id));
+  });
+  if (e.pa) {
+    for (const it of itens) {
+      if (it.status === 'fez') continue;
+      if (it.label.startsWith('PAD')) tags.add(it.detalhe?.includes('fase IV') ? 'pa:fase4' : 'pa:pad');
+      else if (it.label.startsWith('PAS')) tags.add('pa:pas');
+      else if (it.label.startsWith('Classificação')) tags.add('pa:classe');
+    }
+  }
+  return [...tags];
 }

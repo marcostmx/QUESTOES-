@@ -7,7 +7,7 @@ import data from '../data/osce/stations.json';
 import { href } from '../app/router';
 import { Badge, Button, cx, Ring, toast } from '../app/ui';
 import {
-  achado, anamnese, CLASSES_PA, corrigir, ESTACAO_S, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
+  achado, anamnese, CLASSES_PA, cobertura, corrigir, ESTACAO_S, falhas, statusCobertura, sugestoes, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
   type Abertura, type Estacao, type LeituraPA, type Status, type Tentativa,
 } from './engine';
 import { osceHistory, useOsceHistory } from './history';
@@ -17,10 +17,12 @@ import { World, webglOk, type Alvo, type Proximidade } from './scene';
 import { sfx } from './sfx';
 import { Manometro } from './Manometro';
 import { Joystick } from './Joystick';
+import { Microfone } from './Microfone';
+import { storage } from '../app/core/store';
 
 const ESTACOES = data as unknown as Estacao[];
 const TOQUE = typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches;
-type Fase = 'leitura' | 'estacao' | 'resultado';
+type Fase = 'leitura' | 'estacao' | 'resultado' | 'troca';
 interface Log { key: number; nome: string; texto: string; alterado: boolean; aviso?: string; fala?: boolean }
 
 const fmt = (s: number) => `${Math.floor(s / 60)}:${String(Math.max(0, Math.floor(s % 60))).padStart(2, '0')}`;
@@ -77,14 +79,15 @@ const REGIAO_CLIQUE: Record<Regiao, Regiao[]> = {
 };
 
 export type Modo = 'prova' | 'treino';
-export interface Circuito { ids: string[]; i: number; inicio: string }
+export interface Circuito { ids: string[]; i: number; inicio: string; prova?: boolean; troca?: number }
 
 export default function OsceRun({ id, query }: { id: string; query: URLSearchParams }) {
   const e = useMemo(() => ESTACOES.find(x => x.id === id), [id]);
+  if (id === 'relatorio') return <Relatorio chave={query.get('t') ?? ''} />;
   if (!e) return <div className="p-10 text-center">Estação não encontrada. <a className="text-accent underline" href={href('osce')}>Voltar</a></div>;
   const modo: Modo = query.get('modo') === 'treino' ? 'treino' : 'prova';
   const c = query.get('c');
-  const circuito: Circuito | null = c ? { ids: c.split(','), i: Number(query.get('i') ?? 0), inicio: query.get('t') ?? '' } : null;
+  const circuito: Circuito | null = c ? { ids: c.split(','), i: Number(query.get('i') ?? 0), inicio: query.get('t') ?? '', prova: query.get('x') === '1', troca: Number(query.get('tr') ?? 60) } : null;
   return <Run key={id + query.toString()} e={e} modo={modo} circuito={circuito} />;
 }
 
@@ -113,6 +116,8 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
   const [painel, setPainel] = useState(false);
   const [hover, setHover] = useState<Alvo | null>(null);
   const [log, setLog] = useState<Log[]>([]);
+  const logRef = useRef(log);
+  logRef.current = log;
   const [fala_, setFala] = useState<{ txt: string; key: number } | null>(null);
   const bubble = useRef<HTMLDivElement>(null);
   const [notas, setNotas] = useState<Record<number, Status | null>>({});
@@ -140,11 +145,24 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
   }, []);
 
   const encerrar = useCallback(() => {
-    setFase('resultado');
     setMenu(null);
     setPosMenu(false);
     sfx.bell();
-  }, []);
+    const sug = sugestoes(e, tRef.current);
+    setNotas(n => ({ ...sug, ...n }));
+    if (circuito?.prova) {
+      // prova completa: guarda a tentativa e segue para a troca de estação, sem correção
+      const tt = tRef.current;
+      const r = corrigir(e, tt, sug);
+      osceHistory.save({ key: attemptKey.current, id: e.id, date: Date.now(), nota: r.nota, pendentes: r.pendentes, modo, circuito: circuito.inicio, falhas: falhas(e, tt, r.itens) });
+      const k = PROVA_KEY + circuito.inicio;
+      const lista = storage.read<ProvaEntrada[]>(k) ?? [];
+      storage.write(k, [...lista.filter(x => x.key !== attemptKey.current), { key: attemptKey.current, id: e.id, t: tt, log: logRef.current, notas: sug }]);
+      setFase('troca');
+      return;
+    }
+    setFase('resultado');
+  }, [e, circuito, modo]);
 
   useEffect(() => {
     if (fase === 'leitura' && restante <= 0) entrar();
@@ -347,7 +365,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
   const res = useMemo(() => (fase === 'resultado' ? corrigir(e, t, notas) : null), [fase, e, t, notas]);
   useEffect(() => {
     if (!res) return;
-    osceHistory.save({ key: attemptKey.current, id: e.id, date: Date.now(), nota: res.nota, pendentes: res.pendentes, modo, circuito: circuito?.inicio || undefined });
+    osceHistory.save({ key: attemptKey.current, id: e.id, date: Date.now(), nota: res.nota, pendentes: res.pendentes, modo, circuito: circuito?.inicio || undefined, falhas: falhas(e, t, res.itens) });
   }, [res, e.id, modo, circuito]);
 
   const refazer = () => {
@@ -418,12 +436,13 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             {e.checklist && <p className="mb-3 rounded-xl bg-good-soft px-3 py-2 text-[13px] text-good">Estação com checklist oficial do avaliador (10 pontos). O achado só é informado se a manobra for feita corretamente.</p>}
             <h2 className="mb-1.5 text-[13px] font-semibold tracking-wide text-ink-3 uppercase">Caso clínico</h2>
             <p className="text-[15px] leading-relaxed">{e.caso}</p>
+            {e.vitais && <p className="mt-2 rounded-xl bg-surface-2 px-3 py-2 font-mono text-[12.5px] text-ink-2">{e.vitais}</p>}
             <h2 className="mt-4 mb-1.5 text-[13px] font-semibold tracking-wide text-ink-3 uppercase">Comandos</h2>
             <ol className="space-y-1.5">
               {e.comandos.map((c, i) => (
                 <li key={i} className="flex gap-2.5 text-[14.5px] leading-snug">
                   <span className="font-mono font-semibold text-accent">{String(i + 1).padStart(2, '0')}</span>
-                  <span>{c.texto}</span>
+                  <span>{c.tipo && <b className="mr-1.5 rounded bg-surface-2 px-1.5 py-0.5 text-[10.5px] font-bold tracking-wide text-ink-3">{c.tipo}</b>}{c.texto}</span>
                 </li>
               ))}
             </ol>
@@ -567,6 +586,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             <details className="rounded-xl bg-surface-2 p-3 text-[13.5px] leading-relaxed">
               <summary className="cursor-pointer font-medium">Caso clínico</summary>
               <p className="mt-2">{e.caso}</p>
+              {e.vitais && <p className="mt-2 font-mono text-[12px] text-ink-2">{e.vitais}</p>}
             </details>
             {e.comandos.map((c, i) => (
               <div key={i}>
@@ -582,13 +602,16 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
                   );
                 })()}
                 {temParteVerbal(e, i) && (
-                  <textarea
-                    value={t.respostas[i] ?? ''}
-                    onChange={ev => { const v = ev.target.value; setT(s => ({ ...s, respostas: { ...s.respostas, [i]: v } })); }}
-                    placeholder="O que você diria ao avaliador…"
-                    rows={2}
-                    className="mt-1.5 w-full resize-y rounded-xl border border-line bg-bg px-3 py-2 text-[13.5px] outline-none focus:border-accent"
-                  />
+                  <>
+                    <textarea
+                      value={t.respostas[i] ?? ''}
+                      onChange={ev => { const v = ev.target.value; setT(s => ({ ...s, respostas: { ...s.respostas, [i]: v } })); }}
+                      placeholder="Fale ou escreva o que você diria ao avaliador…"
+                      rows={2}
+                      className="mt-1.5 w-full resize-y rounded-xl border border-line bg-bg px-3 py-2 text-[14px] outline-none focus:border-accent"
+                    />
+                    <Microfone className="mt-1" onTexto={tr => setT(s => ({ ...s, respostas: { ...s.respostas, [i]: ((s.respostas[i] ?? '') + ' ' + tr).trim() } }))} />
+                  </>
                 )}
               </div>
             ))}
@@ -646,6 +669,8 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
           {log[0].aviso && <p className="mt-1 text-[12px] font-medium text-warn">{log[0].aviso}</p>}
         </button>
       )}
+
+      {fase === 'troca' && circuito && <Troca circuito={circuito} modo={modo} />}
 
       {res && (
         <Resultado e={e} t={t} res={res} circuito={circuito} log={log} notas={notas} setNota={(i, s) => setNotas(n => ({ ...n, [i]: s }))} onRefazer={refazer} onProxima={proxima} />
@@ -754,9 +779,9 @@ function Fallback2D({ e, onRegiao, postura }: { e: Estacao; onRegiao: (r: Regiao
   );
 }
 
-function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circuito }: {
+function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circuito, embutido }: {
   e: Estacao; t: Tentativa; res: ReturnType<typeof corrigir>; log: Log[]; circuito: Circuito | null;
-  notas: Record<number, Status | null>; setNota: (i: number, s: Status) => void; onRefazer: () => void; onProxima: () => void;
+  notas: Record<number, Status | null>; setNota: (i: number, s: Status) => void; onRefazer?: () => void; onProxima?: () => void; embutido?: boolean;
 }) {
   const grupos = ['Abertura', 'Técnica', 'Encerramento'] as const;
   const cor = res.nota >= 70 ? 'var(--good)' : res.nota >= 50 ? 'var(--warn)' : 'var(--bad)';
@@ -779,8 +804,8 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
     </div>
   );
   return (
-    <div className="absolute inset-0 z-50 overflow-y-auto bg-bg">
-      <div className="mx-auto max-w-3xl px-4 pt-20 pb-16">
+    <div className={embutido ? '' : 'absolute inset-0 z-50 overflow-y-auto bg-bg'}>
+      <div className={embutido ? '' : 'mx-auto max-w-3xl px-4 pt-20 pb-16'}>
         <div className="mb-6 flex items-center gap-5">
           <Ring value={res.nota} size={92} stroke={8} color={cor}>
             <span className="font-display text-[26px] font-semibold">{res.nota}</span>
@@ -810,11 +835,13 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
           </div>
         )}
 
-        <div className="mb-6 flex flex-wrap gap-2">
+        {onRefazer && <div className="mb-6 flex flex-wrap gap-2">
           <Button variant="primary" icon={<RotateCcw className="size-4" />} onClick={onRefazer}>Refazer</Button>
           <Button onClick={onProxima}>{circuito && !ultimo ? `Próxima do circuito (${circuito.i + 2}/${circuito.ids.length})` : 'Próxima estação'}</Button>
           <Button variant="ghost" to="osce">Todas as estações</Button>
-        </div>
+        </div>}
+
+        {e.pacienteSimulado && <p className="mb-5 rounded-2xl bg-surface-2 px-4 py-3 text-[13px] text-ink-2"><b>Paciente simulado:</b> {e.pacienteSimulado}</p>}
 
         {grupos.map(g => {
           const its = res.itens.filter(x => x.grupo === g);
@@ -844,11 +871,18 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
                 <div key={i} className="rounded-2xl border border-line bg-surface p-4">
                   <p className="mb-2 text-[14.5px] font-medium leading-snug"><span className="font-mono text-accent">{String(i + 1).padStart(2, '0')}</span> {c.texto}</p>
                   {t.respostas[i] && <p className="mb-2 rounded-xl border border-dashed border-line px-3 py-2 text-[13px] text-ink-2"><b>Sua resposta:</b> {t.respostas[i]}</p>}
+                  {(c.criterios || c.erros) && (
+                    <div className="mb-2 space-y-1 text-[12.5px] leading-snug">
+                      {c.criterios && <p><b className="text-good">Critérios mínimos:</b> {c.criterios}</p>}
+                      {c.erros && <p><b className="text-bad">Erros comuns:</b> {c.erros}</p>}
+                    </div>
+                  )}
                   {e.checklist ? (
                     <div className="divide-y divide-line">
                       {its.map((x, k) => (
                         <div key={k} className="py-2">
                           <Linha label={x.label} status={x.status} detalhe={x.detalhe} pts={pts(x.peso)} compact />
+                          {x.chave != null && t.respostas[i] && <Coberto r={t.respostas[i]} alvo={x.label} />}
                           {x.chave != null && <Nota chave={x.chave} />}
                         </div>
                       ))}
@@ -859,7 +893,7 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
                       <details className="mt-2 rounded-xl bg-surface-2 p-3" open={temParteVerbal(e, i)}>
                         <summary className="cursor-pointer text-[13px] font-semibold">Gabarito</summary>
                         <ul className="mt-1.5 list-disc space-y-1 pl-5 text-[13.5px] leading-snug">
-                          {c.gabarito.map((g, k) => <li key={k}>{g}</li>)}
+                          {c.gabarito.map((g, k) => <li key={k}>{g}{t.respostas[i] && temParteVerbal(e, i) && <Coberto r={t.respostas[i]} alvo={g} inline />}</li>)}
                         </ul>
                       </details>
                       {its.filter(x => x.chave != null).map(x => <Nota key={x.chave} chave={x.chave!} />)}
@@ -900,6 +934,117 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
             </div>
           </details>
         )}
+      </div>
+    </div>
+  );
+}
+
+/** Marca se o item do gabarito apareceu na resposta falada/escrita. */
+function Coberto({ r, alvo, inline }: { r: string; alvo: string; inline?: boolean }) {
+  const st = statusCobertura(cobertura(r, alvo));
+  const txt = st === 'fez' ? '✓ na sua resposta' : st === 'parcial' ? '~ em parte' : '✗ não apareceu';
+  return <span className={cx('text-[11.5px] font-semibold', inline ? 'ml-1.5' : 'mt-0.5 block', st === 'fez' ? 'text-good' : st === 'parcial' ? 'text-warn' : 'text-bad')}>{txt}</span>;
+}
+
+/* ---------- Prova completa: troca de estação e relatório ---------- */
+const PROVA_KEY = 'pr.v2.osce.prova.';
+interface ProvaEntrada { key: string; id: string; t: Tentativa; log: Log[]; notas: Record<number, Status | null> }
+
+function Troca({ circuito, modo }: { circuito: Circuito; modo: Modo }) {
+  const ultimo = circuito.i + 1 >= circuito.ids.length;
+  const [falta, setFalta] = useState(ultimo ? 0 : circuito.troca ?? 60);
+  const ir = useCallback(() => {
+    if (ultimo) location.hash = href('osce/relatorio') + `?t=${circuito.inicio}`;
+    else location.hash = href(`osce/${circuito.ids[circuito.i + 1]}`) + `?modo=${modo}&c=${circuito.ids.join(',')}&i=${circuito.i + 1}&t=${circuito.inicio}&x=1&tr=${circuito.troca ?? 60}`;
+  }, [circuito, modo, ultimo]);
+  useEffect(() => {
+    if (falta <= 0) {
+      ir();
+      return;
+    }
+    const to = setTimeout(() => setFalta(f => f - 1), 1000);
+    if (falta === 5) sfx.beep();
+    return () => clearTimeout(to);
+  }, [falta, ir]);
+  return (
+    <div className="absolute inset-0 z-50 flex items-center justify-center bg-[#1f2a44]/95 p-6 text-center text-white">
+      <div>
+        <div className="text-[13px] font-semibold tracking-wide text-white/70 uppercase">Prova OSCE · estação {circuito.i + 1} de {circuito.ids.length} concluída</div>
+        <div className="font-display mt-2 text-[34px] font-semibold">{ultimo ? 'Fim da prova' : 'Troca de estação'}</div>
+        {!ultimo && <div className="mt-4 font-mono text-[64px] font-bold tabular">{falta}s</div>}
+        <p className="mx-auto mt-2 max-w-sm text-[14px] text-white/80">{ultimo ? 'Abrindo o relatório…' : 'A correção sai só no fim, como na prova. Respire e vá para a próxima porta.'}</p>
+        {!ultimo && <Button className="mt-5" onClick={ir}>Ir agora</Button>}
+      </div>
+    </div>
+  );
+}
+
+function Relatorio({ chave }: { chave: string }) {
+  const k = PROVA_KEY + chave;
+  const [lista, setLista] = useState<ProvaEntrada[]>(() => storage.read<ProvaEntrada[]>(k) ?? []);
+  const [aberta, setAberta] = useState<string | null>(null);
+  const setNota = (key: string, i: number, st: Status) => {
+    const nova = lista.map(x => (x.key === key ? { ...x, notas: { ...x.notas, [i]: st } } : x));
+    setLista(nova);
+    storage.write(k, nova);
+    const x = nova.find(y => y.key === key)!;
+    const e = ESTACOES.find(y => y.id === x.id)!;
+    const r = corrigir(e, x.t, x.notas);
+    osceHistory.save({ key, id: e.id, date: Date.now(), nota: r.nota, pendentes: r.pendentes, modo: 'prova', circuito: chave, falhas: falhas(e, x.t, r.itens) });
+  };
+  const linhas = lista.map(x => {
+    const e = ESTACOES.find(y => y.id === x.id)!;
+    return { x, e, r: corrigir(e, x.t, x.notas) };
+  });
+  if (!linhas.length) return <div className="p-10 text-center">Relatório não encontrado. <a className="text-accent underline" href={href('osce')}>Voltar</a></div>;
+  const media = Math.round(linhas.reduce((a, l) => a + l.r.nota, 0) / linhas.length);
+  const porSis = [...new Set(linhas.map(l => l.e.sistema))].map(s => {
+    const ls = linhas.filter(l => l.e.sistema === s);
+    return { s, n: Math.round(ls.reduce((a, l) => a + l.r.nota, 0) / ls.length) };
+  });
+  const pend = linhas.reduce((a, l) => a + l.r.pendentes, 0);
+  return (
+    <div className="fixed inset-0 overflow-y-auto bg-bg">
+      <div className="mx-auto max-w-3xl px-4 pt-6 pb-16">
+        <a href={href('osce')} className="mb-4 inline-flex items-center gap-2 text-[14px] text-ink-2 hover:text-ink"><ArrowLeft className="size-4" /> Simulador OSCE</a>
+        <div className="mb-6 flex items-center gap-5">
+          <Ring value={media} size={96} stroke={8} color={media >= 70 ? 'var(--good)' : media >= 50 ? 'var(--warn)' : 'var(--bad)'}>
+            <span className="font-display text-[28px] font-semibold">{media}</span>
+          </Ring>
+          <div>
+            <div className="text-[12px] font-medium text-ink-3 uppercase">Prova OSCE completa · {linhas.length} estações</div>
+            <h1 className="font-display text-[26px] font-semibold">Relatório da prova</h1>
+            {pend > 0 ? <p className="text-[13.5px] text-warn">Abra cada estação e confirme {pend} resposta(s) verbal(is) para fechar a nota.</p> : <p className="text-[13.5px] text-ink-2">Todas as respostas avaliadas.</p>}
+          </div>
+        </div>
+        <div className="mb-6 grid grid-cols-2 gap-2 sm:grid-cols-3">
+          {porSis.map(p => (
+            <div key={p.s} className="rounded-2xl border border-line bg-surface p-3">
+              <div className="text-[12px] text-ink-3">{nomeSistema(p.s)}</div>
+              <div className={cx('font-display text-[24px] font-semibold', p.n >= 70 ? 'text-good' : p.n >= 50 ? 'text-warn' : 'text-bad')}>{p.n}%</div>
+            </div>
+          ))}
+        </div>
+        <div className="space-y-3">
+          {linhas.map(({ x, e, r }, n) => (
+            <div key={x.key} className="rounded-2xl border border-line bg-surface">
+              <button type="button" onClick={() => setAberta(a => (a === x.key ? null : x.key))} className="flex w-full items-center gap-3 px-4 py-3 text-left">
+                <span className="font-mono text-[13px] text-ink-3">{n + 1}</span>
+                <span className="flex-1">
+                  <span className="block text-[14.5px] font-medium">Estação {e.rotulo} · {nomeSistema(e.sistema)}</span>
+                  <span className="block text-[12.5px] text-ink-3">{e.titulo ?? ''}{r.pendentes ? ` · ${r.pendentes} para avaliar` : ''}</span>
+                </span>
+                <span className={cx('tabular font-semibold', r.nota >= 70 ? 'text-good' : r.nota >= 50 ? 'text-warn' : 'text-bad')}>{r.nota}%</span>
+                <ChevronDown className={cx('size-4 text-ink-3 transition', aberta === x.key && 'rotate-180')} />
+              </button>
+              {aberta === x.key && (
+                <div className="border-t border-line p-4">
+                  <Resultado embutido e={e} t={x.t} res={r} log={x.log} notas={x.notas} setNota={(i, st) => setNota(x.key, i, st)} circuito={null} />
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
