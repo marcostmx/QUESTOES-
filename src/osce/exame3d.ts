@@ -19,6 +19,16 @@ export const ANCORAS: Record<string, { g: Grupo; p: [number, number, number]; n:
   pulmonar: { g: 'torso', p: [0.06, 0.5, 0.115], n: [0, 0, 1] },
   tricuspide: { g: 'torso', p: [0.03, 0.36, 0.115], n: [0, 0, 1] },
   mitral: { g: 'torso', p: [0.11, 0.33, 0.115], n: [0, 0, 1] },
+  erb: { g: 'torso', p: [0.04, 0.44, 0.115], n: [0, 0, 1] },
+  'axila-e': { g: 'torso', p: [0.205, 0.38, 0.0], n: [1, 0, 0] },
+  'dorso-sd': { g: 'torso', p: [-0.09, 0.44, -0.115], n: [0, 0, -1] },
+  'dorso-se': { g: 'torso', p: [0.09, 0.44, -0.115], n: [0, 0, -1] },
+  'dorso-md': { g: 'torso', p: [-0.09, 0.32, -0.115], n: [0, 0, -1] },
+  'dorso-me': { g: 'torso', p: [0.09, 0.32, -0.115], n: [0, 0, -1] },
+  'dorso-id': { g: 'torso', p: [-0.09, 0.2, -0.105], n: [0, 0, -1] },
+  'dorso-ie': { g: 'torso', p: [0.09, 0.2, -0.105], n: [0, 0, -1] },
+  'torax-sd': { g: 'torso', p: [-0.09, 0.46, 0.115], n: [0, 0, 1] },
+  'torax-se': { g: 'torso', p: [0.09, 0.46, 0.115], n: [0, 0, 1] },
   dorso: { g: 'torso', p: [-0.05, 0.32, -0.115], n: [0, 0, -1] },
   lombar: { g: 'torso', p: [-0.1, 0.15, -0.105], n: [0, 0, -1] },
   pescoco: { g: 'head', p: [0, 0.03, 0.065], n: [0, 0, 1] },
@@ -36,6 +46,35 @@ export const ANCORAS: Record<string, { g: Grupo; p: [number, number, number]; n:
   'tornozelo-d': { g: 'kneeR', p: [0, -0.37, -0.08], n: [0, 0, -1] },
   'planta-d': { g: 'kneeR', p: [0, -0.47, 0.06], n: [0, -1, 0] },
 };
+
+export type Estilo = 'apoiar' | 'percutir' | 'palpar' | 'descomprimir' | 'martelar' | 'vibrar' | 'varrer';
+
+/** Manobras que percorrem vários pontos, na ordem do exame. */
+const ROTEIROS: [RegExp, string[]][] = [
+  [/^cv-focos/, ['aortico', 'pulmonar', 'erb', 'tricuspide', 'mitral']],
+  [/^cv-mitral/, ['mitral', 'axila-e']],
+  [/^cv-ao$/, ['aortico', 'carotida']],
+  [/^(resp-(ausc|perc|ftv|resson)|dt-(ausc-pulm|perc|ftv)|ur-ausc-pulm)/, ['dorso-sd', 'dorso-se', 'dorso-md', 'dorso-me', 'dorso-id', 'dorso-ie']],
+  [/^(resp-expans|dt-expans)/, ['dorso-id', 'dorso-ie']],
+  [/^(abd-(ausc|perc|palp-sup|palp-prof)|aa-(ausc|perc|palp))/, ['hipocondrio-d', 'hipocondrio-e', 'fie', 'fid']],
+  [/^cp-linfonodos/, ['orelha', 'carotida', 'pescoco']],
+];
+
+/** Como o instrumento se mexe. */
+export function estiloDe(id: string, f: Ferramenta): Estilo {
+  if (f === 'martelo') return 'martelar';
+  if (f === 'diapasao') return 'vibrar';
+  if (f === 'lanterna') return 'varrer';
+  if (f !== 'mao') return 'apoiar';
+  if (/blumberg/.test(id)) return 'descomprimir';
+  if (/perc|giordano|traube|hepatimetria|jobert|torres|piparote|macicez|skoda/.test(id)) return 'percutir';
+  return 'palpar';
+}
+
+export function roteiro(id: string): string[] | null {
+  for (const [rx, r] of ROTEIROS) if (rx.test(id)) return r;
+  return null;
+}
 
 /** Onde e com que instrumento cada manobra é feita (o restante cai na região). */
 const MAPA: [RegExp, string | null, Ferramenta][] = [

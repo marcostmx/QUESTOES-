@@ -1,7 +1,7 @@
 /* Estação OSCE imersiva: corredor → leitura (1 min) → sala (5 min) → checklist. */
 import { Component, useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  ArrowLeft, BedDouble, BookOpen, Check, Gauge, ListChecks, MessagesSquare, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
+  ArrowLeft, BedDouble, BookOpen, Check, Volume2, VolumeX, Gauge, ListChecks, MessagesSquare, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
 } from 'lucide-react';
 import data from '../data/osce/stations.json';
 import { href } from '../app/router';
@@ -18,6 +18,11 @@ import { sfx } from './sfx';
 import { Manometro } from './Manometro';
 import { Joystick } from './Joystick';
 import { Microfone } from './Microfone';
+import { padraoMotor } from './motor';
+import { somDaManobra, type Som } from './ausculta';
+import { AuscultaCard } from './AuscultaCard';
+import { voz } from './voz';
+import { achadosVisuais, vitais } from './visual';
 import { storage } from '../app/core/store';
 
 const ESTACOES = data as unknown as Estacao[];
@@ -57,7 +62,7 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     let w: World | null = null;
     try {
       w = new World(ref.current, {
-        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo,
+        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e), ...visual(e), estilo: storage.read<'blocos' | 'clinico'>('pr.v2.osce.visual') ?? 'blocos',
         onClick: a => cbs.current.onAlvo(a),
         onHover: a => cbs.current.onHover(a),
         onProx: p => cbs.current.onProx(p),
@@ -72,6 +77,19 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     };
   }, [e, worldRef, onFail]);
   return <canvas ref={ref} className="absolute inset-0 h-full w-full touch-none" />;
+}
+
+function visual(e: Estacao) {
+  const achados = achadosVisuais(e);
+  const tem = (...t: string[]) => achados.some(a => t.includes(a.tipo));
+  return {
+    achados,
+    vitais: vitais(e),
+    expor: {
+      abdome: e.sistema === 'abdome' || e.sistema === 'abdome-agudo' || tem('cullen', 'grey-turner', 'globoso', 'colateral', 'hernia', 'massa'),
+      torax: tem('tonel', 'pectus', 'vesiculas') || (e.paciente.sexo === 'M' && ['respiratorio', 'cardiovascular', 'dor-toracica'].includes(e.sistema)),
+    },
+  };
 }
 
 const REGIAO_CLIQUE: Record<Regiao, Regiao[]> = {
@@ -112,6 +130,10 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
   const [perguntadas, setPerguntadas] = useState<Set<string>>(new Set());
   const [mano, setMano] = useState<{ leitura: LeituraPA; inicio: number; braco: 'D' | 'E' } | null>(null);
   const [ocultaUltimo, setOcultaUltimo] = useState(0);
+  const [ausculta, setAusculta] = useState<{ som: Som; titulo: string; key: number } | null>(null);
+  const fecharAusculta = useCallback(() => setAusculta(null), []);
+  const contextoSom = useMemo(() => [e.achados, ...e.comandos.map(c => c.achado ?? '')].join('. '), [e]);
+  const vit = useMemo(() => vitais(e), [e]);
   const perguntas = useMemo(() => anamnese(e), [e]);
   const [painel, setPainel] = useState(false);
   const [hover, setHover] = useState<Alvo | null>(null);
@@ -200,7 +222,13 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
       clearTimeout(to);
     };
   }, [fala_]);
-  const diz = (txt: string) => txt && setFala({ txt, key: Date.now() });
+  const diz = (txt: string) => {
+    if (!txt) return;
+    setFala({ txt, key: Date.now() });
+    voz.falar(txt, e.paciente.sexo, e.paciente.idade);
+  };
+  const [vozOn, setVozOn] = useState(voz.ligada);
+  useEffect(() => () => voz.parar(), []);
 
   /* ----- tela cheia ----- */
   useEffect(() => {
@@ -255,6 +283,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
     if (!naSala()) return;
     setT(s => (s.abertura[k] != null ? s : { ...s, abertura: { ...s.abertura, [k]: sec() } }));
     worldRef.current?.gesture();
+    if (k === 'privacidade') worldRef.current?.fecharCortina();
     diz(fala(e, k));
   };
 
@@ -302,6 +331,8 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
       : 'Técnica/posição inadequada — reposicione e repita.';
     // regra do avaliador: só informa o achado se a manobra foi feita corretamente
     const texto = ok ? a.texto : 'Avaliador: “sem achados”.';
+    const som = ok ? somDaManobra(m.id, a.texto, vit.fc, e.paciente.fr, contextoSom, e.paciente.sexo === 'F') : null;
+    setAusculta(som ? { som, titulo: m.nome, key: Date.now() } : null);
     setLog(l => [{ key: Date.now(), nome: m.nome, texto, alterado: ok && a.alterado, aviso }, ...l]);
     if (ok && a.dor) diz('Ai! Aí dói, doutor(a)!');
     if (aviso) toast(treino ? 'Atenção à posição do paciente.' : 'Avaliador: sem achados.');
@@ -415,6 +446,12 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
         <div className="pointer-events-auto flex items-center gap-2">
           {fase !== 'resultado' && (
             <Button size="sm" aria-label="Tarefas" className="bg-white/90 shadow-card" icon={<ClipboardList className="size-4" />} onClick={() => setPainel(p => !p)}><span className="hidden sm:inline">Tarefas</span></Button>
+          )}
+          {voz.suportada() && (
+            <button type="button" aria-label={vozOn ? 'Desligar a voz do paciente' : 'Ligar a voz do paciente'} title={vozOn ? 'Voz do paciente: ligada' : 'Voz do paciente: desligada'}
+              onClick={() => setVozOn(voz.alternar())} className="flex size-9 items-center justify-center rounded-lg bg-white/90 shadow-card">
+              {vozOn ? <Volume2 className="size-4" /> : <VolumeX className="size-4" />}
+            </button>
           )}
           <button type="button" aria-label="Tela cheia (F)" title="Tela cheia (F)" onClick={() => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen?.().catch(() => {}))}
             className="hidden size-9 items-center justify-center rounded-lg bg-white/90 shadow-card sm:flex">
@@ -549,6 +586,11 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             ))}
           </div>
         </Folha>
+      )}
+
+      {/* estetoscópio */}
+      {ausculta && fase === 'estacao' && (
+        <AuscultaCard key={ausculta.key} som={ausculta.som} titulo={ausculta.titulo} mostrarFase={treino} onClose={fecharAusculta} />
       )}
 
       {/* esfigmomanômetro */}

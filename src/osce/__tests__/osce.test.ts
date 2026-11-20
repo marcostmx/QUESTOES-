@@ -105,4 +105,20 @@ describe('estações OSCE', () => {
     expect(tags).toContain('man:abd-murphy');
     expect(tags.some(x => x.startsWith('ab:'))).toBe(true);
   });
+
+  it('ausculta: o som segue o achado da estação', async () => {
+    const { somDaManobra } = await import('../ausculta');
+    const ea = somDaManobra('cv-ao', 'Sopro sistólico aórtico IV/VI; frêmito na região aórtica.');
+    expect(ea?.tipo === 'cardiaca' && ea.c.sopro).toEqual({ tipo: 'ejetivo', grau: 4 });
+    const em = somDaManobra('cv-pachon', 'Ruflar de baixa frequência no foco mitral, com estalido de abertura após B2.');
+    expect(em?.tipo === 'cardiaca' && em.c.sopro?.tipo).toBe('ruflar');
+    expect(em?.tipo === 'cardiaca' && em.c.estalido).toBe(true);
+    const cons = somDaManobra('resp-ausc', 'FTV aumentado, submacicez, respiração de tonalidade brônquica e estertores finos; expansibilidade reduzida');
+    expect(cons?.tipo === 'pulmonar' && cons.p).toMatchObject({ base: 'bronquico', finos: true, sibilos: false });
+    const ileo = somDaManobra('aa-ausc', 'Ruídos hidroaéreos abolidos.');
+    expect(ileo?.tipo === 'abdominal' && ileo.a.rha).toBe('abolidos');
+    const hcm = somDaManobra('cv-valsalva', 'O sopro aumenta na fase de esforço.', 76, 16, 'Sopro sistólico III/VI na borda esternal esquerda');
+    expect(hcm?.tipo === 'cardiaca' && hcm.c.sopro?.grau).toBe(4);
+    expect(somDaManobra('abd-murphy', 'qualquer coisa')).toBeNull();
+  });
 });

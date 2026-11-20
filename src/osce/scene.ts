@@ -1,7 +1,11 @@
 /* Cena 3D em blocos (estilo voxel original) do simulador OSCE — Three.js puro, sem React. */
 import * as THREE from 'three';
+import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import type { Postura, Regiao } from './maneuvers';
-import { ANCORAS, ferramenta3d, marcador, ondeExaminar } from './exame3d';
+import { ANCORAS, estiloDe, ferramenta3d, marcador, ondeExaminar, roteiro, type Estilo } from './exame3d';
+import { poseMarcha, RITMO, type PadraoMotor } from './motor';
+import { Cortina, desenhaAchados, Monitor } from './sala3d';
+import type { Achado3d, Vitais } from './visual';
 
 export type Alvo =
   | { kind: 'paciente'; regiao: Regiao }
@@ -17,6 +21,11 @@ export interface WorldOpts {
   padrao: 'normal' | 'cheyne' | 'kussmaul' | 'taquipneia';
   postura: Postura;
   numero: string;
+  motor?: PadraoMotor;
+  estilo?: 'blocos' | 'clinico';
+  achados?: Achado3d[];
+  vitais?: Vitais;
+  expor?: { abdome: boolean; torax: boolean };
   onClick: (a: Alvo) => void;
   onHover: (a: Alvo | null) => void;
   onProx: (p: Proximidade) => void;
@@ -29,10 +38,22 @@ const ROOM = { x0: -4.5, x1: 4.5, z0: -4.5, z1: 4 };
 const CORR = { x0: -7, x1: 7, z0: 4, z1: 7.6 };
 const DOOR_W = 1.3;
 
-const lambert = (color: number | string) => new THREE.MeshLambertMaterial({ color });
+/** Visual "clínico": formas arredondadas, materiais foscos e paleta hospitalar (definido ao criar o mundo). */
+let CLIN = false;
+const PALETA: Record<number, number> = {
+  0xf4efe6: 0xf1f4f7, 0x6aa7c9: 0x9db8cc, 0xe8e1d4: 0xeef1f4, 0x7cc46a: 0xd6dde4, 0xdfe8f0: 0xe9eef2, 0x2f4858: 0x5e6b75,
+  0x8a5a3c: 0x7d8790, 0x5b3b28: 0x5e6870, 0xa47148: 0xc9ced3, 0x6d4a2f: 0x8a939b, 0x7a4e2d: 0xb9c3cc,
+};
+const lambert = (color: number | string) => {
+  if (!CLIN) return new THREE.MeshLambertMaterial({ color });
+  const c = typeof color === 'number' ? PALETA[color] ?? color : color;
+  return new THREE.MeshStandardMaterial({ color: c, roughness: 0.78, metalness: 0.02 });
+};
 
 function box(w: number, h: number, d: number, mat: THREE.Material, x = 0, y = 0, z = 0) {
-  const m = new THREE.Mesh(new THREE.BoxGeometry(w, h, d), mat);
+  const r = Math.min(w, h, d) * 0.3;
+  const geo = CLIN && r > 0.004 ? new RoundedBoxGeometry(w, h, d, 3, r) : new THREE.BoxGeometry(w, h, d);
+  const m = new THREE.Mesh(geo, mat);
   m.position.set(x, y, z);
   m.castShadow = true;
   m.receiveShadow = true;
@@ -67,7 +88,7 @@ function checker(a: string, b: string, n = 8) {
   }
   const t = new THREE.CanvasTexture(c);
   t.colorSpace = THREE.SRGBColorSpace;
-  t.magFilter = THREE.NearestFilter;
+  t.magFilter = CLIN ? THREE.LinearFilter : THREE.NearestFilter;
   t.wrapS = t.wrapT = THREE.RepeatWrapping;
   return t;
 }
@@ -118,6 +139,7 @@ function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number
   }
   const head = new THREE.Group();
   head.position.y = 0.55;
+  if (CLIN) head.scale.setScalar(0.9);
   torso.add(head);
   head.add(tag('cabeca', box(0.12, 0.08, 0.12, pele, 0, 0.03, 0)));
   head.add(tag('cabeca', box(0.28, 0.28, 0.26, pele, 0, 0.21, 0)));
@@ -185,21 +207,32 @@ export class World {
   private ancoras = new Map<string, THREE.Object3D>();
   private ferr: THREE.Group | null = null;
   private anel = marcador();
-  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean } | null = null;
+  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean; seguir?: boolean;
+    pontos?: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3 }[]; passo?: number; estilo?: Estilo; idx?: number; dor?: boolean } | null = null;
   private lookCur = new THREE.Vector3(0, 0.8, 4);
   private dorT = 0;
+  private toraxZ = 1;
+  private cortina = new Cortina(MACA.x, MACA.z);
+  private monitor: Monitor;
+  private anim: { tipo: 'marcha' | 'romberg' | 'pull'; t: number; dur: number; x: number; dir: number; y: number; z: number } | null = null;
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
+    CLIN = o.estilo === 'clinico';
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+    if (CLIN) {
+      this.renderer.toneMapping = THREE.ACESFilmicToneMapping;
+      this.renderer.toneMappingExposure = 1.05;
+    }
     this.renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
     this.renderer.shadowMap.enabled = true;
     this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
     this.renderer.outputColorSpace = THREE.SRGBColorSpace;
-    this.scene.background = new THREE.Color(0xbfe3f5);
-    this.scene.fog = new THREE.Fog(0xbfe3f5, 18, 34);
+    const ceu = CLIN ? 0xe3e9ef : 0xbfe3f5;
+    this.scene.background = new THREE.Color(ceu);
+    this.scene.fog = new THREE.Fog(ceu, 18, 34);
     this.camera = new THREE.PerspectiveCamera(50, 1, 0.1, 80);
 
-    this.scene.add(new THREE.HemisphereLight(0xffffff, 0x8a7f70, 1.6));
+    this.scene.add(new THREE.HemisphereLight(0xffffff, CLIN ? 0x9aa3ab : 0x8a7f70, CLIN ? 1.9 : 1.6));
     const sun = new THREE.DirectionalLight(0xffffff, 1.5);
     sun.position.set(4, 9, 6);
     sun.castShadow = true;
@@ -216,9 +249,16 @@ export class World {
     this.player.root.traverse(m => m instanceof THREE.Mesh && (m.userData.regiao = undefined));
 
     const f = o.sexo === 'F';
-    this.patient = boneco({ pele: f ? 0xc68642 : 0xf1c27d, cabelo: f ? 0x2b1a10 : 0x5a3d2b, tronco: 0x9ccbe8, calca: 0x7fb0d0, sapato: 0xeeeeee, longo: f });
+    const pele = f ? 0xc68642 : 0xf1c27d;
+    this.patient = boneco({ pele, cabelo: f ? 0x2b1a10 : 0x5a3d2b, tronco: 0x9ccbe8, calca: 0x7fb0d0, sapato: 0xeeeeee, longo: f });
     this.scene.add(this.patient.root);
+    this.toraxZ = desenhaAchados(this.patient as never, o.achados ?? [], pele, o.expor ?? { abdome: false, torax: false });
     for (const [, ms] of this.patient.parts) for (const m of ms) this.clickables.push(m);
+    this.scene.add(this.cortina.grupo);
+    this.monitor = new Monitor(o.vitais ?? {});
+    this.monitor.grupo.position.set(MACA.x - 1.65, 0, MACA.z - 0.6);
+    this.monitor.grupo.rotation.y = 0.55;
+    this.scene.add(this.monitor.grupo);
     this.posture = o.postura;
     this.applyPosture(o.postura);
     for (const [nome, a] of Object.entries(ANCORAS)) {
@@ -260,13 +300,13 @@ export class World {
 
   /* ----- construção ----- */
   private buildRoom() {
-    const piso = new THREE.MeshLambertMaterial({ map: checker('#e9e4d8', '#ddd6c6') });
+    const piso = new THREE.MeshLambertMaterial({ map: CLIN ? checker('#e4e8ec', '#dde2e7') : checker('#e9e4d8', '#ddd6c6') });
     piso.map!.repeat.set(9, 8.5);
     const floor = new THREE.Mesh(new THREE.BoxGeometry(9, 0.1, 8.5), piso);
     floor.position.set(0, -0.05, -0.25);
     floor.receiveShadow = true;
     this.scene.add(floor);
-    const pisoC = new THREE.MeshLambertMaterial({ map: checker('#b9c7d6', '#aebdcd') });
+    const pisoC = new THREE.MeshLambertMaterial({ map: CLIN ? checker('#c9d3dc', '#c2ccd6') : checker('#b9c7d6', '#aebdcd') });
     pisoC.map!.repeat.set(14, 3.6);
     const corr = new THREE.Mesh(new THREE.BoxGeometry(14, 0.1, 3.6), pisoC);
     corr.position.set(0, -0.05, 5.8);
@@ -425,45 +465,157 @@ export class World {
     this.gestureT = 0.8;
   }
 
+  fecharCortina() {
+    this.cortina.fechar();
+  }
+
   /** Animação da manobra: instrumento no ponto do corpo, anel que pulsa e câmera em close. */
   examinar(id: string, regiao: Regiao, dor = false) {
     const { ancora, ferramenta } = ondeExaminar(id, regiao);
     this.pulse(regiao);
-    if (dor) this.dorT = 1.8;
     if (this.ferr) {
       this.scene.remove(this.ferr);
       this.ferr = null;
     }
     const pl = this.player.root.position;
-    let pos: THREE.Vector3;
-    let n: THREE.Vector3;
-    const a = ancora ? this.ancoras.get(ancora) : undefined;
     this.patient.root.updateMatrixWorld(true);
-    if (a) {
-      pos = a.getWorldPosition(new THREE.Vector3());
-      n = (a.userData.n as THREE.Vector3).clone().applyQuaternion(a.getWorldQuaternion(new THREE.Quaternion())).normalize();
-    } else {
-      pos = this.patient.chest.getWorldPosition(new THREE.Vector3());
-      n = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+    const nomes = ancora ? roteiro(id) ?? [ancora] : [];
+    const pontos = nomes.map(nm => this.ancoras.get(nm)).filter((x): x is THREE.Object3D => !!x).map(a => ({
+      pos: a.getWorldPosition(new THREE.Vector3()),
+      n: (a.userData.n as THREE.Vector3).clone().applyQuaternion(a.getWorldQuaternion(new THREE.Quaternion())).normalize(),
+    }));
+    const temPonto = pontos.length > 0;
+    if (!temPonto) {
+      const pos = this.patient.chest.getWorldPosition(new THREE.Vector3());
+      pontos.push({ pos, n: new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize() });
     }
-    const lado = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
-    const dist = a ? 0.75 : 2.3;
-    const dir = n.clone().add(new THREE.Vector3(0, 0.75, 0)).add(lado.multiplyScalar(0.55)).normalize();
-    const cam = pos.clone().add(dir.multiplyScalar(dist));
-    cam.y = Math.max(cam.y, 0.5);
-    if (a && ferramenta !== 'olhar') {
-      const f = ferramenta3d(ferramenta);
-      f.position.copy(pos).addScaledVector(n, 0.006);
-      f.lookAt(pos.clone().add(n));
-      this.scene.add(f);
-      this.ferr = f;
+    const camDe = (pos: THREE.Vector3, n: THREE.Vector3) => {
+      const lado = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+      const dir = n.clone().add(new THREE.Vector3(0, 0.75, 0)).add(lado.multiplyScalar(0.55)).normalize();
+      const cam = pos.clone().add(dir.multiplyScalar(temPonto ? 0.75 : 2.3));
+      cam.y = Math.max(cam.y, 0.5);
+      return cam;
+    };
+    const estilo = estiloDe(id, ferramenta);
+    if (temPonto && ferramenta !== 'olhar') {
+      this.ferr = ferramenta3d(ferramenta);
+      this.scene.add(this.ferr);
     }
-    this.anel.visible = !!a;
-    this.anel.position.copy(pos).addScaledVector(n, 0.012);
-    this.anel.lookAt(pos.clone().add(n));
-    this.faceTo(pos);
+    this.anel.visible = temPonto;
+    const p0 = pontos[0];
+    this.faceTo(p0.pos);
     this.gestureT = 2.4;
-    this.close = { pos, n, cam, t: 3.2, total: 3.2, bate: ferramenta === 'martelo' || ferramenta === 'mao' };
+    const passo = pontos.length > 1 ? 1.1 : estilo === 'descomprimir' ? 2.6 : 3.2;
+    let dur = Math.max(3.2, passo * pontos.length);
+    if (estilo !== 'descomprimir' && dor) this.dorT = 1.8;
+    if (this.posture === 'pe' && /^(neu-(marcha|calcanhares)|cp-marcha)/.test(id)) dur = this.iniciaAnim('marcha', 7);
+    else if (this.posture === 'pe' && /romberg/.test(id)) dur = this.iniciaAnim('romberg', 5.5);
+    else if (this.posture === 'pe' && /pull/.test(id)) dur = this.iniciaAnim('pull', 3);
+    this.close = {
+      pos: p0.pos.clone(), n: p0.n.clone(), cam: camDe(p0.pos, p0.n), t: dur, total: dur, bate: false, seguir: !!this.anim,
+      pontos: pontos.map(p => ({ ...p, cam: camDe(p.pos, p.n) })), passo, estilo, idx: -1, dor,
+    };
+  }
+
+  /** Posiciona o instrumento no ponto atual, com o movimento do estilo. */
+  private moveFerramenta(c: NonNullable<World['close']>, tau: number) {
+    const f = this.ferr;
+    const p = c.pontos![c.idx];
+    let off = 0.006;
+    let lateral = 0;
+    let giro = 0;
+    switch (c.estilo) {
+      case 'percutir': off += 0.035 * Math.abs(Math.sin(tau * 10)); break;
+      case 'palpar': off = 0.004 + 0.026 * (0.5 + 0.5 * Math.cos(tau * 3)); break;
+      case 'descomprimir':
+        if (tau < 1.5) off = 0.032 - 0.028 * Math.min(1, tau / 1.3);
+        else {
+          off = 0.004 + Math.min(0.14, (tau - 1.5) * 0.9);
+          if (c.dor) {
+            this.dorT = 1.8;
+            c.dor = false;
+          }
+        }
+        break;
+      case 'martelar': giro = 0.9 * Math.max(0, Math.sin(tau * 5)); off = 0.01; break;
+      case 'vibrar': off += 0.002 * Math.sin(tau * 90); break;
+      case 'varrer': lateral = 0.16 * Math.max(0, 1 - tau / 0.9); off = 0.05; break;
+    }
+    this.anel.position.copy(p.pos).addScaledVector(p.n, 0.012);
+    this.anel.lookAt(p.pos.clone().add(p.n));
+    if (!f) return;
+    const tang = new THREE.Vector3().crossVectors(p.n, new THREE.Vector3(0, 1, 0));
+    if (tang.lengthSq() < 0.01) tang.set(1, 0, 0);
+    tang.normalize();
+    f.position.copy(p.pos).addScaledVector(p.n, off).addScaledVector(tang, lateral);
+    f.lookAt(f.position.clone().add(p.n));
+    if (giro) f.rotateX(-giro);
+    if (c.estilo === 'vibrar') f.rotateZ(0.04 * Math.sin(tau * 70));
+  }
+
+  private iniciaAnim(tipo: 'marcha' | 'romberg' | 'pull', dur: number) {
+    this.applyPosture('pe');
+    const r = this.patient.root.position;
+    this.anim = { tipo, t: 0, dur, x: r.x, dir: 1, y: r.y, z: r.z };
+    this.anel.visible = false;
+    if (this.ferr) {
+      this.scene.remove(this.ferr);
+      this.ferr = null;
+    }
+    return dur;
+  }
+
+  /** Marcha, Romberg e pull test do paciente; tremor de repouso contínuo. */
+  private animar(dt: number) {
+    const b = this.patient;
+    const m = this.o.motor;
+    const a = this.anim;
+    const t = this.clock.elapsedTime;
+    if (a) {
+      a.t += dt;
+      if (a.tipo === 'marcha') {
+        const tipo = m?.marcha ?? 'normal';
+        const { v, w } = RITMO[tipo];
+        a.x += a.dir * v * dt;
+        if (a.x > 1.4) a.dir = -1;
+        if (a.x < -1.4) a.dir = 1;
+        b.root.position.x = a.x;
+        b.root.position.z = a.z + 0.35 + (tipo === 'atáxica' ? 0.12 * Math.sin(a.t * 1.7) : 0);
+        b.root.rotation.set(0, a.dir > 0 ? Math.PI / 2 : -Math.PI / 2, 0);
+        const phi = a.t * w;
+        poseMarcha(b, tipo, m?.ladoMarcha ?? 'D', phi, a.t);
+        b.root.position.y = a.y + 0.02 * Math.abs(Math.sin(phi));
+      } else if (a.tipo === 'romberg') {
+        const r = m?.romberg;
+        const fechou = a.t > 1.2; // primeiro de olhos abertos, depois fechados
+        for (const o of b.olhos) o.scale.y = fechou ? 0.15 : 1;
+        let incl = 0.012 * Math.sin(a.t * 3.1);
+        if (fechou && r?.queda) {
+          const k = Math.min(1, (a.t - 1.2) / 2.2);
+          incl = 0.05 * Math.sin(a.t * 5) * (1 - k) + (r.lado === 'D' ? 1 : -1) * 0.32 * k * k;
+          b.armL.rotation.z = 0.7 * k;
+          b.armR.rotation.z = -0.7 * k;
+        } else if (fechou) incl = 0.02 * Math.sin(a.t * 3.4);
+        b.root.rotation.z = incl;
+      } else {
+        // pull test: puxado pelos ombros, recua e se recupera
+        const k = a.t < 0.9 ? Math.sin((a.t / 0.9) * Math.PI / 2) : Math.max(0, 1 - (a.t - 0.9) / 1.4);
+        b.root.position.z = a.z - 0.35 * k;
+        b.torso.rotation.x = -0.25 * k;
+        poseMarcha(b, 'normal', 'D', a.t * 9 * (a.t < 1.2 ? 1 : 0), a.t);
+        b.torso.rotation.x = -0.25 * k;
+      }
+      if (a.t >= a.dur) {
+        this.anim = null;
+        for (const o of b.olhos) o.scale.y = 1;
+        this.applyPosture(this.posture);
+      }
+      return;
+    }
+    if (m?.tremor) {
+      const arm = m.tremor === 'D' ? b.armR : b.armL;
+      arm.rotation.z = 0.06 * Math.sin(t * 2 * Math.PI * 5);
+    }
   }
 
   /** Caminha até um ponto e chama `then` ao chegar. */
@@ -530,6 +682,7 @@ export class World {
   private onDown = (e: PointerEvent) => {
     if (this.close) {
       this.close.t = Math.min(this.close.t, 0.15);
+      if (this.anim) this.anim.t = this.anim.dur;
       return;
     }
     const p = this.pick(e);
@@ -570,6 +723,7 @@ export class World {
       [PIA.x - 0.5, PIA.x + 0.5, PIA.z - 0.3, PIA.z + 0.3],
       [-3.4, -1.9, -3.0, -1.5],
       [-3.6, -3.0, -2.9, -2.3],
+      [MACA.x - 1.9, MACA.x - 1.4, MACA.z - 0.85, MACA.z - 0.35],
     ];
     if (this.posture === 'pe') boxes.push([MACA.x + 0.0, MACA.x + 0.4, MACA.z + 0.65, MACA.z + 1.05]);
     if (this.posture === 'sentado') boxes.push([MACA.x - 0.25, MACA.x + 0.25, MACA.z, MACA.z + 0.85]);
@@ -657,7 +811,7 @@ export class World {
       amp = c < 0.67 ? 0.1 * Math.sin((c / 0.67) * Math.PI) : 0;
     }
     const s = 1 + amp * (0.5 + 0.5 * Math.sin(t * w));
-    this.patient.chest.scale.set(1 + (s - 1) * 0.3, 1, s);
+    this.patient.chest.scale.set(1 + (s - 1) * 0.3, 1, s * this.toraxZ);
   }
 
   private prox() {
@@ -698,6 +852,9 @@ export class World {
     const dt = Math.min(0.1, this.clock.getDelta());
     this.step(dt);
     this.breathe();
+    this.animar(dt);
+    this.cortina.passo(dt);
+    this.monitor.passo(dt);
     this.prox();
     const want = this.doorOpen ? -Math.PI / 2 : 0;
     this.door.rotation.y += (want - this.door.rotation.y) * 0.08;
@@ -717,13 +874,27 @@ export class World {
       // close no ponto examinado
       const c = this.close;
       c.t -= dt;
+      if (c.seguir) {
+        this.patient.chest.getWorldPosition(c.pos);
+        c.cam.set(c.pos.x * 0.5, 2.4, c.pos.z + 3.0);
+      }
       const k1 = 1 - Math.exp(-dt * 7);
       this.camera.position.lerp(c.cam, k1);
       this.lookCur.lerp(c.pos, Math.min(1, k1 * 1.4));
       this.camera.lookAt(this.lookCur);
       const k = 1 + 0.25 * Math.sin(this.clock.elapsedTime * 8);
       this.anel.scale.setScalar(k);
-      if (this.ferr && c.bate) this.ferr.position.copy(c.pos).addScaledVector(c.n, 0.006 + Math.max(0, Math.sin(this.clock.elapsedTime * 9)) * 0.02);
+      if (c.pontos && !c.seguir) {
+        const dec = c.total - c.t;
+        const idx = Math.min(c.pontos.length - 1, Math.floor(dec / c.passo!));
+        if (idx !== c.idx) {
+          c.idx = idx;
+          c.pos.copy(c.pontos[idx].pos);
+          c.n.copy(c.pontos[idx].n);
+          c.cam.copy(c.pontos[idx].cam);
+        }
+        this.moveFerramenta(c, dec - idx * c.passo!);
+      }
       if (c.t <= 0) {
         this.close = null;
         this.anel.visible = false;
