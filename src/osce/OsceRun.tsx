@@ -18,6 +18,7 @@ import { sfx } from './sfx';
 import { Manometro } from './Manometro';
 import { Joystick } from './Joystick';
 import { Microfone } from './Microfone';
+import { padraoMotor } from './motor';
 import { storage } from '../app/core/store';
 
 const ESTACOES = data as unknown as Estacao[];
@@ -57,7 +58,7 @@ function Palco({ e, worldRef, onAlvo, onHover, onProx, onFail }: {
     let w: World | null = null;
     try {
       w = new World(ref.current, {
-        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo,
+        sexo: e.paciente.sexo, fr: e.paciente.fr, padrao: e.paciente.padrao, postura: e.paciente.postura, numero: e.rotulo, motor: padraoMotor(e),
         onClick: a => cbs.current.onAlvo(a),
         onHover: a => cbs.current.onHover(a),
         onProx: p => cbs.current.onProx(p),

@@ -2,6 +2,7 @@
 import * as THREE from 'three';
 import type { Postura, Regiao } from './maneuvers';
 import { ANCORAS, ferramenta3d, marcador, ondeExaminar } from './exame3d';
+import { poseMarcha, RITMO, type PadraoMotor } from './motor';
 
 export type Alvo =
   | { kind: 'paciente'; regiao: Regiao }
@@ -17,6 +18,7 @@ export interface WorldOpts {
   padrao: 'normal' | 'cheyne' | 'kussmaul' | 'taquipneia';
   postura: Postura;
   numero: string;
+  motor?: PadraoMotor;
   onClick: (a: Alvo) => void;
   onHover: (a: Alvo | null) => void;
   onProx: (p: Proximidade) => void;
@@ -185,9 +187,10 @@ export class World {
   private ancoras = new Map<string, THREE.Object3D>();
   private ferr: THREE.Group | null = null;
   private anel = marcador();
-  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean } | null = null;
+  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean; seguir?: boolean } | null = null;
   private lookCur = new THREE.Vector3(0, 0.8, 4);
   private dorT = 0;
+  private anim: { tipo: 'marcha' | 'romberg' | 'pull'; t: number; dur: number; x: number; dir: number; y: number; z: number } | null = null;
 
   constructor(private canvas: HTMLCanvasElement, private o: WorldOpts) {
     this.renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
@@ -463,7 +466,76 @@ export class World {
     this.anel.lookAt(pos.clone().add(n));
     this.faceTo(pos);
     this.gestureT = 2.4;
-    this.close = { pos, n, cam, t: 3.2, total: 3.2, bate: ferramenta === 'martelo' || ferramenta === 'mao' };
+    let dur = 3.2;
+    if (this.posture === 'pe' && /^(neu-(marcha|calcanhares)|cp-marcha)/.test(id)) dur = this.iniciaAnim('marcha', 7);
+    else if (this.posture === 'pe' && /romberg/.test(id)) dur = this.iniciaAnim('romberg', 5.5);
+    else if (this.posture === 'pe' && /pull/.test(id)) dur = this.iniciaAnim('pull', 3);
+    this.close = { pos, n, cam, t: dur, total: dur, bate: ferramenta === 'martelo' || ferramenta === 'mao', seguir: !!this.anim };
+  }
+
+  private iniciaAnim(tipo: 'marcha' | 'romberg' | 'pull', dur: number) {
+    this.applyPosture('pe');
+    const r = this.patient.root.position;
+    this.anim = { tipo, t: 0, dur, x: r.x, dir: 1, y: r.y, z: r.z };
+    this.anel.visible = false;
+    if (this.ferr) {
+      this.scene.remove(this.ferr);
+      this.ferr = null;
+    }
+    return dur;
+  }
+
+  /** Marcha, Romberg e pull test do paciente; tremor de repouso contínuo. */
+  private animar(dt: number) {
+    const b = this.patient;
+    const m = this.o.motor;
+    const a = this.anim;
+    const t = this.clock.elapsedTime;
+    if (a) {
+      a.t += dt;
+      if (a.tipo === 'marcha') {
+        const tipo = m?.marcha ?? 'normal';
+        const { v, w } = RITMO[tipo];
+        a.x += a.dir * v * dt;
+        if (a.x > 1.4) a.dir = -1;
+        if (a.x < -1.4) a.dir = 1;
+        b.root.position.x = a.x;
+        b.root.position.z = a.z + 0.35 + (tipo === 'atáxica' ? 0.12 * Math.sin(a.t * 1.7) : 0);
+        b.root.rotation.set(0, a.dir > 0 ? Math.PI / 2 : -Math.PI / 2, 0);
+        const phi = a.t * w;
+        poseMarcha(b, tipo, m?.ladoMarcha ?? 'D', phi, a.t);
+        b.root.position.y = a.y + 0.02 * Math.abs(Math.sin(phi));
+      } else if (a.tipo === 'romberg') {
+        const r = m?.romberg;
+        const fechou = a.t > 1.2; // primeiro de olhos abertos, depois fechados
+        for (const o of b.olhos) o.scale.y = fechou ? 0.15 : 1;
+        let incl = 0.012 * Math.sin(a.t * 3.1);
+        if (fechou && r?.queda) {
+          const k = Math.min(1, (a.t - 1.2) / 2.2);
+          incl = 0.05 * Math.sin(a.t * 5) * (1 - k) + (r.lado === 'D' ? 1 : -1) * 0.32 * k * k;
+          b.armL.rotation.z = 0.7 * k;
+          b.armR.rotation.z = -0.7 * k;
+        } else if (fechou) incl = 0.02 * Math.sin(a.t * 3.4);
+        b.root.rotation.z = incl;
+      } else {
+        // pull test: puxado pelos ombros, recua e se recupera
+        const k = a.t < 0.9 ? Math.sin((a.t / 0.9) * Math.PI / 2) : Math.max(0, 1 - (a.t - 0.9) / 1.4);
+        b.root.position.z = a.z - 0.35 * k;
+        b.torso.rotation.x = -0.25 * k;
+        poseMarcha(b, 'normal', 'D', a.t * 9 * (a.t < 1.2 ? 1 : 0), a.t);
+        b.torso.rotation.x = -0.25 * k;
+      }
+      if (a.t >= a.dur) {
+        this.anim = null;
+        for (const o of b.olhos) o.scale.y = 1;
+        this.applyPosture(this.posture);
+      }
+      return;
+    }
+    if (m?.tremor) {
+      const arm = m.tremor === 'D' ? b.armR : b.armL;
+      arm.rotation.z = 0.06 * Math.sin(t * 2 * Math.PI * 5);
+    }
   }
 
   /** Caminha até um ponto e chama `then` ao chegar. */
@@ -530,6 +602,7 @@ export class World {
   private onDown = (e: PointerEvent) => {
     if (this.close) {
       this.close.t = Math.min(this.close.t, 0.15);
+      if (this.anim) this.anim.t = this.anim.dur;
       return;
     }
     const p = this.pick(e);
@@ -698,6 +771,7 @@ export class World {
     const dt = Math.min(0.1, this.clock.getDelta());
     this.step(dt);
     this.breathe();
+    this.animar(dt);
     this.prox();
     const want = this.doorOpen ? -Math.PI / 2 : 0;
     this.door.rotation.y += (want - this.door.rotation.y) * 0.08;
@@ -717,6 +791,10 @@ export class World {
       // close no ponto examinado
       const c = this.close;
       c.t -= dt;
+      if (c.seguir) {
+        this.patient.chest.getWorldPosition(c.pos);
+        c.cam.set(c.pos.x * 0.5, 2.4, c.pos.z + 3.0);
+      }
       const k1 = 1 - Math.exp(-dt * 7);
       this.camera.position.lerp(c.cam, k1);
       this.lookCur.lerp(c.pos, Math.min(1, k1 * 1.4));
