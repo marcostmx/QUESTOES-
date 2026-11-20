@@ -47,6 +47,9 @@ function korotkoff(fase: 1 | 2 | 3 | 4) {
   o.stop(c.currentTime + 0.25);
 }
 
+/** Contexto de áudio compartilhado (criado no primeiro toque). */
+export const audioCtx = () => ac();
+
 export const sfx = {
   korotkoff,
   tap: () => tone(660, 0.08, 'square', 0.05),

@@ -1,7 +1,7 @@
 /* Cena 3D em blocos (estilo voxel original) do simulador OSCE — Three.js puro, sem React. */
 import * as THREE from 'three';
 import type { Postura, Regiao } from './maneuvers';
-import { ANCORAS, ferramenta3d, marcador, ondeExaminar } from './exame3d';
+import { ANCORAS, estiloDe, ferramenta3d, marcador, ondeExaminar, roteiro, type Estilo } from './exame3d';
 import { poseMarcha, RITMO, type PadraoMotor } from './motor';
 import { Cortina, desenhaAchados, Monitor } from './sala3d';
 import type { Achado3d, Vitais } from './visual';
@@ -192,7 +192,8 @@ export class World {
   private ancoras = new Map<string, THREE.Object3D>();
   private ferr: THREE.Group | null = null;
   private anel = marcador();
-  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean; seguir?: boolean } | null = null;
+  private close: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3; t: number; total: number; bate: boolean; seguir?: boolean;
+    pontos?: { pos: THREE.Vector3; n: THREE.Vector3; cam: THREE.Vector3 }[]; passo?: number; estilo?: Estilo; idx?: number; dor?: boolean } | null = null;
   private lookCur = new THREE.Vector3(0, 0.8, 4);
   private dorT = 0;
   private toraxZ = 1;
@@ -451,45 +452,84 @@ export class World {
   examinar(id: string, regiao: Regiao, dor = false) {
     const { ancora, ferramenta } = ondeExaminar(id, regiao);
     this.pulse(regiao);
-    if (dor) this.dorT = 1.8;
     if (this.ferr) {
       this.scene.remove(this.ferr);
       this.ferr = null;
     }
     const pl = this.player.root.position;
-    let pos: THREE.Vector3;
-    let n: THREE.Vector3;
-    const a = ancora ? this.ancoras.get(ancora) : undefined;
     this.patient.root.updateMatrixWorld(true);
-    if (a) {
-      pos = a.getWorldPosition(new THREE.Vector3());
-      n = (a.userData.n as THREE.Vector3).clone().applyQuaternion(a.getWorldQuaternion(new THREE.Quaternion())).normalize();
-    } else {
-      pos = this.patient.chest.getWorldPosition(new THREE.Vector3());
-      n = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+    const nomes = ancora ? roteiro(id) ?? [ancora] : [];
+    const pontos = nomes.map(nm => this.ancoras.get(nm)).filter((x): x is THREE.Object3D => !!x).map(a => ({
+      pos: a.getWorldPosition(new THREE.Vector3()),
+      n: (a.userData.n as THREE.Vector3).clone().applyQuaternion(a.getWorldQuaternion(new THREE.Quaternion())).normalize(),
+    }));
+    const temPonto = pontos.length > 0;
+    if (!temPonto) {
+      const pos = this.patient.chest.getWorldPosition(new THREE.Vector3());
+      pontos.push({ pos, n: new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize() });
     }
-    const lado = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
-    const dist = a ? 0.75 : 2.3;
-    const dir = n.clone().add(new THREE.Vector3(0, 0.75, 0)).add(lado.multiplyScalar(0.55)).normalize();
-    const cam = pos.clone().add(dir.multiplyScalar(dist));
-    cam.y = Math.max(cam.y, 0.5);
-    if (a && ferramenta !== 'olhar') {
-      const f = ferramenta3d(ferramenta);
-      f.position.copy(pos).addScaledVector(n, 0.006);
-      f.lookAt(pos.clone().add(n));
-      this.scene.add(f);
-      this.ferr = f;
+    const camDe = (pos: THREE.Vector3, n: THREE.Vector3) => {
+      const lado = new THREE.Vector3(pl.x - pos.x, 0, pl.z - pos.z).normalize();
+      const dir = n.clone().add(new THREE.Vector3(0, 0.75, 0)).add(lado.multiplyScalar(0.55)).normalize();
+      const cam = pos.clone().add(dir.multiplyScalar(temPonto ? 0.75 : 2.3));
+      cam.y = Math.max(cam.y, 0.5);
+      return cam;
+    };
+    const estilo = estiloDe(id, ferramenta);
+    if (temPonto && ferramenta !== 'olhar') {
+      this.ferr = ferramenta3d(ferramenta);
+      this.scene.add(this.ferr);
     }
-    this.anel.visible = !!a;
-    this.anel.position.copy(pos).addScaledVector(n, 0.012);
-    this.anel.lookAt(pos.clone().add(n));
-    this.faceTo(pos);
+    this.anel.visible = temPonto;
+    const p0 = pontos[0];
+    this.faceTo(p0.pos);
     this.gestureT = 2.4;
-    let dur = 3.2;
+    const passo = pontos.length > 1 ? 1.1 : estilo === 'descomprimir' ? 2.6 : 3.2;
+    let dur = Math.max(3.2, passo * pontos.length);
+    if (estilo !== 'descomprimir' && dor) this.dorT = 1.8;
     if (this.posture === 'pe' && /^(neu-(marcha|calcanhares)|cp-marcha)/.test(id)) dur = this.iniciaAnim('marcha', 7);
     else if (this.posture === 'pe' && /romberg/.test(id)) dur = this.iniciaAnim('romberg', 5.5);
     else if (this.posture === 'pe' && /pull/.test(id)) dur = this.iniciaAnim('pull', 3);
-    this.close = { pos, n, cam, t: dur, total: dur, bate: ferramenta === 'martelo' || ferramenta === 'mao', seguir: !!this.anim };
+    this.close = {
+      pos: p0.pos.clone(), n: p0.n.clone(), cam: camDe(p0.pos, p0.n), t: dur, total: dur, bate: false, seguir: !!this.anim,
+      pontos: pontos.map(p => ({ ...p, cam: camDe(p.pos, p.n) })), passo, estilo, idx: -1, dor,
+    };
+  }
+
+  /** Posiciona o instrumento no ponto atual, com o movimento do estilo. */
+  private moveFerramenta(c: NonNullable<World['close']>, tau: number) {
+    const f = this.ferr;
+    const p = c.pontos![c.idx];
+    let off = 0.006;
+    let lateral = 0;
+    let giro = 0;
+    switch (c.estilo) {
+      case 'percutir': off += 0.035 * Math.abs(Math.sin(tau * 10)); break;
+      case 'palpar': off = 0.004 + 0.026 * (0.5 + 0.5 * Math.cos(tau * 3)); break;
+      case 'descomprimir':
+        if (tau < 1.5) off = 0.032 - 0.028 * Math.min(1, tau / 1.3);
+        else {
+          off = 0.004 + Math.min(0.14, (tau - 1.5) * 0.9);
+          if (c.dor) {
+            this.dorT = 1.8;
+            c.dor = false;
+          }
+        }
+        break;
+      case 'martelar': giro = 0.9 * Math.max(0, Math.sin(tau * 5)); off = 0.01; break;
+      case 'vibrar': off += 0.002 * Math.sin(tau * 90); break;
+      case 'varrer': lateral = 0.16 * Math.max(0, 1 - tau / 0.9); off = 0.05; break;
+    }
+    this.anel.position.copy(p.pos).addScaledVector(p.n, 0.012);
+    this.anel.lookAt(p.pos.clone().add(p.n));
+    if (!f) return;
+    const tang = new THREE.Vector3().crossVectors(p.n, new THREE.Vector3(0, 1, 0));
+    if (tang.lengthSq() < 0.01) tang.set(1, 0, 0);
+    tang.normalize();
+    f.position.copy(p.pos).addScaledVector(p.n, off).addScaledVector(tang, lateral);
+    f.lookAt(f.position.clone().add(p.n));
+    if (giro) f.rotateX(-giro);
+    if (c.estilo === 'vibrar') f.rotateZ(0.04 * Math.sin(tau * 70));
   }
 
   private iniciaAnim(tipo: 'marcha' | 'romberg' | 'pull', dur: number) {
@@ -823,7 +863,17 @@ export class World {
       this.camera.lookAt(this.lookCur);
       const k = 1 + 0.25 * Math.sin(this.clock.elapsedTime * 8);
       this.anel.scale.setScalar(k);
-      if (this.ferr && c.bate) this.ferr.position.copy(c.pos).addScaledVector(c.n, 0.006 + Math.max(0, Math.sin(this.clock.elapsedTime * 9)) * 0.02);
+      if (c.pontos && !c.seguir) {
+        const dec = c.total - c.t;
+        const idx = Math.min(c.pontos.length - 1, Math.floor(dec / c.passo!));
+        if (idx !== c.idx) {
+          c.idx = idx;
+          c.pos.copy(c.pontos[idx].pos);
+          c.n.copy(c.pontos[idx].n);
+          c.cam.copy(c.pontos[idx].cam);
+        }
+        this.moveFerramenta(c, dec - idx * c.passo!);
+      }
       if (c.t <= 0) {
         this.close = null;
         this.anel.visible = false;
