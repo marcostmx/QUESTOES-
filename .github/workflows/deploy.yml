@@ -1,20 +1,25 @@
-# Publica o app no Cloud Run (o mesmo serviço criado pelo Google AI Studio)
-# a cada push na main. Configuração única no GitHub (Settings → Secrets and variables → Actions):
-#   Secret   GCP_SA_KEY         JSON da conta de serviço com permissão de deploy
-#   Variable GCP_PROJECT_ID     ID do projeto do Google Cloud
-#   Variable GCP_REGION         região do serviço (ex.: us-west1)
-#   Variable CLOUD_RUN_SERVICE  nome do serviço no Cloud Run
-# Sem o secret, o workflow só roda a checagem e pula o deploy.
+# Publica o Estudo PR no Cloud Run (o mesmo serviço criado pelo Google AI Studio) automaticamente.
+#
+# - push na main ............................ checa e publica
+# - push na branch de trabalho (questoes-pr2) . checa, leva para a main (fast-forward) e publica
+#
+# Acesso ao Google Cloud sem chaves (Workload Identity Federation), configurado uma vez com
+# scripts/configurar-deploy-gcp.sh, que gera o deploy.config.json da raiz (nada nele é secreto).
+# Alternativa antiga: secret GCP_SA_KEY + variáveis GCP_PROJECT_ID, GCP_REGION e CLOUD_RUN_SERVICE.
 name: Deploy
 
 on:
   push:
-    branches: [main]
+    branches: [main, questoes-pr2]
   workflow_dispatch:
 
 concurrency:
   group: deploy
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  id-token: write
 
 jobs:
   check:
@@ -28,28 +33,79 @@ jobs:
       - run: npm ci
       - run: npm run check
 
-  deploy:
+  promote:
+    # leva a branch de trabalho para a main depois que a checagem passa
     needs: check
+    if: github.ref == 'refs/heads/questoes-pr2'
     runs-on: ubuntu-latest
-    env:
-      HAS_KEY: ${{ secrets.GCP_SA_KEY != '' }}
     steps:
-      - name: Sem credenciais — deploy ignorado
-        if: env.HAS_KEY != 'true'
-        run: echo "::notice::Configure o secret GCP_SA_KEY e as variáveis GCP_PROJECT_ID, GCP_REGION e CLOUD_RUN_SERVICE para publicar automaticamente."
       - uses: actions/checkout@v4
-        if: env.HAS_KEY == 'true'
+        with:
+          fetch-depth: 0
+      - name: Atualizar a main
+        run: |
+          git fetch origin main
+          if git merge-base --is-ancestor origin/main HEAD; then
+            git push origin HEAD:main
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898900+github-actions[bot]@users.noreply.github.com"
+            git checkout -B main origin/main
+            git merge --no-edit "$GITHUB_SHA"
+            git push origin main
+          fi
+
+  deploy:
+    needs: [check, promote]
+    if: always() && needs.check.result == 'success' && (needs.promote.result == 'success' || needs.promote.result == 'skipped')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Ler configuração
+        id: cfg
+        env:
+          HAS_KEY: ${{ secrets.GCP_SA_KEY != '' }}
+        run: |
+          if [ -f deploy.config.json ]; then
+            for k in projectId region service workloadIdentityProvider serviceAccount url; do
+              echo "$k=$(jq -r ".$k // empty" deploy.config.json)" >> "$GITHUB_OUTPUT"
+            done
+            echo "modo=wif" >> "$GITHUB_OUTPUT"
+          elif [ "$HAS_KEY" = "true" ]; then
+            echo "projectId=${{ vars.GCP_PROJECT_ID }}" >> "$GITHUB_OUTPUT"
+            echo "region=${{ vars.GCP_REGION }}" >> "$GITHUB_OUTPUT"
+            echo "service=${{ vars.CLOUD_RUN_SERVICE }}" >> "$GITHUB_OUTPUT"
+            echo "modo=chave" >> "$GITHUB_OUTPUT"
+          else
+            echo "modo=nenhum" >> "$GITHUB_OUTPUT"
+            echo "::notice::Deploy automático ainda não configurado: rode scripts/configurar-deploy-gcp.sh no Cloud Shell."
+          fi
       - uses: google-github-actions/auth@v2
-        if: env.HAS_KEY == 'true'
+        if: steps.cfg.outputs.modo == 'wif'
+        with:
+          workload_identity_provider: ${{ steps.cfg.outputs.workloadIdentityProvider }}
+          service_account: ${{ steps.cfg.outputs.serviceAccount }}
+      - uses: google-github-actions/auth@v2
+        if: steps.cfg.outputs.modo == 'chave'
         with:
           credentials_json: ${{ secrets.GCP_SA_KEY }}
       - uses: google-github-actions/setup-gcloud@v2
-        if: env.HAS_KEY == 'true'
+        if: steps.cfg.outputs.modo != 'nenhum'
       - name: Deploy no Cloud Run
-        if: env.HAS_KEY == 'true'
+        if: steps.cfg.outputs.modo != 'nenhum'
         run: |
-          gcloud run deploy "${{ vars.CLOUD_RUN_SERVICE }}" \
+          gcloud run deploy "${{ steps.cfg.outputs.service }}" \
             --source . \
-            --project "${{ vars.GCP_PROJECT_ID }}" \
-            --region "${{ vars.GCP_REGION }}" \
+            --project "${{ steps.cfg.outputs.projectId }}" \
+            --region "${{ steps.cfg.outputs.region }}" \
             --quiet
+          URL=$(gcloud run services describe "${{ steps.cfg.outputs.service }}" --project "${{ steps.cfg.outputs.projectId }}" --region "${{ steps.cfg.outputs.region }}" --format='value(status.url)')
+          echo "### Publicado: $URL" >> "$GITHUB_STEP_SUMMARY"
+      - name: Conferir se o site respondeu
+        if: steps.cfg.outputs.modo != 'nenhum'
+        run: |
+          URL=$(gcloud run services describe "${{ steps.cfg.outputs.service }}" --project "${{ steps.cfg.outputs.projectId }}" --region "${{ steps.cfg.outputs.region }}" --format='value(status.url)')
+          for i in 1 2 3 4 5; do curl -fsS "$URL/api/health" && exit 0; sleep 10; done
+          echo "::error::O site não respondeu em $URL/api/health"; exit 1
