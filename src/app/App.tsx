@@ -10,6 +10,7 @@ import { preferences, today, usePrefs, useStudy } from './core/store';
 import { useSync, startSync } from './core/sync';
 import { href, useRoute } from './router';
 import { cx, Loading } from './ui';
+import { CareerWatcher } from './components/CareerWatcher';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
@@ -392,6 +393,7 @@ export default function App() {
         </main>
       </div>
       <MobileNav current={route.path} />
+      <CareerWatcher />
       <GoalCelebration />
     </div>
   );

@@ -143,7 +143,7 @@ export interface Carreira {
   semanas: { dia: string; ativo: boolean; desafio: boolean }[];
 }
 
-const xpOsce = (r: CareerInput['osce'][number]) => Math.round((XP.osceBase + r.nota) * (r.modo === 'prova' ? XP.osceProva : 1));
+export const xpOsce = (r: Pick<CareerInput['osce'][number], 'nota' | 'modo'>) => Math.round((XP.osceBase + r.nota) * (r.modo === 'prova' ? XP.osceProva : 1));
 const xpSimulado = (e: CareerInput['exams'][number]) => e.questions * XP.simuladoPorQuestao + Math.round(e.grade * XP.simuladoBonusNota);
 
 export function carreira(inp: CareerInput): Carreira {
