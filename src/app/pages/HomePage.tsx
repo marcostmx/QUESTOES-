@@ -15,6 +15,7 @@ import { ResumeBanner } from './PracticePage';
 import { WeakSpots } from '../components/WeakSpots';
 import { PlanCard } from '../components/PlanCard';
 import { startSession } from './SessionPage';
+import { Selo, useCarreira } from './CareerPage';
 
 function greeting() {
   const h = new Date().getHours();
@@ -74,6 +75,8 @@ export default function HomePage() {
 
       <ResumeBanner />
       {bank.exam === CURRENT_EXAM && <PlanCard bank={bank} />}
+
+      <CarreiraResumo />
 
       <a href={href('osce')} className="mb-6 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
         <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><Gamepad2 className="size-5" /></span>
@@ -245,3 +248,24 @@ function QuickAction({ icon, title, text, onClick, disabled }: { icon: React.Rea
 }
 
 
+
+function CarreiraResumo() {
+  const k = useCarreira();
+  const { atual, progresso, indice } = k.rank;
+  return (
+    <a href={href('carreira')} className="mb-3 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
+      <Selo sigla={atual.sigla} indice={indice} size={44} />
+      <span className="min-w-0 flex-1">
+        <span className="flex items-baseline justify-between gap-2">
+          <span className="truncate text-[15px] font-semibold">{atual.nome}</span>
+          <span className="tabular shrink-0 text-[13px] text-ink-2">{k.xp.toLocaleString('pt-BR')} XP</span>
+        </span>
+        <Bar value={progresso} className="mt-2" />
+        <span className="mt-1.5 block truncate text-[12px] text-ink-2">
+          {k.desafio.feito ? '✓ Desafio do dia concluído' : `Desafio do dia: ${k.desafio.titulo}`}
+        </span>
+      </span>
+      <ArrowRight className="size-4 shrink-0 text-ink-3" />
+    </a>
+  );
+}

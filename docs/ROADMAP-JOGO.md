@@ -26,7 +26,9 @@ Regras fixas:
 
 ## Fila
 
-1. [ ] **Carreira e progressão**: XP por estação, questão e caso; níveis (Interno → R1 → R2 → R3 → Preceptor); conquistas; desafio do dia; sequência de dias. Tela "Carreira" no menu.
+1. [~] **Carreira e progressão**: XP por estação, questão e caso; níveis (Interno → R1 → R2 → R3 → Preceptor); conquistas; desafio do dia; sequência de dias. Tela "Carreira" no menu.
+   - Feito: XP derivado do histórico (questões, OSCE, simulados, desafios), 9 níveis, 17 conquistas, desafio do dia, sequência de 14 dias, card na tela Hoje.
+   - Falta: aviso animado ao subir de nível ou ganhar conquista; XP visível ao fim de cada estação de OSCE e sessão de questões.
 2. [ ] **Paciente com fisiologia viva**: vitais que mudam com o tempo e com as intervenções (O₂, acesso venoso, volume, drogas), com o monitor 3D reagindo. Um primeiro caso: choque séptico ou asma grave.
 3. [ ] **Plantão de pronto-socorro**: fila de pacientes chegando, triagem por cores (Manchester), escolha de quem atender, tempo de espera e piora clínica. Placar do plantão.
 4. [ ] **Diagnóstico por pistas**: pedir exames (laboratório, imagem, ECG) com custo e tempo, montar diagnósticos diferenciais, confirmar e tratar. Laudos e imagens próprios (desenhados em canvas ou SVG).
@@ -44,3 +46,4 @@ Regras fixas:
 ## Histórico
 
 - 2026-11-20 · Sala de OSCE em alta fidelidade (materiais com reflexos, luz dos painéis de LED, oclusão de ambiente, mobiliário detalhado).
+- 2026-11-21 · Carreira: tela com XP, níveis (Interno I → Professor titular), conquistas, desafio do dia e sequência; resumo na tela Hoje.
