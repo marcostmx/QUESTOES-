@@ -10,6 +10,7 @@ import {
   achado, anamnese, CLASSES_PA, cobertura, corrigir, ESTACAO_S, falhas, statusCobertura, sugestoes, fala, LEITURA_S, manobrasDoComando, nomePostura, nomeSistema, novaTentativa, statusPratico, temParteVerbal,
   type Abertura, type Estacao, type LeituraPA, type Status, type Tentativa,
 } from './engine';
+import { xpOsce } from '../app/core/career';
 import { osceHistory, useOsceHistory } from './history';
 import { COLAS } from './colas';
 import { doSistema, POSTURAS, REGIOES, type Manobra, type Postura, type Regiao } from './maneuvers';
@@ -859,7 +860,13 @@ function Resultado({ e, t, res, log, notas, setNota, onRefazer, onProxima, circu
             {res.pendentes > 0 ? (
               <p className="text-[13.5px] text-warn">Autoavalie {res.pendentes} item(ns) abaixo para fechar a nota.</p>
             ) : (
-              <p className="text-[13.5px] text-ink-2">Nota salva no seu histórico.</p>
+              <p className="text-[13.5px] text-ink-2">
+                Nota salva no seu histórico.{' '}
+                {(() => {
+                  const r = hist.find(x => x.id === e.id);
+                  return r ? <a href="#/carreira" className="ml-1 rounded-md bg-good-soft px-2 py-0.5 text-[12px] font-semibold text-good">+{xpOsce(r)} XP</a> : null;
+                })()}
+              </p>
             )}
             {e.fonte && <p className="text-[12px] text-ink-3">Fonte: {e.fonte}</p>}
           </div>
