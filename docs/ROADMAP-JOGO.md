@@ -24,24 +24,72 @@ Regras fixas:
 - Celular é prioridade: tudo jogável por toque.
 - Nunca commitar segredos. Nunca forçar push nem reescrever histórico.
 
-## Fila
+## Organização: por sistema
 
-1. [x] **Carreira e progressão**: XP por estação, questão e caso; níveis (Interno → R1 → R2 → R3 → Preceptor); conquistas; desafio do dia; sequência de dias. Tela "Carreira" no menu.
-   - Feito: XP derivado do histórico (questões, OSCE, simulados, desafios), 9 níveis, 17 conquistas, desafio do dia, sequência de 14 dias, card na tela Hoje.
-   - Também: aviso ao subir de nível ou desbloquear conquista (em qualquer tela) e XP no resultado da estação de OSCE.
-2. [ ] **Paciente com fisiologia viva**: vitais que mudam com o tempo e com as intervenções (O₂, acesso venoso, volume, drogas), com o monitor 3D reagindo. Um primeiro caso: choque séptico ou asma grave.
-3. [ ] **Plantão de pronto-socorro**: fila de pacientes chegando, triagem por cores (Manchester), escolha de quem atender, tempo de espera e piora clínica. Placar do plantão.
-4. [ ] **Diagnóstico por pistas**: pedir exames (laboratório, imagem, ECG) com custo e tempo, montar diagnósticos diferenciais, confirmar e tratar. Laudos e imagens próprios (desenhados em canvas ou SVG).
-5. [ ] **Minijogo de RCP**: compressões no ritmo (100–120/min), profundidade, troca a cada 2 min, ventilação 30:2, retorno da circulação.
-6. [ ] **Megacode ACLS**: ritmos no monitor (FV, TV sem pulso, AESP, assistolia, bradi e taquiarritmias), choque, adrenalina e amiodarona no tempo certo, com algoritmo de apoio no modo treino.
-7. [ ] **Procedimentos em minijogos**: punção venosa periférica, sondagem, sutura simples, gasometria arterial. Cada um com passos, materiais e erros comuns.
-8. [ ] **Prescrição**: montar a prescrição do caso, com dose, via, intervalo, alergias e interações (usando o banco de farmacologia).
-9. [ ] **Novos cenários 3D**: sala de emergência (box com carrinho de parada e desfibrilador), enfermaria, consultório de pediatria e de pré-natal.
-10. [ ] **Mais estações OSCE**: pediatria, gineco-obstetrícia, saúde mental, comunicação de más notícias.
-11. [ ] **Personagens e narrativa**: preceptores com personalidade, pacientes com história que volta em consultas futuras, falas com voz.
-12. [ ] **Ambiente e áudio**: som ambiente de hospital, passos, portas, monitores; animações de entrada e saída do paciente.
-13. [ ] **Ranking e modo desafio**: placar local, casos relâmpago com tempo, modo "sobrevivência" de questões.
-14. [ ] **Qualidade e desempenho**: ajuste de qualidade gráfica (alto, médio, baixo), carregamento sob demanda do 3D, acessibilidade (contraste, legendas, teclado).
+O jogo avança **um sistema de cada vez**. Cada sistema tem as mesmas camadas, nesta ordem:
+
+- **A · Caso vivo:** paciente com sinais vitais que mudam com o tempo e com as condutas (monitor, exames, drogas). No fim, um debriefing com acertos, erros e tempo de cada conduta.
+- **B · Exames:** ECG, radiografia, laboratório e gasometria desenhados no próprio app, com laudo para interpretar.
+- **C · Procedimento:** minijogo do procedimento típico do sistema.
+- **D · Plantão:** os casos do sistema entram na fila do pronto-socorro, com triagem de Manchester.
+- **E · OSCE:** completar as lacunas de estações do sistema.
+
+A **base comum** (motor de caso vivo, tela de monitor, debriefing, fila do plantão) nasce junto com o primeiro sistema e é reaproveitada pelos outros.
+Cada caso concluído dá XP e entra na Carreira.
+
+Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
+
+### 0. Base (pronto)
+- [x] Carreira: XP, níveis, conquistas, desafio do dia e sequência.
+- [x] Sala de OSCE 3D em primeira pessoa, em alta fidelidade.
+
+### 1. Cardiovascular (primeiro: mais conteúdo, e o monitor já existe)
+- [ ] 1A · Caso vivo: **IAM com supra de ST** (MOV, ECG em 10 min, AAS, anticoagulação, reperfusão no tempo, complicação com FV). Cria o motor de caso vivo e o debriefing.
+- [ ] 1B · Exames: **ECG de 12 derivações** desenhado (supra, infra, BAV, FA, flutter, TV, FV), com quiz de laudo.
+- [ ] 1C · Procedimento: **RCP de alta qualidade** (ritmo 100–120/min, 30:2, troca a cada 2 min) e **desfibrilação**.
+- [ ] 1A+ · Casos vivos: **Megacode ACLS** (FV/TV, AESP, assistolia), **bradicardia instável**, **taquicardia instável**, **edema agudo de pulmão**, **emergência hipertensiva**.
+- [ ] 1D · Plantão: dor torácica, síncope, palpitação.
+- [ ] 1E · OSCE: completar as lacunas (pulsos periféricos, sopros, dor torácica).
+
+### 2. Respiratório
+- [ ] 2A · Casos vivos: **asma grave**, **DPOC exacerbado**, **pneumonia com sepse**, **pneumotórax hipertensivo**, **TEP**.
+- [ ] 2B · Exames: **gasometria arterial** (com passo a passo de interpretação) e **radiografia de tórax**.
+- [ ] 2C · Procedimentos: **oxigenoterapia** (cateter, máscara, Venturi, reservatório), **sequência rápida de intubação**, **toracocentese de alívio**.
+- [ ] 2D · Plantão: dispneia, tosse com febre.
+- [ ] 2E · OSCE: completar as lacunas.
+
+### 3. Abdome e digestivo
+- [ ] 3A · Casos vivos: **apendicite**, **colecistite e colangite**, **pancreatite**, **hemorragia digestiva alta**, **obstrução intestinal**.
+- [ ] 3B · Exames: laboratório (hemograma, amilase e lipase, função hepática) e **radiografia de abdome**.
+- [ ] 3C · Procedimentos: **sondagem nasogástrica**, **paracentese**.
+- [ ] 3D · Plantão: dor abdominal, vômitos, sangramento.
+- [ ] 3E · OSCE: completar as lacunas (abdome agudo).
+
+### 4. Neurológico
+- [ ] 4A · Casos vivos: **AVC isquêmico** (janela de trombólise, NIHSS), **estado de mal epiléptico**, **rebaixamento de consciência** (Glasgow), **meningite**.
+- [ ] 4B · Exames: **TC de crânio** esquemática, líquor.
+- [ ] 4C · Procedimentos: **escala de Glasgow e NIHSS** jogáveis, **punção lombar**.
+- [ ] 4D · Plantão: déficit focal, convulsão, cefaleia.
+- [ ] 4E · OSCE: já é o sistema mais completo (79 estações); revisar e polir.
+
+### 5. Renal, urinário e metabólico
+- [ ] 5A · Casos vivos: **cetoacidose diabética**, **hipoglicemia**, **hipercalemia**, **lesão renal aguda**.
+- [ ] 5B · Exames: eletrólitos e **ECG da hipercalemia** (reaproveita o 1B).
+- [ ] 5C · Procedimento: **sondagem vesical**.
+- [ ] 5D · Plantão: oligúria, alteração de consciência no diabético.
+- [ ] 5E · OSCE: completar as lacunas (urinário).
+
+### 6. Trauma, pele, cabeça e pescoço
+- [ ] 6A · Casos vivos: **trauma pelo ABCDE** (ATLS), **choque hemorrágico**, **anafilaxia**.
+- [ ] 6C · Procedimentos: **sutura simples**, **acesso venoso periférico**.
+- [ ] 6E · OSCE: completar as lacunas (cabeça e pescoço, pele).
+
+### 7. Transversal (entra ao longo do caminho)
+- [ ] Plantão completo misturando os sistemas, com placar.
+- [ ] Prescrição com dose, via, alergias e interações.
+- [ ] Novos cenários 3D (sala de emergência, enfermaria) e o caso vivo dentro da sala 3D.
+- [ ] Personagens, narrativa, som ambiente.
+- [ ] Ranking, modos desafio, qualidade gráfica ajustável, acessibilidade.
 
 ## Histórico
 
