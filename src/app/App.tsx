@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, Gamepad2, Trophy, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, Gamepad2, Trophy, HeartPulse, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -25,6 +25,8 @@ const SearchPage = lazy(() => import('./pages/SearchPage'));
 const AccountPage = lazy(() => import('./pages/AccountPage'));
 const OscePage = lazy(() => import('./pages/OscePage'));
 const CareerPage = lazy(() => import('./pages/CareerPage'));
+const CasosPage = lazy(() => import('./pages/CasosPage'));
+const CasoRun = lazy(() => import('../casos/CasoRun'));
 const OsceRun = lazy(() => import('../osce/OsceRun'));
 const QuestionPage = lazy(() => import('./pages/QuestionPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -90,6 +92,7 @@ function useNav(): NavItem[] {
       { path: 'simulado', label: 'Simulado', icon: ClipboardList },
       { path: 'revisao', label: 'Revisão', icon: CalendarClock, badge: due },
       { path: 'osce', label: 'Simulador OSCE', icon: Gamepad2 },
+      { path: 'casos', label: 'Casos clínicos', icon: HeartPulse },
       { path: 'carreira', label: 'Carreira', icon: Trophy },
       { path: 'erros', label: 'Caderno de erros', icon: NotebookPen, badge: errors },
       { path: 'favoritos', label: 'Favoritos', icon: Bookmark },
@@ -307,6 +310,7 @@ function page(parts: string[]): ReactNode {
     case 'simulado': return <ExamPage />;
     case 'osce': return <OscePage />;
     case 'carreira': return <CareerPage />;
+    case 'casos': return <CasosPage />;
     case 'revisao': return <ReviewPage />;
     case 'erros': return <ErrorsPage />;
     case 'favoritos': return <FavoritesPage />;
@@ -362,6 +366,13 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [route.parts]);
 
+  if (route.parts[0] === 'casos' && route.parts[1]) {
+    return (
+      <Suspense fallback={<Loading label="Chamando o paciente…" />}>
+        <CasoRun key={route.path} id={route.parts[1]} />
+      </Suspense>
+    );
+  }
   if (route.parts[0] === 'osce' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Montando a estação…" />}>
