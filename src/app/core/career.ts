@@ -10,6 +10,7 @@ export interface CareerInput {
   days: Record<string, DayLog>;
   osce: { id: string; date: number; nota: number; modo?: 'prova' | 'treino' }[];
   exams: { date: number; grade: number; questions: number }[];
+  casos?: { id: string; date: number; nota: number }[];
   today: string;
 }
 
@@ -22,7 +23,10 @@ export const XP = {
   simuladoPorQuestao: 2,
   simuladoBonusNota: 10,
   desafio: 100,
+  casoBase: 30,
 };
+
+export const xpCaso = (r: { nota: number }) => XP.casoBase + r.nota;
 
 export interface Rank {
   id: string;
@@ -100,6 +104,8 @@ export interface Totais {
   simulados: number;
   simuladoMelhor: number;
   desafios: number;
+  casos: number;
+  casoMelhor: number;
 }
 
 export interface Conquista {
@@ -126,6 +132,8 @@ export const CONQUISTAS: Conquista[] = [
   { id: 'prova', titulo: 'Sob avaliação', descricao: 'Faça 5 estações em modo prova', medir: t => [t.osceProva, 5] },
   { id: 'simulado', titulo: 'Dia de prova', descricao: 'Entregue um simulado', medir: t => [t.simulados, 1] },
   { id: 'simulado8', titulo: 'Aprovado com folga', descricao: 'Tire 8 ou mais num simulado', medir: t => [Math.floor(t.simuladoMelhor * 10), 80] },
+  { id: 'caso1', titulo: 'Primeiro plantão', descricao: 'Conclua um caso clínico vivo', medir: t => [t.casos, 1] },
+  { id: 'caso90', titulo: 'Conduta de livro', descricao: 'Tire 90 ou mais num caso clínico vivo', medir: t => [t.casoMelhor, 90] },
   { id: 'desafio1', titulo: 'Desafio aceito', descricao: 'Complete um desafio do dia', medir: t => [t.desafios, 1] },
   { id: 'desafio10', titulo: 'Colecionador de desafios', descricao: 'Complete 10 desafios do dia', medir: t => [t.desafios, 10] },
 ];
@@ -134,7 +142,7 @@ export const CONQUISTAS: Conquista[] = [
 export interface Carreira {
   xp: number;
   xpHoje: number;
-  partes: { questoes: number; osce: number; simulados: number; desafios: number };
+  partes: { questoes: number; osce: number; simulados: number; desafios: number; casos: number };
   rank: ReturnType<typeof rankOf>;
   totais: Totais;
   desafio: { modelo: DesafioModelo; titulo: string; progresso: number; alvo: number; feito: boolean };
@@ -188,7 +196,14 @@ export function carreira(inp: CareerInput): Carreira {
     simulados += x;
     if (toDateKey(new Date(e.date)) === inp.today) xpHoje += x;
   }
-  const xp = questoes + osce + simulados + desafios;
+  let casos = 0;
+  const lc = inp.casos ?? [];
+  for (const r of lc) {
+    const x = xpCaso(r);
+    casos += x;
+    if (toDateKey(new Date(r.date)) === inp.today) xpHoje += x;
+  }
+  const xp = questoes + osce + simulados + desafios + casos;
 
   // sequências (dia ativo = respondeu questão ou fez OSCE)
   const ativo = (k: string) => {
@@ -222,6 +237,8 @@ export function carreira(inp: CareerInput): Carreira {
     simulados: inp.exams.length,
     simuladoMelhor: Math.max(0, ...inp.exams.map(e => e.grade)),
     desafios: nDesafios,
+    casos: lc.length,
+    casoMelhor: Math.max(0, ...lc.map(r => r.nota)),
   };
 
   const modelo = desafioDoDia(inp.today);
@@ -231,7 +248,7 @@ export function carreira(inp: CareerInput): Carreira {
   return {
     xp,
     xpHoje,
-    partes: { questoes, osce, simulados, desafios },
+    partes: { questoes, osce, simulados, desafios, casos },
     rank: rankOf(xp),
     totais,
     desafio: { modelo, titulo: modelo.titulo(modelo.alvo), progresso, alvo: modelo.alvo, feito: progresso >= modelo.alvo },

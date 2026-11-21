@@ -4,6 +4,7 @@ import { carreira, RANKS, XP } from '../core/career';
 import { useExamHistory } from '../core/exams';
 import { today, useStudy } from '../core/store';
 import { useOsceHistory } from '../../osce/history';
+import { useCasoHistory } from '../../casos/history';
 import { href } from '../router';
 import { Bar, Card, cx, PageHeader, Section } from '../ui';
 
@@ -14,7 +15,8 @@ export function useCarreira() {
   const data = useStudy();
   const osce = useOsceHistory();
   const exams = useExamHistory();
-  return useMemo(() => carreira({ days: data.days, osce, exams, today: today() }), [data.days, osce, exams]);
+  const casos = useCasoHistory();
+  return useMemo(() => carreira({ days: data.days, osce, exams, casos, today: today() }), [data.days, osce, exams, casos]);
 }
 
 /** Selo do nível (hexágono com a sigla) */
@@ -62,11 +64,12 @@ export default function CareerPage() {
             </p>
           </div>
         </div>
-        <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-5">
           {[
             ['Questões', k.partes.questoes],
             ['OSCE', k.partes.osce],
             ['Simulados', k.partes.simulados],
+            ['Casos', k.partes.casos],
             ['Desafios', k.partes.desafios],
           ].map(([n, v]) => (
             <div key={n} className="rounded-xl bg-surface-2 px-3 py-2.5">
@@ -156,6 +159,7 @@ export default function CareerPage() {
             <li className="flex items-center gap-1.5"><Stethoscope className="size-4" /> <b className="text-ink">+{XP.osceBase}</b> + a nota por estação de OSCE (×1,25 em modo prova)</li>
             <li><b className="text-ink">+{XP.simuladoPorQuestao}</b> por questão do simulado + <b className="text-ink">{XP.simuladoBonusNota}×</b> a nota</li>
             <li><b className="text-ink">+{XP.desafio}</b> por desafio do dia concluído</li>
+            <li><b className="text-ink">+{XP.casoBase}</b> + a nota por caso clínico vivo</li>
           </ul>
         </Card>
       </Section>
