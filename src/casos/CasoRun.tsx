@@ -98,7 +98,7 @@ function Jogo({ caso }: { caso: Caso }) {
               </span>
               <div className="min-w-0">
                 <p className="text-[14px] font-semibold">{e.quadro || 'Paciente acordado, ansioso.'}</p>
-                {e.v.pulso && <p className="text-[13px] text-ink-2">Dor {Math.round(e.v.dor)}/10</p>}
+                {e.v.pulso && (caso.triagem.dor ?? 0) > 0 && <p className="text-[13px] text-ink-2">Dor {Math.round(e.v.dor)}/10</p>}
               </div>
             </div>
           </Card>
