@@ -4,7 +4,7 @@
  * Cada caso define suas condutas, a fisiologia (tick) e as metas.
  */
 
-export type Ritmo = 'sinusal' | 'supra' | 'riva' | 'fv' | 'tv' | 'assistolia' | 'fa' | 'bradi';
+export type Ritmo = 'sinusal' | 'supra' | 'riva' | 'fv' | 'tv' | 'assistolia' | 'fa' | 'bradi' | 'mp';
 
 export interface Vitais {
   fc: number;

@@ -45,6 +45,15 @@ export function amostra(ritmo: Ritmo, tt: number, fc: number): number {
     }
     case 'assistolia':
       return 0.02 * Math.sin(tt * 3);
+    case 'bradi': {
+      // BAV total: P a 90/min dissociadas + escape ventricular largo na FC dada
+      const fp = (tt % (60 / 90)) / (60 / 90);
+      return 0.15 * g(fp, 0.5, 0.04) + 0.95 * g(f, 0.3, 0.03) - 0.35 * g(f, 0.36, 0.03) - 0.25 * g(f, 0.55, 0.06);
+    }
+    case 'mp': {
+      // marca-passo com captura: espícula + QRS largo
+      return 1.6 * g(f, 0.2, 0.002) + 0.9 * g(f, 0.25, 0.03) - 0.4 * g(f, 0.32, 0.03) - 0.3 * g(f, 0.52, 0.06);
+    }
     case 'fa': {
       const irr = 0.55 + 0.4 * Math.abs(Math.sin(Math.floor(tt / 0.7) * 12.9898));
       const h = (tt % irr) / irr;
