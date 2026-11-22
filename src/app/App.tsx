@@ -26,6 +26,7 @@ const AccountPage = lazy(() => import('./pages/AccountPage'));
 const OscePage = lazy(() => import('./pages/OscePage'));
 const CareerPage = lazy(() => import('./pages/CareerPage'));
 const CasosPage = lazy(() => import('./pages/CasosPage'));
+const EcgPage = lazy(() => import('./pages/EcgPage'));
 const CasoRun = lazy(() => import('../casos/CasoRun'));
 const OsceRun = lazy(() => import('../osce/OsceRun'));
 const QuestionPage = lazy(() => import('./pages/QuestionPage'));
@@ -311,6 +312,7 @@ function page(parts: string[]): ReactNode {
     case 'osce': return <OscePage />;
     case 'carreira': return <CareerPage />;
     case 'casos': return <CasosPage />;
+    case 'ecg': return <EcgPage />;
     case 'revisao': return <ReviewPage />;
     case 'erros': return <ErrorsPage />;
     case 'favoritos': return <FavoritesPage />;

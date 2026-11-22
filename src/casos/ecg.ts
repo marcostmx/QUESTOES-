@@ -1,5 +1,6 @@
 /** Desenho de ECG em canvas: traçado do monitor (varredura) e ECG de 12 derivações. */
 import type { Ritmo } from './motor';
+import { desenharPadrao, padraoPorId } from './ecgPadroes';
 
 const g = (x: number, mu: number, s: number) => Math.exp(-0.5 * ((x - mu) / s) ** 2);
 
@@ -75,77 +76,21 @@ export function derivacoes(figura: string): Record<string, Derivacao> {
   return out;
 }
 
-/** Desenha o ECG de 12 derivações (25 mm/s, 10 mm/mV) num canvas */
-export function desenhaECG12(cv: HTMLCanvasElement, figura: string, fc = 100) {
-  const W = cv.width, H = cv.height;
-  const c = cv.getContext('2d')!;
-  c.fillStyle = '#fff8f6';
-  c.fillRect(0, 0, W, H);
-  const mm = W / 260; // 260 mm de largura (10 s + margens)
-  c.lineWidth = 1;
-  for (let x = 0; x <= W; x += mm) {
-    const i = Math.round(x / mm);
-    c.strokeStyle = i % 5 ? 'rgba(232,140,140,0.25)' : 'rgba(220,90,90,0.5)';
-    c.beginPath();
-    c.moveTo(x, 0);
-    c.lineTo(x, H);
-    c.stroke();
-  }
-  for (let y = 0; y <= H; y += mm) {
-    const i = Math.round(y / mm);
-    c.strokeStyle = i % 5 ? 'rgba(232,140,140,0.25)' : 'rgba(220,90,90,0.5)';
-    c.beginPath();
-    c.moveTo(0, y);
-    c.lineTo(W, y);
-    c.stroke();
-  }
-  const ds = derivacoes(figura);
-  const linhas = [['I', 'aVR', 'V1', 'V4'], ['II', 'aVL', 'V2', 'V5'], ['III', 'aVF', 'V3', 'V6']];
-  const rr = 60 / fc;
-  const alturaLinha = H / 4;
-  const colW = (W - 10 * mm) / 4;
-  c.strokeStyle = '#111';
-  c.lineWidth = Math.max(1.2, mm * 0.28);
-  c.font = `600 ${Math.round(mm * 3.2)}px system-ui, sans-serif`;
-  c.fillStyle = '#111';
-  const traco = (d: Derivacao, x0: number, y0: number, w: number, t0: number) => {
-    c.beginPath();
-    for (let px = 0; px <= w; px += 1) {
-      const t = t0 + px / mm / 25;
-      const v = batimento((t % rr) / rr, d);
-      const y = y0 - v * 10 * mm;
-      px ? c.lineTo(x0 + px, y) : c.moveTo(x0 + px, y);
-    }
-    c.stroke();
-  };
-  // pulso de calibração
-  const cal = (y0: number) => {
-    c.beginPath();
-    c.moveTo(1 * mm, y0);
-    c.lineTo(2 * mm, y0);
-    c.lineTo(2 * mm, y0 - 10 * mm);
-    c.lineTo(7 * mm, y0 - 10 * mm);
-    c.lineTo(7 * mm, y0);
-    c.lineTo(8 * mm, y0);
-    c.stroke();
-  };
-  linhas.forEach((ls, i) => {
-    const y0 = alturaLinha * (i + 0.62);
-    cal(y0);
-    ls.forEach((nome, j) => {
-      const x0 = 9 * mm + j * colW;
-      traco(ds[nome], x0, y0, colW - mm, j * 2.5);
-      c.fillText(nome, x0 + mm, y0 - 12 * mm);
-      if (j) {
-        c.beginPath();
-        c.moveTo(x0, y0 - 3 * mm);
-        c.lineTo(x0, y0 + 3 * mm);
-        c.stroke();
-      }
+/** Desenha o ECG de 12 derivações de uma figura de caso ou de um padrão do catálogo */
+export function desenhaECG12(cv: HTMLCanvasElement, figura: string) {
+  const id = figura === 'ecg-supra-anterior' ? 'iam-anterior' : figura;
+  if (figura === 'ecg-reperfundido') {
+    const base = padraoPorId('iam-anterior');
+    desenharPadrao(cv, {
+      ...base,
+      id: 'reperfundido',
+      plano: () => ({ p: base.plano().p, qrs: base.plano().qrs }),
+      mod: (l, m) => {
+        const x = base.mod!(l, m);
+        return { ...x, st: x.st * 0.25, t: x.st > 0.1 ? -0.25 : x.t };
+      },
     });
-  });
-  const y0 = alturaLinha * 3.62;
-  cal(y0);
-  traco(ds.II, 9 * mm, y0, W - 10 * mm, 0);
-  c.fillText('II', 10 * mm, y0 - 12 * mm);
+    return;
+  }
+  desenharPadrao(cv, padraoPorId(id) ?? padraoPorId('normal'));
 }
