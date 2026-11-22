@@ -51,7 +51,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - [x] 1C · Procedimento: **RCP de alta qualidade** (ritmo 100–120/min, 30:2, troca a cada 2 min) e **desfibrilação**.
   - Feito: minijogo `#/rcp` (lógica em `src/casos/rcp.ts`): compressões por toque/espaço com régua de frequência, 30:2, metrônomo, pausas medidas, análise a cada ciclo, carregar/afastem-se/chocar, adrenalina após o 2º choque, retorno da circulação e debriefing com 5 metas.
 - [~] 1A+ · Casos vivos: **Megacode ACLS** (FV/TV, AESP, assistolia), **bradicardia instável**, **taquicardia instável**, **edema agudo de pulmão**, **emergência hipertensiva**.
-  - Feito: bradicardia instável (BAV total por betabloqueador; atropina, marca-passo transcutâneo com analgesia, dopamina, causas reversíveis). Falta: megacode, taquicardia instável, EAP, emergência hipertensiva.
+  - Feito: bradicardia instável (BAV total por betabloqueador; atropina, marca-passo transcutâneo com analgesia, dopamina, causas reversíveis). Taquicardia instável (TV monomórfica com pulso: cardioversão sincronizada 100 J com sedação; choque não sincronizado gera FV; K/Mg; amiodarona pós-reversão). Falta: megacode, EAP, emergência hipertensiva.
 - [ ] 1D · Plantão: dor torácica, síncope, palpitação.
 - [ ] 1E · OSCE: completar as lacunas (pulsos periféricos, sopros, dor torácica).
 
@@ -104,3 +104,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-22 · 1B: Treino de ECG com 18 padrões de 12 derivações (quiz e atlas), XP na Carreira.
 - 2026-11-22 · 1C: minijogo de RCP e desfibrilação (frequência, fração de compressão, pausas, choque seguro, adrenalina), XP na Carreira.
 - 2026-11-22 · 1A+: caso vivo de bradicardia instável (BAV total), com ritmo de marca-passo no monitor.
+- 2026-11-22 · 1A+: caso vivo de taquicardia instável (TV com pulso, cardioversão sincronizada); alarmes de TV e marca-passo no monitor.

@@ -1,8 +1,9 @@
 import type { Caso } from './motor';
 import { BRADI } from './bradi';
 import { IAM } from './iam';
+import { TAQUI } from './taqui';
 
-export const CASOS: Caso[] = [IAM, BRADI];
+export const CASOS: Caso[] = [IAM, BRADI, TAQUI];
 
 export const SISTEMAS_CASO: { id: Caso['sistema']; nome: string }[] = [
   { id: 'cardiovascular', nome: 'Cardiovascular' },

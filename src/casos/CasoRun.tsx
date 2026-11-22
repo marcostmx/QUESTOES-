@@ -251,7 +251,7 @@ function Monitor({ e, caso }: { e: Estado; caso: Caso }) {
     <div className="overflow-hidden rounded-2xl bg-[#061015] text-white">
       <div className="flex items-center justify-between px-4 pt-3 text-[11px] text-white/50">
         <span>II · 25 mm/s</span>
-        <span>{v.ritmo === 'fv' ? 'ALARME: FV' : v.ritmo === 'riva' ? 'RIVA' : ''}</span>
+        <span>{v.ritmo === 'fv' ? 'ALARME: FV' : v.ritmo === 'tv' ? 'ALARME: TAQUICARDIA VENTRICULAR' : v.ritmo === 'riva' ? 'RIVA' : v.ritmo === 'mp' ? 'MARCA-PASSO · captura' : ''}</span>
       </div>
       <canvas ref={cv} width={900} height={170} className="block h-[120px] w-full sm:h-[150px]" />
       <div className="grid grid-cols-[0.8fr_1.5fr_0.8fr_0.7fr] gap-2 px-4 pt-1 pb-4">
