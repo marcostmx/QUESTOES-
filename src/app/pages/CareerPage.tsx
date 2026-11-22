@@ -5,6 +5,7 @@ import { useExamHistory } from '../core/exams';
 import { today, useStudy } from '../core/store';
 import { useOsceHistory } from '../../osce/history';
 import { useCasoHistory } from '../../casos/history';
+import { useEcgHistory } from './EcgPage';
 import { href } from '../router';
 import { Bar, Card, cx, PageHeader, Section } from '../ui';
 
@@ -16,7 +17,8 @@ export function useCarreira() {
   const osce = useOsceHistory();
   const exams = useExamHistory();
   const casos = useCasoHistory();
-  return useMemo(() => carreira({ days: data.days, osce, exams, casos, today: today() }), [data.days, osce, exams, casos]);
+  const ecg = useEcgHistory();
+  return useMemo(() => carreira({ days: data.days, osce, exams, casos, ecg, today: today() }), [data.days, osce, exams, casos, ecg]);
 }
 
 /** Selo do nível (hexágono com a sigla) */
@@ -64,12 +66,13 @@ export default function CareerPage() {
             </p>
           </div>
         </div>
-        <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-5">
+        <div className="mt-5 grid grid-cols-2 gap-3 sm:grid-cols-3">
           {[
             ['Questões', k.partes.questoes],
             ['OSCE', k.partes.osce],
             ['Simulados', k.partes.simulados],
             ['Casos', k.partes.casos],
+            ['ECG', k.partes.ecg],
             ['Desafios', k.partes.desafios],
           ].map(([n, v]) => (
             <div key={n} className="rounded-xl bg-surface-2 px-3 py-2.5">
@@ -160,6 +163,7 @@ export default function CareerPage() {
             <li><b className="text-ink">+{XP.simuladoPorQuestao}</b> por questão do simulado + <b className="text-ink">{XP.simuladoBonusNota}×</b> a nota</li>
             <li><b className="text-ink">+{XP.desafio}</b> por desafio do dia concluído</li>
             <li><b className="text-ink">+{XP.casoBase}</b> + a nota por caso clínico vivo</li>
+            <li><b className="text-ink">+{XP.ecgAcerto}</b> por ECG acertado no treino</li>
           </ul>
         </Card>
       </Section>

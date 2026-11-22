@@ -46,7 +46,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 ### 1. Cardiovascular (primeiro: mais conteúdo, e o monitor já existe)
 - [x] 1A · Caso vivo: **IAM com supra de ST** (MOV, ECG em 10 min, AAS, anticoagulação, reperfusão no tempo, complicação com FV). Cria o motor de caso vivo e o debriefing.
   - Feito: motor (`src/casos/motor.ts`), monitor com traçado em tempo real, ECG de 12 derivações desenhado, 8 metas com prazo, condutas inadequadas, FV se a fibrinólise atrasar, debriefing, XP na Carreira. Tela "Casos clínicos" no menu.
-- [ ] 1B · Exames: **ECG de 12 derivações** desenhado (supra, infra, BAV, FA, flutter, TV, FV), com quiz de laudo.
+- [x] 1B · Exames: **ECG de 12 derivações** desenhado (supra, infra, BAV, FA, flutter, TV, FV), com quiz de laudo.
+  - Feito: gerador por padrão (`src/casos/ecgPadroes.ts`) com 18 padrões (sinusal, taqui/bradi, FA, flutter, TSV, TV, FV, BAV 1º, Mobitz I e II, BAVT, BRD, BRE, IAM anterior e inferior, hipercalemia, pericardite); tela Treino de ECG (quiz de 8 + atlas), XP e conquista "Leitor de ECG".
 - [ ] 1C · Procedimento: **RCP de alta qualidade** (ritmo 100–120/min, 30:2, troca a cada 2 min) e **desfibrilação**.
 - [ ] 1A+ · Casos vivos: **Megacode ACLS** (FV/TV, AESP, assistolia), **bradicardia instável**, **taquicardia instável**, **edema agudo de pulmão**, **emergência hipertensiva**.
 - [ ] 1D · Plantão: dor torácica, síncope, palpitação.
@@ -98,3 +99,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-21 · Carreira: tela com XP, níveis (Interno I → Professor titular), conquistas, desafio do dia e sequência; resumo na tela Hoje.
 - 2026-11-21 · Carreira: aviso de nível e conquista; XP no resultado do OSCE. Item 1 concluído.
 - 2026-11-22 · 1A: caso vivo de IAM com supra de ST (motor de caso vivo, monitor, ECG de 12 derivações, debriefing, XP). Roteiro reorganizado por sistema.
+- 2026-11-22 · 1B: Treino de ECG com 18 padrões de 12 derivações (quiz e atlas), XP na Carreira.

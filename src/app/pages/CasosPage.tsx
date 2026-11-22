@@ -1,4 +1,4 @@
-import { ArrowRight, HeartPulse, Lock } from 'lucide-react';
+import { Activity, ArrowRight, HeartPulse, Lock } from 'lucide-react';
 import { CASOS, SISTEMAS_CASO } from '../../casos/catalogo';
 import { useCasoHistory } from '../../casos/history';
 import { href } from '../router';
@@ -22,6 +22,14 @@ export default function CasosPage() {
       <PageHeader eyebrow="Plantão" title="Casos clínicos vivos">
         O paciente evolui em tempo real: os sinais vitais mudam com o tempo e com as suas condutas. No fim, um debriefing mostra as metas, os erros e o tempo de cada decisão.
       </PageHeader>
+      <a href={href('ecg')} className="mb-8 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><Activity className="size-5" /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-[15px] font-semibold">Treino de ECG</span>
+          <span className="block text-[13px] text-ink-2">Quiz e atlas com 18 padrões: arritmias, bloqueios, IAM, hipercalemia e pericardite.</span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 text-ink-3" />
+      </a>
       {SISTEMAS_CASO.map(s => {
         const casos = CASOS.filter(c => c.sistema === s.id);
         return (
