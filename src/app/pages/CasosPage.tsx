@@ -6,7 +6,7 @@ import { Badge, Card, cx, PageHeader, Section } from '../ui';
 
 /** Próximos casos de cada sistema (do roteiro), mostrados como "em breve". */
 const EM_BREVE: Record<string, string[]> = {
-  cardiovascular: ['Megacode: FV/TV, AESP e assistolia', 'Edema agudo de pulmão'],
+  cardiovascular: ['Megacode: FV/TV, AESP e assistolia', 'Emergência hipertensiva'],
   respiratorio: ['Asma grave', 'DPOC exacerbado', 'Pneumotórax hipertensivo', 'TEP'],
   abdome: ['Apendicite', 'Hemorragia digestiva alta', 'Pancreatite'],
   neurologico: ['AVC isquêmico na janela', 'Estado de mal epiléptico'],
