@@ -97,6 +97,8 @@ export interface Caso {
   tick: (e: Estado, dt: number, c: Ctx) => void;
   /** tempo máximo (s) antes de encerrar */
   limite: number;
+  /** segundos de jogo por segundo real (padrão 4) */
+  velocidade?: number;
   /** pontos de ensino exibidos no debriefing */
   ensino: string[];
 }

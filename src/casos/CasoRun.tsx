@@ -38,7 +38,7 @@ function Jogo({ caso }: { caso: Caso }) {
   useEffect(() => {
     if (fase !== 'jogo' || pausa) return;
     const iv = setInterval(() => {
-      avancar(caso, est.current, VELOCIDADE / 4);
+      avancar(caso, est.current, (caso.velocidade ?? VELOCIDADE) / 4);
       render(n => n + 1);
       if (est.current.fim) setFase('fim');
     }, 250);
@@ -251,7 +251,7 @@ function Monitor({ e, caso }: { e: Estado; caso: Caso }) {
     <div className="overflow-hidden rounded-2xl bg-[#061015] text-white">
       <div className="flex items-center justify-between px-4 pt-3 text-[11px] text-white/50">
         <span>II · 25 mm/s</span>
-        <span>{v.ritmo === 'fv' ? 'ALARME: FV' : v.ritmo === 'tv' ? 'ALARME: TAQUICARDIA VENTRICULAR' : v.ritmo === 'riva' ? 'RIVA' : v.ritmo === 'mp' ? 'MARCA-PASSO · captura' : ''}</span>
+        <span>{v.ritmo === 'fv' ? 'ALARME: FV' : !v.pulso && v.ritmo === 'sinusal' ? 'AESP · SEM PULSO' : v.ritmo === 'tv' ? 'ALARME: TAQUICARDIA VENTRICULAR' : v.ritmo === 'riva' ? 'RIVA' : v.ritmo === 'mp' ? 'MARCA-PASSO · captura' : ''}</span>
       </div>
       <canvas ref={cv} width={900} height={170} className="block h-[120px] w-full sm:h-[150px]" />
       <div className="grid grid-cols-[0.8fr_1.5fr_0.8fr_0.7fr] gap-2 px-4 pt-1 pb-4">
@@ -278,7 +278,7 @@ function Intro({ caso, onIniciar }: { caso: Caso; onIniciar: () => void }) {
         </div>
         <div className="mt-5 rounded-xl bg-surface-2 p-3.5 text-[13px] text-ink-2">
           <p className="font-semibold text-ink">Como funciona</p>
-          <p className="mt-1">O relógio corre (1 s real = {VELOCIDADE} s no caso) e cada conduta gasta tempo. O paciente melhora ou piora conforme o que você faz. No fim, você recebe o debriefing com as metas e o tempo de cada conduta. Dá para pausar a qualquer momento.</p>
+          <p className="mt-1">O relógio corre ({(caso.velocidade ?? VELOCIDADE) === 1 ? 'em tempo real' : `1 s real = ${caso.velocidade ?? VELOCIDADE} s no caso`}) e cada conduta gasta tempo. O paciente melhora ou piora conforme o que você faz. No fim, você recebe o debriefing com as metas e o tempo de cada conduta. Dá para pausar a qualquer momento.</p>
         </div>
         <button type="button" onClick={onIniciar} className="mt-6 flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-ink text-[15px] font-semibold text-bg active:scale-[0.99]">
           <Play className="size-4" /> Assumir o caso
