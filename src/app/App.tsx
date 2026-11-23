@@ -29,6 +29,7 @@ const CasosPage = lazy(() => import('./pages/CasosPage'));
 const EcgPage = lazy(() => import('./pages/EcgPage'));
 const CasoRun = lazy(() => import('../casos/CasoRun'));
 const RcpRun = lazy(() => import('../casos/RcpRun'));
+const PlantaoRun = lazy(() => import('../casos/PlantaoRun'));
 const OsceRun = lazy(() => import('../osce/OsceRun'));
 const QuestionPage = lazy(() => import('./pages/QuestionPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -369,6 +370,13 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [route.parts]);
 
+  if (route.parts[0] === 'plantao') {
+    return (
+      <Suspense fallback={<Loading label="Abrindo o plantão…" />}>
+        <PlantaoRun />
+      </Suspense>
+    );
+  }
   if (route.parts[0] === 'rcp') {
     return (
       <Suspense fallback={<Loading label="Preparando a RCP…" />}>

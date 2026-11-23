@@ -1,4 +1,4 @@
-import { Activity, ArrowRight, HeartPulse, Lock } from 'lucide-react';
+import { Activity, ArrowRight, HeartPulse, Lock, Users } from 'lucide-react';
 import { CASOS, SISTEMAS_CASO } from '../../casos/catalogo';
 import { useCasoHistory } from '../../casos/history';
 import { href } from '../router';
@@ -22,6 +22,14 @@ export default function CasosPage() {
       <PageHeader eyebrow="Plantão" title="Casos clínicos vivos">
         O paciente evolui em tempo real: os sinais vitais mudam com o tempo e com as suas condutas. No fim, um debriefing mostra as metas, os erros e o tempo de cada decisão.
       </PageHeader>
+      <a href={href('plantao')} className="mb-3 flex items-center gap-4 rounded-2xl border border-ink bg-ink p-4 text-bg transition hover:shadow-card active:scale-[0.99]">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-white/15"><Users className="size-5" /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-[15px] font-semibold">Plantão do pronto-socorro</span>
+          <span className="block text-[13px] opacity-75">Classifique o risco (Manchester) e decida quem atender primeiro. 10 pacientes por plantão.</span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 opacity-70" />
+      </a>
       <a href={href('ecg')} className="mb-3 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
         <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><Activity className="size-5" /></span>
         <span className="min-w-0 flex-1">

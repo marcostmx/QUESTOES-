@@ -52,7 +52,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: minijogo `#/rcp` (lógica em `src/casos/rcp.ts`): compressões por toque/espaço com régua de frequência, 30:2, metrônomo, pausas medidas, análise a cada ciclo, carregar/afastem-se/chocar, adrenalina após o 2º choque, retorno da circulação e debriefing com 5 metas.
 - [x] 1A+ · Casos vivos: **Megacode ACLS** (FV/TV, AESP, assistolia), **bradicardia instável**, **taquicardia instável**, **edema agudo de pulmão**, **emergência hipertensiva**.
   - Feito: bradicardia instável (BAV total por betabloqueador; atropina, marca-passo transcutâneo com analgesia, dopamina, causas reversíveis). Taquicardia instável (TV monomórfica com pulso: cardioversão sincronizada 100 J com sedação; choque não sincronizado gera FV; K/Mg; amiodarona pós-reversão). Edema agudo de pulmão hipertensivo (sentar, VNI, nitrato SL/IV, furosemida; rebaixamento e parada se não tratar; penaliza soro, morfina e betabloqueador). Megacode ACLS em tempo real (FV refratária → AESP por hipercalemia → RCE; choques, adrenalina, amiodarona, pausas < 10 s, Hs e Ts, cuidados pós-PCR). Emergência hipertensiva com dissecção de aorta tipo A (betabloqueador antes do nitroprussiato, metas em 20 min, angio-TC, cirurgia; antitrombóticos punidos, fibrinólise leva a tamponamento).
-- [ ] 1D · Plantão: dor torácica, síncope, palpitação.
+- [x] 1D · Plantão: dor torácica, síncope, palpitação.
+  - Feito: `#/plantao` (lógica em `src/casos/plantao.ts`): 10 pacientes chegam ao longo do turno, classificação de Manchester (5 cores), fila por prioridade, tempos-alvo, piora na espera, debriefing por paciente com link para o caso vivo correspondente. A base serve para os plantões dos outros sistemas e para o plantão misto.
 - [ ] 1E · OSCE: completar as lacunas (pulsos periféricos, sopros, dor torácica).
 
 ### 2. Respiratório
@@ -108,3 +109,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-23 · 1A+: caso vivo de edema agudo de pulmão hipertensivo (VNI e vasodilatador).
 - 2026-11-23 · 1A+: megacode ACLS (FV → AESP → RCE, Hs e Ts) em tempo real; casos podem definir a velocidade do relógio.
 - 2026-11-23 · 1A+: emergência hipertensiva com dissecção de aorta. Casos vivos do Cardiovascular concluídos (6 casos).
+- 2026-11-23 · 1D: plantão do pronto-socorro com classificação de risco (Manchester) e fila, ligado aos casos vivos.
