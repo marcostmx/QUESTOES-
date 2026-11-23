@@ -51,7 +51,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - [x] 1C · Procedimento: **RCP de alta qualidade** (ritmo 100–120/min, 30:2, troca a cada 2 min) e **desfibrilação**.
   - Feito: minijogo `#/rcp` (lógica em `src/casos/rcp.ts`): compressões por toque/espaço com régua de frequência, 30:2, metrônomo, pausas medidas, análise a cada ciclo, carregar/afastem-se/chocar, adrenalina após o 2º choque, retorno da circulação e debriefing com 5 metas.
 - [~] 1A+ · Casos vivos: **Megacode ACLS** (FV/TV, AESP, assistolia), **bradicardia instável**, **taquicardia instável**, **edema agudo de pulmão**, **emergência hipertensiva**.
-  - Feito: bradicardia instável (BAV total por betabloqueador; atropina, marca-passo transcutâneo com analgesia, dopamina, causas reversíveis). Taquicardia instável (TV monomórfica com pulso: cardioversão sincronizada 100 J com sedação; choque não sincronizado gera FV; K/Mg; amiodarona pós-reversão). Edema agudo de pulmão hipertensivo (sentar, VNI, nitrato SL/IV, furosemida; rebaixamento e parada se não tratar; penaliza soro, morfina e betabloqueador). Falta: megacode, emergência hipertensiva.
+  - Feito: bradicardia instável (BAV total por betabloqueador; atropina, marca-passo transcutâneo com analgesia, dopamina, causas reversíveis). Taquicardia instável (TV monomórfica com pulso: cardioversão sincronizada 100 J com sedação; choque não sincronizado gera FV; K/Mg; amiodarona pós-reversão). Edema agudo de pulmão hipertensivo (sentar, VNI, nitrato SL/IV, furosemida; rebaixamento e parada se não tratar; penaliza soro, morfina e betabloqueador). Megacode ACLS em tempo real (FV refratária → AESP por hipercalemia → RCE; choques, adrenalina, amiodarona, pausas < 10 s, Hs e Ts, cuidados pós-PCR). Falta: emergência hipertensiva.
 - [ ] 1D · Plantão: dor torácica, síncope, palpitação.
 - [ ] 1E · OSCE: completar as lacunas (pulsos periféricos, sopros, dor torácica).
 
@@ -106,3 +106,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-22 · 1A+: caso vivo de bradicardia instável (BAV total), com ritmo de marca-passo no monitor.
 - 2026-11-22 · 1A+: caso vivo de taquicardia instável (TV com pulso, cardioversão sincronizada); alarmes de TV e marca-passo no monitor.
 - 2026-11-23 · 1A+: caso vivo de edema agudo de pulmão hipertensivo (VNI e vasodilatador).
+- 2026-11-23 · 1A+: megacode ACLS (FV → AESP → RCE, Hs e Ts) em tempo real; casos podem definir a velocidade do relógio.
