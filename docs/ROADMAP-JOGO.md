@@ -58,7 +58,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: 5 estações novas (JOGO-CV-01 a 05: DAOP com ITB e Buerger, PVJ e refluxo hepatojugular, TVP, tamponamento com pulso paradoxal, pericardite com atrito) e 10 manobras novas; filtro "Estações do jogo" no lobby. Sopros e dor torácica já estavam cobertos (20 estações SIM-CV e 4 DT).
 
 ### 2. Respiratório
-- [ ] 2A · Casos vivos: **asma grave**, **DPOC exacerbado**, **pneumonia com sepse**, **pneumotórax hipertensivo**, **TEP**.
+- [~] 2A · Casos vivos: **asma grave**, **DPOC exacerbado**, **pneumonia com sepse**, **pneumotórax hipertensivo**, **TEP**.
+  - Feito: asma grave (classificação + PFE, O₂ alvo 93–95%, SABA a cada 20 min com intervalo controlado, ipratrópio, corticoide, MgSO₄, gasometria com sinal de fadiga, tórax silencioso → IOT; penaliza sedativo, aminofilina, antibiótico e alta precoce). Falta: DPOC, pneumonia com sepse, pneumotórax hipertensivo, TEP.
 - [ ] 2B · Exames: **gasometria arterial** (com passo a passo de interpretação) e **radiografia de tórax**.
 - [ ] 2C · Procedimentos: **oxigenoterapia** (cateter, máscara, Venturi, reservatório), **sequência rápida de intubação**, **toracocentese de alívio**.
 - [ ] 2D · Plantão: dispneia, tosse com febre.
@@ -112,3 +113,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-23 · 1A+: emergência hipertensiva com dissecção de aorta. Casos vivos do Cardiovascular concluídos (6 casos).
 - 2026-11-23 · 1D: plantão do pronto-socorro com classificação de risco (Manchester) e fila, ligado aos casos vivos.
 - 2026-11-24 · 1E: 5 estações de OSCE cardiovascular novas e 10 manobras. **Sistema 1 (Cardiovascular) concluído.**
+- 2026-11-24 · 2A: início do sistema Respiratório com o caso vivo de asma grave.
