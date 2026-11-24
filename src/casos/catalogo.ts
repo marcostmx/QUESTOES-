@@ -2,13 +2,14 @@ import type { Caso } from './motor';
 import { ASMA } from './asma';
 import { BRADI } from './bradi';
 import { DISSECCAO } from './disseccao';
+import { DPOC } from './dpoc';
 import { EAP } from './eap';
 import { IAM } from './iam';
 import { MEGACODE } from './megacode';
 import { PNEUMOTORAX } from './pneumotorax';
 import { TAQUI } from './taqui';
 
-export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, PNEUMOTORAX];
+export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX];
 
 export const SISTEMAS_CASO: { id: Caso['sistema']; nome: string }[] = [
   { id: 'cardiovascular', nome: 'Cardiovascular' },
