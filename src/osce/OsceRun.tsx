@@ -472,7 +472,7 @@ function Run({ e, modo, circuito }: { e: Estacao; modo: Modo; circuito: Circuito
             {e.tipo === 'discussao' && (
               <p className="mb-3 rounded-xl bg-accent-soft px-3 py-2 text-[13px] text-accent">Estação de discussão: o exame já está descrito no caso. Entre, cumprimente o paciente e responda os comandos ao avaliador em “Tarefas”.</p>
             )}
-            {e.checklist && <p className="mb-3 rounded-xl bg-good-soft px-3 py-2 text-[13px] text-good">Estação com checklist oficial do avaliador (10 pontos). O achado só é informado se a manobra for feita corretamente.</p>}
+            {e.checklist && <p className="mb-3 rounded-xl bg-good-soft px-3 py-2 text-[13px] text-good">Estação com checklist {e.id.startsWith('JOGO-') ? 'do avaliador (elaborado para o jogo, 10 pontos)' : 'oficial do avaliador (10 pontos)'}. O achado só é informado se a manobra for feita corretamente.</p>}
             <h2 className="mb-1.5 text-[13px] font-semibold tracking-wide text-ink-3 uppercase">Caso clínico</h2>
             <p className="text-[15px] leading-relaxed">{e.caso}</p>
             {e.vitais && <p className="mt-2 rounded-xl bg-surface-2 px-3 py-2 font-mono text-[12.5px] text-ink-2">{e.vitais}</p>}

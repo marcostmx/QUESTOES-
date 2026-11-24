@@ -19,10 +19,10 @@ const VISUAL_KEY = 'pr.v2.osce.visual';
 type Visual = 'blocos' | 'clinico';
 
 const sorteia = <T,>(l: T[]) => l[Math.floor(Math.random() * l.length)];
-type Fonte = 'todas' | 'cadernos' | 'material' | 'simulado';
-const fonteDe = (e: Estacao): Exclude<Fonte, 'todas'> => (e.id.startsWith('SIM-') ? 'simulado' : e.extra ? 'material' : 'cadernos');
+type Fonte = 'todas' | 'cadernos' | 'material' | 'simulado' | 'jogo';
+const fonteDe = (e: Estacao): Exclude<Fonte, 'todas'> => (e.id.startsWith('JOGO-') ? 'jogo' : e.id.startsWith('SIM-') ? 'simulado' : e.extra ? 'material' : 'cadernos');
 const FONTES: { id: Fonte; nome: string }[] = [
-  { id: 'todas', nome: 'Todas as fontes' }, { id: 'cadernos', nome: 'Cadernos da monitoria' }, { id: 'material', nome: 'Material de estudo' }, { id: 'simulado', nome: 'Simulado 100' },
+  { id: 'todas', nome: 'Todas as fontes' }, { id: 'cadernos', nome: 'Cadernos da monitoria' }, { id: 'material', nome: 'Material de estudo' }, { id: 'simulado', nome: 'Simulado 100' }, { id: 'jogo', nome: 'Estações do jogo' },
 ];
 const SIS_PROVA: Sistema[] = ['abdome', 'cardiovascular', 'respiratorio', 'neurologico', 'pressao'];
 

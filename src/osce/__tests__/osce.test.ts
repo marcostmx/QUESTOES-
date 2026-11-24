@@ -6,9 +6,9 @@ import { byId, POSTURAS } from '../maneuvers';
 const ESTACOES = data as unknown as Estacao[];
 
 describe('estações OSCE', () => {
-  it('tem as 220 estações (cadernos, material de estudo e simulado de 100), com comandos e gabarito', () => {
-    expect(ESTACOES).toHaveLength(220);
-    expect(new Set(ESTACOES.map(e => e.id)).size).toBe(220);
+  it('tem as 225 estações (cadernos, material de estudo, simulado de 100 e estações do jogo), com comandos e gabarito', () => {
+    expect(ESTACOES).toHaveLength(225);
+    expect(new Set(ESTACOES.map(e => e.id)).size).toBe(225);
     for (const e of ESTACOES) {
       expect(e.comandos.length).toBeGreaterThan(1);
       if (e.checklist) expect(e.checklist.reduce((a, x) => a + x.pts, 0)).toBeCloseTo(10);
