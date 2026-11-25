@@ -27,6 +27,7 @@ const OscePage = lazy(() => import('./pages/OscePage'));
 const CareerPage = lazy(() => import('./pages/CareerPage'));
 const CasosPage = lazy(() => import('./pages/CasosPage'));
 const EcgPage = lazy(() => import('./pages/EcgPage'));
+const GasometriaPage = lazy(() => import('./pages/GasometriaPage'));
 const CasoRun = lazy(() => import('../casos/CasoRun'));
 const RcpRun = lazy(() => import('../casos/RcpRun'));
 const PlantaoRun = lazy(() => import('../casos/PlantaoRun'));
@@ -315,6 +316,7 @@ function page(parts: string[]): ReactNode {
     case 'carreira': return <CareerPage />;
     case 'casos': return <CasosPage />;
     case 'ecg': return <EcgPage />;
+    case 'gasometria': return <GasometriaPage />;
     case 'revisao': return <ReviewPage />;
     case 'erros': return <ErrorsPage />;
     case 'favoritos': return <FavoritesPage />;

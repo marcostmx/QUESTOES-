@@ -1,4 +1,4 @@
-import { Activity, ArrowRight, HeartPulse, Lock, Users } from 'lucide-react';
+import { Activity, ArrowRight, FlaskConical, HeartPulse, Lock, Users } from 'lucide-react';
 import { CASOS, SISTEMAS_CASO } from '../../casos/catalogo';
 import { useCasoHistory } from '../../casos/history';
 import { href } from '../router';
@@ -35,6 +35,14 @@ export default function CasosPage() {
         <span className="min-w-0 flex-1">
           <span className="block text-[15px] font-semibold">Treino de ECG</span>
           <span className="block text-[13px] text-ink-2">Quiz e atlas com 18 padrões: arritmias, bloqueios, IAM, hipercalemia e pericardite.</span>
+        </span>
+        <ArrowRight className="size-4 shrink-0 text-ink-3" />
+      </a>
+      <a href={href('gasometria')} className="mb-3 flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
+        <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><FlaskConical className="size-5" /></span>
+        <span className="min-w-0 flex-1">
+          <span className="block text-[15px] font-semibold">Gasometria arterial passo a passo</span>
+          <span className="block text-[13px] text-ink-2">Distúrbio primário, compensação, ânion gap, delta-delta e causa, com as fórmulas.</span>
         </span>
         <ArrowRight className="size-4 shrink-0 text-ink-3" />
       </a>
