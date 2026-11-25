@@ -9,8 +9,9 @@ import { MEGACODE } from './megacode';
 import { PNEUMOTORAX } from './pneumotorax';
 import { SEPSE } from './sepse';
 import { TAQUI } from './taqui';
+import { TEP } from './tep';
 
-export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE];
+export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE, TEP];
 
 export const SISTEMAS_CASO: { id: Caso['sistema']; nome: string }[] = [
   { id: 'cardiovascular', nome: 'Cardiovascular' },
