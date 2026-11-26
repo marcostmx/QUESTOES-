@@ -66,7 +66,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: motor de procedimento passo a passo (`src/casos/procedimentos.ts`, rota `#/procedimento/<id>`, reaproveitável nos outros sistemas) com sequência rápida de intubação e drenagem torácica (escolher o próximo passo; erro explica o porquê e custa 8 pontos). Oxigenoterapia: 8 cenários de escolha de dispositivo e fluxo (cateter, Venturi no DPOC, reservatório no CO, sem O₂ no IAM normoxêmico, alto fluxo, VNI no EAP, FiO₂ por litro, fluxo mínimo da máscara).
 - [x] 2D · Plantão: dispneia, tosse com febre.
   - Feito: plantão respiratório `#/plantao/respiratorio` (10 pacientes: asma grave e moderada, DPOC, pneumotórax, sepse, TEP, hemoptise, IVAS, tosse crônica, receita), ligado aos casos vivos. O plantão passou a aceitar fichas por sistema.
-- [ ] 2E · OSCE: completar as lacunas.
+- [x] 2E · OSCE: completar as lacunas.
+  - Feito: 5 estações (JOGO-RP-01 a 05: baqueteamento/Schamroth e estertores em velcro, posição da traqueia, pico de fluxo com plano de ação, inalador com espaçador, oximetria e armadilhas) e 6 manobras novas. O exame físico clássico já tinha 35 estações.
 
 ### 3. Abdome e digestivo
 - [ ] 3A · Casos vivos: **apendicite**, **colecistite e colangite**, **pancreatite**, **hemorragia digestiva alta**, **obstrução intestinal**.
@@ -126,3 +127,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-26 · 2C: motor de procedimentos passo a passo com SRI e drenagem torácica.
 - 2026-11-26 · 2C: oxigenoterapia (dispositivo e fluxo por cenário).
 - 2026-11-26 · 2D: plantão do pronto-socorro respiratório.
+- 2026-11-26 · 2E: 5 estações de OSCE respiratório novas e 6 manobras. **Sistema 2 (Respiratório) concluído.**
