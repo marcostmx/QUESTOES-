@@ -189,6 +189,77 @@ export const PROCEDIMENTOS: Procedimento[] = [
       },
     ],
   },
+  {
+    id: 'oxigenio', sistema: 'respiratorio', titulo: 'Oxigenoterapia: dispositivo e fluxo',
+    contexto: 'Oito pacientes no pronto-socorro precisam (ou não) de oxigênio. Escolha o dispositivo e o fluxo certos para cada um.',
+    fonte: 'BTS Guideline for oxygen use; GOLD; AHA',
+    etapas: [
+      {
+        pergunta: 'Pneumonia leve, sem doença pulmonar prévia, SpO₂ 91% em ar ambiente.', certa: 'Cateter nasal a 2–4 L/min, alvo SpO₂ 94–98%',
+        erradas: [
+          { texto: 'Máscara com reservatório a 15 L/min', porque: 'Hipoxemia leve não exige FiO₂ tão alta; hiperóxia não traz benefício.' },
+          { texto: 'Máscara de Venturi a 50% de saída', porque: 'Venturi é para controle fino da FiO₂ (ex.: retentor de CO₂); aqui basta o cateter.' },
+        ],
+        explicacao: 'Alvo de 94–98% para a maioria dos pacientes agudos.',
+      },
+      {
+        pergunta: 'DPOC grave, retentor de CO₂, SpO₂ 84%.', certa: 'Máscara de Venturi 24–28%, alvo SpO₂ 88–92%',
+        erradas: [
+          { texto: 'Máscara com reservatório a 15 L/min', porque: 'Excesso de O₂ eleva o pCO₂ e pode causar narcose no retentor.' },
+          { texto: 'Nada de oxigênio, para não suprimir o drive', porque: 'Hipoxemia mata: dê O₂ controlado, com alvo de 88–92%.' },
+        ],
+        explicacao: 'Gasometria em 30–60 min para checar o pCO₂.',
+      },
+      {
+        pergunta: 'Intoxicação por monóxido de carbono, SpO₂ "100%" no oxímetro.', certa: 'Máscara com reservatório a 15 L/min (O₂ a 100%)',
+        erradas: [
+          { texto: 'Sem O₂: a saturação está normal', porque: 'O oxímetro comum não diferencia carboxi-hemoglobina: a SpO₂ é falsamente normal.' },
+          { texto: 'Cateter nasal a 2 L/min', porque: 'O₂ a 100% reduz a meia-vida da carboxi-hemoglobina; o cateter não atinge isso.' },
+        ],
+        explicacao: 'Dose a carboxi-hemoglobina na gasometria; considere câmara hiperbárica nos casos graves.',
+      },
+      {
+        pergunta: 'Dor torácica com IAM confirmado, SpO₂ 97% em ar.', certa: 'Não precisa de oxigênio; só monitorizar',
+        erradas: [
+          { texto: 'Cateter nasal a 3 L/min de rotina', porque: 'Sem hipoxemia (SpO₂ < 90%), o O₂ não traz benefício no IAM.' },
+          { texto: 'Máscara com reservatório para "proteger o miocárdio"', porque: 'Hiperóxia pode causar vasoconstrição coronariana.' },
+        ],
+        explicacao: 'O₂ no IAM só se SpO₂ < 90%.',
+      },
+      {
+        pergunta: 'Pneumonia grave, SpO₂ 86% já com máscara com reservatório, FR 32, consciente, sem hipercapnia.', certa: 'Cateter nasal de alto fluxo (40–60 L/min, FiO₂ titulada)',
+        erradas: [
+          { texto: 'Cateter nasal comum a 12 L/min', porque: 'Acima de 5–6 L/min o cateter comum resseca a mucosa e não aumenta a FiO₂ de forma útil.' },
+          { texto: 'Intubar já, sem tentar outra estratégia', porque: 'Na insuficiência hipoxêmica consciente, o alto fluxo pode evitar a intubação; reavalie em 1–2 h.' },
+        ],
+        explicacao: 'Use o índice ROX para prever falha do alto fluxo.',
+      },
+      {
+        pergunta: 'Edema agudo de pulmão hipertensivo, SpO₂ 85%, fala frases curtas.', certa: 'VNI com CPAP/BiPAP',
+        erradas: [
+          { texto: 'Cateter nasal a 2 L/min e aguardar o diurético', porque: 'O EAP precisa de pressão positiva: a VNI melhora a oxigenação e reduz a pós-carga.' },
+          { texto: 'Máscara simples a 3 L/min', porque: 'Fluxo baixo demais na máscara simples (mínimo 5 L/min) e oxigenação insuficiente.' },
+        ],
+        explicacao: 'Associe nitrato em dose alta.',
+      },
+      {
+        pergunta: 'Quanto cada 1 L/min no cateter nasal aumenta a FiO₂, aproximadamente?', certa: 'Cerca de 3–4% (1 L ≈ 24%, 4 L ≈ 36%)',
+        erradas: [
+          { texto: 'Cerca de 10% (4 L ≈ 60%)', porque: 'Superestima: o cateter chega a no máximo ~40–44%.' },
+          { texto: 'Chega a 100% com 6 L/min', porque: 'O cateter mistura O₂ com ar ambiente: nunca chega perto de 100%.' },
+        ],
+        explicacao: 'A FiO₂ real depende do padrão respiratório (por isso Venturi quando precisa de precisão).',
+      },
+      {
+        pergunta: 'Qual o fluxo mínimo da máscara simples (sem reservatório)?', certa: '5 L/min, para não reinalar CO₂',
+        erradas: [
+          { texto: '1–2 L/min já basta', porque: 'Com fluxo baixo o paciente reinala o CO₂ exalado dentro da máscara.' },
+          { texto: 'Não há mínimo: ajustar pela SpO₂', porque: 'Há mínimo: abaixo de 5 L/min ocorre reinalação.' },
+        ],
+        explicacao: 'Máscara simples: 5–10 L/min, FiO₂ ~40–60%.',
+      },
+    ],
+  },
 ];
 
 export const procPorId = (id: string) => PROCEDIMENTOS.find(p => p.id === id);
