@@ -32,6 +32,7 @@ const RxPage = lazy(() => import('./pages/RxPage'));
 const CasoRun = lazy(() => import('../casos/CasoRun'));
 const RcpRun = lazy(() => import('../casos/RcpRun'));
 const PlantaoRun = lazy(() => import('../casos/PlantaoRun'));
+const ProcedimentoRun = lazy(() => import('../casos/ProcedimentoRun'));
 const OsceRun = lazy(() => import('../osce/OsceRun'));
 const QuestionPage = lazy(() => import('./pages/QuestionPage'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -374,6 +375,13 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [route.parts]);
 
+  if (route.parts[0] === 'procedimento' && route.parts[1]) {
+    return (
+      <Suspense fallback={<Loading label="Separando o material…" />}>
+        <ProcedimentoRun key={route.path} id={route.parts[1]} />
+      </Suspense>
+    );
+  }
   if (route.parts[0] === 'plantao') {
     return (
       <Suspense fallback={<Loading label="Abrindo o plantão…" />}>
