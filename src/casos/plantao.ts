@@ -70,6 +70,44 @@ export const FICHAS_CARDIO: Ficha[] = [
     porque: 'Queixa crônica, estável, sem sinais de alarme: azul.' },
 ];
 
+export const FICHAS_RESP: Ficha[] = [
+  { id: 'r1', nome: 'Camila', idade: 24, chegada: 0, dur: 10, cor: 'laranja', caso: 'asma-grave',
+    queixa: 'Chiado e falta de ar, usou a bombinha 8 vezes', detalhes: 'Fala só palavras, tiragem; já foi intubada por asma.', vitais: 'FC 128 · FR 32 · SpO₂ 88%',
+    porque: 'Saturação muito baixa e incapacidade de falar frases: laranja (e reavaliar sem parar).' },
+  { id: 'r2', nome: 'Júlio', idade: 31, chegada: 4, dur: 8, cor: 'verde',
+    queixa: 'Coriza, dor de garganta e febre baixa há 2 dias', detalhes: 'Bom estado geral, comendo bem.', vitais: 'FC 88 · FR 16 · SpO₂ 98% · Tax 37,8',
+    porque: 'Sintomas respiratórios leves, sem discriminadores de gravidade: verde.' },
+  { id: 'r3', nome: 'Osvaldo', idade: 68, chegada: 15, dur: 12, cor: 'vermelho', caso: 'dpoc-exacerbado',
+    queixa: 'DPOC, mais falta de ar e sonolento', detalhes: 'Responde devagar, cianose labial, lábios semicerrados.', vitais: 'FC 112 · FR 30 · SpO₂ 82%',
+    porque: 'Alteração de consciência com hipoxemia grave (risco de falência respiratória): vermelho.' },
+  { id: 'r4', nome: 'Dona Glória', idade: 63, chegada: 18, dur: 5, cor: 'azul',
+    queixa: 'Tosse seca há 3 meses, sem piora', detalhes: 'Já tem consulta marcada com o pneumologista.', vitais: 'FC 76 · FR 15 · SpO₂ 97%',
+    porque: 'Queixa crônica, estável: azul (atenção primária/ambulatório).' },
+  { id: 'r5', nome: 'Diego', idade: 22, chegada: 33, dur: 12, cor: 'vermelho', caso: 'pneumotorax-hipertensivo',
+    queixa: 'Bateu de moto, dor no peito e falta de ar piorando', detalhes: 'Agitado, turgência jugular, murmúrio abolido à direita.', vitais: 'PA 84/56 · FC 132 · SpO₂ 84%',
+    porque: 'Choque e insuficiência respiratória: vermelho.' },
+  { id: 'r6', nome: 'Pedro', idade: 15, chegada: 36, dur: 10, cor: 'amarelo',
+    queixa: 'Crise de asma desde a manhã', detalhes: 'Fala frases completas, sibilos expiratórios, sem tiragem.', vitais: 'FC 104 · FR 24 · SpO₂ 94%',
+    porque: 'Dispneia moderada sem sinais de gravidade: amarelo.' },
+  { id: 'r7', nome: 'Benedito', idade: 72, chegada: 52, dur: 12, cor: 'vermelho', caso: 'pneumonia-sepse',
+    queixa: 'Febre e tosse há 4 dias, hoje confuso', detalhes: 'Pele fria e marmórea, quase não urinou.', vitais: 'PA 86/48 · FC 118 · FR 28 · SpO₂ 89%',
+    porque: 'Choque (hipotensão com má perfusão) e alteração de consciência: vermelho.' },
+  { id: 'r8', nome: 'Renata', idade: 46, chegada: 58, dur: 10, cor: 'laranja', caso: 'tep-alto-risco',
+    queixa: 'Falta de ar súbita e desmaio rápido', detalhes: 'Dor pleurítica; panturrilha esquerda inchada.', vitais: 'PA 102/66 · FC 124 · SpO₂ 88%',
+    porque: 'Dispneia aguda com saturação muito baixa e taquicardia: laranja.' },
+  { id: 'r9', nome: 'Seu Arlindo', idade: 58, chegada: 70, dur: 10, cor: 'amarelo',
+    queixa: 'Escarro com raias de sangue há 2 dias', detalhes: 'Pequeno volume, tabagista, sem falta de ar.', vitais: 'FC 84 · FR 18 · SpO₂ 96%',
+    porque: 'Hemoptise de pequeno volume sem instabilidade: amarelo (investigar).' },
+  { id: 'r10', nome: 'Luana', idade: 26, chegada: 74, dur: 5, cor: 'azul',
+    queixa: 'Acabou a bombinha de manutenção', detalhes: 'Sem crise no momento.', vitais: 'FC 78 · FR 14 · SpO₂ 99%',
+    porque: 'Demanda de receita sem sintomas agudos: azul.' },
+];
+
+export const FICHAS_POR_SISTEMA: Record<string, { titulo: string; fichas: Ficha[] }> = {
+  cardiovascular: { titulo: 'Cardiovascular', fichas: FICHAS_CARDIO },
+  respiratorio: { titulo: 'Respiratório', fichas: FICHAS_RESP },
+};
+
 export interface Paciente extends Ficha {
   triagem?: Cor;
   triadoEm?: number;

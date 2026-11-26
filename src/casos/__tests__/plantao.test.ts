@@ -33,3 +33,15 @@ describe('plantão', () => {
     expect(r.nota).toBeLessThan(50);
   });
 });
+
+import { FICHAS_RESP } from '../plantao';
+describe('plantão respiratório', () => {
+  it('triagem correta e prioridade pela gravidade: nota alta', () => {
+    const p = new Plantao(FICHAS_RESP);
+    joga(p, c => c, 'gravidade');
+    const r = p.resultado();
+    expect(r.nTri).toBe(10);
+    expect(r.graves).toBe(0);
+    expect(r.nota).toBeGreaterThanOrEqual(90);
+  });
+});
