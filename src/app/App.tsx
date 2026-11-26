@@ -385,7 +385,7 @@ export default function App() {
   if (route.parts[0] === 'plantao') {
     return (
       <Suspense fallback={<Loading label="Abrindo o plantão…" />}>
-        <PlantaoRun />
+        <PlantaoRun key={route.path} sis={route.parts[1]} />
       </Suspense>
     );
   }

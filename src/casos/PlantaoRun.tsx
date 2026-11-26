@@ -4,7 +4,7 @@ import { xpCaso } from '../app/core/career';
 import { href } from '../app/router';
 import { Card, cx, Ring } from '../app/ui';
 import { casoHistory } from './history';
-import { CORES, corInfo, Plantao, type Cor, type Paciente } from './plantao';
+import { CORES, corInfo, FICHAS_POR_SISTEMA, Plantao, type Cor, type Paciente } from './plantao';
 
 const hora = (min: number) => {
   const m = 19 * 60 + min;
@@ -16,7 +16,8 @@ function Pulseira({ cor, pequena }: { cor: Cor; pequena?: boolean }) {
   return <span className={cx('inline-flex items-center rounded-md font-semibold', pequena ? 'px-1.5 py-0.5 text-[11px]' : 'px-2 py-0.5 text-[12px]')} style={{ background: c.hex, color: c.texto }}>{c.nome}</span>;
 }
 
-export default function PlantaoRun() {
+export default function PlantaoRun({ sis = 'cardiovascular' }: { sis?: string }) {
+  const conf = FICHAS_POR_SISTEMA[sis] ?? FICHAS_POR_SISTEMA.cardiovascular;
   const [iniciado, setIniciado] = useState(false);
   const [chave, setChave] = useState(0);
   if (!iniciado) {
@@ -24,7 +25,7 @@ export default function PlantaoRun() {
       <div className="flex min-h-dvh items-center justify-center bg-bg p-4">
         <Card className="w-full max-w-xl p-6 sm:p-8">
           <a href={href('casos')} className="mb-4 inline-flex items-center gap-1 text-[13px] text-ink-3"><ArrowLeft className="size-4" /> Casos</a>
-          <p className="text-[12px] font-medium tracking-wide text-ink-3 uppercase">Cardiovascular · Plantão</p>
+          <p className="text-[12px] font-medium tracking-wide text-ink-3 uppercase">{conf.titulo} · Plantão</p>
           <h1 className="font-display mt-1 text-[28px] leading-tight font-semibold">Plantão noturno do pronto-socorro</h1>
           <p className="mt-4 text-[15px] leading-relaxed">São 19:00. Você é o médico do acolhimento: classifique o risco de cada paciente que chega e decida quem atender primeiro.</p>
           <ul className="mt-4 list-disc space-y-1 pl-5 text-[14px] text-ink-2">
@@ -39,11 +40,11 @@ export default function PlantaoRun() {
       </div>
     );
   }
-  return <Jogo key={chave} onRefazer={() => setChave(k => k + 1)} />;
+  return <Jogo key={chave} sis={sis} onRefazer={() => setChave(k => k + 1)} />;
 }
 
-function Jogo({ onRefazer }: { onRefazer: () => void }) {
-  const pl = useRef(new Plantao()).current;
+function Jogo({ sis, onRefazer }: { sis: string; onRefazer: () => void }) {
+  const pl = useRef(new Plantao((FICHAS_POR_SISTEMA[sis] ?? FICHAS_POR_SISTEMA.cardiovascular).fichas)).current;
   const [, render] = useState(0);
   const salvo = useRef(false);
   const up = () => render(n => n + 1);
@@ -52,7 +53,7 @@ function Jogo({ onRefazer }: { onRefazer: () => void }) {
     const r = pl.resultado();
     if (!salvo.current) {
       salvo.current = true;
-      casoHistory.save({ key: `plantao:${Date.now()}`, id: 'plantao-cardio', date: Date.now(), nota: r.nota, obito: false, minutos: pl.t });
+      casoHistory.save({ key: `plantao:${Date.now()}`, id: sis === 'cardiovascular' ? 'plantao-cardio' : `plantao-${sis}`, date: Date.now(), nota: r.nota, obito: false, minutos: pl.t });
     }
     const cor = r.nota >= 70 ? 'var(--good)' : r.nota >= 50 ? 'var(--warn)' : 'var(--bad)';
     return (
@@ -101,7 +102,7 @@ function Jogo({ onRefazer }: { onRefazer: () => void }) {
       <header className="sticky top-0 z-30 flex items-center gap-2 border-b border-line bg-bg/90 px-3 py-2 backdrop-blur sm:px-5">
         <a href={href('casos')} aria-label="Sair" className="rounded-lg p-2 text-ink-2 hover:bg-surface-2"><ArrowLeft className="size-5" /></a>
         <div className="min-w-0 flex-1">
-          <p className="truncate text-[14px] font-semibold">Plantão · pronto-socorro</p>
+          <p className="truncate text-[14px] font-semibold">Plantão · {(FICHAS_POR_SISTEMA[sis] ?? FICHAS_POR_SISTEMA.cardiovascular).titulo}</p>
           <p className="text-[12px] text-ink-3">{pl.pacientes.filter(p => p.fim !== undefined).length} de {pl.pacientes.length} atendidos</p>
         </div>
         <span className="tabular flex items-center gap-1.5 rounded-xl bg-surface-2 px-3 py-1.5 font-mono text-[17px] font-semibold"><Clock className="size-4" /> {hora(pl.t)}</span>

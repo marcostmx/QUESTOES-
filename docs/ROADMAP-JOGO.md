@@ -64,7 +64,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: `#/gasometria` (lógica em `src/casos/gaso.ts`): 9 gasometrias (CAD, diarreia, vômitos, opioide, DPOC crônico, ansiedade, acidose lática, mistos), passos de distúrbio primário, compensação (Winter e regras respiratórias agudas/crônicas), ânion gap, delta-delta e causa, com as contas na explicação. Radiografia de tórax `#/rx` (desenho esquemático em `src/casos/rx.ts`): 9 padrões (normal, pneumotórax, derrame, consolidação, congestão, cardiomegalia, hiperinsuflação, pneumoperitônio, alargamento do mediastino), quiz de 6 e atlas.
 - [x] 2C · Procedimentos: **oxigenoterapia** (cateter, máscara, Venturi, reservatório), **sequência rápida de intubação**, **toracocentese de alívio**.
   - Feito: motor de procedimento passo a passo (`src/casos/procedimentos.ts`, rota `#/procedimento/<id>`, reaproveitável nos outros sistemas) com sequência rápida de intubação e drenagem torácica (escolher o próximo passo; erro explica o porquê e custa 8 pontos). Oxigenoterapia: 8 cenários de escolha de dispositivo e fluxo (cateter, Venturi no DPOC, reservatório no CO, sem O₂ no IAM normoxêmico, alto fluxo, VNI no EAP, FiO₂ por litro, fluxo mínimo da máscara).
-- [ ] 2D · Plantão: dispneia, tosse com febre.
+- [x] 2D · Plantão: dispneia, tosse com febre.
+  - Feito: plantão respiratório `#/plantao/respiratorio` (10 pacientes: asma grave e moderada, DPOC, pneumotórax, sepse, TEP, hemoptise, IVAS, tosse crônica, receita), ligado aos casos vivos. O plantão passou a aceitar fichas por sistema.
 - [ ] 2E · OSCE: completar as lacunas.
 
 ### 3. Abdome e digestivo
@@ -124,3 +125,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-25 · 2B: treino de radiografia de tórax (9 padrões esquemáticos, quiz e atlas).
 - 2026-11-26 · 2C: motor de procedimentos passo a passo com SRI e drenagem torácica.
 - 2026-11-26 · 2C: oxigenoterapia (dispositivo e fluxo por cenário).
+- 2026-11-26 · 2D: plantão do pronto-socorro respiratório.
