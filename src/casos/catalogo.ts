@@ -1,6 +1,7 @@
 import type { Caso } from './motor';
 import { ASMA } from './asma';
 import { BRADI } from './bradi';
+import { COLANGITE } from './colangite';
 import { DISSECCAO } from './disseccao';
 import { DPOC } from './dpoc';
 import { EAP } from './eap';
@@ -12,7 +13,7 @@ import { SEPSE } from './sepse';
 import { TAQUI } from './taqui';
 import { TEP } from './tep';
 
-export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE, TEP, HDA];
+export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE, TEP, HDA, COLANGITE];
 
 export const SISTEMAS_CASO: { id: Caso['sistema']; nome: string }[] = [
   { id: 'cardiovascular', nome: 'Cardiovascular' },
