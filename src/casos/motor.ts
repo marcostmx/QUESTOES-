@@ -207,7 +207,11 @@ export function debriefing(c: Caso, e: Estado): Debriefing {
 }
 
 /** mm:ss do relógio de jogo */
-export const relogio = (s: number) => `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(Math.floor(s % 60)).padStart(2, '0')}`;
+export const relogio = (s: number) => {
+  const mm = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
+  const ss = String(Math.floor(s % 60)).padStart(2, '0');
+  return s >= 3600 ? `${Math.floor(s / 3600)}h${mm}` : `${mm}:${ss}`;
+};
 
 /** aproxima x de alvo com constante de tempo tau (s) */
 export const aproxima = (x: number, alvo: number, dt: number, tau: number) => x + (alvo - x) * (1 - Math.exp(-dt / tau));
