@@ -70,7 +70,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: 5 estações (JOGO-RP-01 a 05: baqueteamento/Schamroth e estertores em velcro, posição da traqueia, pico de fluxo com plano de ação, inalador com espaçador, oximetria e armadilhas) e 6 manobras novas. O exame físico clássico já tinha 35 estações.
 
 ### 3. Abdome e digestivo
-- [ ] 3A · Casos vivos: **apendicite**, **colecistite e colangite**, **pancreatite**, **hemorragia digestiva alta**, **obstrução intestinal**.
+- [~] 3A · Casos vivos: **apendicite**, **colecistite e colangite**, **pancreatite**, **hemorragia digestiva alta**, **obstrução intestinal**.
+  - Feito: HDA varicosa em cirrótico (2 acessos, terlipressina, ceftriaxona, transfusão restritiva, volume ≤ 2 L, IBP, EDA com ligadura só após estabilizar, Blatchford/Child; ressangramento e choque se não tratar; penaliza betabloqueador agudo, transfusão liberal e excesso de volume). Falta: apendicite, colecistite/colangite, pancreatite, obstrução.
 - [ ] 3B · Exames: laboratório (hemograma, amilase e lipase, função hepática) e **radiografia de abdome**.
 - [ ] 3C · Procedimentos: **sondagem nasogástrica**, **paracentese**.
 - [ ] 3D · Plantão: dor abdominal, vômitos, sangramento.
@@ -128,3 +129,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-26 · 2C: oxigenoterapia (dispositivo e fluxo por cenário).
 - 2026-11-26 · 2D: plantão do pronto-socorro respiratório.
 - 2026-11-26 · 2E: 5 estações de OSCE respiratório novas e 6 manobras. **Sistema 2 (Respiratório) concluído.**
+- 2026-11-27 · 3A: início do sistema Abdome com o caso vivo de HDA varicosa.

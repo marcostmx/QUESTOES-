@@ -4,6 +4,7 @@ import { BRADI } from './bradi';
 import { DISSECCAO } from './disseccao';
 import { DPOC } from './dpoc';
 import { EAP } from './eap';
+import { HDA } from './hda';
 import { IAM } from './iam';
 import { MEGACODE } from './megacode';
 import { PNEUMOTORAX } from './pneumotorax';
@@ -11,7 +12,7 @@ import { SEPSE } from './sepse';
 import { TAQUI } from './taqui';
 import { TEP } from './tep';
 
-export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE, TEP];
+export const CASOS: Caso[] = [IAM, BRADI, TAQUI, EAP, MEGACODE, DISSECCAO, ASMA, DPOC, PNEUMOTORAX, SEPSE, TEP, HDA];
 
 export const SISTEMAS_CASO: { id: Caso['sistema']; nome: string }[] = [
   { id: 'cardiovascular', nome: 'Cardiovascular' },
