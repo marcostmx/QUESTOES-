@@ -71,7 +71,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 
 ### 3. Abdome e digestivo
 - [~] 3A · Casos vivos: **apendicite**, **colecistite e colangite**, **pancreatite**, **hemorragia digestiva alta**, **obstrução intestinal**.
-  - Feito: HDA varicosa em cirrótico (2 acessos, terlipressina, ceftriaxona, transfusão restritiva, volume ≤ 2 L, IBP, EDA com ligadura só após estabilizar, Blatchford/Child; ressangramento e choque se não tratar; penaliza betabloqueador agudo, transfusão liberal e excesso de volume). Colangite aguda grave (Tokyo grau III: pêntade de Reynolds, hemoculturas, pip-tazo em até 1 h, volume, noradrenalina, USG, CPRE urgente; só antibiótico sem drenagem volta a piorar; penaliza colecistectomia na fase aguda). Apendicite aguda (anamnese e sinais, Alvarado, analgesia precoce, jejum, USG, antibiótico profilático e apendicectomia antes de perfurar às 4 h; penaliza segurar analgesia, alta com antiespasmódico e TC desnecessária). Relógio passa a mostrar horas. Falta: pancreatite, obstrução.
+  - Feito: HDA varicosa em cirrótico (2 acessos, terlipressina, ceftriaxona, transfusão restritiva, volume ≤ 2 L, IBP, EDA com ligadura só após estabilizar, Blatchford/Child; ressangramento e choque se não tratar; penaliza betabloqueador agudo, transfusão liberal e excesso de volume). Colangite aguda grave (Tokyo grau III: pêntade de Reynolds, hemoculturas, pip-tazo em até 1 h, volume, noradrenalina, USG, CPRE urgente; só antibiótico sem drenagem volta a piorar; penaliza colecistectomia na fase aguda). Apendicite aguda (anamnese e sinais, Alvarado, analgesia precoce, jejum, USG, antibiótico profilático e apendicectomia antes de perfurar às 4 h; penaliza segurar analgesia, alta com antiespasmódico e TC desnecessária). Relógio passa a mostrar horas. Pancreatite aguda biliar (lipase, BISAP, hidratação moderada × agressiva/WATERFALL, analgesia com opioide, USG, dieta oral precoce, colecistectomia na mesma internação; penaliza antibiótico profilático, TC precoce, jejum prolongado e CPRE sem colangite). Falta: obstrução intestinal.
 - [ ] 3B · Exames: laboratório (hemograma, amilase e lipase, função hepática) e **radiografia de abdome**.
 - [ ] 3C · Procedimentos: **sondagem nasogástrica**, **paracentese**.
 - [ ] 3D · Plantão: dor abdominal, vômitos, sangramento.
@@ -132,3 +132,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-27 · 3A: início do sistema Abdome com o caso vivo de HDA varicosa.
 - 2026-11-27 · 3A: caso vivo de colangite aguda grave (Tokyo 2018).
 - 2026-11-27 · 3A: caso vivo de apendicite aguda (relógio de horas para casos longos).
+- 2026-11-27 · 3A: caso vivo de pancreatite aguda biliar.
