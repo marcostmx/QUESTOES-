@@ -1,8 +1,9 @@
 /* Trilha OSCE do 4º período: progresso por módulo, próxima estação e ritmo até a prova. */
 import { useMemo, useState } from 'react';
 import { ArrowRight, CalendarDays, ChevronDown, Lock, Route as RouteIcon } from 'lucide-react';
-import data from '../../data/osce/stations.json';
-import { nomeSistema, type Estacao } from '../../osce/engine';
+import data from '../../data/osce/indice.json';
+import { nomeSistema } from '../../osce/engine';
+import type { EstacaoIndice } from '../../osce/indice';
 import { useOsceHistory } from '../../osce/history';
 import { proxima, resumo, ritmo, trilha, type StatusEstacao } from '../../osce/trilha';
 import { pode } from '../core/acesso';
@@ -11,7 +12,7 @@ import { preferences, storage, usePrefs } from '../core/store';
 import { href } from '../router';
 import { Bar, Card, cx, Ring } from '../ui';
 
-const ESTACOES = data as unknown as Estacao[];
+const ESTACOES = data as unknown as EstacaoIndice[];
 const ROTULO = new Map(ESTACOES.map(e => [e.id, e.rotulo]));
 const COR: Record<StatusEstacao, string> = {
   nova: 'border-line bg-surface text-ink-3',

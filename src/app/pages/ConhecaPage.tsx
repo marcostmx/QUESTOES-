@@ -1,6 +1,6 @@
 /* Página de vendas pública: o que é, para quem, recursos, preço e perguntas frequentes. */
 import { Activity, ArrowRight, BookOpen, CalendarCheck, Check, Crown, Gamepad2, HeartPulse, Route as RouteIcon, Smartphone, Users } from 'lucide-react';
-import data from '../../data/osce/stations.json';
+import data from '../../data/osce/indice.json';
 import { CASOS } from '../../casos/catalogo';
 import { precoBRL, useAssinatura } from '../core/assinatura';
 import { BotaoAssinar } from '../components/Premium';

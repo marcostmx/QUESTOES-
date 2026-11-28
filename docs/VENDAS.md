@@ -53,4 +53,6 @@ O aluno pode cancelar na própria página Premium.
 - Termos de uso e política de privacidade (LGPD): estão no roteiro, item P3.
 - Emissão de nota fiscal pelo MEI ou CNPJ.
 - Direito autoral: o banco inclui questões de provas antigas e slides de professores, e parte das estações OSCE vem de material da faculdade. A decisão foi manter esse conteúdo. O ideal é ter autorização por escrito dos autores ou da instituição.
-- Proteção do conteúdo: hoje o conteúdo Premium vai junto no pacote do app. Mover isso para o servidor é o item P2 do roteiro.
+- Proteção do conteúdo: questões e estações de OSCE vêm de `/api/conteudo` conforme o plano. Por isso o app **precisa do servidor** (Cloud Run): publicar só os arquivos estáticos deixa o app sem questões.
+- Ao mudar `src/data/osce/stations.json`, rode `npm run indice-osce` (o teste avisa se o índice ficou desatualizado).
+- Termos e privacidade: preencher razão social, CNPJ e e-mail de contato em `src/app/pages/LegalPage.tsx`.

@@ -5,30 +5,14 @@
 import { useEffect, useMemo, useSyncExternalStore } from 'react';
 import { CURRENT_EXAM, EXAMS, SUBJECTS, type ExamId, type Question, type SubjectId } from '../../data/schema';
 import { usePrefs } from './store';
-import { idToken } from './sync';
+import { obter } from './conteudo';
 
 /*
  * As questões não vão mais no pacote do app: vêm de /api/conteudo conforme o plano (Premium recebe o banco
  * todo; o grátis, a amostra de inéditas). Cada resposta fica guardada no Cache do navegador para uso offline.
  */
-const CACHE = 'conteudo-v1';
 interface ItemIndice { arquivo: string; total: number; liberadas: number; provas: number }
 interface Indice { premium: boolean; indice: Record<string, ItemIndice[]> }
-
-async function obter<T>(url: string): Promise<T> {
-  const tok = await idToken();
-  try {
-    const r = await fetch(url, { headers: tok ? { Authorization: `Bearer ${tok}` } : {}, cache: 'no-store' });
-    if (!r.ok || !(r.headers.get('content-type') ?? '').includes('json')) throw new Error(`conteúdo ${r.status}`);
-    const copia = r.clone();
-    if ('caches' in window) void caches.open(CACHE).then(c => c.put(url, copia)).catch(() => undefined);
-    return (await r.json()) as T;
-  } catch (e) {
-    const hit = 'caches' in window ? await caches.open(CACHE).then(c => c.match(url)).catch(() => undefined) : undefined;
-    if (hit) return (await hit.json()) as T;
-    throw e;
-  }
-}
 
 let indiceP: Promise<Indice> | null = null;
 let indiceAtual: Indice | null = null;

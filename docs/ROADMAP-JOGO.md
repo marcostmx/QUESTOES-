@@ -32,7 +32,7 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 
 ### P. Produto e vendas
 - [x] P1 · Assinatura mensal (Mercado Pago) com 7 dias grátis na primeira assinatura, plano grátis × Premium, página de planos, cadeados nas listas e bloqueio nas rotas.
-- [~] P2 · Proteger o conteúdo Premium. Feito: questões saem do pacote e vêm de /api/conteudo (Premium: tudo; grátis: amostra de ~20% das inéditas; provas anteriores só Premium), com cache offline. Falta: estações de OSCE pelo servidor (índice público + detalhe protegido).
+- [x] P2 · Conteúdo protegido no servidor (/api/conteudo): questões (Premium recebe tudo; grátis, amostra de ~20% das inéditas; provas anteriores só Premium) e estações de OSCE (índice público em indice.json; caso, achados, comandos e checklist só pela API conforme o plano), com cache offline. Os casos vivos seguem no código (são lógica de jogo).
 - [x] P3 · Página de vendas (#/conheca), termos e privacidade prontos para CNPJ (falta preencher razão social, CNPJ e contato em LegalPage.tsx).
 - [ ] P4 · Painel do administrador: assinantes ativos, receita do mês, cancelamentos, conversão do grátis.
 
@@ -166,6 +166,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
 - 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
 - 2026-11-28 · Jogo 3D: os casos vivos passam a acontecer numa sala de emergência 3D interativa.
+- 2026-11-28 · Conteúdo protegido: questões e estações de OSCE vêm do servidor conforme o plano; página de vendas, termos e privacidade.
 - 2026-11-28 · Trilha OSCE do 4º período (domínio, revisão espaçada, ritmo até a prova) e teste grátis de 7 dias.
 - 2026-11-28 · Foco em OSCE + 4º período como produto pago: assinatura Mercado Pago, plano grátis × Premium, página de planos e menu com o OSCE em primeiro.
 - 2026-11-28 · 3D refeito: personagens humanos, enfermeira da equipe com rotas e RCP, oclusão de ambiente e câmera para celular.

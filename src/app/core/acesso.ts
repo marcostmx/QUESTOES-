@@ -4,7 +4,7 @@
  * amostra de questões inéditas (filtrada no servidor, src/data/amostra.ts) com 20 por dia. Premium: tudo (OSCE completo, prova OSCE simulada, circuito, plantões, casos,
  * procedimentos, questões ilimitadas e simulados).
  */
-import data from '../../data/osce/stations.json';
+import data from '../../data/osce/indice.json';
 
 export const LIMITE_QUESTOES_DIA = 20;
 export const CASOS_GRATIS = new Set(['iam-supra-anterior', 'asma-grave']);
