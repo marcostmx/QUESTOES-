@@ -33,20 +33,22 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 ### P. Produto e vendas
 - [x] P1 · Assinatura mensal (Mercado Pago) com 7 dias grátis na primeira assinatura, plano grátis × Premium, página de planos, cadeados nas listas e bloqueio nas rotas.
 - [ ] P2 · Proteger o conteúdo Premium: servir estações, questões e casos Premium pelo servidor só para assinantes (hoje vão no pacote JS e dá para extrair).
-- [ ] P3 · Página de vendas pública (o que tem, depoimentos de uso, preço) + termos de uso, política de privacidade (LGPD) e aviso educacional.
+- [ ] P3 · Página de vendas pública (o que tem, como funciona, preço, perguntas frequentes; sem depoimentos inventados) + termos de uso, política de privacidade (LGPD) e aviso educacional.
 - [ ] P4 · Painel do administrador: assinantes ativos, receita do mês, cancelamentos, conversão do grátis.
 
 ### O. OSCE (núcleo do produto)
 - [x] O1 · Trilha OSCE do 4º período: 10 módulos do básico ao complexo, domínio (duas notas ≥ 70%), revisão espaçada após 14 dias, próxima estação recomendada, data da prova com ritmo diário, cartão na Home.
 - [ ] O2 · OSCE abdome agudo: completar as lacunas (antigo 3E).
 - [ ] O3 · Neurológico: revisar e polir as 79 estações (antigo 4E).
-- [ ] O4 · Estações de comunicação e anamnese com roteiro de paciente-ator e correção por item.
+- [ ] O6 · Treino em dupla: um colega examina, o outro avalia pelo checklist no celular, com cronômetro e nota (sem 3D).
 - [ ] O5 · Relatório de desempenho OSCE por competência (exame físico, comunicação, raciocínio) e evolução no tempo.
+- [ ] O4 · Estações de comunicação e anamnese com roteiro de paciente-ator e correção por item.
 
 ### M. Matérias do 4º período
 - [ ] M1 · Cobertura: mapear os temas de cada matéria × questões existentes e completar lacunas (mínimo de 150 por matéria; SOP3 e GIS2 estão baixas).
 - [ ] M2 · Resumos por tema nas 7 matérias.
 - [ ] M3 · Integração OSCE ↔ teoria: cada estação aponta resumos e questões do mesmo tema.
+- [ ] M4 · Flashcards das 7 matérias e das manobras do OSCE, com repetição espaçada.
 
 ## Organização do jogo: por sistema
 

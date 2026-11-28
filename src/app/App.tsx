@@ -17,6 +17,8 @@ import { useAssinatura } from './core/assinatura';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
 const PlanosPage = lazy(() => import('./pages/PlanosPage'));
+const ConhecaPage = lazy(() => import('./pages/ConhecaPage'));
+const LegalPage = lazy(() => import('./pages/LegalPage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
 const ExamPage = lazy(() => import('./pages/ExamPage'));
@@ -320,6 +322,8 @@ function page(parts: string[]): ReactNode {
     case 'praticar': return <PracticePage subject={arg} />;
     case 'simulado': return <Portao recurso={{ tipo: 'simulado' }} titulo="Simulados cronometrados são Premium"><ExamPage /></Portao>;
     case 'planos': return <PlanosPage />;
+    case 'termos': return <LegalPage tipo="termos" />;
+    case 'privacidade': return <LegalPage tipo="privacidade" />;
     case 'osce': return <OscePage />;
     case 'carreira': return <CareerPage />;
     case 'casos': return <CasosPage />;
@@ -393,6 +397,13 @@ export default function App() {
     return () => window.removeEventListener('keydown', onKey);
   }, [route.parts]);
 
+  if (route.parts[0] === 'conheca') {
+    return (
+      <Suspense fallback={<Loading label="Carregando…" />}>
+        <ConhecaPage />
+      </Suspense>
+    );
+  }
   if (route.parts[0] === 'procedimento' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Separando o material…" />}>
