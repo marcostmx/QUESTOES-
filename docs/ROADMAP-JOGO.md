@@ -101,7 +101,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 ### 7. Transversal (entra ao longo do caminho)
 - [ ] Plantão completo misturando os sistemas, com placar.
 - [ ] Prescrição com dose, via, alergias e interações.
-- [ ] Novos cenários 3D (sala de emergência, enfermaria) e o caso vivo dentro da sala 3D.
+- [~] Novos cenários 3D (sala de emergência, enfermaria) e o caso vivo dentro da sala 3D.
+  - Feito: sala de emergência 3D (`src/casos/Emergencia3D.ts`) para todos os casos vivos: paciente reage aos vitais (respiração, cianose, palidez, parada), monitor com o ritmo real, bipes e alarmes, estações clicáveis (paciente, monitor, exames, medicações, carrinho de parada, telefone) com marcadores e barra de estações, compressões na RCP e clarão/tranco no choque. Modo 2D continua disponível. Falta: enfermaria, equipe (enfermeira) e animações de procedimentos.
 - [ ] Personagens, narrativa, som ambiente.
 - [ ] Ranking, modos desafio, qualidade gráfica ajustável, acessibilidade.
 
@@ -138,3 +139,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-28 · 3A: caso vivo de obstrução intestinal por bridas. Casos vivos do Abdome concluídos (5 casos).
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
 - 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
+- 2026-11-28 · Jogo 3D: os casos vivos passam a acontecer numa sala de emergência 3D interativa.

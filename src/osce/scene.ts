@@ -67,7 +67,7 @@ function box(w: number, h: number, d: number, mat: THREE.Material, x = 0, y = 0,
 
 
 /* ---------- Personagem em blocos ---------- */
-interface Boneco {
+export interface Boneco {
   root: THREE.Group;
   frame: THREE.Group;
   torso: THREE.Group;
@@ -84,7 +84,7 @@ interface Boneco {
   olhos: THREE.Mesh[];
 }
 
-function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number; sapato: number; jaleco?: boolean; longo?: boolean }): Boneco {
+export function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number; sapato: number; jaleco?: boolean; longo?: boolean }): Boneco {
   const root = new THREE.Group();
   const frame = new THREE.Group();
   frame.scale.setScalar(S);

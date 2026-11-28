@@ -304,7 +304,7 @@ export interface SalaConstruida {
   telaAvaliador: { cv: HTMLCanvasElement; tex: THREE.CanvasTexture };
 }
 
-export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vector3, maca: { x: number; z: number; top: number; len: number; wid: number }, aniso = 4): SalaConstruida {
+export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vector3, maca: { x: number; z: number; top: number; len: number; wid: number }, aniso = 4, modo: 'osce' | 'emergencia' = 'osce'): SalaConstruida {
   ANISO = aniso;
   const { x0, x1, z0, z1, h: H } = SALA;
   const M = criaMateriais();
@@ -463,7 +463,7 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
     rb(0.36, 0.06, 0.05, 0.01, M.aluminio, 0.2, 0.98, zi - 0.03, porta);
     rb(0.3, 0.02, 0.02, 0.008, M.aluminio, 0.33, 1.04, zi - 0.09, porta);
   }
-  const pl = placaTexto(`ESTAÇÃO ${numero}`, 1.0, 0.24, '#1f2a44', '#ffffff');
+  const pl = modo === 'emergencia' ? placaTexto('SALA VERMELHA', 1.0, 0.24, '#b3261e', '#ffffff') : placaTexto(`ESTAÇÃO ${numero}`, 1.0, 0.24, '#1f2a44', '#ffffff');
   pos(pl, 0, 2.5, z1 - 0.003, cena, 0, Math.PI);
   // interruptor duplo, termostato do ar e tomadas
   const espelho = (x: number, y: number, z: number, ry: number, tipo: 'tomada' | 'interruptor' | 'termostato') => {
@@ -1083,7 +1083,7 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
     // lixeira pequena
     torno([[0, 0], [0.1, 0], [0.13, 0.3], [0.125, 0.3], [0.095, 0.01], [0, 0.01]], std(0x4a5560, { rough: 0.5, side: THREE.DoubleSide }), 0.45, 0, -0.1, mesa);
   }
-  {
+  if (modo === 'osce') {
     // plaquinha "AVALIADOR" em prisma
     const pg = grupo(0, 0.77, 0.3, 0, mesa);
     const tri = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.36, 3), std(0x0f5c4d, { rough: 0.4 }));
@@ -1141,9 +1141,12 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
       c.fillRect(0, 0, W, H2);
       manchas(c, W, H2, '#e8eef2', 10, 0.5);
       c.fillStyle = '#1565c0';
-      texto(c, `OSCE · Estação ${numero}`, 40, 70, 54, '#1565c0', 'bold', 'left');
-      texto(c, '1 min leitura · 5 min execução', 40, 140, 36, '#c62828', '600', 'left');
-      ['✓ Higienize as mãos', '✓ Apresente-se e peça consentimento', '✓ Examine pelo lado direito', '✓ Explique cada etapa ao paciente'].forEach((s, i) => texto(c, s, 40, 220 + i * 60, 34, '#37474f', '500', 'left'));
+      const emerg = modo === 'emergencia';
+      texto(c, emerg ? 'SALA DE EMERGÊNCIA' : `OSCE · Estação ${numero}`, 40, 70, 54, '#1565c0', 'bold', 'left');
+      texto(c, emerg ? 'Toda chegada: MOV + ABCDE' : '1 min leitura · 5 min execução', 40, 140, 36, '#c62828', '600', 'left');
+      (emerg
+        ? ['✓ Monitor, oxigênio e veia', '✓ Reavalie após cada conduta', '✓ Chame ajuda cedo', '✓ Comunicação em alça fechada']
+        : ['✓ Higienize as mãos', '✓ Apresente-se e peça consentimento', '✓ Examine pelo lado direito', '✓ Explique cada etapa ao paciente']).forEach((s, i) => texto(c, s, 40, 220 + i * 60, 34, '#37474f', '500', 'left'));
       c.strokeStyle = '#2e7d32';
       c.lineWidth = 5;
       c.beginPath();

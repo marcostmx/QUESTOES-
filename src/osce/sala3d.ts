@@ -292,6 +292,11 @@ export class Monitor {
     this.desenha();
   }
 
+  /** troca os sinais exibidos (monitor ligado a um caso vivo) */
+  atualizar(v: Vitais) {
+    this.v = v;
+  }
+
   passo(dt: number) {
     this.acc += dt;
     const fc = this.v.fc ?? 76;
