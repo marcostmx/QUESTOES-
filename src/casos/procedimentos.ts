@@ -349,6 +349,102 @@ export const PROCEDIMENTOS: Procedimento[] = [
       },
     ],
   },
+  {
+    id: 'sng', sistema: 'abdome', titulo: 'Sondagem nasogástrica',
+    contexto: 'Mulher de 68 anos com obstrução intestinal, vomitando. Você vai passar uma sonda nasogástrica para descompressão.',
+    fonte: 'Protocolos de enfermagem e emergência; NPSA (confirmação da posição)',
+    etapas: [
+      {
+        pergunta: 'Antes de começar:', certa: 'Explicar, pedir consentimento e checar contraindicações (ex.: suspeita de fratura de base de crânio)',
+        erradas: [{ texto: 'Passar logo, ela está vomitando', porque: 'Explicar reduz a ansiedade e aumenta a colaboração; e há contraindicações a checar (trauma de face/base de crânio: use a via oral).' }],
+        explicacao: 'Varizes esofágicas não são contraindicação absoluta; avalie risco e benefício.',
+      },
+      {
+        pergunta: 'Posição e medida da sonda:', certa: 'Sentada ou cabeceira a 45°; medir nariz → lóbulo da orelha → apêndice xifoide e marcar',
+        erradas: [
+          { texto: 'Deitada reta, sem medir', porque: 'Deitada aumenta o risco de aspiração; sem medir, a ponta pode ficar no esôfago ou enrolar.' },
+          { texto: 'Medir do nariz ao umbigo', porque: 'A referência é nariz–orelha–xifoide (NEX), às vezes somando alguns centímetros.' },
+        ],
+        explicacao: 'A marca indica quanto introduzir e serve de referência depois.',
+      },
+      {
+        pergunta: 'Introdução:', certa: 'Lubrificar com gel anestésico e introduzir pela narina na horizontal, paralelo ao assoalho nasal',
+        erradas: [{ texto: 'Introduzir apontando para cima, em direção à testa', porque: 'Para cima, a sonda bate nos cornetos, dói e sangra; o trajeto é horizontal, para trás.' }],
+        explicacao: 'Escolha a narina mais pérvia.',
+      },
+      {
+        pergunta: 'Ao chegar à orofaringe:', certa: 'Pedir para fletir o pescoço e engolir, avançando a cada deglutição',
+        erradas: [{ texto: 'Estender o pescoço e empurrar com força', porque: 'A extensão abre a via aérea e favorece a entrada na traqueia; a flexão direciona para o esôfago.' }],
+        explicacao: 'Goles de água ajudam, se não houver restrição.',
+      },
+      {
+        pergunta: 'A paciente tosse muito, fica com a voz rouca e dessatura:', certa: 'Recuar a sonda: provável entrada na via aérea',
+        erradas: [{ texto: 'Continuar avançando: é só reflexo', porque: 'Tosse persistente, rouquidão e dessaturação sugerem a traqueia: retire e tente de novo.' }],
+        explicacao: 'Em paciente rebaixado esses sinais podem faltar: a confirmação é obrigatória.',
+      },
+      {
+        pergunta: 'Como confirmar a posição antes de usar?', certa: 'Radiografia (padrão para alimentar) ou aspirado gástrico com pH ≤ 5,5',
+        erradas: [{ texto: 'Ausculta do epigástrio insuflando ar', porque: 'O "teste do borbulho" não é confiável: o som é transmitido mesmo com a sonda no pulmão.' }],
+        explicacao: 'Nunca inicie dieta ou medicação sem confirmar a posição.',
+      },
+      {
+        pergunta: 'Para terminar:', certa: 'Fixar sem pressionar a asa nasal, registrar a marca e deixar aberta em frasco (descompressão)',
+        erradas: [{ texto: 'Fixar tracionando a asa do nariz para não sair', porque: 'Pressão na asa nasal causa lesão por pressão (necrose).' }],
+        explicacao: 'Anote volume e aspecto do débito.',
+      },
+    ],
+  },
+  {
+    id: 'paracentese', sistema: 'abdome', titulo: 'Paracentese diagnóstica e de alívio',
+    contexto: 'Cirrótico internado com ascite volumosa, febre baixa e dor abdominal difusa. INR 1,9 e plaquetas 58 mil.',
+    fonte: 'AASLD 2021; EASL',
+    etapas: [
+      {
+        pergunta: 'INR 1,9 e plaquetas 58 mil. Antes da punção:', certa: 'Não é preciso corrigir de rotina: o risco de sangramento é baixo',
+        erradas: [
+          { texto: 'Transfundir plasma e plaquetas antes', porque: 'Coagulopatia leve a moderada do cirrótico não exige correção para paracentese; só em CIVD ou fibrinólise.' },
+          { texto: 'Adiar até o INR normalizar', porque: 'Adiar atrasa o diagnóstico de PBE, que é grave.' },
+        ],
+        explicacao: 'Todo cirrótico internado com ascite deve fazer paracentese diagnóstica.',
+      },
+      {
+        pergunta: 'Local da punção:', certa: 'Quadrante inferior esquerdo, 2 dedos medial e cranial à espinha ilíaca anterossuperior, guiado por ultrassom',
+        erradas: [
+          { texto: 'Linha média logo acima do umbigo', porque: 'Pode haver circulação colateral (cabeça de medusa) e a bexiga/alças próximas; prefira o QIE.' },
+          { texto: 'Na borda lateral do reto abdominal', porque: 'Ali passam os vasos epigástricos inferiores: risco de hematoma de parede.' },
+        ],
+        explicacao: 'O ultrassom confirma bolsão de líquido e afasta alças aderidas.',
+      },
+      {
+        pergunta: 'Após antissepsia e anestesia local, a técnica de introdução da agulha é:', certa: 'Técnica em Z: deslocar a pele antes de introduzir, para o trajeto se fechar ao retirar',
+        erradas: [{ texto: 'Introduzir perpendicular e direto, sem deslocar a pele', porque: 'O trajeto reto favorece extravasamento persistente de ascite.' }],
+        explicacao: 'Avance aspirando até refluir o líquido.',
+      },
+      {
+        pergunta: 'O que mandar do líquido ascítico?', certa: 'Celularidade com diferencial, albumina (GASA), proteína total e cultura em frasco de hemocultura à beira-leito',
+        erradas: [{ texto: 'Só a cultura em frasco seco', porque: 'O diagnóstico de PBE é pela contagem de PMN (≥ 250/mm³); a cultura no frasco de hemocultura aumenta a positividade.' }],
+        explicacao: 'Glicose, LDH e Gram se suspeitar de peritonite secundária.',
+      },
+      {
+        pergunta: 'Vai retirar 7 litros (alívio). Precisa de algo?', certa: 'Albumina 6–8 g por litro retirado (acima de 5 L)',
+        erradas: [
+          { texto: 'Nada: é só tirar devagar', porque: 'Grandes volumes sem albumina causam disfunção circulatória pós-paracentese (hiponatremia, lesão renal).' },
+          { texto: 'Soro fisiológico 2 L para repor', porque: 'Cristaloide não previne a disfunção circulatória; o expansor indicado é a albumina.' },
+        ],
+        explicacao: 'Até 5 L, a albumina é opcional.',
+      },
+      {
+        pergunta: 'Resultado: PMN 420/mm³. Conduta?', certa: 'Tratar PBE: cefalosporina de 3ª geração + albumina (1,5 g/kg no D1 e 1 g/kg no D3)',
+        erradas: [{ texto: 'Esperar a cultura', porque: 'PMN ≥ 250/mm³ já indica tratamento; a cultura pode vir negativa (ascite neutrocítica).' }],
+        explicacao: 'Depois do episódio, profilaxia secundária (norfloxacino ou alternativa).',
+      },
+      {
+        pergunta: 'Para terminar:', certa: 'Curativo compressivo e observar extravasamento, sangramento e hipotensão',
+        erradas: [{ texto: 'Liberar dieta e deambulação sem reavaliar', porque: 'Reavalie a PA e o local da punção: hipotensão e vazamento são as complicações mais comuns.' }],
+        explicacao: 'Registre volume, aspecto e exames enviados.',
+      },
+    ],
+  },
 ];
 
 export const procPorId = (id: string) => PROCEDIMENTOS.find(p => p.id === id);
