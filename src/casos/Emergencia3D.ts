@@ -8,6 +8,10 @@ import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/examples/jsm/geometries/RoundedBoxGeometry.js';
 import { RoomEnvironment } from 'three/examples/jsm/environments/RoomEnvironment.js';
 import { RectAreaLightUniformsLib } from 'three/examples/jsm/lights/RectAreaLightUniformsLib.js';
+import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
+import { GTAOPass } from 'three/examples/jsm/postprocessing/GTAOPass.js';
+import { OutputPass } from 'three/examples/jsm/postprocessing/OutputPass.js';
 import { construirSala, LUMINARIAS, SALA } from '../osce/salaOsce';
 import { boneco, type Boneco } from '../osce/scene';
 import { audioCtx } from '../osce/sfx';
@@ -42,6 +46,10 @@ const VISTAS: Record<Estacao3D | 'geral', { pos: [number, number, number]; olhar
   procedimentos: { pos: [1.25, 1.5, 0.35], olhar: [2.25, 0.95, -1.3] },
   decisao: { pos: [1.0, 1.55, 2.55], olhar: [1.65, 1.45, 3.95] },
 };
+/** visão geral em tela vertical (celular): mais perto da maca e olhando para baixo, sem desperdiçar o forro */
+const GERAL_RETRATO = { pos: [0.75, 1.9, 1.3] as [number, number, number], olhar: [-0.15, 0.55, -1.1] as [number, number, number] };
+const retrato = () => innerWidth < innerHeight;
+const vista = (id: Estacao3D | 'geral') => (id === 'geral' && retrato() ? GERAL_RETRATO : VISTAS[id]);
 /** onde aparece o pino de cada estação */
 const ANCORA: Record<Estacao3D, [number, number, number]> = {
   paciente: [-0.25, 1.15, -1],
@@ -51,6 +59,22 @@ const ANCORA: Record<Estacao3D, [number, number, number]> = {
   procedimentos: [2.25, 1.45, -1.3],
   decisao: [1.65, 1.85, 3.94],
 };
+
+/** onde a enfermeira fica (x, z) e para onde olha, conforme a estação em que o estudante está agindo */
+type PostoEnf = Estacao3D | 'espera' | 'rcp';
+const POSTO_ENF: Record<PostoEnf, { em: [number, number]; olha: [number, number] }> = {
+  espera: { em: [-1.3, -0.45], olha: [-0.8, -1] },
+  paciente: { em: [-1.3, -0.45], olha: [-0.8, -1] },
+  monitor: { em: [-2.2, -1.05], olha: [-1.65, -1.6] },
+  exames: { em: [0.2, -0.33], olha: [0.0, -1] }, // coleta de sangue no braço do paciente
+  medicacoes: { em: [-2.55, 0.2], olha: [-1.95, 0.75] },
+  procedimentos: { em: [2.75, -0.8], olha: [2.25, -1.3] },
+  decisao: { em: [-1.3, -0.45], olha: [-0.8, -1] },
+  rcp: { em: [-0.42, -1.66], olha: [-0.42, -1] }, // do outro lado do leito: não tapa a visão do estudante
+};
+/** área ocupada pela maca (a enfermeira contorna pela frente) */
+const MACA_AREA = { x0: -1.2, x1: 1.2, z0: -1.55, z1: -0.45 };
+const ENF_Y = 0.92 * 0.88 + 0.03;
 
 const mat = (c: number, rough = 0.6, metal = 0) => new THREE.MeshStandardMaterial({ color: c, roughness: rough, metalness: metal });
 
@@ -83,6 +107,13 @@ export class Emergencia3D {
   private alvos: THREE.Object3D[] = [];
   private grupos = new Map<Estacao3D, THREE.Mesh[]>();
   private paciente: Boneco;
+  private enf: Boneco;
+  private enfPos = new THREE.Vector2(...POSTO_ENF.espera.em);
+  private enfRota: THREE.Vector2[] = [];
+  private enfPosto: PostoEnf = 'espera';
+  private enfFase = 0;
+  private enfAndando = 0;
+  private composer: EffectComposer | null = null;
   private pele: THREE.MeshStandardMaterial[] = [];
   private corPele: THREE.Color;
   private monitorTela = telaCanvas(512, 320);
@@ -94,7 +125,7 @@ export class Emergencia3D {
   private limpar = true;
   private quadro = '';
   // câmera
-  private pos = new THREE.Vector3(...VISTAS.geral.pos);
+  private pos = new THREE.Vector3(...vista('geral').pos);
   private yaw = 0;
   private pitch = 0;
   private tween: { de: THREE.Vector3; para: THREE.Vector3; yaw0: number; yaw1: number; p0: number; p1: number; t: number } | null = null;
@@ -168,6 +199,13 @@ export class Emergencia3D {
         const mt = m.material as THREE.MeshStandardMaterial;
         if (mt.color.getHex() === corPele) this.pele.push(mt);
       }
+    // enfermeira da equipe: acompanha o estudante de estação em estação
+    this.enf = boneco({ pele: 0xd9a37e, cabelo: 0x1f140d, tronco: 0x2b8c96, calca: 0x2b8c96, sapato: 0xf2f2f2, longo: true });
+    this.enf.root.position.set(this.enfPos.x, ENF_Y, this.enfPos.y);
+    this.enf.root.rotation.y = Math.atan2(POSTO_ENF.espera.olha[0] - this.enfPos.x, POSTO_ENF.espera.olha[1] - this.enfPos.y);
+    this.enf.root.traverse(m => m instanceof THREE.Mesh && (m.userData.regiao = undefined));
+    this.scene.add(this.enf.root);
+
     const meshesPaciente: THREE.Mesh[] = [];
     b.root.traverse(x => x instanceof THREE.Mesh && meshesPaciente.push(x));
     this.registrar('paciente', meshesPaciente);
@@ -187,7 +225,7 @@ export class Emergencia3D {
     this.registrar('exames', exames);
 
     // câmera inicial
-    this.olharPara(new THREE.Vector3(...VISTAS.geral.olhar), true);
+    this.olharPara(new THREE.Vector3(...vista('geral').olhar), true);
     canvas.addEventListener('pointerdown', this.onDown);
     canvas.addEventListener('pointermove', this.onMove);
     canvas.addEventListener('pointerup', this.onUp);
@@ -383,7 +421,8 @@ export class Emergencia3D {
   }
 
   irPara(id: Estacao3D | 'geral') {
-    const vis = VISTAS[id];
+    if (id !== 'geral') this.mandarEnfermeira(id);
+    const vis = vista(id);
     const para = new THREE.Vector3(...vis.pos);
     const d = new THREE.Vector3(...vis.olhar).sub(para);
     const yaw1 = Math.atan2(d.x, -d.z);
@@ -391,6 +430,98 @@ export class Emergencia3D {
     let dy = yaw1 - this.yaw;
     dy = Math.atan2(Math.sin(dy), Math.cos(dy));
     this.tween = { de: this.pos.clone(), para, yaw0: this.yaw, yaw1: this.yaw + dy, p0: this.pitch, p1, t: 0 };
+  }
+
+  /* ---------- enfermeira ---------- */
+  private mandarEnfermeira(p: PostoEnf) {
+    if (this.enfPosto === 'rcp' && p !== 'rcp' && this.rcp) return; // não larga as compressões
+    if (p === this.enfPosto && !this.enfRota.length) return;
+    this.enfPosto = p;
+    const fim = new THREE.Vector2(...POSTO_ENF[p].em);
+    const corta = (a: THREE.Vector2, b: THREE.Vector2) => {
+      for (let i = 1; i < 24; i++) {
+        const q = a.clone().lerp(b, i / 24);
+        if (q.x > MACA_AREA.x0 && q.x < MACA_AREA.x1 && q.y > MACA_AREA.z0 && q.y < MACA_AREA.z1) return true;
+      }
+      return false;
+    };
+    // menor caminho por cantos da maca (grafo de visibilidade pequeno)
+    const nos = [this.enfPos.clone(), fim, ...[[MACA_AREA.x0 - 0.15, MACA_AREA.z1 + 0.15], [MACA_AREA.x1 + 0.15, MACA_AREA.z1 + 0.15], [MACA_AREA.x1 + 0.15, MACA_AREA.z0 - 0.15]].map(([x, z]) => new THREE.Vector2(x, z))];
+    const dist = nos.map(() => Infinity);
+    const ant = nos.map(() => -1);
+    const feito = nos.map(() => false);
+    dist[0] = 0;
+    for (;;) {
+      let u = -1;
+      for (let i = 0; i < nos.length; i++) if (!feito[i] && (u < 0 || dist[i] < dist[u])) u = i;
+      if (u < 0 || dist[u] === Infinity || u === 1) break;
+      feito[u] = true;
+      for (let w = 0; w < nos.length; w++) {
+        if (feito[w] || corta(nos[u], nos[w])) continue;
+        const d = dist[u] + nos[u].distanceTo(nos[w]);
+        if (d < dist[w]) { dist[w] = d; ant[w] = u; }
+      }
+    }
+    const rota: THREE.Vector2[] = [];
+    for (let i = ant[1]; i > 0; i = ant[i]) rota.unshift(nos[i]);
+    rota.push(fim);
+    this.enfRota = rota;
+  }
+
+  private animarEnfermeira(dt: number, t: number) {
+    const b = this.enf;
+    if (this.rcp && this.enfPosto !== 'rcp') this.mandarEnfermeira('rcp');
+    if (!this.rcp && this.enfPosto === 'rcp') this.mandarEnfermeira('espera');
+    const alvo = this.enfRota[0];
+    let rumo: number;
+    if (alvo) {
+      const d = alvo.clone().sub(this.enfPos);
+      const dist = d.length();
+      const passo = Math.min(dist, dt * (this.rcp ? 1.6 : 1.1));
+      if (dist > 1e-4) this.enfPos.add(d.multiplyScalar(passo / dist));
+      if (dist - passo < 0.02) this.enfRota.shift();
+      this.enfFase += passo * 5.2;
+      this.enfAndando = Math.min(1, this.enfAndando + dt * 5);
+      rumo = Math.atan2(d.x, d.y);
+    } else {
+      this.enfAndando = Math.max(0, this.enfAndando - dt * 4);
+      const o = POSTO_ENF[this.enfPosto].olha;
+      rumo = Math.atan2(o[0] - this.enfPos.x, o[1] - this.enfPos.y);
+    }
+    let dr = rumo - b.root.rotation.y;
+    dr = Math.atan2(Math.sin(dr), Math.cos(dr));
+    b.root.rotation.y += dr * Math.min(1, dt * 7);
+    const k = this.enfAndando;
+    const ph = this.enfFase;
+    b.root.position.set(this.enfPos.x, ENF_Y + k * 0.018 * Math.abs(Math.cos(ph)), this.enfPos.y);
+    b.hipL.rotation.x = -0.42 * Math.sin(ph) * k;
+    b.hipR.rotation.x = 0.42 * Math.sin(ph) * k;
+    b.kneeL.rotation.x = 0.55 * Math.max(0, Math.sin(ph + 1.2)) * k;
+    b.kneeR.rotation.x = 0.55 * Math.max(0, -Math.sin(ph + 1.2)) * k;
+    const parada = !alvo;
+    const trabalhando = parada && this.enfPosto !== 'espera' && this.enfPosto !== 'paciente' && this.enfPosto !== 'decisao';
+    if (parada && this.enfPosto === 'rcp' && this.rcp) {
+      // compressões torácicas a 110/min: braços estendidos, tronco projetado sobre o esterno
+      const c = Math.max(0, Math.sin(t * 2 * Math.PI * (110 / 60)));
+      b.torso.rotation.x = 0.55 + c * 0.12;
+      b.armL.rotation.x = b.armR.rotation.x = -1.05 - c * 0.1;
+      b.armL.rotation.z = -0.12;
+      b.armR.rotation.z = 0.12;
+      b.root.position.y = ENF_Y - c * 0.03;
+      b.head.rotation.x = -0.2;
+    } else {
+      b.torso.rotation.x += ((trabalhando ? 0.18 : 0.02) - b.torso.rotation.x) * Math.min(1, dt * 6);
+      const mexe = trabalhando ? 0.08 * Math.sin(t * 2.2) : 0;
+      b.armL.rotation.x = trabalhando ? -0.75 + mexe : 0.35 * Math.sin(ph) * k + 0.03 * Math.sin(t * 1.3);
+      b.armR.rotation.x = trabalhando ? -0.85 - mexe : -0.35 * Math.sin(ph) * k + 0.03 * Math.sin(t * 1.3 + 1);
+      b.armL.rotation.z = trabalhando ? -0.15 : 0.06;
+      b.armR.rotation.z = trabalhando ? 0.15 : -0.06;
+      b.head.rotation.x = trabalhando ? 0.25 : 0;
+    }
+    b.chest.scale.z = 1 + 0.02 * Math.sin(t * 1.6);
+    // piscar
+    const pisca = (t % 3.7) < 0.12 ? 0.15 : 1;
+    for (const o of b.olhos) o.scale.y = pisca;
   }
 
   private olharPara(p: THREE.Vector3, imediato = false) {
@@ -505,6 +636,8 @@ export class Emergencia3D {
       }
     }
 
+    this.animarEnfermeira(dt, t);
+
     // monitor: varredura do ECG e números
     const c = this.monitorTela.g;
     const W = this.monitorTela.cv.width, H = this.monitorTela.cv.height;
@@ -591,13 +724,40 @@ export class Emergencia3D {
       });
       this.o.onPinos(pinos);
     }
-    this.renderer.render(this.scene, this.camera);
+    if (this.composer) this.composer.render(dt);
+    else this.renderer.render(this.scene, this.camera);
   };
+
+  /** oclusão de ambiente (GTAO): assenta móveis, maca e pessoas no piso. Só em WebGL 2. */
+  private montaComposer(w: number, h: number) {
+    if (!this.renderer.capabilities.isWebGL2) return;
+    // em telas de toque (celular/tablet) dispensa o pós-processamento: poupa bateria e mantém 60 fps
+    if (matchMedia('(pointer: coarse)').matches) return;
+    try {
+      const rt = new THREE.WebGLRenderTarget(w, h, { type: THREE.HalfFloatType, samples: 4 });
+      const c = new EffectComposer(this.renderer, rt);
+      c.addPass(new RenderPass(this.scene, this.camera));
+      const ao = new GTAOPass(this.scene, this.camera, w, h);
+      ao.updateGtaoMaterial({ radius: 0.32, distanceExponent: 1.6, thickness: 1.2, scale: 1.15, samples: 16, distanceFallOff: 1 });
+      ao.updatePdMaterial({ lumaPhi: 10, depthPhi: 2, normalPhi: 3, radius: 6, rings: 2, samples: 12 });
+      ao.blendIntensity = 0.9;
+      c.addPass(ao);
+      c.addPass(new OutputPass());
+      this.composer = c;
+    } catch {
+      this.composer = null;
+    }
+  }
 
   private resize() {
     const w = this.canvas.clientWidth, h = this.canvas.clientHeight;
     if (!w || !h) return;
     this.renderer.setSize(w, h, false);
+    if (!this.composer) this.montaComposer(w, h);
+    if (this.composer) {
+      this.composer.setPixelRatio(this.renderer.getPixelRatio());
+      this.composer.setSize(w, h);
+    }
     this.camera.aspect = w / h;
     this.camera.fov = w < h ? 82 : 68;
     this.camera.updateProjectionMatrix();
@@ -622,6 +782,7 @@ export class Emergencia3D {
     });
     this.scene.environment?.dispose();
     this.flashEl.remove();
+    this.composer?.dispose();
     this.renderer.dispose();
   }
 }

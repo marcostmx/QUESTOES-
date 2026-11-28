@@ -6,6 +6,7 @@ import { ANCORAS, estiloDe, ferramenta3d, marcador, ondeExaminar, roteiro, type 
 import { poseMarcha, RITMO, type PadraoMotor } from './motor';
 import { Cortina, desenhaAchados, Monitor } from './sala3d';
 import type { Achado3d, Vitais } from './visual';
+import { humano } from './humano';
 import { construirSala, desenhaTelaAvaliador, LUMINARIAS, SALA, type Caixa } from './salaOsce';
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass.js';
@@ -85,6 +86,11 @@ export interface Boneco {
 }
 
 export function boneco(o: { pele: number; cabelo: number; tronco: number; calca: number; sapato: number; jaleco?: boolean; longo?: boolean }): Boneco {
+  return humano(o);
+}
+
+/** Boneco antigo em blocos (mantido como referência). */
+export function bonecoBlocos(o: { pele: number; cabelo: number; tronco: number; calca: number; sapato: number; jaleco?: boolean; longo?: boolean }): Boneco {
   const root = new THREE.Group();
   const frame = new THREE.Group();
   frame.scale.setScalar(S);

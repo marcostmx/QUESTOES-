@@ -114,7 +114,7 @@ export function Sala3DView({ caso, e, tick, som, fazer, verFigura }: {
           <span className="font-medium">{e.quadro || 'Paciente acordado, ansioso.'}</span>
         </div>
         {ultimos.slice(0, 2).map((l, i) => (
-          <div key={`${l.t}-${i}`} className={cx('rounded-xl px-3 py-1.5 text-[12.5px] backdrop-blur', i ? 'opacity-70' : '', l.tipo === 'alerta' ? 'bg-[#ff3b30]/85 text-white' : 'bg-black/60 text-white')}>
+          <div key={`${l.t}-${i}`} className={cx('rounded-xl px-3 py-1.5 text-[12.5px] backdrop-blur max-sm:line-clamp-3', i ? 'opacity-70 max-sm:hidden' : '', l.tipo === 'alerta' ? 'bg-[#ff3b30]/85 text-white' : 'bg-black/60 text-white')}>
             <span className="mr-1.5 font-mono opacity-70">{relogio(l.t)}</span>{l.texto}
           </div>
         ))}

@@ -1118,7 +1118,7 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
   obst.push([-3.4, -1.9, -3.0, -1.5], [-3.6, -3.0, -2.9, -2.3]);
 
   // tabela de Snellen
-  quadroMold(0.34, 0.82, x0, 1.55, -0.55, Math.PI / 2, (c, W, H2) => {
+  if (modo === 'osce') quadroMold(0.34, 0.82, x0, 1.55, -0.55, Math.PI / 2, (c, W, H2) => {
     c.fillStyle = '#ffffff';
     c.fillRect(0, 0, W, H2);
     texto(c, 'SNELLEN', W / 2, 30, 26, '#c62828');
@@ -1278,7 +1278,7 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
     });
   });
   // balança antropométrica com régua
-  {
+  if (modo === 'osce') {
     const g = grupo(x1 - 0.42, 0, 3.2, -Math.PI / 2);
     rb(0.42, 0.08, 0.5, 0.02, std(0xe9ecee, { rough: 0.4, metal: 0.3 }), 0, 0.06, 0.05, g);
     rb(0.36, 0.01, 0.4, 0.004, std(0x2b2f33, { map: TEX.napa('#2b2f33'), rough: 0.85 }), 0, 0.105, 0.06, g);
@@ -1346,7 +1346,7 @@ export function construirSala(cena: THREE.Scene, numero: string, pia: THREE.Vect
   obst.push([maca.x - maca.len / 2, maca.x + maca.len / 2, maca.z - maca.wid / 2, maca.z + maca.wid / 2]);
 
   // escadinha de dois degraus em inox
-  {
+  if (modo === 'osce') {
     const g = grupo(maca.x + 1.35, 0, maca.z + 0.55);
     for (const sx of [-0.21, 0.21]) {
       tubo([[sx, 0, 0.16], [sx, 0.2, 0.16], [sx, 0.2, 0.0], [sx, 0.4, 0.0], [sx, 0.4, -0.12]], 0.012, M.cromo, g, 32);
