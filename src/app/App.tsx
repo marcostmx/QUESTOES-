@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, Gamepad2, Trophy, HeartPulse, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, Crown, Gamepad2, Trophy, HeartPulse, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -11,8 +11,12 @@ import { useSync, startSync } from './core/sync';
 import { href, useRoute } from './router';
 import { cx, Loading } from './ui';
 import { CareerWatcher } from './components/CareerWatcher';
+import { Portao } from './components/Premium';
+import { LIMITE_QUESTOES_DIA } from './core/acesso';
+import { useAssinatura } from './core/assinatura';
 
 const HomePage = lazy(() => import('./pages/HomePage'));
+const PlanosPage = lazy(() => import('./pages/PlanosPage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
 const ExamPage = lazy(() => import('./pages/ExamPage'));
@@ -94,11 +98,11 @@ function useNav(): NavItem[] {
     }
     return [
       { path: '', label: 'Hoje', icon: Home },
-      { path: 'praticar', label: 'Praticar', icon: PenLine },
+      { path: 'osce', label: 'Simulador OSCE', icon: Gamepad2 },
+      { path: 'praticar', label: 'Questões', icon: PenLine },
+      { path: 'casos', label: 'Casos clínicos', icon: HeartPulse },
       { path: 'simulado', label: 'Simulado', icon: ClipboardList },
       { path: 'revisao', label: 'Revisão', icon: CalendarClock, badge: due },
-      { path: 'osce', label: 'Simulador OSCE', icon: Gamepad2 },
-      { path: 'casos', label: 'Casos clínicos', icon: HeartPulse },
       { path: 'carreira', label: 'Carreira', icon: Trophy },
       { path: 'erros', label: 'Caderno de erros', icon: NotebookPen, badge: errors },
       { path: 'favoritos', label: 'Favoritos', icon: Bookmark },
@@ -238,6 +242,7 @@ function MobileNav({ current }: { current: string }) {
   const secondary = [
     ...nav.slice(4),
     { path: 'busca', label: 'Buscar', icon: Search },
+    { path: 'planos', label: 'Premium', icon: Crown },
     { path: 'conta', label: 'Conta e sincronização', icon: UserRound },
   ];
   const moreActive = secondary.some(i => isActive(current, i.path));
@@ -313,7 +318,8 @@ function page(parts: string[]): ReactNode {
   switch (head ?? '') {
     case '': return <HomePage />;
     case 'praticar': return <PracticePage subject={arg} />;
-    case 'simulado': return <ExamPage />;
+    case 'simulado': return <Portao recurso={{ tipo: 'simulado' }} titulo="Simulados cronometrados são Premium"><ExamPage /></Portao>;
+    case 'planos': return <PlanosPage />;
     case 'osce': return <OscePage />;
     case 'carreira': return <CareerPage />;
     case 'casos': return <CasosPage />;
@@ -330,6 +336,18 @@ function page(parts: string[]): ReactNode {
     case 'questao': return <QuestionPage id={arg} />;
     default: return <NotFound />;
   }
+}
+
+/** Plano grátis: limite diário de questões (checado ao abrir a sessão, com trava dura um pouco acima). */
+function PortaoQuestoes({ children }: { children: ReactNode }) {
+  const data = useStudy();
+  const a = useAssinatura();
+  const n = data.days[today()]?.answered ?? 0;
+  const [inicio] = useState(n);
+  const livre = a.premium || !a.vendas;
+  if (!livre && (inicio >= LIMITE_QUESTOES_DIA || n >= LIMITE_QUESTOES_DIA + 10))
+    return <Portao recurso={{ tipo: 'questoes', respondidasHoje: LIMITE_QUESTOES_DIA }} titulo={`Você chegou às ${LIMITE_QUESTOES_DIA} questões grátis de hoje`}>{children}</Portao>;
+  return <>{children}</>;
 }
 
 /** Comemoração discreta quando a meta do dia é atingida. */
@@ -378,14 +396,14 @@ export default function App() {
   if (route.parts[0] === 'procedimento' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Separando o material…" />}>
-        <ProcedimentoRun key={route.path} id={route.parts[1]} />
+        <Portao recurso={{ tipo: 'procedimento', id: route.parts[1] }}><ProcedimentoRun key={route.path} id={route.parts[1]} /></Portao>
       </Suspense>
     );
   }
   if (route.parts[0] === 'plantao') {
     return (
       <Suspense fallback={<Loading label="Abrindo o plantão…" />}>
-        <PlantaoRun key={route.path} sis={route.parts[1]} />
+        <Portao recurso={{ tipo: 'plantao' }} titulo="O plantão de triagem é Premium"><PlantaoRun key={route.path} sis={route.parts[1]} /></Portao>
       </Suspense>
     );
   }
@@ -399,14 +417,18 @@ export default function App() {
   if (route.parts[0] === 'casos' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Chamando o paciente…" />}>
-        <CasoRun key={route.path} id={route.parts[1]} />
+        <Portao recurso={{ tipo: 'caso', id: route.parts[1] }} titulo="Este caso clínico é Premium"><CasoRun key={route.path} id={route.parts[1]} /></Portao>
       </Suspense>
     );
   }
   if (route.parts[0] === 'osce' && route.parts[1]) {
     return (
       <Suspense fallback={<Loading label="Montando a estação…" />}>
-        <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} query={route.query} />
+        {route.parts[1] === 'relatorio' ? <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} query={route.query} /> : (
+          <Portao recurso={{ tipo: 'osce', id: route.parts[1], circuito: route.query.has('c') }} titulo={route.query.has('c') ? 'Prova OSCE completa e circuitos são Premium' : 'Esta estação de OSCE é Premium'}>
+            <OsceRun key={route.path + route.query.toString()} id={route.parts[1]} query={route.query} />
+          </Portao>
+        )}
       </Suspense>
     );
   }
@@ -414,7 +436,9 @@ export default function App() {
   if (route.parts[0] === 'sessao') {
     return (
       <Suspense fallback={<Loading />}>
-        <SessionPage />
+        <PortaoQuestoes>
+          <SessionPage />
+        </PortaoQuestoes>
         <GoalCelebration />
       </Suspense>
     );

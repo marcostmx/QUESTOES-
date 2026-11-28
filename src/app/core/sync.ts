@@ -155,3 +155,13 @@ export function useSync(): SyncState {
     () => state,
   );
 }
+
+/** Token do usuário logado, para chamadas ao servidor (assinatura). */
+export async function idToken(): Promise<string | null> {
+  try {
+    const { auth } = await fb();
+    return auth.currentUser ? await auth.currentUser.getIdToken() : null;
+  } catch {
+    return null;
+  }
+}
