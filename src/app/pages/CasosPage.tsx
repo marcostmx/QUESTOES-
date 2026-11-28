@@ -1,3 +1,4 @@
+import { Cadeado } from '../components/Premium';
 import { Activity, ArrowRight, FlaskConical, HeartPulse, Lock, ScanLine, Syringe, Users } from 'lucide-react';
 import { CASOS, SISTEMAS_CASO } from '../../casos/catalogo';
 import { PROCEDIMENTOS } from '../../casos/procedimentos';
@@ -85,6 +86,7 @@ export default function CasosPage() {
                       <span className="block text-[15px] font-semibold">{c.titulo}</span>
                       <span className="block text-[13px] text-ink-2">{c.subtitulo}</span>
                     </span>
+                    <Cadeado recurso={{ tipo: 'caso', id: c.id }} />
                     {m >= 0 && <Badge tone={m >= 70 ? 'good' : m >= 50 ? 'warn' : 'bad'}>{m}</Badge>}
                     <ArrowRight className="size-4 shrink-0 text-ink-3" />
                   </a>
@@ -99,6 +101,7 @@ export default function CasosPage() {
                       <span className="block text-[15px] font-semibold">{p.titulo}</span>
                       <span className="block text-[13px] text-ink-2">{p.tipo === 'exame' ? 'Interpretação de exames' : 'Procedimento passo a passo'} · {p.etapas.length} etapas</span>
                     </span>
+                    <Cadeado recurso={{ tipo: 'procedimento', id: p.id }} />
                     {m >= 0 && <Badge tone={m >= 70 ? 'good' : m >= 50 ? 'warn' : 'bad'}>{m}</Badge>}
                     <ArrowRight className="size-4 shrink-0 text-ink-3" />
                   </a>

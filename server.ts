@@ -4,10 +4,14 @@
  */
 import express from 'express';
 import path from 'path';
+import { rotasAssinatura } from './server/assinatura';
 
 async function startServer() {
   const app = express();
   const PORT = Number(process.env.PORT) || 3000;
+
+  app.set('trust proxy', true);
+  app.use(rotasAssinatura());
 
   app.get('/api/health', (_req, res) => {
     res.json({ status: 'ok' });

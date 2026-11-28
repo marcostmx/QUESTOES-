@@ -1,4 +1,5 @@
 /* OSCE: escolha da estação (sem revelar o subtema), modos, circuito e histórico. */
+import { Cadeado } from '../components/Premium';
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ArrowRight, ClipboardCheck, Gamepad2, Hand, ListChecks, MousePointerClick, RotateCcw, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
 import data from '../../data/osce/stations.json';
@@ -218,6 +219,7 @@ export default function OscePage() {
                   </span>
                   {b != null && <Badge tone={b >= 70 ? 'good' : b >= 50 ? 'warn' : 'bad'}>{b}%</Badge>}
                 </span>
+                <Cadeado recurso={{ tipo: 'osce', id: e.id }} />
                 <span className="hidden text-[13.5px] font-medium sm:block">Estação {e.rotulo}</span>
                 <span className="text-[11.5px] leading-tight text-ink-3 sm:text-[12px]">{nomeSistema(e.sistema)}</span>
                 {(e.checklist || e.tipo === 'discussao') && (
