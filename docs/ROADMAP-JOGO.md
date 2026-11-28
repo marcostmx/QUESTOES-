@@ -34,7 +34,7 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 - [x] P1 · Assinatura mensal (Mercado Pago) com 7 dias grátis na primeira assinatura, plano grátis × Premium, página de planos, cadeados nas listas e bloqueio nas rotas.
 - [x] P2 · Conteúdo protegido no servidor (/api/conteudo): questões (Premium recebe tudo; grátis, amostra de ~20% das inéditas; provas anteriores só Premium) e estações de OSCE (índice público em indice.json; caso, achados, comandos e checklist só pela API conforme o plano), com cache offline. Os casos vivos seguem no código (são lógica de jogo).
 - [x] P3 · Página de vendas (#/conheca), termos e privacidade prontos para CNPJ (falta preencher razão social, CNPJ e contato em LegalPage.tsx).
-- [ ] P4 · Painel do administrador: assinantes ativos, receita do mês, cancelamentos, conversão do grátis.
+- [x] P4 · Painel do administrador (#/admin, só ADMIN_EMAILS): assinantes ativos e em teste, receita mensal, novos e cancelamentos em 30 dias, conversão do grátis e lista das assinaturas.
 
 ### O. OSCE (núcleo do produto)
 - [x] O1 · Trilha OSCE do 4º período: 10 módulos do básico ao complexo, domínio (duas notas ≥ 70%), revisão espaçada após 14 dias, próxima estação recomendada, data da prova com ritmo diário, cartão na Home.
@@ -166,6 +166,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
 - 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
 - 2026-11-28 · Jogo 3D: os casos vivos passam a acontecer numa sala de emergência 3D interativa.
+- 2026-11-28 · Painel do administrador com assinantes, receita, cancelamentos e conversão.
 - 2026-11-28 · Conteúdo protegido: questões e estações de OSCE vêm do servidor conforme o plano; página de vendas, termos e privacidade.
 - 2026-11-28 · Trilha OSCE do 4º período (domínio, revisão espaçada, ritmo até a prova) e teste grátis de 7 dias.
 - 2026-11-28 · Foco em OSCE + 4º período como produto pago: assinatura Mercado Pago, plano grátis × Premium, página de planos e menu com o OSCE em primeiro.
