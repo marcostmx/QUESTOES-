@@ -2,7 +2,7 @@
 import { Cadeado } from '../components/Premium';
 import { TrilhaOsce } from '../components/TrilhaOsce';
 import { useMemo, useState } from 'react';
-import { AlertTriangle, ArrowRight, ClipboardCheck, Gamepad2, Hand, ListChecks, MousePointerClick, RotateCcw, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
+import { AlertTriangle, ArrowRight, ClipboardCheck, Gamepad2, Hand, ListChecks, MousePointerClick, RotateCcw, Route as RouteIcon, Shuffle, Timer, Users } from 'lucide-react';
 import data from '../../data/osce/indice.json';
 import { REGRAS_GERAIS } from '../../osce/colas';
 import { nomeSistema, SISTEMAS } from '../../osce/engine';
@@ -100,6 +100,7 @@ export default function OscePage() {
           <div className="flex flex-wrap gap-2">
             <Button icon={<ClipboardCheck className="size-4" />} onClick={() => setCfg(true)}>Prova completa</Button>
             <Button icon={<RouteIcon className="size-4" />} onClick={circuito}>Circuito de 4</Button>
+            <Button icon={<Users className="size-4" />} to="dupla">Treino em dupla</Button>
             <Button variant="primary" icon={<Shuffle className="size-4" />} onClick={aleatoria}>Estação aleatória</Button>
           </div>
         }

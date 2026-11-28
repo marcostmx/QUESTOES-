@@ -1,5 +1,5 @@
 /* Página de vendas pública: o que é, para quem, recursos, preço e perguntas frequentes. */
-import { Activity, ArrowRight, BookOpen, CalendarCheck, Check, Crown, Gamepad2, HeartPulse, Route as RouteIcon, Smartphone, Users } from 'lucide-react';
+import { Activity, ArrowRight, Layers, BookOpen, CalendarCheck, Check, Crown, Gamepad2, HeartPulse, Route as RouteIcon, Smartphone, Users } from 'lucide-react';
 import data from '../../data/osce/indice.json';
 import { CASOS } from '../../casos/catalogo';
 import { precoBRL, useAssinatura } from '../core/assinatura';
@@ -16,6 +16,8 @@ const RECURSOS = [
   { i: BookOpen, t: 'Questões das provas + inéditas', d: 'Questões de provas anteriores e inéditas de Propedêutica, Fisiopatologia, Farmacologia, Bases Cirúrgicas, GIS2, HMP-IV e SOP3, com gabarito comentado, simulados e caderno de erros.' },
   { i: Activity, t: 'ECG, gasometria, RX e RCP', d: 'Exames desenhados no próprio app para interpretar, e RCP com ritmo de compressões e desfibrilação.' },
   { i: Users, t: 'Prova OSCE completa', d: 'Rodízio cronometrado com 1 min de leitura e 5 min por estação, sem dicas, com relatório por sistema no fim.' },
+  { i: Users, t: 'Treino em dupla', d: 'Um colega examina de verdade e o outro avalia pelo checklist, cada um no seu celular, conectados por um código de sala.' },
+  { i: Layers, t: 'Flashcards dos seus erros', d: 'Cada questão errada e cada falha no OSCE vira um cartão de revisão que volta no momento certo.' },
   { i: Smartphone, t: 'No celular e no computador', d: 'Tudo jogável por toque. Entre com Google e o progresso sincroniza entre os aparelhos.' },
 ];
 

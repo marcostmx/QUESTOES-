@@ -165,3 +165,6 @@ export async function idToken(): Promise<string | null> {
     return null;
   }
 }
+
+// só em desenvolvimento: permite aos testes de navegador simular um usuário logado
+if (import.meta.env.DEV) (window as unknown as Record<string, unknown>).__usuarioDeTeste = (u: SyncState['user']) => set({ user: u, ready: true });

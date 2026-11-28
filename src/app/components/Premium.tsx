@@ -11,7 +11,7 @@ export const BENEFICIOS = [
   'Todos os casos clínicos vivos, plantões de triagem e procedimentos',
   'Todas as questões de provas anteriores e o banco completo das 7 matérias do 4º período, sem limite diário',
   'Simulados cronometrados',
-  'Caderno de erros, revisão espaçada e sincronização entre aparelhos',
+  'Treino em dupla com checklist no celular, flashcards dos seus erros e revisão espaçada',
 ];
 
 export function BotaoAssinar({ className, children }: { className?: string; children?: ReactNode }) {
