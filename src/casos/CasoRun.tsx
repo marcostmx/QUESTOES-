@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Activity, AlertTriangle, ArrowLeft, Check, Clock, FileText, MessageSquare, Pause, Play, RotateCcw, X } from 'lucide-react';
+import { Activity, AlertTriangle, ArrowLeft, Check, Clock, FileText, MessageSquare, Pause, Play, RotateCcw, Volume2, VolumeX, X } from 'lucide-react';
+import { webglOk } from '../osce/scene';
+import { Sala3DView } from './Sala3DView';
 import { xpCaso } from '../app/core/career';
 import { href } from '../app/router';
 import { Badge, Card, cx, Dialog, Ring } from '../app/ui';
@@ -31,6 +33,9 @@ function Jogo({ caso }: { caso: Caso }) {
   const [pausa, setPausa] = useState(false);
   const [grupo, setGrupo] = useState<Grupo>('Monitorização');
   const [figura, setFigura] = useState<Resultado | null>(null);
+  const [modo3d, setModo3d] = useState(() => webglOk());
+  const [som, setSom] = useState(true);
+  const [tick, setTick] = useState(0);
   const chave = useRef(`${caso.id}:${Date.now()}`);
   const e = est.current;
 
@@ -40,6 +45,7 @@ function Jogo({ caso }: { caso: Caso }) {
     const iv = setInterval(() => {
       avancar(caso, est.current, (caso.velocidade ?? VELOCIDADE) / 4);
       render(n => n + 1);
+      setTick(n => n + 1);
       if (est.current.fim) setFase('fim');
     }, 250);
     return () => clearInterval(iv);
@@ -48,6 +54,7 @@ function Jogo({ caso }: { caso: Caso }) {
   const fazer = (aid: string) => {
     executar(caso, e, aid);
     render(n => n + 1);
+    setTick(n => n + 1);
     if (e.fim) setFase('fim');
   };
 
@@ -73,7 +80,7 @@ function Jogo({ caso }: { caso: Caso }) {
   const gruposVisiveis = GRUPOS.filter(gr => caso.acoes.some(a => a.grupo === gr && (a.visivel?.(e) ?? true)));
 
   return (
-    <div className="min-h-dvh bg-bg">
+    <div className={cx('bg-bg', modo3d ? 'fixed inset-0 flex flex-col' : 'min-h-dvh')}>
       <header className="sticky top-0 z-30 flex items-center gap-2 border-b border-line bg-bg/90 px-3 py-2 backdrop-blur sm:px-5">
         <a href={href('casos')} aria-label="Sair do caso" className="rounded-lg p-2 text-ink-2 hover:bg-surface-2"><ArrowLeft className="size-5" /></a>
         <div className="min-w-0 flex-1">
@@ -83,11 +90,23 @@ function Jogo({ caso }: { caso: Caso }) {
         <div className={cx('tabular flex items-center gap-1.5 rounded-xl px-3 py-1.5 font-mono text-[18px] font-semibold', alerta ? 'bg-bad text-white' : 'bg-surface-2')}>
           <Clock className="size-4" /> {relogio(e.t)}
         </div>
+        {modo3d && (
+          <button type="button" onClick={() => setSom(x => !x)} aria-label={som ? 'Silenciar monitor' : 'Ligar som'} className="rounded-lg p-2 text-ink-2 hover:bg-surface-2">
+            {som ? <Volume2 className="size-5" /> : <VolumeX className="size-5" />}
+          </button>
+        )}
+        <button type="button" onClick={() => setModo3d(x => !x)} className="rounded-lg px-2.5 py-1.5 text-[13px] font-semibold text-ink-2 hover:bg-surface-2">{modo3d ? '2D' : '3D'}</button>
         <button type="button" onClick={() => setPausa(p => !p)} aria-label={pausa ? 'Continuar' : 'Pausar'} className="rounded-lg p-2 text-ink-2 hover:bg-surface-2">
           {pausa ? <Play className="size-5" /> : <Pause className="size-5" />}
         </button>
       </header>
 
+      {modo3d ? (
+        <div className="relative flex-1 bg-black">
+          <Sala3DView caso={caso} e={e} tick={tick} som={som && !pausa} fazer={fazer} verFigura={setFigura} />
+          {pausa && <div className="absolute inset-0 flex items-center justify-center bg-black/50 text-[20px] font-semibold text-white">Pausado</div>}
+        </div>
+      ) : (
       <div className="mx-auto flex max-w-6xl flex-col gap-4 p-3 sm:p-5 lg:grid lg:grid-cols-[1.15fr_1fr]">
         <div className="contents min-w-0 lg:flex lg:flex-col lg:gap-4">
           <div className="order-1 min-w-0"><Monitor e={e} caso={caso} /></div>
@@ -164,6 +183,7 @@ function Jogo({ caso }: { caso: Caso }) {
           </Card>
         </div>
       </div>
+      )}
 
       <Dialog open={!!figura} onClose={() => setFigura(null)} title={figura?.titulo} wide>
         {figura?.figura && <Ecg12 figura={figura.figura} />}
