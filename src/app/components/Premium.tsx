@@ -9,7 +9,8 @@ export const BENEFICIOS = [
   'Todas as 230 estações de OSCE em 3D, com checklist do avaliador',
   'Prova OSCE completa cronometrada e circuitos por sistema',
   'Todos os casos clínicos vivos, plantões de triagem e procedimentos',
-  'Questões ilimitadas das 7 matérias do 4º período e simulados',
+  'Todas as questões de provas anteriores e o banco completo das 7 matérias do 4º período, sem limite diário',
+  'Simulados cronometrados',
   'Caderno de erros, revisão espaçada e sincronização entre aparelhos',
 ];
 

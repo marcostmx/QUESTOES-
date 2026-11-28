@@ -23,7 +23,7 @@ const env = (k: string) => process.env[k]?.trim() || '';
 export const preco = () => Number(env('PRECO_MENSAL') || '29.90');
 /** dias de teste grátis na primeira assinatura de cada conta (0 desliga) */
 export const diasTeste = () => Number(env('DIAS_TESTE') || '7');
-const vendasAtivas = () => !!env('MP_ACCESS_TOKEN');
+export const vendasAtivas = () => !!env('MP_ACCESS_TOKEN');
 
 type Status = 'pending' | 'authorized' | 'paused' | 'cancelled' | 'nenhuma';
 export interface Assinatura {
@@ -42,7 +42,7 @@ export const elegivelTeste = (a: Assinatura | undefined) => diasTeste() > 0 && !
 
 /* ---------- Firebase Admin (carregado sob demanda) ---------- */
 let adminP: Promise<{ auth: import('firebase-admin/auth').Auth; db: import('firebase-admin/firestore').Firestore }> | null = null;
-function admin() {
+export function admin() {
   adminP ??= (async () => {
     const { initializeApp, getApps } = await import('firebase-admin/app');
     const { getAuth } = await import('firebase-admin/auth');
@@ -54,7 +54,7 @@ function admin() {
   return adminP;
 }
 
-async function usuario(req: Request) {
+export async function usuario(req: Request) {
   const h = req.headers.authorization ?? '';
   const tok = h.startsWith('Bearer ') ? h.slice(7) : '';
   if (!tok) return null;
@@ -67,7 +67,7 @@ async function usuario(req: Request) {
   }
 }
 
-const ehAdmin = (email: string) =>
+export const ehAdmin = (email: string) =>
   !!email && env('ADMIN_EMAILS').toLowerCase().split(/[,;\s]+/).filter(Boolean).includes(email);
 
 async function mp<T>(caminho: string, init?: RequestInit): Promise<T> {
@@ -104,6 +104,7 @@ async function salvar(uid: string, p: Preapproval): Promise<Assinatura> {
   };
   const { db } = await admin();
   await db.collection('assinaturas').doc(uid).set(a, { merge: true });
+  cachePremium.delete(uid);
   return a;
 }
 
@@ -125,6 +126,28 @@ export function webhookValido(secret: string, dataId: string, requestId: string,
   const esperado = crypto.createHmac('sha256', secret).update(manifesto).digest('hex');
   return esperado.length === partes.v1.length && crypto.timingSafeEqual(Buffer.from(esperado), Buffer.from(partes.v1));
 }
+
+/** Este pedido vem de um assinante Premium? (sem vendas configuradas, todos são) — cache de 60 s por usuário */
+const cachePremium = new Map<string, { premium: boolean; ate: number }>();
+export async function acessoPremium(req: Request): Promise<boolean> {
+  if (!vendasAtivas()) return true;
+  const u = await usuario(req);
+  if (!u) return false;
+  if (ehAdmin(u.email)) return true;
+  const c = cachePremium.get(u.uid);
+  if (c && c.ate > Date.now()) return c.premium;
+  let premium = false;
+  try {
+    const { db } = await admin();
+    const a = (await db.collection('assinaturas').doc(u.uid).get()).data() as Assinatura | undefined;
+    premium = !!a?.premium;
+  } catch (e) {
+    console.error('acessoPremium', e);
+  }
+  cachePremium.set(u.uid, { premium, ate: Date.now() + 60_000 });
+  return premium;
+}
+export const esquecerPremium = (uid: string) => cachePremium.delete(uid);
 
 export function rotasAssinatura() {
   const r = express.Router();

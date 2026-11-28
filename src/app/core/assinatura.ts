@@ -5,6 +5,7 @@
  */
 import { useEffect, useSyncExternalStore } from 'react';
 import { idToken, login, useSync } from './sync';
+import { recarregarBanco } from './bank';
 
 export interface EstadoAssinatura {
   carregando: boolean;
@@ -34,7 +35,10 @@ function doCache(): EstadoAssinatura {
 let estado: EstadoAssinatura = doCache();
 const ouvintes = new Set<() => void>();
 const definir = (p: Partial<EstadoAssinatura>) => {
+  const antes = estado.premium || !estado.vendas;
   estado = { ...estado, ...p };
+  // o plano mudou: o servidor passa a entregar outro conteúdo
+  if (!estado.carregando && antes !== (estado.premium || !estado.vendas)) recarregarBanco();
   try {
     localStorage.setItem(CHAVE, JSON.stringify({ ...estado, ate: Date.now() + GRACA }));
   } catch { /* sem armazenamento */ }

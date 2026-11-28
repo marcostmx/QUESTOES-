@@ -40,8 +40,8 @@ export const KIND_LABEL: Record<QuestionKind, string> = {
 };
 
 /** Disciplinas com questões no banco informado (respeita a prova ativa). */
-export const activeSubjects = (bank: { bySubject: Record<SubjectId, unknown[]> }): SubjectMeta[] =>
-  SUBJECT_LIST.filter(s => bank.bySubject[s.id]?.length);
+export const activeSubjects = (bank: { bySubject: Record<SubjectId, unknown[]>; travadas?: Partial<Record<SubjectId, unknown>> }): SubjectMeta[] =>
+  SUBJECT_LIST.filter(s => bank.bySubject[s.id]?.length || bank.travadas?.[s.id]);
 
 export const ORIGIN_LABEL: Record<QuestionOrigin, string> = {
   prova: 'Prova antiga',
