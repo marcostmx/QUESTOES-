@@ -4,6 +4,7 @@ import { cancelarAssinatura, carregarAssinatura, precoBRL, useAssinatura } from 
 import { LIMITE_QUESTOES_DIA } from '../core/acesso';
 import { useSync } from '../core/sync';
 import { BotaoAssinar } from '../components/Premium';
+import { href } from '../router';
 import { Badge, Button, Card, PageHeader } from '../ui';
 
 const LINHAS: [string, string | boolean, string | boolean][] = [
@@ -105,7 +106,11 @@ export default function PlanosPage() {
           </tbody>
         </table>
       </Card>
-      <p className="mt-4 text-[12px] text-ink-3">Conteúdo educacional para estudantes de Medicina; não substitui a orientação de professores nem a conduta clínica real.</p>
+      <p className="mt-4 text-[12px] text-ink-3">
+        Conteúdo educacional para estudantes de Medicina; não substitui a orientação de professores nem a conduta clínica real. Ao assinar, você concorda com os{' '}
+        <a className="underline" href={href('termos')}>termos de uso</a> e a <a className="underline" href={href('privacidade')}>política de privacidade</a>.{' '}
+        <a className="font-semibold text-accent" href={href('conheca')}>Conheça o Estudo PR</a>
+      </p>
     </div>
   );
 }
