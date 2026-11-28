@@ -122,3 +122,11 @@ describe('estações OSCE', () => {
     expect(somDaManobra('abd-murphy', 'qualquer coisa')).toBeNull();
   });
 });
+
+import indice from '../../data/osce/indice.json';
+import { gerarIndice } from '../indice';
+describe('índice público do OSCE', () => {
+  it('está em dia com stations.json (rode npm run indice-osce)', () => {
+    expect(indice).toEqual(JSON.parse(JSON.stringify(gerarIndice(data as unknown as Estacao[]))));
+  });
+});

@@ -1,10 +1,11 @@
 /* Revisão dos erros do OSCE: agrega as falhas das últimas tentativas e sugere a estação que treina cada uma. */
-import data from '../data/osce/stations.json';
-import { manobrasDoComando, nomeManobra, nomeSistema, type Estacao } from './engine';
+import indice from '../data/osce/indice.json';
+import { nomeManobra, nomeSistema } from './engine';
+import type { EstacaoIndice } from './indice';
 import type { OsceRecord } from './history';
 import type { Sistema } from './maneuvers';
 
-const ESTACOES = data as unknown as Estacao[];
+const ESTACOES = indice as unknown as EstacaoIndice[];
 
 export interface ErroFrequente { tag: string; label: string; n: number; tentativas: number; estacao?: string }
 
@@ -35,13 +36,13 @@ export function rotulo(tag: string): string {
 function estacaoPara(tag: string, best: Map<string, number>): string | undefined {
   const [tipo, ...r] = tag.split(':');
   const v = r.join(':');
-  let cand: Estacao[] = [];
-  if (tipo === 'man' || tipo === 'pos') cand = ESTACOES.filter(e => e.comandos.some((_, i) => manobrasDoComando(e, i).includes(v)));
+  let cand: EstacaoIndice[] = [];
+  if (tipo === 'man' || tipo === 'pos') cand = ESTACOES.filter(e => e.manobras.includes(v));
   else if (tipo === 'verb') cand = ESTACOES.filter(e => e.sistema === v);
   else if (tipo === 'pa') cand = ESTACOES.filter(e => e.pa);
   else cand = ESTACOES.filter(e => e.tipo !== 'discussao');
   if (!cand.length) return undefined;
-  const nota = (e: Estacao) => best.get(e.id) ?? -1;
+  const nota = (e: EstacaoIndice) => best.get(e.id) ?? -1;
   cand.sort((a, b) => nota(a) - nota(b) || Math.random() - 0.5);
   return cand[0].id;
 }

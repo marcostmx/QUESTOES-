@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import data from '../../data/osce/stations.json';
+import data from '../../data/osce/indice.json';
 import { liberadoGratis, LIMITE_QUESTOES_DIA, osceGratis, pode } from './acesso';
 
 describe('plano grátis × Premium', () => {

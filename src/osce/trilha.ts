@@ -4,7 +4,7 @@
  * Domínio = duas tentativas com nota ≥ 70. Estação dominada há mais de 14 dias volta para revisão
  * (repetição espaçada, como nas plataformas de OSCE).
  */
-import type { Estacao } from './engine';
+import type { EstacaoIndice } from './indice';
 import type { OsceRecord } from './history';
 import type { Sistema } from './maneuvers';
 
@@ -50,9 +50,9 @@ export function statusDe(id: string, hist: OsceRecord[], agora = Date.now()): In
   return { id, status, melhor, tentativas: t.length, ultima };
 }
 
-export const praticavel = (e: Estacao) => e.tipo !== 'discussao';
+export const praticavel = (e: Pick<EstacaoIndice, 'tipo'>) => e.tipo !== 'discussao';
 
-export function trilha(estacoes: Estacao[], hist: OsceRecord[], agora = Date.now()): Modulo[] {
+export function trilha(estacoes: Pick<EstacaoIndice, 'id' | 'sistema' | 'tipo'>[], hist: OsceRecord[], agora = Date.now()): Modulo[] {
   return ORDEM_TRILHA.map(({ sistema, porque }) => {
     const est = estacoes.filter(e => e.sistema === sistema && praticavel(e)).map(e => statusDe(e.id, hist, agora));
     const dominadas = est.filter(x => x.status === 'dominada').length;

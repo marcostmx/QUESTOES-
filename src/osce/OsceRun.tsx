@@ -3,7 +3,9 @@ import { Component, useCallback, useEffect, useMemo, useRef, useState, type Reac
 import {
   ArrowLeft, BedDouble, BookOpen, Check, Volume2, VolumeX, Gauge, ListChecks, MessagesSquare, ChevronDown, ClipboardList, Droplets, Expand, Flag, Hand, HeartHandshake, Info, Lock, MessageCircle, RotateCcw, ShieldCheck, Smile, Stethoscope, X,
 } from 'lucide-react';
-import data from '../data/osce/stations.json';
+import indice from '../data/osce/indice.json';
+import type { EstacaoIndice } from './indice';
+import { obter } from '../app/core/conteudo';
 import { href } from '../app/router';
 import { Badge, Button, cx, Ring, toast } from '../app/ui';
 import {
@@ -26,7 +28,40 @@ import { voz } from './voz';
 import { achadosVisuais, vitais } from './visual';
 import { storage } from '../app/core/store';
 
-const ESTACOES = data as unknown as Estacao[];
+const ESTACOES = indice as unknown as EstacaoIndice[];
+
+/** conteúdo completo das estações (vem do servidor conforme o plano; fica em memória e no cache offline) */
+const carregadas = new Map<string, Promise<Estacao>>();
+export function carregarEstacao(id: string): Promise<Estacao> {
+  let p = carregadas.get(id);
+  if (!p) {
+    p = obter<Estacao>(`/api/conteudo/osce/${encodeURIComponent(id)}`);
+    p.catch(() => carregadas.delete(id));
+    carregadas.set(id, p);
+  }
+  return p;
+}
+function useEstacoes(ids: string[]): { ok: boolean; erro: boolean; mapa: Map<string, Estacao> } {
+  const chave = ids.join(',');
+  const [st, setSt] = useState<{ chave: string; erro: boolean; mapa: Map<string, Estacao> | null }>({ chave: '', erro: false, mapa: null });
+  useEffect(() => {
+    let vivo = true;
+    Promise.all(ids.map(carregarEstacao))
+      .then(l => vivo && setSt({ chave, erro: false, mapa: new Map(l.map(e => [e.id, e])) }))
+      .catch(() => vivo && setSt({ chave, erro: true, mapa: null }));
+    return () => {
+      vivo = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chave]);
+  const atual = st.chave === chave;
+  return { ok: atual && !!st.mapa, erro: atual && st.erro, mapa: (atual && st.mapa) || new Map() };
+}
+const Carregando = ({ erro }: { erro: boolean }) => (
+  <div className="flex min-h-dvh items-center justify-center p-10 text-center text-[15px] text-ink-2">
+    {erro ? <span>Não foi possível abrir a estação (sem conexão?). <a className="text-accent underline" href={href('osce')}>Voltar</a></span> : 'Montando a estação…'}
+  </div>
+);
 const TOQUE = typeof matchMedia !== 'undefined' && matchMedia('(pointer: coarse)').matches;
 type Fase = 'leitura' | 'estacao' | 'resultado' | 'troca';
 interface Log { key: number; nome: string; texto: string; alterado: boolean; aviso?: string; fala?: boolean }
@@ -101,8 +136,11 @@ export type Modo = 'prova' | 'treino';
 export interface Circuito { ids: string[]; i: number; inicio: string; prova?: boolean; troca?: number }
 
 export default function OsceRun({ id, query }: { id: string; query: URLSearchParams }) {
-  const e = useMemo(() => ESTACOES.find(x => x.id === id), [id]);
-  if (id === 'relatorio') return <Relatorio chave={query.get('t') ?? ''} />;
+  const existe = useMemo(() => ESTACOES.some(x => x.id === id), [id]);
+  const { ok, erro, mapa } = useEstacoes(existe ? [id] : []);
+  if (id === 'relatorio') return <RelatorioCarregado chave={query.get('t') ?? ''} />;
+  const e = mapa.get(id);
+  if (existe && !ok) return <Carregando erro={erro} />;
   if (!e) return <div className="p-10 text-center">Estação não encontrada. <a className="text-accent underline" href={href('osce')}>Voltar</a></div>;
   const modo: Modo = query.get('modo') === 'treino' ? 'treino' : 'prova';
   const c = query.get('c');
@@ -1029,7 +1067,14 @@ function Troca({ circuito, modo }: { circuito: Circuito; modo: Modo }) {
   );
 }
 
-function Relatorio({ chave }: { chave: string }) {
+function RelatorioCarregado({ chave }: { chave: string }) {
+  const ids = useMemo(() => [...new Set((storage.read<ProvaEntrada[]>(PROVA_KEY + chave) ?? []).map(x => x.id))], [chave]);
+  const { ok, erro, mapa } = useEstacoes(ids);
+  if (ids.length && !ok) return <Carregando erro={erro} />;
+  return <Relatorio chave={chave} mapa={mapa} />;
+}
+
+function Relatorio({ chave, mapa }: { chave: string; mapa: Map<string, Estacao> }) {
   const k = PROVA_KEY + chave;
   const [lista, setLista] = useState<ProvaEntrada[]>(() => storage.read<ProvaEntrada[]>(k) ?? []);
   const [aberta, setAberta] = useState<string | null>(null);
@@ -1038,12 +1083,12 @@ function Relatorio({ chave }: { chave: string }) {
     setLista(nova);
     storage.write(k, nova);
     const x = nova.find(y => y.key === key)!;
-    const e = ESTACOES.find(y => y.id === x.id)!;
+    const e = mapa.get(x.id)!;
     const r = corrigir(e, x.t, x.notas);
     osceHistory.save({ key, id: e.id, date: Date.now(), nota: r.nota, pendentes: r.pendentes, modo: 'prova', circuito: chave, falhas: falhas(e, x.t, r.itens) });
   };
-  const linhas = lista.map(x => {
-    const e = ESTACOES.find(y => y.id === x.id)!;
+  const linhas = lista.filter(x => mapa.has(x.id)).map(x => {
+    const e = mapa.get(x.id)!;
     return { x, e, r: corrigir(e, x.t, x.notas) };
   });
   if (!linhas.length) return <div className="p-10 text-center">Relatório não encontrado. <a className="text-accent underline" href={href('osce')}>Voltar</a></div>;
