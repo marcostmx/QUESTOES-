@@ -1,6 +1,6 @@
 import crypto from 'crypto';
 import { describe, expect, it } from 'vitest';
-import { ehPremium, webhookValido } from './assinatura';
+import { ehPremium, elegivelTeste, webhookValido } from './assinatura';
 
 describe('assinatura Mercado Pago', () => {
   it('valida a assinatura x-signature do webhook', () => {
@@ -14,5 +14,10 @@ describe('assinatura Mercado Pago', () => {
   it('só assinatura autorizada dá Premium', () => {
     expect(ehPremium('authorized')).toBe(true);
     for (const s of ['pending', 'paused', 'cancelled', 'nenhuma'] as const) expect(ehPremium(s)).toBe(false);
+  });
+  it('teste grátis só na primeira vez', () => {
+    expect(elegivelTeste(undefined)).toBe(true);
+    expect(elegivelTeste({ status: 'cancelled', premium: false, mpId: 'x' })).toBe(false);
+    expect(elegivelTeste({ status: 'nenhuma', premium: false, teveTeste: true })).toBe(false);
   });
 });

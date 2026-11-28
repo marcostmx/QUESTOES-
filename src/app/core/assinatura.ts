@@ -12,6 +12,8 @@ export interface EstadoAssinatura {
   premium: boolean;
   status: 'pending' | 'authorized' | 'paused' | 'cancelled' | 'nenhuma';
   preco: number;
+  /** dias de teste grátis oferecidos a esta conta (0 = já usou) */
+  diasTeste?: number;
   proximaCobranca?: string | null;
   admin?: boolean;
   erro?: string;
