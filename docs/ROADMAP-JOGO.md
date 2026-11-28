@@ -74,7 +74,8 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
   - Feito: HDA varicosa em cirrótico (2 acessos, terlipressina, ceftriaxona, transfusão restritiva, volume ≤ 2 L, IBP, EDA com ligadura só após estabilizar, Blatchford/Child; ressangramento e choque se não tratar; penaliza betabloqueador agudo, transfusão liberal e excesso de volume). Colangite aguda grave (Tokyo grau III: pêntade de Reynolds, hemoculturas, pip-tazo em até 1 h, volume, noradrenalina, USG, CPRE urgente; só antibiótico sem drenagem volta a piorar; penaliza colecistectomia na fase aguda). Apendicite aguda (anamnese e sinais, Alvarado, analgesia precoce, jejum, USG, antibiótico profilático e apendicectomia antes de perfurar às 4 h; penaliza segurar analgesia, alta com antiespasmódico e TC desnecessária). Relógio passa a mostrar horas. Pancreatite aguda biliar (lipase, BISAP, hidratação moderada × agressiva/WATERFALL, analgesia com opioide, USG, dieta oral precoce, colecistectomia na mesma internação; penaliza antibiótico profilático, TC precoce, jejum prolongado e CPRE sem colangite). Obstrução intestinal por bridas (SNG, hidratação e K, RX e TC com sinais de sofrimento, gastrografina que resolve em 8 h; sem descompressão estrangula às 6 h e exige cirurgia em até 4 h; penaliza procinético, laxante e cirurgia sem sinais de sofrimento).
 - [x] 3B · Exames: laboratório (hemograma, amilase e lipase, função hepática) e **radiografia de abdome**.
   - Feito: `#/procedimento/exames-abdome` (10 interpretações: padrão hepatocelular × colestático, álcool, PBE com GASA, Child-Pugh, lipase × amilase, Gilbert, ureia na HDA, pneumoperitônio, volvo de sigmoide). O motor de procedimentos ganhou o tipo 'exame'. Radiografia de abdome desenhada pode entrar depois, como a de tórax.
-- [ ] 3C · Procedimentos: **sondagem nasogástrica**, **paracentese**.
+- [x] 3C · Procedimentos: **sondagem nasogástrica**, **paracentese**.
+  - Feito: sondagem nasogástrica (medida NEX, flexão e deglutição, sinais de via aérea, confirmação por RX/pH, fixação) e paracentese (sem corrigir coagulopatia de rotina, QIE guiado por US, técnica em Z, exames do líquido, albumina > 5 L, tratar PBE).
 - [ ] 3D · Plantão: dor abdominal, vômitos, sangramento.
 - [ ] 3E · OSCE: completar as lacunas (abdome agudo).
 
@@ -136,3 +137,4 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-27 · 3A: caso vivo de pancreatite aguda biliar.
 - 2026-11-28 · 3A: caso vivo de obstrução intestinal por bridas. Casos vivos do Abdome concluídos (5 casos).
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
+- 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
