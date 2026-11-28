@@ -40,7 +40,7 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 - [x] O1 · Trilha OSCE do 4º período: 10 módulos do básico ao complexo, domínio (duas notas ≥ 70%), revisão espaçada após 14 dias, próxima estação recomendada, data da prova com ritmo diário, cartão na Home.
 - [ ] O2 · OSCE abdome agudo: completar as lacunas (antigo 3E).
 - [ ] O3 · Neurológico: revisar e polir as 79 estações (antigo 4E).
-- [ ] O6 · Treino em dupla: um colega examina, o outro avalia pelo checklist no celular, com cronômetro e nota (sem 3D).
+- [ ] O6 · Treino em dupla com dois celulares conectados por código de sala: o examinando vê só o enunciado e o cronômetro; o avaliador vê caso, achados e checklist, marca os itens e a nota sai para os dois.
 - [ ] O5 · Relatório de desempenho OSCE por competência (exame físico, comunicação, raciocínio) e evolução no tempo.
 - [ ] O4 · Estações de comunicação e anamnese com roteiro de paciente-ator e correção por item.
 
@@ -48,7 +48,7 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 - [ ] M1 · Cobertura: mapear os temas de cada matéria × questões existentes e completar lacunas (mínimo de 150 por matéria; SOP3 e GIS2 estão baixas).
 - [ ] M2 · Resumos por tema nas 7 matérias.
 - [ ] M3 · Integração OSCE ↔ teoria: cada estação aponta resumos e questões do mesmo tema.
-- [ ] M4 · Flashcards das 7 matérias e das manobras do OSCE, com repetição espaçada.
+- [x] M4 · Flashcards do que o aluno errou (questões erradas e falhas do OSCE: manobra, posição, abertura/fechamento, PA, respostas faladas), com caixas de Leitner e filtro Questões/OSCE (#/flashcards).
 
 ## Organização do jogo: por sistema
 
@@ -166,6 +166,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
 - 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
 - 2026-11-28 · Jogo 3D: os casos vivos passam a acontecer numa sala de emergência 3D interativa.
+- 2026-11-28 · Flashcards gerados dos erros (questões e OSCE) com repetição espaçada.
 - 2026-11-28 · Painel do administrador com assinantes, receita, cancelamentos e conversão.
 - 2026-11-28 · Conteúdo protegido: questões e estações de OSCE vêm do servidor conforme o plano; página de vendas, termos e privacidade.
 - 2026-11-28 · Trilha OSCE do 4º período (domínio, revisão espaçada, ritmo até a prova) e teste grátis de 7 dias.

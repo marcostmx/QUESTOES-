@@ -1,6 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import {
-  BarChart3, Bookmark, Crown, Gamepad2, Trophy, HeartPulse, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
+  BarChart3, Bookmark, Crown, Layers, Gamepad2, Trophy, HeartPulse, CalendarClock, ClipboardList, Ellipsis, Home, Library, Moon, NotebookPen, PartyPopper, PenLine, Search, Sun, SunMoon, UserRound, X,
 } from 'lucide-react';
 import { EXAMS, type ExamId } from '../data/schema';
 import { useBank } from './core/bank';
@@ -20,6 +20,7 @@ const PlanosPage = lazy(() => import('./pages/PlanosPage'));
 const ConhecaPage = lazy(() => import('./pages/ConhecaPage'));
 const LegalPage = lazy(() => import('./pages/LegalPage'));
 const AdminPage = lazy(() => import('./pages/AdminPage'));
+const FlashcardsPage = lazy(() => import('./pages/FlashcardsPage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
 const ExamPage = lazy(() => import('./pages/ExamPage'));
@@ -108,6 +109,7 @@ function useNav(): NavItem[] {
       { path: 'revisao', label: 'Revisão', icon: CalendarClock, badge: due },
       { path: 'carreira', label: 'Carreira', icon: Trophy },
       { path: 'erros', label: 'Caderno de erros', icon: NotebookPen, badge: errors },
+      { path: 'flashcards', label: 'Flashcards', icon: Layers },
       { path: 'favoritos', label: 'Favoritos', icon: Bookmark },
       { path: 'biblioteca', label: 'Biblioteca', icon: Library },
       { path: 'estatisticas', label: 'Estatísticas', icon: BarChart3 },
@@ -324,6 +326,7 @@ function page(parts: string[]): ReactNode {
     case 'simulado': return <Portao recurso={{ tipo: 'simulado' }} titulo="Simulados cronometrados são Premium"><ExamPage /></Portao>;
     case 'planos': return <PlanosPage />;
     case 'admin': return <AdminPage />;
+    case 'flashcards': return <FlashcardsPage />;
     case 'termos': return <LegalPage tipo="termos" />;
     case 'privacidade': return <LegalPage tipo="privacidade" />;
     case 'osce': return <OscePage />;
