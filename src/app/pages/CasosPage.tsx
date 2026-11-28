@@ -94,10 +94,10 @@ export default function CasosPage() {
                 const m = melhor(`proc-${p.id}`);
                 return (
                   <a key={p.id} href={href(`procedimento/${p.id}`)} className="group flex items-center gap-4 rounded-2xl border border-line bg-surface p-4 transition hover:border-line-strong hover:shadow-card active:scale-[0.99]">
-                    <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent"><Syringe className="size-5" /></span>
+                    <span className="flex size-11 shrink-0 items-center justify-center rounded-xl bg-accent-soft text-accent">{p.tipo === 'exame' ? <FlaskConical className="size-5" /> : <Syringe className="size-5" />}</span>
                     <span className="min-w-0 flex-1">
                       <span className="block text-[15px] font-semibold">{p.titulo}</span>
-                      <span className="block text-[13px] text-ink-2">Procedimento passo a passo · {p.etapas.length} etapas</span>
+                      <span className="block text-[13px] text-ink-2">{p.tipo === 'exame' ? 'Interpretação de exames' : 'Procedimento passo a passo'} · {p.etapas.length} etapas</span>
                     </span>
                     {m >= 0 && <Badge tone={m >= 70 ? 'good' : m >= 50 ? 'warn' : 'bad'}>{m}</Badge>}
                     <ArrowRight className="size-4 shrink-0 text-ink-3" />
