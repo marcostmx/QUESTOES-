@@ -19,6 +19,7 @@ const HomePage = lazy(() => import('./pages/HomePage'));
 const PlanosPage = lazy(() => import('./pages/PlanosPage'));
 const ConhecaPage = lazy(() => import('./pages/ConhecaPage'));
 const LegalPage = lazy(() => import('./pages/LegalPage'));
+const AdminPage = lazy(() => import('./pages/AdminPage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
 const ExamPage = lazy(() => import('./pages/ExamPage'));
@@ -322,6 +323,7 @@ function page(parts: string[]): ReactNode {
     case 'praticar': return <PracticePage subject={arg} />;
     case 'simulado': return <Portao recurso={{ tipo: 'simulado' }} titulo="Simulados cronometrados são Premium"><ExamPage /></Portao>;
     case 'planos': return <PlanosPage />;
+    case 'admin': return <AdminPage />;
     case 'termos': return <LegalPage tipo="termos" />;
     case 'privacidade': return <LegalPage tipo="privacidade" />;
     case 'osce': return <OscePage />;

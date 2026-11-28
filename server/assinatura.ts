@@ -35,6 +35,49 @@ export interface Assinatura {
   atualizadoEm?: string;
   /** já usou o teste grátis (uma vez por conta) */
   teveTeste?: boolean;
+  /** para o painel do administrador */
+  email?: string;
+  criadoEm?: string;
+  canceladoEm?: string | null;
+}
+
+export interface ResumoAdmin {
+  ativos: number;
+  emTeste: number;
+  pendentes: number;
+  pausados: number;
+  cancelados: number;
+  cancelados30d: number;
+  novos30d: number;
+  receitaMensal: number;
+  usuarios: number | null;
+  conversao: number | null;
+  recentes: { uid: string; email?: string; status: Status; proximaCobranca?: string | null; atualizadoEm?: string }[];
+}
+
+/** Agrega os documentos de assinaturas/{uid} para o painel. "Em teste" = ativa, criada há menos de DIAS_TESTE dias com teste. */
+export function resumoAdmin(docs: { uid: string; a: Assinatura }[], valor: number, usuarios: number | null, agora = Date.now()): ResumoAdmin {
+  const D = 86400000;
+  const recente = (iso?: string | null, dias = 30) => !!iso && agora - Date.parse(iso) < dias * D;
+  const ativos = docs.filter(d => d.a.status === 'authorized');
+  const emTeste = ativos.filter(d => d.a.teveTeste && recente(d.a.criadoEm, diasTeste())).length;
+  const pagantes = ativos.length - emTeste;
+  return {
+    ativos: ativos.length,
+    emTeste,
+    pendentes: docs.filter(d => d.a.status === 'pending').length,
+    pausados: docs.filter(d => d.a.status === 'paused').length,
+    cancelados: docs.filter(d => d.a.status === 'cancelled').length,
+    cancelados30d: docs.filter(d => d.a.status === 'cancelled' && recente(d.a.canceladoEm ?? d.a.atualizadoEm)).length,
+    novos30d: docs.filter(d => recente(d.a.criadoEm)).length,
+    receitaMensal: Math.round(pagantes * valor * 100) / 100,
+    usuarios,
+    conversao: usuarios ? Math.round((ativos.length / usuarios) * 1000) / 10 : null,
+    recentes: [...docs]
+      .sort((x, y) => (y.a.atualizadoEm ?? y.a.criadoEm ?? '').localeCompare(x.a.atualizadoEm ?? x.a.criadoEm ?? ''))
+      .slice(0, 30)
+      .map(d => ({ uid: d.uid, email: d.a.email, status: d.a.status, proximaCobranca: d.a.proximaCobranca, atualizadoEm: d.a.atualizadoEm })),
+  };
 }
 
 /** Teste grátis só para quem nunca assinou. */
@@ -101,6 +144,7 @@ async function salvar(uid: string, p: Preapproval): Promise<Assinatura> {
     proximaCobranca: p.next_payment_date ?? null,
     valor: p.auto_recurring?.transaction_amount,
     atualizadoEm: new Date().toISOString(),
+    ...(p.status === 'cancelled' ? { canceladoEm: new Date().toISOString() } : {}),
   };
   const { db } = await admin();
   await db.collection('assinaturas').doc(uid).set(a, { merge: true });
@@ -199,7 +243,7 @@ export function rotasAssinatura() {
           },
         }),
       });
-      if (teste) await ref.set({ teveTeste: true }, { merge: true });
+      await ref.set({ email: u.email, criadoEm: new Date().toISOString(), ...(teste ? { teveTeste: true } : {}) }, { merge: true });
       res.json({ url: p.init_point });
     } catch (e) {
       console.error('criar assinatura', e);
@@ -220,6 +264,26 @@ export function rotasAssinatura() {
     } catch (e) {
       console.error('cancelar', e);
       res.status(502).json({ erro: 'Não foi possível cancelar agora.' });
+    }
+  });
+
+  // painel do administrador (só ADMIN_EMAILS)
+  r.get('/api/admin/resumo', async (req: Request, res: Response) => {
+    const u = await usuario(req);
+    if (!u || !ehAdmin(u.email)) return res.status(403).json({ erro: 'Acesso restrito.' });
+    try {
+      const { db } = await admin();
+      const snap = await db.collection('assinaturas').get();
+      const docs = snap.docs.map(d => ({ uid: d.id, a: d.data() as Assinatura }));
+      let usuarios: number | null = null;
+      try {
+        usuarios = (await db.collection('users').count().get()).data().count;
+      } catch { /* contagem indisponível */ }
+      res.setHeader('Cache-Control', 'no-store');
+      res.json({ vendas: vendasAtivas(), preco: preco(), ...resumoAdmin(docs, preco(), usuarios) });
+    } catch (e) {
+      console.error('admin', e);
+      res.status(502).json({ erro: 'Não foi possível ler as assinaturas.' });
     }
   });
 

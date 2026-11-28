@@ -56,6 +56,7 @@ export default function PlanosPage() {
             <span className="flex size-11 items-center justify-center rounded-2xl bg-accent-soft text-accent"><Crown className="size-5" /></span>
             <div className="min-w-0 flex-1">
               <p className="text-[16px] font-semibold">Você é Premium {a.admin && <Badge tone="accent">acesso de administrador</Badge>}</p>
+              {a.admin && <a href={href('admin')} className="text-[13px] font-semibold text-accent">Abrir o painel de assinaturas</a>}
               {!a.admin && (
                 <p className="text-[13px] text-ink-3">
                   Assinatura {STATUS[a.status].toLowerCase()}
