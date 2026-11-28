@@ -1,5 +1,6 @@
 /* OSCE: escolha da estação (sem revelar o subtema), modos, circuito e histórico. */
 import { Cadeado } from '../components/Premium';
+import { TrilhaOsce } from '../components/TrilhaOsce';
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ArrowRight, ClipboardCheck, Gamepad2, Hand, ListChecks, MousePointerClick, RotateCcw, Route as RouteIcon, Shuffle, Timer } from 'lucide-react';
 import data from '../../data/osce/stations.json';
@@ -104,6 +105,8 @@ export default function OscePage() {
       >
         Entre na sala, examine o paciente em 3D e seja avaliado pelo checklist da estação. São {ESTACOES.length} estações, dos cadernos de treino e do material de estudo.
       </PageHeader>
+
+      <TrilhaOsce />
 
       <div className="mb-6 grid gap-3 lg:grid-cols-[1fr_1.2fr]">
         <Card className="p-5">

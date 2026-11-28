@@ -112,6 +112,8 @@ export interface Prefs {
   dailyGoal: number;
   /** Data de cada prova (AAAA-MM-DD), para o plano de estudo. */
   examDates?: Partial<Record<ExamId, string>>;
+  /** Data da prova de OSCE (AAAA-MM-DD), para o ritmo da trilha. */
+  osceDate?: string;
 }
 const PREFS_KEY = 'pr1.v2.prefs';
 // A prova escolhida vale só para a visita atual: o app sempre abre na prova atual.
@@ -127,7 +129,7 @@ export const preferences = {
   set(patch: Partial<Prefs>) {
     prefs = { ...prefs, ...patch };
     if (patch.exam && !EXAMS.some(e => e.id === patch.exam)) prefs.exam = CURRENT_EXAM;
-    safeWrite(PREFS_KEY, { theme: prefs.theme, dailyGoal: prefs.dailyGoal, examDates: prefs.examDates });
+    safeWrite(PREFS_KEY, { theme: prefs.theme, dailyGoal: prefs.dailyGoal, examDates: prefs.examDates, osceDate: prefs.osceDate });
     prefListeners.forEach(l => l());
   },
 };

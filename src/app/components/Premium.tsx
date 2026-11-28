@@ -25,10 +25,12 @@ export function BotaoAssinar({ className, children }: { className?: string; chil
           setErro(await assinar());
           setOcupado(false);
         }}>
-        {children ?? `Assinar por ${precoBRL(a.preco)}/mês`}
+        {children ?? (a.diasTeste ? `Começar ${a.diasTeste} dias grátis` : `Assinar por ${precoBRL(a.preco)}/mês`)}
       </Button>
       {erro && <p className="mt-2 text-center text-[13px] text-bad">{erro}</p>}
-      <p className="mt-2 text-center text-[12px] text-ink-3">Pagamento seguro pelo Mercado Pago · cancele quando quiser</p>
+      <p className="mt-2 text-center text-[12px] text-ink-3">
+        {a.diasTeste ? `Depois, ${precoBRL(a.preco)}/mês. Cancele antes do fim do teste e não paga nada. ` : ''}Pagamento seguro pelo Mercado Pago · cancele quando quiser
+      </p>
     </div>
   );
 }

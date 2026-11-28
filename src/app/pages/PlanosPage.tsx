@@ -8,6 +8,7 @@ import { Badge, Button, Card, PageHeader } from '../ui';
 
 const LINHAS: [string, string | boolean, string | boolean][] = [
   ['Estações de OSCE em 3D', '2 por sistema', 'Todas (230)'],
+  ['Trilha OSCE com domínio e revisão', 'Parcial', 'Completa'],
   ['Prova OSCE completa e circuitos', false, true],
   ['Casos clínicos vivos', '2 casos', 'Todos'],
   ['Plantão de triagem e procedimentos', 'Oxigenoterapia', 'Todos'],
@@ -81,7 +82,7 @@ export default function PlanosPage() {
           <Card className="border-accent p-5">
             <p className="flex items-center gap-1.5 text-[14px] font-semibold text-accent"><Crown className="size-4" /> Premium</p>
             <p className="mt-1 text-[28px] font-semibold">{precoBRL(a.preco)}<span className="text-[14px] font-normal text-ink-3">/mês</span></p>
-            <p className="text-[13px] text-ink-3">Renovação automática, cancele quando quiser.</p>
+            <p className="text-[13px] text-ink-3">{a.diasTeste ? `${a.diasTeste} dias grátis na primeira assinatura. ` : ''}Renovação automática, cancele quando quiser.</p>
             {a.vendas && <BotaoAssinar className="mt-4" />}
             {a.status === 'pending' && <p className="mt-2 text-[12px] text-ink-3">Há uma assinatura aguardando pagamento. <button type="button" className="font-semibold text-accent" onClick={() => carregarAssinatura(true)}>Verificar agora</button></p>}
           </Card>

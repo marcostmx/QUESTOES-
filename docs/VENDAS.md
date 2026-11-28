@@ -39,6 +39,7 @@ O aluno pode cancelar na própria página Premium.
    - `MP_ACCESS_TOKEN`: token do passo 1 (secret).
    - `MP_WEBHOOK_SECRET`: assinatura secreta do passo 2 (secret).
    - `PRECO_MENSAL`: por exemplo `29.90`.
+   - `DIAS_TESTE`: dias grátis na primeira assinatura (padrão 7; `0` desliga).
    - `APP_URL`: endereço público do app, sem barra no fim.
    - `ADMIN_EMAILS`: e-mails com Premium liberado (o seu), separados por vírgula.
 4. **Permissão no Firestore:** a conta de serviço do Cloud Run precisa do papel *Cloud Datastore User* no projeto do Firebase. Se o Cloud Run estiver no mesmo projeto, isso já vale.

@@ -21,6 +21,8 @@ import firebaseConfig from '../firebase-applet-config.json';
 const MP = 'https://api.mercadopago.com';
 const env = (k: string) => process.env[k]?.trim() || '';
 export const preco = () => Number(env('PRECO_MENSAL') || '29.90');
+/** dias de teste grátis na primeira assinatura de cada conta (0 desliga) */
+export const diasTeste = () => Number(env('DIAS_TESTE') || '7');
 const vendasAtivas = () => !!env('MP_ACCESS_TOKEN');
 
 type Status = 'pending' | 'authorized' | 'paused' | 'cancelled' | 'nenhuma';
@@ -31,7 +33,12 @@ export interface Assinatura {
   proximaCobranca?: string | null;
   valor?: number;
   atualizadoEm?: string;
+  /** já usou o teste grátis (uma vez por conta) */
+  teveTeste?: boolean;
 }
+
+/** Teste grátis só para quem nunca assinou. */
+export const elegivelTeste = (a: Assinatura | undefined) => diasTeste() > 0 && !a?.teveTeste && !a?.mpId;
 
 /* ---------- Firebase Admin (carregado sob demanda) ---------- */
 let adminP: Promise<{ auth: import('firebase-admin/auth').Auth; db: import('firebase-admin/firestore').Firestore }> | null = null;
@@ -125,15 +132,15 @@ export function rotasAssinatura() {
 
   // estado do usuário (sync=1 força consulta ao Mercado Pago, usado na volta do checkout)
   r.get('/api/assinatura', async (req: Request, res: Response) => {
-    if (!vendasAtivas()) return res.json({ vendas: false, premium: true, status: 'nenhuma', preco: preco() });
+    if (!vendasAtivas()) return res.json({ vendas: false, premium: true, status: 'nenhuma', preco: preco(), diasTeste: diasTeste() });
     const u = await usuario(req);
-    if (!u) return res.json({ vendas: true, premium: false, status: 'nenhuma', preco: preco(), logado: false });
+    if (!u) return res.json({ vendas: true, premium: false, status: 'nenhuma', preco: preco(), diasTeste: diasTeste(), logado: false });
     if (ehAdmin(u.email)) return res.json({ vendas: true, premium: true, status: 'authorized', admin: true, preco: preco(), logado: true });
     try {
       const { db } = await admin();
       let a = (await db.collection('assinaturas').doc(u.uid).get()).data() as Assinatura | undefined;
       if (req.query.sync === '1' || !a) a = (await sincronizar(u.uid)) ?? a;
-      res.json({ vendas: true, logado: true, preco: preco(), ...(a ?? { status: 'nenhuma', premium: false }) });
+      res.json({ vendas: true, logado: true, preco: preco(), diasTeste: elegivelTeste(a) ? diasTeste() : 0, ...(a ?? { status: 'nenhuma', premium: false }) });
     } catch (e) {
       console.error('assinatura', e);
       res.status(502).json({ erro: 'Não foi possível consultar a assinatura agora.' });
@@ -147,6 +154,11 @@ export function rotasAssinatura() {
     if (!u) return res.status(401).json({ erro: 'Entre com sua conta Google para assinar.' });
     const base = env('APP_URL') || `${req.protocol}://${req.get('host')}`;
     try {
+      const { db } = await admin();
+      const ref = db.collection('assinaturas').doc(u.uid);
+      let atual = (await ref.get()).data() as Assinatura | undefined;
+      if (!atual) atual = (await sincronizar(u.uid)) ?? undefined; // assinou antes por outro caminho?
+      const teste = elegivelTeste(atual);
       const p = await mp<Preapproval>('/preapproval', {
         method: 'POST',
         body: JSON.stringify({
@@ -155,9 +167,16 @@ export function rotasAssinatura() {
           payer_email: u.email,
           back_url: `${base}/#/planos?retorno=1`,
           status: 'pending',
-          auto_recurring: { frequency: 1, frequency_type: 'months', transaction_amount: preco(), currency_id: 'BRL' },
+          auto_recurring: {
+            frequency: 1,
+            frequency_type: 'months',
+            transaction_amount: preco(),
+            currency_id: 'BRL',
+            ...(teste ? { free_trial: { frequency: diasTeste(), frequency_type: 'days' } } : {}),
+          },
         }),
       });
+      if (teste) await ref.set({ teveTeste: true }, { merge: true });
       res.json({ url: p.init_point });
     } catch (e) {
       console.error('criar assinatura', e);
