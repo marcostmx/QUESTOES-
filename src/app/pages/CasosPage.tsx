@@ -9,7 +9,7 @@ import { Badge, Card, cx, PageHeader, Section } from '../ui';
 const EM_BREVE: Record<string, string[]> = {
   cardiovascular: [],
   respiratorio: [],
-  abdome: ['Obstrução intestinal'],
+  abdome: [],
   neurologico: ['AVC isquêmico na janela', 'Estado de mal epiléptico'],
   renal: ['Cetoacidose diabética', 'Hipercalemia'],
   trauma: ['Trauma pelo ABCDE', 'Anafilaxia'],
