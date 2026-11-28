@@ -3,7 +3,7 @@ import { PageHeader } from '../ui';
 import { href } from '../router';
 
 /** Dados do controlador: preencher com nome/razão social, CPF/CNPJ e e-mail de contato. */
-export const RESPONSAVEL = { nome: '[nome ou razão social]', documento: '[CPF ou CNPJ]', contato: '[e-mail de contato]' };
+export const RESPONSAVEL = { nome: '[razão social]', documento: 'CNPJ [preencher]', contato: '[e-mail de contato]' };
 const ATUALIZADO = '28/11/2026';
 
 const H = ({ children }: { children: string }) => <h2 className="mt-7 mb-2 text-[17px] font-semibold text-ink">{children}</h2>;

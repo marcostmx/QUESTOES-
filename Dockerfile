@@ -12,5 +12,8 @@ ENV NODE_ENV=production
 COPY package*.json ./
 RUN npm ci --omit=dev
 COPY --from=build /app/dist ./dist
+# conteúdo protegido (servido pela API conforme o plano; fora da pasta de estáticos)
+COPY --from=build /app/src/data/questions ./src/data/questions
+COPY --from=build /app/src/data/osce ./src/data/osce
 EXPOSE 8080
 CMD ["node", "dist/server.cjs"]

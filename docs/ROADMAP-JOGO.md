@@ -32,8 +32,8 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 
 ### P. Produto e vendas
 - [x] P1 · Assinatura mensal (Mercado Pago) com 7 dias grátis na primeira assinatura, plano grátis × Premium, página de planos, cadeados nas listas e bloqueio nas rotas.
-- [ ] P2 · Proteger o conteúdo Premium: servir estações, questões e casos Premium pelo servidor só para assinantes (hoje vão no pacote JS e dá para extrair).
-- [ ] P3 · Página de vendas pública (o que tem, como funciona, preço, perguntas frequentes; sem depoimentos inventados) + termos de uso, política de privacidade (LGPD) e aviso educacional.
+- [~] P2 · Proteger o conteúdo Premium. Feito: questões saem do pacote e vêm de /api/conteudo (Premium: tudo; grátis: amostra de ~20% das inéditas; provas anteriores só Premium), com cache offline. Falta: estações de OSCE pelo servidor (índice público + detalhe protegido).
+- [x] P3 · Página de vendas (#/conheca), termos e privacidade prontos para CNPJ (falta preencher razão social, CNPJ e contato em LegalPage.tsx).
 - [ ] P4 · Painel do administrador: assinantes ativos, receita do mês, cancelamentos, conversão do grátis.
 
 ### O. OSCE (núcleo do produto)

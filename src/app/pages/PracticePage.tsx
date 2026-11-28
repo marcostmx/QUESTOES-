@@ -1,3 +1,4 @@
+import { Lock } from 'lucide-react';
 import { useMemo, useState } from 'react';
 import { ArrowLeft, ArrowRight, Layers, Play, Shuffle } from 'lucide-react';
 import { isObjective, type QuestionKind, type QuestionOrigin, type SubjectId } from '../../data/schema';
@@ -79,6 +80,12 @@ function SubjectPicker() {
                     {att > 0 && <span>{Math.round((cor / att) * 100)}% de acerto</span>}
                   </div>
                   <Bar value={qs.length ? answered / qs.length : 0} color={s.color} />
+                  {bank.travadas[s.id] && (
+                    <p className="mt-2 flex items-center gap-1 text-[12px] font-semibold text-accent">
+                      <Lock className="size-3" /> +{bank.travadas[s.id]!.total} no Premium
+                      {bank.travadas[s.id]!.provas > 0 && ` · ${bank.travadas[s.id]!.provas} de provas anteriores`}
+                    </p>
+                  )}
                 </div>
               </Card>
             </a>
@@ -116,6 +123,14 @@ function toggle<T>(list: T[], v: T): T[] {
 /** Recria o formulário ao trocar de prova (temas e contagens mudam). */
 function BuilderForExam({ subject, subjects }: { subject: string; subjects: SubjectId[] }) {
   const bank = useBank();
+  if (bank.ready && subjects.length === 1 && !bank.bySubject[subjects[0]].length && bank.travadas[subjects[0]]) {
+    const meta = subjectMeta(subjects[0]);
+    return (
+      <Empty icon={<Lock className="size-5" />} title={`As questões de ${meta?.name ?? 'esta disciplina'} são Premium`} action={<Button variant="primary" to="planos">Ver o Premium</Button>}>
+        São {bank.travadas[subjects[0]]!.total} questões, incluindo as de provas anteriores. Assine para liberar o banco completo.
+      </Empty>
+    );
+  }
   if (bank.ready && subjects.length === 1 && !bank.bySubject[subjects[0]].length) {
     const meta = subjectMeta(subjects[0]);
     return (

@@ -5,10 +5,38 @@
 import { useEffect, useMemo, useSyncExternalStore } from 'react';
 import { CURRENT_EXAM, EXAMS, SUBJECTS, type ExamId, type Question, type SubjectId } from '../../data/schema';
 import { usePrefs } from './store';
+import { idToken } from './sync';
 
-const files = import.meta.glob<Question[]>('../../data/questions/*/*.json', { import: 'default' });
+/*
+ * As questões não vão mais no pacote do app: vêm de /api/conteudo conforme o plano (Premium recebe o banco
+ * todo; o grátis, a amostra de inéditas). Cada resposta fica guardada no Cache do navegador para uso offline.
+ */
+const CACHE = 'conteudo-v1';
+interface ItemIndice { arquivo: string; total: number; liberadas: number; provas: number }
+interface Indice { premium: boolean; indice: Record<string, ItemIndice[]> }
 
-const filesOf = (exam: ExamId) => Object.entries(files).filter(([path]) => path.split('/').at(-2) === exam.toLowerCase());
+async function obter<T>(url: string): Promise<T> {
+  const tok = await idToken();
+  try {
+    const r = await fetch(url, { headers: tok ? { Authorization: `Bearer ${tok}` } : {}, cache: 'no-store' });
+    if (!r.ok || !(r.headers.get('content-type') ?? '').includes('json')) throw new Error(`conteúdo ${r.status}`);
+    const copia = r.clone();
+    if ('caches' in window) void caches.open(CACHE).then(c => c.put(url, copia)).catch(() => undefined);
+    return (await r.json()) as T;
+  } catch (e) {
+    const hit = 'caches' in window ? await caches.open(CACHE).then(c => c.match(url)).catch(() => undefined) : undefined;
+    if (hit) return (await hit.json()) as T;
+    throw e;
+  }
+}
+
+let indiceP: Promise<Indice> | null = null;
+let indiceAtual: Indice | null = null;
+const obterIndice = () => {
+  indiceP ??= obter<Indice>('/api/conteudo/indice').then(i => (indiceAtual = i));
+  indiceP.catch(() => (indiceP = null));
+  return indiceP;
+};
 
 export interface Bank {
   ready: boolean;
@@ -20,6 +48,8 @@ export interface Bank {
   subjects: SubjectId[];
   /** Todas as questões já carregadas, de qualquer prova. */
   byId: Map<string, Question>;
+  /** Questões que existem mas só o Premium recebe, por disciplina (e quantas são de provas). */
+  travadas: Partial<Record<SubjectId, { total: number; provas: number }>>;
 }
 
 const loaded = new Map<ExamId, Question[]>();
@@ -31,15 +61,17 @@ const listeners = new Set<() => void>();
 export function loadExam(exam: ExamId): Promise<Question[]> {
   let p = loading.get(exam);
   if (!p) {
-    p = Promise.all(filesOf(exam).map(([, load]) => load())).then(lists => {
-      // ordem estável: a das disciplinas em SUBJECTS
-      const all = lists.flat().sort((a, b) => SUBJECTS.findIndex(s => s.id === a.subject) - SUBJECTS.findIndex(s => s.id === b.subject));
-      loaded.set(exam, all);
-      all.forEach(q => byId.set(q.id, q));
-      version++;
-      listeners.forEach(l => l());
-      return all;
-    });
+    p = obterIndice()
+      .then(ind => Promise.all((ind.indice[exam.toLowerCase()] ?? []).map(f => obter<Question[]>(`/api/conteudo/questoes/${exam.toLowerCase()}/${f.arquivo}`))))
+      .then(lists => {
+        // ordem estável: a das disciplinas em SUBJECTS
+        const all = lists.flat().sort((a, b) => SUBJECTS.findIndex(s => s.id === a.subject) - SUBJECTS.findIndex(s => s.id === b.subject));
+        loaded.set(exam, all);
+        all.forEach(q => byId.set(q.id, q));
+        version++;
+        listeners.forEach(l => l());
+        return all;
+      });
     p.catch(() => loading.delete(exam));
     loading.set(exam, p);
   }
@@ -48,8 +80,17 @@ export function loadExam(exam: ExamId): Promise<Question[]> {
 
 export const loadAllExams = () => Promise.all(EXAMS.map(e => loadExam(e.id)));
 
-/** Número de questões por prova (disponível sem baixar o conteúdo). */
-export const examFileCount = (exam: ExamId) => filesOf(exam).length;
+/** Recarrega o banco (login, logout ou mudança de plano): o servidor devolve o conteúdo do novo plano. */
+export function recarregarBanco() {
+  const abertas = [...loaded.keys()];
+  indiceP = null;
+  loading.clear();
+  loaded.clear();
+  byId.clear();
+  version++;
+  listeners.forEach(l => l());
+  abertas.forEach(e => void loadExam(e));
+}
 
 const cache = new Map<string, Bank>();
 function snapshot(exam: ExamId): Bank {
@@ -59,7 +100,12 @@ function snapshot(exam: ExamId): Bank {
     const all = loaded.get(exam) ?? [];
     const bySubject = Object.fromEntries(SUBJECTS.map(s => [s.id, [] as Question[]])) as unknown as Record<SubjectId, Question[]>;
     all.forEach(q => bySubject[q.subject].push(q));
-    b = { ready: loaded.has(exam), exam, all, bySubject, subjects: SUBJECTS.map(s => s.id).filter(id => bySubject[id].length), byId };
+    const travadas: Bank['travadas'] = {};
+    for (const f of indiceAtual?.indice[exam.toLowerCase()] ?? []) {
+      const t = f.total - f.liberadas;
+      if (t > 0) travadas[f.arquivo as SubjectId] = { total: t, provas: indiceAtual?.premium ? 0 : f.provas };
+    }
+    b = { ready: loaded.has(exam), exam, all, bySubject, subjects: SUBJECTS.map(s => s.id).filter(id => bySubject[id].length || travadas[id]), byId, travadas };
     cache.set(key, b);
   }
   return b;

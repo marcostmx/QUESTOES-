@@ -5,6 +5,7 @@
 import express from 'express';
 import path from 'path';
 import { rotasAssinatura } from './server/assinatura';
+import { rotasConteudo } from './server/conteudo';
 
 async function startServer() {
   const app = express();
@@ -12,6 +13,7 @@ async function startServer() {
 
   app.set('trust proxy', true);
   app.use(rotasAssinatura());
+  app.use(rotasConteudo());
 
   app.get('/api/health', (_req, res) => {
     res.json({ status: 'ok' });

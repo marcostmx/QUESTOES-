@@ -1,7 +1,7 @@
 /**
  * O que é grátis e o que é Premium. Regras puras (testáveis); a verificação do plano vem de assinatura.ts.
  * Grátis: 2 estações de OSCE por sistema, 2 casos vivos, 1 procedimento, RCP, ECG/gaso/RX de treino e
- * 20 questões por dia. Premium: tudo (OSCE completo, prova OSCE simulada, circuito, plantões, casos,
+ * amostra de questões inéditas (filtrada no servidor, src/data/amostra.ts) com 20 por dia. Premium: tudo (OSCE completo, prova OSCE simulada, circuito, plantões, casos,
  * procedimentos, questões ilimitadas e simulados).
  */
 import data from '../../data/osce/stations.json';
