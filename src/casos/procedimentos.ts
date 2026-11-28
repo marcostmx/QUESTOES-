@@ -12,6 +12,8 @@ export interface Etapa {
 }
 export interface Procedimento {
   id: string;
+  /** procedimento (padrão) ou interpretação de exames */
+  tipo?: 'procedimento' | 'exame';
   sistema: 'cardiovascular' | 'respiratorio' | 'abdome' | 'neurologico' | 'renal' | 'trauma';
   titulo: string;
   contexto: string;
@@ -257,6 +259,93 @@ export const PROCEDIMENTOS: Procedimento[] = [
           { texto: 'Não há mínimo: ajustar pela SpO₂', porque: 'Há mínimo: abaixo de 5 L/min ocorre reinalação.' },
         ],
         explicacao: 'Máscara simples: 5–10 L/min, FiO₂ ~40–60%.',
+      },
+    ],
+  },
+  {
+    id: 'exames-abdome', tipo: 'exame', sistema: 'abdome', titulo: 'Exames do abdome: laboratório e radiografia',
+    contexto: 'Dez resultados de pacientes com queixas abdominais. Interprete cada um.',
+    fonte: 'AASLD/EASL; ACG; manuais de radiologia de abdome agudo',
+    etapas: [
+      {
+        pergunta: 'TGO 980, TGP 1.420, FA 180 (LSN 120), bilirrubina 2,1. Qual o padrão?', certa: 'Hepatocelular (aminotransferases > 10× com FA pouco alterada)',
+        erradas: [
+          { texto: 'Colestático', porque: 'No colestático predominam FA e GGT; aqui as aminotransferases dominam (relação R > 5).' },
+          { texto: 'Hemolítico', porque: 'Hemólise eleva bilirrubina indireta, com aminotransferases normais.' },
+        ],
+        explicacao: 'Aminotransferases > 1.000: hepatite viral aguda, isquêmica ou tóxica (paracetamol).',
+      },
+      {
+        pergunta: 'FA 620, GGT 540, bilirrubina direta 8,2, TGO/TGP 2× o normal. Próximo exame?', certa: 'Ultrassom para procurar dilatação de vias biliares',
+        erradas: [
+          { texto: 'Sorologias de hepatite antes de tudo', porque: 'Padrão colestático: primeiro definir se há obstrução biliar (ultrassom).' },
+          { texto: 'Biópsia hepática', porque: 'Invasiva e não é o primeiro passo na colestase.' },
+        ],
+        explicacao: 'Com dilatação: causa extra-hepática (cálculo, tumor). Sem dilatação: intra-hepática.',
+      },
+      {
+        pergunta: 'TGO 210, TGP 90, GGT 480, VCM 104. Causa mais provável?', certa: 'Doença hepática alcoólica',
+        erradas: [
+          { texto: 'Hepatite viral aguda', porque: 'Na hepatite viral, TGP > TGO e valores bem mais altos.' },
+          { texto: 'Esteatose metabólica (MASLD)', porque: 'Na esteatose metabólica geralmente TGP ≥ TGO; relação TGO/TGP > 2 sugere álcool.' },
+        ],
+        explicacao: 'TGO/TGP > 2, GGT alta e macrocitose: álcool.',
+      },
+      {
+        pergunta: 'Cirrótico com ascite e febre. Líquido: GASA 1,6; polimorfonucleares 380/mm³. Conduta?', certa: 'Peritonite bacteriana espontânea: cefalosporina de 3ª geração + albumina',
+        erradas: [
+          { texto: 'Aguardar a cultura do líquido para tratar', porque: 'PMN ≥ 250/mm³ já basta para tratar; a cultura demora e pode vir negativa.' },
+          { texto: 'Laparotomia exploradora', porque: 'PBE é tratada clinicamente; pensar em peritonite secundária só com sinais de perfuração.' },
+        ],
+        explicacao: 'GASA ≥ 1,1 = hipertensão portal. Albumina no 1º e 3º dia reduz a síndrome hepatorrenal.',
+      },
+      {
+        pergunta: 'Bilirrubina 2,6; albumina 2,8; INR 1,9; ascite moderada; encefalopatia grau 1. Classe de Child-Pugh?', certa: 'Child C (10 pontos)',
+        erradas: [
+          { texto: 'Child A (6 pontos)', porque: 'Cada parâmetro alterado soma 2 aqui: 2 + 2 + 2 + 2 + 2 = 10.' },
+          { texto: 'Child B (8 pontos)', porque: 'Some de novo: bilirrubina 2–3 (2), albumina 2,8–3,5 (2), INR 1,7–2,3 (2), ascite moderada (2), encefalopatia 1–2 (2) = 10.' },
+        ],
+        explicacao: 'A: 5–6; B: 7–9; C: 10–15.',
+      },
+      {
+        pergunta: 'Dor epigástrica há 4 dias; amilase normal, lipase 5× o normal. Interpretação?', certa: 'Compatível com pancreatite: a lipase é mais específica e fica elevada por mais tempo',
+        erradas: [
+          { texto: 'Afasta pancreatite, porque a amilase está normal', porque: 'A amilase normaliza em 3–5 dias; a lipase persiste por mais tempo.' },
+          { texto: 'Indica obrigatoriamente TC com contraste', porque: 'Dor típica + lipase > 3× já fecham o diagnóstico.' },
+        ],
+        explicacao: 'O grau de elevação da lipase não indica gravidade.',
+      },
+      {
+        pergunta: 'Jovem com icterícia leve após jejum; bilirrubina indireta 2,8; enzimas e hemograma normais. Hipótese?', certa: 'Síndrome de Gilbert',
+        erradas: [
+          { texto: 'Hepatite aguda', porque: 'Hepatite eleva aminotransferases e bilirrubina direta.' },
+          { texto: 'Coledocolitíase', porque: 'Coledocolitíase eleva bilirrubina direta, FA e GGT.' },
+        ],
+        explicacao: 'Benigno: piora com jejum, estresse e infecção. Não precisa de tratamento.',
+      },
+      {
+        pergunta: 'Melena com ureia 112 e creatinina 1,0. O que explica a ureia tão alta?', certa: 'Absorção de sangue digerido no intestino (sugere sangramento alto)',
+        erradas: [
+          { texto: 'Insuficiência renal aguda grave', porque: 'Com creatinina normal, relação ureia/creatinina muito alta indica sangue no tubo digestivo ou desidratação.' },
+          { texto: 'Erro de laboratório', porque: 'É um achado esperado na HDA.' },
+        ],
+        explicacao: 'Relação ureia/creatinina elevada favorece hemorragia digestiva alta.',
+      },
+      {
+        pergunta: 'RX de abdome em pé: ar sob a cúpula diafragmática direita. Diagnóstico e conduta?', certa: 'Pneumoperitônio por perfuração de víscera oca: cirurgia de urgência',
+        erradas: [
+          { texto: 'Bolha gástrica normal', porque: 'A bolha gástrica fica sob a cúpula ESQUERDA.' },
+          { texto: 'Obstrução intestinal: sonda e observação', porque: 'Ar livre na cavidade indica perfuração, não obstrução.' },
+        ],
+        explicacao: 'No RX deitado, o sinal de Rigler (as duas faces da parede da alça visíveis) também indica pneumoperitônio.',
+      },
+      {
+        pergunta: 'Idoso com distensão maciça; RX com alça colônica enorme em "U invertido" ("grão de café") apontando para a pelve. Diagnóstico e primeira conduta?', certa: 'Volvo de sigmoide: descompressão endoscópica (retossigmoidoscopia), se não houver sinais de isquemia',
+        erradas: [
+          { texto: 'Obstrução de delgado por bridas', porque: 'Delgado tem alças centrais com pregas coniventes; aqui é o cólon (sigmoide).' },
+          { texto: 'Megacólon tóxico: corticoide', porque: 'Megacólon tóxico ocorre na colite (retocolite, C. difficile), com dilatação do transverso.' },
+        ],
+        explicacao: 'Após a descompressão, sigmoidectomia eletiva pela alta recorrência; com isquemia, cirurgia.',
       },
     ],
   },

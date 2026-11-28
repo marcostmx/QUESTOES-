@@ -51,12 +51,12 @@ function Jogo({ id, onRefazer }: { id: string; onRefazer: () => void }) {
           <div className="mb-6 flex items-center gap-5">
             <Ring value={ex.nota} size={92} stroke={8} color={cor}><span className="font-display text-[26px] font-semibold">{ex.nota}</span></Ring>
             <div>
-              <p className="text-[12px] font-medium text-ink-3 uppercase">Procedimento concluído</p>
+              <p className="text-[12px] font-medium text-ink-3 uppercase">{p.tipo === 'exame' ? 'Interpretação concluída' : 'Procedimento concluído'}</p>
               <h1 className="font-display text-[24px] font-semibold">{p.titulo}</h1>
               <span className="mt-1 inline-block rounded-md bg-good-soft px-2 py-0.5 text-[12px] font-semibold text-good">+{xpCaso({ nota: ex.nota })} XP</span>
             </div>
           </div>
-          <h2 className="mb-2 text-[15px] font-semibold">Sequência correta</h2>
+          <h2 className="mb-2 text-[15px] font-semibold">{p.tipo === 'exame' ? 'Respostas corretas' : 'Sequência correta'}</h2>
           <Card className="mb-6 divide-y divide-line">
             {p.etapas.map((e, k) => {
               const erros = ex.erros.filter(x => x.etapa === k);
