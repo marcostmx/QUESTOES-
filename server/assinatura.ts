@@ -104,7 +104,7 @@ export async function usuario(req: Request) {
   try {
     const { auth } = await admin();
     const u = await auth.verifyIdToken(tok);
-    return { uid: u.uid, email: (u.email ?? '').toLowerCase() };
+    return { uid: u.uid, email: (u.email ?? '').toLowerCase(), nome: String(u.name ?? '').split(' ')[0] || 'Colega' };
   } catch {
     return null;
   }

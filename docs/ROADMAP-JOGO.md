@@ -40,7 +40,7 @@ Os itens desta seção vêm antes dos sistemas do jogo abaixo. Configuração de
 - [x] O1 · Trilha OSCE do 4º período: 10 módulos do básico ao complexo, domínio (duas notas ≥ 70%), revisão espaçada após 14 dias, próxima estação recomendada, data da prova com ritmo diário, cartão na Home.
 - [ ] O2 · OSCE abdome agudo: completar as lacunas (antigo 3E).
 - [ ] O3 · Neurológico: revisar e polir as 79 estações (antigo 4E).
-- [ ] O6 · Treino em dupla com dois celulares conectados por código de sala: o examinando vê só o enunciado e o cronômetro; o avaliador vê caso, achados e checklist, marca os itens e a nota sai para os dois.
+- [x] O6 · Treino em dupla (#/dupla): sala com código de 5 letras no Firestore (salas/{codigo}, só o servidor acessa), dois celulares sincronizados a cada segundo; avaliador escolhe a estação, controla leitura (1 min) e estação (5 min), revela achados e marca o checklist (feito/parcial/não feito); examinando vê enunciado, cronômetro e achados revelados, e no fim a nota e a correção item a item (entra no histórico e na trilha). Troca de papéis entre estações.
 - [ ] O5 · Relatório de desempenho OSCE por competência (exame físico, comunicação, raciocínio) e evolução no tempo.
 - [ ] O4 · Estações de comunicação e anamnese com roteiro de paciente-ator e correção por item.
 
@@ -166,6 +166,7 @@ Legenda: `[ ]` a fazer · `[~]` em andamento · `[x]` pronto.
 - 2026-11-28 · 3B: interpretação de exames do abdome (laboratório e radiografia).
 - 2026-11-28 · 3C: procedimentos de sondagem nasogástrica e paracentese.
 - 2026-11-28 · Jogo 3D: os casos vivos passam a acontecer numa sala de emergência 3D interativa.
+- 2026-11-28 · Treino em dupla com dois celulares e código de sala.
 - 2026-11-28 · Flashcards gerados dos erros (questões e OSCE) com repetição espaçada.
 - 2026-11-28 · Painel do administrador com assinantes, receita, cancelamentos e conversão.
 - 2026-11-28 · Conteúdo protegido: questões e estações de OSCE vêm do servidor conforme o plano; página de vendas, termos e privacidade.

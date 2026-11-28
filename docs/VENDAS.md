@@ -48,6 +48,10 @@ O aluno pode cancelar na própria página Premium.
    - confira o documento em `assinaturas/{uid}`;
    - cancele pela página Premium.
 
+## Treino em dupla
+
+As salas ficam em Firestore `salas/{codigo}` (expiram em 4 horas) e só o servidor lê e escreve nelas. Exige login dos dois participantes; estações Premium só podem ser escolhidas por assinante.
+
 ## Antes de vender
 
 - Termos de uso e política de privacidade (LGPD): estão no roteiro, item P3.

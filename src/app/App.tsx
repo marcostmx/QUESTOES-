@@ -21,6 +21,7 @@ const ConhecaPage = lazy(() => import('./pages/ConhecaPage'));
 const LegalPage = lazy(() => import('./pages/LegalPage'));
 const AdminPage = lazy(() => import('./pages/AdminPage'));
 const FlashcardsPage = lazy(() => import('./pages/FlashcardsPage'));
+const DuplaPage = lazy(() => import('./pages/DuplaPage'));
 const PracticePage = lazy(() => import('./pages/PracticePage'));
 const SessionPage = lazy(() => import('./pages/SessionPage'));
 const ExamPage = lazy(() => import('./pages/ExamPage'));
@@ -327,6 +328,7 @@ function page(parts: string[]): ReactNode {
     case 'planos': return <PlanosPage />;
     case 'admin': return <AdminPage />;
     case 'flashcards': return <FlashcardsPage />;
+    case 'dupla': return <DuplaPage codigo={arg} />;
     case 'termos': return <LegalPage tipo="termos" />;
     case 'privacidade': return <LegalPage tipo="privacidade" />;
     case 'osce': return <OscePage />;
